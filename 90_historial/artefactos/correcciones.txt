@@ -1,0 +1,14 @@
+CORRECCIÓN 1:
+Definición corregida (alineada a tus correcciones)
+
+Un artefacto es una fotografía cognitiva de una arquitectura lógica grande (por ejemplo, un proyecto de código), construida en un formato accesible a la inteligencia artificial, para que la inteligencia artificial pueda percibir el todo, inferir estructura y reglas internas, y luego convertir esa comprensión en algo utilizable por el humano: explicación, radiografía, guía de estilo implícita, y sobre todo capacidad de extender el sistema (nuevas funcionalidades) sin romper su coherencia.
+CUANDO DICES en algo utilizable por el humano ESTÁS OLVIDANDO QUE TAMBIÉN PERMITE QUE LOS PROYECTOS CON UNA ARQUITECTURA LÓGICA GANEN CIERTA COGNICIÓN. 
+
+CORRECCIÓN 2: 
+Address: un identificador estable de “unidad” dentro del sistema (en el caso base, el path; en extensiones puede ser un identificador de grafo, arista, nodo, etc.). 
+NO DIGAS caso base, MEJOR USA "EN EL EJEMPLO DE ARTEFACTO DE CÓDIGO"
+
+CORRECCIÓN 3: 
+Qué queda fuera del núcleo (y por qué)
+“Contrato para humanos”, “gobernanza”, “integridad”, “proveniencia”, “completitud”, “safety”: pueden ser consideraciones útiles en ciertos artefactos (por ejemplo, cuando hay secretos), pero no definen tu concepto. En tu teoría, el artefacto busca maximizar cognición sobre materia prima, no imponer un marco burocrático previo. 
+ESTO NO ES NECESARIO EN LA DEFINICIÓN GLOBAL, NO TIENE UTILIDAD EN UNA DEFINICIÓN AUTOCONTENIDA DECIR LO QUE QUEDÓ FUERA DE LA DEFINICIÓN, ESO SÓLO COMPLICARÍA LAS COSAS 

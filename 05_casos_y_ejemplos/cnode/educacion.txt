@@ -1,0 +1,390 @@
+TÍTULO
+Ejemplo estructurado (autosuficiente): “Educación personalizada” como realización contextual de conocimiento formal y como Cognitive Node (cNode)
+
+VERSIÓN
+0.1.0 (borrador operativo)
+
+ESTATUS
+En desarrollo (modelo conceptual; listo para iteración y refinamiento)
+
+AUDIENCIA
+Personas que necesitan comprender y reutilizar este ejemplo sin contexto previo de proyectos externos.
+
+PROPÓSITO
+Describir, con una estructura explícita, cómo modelar la enseñanza de un concepto formal (por ejemplo, “vector” en álgebra lineal) como un sistema con:
+- Un objetivo primario estable (la finalidad que define identidad).
+- Un núcleo invariante (el concepto formal y su estructura lógica).
+- Invariantes didácticas (rigor mínimo preservado y uso correcto).
+- Contextos diferenciados de aprendizaje (estudiantes con variación relevante).
+- Un dominio de variación permitido (formas de explicación sin pérdida de identidad).
+- Intervenciones didácticas (secuencias de enseñanza adaptadas al alumno).
+- Manifestaciones (clases concretas) y artefactos (ejercicios, evaluaciones, apuntes) como evidencia.
+
+NOTA SOBRE ACRÓNIMOS Y TÉRMINOS
+- American Standard Code for Information Interchange (ASCII): sistema de caracteres; aquí se usa para dibujar diagramas con texto.
+- Cognitive Node (cNode): “nodo cognitivo”; entidad conceptual que conserva estructura (no solo texto) y que puede integrarse a un grafo mediante relaciones explícitas.
+- Estructura Base de Definición Conceptual (EBDC): plantilla general para describir conceptos mediante identidad, invariantes, componentes internos, dominios de variación, manifestaciones y artefactos.
+- Aprendiz: humano que aprende (estudiante).
+- Intervención didáctica: ejecución concreta (explicación o secuencia) adaptada al aprendiz y a su contexto.
+- Dominio de variación: dimensiones donde el sistema permite cambios sin perder identidad.
+- Comprensión operativa: capacidad de usar el concepto correctamente en tareas y situaciones, no solo repetir definiciones.
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES MÍNIMAS (AUTO-CONTENIDAS)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Enseñanza de un concepto formal (en este documento)
+Proceso intencional para conducir a un aprendiz a la comprensión operativa de un concepto definido formalmente, preservando su rigor, su estructura lógica y sus condiciones de uso correcto.
+
+1.2 Objetivo primario
+Finalidad que define identidad del sistema.
+Regla: si el objetivo primario cambia (por ejemplo, “entretener” en lugar de “formar comprensión operativa”), el sistema deja de ser el mismo.
+
+1.3 Núcleo invariante (conocimiento formal)
+Conjunto mínimo de contenido y estructura que debe preservarse para que siga siendo el mismo concepto:
+- Definición formal.
+- Propiedades.
+- Relaciones con otros conceptos.
+- Condiciones de aplicación correcta.
+
+1.4 Invariantes
+Condiciones necesarias: si se eliminan, la enseñanza deja de corresponder al concepto o deja de ser enseñanza rigurosa.
+Regla práctica (“prueba de sustracción”): “Si se quita X y el sistema sigue siendo ‘la misma enseñanza del mismo concepto’, entonces X no era invariante”.
+
+1.5 Componentes internos
+Elementos que pueden variar sin destruir identidad:
+- Orden de presentación.
+- Ejemplos.
+- Analogías.
+- Representaciones (simbólicas, gráficas, narrativas).
+- Ritmo y densidad explicativa.
+- Tipo de ejercicios.
+
+1.6 Contexto de distribución vs contexto de ejecución (aplicación didáctica)
+- Contexto de distribución: el canal o modalidad de enseñanza (clase grupal, tutoría individual, texto escrito, sesión remota).
+- Contexto de ejecución: el aprendiz concreto con su situación local (conocimientos previos, ritmo, motivación, barreras, tiempo disponible).
+
+1.7 Manifestación
+Instancia concreta del sistema: una clase específica, una tutoría, una explicación personalizada.
+Regla: múltiples manifestaciones pueden compartir el mismo núcleo invariante.
+
+1.8 Artefacto
+Evidencia material de una manifestación: ejercicios resueltos, evaluaciones, apuntes, mapas conceptuales, retroalimentación escrita.
+Regla: el artefacto no es el concepto; es evidencia del proceso de enseñanza-aprendizaje.
+
+──────────────────────────────────────────────────────────────────────────────
+2) ESCENARIO BASE DEL EJEMPLO (EDUCACIÓN PERSONALIZADA)
+──────────────────────────────────────────────────────────────────────────────
+
+Entidades mínimas:
+- Docente: humano que enseña (puede ser tutor, profesor, mentor).
+- Aprendiz: humano que aprende.
+- Concepto formal: un objeto de conocimiento definido con rigor (ejemplo: “vector”).
+- Ambiente didáctico: contexto de distribución (aula, tutoría, remoto, texto).
+
+Situación:
+El docente busca que el aprendiz logre comprensión operativa de un concepto formal.
+El concepto (núcleo) no cambia entre aprendices, pero la intervención (explicación y secuencia didáctica) se adapta a:
+- Modalidad/canal (distribución).
+- Perfil del aprendiz (ejecución).
+
+Ejemplos de variación de aprendices (solo para ilustrar):
+- Aprendiz A: fuerte en intuición geométrica, débil en símbolos.
+- Aprendiz B: fuerte en álgebra simbólica, débil en visualización espacial.
+- Aprendiz C: motivación baja, ritmo lento, requiere fragmentación y refuerzo.
+Estas diferencias no cambian el concepto; cambian la intervención.
+
+──────────────────────────────────────────────────────────────────────────────
+3) DIAGRAMA ASCII (PUNTO DE PARTIDA ESTRUCTURAL)
+──────────────────────────────────────────────────────────────────────────────
+
+Leyenda:
+- [NÚCLEO] = parte invariante que define identidad del conocimiento
+- [REQ]   = requisito funcional para lograr comprensión operativa
+- [CTX-D] = contexto de distribución (modalidad/canal didáctico)
+- [CTX-E] = contexto de ejecución (aprendiz y situación local)
+- [ART]   = artefacto (evidencia)
+
+                           ┌─────────────────────────────────────┐
+                           │ [NÚCLEO]                             │
+                           │ Objetivo primario:                   │
+                           │ “COMPRENSIÓN OPERATIVA DEL CONCEPTO” │
+                           └─────────────────────────────────────┘
+                                        │
+                                        │ depende de
+                                        v
+                        ┌──────────────────────────────────────┐
+                        │ [NÚCLEO] Concepto formal              │
+                        │ - definición                           │
+                        │ - estructura lógica                    │
+                        │ - propiedades y relaciones             │
+                        │ - condiciones de uso correcto          │
+                        └──────────────────────────────────────┘
+                                        │
+                                        │ requiere
+                                        v
+                         ┌──────────────────────────────────────┐
+                         │ [REQ] Proceso didáctico operable      │
+                         │ (pipeline de explicación y práctica)  │
+                         └──────────────────────────────────────┘
+                                        │
+                                        │ se manifiesta en (instancias)
+                                        v
+      ┌────────────────────────────────────────┐     ┌────────────────────────────────────────┐
+      │ [CTX-D] Modalidad: CLASE GRUPAL        │     │ [CTX-D] Modalidad: TUTORÍA INDIVIDUAL  │
+      │ (restricciones y posibilidades propias)│     │ (restricciones y posibilidades propias)│
+      └────────────────────────────────────────┘     └────────────────────────────────────────┘
+                    │                                              │
+                    │ ejecuta con                                   │ ejecuta con
+                    v                                              v
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Aprendiz 1            │               │ [CTX-E] Aprendiz 1            │
+        │ (previos + ritmo + motivación)│              │ (previos + ritmo + motivación)│
+        └──────────────────────────────┘               └──────────────────────────────┘
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Aprendiz 2            │               │ [CTX-E] Aprendiz 2            │
+        └──────────────────────────────┘               └──────────────────────────────┘
+                                                        ┌──────────────────────────────┐
+                                                        │ [CTX-E] Aprendiz 3            │
+                                                        └──────────────────────────────┘
+                    │                                              │
+                    │ produce evidencia                             │ produce evidencia
+                    v                                              v
+          ┌──────────────────────────┐                  ┌──────────────────────────┐
+          │ [ART] Ejercicios / apuntes│                  │ [ART] Ejercicios / apuntes│
+          │ evaluaciones / retroaliment.│                │ evaluaciones / retroaliment.│
+          └──────────────────────────┘                  └──────────────────────────┘
+
+Interpretación inmediata del diagrama:
+- El objetivo “comprensión operativa” se mantiene.
+- El concepto formal es un núcleo estable que no debe deformarse hasta perder rigor.
+- El proceso didáctico es requisito: sin práctica y verificación, hay exposición pero no comprensión operativa.
+- La modalidad (clase, tutoría, texto) es contexto de distribución.
+- El aprendiz y su situación son contexto de ejecución.
+- Cada sesión es una manifestación; sus productos son artefactos.
+
+──────────────────────────────────────────────────────────────────────────────
+4) NÚCLEO INVARIANTE DEL CONCEPTO (EJEMPLO: “VECTOR”)
+──────────────────────────────────────────────────────────────────────────────
+
+Este bloque define qué significa “preservar el concepto” para que la enseñanza siga siendo del mismo objeto formal.
+
+4.1 Definición formal mínima (ejemplo general)
+Un vector puede definirse de manera formal en distintos marcos. Este documento usa una forma abstracta compatible con la mayoría de cursos introductorios:
+
+- Un vector es un elemento de un espacio vectorial, donde un espacio vectorial es un conjunto con:
+  (a) una operación de suma de vectores,
+  (b) una operación de multiplicación por escalares (números),
+  que satisfacen axiomas (propiedades) como asociatividad, conmutatividad de suma, existencia de vector cero, existencia de inversos aditivos, distributividad, y existencia de identidad multiplicativa.
+
+4.2 Propiedades que no se deben perder (ejemplos)
+- Vector cero: existe un elemento neutro para la suma.
+- Inverso aditivo: para cada vector v existe -v tal que v + (-v) = 0.
+- Distributividad: a(v + w) = av + aw y (a + b)v = av + bv.
+- Compatibilidad de escalares: a(bv) = (ab)v.
+
+4.3 Relaciones esenciales con otros conceptos
+- Relación con matrices como transformaciones lineales (en cursos posteriores).
+- Relación con geometría (representación como flechas) solo como representación, no como definición única.
+
+4.4 Condiciones de uso correcto (criterios operativos)
+- Saber sumar vectores con el significado correcto (no mezclar suma de componentes con operaciones distintas).
+- Saber multiplicar por un escalar e interpretar el resultado.
+- Saber distinguir “vector” de “punto” y “magnitud” cuando aplique.
+
+Nota clave:
+La representación geométrica “flecha” es un componente interno (representación) útil, pero no agota el concepto formal.
+
+──────────────────────────────────────────────────────────────────────────────
+5) INVARIANTES DEL SISTEMA DIDÁCTICO (LO QUE NO PUEDE ROMPERSE)
+──────────────────────────────────────────────────────────────────────────────
+
+I1) El concepto no se simplifica hasta perder rigor
+- Se permiten simplificaciones pedagógicas, pero no se permite negar propiedades esenciales.
+Ejemplo: enseñar “vector = flecha” sin aclarar el marco formal puede romper el rigor si se vuelve la definición completa.
+
+I2) La estructura lógica se preserva
+- Definición, propiedades y condiciones de uso correcto deben permanecer coherentes.
+Ejemplo: no se puede enseñar suma de vectores como si fuera concatenación de símbolos arbitrarios.
+
+I3) Existe un aprendiz humano
+- La enseñanza exige un sujeto que interpreta, practica y valida comprensión.
+
+I4) La enseñanza debe incluir verificación operativa
+- Sin práctica y evaluación, la “explicación” puede existir, pero la comprensión operativa no se puede afirmar.
+Esta invariante es equivalente a “validación” en otros sistemas (como el ejemplo de elicitación y el de venta).
+
+I5) El proceso respeta restricciones del contexto sin negar el núcleo
+- Se adapta la intervención al contexto del aprendiz, pero no se degrada el núcleo.
+
+──────────────────────────────────────────────────────────────────────────────
+6) CONTEXTO LOCAL (APRendiz) Y SU FUNCIÓN ESTRUCTURAL
+──────────────────────────────────────────────────────────────────────────────
+
+Cada aprendiz define un contexto local que condiciona la intervención.
+
+Variables típicas del contexto:
+- Conocimientos previos: aritmética, álgebra básica, geometría, noción de función.
+- Estilo cognitivo: preferencia por visualización, preferencia por símbolos, preferencia por narrativa.
+- Ritmo: velocidad de asimilación y necesidad de repetición.
+- Motivación: interés, ansiedad, utilidad percibida, frustración.
+- Barreras: lagunas conceptuales, experiencias negativas previas, falta de tiempo.
+
+Función estructural del contexto:
+- No redefine el concepto formal (núcleo).
+- Define qué representaciones y qué secuencia didáctica maximizan comprensión operativa.
+
+──────────────────────────────────────────────────────────────────────────────
+7) DOMINIO DE VARIACIÓN (CONTROLADO)
+──────────────────────────────────────────────────────────────────────────────
+
+7.1 Puede variar (sin romper identidad)
+- Ejemplos:
+  - Física: desplazamiento, fuerza.
+  - Computación: arreglos de números y operaciones por componente.
+  - Geometría: flechas en el plano.
+- Analogías:
+  - “Recetas” para suma y escalado, siempre conectadas a la definición formal.
+- Ritmo y granularidad:
+  - Microexplicaciones vs bloques largos.
+- Representaciones:
+  - Gráficas: flechas, planos, diagramas.
+  - Simbólicas: notación algebraica, coordenadas.
+  - Narrativas: historias de transformación o desplazamiento.
+- Tipo de ejercicios:
+  - Procedimentales (cálculo).
+  - Conceptuales (interpretación).
+  - Mixtos (aplicación en problemas).
+
+7.2 No puede variar
+- La definición formal de referencia (o el conjunto de axiomas que define el objeto).
+- La preservación de propiedades esenciales.
+- Las condiciones de uso correcto (lo que significa “usar bien el concepto”).
+
+──────────────────────────────────────────────────────────────────────────────
+8) INTERVENCIÓN DIDÁCTICA (PIPELINE CONVERSACIONAL / INSTRUCCIONAL)
+──────────────────────────────────────────────────────────────────────────────
+
+La intervención es una secuencia diseñada para un aprendiz específico.
+Se modela como un pipeline con slots, igual que en ejemplos previos (venta, elicitación).
+
+8.1 Etapas típicas (pipeline)
+E1) Diagnóstico de previos
+- Objetivo: detectar qué ya sabe el aprendiz y qué confusiones existen.
+
+E2) Presentación del núcleo (mínimo formal)
+- Objetivo: fijar definición y estructura base.
+
+E3) Representación adaptada (puente)
+- Objetivo: ofrecer una representación (gráfica, simbólica, narrativa) que el aprendiz pueda manipular.
+
+E4) Ejemplos guiados
+- Objetivo: mostrar uso correcto con casos simples y controlados.
+
+E5) Práctica activa (ejercicios)
+- Objetivo: mover de reconocimiento a desempeño.
+
+E6) Verificación y retroalimentación
+- Objetivo: confirmar comprensión operativa, corregir errores y estabilizar.
+
+E7) Integración (conexiones)
+- Objetivo: conectar el concepto con otros conceptos (por ejemplo, funciones lineales o matrices) sin perder rigor.
+
+8.2 Slots por etapa (piezas variables)
+- Preguntas de diagnóstico.
+- Ejemplo seleccionado.
+- Representación preferida del aprendiz.
+- Número de repeticiones.
+- Tipo de corrección (inmediata, diferida, guiada).
+- Variantes de ejercicios (más concretos o más abstractos).
+
+──────────────────────────────────────────────────────────────────────────────
+9) MANIFESTACIONES Y ARTEFACTOS (EVIDENCIA)
+──────────────────────────────────────────────────────────────────────────────
+
+9.1 Manifestaciones (instancias)
+- Clase concreta (grupo) sobre vectores.
+- Tutoría individual (explicación personalizada).
+- Explicación escrita (documento o guía) adaptada.
+- Sesión remota (videollamada) con ejercicios compartidos.
+
+9.2 Artefactos (evidencias)
+- Ejercicios resueltos (por el aprendiz).
+- Evaluaciones (exámenes, cuestionarios).
+- Apuntes y resúmenes producidos por el aprendiz.
+- Mapas conceptuales, tarjetas de estudio.
+- Retroalimentación escrita del docente.
+
+Función estructural de los artefactos:
+- Permitir auditar si hubo comprensión operativa.
+- Mostrar consistencia entre intervención y núcleo formal.
+
+──────────────────────────────────────────────────────────────────────────────
+10) REPRESENTACIÓN ESTILO cNode (FORMA CANÓNICA SUGERIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+cNode: “Educación personalizada de concepto formal (modelo estructural)”
+
+- Contexto / Identidad:
+  - Qué es: patrón de intervención didáctica para producir comprensión operativa de un concepto formal.
+  - Para qué existe: permitir ejecuciones repetibles y adaptadas sin perder rigor del núcleo formal.
+  - Entradas: concepto formal + modalidad + aprendiz (contexto local) + restricciones (tiempo, recursos).
+  - Salidas: comprensión operativa observable + artefactos de evidencia.
+
+- Invariantes:
+  - El concepto formal mantiene definición y propiedades esenciales.
+  - La estructura lógica se preserva (no contradicción interna).
+  - Existe un aprendiz humano.
+  - Existe verificación operativa (práctica y evaluación).
+  - La adaptación no destruye el núcleo (dominio de variación controlado).
+
+- Componentes internos:
+  - Representaciones usadas (gráfica, simbólica, narrativa).
+  - Ejemplos y analogías.
+  - Orden, ritmo, granularidad.
+  - Tipo de ejercicios y retroalimentación.
+  - Material de apoyo (pizarrón, hoja, software), si existe.
+
+- Variantes (dominio de variación):
+  - Clase grupal vs tutoría individual.
+  - Remoto vs presencial.
+  - Texto vs conversación.
+  Estas variantes cambian la intervención, no el núcleo formal.
+
+- Artefactos conectables:
+  - Ejercicios_AprendizX
+  - Evaluación_1
+  - Apuntes_AprendizX
+  Estos artefactos son evidencia de manifestaciones; no son el cNode.
+
+──────────────────────────────────────────────────────────────────────────────
+11) CRITERIOS DE ÉXITO, FALLA Y LÍMITES (MODELO AUDITABLE)
+──────────────────────────────────────────────────────────────────────────────
+
+11.1 Criterios mínimos de éxito
+- El aprendiz puede usar el concepto correctamente en ejercicios nuevos (no memorizados).
+- El aprendiz puede explicar (en su propio lenguaje) la relación entre definición y operaciones.
+- El aprendiz evita errores típicos (por ejemplo, confundir punto con vector cuando aplique).
+- Los artefactos muestran consistencia y corrección.
+
+11.2 Fallas típicas (degradan el proceso sin negar su identidad)
+- Representación inadecuada para el estilo cognitivo.
+- Ritmo incompatible con el aprendiz.
+- Ausencia de verificación suficiente (mucho discurso, poca práctica).
+- Ejemplos desconectados de la definición formal (conducen a intuición falsa).
+
+11.3 Límites duros (si ocurren, la enseñanza deja de ser del concepto formal)
+- Se elimina el rigor hasta deformar el concepto (por ejemplo, “vector = flecha” como definición total sin axiomas).
+- Se contradicen propiedades esenciales (por ejemplo, negar distributividad o neutralidad del vector cero).
+- Se declara comprensión sin evidencia operativa.
+
+──────────────────────────────────────────────────────────────────────────────
+CIERRE
+Este ejemplo muestra “realización contextual de conocimiento” porque:
+- Conserva un núcleo invariante (concepto formal) que define identidad.
+- Permite variación controlada (ejemplos, analogías, representaciones, ritmo).
+- Produce manifestaciones múltiples (clase, tutoría, explicación escrita) sin romper el núcleo.
+- Genera artefactos que funcionan como evidencia verificable de comprensión.
+- Es integrable como un cNode conceptual: núcleo estable + intervención adaptativa + rastros de ejecución.
+
+FIN DEL SNIPPET

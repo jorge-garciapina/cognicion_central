@@ -1,0 +1,260 @@
+================================================================================
+DOCUMENTO 1 — VENTA DE SEGUROS COMO REALIZACIÓN CONTEXTUAL DE UN NÚCLEO INVARIANTE
+================================================================================
+
+1. PROPÓSITO DEL DOCUMENTO
+
+Este documento describe, de forma estructural y auto-contenida, el caso de la
+venta de un seguro como una instancia del Patrón de Realización Contextual con
+Núcleo Invariante. El objetivo es mostrar cómo un mismo producto asegurador
+puede realizarse mediante intervenciones distintas sin perder identidad,
+dependiendo del contexto específico de cada prospecto.
+
+2. OBJETIVO PRIMARIO (IDENTIDAD DEL SISTEMA)
+
+El objetivo primario del sistema es:
+
+    Producir una decisión informada de contratación de un seguro específico.
+
+Este objetivo define la identidad del sistema. Si el objetivo cambia (por
+ejemplo, informar sin inducir decisión), el sistema deja de ser el mismo.
+
+3. NÚCLEO INVARIANTE
+
+El núcleo invariante está constituido por:
+
+- Un producto asegurador específico (por ejemplo, seguro de gastos médicos
+  mayores tipo A).
+- Un conjunto fijo de coberturas, exclusiones y condiciones contractuales.
+- Un marco regulatorio que no puede ser alterado.
+- Una prima y una estructura de costos definidas.
+
+Este núcleo no depende del prospecto ni del canal de venta y no se modifica
+durante el proceso.
+
+4. INVARIANTES DEL SISTEMA
+
+Las siguientes condiciones deben preservarse en toda realización:
+
+- El producto vendido es siempre el mismo.
+- No se alteran coberturas ni condiciones.
+- Existe un decisor humano autónomo.
+- La interacción es de naturaleza persuasiva, no coercitiva.
+
+5. CONTEXTO LOCAL
+
+Cada prospecto define un contexto local distinto, caracterizado por:
+
+- Edad.
+- Situación económica.
+- Estructura familiar.
+- Experiencias previas con riesgos o seguros.
+- Actitudes frente a la incertidumbre y el gasto.
+
+El contexto no redefine el producto, pero sí condiciona la intervención.
+
+6. DOMINIO DE VARIACIÓN
+
+Puede variar:
+
+- El orden de presentación de la información.
+- El lenguaje utilizado.
+- El énfasis (emocional, financiero, preventivo).
+- El tipo de ejemplos empleados.
+
+No puede variar:
+
+- El producto.
+- Las condiciones contractuales.
+- El objetivo primario.
+
+7. INTERVENCIÓN
+
+La intervención consiste en una conversación de venta diseñada específicamente
+para el contexto del prospecto, seleccionando una estrategia discursiva adecuada
+dentro del dominio de variación permitido.
+
+8. MANIFESTACIONES
+
+Cada conversación concreta con un prospecto constituye una manifestación
+distinta del mismo sistema.
+
+9. ARTEFACTOS
+
+- Grabaciones de llamadas o reuniones.
+- Notas comerciales.
+- Contrato firmado (si la decisión ocurre).
+
+================================================================================
+DOCUMENTO 2 — EDUCACIÓN PERSONALIZADA COMO REALIZACIÓN CONTEXTUAL DE CONOCIMIENTO
+================================================================================
+
+1. PROPÓSITO DEL DOCUMENTO
+
+Este documento describe la enseñanza de un concepto (por ejemplo, vectores) como
+un sistema estructural cuya identidad se preserva a través de intervenciones
+didácticas adaptadas a distintos estudiantes.
+
+2. OBJETIVO PRIMARIO
+
+    Producir comprensión operativa de un concepto formal.
+
+3. NÚCLEO INVARIANTE
+
+- El concepto formal (definición, relaciones, propiedades).
+- Su estructura lógica.
+- Las condiciones de uso correcto del concepto.
+
+4. INVARIANTES
+
+- El concepto no se simplifica hasta perder rigor.
+- La estructura formal se preserva.
+- Existe un aprendiz humano.
+
+5. CONTEXTO LOCAL
+
+Cada alumno presenta un contexto distinto:
+
+- Conocimientos previos.
+- Estilo cognitivo.
+- Ritmo de aprendizaje.
+- Motivación.
+
+6. DOMINIO DE VARIACIÓN
+
+Puede variar:
+
+- Ejemplos.
+- Analogías.
+- Ritmo.
+- Representaciones (gráficas, simbólicas, narrativas).
+
+7. INTERVENCIÓN
+
+La intervención es una explicación o secuencia didáctica diseñada específicamente
+para el alumno.
+
+8. MANIFESTACIONES
+
+- Clase concreta.
+- Tutoría individual.
+- Explicación personalizada.
+
+9. ARTEFACTOS
+
+- Ejercicios.
+- Evaluaciones.
+- Apuntes producidos.
+
+================================================================================
+DOCUMENTO 3 — CREACIÓN DE CONTENIDO MULTI-NICHO EN PLATAFORMAS DIGITALES
+================================================================================
+
+1. PROPÓSITO DEL DOCUMENTO
+
+Este documento describe la creación de múltiples canales de contenido a partir de
+un mismo tema como un sistema de difusión semántica contextualizada.
+
+2. OBJETIVO PRIMARIO
+
+    Capturar y sostener la atención de un nicho específico.
+
+3. NÚCLEO INVARIANTE
+
+- Tema A (idea central).
+- Identidad del mensaje.
+- Intención comunicativa.
+
+4. INVARIANTES
+
+- El tema no cambia.
+- El mensaje central se preserva.
+- Existe una audiencia humana.
+
+5. CONTEXTO LOCAL
+
+Cada nicho define un contexto distinto:
+
+- Edad.
+- Referentes culturales.
+- Ritmos de consumo.
+- Expectativas narrativas.
+
+6. DOMINIO DE VARIACIÓN
+
+Puede variar:
+
+- Formato.
+- Ritmo.
+- Estilo.
+- Lenguaje visual y verbal.
+
+7. INTERVENCIÓN
+
+La intervención es la producción de contenido específicamente diseñado para el
+nicho.
+
+8. MANIFESTACIONES
+
+- Videos individuales.
+- Publicaciones concretas.
+
+9. ARTEFACTOS
+
+- Contenido publicado.
+- Métricas de atención.
+
+================================================================================
+DOCUMENTO 4 — FABRICACIÓN DE AUTOMÓVILES EN MÚLTIPLES PLANTAS
+================================================================================
+
+1. PROPÓSITO DEL DOCUMENTO
+
+Este documento describe la fabricación del mismo producto industrial en fábricas
+distintas como una realización contextual de un diseño invariante.
+
+2. OBJETIVO PRIMARIO
+
+    Fabricar un producto conforme a especificaciones técnicas.
+
+3. NÚCLEO INVARIANTE
+
+- Diseño del automóvil.
+- Especificaciones técnicas.
+- Tolerancias y funciones.
+
+4. INVARIANTES
+
+- El diseño no cambia.
+- El producto final es funcionalmente idéntico.
+- Se cumplen estándares de calidad.
+
+5. CONTEXTO LOCAL
+
+Cada planta presenta condiciones distintas:
+
+- Proveedores.
+- Maquinaria.
+- Logística.
+- Regulación local.
+
+6. DOMINIO DE VARIACIÓN
+
+Puede variar:
+
+- Secuencia de ensamblaje.
+- Distribución de tareas.
+- Flujo logístico.
+
+7. INTERVENCIÓN
+
+La intervención es el proceso productivo adaptado a la planta.
+
+8. MANIFESTACIONES
+
+- Lotes producidos en cada planta.
+
+9. ARTEFACTOS
+
+- Vehículos terminados.
+- Reportes de calidad.

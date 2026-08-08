@@ -1,0 +1,467 @@
+COMENTARIOS GENERALES: 
+  - SERÍA BUENO QUE CADA SECCIÓN TUVIERA UNA INTRODUCCIÓN, ASÍ SE SABRÍA CUÁL ES EL FIN DE CADA UNA. 
+  - NO QUIERO QUE HAYA SUPOSICIONES, HE NOTADO MUCHOS CASOS EN LOS QUE SUPONES QUE EL HUMANO Y OTRA IA 
+    COMPRENDERÁN LOS TÉRMINOS QUE ESTÁS UTILIZANDO, LO CUAL HACE QUE ESTA DEFINICIÓN TENGA LOS MISMOS ERRORES 
+    QUE SE QUIEREN EVITAR. ES NECESARIO EVITAR CUALQUIER TIPO DE AMBIGUEDAD, Y ESO SE CONSIGUE, ENTRE OTRAS COSAS, 
+    AL EVITAR HACER SUPOSICIONES Y MEJOR HACER DEFINICIONES. 
+
+
+TITLE: Cognitive Node (cNode) — Integrable Ontology Package (Weak ↔ Strong)
+VERSION: 2.0.0
+STATUS: Draft (Second revision incorporating all user comments)
+AUDIENCE: Any project with zero prior context about Cognitive Nodes
+PRIMARY GOAL: Provide a self-contained, unambiguous, operational definition of a Cognitive Node
+              that can be used to (1) build, (2) validate, and (3) integrate ontologies into a
+              network of Cognitive Nodes without hidden assumptions.
+
+───────────────────────────────────────────────────────────────────────────────
+0) IMPORTANT META-NOTE (CONFORMANCE WITH THIS PROJECT'S REVIEW COMMENTS)
+───────────────────────────────────────────────────────────────────────────────
+ESTA SECCIÓN NO ES IMPORTANTE, SI COMPARTO ESTA DEFINICIÓN EN OTRO PROYECTO, AHÍ NADA IMPORTARAN ESTOS COMENTARIOS. SI ESTO 
+YA SE ENCUENTRA A LO LARGO DE LAS OTRAS SECCIONES, DECIRLO EXPLÍCITAMENTE ES REPETITIVO. 
+- This definition is written in English for review precision.
+- This definition does not use "artifact" as a defining term, because that term is reserved for a
+  different concept in the broader ecosystem.
+- The term "orchestrator" is used explicitly; this definition avoids introducing "Cognitive Model"
+  as a replacement term.
+- This definition treats "Cognitive Node" and "ontology" as the same thing:
+  A Cognitive Node IS an ontology, expressed as an integrable package.
+- This definition treats {cognitive_node, graph_patch} as structurally important, but it does not
+  reduce the entire concept to only those two labels. They are the backbone, not the full story.
+- Lines are kept reasonably short for Visual Studio Code readability.
+
+───────────────────────────────────────────────────────────────────────────────
+1) CORE DEFINITION
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definition
+A Cognitive Node (cNode) is an ontology packaged as an integrable unit in a cognitive graph. (SERÍA BUENO PONER cognitive graph EN LA SECCIÓN 3) KEY TERMS )
+It is a deliberate projection of a cognitive process (an idea, concept, design, plan, or method) (DEBIDO QUE BUSCO MUCHA PRECISIÓN, SERÍA BUENO DEFINIR cognitive process EN 3) KEY TERMS )
+into an explicit structure that preserves identity under adaptation (¿ES ESTO LO ÚNICO QUE HACE?). A cNode makes meaning
+operable by specifying:
+(QUIERO QUE EXPANDAS UN POCO MÁS LA EXPLICACIÓN, QUIZÁS NO SÓLO ENTRE PARÉNTESIS, SINO COMO ALGO QUE APORTE UNA IDEA MÁS PROFUNDA, QUIZÁS UN EJEMPLO)
+(a) a controlled vocabulary of entities and relations, (SERÍA BUENO QUE INDICARAS CÓMO ES QUE CONTROLA EL VOCABULARIO)
+(b) invariants (what cannot change without breaking identity),
+(c) a domain of variation (what may change),
+(d) procedures (how the ontology is used or derived), (AQUÍ HAY ALGO QUE LLAMA LA ATENCIÓN: ESTÁS USANDO "ONTOLOGÍA" PERO AÚN NO SE DEFINE, YO SÉ QUE MÁS ABAJO LO HACES, PERO LA PREGUNTA ES ¿ES CORRECTO HACER ESTO? SIENTO QUE PODRÍA CAUSAR CONFUSIÓN, ES POR ESO QUE PUSE LA NOTA AL INICIO, EN LA QUE PIDO QUE AÑADAS UNA IDEA, QUIZÁS UN EJEMPLO EN VEZ DE LO QUE PONES ENTRE PARÉNTESIS)
+(e) validation criteria (how to test compatibility and correctness). ¿COMPATIBILIDAD Y correctness DE QUÉ? DE NUEVO, AQUÍ SE RESALTA LA IMPORTANCIA DEL COMENTARIO EN QUE PIDO EXPANDIR LAS IDEAS EN LOS PARÉNTESIS
+A cNode is designed to be compositional: it can contain internal nodes (MÁS ABAJO, EN LA SECCIÓN 5.1 Component: cognitive_node MUESTRO COMO EL TÉRMINO "NODO" PUEDE CAUSAR CONFUSIÓN, LA FORMA EN LA QUE LO USAS AQUÍ ES EL EJEMPLO; ESTA ES LA IMPORTANCIA DE DEFINIR CORRECTAMENTE LOS TÉRMINOS EN LA SECCIÓN 3) KEY TERMS, NO ES ALGO COSMÉTICO, SINO ALGO VITAL- NO DIGO QUE NO USES LA PALABRA "NODE" SÓLO QUIERO EVITAR LA CONFUSIÓN ENTRE CÓMO SE USA) 
+that are either plain concepts or other cNodes (ESTO ES VERDAD, SE ACERCA A LO QUE PIENSO), enabling construction of complex systems
+as networks of ontologies. 
+COMO NOTA AL PÁRRAFO DE ARRIBA, YA VA SALIENDO ALGO IMPORTANTE: LOS "NODOS INTERNOS" (ESTE PODRÍA SER UN EJEMPLO DE LO QUE MENCIONO CON "CONCEPTOS COMPUESTOS")
+PUEDEN SER:
+  - CONCEPTOS (DESCRIPCIONES LINGUISTICAS): SE USAN EN CASOS EN LOS QUE NO HAY OTROS CNODES PARA "SOSTENER" LAS IDEAS. EL EJEMPLO MÁS CLARO 
+    ES ESTE DOCUMENTO (EL CUAL EN ESENCIA ES UN CNODE QUE DESCRIBE QUÉ ES UN CNODE), DEBIDO A QUE NO HAY OTROS CNODES (APENAS ESTAMOS DEFINIENDO QUÉ SON)
+    ME VEO EN LA OBLIGACIÓN DE DESCRIBIR LINGUISTICAMENTE LOS TÉRMINOS. LA LENGUA ES EL PUENTE QUE EXISTE ENTRE LA IA Y EL HUMANO, POR ESO 
+    ES QUE A FALTA DE OTROS CNODES, SE REQUIEREN DESCRIPCIONES LINGUISTICAS, LA IDEA ES QUE NO SIEMPRE SEA ASÍ, YA QUE AL CONTAR CON OTROS 
+    CNODES SERÁ POSIBLE CONSTRUIR IDEAS MÁS COMPLEJAS SIN DEPENDER ÚNICAMENTE DE DESCRIPCIONES LINGUISTICAS (OJO QUE DIGO "ÚNICAMENTE")
+    A QUE SIEMPRE HABRÁ ESTE TIPO DE DEPENDENCIAS PUESTO QUE ES LA HERRRAMIENTA CON LA QUE CUENTO, COMO HUMANO, PARA  DESCRIBIR MIS IDEAS. 
+  - OTROS CNODES: COMO MENCIONÉ ARRIBA, EN EL FUTURO, LOS "NODOS INTERNOS" DE UN CNODE PODRÁN SER OTROS CNODES, ESO ES CORRECTO, Y DE HECHO
+    ESA ES LA IDEA QUE TENGO. 
+A cNode is designed to be integrable: it includes an explicit integration surface so that it
+can connect to other cNodes (each with its own ontology) in a shared graph (¿QUÉ ES UN shared graph? ESTE ES UN EJEMPLO DE ALGO QUE HUMANO E IA PUEDEN COMPRENDER DE FORMA DISTINTA)
+without relying on hidden context.
+
+1.2 One-sentence definition (for fast reuse)
+A Cognitive Node (cNode) is an ontology with an explicit identity boundary and integration
+surface, engineered to be compositional and always-integrable inside a network of other cNodes. (SIENTO QUE ESTA DEFINICIÓN NO 
+CAPTURA LA ESENCIA DE QUÉ ES UN CNODE. ESTOY DE ACUERDO CON LO QUE DICES, YA QUE EN EFECTO, EL CNODE ES UNA ONTOLOGÍA QUE TIENE 
+UNA IDENTIDAD Y QUE ESTÁ PENSADA PARA INTEGRARSE, PERO TU DEFINICIÓN ES ALGO AMBIGUA, YA QUE ESTA DEFINICIÓN NO ES PARTICULAR NI 
+ÚNICA A UN CNODE, YA QUE MUCHAS ONTOLOGÍAS PODRÍAN CUMPLIR CON ESOS REQUISITOS, LO IMPORTANTE DE UN CNODE ES QUE ES UNA PROYECCIÓN 
+DE UN PROCESO COGNITIVO. IMAGINA LO SIGUIENTE, EN LA MENTE, UN PROCESO COGNITIVO PODRÍA DENOMINARSE mNode (MENTAL NODE), UN cNode ES 
+LA PROYECCIÓN DE UN mNode EN UN SISTEMA IA. ESTO ES EN ESENCIA DIFERENTE A LO QUE PROPONES (EN EL SENTIDO QUE LO QUE PROPONES ESTÁ INCOMPLETO.))
+
+───────────────────────────────────────────────────────────────────────────────
+2) WHY THIS CONCEPT EXISTS (THE PROBLEM IT SOLVES)
+───────────────────────────────────────────────────────────────────────────────
+2.1 Problem statement
+Humans frequently communicate concepts using only natural language, which produces (NO NECESARIAMENTE, NO EN TODOS LOS CASOS, SIENTO QUE AQUÍ ESTÁS AFIRMANDO COMO SI SIEMPRE SUCEDIERA)
+ambiguity: different readers ("PUEDEN", "MAY", "MIGHT") project different internal instances from the same word (for example,
+one person hears "dog" and imagines a childhood Dalmatian, another imagines a German Shepherd).
+Both are "correct" in ordinary language, but this divergence breaks consistency when the goal is
+to design, validate, or integrate systems of ideas (SIENTO QUE LO QUE HABLAS AL INICIO NO ES SUFICIENTEMENTE FUERTE PARA AFIRMAR 
+QUE "this divergence breaks consistency when the goal is to design, validate, or integrate systems of ideas", HACE FALTA UNA 
+NECESIDAD MÁS FUERTE, USA LOS COMENTARIOS QUE TE HAGO EN ESTA REVISIÓN, O LO QUE HEMOS DISCUTIDO EN EL CHAT PARA HALLAR ALGO MEJOR). 
+The problem becomes more severe when multiple projects, multiple time periods, or multiple stakeholders must share and evolve the
+same concept.
+
+2.2 Structural constraint that makes the problem persistent
+The constraint is structural: human cognition compresses complexity by implicit context (DEFINE implicit context EN SECCIÓN 3 ) and
+personal exemplars, while large systems require stable identity (EXPLICA stable identity, PUEDE CAUSAR AMBIGUEDAD)
+and explicit integration rules.
+SEGÚN LO QUE DICES, ENTIENDO LO SIGUIENTE: 
+  - implicit context ES ALGO HUMANO, Y ES "OPUESTO" A stable identity LO CUAL ES DE LA IA... NO VEO EN QUÉ SON DISTINTOS, POR ESO TE PIDO DEFINIRLOS
+  - personal exemplars ES ALGO HUMANO, Y ES "OPUESTO" explicit integration rules... MISMA NOTA ANTERIOR. 
+TE PONGO LOS EJEMPLOS DE ARRIBA DEBIDO A QUE ESTE PÁRRAFO ES CONFUSO, NO SÉ SI PENSAR EN "OPUESTOS" ES CORRECTO. QUIERO QUE ACLARES ESTOS 
+TÉRMINOS, SI ES NECESARIO, REEMPLAZA LOS TÉRMINOS CONFUSOS POR EXPLICACIONES, EL PARRAFO QUEDARÁ MÁS LARGO, PERO SERÁ MÁS CLARO. 
+
+In addition, Artificial Intelligence (AI) systems can ingest large text, but if the text lacks
+explicit structure (invariants, allowed variation, validation rules), the AI and the human can
+quietly converge on different meanings and still believe they agree.
+(LOS COMENTARIOS QUE HAGO EN EL PÁRRAFO DE ARRIBA EJEMPLIFICAN EL PROBLEMA QUE MENCIONAS AQUÍ: ESTAMOS SUPONIENDO SIGNIFICADOS DISTINTOS 
+DEBIDO A QUE USAS CONCEPTOS QUE NO ASEGURAS QUE YO COMPRENDO DE LA MISMA FORMA. )
+
+2.3 Why simpler ideas fail (¿QUÉ SIGNIFICA "fail" EN ESTE CONTEXTO? ¿CUÁL ES SU OPUESTO? ¿QUÉ SE HACE CON LA IDEA PARA QUE HALLA "fail" Y SU OPUESTO? ESTO LO DICES SIN ESPECIFICAR QUÉ SE TRATA DE HACER CON LA IDEA)
+- Pure metaphor fails because different people map the metaphor differently.
+(ESTO ES VERDAD. EL OTRO DÍA PENSABA EN UN EJEMPLO: QUÉ PASA SI UN NIÑO CRECIÓN EN UNA GRANJA EN LA QUE NO HAY GATOS, Y NUNCA HA 
+VISTO UNO, Y ALGUIEN LE PREGUNTA: "EL PERRO ES AL GATO LO QUE EL GATO ES AL -A)RATÓN, B) POLLO, C) CABALLO-", ¿QUÉ RESPONDERÍA 
+EL NIÑO? NO TENDRÍA FORMA DE SABER CUÁL ES LA RESPUESTA CORRECTA, YA QUE SU CONTEXTO NO HA CREADO LA CONEXIÓN QUE CUALQUIER OTRO ESPERAÍA 
+Y PARA DAR LA RESPUESTA "SOCIALMENTE ACEPTADA": RATÓN. EL NIÑO NO ESTAÍA DANDO UNA RESPUESTA EQUIVOCADA SI PENSARA "CABALLO" YA QUE 
+EL PERRO Y EL GATO NO TIENEN UNA CONEXIÓN (EN SU MENTE), IGUAL QUE EL GATO Y CABALLO)
+- Pure examples fail because readers copy superficial traits instead of identity-defining traits. (¿QUÉ ES superficial traits?¿QUÉ ES identity-defining traits? NO TENGO LA MENOR IDEA DE QUÉ ES CADA UNO, DE NUEVA CUENTA: USAR TÉRMINOS SIN DEFINIRLOS GENERA AMBIGUEDAD)
+- Pure property lists fail if they do not mark which properties are essential versus optional. (POR EJEMPLO... DE NUEVA CUENTA, AQUÍ NO SE DICE NADA QUE AYUDE AL LECTOR, ES IMPORTANTE DESCRIBIR EN MAYOR DETALLE)
+- Traditional "definitions" fail when they do not specify what the concept enables operationally
+  (construction, validation, integration, iteration). (¿EN QUÉ FALLAN? ¿QUÉ SE HACE CON ELLOS? HAY MUCHA AMBIGUEDAD AQUÍ)
+A cNode exists to force an interface-like definition that prevents these failure modes by making (ESTO DA UNA PISTA, PERO ES UNA CONCLUSIÓN SIN HACER CITADO UN PROBLEMA)
+identity and integration explicit.
+
+───────────────────────────────────────────────────────────────────────────────
+3) KEY TERMS (DISAMBIGUATION)
+QUIERO QUE LOS TÉRMINOS QUE SE DEFINEN EN ESTA SECCIÓN TENGAN EJEMPLOS, AUNQUE SEAN MUY SIMPLES TENDRÍAN EL EFECTO DE 
+AYUDAR A COMPRENDER MEJOR. 
+───────────────────────────────────────────────────────────────────────────────
+3.1 Ontology (as used here)
+An ontology is a structured specification of a domain that defines entities, relations, and the
+constraints that preserve identity and enable consistent reasoning. In this framework:
+Cognitive Node = Ontology. (EN VEZ DE DAR UNA IGUALDAD QUE TIENE QUE ACEPTARSE, PREFERIRÍA QUE DIERAS UNA COMPARACIÓN O UNA DESCRIPCIÓN 
+EN LA QUE MUESTRES QUE SON IGUALES.)
+
+3.2 Weak ontology versus strong ontology
+- Weak ontology: minimal but explicit identity boundary and invariants; vocabulary and rules may
+  be partially open; validation is present but may be lightweight.
+- Strong ontology: highly specified vocabulary, relations, constraints, and validation; the space
+  of acceptable interpretations is tightly controlled.
+Both are ontologies, and both are valid cNodes; they differ by degree of closure, not by kind. 
+(NO ME QUEDA CLARO LO QUE DICES, AÑADE EJEMPLOS EN LOS QUE MUESTRES QUÉ ES UNA ONTOLOGÍA DEBIL, UNA MEDIA Y UNA FUERTE, 
+PUEDE SER EL MISMO EJEMPLO, SIMPLEMENTE AÑADE MÁS DETALLES LO CUAL PERMITA VER, PODRÍAS USAR EL EJEMPLO DE LOS PERROS)
+
+3.3 Projection (as used here)
+Projection is the operation that maps an internal cognitive process to an external, explicit
+structure. The result of the projection is the cNode itself. Projection is not a "section" in
+the document; it is the generating act of the ontology package.
+(PERO LA PROYECCIÓN DEL mNode -VER NOTA MÁS ARRIBA- NO PROVIEDE DE CUALQUIER external, explicit
+structur, SINO DE LA MENTE DE UN HUMANO. ES IMPORTANTE CLARIFICAR SIEMPRE.  )
+
+3.4 Identity boundary
+The identity boundary is the minimal set of properties that must remain invariant for the cNode
+to remain the same cNode across adaptations. If these properties are violated, the cNode becomes
+a different ontology.
+(POR EJEMPLO...)
+
+3.5 Invariant
+An invariant is not merely a statement that should remain true. An invariant is a condition that
+must be preserved across the entire allowed domain of variation; violating it breaks identity.
+
+3.6 Domain of variation
+The domain of variation is the explicitly permitted space of adaptations that can occur without
+breaking identity (for example, adding examples, extending non-essential terms, or refining
+validation), as long as invariants remain preserved.
+SOBRE ESTE TÉRMINO EN PARTICULAR QUIERO QUE PONGAS ATENCIÓN EN LOS DOCUMENTOS QUE TE ENVÍO (LOS DOCUMENTOS NO SON SÓLO PARA 
+ESTE TÉRMINO, PERO TE AYUDARÁN A ENTENDER)
+
+3.7 Orchestrator
+The orchestrator is the component that specifies internal composition rules for the cNode:
+how internal sub-nodes interact, in what order procedures run, what the export surface is, and
+how integration constraints are enforced. It is a role inside the cNode package, not a separate
+"document type" that replaces the term orchestrator.
+
+3.8 Technical metaphor (functional, not decorative)
+A technical metaphor is a controlled mapping layer that transfers structure between domains.
+It is used only when it increases precision and interoperability. It is not used as a substitute
+for invariants or formal identity.
+
+3.9 Always-integrable (design intent)
+Always-integrable means: every cNode must expose an explicit integration surface that allows it
+to connect to other cNodes deterministically. Integration may require negotiation (aliases,
+adapters), but it must not require hidden context.
+
+EN GENERAL, QUIERO QUE REVISES LOS TÉRMINOS DE ESTA SECCIÓN. LOS EJEMPLOS EN LOS DOCUMENTOS ADJUNTOS SERÁN DE MUCHA UTILIDAD PARA ESO. 
+───────────────────────────────────────────────────────────────────────────────
+4) MINIMAL STRUCTURE / INVARIANTS
+───────────────────────────────────────────────────────────────────────────────
+This section defines the smallest structure that still qualifies as a cNode (that is, as an
+ontology package intended for integration).
+
+4.1 Minimal structure (conceptual)
+A minimal cNode must contain:
+(1) Identity boundary: explicit invariants + explicit domain of variation.
+(2) Ontology core: explicit entities and relations (a minimal vocabulary + relation set).
+(3) Orchestrator: explicit rules for internal composition and export.
+(4) Integration surface: explicit description of how the cNode connects to the external graph.
+
+4.2 Identity-defining invariants (must hold in all valid instances)
+Invariant I1 — Ontology identity is explicit
+The cNode must explicitly define what entities and relations exist in its domain.
+If you remove explicit entities/relations, you remove the ontology, therefore you remove the cNode.
+
+Invariant I2 — Invariants and allowed variation are explicit
+The cNode must separate "what must not change" from "what may change".
+If you cannot distinguish essential identity from optional detail, the cNode cannot be validated.
+ESTOY DE ACUERDO CON ESO. EN LOS EJEMPLOS QUE ADJUNTO ES POSIBLE VER EJEMPLOS DE ESTO
+
+Invariant I3 — Operationality exists (procedures and/or validation)
+The cNode must include operational hooks: how to use it, derive from it, or test it.
+If it is only descriptive prose, it is not an operational ontology package.
+
+Invariant I4 — Integration is explicit
+The cNode must declare how it integrates into a network of cNodes (export surface and constraints).
+If integration rules are implicit, cross-project reuse will drift.
+
+Invariant I5 — Compositionality is permitted
+The cNode must allow internal nodes to be either concepts or other cNodes.
+If internal composition is forbidden, scaling to complex systems becomes brittle.
+
+4.3 If you remove X, it is no longer a cNode
+- Remove explicit invariants and allowed variation → not a cNode (identity is not preservable).
+- Remove explicit entities/relations → not a cNode (no ontology remains).
+- Remove explicit integration surface → not a cNode (cannot reliably join a network of cNodes).
+
+───────────────────────────────────────────────────────────────────────────────
+5) COMPONENTS (AND ROLES)
+───────────────────────────────────────────────────────────────────────────────
+This section names internal parts commonly present in a cNode. A given implementation may
+compress or expand these parts, but the roles must remain satisfiable.
+
+5.1 Component: cognitive_node (ontology core)
+AQUÍ HABRÍA QUE HACER UNA ANOTACIÓN: SI, COMO DICES ABAJO cognitive_node ES TODA LA ONTOLOGÍA ENTONCES
+¿CÓMO NOMBRARÍAMOS A UN NODO DENTRO DE ESA ONTOLOGÍA? ESTE ES UN PROBLEMA LINGUISTICO, PERO SI NO LO ATACAMOS 
+AHORA, PUEDE CRECER Y COMPLICARSE, LA UTILIDAD DE EL CONCEPTO DE cNode ES EVITAR AMBIGUEDAD. NOTO QUE MÁS ABAJO HABLAS DE entities,
+relations, and key terms, YO ENTIENDO ESO COMO NODOS Y ARISTAS, ASÍ QUE EL PROBLEMA SE HACE EVIDENTE EN ESTE PUNTO. 
+
+Role: Contains the internal ontology and identity boundary.
+Typical contents:
+- vocabulary: canonical names for entities, relations, and key terms
+- entities: conceptual types, primitives, or node categories
+- relations: edge types and their intended semantics
+- invariants: identity-preserving constraints
+- variation_domain: allowed adaptations
+- procedures: operational rules (construction, derivation, interpretation)
+- validation: criteria and tests for correctness and compatibility
+- provenance: where claims came from and why decisions were made (recommended)
+
+Important clarification:
+cognitive_node is the internal ontology definition of the cNode.
+It is not the entire cNode, because integration and orchestration must also be explicit.
+CREO QUE HACE FALTA CREAR UN MEJOR VOCABULARIO, YO COMPRENDO LOS CONCEPTOS, PERO HACE FALTA MAYOR CLARIDAD. POR EJEMPLO: 
+
+- EN LA SECCIÓN "1) CORE DEFINITION", DICES: A Cognitive Node (cNode) is an ontology packaged as an integrable unit in a cognitive graph,
+  MIENTRAS QUE ARRIBA DICES: cognitive_node is the internal ontology definition of the cNode. TANTO TÚ COMO YO COMPRENDEMOS LO QUE SE DICE
+  PERO SI COMPARTO ESTA DEFINICIÓN EN UN PROYECTO QUE DESCONOZCA LO QUE ESTAMOS TRABAJANDO, ENTONCES CASI SEGURAMENTE HABRÍA AMBIGUEDAD. 
+  ESTO EVIDENCIA EL PROBLEMA DE QUE NECESITAMOS DEFINICIONES MÁS FUERTES, SI ES NECESARIO QUE USES TÉRMINOS ESPECÍFICOS, PARA ESO ESTÁ LA 
+  SECCIÓN 3) KEY TERMS (DISAMBIGUATION), LA IDEA ES QUE NO HAYA AMBIGUEDAD, APROVECHA ESA SECCIÓN PARA EXPANDIR EL VOCABULARIO, ESA ES 
+  LA IDEA: EXPANDIR EL VOCABULARIO SIN TEMER CONFUSIÓN DEBIDO A QUE EN LA SECCIÓN 3) KEY TERMS (DISAMBIGUATION) SE EXPLICA QUÉ ES CADA COSA. 
+
+*******************************************
+-------------------------------------------
+*******************************************
+
+5.2 Component: graph_patch (integration surface)
+Role: Specifies how the cNode integrates into an external graph of cNodes.
+Typical contents:
+- export_surface:
+  - PROVIDES: capabilities offered to the graph (what this ontology enables)
+  - REQUIRES: capabilities required from the graph (dependencies)
+  - CONSTRAINTS: invariants the graph must respect when integrating this cNode
+  - TYPES: canonical types used at the interface
+  - ALIASES: mapping of external terms to internal vocabulary (synonym control)
+- integration_profile:
+  - provides/requires versioning
+  - adapters (edge aliases, type aliases, data mappers)
+  - negotiation steps (discover → check → alias-map → validate → adapt → merge → report)
+  - merge policy (deterministic conflict rules and provenance)
+graph_patch is not "optional decoration"; it is the explicit form of always-integrable design.
+
+5.3 Component: orchestrator (internal composition controller)
+Role: Defines internal interaction among sub-nodes and the cNode export interface.
+Typical contents:
+- internal node registry (what sub-nodes exist)
+- internal edge rules (how sub-nodes connect)
+- execution order for procedures (if any)
+- interface assembly (how export_surface is computed from internals)
+- consistency enforcement (guards that preserve invariants during updates)
+
+5.4 Component: internal_nodes (subunits)
+Role: The building blocks inside a cNode.
+Internal nodes can be:
+- concept nodes: minimal conceptual units (typed entities, relations, constraints)
+- nested cNodes: full ontologies embedded inside this cNode (recursion)
+This is the mechanism that enables complex concepts to be assembled as networks.
+
+5.5 Component: technical_metaphor_layer (functional mapping layer)
+Role: Transfers structure when formalism is incomplete or when bridging domains.
+This layer MUST be controlled to prevent ambiguity:
+- metaphor_term: "port", "mold", "scaffold" (examples)
+- mapped_structure: what ontology structure it corresponds to (entities/relations/procedures)
+- constraints: what the metaphor is NOT allowed to imply
+- evidence: why the mapping is valid in this context
+This layer is used to accelerate understanding without replacing invariants.
+
+───────────────────────────────────────────────────────────────────────────────
+6) REPRESENTATION / FORMAT (HOW A cNODE IS CARRIED)
+───────────────────────────────────────────────────────────────────────────────
+A cNode must be transportable across projects. Transport requires a stable representation.
+
+6.1 Representation requirements
+QUIZÁS SEA BUENO QUE REFIERAS A LAS DISTINTAS SECCIONES DE ESTE DOCUMENTO QUE EJEMPLIFICAN CADA UNA DE ESTAS PARTES. 
+- Self-contained: no hidden external assumptions required to interpret identity. (ESTO DA FORTALEZA AL HECHO QUE COMENTÉ ARRIBA: NO ESTÁ MAL USAR TÉRMINOS NUEVOS, SIEMPRE Y CUANDO LOS DEFINAS EN LA SECCIÓN 3) KEY TERMS)
+- Addressable: must have a stable identifier (name + version).
+- Ingestible: must be readable by humans and by Artificial Intelligence (AI).
+- Mergeable: must support deterministic integration into a graph.
+
+6.2 Minimal schema (conceptual)
+QUIZÁS SEA BUENO QUE REFIERAS A LAS DISTINTAS SECCIONES DE ESTE DOCUMENTO QUE EJEMPLIFICAN CADA UNA DE ESTAS PARTES. 
+LO DIGO PORQUE AYUDARÍA TANTO A LA IA COMO A LOS HUMANOS A COMPRENDER MEJOR. RECUERDA QUE ESTA ES LA DEFINICIÓN DE UN CNODE, 
+BÁSICAMENTE ES UN CNODE QUE DESCRIBE QUÉ ES UN CNODE, HABRÁ MUCHAS COSAS CIRCULARES, PERO ES NECESARIO PARA QUE ESTO SIRVA COMO 
+BASE PARA EL DESARROLLO DE CNODES EN EL FUTURO. 
+A minimal portable cNode representation can be expressed as:
+- id: canonical identifier (including version)
+- cognitive_node: internal ontology core
+- orchestrator: internal composition controller
+- graph_patch: integration surface
+- metadata: status, audience, purpose, provenance pointers
+
+6.3 Practical representation example (one option)
+JavaScript Object Notation Lines (JSONL) can be used as a transport format when needed:
+- one JSON object per line
+- stable keys: { id, cognitive_node, orchestrator, graph_patch, metadata }
+This is an implementation choice, not the definition itself.
+NO ESTÁ MAL ESTO, AUNQUE ESE ES EL EJEMPLO QUE ESTUVE TRABAJANDO SOBRE ARTEFACTO. DE ALGUNA FORMA SOSPECHO QUE SON PARECIDOS (Y 
+POR LO QUE VEO, TÚ TAMBIEN TIENES NOCIONES DE QUE LO SON). SÓLO QUERÍA RESALTAR ESTE PUNTO YA QUE EN LA DISCUSIÓN POSTERIOR QUE 
+TENGO PLANEADA REGRESARÉ A ESTE PUNTO. 
+
+───────────────────────────────────────────────────────────────────────────────
+7) EXAMPLES
+───────────────────────────────────────────────────────────────────────────────
+7.1 Canonical example (concept-level): "DOG" cNode
+Core idea:
+Two humans can both correctly think "dog" while imagining different instances.
+A DOG cNode prevents divergence by encoding identity and allowed variation.
+
+DOG.cognitive_node (weak ontology example):
+- entities: Dog, Human
+- relations: (Dog hasTrait Trait), (Human owns Dog), (Dog isAnimal Animal)
+- invariants (identity boundary): "Dog is a domesticated animal capable of the role X"
+  (the exact invariant must be chosen by the project; the point is: it is explicit)
+- variation_domain: breed, color, size, personal exemplar, cultural context
+- validation: checks that an instance respects invariants while allowing variation
+
+DOG.graph_patch:
+- PROVIDES: "pet-concept", "domesticated-animal-role"
+- REQUIRES: "animal-base-ontology" (optional)
+- ALIASES: maps "canine" → Dog, etc.
+
+Result:
+Dalmatian and German Shepherd become valid variations under the same identity boundary,
+instead of uncontrolled divergent meanings.
+
+7.2 Edge example (stress test): "DOG" that violates invariants
+If an instance labeled "dog" violates the identity invariants (for example, it is not an animal),
+then it is no longer a valid instance of the DOG cNode. This clarifies boundaries.
+
+7.3 System-level example: building a complex concept from cNodes
+Suppose a project defines:
+- cNode:Scheduling
+- cNode:TimeZone
+- cNode:Identity
+A larger cNode:ClinicSystem can contain those cNodes as internal_nodes, and orchestrator rules
+define how they interact. graph_patch then exposes the composite ontology to the larger graph.
+
+───────────────────────────────────────────────────────────────────────────────
+8) CAPABILITIES (WHAT IT ENABLES)
+───────────────────────────────────────────────────────────────────────────────
+TAL VEZ SERÍA BUENO UN PEQUEÑO EJEMPLO PARA CADA UNA DE ESTAS CAPABILITIES, SERÍA ÚTIL PARA UNA IA 
+COMPRENDER MEDIANTE EL EJEMPLO, ASÍ SE REDUCIRÍA AMBIGUEDAD. 
+Once a cNode exists, new classes of operations become possible:
+
+8.1 Consistent reasoning across time and stakeholders
+- The same concept can be reused months later with preserved identity.
+- Different readers can validate whether they mean the same thing.
+ESTO ES JUSTO LO QUE PENSABA CON MEMORIA COGNITIVA. AUNQUE MI IDEA ES UN POCO DISTINTA: 
+EL HECHO DE QUE UN CNODE PERMITA CAPTURAR UN cognitive process (an idea, concept, design, plan, or method) PERMITE 
+GUARDAR DICHOS PROCESOS DE UNA FORMA DETERMISTA, PERO NO SE LIMITA AHÍ PUESTO QUE SI GUARDO UN PROCESO, ENTONCES LO IMPORTANTE 
+ES QUE PUEDO REPLICAR DICHO PROCESO DE FORMA AUTÓNOMA, POR EJEMPLO, SI CREO UN PROCESO Y DESPUÉS LO PONGO COMO PARTE DE UN DOCUMENTO Y 
+LO AÑADO A UN PROYECTO DE CHATGPT CON LA INSTRUCCIÓN: "CUANDO TE ENVÍE EL COMANDO "EJECUTA EL PROYECTO X PARA RESOLVER ESTE PROBLEMA",
+QUIERO QUE USES ESTE PROCESO (EL QUE RECIÉN COMPARTO) PARA HACERLO" ENTONCES CHATGPT SABRÁ QUÉ HACER CON EL PROBLEMA QUE LE PRESENTO, ES 
+DECIR: ESTOY CREANDO UNA FORMA DE REPLICAR DICHOS PROCESOS; ES JUSTO LO QUE DICES CON The same concept can be reused months later with preserved identity
+PERO QUERÍA ACLARARLO. 
+
+8.2 Deterministic integration into networks of concepts
+- Multiple ontologies can be composed into a COGNITIVE graph without hidden conflicts.
+- Aliases and adapters make divergence explicit and resolvable.
+
+8.3 Scalable construction of complex systems
+- Complex concepts become buildable as networks of cNodes (recursive composition).
+- Internal nodes can be replaced or refined while invariants preserve identity.
+
+8.4 Validation and quality control
+- A cNode can be unit-tested via its checklist and validation criteria.
+- Drift is detectable: changes that break invariants are visible.
+
+8.5 Transfer of structure, not only words
+- Technical metaphor layer accelerates shared understanding while remaining controlled.
+- The concept can be moved across domains without losing its operational form.
+
+───────────────────────────────────────────────────────────────────────────────
+9) WORKFLOW LOOP (HOW IT IS USED ITERATIVELY)
+───────────────────────────────────────────────────────────────────────────────
+
+EN LA SIGUIENTE PREGUNTA TE PEDIRÉ QUE TRABAJEMOS CREANDO UN EJEMPLO QUE LUEGO PONDREMOS AQUÍ PARA MEJORAR LA DEFINICIÓN. 
+A repeatable cNode workflow is:
+
+Step 1 — Capture the internal cognitive process
+- Identify the concept to externalize (idea, plan, method, design).
+- Write the minimal problem statement (why it must exist).
+
+Step 2 — Project to explicit identity
+- Declare entities and relations.
+- Declare invariants (identity boundary) and domain of variation.
+
+Step 3 — Build operational hooks
+- Specify procedures and validation criteria.
+- Add technical metaphors only if they map to explicit structure.
+
+Step 4 — Assemble the package
+- Fill cognitive_node (internal ontology).
+- Fill orchestrator (internal composition rules).
+- Fill graph_patch (export surface and integration profile).
+
+Step 5 — Integrate into the graph
+- Negotiate aliases and adapters with existing cNodes.
+- Merge deterministically with provenance.
+
+Step 6 — Iterate without breaking identity
+- Expand examples, strengthen validation, refine vocabulary.
+- Only change invariants deliberately, because that changes identity.
+
+Step 7 — Version the cNode
+- Use Semantic Versioning (SemVer): MAJOR.MINOR.PATCH
+  - MAJOR: identity boundary changes (invariants change)
+  - MINOR: compatible extensions inside allowed variation
+  - PATCH: clarifications, examples, non-identity notes
+
+───────────────────────────────────────────────────────────────────────────────
+10) PRACTICAL NOTES (OPTIONAL, NOT IDENTITY-DEFINING)
+───────────────────────────────────────────────────────────────────────────────
+- Vocabulary control is a first-class requirement. If synonyms are allowed, they must be mapped.
+- Technical metaphors must never replace invariants. They only accelerate understanding when
+  anchored to explicit structure and constraints.
+- Always-integrable does not mean "no conflicts ever". It means conflicts are representable,
+  negotiable, and resolvable without hidden context.
+- Avoid term collisions: do not reuse reserved terms (for example, "artifact") inside the cNode
+  definition unless explicitly redefining them with strong disambiguation.
+
+───────────────────────────────────────────────────────────────────────────────
+11) QUICK SELF-CHECKLIST (UNIT TEST OF THE DEFINITION)
+───────────────────────────────────────────────────────────────────────────────
+Use this checklist to validate whether a candidate object qualifies as a cNode:
+
+[ ] Does it explicitly define entities and relations (ontology core), not only prose?
+[ ] Does it explicitly separate invariants (identity boundary) from allowed variation?
+[ ] Does it specify procedures and/or validation criteria (operationality)?
+[ ] Does it include an orchestrator role that defines internal composition and export assembly?
+[ ] Does it include an explicit integration surface (graph_patch) for joining a cNode network?
+[ ] Can internal nodes be concepts or other cNodes (compositional recursion)?
+[ ] Are ambiguous terms disambiguated and synonyms controlled (aliases mapped)?
+[ ] Can a reader with zero prior context reuse this definition without hidden assumptions?
+[ ] If the cNode changes, is versioning consistent with identity changes versus extensions?
+
+END OF DOCUMENT

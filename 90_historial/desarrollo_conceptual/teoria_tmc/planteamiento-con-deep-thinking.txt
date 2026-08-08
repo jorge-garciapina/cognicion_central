@@ -1,0 +1,72 @@
+DEL CHAT: https://chatgpt.com/g/g-p-68c4bc347e248191905bbd76543c7631/c/6984ffd4-6684-8325-9054-9f3a600ae5b6
+================================================================================
+PLANTEAMIENTO — ROL OPERATIVO (CONTORNO DE OPERACIÓN)
+Versión: borrador (definición base, sin familias todavía)
+Propósito: fijar qué significa “rol operativo” como propiedad estructural de una
+manifestación cognitiva (mNode), de modo que pueda describirse, evaluarse y
+reconocerse sin depender de etiquetas, tema o contexto privado.
+================================================================================
+
+0. Intención del concepto
+“Rol operativo” nombra el tipo de operación que una manifestación cognitiva realiza
+sobre información cuando está en uso. No describe “de qué trata” (tema), sino “qué
+hace como forma”: qué transformación impone, qué estabiliza, qué organiza, qué guía
+o qué vuelve posible en la conducta o el razonamiento.
+
+1. Definición mínima (núcleo)
+Un rol operativo es el contorno estructural de una operación cognitiva: el conjunto
+mínimo de efectos estructurales y restricciones de uso que permiten identificar que
+una manifestación está operando como un cierto modo (por ejemplo: definir, planear),
+incluso si cambian el contenido, la redacción, el contexto o el ejemplar particular.
+
+2. Condiciones necesarias del rol operativo (derivables del núcleo del grafo)
+2.1 Anclaje en “cognición como capacidad de operar sobre información”
+El rol operativo solo tiene sentido bajo una lectura operativa de la cognición: si
+la cognición opera sobre información, entonces el rol operativo identifica el tipo
+de operación efectivamente realizada (qué operación está ocurriendo).
+
+2.2 Sensibilidad a condiciones externas (manifestación condicionada)
+Un mismo agente puede requerir operaciones distintas según la situación. Por eso,
+el rol operativo se reconoce como un patrón que puede volverse dominante bajo
+ciertas condiciones externas (tipo de tarea, restricciones, presión, riesgo de error).
+
+2.3 Descripción por estructura transferible (no por etiqueta)
+Para que el rol operativo sea compartible y no dependa de intuición privada, debe
+poder describirse con límites explícitos: qué no puede faltar para que “siga siendo
+ese rol” y qué puede variar sin romperlo.
+
+3. Qué significa “contorno de operación”
+Llamar “contorno” al rol operativo implica que se expresa como borde verificable:
+- Qué hace (efecto estructural sobre información y/o acción).
+- Qué controla o estabiliza (qué mantiene fijo para que la operación funcione).
+- Qué vuelve decidible (qué criterio permite aplicar: “cuenta / no cuenta”).
+- Qué admite variación sin perder identidad operativa (variación permitida).
+
+4. Formato recomendado de expresión (sin introducir familias todavía)
+El rol operativo se redacta como una firma breve y auditable del uso:
+
+ROL OPERATIVO (CONTORNO DE OPERACIÓN):
+- Efecto estructural primario: [SLOT: QUÉ TRANSFORMA/ESTABILIZA/ORGANIZA].
+- Decisión que habilita: [SLOT: QUÉ PERIESA DECIDIR O CONSTRUIR].
+- Restricción mínima de operación: [SLOT: QUÉ NO PUEDE FALTAR EN LA OPERACIÓN].
+- Variación permitida sin colapso: [SLOT: QUÉ PUEDE CAMBIAR Y SEGUIR SIENDO EL MISMO ROL].
+- Indicadores observables (criterios prácticos): [SLOT: SEÑALES PARA RECONOCERLO EN USO].
+
+5. Reglas de uso (para evitar degradación conceptual)
+- No confundir rol operativo con tema: el tema puede cambiar sin cambiar el rol.
+- No definir rol operativo como “propósito psicológico” o “intención”: se identifica
+  por efectos estructurales verificables sobre información y/o acción.
+- No permitir que el rol dependa de “se siente como”: debe poder justificarse por
+  un contorno explícito (borde), no por ejemplares autobiográficos.
+- No reducir el rol a una palabra (“definir”, “planear”) sin declarar el contorno:
+  la palabra es un nombre; el rol es la estructura de operación que el nombre intenta señalar.
+
+================================================================================
+SLOTS (PARA PEGAR DESPUÉS, SI SE REQUIERE)
+================================================================================
+[SLOT: EFECTO ESTRUCTURAL PRIMARIO]
+[SLOT: DECISIÓN / FUNCIÓN DE USO QUE HABILITA]
+[SLOT: RESTRICCIONES MÍNIMAS DE OPERACIÓN]
+[SLOT: DOMINIO DE VARIACIÓN PERMITIDO]
+[SLOT: INDICADORES OBSERVABLES / CRITERIOS PRÁCTICOS]
+================================================================================

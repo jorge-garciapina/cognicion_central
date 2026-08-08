@@ -1,0 +1,93 @@
+• cNode como puente entre ideas en bruto y ontologías complejas  
+Debido a que no quisiera caer en un sesgo, es importante aclarar  
+algunas cosas (principalmente límites conceptuales) entre cNode  
+y ontología.
+
+• Una ontología es un compromiso fuerte: vocabulario controlado,  
+  categorías, relaciones tipadas y reglas.  
+• Una idea en bruto es un objeto pre-ontológico: tiene forma,  
+  pero todavía no tiene tipado ni límites claros.
+
+Entonces, el cNode funciona como:  
+1 → captura pre-ontológica (estructural sin obligar a cerrar todo).  
+2 → contenedor de evolución (versionado, refinamientos).  
+3 → vehículo de tipificación gradual (introducir tipos y restricciones  
+    conforme madure).  
+4 → interfaz de integración (PROVIDES, REQUIRES, CONSTRAINTS, TYPES,  
+    ALIASES cuando haga falta).
+
+El cNode es el “estado intermedio” donde el pensamiento ya es  
+operable sin quedar encerrado en una ontología demasiado rígida.  
+
+→ cNode = puente entre “idea en bruto” y “ontología” ←
+
+Con esta aclaración me es más sencillo ver que mis ideas previas,  
+si bien no están del todo equivocadas si estaban tratando de  
+exceder los límites de un cNode, sin embargo, también es verdad  
+que no necesito definir una ontología para cada cosa.
+
+Necesito definir cuándo es necesaria la ontología y cuándo es suficiente  
+con un cNode:
+
+• Ontología:  
+  * Necesaria cuando planeo llevar a cabo la “ejecución” de una idea,  
+    por ejemplo, para definir la intención o el núcleo de una cApp.  
+  * A pesar de relacionarse con el punto de arriba, también necesito  
+    definir una ontología para:  
+    ▪ Modelos estructurales base (mie-31-dic-2025, página 8) los cuales  
+      describen el contexto del sujeto.  
+      En este punto es especialmente importante puesto que, por ejemplo,  
+      en un contexto de distribución como TikTok las condiciones  
+      deben ser distintas que para Instagram.  
+    ▪ A pesar de haber relegado un poco ese estudio, la ontología  
+      también será necesaria para llevar a cabo la manifestación de  
+      intervenciones concretas, como publicaciones, por ejemplo, para  
+      definir la estructura, emociones y heurísticas.
+
+* Todo lo que se quiera representar usando cytoscape.js. En este  
+  caso la ontología es requisito.
+
+• cNode:  
+  * Son útiles cuando quiero plasmar un concepto, quizás como  
+    parte del estudio o como una forma de almacenar distintos  
+    puntos de vista sobre un tema. La condición que se busca  
+    es: transferir o proyectar algo de mi mente al sistema, sin  
+    que esto sea con la intención de ejecutar sino de almacenar.
+
+  * El cNode no es “arquitectura”, sino un micro-modelo local  
+    con capacidad de integración. Funcionan bajo el principio  
+    “always-integratable”: cualquier nodo puede integrarse con cualquier  
+    otro si:  
+      • declara lo que provee y lo que requiere.  
+      • declara invariantes.  
+      • define adaptadores cuando cambie vocabulario.
+
+Los cNodes permiten construir ecosistemas con partes (cNodes)  
+integrables, aunque no tengan la profundidad de una ontología,  
+son útiles para explorar, expandir, generar, condensar conceptos.
+
+• cNode como mecanismo para externalizar las ideas.  
+Cuando una idea se convierte en cNode, ocurre una externalización con  
+propiedades nuevas:  
+  • Repetibilidad: el mismo nodo puede ser reusado por humanos y  
+    por IA sin depender del estado mental original.  
+  • Explicabilidad: se puede recorrer el grafo, inspeccionar subnodos y  
+    justificar aristas.  
+  • Auditabilidad: se pueden registrar evidencias, decisiones y cambios  
+    entre versiones.  
+  • Extensibilidad: el nodo puede conectarse a nuevos dominios mediante  
+    adaptadores o M-M.
+
+• Definición provisional de cNode:  
+Un cNode es una proyección estructural deliberada de un proceso cognitivo interno,  
+materializada como un objeto integrable en un grafo, diseñado para transferir  
+forma operativa (no solo contenido), reducir ambigüedad, preservar invariantes y  
+permitir adopción controlada mediante mapeos (metáforas) o M-M, de modo que  
+la idea se vuelve repetible, explicable, auditable y extensible.
+
+La ontología también almacena. Quizás lo importante es que el cNode  
+es más simple, la ontología, compleja.
+
+LA CONCLUSIÓN SE ME HACE BASTANTE DEBIL PARA DECIR QUE EL cNode Y LA ONTOLOGÍA SON COSAS COMPLETAMENTE DISTINTAS, YA QUE SE 
+TENDRÍAN QUE DEFINIR PARÁMETROS QUE DELIMITEN BIEN QUÉ ES UN cNode Y QUÉ ES UNA ONTOLOGÍA, LO CUAL ES MÁS COMPLEJO. SIENTO 
+QUE UN cNode DEFINE UNA ONTOLOGÍA LA CUAL PUEDE SER SIMPLE O MUY DETALLADA, PERO AL FINAL, SON LA MISMA COSA

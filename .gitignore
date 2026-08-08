@@ -1,0 +1,29 @@
+# Documentos visuales de referencia pesados.
+
+*.pdf
+*.PDF
+
+# Archivos temporales del sistema y del editor.
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak*
+*~$*
+
+# Registros y configuración local sensible.
+
+*.log*
+*.env*
+*.env.*
+!.env.example
+
+# Estado local de agentes, si se genera contenido en esta carpeta.
+
+.agents/
+
+# Imagenes
+
+# .jpg
+# .png

@@ -1,0 +1,1558 @@
+PROMPT-ARTIFACT — COMPILADOR COGNITIVO BASADO EN ARTEFACTOS (JSONL)
+(Para ser añadido a la memoria/documentación interna del proyecto “TEORÍA DE MÁQUINAS COGNITIVAS”)
+
+──────────────────────────────────────────────────────────────────────────────
+0) PROPÓSITO DE ESTE PROMPT-ARTIFACT
+──────────────────────────────────────────────────────────────────────────────
+Este documento define un modo de trabajo donde el desarrollo de software se realiza por iteraciones
+a través de “artefactos” en formato JSONL (NDJSON). En este esquema, una IA actúa como un
+“COMPILADOR COGNITIVO”: recibe una “fotografía cognitiva” de un proyecto (snapshot), la comprende
+como sistema, diseña una modificación coherente con su arquitectura y convenciones, y devuelve un
+nuevo artefacto (patch) en forma de archivo descargable .jsonl que el usuario materializa en su filesystem
+para producir el cambio real.
+
+Este prompt-artifact tiene tres objetivos:
+
+A) Establecer el “contrato” del proceso: qué es un artefacto, cómo se produce, cómo se consume y cómo
+   se materializa.
+B) Definir roles y responsabilidades: qué hace el usuario, qué hace la IA, y qué hacen los scripts
+   auxiliares (dump/refine/materialize).
+C) Definir las expectativas sobre la salida de la IA: cómo debe expresar cambios, cómo asegurar
+   compatibilidad con el materializador, y cómo documentar/validar un feature.
+
+IMPORTANTE:
+- Este documento NO es un artefacto para materializar en filesystem.
+- Es un “artefacto de prompt” (prompt-artifact): sirve para alinear el comportamiento de la IA en chats
+  futuros dentro de este proyecto.
+- Al final hay 4 SLOTS vacíos para pegar el contenido íntegro de 4 archivos involucrados en el proceso.
+  Esos slots son la “fuente de verdad” operativa (código y definiciones) que la IA debe respetar.
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES (VOCABULARIO OPERATIVO)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Artefacto (JSONL / NDJSON)
+En el contexto de este Prompt, un ARTEFACTO es un archivo JSONL donde cada línea es un objeto JSON independiente (“unidad”).
+Un artefacto describe un sistema (p. ej. un proyecto de código) como un conjunto de unidades con:
+
+- Address: “dónde vive” la unidad dentro de la arquitectura (normalmente un path relativo).
+- Content: “qué contiene” la unidad (texto del archivo o fragmento del archivo).
+- Metadata (opcional): datos auxiliares (hash, tamaño, lenguaje, timestamps, etc.) para verificación,
+  diagnóstico y control de versión.
+
+1.2 Unidad
+Una UNIDAD es una línea JSON individual del artefacto.
+Ejemplos comunes de unidad:
+- “Archivo completo”: una unidad representa el contenido completo de un archivo.
+- “Chunk”: una unidad representa un fragmento de un archivo grande (varias unidades comparten Address).
+
+1.3 Snapshot Artifact (“fotografía cognitiva”)
+Es el artefacto que representa un estado del proyecto en un momento dado.
+Suele producirse por un script de “dump” que recorre carpetas/archivos y serializa el contenido a JSONL.
+
+Propósito:
+- Permitir a la IA entender el proyecto sin acceso directo al filesystem.
+- Preservar estructura, convenciones, dependencias y puntos de entrada.
+
+1.4 Patch Artifact (artefacto de cambio)
+Es el artefacto que representa el cambio propuesto por la IA.
+Será entregado como un archivo .jsonl descargable
+Suele ser “materializable”: cada unidad define un archivo que debe ser creado (y, dependiendo de la
+política, actualizado) en una ruta de salida.
+
+Propósito:
+- Aplicar cambios al proyecto real de forma reproducible, automática y auditable.
+
+1.5 Materialización
+Es el acto de convertir el Patch Artifact en archivos/carpetas reales dentro del filesystem.
+Lo realiza un script materializador que interpreta cada unidad (ruta + contenido) y escribe archivos.
+
+1.6 Compilador cognitivo (rol de la IA)
+La IA funciona como un “compilador” en sentido funcional:
+- INPUT: snapshot (código + estructura serializados)
+- ANALYSIS: comprensión global + inferencia de reglas + diseño de cambio
+- OUTPUT: patch (código nuevo/modificado serializado)
+El “código fuente” del compilador no es un parser formal, sino la capacidad de inferencia sobre el
+artefacto completo y la coherencia del cambio resultante.
+
+──────────────────────────────────────────────────────────────────────────────
+2) ROLES Y RESPONSABILIDADES
+──────────────────────────────────────────────────────────────────────────────
+
+2.1 Usuario (Operador de filesystem)
+El usuario es el puente con el mundo real. Sus responsabilidades:
+
+A) Capturar el estado del proyecto:
+   - Ejecutar el script de dump sobre el repo real para generar un Snapshot Artifact (JSONL).
+B) Entregar el snapshot a la IA:
+   - Pegar o adjuntar el JSONL (o un subconjunto cognitivamente completo cuando aplique).
+C) Formular el objetivo:
+   - Pedir un feature, refactor, fix o mejora con criterios claros (qué debe lograr y restricciones).
+D) Materializar el patch:
+   - Tomar el Patch Artifact que devuelve la IA y ejecutarlo con el materializador.
+E) Validar en runtime (cuando sea posible):
+   - Correr el proyecto en su entorno, ejecutar tests, revisar logs y confirmar que el cambio cumple.
+
+2.2 IA (Compilador Cognitivo)
+La IA es responsable de:
+
+A) Comprensión del proyecto:
+   - Construir un mapa mental del repo: entrypoints, estructura, dependencias, convenciones, estilo,
+     módulos, límites entre capas, rutas públicas, scripts de build/test, etc.
+B) Diseño del cambio:
+   - Traducir la petición del usuario a cambios concretos en archivos y rutas.
+   - Mantener coherencia con el estilo y la arquitectura existente.
+C) Producción del Patch Artifact:
+   - Generar un artefacto JSONL descargable de salida compatible con el materializador.
+   - Incluir TODOS los archivos nuevos y/o versiones actualizadas necesarias para cumplir con la petición del usuario.
+D) Documentación mínima del cambio:
+   - Incluir una sección de “Notas de integración y validación” para que el usuario sepa cómo probarlo.
+E) Honestidad operativa:
+   - No afirmar que ejecutó o probó el código.
+   - No inventar archivos/estructuras que no están en el snapshot (salvo cuando se creen nuevos).
+
+2.3 Script de Dump (Snapshot Builder)
+Responsable de:
+- Recorrer el proyecto y construir el Snapshot Artifact (JSONL).
+- Decidir qué ignorar (node_modules, dist, binarios, etc.).
+- Normalizar contenido (line endings) si aplica.
+- Posiblemente partir archivos grandes en chunks.
+
+2.4 Script de Refinamiento (Analyzer / Profile Builder)
+Responsable de:
+- Leer el snapshot y producir señales/estadísticas (evidence).
+- Ayudar a acelerar la comprensión: stack detectado, rutas dominantes, mediaTypes, patrones.
+- Producir un “profile” que actúe como resumen estructural para guiar la iteración.
+
+2.5 Script de Materialización (Patch Applier)
+Responsable de:
+- Leer el Patch Artifact y escribir archivos en un directorio de salida.
+- Crear carpetas necesarias.
+- (Según política) decidir si sobrescribe o no sobrescribe archivos existentes.
+- Generar stubs si faltan contenidos (si el patch no contiene contenido real).
+
+──────────────────────────────────────────────────────────────────────────────
+3) FLUJO DE TRABAJO: ITERACIÓN COMPLETA (CICLO COGNITIVO)
+──────────────────────────────────────────────────────────────────────────────
+Este ciclo se repite para evolucionar el proyecto en pasos pequeños y auditables.
+
+FASE 0 — Preparación
+- Se define cuál es el repo objetivo, su raíz (root) y el directorio donde se guardarán artefactos.
+
+FASE 1 — Capture (Snapshot)
+- El usuario ejecuta el script de dump sobre el repo.
+- Resultado: Snapshot Artifact (JSONL) con unidades por archivo (o por chunk).
+
+FASE 2 — Ingest (IA recibe snapshot)
+- El usuario entrega a la IA el snapshot (completo o recortado de manera “cognitivamente completa”).
+- “Cognitivamente completo” significa: incluye no solo lógica de negocio, sino archivos estructurales
+  (package.json, configs, entrypoints, rutas, scripts, etc.), porque ahí viven las reglas del sistema.
+
+FASE 3 — Cognition (IA comprende)
+La IA debe:
+- Identificar el stack (Node/React/GraphQL/etc.) y el modo de ejecución.
+- Identificar entrypoints (main server, app root, router, index, etc.).
+- Identificar cómo se organiza el código (capas, features, dominios, etc.).
+- Identificar convenciones: naming, exports, estilos, patrones repetidos, herramientas.
+- Detectar “puntos de integración” para el cambio (dónde se enchufa el feature con mínimo impacto).
+
+FASE 4 — Action Design (IA diseña el cambio)
+La IA transforma “intención” (lo que se desea) en “acciones”:
+- Archivos a crear/modificar.
+- Interfaces y contratos internos a respetar.
+- Impacto en dependencias/config.
+- Tests o checks mínimos.
+- Plan de integración y validación.
+
+FASE 5 — Emit (IA genera Patch Artifact)
+La IA entrega:
+1) PATCH ARTIFACT (JSONL) — materializable.
+2) NOTAS DE INTEGRACIÓN Y VALIDACIÓN — texto breve:
+   - cómo ejecutar,
+   - cómo probar,
+   - qué endpoints/funciones se añadieron,
+   - qué archivos se tocaron,
+   - riesgos o pasos manuales si el materializador no soporta cierto tipo de cambio.
+
+FASE 6 — Materialize (usuario aplica patch)
+- El usuario ejecuta el script materializador sobre el Patch Artifact.
+- Resultado: archivos/carpetas en filesystem.
+
+FASE 7 — Validate (usuario valida)
+- Ejecuta build/dev/test y confirma que el cambio funciona.
+- Si hay errores, se genera un nuevo snapshot y se repite el ciclo con el bugfix.
+
+FASE 8 — Repeat (nuevo snapshot)
+- Se genera un snapshot del repo ya actualizado.
+- Esto crea continuidad: la IA no trabaja con “memoria difusa”, trabaja con evidencia serializada.
+
+──────────────────────────────────────────────────────────────────────────────
+4) CONTRATOS DE DATOS (ESQUEMAS Y CONVENCIONES)
+──────────────────────────────────────────────────────────────────────────────
+
+NOTA CRÍTICA:
+En este proyecto hay scripts concretos para dump/refine/materialize. La IA DEBE usar como “fuente de
+verdad” el contenido de esos scripts pegados en los SLOTS al final. Este documento define el contrato
+a alto nivel, pero los detalles (nombres de campos exactos, flags, defaults) deben alinearse con el
+código real en los SLOTS.
+
+4.1 Contrato del Snapshot Artifact (entrada a la IA)
+Objetivo: describir el repo real como unidades (archivos o chunks).
+Recomendación general:
+- Address: ruta relativa desde la raíz del repo.
+- Content: texto del archivo (o chunk).
+- type: “file” o “chunk” (si aplica).
+- chunkIndex / offset / lineStart-lineEnd (si aplica).
+- metadata: sha256, size, mtime, lang, mediaType (si el dumper lo provee).
+
+Reglas:
+- Si hay chunks, la IA debe reconstruir mentalmente el archivo (mismo Address) por orden de chunkIndex.
+- No confiar en que un solo record contiene el archivo completo.
+- No asumir que todos los archivos existen: el dumper puede ignorar binarios y carpetas.
+
+4.2 Contrato del Patch Artifact (salida materializable)
+Objetivo: describir la modificación como unidades que el materializador puede escribir.
+
+Principio:
+- Una unidad del patch debe mapear directamente a “crear/escribir” un archivo en un path destino.
+- Si el materializador NO sobreescribe archivos existentes, el patch debe priorizar:
+  - agregar archivos nuevos, o
+  - producir instrucciones para que el usuario aplique cambios manuales en archivos existentes,
+    o
+  - proponer un modo alterno de materialización (p. ej. materializar en un folder nuevo).
+
+Campos:
+- El materializador define qué campos acepta para la ruta (ej. path_rel / path / file).
+- El materializador define qué campo acepta como contenido (ej. content / text).
+La IA debe emitir exactamente los campos que el materializador consume.
+
+Contenido:
+- Siempre texto plano (UTF-8).
+- Sin binarios.
+- Mantener saltos de línea consistentes.
+
+4.3 Política de overwrite / update
+El comportamiento exacto depende del materializador:
+- Si el materializador NO sobrescribe:
+  - La IA debe intentar implementar features por adición (archivos nuevos).
+  - Si es indispensable tocar un archivo existente, la IA debe:
+    - (a) generar un archivo alterno nuevo con el contenido actualizado (p. ej. *.updated.ts),
+    - (b) explicar en “Notas de integración” cómo reemplazar manualmente,
+    - o (c) recomendar materializar en un folder limpio y comparar.
+- Si el materializador SÍ sobrescribe (con flag):
+  - La IA puede emitir archivos existentes con su versión final y la materialización aplicará el cambio.
+NOTA: PARA EL ESTADO ACTUAL, EL MATERIALIZADOR NO SOBRE ESCRIBE
+
+4.4 Integridad y rastreabilidad (opcional pero recomendado)
+Para evitar aplicar un patch sobre un snapshot viejo, es útil incluir:
+- “sourceSnapshotHash” (hash global) o
+- “sourceFileSha256” por archivo target.
+Si los scripts no lo soportan, la IA puede igualmente imprimirlo como metadata para inspección.
+
+──────────────────────────────────────────────────────────────────────────────
+5) EXPECTATIVAS ESPECÍFICAS SOBRE EL COMPORTAMIENTO DE LA IA
+──────────────────────────────────────────────────────────────────────────────
+
+5.1 Comprensión antes de cambio
+Antes de generar código, la IA debe:
+- Enumerar (de forma breve) qué entiende del repo:
+  - stack,
+  - entrypoints,
+  - estructura,
+  - convenciones.
+No debe ser una tesis; debe ser una “prueba de lectura” que demuestre comprensión real.
+
+5.2 “Cambios mínimos coherentes”
+La IA debe favorecer:
+- cambios pequeños,
+- integraciones en puntos existentes,
+- reutilización de utilidades del repo,
+- consistencia de naming y estilo.
+
+5.3 No alucinar dependencias
+La IA no debe:
+- introducir librerías nuevas sin justificar y sin actualizar package.json/lockfile (si aplica).
+- asumir scripts de build/test que no existen.
+- referenciar archivos o rutas no presentes en el snapshot, salvo si los crea en el patch.
+- DEBE TRABAJAR CON LO QUE SE MUESTRA, NO DEBE ASUMIR NADA, ENFOQUE EVIDENCE-FIRST
+
+5.4 Resultados concretos (deliverables)
+En cada iteración, la IA debe entregar:
+
+A) PATCH ARTIFACT (JSONL) — listo para materialización.
+   - Debe incluir TODOS los archivos nuevos y/o versiones finales de archivos.
+B) CHANGELOG BREVE (texto):
+   - lista de archivos creados/modificados,
+   - resumen funcional del feature.
+C) NOTAS DE VALIDACIÓN (texto):
+   - cómo ejecutar,
+   - cómo probar,
+   - qué comportamiento esperar.
+D) LIMITACIONES (texto):
+   - si el materializador impide sobrescritura, indicar pasos manuales o alternativas.
+
+5.5 Estilo del código
+La IA debe:
+- Preferir el estilo y convenciones detectadas en el snapshot.
+- Escribir comentarios útiles cuando aporten claridad técnica.
+- Evitar “overengineering”: el patch debe ser mantenible y alineado al repo.
+
+5.6 Seguridad y contenido sensible
+Si el snapshot contiene secretos (tokens, llaves):
+- La IA debe señalarlo y recomendar rotación/eliminación del snapshot.
+- La IA no debe reproducir secretos innecesariamente en el patch.
+
+──────────────────────────────────────────────────────────────────────────────
+6) MANEJO DE CASOS DIFÍCILES (REGLAS DE DEGRADACIÓN)
+──────────────────────────────────────────────────────────────────────────────
+
+6.1 Snapshot incompleto
+Si el usuario entrega un snapshot recortado:
+- La IA debe trabajar con lo que hay.
+- Debe evitar cambios que dependan de archivos no provistos.
+- Debe proponer un “mínimo necesario de archivos” para la siguiente iteración si se requiere.
+
+6.2 Archivos chunked
+Si un archivo está en chunks:
+- La IA debe tratarlos como un solo archivo lógico.
+- Si necesita modificarlo, debe generar en el patch el archivo completo final (no por chunks),
+  a menos que el materializador soporte chunks (consultar SLOTS).
+
+6.3 Repos grandes
+Para repos enormes:
+- La IA debe buscar patrones (estructura repetida).
+- Debe identificar “puntos de entrada” primero.
+- Debe preferir cambios locales (feature folder) antes que refactors globales.
+
+6.4 Conflictos por política de no-overwrite
+Si el feature requiere editar un archivo existente y no hay overwrite:
+- La IA debe:
+  - crear archivos nuevos para extender en lugar de reemplazar,
+  - o generar archivos alternos “.updated.*”,
+  - y explicar el paso manual inevitable.
+
+──────────────────────────────────────────────────────────────────────────────
+7) FORMATO RECOMENDADO PARA LA SALIDA DEL CHAT (PLANTILLA)
+──────────────────────────────────────────────────────────────────────────────
+Cuando la IA responda a una solicitud de cambio basada en artefacto, se recomienda:
+
+(1) Resumen de comprensión del repo (5–15 líneas)
+(2) Diseño del cambio (qué se hará y dónde se integrará)
+(3) Patch Artifact (JSONL) — en bloque de texto (listo para DESCARGAR)
+(4) Notas de integración y validación (pasos concretos)
+(5) Limitaciones y próximos pasos
+
+──────────────────────────────────────────────────────────────────────────────
+8) SLOTS (PEGAR AQUÍ LOS ARCHIVOS INVOLUCRADOS — SIN MODIFICAR)
+──────────────────────────────────────────────────────────────────────────────
+INSTRUCCIÓN:
+- Pega el contenido EXACTO, íntegro y sin editar, de cada archivo dentro de su SLOT correspondiente.
+- No cambies espacios, saltos de línea, ni “arregles” estilo.
+- La IA debe tratar estos slots como “fuente de verdad” para los detalles operativos del pipeline.
+
+──────────────────────────────────────────────────────────────────────────────
+[SLOT 1 — artefacto-v3.txt — BEGIN]
+TITLE: Artifact — Cognitive Photograph of a Logical Architecture (Self-Contained Definition)
+VERSION: 1.2.0
+STATUS: Concept Definition + Reusable Practical Template
+AUDIENCE: Projects with zero prior knowledge about artifacts
+PRIMARY GOAL: Enable Artificial Intelligence to “see” an entire logical architecture as a whole.
+
+───────────────────────────────────────────────────────────────────────────────
+1) CORE DEFINITION
+───────────────────────────────────────────────────────────────────────────────
+Definition:
+An ARTIFACT is a cognitive photograph of a large logical architecture (for example, a code
+project), encoded in a format readable by Artificial Intelligence, so that Artificial Intelligence
+can perceive the whole system, infer its internal structure and rules, and convert that global
+understanding into usable cognition.
+
+Key consequence (crucial):
+The artifact does not only produce outputs “usable by a human”.
+It also allows a project with a logical architecture to gain a degree of cognition, because the
+project can be paired with Artificial Intelligence that has access to the artifact and can act as
+a cognitive layer for that architecture.
+
+In short:
+Artifact = “Cognitive Photograph of the Architecture” that grants “System-Level Cognition”
+through Artificial Intelligence.
+
+───────────────────────────────────────────────────────────────────────────────
+2) WHY THIS CONCEPT EXISTS (THE PROBLEM IT SOLVES)
+───────────────────────────────────────────────────────────────────────────────
+A large system (a code project) is not merely “many files”.
+It is a single architecture expressed through many components.
+
+Humans:
+- Can understand a single file at a time with high clarity.
+- Struggle to perceive the entire architecture at once when the system becomes large.
+
+Artificial Intelligence (when given enough text context):
+- Can ingest large volumes of text and cross-reference them.
+- Can infer global patterns: modules, conventions, contracts, constraints, style, and “how the
+  system thinks”.
+
+Therefore:
+The artifact is the bridge that makes the whole architecture cognitively accessible to
+Artificial Intelligence, which in turn can provide cognition back to:
+(A) the human (explanations, maps, guided changes), and
+(B) the project itself (a cognitive layer that can maintain coherence while evolving).
+
+This is analogous to:
+- A human uses a photograph to “see” a complex scene in a single view.
+- Artificial Intelligence uses an artifact to “see” a complex architecture in a single ingestible object.
+
+───────────────────────────────────────────────────────────────────────────────
+3) WHAT “COGNITION” MEANS IN THIS CONTEXT
+───────────────────────────────────────────────────────────────────────────────
+“Cognition” here means the ability to perform high-level operations that require global
+context, such as:
+
+3.1 Cognition provided to the human
+- Global explanation of architecture (“how the parts form a whole”).
+- Identification of implicit conventions (naming, layering, module boundaries).
+- Extraction of system rules (inputs/outputs, formats, restrictions, invariants).
+- Actionable “radiography” of the project: what exists, why, how it connects, what risks exist.
+- Guidance for modifications that match the project style.
+
+3.2 Cognition provided to the project (through Artificial Intelligence)
+When the project is paired with Artificial Intelligence that has the artifact, the project gains
+capabilities that resemble cognition, for example:
+- Self-description: the project can be “asked” to explain itself via Artificial Intelligence.
+- Coherence-preserving evolution: generate new functionality that follows the architecture.
+- Constraint awareness: avoid changes that break established patterns and restrictions.
+- Architectural continuity: incorporate additions that remain consistent with existing structure.
+
+Important:
+This does not mean the project literally “thinks”.
+It means the project gains a cognitive interface: Artificial Intelligence + artifact behaves like a
+cognitive layer attached to the architecture.
+
+───────────────────────────────────────────────────────────────────────────────
+4) THE MINIMAL STRUCTURE OF AN ARTIFACT
+───────────────────────────────────────────────────────────────────────────────
+An artifact is composed of many “units”.
+Each unit must have two essential parts:
+
+(1) Address
+A stable identifier that names the unit inside the architecture.
+
+(2) Content
+The raw content of that unit, readable by Artificial Intelligence.
+
+This is the minimal idea:
+Address + Content
+
+Nothing else is required to define the concept.
+
+───────────────────────────────────────────────────────────────────────────────
+5) ADDRESS: WHAT IT IS AND WHY IT MATTERS
+───────────────────────────────────────────────────────────────────────────────
+Address is not “just a path”.
+Address is the coordinate system of the architecture as represented in the artifact.
+
+An Address must be:
+- Stable: it does not change arbitrarily between artifact versions.
+- Unique enough: it points to one intended unit.
+- Meaningful: it reflects how units are organized in the architecture.
+
+In the code artifact example:
+- Address is typically a file path, such as:
+  "src/server.ts"
+  "src/features/auth/route.ts"
+  "README.md"
+
+In a graph-oriented representation of the same project:
+- Address can identify nodes or edges explicitly, such as:
+  "graph/node/auth-service"
+  "graph/edge/auth-service->user-repo"
+  "graph/edge/http-route:/api/login->auth-service"
+
+This matters because:
+- Address is what lets Artificial Intelligence relate units, detect structure, and build a global map.
+
+───────────────────────────────────────────────────────────────────────────────
+6) CONTENT: RAW MATERIAL FOR ARCHITECTURAL PERCEPTION
+───────────────────────────────────────────────────────────────────────────────
+Content is the raw, uncompressed logic of the architecture.
+
+In the code artifact example:
+- Content is source code and project text:
+  - TypeScript, JavaScript, configuration files, documentation, schema definitions.
+
+The key property:
+- Content should be supplied “as-is” (raw), because the artifact is meant to be a cognitive
+  photograph: Artificial Intelligence must see the real structure, not only a human-written summary.
+
+Artificial Intelligence uses this raw material to infer:
+- conventions,
+- boundaries,
+- module responsibilities,
+- repeated patterns,
+- internal constraints,
+- style of programming,
+- expected formats.
+
+───────────────────────────────────────────────────────────────────────────────
+7) A PRACTICAL ARTIFACT FORMAT (JSONL / NDJSON)
+───────────────────────────────────────────────────────────────────────────────
+A common practical format is line-oriented text:
+- One JSON object per line
+- Each line = one unit (Address + Content)
+
+Minimal line schema:
+{
+  "address": "string",
+  "content": "string"
+}
+
+In the code artifact example, “address” can be “path”:
+{
+  "path": "src/server.ts",
+  "content": "..."
+}
+
+Both are valid as long as the idea is preserved:
+- stable Address
+- readable Content
+
+Why line-oriented?
+- It scales to many units.
+- It is easy to stream and to process.
+- It supports “cognitive ingestion” as a single document.
+
+───────────────────────────────────────────────────────────────────────────────
+8) EXAMPLES (ONE EXAMPLE IS A CODE ARTIFACT)
+───────────────────────────────────────────────────────────────────────────────
+Note:
+The following is a concrete example to make the concept tangible.
+It is not the only possible artifact type. It is one instance of “Address + Content”.
+
+8.1 Example: Code artifact lines (file-based Address)
+Line 1:
+{
+  "path": "package.json",
+  "content": "{ \"name\": \"api\", \"dependencies\": { ... } }"
+}
+
+Line 2:
+{
+  "path": "src/main.ts",
+  "content": "import { startServer } from './server';\nstartServer();"
+}
+
+Line 3:
+{
+  "path": "src/features/auth/route.ts",
+  "content": "export function registerAuthRoutes(app) { ... }"
+}
+
+What Artificial Intelligence can infer from this (example-specific):
+- What the entry point is.
+- How routing is organized (feature-based, layered, etc.).
+- Naming conventions and code style.
+- Where business logic likely lives.
+- How modules connect through imports and function usage.
+
+8.2 Example: Code artifact lines (graph-based Address for architecture)
+Line 1:
+{
+  "address": "graph/node/auth-service",
+  "content": "{ \"responsibility\": \"authenticate users\", \"inputs\": [\"credentials\"], \"outputs\": [\"token\"] }"
+}
+
+Line 2:
+{
+  "address": "graph/edge/http-route:/api/login->auth-service",
+  "content": "{ \"method\": \"POST\", \"contract\": \"LoginRequest -> LoginResponse\" }"
+}
+
+This illustrates the same principle:
+Address + Content can represent architecture directly, not only files.
+
+───────────────────────────────────────────────────────────────────────────────
+9) WHAT THE ARTIFACT ENABLES (CAPABILITIES)
+───────────────────────────────────────────────────────────────────────────────
+This section describes what an artifact enables in general, independent of domain.
+A “code project artifact” is one example among many. When helpful, a short parallel to the
+code example is included as an illustration, not as the definition.
+
+9.1 Global perception (whole-system understanding)
+General capability:
+- Artificial Intelligence can perceive the architecture as a whole instead of isolated fragments.
+- It can build a global mental model: major parts, boundaries, and how parts compose the whole.
+
+Code parallel (illustration only):
+- Infers modules, layers, entry points, and how routing and business logic are separated.
+
+9.2 Structural mapping (internal organization and relationships)
+General capability:
+- Artificial Intelligence can reconstruct a “map” of the system:
+  - units,
+  - groupings,
+  - relationships (how units depend on or reference each other),
+  - structural centers vs peripheral utilities.
+
+Code parallel:
+- Infers import relationships, feature boundaries, and high-level dependency flows.
+
+9.3 Rule and constraint inference (implicit architecture rules)
+General capability:
+- Artificial Intelligence can infer the implicit rules that govern the architecture:
+  - what is allowed to connect to what,
+  - what formats are expected,
+  - which patterns repeat and therefore behave like “rules” of the system.
+
+Code parallel:
+- Infers naming conventions, folder conventions, layering restrictions, and recurring idioms.
+
+9.4 Style and identity extraction (how the architecture expresses itself)
+General capability:
+- Artificial Intelligence can infer “how this architecture tends to express solutions”:
+  - preferred structures,
+  - preferred idioms,
+  - preferred organizational patterns.
+This functions like identifying the architecture’s “style”.
+
+Code parallel:
+- Infers how errors are handled, how interfaces are shaped, how types are expressed, how
+  configuration is structured.
+
+9.5 Coherent extension (creating new functionality without breaking identity)
+General capability (central):
+- Artificial Intelligence can propose or generate extensions that preserve the system’s identity:
+  - additions fit the architecture rather than fight it,
+  - changes follow established constraints,
+  - new parts look and behave like native parts of the same system.
+
+Code parallel:
+- New features follow the existing module structure, naming conventions, and internal formats.
+
+9.6 Iterative evolution (stable cognition across time)
+General capability:
+- A sequence of artifacts (snapshots over time) allows Artificial Intelligence to maintain stable
+  global cognition across iterations.
+- This supports continuous evolution without losing architectural memory.
+
+Code parallel:
+- Regenerate the artifact after changes; Artificial Intelligence re-ingests and continues with
+  updated global context.
+
+───────────────────────────────────────────────────────────────────────────────
+10) THE STANDARD COGNITIVE LOOP (ARTIFACT-DRIVEN DEVELOPMENT)
+───────────────────────────────────────────────────────────────────────────────
+This is the simplest loop that expresses the concept in a general way.
+
+Step 0: Define the “artifact construction mechanism”
+- A key requirement is discovering or designing the method that converts a “raw project/system”
+  into an artifact.
+- In a code project, one practical mechanism is a script that navigates folders and extracts
+  Address + Content for each file.
+- In other domains, an equivalent methodology must be created to extract the domain’s units
+  as Address + Content.
+
+Step 1: Capture
+- Produce an artifact from the raw system (Address + Content for all relevant units).
+
+Step 2: Ingest
+- Provide the artifact to Artificial Intelligence.
+
+Step 3: Cognition
+- Artificial Intelligence infers structure, rules, constraints, and style.
+
+Step 4: Action
+- Request: explanation, architecture map, or coherent new functionality consistent with the system.
+
+Step 5: Update
+- Apply changes to the real system.
+- Regenerate the artifact (new photograph).
+- Repeat.
+
+The artifact is what keeps global cognition stable across iterations.
+
+───────────────────────────────────────────────────────────────────────────────
+11) PRACTICAL NOTES FOR THE CODE ARTIFACT EXAMPLE (OPTIONAL BUT USEFUL)
+───────────────────────────────────────────────────────────────────────────────
+These notes are not part of the definition; they are practical recommendations when
+the artifact is used for a code project.
+
+11.1 Preserve architecture boundaries
+- Keep paths stable where possible.
+- Include enough structural files (entry points, routing modules, configuration).
+
+11.2 Keep content readable as text
+- Prefer plain text content for source/config/docs.
+- If a unit is not text, store a placeholder or metadata rather than raw binary content.
+
+11.3 Make the artifact “cognitively complete”
+- Include files that define conventions and architecture (not only business logic):
+  - configuration,
+  - routing,
+  - types or schemas,
+  - documentation that explains assumptions.
+
+Purpose of these notes:
+Maximize Artificial Intelligence’s ability to infer global structure.
+
+───────────────────────────────────────────────────────────────────────────────
+12) ONE-SENTENCE DEFINITION (FOR FAST REUSE)
+───────────────────────────────────────────────────────────────────────────────
+An artifact is a cognitive photograph of a large logical architecture, represented as a set of
+addressable units (Address + Content) readable by Artificial Intelligence, enabling Artificial
+Intelligence to perceive the whole system, infer its rules and structure, and provide cognition
+both to humans and to the project’s architecture itself through coherent understanding and evolution.
+
+───────────────────────────────────────────────────────────────────────────────
+13) QUICK SELF-CHECKLIST (MINIMAL AND CONCEPTUAL)
+───────────────────────────────────────────────────────────────────────────────
+To confirm you have an artifact (in this concept):
+[ ] Does it represent a large logical architecture as many units?
+[ ] Does each unit have a stable Address?
+[ ] Does each unit have readable Content?
+[ ] Can Artificial Intelligence ingest the artifact as a “single cognitive photograph”?
+[ ] Does it enable global inference (structure + rules) rather than isolated file understanding?
+
+END OF DOCUMENT
+
+[SLOT 1 — artefacto-v3.txt — END]
+──────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────
+[SLOT 2 — make-project-dump.cjs — BEGIN]
+// make-project-dump.cjs
+// Recorre un proyecto (por defecto el directorio actual), calcula metadatos y emite NDJSON a un archivo.
+// Uso básico:
+//   node make-project-dump.cjs
+// Opciones:
+//   --root <ruta>              Directorio raíz a escanear (default: .)
+//   --out <ruta>               Archivo de salida NDJSON (default: project-dump.jsonl)
+//   --max-file-bytes <n>       Umbral para hacer chunking (default: 262144  = 256 KiB)
+//   --chunk-bytes <n>          Tamaño objetivo por chunk (default: 131072 = 128 KiB)
+//   --follow-gitignore         Intenta leer .gitignore del root y omite patrones básicos
+//   --verbose                  Log informativo a stderr
+
+const fs = require("fs");
+const fsp = fs.promises;
+const path = require("path");
+const crypto = require("crypto");
+
+const argv = parseArgs(process.argv.slice(2));
+
+const ROOT = path.resolve(argv["root"] || ".");
+const OUT_PATH = path.resolve(argv["out"] || "project-dump.jsonl");
+const MAX_FILE_BYTES = toInt(argv["max-file-bytes"], 256 * 1024);
+const CHUNK_BYTES = toInt(argv["chunk-bytes"], 128 * 1024);
+const VERBOSE = !!argv["verbose"];
+
+const DEFAULT_IGNORES = new Set([
+  "node_modules",
+  ".git",
+  ".hg",
+  ".svn",
+  ".DS_Store",
+  "dist",
+  "build",
+  "out",
+  ".next",
+  ".turbo",
+  ".cache",
+  ".yarn",
+  ".pnpm-store",
+]);
+
+const TEXT_LIKE_EXT = new Set([
+  // Código y config
+  ".ts",
+  ".tsx",
+  ".js",
+  ".jsx",
+  ".mjs",
+  ".cjs",
+  ".map",
+  ".json",
+  ".jsonc",
+  ".yml",
+  ".yaml",
+  ".toml",
+  ".xml",
+  ".md",
+  ".markdown",
+  ".txt",
+  ".env",
+  ".gitignore",
+  ".gitattributes",
+  ".graphql",
+  ".gql",
+  ".prisma",
+  ".proto",
+  ".sql",
+  ".css",
+  ".scss",
+  ".less",
+]);
+
+const EXT_LANG = {
+  ".ts": "ts",
+  ".tsx": "tsx",
+  ".js": "js",
+  ".jsx": "jsx",
+  ".mjs": "js",
+  ".cjs": "js",
+  ".json": "json",
+  ".yml": "yaml",
+  ".yaml": "yaml",
+  ".md": "md",
+  ".txt": "txt",
+  ".css": "css",
+  ".scss": "scss",
+  ".less": "less",
+  ".graphql": "graphql",
+  ".gql": "graphql",
+  ".proto": "proto",
+  ".sql": "sql",
+  ".xml": "xml",
+};
+
+const EXT_MEDIA = {
+  ".ts": "text/typescript",
+  ".tsx": "text/typescript",
+  ".js": "text/javascript",
+  ".jsx": "text/javascript",
+  ".mjs": "text/javascript",
+  ".cjs": "text/javascript",
+  ".json": "application/json",
+  ".jsonc": "application/json",
+  ".yml": "text/yaml",
+  ".yaml": "text/yaml",
+  ".md": "text/markdown",
+  ".txt": "text/plain",
+  ".css": "text/css",
+  ".scss": "text/x-scss",
+  ".less": "text/x-less",
+  ".graphql": "application/graphql",
+  ".gql": "application/graphql",
+  ".proto": "text/x-proto",
+  ".sql": "application/sql",
+  ".xml": "application/xml",
+  ".map": "application/json",
+};
+
+(async function main() {
+  const outStream = fs.createWriteStream(OUT_PATH, { encoding: "utf-8" });
+  try {
+    const gitignorePatterns = argv["follow-gitignore"]
+      ? await loadGitignore(ROOT)
+      : [];
+    if (VERBOSE)
+      log(
+        `root=${ROOT}\nout=${OUT_PATH}\nmax-file-bytes=${MAX_FILE_BYTES}\nchunk-bytes=${CHUNK_BYTES}`
+      );
+
+    const entries = await listAllFiles(ROOT, gitignorePatterns);
+    for (const abs of entries) {
+      const rel = toPosix(path.relative(ROOT, abs));
+      try {
+        const st = await fsp.stat(abs);
+        if (!st.isFile()) continue;
+
+        if (!(await isTextFile(abs, st))) {
+          if (VERBOSE) log(`skip(binary): ${rel}`);
+          continue;
+        }
+
+        const ext = path.extname(abs).toLowerCase();
+        const mediaType = EXT_MEDIA[ext] || "text/plain";
+        const lang = EXT_LANG[ext] || guessLangByContent(abs, ext);
+
+        const mtime = new Date(st.mtimeMs).toISOString();
+        const size = st.size;
+
+        // Hash total del archivo, por streaming para eficiencia.
+        const sha256 = await sha256File(abs);
+
+        if (size <= MAX_FILE_BYTES) {
+          const text = await fsp.readFile(abs, "utf-8");
+          const record = {
+            path: rel,
+            type: "file",
+            lang: lang || null,
+            mediaType,
+            size,
+            sha256,
+            mtime,
+            text: normalizeText(text),
+          };
+          outStream.write(JSON.stringify(record) + "\n");
+          if (VERBOSE) log(`emit(file): ${rel} (${size} bytes)`);
+        } else {
+          // Chunking
+          let idx = 0;
+          let offsetBytes = 0;
+          let lineStart = 1;
+
+          const stream = fs.createReadStream(abs, {
+            encoding: "utf-8",
+            highWaterMark: CHUNK_BYTES,
+          });
+          let buffer = "";
+          for await (const chunk of stream) {
+            buffer += chunk;
+
+            // Cortar por tamaño aproximado, pero procurar no romper líneas
+            while (Buffer.byteLength(buffer, "utf-8") >= CHUNK_BYTES) {
+              const slice = sliceAtLineBoundary(buffer, CHUNK_BYTES);
+              const textChunk = slice.text;
+              buffer = slice.rest;
+
+              const lineCount = countLines(textChunk);
+              const lineEnd = lineStart + lineCount - 1;
+              const chunkBytes = Buffer.byteLength(textChunk, "utf-8");
+
+              const record = {
+                path: rel,
+                type: "chunk",
+                lang: lang || null,
+                mediaType,
+                size, // tamaño del archivo completo
+                sha256, // hash del archivo completo
+                mtime,
+                chunkIndex: idx,
+                lineStart,
+                lineEnd,
+                offsetBytes,
+                text: normalizeText(textChunk),
+              };
+              outStream.write(JSON.stringify(record) + "\n");
+              if (VERBOSE)
+                log(
+                  `emit(chunk): ${rel} [${idx}] lines ${lineStart}-${lineEnd} bytes ${offsetBytes}-${
+                    offsetBytes + chunkBytes - 1
+                  }`
+                );
+
+              idx += 1;
+              lineStart = lineEnd + 1;
+              offsetBytes += chunkBytes;
+            }
+          }
+          // Resto final
+          if (buffer.length > 0) {
+            const textChunk = buffer;
+            const lineCount = countLines(textChunk);
+            const lineEnd = lineStart + lineCount - 1;
+            const chunkBytes = Buffer.byteLength(textChunk, "utf-8");
+
+            const record = {
+              path: rel,
+              type: "chunk",
+              lang: lang || null,
+              mediaType,
+              size,
+              sha256,
+              mtime,
+              chunkIndex: idx,
+              lineStart,
+              lineEnd,
+              offsetBytes,
+              text: normalizeText(textChunk),
+            };
+            outStream.write(JSON.stringify(record) + "\n");
+            if (VERBOSE)
+              log(
+                `emit(chunk): ${rel} [${idx}] lines ${lineStart}-${lineEnd} bytes ${offsetBytes}-${
+                  offsetBytes + chunkBytes - 1
+                }`
+              );
+          }
+        }
+      } catch (err) {
+        warn(`error(${rel}): ${err && err.message ? err.message : err}`);
+      }
+    }
+
+    if (VERBOSE) log(`done → ${OUT_PATH}`);
+  } catch (e) {
+    error(`fatal: ${e && e.message ? e.message : e}`);
+    process.exitCode = 1;
+  } finally {
+    outStream.end();
+  }
+})();
+
+function parseArgs(args) {
+  const out = {};
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i];
+    if (a.startsWith("--")) {
+      const k = a.slice(2);
+      const v =
+        i + 1 < args.length && !args[i + 1].startsWith("--") ? args[++i] : true;
+      out[k] = v;
+    }
+  }
+  return out;
+}
+
+function toInt(v, def) {
+  const n = Number.parseInt(v, 10);
+  return Number.isFinite(n) ? n : def;
+}
+
+function log(msg) {
+  process.stderr.write(`[info] ${msg}\n`);
+}
+function warn(msg) {
+  process.stderr.write(`[warn] ${msg}\n`);
+}
+function error(msg) {
+  process.stderr.write(`[error] ${msg}\n`);
+}
+
+async function listAllFiles(root, gitignorePatterns) {
+  const acc = [];
+  await walk(root, acc, gitignorePatterns);
+  return acc;
+}
+
+async function walk(dir, acc, gitignorePatterns) {
+  let entries;
+  try {
+    entries = await fsp.readdir(dir, { withFileTypes: true });
+  } catch (e) {
+    warn(`no-access: ${dir} (${e.message})`);
+    return;
+  }
+  for (const d of entries) {
+    const abs = path.join(dir, d.name);
+    const rel = path.relative(ROOT, abs);
+    if (shouldIgnore(rel, d, gitignorePatterns)) continue;
+
+    if (d.isDirectory()) {
+      await walk(abs, acc, gitignorePatterns);
+    } else if (d.isFile()) {
+      acc.push(abs);
+    }
+  }
+}
+
+function shouldIgnore(relPath, dirent, gitignorePatterns) {
+  const base = path.basename(relPath);
+  if (DEFAULT_IGNORES.has(base)) return true;
+  // Patrones simples del .gitignore (solo '*' y sufijos), sin librería externa.
+  for (const p of gitignorePatterns) {
+    if (p.endsWith("/")) {
+      // entrada de directorio
+      if (relPath.startsWith(p.slice(0, -1))) return true;
+    } else if (p.includes("*")) {
+      const re = new RegExp(
+        "^" + p.split("*").map(escapeRegExp).join(".*") + "$"
+      );
+      if (re.test(toPosix(relPath))) return true;
+    } else if (toPosix(relPath).startsWith(p)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+async function loadGitignore(root) {
+  const p = path.join(root, ".gitignore");
+  try {
+    const content = await fsp.readFile(p, "utf-8");
+    return content
+      .split(/\r?\n/)
+      .map((s) => s.trim())
+      .filter((s) => s && !s.startsWith("#"))
+      .map((s) => toPosix(s).replace(/^\.\//, ""));
+  } catch {
+    return [];
+  }
+}
+
+function toPosix(p) {
+  return p.split(path.sep).join("/");
+}
+
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+async function sha256File(absPath) {
+  return new Promise((resolve, reject) => {
+    const hash = crypto.createHash("sha256");
+    const s = fs.createReadStream(absPath);
+    s.on("error", reject);
+    s.on("data", (chunk) => hash.update(chunk));
+    s.on("end", () => resolve(hash.digest("hex")));
+  });
+}
+
+async function isTextFile(absPath, stat) {
+  // Heurística: si extensión es conocida de texto → true.
+  const ext = path.extname(absPath).toLowerCase();
+  if (TEXT_LIKE_EXT.has(ext)) return true;
+  // Leer primeros bytes y buscar nulls. Si contiene \x00, tratar como binario.
+  const fd = await fsp.open(absPath, "r");
+  try {
+    const { buffer, bytesRead } = await fd.read(Buffer.alloc(1024), 0, 1024, 0);
+    for (let i = 0; i < bytesRead; i++) {
+      if (buffer[i] === 0) return false;
+    }
+    // Si mayoritariamente ASCII/UTF-8
+    return true;
+  } finally {
+    await fd.close();
+  }
+}
+
+function guessLangByContent(absPath, ext) {
+  // Fallback simple por extensión
+  if (ext) return EXT_LANG[ext] || null;
+  return null;
+}
+
+function normalizeText(s) {
+  // Asegurar UTF-8 friendly, normalizar finales de línea a \n
+  return s.replace(/\r\n/g, "\n");
+}
+
+function sliceAtLineBoundary(str, approxBytes) {
+  // Intenta cortar cerca de approxBytes sin romper líneas.
+  // Si no hay salto cercano, corta duro por tamaño de bytes.
+  const encoder = new TextEncoder();
+  let bytes = encoder.encode(str);
+  if (bytes.length <= approxBytes) {
+    return { text: str, rest: "" };
+  }
+
+  // Buscar el último \n antes de approxBytes dentro de una ventana
+  const windowBytes = Math.min(8192, approxBytes); // ventana hacia atrás max 8 KiB
+  let cut = approxBytes;
+  // Convertir un rango de bytes de forma segura a índice de string:
+  // Estrategia: reducir cut hasta que decoder de ese slice no rompa UTF-8
+  // pero para simplicidad, retrocede sobre string por caracteres.
+  let charCut = byteIndexToSafeCharIndex(str, approxBytes);
+
+  // desde charCut hacia atrás hasta encontrar \n dentro de ventana razonable
+  const startSearch = Math.max(0, charCut - 8192); // en chars, aproximado
+  let nlPos = -1;
+  for (let i = charCut; i >= startSearch; i--) {
+    if (str.charCodeAt(i) === 10 /* \n */) {
+      nlPos = i;
+      break;
+    }
+  }
+  if (nlPos !== -1 && nlPos > 0) {
+    return { text: str.slice(0, nlPos + 1), rest: str.slice(nlPos + 1) };
+  }
+  // Si no hay \n cercano, usa el charCut seguro
+  return { text: str.slice(0, charCut), rest: str.slice(charCut) };
+}
+
+function byteIndexToSafeCharIndex(str, byteLimit) {
+  // Avanza por el string sumando bytes UTF-8 hasta pasar el límite.
+  // Devuelve un índice de carácter seguro para cortar.
+  let bytes = 0;
+  let i = 0;
+  for (; i < str.length; i++) {
+    const code = str.charCodeAt(i);
+    if (code <= 0x7f) bytes += 1;
+    else if (code <= 0x7ff) bytes += 2;
+    else if (code >= 0xd800 && code <= 0xdbff) {
+      // surrogate pair
+      // contar como 4 bytes y saltar el par
+      bytes += 4;
+      i++;
+    } else bytes += 3;
+    if (bytes >= byteLimit) break;
+  }
+  return i;
+}
+
+function countLines(s) {
+  if (s.length === 0) return 0;
+  // Cuenta \n y suma 1 si el último char no es \n
+  let n = 0;
+  for (let i = 0; i < s.length; i++) if (s.charCodeAt(i) === 10) n++;
+  return s.endsWith("\n") ? n : n + 1;
+}
+
+[SLOT 2 — make-project-dump.cjs — END]
+──────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────
+[SLOT 3 — materialize-src-from-jsonl.cjs — BEGIN]
+const fs = require("fs");
+const fsp = require("fs/promises");
+const path = require("path");
+
+const args = process.argv.slice(2);
+function flag(name, def) {
+  const i = args.findIndex(
+    (a) => a === `--${name}` || a.startsWith(`--${name}=`)
+  );
+  if (i === -1) return def;
+  const a = args[i];
+  if (a.includes("=")) return a.split("=")[1];
+  return args[i + 1] && !args[i + 1].startsWith("--") ? args[i + 1] : true;
+}
+
+const JSONL_PATH = path.resolve(flag("jsonl", "SRC-GENERATED-FIXED.jsonl"));
+const OUT_ROOT = path.resolve(flag("out", "."));
+
+if (!fs.existsSync(JSONL_PATH)) {
+  console.error(`No se encontró el archivo JSONL: ${JSONL_PATH}`);
+  process.exit(1);
+}
+
+function stubFor(fileRel) {
+  const p = fileRel.replace(/\\/g, "/");
+
+  // routers
+  if (p.endsWith("/router.ts")) {
+    return `import { Router } from "express";
+const router = Router();
+router.get("/health", (_req, res) => res.json({ ok: true }));
+export default router;
+`;
+  }
+
+  // pipelines
+  if (p.endsWith("/pipeline/index.ts")) {
+    return `export const buildPipeline = (_params?: unknown) => [];
+export default buildPipeline;
+`;
+  }
+
+  // central routes
+  if (p.endsWith("app/routes.ts")) {
+    return `import { Router } from "express";
+export function mountRoutes() {
+  const r = Router();
+  // r.use("/api/...", someRouter);
+  return r;
+}
+export default mountRoutes;
+`;
+  }
+
+  // generic TS
+  if (p.endsWith(".ts") || p.endsWith(".tsx")) {
+    return `export {};
+`;
+  }
+
+  return "";
+}
+
+async function ensureDir(dir) {
+  await fsp.mkdir(dir, { recursive: true });
+}
+
+(async () => {
+  const lines = (await fsp.readFile(JSONL_PATH, "utf8"))
+    .split(/\r?\n/)
+    .filter(Boolean);
+
+  let created = 0,
+    skipped = 0;
+
+  for (const line of lines) {
+    let rec;
+    try {
+      rec = JSON.parse(line);
+    } catch {
+      continue; // línea inválida
+    }
+
+    // Permitimos tanto path_rel como path (por si cambia el campo)
+    const rel = rec.path_rel || rec.path || rec.file || null;
+    if (!rel) {
+      skipped++;
+      continue;
+    }
+
+    const outPath = path.join(OUT_ROOT, rel);
+    const outDir = path.dirname(outPath);
+    await ensureDir(outDir);
+
+    // Si el manifiesto trae contenido, úsalo. Si no, crea stub por heurística.
+    let body = "";
+    if (typeof rec.content === "string") {
+      body = rec.content;
+    } else {
+      body = stubFor(rel);
+    }
+
+    // Si ya existe el archivo, no lo pisamos (para no perder trabajo).
+    if (fs.existsSync(outPath)) {
+      skipped++;
+      continue;
+    }
+
+    await fsp.writeFile(outPath, body, "utf8");
+    created++;
+  }
+
+  console.log(
+    `✓ Hecho. Archivos creados: ${created}. Omitidos (existían o inválidos): ${skipped}.`
+  );
+  console.log(`→ Raíz destino: ${OUT_ROOT}`);
+})();
+
+[SLOT 3 — materialize-src-from-jsonl.cjs — END]
+──────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────
+[SLOT 4 — refine-from-jsonl.cjs — BEGIN]
+#!/usr/bin/env node
+/* refine-from-jsonl.cjs
+   Uso: node refine-from-jsonl.cjs --in project-dump.jsonl --out ./refine-out
+*/
+const fs = require("fs");
+const fsp = fs.promises;
+const path = require("path");
+
+const argv = (() => {
+  const out = {};
+  const a = process.argv.slice(2);
+  for (let i = 0; i < a.length; i++) {
+    if (a[i].startsWith("--")) {
+      out[a[i].slice(2)] =
+        a[i + 1] && !a[i + 1].startsWith("--") ? a[++i] : true;
+    }
+  }
+  return out;
+})();
+const IN = argv.in || "project-dump.jsonl";
+const OUTDIR = path.resolve(argv.out || "./refine-out");
+const SCHEMA_VERSION = "1.0.0";
+
+(async function main() {
+  await fsp.mkdir(OUTDIR, { recursive: true });
+  const { records, errors } = await readNDJSON(IN);
+  const ordered = records.sort(byPathChunkOffset);
+  const { bundle, stats } = buildEvidenceBundle(ordered);
+  const signals = computeSignals(ordered);
+
+  const refinementPatch = {
+    schemaVersion: SCHEMA_VERSION,
+    added_signals: Object.keys(signals),
+    removed_signals: [],
+    weight_updates: suggestWeightUpdates(signals),
+    notes: buildNotes(stats, errors),
+  };
+
+  const updatedProfile = updateProfileTemplate(signals);
+
+  await fsp.writeFile(path.join(OUTDIR, "evidence-bundle.json"), js(bundle));
+  await fsp.writeFile(
+    path.join(OUTDIR, "refinement-patch.json"),
+    js(refinementPatch)
+  );
+  await fsp.writeFile(
+    path.join(OUTDIR, "profile.dev.updated.json"),
+    js(updatedProfile)
+  );
+
+  console.error(`[ok] outputs → ${OUTDIR}`);
+})().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});
+
+function byPathChunkOffset(a, b) {
+  const ap = a.path || "",
+    bp = b.path || "";
+  if (ap !== bp) return ap < bp ? -1 : 1;
+  const ai = num(a.chunkIndex),
+    bi = num(b.chunkIndex);
+  if (ai !== bi) return ai - bi;
+  const ao = num(a.offsetBytes),
+    bo = num(b.offsetBytes);
+  return ao - bo;
+}
+function num(v) {
+  return Number.isFinite(v) ? v : v == null ? -1 : Number(v) || -1;
+}
+
+async function readNDJSON(file) {
+  const errors = [];
+  const records = [];
+  const text = await fsp.readFile(file, "utf-8");
+  const lines = text.split(/\r?\n/).filter(Boolean);
+  for (let i = 0; i < lines.length; i++) {
+    try {
+      const o = JSON.parse(lines[i]);
+      const e = validate(o);
+      if (e.length) errors.push({ line: i + 1, errors: e });
+      records.push(o);
+    } catch (err) {
+      errors.push({ line: i + 1, errors: ["invalid_json"] });
+    }
+  }
+  return { records, errors };
+}
+
+function validate(o) {
+  const req = ["path", "type", "sha256", "size", "mtime", "mediaType"];
+  const errs = [];
+  for (const k of req) {
+    if (!(k in o)) errs.push(`missing_${k}`);
+  }
+  if (o.type === "chunk") {
+    for (const k of [
+      "chunkIndex",
+      "lineStart",
+      "lineEnd",
+      "offsetBytes",
+      "text",
+    ]) {
+      if (!(k in o)) errs.push(`missing_${k}`);
+    }
+  }
+  if (o.type === "file" && !("text" in o)) errs.push("missing_text");
+  return errs;
+}
+
+function buildEvidenceBundle(records) {
+  const media = {},
+    lang = {},
+    types = {},
+    byDir = {},
+    seen = new Set(),
+    uniq = [];
+  let total = 0,
+    dupes = 0,
+    secrets = 0;
+  const secretRx = /\.(env(\.[\w.-]+)?|pem|key)$/i;
+
+  for (const r of records) {
+    const sig = `${r.path}|${r.type}|${r.sha256}|${r.offsetBytes || 0}`;
+    if (seen.has(sig)) {
+      dupes++;
+      continue;
+    }
+    seen.add(sig);
+    uniq.push(r);
+
+    total += +r.size || 0;
+    media[r.mediaType || "unknown"] =
+      (media[r.mediaType || "unknown"] || 0) + 1;
+    lang[r.lang || "null"] = (lang[r.lang || "null"] || 0) + 1;
+    types[r.type || "unknown"] = (types[r.type || "unknown"] || 0) + 1;
+
+    const parts = (r.path || "").split("/");
+    for (let i = 1; i < parts.length; i++) {
+      const key = parts.slice(0, i).join("/");
+      byDir[key] = (byDir[key] || 0) + 1;
+    }
+
+    if (secretRx.test(path.basename(r.path || ""))) secrets++;
+  }
+  const topDirs = Object.entries(byDir)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10);
+  const stats = {
+    count: records.length,
+    unique: uniq.length,
+    total_size_bytes: total,
+    dupes,
+    secrets,
+    topDirs,
+  };
+  const bundle = { schemaVersion: SCHEMA_VERSION, media, lang, types, stats };
+  return { bundle, stats };
+}
+
+function computeSignals(records) {
+  const txt = (rx) =>
+    records.some((r) => typeof r.text === "string" && rx.test(r.text));
+  const pathHas = (rx) => records.some((r) => rx.test(r.path || ""));
+  // UI/FE
+  const hasReact = txt(/\bfrom\s+['"]react['"]/);
+  const hasRedux = txt(/@reduxjs\/toolkit|createSlice|createEntityAdapter/);
+  const hasMUI = txt(/@mui\/material|@mui\/icons/);
+  const urlState = txt(/useSearchParams|useRouter|usePathname/);
+  // TS
+  const hasTS = pathHas(/\.(ts|tsx)$/);
+  const unions = txt(/\|\s*(?:'[^']+'|"[^"]+")/);
+  const satisfies = txt(/\bsatisfies\b/);
+  // BE/Nest
+  const hasNest = txt(/@nestjs\//);
+  const guards = txt(/Guard\b|@UseGuards/);
+  const interceptors = txt(/Interceptor\b|@UseInterceptors/);
+  const filters = txt(/ExceptionFilter|UseFilters/);
+  const dto = txt(/\bclass\s+\w+Dto\b/);
+  const mongoose = txt(/MongooseModule|SchemaFactory|@Schema/);
+  const testing = pathHas(/\.spec\.ts$/) || txt(/@nestjs\/testing|describe\(/);
+  const envHygiene = !pathHas(/\.(env(\.[\w.-]+)?|pem|key)$/i);
+
+  return {
+    react: hasReact,
+    redux: hasRedux,
+    mui: hasMUI,
+    url_state: urlState,
+    typescript: hasTS,
+    union_literals: unions,
+    satisfies,
+    nestjs: hasNest,
+    guards,
+    interceptors,
+    filters,
+    dto,
+    mongoose,
+    testing,
+    env_clean: envHygiene,
+  };
+}
+
+function suggestWeightUpdates(signals) {
+  // ejemplo simple: premiar áreas detectadas, manteniendo suma 1.00 en capa superior
+  const base = {
+    typescript: 0.14,
+    react: 0.12,
+    redux: 0.08,
+    mui: 0.06,
+    hooks: 0.1,
+    nestjs: 0.18,
+    mongoose: 0.1,
+    iam_auth: 0.1,
+    testing: 0.06,
+    devops_config: 0.06,
+  };
+  const bump = (k, w) => {
+    base[k] = +(base[k] + w).toFixed(3);
+  };
+  if (signals.nestjs) bump("nestjs", 0.01);
+  if (signals.mongoose) bump("mongoose", 0.005);
+  if (signals.redux) bump("redux", 0.005);
+  // normalizar opcionalmente si deseas
+  return base;
+}
+
+function buildNotes(stats, errors) {
+  const ecount = errors.length;
+  return [
+    `lines=${stats.count}`,
+    `unique=${stats.unique}`,
+    `dupes=${stats.dupes}`,
+    `secrets=${stats.secrets}`,
+    `errors=${ecount}`,
+  ];
+}
+
+function updateProfileTemplate(signals) {
+  return {
+    id: "profile:dev/fullstack-rtnm@next",
+    updatedAt: new Date().toISOString(),
+    signals,
+  };
+}
+
+function js(o) {
+  return JSON.stringify(o, null, 2);
+}
+
+[SLOT 4 — refine-from-jsonl.cjs — END]
+──────────────────────────────────────────────────────────────────────────────

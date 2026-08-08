@@ -1,0 +1,390 @@
+TITLE: Estructura Base de Definición Conceptual (Self-Contained Method + Template)
+VERSION: 1.0.0
+STATUS: Stable methodology for producing reusable concept definitions
+AUDIENCE: Any project with zero prior context about the concept being defined
+PRIMARY GOAL: Produce definitions that are (1) unambiguous, (2) operational, and (3) reusable across contexts.
+
+───────────────────────────────────────────────────────────────────────────────
+0) WHAT THIS DOCUMENT IS (AND WHAT IT IS NOT)
+───────────────────────────────────────────────────────────────────────────────
+This document does not define a particular concept.
+
+Instead, it defines a repeatable “structure of definition” (a base blueprint) for writing a
+definition that is:
+- Self-contained: it can be copied into a new project and still make sense.
+- Auto-descriptive: it explains its own assumptions, vocabulary, and purpose.
+- Operational: it enables action (analysis, design, construction, validation, iteration), not only
+  “philosophical understanding”.
+
+The goal is to answer this meta-problem:
+“How can a definition be written so that it reliably produces understanding, decisions, and
+consistent actions even when the reader has never seen the concept before?”
+
+───────────────────────────────────────────────────────────────────────────────
+1) THE CORE IDEA: A DEFINITION IS AN INTERFACE
+───────────────────────────────────────────────────────────────────────────────
+A useful definition behaves like an interface (in the engineering sense):
+- It names a concept.
+- It gives the concept an identity boundary (what it is).
+- It explains the motivation (why it exists).
+- It specifies the minimum invariants (what must be true for the concept to still be itself).
+- It shows how to use it (what it enables and how it fits in a workflow).
+- It provides quick validation (how to know whether something matches the definition).
+
+Key terms used in this methodology:
+
+1.1 Concept
+A concept is a unit of meaning that allows compression of complexity. It is a “handle” by which
+many details can be reasoned about consistently.
+
+1.2 Identity (of a concept)
+The identity of a concept is the minimal set of properties that cannot change without the concept
+becoming a different thing.
+
+1.3 Invariant
+An invariant is a property that must remain true across all valid instances of the concept.
+
+1.4 Operational definition
+An operational definition specifies conditions under which the concept can be recognized, tested,
+built, or used.
+
+1.5 Capability
+A capability is a concrete class of outcomes that becomes possible once the concept is applied.
+
+You should read the rest of this document as a “construction recipe” for an interface-like
+definition.
+
+───────────────────────────────────────────────────────────────────────────────
+2) WHY DEFINITIONS FAIL (AND WHAT THE BASE STRUCTURE PREVENTS)
+───────────────────────────────────────────────────────────────────────────────
+In practice, definitions fail for predictable reasons:
+
+Failure A: They define by metaphor only.
+- Result: ambiguity. Different readers map the metaphor differently.
+
+Failure B: They define by examples only.
+- Result: the reader copies superficial traits, not the identity.
+
+Failure C: They define by listing many properties, but do not indicate which are essential.
+- Result: the definition becomes untestable.
+
+Failure D: They define “what it is” but never “what it enables”.
+- Result: the definition is not actionable, so it does not get adopted.
+
+Failure E: They assume hidden context.
+- Result: a new project cannot reuse the definition.
+
+The Base Structure prevents these failures by forcing the definition to answer a fixed set of
+questions, ordered from identity → motivation → minimal structure → usage → validation.
+
+───────────────────────────────────────────────────────────────────────────────
+3) THE BASE STRUCTURE AS A QUESTION SET (THE “DEFINITION STACK”)
+───────────────────────────────────────────────────────────────────────────────
+The Base Structure is best understood as a set of questions that must be answered explicitly.
+Each “section” exists because it answers a non-redundant question.
+
+The simplest usable stack is this:
+
+(1) Core Definition:
+- What is it, in one strict paragraph?
+- What single sentence would you reuse in a new project?
+
+(2) Why this concept exists:
+- What problem does it solve?
+- Why is this problem not solved by a simpler concept?
+
+(3) Meaning of key terms:
+- What words inside the definition require clarification to avoid ambiguity?
+
+(4) Minimal structure / invariants:
+- What is the smallest structure that still qualifies as the concept?
+- What cannot be removed?
+
+(5) Components and roles (if the concept has internal parts):
+- What parts exist inside the concept?
+- What does each part do?
+
+(6) Representation / format (when the concept must be “carried” or “encoded”):
+- In what form can the concept be transported or shared?
+- What schema or structure makes it reliably ingestible?
+
+(7) Examples:
+- What is one canonical example that demonstrates the concept without noise?
+- What is one “edge” example that stress-tests the boundaries?
+
+(8) Capabilities:
+- Once the concept exists, what becomes possible?
+- What new class of operations does it unlock?
+
+(9) Workflow loop:
+- How is the concept used iteratively?
+- What is the repeatable cycle: capture → use → update?
+
+(10) Practical notes (optional, not identity-defining):
+- What operational tips improve success without redefining the concept?
+
+(11) Quick checklist:
+- A short list that lets a reader validate: “Does this instance satisfy the concept?”
+
+This is the core of the Base Structure: definition as an ordered ladder of questions.
+
+───────────────────────────────────────────────────────────────────────────────
+4) WHY THIS ORDER WORKS (THE LOGIC OF THE SEQUENCE)
+───────────────────────────────────────────────────────────────────────────────
+The order is not cosmetic. It is cognitive engineering.
+
+4.1 Start with identity (Core Definition)
+Reason:
+If the reader cannot say “what it is” in one paragraph, every later section becomes unstable.
+
+4.2 Immediately justify existence (Why it exists)
+Reason:
+A concept without a problem is a decoration. The problem creates necessity, and necessity makes the
+concept memorable and reusable.
+
+4.3 Clarify key terms early (Meaning of key terms)
+Reason:
+Even a strict definition can contain ambiguous words. This section prevents silent divergence of
+interpretations, especially across projects.
+
+4.4 Only then specify the minimal structure (Invariants)
+Reason:
+The reader must know which properties are essential versus optional. Without invariants, the
+concept cannot be tested.
+
+4.5 Then present components and representation
+Reason:
+Once identity exists, you can safely decompose it into parts, and then show how it is encoded
+in a practical structure.
+
+4.6 Examples come after invariants
+Reason:
+Examples should illustrate invariants, not substitute them.
+
+4.7 Capabilities and workflow come late
+Reason:
+A reader should not be promised outputs before the concept is stable. Once stable, capabilities and
+loops transform the definition from “knowledge” into “tool”.
+
+4.8 Checklist at the end
+Reason:
+A definition is complete only when it can be validated quickly. The checklist is the “unit test”
+of the definition.
+
+───────────────────────────────────────────────────────────────────────────────
+5) HOW TO DECIDE THE “PROBLEM IT SOLVES” (A REPEATABLE METHOD)
+───────────────────────────────────────────────────────────────────────────────
+To decide the problem a concept solves, use this method:
+
+Step 1: Identify the failure mode of the current situation
+- What cannot be done reliably without this concept?
+- What breaks when scale increases (size, complexity, number of parts, number of stakeholders)?
+
+Step 2: Identify the constraint that makes the failure persistent
+- Why is the failure not fixed by “more effort”?
+- What limitation is structural (human cognition, time, fragmentation, distance, scale)?
+
+Step 3: Translate the failure into a single sentence
+Example template:
+“Without Concept X, System Y cannot perform Operation Z reliably because Constraint C prevents
+global coherence.”
+
+Step 4: Validate necessity by “substitution test”
+- Can a simpler concept solve the same problem?
+If yes, your concept is probably not a new concept; it is a variant of an existing one.
+If no, the concept has a legitimate purpose.
+
+This method produces a problem statement that is not arbitrary.
+
+───────────────────────────────────────────────────────────────────────────────
+6) HOW TO NAVIGATE EXISTING MEMORY AND MERGE IT WITH NEW INPUTS
+───────────────────────────────────────────────────────────────────────────────
+A definition often has two sources:
+(A) Existing memory (prior discussions, documents, examples, constraints).
+(B) New user input (fresh corrections, new use cases, new boundaries).
+
+A robust merge method is:
+
+6.1 Build a “facts list” (raw claims, not conclusions)
+- Extract atomic statements: “X has parts A and B”, “X exists because Y fails”, “X uses format F”.
+- Do not rewrite or summarize yet.
+
+6.2 Cluster facts into the Base Structure buckets
+- Place each fact under: identity, motivation, terms, invariants, components, representation,
+  examples, capabilities, workflow, notes, checklist.
+
+6.3 Detect contradictions explicitly
+- If two facts conflict, do not “average” them.
+- Decide which one is identity-defining (invariant-level) and which is optional.
+
+6.4 Build the minimal core first
+- Write Core Definition + Why it exists + Minimal structure using only high-confidence facts.
+
+6.5 Add capabilities and workflow only after the core is stable
+- Capabilities must be consistent with invariants.
+- Workflow must be consistent with representation.
+
+6.6 Perform a “reusability audit”
+Ask:
+- Could a new project with zero context apply this definition?
+- Did you implicitly assume vocabulary, tooling, or background knowledge?
+
+6.7 Freeze vocabulary (synonym control)
+- Choose one canonical term for each idea.
+- List synonyms only if needed, and map them explicitly.
+
+This merge process is what prevents drift across iterations.
+
+───────────────────────────────────────────────────────────────────────────────
+7) MINI WORKED EXAMPLE (ONLY TO ILLUSTRATE THE BASE STRUCTURE)
+───────────────────────────────────────────────────────────────────────────────
+This example is intentionally minimal and only exists to show how the Base Structure is applied.
+
+Concept name: “Artifact” (briefly defined for this example only)
+Working meaning for this example:
+An artifact is a “cognitive photograph” of a large logical architecture, encoded in a format
+ingestible by Artificial Intelligence (AI), so that AI can perceive the whole architecture and
+derive structure, rules, and coherent changes.
+
+Mapping to the Base Structure:
+
+(1) Core Definition:
+- “Artifact = cognitive photograph of architecture, ingestible by AI.”
+
+(2) Why it exists:
+- Problem: humans cannot reliably perceive the entire architecture at once when it becomes large.
+- AI can ingest large text volumes, but needs the architecture in one package.
+
+(3) Meaning of key terms:
+- “Cognitive photograph”: not a literal image; it means a single object that makes the whole
+  perceivable.
+- “Architecture”: the organized system, not merely “many files”.
+
+(4) Minimal structure / invariants:
+- The minimal structure can be expressed as:
+  Address + Content (a stable identifier plus raw material that AI can read).
+
+(5) Components:
+- Address: the coordinate system for locating units.
+- Content: the raw material for inferring structure.
+
+(6) Representation:
+- A practical representation can be JavaScript Object Notation Lines (JSONL), which is one
+  JavaScript Object Notation (JSON) object per line.
+
+(7) Examples:
+- Code project example: one line per file: {path, content}.
+- Architecture-direct example: one line per graph node: {address, content}.
+
+(8) Capabilities:
+- Architecture summary, rule extraction, style inference, coherent extension of the system.
+
+(9) Workflow loop:
+- Capture → Ingest → Cognition → Action → Update → repeat.
+
+(10) Practical notes:
+- If content is truncated, the cognition is partial.
+- Excluding secrets prevents leakage.
+
+(11) Checklist:
+- Does each unit have Address and Content?
+- Is the content readable by AI?
+- Does the artifact cover enough of the architecture to infer global rules?
+
+The point is not “artifact”. The point is the template: every section answers a distinct question.
+
+───────────────────────────────────────────────────────────────────────────────
+8) THE TEMPLATE YOU CAN REUSE (COPY/PASTE SKELETON)
+───────────────────────────────────────────────────────────────────────────────
+Use this skeleton to define ANY concept.
+
+TITLE: <Concept Name> — <Short Identity Phrase>
+VERSION: <Semantic Versioning (for example, 1.0.0)>
+STATUS: <Draft | Stable | Deprecated>
+AUDIENCE: <Who will read this with zero context?>
+PRIMARY GOAL: <What this definition enables?>
+
+1) CORE DEFINITION
+- Definition (one strict paragraph).
+- One-sentence definition (for fast reuse).
+
+2) WHY THIS CONCEPT EXISTS (THE PROBLEM IT SOLVES)
+- Problem statement.
+- Structural constraint that makes the problem persistent.
+- Why simpler ideas fail.
+
+3) KEY TERMS (DISAMBIGUATION)
+- Term A: meaning in this definition.
+- Term B: meaning in this definition.
+(Only include terms that could produce ambiguity.)
+
+4) MINIMAL STRUCTURE / INVARIANTS
+- Invariant 1.
+- Invariant 2.
+- “If you remove X, it is no longer this concept.”
+
+5) COMPONENTS (IF APPLICABLE)
+- Component 1: role.
+- Component 2: role.
+- How components interact.
+
+6) REPRESENTATION / FORMAT (IF APPLICABLE)
+- Minimal schema.
+- Constraints (what must be readable, stable, aligned).
+
+7) EXAMPLES
+- Canonical example.
+- Edge example (stress test).
+
+8) CAPABILITIES (WHAT IT ENABLES)
+- Capability group 1 (analysis, design, extension, validation, etc.).
+- Capability group 2.
+
+9) WORKFLOW LOOP (HOW IT IS USED ITERATIVELY)
+- Step 1.
+- Step 2.
+- Step 3.
+(Include “update and repeat” if it matters.)
+
+10) PRACTICAL NOTES (OPTIONAL)
+- Tips that improve success but do not define identity.
+
+11) QUICK SELF-CHECKLIST
+- 5–12 short checks that validate compliance with the definition.
+
+───────────────────────────────────────────────────────────────────────────────
+9) QUALITY GATES (HOW TO KNOW YOUR DEFINITION IS “GOOD”)
+───────────────────────────────────────────────────────────────────────────────
+A definition built with this Base Structure passes if:
+
+Gate 1: Reusability
+A reader with zero context can use it without asking: “what do you mean by X?”
+
+Gate 2: Testability
+A reader can take a candidate instance and decide whether it matches the concept.
+
+Gate 3: Actionability
+The definition naturally suggests what to do next (capabilities + workflow).
+
+Gate 4: Stability under iteration
+If the concept evolves, you can update:
+- identity (rarely),
+- invariants (carefully),
+- examples and practical notes (often),
+without collapsing the whole definition.
+
+Gate 5: Minimalism
+You include only sections that answer necessary questions.
+If a section does not answer a distinct question, it is noise.
+
+───────────────────────────────────────────────────────────────────────────────
+10) FINAL NOTE: WHY THIS CAN SCALE ACROSS PROJECTS
+───────────────────────────────────────────────────────────────────────────────
+Projects differ in domain, but definitions fail for the same structural reasons:
+ambiguity, hidden assumptions, lack of invariants, lack of operational meaning.
+
+This Base Structure is a domain-independent solution: it is a stable “definition interface”
+that can carry any concept, as long as you fill it with facts, invariants, and workflows
+appropriate to that concept.
+
+END OF DOCUMENT

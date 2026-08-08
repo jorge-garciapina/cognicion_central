@@ -1,0 +1,18 @@
+DEBIDO A QUE NINGUNA DE LAS RESPUESTAS QUE OBTENGO DE TU PARTE SON SATISFACTORIAS, CREARÉ ESTA VERSIÓN EN LA QUE AÑADIRÉ MANUALMENTE 
+LAS SECCIONES. 
+NO SERÁ UNA VERSIÓN FINAL, PERO ESTARÁ ENCAMINADA A HACER QUE PODAMOS HALLAR UNA VERSIÓN DEFINITIVA. 
+
+
+───────────────────────────────────────────────────────────────────────────────
+0) EXECUTIVE STATEMENT (ONE PARAGRAPH, HIGH PRECISION)
+───────────────────────────────────────────────────────────────────────────────
+A Cognitive Node (cNode) is an ontology produced by a deliberate projection of a cognitive
+process into an explicit, self-contained, integrable structure. The defining feature is not
+“being an ontology” (many things are ontologies), but being the explicit projection of a
+cognitive process (an idea, plan, method, design, or reasoning procedure) into a package that:
+(1) preserves identity through invariants and an explicit domain of variation,
+(2) remains operable through procedures and validation criteria,
+(3) remains compositional through internal nodes that can include other cNodes,
+and (4) remains always-integrable through an explicit integration surface that connects the
+cNode to a shared graph of other cNodes without requiring hidden context. In this framework,
+a cNode IS an ontology (weak or strong), and it is defined to be portable across projects.

@@ -1,0 +1,428 @@
+COMENTARIOS GENERALES: 
+- AHORA QUE LO PIENSO, EL HECHO DE QUE SEA UNA PROYECCIÓN DE ALGÚN PROCESO COGNITIVO FUNCIONA CASI COMO 
+  UNA INVARIANTE: NO CUALQUIER ONTOLOGÍA ES UN CNODE, SÓLO AQUELLA QUE ES PRODUCIDA COMO PROYECCIÓN DE UN mNode. 
+  HAY UNA ACLARACIÓN IMPORTANTE: CUANDO AVANCE, ES POSIBLE QUE HAYA cNodes CONSTRUÍDOS A PARTIR DE OTROS cNodes 
+  PERO, EL HECHO DE CONSTRUIR UN cNode, AUNQUE ÉSTE ESTÉ FORMADO EXCLUSIVAMENTE DE OTROS cNodes SIGUE SIENDO RESULTADO 
+  DEL PROCESO DE CREACIÓN. SERÍA BUENO EXPANDIR ESTO EN MÁS DETALLE. 
+TITLE: Cognitive Node (cNode) — Definition (v3) with Projection-Centered Ontology
+VERSION: 3.0.0
+STATUS: Working Draft (strict, exportable, minimal ambiguity target)
+LANGUAGE: English (chosen for precision and review stability)
+AUDIENCE: Any project with zero prior context about Cognitive Nodes
+SCOPE: Conceptual definition + operational constraints for building, validating, and integrating cNodes
+NON-SCOPE: Implementation-specific technologies, storage formats, user interface design, deployment strategy
+
+───────────────────────────────────────────────────────────────────────────────
+0) EXECUTIVE STATEMENT (ONE PARAGRAPH, HIGH PRECISION)
+───────────────────────────────────────────────────────────────────────────────
+A Cognitive Node (cNode) is an ontology produced by a deliberate projection of a cognitive
+process into an explicit, self-contained, integrable structure. The defining feature is not
+“being an ontology” (many things are ontologies), but being the explicit projection of a
+cognitive process (an idea, plan, method, design, or reasoning procedure) into a package that:
+(1) preserves identity through invariants and an explicit domain of variation,
+(2) remains operable through procedures and validation criteria,
+(3) remains compositional through internal nodes that can include other cNodes,
+and (4) remains always-integrable through an explicit integration surface that connects the
+cNode to a shared graph of other cNodes without requiring hidden context. In this framework,
+a cNode IS an ontology (weak or strong), and it is defined to be portable across projects.
+
+───────────────────────────────────────────────────────────────────────────────
+1) CORE DEFINITION (STRICT FORM)
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definition (formal text)
+A Cognitive Node (cNode) is an ontology created by projecting a cognitive process into a
+structured representation that is:
+- Explicit: key terms, entities, relations, invariants, variation rules, and validation criteria
+  are stated, not assumed.
+- Identity-preserving: the ontology includes invariants (non-negotiable constraints) and a
+  domain of variation (permitted changes) that together define the identity boundary.
+- Operable: the ontology includes procedures (how it is applied, derived, refined, or executed)
+  and validation (how correctness and compatibility are tested).
+- Compositional: the ontology can include internal nodes that are either plain concepts or
+  other cNodes, enabling recursive construction of complex ontologies as networks of cNodes.
+- Always-integrable: the ontology includes an explicit integration surface that specifies how
+  it connects to a shared graph of other cNodes (each with its own ontology) deterministically,
+  including vocabulary alignment and merge rules.
+
+1.2 One-sentence definition (fast reuse)
+A cNode is a projected cognitive process encoded as an explicit, identity-preserving, operable,
+compositional, always-integrable ontology package.
+
+1.3 Discriminator (what makes it a cNode, not merely “an ontology”)
+An object is a cNode only if it is explicitly treated as the projection of a cognitive process,
+and it carries enough structure to (a) preserve identity under adaptation, and (b) integrate into
+a network of other cNodes without hidden assumptions.
+
+
+
+───────────────────────────────────────────────────────────────────────────────
+2) THE GENERATING ACT: PROJECTION (CENTER OF GRAVITY)
+───────────────────────────────────────────────────────────────────────────────
+2.1 Cognitive process (source)
+A cognitive process is an internal structure that can be:
+- an idea (“what this is”),
+- a plan (“what steps to follow”),
+- a method (“how to produce outcomes reliably”),
+- a design (“how parts relate to satisfy constraints”),
+- a reasoning pattern (“how conclusions are derived”).
+QUIERO SABER SI ESTOS SON LOS ÚNICOS "PROCESOS" QUE EXISTEN. 
+NOTA ACLARATORIA: LOS LLAMO "PROCESOS" AUNQUE NO SÉ REALMENTE CÓMO DENOMINARLOS, ENTIENDO LA IDEA EN GENERAL: 
+SON "FORMAS EN LAS QUE SE PUEDE PENSAR", O "FORMAS EN LAS QUE SE PUEDE ESTRUCTURAR LA COGNICIÓN", POR EJEMPLO, 
+1) RESOLVER UN PROBLEMA EN MATEMÁTICAS PODRÍA PERTENECER AL PROCESO a reasoning pattern (“how conclusions are derived”) (DE LO CUAL NO ESTOY SEGURO)
+2) DECIDIR COMO AMARRARME LAS AGUJETAS PERTENECE A a plan (“what steps to follow”) (DE NUEVO, NO ESTOY SEGURO)
+Y PODRÍA PONER OTROS EJEMPLOS SIMILARES, DE LOS CUALES NO ESTOY SEGURO, PERO QUE ME AYUDAN A EXPLICAR MI PUNTO: 
+ÉSTAS SON FORMAS EN LAS QUE EL PENSAMIENTO SE PUEDE CONDUCIR, O ALGO PARECIDO. ANTES DE CONTINUAR, QUIERO QUE ME DIGAS SI COMPRENDES MI PUNTO HASTA AQUÍ
+
+ES IMPORTANTE EXTENDER ESTO EN DETALLE PUESTO QUE AL HACERLO SE COMPRENDERÁN LOS PROCESOS DE PENSAMIENTO, LO CUAL PERMITIRÁ 
+CREAR INTERVENCIONES SIGUIENDO DICHOS PATRONES.
+VIENDO MÁS EN DETALLE, EL COMENTARIO QUE HAGO ARRIBA SE QUEDA CORTO: ESTAS ESTRUCTURAS COGNITIVAS SON LO QUE SE PUEDE PROYECTAR COMO 
+UN CNODE, VER LA IMPORTANCIA DE ESTO, ES LO QUE SEA QUE TENGO EN LA MENTE QUE PUEDE PROYECTARSE: LA IDEA DE DESARROLLAR UN CNODE FUE 
+PODER PROYECTAR ESTAS ESTRUCTURAS COGNITIVAS. 
+
+
+2.2 Projection (operation)
+Projection is the deliberate act of selecting and externalizing from the cognitive process (DESPUÉS DEL COMENTARIO ANTERIOR ¿ES CORRECTO SEGUIR LLAMANDOLOS PROCESOS COGNITIVOS?):
+- what must be preserved (invariants),
+- what may change (domain of variation),
+- what exists and how it relates (entities and relations),
+- how it is used and tested (procedures and validation),
+while excluding irrelevant personal exemplars, private context, and accidental associations.
+COMO UNA FORMA DE INCLUIR A EMANUEL EN LA DISCUSIÓN, ES IMPORTANTE CONSIDERAR LO SIGUIENTE: 
+UNA TRANSFORMACIÓN ES UN MECANISMO QUE "CONVIERTE" LOS ELEMENTOS DE UN ESPACIO VECTORIAL A OTRO. 
+EN UNA ESTRUCTURA COGNITIVA, TAL CUAL SE ESTUDIA EN documentos-de-investigacion\work-spaces\cognicion-central\cNode\estructuras-cognitivas.txt
+DESCRIBE ALGO MUY SIMILAR A LO QUE SE ENTIENDE EN ÁLGEBRA LINEAL, POR EJEMPLO: 
+CUALQUIER ESTRUCTURA COGNITIVA ESTÁ COMPUESTA DE PARTES (EL MODELO DEL CNODE AYUDA A VERLO CON MAYOR DETALLE), 
+CADA PARTE PUEDE SER CONSIDERADO UN "VECTOR BASE". LA TOTALIDAD DE VECTORES FORMAN LA ESTRUCTURA COGNITIVA DE MANERA SIMILAR QUE CUALQUIER 
+ELEMENTO DE UN ESPACIO VECTORIAL SE FORMA A PARTIR DE LOS ELEMENTOS DE LA BASE. 
+POR DEFINICIÓN (EN ESTE MISMO DOCUMENTO), UN CNODE ES LA PROYECCIÓN DE UNA ESTRUCTURA COGNITIVA. 
+ASÍ COMO LA ESTRUCTURA COGNITIVA SE COMPONE DE "VECTORES BASE", EL CNODE SE COMPONE DE UNA BASE, LA CUAL SE DESCRIBE EN ESTA DEFINICIÓN 
+COMO "INVARIANTES" Y "DOMINIO DE VARIACIÓN", PERO PRINCIPALMENTE INVARIANTES. 
+TODO EL PÁRRAFO ANTERIOR FUNCIONA COMO INTRODUCCIÓN A LO QUE QUIERO DECIR: SI LA ESTRUCTURA COGNITIVA ES EL EQUIVALENTE AL DOMINIO, 
+EL CNODE ES EQUIVALENTE AL CODOMINIO, LA PROYECCIÓN, O, MÁS BIEN, EL ACTO DE PROYECTAR, ES EL EQUIVALENTE A UNA TRANSFORMACIÓN LINEAL. 
+
+QUIERO QUE ME DIGAS SI COMPRENDES MI IDEA
+
+2.3 Result (product)
+The result of projection is the cNode itself. Projection is not a decorative section; it is the
+generating operation that produces a portable ontology package.
+
+2.4 Optional naming convention (clarifying distinction)
+LO QUE DICES EN ESTA SUBSECCIÓN SE RELACIONA CON LO QUE MENCIONO EN EL COMENTARIO ANTERIOR (Y EN EL COMENTARIO AL FINAL DE ESTA SECCIÓN)
+If useful for discussion:
+- mNode (mental node): the internal cognitive process in a human mind.
+- cNode (cognitive node): the projected ontology package derived from that mNode.
+This distinction is optional, but it enforces the principle that a cNode is not “just a text”;
+it is the projected form of a cognitive process.
+
+COMENTARIO DE SECCIÓN: 
+AL CONSIDERAR LOS COMENTARIOS ANTERIORES NACE UNA PREGUNTA: ¿ES NECESARIO UNA SUBSECCIÓN DE ESTA SECCIÓN PARA EL ACTO DE PROYECTAR 
+(ES DECIR, LA TRANSFORMACIÓN)?
+
+───────────────────────────────────────────────────────────────────────────────
+3) WHY THIS CONCEPT EXISTS (CONDITIONAL, NOT ABSOLUTE)
+───────────────────────────────────────────────────────────────────────────────
+COMO PRIMER REQUISITO PARA COMPRENDER LOS COMENTARIOS QUE HAGO EN ESTA SECCIÓN, QUIERO QUE COMPRENDAS EL DOCUMENTO ADJUNTO LLAMADO 
+estructuras-cognitivas.txt,  EN ÉL SE MUESTRA EL RESULTADO DE ENVIAR EL PROMPT QUE APARECE EN LA SECCIÓN 2.1 Cognitive process (source)
+A UN HILO DE ESTE CHAT. LO IMPORTANTE EN SÍ ES LA CAPACIDAD PARA PROYECTAR LAS ESTRUCTURAS COGNITIVAS (MNODES). COMPRENDE EN DETALLE 
+TANTO EL PROMPT COMO EL DOCUMENTO RESULTADO DE DICHO PROMPT. 
+
+3.1 The problem (stated conditionally)
+Natural language and ordinary examples can be sufficient for casual communication. However, when
+a project requires (EN ESTE PUNTO ME PREGUNTO: ¿ES CORRECTO SEGUIR DICIENDO "when
+a project requires..."? LO PREGUNTO PORQUE SI LO QUE SE BUSCA ES PROYECTAR UN mNode, ES DECIR, UNA ESTRUCTURA COGNITIVA, REALMENTE 
+LO IMPORTANTE PARA UN CNODE NO ES EN SÍ SI UN PROYECTO REQUIERE ALGO, SINO CUÁL ES LA MEJOR FORMA DE REALIZAR LA PROYECCIÓN 
+DEL mNode EN UN cNode, LA DIFERENCIA EN TU VISIÓN Y LA MÍA ES UN PROBLEMA DE ENFOQUE, HACE FALTA QUE MEJORES ESTA PARTE )
+stable identity, repeatability, auditability, integration, and long-term reuse, (SÍ ESTOY DE ACUERDO EN QUE ESTAS SON CARACTERÍSTICAS QUE 
+OFRECE UN CNODE, EN LO QUE NO ESTOY DE ACUERDO ES EN LA RAZÓN POR LA QUE SE REQUIEREN (PORQUE ASÍ LO NECESITA UN PROYECTO))
+natural language alone does not guarantee convergent interpretation across:
+- different humans,
+- different time periods,
+- different projects,
+- human ↔ Artificial Intelligence (Artificial Intelligence: systems that infer and act from data).
+LA CONCLUSIÓN DE LA SUBSECCIÓN 3.1 The problem NO SE ME HACE FUERTE, DEBIDO A LOS COMENTARIOS QUE TE HICE SOBRE LOS DISTINTOS ENFOQUES. 
+
+3.2 The structural cause
+Humans compress concepts using implicit context and personal exemplars. An Artificial Intelligence
+system can process large text, but if identity conditions, allowed variation, and validation are
+not explicit, the system and the human can silently align on different meanings.
+
+3.3 The design goal
+A cNode exists to transfer structure (NO CUALQUIER ESTRUCTURA: ESTRUCTURAS COGNITIVAS -VER MÁS ARRIBA-) 
+(identity + relations + constraints + operation), not merely
+words. It forces explicitness where ambiguity would otherwise accumulate.
+
+DE NUEVA CUENTA, ESTA SECCIÓN ES MUY DÉBIL SI CONSIDERAMOS EL VERDADERO ENFOQUE: PROYECTAR ESTRUCTURAS COGNITIVAS ENTENDIDAS COMO estructuras-cognitivas.txt
+
+───────────────────────────────────────────────────────────────────────────────
+4) KEY TERMS (DISAMBIGUATION) — EXPAND WITHOUT FEAR
+───────────────────────────────────────────────────────────────────────────────
+4.1 Ontology (as used here)
+An ontology is an explicit specification of:
+- what exists in a domain (entities),
+- how those things relate (relations),
+- what must remain preserved for identity (invariants),
+- what can vary without breaking identity (domain of variation),
+- how to operate and test the specification (procedures and validation).
+ESTO ES MUY CERCANO A LO QUE VENGO DICIENDO SOBRE DOMINIO, CODOMINIO Y TRANSFORMADAS. 
+
+In this framework:
+cNode = ontology (weak or strong), explicitly projected from a cognitive process.
+
+4.2 Weak ontology vs strong ontology (same object, different closure)
+- Weak ontology: minimal explicit identity boundary; vocabulary and rules are partially open;
+  validation exists but may be lightweight.
+- Strong ontology: vocabulary, relations, constraints, and validation are highly specified; the
+  space of acceptable interpretations is tightly controlled.
+Both are cNodes. The difference is degree of closure, not category.
+
+4.3 Entity
+An entity is a named ontological unit (type, concept, role, or object class) used in the cNode.
+Entities are not “words”; they are units that participate in relations and constraints.
+(¿EXISTEN ENTIDADES EN LAS ESTRUCTURAS COGNITIVAS? ¿CÓMO SE RELACIONAN CON LAS ENTIDADES DE LA ONTOLOGÍA DE UN CNODE?)
+
+4.4 Relation (edge)
+A relation is a named connection between entities with explicit semantics.
+A relation is not “any association”; it is a typed edge that the cNode recognizes as meaningful.
+(MISMO COMENTARIO QUE PARA ENTIDADES)
+
+4.5 Identity boundary
+The identity boundary is defined by invariants + domain of variation:
+- invariants: what cannot change without changing the cNode’s identity,
+- variation: what may change while preserving identity.
+(MISMO COMENTARIO QUE PARA ENTIDADES)
+
+4.6 Invariant (strict)
+An invariant is a condition that must be preserved across all valid variations of the cNode.
+Violation of an invariant implies the result is no longer the same cNode (identity changes).
+
+4.7 Domain of variation (strict)
+The domain of variation is the explicitly permitted set of changes that do not violate invariants.
+Examples: adding non-essential examples, extending aliases, refining validation, adding subtypes
+that remain consistent with invariants.
+
+4.8 Procedure
+A procedure is an operational rule: how the cNode is applied, derived, refined, executed, or
+used to produce decisions or outputs.
+
+4.9 Validation criteria
+Validation criteria specify what counts as:
+- a valid instance of the cNode,
+- a compatible integration with other cNodes,
+- a permissible refinement within the domain of variation.
+
+4.10 Orchestrator (role)
+The orchestrator is the internal controller that defines:
+- how internal nodes interact,
+- how procedures are ordered or composed,
+- how the integration surface is assembled from internal structure,
+- how invariants are guarded during evolution.
+This is a role inside the cNode package.
+
+4.11 Shared graph (definition)
+A shared graph is a network in which:
+- nodes are cNodes (each node is an ontology package),
+- edges represent explicit integration relationships between those cNodes,
+- integration is governed by declared surfaces, not hidden assumptions.
+“Shared” means: multiple stakeholders or subsystems reference the same network, and the meaning
+of edges is stabilized by explicit integration rules.
+
+4.12 Always-integrable (design intent, not magical guarantee)
+Always-integrable means:
+- a cNode must expose an explicit integration surface,
+- conflicts must be representable and resolvable deterministically,
+- integration must not require hidden context.
+It does NOT mean “no conflicts exist”; it means conflicts can be handled explicitly.
+
+4.13 Technical metaphor (functional layer)
+A technical metaphor is a controlled mapping device used to transfer structure between domains.
+It is permitted only if it is anchored to explicit entities, relations, invariants, and procedures.
+It never replaces invariants; it accelerates comprehension while preserving precision.
+
+───────────────────────────────────────────────────────────────────────────────
+5) MINIMAL QUALIFICATION (WHEN SOMETHING COUNTS AS A cNODE)
+───────────────────────────────────────────────────────────────────────────────
+A minimal cNode must satisfy ALL of the following:
+
+ANTES DE TODO, QUIZÁS HAGA FALTA DECLARAR LA ESTRUCTURA COGNITIVA QUE SE PROYECTA (ESTO NO LO HABÍA CONSIDERADO ANTES)
+M1 — Projection declared
+The object must explicitly present itself as the projection of a cognitive process (AKA ESTRUCTURA COGNITIVA).
+
+M2 — Ontology core explicit
+Entities and relations must be declared explicitly (even if minimal).
+
+M3 — Identity boundary explicit
+Invariants and domain of variation must be explicit and separated.
+
+M4 — Operationality present
+At least one of:
+- procedures (how to use/derive), or
+- validation criteria (how to test/verify),
+must be present in explicit form.
+
+M5 — Compositionality permitted
+The structure must allow internal nodes to be concepts or other cNodes, at least in principle.
+
+M6 — Integration surface explicit
+The object must declare how it integrates into a shared graph of cNodes deterministically.
+
+If any of M1–M6 is missing, the object may still be “a document,” “a definition,” or even “an
+ontology-like description,” but it is not a cNode in this framework.
+
+(SERÍA POSIBLE INCLUIR LA "TRANSFORMADA" QUE SE USÓ PARA PROYECTAR? TIENE SENTIDO PREGUNTAR ESO?)
+
+───────────────────────────────────────────────────────────────────────────────
+6) CANONICAL PACKAGE STRUCTURE (WITHOUT REDUCING EVERYTHING TO TWO LABELS)
+───────────────────────────────────────────────────────────────────────────────
+This section names common internal components. These components are central, but the cNode’s
+essence is the projection and the identity/operation/integration constraints, not mere labels.
+
+6.1 Component: cognitive_node (internal ontology body)
+Role: carries the internal ontology specification, including identity boundary and operationality.
+Typical contents:
+- vocabulary: canonical names for entities, relations, and key terms
+- entities: declared entity set (types, roles, primitives)
+- relations: declared relation set (typed edges)
+- invariants: identity-preserving constraints
+- variation_domain: allowed changes
+(TENGO LA IMPRESIÓN DE QUE TANTO INVARIANTES COMO VARIACIÓN DE DOMINIO PERTENECEN A "COMPONENTES", ACLARA ESTE PUNTO)
+- procedures: operational rules
+- validation: tests and criteria
+- provenance: rationale and origin of commitments (recommended for auditability)
+
+Important clarification:
+- The cNode IS the ontology package.
+- The “cognitive_node” component is the internal body of that ontology specification.
+cognitive_node ES AL CNODE, LO QUE X ES AL MNODE... ¿QUÉ ES X?
+
+6.2 Component: graph_patch (integration surface expression)
+Role: expresses how the cNode integrates into the shared graph deterministically.
+Typical contents (conceptual, not tied to a file format):
+- PROVIDES: what this cNode offers to others (capabilities, exported relations, services)
+- REQUIRES: what this cNode needs from others (dependencies)
+- CONSTRAINTS: integration-time invariants the graph must respect
+- TYPES: canonical interface types (if any)
+- ALIASES: controlled synonym mapping for vocabulary alignment
+- NEGOTIATION: steps to align vocabularies and validate compatibility
+- MERGE_POLICY: deterministic conflict resolution rules + provenance requirements
+
+Important clarification:
+graph_patch is central because “always-integrable” is central, but graph_patch does not replace
+the ontology body; it operationalizes integration.
+
+6.3 Component: orchestrator (internal composition controller)
+Role: specifies internal interaction and how export/integration is assembled.
+Typical contents:
+- internal node registry (concept nodes and nested cNodes)
+- internal edges (how internal nodes relate)
+- procedure ordering and composition rules
+- invariant guards (what cannot be violated during updates)
+- export assembly rules (how the integration surface is computed from internals)
+
+6.4 Component: internal_nodes (concepts and nested cNodes)
+Role: composition mechanism for complex systems.
+Internal nodes can be:
+- concept nodes: minimal conceptual units,
+- nested cNodes: full ontology packages embedded recursively.
+
+6.5 Component: technical_metaphor_layer (controlled mapping)
+Role: accelerate transfer of structure without ambiguity.
+Structure:
+- metaphor_term: the metaphor label
+- mapped_structure: which entities/relations/procedures it corresponds to
+- non_implications: what the metaphor must not be interpreted as implying
+- evidence: why the mapping is valid here
+
+───────────────────────────────────────────────────────────────────────────────
+7) MICRO-EXAMPLES (TO REDUCE AMBIGUITY)
+───────────────────────────────────────────────────────────────────────────────
+7.1 Example A: “DOG” (illustrating identity boundary and variation)
+Ordinary language:
+- Person 1 thinks “dog” = Dalmatian from childhood.
+- Person 2 thinks “dog” = German Shepherd today.
+Both are “correct” in casual speech, but the concept is unstable for system design.
+
+DOG cNode (weak ontology):
+- Entities: Dog, Human, Breed, Trait
+- Relations: (Dog hasBreed Breed), (Dog hasTrait Trait), (Human owns Dog)
+- Invariants (identity boundary):
+  I1: Dog is an animal that can occupy the role “domesticated canine companion” in this domain.
+  I2: Dog is not defined by a particular breed, color, or personal exemplar.
+- Domain of variation:
+  Breed, size, color, individual exemplar, cultural associations.
+- Validation:
+  An instance labeled “Dog” is valid if it satisfies I1 and does not contradict I2.
+
+Result:
+Dalmatian and German Shepherd are both valid variations inside the same cNode identity.
+
+7.2 Example B: “INTEGRATION” (two cNodes aligning vocabularies)
+Suppose:
+- cNode A uses entity “Client”.
+- cNode B uses entity “Patient”.
+Integration requires:
+- ALIASES: Client ↔ Patient (if compatible by invariants)
+- CONSTRAINTS: both must agree on identity conditions (what counts as Client/Patient)
+If invariants disagree, integration must fail explicitly or require a new cNode version.
+
+7.3 Example C: Non-cNode (what fails M1–M6)
+A plain paragraph that says “A dog is an animal kept as a pet”:
+- may be informative,
+- but lacks explicit invariants vs variation, validation, integration surface, and projection claim.
+Therefore it is not a cNode here.
+
+───────────────────────────────────────────────────────────────────────────────
+8) CAPABILITIES (EACH WITH A MICRO-EXAMPLE)
+───────────────────────────────────────────────────────────────────────────────
+C1 — Consistent reuse across time
+Example: A project revisits “DOG” after 6 months.
+Because invariants + variation are explicit, the team can verify whether changes preserve identity.
+
+C2 — Explicit integration into a shared graph of ontologies
+Example: “DOG” integrates with “ANIMAL_BASE” cNode via REQUIRES/PROVIDES and alias mapping.
+
+C3 — Compositional construction of complex concepts
+Example: “CLINIC_SYSTEM” cNode contains nested cNodes:
+- IDENTITY, TIME_RANGE, SCHEDULING
+The orchestrator defines interaction among them, while invariants preserve the composite identity.
+
+C4 — Validation and drift detection
+Example: A new change claims “Dog is any animal companion including cats.”
+This violates DOG invariant I1 (canine role) and triggers explicit identity break:
+- either reject change,
+- or bump version MAJOR (identity changed).
+
+C5 — Transfer of structure (not merely words)
+Example: Use metaphor “port” mapped to entity “integration_surface” and relation “provides/requires”.
+Because the mapping is explicit, the metaphor accelerates understanding without ambiguity.
+
+───────────────────────────────────────────────────────────────────────────────
+9) EVOLUTION AND VERSIONING (IDENTITY-ALIGNED)
+───────────────────────────────────────────────────────────────────────────────
+9.1 Identity-preserving evolution
+Permitted changes (inside domain of variation):
+- add examples,
+- add aliases,
+- refine validation without changing invariants,
+- add optional subtypes consistent with invariants.
+
+9.2 Identity-changing evolution
+If invariants change, identity changes.
+This is not “improvement”; it is a different cNode (new identity).
+A conventional way to signal this is Semantic Versioning (Semantic Versioning: MAJOR.MINOR.PATCH):
+- MAJOR: invariants changed (identity changed)
+- MINOR: compatible extension within allowed variation
+- PATCH: clarifications that do not affect identity
+
+───────────────────────────────────────────────────────────────────────────────
+10) QUICK QUALIFICATION CHECKLIST (UNIT TEST FOR “IS THIS A cNODE?”)
+───────────────────────────────────────────────────────────────────────────────
+[ ] Projection is explicit: it is presented as the projection of a cognitive process.
+[ ] Entities and relations are explicit (not only prose).
+[ ] Invariants and domain of variation are explicit and separated.
+[ ] Procedures and/or validation criteria are explicit.
+[ ] Compositionality is permitted (concept nodes and/or nested cNodes).
+[ ] Integration surface is explicit (deterministic integration into a shared graph).
+
+If all are checked, the object qualifies as a cNode in this framework.
+
+END OF DOCUMENT

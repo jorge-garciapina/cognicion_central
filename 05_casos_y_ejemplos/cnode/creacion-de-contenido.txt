@@ -1,0 +1,475 @@
+TÍTULO
+Ejemplo estructurado (autosuficiente): “Creación de contenido multi-nicho” como difusión semántica contextualizada y como Cognitive Node (cNode)
+
+VERSIÓN
+0.1.0 (borrador operativo, alta prioridad)
+
+ESTATUS
+En desarrollo (modelo conceptual; diseñado para ser ampliado, auditado y reutilizado)
+
+AUDIENCIA
+Personas que necesitan comprender y reutilizar este ejemplo sin contexto previo de proyectos externos.
+
+IMPORTANCIA Y ALCANCE
+Este documento está diseñado para ser más detallado que ejemplos anteriores porque el fenómeno “contenido multi-nicho” tiende a degradarse en prácticas confusas si no se separan con precisión:
+- Núcleo semántico (lo que se pretende decir).
+- Identidad del mensaje (cómo se reconoce que sigue siendo el mismo mensaje).
+- Intención comunicativa (para qué se dice).
+- Contextos locales (quién lo recibe y en qué condiciones).
+- Dominio de variación (cómo puede cambiar sin perder identidad).
+- Señales y métricas (cómo se verifica si el objetivo se está cumpliendo).
+
+PROPÓSITO
+Describir, con estructura explícita, cómo modelar la creación de múltiples canales o piezas de contenido a partir de un mismo tema (Tema A) como un sistema que:
+- Preserva un núcleo invariante (tema, identidad, intención).
+- Se adapta a nichos distintos (contextos locales) sin deformar el mensaje.
+- Usa variaciones controladas (formato, ritmo, estilo, lenguaje visual y verbal).
+- Produce manifestaciones (piezas concretas) y artefactos (contenido publicado y métricas) como evidencia.
+
+NOTA SOBRE ACRÓNIMOS Y TÉRMINOS
+- American Standard Code for Information Interchange (ASCII): sistema de caracteres; aquí se usa para dibujar diagramas con texto.
+- Cognitive Node (cNode): “nodo cognitivo”; entidad conceptual que conserva estructura (no solo texto) y que puede integrarse a un grafo mediante relaciones explícitas.
+- Estructura Base de Definición Conceptual (EBDC): plantilla para describir sistemas conceptuales mediante identidad, invariantes, componentes internos, dominios de variación, manifestaciones y artefactos.
+- Tema A: idea central que origina la difusión semántica.
+- Mensaje central: proposición o conjunto de proposiciones que se desea transferir.
+- Identidad del mensaje: conjunto de rasgos que permiten reconocer que el mensaje “sigue siendo el mismo” aun cuando cambie el formato.
+- Intención comunicativa: finalidad pragmática del mensaje (informar, persuadir, entretener, posicionar, convocar, educar).
+- Nicho: subconjunto de audiencia con rasgos compartidos que afectan cómo interpreta y consume contenido.
+- Plataforma digital: medio de distribución donde se publica contenido (video corto, video largo, texto, imagen, audio).
+- Atención: recurso limitado de la audiencia; se expresa como permanencia, repetición, interacción y retorno.
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES MÍNIMAS (AUTO-CONTENIDAS)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Sistema de difusión semántica contextualizada (en este documento)
+Proceso intencional para traducir un mismo núcleo de significado (Tema A y mensaje central) a múltiples realizaciones adaptadas a nichos distintos, preservando identidad del mensaje e intención comunicativa, con verificación mediante métricas observables.
+
+1.2 Objetivo primario
+Finalidad que define identidad del sistema.
+En este documento: “capturar y sostener la atención de un nicho específico”.
+
+Nota de precisión:
+- “Capturar atención” significa lograr que una persona se detenga, abra, inicie consumo.
+- “Sostener atención” significa lograr permanencia y continuidad: que la persona siga consumiendo (retención) y regrese (retorno).
+
+1.3 Núcleo invariante
+Conjunto mínimo que debe permanecer para que el sistema siga difundiendo “el mismo mensaje”:
+- Tema A (idea central).
+- Identidad del mensaje (rasgos reconocibles del contenido).
+- Intención comunicativa (finalidad pragmática).
+
+1.4 Invariantes
+Condiciones necesarias: si se eliminan, el sistema deja de ser “difusión del mismo mensaje a nichos”.
+Regla práctica (“prueba de sustracción”): “Si se quita X y el sistema deja de ser el mismo, X era invariante”.
+
+1.5 Componentes internos
+Elementos que pueden variar sin destruir identidad:
+- Formato (video, texto, imagen, audio; corto o largo).
+- Ritmo (densidad de información, velocidad de edición, pausas).
+- Estilo (humor, formalidad, dramatización, sobriedad).
+- Lenguaje visual y verbal (paleta conceptual, tipos de planos, metáforas, términos).
+- Encapsulado narrativo (historia, lista, demostración, entrevista).
+
+1.6 Contexto de distribución vs contexto de ejecución
+- Contexto de distribución: canal y plataforma (video corto, video largo, texto, audio), con reglas implícitas del medio.
+- Contexto de ejecución: nicho humano concreto (rasgos culturales, edad, expectativas narrativas, hábitos de consumo, sensibilidad emocional, referencias).
+
+1.7 Manifestación
+Pieza concreta publicada: un video individual, una publicación específica, un episodio de audio.
+Regla: cada manifestación es una instancia del mismo sistema si preserva el núcleo.
+
+1.8 Artefacto
+Evidencia material y cuantificable:
+- Contenido publicado (archivo, enlace, post).
+- Métricas de atención (retención, tiempo de reproducción, clics, comentarios, guardados, retorno).
+
+──────────────────────────────────────────────────────────────────────────────
+2) ESCENARIO BASE DEL EJEMPLO (MULTI-NICHO A PARTIR DE TEMA A)
+──────────────────────────────────────────────────────────────────────────────
+
+Entidades mínimas:
+- Emisor / creador: quien diseña y publica contenido.
+- Tema A: idea central que se quiere difundir.
+- Mensaje central: contenido semántico que se desea transferir.
+- Nichos: subconjuntos de audiencia con diferencias relevantes.
+- Plataforma(s): medios de distribución con restricciones y oportunidades.
+- Contenido: manifestaciones concretas (piezas publicadas).
+- Métricas: señales que indican atención capturada y sostenida.
+
+Situación:
+El creador decide tomar un único Tema A y producir múltiples piezas de contenido, cada una adaptada a un nicho distinto.
+El tema y el mensaje central se preservan; lo que cambia es la realización: formato, estilo, ritmo y lenguaje.
+
+──────────────────────────────────────────────────────────────────────────────
+3) DIAGRAMA ASCII (PUNTO DE PARTIDA ESTRUCTURAL)
+──────────────────────────────────────────────────────────────────────────────
+
+Leyenda:
+- [NÚCLEO] = parte invariante que define identidad
+- [REQ]   = requisito funcional para cumplir el objetivo
+- [CTX-D] = contexto de distribución (plataforma/formato dominante)
+- [CTX-E] = contexto de ejecución (nicho humano y situación)
+- [ART]   = artefacto (pieza publicada + métricas)
+
+                           ┌──────────────────────────────────────┐
+                           │ [NÚCLEO]                              │
+                           │ Objetivo primario:                    │
+                           │ “CAPTURAR Y SOSTENER ATENCIÓN”         │
+                           │ (de un nicho específico)              │
+                           └──────────────────────────────────────┘
+                                        │
+                                        │ depende de
+                                        v
+                        ┌──────────────────────────────────────┐
+                        │ [NÚCLEO] Tema A + Mensaje central     │
+                        │ + Identidad del mensaje               │
+                        │ + Intención comunicativa              │
+                        └──────────────────────────────────────┘
+                                        │
+                                        │ requiere
+                                        v
+                     ┌──────────────────────────────────────────┐
+                     │ [REQ] Proceso de adaptación y producción  │
+                     │ (selección de formato, estilo, ritmo,     │
+                     │  lenguaje; diseño de intervención)        │
+                     └──────────────────────────────────────────┘
+                                        │
+                                        │ se manifiesta en
+                                        v
+      ┌────────────────────────────────────────┐     ┌────────────────────────────────────────┐
+      │ [CTX-D] Plataforma/Formato: VIDEO CORTO│     │ [CTX-D] Plataforma/Formato: TEXTO/IMAGEN│
+      │ (reglas del medio, duración típica)    │     │ (reglas del medio, lectura/escaneo)     │
+      └────────────────────────────────────────┘     └────────────────────────────────────────┘
+                    │                                              │
+                    │ ejecuta para                                  │ ejecuta para
+                    v                                              v
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Nicho 1               │               │ [CTX-E] Nicho 3               │
+        │ (edad, referentes, expectativas│              │ (edad, referentes, expectativas│
+        │  ritmos de consumo)            │              │  ritmos de consumo)            │
+        └──────────────────────────────┘               └──────────────────────────────┘
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Nicho 2               │               │ [CTX-E] Nicho 4               │
+        └──────────────────────────────┘               └──────────────────────────────┘
+                    │                                              │
+                    │ produce evidencia                             │ produce evidencia
+                    v                                              v
+          ┌──────────────────────────┐                  ┌──────────────────────────┐
+          │ [ART] Pieza publicada     │                  │ [ART] Pieza publicada     │
+          │ + métricas de atención    │                  │ + métricas de atención    │
+          └──────────────────────────┘                  └──────────────────────────┘
+
+Interpretación inmediata:
+- El núcleo (Tema A, identidad, intención) se conserva.
+- El objetivo primario es atencional (captura y sostén).
+- La adaptación y producción son requisito funcional: sin adaptación, el contenido puede no “enganchar”.
+- Plataforma/formato define restricciones (distribución).
+- Nicho define interpretación y gusto (ejecución).
+- Pieza + métricas son evidencia de manifestaciones.
+
+──────────────────────────────────────────────────────────────────────────────
+4) NÚCLEO INVARIANTE: TEMA A, IDENTIDAD DEL MENSAJE, INTENCIÓN
+──────────────────────────────────────────────────────────────────────────────
+
+Este bloque es el centro del documento. En contenido multi-nicho, el riesgo principal es confundir:
+- “Tema” (de qué se habla),
+con
+- “Mensaje central” (qué se afirma o qué se quiere transferir),
+con
+- “Identidad” (cómo se reconoce que es el mismo mensaje),
+con
+- “Intención” (para qué se dice).
+
+4.1 Tema A (idea central)
+Tema A es el asunto principal. Ejemplos genéricos:
+- “Disciplina como arquitectura de vida”.
+- “Riesgo y protección”.
+- “Aprender vectores con intuición y rigor”.
+- “Elicitación como técnica de obtención de información”.
+
+Regla:
+Tema A debe permanecer; si el tema cambia, el sistema cambia.
+
+4.2 Mensaje central (proposición transferible)
+El mensaje central es lo que el contenido quiere que la audiencia entienda, sienta o adopte.
+Debe formularse como una o varias proposiciones claras.
+Ejemplos estructurales (plantilla):
+- “Si ocurre X, entonces Y; por eso conviene Z”.
+- “Esto funciona porque …; se aplica cuando …; falla cuando …”.
+
+Regla:
+El mensaje central puede expresarse con distintas palabras, pero su estructura lógica no debe invertirse.
+
+4.3 Identidad del mensaje (rasgos de reconocimiento)
+Este componente es decisivo y suele estar ausente en modelos simples.
+“Identidad del mensaje” define qué hace que, aun cambiando el formato, se reconozca la misma “pieza semántica”.
+
+Rasgos posibles de identidad (ejemplos de categorías, no obligatorias):
+- Tesis: la proposición principal que nunca se abandona.
+- Estructura: patrón narrativo recurrente (problema → causa → solución; mito → ruptura → síntesis).
+- Voz: registro consistente (sobrio, humorístico, técnico) si forma parte de la marca.
+- Símbolos: imágenes recurrentes (por ejemplo, “puentes”, “núcleo”, “capas”).
+- Restricciones: lo que se evita afirmar (límites éticos, precisión).
+
+Regla:
+Si se pierde la identidad, se generan “piezas sobre el mismo tema” pero ya no “el mismo mensaje”.
+
+4.4 Intención comunicativa (finalidad pragmática)
+Debe declararse explícitamente porque guía todas las decisiones del dominio de variación.
+Ejemplos de intención:
+- Informar (transferir conocimiento).
+- Persuadir (cambiar preferencia).
+- Educar (producir comprensión operativa).
+- Posicionar (asociar marca con una tesis).
+- Convocar (producir acción inmediata).
+- Entretener (maximizar disfrute y retorno).
+
+Regla:
+La intención puede ser compuesta, pero debe tener jerarquía: intención primaria y secundarias.
+Sin jerarquía, el sistema genera piezas incoherentes.
+
+──────────────────────────────────────────────────────────────────────────────
+5) INVARIANTES DEL SISTEMA (LO QUE NO PUEDE ROMPERSE)
+──────────────────────────────────────────────────────────────────────────────
+
+I1) El tema no cambia
+- Tema A debe mantenerse estable.
+
+I2) El mensaje central se preserva
+- La tesis no se contradice ni se invierte.
+- La estructura lógica del mensaje no se rompe.
+
+I3) La identidad del mensaje permanece reconocible
+- Debe existir un conjunto de rasgos que permitan reconocer que “es la misma idea” expresada de otra forma.
+
+I4) Existe una audiencia humana
+- El sistema se define por la interpretación humana. Sin humanos, no hay atención ni nicho.
+
+I5) Se respeta el dominio de variación
+- La adaptación no puede destruir el núcleo; solo puede cambiar forma, ritmo, estilo y soporte.
+
+I6) El objetivo primario atencional permanece
+- Captura y sostén de atención son el criterio de éxito del sistema (aun si existen intenciones secundarias).
+
+Nota crítica:
+Estas invariantes no garantizan éxito, pero garantizan identidad. El sistema puede fallar en métricas y seguir siendo “el mismo sistema”.
+
+──────────────────────────────────────────────────────────────────────────────
+6) CONTEXTO LOCAL (NICHO) Y SU FUNCIÓN ESTRUCTURAL
+──────────────────────────────────────────────────────────────────────────────
+
+Cada nicho define un contexto local distinto. En contenido, el nicho no es solo demografía; es un conjunto de variables que determinan interpretación y consumo.
+
+Variables típicas del nicho:
+- Edad (correlaciona con referentes, ritmos y sensibilidad).
+- Referentes culturales (memes, historias, obras, eventos, símbolos).
+- Ritmos de consumo (micro-consumo rápido vs consumo largo y reflexivo).
+- Expectativas narrativas (humor, drama, tutorial, storytelling).
+- Nivel de alfabetización del tema (principiante, intermedio, avanzado).
+- Sensibilidad emocional (aversión a miedo, preferencia por aspiración, gusto por ironía).
+- Relación con la plataforma (costumbre de comentar, guardar, compartir).
+
+Función estructural del contexto:
+- No redefine Tema A ni mensaje central.
+- Determina el mejor “envoltorio” (packaging) para que el núcleo sea consumible y memorable.
+
+──────────────────────────────────────────────────────────────────────────────
+7) DOMINIO DE VARIACIÓN (CONTROLADO) PARA MULTI-NICHO
+──────────────────────────────────────────────────────────────────────────────
+
+7.1 Puede variar
+- Formato:
+  - Video corto, video largo, carrusel, texto, audio.
+- Ritmo:
+  - Denso (mucho contenido por tiempo) vs pausado (más redundancia).
+- Estilo:
+  - Formal, humorístico, dramático, íntimo, técnico.
+- Lenguaje verbal:
+  - Terminología simple o especializada, metáforas locales.
+- Lenguaje visual:
+  - Tipos de plano, textos en pantalla, diagramas, estética, iconografía.
+- Encapsulado narrativo:
+  - Historia personal, lista de puntos, demostración, “problema/solución”, debate.
+- Gancho inicial (captura):
+  - Pregunta, afirmación fuerte, contraste, promesa, curiosidad, paradoja.
+- Cierre y llamada a acción:
+  - Suscribirse, comentar, guardar, ver otra pieza, descargar guía.
+
+7.2 No puede variar
+- Tema A.
+- Mensaje central (tesis y estructura).
+- Identidad del mensaje (rasgos reconocibles).
+- Intención comunicativa primaria.
+
+Nota de control:
+La variación debe ser suficiente para resonar con el nicho, pero no tan grande que el mensaje se convierta en otro.
+
+──────────────────────────────────────────────────────────────────────────────
+8) INTERVENCIÓN: PRODUCCIÓN DE CONTENIDO COMO SECUENCIA OPERABLE
+──────────────────────────────────────────────────────────────────────────────
+
+La intervención no es “hacer un video” de forma vaga. Es una secuencia operable que transforma:
+NÚCLEO (tema/mensaje) → REALIZACIÓN (pieza) → EVIDENCIA (métricas).
+
+8.1 Pipeline de producción (modelo mínimo)
+E1) Fijación del núcleo
+- Formular Tema A.
+- Formular mensaje central como proposición.
+- Declarar intención primaria y secundaria.
+- Definir identidad del mensaje (rasgos no negociables).
+
+E2) Modelado del nicho (contexto de ejecución)
+- Identificar referentes, expectativas, nivel y ritmo.
+- Identificar aversiones (qué genera rechazo) y afinidades (qué genera atracción).
+
+E3) Selección de contexto de distribución (plataforma/formato)
+- Elegir formato dominante acorde al nicho y al objetivo atencional.
+
+E4) Diseño del envoltorio (packaging)
+- Elegir estilo, ritmo, lenguaje visual y verbal.
+- Diseñar gancho inicial (primeros segundos o primeras líneas).
+- Diseñar estructura interna (puntos, historia, demostración).
+
+E5) Producción
+- Redacción de guion (si aplica).
+- Grabación/diseño/edición (si aplica).
+- Control de coherencia: verificar invariantes (tema/mensaje/identidad/intención).
+
+E6) Publicación
+- Texto de acompañamiento.
+- Títulos y miniaturas (si existen).
+- Etiquetas y categorización (si existen).
+
+E7) Medición y retroalimentación
+- Lectura de métricas de atención.
+- Diagnóstico: qué falló (gancho, ritmo, claridad, nicho, canal).
+- Iteración: ajustar solo dentro del dominio de variación permitido.
+
+8.2 Slots por etapa (piezas variables)
+- Tipo de gancho: pregunta vs afirmación vs contraste.
+- Tipo de historia: personal vs caso hipotético.
+- Densidad: uno o tres mensajes por pieza.
+- Elementos visuales: diagrama, subtítulos, texto en pantalla.
+- Llamada a acción: guardar vs comentar vs ver siguiente video.
+
+──────────────────────────────────────────────────────────────────────────────
+9) MANIFESTACIONES (PIEZAS CONCRETAS) Y ARTEFACTOS (EVIDENCIA)
+──────────────────────────────────────────────────────────────────────────────
+
+9.1 Manifestaciones
+Cada pieza publicada es una manifestación distinta del mismo sistema si conserva el núcleo.
+
+Ejemplos genéricos de manifestaciones (sin depender de plataformas específicas):
+- Video corto de 30–60 segundos: “una tesis, un ejemplo, un cierre”.
+- Texto breve: “una afirmación + analogía + pregunta”.
+- Carrusel: “secuencia de 5 láminas: problema → causa → solución → ejemplo → resumen”.
+- Video largo: “desarrollo con demostración, objeciones y síntesis”.
+
+9.2 Artefactos
+- Contenido publicado (archivo o post).
+- Métricas de atención (cuantificables).
+- Comentarios y respuestas del público (evidencia cualitativa).
+- Guardados y compartidos (evidencia de valor percibido).
+- Retorno (personas que vuelven por otra pieza).
+
+Función estructural:
+Los artefactos permiten medir si el objetivo primario (captura y sostén) ocurre.
+
+──────────────────────────────────────────────────────────────────────────────
+10) MÉTRICAS DE ATENCIÓN: DEFINICIÓN OPERATIVA Y LECTURA ESTRUCTURAL
+──────────────────────────────────────────────────────────────────────────────
+
+El documento original menciona “métricas de atención”, pero conviene definirlas de forma operativa para que el sistema sea auditable.
+
+10.1 Métricas típicas (abstractas, transferibles)
+- Inicio de consumo: porcentaje que inicia (impresiones → reproducciones; o vistas del post → lectura).
+- Retención: permanencia en el contenido (tiempo de lectura o reproducción).
+- Finalización: proporción que llega al final.
+- Repetición: número de reproducciones repetidas o relecturas (si se observa).
+- Interacción: comentarios, reacciones, compartidos, guardados.
+- Retorno: consumo de otra pieza del mismo canal.
+
+10.2 Interpretación estructural (diagnóstico por capas)
+- Si el inicio es bajo: falla de gancho (packaging) o falla de distribución (formato/plataforma).
+- Si la retención cae rápido: falla de ritmo, claridad o relevancia para el nicho.
+- Si hay retención pero poca interacción: el contenido puede ser útil pero no provoca respuesta (llamada a acción débil o cultura del nicho).
+- Si hay interacción pero bajo retorno: piezas aisladas sin continuidad (falta de arquitectura de serie).
+
+10.3 Diferencia clave: éxito de atención vs éxito de mensaje
+Una pieza puede:
+- Capturar atención sin transferir correctamente el mensaje (atención vacía).
+- Transferir mensaje sin capturar atención (mensaje no consumido).
+El sistema busca alineación: atención sostenida + preservación del núcleo.
+
+──────────────────────────────────────────────────────────────────────────────
+11) REPRESENTACIÓN ESTILO cNode (FORMA CANÓNICA SUGERIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+cNode: “Contenido multi-nicho a partir de Tema A (modelo estructural)”
+
+- Contexto / Identidad:
+  - Qué es: patrón de difusión semántica contextualizada para múltiples nichos.
+  - Para qué existe: preservar un mensaje central mientras se adapta su realización a contextos humanos y a canales digitales.
+  - Entradas: Tema A + mensaje central + identidad + intención + nicho + plataforma/formato.
+  - Salidas: manifestaciones publicadas + métricas de atención + evidencia cualitativa.
+
+- Invariantes:
+  - Tema A estable.
+  - Mensaje central preservado (tesis no invertida).
+  - Identidad del mensaje reconocible.
+  - Intención comunicativa primaria constante.
+  - Existe audiencia humana.
+  - Objetivo primario atencional (captura y sostén).
+
+- Componentes internos:
+  - Formato, ritmo, estilo.
+  - Lenguaje visual y verbal.
+  - Encapsulado narrativo.
+  - Gancho y cierre.
+  - Secuenciación de piezas (serie, continuidad).
+
+- Variantes:
+  - Variantes por nicho (Nicho 1, Nicho 2, …).
+  - Variantes por canal de distribución (video corto, texto, audio, …).
+  Estas variantes alteran intervención, no núcleo.
+
+- Artefactos conectables:
+  - Pieza_001 (contenido)
+  - Métricas_001 (atención)
+  - Comentarios_001 (evidencia cualitativa)
+  Los artefactos evidencian manifestaciones; no son el cNode.
+
+──────────────────────────────────────────────────────────────────────────────
+12) CRITERIOS DE ÉXITO, FALLA Y LÍMITES (MODELO AUDITABLE)
+──────────────────────────────────────────────────────────────────────────────
+
+12.1 Criterios mínimos de éxito
+- El nicho inicia consumo (captura).
+- El nicho permanece y completa una porción significativa (sostén).
+- El mensaje central se mantiene reconocible (identidad preservada).
+- Los artefactos muestran señales de valor (guardados, retorno, interacción).
+
+12.2 Fallas típicas (degradan desempeño sin negar identidad)
+- Falla de gancho: el núcleo es correcto pero el inicio no atrapa.
+- Falla de formato: el nicho requiere texto y se ofrece video, o viceversa.
+- Falla de ritmo: demasiada densidad o demasiada lentitud.
+- Falla de estilo: el nicho rechaza el registro elegido.
+- Falla de traducción: el mensaje se vuelve ambiguo o confuso, sin perder tema.
+
+12.3 Límites duros (si ocurren, el sistema deja de ser “difusión del mismo mensaje”)
+- El tema cambia (Tema A se sustituye).
+- El mensaje central se contradice o invierte.
+- La identidad del mensaje desaparece (se vuelve otra cosa indistinguible).
+- La intención comunicativa primaria se reemplaza sin declarar la transición.
+
+──────────────────────────────────────────────────────────────────────────────
+CIERRE
+Este ejemplo muestra “difusión semántica contextualizada” porque:
+- Conserva un núcleo invariante (Tema A + mensaje central + identidad + intención).
+- Permite variación controlada (formato, ritmo, estilo, lenguaje visual y verbal).
+- Produce manifestaciones múltiples (piezas concretas para distintos nichos y canales).
+- Genera artefactos observables (contenido y métricas) que permiten auditoría del objetivo primario (atención).
+- Es integrable como un cNode conceptual: núcleo estable + intervención adaptativa + evidencia cuantificable.
+
+FIN DEL SNIPPET

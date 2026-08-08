@@ -1,0 +1,448 @@
+TITLE: Cognitive Structures (CS) — cNode (Projection-Centered Ontology Package)
+VERSION: 1.0.0
+STATUS: Working Draft (exportable, minimal ambiguity target)
+LANGUAGE: English (chosen for precision and review stability)
+AUDIENCE: Any project with zero prior context about Cognitive Nodes
+SCOPE: Taxonomy + operational definition of “cognitive structure” as a source for projection into cNodes
+NON-SCOPE: Neuroscience implementation claims beyond operational utility; therapy; clinical diagnosis
+
+───────────────────────────────────────────────────────────────────────────────
+0) EXECUTIVE STATEMENT (ONE PARAGRAPH, HIGH PRECISION)
+───────────────────────────────────────────────────────────────────────────────
+A Cognitive Structure (CS) is an internal, identity-carrying cognitive form that organizes
+information and/or action such that it can guide perception, reasoning, decision-making,
+learning, or execution. A CS is not defined by a particular example, but by (1) an explicit
+identity boundary (invariants + domain of variation), (2) an operational role (how it is used
+to produce outcomes), and (3) a projection-readiness property: it can be externalized as a
+portable ontology package (a cNode) without requiring hidden personal context. This cNode
+defines cognitive structures as a structured family of source-forms (idea, plan, method,
+design, reasoning pattern, plus extensible families such as schema, mental model, heuristic,
+skill routine, protocol, evaluation frame, and control policy) and provides procedures and
+validation criteria for classifying, composing, and integrating them into a shared graph.
+
+───────────────────────────────────────────────────────────────────────────────
+1) CORE DEFINITION (STRICT FORM)
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definition (formal text)
+A Cognitive Structure (CS) is an internal structure that:
+- Is identity-bearing: it preserves “what it is” through explicit invariants and an explicit
+  domain of variation (identity boundary).
+- Is operational: it guides cognition and/or action through procedures, constraints, and
+  validation criteria (even if implicit in a human agent and made explicit at projection time).
+- Is compositional: it can be formed from smaller cognitive structures and can be embedded
+  inside larger ones (nested structure).
+- Is projection-ready: it can be deliberately externalized into an explicit ontology package
+  (a cNode) that remains portable and integrable without hidden context.
+
+1.2 One-sentence definition (fast reuse)
+A cognitive structure is an identity-bearing internal form that guides cognition or action and
+can be projected into a portable, integrable ontology package.
+
+1.3 Discriminator (what makes it a CS, not merely “a thought”)
+A mental episode counts as a CS only if it can be described as a stable form with:
+(1) explicit or reconstructable invariants, (2) a domain of permissible variation,
+(3) an operational role, and (4) a projection that does not collapse into purely personal
+exemplars.
+
+───────────────────────────────────────────────────────────────────────────────
+2) THE GENERATING ACT: PROJECTION (CENTER OF GRAVITY)
+───────────────────────────────────────────────────────────────────────────────
+2.1 Cognitive structure (source)
+A cognitive structure is an internal form that can function as any of the following families
+(non-exhaustive, extensible):
+
+BASE FAMILIES (minimal, high-coverage):
+- Idea: “what this is” (identity/meaning anchor).
+- Plan: “what steps to follow” (ordered sequence toward an objective).
+- Method: “how to produce outcomes reliably” (repeatable procedure with quality control).
+- Design: “how parts relate to satisfy constraints” (architecture under constraints).
+- Reasoning pattern: “how conclusions are derived” (inference template + justification).
+
+EXTENSION FAMILIES (needed for higher resolution in practice):
+- Schema: a structured framework that organizes knowledge and guides interpretation.
+- Mental model: an internal representation used for understanding, simulation, prediction.
+- Heuristic: a rule-of-thumb that simplifies decision-making under constraints.
+- Skill routine: an automated procedural structure that executes with minimal conscious load.
+- Protocol: a structured interaction/sequence (often multi-agent) with explicit stages.
+- Evaluation frame: criteria/threshold structure for acceptance, rejection, ranking.
+- Control policy: feedback-driven regulation rule (error detection + correction behavior).
+- Script: a typical scenario template (social or procedural) with expected stages and roles.
+
+2.2 Projection (operation)
+Projection is the deliberate act of selecting and externalizing from a cognitive structure:
+- what must be preserved (invariants),
+- what may change (domain of variation),
+- what exists and how it relates (entities and relations),
+- how it is used (procedures),
+- how it is tested (validation criteria),
+while excluding private context, accidental associations, and purely autobiographical exemplars.
+
+2.3 Result (product)
+The result of projection is a cNode that encodes the cognitive structure as an explicit,
+self-contained, integrable ontology package.
+
+2.4 Optional naming convention (clarifying distinction)
+- mStructure: internal cognitive structure in a mind (human or artificial).
+- cStructure: projected ontology package derived from that mStructure (a cNode instance).
+
+───────────────────────────────────────────────────────────────────────────────
+3) WHY THIS CONCEPT EXISTS (CONDITIONAL, NOT ABSOLUTE)
+───────────────────────────────────────────────────────────────────────────────
+3.1 The problem (stated conditionally)
+Natural language can describe cognition informally, but stable reuse across time, projects,
+and agents requires explicit identity boundaries, operational rules, and validation criteria.
+Without explicit structure, different interpreters can silently converge on different meanings.
+
+3.2 The structural cause
+Humans compress cognition using implicit context, tacit skill, and personal exemplars.
+Projection makes the identity boundary explicit, so that reuse and integration do not depend
+on hidden assumptions.
+
+3.3 The design goal
+This cNode exists to define a stable ontology for “cognitive structure” and to supply a
+classification and validation protocol that supports portability and integration.
+
+───────────────────────────────────────────────────────────────────────────────
+4) KEY TERMS (DISAMBIGUATION) — EXPAND WITHOUT FEAR
+───────────────────────────────────────────────────────────────────────────────
+4.1 Cognitive structure (as used here)
+An internal form that organizes representation and/or action, with identity boundary and
+operational role.
+
+4.2 Schema
+A cognitive framework that organizes knowledge and guides interpretation, imagination, and
+problem solving.
+
+4.3 Mental model
+An internal representation used to understand, reason about, and predict a domain by
+supporting mental simulation.
+
+4.4 Heuristic
+A rule-of-thumb that reduces computational burden and speeds decisions; it may trade accuracy
+for speed and can systematically bias outcomes.
+
+4.5 Skill routine (procedural structure)
+An acquired skill that transitions from effortful, explicit control to automatic execution
+with minimal conscious exertion.
+
+4.6 Identity boundary (strict)
+Identity boundary = invariants + domain of variation:
+- invariants: conditions that cannot change without identity change,
+- variation: permissible changes that preserve identity.
+
+4.7 Procedure
+An operational rule: how a structure is applied, executed, or used to produce outcomes.
+
+4.8 Validation criteria
+Rules for checking:
+- correct classification (this is that family, not another),
+- correct instantiation (this instance satisfies invariants),
+- integration compatibility (aliases and constraints align with other nodes).
+
+4.9 Always-integrable (design intent)
+Always-integrable means: explicit integration surfaces, explicit conflict representation,
+deterministic merge rules, no hidden context required.
+
+───────────────────────────────────────────────────────────────────────────────
+5) MINIMAL QUALIFICATION (WHEN SOMETHING COUNTS AS A COGNITIVE STRUCTURE)
+───────────────────────────────────────────────────────────────────────────────
+A candidate internal form counts as a Cognitive Structure only if ALL are satisfied:
+
+CS1 — Identity boundary reconstructable
+At least one invariant and one permitted variation dimension can be stated.
+
+CS2 — Operational role explicit
+The structure is used to guide cognition or action (not merely a fleeting sensation).
+
+CS3 — Family classification possible
+The structure can be classified into at least one family using discriminators.
+
+CS4 — Projection-ready
+A projection can be written that excludes purely private exemplars and remains portable.
+
+If CS1–CS4 fails, the object may still be a “mental episode” or “content,” but it is not a
+cognitive structure in this framework.
+
+───────────────────────────────────────────────────────────────────────────────
+6) CANONICAL PACKAGE STRUCTURE (INTERNAL ONTOLOGY BODY + INTEGRATION SURFACE)
+───────────────────────────────────────────────────────────────────────────────
+6.1 Component: cognitive_node (internal ontology body)
+Role: carries the ontology of cognitive structures.
+Typical contents:
+
+- vocabulary (canonical terms)
+  CognitiveStructure, Family, Invariant, VariationDomain, Procedure, ValidationCriterion,
+  Projection, Instance, Context, Constraint, Evidence
+
+- entities (declared entity set)
+  Families:
+    Idea, Plan, Method, Design, ReasoningPattern,
+    Schema, MentalModel, Heuristic, SkillRoutine,
+    Protocol, EvaluationFrame, ControlPolicy, Script
+
+  Supporting entities:
+    Objective, Step, Rule, Constraint, Evidence, Context,
+    Representation, Simulation, Feedback, ErrorSignal, CorrectionAction
+
+- relations (typed edges)
+  isA(Structure, Family)
+  hasInvariant(Structure, Invariant)
+  hasVariationDomain(Structure, VariationDomain)
+  usesProcedure(Structure, Procedure)
+  validatedBy(StructureOrInstance, ValidationCriterion)
+  composedOf(Structure, Structure)
+  instantiates(Instance, Structure)
+  adaptsTo(Context, StructureOrProcedure)
+  constrainedBy(StructureOrProcedure, Constraint)
+  produces(StructureOrProcedure, Outcome)
+  projectsTo(Structure, cNodeArtifact)
+  alignsWith(Structure, ExternalNode) via alias rules
+
+- invariants (identity-preserving constraints)
+  I1: A CS must have at least one invariant and one variation dimension (CS1).
+  I2: A CS must have an operational role (CS2).
+  I3: A CS must be classifiable by explicit discriminators (CS3).
+  I4: A CS must be projection-ready (CS4).
+  I5: Family membership is not exclusive by default; compositions are permitted.
+
+- variation_domain (allowed changes)
+  V1: Add or refine families, provided discriminators remain explicit and non-contradictory.
+  V2: Add domain-specific subtypes (for example “Mathematical proof method”), consistent with
+      family invariants.
+  V3: Add additional validation tests or sharper discriminators (tightening closure).
+  V4: Add alias mappings for integration, with explicit constraints and merge rules.
+
+- procedures (operational rules)
+  P1: Classification Procedure (CS-CLASSIFY)
+  P2: Projection Procedure (CS-PROJECT)
+  P3: Composition Procedure (CS-COMPOSE)
+  P4: Integration Procedure (CS-INTEGRATE)
+
+- validation (tests and criteria)
+  T1: Identity Boundary Test
+  T2: Discriminator Test
+  T3: Composition Consistency Test
+  T4: Integration Compatibility Test
+
+- provenance (recommended)
+  Rationale for family list, discriminator choices, and changes over time.
+
+6.2 Component: graph_patch (integration surface expression)
+Role: expresses deterministic integration with a shared graph of cNodes.
+
+PROVIDES
+- A stable taxonomy of cognitive structure families.
+- A discriminator set (classification questions).
+- A projection protocol (how to externalize without hidden context).
+- Validation criteria for correctness and compatibility.
+
+REQUIRES
+- The general cNode framework (projection, identity boundary, integration surface).
+- A shared graph vocabulary policy (how aliases and conflicts are handled).
+
+CONSTRAINTS
+- No hidden context is required for integration: all alignments must be explicit.
+- Merge rules must record provenance when resolving conflicts.
+
+TYPES (interface types)
+- CognitiveStructureDescriptor
+- ClassificationResult
+- ProjectionPackage
+- IntegrationReport
+
+ALIASES (example)
+- “schema” ↔ “cognitive framework” (if invariants match)
+- “skill routine” ↔ “procedural skill” (if operational role and automaticity match)
+
+NEGOTIATION (alignment steps)
+1) Discover candidate alignments (term similarity is not sufficient).
+2) Check invariant compatibility.
+3) Map aliases with explicit constraints.
+4) Validate using T4.
+5) Merge deterministically with provenance.
+
+MERGE_POLICY (deterministic)
+- conflict: prefer-more-specific (when invariants are consistent)
+- id_collision: namespace-rename
+- provenance: required
+- upsert_only: true
+
+6.3 Component: orchestrator (internal composition controller)
+Role: defines how classification, projection, composition, and integration procedures sequence.
+
+Orchestrator pipeline (canonical):
+- Intake → Normalize terms → Identify candidate families
+- Extract invariants/variation → Select procedures
+- Validate classification → Project to package
+- Prepare integration surface → Validate compatibility → Emit report
+
+6.4 Component: internal_nodes (concepts and nested cNodes)
+Role: permits embedding specialized cognitive structures as nested nodes.
+Example: “MathematicalProofMethod” as a nested cNode inside “Method”.
+
+6.5 Component: technical_metaphor_layer (controlled mapping)
+Role: optional acceleration of comprehension, without replacing invariants.
+Example:
+- metaphor_term: “template”
+- mapped_structure: {Schema, Script, Protocol}
+- non_implications: “template does not imply rigidity; variation remains explicit”
+- evidence: mapping is constrained by invariants and validation tests
+
+───────────────────────────────────────────────────────────────────────────────
+7) DISCRIMINATORS (CLASSIFICATION QUESTIONS)
+───────────────────────────────────────────────────────────────────────────────
+Purpose: classify a candidate CS into one or more families.
+
+D-IDEA:
+- Does the structure primarily stabilize meaning/identity (“what this is”)?
+
+D-PLAN:
+- Does it primarily encode ordered steps toward an objective?
+
+D-METHOD:
+- Does it primarily encode a repeatable procedure with reliability/quality control?
+
+D-DESIGN:
+- Does it primarily encode relationships among parts under constraints?
+
+D-REASONING:
+- Does it primarily encode inference templates and justification rules?
+
+D-SCHEMA:
+- Does it primarily organize knowledge to guide interpretation of new information?
+
+D-MENTAL-MODEL:
+- Does it primarily represent a domain to enable simulation/prediction?
+
+D-HEURISTIC:
+- Does it primarily provide fast approximate decisions under resource constraints?
+
+D-SKILL-ROUTINE:
+- Does it primarily execute automatically after learning, with minimal conscious load?
+
+D-PROTOCOL:
+- Does it primarily structure interaction or staged procedure among roles/agents?
+
+D-EVALUATION-FRAME:
+- Does it primarily define acceptance thresholds, scoring, ranking, or selection?
+
+D-CONTROL-POLICY:
+- Does it primarily define feedback-driven correction and regulation rules?
+
+D-SCRIPT:
+- Does it primarily define a typical scenario with expected stages and roles?
+
+Validation rule:
+- Family assignment is valid only if invariants are satisfied and discriminators are met.
+
+───────────────────────────────────────────────────────────────────────────────
+8) MICRO-EXAMPLES (STRUCTURE-BASED, NOT PERSONAL EXEMPLARS)
+───────────────────────────────────────────────────────────────────────────────
+8.1 Example A: Solving a mathematics problem (compositional CS)
+Candidate description:
+“A procedure to derive a correct result from premises, with verification.”
+
+Classification:
+- ReasoningPattern (inference + justification)
+- Method (repeatable proof or solution method)
+- EvaluationFrame (verification criteria)
+
+Invariants:
+- Must include inference steps and justification (ReasoningPattern).
+- Must include a repeatable method or pattern application (Method).
+- Must include correctness check (EvaluationFrame).
+
+Variation:
+- Domain (algebra, calculus, geometry), notation, problem type.
+
+8.2 Example B: Tying shoelaces (plan → skill routine transition)
+Candidate description:
+“A sequence of steps that becomes automatic with practice.”
+
+Classification:
+- Plan (during learning; explicit steps)
+- SkillRoutine (after automaticity develops)
+
+Invariants:
+- Objective remains “produce a stable knot.”
+- Procedure remains executable.
+
+Variation:
+- Knot type, lace type, environment constraints.
+
+8.3 Example C: Elicitation interaction (protocol + method + evaluation)
+Candidate description:
+“A staged interaction to extract specific information from a target party, with validation.”
+
+Classification:
+- Protocol (stages, roles, interaction structure)
+- Method (repeatable elicitation technique)
+- EvaluationFrame (validation and consistency checks)
+
+Invariants:
+- Objective: obtain target information.
+- Validation: minimal consistency/confirmation required.
+
+Variation:
+- Channel (telephone vs in-person), participants, language style.
+
+───────────────────────────────────────────────────────────────────────────────
+9) CAPABILITIES (EACH WITH A MICRO-EXAMPLE)
+───────────────────────────────────────────────────────────────────────────────
+C1 — Stable reuse across time
+Example: A project reuses “Elicitation Protocol” months later; invariants prevent drift.
+
+C2 — Explicit integration into a shared graph
+Example: “Schema” aligns with “KnowledgeOrganization” node via aliases and invariant checks.
+
+C3 — Compositional construction
+Example: “DecisionMakingSystem” is composedOf {Heuristic, MentalModel, EvaluationFrame}.
+
+C4 — Validation and drift detection
+Example: A candidate labeled “Heuristic” that requires full exhaustive optimization fails
+the Heuristic discriminator (speed/approximation constraint).
+
+C5 — Transfer of structure, not merely words
+Example: “Method” node exports procedures and validation tests; consumers integrate reliably.
+
+───────────────────────────────────────────────────────────────────────────────
+10) EVOLUTION AND VERSIONING (IDENTITY-ALIGNED)
+───────────────────────────────────────────────────────────────────────────────
+10.1 Identity-preserving evolution (MINOR)
+- Add new families with explicit discriminators and invariants.
+- Refine validation tests without changing invariants.
+- Add subtypes consistent with existing invariants.
+
+10.2 Identity-changing evolution (MAJOR)
+- Change the definition of CS such that invariants CS1–CS4 are altered.
+- Remove projection-readiness as a requirement.
+- Force exclusivity of families as an invariant.
+
+Semantic Versioning convention:
+- MAJOR: invariants changed (identity changed)
+- MINOR: compatible extension within allowed variation
+- PATCH: clarifications not affecting identity
+
+───────────────────────────────────────────────────────────────────────────────
+11) QUICK QUALIFICATION CHECKLIST (UNIT TEST FOR “IS THIS A COGNITIVE STRUCTURE?”)
+───────────────────────────────────────────────────────────────────────────────
+[ ] CS1: At least one invariant and one variation dimension can be stated.
+[ ] CS2: Operational role exists (guides cognition or action).
+[ ] CS3: Classifiable by discriminators (one or more families).
+[ ] CS4: Projection can be written without hidden personal exemplars.
+[ ] Validation tests pass (T1–T3) for internal coherence.
+[ ] Integration tests pass (T4) for shared-graph compatibility (if integrating).
+
+If all are checked, the object qualifies as a Cognitive Structure in this framework.
+
+───────────────────────────────────────────────────────────────────────────────
+SOURCES (for independent verification; URLs allowed inside this snippet)
+───────────────────────────────────────────────────────────────────────────────
+- APA Dictionary of Psychology — Schema: https://dictionary.apa.org/schema
+- Encyclopaedia Britannica — Schema (cognition): https://www.britannica.com/science/schema-cognition
+- Mental Models (encyclopedic overview; PDF): https://groups.psych.northwestern.edu/gentner/papers/Gentner02d.pdf
+- Heuristics overview (popular but clear definition): https://www.verywellmind.com/what-is-a-heuristic-2795235
+- Procedural learning and memory (peer-reviewed; open access): https://pmc.ncbi.nlm.nih.gov/articles/PMC8048153/
+- Automaticity and habit learning (peer-reviewed overview): https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1172
+
+END OF DOCUMENT

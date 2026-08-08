@@ -1,0 +1,204 @@
+TÍTULO: “FAMILIA” (EN EL CONTEXTO DE ESTRUCTURAS COGNITIVAS + PROYECCIÓN A cNodes)
+VERSIÓN: 1.0.0 (definición formal operativa)
+PROPÓSITO: Definir “familia” como categoría de manifestación del pensamiento (no genealogía),
+           y dar analogías refinadas que expliquen el mecanismo.
+
+───────────────────────────────────────────────────────────────────────────────
+1) DEFINICIÓN FORMAL (STRICT FORM)
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definición (formal)
+Una FAMILIA (de estructuras cognitivas) es una categoría operativa de manifestación que
+clasifica estructuras cognitivas por el tipo de función que realizan (rol operativo dominante)
+bajo un conjunto de condiciones de contorno típicas, y cuya pertenencia está determinada por:
+
+(1) INVARIANTES DE FAMILIA
+    Condiciones mínimas que deben estar presentes para que una estructura cuente como una
+    instancia de esa familia (identidad del modo de manifestación).
+
+(2) DISCRIMINADORES DE FAMILIA
+    Preguntas o pruebas operativas que permiten decidir la pertenencia sin depender de
+    ejemplares autobiográficos o intuición no verificable.
+
+(3) DOMINIO DE VARIACIÓN DE FAMILIA
+    Dimensiones en las que una instancia puede cambiar sin dejar de pertenecer a la familia.
+
+(4) PERFIL DE CONDICIONES (CONDICIONES DE CONTORNO)
+    Rasgos típicos del contexto/tarea que “activan” o hacen dominante ese modo de manifestación
+    (por ejemplo: necesidad de significado vs necesidad de ejecución vs necesidad de fiabilidad).
+
+(5) PROCEDIMIENTOS Y VALIDACIÓN ASOCIADOS
+    Reglas de uso y criterios de corrección que hacen que la familia sea proyectable a un
+    paquete explícito (cNode) e integrable.
+
+En este marco, “familia” no es una genealogía (“ancestro → descendientes”), sino un conjunto
+de MODOS FUNCIONALES DE FORMA: el pensamiento se organiza y se expresa de maneras distintas según
+la presión del problema; cada familia describe uno de esos modos.
+
+───────────────────────────────────────────────────────────────────────────────
+1.2 Definición en una frase (fast reuse)
+───────────────────────────────────────────────────────────────────────────────
+Una familia es un modo funcional de manifestación del pensamiento, definido por invariantes,
+discriminadores y variación permitida, que se vuelve dominante bajo ciertas condiciones de tarea.
+
+───────────────────────────────────────────────────────────────────────────────
+2) ESTRUCTURA CANÓNICA DE UNA FAMILIA (PLANTILLA)
+───────────────────────────────────────────────────────────────────────────────
+Family := {
+  name: string,
+  role: RolOperativoDominante,
+  invariants: Invariant[],
+  discriminators: Test[],
+  variation_domain: VariationDimension[],
+  condition_profile: Condition[],        // condiciones típicas que “activan” el modo
+  procedures: Procedure[],               // cómo se usa el modo
+  validation_criteria: ValidationRule[]  // cómo se comprueba pertenencia y corrección
+}
+
+NOTA:
+- Una misma estructura cognitiva puede pertenecer a múltiples familias si satisface los
+  invariantes y discriminadores de cada una (no exclusividad por defecto).
+- “Modo” no significa “ejemplo”; significa “forma organizativa” del pensamiento.
+
+───────────────────────────────────────────────────────────────────────────────
+3) FAMILIAS BASE (COMO MODOS DE MANIFESTACIÓN)
+───────────────────────────────────────────────────────────────────────────────
+A) IDEA
+- role: estabilizar significado / identidad (“qué es esto”)
+- condition_profile: ambigüedad conceptual; necesidad de definición; clasificación de objetos
+- invariants: ancla de significado + criterios mínimos de identidad
+- discriminators: ¿define “qué es” y permite reconocer instancias?
+- variation: ejemplos, formulación verbal, nivel de formalidad
+
+B) PLAN
+- role: guiar pasos ordenados hacia un objetivo (“qué pasos seguir”)
+- condition_profile: necesidad de ejecución secuencial; coordinación temporal
+- invariants: objetivo + secuencia ordenada (al menos parcialmente) + criterio de completitud mínima
+- discriminators: ¿hay pasos ordenados y fin explícito?
+- variation: duración, herramientas, contexto, alternativas
+
+C) MÉTODO
+- role: producir resultados de manera fiable (“cómo producir resultados de forma fiable”)
+- condition_profile: repetición; control de calidad; reducción de error
+- invariants: procedimiento repetible + verificación/validación (control de calidad)
+- discriminators: ¿incluye control de calidad o prueba de corrección?
+- variation: técnicas, instrumentos, tolerancias, optimizaciones
+
+D) DISEÑO
+- role: organizar relaciones entre partes bajo restricciones (“cómo se relacionan las partes…”)
+- condition_profile: arquitectura; constraints; trade-offs
+- invariants: conjunto de partes + relaciones + restricciones funcionales
+- discriminators: ¿la identidad depende de relaciones bajo restricciones?
+- variation: materiales, escalas, implementación, estilo
+
+E) PATRÓN DE RAZONAMIENTO
+- role: derivar conclusiones justificadas (“cómo se derivan conclusiones”)
+- condition_profile: inferencia; prueba; justificación
+- invariants: esquema inferencial + regla de justificación/validez
+- discriminators: ¿hay plantilla de inferencia y criterio de validez?
+- variation: dominio, símbolos, pasos intermedios
+
+───────────────────────────────────────────────────────────────────────────────
+4) EJEMPLOS ADECUADOS (ANALOGÍAS REFINADAS) — “MISMO NÚCLEO, DISTINTA MANIFESTACIÓN”
+───────────────────────────────────────────────────────────────────────────────
+OBJETIVO:
+Mostrar “familia” como modos de manifestación, activados por condiciones,
+no como ancestro-descendencia.
+
+───────────────────────────────────────────────────────────────────────────────
+EJEMPLO A — FENÓMENO ÚNICO: “AGUA QUE CAE” → MODOS DE MANIFESTACIÓN
+───────────────────────────────────────────────────────────────────────────────
+NÚCLEO INVARIANTE:
+- “Agua moviéndose hacia abajo por gravedad desde una masa atmosférica.”
+
+CONDICIONES DE CONTORNO (CONDICIONAN LA MANIFESTACIÓN):
+- temperatura, humedad, dinámica de aire, presión, altitud.
+
+FAMILIAS (MODOS DE MANIFESTACIÓN DEL MISMO FENÓMENO):
+- Llovizna  : modo “baja densidad” (pequeña magnitud por unidad de tiempo)
+- Aguacero  : modo “alta densidad” (gran magnitud por unidad de tiempo)
+- Nieve     : modo “fase sólida cristalina” (temperatura/estructura condiciona forma)
+- Granizo   : modo “sólido compacto por congelación y ciclos” (dinámica de nubes)
+
+DISCRIMINADORES (PRUEBAS DE PERTENENCIA):
+- ¿fase líquida o sólida?
+- ¿tasa de precipitación (magnitud temporal)?
+- ¿estructura cristalina vs compacta?
+
+PUNTO QUE EXPLICA “FAMILIA”:
+- No cambió el núcleo (“agua cayendo”); cambió el modo de manifestación por condiciones.
+- “Familias” aquí son REGÍMENES DE COMPORTAMIENTO del mismo fenómeno.
+
+MAPEO AL CONTEXTO COGNITIVO:
+- Núcleo invariante: “pensamiento / cognición dirigida”
+- Condiciones de contorno: objetivo, restricciones, necesidad de fiabilidad, necesidad de coordinación
+- Familias: Idea, Plan, Método, Diseño, Patrón de razonamiento (modos de manifestación)
+
+───────────────────────────────────────────────────────────────────────────────
+EJEMPLO B — FENÓMENO ÚNICO: “NORMA JURÍDICA EN ACCIÓN” → MODOS DE MANIFESTACIÓN
+───────────────────────────────────────────────────────────────────────────────
+NÚCLEO INVARIANTE:
+- “Un sistema normativo que clasifica conductas y prescribe consecuencias.”
+
+CONDICIONES DE CONTORNO (CONDICIONAN LA MANIFESTACIÓN):
+- tipo de conducta, intención, daño, evidencia, agravantes/atenuantes, tipificación.
+
+FAMILIAS (MODOS DE MANIFESTACIÓN DEL MISMO SISTEMA):
+- Multa                : manifestación correctiva económica
+- Pena privativa       : manifestación restrictiva de libertad
+- Medida alternativa   : manifestación reparativa/condicional
+- Inhabilitación       : manifestación de restricción funcional (roles/capacidades)
+
+DISCRIMINADORES (PRUEBAS):
+- ¿la norma prescribe consecuencia económica, libertad, restricción funcional, reparación?
+- ¿qué condiciones activan cada consecuencia (tipificación)?
+
+PUNTO QUE EXPLICA “FAMILIA”:
+- La “ley” no cambió como núcleo; cambia su forma de actualización según el caso.
+- “Familias” son FORMAS TÍPICAS DE ACTUALIZACIÓN bajo condiciones especificables.
+
+MAPEO AL CONTEXTO COGNITIVO:
+- Núcleo invariante: “cognición regulada por un objetivo”
+- Condiciones: tarea requiere definir, ejecutar, repetir con fiabilidad, diseñar, justificar
+- Familias: modos de actualización cognitiva dominantes (Idea/Plan/Método/Diseño/Razonamiento)
+
+───────────────────────────────────────────────────────────────────────────────
+EJEMPLO C — FENÓMENO ÚNICO: “INTENCIÓN DE RESOLVER” → MODOS DE MANIFESTACIÓN COGNITIVA
+───────────────────────────────────────────────────────────────────────────────
+NÚCLEO INVARIANTE:
+- “Un agente busca resolver una situación problemática.”
+
+CONDICIONES DE CONTORNO → FAMILIA ACTIVADA:
+1) Condición: ambigüedad conceptual (¿qué es X?)
+   → Familia dominante: IDEA
+   - discriminador: ¿la estructura estabiliza significado/identidad?
+
+2) Condición: necesidad de ejecución secuencial (hacer algo en orden)
+   → Familia dominante: PLAN
+   - discriminador: ¿hay objetivo + pasos ordenados?
+
+3) Condición: repetición y reducción de error (hacerlo muchas veces bien)
+   → Familia dominante: MÉTODO
+   - discriminador: ¿hay procedimiento repetible + control de calidad?
+
+4) Condición: partes + restricciones + trade-offs (organizar componentes)
+   → Familia dominante: DISEÑO
+   - discriminador: ¿la identidad depende de relaciones bajo restricciones?
+
+5) Condición: justificar conclusión (no solo opinar)
+   → Familia dominante: PATRÓN DE RAZONAMIENTO
+   - discriminador: ¿hay inferencia + regla de validez/justificación?
+
+PUNTO QUE EXPLICA “FAMILIA”:
+- “Familia” describe el MODO de organización del pensamiento que se vuelve dominante por la presión del problema.
+- No es “hijos de un ancestro” como genealogía, sino “regímenes de forma” inducidos por condiciones.
+
+───────────────────────────────────────────────────────────────────────────────
+5) CIERRE (CRITERIO DE CORRECCIÓN DE TU IDEA)
+───────────────────────────────────────────────────────────────────────────────
+Para que una analogía sea adecuada a tu noción de “familia”, debe cumplir:
+- Identificar un NÚCLEO INVARIANTE único.
+- Mostrar CONDICIONES DE CONTORNO explícitas.
+- Mostrar MODOS DE MANIFESTACIÓN múltiples (familias) que cambian según condiciones.
+- Dar DISCRIMINADORES verificables para decidir “qué modo” está presente.
+
+FIN DEL SNIPPET

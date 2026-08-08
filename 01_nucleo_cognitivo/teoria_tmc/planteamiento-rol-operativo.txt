@@ -1,0 +1,139 @@
+DEL CHAT: https://chatgpt.com/g/g-p-68c4bc347e248191905bbd76543c7631-lenguaje-corporal/c/698501e4-5714-8331-8d05-b6b55c74b84a
+DEFINICIÓN (DETALLADA) — ROL OPERATIVO
+(En la teoría de Máquinas Cognitivas / mNodes)
+
+
+0) Intención del concepto
+“Rol operativo” nombra el tipo de operación que una manifestación cognitiva realiza
+sobre información cuando está en uso. No describe “de qué trata” (tema), sino “qué
+hace como forma”: qué transformación impone, qué estabiliza, qué organiza, qué guía
+o qué vuelve posible en la conducta o el razonamiento.
+
+1) Qué es “Rol Operativo”
+Un rol operativo es el contorno estructural de una operación cognitiva: el conjunto
+mínimo de efectos estructurales y restricciones de uso que permiten identificar que
+una manifestación está operando como un cierto modo, por ejemplo:
+  * Fijar “qué es” algo (estabilizar una descripción).
+  * Organizar una secuencia para lograr un objetivo.
+  * Repetir una forma de manera estable bajo variaciones.
+  * Producir una justificación (relación inferencial entre piezas).
+
+
+  - “Rol” indica que no estamos describiendo un tema (“habla de geometría” o “habla de cocina”), sino una función
+    estructural dentro del operar.
+      * Un rol operativo es el contorno estructural de una operación cognitiva: el conjunto mínimo de efectos
+        estructurales y restricciones de uso que permiten identificar que una manifestación está operando como
+        un cierto modo
+  - “Operativo” indica que esa función se identifica por lo que hace sobre la información (su transformación),
+    no por el vocabulario usado, ni por una etiqueta nominal, ni por intuición privada.
+
+
+Este concepto está alineado con el marco donde:
+- La cognición se entiende como capacidad de operar sobre información (Planteamiento Fundamental).
+  El rol operativo solo tiene sentido bajo una lectura operativa de la cognición: si
+  la cognición opera sobre información, entonces el rol operativo identifica el tipo
+  de operación efectivamente realizada (qué operación está ocurriendo).
+
+- Las manifestaciones pueden variar según condiciones externas sin perder identidad (manifestación condicionada).
+  Un mismo agente puede requerir operaciones distintas según la situación. Por eso,
+  el rol operativo se reconoce como un patrón que puede volverse dominante bajo
+  ciertas condiciones externas (tipo de tarea, restricciones, presión, riesgo de error).
+
+- La identidad debe poder comunicarse por estructura (invariantes + dominio de variación), no por contexto autobiográfico
+  (transferibilidad estructural).
+  Para que el rol operativo sea compartible y no dependa de intuición privada, debe
+  poder describirse con límites explícitos: qué no puede faltar para que “siga siendo
+  ese rol” y qué puede variar sin romperlo.
+
+Además, encaja con el uso de mNode como forma portadora de identidad, donde el rol operativo es una de las piezas que lo
+vuelven utilizable y proyectable. 
+
+
+2) Qué NO es un Rol Operativo
+2.1 No es “propósito psicológico”
+No se define como intención consciente ni como motivación subjetiva del agente.
+Es una descripción estructural del tipo de operación que una forma cognitiva cumple cuando está en uso.
+
+2.2 No es “contenido temático”
+El contenido puede cambiar (triángulo vs. cuadrado; té vs. café) sin cambiar el rol operativo, siempre que se preserve
+el mismo patrón de operación.
+Por eso, el rol operativo clasifica por “cómo opera” y “qué hace posible”, no por “de qué trata”. 
+
+2.3 No es “la identidad completa del mNode”
+El rol operativo no sustituye el límite de identidad (invariantes + dominio de variación). Es una capa distinta:
+- Límite de identidad: define qué es esa unidad (qué no puede cambiar y qué sí puede variar sin colapsar identidad).
+- Rol operativo: define qué hace esa unidad cuando opera sobre información (qué transforma, qué estabiliza, qué guía,
+  qué produce). 
+
+
+3) Estructura mínima del Rol Operativo: “contorno de operación”
+Para que “rol operativo” sea tipificable (usable en categorías y familias), debe expresarse como un contorno de operación
+(conjunto de criterios estructurales que permiten reconocer la operación con alta convergencia):
+  * Qué hace (efecto estructural sobre información y/o acción).
+  * Qué controla o estabiliza (qué mantiene fijo para que la operación funcione).
+  * Qué vuelve decidible (qué criterio permite aplicar: “cuenta / no cuenta”).
+  * Qué admite variación sin perder identidad operativa (variación permitida).
+
+Ese contorno se compone de, al menos, tres partes:
+
+3.1 Invariantes operativas (límite de identidad del tipo de operación)
+Son las condiciones mínimas del operar que deben estar presentes para que siga siendo ese rol.
+No son invariantes de contenido, sino invariantes del tipo de transformación.
+
+Ejemplos de forma (plantilla):
+- Debe existir una relación mínima entre entradas y salidas de información (qué se toma como dato y qué se produce).
+- Debe existir una organización mínima (por ejemplo, secuencia, reglas de pertenencia, pasos hacia un objetivo,
+  condiciones de corrección).
+- Si estas piezas faltan, aunque el texto use las mismas palabras, no es esa operación.
+
+3.2 Dominio de variación operativa (qué puede cambiar sin cambiar el rol)
+Conjunto de aspectos que pueden variar sin que cambie el tipo de operación.
+Ejemplos típicos de variación permitida:
+- Tema / dominio (geometría, cocina, derecho, programación).
+- Formato de proyección (texto, diagrama, lista, demostración, receta, tutorial).
+- Estilo, nivel de detalle, ejemplos, orden superficial, idioma.
+La regla es: “cambia sobre qué opera, pero no cambia cómo opera”.
+
+3.3 Discriminadores operativos (pruebas de reconocimiento)
+Preguntas o pruebas prácticas que permiten decidir si estamos viendo ese rol operativo, sin depender de “me suena a…”.
+El objetivo es asegurar convergencia y evitar intuición privada.
+
+Plantilla de discriminadores:
+- “Si elimino X, ¿todavía se puede ejecutar la operación?”
+- “¿Qué evidencia observable hay de que aquí se está estabilizando/derivando/planificando?”
+- “¿Cuál es el criterio de corrección o validez asociado a este operar?”
+- “¿Qué salida produce necesariamente este operar (aunque cambie el tema)?”
+
+
+4) Cómo se conecta con los ejemplos (té y triángulo)
+Los ejemplos sirven como anclas de reconocimiento: muestran dos instancias donde el rol operativo es visible sin
+depender de una teoría previa del dominio.
+
+4.1 Ejemplo tipo “Definición operativa de triángulo”
+Rol operativo dominante: estabilizar identidad y permitir deducción.
+- Operación: fijar “qué es” (criterio de pertenencia) y habilitar inferencias (propiedades, teoremas, clasificación).
+- Invariantes operativas: existencia de criterios mínimos de pertenencia + condiciones que permiten derivar propiedades.
+- Dominio de variación: cambia la figura (triángulo, cuadrado, polígono), cambia el lenguaje o representación, pero se
+  mantiene el mismo operar: “definir para reconocer y deducir”.
+
+4.2 Ejemplo tipo “Plan mínimo para preparar té”
+Rol operativo dominante: secuenciar acciones hacia un objetivo reproducible.
+- Operación: ordenar pasos con condiciones mínimas para producir un resultado.
+- Invariantes operativas: objetivo + secuencia mínima + condiciones necesarias.
+- Dominio de variación: cambia el tipo de bebida, detalles, herramientas, duración, pero se mantiene el operar:
+  “planificar/ejecutar por pasos hacia un fin”. 
+
+
+5) Relación del Rol Operativo con mNode (por qué es necesario)
+Un mNode es una forma portadora de identidad que organiza información y/o acción, y puede proyectarse.
+Esa definición incluye explícitamente el rol operativo como una de sus piezas mínimas de formalización. 
+
+Interpretación estructural:
+- El mNode responde: “¿Qué unidad es esta, con identidad estable?”
+- El rol operativo responde: “¿Cómo opera esta unidad cuando está en uso; qué transformación impone?”
+
+Por eso, “rol operativo” es el puente interno que convierte una identidad estructural en una unidad utilizable:
+sin rol operativo, el mNode podría quedar como forma “descrita” pero no “operable” (no quedaría claro qué hace esa
+forma sobre la información).
+
+

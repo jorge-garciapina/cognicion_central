@@ -1,0 +1,443 @@
+TÍTULO: Estructuras Cognitivas (CS) — cNode (Paquete Ontológico Centrado en la Proyección)
+VERSIÓN: 1.0.0
+ESTATUS: Borrador de Trabajo (exportable, objetivo de ambigüedad mínima)
+IDIOMA: Inglés (elegido por precisión y estabilidad de revisión)
+AUDIENCIA: Cualquier proyecto con contexto cero previo sobre Nodos Cognitivos
+ALCANCE: Taxonomía + definición operativa de “estructura cognitiva” como fuente para proyección en cNodes
+FUERA DE ALCANCE: Afirmaciones de implementación en neurociencia más allá de la utilidad operativa; terapia; diagnóstico clínico
+
+───────────────────────────────────────────────────────────────────────────────
+0) DECLARACIÓN EJECUTIVA (UN PÁRRAFO, ALTA PRECISIÓN)
+───────────────────────────────────────────────────────────────────────────────
+Una Estructura Cognitiva (CS) es una forma cognitiva interna, portadora de identidad, que organiza
+información y/o acción de tal modo que puede guiar la percepción, el razonamiento, la toma de decisiones,
+el aprendizaje o la ejecución. Una CS no se define por un ejemplo particular, sino por (1) un límite de
+identidad explícito (invariantes + dominio de variación), (2) un rol operativo (cómo se usa para producir
+resultados), y (3) una propiedad de preparación para la proyección: puede externalizarse como un paquete
+ontológico portable (un cNode) sin requerir contexto personal oculto. Este cNode define las estructuras
+cognitivas como una familia estructurada de formas-fuente (idea, plan, método, diseño, patrón de razonamiento,
+más familias extensibles como esquema, modelo mental, heurística, rutina de habilidad, protocolo, marco de
+evaluación y política de control) y proporciona procedimientos y criterios de validación para clasificarlas,
+componerlas e integrarlas en un grafo compartido.
+
+───────────────────────────────────────────────────────────────────────────────
+1) DEFINICIÓN NUCLEAR (FORMA ESTRICTA)
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definición (texto formal)
+Una Estructura Cognitiva (CS) es una estructura interna que:
+- Porta identidad: preserva “lo que es” mediante invariantes explícitos y un dominio de variación
+  explícito (límite de identidad).
+- Es operativa: guía la cognición y/o la acción mediante procedimientos, restricciones y criterios de
+  validación (incluso si son implícitos en un agente humano y se hacen explícitos en el momento de la proyección).
+- Es composicional: puede formarse a partir de estructuras cognitivas más pequeñas y puede incrustarse
+  dentro de estructuras más grandes (estructura anidada).
+- Está lista para la proyección: puede externalizarse deliberadamente en un paquete ontológico explícito
+  (un cNode) que permanece portable e integrable sin contexto oculto.
+
+1.2 Definición en una frase (reutilización rápida)
+Una estructura cognitiva es una forma interna portadora de identidad que guía la cognición o la acción y
+puede proyectarse en un paquete ontológico portable e integrable.
+
+1.3 Discriminador (qué la hace una CS, y no meramente “un pensamiento”)
+Un episodio mental cuenta como una CS solo si puede describirse como una forma estable con:
+(1) invariantes explícitos o reconstruibles, (2) un dominio de variación permisible,
+(3) un rol operativo, y (4) una proyección que no colapsa en ejemplares puramente personales.
+
+───────────────────────────────────────────────────────────────────────────────
+2) EL ACTO GENERADOR: PROYECCIÓN (CENTRO DE GRAVEDAD)
+───────────────────────────────────────────────────────────────────────────────
+2.1 Estructura cognitiva (fuente)
+Una estructura cognitiva es una forma interna que puede funcionar como cualquiera de las siguientes familias
+(no exhaustivo, extensible):
+
+FAMILIAS BASE (mínimas, alta cobertura):
+- Idea: “qué es esto” (ancla de identidad/significado).
+- Plan: “qué pasos seguir” (secuencia ordenada hacia un objetivo).
+- Método: “cómo producir resultados de forma fiable” (procedimiento repetible con control de calidad).
+- Diseño: “cómo se relacionan las partes para satisfacer restricciones” (arquitectura bajo restricciones).
+- Patrón de razonamiento: “cómo se derivan conclusiones” (plantilla de inferencia + justificación).
+
+FAMILIAS DE EXTENSIÓN (necesarias para mayor resolución en la práctica):
+- Esquema: un marco estructurado que organiza el conocimiento y guía la interpretación.
+- Modelo mental: una representación interna usada para comprensión, simulación y predicción.
+- Heurística: una regla general (“regla de pulgar”) que simplifica la toma de decisiones bajo restricciones.
+- Rutina de habilidad: una estructura procedimental automatizada que se ejecuta con carga consciente mínima.
+- Protocolo: una interacción/secuencia estructurada (a menudo multiagente) con etapas explícitas.
+- Marco de evaluación: estructura de criterios/umbrales para aceptación, rechazo, clasificación.
+- Política de control: regla de regulación impulsada por retroalimentación (detección de error + conducta de corrección).
+- Guion: una plantilla de escenario típico (social o procedimental) con etapas y roles esperados.
+
+2.2 Proyección (operación)
+La proyección es el acto deliberado de seleccionar y externalizar desde una estructura cognitiva:
+- lo que debe preservarse (invariantes),
+- lo que puede cambiar (dominio de variación),
+- lo que existe y cómo se relaciona (entidades y relaciones),
+- cómo se usa (procedimientos),
+- cómo se prueba (criterios de validación),
+mientras se excluye el contexto privado, las asociaciones accidentales y los ejemplares puramente autobiográficos.
+
+2.3 Resultado (producto)
+El resultado de la proyección es un cNode que codifica la estructura cognitiva como un paquete ontológico explícito,
+autocontenido e integrable.
+
+2.4 Convención de nombres opcional (distinción aclaratoria)
+- mStructure: estructura cognitiva interna en una mente (humana o artificial).
+- cStructure: paquete ontológico proyectado derivado de esa mStructure (una instancia de cNode).
+
+───────────────────────────────────────────────────────────────────────────────
+3) POR QUÉ EXISTE ESTE CONCEPTO (CONDICIONAL, NO ABSOLUTO)
+───────────────────────────────────────────────────────────────────────────────
+3.1 El problema (planteado condicionalmente)
+El lenguaje natural puede describir la cognición de forma informal, pero la reutilización estable a través del tiempo,
+proyectos y agentes requiere límites de identidad explícitos, reglas operativas y criterios de validación.
+Sin estructura explícita, distintos intérpretes pueden converger silenciosamente en significados diferentes.
+
+3.2 La causa estructural
+Los humanos comprimen la cognición usando contexto implícito, habilidad tácita y ejemplares personales.
+La proyección hace explícito el límite de identidad, para que la reutilización y la integración no dependan
+de supuestos ocultos.
+
+3.3 El objetivo de diseño
+Este cNode existe para definir una ontología estable para “estructura cognitiva” y para suministrar un protocolo de
+clasificación y validación que soporte portabilidad e integración.
+
+───────────────────────────────────────────────────────────────────────────────
+4) TÉRMINOS CLAVE (DESAMBIGUACIÓN) — EXPANDE SIN MIEDO
+───────────────────────────────────────────────────────────────────────────────
+4.1 Estructura cognitiva (tal como se usa aquí)
+Una forma interna que organiza la representación y/o la acción, con límite de identidad y rol operativo.
+
+4.2 Esquema
+Un marco cognitivo que organiza el conocimiento y guía la interpretación, la imaginación y la resolución de problemas.
+
+4.3 Modelo mental
+Una representación interna usada para entender, razonar sobre y predecir un dominio mediante simulación mental.
+
+4.4 Heurística
+Una regla general (“regla de pulgar”) que reduce la carga computacional y acelera decisiones; puede intercambiar precisión
+por velocidad y puede sesgar sistemáticamente los resultados.
+
+4.5 Rutina de habilidad (estructura procedimental)
+Una habilidad adquirida que transita de control esforzado y explícito a ejecución automática con mínima exigencia consciente.
+
+4.6 Límite de identidad (estricto)
+Límite de identidad = invariantes + dominio de variación:
+- invariantes: condiciones que no pueden cambiar sin cambio de identidad,
+- variación: cambios permisibles que preservan la identidad.
+
+4.7 Procedimiento
+Una regla operativa: cómo se aplica, ejecuta o usa una estructura para producir resultados.
+
+4.8 Criterios de validación
+Reglas para comprobar:
+- clasificación correcta (esto es de esa familia, no de otra),
+- instanciación correcta (esta instancia satisface invariantes),
+- compatibilidad de integración (alias y restricciones se alinean con otros nodos).
+
+4.9 Siempre-integrable (intención de diseño)
+Siempre-integrable significa: superficies de integración explícitas, representación explícita de conflictos,
+reglas de fusión deterministas, sin contexto oculto requerido.
+
+───────────────────────────────────────────────────────────────────────────────
+5) CALIFICACIÓN MÍNIMA (CUÁNDO ALGO CUENTA COMO ESTRUCTURA COGNITIVA)
+───────────────────────────────────────────────────────────────────────────────
+Una forma interna candidata cuenta como Estructura Cognitiva solo si TODAS se satisfacen:
+
+CS1 — Límite de identidad reconstruible
+Se puede enunciar al menos un invariante y una dimensión de variación permitida.
+
+CS2 — Rol operativo explícito
+La estructura se usa para guiar la cognición o la acción (no meramente una sensación fugaz).
+
+CS3 — Clasificación por familia posible
+La estructura puede clasificarse en al menos una familia usando discriminadores.
+
+CS4 — Lista para proyección
+Puede escribirse una proyección que excluya ejemplares puramente privados y permanezca portable.
+
+Si CS1–CS4 falla, el objeto aún puede ser un “episodio mental” o “contenido”, pero no es una estructura cognitiva
+en este marco.
+
+───────────────────────────────────────────────────────────────────────────────
+6) ESTRUCTURA CANÓNICA DEL PAQUETE (CUERPO ONTOLÓGICO INTERNO + SUPERFICIE DE INTEGRACIÓN)
+───────────────────────────────────────────────────────────────────────────────
+6.1 Componente: cognitive_node (cuerpo ontológico interno)
+Rol: porta la ontología de las estructuras cognitivas.
+Contenidos típicos:
+
+- vocabulario (términos canónicos)
+  CognitiveStructure, Family, Invariant, VariationDomain, Procedure, ValidationCriterion,
+  Projection, Instance, Context, Constraint, Evidence
+
+- entidades (conjunto declarado de entidades)
+  Familias:
+    Idea, Plan, Method, Design, ReasoningPattern,
+    Schema, MentalModel, Heuristic, SkillRoutine,
+    Protocol, EvaluationFrame, ControlPolicy, Script
+
+  Entidades de soporte:
+    Objective, Step, Rule, Constraint, Evidence, Context,
+    Representation, Simulation, Feedback, ErrorSignal, CorrectionAction
+
+- relaciones (aristas tipadas)
+  isA(Structure, Family)
+  hasInvariant(Structure, Invariant)
+  hasVariationDomain(Structure, VariationDomain)
+  usesProcedure(Structure, Procedure)
+  validatedBy(StructureOrInstance, ValidationCriterion)
+  composedOf(Structure, Structure)
+  instantiates(Instance, Structure)
+  adaptsTo(Context, StructureOrProcedure)
+  constrainedBy(StructureOrProcedure, Constraint)
+  produces(StructureOrProcedure, Outcome)
+  projectsTo(Structure, cNodeArtifact)
+  alignsWith(Structure, ExternalNode) via alias rules
+
+- invariantes (restricciones que preservan identidad)
+  I1: Una CS debe tener al menos un invariante y una dimensión de variación (CS1).
+  I2: Una CS debe tener un rol operativo (CS2).
+  I3: Una CS debe ser clasificable por discriminadores explícitos (CS3).
+  I4: Una CS debe estar lista para proyección (CS4).
+  I5: La pertenencia a familias no es exclusiva por defecto; se permiten composiciones.
+
+- dominio_de_variación (cambios permitidos)
+  V1: Añadir o refinar familias, siempre que los discriminadores permanezcan explícitos y no contradictorios.
+  V2: Añadir subtipos específicos de dominio (por ejemplo “Método de demostración matemática”), consistente con
+      invariantes de familia.
+  V3: Añadir pruebas de validación adicionales o discriminadores más precisos (cerrando más estrictamente).
+  V4: Añadir mapeos de alias para integración, con restricciones explícitas y reglas de fusión.
+
+- procedimientos (reglas operativas)
+  P1: Procedimiento de Clasificación (CS-CLASSIFY)
+  P2: Procedimiento de Proyección (CS-PROJECT)
+  P3: Procedimiento de Composición (CS-COMPOSE)
+  P4: Procedimiento de Integración (CS-INTEGRATE)
+
+- validación (pruebas y criterios)
+  T1: Prueba de Límite de Identidad
+  T2: Prueba de Discriminador
+  T3: Prueba de Consistencia de Composición
+  T4: Prueba de Compatibilidad de Integración
+
+- procedencia (recomendado)
+  Justificación de la lista de familias, elecciones de discriminadores y cambios a través del tiempo.
+
+6.2 Componente: graph_patch (expresión de la superficie de integración)
+Rol: expresa integración determinista con un grafo compartido de cNodes.
+
+PROVEe
+- Una taxonomía estable de familias de estructuras cognitivas.
+- Un conjunto de discriminadores (preguntas de clasificación).
+- Un protocolo de proyección (cómo externalizar sin contexto oculto).
+- Criterios de validación para corrección y compatibilidad.
+
+REQUIERE
+- El marco general de cNode (proyección, límite de identidad, superficie de integración).
+- Una política de vocabulario compartido del grafo (cómo se manejan alias y conflictos).
+
+RESTRICCIONES
+- No se requiere contexto oculto para integrar: todas las alineaciones deben ser explícitas.
+- Las reglas de fusión deben registrar procedencia al resolver conflictos.
+
+TIPOS (tipos de interfaz)
+- CognitiveStructureDescriptor
+- ClassificationResult
+- ProjectionPackage
+- IntegrationReport
+
+ALIAS (ejemplo)
+- “schema” ↔ “cognitive framework” (si los invariantes coinciden)
+- “skill routine” ↔ “procedural skill” (si coinciden rol operativo y automaticidad)
+
+NEGOCIACIÓN (pasos de alineación)
+1) Descubrir alineaciones candidatas (la similitud de términos no es suficiente).
+2) Comprobar compatibilidad de invariantes.
+3) Mapear alias con restricciones explícitas.
+4) Validar usando T4.
+5) Fusionar de forma determinista con procedencia.
+
+MERGE_POLICY (determinística)
+- conflict: prefer-more-specific (cuando los invariantes son consistentes)
+- id_collision: namespace-rename
+- provenance: required
+- upsert_only: true
+
+6.3 Componente: orchestrator (controlador interno de composición)
+Rol: define cómo se secuencian los procedimientos de clasificación, proyección, composición e integración.
+
+Pipeline del orquestador (canónico):
+- Intake → Normalizar términos → Identificar familias candidatas
+- Extraer invariantes/variación → Seleccionar procedimientos
+- Validar clasificación → Proyectar a paquete
+- Preparar superficie de integración → Validar compatibilidad → Emitir reporte
+
+6.4 Componente: internal_nodes (conceptos y cNodes anidados)
+Rol: permite incrustar estructuras cognitivas especializadas como nodos anidados.
+Ejemplo: “MathematicalProofMethod” como un cNode anidado dentro de “Method”.
+
+6.5 Componente: technical_metaphor_layer (mapeo controlado)
+Rol: aceleración opcional de comprensión, sin reemplazar invariantes.
+Ejemplo:
+- metaphor_term: “template”
+- mapped_structure: {Schema, Script, Protocol}
+- non_implications: “template no implica rigidez; la variación permanece explícita”
+- evidence: el mapeo está restringido por invariantes y pruebas de validación
+
+───────────────────────────────────────────────────────────────────────────────
+7) DISCRIMINADORES (PREGUNTAS DE CLASIFICACIÓN)
+───────────────────────────────────────────────────────────────────────────────
+Propósito: clasificar una CS candidata en una o más familias.
+
+D-IDEA:
+- ¿La estructura estabiliza principalmente significado/identidad (“qué es esto”)?
+
+D-PLAN:
+- ¿Codifica principalmente pasos ordenados hacia un objetivo?
+
+D-METHOD:
+- ¿Codifica principalmente un procedimiento repetible con control de fiabilidad/calidad?
+
+D-DESIGN:
+- ¿Codifica principalmente relaciones entre partes bajo restricciones?
+
+D-REASONING:
+- ¿Codifica principalmente plantillas de inferencia y reglas de justificación?
+
+D-SCHEMA:
+- ¿Organiza principalmente conocimiento para guiar la interpretación de información nueva?
+
+D-MENTAL-MODEL:
+- ¿Representa principalmente un dominio para habilitar simulación/predicción?
+
+D-HEURISTIC:
+- ¿Proporciona principalmente decisiones rápidas aproximadas bajo restricciones de recursos?
+
+D-SKILL-ROUTINE:
+- ¿Se ejecuta principalmente de forma automática tras el aprendizaje, con carga consciente mínima?
+
+D-PROTOCOL:
+- ¿Estructura principalmente interacción o procedimiento por etapas entre roles/agentes?
+
+D-EVALUATION-FRAME:
+- ¿Define principalmente umbrales de aceptación, puntuación, ranking o selección?
+
+D-CONTROL-POLICY:
+- ¿Define principalmente reglas de corrección y regulación impulsadas por retroalimentación?
+
+D-SCRIPT:
+- ¿Define principalmente un escenario típico con etapas y roles esperados?
+
+Regla de validación:
+- La asignación de familia es válida solo si los invariantes se satisfacen y los discriminadores se cumplen.
+
+───────────────────────────────────────────────────────────────────────────────
+8) MICRO-EJEMPLOS (BASADOS EN ESTRUCTURA, NO EN EJEMPLARES PERSONALES)
+───────────────────────────────────────────────────────────────────────────────
+8.1 Ejemplo A: Resolver un problema de matemáticas (CS composicional)
+Descripción candidata:
+“Un procedimiento para derivar un resultado correcto a partir de premisas, con verificación.”
+
+Clasificación:
+- ReasoningPattern (inferencia + justificación)
+- Method (método repetible de demostración o solución)
+- EvaluationFrame (criterios de verificación)
+
+Invariantes:
+- Debe incluir pasos de inferencia y justificación (ReasoningPattern).
+- Debe incluir un método repetible o aplicación de patrón (Method).
+- Debe incluir verificación de corrección (EvaluationFrame).
+
+Variación:
+- Dominio (álgebra, cálculo, geometría), notación, tipo de problema.
+
+8.2 Ejemplo B: Atarse los cordones (transición de plan → rutina de habilidad)
+Descripción candidata:
+“Una secuencia de pasos que se vuelve automática con la práctica.”
+
+Clasificación:
+- Plan (durante el aprendizaje; pasos explícitos)
+- SkillRoutine (después de desarrollar automaticidad)
+
+Invariantes:
+- El objetivo permanece “producir un nudo estable”.
+- El procedimiento permanece ejecutable.
+
+Variación:
+- Tipo de nudo, tipo de cordón, restricciones del entorno.
+
+8.3 Ejemplo C: Interacción de elicitación (protocolo + método + evaluación)
+Descripción candidata:
+“Una interacción por etapas para extraer información específica de una parte objetivo, con validación.”
+
+Clasificación:
+- Protocol (etapas, roles, estructura de interacción)
+- Method (técnica de elicitación repetible)
+- EvaluationFrame (validación y comprobaciones de consistencia)
+
+Invariantes:
+- Objetivo: obtener información objetivo.
+- Validación: se requiere consistencia/confirmación mínima.
+
+Variación:
+- Canal (teléfono vs en persona), participantes, estilo de lenguaje.
+
+───────────────────────────────────────────────────────────────────────────────
+9) CAPACIDADES (CADA UNA CON UN MICRO-EJEMPLO)
+───────────────────────────────────────────────────────────────────────────────
+C1 — Reutilización estable a través del tiempo
+Ejemplo: Un proyecto reutiliza “Protocolo de Elicitación” meses después; los invariantes previenen deriva.
+
+C2 — Integración explícita en un grafo compartido
+Ejemplo: “Schema” se alinea con el nodo “KnowledgeOrganization” vía alias y comprobaciones de invariantes.
+
+C3 — Construcción composicional
+Ejemplo: “DecisionMakingSystem” está composedOf {Heuristic, MentalModel, EvaluationFrame}.
+
+C4 — Validación y detección de deriva
+Ejemplo: Un candidato etiquetado “Heuristic” que requiere optimización exhaustiva completa falla
+el discriminador de Heuristic (restricción de velocidad/aproximación).
+
+C5 — Transferencia de estructura, no meramente de palabras
+Ejemplo: El nodo “Method” exporta procedimientos y pruebas de validación; los consumidores integran de forma fiable.
+
+───────────────────────────────────────────────────────────────────────────────
+10) EVOLUCIÓN Y VERSIONADO (ALINEADO A IDENTIDAD)
+───────────────────────────────────────────────────────────────────────────────
+10.1 Evolución que preserva identidad (MINOR)
+- Añadir nuevas familias con discriminadores e invariantes explícitos.
+- Refinar pruebas de validación sin cambiar invariantes.
+- Añadir subtipos consistentes con invariantes existentes.
+
+10.2 Evolución que cambia identidad (MAJOR)
+- Cambiar la definición de CS de modo que los invariantes CS1–CS4 se alteren.
+- Eliminar la preparación para la proyección como requisito.
+- Forzar exclusividad de familias como un invariante.
+
+Convención de Versionado Semántico:
+- MAJOR: invariantes cambiados (identidad cambiada)
+- MINOR: extensión compatible dentro de la variación permitida
+- PATCH: aclaraciones que no afectan la identidad
+
+───────────────────────────────────────────────────────────────────────────────
+11) LISTA RÁPIDA DE CALIFICACIÓN (PRUEBA UNITARIA PARA “¿ES ESTO UNA ESTRUCTURA COGNITIVA?”)
+───────────────────────────────────────────────────────────────────────────────
+[ ] CS1: Se puede enunciar al menos un invariante y una dimensión de variación.
+[ ] CS2: Existe rol operativo (guía cognición o acción).
+[ ] CS3: Clasificable por discriminadores (una o más familias).
+[ ] CS4: La proyección puede escribirse sin ejemplares personales ocultos.
+[ ] Las pruebas de validación pasan (T1–T3) para coherencia interna.
+[ ] Las pruebas de integración pasan (T4) para compatibilidad con grafo compartido (si se integra).
+
+Si todas están marcadas, el objeto califica como Estructura Cognitiva en este marco.
+
+───────────────────────────────────────────────────────────────────────────────
+FUENTES (para verificación independiente; URLs permitidas dentro de este snippet)
+───────────────────────────────────────────────────────────────────────────────
+- APA Dictionary of Psychology — Schema: https://dictionary.apa.org/schema
+- Encyclopaedia Britannica — Schema (cognition): https://www.britannica.com/science/schema-cognition
+- Mental Models (encyclopedic overview; PDF): https://groups.psych.northwestern.edu/gentner/papers/Gentner02d.pdf
+- Heuristics overview (popular but clear definition): https://www.verywellmind.com/what-is-a-heuristic-2795235
+- Procedural learning and memory (peer-reviewed; open access): https://pmc.ncbi.nlm.nih.gov/articles/PMC8048153/
+- Automaticity and habit learning (peer-reviewed overview): https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1172
+
+FIN DEL DOCUMENTO

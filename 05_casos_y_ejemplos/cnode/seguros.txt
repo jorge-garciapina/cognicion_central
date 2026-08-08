@@ -1,0 +1,441 @@
+TÍTULO
+Ejemplo estructurado (autosuficiente): “Venta de seguro” como modelo estructural y como Cognitive Node (cNode)
+
+VERSIÓN
+0.1.0 (borrador operativo)
+
+ESTATUS
+En desarrollo (modelo conceptual; listo para iteración y refinamiento)
+
+AUDIENCIA
+Personas que necesitan comprender y reutilizar el ejemplo sin contexto previo del proyecto.
+
+PROPÓSITO
+Describir, con una estructura explícita, cómo modelar la venta de un seguro específico (por ejemplo, un seguro de gastos médicos mayores “Tipo A”) como un sistema con:
+- Un objetivo primario estable (la finalidad que define identidad).
+- Un núcleo invariante (lo que mantiene identidad del producto y de su marco).
+- Técnicas y proceso de venta como requisito funcional (método repetible).
+- Dos o más medios de ejecución (por ejemplo, videollamada y en persona) como variantes del mismo patrón.
+- Contextos diferenciados: contexto de distribución (canal) y contexto de ejecución (prospecto y situación local).
+- Distinción entre invariantes (lo que no puede cambiar sin romper identidad) y componentes internos (lo que puede variar sin perder identidad).
+- Artefactos (evidencias) que resultan de manifestaciones concretas (instancias).
+
+NOTA SOBRE ACRÓNIMOS Y TÉRMINOS
+- American Standard Code for Information Interchange (ASCII): sistema de caracteres; aquí se usa para dibujar diagramas con texto.
+- Artificial Intelligence (AI): inteligencia artificial; se menciona como referencia general cuando se habla de “adaptación del discurso”, sin asumir su uso real.
+- Cognitive Node (cNode): “nodo cognitivo”; entidad conceptual que conserva estructura (no solo texto) y que puede integrarse a un grafo mediante relaciones explícitas.
+- Estructura Base de Definición Conceptual (EBDC): plantilla general para describir conceptos mediante identidad, invariantes, componentes internos, dominios de variación, manifestaciones y artefactos.
+- Prospecto: persona que podría contratar el seguro (todavía no es cliente).
+- Intervención: ejecución concreta del proceso de venta en un canal y con un prospecto específico (por ejemplo, una conversación).
+- Dominio de variación: conjunto de dimensiones donde el sistema permite cambios sin perder identidad.
+- Restricción ética y legal: límite normativo que, si se viola, invalida la realización del sistema como “venta legítima” y la convierte en otra cosa (por ejemplo, manipulación o engaño).
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES MÍNIMAS (AUTO-CONTENIDAS)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Venta (en este documento)
+Proceso intencional diseñado para conducir a la contratación de un producto específico mediante interacción informativa y persuasiva, respetando autonomía del decisor y restricciones éticas y legales.
+
+1.2 Objetivo primario
+Finalidad que define identidad del sistema.
+Regla: si el objetivo primario cambia, ya no es el mismo sistema.
+
+1.3 Núcleo (conceptual)
+Parte del modelo que contiene lo indispensable para que el concepto exista como “ese concepto”.
+En este ejemplo, el núcleo está centrado en: objetivo primario + núcleo del producto + invariantes operativas + restricciones duras.
+
+1.4 Invariantes
+Condiciones necesarias del sistema: si se eliminan, el sistema deja de ser lo que es.
+Regla práctica (“prueba de sustracción”): “Si se quita X y el sistema sigue siendo el mismo, X no era invariante”.
+
+1.5 Componentes internos
+Elementos que participan dentro del sistema, pero que pueden cambiar sin destruir identidad.
+Ejemplos típicos: el lenguaje, el orden de presentación, el ritmo, los ejemplos y analogías, el estilo de manejo de objeciones.
+
+1.6 Contexto de distribución vs contexto de ejecución
+- Contexto de distribución: “por dónde” se ejecuta la interacción (canal o medio: videollamada, presencial, llamada telefónica, chat).
+- Contexto de ejecución: “dónde y con quién” se concreta la interacción (prospecto específico, situación local, motivaciones, restricciones, tiempo, estado emocional, experiencias previas).
+
+1.7 Manifestación
+Caso concreto (instancia) del sistema. Por ejemplo: “videollamada con Prospecto 1” o “reunión presencial con Prospecto 2”.
+Regla: muchas manifestaciones pueden compartir el mismo núcleo invariante.
+
+1.8 Artefacto
+Evidencia material de una manifestación (por ejemplo: grabación, notas, propuesta, cotización, contrato firmado).
+Regla: el artefacto no es el sistema; es el rastro verificable de una ejecución del sistema.
+
+──────────────────────────────────────────────────────────────────────────────
+2) ESCENARIO BASE DEL EJEMPLO (VENTA DE SEGURO)
+──────────────────────────────────────────────────────────────────────────────
+
+Entidades mínimas:
+- Proveedora / aseguradora: entidad que ofrece el producto asegurador.
+- Vendedora: agente comercial cuya función es ejecutar intervenciones de venta.
+- Prospecto: persona que evalúa contratar el producto.
+- Producto: seguro de gastos médicos mayores “Tipo A” (representa un producto específico y estable a nivel de diseño).
+
+Situación:
+La vendedora busca vender el producto “Tipo A” a múltiples prospectos diferentes.
+El producto conserva su identidad contractual y regulatoria, pero el discurso y la intervención se adaptan al contexto y al prospecto.
+La venta se puede ejecutar en distintos canales: videollamada y en persona (también se pueden considerar llamada telefónica o chat como extensiones).
+
+Ejemplo de variación de prospectos (solo para ilustrar contexto):
+- Prospecto A: hombre, soltero, profesionista, joven, motivación dominante: protegerse para no cargar a su familia.
+- Prospecto B: mujer, ama de casa, motivación dominante: proteger estabilidad del hogar y del grupo familiar.
+- Prospecto C: persona mayor, motivación dominante: previsibilidad de costos y miedo a gastos hospitalarios.
+Estos perfiles no cambian el producto. Cambian el contexto de ejecución y, por tanto, la intervención.
+
+──────────────────────────────────────────────────────────────────────────────
+3) DIAGRAMA ASCII (PUNTO DE PARTIDA ESTRUCTURAL)
+──────────────────────────────────────────────────────────────────────────────
+
+Leyenda:
+- [NÚCLEO] = parte invariante que define identidad
+- [REQ]   = requisito funcional para cumplir el objetivo
+- [CTX-D] = contexto de distribución (canal)
+- [CTX-E] = contexto de ejecución (prospecto y situación)
+- [ART]   = artefacto (evidencia)
+
+                           ┌─────────────────────────────────────┐
+                           │ [NÚCLEO]                             │
+                           │ Objetivo primario:                   │
+                           │ “VENDER SEGURO TIPO A”               │
+                           │ (decisión informada, no coercitiva)  │
+                           └─────────────────────────────────────┘
+                                        │
+                                        │ depende de
+                                        v
+                        ┌──────────────────────────────────────┐
+                        │ [NÚCLEO] Núcleo del producto Tipo A   │
+                        │ - coberturas y exclusiones            │
+                        │ - condiciones contractuales           │
+                        │ - marco regulatorio y límites         │
+                        │ - estructura de costos base           │
+                        └──────────────────────────────────────┘
+                                        │
+                                        │ requiere
+                                        v
+                         ┌──────────────────────────────────────┐
+                         │ [REQ] Técnicas / proceso de venta     │
+                         │ (pipeline conversacional operable)    │
+                         └──────────────────────────────────────┘
+                                        │
+                                        │ se manifiesta en (instancias)
+                                        v
+      ┌────────────────────────────────────────┐     ┌────────────────────────────────────────┐
+      │ [CTX-D] Canal: VIDEOLLAMADA            │     │ [CTX-D] Canal: EN PERSONA              │
+      │ (restricciones y posibilidades propias)│     │ (restricciones y posibilidades propias)│
+      └────────────────────────────────────────┘     └────────────────────────────────────────┘
+                    │                                              │
+                    │ ejecuta con                                   │ ejecuta con
+                    v                                              v
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Prospecto 1           │               │ [CTX-E] Prospecto 1           │
+        │ (perfil + motivación + límites)│              │ (perfil + motivación + límites)│
+        └──────────────────────────────┘               └──────────────────────────────┘
+        ┌──────────────────────────────┐               ┌──────────────────────────────┐
+        │ [CTX-E] Prospecto 2           │               │ [CTX-E] Prospecto 2           │
+        └──────────────────────────────┘               └──────────────────────────────┘
+                                                        ┌──────────────────────────────┐
+                                                        │ [CTX-E] Prospecto 3           │
+                                                        └──────────────────────────────┘
+                    │                                              │
+                    │ produce evidencia                             │ produce evidencia
+                    v                                              v
+          ┌──────────────────────────┐                  ┌──────────────────────────┐
+          │ [ART] Grabación / notas   │                  │ [ART] Grabación / notas   │
+          │ propuesta / cotización    │                  │ propuesta / cotización    │
+          │ contrato (si ocurre)      │                  │ contrato (si ocurre)      │
+          └──────────────────────────┘                  └──────────────────────────┘
+
+Interpretación inmediata del diagrama:
+- El objetivo “vender el seguro Tipo A” se mantiene.
+- El producto “Tipo A” aporta un núcleo estable que no debe alterarse en el discurso.
+- El proceso de venta es un requisito: sin método, hay intención pero no mecanismo.
+- El canal (videollamada / en persona) es el contexto de distribución.
+- El prospecto y su situación local son el contexto de ejecución.
+- Cada conversación es una manifestación; sus registros son artefactos.
+
+──────────────────────────────────────────────────────────────────────────────
+4) DESCOMPOSICIÓN ESTRUCTURAL (IDENTIDAD, INVARIANTES, COMPONENTES)
+──────────────────────────────────────────────────────────────────────────────
+
+4.1 Identidad (contexto / identidad del sistema)
+Este sistema describe un patrón: “Una vendedora conduce interacciones adaptadas a distintos prospectos para lograr la contratación de un producto asegurador estable, dentro de un dominio de variación permitido, preservando restricciones éticas y legales”.
+
+Identidad resumida:
+- Tipo de situación: venta de un producto contractual complejo.
+- Finalidad: decisión informada de contratación del producto específico.
+- Naturaleza: una familia de intervenciones (manifestaciones) que comparten el mismo núcleo.
+
+4.2 Núcleo invariante (dos capas: producto y proceso)
+Para evitar confusión, el núcleo se separa en dos capas.
+
+Capa A: núcleo del producto (invariante del “qué se vende”)
+- Coberturas: qué eventos y costos cubre el seguro.
+- Exclusiones: qué no cubre.
+- Condiciones contractuales: definiciones, vigencia, requisitos de reclamación, límites.
+- Marco regulatorio: restricciones normativas que estructuran el producto.
+- Estructura de costos base: componentes generales del costo (por ejemplo: prima) como parte del diseño del producto.
+
+Capa B: núcleo del proceso de venta (invariante del “cómo se vende legítimamente”)
+- Autonomía del decisor: el prospecto mantiene capacidad de decisión.
+- Interacción persuasiva no coercitiva: se busca convencer sin forzar.
+- Transparencia mínima: no se puede prometer lo que el contrato no contiene, ni ocultar exclusiones relevantes.
+- Consistencia: el discurso no puede contradecir el núcleo del producto.
+
+4.3 Invariantes (lo que NO puede variar sin romper identidad)
+I1) Objetivo primario estable
+- Debe permanecer como “vender el seguro Tipo A” en el sentido de conducir una decisión informada hacia contratación.
+- Si el objetivo se reduce a “informar sin inducir decisión”, se convierte en otro sistema (educación o asesoría sin cierre).
+
+I2) Identidad del producto
+- El producto base es el mismo (misma familia contractual).
+- No se alteran coberturas y exclusiones como parte del discurso.
+
+I3) Restricciones éticas y legales duras
+- No coerción.
+- No afirmaciones falsas sobre coberturas.
+- No omisiones deliberadas de condiciones relevantes.
+Si se viola esto, la manifestación ya no pertenece a la clase “venta legítima”; pertenece a otra clase (engaño o manipulación).
+
+I4) Existencia de un proceso operable
+- Debe existir un método repetible para mover al prospecto a través de etapas (diagnóstico, propuesta, cierre).
+- Sin proceso, el sistema se disuelve en conversación informal sin finalidad operacional.
+
+I5) Existencia de al menos un prospecto en interacción real
+- Sin prospecto, no hay manifestación.
+
+4.4 Componentes internos (lo que suele variar sin romper identidad)
+C1) Lenguaje (semántica y estilo)
+- Cambia por canal y por prospecto: tecnicidad, metáforas, ritmo, formalidad.
+- Función estructural: traducir el núcleo del producto a una representación mental comprensible para ese prospecto.
+
+C2) Orden de presentación (secuenciación)
+- El contenido puede presentarse en distinto orden: primero riesgo, luego costos; primero historia, luego cobertura.
+- Función estructural: reducir fricción cognitiva del prospecto.
+
+C3) Énfasis (marco dominante)
+- Emocional (tranquilidad, miedo al evento), financiero (estabilidad y previsibilidad), preventivo (planeación), familiar (responsabilidad).
+- Nota: el énfasis puede variar, pero no debe distorsionar el núcleo contractual.
+
+C4) Ejemplos y analogías
+- Los ejemplos se seleccionan según la vida del prospecto (sin inventar beneficios inexistentes).
+- Función estructural: convertir conceptos abstractos en comprensión operativa.
+
+C5) Intervención conversacional (microacciones)
+- Preguntas, resúmenes, confirmaciones, pausas, verificación de entendimiento.
+- Esto es equivalente al “slot” del ejemplo de elicitación: piezas intercambiables dentro del pipeline.
+
+──────────────────────────────────────────────────────────────────────────────
+5) TÉCNICAS / PROCESO DE VENTA COMO PIPELINE CONVERSACIONAL
+──────────────────────────────────────────────────────────────────────────────
+
+El proceso se modela como un pipeline (secuencia de etapas) con slots (espacios variables por etapa).
+Este pipeline es un requisito funcional: hace que la venta sea repetible y auditable.
+
+5.1 Etapas (pipeline)
+E1) Apertura y consentimiento
+- Propósito: establecer permiso para conversar, definir tiempo y objetivo.
+- Riesgo estructural si falla: resistencia inmediata; falta de confianza.
+
+E2) Diagnóstico (subproceso de elicitación)
+- Propósito: elicitar información relevante para adaptar la intervención.
+- Datos típicos (ejemplos): preocupaciones, responsabilidades, presupuesto, experiencias previas, objeciones.
+
+E3) Encuadre (por qué importa)
+- Propósito: convertir diagnóstico en relevancia percibida.
+- Forma: conectar riesgo realista con consecuencias y con motivación dominante.
+
+E4) Propuesta (mapeo núcleo del producto → necesidad)
+- Propósito: mostrar cómo el producto Tipo A satisface las necesidades detectadas.
+- Regla: no inventar coberturas; se traduce, no se altera.
+
+E5) Manejo de objeciones (fricción)
+- Propósito: tratar dudas sin coerción.
+- Ejemplos: precio, confianza, comparación con alternativas, “no lo necesito”.
+
+E6) Cierre (acción concreta)
+- Propósito: convertir intención en decisión (contratar o definir siguiente paso formal).
+- Regla: cierre no equivale a presión; cierre es clarificación de decisión y proceso.
+
+E7) Confirmación y seguimiento (postventa)
+- Propósito: validar entendimiento, documentar, reducir arrepentimiento, establecer próximos pasos.
+
+5.2 Slots por etapa (piezas variables)
+Ejemplos de slots:
+- Pregunta diagnóstica específica.
+- Resumen de motivación (“lo más importante para este prospecto es…”).
+- Confirmación de entendimiento (“¿se entiende esta condición?”).
+- Comparación controlada (“este punto cubre X; este punto no cubre Y”).
+- Mini cierre (“¿tiene sentido continuar con la cotización?”).
+
+Importante:
+Los slots se adaptan al canal y al prospecto, pero deben respetar invariantes (no falsedad, no coerción).
+
+──────────────────────────────────────────────────────────────────────────────
+6) DOMINIO DE VARIACIÓN (CONTROLADO) Y LO QUE NO PUEDE VARIAR
+──────────────────────────────────────────────────────────────────────────────
+
+6.1 Puede variar (dominio de variación)
+- Canal: videollamada, en persona (extensión: llamada telefónica, chat).
+- Lenguaje: técnico o cotidiano, directo o narrativo, según prospecto.
+- Orden: comenzar por riesgo, por costo, por historia, por cobertura.
+- Énfasis: emocional, financiero, preventivo, familiar.
+- Ejemplos: analogías y casos hipotéticos consistentes con el producto.
+- Ritmo y duración: breve o extensa según tiempo y canal.
+- Material de apoyo: pantalla compartida, documentos, tablas explicativas (si el canal lo permite).
+
+6.2 No puede variar
+- Identidad del producto Tipo A (núcleo contractual).
+- Restricciones éticas y legales (no coerción, no engaño, no contradicción del contrato).
+- Objetivo primario del sistema (venta del producto específico mediante decisión informada).
+- Existencia de un decisor humano autónomo.
+
+Nota importante sobre “costos”
+La prima y condiciones económicas pueden ser:
+- Parte del núcleo del producto (estructura de costos y reglas), y
+- Parte de la parametrización (valores concretos por prospecto).
+Para evitar contradicción, se distingue:
+- Núcleo: “existe una estructura de costos y reglas”.
+- Parámetro: “valor numérico concreto para este prospecto”.
+Esto permite sostener el invariante sin negar variación legítima.
+
+──────────────────────────────────────────────────────────────────────────────
+7) DOS VARIANTES PRINCIPALES (CANAL) COMO CONTEXTOS DE DISTRIBUCIÓN
+──────────────────────────────────────────────────────────────────────────────
+
+Idea central:
+“Videollamada” y “En persona” no son dos modelos distintos. Son variantes dentro del mismo modelo.
+Comparten invariantes (objetivo, núcleo del producto, límites éticos y legales) y difieren en componentes internos (intervención, lenguaje, soportes).
+
+7.1 Variante A: Videollamada
+Rasgos estructurales:
+- Restricción: latencia, fallas técnicas, fatiga de pantalla.
+- Posibilidad: pantalla compartida para mostrar condiciones y tablas.
+- Consecuencia: el pipeline suele requerir confirmaciones explícitas de comprensión.
+
+7.2 Variante B: En persona
+Rasgos estructurales:
+- Restricción: costo logístico, presión situacional, entorno físico.
+- Posibilidad: materiales físicos, señales no verbales, mayor confianza por presencia.
+- Consecuencia: el manejo de objeciones puede ser más rico, pero más variable.
+
+Regla estructural:
+Cada canal redefine parcialmente “intervención” y condiciona “lenguaje”, sin tocar núcleo.
+
+──────────────────────────────────────────────────────────────────────────────
+8) MANIFESTACIONES (INSTANCIAS) Y EJEMPLOS DE ADAPTACIÓN SIN CAMBIAR NÚCLEO
+──────────────────────────────────────────────────────────────────────────────
+
+El sistema no describe una sola conversación, sino una familia de conversaciones posibles.
+
+Ejemplos de instancias (CTX-D, CTX-E):
+- V1: Videollamada → Prospecto joven profesionista → énfasis preventivo y responsabilidad familiar.
+- V2: Videollamada → Prospecto con presupuesto limitado → énfasis financiero, previsibilidad y escenarios.
+- P1: En persona → Prospecto con experiencia previa de hospitalización → énfasis en exclusiones y proceso de reclamación.
+- P2: En persona → Prospecto escéptico → énfasis en transparencia, validación y consistencia contractual.
+
+Cómo se adapta sin alterar el núcleo:
+- Cambia el orden: primero motivación, luego cobertura.
+- Cambia el lenguaje: técnico o cotidiano.
+- Cambia el ejemplo: caso hipotético diferente.
+Pero no cambia:
+- Cobertura real.
+- Exclusiones.
+- Condiciones contractuales.
+- Restricciones éticas y legales.
+
+──────────────────────────────────────────────────────────────────────────────
+9) ARTEFACTOS (EVIDENCIA) Y SU FUNCIÓN EN EL MODELO
+──────────────────────────────────────────────────────────────────────────────
+
+Artefactos típicos:
+- Grabación de llamada o videollamada (si existe y está permitida).
+- Notas comerciales (resumen de necesidades y objeciones).
+- Propuesta escrita o presentación (material explicativo).
+- Cotización (con parámetros concretos del prospecto).
+- Contrato firmado (si se produce la decisión).
+- Registro de seguimiento (fechas, acuerdos).
+
+Función estructural:
+Los artefactos permiten verificar que una manifestación ocurrió y permiten auditar consistencia:
+- Consistencia con núcleo del producto.
+- Presencia de transparencia mínima.
+- Respeto de autonomía del decisor.
+
+──────────────────────────────────────────────────────────────────────────────
+10) REPRESENTACIÓN ESTILO cNode (FORMA CANÓNICA SUGERIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+cNode: “Venta de seguro Tipo A (modelo estructural)”
+
+- Contexto / Identidad:
+  - Qué es: patrón de interacción para conducir a contratación informada de un producto contractual específico.
+  - Para qué existe: permitir ejecuciones repetibles con adaptación controlada por contexto, sin romper núcleo contractual.
+  - Entradas: producto Tipo A + canal + prospecto (perfil y situación) + restricciones + parámetros posibles.
+  - Salidas: decisión (contrata / no contrata / siguiente paso formal) + registro (artefacto) + trazabilidad mínima.
+
+- Invariantes:
+  - Objetivo primario: vender Tipo A mediante decisión informada (no coercitiva).
+  - Núcleo contractual: coberturas, exclusiones, condiciones y marco regulatorio no se alteran en el discurso.
+  - Restricciones éticas y legales duras: no engaño, no contradicción contractual, no coerción.
+  - Existe un decisor humano autónomo.
+  - Existe un proceso operable (pipeline de venta).
+
+- Componentes internos:
+  - Lenguaje y narrativa (adaptación por prospecto y canal).
+  - Intervención conversacional (slots: preguntas, resúmenes, confirmaciones).
+  - Orden y ritmo del pipeline.
+  - Ejemplos y analogías permitidas.
+  - Material de apoyo según canal.
+
+- Variantes (dominio de variación):
+  - Variante “Videollamada”: intervención condicionada por medio remoto.
+  - Variante “En persona”: intervención condicionada por presencia física.
+  - Extensiones: llamada telefónica, chat (si se decide incluirlas).
+
+- Contextos:
+  - Contextos de distribución: {Videollamada, En persona, ...}
+  - Contextos de ejecución: {Prospecto 1, Prospecto 2, Prospecto 3, ...} con situación local.
+
+- Artefactos conectables:
+  - Grabación_V1
+  - Notas_P2
+  - Cotización_V2
+  - Contrato_TipoA_ProspectoX (si ocurre)
+  Estos artefactos son evidencia de manifestaciones; no son el cNode.
+
+──────────────────────────────────────────────────────────────────────────────
+11) CRITERIOS DE ÉXITO, FALLA Y LÍMITES (PARA HACER EL MODELO AUDITABLE)
+──────────────────────────────────────────────────────────────────────────────
+
+11.1 Criterios mínimos de éxito (del sistema, no del deseo)
+- El prospecto comprende los puntos esenciales (coberturas relevantes y exclusiones críticas).
+- La intervención mantiene coherencia con el núcleo contractual.
+- La interacción respeta autonomía del decisor.
+- Se produce un resultado verificable: contratación, rechazo, o siguiente paso formal (por ejemplo, envío de cotización y agenda).
+
+11.2 Fallas típicas (sin destruir el modelo, pero degradan desempeño)
+- Falla de diagnóstico: no se elicitan motivaciones reales, el discurso se vuelve genérico.
+- Falla de encuadre: el prospecto no percibe relevancia, aunque el producto sea adecuado.
+- Falla de canal: el medio limita comprensión o confianza.
+- Falla de confianza: el prospecto no cree a la vendedora o a la institución.
+
+11.3 Límites duros (si ocurren, la manifestación deja de pertenecer al sistema legítimo)
+- Coerción.
+- Afirmaciones falsas sobre coberturas.
+- Ocultamiento deliberado de exclusiones relevantes.
+- Contradicción explícita del contrato.
+
+──────────────────────────────────────────────────────────────────────────────
+CIERRE
+Este ejemplo es estructuralmente similar al caso de elicitación porque:
+- Conserva identidad mediante invariantes (objetivo + núcleo del producto + restricciones duras).
+- Permite variación controlada (canal, lenguaje, orden, énfasis, ejemplos).
+- Genera manifestaciones múltiples (prospectos distintos) sin perder el núcleo.
+- Depende de un subproceso de elicitación (diagnóstico) para adaptar la intervención.
+- Es directamente integrable como un cNode conceptual y enlazable con artefactos (evidencias).
+
+FIN DEL SNIPPET

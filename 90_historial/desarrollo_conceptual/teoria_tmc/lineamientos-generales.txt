@@ -1,0 +1,343 @@
+DOCUMENTO MAPA — TEORÍA DE MÁQUINAS COGNITIVAS
+(Partitura conceptual / guía de escritura; NO es el documento final)
+
+0) DESCRIPCIÓN GENERAL DE LA TEORÍA (qué es)
+Objetivo:
+- Dar una “vista aérea” que permita entender la teoría como una sola unidad, no como conceptos sueltos.
+
+Tema y por qué aquí:
+- La teoría propone modelar la cognición como un sistema que “cambia de forma” según la función dominante requerida por una situación.
+- Esas “formas internas” son Estructuras Cognitivas (mental node, mNode: unidad funcional interna).
+- Las familias son tipos funcionales (modos de manifestación) que clasifican esas formas (Idea/Plan/Método/Diseño/Patrón de 
+  razonamiento, y extensiones).
+- La proyección es el acto que convierte una estructura interna (mNode) en un paquete integrable (cognitive node, cNode) representado
+  como grafo.
+- El resultado aplicado es una cognitive application (cApp): una máquina cognitiva instanciada compuesta de cNodes integrados con
+  reglas.
+Por qué esta sección existe:
+- En tu propio material se afirma explícitamente el mapeo “mNodes = funciones activadas” y “Familias = categorías de esas
+  funciones”.:contentReference[oaicite:0]{index=0}
+- Se introduce la cApp como diseño de un sistema cognitivo mediante simbiosis humano–Artificial Intelligence (AI, artificial
+  intelligence: computer systems that perform tasks associated with human intelligence).:contentReference[oaicite:1]{index=1}
+
+Ejemplos necesarios:
+- “Contrato (seguro)” como núcleo con invariantes y dominio de variación (ya aparece como Ejemplo 1 en tu patrón de estructura
+   repetida).:contentReference[oaicite:2]{index=2}
+- “Vector vs fracción” como ejemplo de identidad conceptual que se rompe si cambian invariantes.
+  (Ejemplo 2 del mismo patrón).:contentReference[oaicite:3]{index=3}
+- “Tema cosméticos” como ejemplo de núcleo temático estable vs variación de enfoque.
+  (Ejemplo 3 del mismo patrón).:contentReference[oaicite:4]{index=4}
+
+Diagramas necesarios:
+- D0.1: “Mapa de la teoría como unidad”:
+ Cognición(plataforma) → mNodes → Familias (tipos) → Criterios de pertenencia → Proyección → cNodes → Grafo compartido → cApp (producto).
+- D0.2: “Triada identidad-variación-validación” como núcleo repetible
+  (porque tu texto la usa en múltiples lugares).:contentReference[oaicite:5]{index=5}
+
+
+1) ALCANCE Y NO-ALCANCE DEL DOCUMENTO (qué cubre y qué no)
+1.1 Alcance (Scope)
+Objetivo:
+- Congelar qué promete este documento y qué NO promete, para evitar que se expanda sin control.
+
+Tema y por qué aquí:
+- Alcance: exponer un marco operativo (no matemático formal) para construir cNodes y cApps a partir de estructuras cognitivas,
+  con criterios verificables de pertenencia y reglas de integración.
+- Alcance: describir el patrón transversal “estructura que se repite” (núcleo, invariantes, dominio de variación, etc.) como
+  base para proyección y adaptación contextual.:contentReference[oaicite:6]{index=6}
+
+Ejemplos necesarios:
+- Un ejemplo por dominio (ventas/educación/divulgación) para mostrar el patrón transversal sin confundirlo con un dominio
+  específico.:contentReference[oaicite:7]{index=7}
+
+Diagramas necesarios:
+- D1.1: “Frontera del documento”: dentro (mNodes/familias/proyección/cNodes/grafo/integración/cApps) vs fuera
+ (formalización matemática completa, teoría psicológica exhaustiva, implementación software específica).
+
+1.2 No-alcance (Non-scope)
+Objetivo:
+- Declarar explícitamente qué se deja fuera para que la teoría mantenga dirección.
+
+Tema y por qué aquí:
+- No formalización algebraica completa (por decisión metodológica actual).
+- No neurociencia o explicación biológica.
+- No implementación técnica obligatoria (la teoría debe ser portable entre implementaciones).
+
+Ejemplos necesarios:
+- “Contraejemplo”: un intento de formalización que no añade capacidad operativa (solo notación) para justificar el no-alcance.
+
+Diagramas necesarios:
+- D1.2: “Tres capas”: teoría conceptual → representación (grafo/plantillas) → implementación (software), dejando claro que el
+  documento se centra en las dos primeras.
+
+
+2) FUNDAMENTO: EL PATRÓN TRANSVERSAL DE “ADAPTACIÓN CONTEXTUAL” (prima materia)
+2.1 La estructura repetible (núcleo → invariantes → dominio de variación → …)
+Objetivo:
+- Establecer el “molde” que se repite en múltiples campos y que luego será reinterpretado como cognición/proyección.
+
+Tema y por qué aquí:
+- En tu documento aparece como “Lista 1: Partes de la estructura que se repite casi invariablemente…”,
+  incluyendo núcleo, invariantes y dominio de variación, con ejemplos concretos
+  (seguros, enseñanza, divulgación).:contentReference[oaicite:8]{index=8}
+
+Ejemplos necesarios:
+- Seguro/Contrato (núcleo e invariantes).
+- Enseñanza de vectores vs fracciones.
+- Tema cosméticos y cambio de enfoque.
+
+Diagramas necesarios:
+- D2.1: “Plantilla universal” (bloques fijos) aplicada a 3 casos.
+- D2.2: “Identidad vs adaptación”: invariantes (bloque rígido) vs dominio de variación
+  (bloque flexible).:contentReference[oaicite:9]{index=9}
+
+2.2 Por qué ese patrón es relevante para cognición
+Objetivo:
+- Mostrar la equivalencia funcional: lo que llamabas “núcleo/invariantes/variación” reaparece dentro del modelo de Estructuras
+  Cognitivas y Proyección.
+
+Tema y por qué aquí:
+- Tu texto ya señala la similitud explícita entre identidad por invariantes y adaptación por dominio de variación al reinterpretar
+  cognición y mNodes.:contentReference[oaicite:10]{index=10}
+
+Ejemplos necesarios:
+- Una receta (método) y cómo se proyecta sin depender de autobiografía (porque tu material insiste en
+  “portabilidad”).:contentReference[oaicite:11]{index=11}
+
+Diagramas necesarios:
+- D2.3: “Correspondencia”: núcleo ↔ mNode; objetivo/rol operativo ↔ uso; variación ↔ adaptación; validación ↔ corrección.
+
+
+3) NÚCLEO TEÓRICO: COGNICIÓN COMO PLATAFORMA (la “máquina base”)
+3.1 Definición operativa de cognición (sistema)
+Objetivo:
+- Definir cognición de forma utilizable como sustrato que “aloja” formas internas.
+
+Tema y por qué aquí:
+- Tu marco ya la reinterpreta como un sistema que selecciona, estructura y ejecuta formas internas bajo restricciones para
+  producir resultados (comprensión, decisión, coordinación, ejecución).:contentReference[oaicite:12]{index=12}
+
+Ejemplos necesarios:
+- Caso mínimo: una tarea que exige definición (Idea) vs una tarea que exige ejecución (Plan), para mostrar “cambio de forma”.
+
+Diagramas necesarios:
+- D3.1: “Cognición como plataforma”: 
+  entradas (situación, objetivo, restricciones) → selector de modo → estructura interna activa → salida (representación/decisión/acción).
+
+
+4) UNIDADES INTERNAS: ESTRUCTURAS COGNITIVAS (mNodes)
+4.1 Qué es un mNode (unidad funcional interna con identidad)
+Objetivo:
+- Definir mNode de forma que sea un “objeto teórico” proyectable.
+
+Tema y por qué aquí:
+- Tu documento ya fija el mapeo: si cognición es sistema, mNodes son funciones internas activadas por situación.:contentReference[oaicite:13]{index=13}
+
+Ejemplos necesarios:
+- “Rutina de habilidad: teclear sin mirar” (muestra estructura procedural estable y variación permitida).:contentReference[oaicite:14]{index=14}
+- “Método: preparar té” (muestra secuencia mínima y dominio de variación).:contentReference[oaicite:15]{index=15}
+
+Diagramas necesarios:
+- D4.1: “mNode anatomy”: invariantes + dominio de variación + rol operativo + condiciones típicas de activación.
+
+
+5) TIPADO OPERATIVO: FAMILIAS (modos de manifestación)
+5.1 Definición de familia (tipo funcional, no etiqueta semántica)
+Objetivo:
+- Convertir “familia” en un mecanismo de clasificación operativa.
+
+Tema y por qué aquí:
+- Tu texto define familias como “formas típicas de actualización” bajo condiciones especificables, y lista familias dominantes Idea/Plan/Método/Diseño/Razonamiento.:contentReference[oaicite:16]{index=16}
+
+Ejemplos necesarios:
+- Mini-par: “definir qué es X” (Idea) vs “cómo lograr X” (Plan) para mostrar diferencia por rol dominante.
+
+Diagramas necesarios:
+- D5.1: “Selector de modo”: condiciones del problema → familia dominante → estructura activada.
+
+5.2 Familias base vs familias compuestas (y por qué existen)
+Objetivo:
+- Explicar tu distinción: base como alta cobertura; compuestas como combinación o especialización para mayor resolución.
+
+Tema y por qué aquí:
+- En tu material ya aparece explícitamente “Familias base” con tabla y criterios operativos (Idea, Plan, etc.).:contentReference[oaicite:17]{index=17}
+- Esta sección prepara el terreno para no tratar las familias como una lista cerrada, sino como un sistema extensible.
+
+Ejemplos necesarios:
+- Base: Idea.
+- Compuesta: “Protocolo” o “Marco de evaluación” (si se decide incluir, porque ya aparecen como extensiones en tu corpus de definiciones compartidas).
+
+Diagramas necesarios:
+- D5.2: “Árbol de tipos”: familias base como raíces; familias compuestas como combinaciones (composición) o refinamientos (subtipos).
+
+
+6) CRITERIOS DE PERTENENCIA: EL “SISTEMA DE VALIDACIÓN” DE TIPOS
+6.1 Por qué se necesitan (evitar intuición y deriva)
+Objetivo:
+- Justificar que los criterios existen para que la teoría sea operable y repetible.
+
+Tema y por qué aquí:
+- Tu tabla de familias base ya incluye, para Idea, un conjunto explícito de invariantes, discriminadores, dominio de variación, perfil de condiciones y procedimientos/validación asociados.:contentReference[oaicite:18]{index=18}
+
+Ejemplos necesarios:
+- Un caso “difícil”: algo que parece Idea pero en realidad es Plan, y cómo los discriminadores lo separan.
+
+Diagramas necesarios:
+- D6.1: “Type-checker operativo”: entrada (estructura candidata) → preguntas discriminadoras → verificación de invariantes → decisión de pertenencia.
+
+6.2 Plantilla canónica de criterios (los 5 bloques)
+Objetivo:
+- Proveer la plantilla que luego se aplicará a cada familia y a cada concepto ejemplificado.
+
+Tema y por qué aquí:
+- Esta plantilla es la base para construir ejemplos de manera controlada (porque el ejemplo debe nacer de los criterios, no al revés).
+
+Ejemplos necesarios:
+- Aplicación mínima a “Idea” (ya existe en tu material).
+- Aplicación mínima a “Plan” (continuación natural de la tabla).
+
+Diagramas necesarios:
+- D6.2: “Esqueleto de pertenencia” (cinco módulos conectados).
+
+
+7) PROYECCIÓN COGNITIVA: DEL mNode AL cNode (compilador estructural)
+7.1 Definición de proyección (qué se conserva, qué se descarta)
+Objetivo:
+- Fijar proyección como acto generador central: externalizar forma operativa, no solo palabras.
+
+Tema y por qué aquí:
+- Tu documento conecta proyección con el patrón transversal, y la define como hacer explícitos invariantes, dominio de variación y relaciones para portabilidad.:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}
+
+Ejemplos necesarios:
+- “Paja/viga” como ejemplo de estructura relacional que ancla significado y reduce ambigüedad (proyección hacia estructura, no ejemplares).:contentReference[oaicite:21]{index=21}
+
+Diagramas necesarios:
+- D7.1: “Pipeline de proyección”: mNode (interno) → selección de invariantes/variación/relaciones/procedimientos → cNode (paquete grafo).
+- D7.2: “Filtro anti-autobiografía”: qué se elimina (ejemplares privados) vs qué se preserva (estructura).
+
+
+8) cNODE: MÓDULO ENSAMBLABLE (paquete integrable)
+8.1 Definición y componentes mínimos
+Objetivo:
+- Definir cNode como unidad estructural integrable con identidad, variación permitida y ontología interna.
+
+Tema y por qué aquí:
+- Tu Definición 3 de cNode ya contiene: proyección deliberada de un mNode; objeto tipo grafo; captura identidad, variación permitida y relaciones; propósito de transferir forma operativa y habilitar integración, repetición, auditoría y extensión.:contentReference[oaicite:22]{index=22}
+
+Ejemplos necesarios:
+- Un cNode simple derivado de una Idea (“qué es un contrato”) con invariantes y frontera de pertenencia.
+
+Diagramas necesarios:
+- D8.1: “cNode anatomy”: identidad (invariantes) + variación permitida + ontología (entidades/relaciones) + procedimientos + validación + interfaz (para integración).
+
+8.2 Manifestaciones y reutilización
+Objetivo:
+- Mostrar cómo un cNode “vive” en uso: definición reusable, procedimiento, segmento de grafo integrado, familia de realizaciones contextuales.
+
+Tema y por qué aquí:
+- Preparar el paso a integración y a cApps (producto).
+
+Ejemplos necesarios:
+- “Modelo de nicho” (tu material lo usa como ejemplo directo de proyección en cNode).:contentReference[oaicite:23]{index=23}
+
+Diagramas necesarios:
+- D8.2: “Del cNode a outputs”: cNode → ejecución guiada → resultados medibles.
+
+
+9) GRAFO: CHASIS DE ENSAMBLAJE (estructura portante)
+9.1 Qué aporta el grafo (relaciones explícitas, navegación, interoperabilidad)
+Objetivo:
+- Justificar por qué el grafo no es decoración, sino soporte de integración.
+
+Tema y por qué aquí:
+- Tu documento introduce el grafo como objeto (V, E) y lo usa para explicar la proyección estructural y la creación de cApps.:contentReference[oaicite:24]{index=24}
+
+Ejemplos necesarios:
+- Un mini-grafo con 5–7 nodos mostrando: familia → mNode → proyección → cNode → integración.
+
+Diagramas necesarios:
+- D9.1: “Grafo mínimo”: nodos tipados y aristas con semántica (relaciones explícitas).
+- D9.2: “Grafo compartido”: varios cNodes conectados por superficies de integración.
+
+
+10) INTEGRACIÓN: SUPERFICIE Y REGLAS DE ACOPLAMIENTO (mecánica anti-caos)
+10.1 Por qué integración es parte de la teoría (no un detalle de ingeniería)
+Objetivo:
+- Mostrar que la teoría exige interoperabilidad: sin reglas de acoplamiento, la composición se vuelve caos.
+
+Tema y por qué aquí:
+- Esta sección operacionaliza el paso de “cNode aislado” a “red de cNodes”, y prepara el concepto de cApp como máquina instanciada.
+
+Ejemplos necesarios:
+- Caso de conflicto semántico: dos cNodes con vocabulario distinto para el mismo concepto y cómo se alinea.
+
+Diagramas necesarios:
+- D10.1: “Negociación y merge”: compatibilidad → alineación de vocabulario → validación → unión determinista.
+- D10.2: “Superficie PROVIDES/REQUIRES”: entrada/salida esperada de cada cNode.
+
+(Nota: aquí se documentarán explícitamente bloques como PROVIDES/REQUIRES, CONSTRAINTS, TYPES/ALIASES, NEGOTIATION, MERGE POLICY, porque ya forman parte del marco de integración que vienes trabajando en tus definiciones de cNode.)
+
+
+11) cAPP: MÁQUINA APLICADA (producto instanciado)
+11.1 Definición de cApp y su papel en la teoría
+Objetivo:
+- Cerrar el ciclo: mostrar cómo la teoría se convierte en un sistema operativo real.
+
+Tema y por qué aquí:
+- Tu documento define “Creación de aplicaciones cognitivas (cApps)” como diseño de un sistema cognitivo que ejecuta una tarea mediante simbiosis humano–AI, y como demostración de que el grafo permite describir una situación genérica y proyectarla como estructura reusable.:contentReference[oaicite:25]{index=25}
+
+Ejemplos necesarios:
+- “Agencia Cognitive Apps”: creación de perfiles de influencer + modelo de nicho como cNode + medición de interacciones (ya aparece en tu texto).:contentReference[oaicite:26]{index=26}
+
+Diagramas necesarios:
+- D11.1: “Arquitectura de cApp”: conjunto de cNodes + reglas + flujos de información + puntos de validación.
+- D11.2: “Ciclo operativo”: elicitar → proyectar → integrar → ejecutar → medir → refinar.
+
+
+12) METODOLOGÍA DE CONSTRUCCIÓN (proceso de trabajo reproducible)
+12.1 Secuencia de construcción (de idea bruta a máquina integrable)
+Objetivo:
+- Convertir la teoría en un proceso operativo (pasos, artefactos intermedios, verificaciones).
+
+Tema y por qué aquí:
+- Este documento-mapa debe guiar ejecución: qué se hace primero, qué se congela, qué se valida, qué se integra.
+
+Ejemplos necesarios:
+- Un ejemplo completo “Contrato” atravesando todas las etapas (sin escribirlo todavía; solo indicar que se escribirá).
+
+Diagramas necesarios:
+- D12.1: “Pipeline completo” con checkpoints: familia → criterios → proyección → cNode → integración → cApp.
+- D12.2: “Checklist de validación” (pertenencia, invariantes, compatibilidad).
+
+12.2 Reglas editoriales internas (para mantener dirección)
+Objetivo:
+- Evitar que el documento final se convierta en enciclopedia: reglas de corte, definición de “átomos” (sección/subsección) y cómo se conectan.
+
+Tema y por qué aquí:
+- Amarra tu inquietud: no tratar conceptos por separado sino como partes de una sola unidad (la teoría).
+
+Ejemplos necesarios:
+- No aplica (son reglas de escritura).
+
+Diagramas necesarios:
+- No aplica; se puede usar una tabla de “dependencias entre secciones”.
+
+
+13) APÉNDICES (plantillas reutilizables)
+A. Plantilla de criterios de pertenencia (cinco bloques) para cualquier familia/concepto.
+B. Plantilla de proyección mNode→cNode (campos mínimos: identidad, variación, ontología, procedimientos, validación, integración).
+C. Plantilla de “cNode mínimo” y “cNode integrable”.
+D. Catálogo de familias base y guías para definir familias compuestas (composición/refinamiento).
+
+Objetivo:
+- Facilitar reutilización sin reescribir teoría cada vez.
+
+Ejemplos necesarios:
+- En apéndice, solo “micro-ejemplos” (1–3 líneas) por plantilla.
+
+Diagramas necesarios:
+- D-A: “Blank forms” (esqueletos) para rellenar.
+
+
+CIERRE — CRITERIO DE ÉXITO DEL DOCUMENTO-MAPA
+- El mapa es correcto si: (1) toda sección tiene un rol no redundante, (2) cada concepto aparece como parte de un flujo único, (3) se puede elegir un ejemplo (Contrato, Nicho, etc.) y recorrerlo por todo el pipeline sin saltos, (4) cada diagrama tiene propósito operacional (no decorativo).

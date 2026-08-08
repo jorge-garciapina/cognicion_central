@@ -1,0 +1,394 @@
+TÍTULO
+Ejemplo estructurado (autosuficiente): “Fabricación de automóviles en múltiples plantas” como realización contextual de un diseño invariante y como Cognitive Node (cNode)
+
+VERSIÓN
+0.1.0 (borrador operativo)
+
+ESTATUS
+En desarrollo (modelo conceptual; listo para iteración y refinamiento)
+
+AUDIENCIA
+Personas que necesitan comprender y reutilizar este ejemplo sin contexto previo de proyectos externos.
+
+PROPÓSITO
+Describir, con estructura explícita, cómo modelar la fabricación del mismo automóvil en plantas distintas como un sistema que:
+- Preserva un núcleo invariante (diseño, especificaciones, tolerancias y funciones).
+- Se realiza en contextos locales distintos (cada planta con condiciones propias).
+- Permite variación controlada (secuencia de ensamblaje, distribución de tareas, flujo logístico) sin perder identidad del producto.
+- Produce manifestaciones (lotes fabricados) y artefactos (vehículos terminados, reportes de calidad) como evidencia.
+
+NOTA SOBRE ACRÓNIMOS Y TÉRMINOS
+- American Standard Code for Information Interchange (ASCII): sistema de caracteres; aquí se usa para dibujar diagramas con texto.
+- Cognitive Node (cNode): “nodo cognitivo”; entidad conceptual que conserva estructura y puede integrarse a un grafo mediante relaciones explícitas.
+- Estructura Base de Definición Conceptual (EBDC): plantilla para describir sistemas mediante identidad, invariantes, componentes internos, dominio de variación, manifestaciones y artefactos.
+- Diseño: definición técnica del automóvil (geometrías, materiales, arquitectura, interfaces, listas de materiales y requisitos).
+- Especificación técnica: conjunto de requisitos verificables (dimensiones, desempeño, seguridad, compatibilidad).
+- Tolerancia: rango permitido de variación en una medida o propiedad sin perder funcionalidad.
+- Funcionalmente idéntico: el producto cumple las mismas funciones y especificaciones clave, aun si existen diferencias no críticas dentro de tolerancias.
+- Planta: unidad industrial con maquinaria, personal, procesos y cadena logística propios.
+- Proceso productivo: secuencia operable para transformar materiales en un producto conforme a especificación.
+- Control de calidad: mecanismos de verificación para asegurar conformidad.
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES MÍNIMAS (AUTO-CONTENIDAS)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Fabricación conforme a especificación (en este documento)
+Proceso industrial que transforma insumos en un producto final que satisface un conjunto de especificaciones técnicas y estándares de calidad, dentro de tolerancias definidas.
+
+1.2 Objetivo primario
+Finalidad que define identidad del sistema.
+En este ejemplo: “fabricar un producto conforme a especificaciones técnicas”.
+
+1.3 Núcleo invariante (diseño invariante)
+Conjunto mínimo que debe permanecer para que el producto siga siendo “el mismo automóvil”:
+- Diseño del automóvil (arquitectura y definición de componentes).
+- Especificaciones técnicas (requisitos verificables).
+- Tolerancias (rangos permitidos).
+- Funciones (lo que el automóvil debe hacer y cómo debe comportarse).
+
+1.4 Invariantes
+Condiciones necesarias: si se rompen, ya no se está fabricando el mismo producto (o ya no se fabrica conforme a estándar).
+Regla práctica (“prueba de sustracción”): “Si se quita X y el producto deja de ser funcionalmente idéntico, X era invariante”.
+
+1.5 Componentes internos (variables del sistema)
+Elementos que pueden variar por planta sin destruir identidad del producto:
+- Secuencia de ensamblaje (orden operativo de tareas).
+- Distribución de tareas (quién hace qué estación o subproceso).
+- Flujo logístico interno (rutas, buffers, almacenamiento).
+- Selección de maquinaria equivalente (si cumple especificación).
+- Proveedores alternativos (si cumplen calidad y materiales requeridos).
+
+1.6 Contexto de distribución vs contexto de ejecución (fabricación)
+- Contexto de distribución: red industrial de plantas donde el diseño se produce (planta A, planta B, planta C).
+- Contexto de ejecución: condiciones locales concretas dentro de cada planta (maquinaria, proveedores, regulación local, clima, habilidades del personal, disponibilidad energética, restricciones logísticas).
+
+1.7 Manifestación
+Instancia concreta del sistema: un lote producido en una planta específica durante un periodo específico.
+Ejemplo: “Lote 2026-01 de Planta A”.
+
+1.8 Artefacto
+Evidencia material y documentable:
+- Vehículos terminados.
+- Reportes de calidad y trazabilidad.
+- Registros de mediciones, pruebas y conformidad.
+- Registros de no conformidades y acciones correctivas.
+
+──────────────────────────────────────────────────────────────────────────────
+2) ESCENARIO BASE DEL EJEMPLO (MISMO AUTO, MÚLTIPLES PLANTAS)
+──────────────────────────────────────────────────────────────────────────────
+
+Entidades mínimas:
+- Diseño central (origen del núcleo invariante): define qué se debe construir.
+- Plantas (contextos locales): cada una fabrica el mismo diseño bajo condiciones distintas.
+- Proveedores: suministran componentes o materiales con variación de disponibilidad.
+- Proceso productivo: implementación local del ensamblaje y la logística.
+- Estándares de calidad: reglas verificables que definen conformidad.
+- Producto final: automóvil funcionalmente idéntico dentro de tolerancias.
+
+Situación:
+Una empresa produce el mismo modelo de automóvil en varias plantas.
+Cada planta tiene condiciones locales distintas (maquinaria, proveedores, logística y regulación).
+El producto final debe seguir siendo “el mismo” en términos funcionales y de especificación.
+
+──────────────────────────────────────────────────────────────────────────────
+3) DIAGRAMA ASCII (PUNTO DE PARTIDA ESTRUCTURAL)
+──────────────────────────────────────────────────────────────────────────────
+
+Leyenda:
+- [NÚCLEO] = parte invariante que define identidad del producto
+- [REQ]   = requisito funcional para cumplir el objetivo
+- [CTX-D] = contexto de distribución (planta como canal industrial)
+- [CTX-E] = contexto de ejecución (condiciones locales dentro de la planta)
+- [ART]   = artefacto (vehículos + reportes)
+
+                           ┌──────────────────────────────────────┐
+                           │ [NÚCLEO]                              │
+                           │ Objetivo primario:                    │
+                           │ “FABRICAR CONFORME A ESPECIFICACIÓN”  │
+                           └──────────────────────────────────────┘
+                                        │
+                                        │ depende de
+                                        v
+                        ┌──────────────────────────────────────┐
+                        │ [NÚCLEO] Diseño del automóvil          │
+                        │ - especificaciones técnicas            │
+                        │ - tolerancias                          │
+                        │ - funciones y requisitos               │
+                        └──────────────────────────────────────┘
+                                        │
+                                        │ requiere
+                                        v
+                     ┌──────────────────────────────────────────┐
+                     │ [REQ] Proceso industrial operable         │
+                     │ (ensamblaje + logística + verificación)   │
+                     └──────────────────────────────────────────┘
+                                        │
+                                        │ se manifiesta en
+                                        v
+      ┌────────────────────────────────────────┐     ┌────────────────────────────────────────┐
+      │ [CTX-D] Planta A                       │     │ [CTX-D] Planta B                       │
+      │ (implementación local del proceso)     │     │ (implementación local del proceso)     │
+      └────────────────────────────────────────┘     └────────────────────────────────────────┘
+                    │                                              │
+                    │ ejecuta bajo                                  │ ejecuta bajo
+                    v                                              v
+      ┌────────────────────────────────────────────┐   ┌────────────────────────────────────────────┐
+      │ [CTX-E] Condiciones locales Planta A        │   │ [CTX-E] Condiciones locales Planta B        │
+      │ - proveedores                               │   │ - proveedores                               │
+      │ - maquinaria                                │   │ - maquinaria                                │
+      │ - logística                                 │   │ - logística                                 │
+      │ - regulación local                          │   │ - regulación local                          │
+      └────────────────────────────────────────────┘   └────────────────────────────────────────────┘
+                    │                                              │
+                    │ produce evidencia                             │ produce evidencia
+                    v                                              v
+          ┌──────────────────────────┐                  ┌──────────────────────────┐
+          │ [ART] Vehículos terminados │                 │ [ART] Vehículos terminados │
+          │ + reportes de calidad      │                 │ + reportes de calidad      │
+          └──────────────────────────┘                  └──────────────────────────┘
+
+Interpretación inmediata:
+- El diseño y especificaciones son el núcleo que no puede deformarse.
+- Cada planta es una realización contextual del mismo núcleo.
+- El proceso industrial existe como requisito: sin proceso no hay fabricación repetible.
+- Condiciones locales cambian la implementación, no el producto final.
+- Vehículos y reportes son evidencia de manifestaciones.
+
+──────────────────────────────────────────────────────────────────────────────
+4) NÚCLEO INVARIANTE: QUÉ SIGNIFICA “EL MISMO AUTO”
+──────────────────────────────────────────────────────────────────────────────
+
+Este bloque es el equivalente industrial de “concepto formal” en educación y de “contrato” en seguros.
+
+4.1 Diseño (qué debe construirse)
+Incluye (a nivel conceptual):
+- Arquitectura del vehículo: subsistemas (chasis, tren motriz, frenos, dirección, electrónica, carrocería).
+- Interfaces: cómo encajan componentes entre sí.
+- Lista de materiales: piezas, materiales, cantidades, proveedores aprobables.
+- Procesos críticos: soldadura, pintura, tratamiento térmico, calibraciones.
+- Requisitos de seguridad y desempeño: pruebas obligatorias, límites de falla.
+
+4.2 Especificaciones técnicas (cómo se verifica)
+Ejemplos estructurales de especificación:
+- Dimensiones críticas (con tolerancias).
+- Propiedades de materiales (dureza, resistencia, elasticidad).
+- Parámetros funcionales (frenado, emisiones, consumo, ruido).
+- Compatibilidad (ensamble correcto, conectores, calibración).
+- Requisitos normativos (seguridad, impacto, emisiones) según mercado objetivo.
+
+4.3 Tolerancias (qué puede variar sin romper identidad)
+La tolerancia es el mecanismo que permite variación controlada:
+- Permite que pequeñas diferencias de fabricación no rompan función.
+- Define límites: fuera de tolerancia, el producto ya no es conforme.
+
+4.4 Funciones (qué debe hacer)
+“Funcionalmente idéntico” significa:
+- El vehículo cumple la misma función de transporte con el mismo perfil de seguridad y desempeño exigido.
+- No existen diferencias que alteren especificación clave, seguridad o confiabilidad.
+
+Nota crítica:
+Dos autos pueden ser distintos en detalles estéticos o microvariaciones dentro de tolerancia y seguir siendo “el mismo producto” a nivel funcional y contractual.
+
+──────────────────────────────────────────────────────────────────────────────
+5) INVARIANTES DEL SISTEMA (LO QUE NO PUEDE ROMPERSE)
+──────────────────────────────────────────────────────────────────────────────
+
+I1) El diseño no cambia
+- Las definiciones clave del producto (arquitectura, interfaces, requisitos) deben preservarse.
+
+I2) El producto final es funcionalmente idéntico
+- Cumple especificaciones y pruebas con el mismo estándar.
+- Variaciones solo dentro de tolerancias.
+
+I3) Se cumplen estándares de calidad
+- Existe verificación operable: inspección, medición, pruebas y trazabilidad.
+- Sin control de calidad, no se puede afirmar conformidad.
+
+I4) Trazabilidad mínima
+- Debe ser posible asociar un vehículo a su lote, planta, componentes críticos y reportes.
+- Sin trazabilidad, la calidad se vuelve inverificable y el sistema pierde su identidad industrial.
+
+I5) Conformidad normativa (cuando aplique)
+- Si el producto se fabrica para un mercado regulado, la conformidad normativa se vuelve invariante dura.
+
+──────────────────────────────────────────────────────────────────────────────
+6) CONTEXTO LOCAL (PLANTA) Y SU FUNCIÓN ESTRUCTURAL
+──────────────────────────────────────────────────────────────────────────────
+
+Cada planta define un contexto local distinto que condiciona la implementación del proceso.
+
+Variables típicas del contexto local:
+- Proveedores disponibles y su variabilidad (calidad, tiempos, costo).
+- Maquinaria instalada (capacidades, precisión, mantenimiento).
+- Logística interna y externa (rutas, almacenes, tiempos de entrega).
+- Regulación local (laboral, ambiental, seguridad industrial).
+- Habilidades del personal, cultura de calidad, rotación.
+- Condiciones ambientales (humedad, temperatura) que afectan procesos como pintura o adhesivos.
+- Restricciones energéticas o de infraestructura.
+
+Función estructural del contexto:
+- No redefine el diseño, pero puede obligar a:
+  - Cambiar secuencias de ensamblaje.
+  - Rediseñar flujo logístico.
+  - Seleccionar maquinaria equivalente.
+  - Ajustar controles de calidad.
+
+──────────────────────────────────────────────────────────────────────────────
+7) DOMINIO DE VARIACIÓN (CONTROLADO) ENTRE PLANTAS
+──────────────────────────────────────────────────────────────────────────────
+
+7.1 Puede variar
+- Secuencia de ensamblaje:
+  - Orden de subensambles, estaciones y “buffers”.
+- Distribución de tareas:
+  - Qué estación realiza qué actividad, y con qué grado de automatización.
+- Flujo logístico:
+  - Rutas internas, almacenamiento intermedio, “just-in-time” vs “just-in-case”.
+- Proveedores alternativos:
+  - Si cumplen materiales, especificaciones y homologación.
+- Maquinaria equivalente:
+  - Distintas máquinas pueden lograr la misma especificación.
+- Parámetros de proceso dentro de ventana permitida:
+  - Ajustes operativos para mantener tolerancias (por ejemplo, tiempos o temperaturas dentro de rangos definidos).
+
+7.2 No puede variar
+- Especificaciones técnicas objetivo.
+- Tolerancias y criterios de aceptación.
+- Funciones exigidas y requisitos normativos.
+- Estándares mínimos de calidad y verificación.
+
+──────────────────────────────────────────────────────────────────────────────
+8) INTERVENCIÓN: PROCESO PRODUCTIVO ADAPTADO A LA PLANTA
+──────────────────────────────────────────────────────────────────────────────
+
+La intervención es la implementación local del proceso que transforma insumos en vehículos conformes.
+
+8.1 Pipeline industrial mínimo (modelo operable)
+E1) Recepción y verificación de insumos
+- Control de proveedores: inspección de entrada, documentación, muestreo.
+
+E2) Preparación y subensambles
+- Construcción de módulos: motor, transmisión, cableado, interiores.
+
+E3) Ensamblaje estructural
+- Soldadura, unión de chasis y carrocería, fijaciones críticas.
+
+E4) Procesos de acabado
+- Pintura, recubrimientos, tratamientos.
+
+E5) Ensamblaje final e integración
+- Instalación de subsistemas, calibraciones, software (si aplica).
+
+E6) Control de calidad y pruebas
+- Inspecciones dimensionales, pruebas funcionales, pruebas de seguridad.
+
+E7) Liberación del producto y trazabilidad
+- Etiquetado, documentación, registro de lote, salida a logística externa.
+
+8.2 Slots por etapa (piezas variables por planta)
+- Tipo de inspección (manual, automática), frecuencia de muestreo.
+- Nivel de automatización (robot vs manual) manteniendo especificación.
+- Layout de planta (estaciones y rutas) que cambia el flujo.
+- Estrategias logísticas (inventario mínimo vs buffers).
+- Plan de mantenimiento y calibración.
+
+Regla de coherencia:
+Los slots son variables; los criterios de aceptación son invariantes.
+
+──────────────────────────────────────────────────────────────────────────────
+9) MANIFESTACIONES (LOTES) Y ARTEFACTOS (EVIDENCIA)
+──────────────────────────────────────────────────────────────────────────────
+
+9.1 Manifestaciones
+- Lote producido en Planta A (por ejemplo, “Lote A-2026-01”).
+- Lote producido en Planta B (por ejemplo, “Lote B-2026-01”).
+
+Cada lote es una manifestación del mismo núcleo si:
+- Los vehículos cumplen especificación y tolerancias.
+- Los reportes de calidad muestran conformidad.
+
+9.2 Artefactos
+- Vehículos terminados (producto físico).
+- Reportes de calidad:
+  - Mediciones, pruebas, resultados, registros de conformidad.
+- Registros de trazabilidad:
+  - Componentes críticos, lote, proveedor, estación, fecha.
+- Registros de no conformidad:
+  - Defectos detectados, causas, acciones correctivas y preventivas.
+
+Función estructural:
+Los artefactos permiten auditar:
+- Identidad del producto (conformidad con diseño).
+- Robustez del proceso (capacidad de producir consistentemente dentro de tolerancias).
+
+──────────────────────────────────────────────────────────────────────────────
+10) REPRESENTACIÓN ESTILO cNode (FORMA CANÓNICA SUGERIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+cNode: “Fabricación multi-planta de automóvil (modelo estructural)”
+
+- Contexto / Identidad:
+  - Qué es: patrón industrial para realizar el mismo diseño en plantas distintas.
+  - Para qué existe: escalar producción manteniendo identidad funcional y técnica.
+  - Entradas: diseño + especificaciones + tolerancias + insumos + planta (contexto local).
+  - Salidas: vehículos conformes + evidencia (calidad y trazabilidad).
+
+- Invariantes:
+  - Diseño y especificaciones objetivo.
+  - Criterios de aceptación y tolerancias.
+  - Producto funcionalmente idéntico.
+  - Control de calidad operable.
+  - Trazabilidad mínima.
+
+- Componentes internos:
+  - Secuencia de ensamblaje.
+  - Distribución de tareas.
+  - Layout y flujo logístico.
+  - Selección de proveedores equivalentes.
+  - Selección de maquinaria equivalente.
+
+- Variantes:
+  - Variante “Planta A”.
+  - Variante “Planta B”.
+  - Variante “Planta C” (si existe).
+  Estas variantes cambian implementación, no el núcleo.
+
+- Artefactos conectables:
+  - Vehículo_ID_X
+  - ReporteCalidad_Lote_Y
+  - RegistroTrazabilidad_ID_X
+  Estos artefactos evidencian manifestaciones; no son el cNode.
+
+──────────────────────────────────────────────────────────────────────────────
+11) CRITERIOS DE ÉXITO, FALLA Y LÍMITES (MODELO AUDITABLE)
+──────────────────────────────────────────────────────────────────────────────
+
+11.1 Criterios mínimos de éxito
+- Vehículos dentro de especificación y tolerancias.
+- Reportes de calidad completos y consistentes.
+- Trazabilidad suficiente para identificar lotes y causas ante fallas.
+- Conformidad normativa según mercado objetivo.
+
+11.2 Fallas típicas (degradan desempeño sin negar intención del sistema)
+- Variabilidad de proveedores que incrementa defectos.
+- Mantenimiento insuficiente que desplaza tolerancias.
+- Flujo logístico deficiente que produce cuellos de botella y errores.
+- Diferencias de capacitación que afectan consistencia.
+
+11.3 Límites duros (si ocurren, el producto deja de ser “el mismo conforme a especificación”)
+- Salir de tolerancias críticas.
+- Violación de especificación técnica clave.
+- Fallo de pruebas de seguridad obligatorias.
+- Ausencia de evidencia (sin reportes y sin trazabilidad, no se puede sostener conformidad).
+
+──────────────────────────────────────────────────────────────────────────────
+CIERRE
+Este ejemplo muestra “realización contextual de un diseño invariante” porque:
+- Conserva un núcleo invariante (diseño, especificaciones, tolerancias y funciones).
+- Permite variación controlada (secuencias, tareas, logística) entre plantas.
+- Produce manifestaciones múltiples (lotes por planta) sin perder identidad del producto.
+- Genera artefactos verificables (vehículos y reportes de calidad) para auditoría.
+- Es integrable como un cNode conceptual: núcleo estable + implementación contextual + evidencia.
+
+FIN DEL SNIPPET

@@ -1,0 +1,410 @@
+================================================================================
+TEORÍA DE MÁQUINAS COGNITIVAS
+Un marco operativo basado en cognición como plataforma, estructuras cognitivas,
+familias (modos de manifestación), criterios de pertenencia, proyección e integración
+en grafos para construir aplicaciones cognitivas.
+================================================================================
+
+Autor: (por completar)
+Fecha: (por completar)
+Versión: 0.1 (síntesis técnica de trabajo en progreso)
+
+--------------------------------------------------------------------------------
+RESUMEN (ABSTRACT)
+--------------------------------------------------------------------------------
+Este documento presenta una teoría operativa de “máquinas cognitivas”: sistemas
+diseñados para reproducir, de forma controlada y proyectable, los comportamientos
+funcionales de la cognición humana. El núcleo del marco es tratar la cognición como
+una plataforma (sustrato operativo) que, bajo condiciones del problema, selecciona
+y ejecuta “formas” internas llamadas estructuras cognitivas.
+
+Para que dichas formas sean transferibles y ensamblables (entre personas, equipos,
+proyectos y sistemas computacionales), se introduce un mecanismo de proyección:
+convertir una estructura cognitiva interna (mNode) en un artefacto estructural
+integrable (cNode) representado como grafo. La pertenencia de una estructura a un
+modo funcional (familia) se decide mediante un sistema explícito de criterios
+(invariantes, discriminadores, dominio de variación, perfil de condiciones y
+procedimientos/validación). En conjunto, estas piezas habilitan: reducción de
+ambigüedad, repetición, auditoría, extensión y composición determinista de
+conocimiento y procedimientos.
+
+--------------------------------------------------------------------------------
+PALABRAS CLAVE
+--------------------------------------------------------------------------------
+Cognición, estructura cognitiva, familia, criterios de pertenencia, proyección,
+cognitive node, grafo, integración, interoperabilidad, aplicación cognitiva.
+
+--------------------------------------------------------------------------------
+1. INTRODUCCIÓN Y MOTIVACIÓN: DE “ADAPTACIONES CONTEXTUALES” A “MÁQUINAS”
+--------------------------------------------------------------------------------
+Una observación transversal en múltiples dominios humanos es la siguiente:
+
+(1) Existe un núcleo conceptual/operativo que conserva identidad.
+(2) El núcleo se adapta a contextos distintos sin perder esa identidad.
+(3) Para adaptarse, se utiliza un dominio de variación (lo modificable) sin tocar
+    invariantes (lo que sostiene identidad).
+
+Este patrón puede describirse como una “fábrica de adaptaciones contextuales”:
+una plantilla base que produce realizaciones locales del mismo núcleo.
+
+DIAGRAMA CONCEPTUAL (visión grafo, cualitativa):
+
+      +-------------------+
+      |       NÚCLEO       |
+      |  - invariantes     |
+      |  - variación       |
+      |  - objetivo        |
+      +---------+---------+
+                |
+     +----------+-----------+-----------+
+     |                      |           |
++----v-----+          +-----v----+ +----v-----+
+| Contexto |          | Contexto | | Contexto |
+|   (A)    |          |   (B)    | |   (C)    |
++----------+          +----------+ +----------+
+
+El objetivo de este documento es mostrar cómo ese patrón puede escalar hacia una
+teoría unificada: en lugar de tratar ejemplos como casos aislados, se propone una
+arquitectura conceptual donde los “núcleos” se formalizan como estructuras
+cognitivas, y sus proyecciones se vuelven piezas ensamblables en una máquina.
+
+--------------------------------------------------------------------------------
+2. FUNDAMENTO: COGNICIÓN COMO PLATAFORMA (SUSTRATO OPERATIVO)
+--------------------------------------------------------------------------------
+2.1 Definición operativa de cognición
+Cognición se entiende como el conjunto de capacidades y procesos mediante los
+cuales un agente:
+- adquiere información (percepción),
+- la representa (conceptos, modelos, categorías),
+- la transforma (razonamiento, inferencia, cálculo),
+- la conserva y recupera (memoria),
+- la usa para orientar decisiones y acciones (planeación, control, aprendizaje).
+
+En una frase:
+cognición = procesamiento de información orientado a conocimiento y conducta.
+
+2.2 Cognición no es “una forma”: es un sistema que adopta formas
+Una tesis central del marco es:
+- La cognición es un sistema.
+- Ese sistema no se manifiesta siempre igual.
+- Según la presión de la tarea (condiciones del contorno), la cognición “toma”
+  un modo funcional dominante.
+
+AQUÍ ES POSIBLE PONER LOS EJEMPLOS DE "AGUA CAYENDO" Y "NORMATIVA JURÍDICA"
+
+Esto justifica la introducción de “estructuras cognitivas” como unidades funcionales.
+
+2.3 Entrada → transformaciones → salida (modelo de sistema)
+La cognición puede representarse como una cadena de:
+- Entradas típicas: señales del entorno + estado interno + restricciones.
+- Transformaciones: actualización de representaciones, selección de modo dominante,
+  inferencia, planeación, validación, control.
+- Salidas: creencias/representaciones, decisiones, acciones, aprendizaje.
+
+AQUÍ NECESITO UN DIAGRAMA SIMPLE EN EL QUE SE EXPLIQUEN ESTAS IDEAS EN MAYOR DETALLE
+
+--------------------------------------------------------------------------------
+3. UNIDADES INTERNAS: ESTRUCTURAS COGNITIVAS (mental node, mNode)
+--------------------------------------------------------------------------------
+3.1 Definición (mNode)
+Una estructura cognitiva (mNode) es una forma cognitiva interna, portadora de
+identidad, que organiza información y/o acción de tal modo que puede guiar la
+percepción, el razonamiento, la toma de decisiones, el aprendizaje o la ejecución.
+
+Una mNode no se define por un ejemplo autobiográfico, sino por:
+(1) Un límite de identidad explícito: invariantes + dominio de variación.
+(2) Un rol operativo: cómo se usa para producir resultados.
+(3) Preparación para la proyección: puede externalizarse (texto, esquema, plan,
+    contrato, diagrama, procedimiento, etc.) sin depender de lo privado.
+
+3.2 Interpretación como “piezas tipo LEGO”
+La analogía funcional es:
+- Las mNodes son piezas con forma operacional (no solo contenido).
+- Diferentes piezas se combinan para producir comportamientos complejos.
+- El ensamblaje sin control puede producir creatividad o caos; por ello se necesita
+  un sistema de tipado/validación.
+
+--------------------------------------------------------------------------------
+4. TIPADO OPERATIVO: FAMILIAS (MODOS DE MANIFESTACIÓN)
+--------------------------------------------------------------------------------
+4.1 Definición de familia
+Una familia es una categoría operativa que clasifica mNodes por el tipo de función
+dominante que realizan, no por etiqueta semántica superficial.
+
+Familias base (tipos base) típicas:
+- IDEA: estabilizar identidad/significado (“qué es esto”).
+- PLAN: ordenar pasos hacia un objetivo (“qué pasos seguir”).
+- MÉTODO producir resultados fiables y repetibles (“cómo producir con fiabilidad”).
+- DISEÑO: organizar partes bajo restricciones (“cómo se relacionan partes…”).
+- PATRÓN DE RAZONAMIENTO: derivar conclusiones justificadas (“por qué se sigue…”).
+
+ES NECESARIO COLOCAR AQUÍ LA TABLA DE LAS FAMILIAS DE LOS MNODES, AGRANDA EL DOCUMENTO, PERO AÑADE 
+UNA EXPLICACIÓN CLARA. 
+
+4.2 Familias compuestas
+Una familia compuesta se entiende como una combinación estable de roles base,
+donde la compuesta suele necesitar varias bases como subestructuras para funcionar.
+
+Ejemplos de compuestas (descomposición funcional típica):
+- Esquema: (Idea + Diseño + Patrón de razonamiento) para organizar interpretación.
+- Modelo mental: (Idea + Diseño + Patrón de razonamiento + Método) para simular/pred.
+- Heurística: (Idea + Plan + Marco de evaluación + Patrón de razonamiento simplificado).
+- Protocolo: (Plan + Diseño + Método + Política de control + Marco de evaluación).
+- Política de control: (Idea + Método + Plan + Diseño + Marco de evaluación).
+
+Nota: En esta teoría, “base” y “compuesta” no se entienden como genealogía, sino como
+arquitectura funcional: qué roles deben estar presentes para que la estructura opere.
+
+--------------------------------------------------------------------------------
+5. CRITERIOS DE PERTENENCIA: EL “VERIFICADOR” (type checker) DE FAMILIAS
+--------------------------------------------------------------------------------
+La pertenencia a una familia no se decide por intuición, sino por un sistema de
+validación. Toda familia, al usarse en serio, debe especificar cinco bloques.
+
+Para una familia F:
+
+(1) INVARIANTES DE FAMILIA
+Condiciones mínimas estructurales para que una mNode cuente como instancia de F.
+
+(2) DISCRIMINADORES DE FAMILIA
+Preguntas o pruebas operativas que permiten decidir pertenencia sin depender de
+ejemplares privados o intuición no verificable.
+
+(3) DOMINIO DE VARIACIÓN DE FAMILIA
+Dimensiones que pueden cambiar sin dejar de pertenecer a F.
+
+(4) PERFIL DE CONDICIONES (CONDICIONES DE CONTORNO)
+Rasgos típicos del contexto/tarea que activan o vuelven dominante el modo F.
+
+(5) PROCEDIMIENTOS Y VALIDACIÓN ASOCIADOS
+Reglas de uso, pruebas y criterios de corrección que vuelven a F proyectable:
+repetible, auditable, portable, integrable.
+
+Interpretación clave:
+Sin criterios, la teoría se vuelve narrativa; con criterios, se vuelve operativa.
+Los criterios son el puente entre “hablar de una forma” y “poder construirla”.
+
+--------------------------------------------------------------------------------
+6. PROYECCIÓN COGNITIVA: DEL INTERNO A LO INTEGRABLE (COMPILADOR)
+--------------------------------------------------------------------------------
+6.1 Problema motivador: ambigüedad por lenguaje natural
+En comunicación humana ocurre con frecuencia que:
+- La intención del emisor no se recupera como se planeaba en el receptor.
+- La misma frase activa ejemplares distintos en personas distintas.
+- El desacuerdo puede ser semántico (fronteras distintas del concepto) más que factual.
+
+Por ello, la teoría busca transferir “forma operativa” y no solo palabras.
+
+6.2 Proyección: definición funcional
+Proyección cognitiva es el acto deliberado de seleccionar y externalizar desde una
+mNode lo siguiente:
+- qué debe preservarse (invariantes),
+- qué puede cambiar (dominio de variación),
+- qué existe y cómo se relaciona (ontología interna),
+- cómo se usa y cómo se valida (procedimientos y criterios),
+excluyendo ejemplares autobiográficos, contexto privado accidental y asociaciones
+no verificables.
+
+6.3 Resultado de la proyección: el cNode
+El producto de la proyección es un artefacto estructural integrable: un cNode.
+
+--------------------------------------------------------------------------------
+7. cNode (cognitive node): MÓDULO ENSAMBLABLE COMO GRAFO
+--------------------------------------------------------------------------------
+7.1 Definición (cNode)
+Un cNode es una proyección estructural deliberada de una mNode, expresada como un
+objeto tipo grafo que captura identidad, variación permitida y relaciones internas,
+con el propósito de transferir forma operativa entre humanos y Artificial Intelligence
+(AI, inteligencia artificial; definition in English: “the study and engineering of systems
+that perform tasks requiring human-like cognition, such as perception, reasoning,
+learning, and decision-making”), reduciendo ambigüedad, habilitando integración con
+otros nodos y permitiendo repetición, explicación, auditoría y extensión.
+
+7.2 Grafo como representación portante
+Definición mínima de grafo:
+G = (V, E)
+donde:
+- V es el conjunto de vértices (nodos).
+- E es el conjunto de aristas (enlaces) que conectan vértices.
+
+En esta teoría, el grafo no es decoración: es el soporte de interoperabilidad.
+Permite:
+- declarar componentes explícitos,
+- declarar relaciones explícitas,
+- navegar, componer e integrar,
+- validar consistencia estructural.
+
+7.3 Contenido mínimo que un cNode porta
+Un cNode, para ser módulo útil, debe portar al menos:
+- Identidad: qué es, frontera conceptual, invariantes.
+- Variación permitida: parámetros, reemplazos, rangos.
+- Ontología interna: componentes y relaciones.
+- Criterios de pertenencia: cómo se decide clasificación.
+- Validación: pruebas y procedimientos de corrección.
+
+--------------------------------------------------------------------------------
+8. INTEGRACIÓN: SUPERFICIE Y REGLAS DE ACOPLAMIENTO (ACOPLADOR)
+--------------------------------------------------------------------------------
+8.1 Integración como mecánica anti-caos
+La combinatoria libre de ideas (poder combinar cualquier cosa con cualquier cosa)
+puede ser productiva, pero también puede volverse caótica. La integración formaliza
+una mecánica que:
+- reduce conflictos silenciosos,
+- preserva significado operativo,
+- permite ensamblaje determinista.
+
+8.2 Componentes típicos de integración (export surface)
+Un cNode publica una superficie de integración con piezas como:
+- PROVIDES: capacidades ofrecidas.
+- REQUIRES: dependencias necesarias.
+- CONSTRAINTS: invariantes de integración (lo que no se puede violar).
+- TYPES: tipos canónicos usados internamente.
+- ALIASES: mapeo controlado de vocabulario entre nodos.
+
+8.3 Negociación y fusión (merge policy)
+La integración requiere:
+- descubrir compatibilidad,
+- mapear alias (términos y tipos),
+- validar,
+- adaptar,
+- fusionar,
+- reportar conflictos.
+
+Para que sea auditable, se requiere “provenance” (proveniencia): registro de de
+dónde proviene cada parte y qué transformaciones se aplicaron.
+
+--------------------------------------------------------------------------------
+9. cApp (cognitive application): LA MÁQUINA APLICADA (PRODUCTO)
+--------------------------------------------------------------------------------
+9.1 Definición (cApp)
+Una cApp es un sistema cognitivo diseñado para ejecutar una tarea mediante simbiosis
+humano–AI, construido como un conjunto de cNodes integrados bajo reglas.
+
+9.2 Lectura como “máquina instanciada”
+La cApp es la máquina cognitiva “instanciada”: la teoría deja de ser descripción y se
+vuelve arquitectura operativa:
+- piezas (cNodes),
+- chasis (grafo),
+- acoplador (integración),
+- reglas de validación,
+- objetivos, entradas y salidas.
+
+--------------------------------------------------------------------------------
+10. EJEMPLOS ILUSTRATIVOS (REUTILIZABLES)
+--------------------------------------------------------------------------------
+Esta sección muestra cómo los conceptos se usan en práctica para crear estructuras
+proyectables. Los ejemplos se presentan en niveles, evitando depender de intuición.
+
+10.1 Ejemplo A: “Contrato” tratado como IDEA (familia base)
+Objetivo: estabilizar significado y frontera conceptual del término “contrato”.
+
+Rol operativo dominante:
+- IDEA: fijar identidad y permitir decidir “qué cuenta” y “qué no cuenta”.
+
+(1) Invariantes mínimos:
+- Al menos dos partes identificables.
+- Obligaciones atribuibles (contenido normativo), no solo intención vaga.
+- Aceptación/consentimiento.
+- Regla de validez/reconocimiento declarable.
+- Posibilidad conceptual de incumplimiento y evaluación.
+
+(2) Discriminadores:
+- ¿Se identifican partes y roles sin interpretación personal?
+- ¿Se distingue contrato vs promesa informal vs conversación vs imposición?
+- ¿Existe criterio explícito de validez?
+- ¿La función es estabilizar significado (IDEA) y no describir pasos (PLAN)?
+
+(3) Dominio de variación:
+- Tipo de contrato (servicios, laboral, licencia, etc.).
+- Forma de expresión (oral, escrita, digital) si satisface validez declarada.
+- Contenido específico de obligaciones (plazos, pagos, garantías).
+- Mecanismos de ejecución (tribunal, arbitraje, reputación) sin anular vínculo evaluable.
+- Jurisdicción/marco institucional, si se declara la regla aplicable.
+
+(4) Perfil de condiciones:
+- Necesidad de coordinar expectativas sin depender de confianza personal.
+- Riesgo de disputa semántica.
+- Necesidad de evaluación futura (cumplimiento/incumplimiento).
+- Interoperabilidad entre contextos distintos.
+
+(5) Procedimientos y validación asociados:
+- Declarar núcleo + frontera + variación + regla de validez.
+- Probar casos límite (sin aceptación, sin obligaciones, sin validez).
+- Verificar consistencia interna y portabilidad entre contextos.
+
+10.2 Ejemplo B: “Fábrica de adaptaciones contextuales” (núcleo + contexto)
+Ejemplo típico: venta de seguro / enseñanza / creación de contenido por nichos.
+Estructura común:
+- Núcleo: contrato/concepto/tema.
+- Invariantes: coberturas-definiciones-mensaje central.
+- Variación: discurso, analogías, tono, formato.
+- Contexto: prospecto/alumno/nicho.
+- Intervención: llamada, clase, publicación.
+
+10.3 Ejemplo C: “Cognición que cambia de modo” (familias como regímenes)
+Analogía de fenómeno único con modos:
+- “Agua que cae”: llovizna/aguacero/nieve/granizo según condiciones.
+- “Norma jurídica”: multa/pena/medida alternativa/inhabilitación según tipificación.
+
+Interpretación:
+- El núcleo no cambia; cambian los modos de manifestación activados por condiciones.
+
+10.4 Ejemplo D: cApp de investigación de mercado con perfiles de influencer
+Núcleo: intención de investigación + mecanismo (perfiles) + condiciones (duración,
+frecuencia, plataformas, formato) + objetivo (hallar productos que más atraen a un nicho).
+Contexto: nicho definido (mujeres mexicanas profesionistas 30–40, altos ingresos, etc.).
+Intervenciones: publicaciones, análisis de interacciones, retroalimentación de estrategia.
+
+Este ejemplo ilustra: composición de cNodes + integración + validación + repetición.
+
+--------------------------------------------------------------------------------
+11. DISCUSIÓN: REPRESENTACIÓN COMO “MÁQUINA” Y UNIFICACIÓN TEÓRICA
+--------------------------------------------------------------------------------
+11.1 Por qué la metáfora de máquina es adecuada
+La representación como máquina es adecuada porque:
+- fuerza a identificar piezas, roles y acoplamientos;
+- obliga a declarar entradas/salidas, validación y tolerancias;
+- hace visible el lugar de los criterios como “verificador”;
+- conecta directamente con implementación: una máquina se construye, se prueba,
+  se ajusta y se ensambla.
+
+11.2 Por qué no conviene, por ahora, una formalización matemática total
+El avance principal logrado es conceptual-operativo: ya existe una arquitectura
+coherente con piezas bien definidas. Forzar prematuramente formalismo matemático
+puede:
+- desviar atención hacia propiedades (por ejemplo, linealidad) que todavía no son
+  necesarias para que el sistema funcione,
+- hacer que el proyecto persiga una estética formal en lugar de consolidar la
+  ingeniería conceptual ya alcanzada.
+
+11.3 Unificación: no son conceptos separados, son piezas de una misma teoría
+Bajo esta lectura, los conceptos no son módulos sueltos, sino una unidad:
+- Cognición como plataforma (sustrato operativo).
+- mNodes como unidades internas con identidad y rol.
+- Familias como tipado funcional (modos de manifestación).
+- Criterios de pertenencia como verificador que elimina dependencia de intuición.
+- Proyección como compilador hacia lo integrable.
+- cNodes como módulos ensamblables representados como grafo.
+- Grafo como chasis de interoperabilidad.
+- Integración como acoplador determinista con reglas.
+- cApp como máquina instanciada y aplicable.
+
+En otras palabras:
+La teoría se lee como una cadena de ingeniería: del fenómeno cognitivo interno
+a la construcción de máquinas cognitivas externas.
+
+--------------------------------------------------------------------------------
+12. CONCLUSIÓN
+--------------------------------------------------------------------------------
+La teoría de máquinas cognitivas propuesta convierte una intuición (la cognición cambia
+de forma según la situación) en una arquitectura operativa: piezas internas (mNodes),
+tipos funcionales (familias), un verificador explícito (criterios de pertenencia), un
+mecanismo de externalización (proyección), módulos ensamblables (cNodes) representados
+como grafos, reglas de acoplamiento (integración) y productos instanciados (cApps).
+
+El resultado esperado no es solo describir cognición: es construir sistemas que puedan
+replicar, componer y auditar formas cognitivas de manera controlada.
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

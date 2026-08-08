@@ -1,0 +1,305 @@
+TÍTULO
+Ejemplo estructurado (autosuficiente): “Elicitación de información” como modelo estructural y como Cognitive Node (cNode)
+
+VERSIÓN
+0.1.0 (borrador operativo)
+
+ESTATUS
+En desarrollo (modelo conceptual; listo para iteración y refinamiento)
+
+AUDIENCIA
+Personas que necesitan comprender y reutilizar el ejemplo sin contexto previo del proyecto.
+
+PROPÓSITO
+Describir, con una estructura explícita, cómo modelar una situación de elicitación de información:
+- Un objetivo primario (“elicitar información”).
+- Técnicas de elicitación como requisito del objetivo.
+- Dos medios de ejecución (teléfono y en persona) como variantes del mismo patrón.
+- Contextos diferenciados (de distribución y de ejecución).
+- Distinción entre invariantes (lo que no puede cambiar sin romper la identidad del modelo) y componentes internos (lo que puede variar sin perder la identidad).
+
+NOTA SOBRE ACRÓNIMOS Y TÉRMINOS
+- American Standard Code for Information Interchange (ASCII): un sistema de caracteres; aquí se usa para dibujar diagramas con texto.
+- Artificial Intelligence (AI): inteligencia artificial; se menciona únicamente como referencia general.
+- Cognitive Node (cNode): “nodo cognitivo”; entidad conceptual que conserva estructura (no solo texto) y que puede integrarse a un grafo.
+- Estructura Base de Definición Conceptual (EBDC): plantilla general para describir conceptos mediante identidad, invariantes, componentes y relaciones.
+  (Si se usa en un documento externo, este ejemplo ya contiene lo mínimo para entenderla sin depender de otros textos.)
+
+──────────────────────────────────────────────────────────────────────────────
+1) DEFINICIONES MÍNIMAS (AUTO-CONTENIDAS)
+──────────────────────────────────────────────────────────────────────────────
+
+1.1 Elicitación de información
+Proceso intencional para obtener información que otra parte posee, mediante interacción (conversación, entrevista, intercambio), usando métodos y técnicas.
+
+1.2 Objetivo primario
+La finalidad que define la identidad del caso. En este ejemplo: “elicitar información”.
+Regla: si el objetivo primario cambia, ya no es el mismo caso.
+
+1.3 Núcleo (conceptual)
+La parte del modelo que contiene lo indispensable para que el concepto exista como “ese concepto”.
+En este ejemplo, el núcleo está centrado en: objetivo primario + requisitos mínimos + invariantes.
+
+1.4 Invariantes
+Condiciones necesarias del concepto: si se eliminan, el concepto deja de ser lo que es.
+Regla práctica (“prueba de sustracción”): “Si quito X y el modelo sigue siendo el mismo, X no era invariante”.
+
+1.5 Componentes internos
+Elementos que participan dentro del modelo, pero que usualmente pueden cambiar (o incluso desaparecer) sin destruir la identidad.
+Ejemplo típico: el estilo de lenguaje, el orden de preguntas, el número de participantes, el formato exacto de intervención.
+
+1.6 Dominio de variación
+Conjunto de dimensiones donde el modelo permite cambios sin perder identidad.
+Aquí: el medio de ejecución (teléfono / en persona) varía, pero el objetivo primario y ciertos invariantes permanecen.
+
+1.7 Contexto de distribución vs contexto de ejecución
+- Contexto de distribución: “por dónde” se distribuye la interacción (el canal o medio: teléfono, presencial).
+- Contexto de ejecución: “dónde y con quién” se concreta la interacción (personas específicas, roles, condiciones situacionales).
+
+1.8 Manifestación
+Un caso concreto (instancia) del modelo. Por ejemplo: “llamada telefónica con Persona 1” o “reunión presencial con Persona 2 y Persona 3”.
+Regla: muchas manifestaciones pueden compartir el mismo modelo estructural.
+
+──────────────────────────────────────────────────────────────────────────────
+2) ESCENARIO BASE DEL EJEMPLO
+──────────────────────────────────────────────────────────────────────────────
+
+Entidades mínimas:
+- Organización A: desea obtener información.
+- Organización B: posee (total o parcialmente) la información buscada.
+- Personas (representantes): individuos de Organización B con los que Organización A interactúa.
+
+Situación:
+Organización A quiere elicitar información de Organización B.
+Para ejecutar la elicitación, Organización A elige un medio (teléfono o en persona).
+En ambos medios, Organización A interactúa con una o más personas (Personas 1, 2, 3), pero el objetivo primario se mantiene.
+
+Información buscada (ejemplo concreto, opcional):
+- Número de empleados.
+- Salario de cada empleado.
+(Estos valores son un ejemplo; el modelo admite otras clases de información, siempre que se mantenga la lógica de “información buscada”.)
+
+──────────────────────────────────────────────────────────────────────────────
+3) DIAGRAMA ASCII (PUNTO DE PARTIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+Leyenda:
+- [NÚCLEO] = parte invariante que define identidad
+- [REQ]   = requisito para cumplir el objetivo
+- [CTX-D] = contexto de distribución (medio)
+- [CTX-E] = contexto de ejecución (personas/instancia concreta)
+
+                           ┌─────────────────────────────────────┐
+                           │ [NÚCLEO]                             │
+                           │ Objetivo primario:                   │
+                           │ “ELICITAR INFORMACIÓN”               │
+                           │ (contiene requerimientos mínimos)    │
+                           └─────────────────────────────────────┘
+                                        ▲
+                                        │
+                         ┌──────────────┴──────────────┐
+                         │ [REQ] Técnicas de elicitación│
+                         │ (métodos para extraer info)  │
+                         └──────────────────────────────┘
+
+                                        │
+                                        │ se manifiesta en (instancias)
+                                        ▼
+
+               ┌───────────────────────────────┐       ┌───────────────────────────────┐
+               │ [CTX-D] Medio: TELÉFONO        │       │ [CTX-D] Medio: EN PERSONA     │
+               │ (contexto de distribución)     │       │ (contexto de distribución)     │
+               └───────────────────────────────┘       └───────────────────────────────┘
+                          │                                        │
+                          │ ejecuta con                            │ ejecuta con
+                          ▼                                        ▼
+      ┌───────────────────────────────┐              ┌───────────────────────────────┐
+      │ [CTX-E] Persona 1              │              │ [CTX-E] Persona 1              │
+      └───────────────────────────────┘              └───────────────────────────────┘
+      ┌───────────────────────────────┐              ┌───────────────────────────────┐
+      │ [CTX-E] Persona 2              │              │ [CTX-E] Persona 2              │
+      └───────────────────────────────┘              └───────────────────────────────┘
+                                                     ┌───────────────────────────────┐
+                                                     │ [CTX-E] Persona 3              │
+                                                     └───────────────────────────────┘
+
+Interpretación inmediata del diagrama:
+- El objetivo “elicitar información” se mantiene.
+- Las técnicas de elicitación son necesarias para operar el objetivo.
+- El medio (teléfono / en persona) es un “contexto de distribución”: determina restricciones y posibilidades.
+- Las personas concretas son “contextos de ejecución”: cambian de una manifestación a otra.
+
+──────────────────────────────────────────────────────────────────────────────
+4) DESCOMPOSICIÓN ESTRUCTURAL (IDENTIDAD, INVARIANTES, COMPONENTES)
+──────────────────────────────────────────────────────────────────────────────
+
+4.1 Identidad (contexto / identidad del modelo)
+Este modelo describe un patrón: “Una entidad desea obtener información de otra entidad mediante interacción, manteniendo un objetivo primario estable y
+variando el medio de ejecución”.
+
+Identidad resumida:
+- Tipo de situación: obtención intencional de información mediante interacción.
+- Finalidad: extraer información específica.
+- Naturaleza: misma estructura puede generar múltiples instancias.
+
+4.2 Invariantes (lo que NO puede variar sin romper el concepto)
+I1) Objetivo primario inmutable
+- Debe permanecer como “elicitar información”.
+- Si el objetivo cambia (por ejemplo, “negociar un contrato” o “socializar”), el modelo ya no representa el mismo núcleo.
+
+I2) Existencia de “información buscada”
+- Debe existir algo que se pretende extraer.
+- Puede cambiar el contenido, pero no puede desaparecer la noción de “información objetivo”.
+
+I3) Existencia de técnicas de elicitación como requisito funcional
+- Debe existir algún método (explícito o implícito) para obtener la información.
+- Aunque el contexto cambie, el modelo requiere que haya técnicas operables (el “cómo” de la extracción).
+
+I4) Relación mínima de interacción con al menos un sujeto ejecutor
+- Debe existir al menos una persona o rol con quien se ejecuta la interacción.
+- Sin “ejecutor” no hay manifestación.
+
+I5) Dominio de variación controlado
+- El medio puede variar (teléfono / en persona) sin romper el núcleo.
+- La variación está permitida, pero no ilimitada: el medio debe seguir siendo un “canal de interacción”.
+
+4.3 Componentes internos (lo que suele variar sin romper la identidad)
+C1) Lenguaje
+- No solo cambia por el medio (teléfono vs presencial); también cambia por la persona (Persona 1 vs Persona 2).
+- Ejemplo de variación: formalidad, nivel técnico, metáforas, ritmo, longitud.
+
+C2) Intervención (forma de ejecutar la técnica dentro de un medio)
+- La “intervención” es la adaptación concreta al contexto.
+- Por teléfono: limitaciones sensoriales, dependencia de claridad verbal, turnos de habla más estrictos.
+- En persona: mayor riqueza de señales, posibilidad de apoyar con documentos, mayor complejidad situacional.
+
+C3) Pipeline conversacional (estructura por etapas)
+Aunque no se especifique el contenido real de elicitación, es razonable modelar un “pipeline” abstracto:
+- Apertura (establecer propósito y reglas)
+- Elicitación (aplicar técnica)
+- Validación (confirmar consistencia de lo obtenido)
+- Cierre (resumen, próximos pasos)
+
+C4) Slots (espacios variables dentro del pipeline)
+En cada etapa hay “slots” que se llenan diferente:
+- Pregunta específica
+- Confirmación
+- Repetición
+- Aclaración
+- Manejo de resistencia o ambigüedad
+
+Importante:
+- Pipeline y slots pueden considerarse componentes internos porque suelen admitir reordenamientos o estilos distintos sin destruir el objetivo primario,
+mientras el núcleo se conserve.
+
+──────────────────────────────────────────────────────────────────────────────
+5) DOS VARIANTES COMO “DOMINIO DE VARIACIÓN”: TELÉFONO Y EN PERSONA
+──────────────────────────────────────────────────────────────────────────────
+
+Idea central:
+“Teléfono” y “En persona” no son dos modelos distintos, sino dos variantes dentro del mismo modelo,
+porque comparten invariantes (objetivo, información buscada, necesidad de técnica) y difieren en componentes internos (lenguaje, intervención, restricciones).
+
+5.1 Variante A: Teléfono (CTX-D = distribución por llamada)
+Rasgos típicos (componentes internos):
+- Menor ancho de banda contextual (no hay entorno visual compartido).
+- Más dependencia en claridad, confirmaciones y control de turnos.
+- Mayor probabilidad de malentendidos por ruido, latencia, interrupciones.
+
+5.2 Variante B: En persona (CTX-D = distribución por presencia física)
+Rasgos típicos (componentes internos):
+- Mayor riqueza contextual (documentos, gestos, entorno, objetos).
+- Intervención más flexible (apoyos visuales, pausas, demostraciones).
+- Más variables situacionales (lugar, jerarquía percibida, presión social).
+
+Regla estructural:
+- Ambas variantes “heredan” el mismo núcleo.
+- Cada una redefine parcialmente el componente “intervención” y condiciona el componente “lenguaje”.
+
+──────────────────────────────────────────────────────────────────────────────
+6) MANIFESTACIONES (INSTANCIAS) DEL MODELO
+──────────────────────────────────────────────────────────────────────────────
+
+El modelo no describe una sola conversación, sino una familia de conversaciones posibles.
+
+Ejemplos de instancias (CTX-E):
+- Instancia T1: (Teléfono → Persona 1)
+- Instancia T2: (Teléfono → Persona 2)
+- Instancia P1: (En persona → Persona 1)
+- Instancia P2: (En persona → Persona 2)
+- Instancia P3: (En persona → Persona 3)
+
+Observación:
+- Cambiar “Persona 1” por “Persona 2” no destruye el modelo: cambia el contexto de ejecución.
+- Cambiar “Teléfono” por “En persona” no destruye el modelo: cambia el contexto de distribución.
+- Cambiar el objetivo primario sí destruye la identidad.
+
+──────────────────────────────────────────────────────────────────────────────
+7) REPRESENTACIÓN ESTILO cNode (FORMA CANÓNICA SUGERIDA)
+──────────────────────────────────────────────────────────────────────────────
+
+A continuación se reexpresa el ejemplo con un formato “tipo cNode”, para enfatizar que:
+- El valor del cNode es conservar estructura (roles, invariantes, variantes) y poder integrarlo a un grafo.
+- Una conversación concreta sería un “artefacto” (por ejemplo: transcripción), conectado al cNode.
+
+cNode: “Elicitación de información (modelo estructural)”
+- Contexto / Identidad:
+  - Qué es: patrón de interacción para extraer información.
+  - Para qué existe: permitir instancias repetibles con control de invariantes.
+  - Entradas: objetivo + información buscada + técnica(s) + medio + persona(s).
+  - Salidas: información obtenida + verificación mínima + registro de la interacción.
+
+- Invariantes:
+  - Objetivo primario estable: elicitar información.
+  - Existe información objetivo.
+  - Se aplican técnicas de elicitación (alguna forma operable).
+  - Existe al menos un ejecutor (persona/rol).
+  - Medio es un canal válido de interacción (dominio de variación controlado).
+
+- Componentes internos:
+  - Lenguaje (adaptación por medio y por sujeto).
+  - Intervención (implementación concreta de la técnica).
+  - Pipeline conversacional (etapas abstractas).
+  - Slots por etapa (pregunta, confirmación, aclaración, cierre).
+
+- Variantes (dominio de variación):
+  - Variante “Teléfono”: intervención condicionada por canal telefónico.
+  - Variante “En persona”: intervención condicionada por presencia física.
+
+- Contextos:
+  - Contextos de distribución: {Teléfono, En persona}
+  - Contextos de ejecución: {Persona 1, Persona 2, Persona 3, …}
+
+- Artefactos conectables (ejemplos):
+  - Transcripción_T1 (texto)
+  - Notas_P2 (texto)
+  - Resumen_validación_P3 (texto)
+  (Estos artefactos no son el modelo; son evidencia de manifestaciones del modelo.)
+
+──────────────────────────────────────────────────────────────────────────────
+8) MEJORA ESTRUCTURAL PROPUESTA (PARA ITERAR EL EJEMPLO SIN CAMBIAR SU IDENTIDAD)
+──────────────────────────────────────────────────────────────────────────────
+
+8.1 Clarificar “qué se entiende por técnica”
+Sin describir técnicas reales, basta fijar una definición operativa:
+“Técnica de elicitación = procedimiento repetible para convertir interacción en extracción verificable de información”.
+
+8.2 Hacer explícito el criterio de éxito (mínimo)
+- Se obtuvo información objetivo.
+- Se realizó una verificación mínima (confirmación o consistencia).
+- Se registró la manifestación (artefacto de evidencia).
+
+8.3 Separar tres capas (para que el ejemplo sea reutilizable en más dominios)
+- Capa 1 (Núcleo): invariantes.
+- Capa 2 (Dominio de variación): medios permitidos.
+- Capa 3 (Manifestaciones): personas concretas + conversación concreta (artefacto).
+
+──────────────────────────────────────────────────────────────────────────────
+CIERRE
+Este ejemplo es una “estructura base” porque:
+- Conserva identidad mediante invariantes.
+- Permite variación controlada (teléfono / en persona).
+- Genera manifestaciones múltiples (Personas 1, 2, 3…) sin perder el núcleo.
+- Es directamente integrable como un cNode conceptual y enlazable con artefactos (evidencias).
+
+FIN DEL SNIPPET

@@ -1,0 +1,317 @@
+TITLE: Cognitive Node (cNode / Nodo Cognitivo) — Projection-Centered Ontology Package (Weak ↔ Strong)
+VERSION: 4.1.0
+STATUS: Working Draft (exportable; minimal ambiguity target)
+LANGUAGE: English (chosen for precision and review stability)
+AUDIENCE: Any project with zero prior context about Cognitive Nodes
+SCOPE: Definition + construction method + integration rules for cNodes as ontologies in a graph of cNodes
+NON-SCOPE: Neuroscience claims; therapy; user interface (UI) design; deployment; any single storage technology
+
+================================================================================
+1) PURPOSE OF THIS DOCUMENT (EBDC: Estructura Base de Definición Conceptual)
+================================================================================
+Define “cNode (Cognitive Node)” as a self-contained, repeatable, integrable ontology package that
+captures a cognitive structure by projection, so it can be shared across contexts without hidden
+personal assumptions. This document specifies what must be preserved (invariants), what may change
+(domain of variation), and how cNodes connect and compose into larger graphs.
+
+================================================================================
+2) PRIMARY OBJECTIVE
+================================================================================
+Enable humans and systems to externalize, validate, reuse, and integrate cognitive structures as
+explicit ontologies, ranging from weak (minimal vocabulary) to strong (formal constraints), without
+losing identity across adaptations.
+
+================================================================================
+3) CORE DEFINITION (STRICT)
+================================================================================
+A cNode (Cognitive Node) is:
+(1) an ontology (weak ↔ strong),
+(2) produced by a deliberate projection of an internal cognitive structure (mNode),
+(3) packaged as an explicit, self-contained unit,
+(4) designed to integrate into a graph of other cNodes through declared interfaces and relations.
+
+In short: cNode = ontology-as-a-portable-projection of a cognitive structure.
+
+================================================================================
+4) KEY TERMS (NO ASSUMPTIONS)
+================================================================================
+Ontology:
+  An explicit specification of entities (concepts), relations (edges), and constraints that define
+  an identity boundary for a domain. “Weak” ontologies may be only a vocabulary + relations; “strong”
+  ontologies add types, rules, invariants, validation, and integration policies.
+
+Graph:
+  A network of nodes and edges. Here: nodes are cNodes (each with its own ontology). Edges are typed
+  relations declared by the cNodes, not accidental associations.
+
+Edge (Relation):
+  A declared, interpretable connection between two nodes or entities, with a meaning and constraints.
+  Edges have directionality when needed (source → target), plus a rationale and validation.
+
+mNode (Mental Node / Internal Cognitive Structure):
+  An internal, identity-carrying cognitive form in a human mind that guides perception, reasoning,
+  decisions, learning, or execution.
+
+Cognitive structure families (source-forms for mNodes):
+  - idea: “what this is”
+  - plan: “what steps to follow”
+  - method: “how to produce outcomes reliably”
+  - design: “how parts relate to satisfy constraints”
+  - reasoning pattern: “how conclusions are derived”
+  Extensible families: schema, mental model, heuristic, skill routine, protocol, evaluation frame,
+  control policy, classification rule, decision policy.
+
+Projection (Operation):
+  The deliberate act of selecting and externalizing from an mNode:
+  - invariants (what must be preserved),
+  - domain of variation (what may change),
+  - entities and relations (what exists and how it relates),
+  - procedures (how it is used to produce outcomes),
+  - validation criteria (what counts as correct/compatible),
+  while excluding accidental personal exemplars, private context, and irrelevant associations.
+
+Meta-metaphor:
+  A metaphor that functions as a standardized structural bridge (not as decoration) for moving an
+  internal cognitive structure into a shared external ontology package. In this project, “cNode” can
+  be treated as the meta-metaphor that enforces projection-readiness and integration-readiness.
+
+================================================================================
+5) CORE INVARIANT (IDENTITY BOUNDARY)
+================================================================================
+Not every ontology is a cNode. A cNode is an ontology that satisfies the projection condition:
+
+  Projection condition:
+  The ontology is produced by projecting an mNode (or by projecting a composite mNode formed from
+  other cNodes). Even if a cNode is built exclusively from other cNodes, the act of construction is
+  still a projection operation performed by a human (or an explicit process) that selects boundaries.
+
+This condition is a defining invariant: “cNode-ness” is tied to origin by projection, not only to
+having a vocabulary.
+
+================================================================================
+6) INVARIANTS (WHAT MUST NOT BREAK)
+================================================================================
+I1) Self-contained meaning:
+    A cNode must be usable without hidden personal context. All critical terms are defined or linked
+    to internal definitions within the cNode.
+
+I2) Explicit identity boundary:
+    The cNode states invariants and domain of variation. Identity is not “the words”, but the
+    preserved structure across adaptations.
+
+I3) Relational explicitness:
+    Entities and relations are explicit. “Implicit” relations must be promoted to explicit edges or
+    excluded as accidental.
+
+I4) Projection traceability:
+    The cNode records the projection rationale: what was selected, what was excluded, and why.
+
+I5) Integrability:
+    The cNode declares how it can connect to other cNodes (interfaces), and how conflicts are handled
+    during integration (merge policy).
+
+I6) Deterministic interpretation:
+    Given the same cNode, independent readers can derive the same operational meaning within the
+    stated domain of variation.
+
+I7) Compositionality:
+    A cNode may contain internal nodes that are:
+    - concepts (entities in its ontology), and/or
+    - other cNodes (sub-ontologies),
+    with explicit relations between them.
+
+I8) Entity alignment (mNode → cNode):
+    Entities inside an mNode can exist implicitly (as unnamed parts of thought). Projection converts
+    them into explicit ontology entities. The cNode entities are the externalized counterparts of the
+    mNode’s implicit structure, not separate unrelated “things”.
+
+================================================================================
+7) DOMAIN OF VARIATION (WHAT MAY CHANGE)
+================================================================================
+V1) Level of formality:
+    A cNode may be weak (minimal vocabulary) or strong (formal types + rules). Strength can evolve.
+
+V2) Contextual realizations:
+    The same cNode may be adapted to different environments, cultures, or projects, as long as the
+    invariants remain intact.
+
+V3) Representation format:
+    The cNode can be stored as text, diagrams, JavaScript Object Notation (JSON), JavaScript Object
+    Notation Lines (JSONL), or YAML (YAML Ain't Markup Language, a human-readable data format), or
+    any medium that preserves the explicit structure.
+
+V4) Integration mechanism:
+    Integration can be done via “graph patches” or other methods. Graph patch is important, but it is
+    not the center of the concept; it is one possible integration artifact.
+
+================================================================================
+8) INTERVENTION (THE PROJECTION ACT AS A TRANSFORMATION)
+================================================================================
+The projection from mNode → cNode can be modeled analogically as a linear transformation in linear
+algebra:
+
+- mNode space (domain):
+  The space of internal cognitive structures (ideas, plans, methods, designs, reasoning patterns).
+
+- cNode space (codomain):
+  The space of explicit ontologies (portable structures).
+
+- Projection operator:
+  The act that maps an mNode into a cNode by selecting a basis of description (core terms, relations,
+  invariants) and discarding irrelevant components.
+
+Important nuance:
+  The goal is not “what a project requires”, but “the best projection that preserves identity while
+  enabling integration and reuse”. Requirements can constrain the projection, but do not define it.
+
+================================================================================
+9) MANIFESTATIONS (OUTPUTS OF A cNode)
+================================================================================
+A cNode can manifest as:
+- a reusable definition package (repeatable, explainable, auditable),
+- an executable procedure (protocol) derived from the ontology,
+- a graph segment integrated into a larger cognitive graph,
+- a family of contextual realizations that preserve identity.
+
+================================================================================
+10) MINIMAL STRUCTURE (COMPONENTS)
+================================================================================
+A minimal cNode must contain:
+
+C1) Context block:
+    - what it is,
+    - what it is for,
+    - where it applies (scope),
+    - what it excludes (non-scope),
+    - assumptions explicitly declared (never implicit).
+
+C2) Vocabulary (entities / concepts):
+    - defined terms,
+    - types (optional in weak regime; required in strong regime),
+    - examples for each term (simple, minimal).
+
+C3) Relations (edges):
+    - relation names,
+    - direction and semantics,
+    - constraints (optional in weak regime; required in strong regime),
+    - examples of valid and invalid relations.
+
+C4) Invariants + domain of variation:
+    - identity boundary,
+    - permitted adaptations.
+
+C5) Procedures (optional but recommended):
+    - how to use the cNode to produce outcomes,
+    - how to compose it with other cNodes.
+
+C6) Validation:
+    - checks that detect violations of invariants,
+    - compatibility checks for integration.
+
+C7) Integration surface:
+    - what the cNode provides,
+    - what it requires,
+    - merge policy for conflicts.
+
+Construction order note:
+  There is no single “correct” starting point. Any component can be drafted first. A valid cNode is
+  one that satisfies the invariants and yields deterministic interpretation after completion.
+
+================================================================================
+11) REPRESENTATION LAYERS (ONTOLOGY + OPTIONAL INTEGRATION ARTIFACTS)
+================================================================================
+Layer A: cNode-as-ontology (core)
+  The ontology itself: entities, relations, invariants, procedures, validation, interfaces.
+
+Layer B: Integration artifacts (optional)
+  Example: graph_patch (Graph Patch) = an instruction set that inserts/links the cNode into a target
+  graph. It may include node identifiers, edge inserts, alias mappings, and conflict resolution steps.
+  Graph patch is important when integration must be automated or replayable.
+
+Clarification:
+  The cNode does not reduce to {cognitive_node, graph_patch}. Those are useful representations, not
+  the whole concept. The concept is the ontology produced by projection, plus integrability.
+
+================================================================================
+12) COMPOSITION INTO A NETWORK OF cNodes (ALWAYS-INTEGRATABLE PRINCIPLE)
+================================================================================
+Goal:
+  Any cNode can integrate with any other cNode, provided explicit interfaces exist or can be mapped.
+
+Minimum integration interface (export surface):
+- PROVIDES: capabilities, concepts, relations, procedures
+- REQUIRES: dependencies (concepts or capabilities needed from others)
+- CONSTRAINTS: invariants that must hold after integration
+- TYPES: canonical types used (or type aliases)
+- ALIASES: mapping for edge names and type names
+
+Integration profile (negotiation procedure):
+- discover → check compatibility → map aliases → validate → adapt → merge → report
+
+Merge policy (determinism requirement):
+- conflict handling rules,
+- identifier collision policy,
+- provenance (trace of what was merged and why).
+
+================================================================================
+13) METAPHOR AND META-METAPHOR IN THE cNode CONCEPT
+================================================================================
+Metaphor (functional use):
+  A metaphor is used to transfer structure, not words. Examples: “port”, “mold”, “scaffold”.
+  A functional metaphor must be tied to explicit invariants and relations, not to imagery alone.
+
+Meta-metaphor (standardizing use):
+  A meta-metaphor is the stable pattern that makes metaphors operational and integrable. In this
+  project, “cNode” is treated as a meta-metaphor: it is the standardized container that forces the
+  projection of an mNode into an explicit ontology with integration rules.
+
+================================================================================
+14) EXAMPLES (STRUCTURAL, NOT ONLY LINGUISTIC)
+================================================================================
+Example A: “Dog” vs personal exemplars
+- Two humans are asked to think of “a dog”.
+  Human 1 imagines a Dalmatian from childhood.
+  Human 2 imagines a German Shepherd owned today.
+- Those are different manifestations (instances) guided by different personal context.
+- The shared cNode “DOG” is the ontology that defines what makes a dog a dog:
+  invariants (mammal, domesticated canid, typical traits), relations (has-body-part, can-be-trained),
+  and a domain of variation (breed, color, size, individual history).
+- “Isomorphism” nuance:
+  Dalmatian and German Shepherd are not isomorphic as whole biological systems, but they can be
+  treated as structurally equivalent relative to a chosen abstraction: both satisfy the DOG cNode’s
+  invariants. Under that abstraction, there exists a structure-preserving mapping from each exemplar
+  to the shared ontology (membership via invariant satisfaction).
+
+Example B: Protocol cNode (fire protocol)
+- Invariants: detect fire, alert, evacuate, contain, verify safety.
+- Domain of variation: building layout, local regulation, available equipment.
+- Relations: alarm-triggers-evacuation, extinguisher-applies-to-fire-class.
+- This cNode can integrate with a building-management cNode via declared interfaces.
+
+================================================================================
+15) CONSTRUCTION PROCEDURE (HOW TO BUILD A cNode)
+================================================================================
+Step 1: Identify the source mNode (cognitive structure) and its family (idea, plan, method, etc.).
+Step 2: Choose the projection boundary:
+        - what must be preserved (invariants),
+        - what may vary (domain of variation),
+        - what is excluded (private exemplars, irrelevant associations).
+Step 3: Define vocabulary (entities) with minimal examples.
+Step 4: Define relations (edges) with semantics and constraints.
+Step 5: Write invariants and variation explicitly.
+Step 6: Add procedures (how to use) and validation (how to test).
+Step 7: Declare integration surface (provides/requires/constraints/types/aliases) and merge policy.
+Step 8: Produce at least one contextual realization to verify invariants survive adaptation.
+Step 9: Integrate into a graph (optionally via graph_patch) and record provenance.
+
+================================================================================
+16) VALIDATION CHECKLIST (MINIMAL)
+================================================================================
+- No implicit assumptions: every critical term is defined or referenced internally.
+- Identity boundary is explicit: invariants + domain of variation are written.
+- Relations are explicit and testable (examples of valid/invalid edges exist).
+- Projection trace is present (what was selected/excluded and why).
+- Integration surface exists (provides/requires + merge policy).
+- The cNode can be read and applied by an independent reader with consistent results.
+
+END OF DEFINITION
