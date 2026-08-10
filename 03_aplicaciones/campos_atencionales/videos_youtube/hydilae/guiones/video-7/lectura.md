@@ -1,1352 +1,1718 @@
-TE DARÉ ALGUNOS COMENTARIOS SOBRE TU RESPUESTA ANTERIOR, TODOS LOS COMENTARIOS ESTÁN ESCRITOS CON MAYÚSCULAS.
+Sí. La generalización importante no es simplemente pasar de **“la estafa del collar”** a **“todas las estafas”**. El salto más interesante es subir otro nivel y preguntar:
 
-LO PRIMERO QUE NOTO ES QUE LA ESTRUCTURA QUE CONSTRUIRÉ SE BASA EN UNA CONVERSIÓN: JEANNE BUSCA CONVERTIR UNA REALIDAD EN BIENES MATERIALES.
-CUANDO MENCIONO "UNA REALIDAD" ME REFIERO EXPLÍCITAMENTE A LA ESTAFA, USO ESA EXPRESIÓN YA QUE ME INSPIRO EN LO QUE SE DICE MÁS ABAJO EN # FASE 2 — CONSTRUCCIÓN DEL ENGAÑO: **Construir una realidad suficientemente convincente para Rohan como para que posteriormente actúe dentro de ella.**, ES DECIR, LO QUE HACE JEANNE ES CREAR UNA REALIDAD QUE ROHAN ACEPTA. VISTO ASÍ LOS IMPLICADOS IMPORTANTES SON: 1) JEANNE, 2) ROHAN.
+> **¿Qué clase de sistema es aquel en el que una estructura informacional o simbólica modifica una cognición, esa cognición produce una acción y esa acción termina alterando el mundo externo?**
 
-- LOS JOYEROS TIENEN EL BIEN MATERIAL, PERO SON SECUNDARIOS E INCLUSO REEMPLAZABLES; EL COLLAR ES EL BIEN UTILIZADO, PERO REALMENTE HUBIERA PODIDO FUNCIONAR CON CUALQUIER OTRO BIEN: CORONA, ARETES, BARCO, INCLUSO CABALLO (PENSAR QUE SI SE HACE UNA ESTRUCTURA O MODELO BASE SOBRE ESTO, EL BIEN SERÍA PARTE DEL DOMINIO DE VARIACIÓN).
-- MARIA ANTONIETA ES IMPORTANTE SÓLO COMO VÍNCULO DE ROHAN, ES DECIR, NO PARTICIPA ACTIVAMENTE, ROHAN BUSCA SU FAVOR Y TRATA DE CONSEGUIRLO CON EL COLLAR, PERO DE NUEVA CUENTA, EN LA ESTRUCTURA, ESTO SERÍA PARTE DEL DOMINIO DE VARIACIÓN PUESTO QUE LA VÍCTIMA DE LA ESTAFA, ES DECIR, ROHAN BUSCA CONSEGUIR ALGO Y POR ESO CAE EN LA TRAMPA, ESTO ES LO MISMO QUE OCURRE EN CUALQUIER ESTAFA, ES DECIR, "GANARSE EL FAVOR DE LA REINA" ES REEMPLAZABLE POR "COMPRAR UN COCHE A UN PRECIO INCREÍBLEMENTE BAJO", "COBRAR UN PREMIO QUE SE GANÓ EN UN CONCURSO EN INTERNET", ETC, CUALQUIER COSA QUE PUEDA NECESITAR UNA VÍCTIMA DE ESTAFA.
-- JEANNE, CUMPLE EL PAPEL DE ESTAFADOR, ES DECIR: PROMETE DARLE A LA VÍCTIMA ALGO QUE LA VÍCTIMA DESEA PERO SU VERDADERA INTENCIÓN ES EXTRAER DE LA VÍCTIMA ALGO DE VALOR PARA EL ESTAFADOR. PARA CUMPLIR CON SU OBJETIVO CREA UNA MENTIRA O ENGAÑO (LO QUE LLAMÉ "UNA REALIDAD") QUE HACE CREER A LA VÍICTIMA QUE OBTENDRÁ LO QUE BUSCA.
-- ROHAN: VÍCTIMA. LA VÍCTIMA BUSCA OBTENER X (EN ESTE CASO X = FAVOR DE MARIA ANTONIETA). LA MENTIRA O ENGAÑO DEL ESTAFADOR LO HACEN CREEN QUE EL ESTAFADOR ES EL MEDIO INDICADO PARA OBTENER X.
-  SEGÚN ENTIENDO, EL RESTO DE LAS PARTES SON IMPORTANTES COMO CONTEXTO DE LA HISTORIA EN PARTICULAR. AQUÍ ES IMPORTANTE VER ALGO: SI EN EL FUTURO QUISIERA REUTILIZAR ESTE PATRÓN PARA CONTAR UNA HISTORIA DE ESTAFA, NO NECESITARÍA HALLAR DE NUEVO LAS PARTES, BASTARÍA CON MODIFICAR LA FORMA EN LA QUE SE PRESENTA EL CONTEXTO PUESTO QUE "EL JUEGO" SERÍA EL MISMO.
+Ahí aparece una arquitectura bastante más general que el fraude.
 
-QUIERO CONSTRUÍR UN GRAFO CON LAS DISTINTAS PARTES QUE SE MUESTRAN EN LA HISTORIA, PRIMERO COMENZARÉ CON LOS IMPLICADOS.
+En los documentos de la Teoría de Máquinas Cognitivas ya está la base para hacer este salto: una Máquina Cognitiva se entiende como un sistema que transforma estados cognitivos mediante estructuras representables, operadores de transformación y reglas de composición. Además, el trabajo sobre pipelines ya distingue explícitamente entre **estado cognitivo** y **salida observable**: compra, registro, comentario o clic no son estados, sino manifestaciones externas producidas cuando un determinado subgrafo de acción domina.
 
-```yaml
-IMPLICADOS: [
-{
-    name: JOYEROS,
-    rol: CONTEXTUAL
-    interacciones con la realeza: [(JOYA ENCARGADA POR LUIS XV, MURIÓ ANTES DE COMPRARLA), (OFRECIERON COLLAR A MARIA ANTONIETA, ÉSTA LOS RECHAZÓ)],
-    vínculo con otros implicados: [(CONOCEN A ROHAN PORQUE ES RICO, FAMOSO Y DE UNA GRAN FAMILIA), (EN EL ANÁLISIS QUE SE DA NO SE ESPECIFICA LA RELACIÓN PRECISA, EL PUNTO ANTERIOR ES UNA SUPOSICIÓN PERO PERMITE DAR SENTIDO, ES IMPORTANTE ACLARAR QUE EN UN ESTUDIO HISTÓRICO ESTE TIPO DE CONEXIONES SON DE GRAN IMPORTANCIA, AUNQUE PARA UN GUIÓN ES SUFICIENTE)],
-    rol en el juego: PROPORCIONAN EL VALOR QUE EL ESTAFADOR BUSCA Y VÍCTIMA PUEDE PROVEER (DOMINIO DE VARIACIÓN),
-    vulnerabilidades: [(NECESITAN VENDER EL COLLAR)],
-    consecuencia de la estafa: [(NO RECIBEN EL PAGO, SUS FINANZAS QUEDAN EXPUESTAS), (AUNQUE NO LO DICEN DE MANERA EXPLÍCITA, DEBO SUPONER QUE ACUSAR A UNA REINA QUE NIEGA LA ACUSACIÓN ES PELIGROSO EN UNA MONARQUÍA, ASÍ QUE SU SITUACIÓN ERA MÁS COMPLICADA QUE ACUSAR A CUALQUIER OTRA PERSONA)]
-},
-{
-    name: ROHAN,
-    rol: VÍCTIMA,
-    vínculo con otros implicados: [(la marquesa de Boulainvilliers PRESENTÓ A LA ESTAFADORA JEANNE), (SU RENOMBRE Y FAMA LO HACEN CONOCIDO DE LOS JOYEROS -ESTA ES UNA SUPOSICIÓN QUE SE HARÁ PARA ESTE GUIÓN-), (BUSCA EL FAVOR DE MARIA ANTONIETA)],
-    rol en el juego: CENTRAL; VÍCTIMA,
-    vulnerabilidades: [(NO TIENE FORMA DE COMPROBAR QUE JEANNE ES REALMENTE AMIGA DE LA REINA)],
-    consecuencias de la estafa: [(ES ARRESTADO, DESPUÉS LIBERADO, PERO SU REPUTACIÓN YA FUE AFECTADA), (POSIBLE DEUDA -AUNQUE SE ESPECIFICA QUE LA DEUDA QUEDA A NOMBRE DE MARIA ANTONIETA ES IMPORTANTE DECIR QUE ROHAN FUE EL INTERMEDIARIO-)]
-},
-{
-    name: JEANNE,
-    rol: ESTAFADORA,
-    víncuo con otros implicados: [(la marquesa de Boulainvilliers PRESENTÓ A LA ESTAFADORA JEANNE)],
-    rol en el juego: [(CENTRAL), (CREA EL ENGAÑO EN EL QUE CAERÁ LA VÍCTIMA)],
-    vulnerabilidades: [(EN CASO DE SER DESCUBIERTA PUEDE CORRER GRAN PELIGRO)],
-    consecuencias de la estafa: [(ES DESCUBIERTA, ARRESTADA Y CONDENADA)]
-},
-{
-    name: MARIA ANTONIETA,
-    rol: VÍCTIMA INDIRECTA (NO PARTICIPA EN LA ESTAFA PERO ES AFECTADA POR ÉSTA),
-    vínculo con otros implicados: [(TODOS LA CONOCEN POR SER LA REINA), (ROHAN BUSCA GANAR SU FAVOR)],
-    rol en el juego: [(DOMINIO DE VARIACIÓN), (NO EN TODAS LAS ESTAFAS HABRÁ AFECTADOS SECUNDARIOS)],
-    vulnerabilidades: [(NO TIENE VULNERABILIDADES DENTRO DEL ESQUEMA DE LA ESTAFA PUESTO QUE NO PERTENECE DIRECTAMENTE A ÉSTA, SIN EMBARGO, DEBIDO A QUE SUFRE LAS CONSECUENCIAS, SUS VULNERABLIDADES PODRÍAN SER- QUE NO SABÍA; QUE NO TENÍA UNA RED DE INTELIGENCIA A SU SERVICIO QUE LA AYUDARA A EVITAR ESAS SITUACIONES +AQUÍ SURGE UNA IDEA QUE QUIERO QUE DESARROLLES A PARTE COMO UN MD DESCARGABLE SECUNDARIO "LA IMPORTANCIA DE LAS REDES DE INTELIGENCIA"+)],
-    consecuencias de la estafa: [(SE PROFUNDIZA EL RESENTIMIENTO QUE EL PUEBLO YA TIENE HACIA ELLA)]
-}
+Lo que acabamos de encontrar añade una capa más:
 
+> **la cognición puede funcionar como transductor entre estructuras simbólicas y transformaciones externas del mundo.**
 
-]
-```
+Eso merece formalizarse.
 
-## Estructura histórica expandida
+# 1. Primero: qué significa aquí “transductor”
+
+No lo usaría como simple metáfora.
+
+Un transductor recibe algo expresado en un dominio y produce algo expresado en otro dominio.
+
+Por ejemplo:
 
 ```text
-FASE 1
-PRECONDICIONES
-      ↓
-se vuelve posible construir una ficción creíble
+DOMINIO A
+señales eléctricas
 
-FASE 2
-CONSTRUCCIÓN DE CREDIBILIDAD
-      ↓
-la ficción adquiere capacidad de producir decisiones reales
+        ↓
+TRANSDUCTOR
 
-FASE 3
-OPERACIÓN MATERIAL
-      ↓
-la credibilidad se convierte en transferencia de un activo
-
-FASE 4
-COLAPSO
-      ↓
-se descubre la diferencia entre ficción y realidad
-
-FASE 4B
-SEGUNDA HISTORIA
-      ↓
-el fraude se convierte en escándalo público
-      ↓
-la narrativa social adquiere vida propia
+DOMINIO B
+movimiento mecánico
 ```
+
+Lo interesante de la cognición humana es que puede ocupar una posición estructural semejante:
+
+```text
+DOMINIO SIMBÓLICO / INFORMATIVO
+
+palabras
+imágenes
+órdenes
+historias
+promesas
+reglas
+precios
+señales sociales
+documentos
+
+        ↓
+
+SISTEMA COGNITIVO HUMANO
+
+percibe
+interpreta
+relaciona
+evalúa
+recuerda
+anticipa
+decide
+
+        ↓
+
+DOMINIO CONDUCTUAL
+
+habla
+compra
+vota
+firma
+camina
+construye
+entrega
+enseña
+autoriza
+
+        ↓
+
+DOMINIO SOCIAL / MATERIAL
+
+dinero transferido
+objeto desplazado
+contrato existente
+edificio construido
+persona contratada
+mercancía comprada
+institución modificada
+```
+
+Aquí sí existe una **transducción entre dominios**.
+
+La palabra:
+
+```text
+"Firma"
+```
+
+no posee físicamente la fuerza necesaria para mover dinero.
+
+Pero puede producir:
+
+```text
+PALABRA
+↓
+interpretación
+↓
+decisión
+↓
+firma
+↓
+sistema bancario
+↓
+TRANSFERENCIA
+```
+
+El vínculo causal pasa por cognición y acción.
 
 ---
 
-# FASE 1 — PRECONDICIONES
+# 2. La arquitectura general ya no es la estafa
 
-Esta fase no contiene todavía el fraude propiamente dicho. Contiene las **condiciones que hacen que el fraude pueda existir**.
+El fraude sería una especialización de algo mayor.
 
-## 1.1 Existe un objeto extraordinariamente valioso que necesita comprador
+Propongo provisionalmente llamar a la estructura:
 
-El collar no aparece porque Jeanne de La Motte decida inventar una estafa. Existía previamente.
+## `MÁQUINA_DE_TRANSDUCCIÓN_COGNITIVA`
 
-Había sido encargado originalmente por Luis XV a los joyeros Böhmer y Bassenge para Madame du Barry. Luis XV murió antes de que la operación pudiera completarse y los joyeros quedaron financieramente expuestos después de haber invertido grandes cantidades de dinero en la pieza. Intentaron venderla posteriormente a la nueva reina, María Antonieta, pero ella la rechazó. Años después seguían teniendo una joya extraordinariamente cara y difícil de colocar. ([Château de Versailles | Site officiel][1])
+o, si queremos conservar el vocabulario anterior:
 
-Estructuralmente:
+## `MÁQUINA_DE_CONVERSIÓN_COGNITIVA`
+
+No la fijaría todavía como término canónico.
+
+Su estructura mínima sería:
 
 ```text
-JOYEROS
-   │
-   ├── poseen → COLLAR
-   │
-   ├── han invertido → GRAN CAPITAL
-   │
-   └── necesitan → COMPRADOR
+                     OPERADOR O
+                 posee un objetivo G
+                         │
+                         │ diseña
+                         ▼
+                  INTERVENCIÓN I
+                         │
+                         │ entra en
+                         ▼
+                SISTEMA COGNITIVO R
+                         │
+                    estado EC₀
+                         │
+                         │ transformación τ
+                         ▼
+                    estado EC*
+                         │
+                         │ hace probable / habilita
+                         ▼
+                      ACCIÓN A
+                         │
+                         │ moviliza
+                         ▼
+              CAPACIDAD / RECURSO V
+                         │
+                         │ opera dentro de
+                         ▼
+                     CONTEXTO K
                          │
                          ▼
-               PRESIÓN POR VENDER
+                 MANIFESTACIÓN M
+                         │
+                         ▼
+                    RESULTADO G
 ```
 
-Esto produce la primera vulnerabilidad:
+En forma compacta:
 
 ```text
-OBJETO DE GRAN VALOR
-+
-DIFICULTAD PARA VENDERLO
-=
-INCENTIVO PARA ACEPTAR
-UNA OPERACIÓN EXTRAORDINARIA
+I
+→ ΔEC
+→ A
+→ V*
+→ M
+→ G
 ```
 
-No significa que los joyeros fueran necesariamente ingenuos. Significa que **existía una necesidad económica concreta que una futura historia podía satisfacer**.
+Donde:
+
+```text
+I    = intervención
+ΔEC  = transformación del estado cognitivo
+A    = acción
+V*   = capacidad movilizada
+M    = manifestación externa
+G    = resultado
+```
 
 ---
 
-# 1.2 María Antonieta ya había rechazado el collar
+# 3. La estafa del collar es ahora sólo una instancia
 
-Éste es un detalle fundamental porque introduce una ironía estructural: **la persona cuyo nombre terminará permitiendo vender el collar es precisamente quien anteriormente se había negado a comprarlo**. Versalles registra que la pieza fue presentada a Luis XVI y que María Antonieta la rechazó. ([Château de Versailles | Site officiel][1])
-
-Tenemos entonces:
+Podemos colocarla dentro del modelo general:
 
 ```text
-REALIDAD
+OPERADOR O
+Jeanne
 
-MARÍA ANTONIETA
-      │
-      └── RECHAZA → COLLAR
+INTERVENCIÓN I
+realidad fraudulenta W~
+
+RECEPTOR R
+Rohan
+
+EC₀
+quiere recuperar el favor de la reina,
+pero no cree todavía tener una vía fiable
+
+TRANSFORMACIÓN
+cartas + intermediación + falsa reina
+
+EC*
+"Jeanne realmente tiene acceso;
+la reina quiere mi colaboración"
+
+ACCIÓN A
+Rohan negocia
+
+CAPACIDAD V
+prestigio / autoridad social de Rohan
+
+CONTEXTO K
+corte + mercado + joyeros + normas de credibilidad
+
+MANIFESTACIÓN M
+collar transferido al circuito controlado por Jeanne
+
+RESULTADO G
+Jeanne obtiene un beneficio material
 ```
 
-pero posteriormente se construirá:
+Ahora podemos borrar todos los nombres:
 
 ```text
-FICCIÓN
-
-MARÍA ANTONIETA
-      │
-      └── DESEA SECRETAMENTE → COLLAR
+ESTAFADOR
+   ↓
+INTERVENCIÓN FRAUDULENTA
+   ↓
+RECEPTOR
+   ↓
+TRANSFORMACIÓN COGNITIVA
+   ↓
+ACCIÓN
+   ↓
+CAPACIDAD DEL RECEPTOR
+   ↓
+ENTORNO
+   ↓
+MANIFESTACIÓN
+   ↓
+BENEFICIO
 ```
 
-Esta inversión será el núcleo material del fraude.
+Y luego borrar incluso `ESTAFADOR`.
+
+Queda:
+
+```text
+OPERADOR
+   ↓
+INTERVENCIÓN
+   ↓
+SISTEMA COGNITIVO
+   ↓
+TRANSFORMACIÓN
+   ↓
+ACCIÓN
+   ↓
+CAPACIDAD
+   ↓
+CONTEXTO
+   ↓
+MANIFESTACIÓN
+```
+
+**Ése parece ser el ancestro estructural.**
 
 ---
 
-# 1.3 Rohan posee una necesidad completamente diferente
+# 4. `W~` deja de ser un invariante
 
-Louis René Édouard de Rohan no necesita vender un collar.
+Éste es un cambio muy importante al generalizar.
 
-Su problema es **social y político**.
-
-Tras su etapa como embajador en Viena había caído en desgracia ante María Antonieta. Versalles señala que ella lo había excluido de su círculo y que Rohan deseaba recuperar su favor. ([Château de Versailles | Site officiel][1])
-
-Su estado inicial puede representarse así:
+En una estafa necesitamos:
 
 ```text
-ROHAN
- │
- ├── posee → rango
- ├── posee → prestigio
- ├── posee → acceso a la corte
- │
- └── carece de → FAVOR DE LA REINA
-                       │
-                       ▼
-                    DESEO
-                       │
-                       ▼
-              RECUPERAR SU FAVOR
+W~ ≠ W*
 ```
 
-Ésta es la segunda vulnerabilidad.
+porque la representación instalada deliberadamente no corresponde con la realidad relevante.
 
-Y nótese que es completamente diferente de la primera:
+Pero en educación esto no debería ocurrir.
+
+En publicidad tampoco tiene por qué ocurrir.
+
+Por tanto:
 
 ```text
-JOYEROS
-quieren vender un objeto
-
-ROHAN
-quiere reparar una relación
-
-MARÍA ANTONIETA
-no quiere ninguna de esas dos cosas
+REALIDAD FABRICADA W~
 ```
 
-Todavía no existe ninguna conexión natural entre estos tres problemas.
+es una **especialización** de una entidad más general:
 
-**La estafa será precisamente la estructura que los conecte artificialmente.**
+```text
+REPRESENTACIÓN / INTERVENCIÓN I
+```
+
+Después podemos tener subtipos:
+
+```text
+                     INTERVENCIÓN I
+                           │
+       ┌───────────────────┼────────────────────┐
+       │                   │                    │
+       ▼                   ▼                    ▼
+   INFORMACIÓN         INSTRUCCIÓN          NARRATIVA
+       │
+       ├───────────────┬────────────────────┐
+       ▼               ▼                    ▼
+   PUBLICIDAD       EDUCACIÓN             FRAUDE
+                                           │
+                                           ▼
+                                  REPRESENTACIÓN FALSA W~
+```
+
+Esto es exactamente el tipo de generalización que exige el Transformador Cognitivo: preservar una operación aunque cambie la tarea final, distinguiendo invariantes del dominio de variación.
 
 ---
 
-# 1.4 El acceso a la reina es difícil de verificar directamente
+# 5. `X` también debe generalizarse
 
-Aquí aparece una condición institucional fundamental.
-
-Una reina no es una persona con la que cualquiera pueda comprobar inmediatamente:
-
-> «¿Es verdad que usted me mandó esta carta?»
-
-La corte funciona mediante jerarquías, intermediarios, ceremonias, acceso controlado y reputaciones.
-
-Eso significa que existe una distancia entre:
+En la estafa teníamos:
 
 ```text
-AUTORIDAD REAL
-
-MARÍA ANTONIETA
+ROHAN DESEA X
 ```
 
 y:
 
 ```text
-PERCEPCIÓN DE AUTORIDAD
-
-"alguien me dice que habla por María Antonieta"
+X = favor de María Antonieta
 ```
 
-Analíticamente, esa distancia crea un espacio explotable:
+Eso es fundamental **para la arquitectura fraudulenta**, porque Jeanne explota un deseo.
+
+Pero no toda Máquina de Transducción Cognitiva necesita partir de un deseo consciente.
+
+Un alumno puede no desear espontáneamente aprender álgebra.
+
+Un soldado puede cumplir una orden por deber.
+
+Una persona puede actuar por hábito.
+
+Un ciudadano puede obedecer una norma.
+
+Por tanto, por encima de `X` necesitamos algo como:
+
+## `ESTRUCTURA_MOTIVACIONAL Q`
+
+que puede contener:
 
 ```text
-AUTORIDAD
+deseos
+metas
+necesidades
+miedos
+obligaciones
+normas
+identidad
+hábitos
+recompensas esperadas
+costos percibidos
+```
+
+En el fraude:
+
+```text
+Q
+└── X = recuperar favor de la reina
+```
+
+En publicidad:
+
+```text
+Q
+└── deseo / necesidad / preferencia
+```
+
+En educación:
+
+```text
+Q
+├── objetivo educativo
+├── curiosidad
+└── exigencia académica
+```
+
+En una institución:
+
+```text
+Q
+├── obligación
+├── procedimiento
+└── responsabilidad
+```
+
+La estructura se vuelve más general sin perder el caso particular.
+
+---
+
+# 6. Lo mismo ocurre con `V`
+
+En el fraude habíamos encontrado:
+
+```text
+V = PRESTIGIO
+```
+
+y eso debe conservarse para esa instancia.
+
+Pero para la máquina general, `V` debe definirse de manera más abstracta.
+
+> **V = capacidad del receptor que puede ser movilizada mediante su acción para producir efectos externos.**
+
+Puede ser:
+
+```text
+V = dinero
+V = voto
+V = tiempo
+V = trabajo
+V = conocimiento
+V = cuerpo
+V = firma
+V = autoridad
+V = prestigio
+V = acceso
+V = capacidad de compra
+V = red social
+V = atención
+V = capacidad técnica
+```
+
+El punto no es qué contiene `V`.
+
+El invariante es:
+
+```text
+EL RECEPTOR POSEE ALGUNA
+CAPACIDAD OPERATIVA
+
+        ↓
+
+LA COGNICIÓN ORIENTA UNA ACCIÓN
+
+        ↓
+
+LA ACCIÓN MOVILIZA ESA CAPACIDAD
+```
+
+Esto es mucho más general que la idea de “quitarle algo a alguien”.
+
+---
+
+# 7. Aquí aparece una distinción extremadamente útil: transformación vs. transducción
+
+Creo que ésta puede ser una pieza conceptual importante para la Teoría de Máquinas Cognitivas.
+
+## Transformación cognitiva
+
+Ocurre **dentro del mismo dominio**:
+
+```text
+EC₀
+↓
+EC₁
+↓
+EC₂
+↓
+EC*
+```
+
+Por ejemplo:
+
+```text
+indiferencia
+→ atención
+→ interés
+→ preferencia
+→ intención
+```
+
+El trabajo existente sobre AIDA describe precisamente una trayectoria de estados `EC0 → EC1 → EC2 → EC3 → EC4`, y plantea el pipeline como un operador que reconfigura un grafo cognitivo hasta orientar el sistema hacia la acción.
+
+Eso es **transformación**.
+
+Pero después ocurre otra cosa:
+
+```text
+EC*
+→ ACCIÓN
+```
+
+Aquí cruzamos de:
+
+```text
+DOMINIO COGNITIVO
+```
+
+a:
+
+```text
+DOMINIO CONDUCTUAL
+```
+
+Y después:
+
+```text
+ACCIÓN
+→ CAMBIO MATERIAL / SOCIAL
+```
+
+volvemos a cruzar de dominio.
+
+Eso es mejor pensarlo como **transducción**.
+
+---
+
+# 8. La máquina completa tiene varios convertidores consecutivos
+
+Podemos entonces descomponerla:
+
+```text
+                DOMINIO INFORMATIVO
+                        I
+                        │
+                        ▼
+                [TRANSDUCCIÓN 1]
+                        │
+                        ▼
+                 DOMINIO COGNITIVO
+                        EC₀
+                        │
+                 transformaciones
+                  τ₁ τ₂ τ₃...
+                        │
+                        ▼
+                        EC*
+                        │
+                        ▼
+                [TRANSDUCCIÓN 2]
+                        │
+                        ▼
+                DOMINIO CONDUCTUAL
+                        A
+                        │
+                        ▼
+                [TRANSDUCCIÓN 3]
+                        │
+                        ▼
+              DOMINIO SOCIAL/MATERIAL
+                        M
+```
+
+Esto nos da:
+
+```text
+I
+───────────────→ EC
+ información      cognición
+
+EC
+───────────────→ A
+ cognición         conducta
+
+A
+───────────────→ M
+ conducta          mundo
+```
+
+La cognición ocupa la zona media, pero la máquina completa atraviesa **varios dominios ontológicamente diferentes**.
+
+---
+
+# 9. Por eso “la cognición es el puente” todavía se queda corta
+
+Ahora reformularía aquella frase.
+
+En vez de:
+
+> La cognición humana es el puente transductor entre el mundo simbólico y el mundo material.
+
+Diría:
+
+> **La cognición humana funciona como una capa de transducción capaz de interpretar estructuras informativas y convertirlas en configuraciones de decisión; mediante la agencia, esas configuraciones pueden movilizar capacidades humanas que operan sobre sistemas sociales y materiales, produciendo manifestaciones externas.**
+
+El grafo completo sería:
+
+```text
+SÍMBOLOS / INFORMACIÓN
+           │
+           ▼
+      PERCEPCIÓN
+           │
+           ▼
+   REPRESENTACIÓN INTERNA
+           │
+           ▼
+      EVALUACIÓN
+           │
+           ▼
+       INTENCIÓN
+           │
+           ▼
+       DECISIÓN
+           │
+           ▼
+        ACCIÓN
+           │
+           ▼
+  CAPACIDAD MOVILIZADA
+           │
+           ▼
+       ENTORNO
+           │
+           ▼
+    MANIFESTACIÓN
+```
+
+Esto no afirma que toda cognición siga conscientemente esos pasos.
+
+Es una descomposición funcional.
+
+---
+
+# 10. Publicidad aparece inmediatamente como otra instancia
+
+Tomemos una campaña comercial legítima.
+
+```text
+ANUNCIANTE
+[OPERADOR]
      │
-     │ acceso difícil
      ▼
-INTERMEDIARIOS
+ANUNCIO
+[INTERVENCIÓN]
      │
-     │ transmiten señales
      ▼
-TERCEROS
+CONSUMIDOR
+[SISTEMA COGNITIVO]
+     │
+     ▼
+atención
+     │
+     ▼
+comprensión
+     │
+     ▼
+valor percibido
+     │
+     ▼
+preferencia / intención
+     │
+     ▼
+ACCIÓN
+"comprar"
+     │
+     ▼
+V
+capacidad económica
+     │
+     ▼
+K
+mercado + sistema de pagos
+     │
+     ▼
+M
+transacción
+     │
+     ▼
+G
+ingreso para empresa
 ```
 
-Esto es una inferencia estructural a partir del funcionamiento del caso: el fraude sólo puede avanzar porque Rohan no verifica cada interacción directamente con la reina y porque otros actores pueden actuar apoyándose en intermediarios. ([Château de Versailles | Site officiel][1])
+El parentesco con Jeanne es evidente estructuralmente.
+
+Pero existe una diferencia esencial:
+
+```text
+PUBLICIDAD LEGÍTIMA
+
+I puede ser compatible con W*
+
+vs.
+
+FRAUDE
+
+el éxito depende de que
+W~ oculte/distorsione W*
+```
+
+Es decir:
+
+**comparten la máquina de conversión; no comparten el contrato epistemológico.**
 
 ---
 
-# 1.5 María Antonieta ya posee una vulnerabilidad reputacional
+# 11. Educación también pertenece a la familia
 
-El escándalo tampoco aparece sobre una reina socialmente neutra.
-
-Versalles señala que su imagen pública se había deteriorado gradualmente: era objeto de libelos, caricaturas y críticas, y sus gastos eran observados y exagerados. También existía desconfianza ligada a su origen austríaco. ([Château de Versailles | Site officiel][2])
-
-Así que existe previamente un esquema mental disponible:
+Ahora cambiemos completamente de objetivo.
 
 ```text
-MARÍA ANTONIETA
-      │
-      ├── lujo
-      ├── moda
-      ├── gasto
-      ├── corte
-      └── extravagancia percibida
+DOCENTE
+[OPERADOR]
+    │
+    ▼
+EXPLICACIÓN
+[INTERVENCIÓN]
+    │
+    ▼
+ALUMNO
+[SISTEMA COGNITIVO]
+    │
+    ▼
+representación inicial
+    │
+    ▼
+analogía
+    │
+    ▼
+comprensión
+    │
+    ▼
+modelo nuevo
+    │
+    ▼
+capacidad de aplicar
+    │
+    ▼
+ACCIÓN
+resolver problema
+    │
+    ▼
+M
+problema correctamente resuelto
 ```
 
-Por tanto, la afirmación:
+Aquí el resultado no es principalmente dinero.
+
+La conversión es:
 
 ```text
-"María Antonieta quiere
-un collar absurdamente caro"
+LENGUAJE
+→ COGNICIÓN
+→ COMPETENCIA
+→ ACCIÓN
+→ RESULTADO
 ```
 
-no aparece en un vacío interpretativo.
+El módulo de Aprendizaje Estructural ya utiliza precisamente esta lógica: aprender no es únicamente recibir información, sino reconstruir, transferir y poder **operar** una estructura.
 
-Puede conectarse con asociaciones ya existentes.
+Por tanto:
 
-Esta condición no causa el fraude, pero será crucial después porque **hace socialmente plausible la historia falsa**.
+```text
+enseñanza
+```
+
+también puede analizarse como Máquina de Transducción Cognitiva.
 
 ---
 
-# 1.6 Las vulnerabilidades todavía están desconectadas
+# 12. Una orden institucional es otro ejemplo todavía más desnudo
 
-Al final de la fase 1 tenemos:
-
-```text
-┌──────────────────┐
-│ JOYEROS          │
-│ necesitan vender │
-└────────┬─────────┘
-         │
-         │
-         ▼
-      COLLAR
-
-
-┌──────────────────┐
-│ ROHAN            │
-│ quiere recuperar │
-│ favor real       │
-└──────────────────┘
-
-
-┌──────────────────┐
-│ MARÍA ANTONIETA  │
-│ autoridad real   │
-│ acceso limitado  │
-└──────────────────┘
-
-
-┌──────────────────┐
-│ OPINIÓN PÚBLICA  │
-│ posee ya una     │
-│ imagen de reina  │
-│ extravagante     │
-└──────────────────┘
-```
-
-No hay todavía sistema común.
-
-### Salida de la fase 1
-
-Tenemos **cuatro recursos/vulnerabilidades disponibles**:
+Supongamos:
 
 ```text
-V1 = objeto extraordinariamente valioso
-V2 = vendedores motivados
-V3 = intermediario prestigioso con deseo personal
-V4 = autoridad difícil de verificar
-V5 = reputación previa compatible con la ficción
+"Evacuen el edificio."
 ```
 
-Falta un actor que los conecte.
+La frase pesa unos cuantos bytes.
 
-Ese actor será Jeanne de La Motte.
+No puede físicamente sacar a cientos de personas.
+
+Pero:
+
+```text
+ORDEN
+  ↓
+personas reconocen autoridad
+  ↓
+interpretan significado
+  ↓
+evalúan situación
+  ↓
+deciden obedecer
+  ↓
+caminan
+  ↓
+EDIFICIO VACÍO
+```
+
+Tenemos:
+
+```text
+INFORMACIÓN
+→ COGNICIÓN
+→ CONDUCTA
+→ ESTADO MATERIAL
+```
+
+Un estado lingüístico termina convertido en distribución física de cuerpos.
+
+Esto ilustra muy bien la generalización.
 
 ---
 
-# FASE 2 — CONSTRUCCIÓN DEL ENGAÑO
+# 13. Y una institución completa puede ser una máquina de esta clase
 
-La operación fundamental de esta fase no es «robar el collar».
+Podemos subir todavía otro nivel.
 
-Es mucho más interesante:
+Una ley es fundamentalmente una estructura simbólica.
 
-> **Construir una realidad suficientemente convincente para Rohan como para que posteriormente actúe dentro de ella.**
+```text
+LEY
+texto
+
+        ↓
+
+interpretada por
+personas e instituciones
+
+        ↓
+
+genera expectativas
+permisos
+obligaciones
+prohibiciones
+
+        ↓
+
+modifica decisiones
+
+        ↓
+
+produce actuaciones
+
+        ↓
+
+cambia el mundo
+```
+
+Por ejemplo:
+
+```text
+NORMA
+↓
+funcionario interpreta
+↓
+autoriza
+↓
+empresa actúa
+↓
+obra construida
+```
+
+Una estructura semántica puede terminar manifestándose en **concreto, acero, carreteras y edificios**.
+
+No porque las palabras físicamente produzcan hormigón.
+
+Porque existen máquinas sociocognitivas intermedias.
 
 ---
 
-# 2.1 Jeanne entra en relación con Rohan
+# 14. Esto sugiere que las máquinas pueden estar anidadas
 
-Jeanne de La Motte se presenta como alguien capaz de acceder al entorno de María Antonieta. Versalles la describe como una estafadora que decía ser amiga de la reina y que prometió a Rohan ayudarlo a recuperar su favor. ([Château de Versailles | Site officiel][1])
-
-Esto conecta por primera vez:
+La estafa ya nos mostró esto.
 
 ```text
-ROHAN
-  │
-  │ desea acceso
-  ▼
-JEANNE
-  │
-  │ afirma poseer acceso
-  ▼
-REINA
+MÁQUINA MACRO
+│
+├── cognición de Jeanne
+│
+├── cognición de Rohan
+│
+└── cognición de joyeros
 ```
 
-La estructura es perfecta porque:
+Pero una empresa hace algo semejante:
 
 ```text
-NECESIDAD DE ROHAN
-=
-exactamente aquello que
-JEANNE AFIRMA PODER SATISFACER
+EMPRESA
+│
+├── dirección
+│
+├── marketing
+│
+├── ventas
+│
+├── clientes
+│
+├── compras
+│
+├── proveedores
+│
+└── producción
 ```
+
+Cada nodo humano contiene su propia máquina cognitiva.
+
+Las interacciones entre ellos forman otra máquina.
+
+Así:
+
+```text
+MÁQUINA COGNITIVA INDIVIDUAL
+        ↓ compone
+MÁQUINA COGNITIVA SOCIAL
+        ↓ compone
+MÁQUINA COGNITIVA INSTITUCIONAL
+```
+
+Ésta es una derivación consistente con el principio de composición existente en TMC: las estructuras pueden integrarse formando subgrafos funcionales mayores cuando sus roles e invariantes son compatibles.
 
 ---
 
-# 2.2 Jeanne se convierte en intermediaria
+# 15. Entonces aparecen tres escalas
 
-No necesita convencer inicialmente a Rohan de que compre nada.
-
-Primero necesita establecer:
+Podemos pensar:
 
 ```text
-JEANNE
-=
-CANAL CREÍBLE
-ENTRE
-ROHAN ↔ REINA
+MICRO
+────────────────────────
+persona
+
+señal
+→ cognición
+→ decisión
+→ acción
+
+
+MESO
+────────────────────────
+red interpersonal
+
+acción de A
+→ cognición de B
+→ acción de B
+→ cognición de C
+→ resultado
+
+
+MACRO
+────────────────────────
+institución / sociedad
+
+normas
+→ roles
+→ múltiples agentes
+→ procesos coordinados
+→ manifestación colectiva
 ```
 
-Éste es un paso muy importante.
+El fraude del collar tiene las tres.
 
-El fraude no empieza con:
+### Micro
 
 ```text
-"Compra este collar."
+Jeanne
+→ Rohan
 ```
 
-Empieza con:
+### Meso
 
 ```text
-"Yo puedo hablar con ella."
+Jeanne
+→ Rohan
+→ joyeros
 ```
 
-La primera mercancía que Jeanne vende no es una joya.
+### Macro
 
-Es **acceso**.
+```text
+corte
++
+jerarquía
++
+mercado
++
+instituciones
++
+reputación
+```
+
+que hacen posible que el prestigio de Rohan tenga significado.
 
 ---
 
-# 2.3 Aparece una reina lingüística
+# 16. Esto permite redefinir qué es el “valor” en la máquina general
 
-La relación comienza a adquirir una infraestructura comunicativa.
-
-Jeanne hace creer a Rohan que existen comunicaciones procedentes de María Antonieta.
-
-Ahora tenemos dos entidades diferentes:
+En el fraude hablamos de:
 
 ```text
-MARÍA ANTONIETA REAL
-        │
-        └── no participa
+V = prestigio
+```
+
+Pero ahora creo que conviene separar dos cosas:
+
+```text
+CAPACIDAD V
 ```
 
 y:
 
 ```text
-MARÍA ANTONIETA REPRESENTADA
+VALOR PARA EL OPERADOR G
+```
+
+Porque no son lo mismo.
+
+Rohan posee:
+
+```text
+V = prestigio
+```
+
+Jeanne quiere:
+
+```text
+G = beneficio
+```
+
+En publicidad:
+
+```text
+V = capacidad de compra del consumidor
+G = ingreso
+```
+
+En educación:
+
+```text
+V = capacidad cognitiva y conductual del alumno
+G = aprendizaje / competencia producida
+```
+
+En democracia:
+
+```text
+V = capacidad de votar
+G = resultado electoral buscado por campaña
+```
+
+En una organización:
+
+```text
+V = autoridad de gerente
+G = proyecto ejecutado
+```
+
+Por tanto:
+
+```text
+RECEPTOR POSEE V
+        ↓
+INTERVENCIÓN ORIENTA
+LA ACTIVACIÓN DE V
+        ↓
+V PRODUCE M
+        ↓
+M TIENE VALOR G
+PARA ALGÚN OBJETIVO
+```
+
+---
+
+# 17. Esto explica mejor la diferencia entre capacidad y manifestación
+
+Regresamos a la cocina mexicana.
+
+El estudio deja claro que un platillo visible no es la totalidad del sistema cultural, sino una manifestación de una red mayor de agricultura, técnica, comunidad, memoria, ritual e identidad.
+
+La estructura abstracta común sería:
+
+```text
+CAPACIDAD GENERATIVA
         │
-        ├── aparece en mensajes
-        ├── expresa actitudes
-        └── parece relacionarse con Rohan
-```
-
-La ficción comienza a fabricar una **entidad operativa**.
-
----
-
-# 2.4 La correspondencia produce continuidad
-
-Una sola señal podría despertar sospecha.
-
-Varias señales compatibles producen algo diferente:
-
-```text
-MENSAJE 1
-   ↓
-MENSAJE 2
-   ↓
-MENSAJE 3
-   ↓
-APARENTE CONTINUIDAD
-   ↓
-"existe realmente una relación"
-```
-
-Rohan ya no está simplemente creyendo una afirmación aislada.
-
-Empieza a interpretar múltiples acontecimientos dentro de un mismo modelo:
-
-```text
-"la reina se está reconciliando conmigo"
-```
-
----
-
-# 2.5 Se introduce una corroboración física
-
-Aquí Jeanne da un salto extraordinariamente importante.
-
-El 11 de agosto de 1784 organiza un encuentro nocturno en el Bosquecillo de la Reina en Versalles. Una mujer a quien Rohan toma por María Antonieta le da a entender, desde la penumbra, que vuelve a gozar de su favor. Versalles señala que Rohan salió del encuentro entusiasmado. ([Château de Versailles | Site officiel][1])
-
-La estructura cambia:
-
-Antes:
-
-```text
-JEANNE
-   ↓
-MENSAJES
-   ↓
-ROHAN
-```
-
-Ahora:
-
-```text
-ROHAN
-   ↓
-VE
-   ↓
-"MARÍA ANTONIETA"
-```
-
----
-
-# 2.6 La ficción adquiere evidencia experiencial
-
-Desde la perspectiva de Rohan, esto cambia enormemente el peso de las señales.
-
-Puede pensar:
-
-```text
-"No solamente Jeanne me lo dijo."
-
-"No solamente recibí mensajes."
-
-"Yo estuve allí."
-
-"Yo la vi."
-
-"Yo hablé con ella."
-```
-
-La experiencia falsa se convierte en **evidencia subjetivamente fuerte**.
-
-Grafo:
-
-```text
-AFIRMACIÓN DE JEANNE
+        │ opera bajo contexto
+        ▼
+     PROCESO
         │
         ▼
-CORRESPONDENCIA
-        │
-        ▼
-ENCUENTRO APARENTE
-        │
-        ▼
-CONVERGENCIA DE SEÑALES
-        │
-        ▼
-CONFIANZA DE ROHAN
+   MANIFESTACIÓN
 ```
 
----
-
-# 2.7 Rohan cambia de estado
-
-Ésta es la verdadera salida de esta fase.
-
-Inicialmente:
+En cocina:
 
 ```text
-ROHAN
-
-"Quiero reconciliarme con la reina."
+sistema cultural
+→ práctica
+→ tortilla
 ```
 
-Después:
+En Rohan:
 
 ```text
-ROHAN
-
-"Estoy efectivamente
-en contacto con la reina
-mediante Jeanne."
-```
-
-Es una transformación cognitiva.
-
-Y ahora Jeanne posee algo que antes no tenía:
-
-```text
-CREDIBILIDAD
-+
-INTERMEDIARIO DE ALTO ESTATUS
-```
-
-### Salida de la fase 2
-
-```text
-FICCIÓN
-    ↓
-es aceptada por
-    ↓
-ROHAN
-    ↓
-que puede actuar
-    ↓
-EN EL MUNDO REAL
-```
-
-Éste es el puente hacia la fase 3.
-
----
-
-# FASE 3 — OPERACIÓN MATERIAL
-
-Hasta aquí el fraude ha producido principalmente **creencias**.
-
-Ahora esas creencias comienzan a mover bienes.
-
----
-
-# 3.1 El collar entra dentro de una relación ya construida
-
-Jeanne introduce entonces el problema de Böhmer y Bassenge.
-
-Los joyeros todavía necesitan vender el collar.
-
-La nueva ficción afirma aproximadamente:
-
-```text
-MARÍA ANTONIETA
-       │
-       ├── quiere el collar
-       │
-       └── desea adquirirlo
-           mediante intermediario
-```
-
-Ahora por primera vez quedan conectados:
-
-```text
-NECESIDAD DE JOYEROS
-        +
-DESEO DE ROHAN
-        +
-FALSA VOLUNTAD DE LA REINA
-```
-
----
-
-# 3.2 Rohan encuentra además una oportunidad de demostrar lealtad
-
-Desde el modelo mental que se ha construido para él, ayudar a la reina tiene sentido.
-
-Puede interpretar la operación como una oportunidad para consolidar precisamente aquello que desea:
-
-```text
-COMPRAR COLLAR POR ELLA
-        ↓
-PRESTAR SERVICIO
-        ↓
-DEMOSTRAR UTILIDAD
-        ↓
-REFORZAR RECONCILIACIÓN
-```
-
-Esto es una reconstrucción funcional del incentivo de Rohan, coherente con la descripción de Versalles de su deseo de recuperar el favor real. ([Château de Versailles | Site officiel][1])
-
----
-
-# 3.3 Rohan acepta convertirse en intermediario
-
-Rohan acuerda actuar para la supuesta compradora.
-
-El acuerdo con los joyeros contemplaba pagos en cuatro cuotas durante dos años. ([Château de Versailles | Site officiel][1])
-
-Aquí ocurre una transformación importantísima:
-
-```text
-FICCIÓN PRIVADA DE JEANNE
-        ↓
-ROHAN CREE
-        ↓
-ROHAN ACTÚA
-        ↓
-TERCEROS OBSERVAN
-UNA ACCIÓN REAL DE ROHAN
-```
-
-La ficción obtiene ahora un **portador social legítimo**.
-
----
-
-# 3.4 El prestigio de Rohan transporta credibilidad
-
-Los joyeros no necesitan creer directamente en Jeanne.
-
-Pueden confiar en otra cosa:
-
-```text
-ROHAN
-=
-CARDENAL
-+
-GRAN LIMOSNERO
-+
-PERSONA DE LA CORTE
-```
-
-Estructuralmente:
-
-```text
-JEANNE
-convence
-   ↓
-ROHAN
-
-ROHAN
-legitima la operación ante
-   ↓
-JOYEROS
-```
-
-Ésta es una arquitectura de **credibilidad en cascada**.
-
-```text
-A convence a B
-      ↓
-B posee prestigio
-      ↓
-C confía en B
-      ↓
-A obtiene indirectamente
-la confianza de C
-```
-
----
-
-# 3.5 Los joyeros aceptan la operación
-
-Para Böhmer y Bassenge la situación resuelve el problema de la fase 1:
-
-```text
-ANTES
-
-COLLAR
-+
-SIN COMPRADOR
-```
-
-ahora se convierte en:
-
-```text
-COLLAR
-+
-"COMPRADORA REAL"
-+
-INTERMEDIARIO PRESTIGIOSO
-+
-PLAN DE PAGOS
-```
-
-La historia satisface exactamente aquello que necesitaban.
-
----
-
-# 3.6 Se produce el punto de no retorno material
-
-El 1 de febrero de 1785 los joyeros entregan el collar a Rohan. ([Château de Versailles | Site officiel][1])
-
-Hasta ese instante el sistema había movido principalmente:
-
-```text
-creencias
-mensajes
-expectativas
-confianza
-```
-
-Ahora mueve:
-
-```text
-DIAMANTES
-```
-
-Ésta es una frontera fundamental:
-
-```text
-FICCIÓN
-     ↓
-DECISIÓN
-     ↓
-TRANSFERENCIA MATERIAL
-```
-
----
-
-# 3.7 Rohan entrega el collar a Jeanne
-
-Rohan, convencido de que está cumpliendo la voluntad de la reina, pasa la pieza a Jeanne. Versalles describe cómo, tras recibirla, ella desapareció con sus cómplices. ([Château de Versailles | Site officiel][1])
-
-La cadena es:
-
-```text
-JOYEROS
-   │
-   ▼
-ROHAN
-   │
-   ▼
-JEANNE
-   │
-   ▼
-CÓMPLICES
-```
-
-María Antonieta nunca aparece físicamente en esa cadena.
-
-Sin embargo:
-
-```text
-SU NOMBRE
-```
-
-es lo que hace posible casi toda la operación.
-
----
-
-# 3.8 El collar pierde su identidad como collar
-
-El Met señala que la pieza desapareció, se cree que fue desmontada y que el marido de Jeanne fue sorprendido vendiendo algunos diamantes en Londres. ([The Metropolitan Museum of Art][3])
-
-Ésta es otra transformación importante:
-
-```text
-COLLAR
-objeto identificable
-        ↓
-DESMONTAJE
-        ↓
-DIAMANTES
-        ↓
-BIENES MÁS FÁCILES DE DISPERSAR
-```
-
-El objeto deja de ser fácilmente recuperable como unidad.
-
----
-
-# 3.9 Aparece el límite de la ficción: el pago
-
-Mientras la operación depende de:
-
-```text
-mensajes
 prestigio
-interpretaciones
+→ actuación social
+→ entrega del collar
 ```
 
-la ficción puede sostenerse.
-
-Pero llega un elemento que no puede falsificarse indefinidamente:
+En dinero:
 
 ```text
-DINERO
+capacidad económica
+→ compra
+→ mercancía transferida
 ```
 
-Los pagos esperados no aparecen.
-
-Aquí empieza el colapso.
-
-### Salida de la fase 3
-
-La estructura ha logrado:
+En autoridad:
 
 ```text
-MENTIRA
+autoridad
+→ decisión
+→ permiso concedido
+```
+
+En conocimiento:
+
+```text
+competencia
+→ resolución
+→ problema resuelto
+```
+
+El objeto visible es **evidencia de que una capacidad operó**, no la capacidad misma.
+
+---
+
+# 18. La generalización fuerte
+
+Ahora sí podemos formular una arquitectura candidata.
+
+> **Una Máquina de Transducción Cognitiva es un sistema en el que una intervención informativa, simbólica, perceptiva o social modifica la configuración cognitiva de uno o más agentes; esa configuración orienta acciones que movilizan capacidades de dichos agentes dentro de un contexto; y la operación de esas capacidades produce manifestaciones externas que pueden ser observadas, evaluadas o capturadas.**
+
+Forma compacta:
+
+```text
+I
   ↓
-CREDIBILIDAD
-  ↓
-DECISIONES
-  ↓
-TRANSFERENCIA
-  ↓
-DISPERSIÓN DEL ACTIVO
-```
-
-El fraude **ya funcionó materialmente**.
-
-Pero ahora existe una deuda que hace inevitable la comprobación.
-
----
-
-# FASE 4 — COLAPSO
-
-Ésta es una fase diferente.
-
-Ya no se trata de construir credibilidad.
-
-Se trata de lo contrario:
-
-> **dos modelos incompatibles del mundo empiezan a encontrarse.**
-
----
-
-# 4.1 Los joyeros viven dentro de una realidad
-
-Desde su perspectiva:
-
-```text
-LA REINA
-compró el collar
-
-        ↓
-
-ROHAN
-intermedió
-
-        ↓
-
-EL PAGO
-debe llegar
+EC₀ ──τ──→ EC*
+              │
+              ▼
+              A
+              │
+              ▼
+              V
+              │
+          opera en K
+              │
+              ▼
+              M
+              │
+              ▼
+              G
 ```
 
 ---
 
-# 4.2 María Antonieta vive dentro de otra
+# 19. El feedback la convierte verdaderamente en máquina
 
-Desde su perspectiva:
+Hasta ahora parece un pipeline lineal.
 
-```text
-NO COMPRÓ COLLAR
-
-NO AUTORIZÓ A ROHAN
-
-NO CONOCE LA OPERACIÓN
-```
-
-Mientras estos dos mundos permanezcan separados, el fraude puede sobrevivir.
-
----
-
-# 4.3 Böhmer intenta cerrar la distancia
-
-El 12 de julio de 1785 Böhmer envía una carta a María Antonieta mencionando el collar. Ella, que no sabe de la operación, destruye la carta. ([Château de Versailles | Site officiel][1])
-
-Aquí ocurre por primera vez:
+Pero una máquina de este tipo puede observar resultados.
 
 ```text
-REALIDAD A
-"la reina compró el collar"
-
-            │
-            ▼
-
-     CONTACTO DIRECTO
-
-            │
-            ▼
-
-REALIDAD B
-"yo nunca compré ese collar"
-```
-
-Es el principio del colapso.
-
----
-
-# 4.4 El problema reaparece porque la deuda sigue existiendo
-
-Al no recibir respuesta, Böhmer vuelve sobre el asunto en agosto con Madame Campan, dama de compañía de María Antonieta. Campan informa a la reina. ([Château de Versailles | Site officiel][1])
-
-La información finalmente atraviesa el último muro de intermediación.
-
----
-
-# 4.5 María Antonieta descubre una “María Antonieta” que ha estado actuando sin ella
-
-Éste es quizá uno de los eventos cognitivamente más extraordinarios del caso.
-
-La reina descubre que existe una red en la que:
-
-```text
-"MARÍA ANTONIETA"
-```
-
-ha:
-
-```text
-enviado mensajes
-reconciliado a Rohan
-solicitado un collar
-negociado pagos
-recibido una joya
-```
-
-sin que:
-
-```text
-MARÍA ANTONIETA REAL
-```
-
-haya hecho nada de eso.
-
-Podemos representarlo:
-
-```text
-        MARÍA ANTONIETA REAL
-                 │
-                 │ descubre
-                 ▼
-      ┌───────────────────────┐
-      │ "MARÍA ANTONIETA"     │
-      │ CONSTRUIDA POR OTROS  │
-      └───────────────────────┘
-```
-
----
-
-# 4.6 La monarquía confronta a Rohan
-
-El 15 de agosto Rohan es convocado ante Luis XVI. Poco después es arrestado en Versalles, en presencia de la corte. ([Château de Versailles | Site officiel][1])
-
-La ficción deja de ser privada.
-
-```text
-FRAUDE PRIVADO
-      ↓
-CONFRONTACIÓN REAL
-      ↓
-ARRESTO PÚBLICO
-      ↓
-ESCÁNDALO
-```
-
----
-
-# 4.7 Aparece la investigación
-
-Ahora se reconstruye retrospectivamente el sistema:
-
-```text
-¿Quién escribió?
-¿Quién fingió ser la reina?
-¿Quién recibió el collar?
-¿Dónde fueron las piedras?
-¿Quién engañó a quién?
-```
-
-El mismo grafo que permitió producir el fraude empieza a recorrerse al revés:
-
-```text
-RESULTADO
-  ↑
-TRANSFERENCIA
-  ↑
-INTERMEDIARIOS
-  ↑
-SEÑALES FALSAS
-  ↑
-ORIGEN DEL ENGAÑO
-```
-
----
-
-# 4.8 El asunto entra en el espacio público
-
-El caso llega al Parlement de Paris y se convierte en un gran acontecimiento público. En mayo de 1786 Rohan fue declarado inocente; Jeanne y sus cómplices fueron juzgados y ella fue marcada con una “V” por _voleuse_. ([Château de Versailles | Site officiel][1])
-
-Aquí la historia podría haber terminado:
-
-```text
-FRAUDE DESCUBIERTO
-       ↓
-RESPONSABLES IDENTIFICADOS
-       ↓
-REINA INOCENTE
-       ↓
-FIN
-```
-
-Pero no termina.
-
-Aquí comienza la segunda historia.
-
----
-
-# FASE 4B — LA SEGUNDA HISTORIA
-
-Ésta debería tratarse casi como una fase independiente porque utiliza **otro mecanismo**.
-
-La primera historia preguntaba:
-
-> ¿Cómo pudieron robar el collar?
-
-La segunda pregunta:
-
-> ¿Cómo pudo María Antonieta perder reputación por un fraude del que era víctima?
-
----
-
-# 4B.1 El resultado jurídico y el resultado social divergen
-
-Formalmente:
-
-```text
-RESULTADO DEL CASO
-
-MARÍA ANTONIETA
-=
-INOCENTE DEL FRAUDE
-```
-
-Versalles la describe como víctima inocente. ([Château de Versailles | Site officiel][2])
-
-Pero socialmente:
-
-```text
-RESULTADO REPUTACIONAL
-
-MARÍA ANTONIETA
-=
-MÁS ASOCIADA
-CON
-COLLAR + LUJO + ESCÁNDALO
-```
-
-Versalles señala que su reputación quedó dañada y que el asunto intensificó el ataque de panfletos, libelos y caricaturas contra ella. ([Château de Versailles | Site officiel][1])
-
----
-
-# 4B.2 El relato encaja con una imagen previa
-
-Aquí vuelve a activarse una condición de la fase 1.
-
-Antes del fraude ya existía:
-
-```text
-REINA
+I
 ↓
-LUJO
+EC
 ↓
-GASTO
+A
 ↓
-EXTRAVAGANCIA
-```
-
-Después aparece:
-
-```text
-COLLAR EXTRAORDINARIO
+M
 ↓
-MARÍA ANTONIETA
+EVIDENCIA F
+│
+└──────────────→ operador
+                  │
+                  ▼
+             modifica I
 ```
 
-Aunque jurídicamente:
+Esto produce:
 
 ```text
-NO LO COMPRÓ
+I₀
+→ respuesta
+→ evidencia
+→ I₁
+→ respuesta
+→ evidencia
+→ I₂
+...
 ```
 
-narrativamente:
+Jeanne lo hacía de forma artesanal:
 
 ```text
-EL COLLAR ENCAJA
-CON LA IMAGEN QUE YA EXISTÍA
+Rohan duda
+↓
+Jeanne añade señal
+
+Rohan cree más
+↓
+Jeanne introduce siguiente paso
 ```
 
-Eso ayuda a explicar por qué la corrección factual no elimina automáticamente la asociación reputacional. Es una inferencia estructural apoyada por la descripción de Versalles sobre la imagen previa de la reina y el posterior daño del escándalo. ([Château de Versailles | Site officiel][2])
+Una plataforma publicitaria lo hace computacionalmente:
+
+```text
+anuncio
+↓
+clics
+↓
+métricas
+↓
+otra variante
+```
+
+Un docente:
+
+```text
+explicación
+↓
+respuesta alumno
+↓
+detecta confusión
+↓
+nueva explicación
+```
+
+Un sistema político:
+
+```text
+mensaje
+↓
+encuestas
+↓
+respuesta
+↓
+nuevo mensaje
+```
+
+Aquí aparece el bucle de **corrección acumulativa** que también es central en COGNICIÓN_CENTRAL: intervención → mundo → evidencia → validación → corrección.
 
 ---
 
-# 4B.3 El escándalo posee una historia mejor que la verdad
+# 20. ACCD ocupa una posición muy interesante en esta arquitectura
 
-La verdad es compleja:
-
-```text
-joyeros endeudados
-+
-cardenal desairado
-+
-estafadora
-+
-cartas falsas
-+
-suplantadora
-+
-intermediarios
-+
-pagos
-+
-diamantes desmontados
-```
-
-La versión social puede reducirse fácilmente a:
+Aquí haría una precisión respecto a decir simplemente:
 
 ```text
-MARÍA ANTONIETA
-+
-COLLAR CARÍSIMO
-+
-ESCÁNDALO
+ACCD convierte atención en beneficio
 ```
 
-Hay una enorme diferencia de complejidad.
+Eso puede describir **una aplicación particular**, pero no ACCD entero.
 
-Y eso es narrativamente importante.
+ACCD parece más interesante si lo colocamos **aguas arriba**:
+
+```text
+                  NÚCLEO / ESTRUCTURA
+                          │
+                          ▼
+                         ACCD
+                          │
+              adapta según contexto
+                          │
+                          ▼
+                   INTERVENCIÓN Iφ
+                          │
+                          ▼
+          MÁQUINA DE TRANSDUCCIÓN COGNITIVA
+                          │
+                          ▼
+                         EC
+                          │
+                          ▼
+                          A
+                          │
+                          ▼
+                          M
+```
+
+Es decir:
+
+> **ACCD puede funcionar como máquina constructora de intervenciones contextualizadas que luego alimentan máquinas de transducción cognitiva.**
+
+Esto sería mucho más general.
+
+En publicidad:
+
+```text
+núcleo comercial
++
+público
+↓
+ACCD
+↓
+anuncio contextualizado
+↓
+cognición
+↓
+acción
+```
+
+En educación:
+
+```text
+concepto
++
+alumno
+↓
+ACCD
+↓
+explicación contextualizada
+↓
+cognición
+↓
+aprendizaje / aplicación
+```
+
+En creación de contenido:
+
+```text
+idea
++
+audiencia
+↓
+ACCD
+↓
+video
+↓
+atención / comprensión
+↓
+conducta
+```
+
+ACCD sería así una especie de **compilador/contextualizador de intervenciones**, no necesariamente la totalidad de la máquina que produce el efecto externo.
 
 ---
 
-# 4B.4 La reina pierde control sobre el significado de su propia inocencia
+# 21. Esto también ayuda a colocar ACSI
 
-Tenemos una paradoja:
+ACSI respondería:
 
 ```text
-MÁS EVIDENCIA
-DE QUE LA REINA
-NO COMETIÓ EL FRAUDE
+¿QUÉ ESTRUCTURA DE CONOCIMIENTO
+DEBE TENER EL VIDEO?
 
-        │
-        ▼
-
-NO PRODUCE NECESARIAMENTE
-
-        │
-        ▼
-
-MEJOR REPUTACIÓN
+¿QUÉ TRAYECTORIA
+DEBE RECORRER?
 ```
 
-La verdad jurídica y la interpretación social están funcionando en sistemas distintos.
+ACCD respondería:
+
+```text
+¿CÓMO SE REALIZA ESA ESTRUCTURA
+PARA ESTE PÚBLICO Y CONTEXTO?
+```
+
+La máquina de transducción respondería:
+
+```text
+¿QUÉ SUCEDE CUANDO ESA REALIZACIÓN
+ENTRA EN UN SISTEMA COGNITIVO
+Y TERMINA PRODUCIENDO EFECTOS?
+```
+
+Entonces:
+
+```text
+ACSI
+estructura cognitiva del contenido
+        ↓
+ACCD
+realización contextual
+        ↓
+INTERVENCIÓN
+        ↓
+MÁQUINA DE TRANSDUCCIÓN COGNITIVA
+        ↓
+ESTADO DEL RECEPTOR
+        ↓
+ACCIÓN / APRENDIZAJE / ETC.
+```
+
+Son capas distintas.
 
 ---
 
-# 4B.5 La falsa reina sobrevive a la falsa reina
+# 22. La estafa sería una subclase muy específica
 
-Durante el fraude existió:
-
-```text
-FALSA MARÍA ANTONIETA
-=
-mujer que físicamente
-se hace pasar por ella
-```
-
-Cuando el fraude termina, esa impostora deja de ser necesaria.
-
-Pero aparece algo más persistente:
+Podemos construir una taxonomía provisional:
 
 ```text
-MARÍA ANTONIETA NARRATIVA
-=
-representación social
-de la reina
+MÁQUINA DE TRANSDUCCIÓN COGNITIVA
+│
+├── EDUCATIVA
+│
+│   información → comprensión → competencia
+│
+├── PERSUASIVA
+│
+│   mensaje → evaluación → acción
+│
+├── INSTITUCIONAL
+│
+│   norma → interpretación → ejecución
+│
+├── COORDINATIVA
+│
+│   comando → plan → acción colectiva
+│
+├── NARRATIVA
+│
+│   representación → interpretación → emoción/acción
+│
+└── FRAUDULENTA
+    engaño → creencia → acción → apropiación
 ```
 
-Esa entidad continúa circulando.
+Lo que cambia no es la topología más profunda.
 
-Éste es un punto extremadamente potente para el futuro video.
+Cambian sobre todo:
+
+```text
+naturaleza de I
+objetivo G
+contrato epistemológico
+capacidad V
+manifestación M
+reglas de validación
+```
 
 ---
 
-# La estructura completa, ahora con mayor resolución
+# 23. La diferencia ética puede formalizarse sin romper la máquina
+
+Esto es importante.
+
+Dos sistemas pueden compartir arquitectura y ser completamente distintos éticamente.
+
+Por ejemplo:
 
 ```text
-FASE 1 — PRECONDICIONES
-│
-├── collar originalmente destinado a Du Barry
-├── muerte de Luis XV
-├── joyeros quedan financieramente expuestos
-├── María Antonieta rechaza la pieza
-├── joyeros siguen necesitando comprador
-│
-├── Rohan ha perdido favor ante la reina
-├── Rohan desea reconciliación
-│
-├── acceso real a la reina es limitado
-├── intermediarios tienen importancia
-│
-└── María Antonieta posee vulnerabilidad reputacional previa
-          │
-          ▼
+DOCENTE
+→ modifica cognición
+→ alumno actúa
 
-FASE 2 — CONSTRUCCIÓN DE CREDIBILIDAD
-│
-├── Jeanne entra en relación con Rohan
-├── afirma tener acceso a María Antonieta
-├── promete ayudarlo a reconciliarse
-├── aparecen comunicaciones atribuidas a la reina
-├── se construye continuidad aparente
-├── Jeanne organiza encuentro nocturno
-├── una mujer representa físicamente a la reina
-├── Rohan interpreta experiencia como confirmación
-└── Jeanne queda validada como intermediaria
-          │
-          ▼
-
-FASE 3 — OPERACIÓN MATERIAL
-│
-├── Jeanne introduce el collar
-├── falsa reina aparece como compradora
-├── Rohan encuentra oportunidad de servirla
-├── Rohan acepta intermediar
-├── se acuerda pago fraccionado
-├── joyeros confían en Rohan
-├── prestigio de Rohan transporta credibilidad
-├── joyeros entregan collar
-├── Rohan entrega collar a Jeanne
-├── Jeanne y cómplices obtienen pieza
-├── collar es desmontado
-├── diamantes son dispersados
-└── pagos prometidos no llegan
-          │
-          ▼
-
-FASE 4 — COLAPSO
-│
-├── joyeros esperan dinero
-├── Böhmer contacta a la reina
-├── reina no comprende referencia
-├── joyeros vuelven a reclamar
-├── Mme Campan informa a María Antonieta
-├── reina descubre operación hecha en su nombre
-├── Luis XVI convoca a Rohan
-├── Rohan es arrestado
-├── investigación reconstruye la red
-├── se descubren engaños y suplantación
-└── caso llega a juicio
-          │
-          ▼
-
-FASE 4B — SEGUNDA HISTORIA
-│
-├── Rohan es absuelto
-├── Jeanne es condenada
-├── María Antonieta resulta inocente
-│
-├── PERO
-│
-├── el collar ya está asociado a su nombre
-├── la historia encaja con estereotipos previos
-├── el proceso se vuelve espectáculo público
-├── la verdad jurídica no corrige la imagen social
-├── el escándalo refuerza hostilidad previa
-└── reputación de María Antonieta queda aún más dañada
+ESTAFADOR
+→ modifica cognición
+→ víctima actúa
 ```
 
-Y la estructura causal profunda ya comienza a hacerse visible:
+La similitud estructural no los hace equivalentes.
+
+Podemos distinguirlos mediante contratos adicionales:
 
 ```text
-NECESIDADES PREEXISTENTES
-        ↓
-INTERMEDIARIO QUE LAS CONECTA
-        ↓
-SEÑALES FALSAS COMPATIBLES
-        ↓
-CONFIANZA
-        ↓
-AUTORIDAD PRESTADA
-        ↓
-ACCIÓN DE TERCEROS
-        ↓
-TRANSFERENCIA MATERIAL
-        ↓
-FALLO DE VERIFICACIÓN
-        ↓
-COLAPSO
-        ↓
-EXPOSICIÓN PÚBLICA
-        ↓
-NARRATIVA SOCIAL
-        ↓
-CONSECUENCIAS QUE SOBREVIVEN
-A LA CORRECCIÓN DE LOS HECHOS
+VERACIDAD
+¿I representa honestamente el mundo?
+
+TRANSPARENCIA
+¿el receptor conoce la intención del operador?
+
+CONSENTIMIENTO
+¿acepta participar?
+
+ALINEACIÓN DE BENEFICIOS
+¿G perjudica necesariamente al receptor?
+
+AUTONOMÍA
+¿la intervención preserva capacidad de decidir?
+
+REVERSIBILIDAD
+¿pueden corregirse fácilmente los efectos?
 ```
 
-Esto ya es mucho más útil para ACSI, porque ahora **no estamos sustituyendo la historia por el patrón**. Primero tenemos una historia suficientemente granular; después podemos preguntarnos qué subgrafo de esa historia corresponde a la estructura transversal `manifestación observable → sistema generativo invisible`, qué partes son necesarias para narrar el caso y qué partes son necesarias para explicar el mecanismo.
+Por tanto:
 
-[1]: https://en.chateauversailles.fr/discover/history/key-dates/affair-diamond-necklace-1784-1785 "The affair of the diamond necklace, 1784-1785 | Château de Versailles"
-[2]: https://en.chateauversailles.fr/discover/history/great-characters/marie-antoinette "Marie Antoinette | Château de Versailles"
-[3]: https://www.metmuseum.org/art/collection/search/715394 "Nicolas Antoine Taunay - Répresentation Exacte du Grand Collier en Brillants des Srs. Boëhmer et Bassenge - The Metropolitan Museum of Art"
+```text
+MISMA ARQUITECTURA DE CONVERSIÓN
+≠
+MISMA RELACIÓN ÉTICA
+```
+
+Esto preserva la regla del proyecto de que una analogía sólo conserva una región estructural, no una equivalencia total.
+
+---
+
+# 24. El descubrimiento más profundo puede ser éste
+
+Hasta ahora tratábamos por separado:
+
+```text
+publicidad
+estafa
+educación
+propaganda
+narrativa
+liderazgo
+instituciones
+ACCD
+```
+
+porque los clasificábamos por **tema**.
+
+Pero COGNICIÓN_CENTRAL insiste en que una estructura cognitiva debe clasificarse por su **rol operativo**, no por el tema al que pertenece.
+
+Al clasificarlos funcionalmente aparece:
+
+```text
+TODOS PUEDEN CONTENER:
+
+INTERVENCIÓN
+        ↓
+CAMBIO COGNITIVO
+        ↓
+ACCIÓN
+        ↓
+CAPACIDAD MOVILIZADA
+        ↓
+MANIFESTACIÓN
+```
+
+Ésa puede ser la estructura transversal.
+
+No significa que todos sean idénticos.
+
+Significa que quizá sean **descendientes de un mismo ancestro arquitectónico**.
+
+---
+
+# 25. Y esto cambia la forma de concebir “poder”
+
+Hay una consecuencia conceptual especialmente interesante.
+
+Normalmente pensamos en poder como:
+
+```text
+fuerza
+dinero
+armas
+autoridad
+recursos
+```
+
+Pero esta arquitectura muestra otra forma:
+
+```text
+CAPACIDAD DE MODIFICAR
+LAS REPRESENTACIONES
+DESDE LAS QUE OTROS ACTÚAN
+```
+
+Porque si un agente puede modificar:
+
+```text
+lo que otro cree
+lo que considera relevante
+lo que espera
+lo que teme
+lo que desea
+lo que interpreta como posible
+```
+
+puede modificar indirectamente:
+
+```text
+qué hace
+```
+
+y si esa persona posee capacidades reales:
+
+```text
+dinero
+autoridad
+trabajo
+voto
+prestigio
+conocimiento
+acceso
+```
+
+entonces una intervención simbólica puede terminar movilizando **capacidades materiales reales que el operador nunca poseyó directamente**.
+
+Jeanne no poseía el prestigio de Rohan.
+
+No poseía inicialmente el collar.
+
+Pero pudo construir una estructura que conectó:
+
+```text
+SU INFORMACIÓN
+
+con
+
+LA COGNICIÓN DE ROHAN
+
+con
+
+EL PRESTIGIO DE ROHAN
+
+con
+
+LA CONDUCTA DE LOS JOYEROS
+
+con
+
+EL COLLAR
+```
+
+Ésa es una forma de poder **por composición de capacidades ajenas**.
+
+---
+
+# 26. La máquina general completa
+
+Yo dejaría provisionalmente el modelo así:
+
+```text
+                        OBJETIVO G
+                            ▲
+                            │
+                     evaluación / captura
+                            │
+                            │
+                     MANIFESTACIÓN M
+                            ▲
+                            │
+                      realización externa
+                            │
+                            │
+                       CONTEXTO K
+                            ▲
+                            │
+                    capacidad opera
+                            │
+                            │
+                       CAPACIDAD V
+                            ▲
+                            │
+                         activa
+                            │
+                            │
+                         ACCIÓN A
+                            ▲
+                            │
+                        emerge de
+                            │
+                            │
+                  ESTADO COGNITIVO EC*
+                            ▲
+                            │
+                  τ₁ → τ₂ → τ₃ → ...
+                            │
+                            │
+                  ESTADO COGNITIVO EC₀
+                            ▲
+                            │
+                       interpreta
+                            │
+                            │
+                    INTERVENCIÓN I
+                            ▲
+                            │
+                          diseña
+                            │
+                            │
+                       OPERADOR O
+```
+
+Y añadiría el circuito:
+
+```text
+M
+↓
+EVIDENCIA F
+↓
+OPERADOR
+↓
+AJUSTA I
+```
+
+Por tanto, la forma cerrada sería:
+
+```text
+O
+→ I
+→ EC₀
+→ τ
+→ EC*
+→ A
+→ V
+→ K
+→ M
+→ F
+↺
+```
+
+Ésta ya no es una descripción de la estafa del collar.
+
+Es una **arquitectura general de cómo estructuras informativas pueden terminar convertidas en transformaciones del mundo cuando atraviesan sistemas cognitivos capaces de actuar**.
+
+Y eso explica de forma bastante más precisa por qué la Teoría de Máquinas Cognitivas parece encajar tan bien con fenómenos aparentemente tan diferentes: **no porque todo sea “cognición”, sino porque en todos estos casos la cognición puede ocupar la interfaz funcional que conecta representaciones con capacidades operativas y convierte unas en manifestaciones de las otras.**

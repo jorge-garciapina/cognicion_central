@@ -37,6 +37,7 @@ const DEFAULT_IGNORES = new Set([
   ".cache",
   ".yarn",
   ".pnpm-store",
+  ".pdf",
 ]);
 
 const TEXT_LIKE_EXT = new Set([
@@ -124,7 +125,7 @@ const EXT_MEDIA = {
       : [];
     if (VERBOSE)
       log(
-        `root=${ROOT}\nout=${OUT_PATH}\nmax-file-bytes=${MAX_FILE_BYTES}\nchunk-bytes=${CHUNK_BYTES}`
+        `root=${ROOT}\nout=${OUT_PATH}\nmax-file-bytes=${MAX_FILE_BYTES}\nchunk-bytes=${CHUNK_BYTES}`,
       );
 
     const entries = await listAllFiles(ROOT, gitignorePatterns);
@@ -206,7 +207,7 @@ const EXT_MEDIA = {
                 log(
                   `emit(chunk): ${rel} [${idx}] lines ${lineStart}-${lineEnd} bytes ${offsetBytes}-${
                     offsetBytes + chunkBytes - 1
-                  }`
+                  }`,
                 );
 
               idx += 1;
@@ -240,7 +241,7 @@ const EXT_MEDIA = {
               log(
                 `emit(chunk): ${rel} [${idx}] lines ${lineStart}-${lineEnd} bytes ${offsetBytes}-${
                   offsetBytes + chunkBytes - 1
-                }`
+                }`,
               );
           }
         }
@@ -324,7 +325,7 @@ function shouldIgnore(relPath, dirent, gitignorePatterns) {
       if (relPath.startsWith(p.slice(0, -1))) return true;
     } else if (p.includes("*")) {
       const re = new RegExp(
-        "^" + p.split("*").map(escapeRegExp).join(".*") + "$"
+        "^" + p.split("*").map(escapeRegExp).join(".*") + "$",
       );
       if (re.test(toPosix(relPath))) return true;
     } else if (toPosix(relPath).startsWith(p)) {
