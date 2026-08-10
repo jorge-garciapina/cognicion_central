@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-tabla_comparativa-tabla_comparativa",
+  "content": "La lámina compara dos o más elementos.\n\nEjemplo:\n\n```txt\nTipo        | Uso\nEstrategia  | Dirección general\nTáctica     | Movimiento local\nTécnica     | Forma de ejecución\n```\n\nPuede tomar formas como:\n\n```txt\nAntes vs después.\nCorrecto vs incorrecto.\nSuperficial vs profundo.\nPrincipiante vs experto.\nMito vs realidad.\nOpción A vs opción B.\n```\n\nEste formato es muy fuerte para reestructuración interpretativa, porque cambia cómo el receptor separa conceptos.\n\n---"
+}

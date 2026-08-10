@@ -1,0 +1,209 @@
+EXAMEN DE CONTROL  
+Modelado conceptual con grafos, ontología mínima y realización contextual
+
+PARTE I — Nivel atómico (conceptos simples)
+
+1. Lenguaje y significado
+
+En el modelo conceptual que hemos discutido, clasifica cada término sin ambigüedad y justifica brevemente:
+
+a) En el caso “manzana”, el término “rojo” es:
+- Concepto
+- Propiedad
+- Contexto
+- Evidencia
+
+b) En el caso “manzana”, el término “fruta” es:
+- Concepto
+- Contexto
+- Propiedad
+- Intervención
+
+c) En la frase “comer una manzana”, el término “comer” es:
+- Concepto
+- Proceso
+- Intervención
+- Contexto
+
+
+PARTE II — Educación (docencia)
+
+Escenario:
+Una profesora enseña el concepto de vectores a dos estudiantes: uno con formación matemática sólida y otro con dificultades conceptuales.
+
+2. Identificación de elementos
+
+a) “Vectores” es:
+- Concepto
+- Intervención
+- Contexto
+
+b) “Explicación con analogías visuales” es:
+- Intención
+- Intervención
+- Evidencia
+
+c) “Conocimientos previos del estudiante” es:
+- Contexto
+- Restricción
+- Evidencia
+
+
+3. Núcleo e invariantes
+
+¿Cuál de los siguientes debe permanecer invariante para que sigamos hablando del mismo tema?
+
+a) El formalismo matemático exacto  
+b) La definición estructural del vector  
+c) El ejemplo utilizado  
+d) El estilo de explicación  
+
+(Selecciona una o más y justifica.)
+
+
+PARTE III — Venta de seguros
+
+Escenario:
+Una vendedora ofrece el mismo seguro de gastos médicos mayores a distintos clientes.
+
+4. Clasificación ontológica
+
+a) “Seguro de gastos médicos mayores tipo A”:
+- Concepto
+- Contexto
+- Intervención
+
+b) “Miedo del cliente a endeudarse”:
+- Contexto
+- Restricción
+- Evidencia
+
+c) “Objeción: ‘nunca me enfermo’”:
+- Contexto
+- Restricción
+- Intervención
+
+
+5. Realización contextual
+
+Si el discurso cambia pero el producto no, ¿qué está ocurriendo?
+
+a) Cambio ontológico  
+b) Cambio de núcleo  
+c) Cambio de intervención  
+d) Cambio de intención  
+
+
+PARTE IV — Fabricación (industria)
+
+Escenario:
+El mismo modelo de automóvil se fabrica en dos plantas con proveedores y logística distintos.
+
+6. Identificación estructural
+
+a) “Modelo del automóvil” es:
+- Concepto
+- Intervención
+- Contexto
+
+b) “Proveedor local de piezas” es:
+- Concepto
+- Contexto
+- Evidencia
+
+c) “Proceso de ensamblaje específico de la planta” es:
+- Núcleo
+- Intervención
+- Restricción
+
+
+7. Invariantes
+
+¿Cuál de los siguientes no debería cambiar sin romper la identidad del producto?
+
+a) Secuencia exacta de ensamblaje  
+b) Tolerancias y especificaciones del diseño  
+c) Proveedor específico  
+d) Ruta logística  
+
+
+PARTE V — Videos y nichos (contenido digital)
+
+Escenario:
+Un creador adapta el mismo “Tema A” a videos para adolescentes y para profesionistas.
+
+8. Clasificación
+
+a) “Tema A” es:
+- Concepto
+- Intención
+- Intervención
+
+b) “Formato corto con humor rápido” es:
+- Contexto
+- Intervención
+- Restricción
+
+c) “Plataforma TikTok” es:
+- Contexto
+- Evidencia
+- Concepto
+
+
+9. Familia de transformaciones
+
+El conjunto de todos los videos posibles que respetan el Tema A pero se adaptan a nichos distintos corresponde a:
+
+a) Una ontología  
+b) Una familia de transformaciones  
+c) Un núcleo invariante  
+d) Un knowledge graph estático  
+
+
+PARTE VI — Grafos y modelado
+
+10. Nodos y aristas
+
+En un grafo que modela “Tema A → Video para adolescentes”:
+
+a) ¿Qué representa el nodo “Tema A”?  
+b) ¿Qué representa la arista dirigida entre ambos?  
+c) ¿Qué perderías si la arista no tuviera dirección?  
+
+
+PARTE VII — Ontología vs Realización Contextual
+
+11. Preguntas conceptuales
+
+a) ¿Cuál de las siguientes preguntas es ontológica?
+- “¿Qué tipos de cosas existen en el modelo?”
+- “¿Cómo se adapta esta idea a este contexto?”
+
+b) ¿Cuál es propia del Enfoque de Realización Contextual?
+- “¿Qué relaciones están permitidas?”
+- “¿Qué se preserva cuando adapto esto?”
+
+
+12. Pregunta crítica
+
+¿Puede existir realización contextual sin ontología explícita?  
+¿Puede existir ontología sin realización contextual?
+
+Responde sí o no a cada una y justifica.
+
+
+PARTE VIII — Transferencia (nuevo dominio)
+
+13. Dominio: medicina
+
+Escenario:
+Un mismo protocolo médico se aplica a pacientes con edades y condiciones distintas.
+
+Clasifica:
+
+a) “Protocolo médico”  
+b) “Edad del paciente”  
+c) “Ajuste de dosis”  
+
+Usando únicamente:
+Concepto / Contexto / Intervención / Restricción

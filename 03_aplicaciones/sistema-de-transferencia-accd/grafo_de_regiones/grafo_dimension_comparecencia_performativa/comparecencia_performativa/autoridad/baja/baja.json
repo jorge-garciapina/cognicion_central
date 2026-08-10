@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja",
+    "label": "baja",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja",
+    "summary": "Valor baja del campo autoridad.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad"
+  }
+}

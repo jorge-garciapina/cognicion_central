@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico-sans_serif_limpia-sans_serif_limpia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico-sans_serif_limpia-sans_serif_limpia",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico-sans_serif_limpia-sans_serif_limpia",
+    "type": "has_value",
+    "rationale": "sans_serif_limpia es un valor nuevo incorporado en tratamiento_tipografico para la realización imagen."
+  }
+}

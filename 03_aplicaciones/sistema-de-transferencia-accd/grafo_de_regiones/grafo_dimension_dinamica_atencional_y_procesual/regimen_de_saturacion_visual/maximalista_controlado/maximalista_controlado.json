@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-maximalista_controlado-maximalista_controlado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-maximalista_controlado-maximalista_controlado",
+    "label": "maximalista_controlado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-maximalista_controlado-maximalista_controlado",
+    "summary": "**Definición.** Régimen de abundancia visual donde se usan muchos elementos, capas, texturas, colores o detalles, pero bajo una intención compositiva reconocible. La riqueza formal es parte del efecto, no un accidente.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

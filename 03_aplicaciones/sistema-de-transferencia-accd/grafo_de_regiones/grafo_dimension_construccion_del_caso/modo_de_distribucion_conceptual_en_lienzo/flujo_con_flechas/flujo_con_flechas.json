@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+    "label": "flujo_con_flechas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+    "summary": "**Definición.** Distribución que usa direccionalidad marcada para representar movimiento conceptual, proceso, transformación o recorrido. Las flechas no son adorno: indican orden, dependencia, causalidad, ruta o transición entre partes del caso.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

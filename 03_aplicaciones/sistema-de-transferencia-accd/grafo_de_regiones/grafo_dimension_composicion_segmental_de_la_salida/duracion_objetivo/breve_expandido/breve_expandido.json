@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido",
+    "label": "breve_expandido",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido",
+    "summary": "Valor breve_expandido declarado para el campo duracion_objetivo.",
+    "metadata": {
+      "value_of": "duracion_objetivo",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

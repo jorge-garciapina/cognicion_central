@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-landing_page-landing_page",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-landing_page-landing_page",
+    "label": "landing_page",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-landing_page-landing_page",
+    "summary": "**Definición.** Entorno orientado a conversión o presentación de oferta. La imagen suele apoyar una promesa, beneficio, demostración, prueba, producto o llamada a la acción dentro de una página con objetivo definido.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma"
+    }
+  }
+}

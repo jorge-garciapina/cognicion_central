@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-zona_vacia-zona_vacia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-zona_vacia-zona_vacia",
+    "label": "zona_vacia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-zona_vacia-zona_vacia",
+    "summary": "**Definición.** Entrada basada en el uso intencional del vacío, espacio negativo o ausencia de elementos como foco perceptivo. La mirada se activa porque el vacío contrasta con el entorno, aísla un elemento o produce tensión de silencio visual.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

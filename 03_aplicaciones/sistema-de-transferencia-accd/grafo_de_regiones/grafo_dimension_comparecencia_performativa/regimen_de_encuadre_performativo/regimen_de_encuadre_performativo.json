@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+    "label": "regimen_de_encuadre_performativo",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+    "summary": "Tipo general de encuadre compatible con la comparecencia de la pieza.",
+    "section": "9.9",
+    "value_type": "Categorial cerrado",
+    "cardinality": "Un valor obligatorio"
+  }
+}

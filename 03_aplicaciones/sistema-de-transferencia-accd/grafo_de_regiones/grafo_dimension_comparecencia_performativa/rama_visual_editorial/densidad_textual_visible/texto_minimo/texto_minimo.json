@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_minimo-texto_minimo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_minimo-texto_minimo",
+    "label": "texto_minimo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_minimo-texto_minimo",
+    "summary": "**Definición.** Régimen donde el texto se reduce a pocas palabras necesarias: titular breve, etiqueta, dato o llamada puntual. Busca que lo verbal no compita con la imagen ni convierta la pieza en lectura extensa.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-multiplataforma-multiplataforma",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-multiplataforma-multiplataforma",
+    "label": "multiplataforma",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-multiplataforma-multiplataforma",
+    "summary": "Valor que indica que el carousel debe construirse de forma suficientemente general para poder adaptarse a más de una plataforma.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

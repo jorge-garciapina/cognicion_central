@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+    "label": "idea_central_con_soportes",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+    "summary": "**Definición.** Distribución en la que una idea principal concentra el sentido de la composición y las ideas secundarias aparecen como apoyo, evidencia, matiz, consecuencia o explicación alrededor de ella. La lectura no trata todos los elementos por igual: parte del núcleo y usa los soportes para am",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+    "type": "has_value",
+    "rationale": "ilustracion_conceptual es un valor nuevo incorporado en uso_de_imagen_generada para la realización imagen."
+  }
+}

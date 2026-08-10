@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta",
+    "type": "has_value",
+    "rationale": "alta es un valor declarado para el eje compresion."
+  }
+}

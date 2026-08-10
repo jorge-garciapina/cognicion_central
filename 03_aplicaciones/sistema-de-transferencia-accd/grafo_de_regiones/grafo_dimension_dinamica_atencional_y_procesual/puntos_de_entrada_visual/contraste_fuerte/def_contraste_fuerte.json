@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-contraste_fuerte-contraste_fuerte",
+  "content": "**Definición.** Entrada basada en oposición perceptiva marcada: claro/oscuro, grande/pequeño, lleno/vacío, orden/ruptura, color neutro/color intenso, figura/fondo o elementos semánticamente opuestos.\n\n**Diferenciación semántica.** Se diferencia de `color_dominante` porque requiere diferencia entre elementos, no sólo predominancia cromática. Se diferencia de `zona_vacia` porque el contraste puede construirse mediante múltiples oposiciones, no sólo mediante vacío.\n\n**Interpretación mínima.** La IA debe entender que la captura ocurre por tensión perceptiva entre partes claramente diferenciadas."
+}

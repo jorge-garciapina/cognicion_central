@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_1200_628-horizontal_1200_628",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_1200_628-horizontal_1200_628",
+    "label": "horizontal_1200_628",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_1200_628-horizontal_1200_628",
+    "summary": "**Definición.** Proporción horizontal usada con frecuencia en anuncios y enlaces web. Está pensada para encajar en espacios de pauta o preview donde el texto debe ser breve y el foco claro.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

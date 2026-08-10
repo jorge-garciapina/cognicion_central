@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia",
+    "type": "has_value",
+    "rationale": "consecuencia es un valor declarado para tipo_de_relacion."
+  }
+}

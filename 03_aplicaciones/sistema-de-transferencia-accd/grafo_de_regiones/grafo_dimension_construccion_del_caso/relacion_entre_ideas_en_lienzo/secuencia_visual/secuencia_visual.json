@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-secuencia_visual-secuencia_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-secuencia_visual-secuencia_visual",
+    "label": "secuencia_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-secuencia_visual-secuencia_visual",
+    "summary": "**Definición.** Relación donde las ideas se interpretan en un orden perceptivo determinado. Puede marcarse con flechas, numeración, alineación, progresión espacial o repetición. Se diferencia de simple continuidad porque establece un antes y después conceptual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+    "label": "comprension_inmediata",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+    "summary": "**Definición.** Valor que indica que el sentido principal de la pieza debe captarse con muy poca demora interpretativa. No exige que todo el contenido sea simple, pero sí que la entrada al significado sea clara desde el primer contacto visual.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

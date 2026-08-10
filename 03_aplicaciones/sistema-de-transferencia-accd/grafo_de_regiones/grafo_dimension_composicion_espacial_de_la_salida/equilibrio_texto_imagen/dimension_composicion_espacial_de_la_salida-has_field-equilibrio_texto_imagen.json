@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen",
+    "type": "has_field",
+    "rationale": "equilibrio_texto_imagen es un campo nuevo incorporado en dimension_composicion_espacial_de_la_salida para la realización imagen."
+  }
+}

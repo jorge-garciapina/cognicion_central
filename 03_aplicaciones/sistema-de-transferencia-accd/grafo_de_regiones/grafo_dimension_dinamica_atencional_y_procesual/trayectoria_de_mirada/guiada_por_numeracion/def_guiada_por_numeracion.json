@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_numeracion-guiada_por_numeracion",
+  "content": "**Definición.** Recorrido en el que números, pasos o marcas ordinales establecen el orden de lectura. La mirada sigue una secuencia explícita porque los elementos están codificados como primero, segundo, tercero, etc.\n\n**Diferenciación semántica.** Se diferencia de `guiada_por_flechas` porque la relación principal es ordinal, no direccional. Se diferencia de `arriba_abajo` porque la numeración puede ordenar elementos aunque no estén ubicados linealmente.\n\n**Interpretación mínima.** La IA debe entender que el receptor debe poder reconstruir el orden mediante marcas numéricas o equivalentes ordinales."
+}

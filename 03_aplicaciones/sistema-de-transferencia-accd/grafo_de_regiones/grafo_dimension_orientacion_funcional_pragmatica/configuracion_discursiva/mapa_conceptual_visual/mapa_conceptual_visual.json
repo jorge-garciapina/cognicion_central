@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-mapa_conceptual_visual-mapa_conceptual_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-mapa_conceptual_visual-mapa_conceptual_visual",
+    "label": "mapa_conceptual_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-mapa_conceptual_visual-mapa_conceptual_visual",
+    "summary": "**Definición.** Valor que organiza conceptos como una red o sistema de relaciones visibles. Puede mostrar dependencias, asociaciones, ramificaciones, jerarquías, proximidades, conexiones causales o vínculos de sentido entre ideas.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

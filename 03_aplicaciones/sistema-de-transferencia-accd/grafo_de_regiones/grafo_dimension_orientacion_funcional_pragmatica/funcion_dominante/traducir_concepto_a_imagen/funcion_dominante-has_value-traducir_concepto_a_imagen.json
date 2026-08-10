@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+    "type": "has_value",
+    "rationale": "traducir_concepto_a_imagen es un valor nuevo de funcion_dominante incorporado para la realización imagen."
+  }
+}

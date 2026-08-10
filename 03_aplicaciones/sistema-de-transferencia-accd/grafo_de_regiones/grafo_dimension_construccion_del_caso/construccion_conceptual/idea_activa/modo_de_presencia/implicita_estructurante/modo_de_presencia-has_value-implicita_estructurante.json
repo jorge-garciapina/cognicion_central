@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante",
+    "type": "has_value",
+    "rationale": "implicita_estructurante es un valor declarado para el campo modo_de_presencia."
+  }
+}

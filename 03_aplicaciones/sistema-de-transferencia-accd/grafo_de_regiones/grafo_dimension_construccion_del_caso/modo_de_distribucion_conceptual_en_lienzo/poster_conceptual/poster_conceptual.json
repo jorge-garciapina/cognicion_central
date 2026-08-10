@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-poster_conceptual-poster_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-poster_conceptual-poster_conceptual",
+    "label": "poster_conceptual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-poster_conceptual-poster_conceptual",
+    "summary": "**Definición.** Distribución de alto impacto donde una idea se convierte en composición dominante, generalmente con poco texto y fuerte carga visual o simbólica. No busca explicar todo, sino fijar una posición, metáfora, tensión o idea central memorable.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+    "label": "idea_activa",
+    "type": "structural_item_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+    "summary": "Unidad estructural obligatoria dentro de la colección de ideas activas.",
+    "metadata": {
+      "cardinality_context": "Una o más idea_activa dentro de construccion_conceptual",
+      "mandatory_components": [
+        "formulacion_de_la_idea",
+        "rol_conceptual",
+        "peso_relativo",
+        "modo_de_presencia",
+        "relaciones_con_otras_ideas"
+      ]
+    }
+  }
+}

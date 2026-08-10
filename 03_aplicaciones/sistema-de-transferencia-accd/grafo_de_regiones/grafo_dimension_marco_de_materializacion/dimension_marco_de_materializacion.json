@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion",
+    "label": "dimension_marco_de_materializacion",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion",
+    "summary": "Describir la clase general de salida y el marco material en el que esa salida pertenece al codominio.",
+    "metadata": {
+      "section": "10",
+      "restricciones_generales_de_la_dimension": [
+        "`clase_de_materializacion`, `plataforma` y `aplicacion_de_plataforma` deben ser compatibles entre sí."
+      ],
+      "sin_inferencias": true
+    }
+  }
+}

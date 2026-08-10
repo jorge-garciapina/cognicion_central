@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir",
+    "label": "persuadir",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir",
+    "summary": "Valor persuadir declarado para el campo funcion_dominante.",
+    "metadata": {
+      "value_of": "funcion_dominante",
+      "source_section": "4.1"
+    }
+  }
+}

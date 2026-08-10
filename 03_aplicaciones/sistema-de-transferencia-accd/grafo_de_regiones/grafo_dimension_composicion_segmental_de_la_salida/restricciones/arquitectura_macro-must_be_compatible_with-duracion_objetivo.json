@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-must_be_compatible_with-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-must_be_compatible_with-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+    "type": "must_be_compatible_with",
+    "rationale": "arquitectura_macro debe ser compatible con duracion_objetivo. La restricción también menciona segmentación y modalidad de guión, pero esos elementos no se materializan porque no están declarados como campos de esta definición."
+  }
+}

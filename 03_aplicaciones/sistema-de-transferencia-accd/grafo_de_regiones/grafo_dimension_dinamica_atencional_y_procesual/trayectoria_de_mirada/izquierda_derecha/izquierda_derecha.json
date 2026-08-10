@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-izquierda_derecha-izquierda_derecha",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-izquierda_derecha-izquierda_derecha",
+    "label": "izquierda_derecha",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-izquierda_derecha-izquierda_derecha",
+    "summary": "**Definición.** Recorrido horizontal en el que la mirada avanza lateralmente entre elementos. En contextos de lectura occidental, suele sugerir paso de inicio a consecuencia, antes a después, problema a solución, opción A a opción B o elemento origen a elemento destino.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

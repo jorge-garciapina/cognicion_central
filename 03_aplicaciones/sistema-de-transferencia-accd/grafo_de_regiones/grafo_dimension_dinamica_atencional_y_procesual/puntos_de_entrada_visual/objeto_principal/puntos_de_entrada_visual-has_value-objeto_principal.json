@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-objeto_principal-objeto_principal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-objeto_principal-objeto_principal",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-objeto_principal-objeto_principal",
+    "type": "has_value",
+    "rationale": "objeto_principal es un valor nuevo de puntos_de_entrada_visual incorporado para la realización imagen."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_en_una_mirada-comprension_en_una_mirada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_en_una_mirada-comprension_en_una_mirada",
+    "label": "comprension_en_una_mirada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_en_una_mirada-comprension_en_una_mirada",
+    "summary": "**Definición.** Valor que indica que la pieza debe entregar su sentido principal en una percepción inicial breve. No significa que todos los detalles se agoten instantáneamente, sino que la idea dominante, la relación central o la intención comunicativa deben reconocerse casi de inmediato.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

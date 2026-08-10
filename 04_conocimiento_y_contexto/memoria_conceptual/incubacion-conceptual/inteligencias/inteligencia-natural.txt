@@ -1,0 +1,563 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69c16fe1-3e18-83e8-bd53-b76bb76eed08
+DOCUMENTO DE CONSULTA
+Producto: documento textual autónomo
+Propósito de uso: consulta posterior, integración conceptual y posible incorporación al grafo de la Teoría de Máquinas Cognitivas
+Criterio general de calidad: que funcione por sí mismo como referencia reutilizable, compartible y estable
+
+================================================================================
+PLANTEAMIENTO ONTOLÓGICO — INTELIGENCIA NATURAL (IN)
+Versión: 1.0
+Estado: ontología débil refinable, preparada para integración a grafo
+Lenguaje: español
+================================================================================
+
+0) Intención del concepto
+
+Inteligencia Natural (IN) se introduce para fijar, de manera explícita y portable,
+un tipo particular de operación cognitiva humana: aquella en la que el ser humano
+no resuelve una tarea únicamente por fuerza directa, cálculo interno aislado o
+fabricación artificial de un mecanismo, sino por medio del reconocimiento,
+acoplamiento y uso de capacidades adaptativas ya presentes en sistemas vivos o en
+estructuras naturales del mundo.
+
+Su función no es nombrar la inteligencia animal en sí misma.
+Su función tampoco es nombrar cualquier contacto humano con la naturaleza.
+Su función es volver auditable una forma específica de operación: el uso humano de
+inteligencias, regularidades y adaptaciones preexistentes en el mundo como recurso
+operativo para alcanzar un fin.
+
+En formulación breve:
+
+Inteligencia Natural = capacidad humana de usar, a su favor, estructuras
+adaptativas ya presentes en seres vivos o sistemas naturales, acoplándose a ellas
+para producir resultados sin tener que controlar manualmente cada detalle del
+proceso.
+
+Por eso, la expresión “la inteligencia del mundo” debe entenderse aquí en sentido
+operativo y no místico.
+No significa que el mundo sea una mente unificada.
+Significa que el mundo contiene formas adaptativas, sensibles y estructuralmente
+operables que el humano puede aprender a leer, traducir y aprovechar.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Inteligencia Natural (IN) = capacidad cognitiva humana de identificar,
+interpretar, acoplar y usar en su favor las estructuras adaptativas ya presentes en
+seres vivos o sistemas naturales, de modo que dichas estructuras aporten parte de
+la operatividad necesaria para alcanzar un fin humano.
+
+La definición contiene cinco componentes mínimos:
+
+1.1) Agente operador
+Debe existir un agente humano que reconoce y usa una capacidad externa.
+
+1.2) Sistema natural adaptado
+Debe existir un sistema vivo o natural que posea regularidades, sensibilidades,
+respuestas o patrones de adaptación propios.
+
+1.3) Lectura estructural
+El agente humano debe ser capaz de reconocer alguna regularidad operativa del
+sistema natural.
+
+1.4) Acoplamiento funcional
+Debe existir un modo de intervención compatible con la lógica del sistema natural,
+de forma que la operación humana no consista solo en imposición ciega o fuerza
+bruta.
+
+1.5) Orientación teleológica
+El acoplamiento debe estar orientado a un fin humano identificable.
+
+Sin estos cinco componentes, la definición pierde borde y se degrada a una noción
+demasiado amplia de “relación con la naturaleza”.
+
+--------------------------------------------------------------------------------
+
+2) Qué fenómeno o función delimita
+
+Este concepto delimita el fenómeno de mediación cognitiva interestructural entre el
+humano y sistemas naturales adaptados.
+
+Recorta el problema:
+- cómo puede el humano aprovechar inteligencia ya incorporada en el mundo,
+- cómo puede una adaptación ajena convertirse en recurso operativo,
+- cómo puede lograrse una meta usando estructuras naturales como parte del
+  mecanismo de resolución,
+- y cómo distinguir este tipo de operación de la mera coerción, del uso de materia
+  inerte o de la contemplación pasiva del entorno.
+
+Inteligencia Natural delimita, entonces, el plano en el que el humano opera no
+solo sobre información interna, sino sobre inteligencias y regularidades ya
+materializadas fuera de sí.
+
+No describe:
+- toda inteligencia animal,
+- toda ecología,
+- toda biología aplicada,
+- ni toda técnica rural o de manejo.
+
+Describe solamente aquellos casos en los que un sistema natural aporta parte del
+trabajo cognitivo, conductual o adaptativo requerido para lograr el resultado.
+
+--------------------------------------------------------------------------------
+
+3) Razón de existencia del concepto
+
+La razón de existencia de Inteligencia Natural es evitar dos reducciones
+insuficientes:
+
+3.1) Reducción psicologista
+Consiste en tratar el fenómeno como si todo ocurriera únicamente dentro de la mente
+humana.
+
+3.2) Reducción mecanicista
+Consiste en tratar a los seres vivos o al entorno como si fueran materia pasiva,
+sin adaptación propia ni capacidad operativa estructural.
+
+La IN se vuelve necesaria cuando se reconoce que, en muchos casos, el humano logra
+más no porque piense aislado, sino porque sabe operar con estructuras externas que
+ya contienen inteligencia adaptativa.
+
+El concepto existe, por tanto, para hacer visible y formalizable una forma de
+cognición distribuida entre:
+- intención humana,
+- lectura estructural,
+- sistema natural adaptado,
+- y resultado producido por acoplamiento.
+
+--------------------------------------------------------------------------------
+
+4) Términos críticos que esta definición fija
+
+4.1) Sistema natural adaptado
+Entidad viva o estructura natural que presenta regularidades funcionales ya
+estabilizadas y aprovechables operativamente.
+
+4.2) Adaptación
+Configuración relativamente estable por la cual un sistema responde de forma no
+arbitraria a ciertas condiciones del entorno.
+
+4.3) Acoplamiento
+Relación operativa en la que dos estructuras interactúan de manera compatible, sin
+que una de ellas tenga que controlar exhaustivamente a la otra desde fuera.
+
+4.4) Delegación operativa parcial
+Situación en la que parte de la resolución del problema descansa en la capacidad
+propia del sistema natural usado.
+
+4.5) Uso a favor
+No significa explotación moralmente justificada ni injustificada.
+Significa, en sentido estrictamente estructural, orientación del comportamiento o de
+la respuesta del sistema hacia un fin humano identificable.
+
+4.6) Inteligencia del mundo
+Expresión resumida para nombrar la disponibilidad de patrones adaptativos externos
+que pueden ser integrados a una operación humana. No equivale a postular una mente
+cósmica.
+
+--------------------------------------------------------------------------------
+
+5) Estructura mínima del concepto
+
+Una instancia de Inteligencia Natural exige, como mínimo, la siguiente estructura:
+
+5.1) Un fin humano
+Debe existir un objetivo reconocible: conducir, agrupar, orientar, proteger,
+transportar, localizar, vigilar, sincronizar o análogo.
+
+5.2) Un sistema natural con respuesta propia
+El sistema natural debe poseer respuesta, sensibilidad o patrón operativo que no
+sea meramente impuesto desde afuera.
+
+5.3) Un mecanismo de lectura
+El humano debe reconocer al menos una regularidad relevante del sistema natural.
+
+5.4) Un mecanismo de intervención compatible
+Debe existir una forma de interactuar con el sistema natural sin destruir la lógica
+que se pretende aprovechar.
+
+5.5) Una transferencia real de carga operativa
+Parte del trabajo efectivo debe ser realizado por la estructura natural utilizada.
+
+Si la estructura natural no aporta nada más que presencia material, la instancia no
+alcanza el umbral de Inteligencia Natural.
+
+--------------------------------------------------------------------------------
+
+6) Dependencias conceptuales
+
+Esta definición depende, como base mínima, de los siguientes conceptos del grafo o
+del marco general:
+
+6.1) CCCO-Cognicion-Como_Capacidad_Operativa
+Depende de CCCO porque Inteligencia Natural sigue siendo una forma de cognición:
+una capacidad de operar sobre información para orientar acción y decisión.
+Sin CCCO, IN se degradaría a técnica empírica sin anclaje fenomenológico claro.
+
+6.2) CCMC-Cognicion-Como-Manifestacion-Condicionada
+Depende de CCMC porque la IN afirma precisamente una manifestación específica de la
+cognición bajo ciertas condiciones externas: presencia de sistemas naturales
+adaptados utilizables como recurso.
+
+6.3) MNODE-Forma-Cognitiva-Minima
+Depende de MNODE porque IN debe poder formularse como unidad con identidad
+estructural, no como intuición vaga ni etiqueta temática.
+
+6.4) PTE-Principio-Transferibilidad-Estructural
+Depende de PTE porque la identidad del concepto no puede quedar apoyada en una
+expresión sugerente como “inteligencia del mundo”. Necesita invariantes,
+discriminadores y dominio de variación explícitos.
+
+6.5) RO-Rol-Operativo
+Depende de RO porque el concepto se distingue por cómo opera y no por el tema del
+que habla. Su contorno operativo central es el uso de adaptación externa como
+recurso cognitivo.
+
+6.6) SE-Similaridad-Estructural
+Usa SE porque el humano debe construir una correspondencia entre su objetivo y la
+estructura adaptativa del sistema natural. Sin cierto grado de compatibilidad
+estructural, el acoplamiento no funciona.
+
+6.7) CP-Criterios-de-Pertenencia
+Usa CP porque el concepto debe poder aplicarse de forma auditable: debe ser posible
+decidir cuándo un caso sí pertenece a IN y cuándo no.
+
+--------------------------------------------------------------------------------
+
+7) Invariantes
+
+Inteligencia Natural preserva al menos los siguientes invariantes:
+
+7.1) Invariante de exterioridad operativa
+La operatividad aprovechada no está enteramente dentro del agente humano. Parte de
+ella reside en una estructura natural externa.
+
+7.2) Invariante de adaptación previa
+El sistema utilizado debe poseer alguna forma de ajuste, regularidad o respuesta ya
+presente antes del uso concreto.
+
+7.3) Invariante de lectura estructural
+El agente humano debe reconocer una regularidad del sistema natural. Si opera a
+ciegas o por azar, la instancia es defectuosa o incompleta.
+
+7.4) Invariante de acoplamiento compatible
+La intervención humana debe apoyarse en la lógica del sistema natural en lugar de
+anularla completamente.
+
+7.5) Invariante de delegación parcial
+Parte de la resolución efectiva debe estar delegada en el sistema natural.
+
+7.6) Invariante teleológica
+La operación debe estar dirigida a un fin humano reconocible.
+
+7.7) Invariante de no-reducción a fuerza bruta
+Si el resultado se obtiene exclusivamente por coerción física, sin aprovechamiento
+de adaptación, la identidad de IN se pierde.
+
+--------------------------------------------------------------------------------
+
+8) Dominio de variación
+
+Inteligencia Natural admite variación sin perder identidad en, al menos, las
+siguientes dimensiones:
+
+8.1) Tipo de sistema natural
+Puede aplicarse a:
+- un animal individual,
+- un grupo animal,
+- un sistema ecológico,
+- una regularidad natural utilizable.
+
+8.2) Tipo de fin humano
+Puede orientarse a conducción, protección, vigilancia, transporte, cultivo,
+localización, coordinación o análogo.
+
+8.3) Escala
+Puede operar a nivel micro, meso o macro, siempre que permanezca el patrón de uso
+de adaptación externa.
+
+8.4) Grado de explicitación
+Puede aparecer como saber práctico, protocolo explícito, método técnico,
+representación formal o diseño de sistema.
+
+8.5) Canal de acoplamiento
+Puede realizarse mediante señales, posición espacial, ritmo, entorno, refuerzo,
+restricción, invitación o configuración del contexto.
+
+8.6) Medio de descripción
+Puede expresarse como documento técnico, ontología, explicación pedagógica,
+representación de grafo o especificación operativa.
+
+Regla de borde:
+Puede cambiar el tipo de sistema natural, el canal, el objetivo concreto o el nivel
+de formalización, pero no puede desaparecer el patrón central “humano usa una
+adaptación externa como parte del mecanismo de resolución”.
+
+--------------------------------------------------------------------------------
+
+9) Discriminadores o pruebas de reconocimiento
+
+Inteligencia Natural se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) Prueba contra “uso de herramienta material”
+Si el sistema usado no aporta adaptación ni respuesta propia, sino solo soporte
+físico inerte, no se trata de IN.
+
+9.2) Prueba contra “fuerza o coerción”
+Si el resultado depende únicamente de imponer movimiento desde fuera, sin aprovechar
+regularidades propias del sistema natural, no se trata de IN en sentido fuerte.
+
+9.3) Prueba contra “observación de la naturaleza”
+Si el humano solo contempla o estudia, pero no acopla la adaptación natural a un
+fin operativo, no se trata de IN.
+
+9.4) Prueba contra “inteligencia animal aislada”
+Si se describe únicamente la capacidad del animal sin el momento de uso humano, no
+se ha descrito todavía Inteligencia Natural, sino inteligencia animal u otra noción
+vecina.
+
+9.5) Prueba contra “inteligencia artificial”
+Si la capacidad operativa principal proviene de un sistema diseñado artificialmente,
+la instancia ya no pertenece primariamente a IN, aunque pueda coexistir con ella.
+
+9.6) Prueba por delegación real
+Si al retirar la respuesta propia del sistema natural el proceso sigue funcionando de
+la misma manera, entonces probablemente no había Inteligencia Natural sino otro tipo
+de operación.
+
+--------------------------------------------------------------------------------
+
+10) Frontera conceptual
+
+Entran dentro de Inteligencia Natural:
+- los casos donde el humano usa adaptación externa como recurso operativo,
+- los casos donde parte de la resolución descansa en un sistema vivo o natural,
+- y los casos donde el acoplamiento con el entorno o con seres vivos es condición
+  del resultado.
+
+No entran dentro de Inteligencia Natural:
+- la mera interacción con animales,
+- la mera tenencia o domesticación,
+- el uso de objetos naturales como materia inerte,
+- la simple admiración de la naturaleza,
+- ni cualquier técnica humana solo por ocurrir en un entorno natural.
+
+La frontera conceptual se rompe cuando “IN” se usa para nombrar cualquier cosa
+natural, cualquier habilidad práctica rural o cualquier relación humano-entorno sin
+criterio de adaptación aprovechada.
+
+--------------------------------------------------------------------------------
+
+11) Rol operativo
+
+El rol operativo dominante de Inteligencia Natural es:
+
+“aprovechar una capacidad adaptativa externa ya existente para ampliar la capacidad
+de acción humana”.
+
+Este rol puede desplegarse en suboperaciones:
+- leer regularidades,
+- detectar puntos sensibles de acoplamiento,
+- orientar comportamiento,
+- delegar carga operativa,
+- y traducir un fin humano al lenguaje operativo del sistema natural.
+
+Por ello, IN puede describirse también como una forma de intermediación entre
+estructuras:
+- la estructura del objetivo humano,
+- y la estructura adaptativa del sistema natural.
+
+--------------------------------------------------------------------------------
+
+12) Relaciones con otras unidades del grafo
+
+12.1) IN depends_on CCCO-Cognicion-Como_Capacidad_Operativa
+Sentido:
+IN solo puede formularse como inteligencia si ya existe el fenómeno base de operar
+sobre información.
+
+12.2) IN refines CCMC-Cognicion-Como-Manifestacion-Condicionada
+Sentido:
+IN hace más precisa una clase de manifestación de la cognición: aquella modulada por
+la presencia de adaptaciones naturales externas aprovechables.
+
+12.3) IN depends_on MNODE-Forma-Cognitiva-Minima
+Sentido:
+IN debe poder tratarse como unidad conceptual con identidad mínima, no como lema.
+
+12.4) IN depends_on PTE-Principio-Transferibilidad-Estructural
+Sentido:
+IN exige una formulación estructural explícita para no quedar reducida a metáfora.
+
+12.5) IN uses RO-Rol-Operativo
+Sentido:
+el concepto se reconoce por su modo de operar y no por el dominio temático en el que
+aparece.
+
+12.6) IN uses SE-Similaridad-Estructural
+Sentido:
+el acoplamiento requiere compatibilidad estructural entre meta humana y adaptación
+natural utilizada.
+
+12.7) IN uses CP-Criterios-de-Pertenencia
+Sentido:
+se necesita un marco auditable para decidir pertenencia de casos concretos.
+
+12.8) Relación posible con Arq-Cog-Envolvente
+Sentido:
+la IN sugiere una expansión futura en la que la envolvente deje de ser solo conjunto
+de condiciones externas y pase a incluir sistemas naturales operables como campo de
+acoplamiento relevante.
+
+--------------------------------------------------------------------------------
+
+13) Criterios de aplicación correcta
+
+La definición se considera correctamente aplicada cuando permite:
+
+13.1) identificar con claridad el sistema natural cuya adaptación está siendo usada;
+13.2) explicar qué regularidad de ese sistema se aprovecha;
+13.3) mostrar cómo se acopla la intervención humana con esa regularidad;
+13.4) justificar qué parte del trabajo queda realmente delegada en el sistema
+      natural;
+13.5) distinguir el caso de mera coerción, uso material o descripción temática;
+13.6) mantener la identidad del concepto aun cuando cambian el dominio, la especie,
+      la escala o el objetivo particular.
+
+Una mala aplicación se detecta cuando:
+- el concepto se usa como metáfora estética sin estructura,
+- se llama IN a cualquier habilidad con animales,
+- no se explicita la adaptación aprovechada,
+- o no puede mostrarse delegación operativa real.
+
+--------------------------------------------------------------------------------
+
+14) Ejemplos ancla
+
+14.1) Pastoreo
+Un pastor que conduce un rebaño no desplaza manualmente a cada animal como si fuera
+un objeto. Aprovecha tendencias de agrupación, sensibilidad al movimiento,
+reacciones posicionales y patrones de seguimiento ya presentes en el sistema animal.
+El resultado no se explica solo por fuerza humana, sino por el uso de una
+inteligencia adaptativa externa.
+
+14.2) Manejo coordinado de caballos
+Una persona que controla varios caballos a la vez no fabrica desde cero el patrón de
+respuesta del animal. Se apoya en regularidades conductuales y sensibilidades ya
+existentes. La capacidad humana consiste en acoplarse a ellas y orientarlas.
+
+14.3) Caso límite negativo
+Una persona que arrastra un tronco con una cuerda no está usando IN por el mero hecho
+de que el tronco provenga de la naturaleza. Falta adaptación propia del sistema
+empleado.
+
+14.4) Caso límite negativo
+Una persona que golpea o fuerza a un animal hasta lograr movimiento sin apoyarse en
+su estructura adaptativa está más cerca de coerción bruta que de Inteligencia
+Natural en sentido fuerte.
+
+Los ejemplos sirven como anclaje de reconocimiento, pero no fundan por sí mismos la
+definición.
+
+--------------------------------------------------------------------------------
+
+15) Fórmula de cierre
+
+Inteligencia Natural no nombra simplemente “la naturaleza” ni “la inteligencia de
+los animales”.
+Nombra la capacidad humana de operar con adaptaciones externas ya presentes en el
+mundo, convirtiéndolas en recurso cognitivo-operativo para la consecución de fines.
+
+Por eso:
+
+IN = lectura de adaptación externa + acoplamiento compatible + delegación operativa
+parcial + orientación hacia un fin humano.
+
+Si falta cualquiera de esas piezas, la definición se debilita y el concepto colapsa
+hacia interacción genérica con la naturaleza, inteligencia animal aislada o uso
+material no adaptativo.
+
+================================================================================
+BLOQUE DE INTEGRACIÓN AL GRAFO
+================================================================================
+
+A) Nodo sugerido
+
+{"address":"graph/node/IN-Inteligencia-Natural","content":{
+  "id":"IN-Inteligencia-Natural",
+  "label":"Inteligencia Natural (IN) — uso humano de adaptaciones externas ya presentes en el mundo como recurso operativo",
+  "type":"bridge_node",
+  "definition_ref":"def/IN-Inteligencia-Natural",
+  "summary":"Este nodo introduce la Inteligencia Natural (IN) como la capacidad humana de identificar, interpretar, acoplar y usar en su favor estructuras adaptativas ya presentes en seres vivos o sistemas naturales, de modo que dichas estructuras aporten parte de la operatividad necesaria para alcanzar un fin humano. Su función en el grafo es volver explícita una manifestación de la cognición donde la inteligencia no se agota en el agente humano aislado ni en la herramienta artificial, sino que se distribuye operativamente entre intención humana y adaptación externa aprovechada."
+}}
+
+B) Aristas sugeridas
+
+{"address":"graph/edge/IN-depends_on-CCCO","content":{
+  "id":"IN-depends_on-CCCO",
+  "from":"IN-Inteligencia-Natural",
+  "to":"CCCO-Cognicion-Como_Capacidad_Operativa",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Inteligencia Natural no puede definirse con identidad estable sin CCCO, porque su núcleo sigue siendo una capacidad de operar sobre información para orientar acción y decisión. Sin CCCO, IN colapsaría a técnica práctica o saber empírico sin anclaje fenomenológico cognitivo."
+}}
+
+{"address":"graph/edge/IN-refines-CCMC","content":{
+  "id":"IN-refines-CCMC",
+  "from":"IN-Inteligencia-Natural",
+  "to":"CCMC-Cognicion-Como-Manifestacion-Condicionada",
+  "type":"refines",
+  "rationale":"La arista refines establece que Inteligencia Natural hace más precisa una clase de manifestación condicionada de la cognición: aquella en la que las condiciones externas relevantes incluyen sistemas naturales adaptados cuya operatividad puede ser aprovechada por el agente humano."
+}}
+
+{"address":"graph/edge/IN-depends_on-MNODE","content":{
+  "id":"IN-depends_on-MNODE",
+  "from":"IN-Inteligencia-Natural",
+  "to":"MNODE-Forma-Cognitiva-Minima",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que IN debe poder tratarse como unidad conceptual con identidad mínima, invariantes y dominio de variación explícitos. Sin MNODE, el concepto tendería a degradarse a etiqueta inspiracional sin borde auditable."
+}}
+
+{"address":"graph/edge/IN-depends_on-PTE","content":{
+  "id":"IN-depends_on-PTE",
+  "from":"IN-Inteligencia-Natural",
+  "to":"PTE-Principio-Transferibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que IN requiere PTE para que su identidad no dependa de expresiones vagas como ‘inteligencia del mundo’. PTE obliga a formular el concepto mediante invariantes, dominio de variación y discriminadores transferibles."
+}}
+
+{"address":"graph/edge/IN-uses-RO","content":{
+  "id":"IN-uses-RO",
+  "from":"IN-Inteligencia-Natural",
+  "to":"RO-Rol-Operativo",
+  "type":"uses",
+  "rationale":"La arista uses establece que IN usa Rol Operativo como coordenada principal de lectura: el concepto se reconoce por cómo opera —usar adaptación externa como recurso cognitivo— y no por el dominio temático en el que aparece."
+}}
+
+{"address":"graph/edge/IN-uses-SE","content":{
+  "id":"IN-uses-SE",
+  "from":"IN-Inteligencia-Natural",
+  "to":"SE-Similaridad-Estructural",
+  "type":"uses",
+  "rationale":"La arista uses establece que IN usa Similaridad Estructural porque el acoplamiento entre fin humano y sistema natural exige algún grado de correspondencia preservadora de estructura entre lo que el humano busca y lo que la adaptación natural puede realizar."
+}}
+
+{"address":"graph/edge/IN-uses-CP","content":{
+  "id":"IN-uses-CP",
+  "from":"IN-Inteligencia-Natural",
+  "to":"CP-Criterios-de-Pertenencia",
+  "type":"uses",
+  "rationale":"La arista uses establece que IN usa Criterios de Pertenencia para volver auditable la decisión sobre casos concretos: permite distinguir entre verdadera Inteligencia Natural, mera coerción, uso material no adaptativo o simple observación de la naturaleza."
+}}
+
+C) Nota de modelado
+
+El concepto se propone inicialmente como bridge_node y no como familia cognitiva base.
+La razón es metodológica: primero conviene fijar la identidad del concepto como pieza
+puente entre cognición humana y adaptación externa. Solo después, si el sistema lo
+requiere, puede evaluarse si IN debe convertirse en familia, subfamilia o conjunto
+de aplicaciones cognitivas derivadas.
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

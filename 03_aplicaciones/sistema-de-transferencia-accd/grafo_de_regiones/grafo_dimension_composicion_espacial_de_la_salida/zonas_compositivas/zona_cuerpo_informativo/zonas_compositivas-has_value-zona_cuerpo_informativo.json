@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_cuerpo_informativo-zona_cuerpo_informativo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_cuerpo_informativo-zona_cuerpo_informativo",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_cuerpo_informativo-zona_cuerpo_informativo",
+    "type": "has_value",
+    "rationale": "zona_cuerpo_informativo es un valor nuevo incorporado en zonas_compositivas para la realización imagen."
+  }
+}

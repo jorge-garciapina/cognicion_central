@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+    "type": "must_be_compatible_with",
+    "rationale": "La modalidad de guion debe ser realizable dentro del marco de materialización declarado."
+  }
+}

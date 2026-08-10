@@ -1,0 +1,375 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d46572-4ecc-83e8-845e-93155718a4fa
+================================================================================
+INFRAESTRUCTURA GLOBAL PARA LA CONSTRUCCIÓN DE PROMPTS LOCALES
+ACCD — Arquitectura Comercial de Creación de Contenido Digital
+Documento unificado a partir de las secciones 13–18
+================================================================================
+
+0) FUNCIÓN DE ESTE DOCUMENTO
+
+Este documento unifica, en una sola pieza operativa, las reglas globales que
+deben orientar la construcción de prompts locales para cada estrato del paquete
+ACCD.
+
+No debe leerse como una nueva lista de reglas independientes.
+Debe leerse como una infraestructura de corrección orientada a grafo.
+
+Su propósito no es que los prompts locales “reformularicen” libremente cada
+estrato, sino que los obliguen a:
+- corregirse con base en una ontología ya parcialmente fijada;
+- reutilizar componentes canónicos en lugar de reinventarlos;
+- declarar bordes, dependencias, secuencias y relaciones;
+- y acercar cada estrato a una forma más fácilmente integrable al grafo mayor.
+
+
+--------------------------------------------------------------------------------
+1) FINALIDAD DE LOS PROMPTS LOCALES
+
+Queda fijado que la finalidad de los prompts locales no es pedir a cada chat:
+
+- que escriba “una mejor versión” del estrato en abstracto,
+- que expanda libremente el texto,
+- ni que improvise una nueva ontología local.
+
+La finalidad de los prompts locales será esta:
+
+1. tomar el estrato actualmente existente;
+2. leerlo a la luz del documento global y del grafo ya construido;
+3. corregirlo para que:
+   - reutilice nodos globales cuando corresponda,
+   - declare especializaciones locales cuando hagan falta,
+   - elimine colapsos de nivel,
+   - explicite secuencias, bordes, relaciones y dependencias,
+   - y quede más próximo a una estructura de grafo formalizable;
+4. producir una nueva versión local más fuerte y más integrable al paquete total.
+
+Por tanto, un prompt local correcto no debe pedir:
+“reformula este estrato”.
+Debe pedir algo más preciso:
+“corrige este estrato para que sea compatible con la infraestructura global del
+grafo ACCD”.
+
+Regla general:
+cada prompt local deberá tratar al estrato como región del grafo, no como texto
+aislado.
+
+--------------------------------------------------------------------------------
+2) POLÍTICA GLOBAL DE NOMBRES CANÓNICOS ORIENTADA A GRAFO
+
+2.1) Prefijo obligatorio
+Todos los nodos canónicos del paquete usarán el prefijo:
+ACCD-
+
+2.2) Regla de triple distinción nominal
+Todo componente relevante que aparezca en un estrato debe poder distinguir, como
+mínimo:
+- nombre canónico,
+- alias aceptables,
+- alias desaconsejados.
+
+2.3) Regla de trazabilidad nominal
+Si un estrato usa un nombre local o un alias, deberá:
+- declararlo explícitamente como alias;
+- indicar a qué nombre canónico corresponde;
+- y evitar que ese alias parezca nodo global nuevo.
+
+2.4) Regla de no-colapso nominal
+No se debe usar el mismo nombre para entidades de distinto nivel ontológico.
+
+2.5) Regla de no inflación nominal
+No se debe crear un nombre nuevo si el componente ya existe en el grafo como:
+- nodo canónico,
+- especialización ya fijada,
+- o alias aceptable.
+
+2.6) Regla de especialización
+Si un estrato necesita una variante local de un componente global, deberá
+presentarla como:
+- especialización,
+- refinamiento,
+- subnodo,
+o componente-stage,
+pero no como entidad totalmente independiente.
+
+2.7) Instrucción para prompts locales
+Todo prompt local deberá pedir explícitamente:
+- adopta nombres canónicos cuando existan;
+- declara alias solo cuando sean necesarios;
+- y convierte nombres locales ambiguos en:
+  a) nombre canónico,
+  b) especialización local,
+  c) o alias declarado.
+
+--------------------------------------------------------------------------------
+3) CHECKLIST GLOBAL DE COMPLETITUD POR ESTRATO, REINTERPRETADO PARA GRAFO
+
+El checklist global debe leerse como criterio mínimo de completitud para que un estrato sea usable
+como subgrafo o como región bien definida del grafo mayor.
+
+Todo estrato corregido deberá poder declarar, al menos:
+
+3.1) Tipo de unidad
+Qué tipo de cosa es el estrato:
+- estrato,
+- subgrafo,
+- nodo transversal,
+- secuencia,
+- campo,
+- interfaz,
+- mecanismo,
+- régimen,
+- etc.
+
+3.2) Intención
+Qué problema conceptual resuelve el estrato.
+
+3.3) Definición central
+Qué nombra exactamente.
+
+3.4) Qué delimita
+Qué recorta, qué problema o región toma por objeto.
+
+3.5) Qué no delimita
+Qué no debe absorber ni confundirse con él.
+
+3.6) Nivel ontológico principal
+En qué nivel del paquete se sitúa primariamente.
+
+3.7) Componentes internos
+Qué nodos, subnodos, stages, regiones o operaciones lo componen.
+
+3.8) Entradas y salidas, si aplica
+Qué recibe y qué produce.
+
+3.9) Invariantes
+Qué debe preservarse para que siga siendo el mismo estrato.
+
+3.10) Dominio de variación, si aplica
+Qué puede cambiar sin romper identidad.
+
+3.11) Relaciones con otros estratos o paquetes
+Qué usa, de qué depende, qué refina, con qué se acopla.
+
+3.12) Criterios diagnósticos o de validación
+Cómo puede saberse si está correctamente formulado o aplicado.
+
+3.13) Fórmula de cierre
+Cómo puede resumirse estructuralmente.
+
+Regla:
+si un estrato no necesita uno de estos puntos, debe justificarlo explícitamente.
+
+Instrucción para prompts locales:
+todo prompt deberá pedir no solo que el estrato “mejore”, sino que complete o
+justifique explícitamente este checklist.
+
+--------------------------------------------------------------------------------
+4) PROTOCOLO GLOBAL DE INCONSISTENCIAS, REINTERPRETADO PARA REVISIÓN DE GRAFO
+
+Toda corrección local deberá incluir una búsqueda explícita de inconsistencias.
+No como apéndice opcional, sino como parte constitutiva de la revisión.
+
+Quedan fijados los siguientes tipos mínimos:
+
+4.1) Inconsistencia de nombre
+Mismo objeto con nombres distintos, o nombres iguales para objetos distintos.
+
+4.2) Inconsistencia de nivel
+Un nodo local formulado como si perteneciera a otro nivel ontológico.
+
+4.3) Inconsistencia de secuencia
+Orden local incompatible con secuencias globales ya fijadas.
+
+4.4) Inconsistencia de borde
+El estrato absorbe algo que otro nodo o subgrafo ya fija fuera de su dominio.
+
+4.5) Inconsistencia de granularidad
+Micro-unidades y macro-unidades tratadas como equivalentes sin mediación.
+
+4.6) Inconsistencia diagnóstica
+Taxonomía local incompatible con el diagnóstico transversal canónico.
+
+4.7) Inconsistencia de dependencia
+Uso recurrente de un componente no declarado como dependencia, uso o interfaz.
+
+4.8) Inconsistencia de evidencia
+Se afirma un efecto, una validación o una corrección sin huella legible asociada.
+
+4.9) Inconsistencia de fase
+Dos afirmaciones parecen incompatibles, pero en realidad pertenecen a momentos
+distintos de una secuencia.
+
+Instrucción para prompts locales:
+todo prompt deberá pedir:
+- detectar estas inconsistencias,
+- nombrarlas,
+- y corregirlas explícitamente.
+
+No basta con “mejorar la claridad”.
+Debe pedirse una revisión estructural con búsqueda de inconsistencias.
+
+--------------------------------------------------------------------------------
+5) MANEJO GLOBAL DE CONTRADICCIONES DE FASE
+
+Queda fijado que una contradicción aparente no debe resolverse de inmediato por
+supresión de una formulación local.
+
+Antes de decidir que existe contradicción real, deberá evaluarse si el problema
+proviene de:
+
+- diferencia de nivel;
+- diferencia de fase;
+- diferencia de subfase;
+- convertibilidad preliminar vs captura fuerte;
+- evidencia temprana vs evidencia post-captura;
+- validación local vs consolidación estructural;
+- lectura parcial vs cierre de circuito completo.
+
+Regla:
+si una contradicción puede resolverse distinguiendo mejor fases o subfases, esa
+distinción debe introducirse antes de descartar una formulación.
+
+Instrucción para prompts locales:
+todo prompt deberá pedir que, cuando aparezcan tensiones internas del estrato,
+primero se revise si el problema es:
+- contradicción real,
+- diferencia de nivel,
+- o diferencia de fase.
+
+Solo después puede decidirse si hay que:
+- suprimir,
+- dividir,
+- refinar,
+- o reordenar.
+
+--------------------------------------------------------------------------------
+6) PUENTE GLOBAL ENTRE SNAPSHOT Y GRAFO FORMAL
+
+Toda corrección local deberá acercar el estrato a una forma más fácilmente
+formalizable como grafo.
+
+Esto significa que la corrección no debe empujar el texto hacia:
+- mayor vaguedad,
+- más prosa no estructurada,
+- o explicaciones acumulativas sin bordes claros.
+
+Debe empujarlo hacia componentes que puedan extraerse después como:
+
+- def/
+- overview
+- graph/node/
+- graph/edge/
+- meta/conventions
+- validation/
+
+Regla:
+el estrato corregido debe quedar más cerca de poder representarse como nodo,
+subgrafo o secuencia tipada, aunque el prompt local no exija todavía la
+formalización completa.
+
+Instrucción para prompts locales:
+todo prompt deberá pedir que el resultado:
+- identifique componentes reutilizables;
+- explicite relaciones fuertes;
+- declare dependencias y refinamientos;
+- y deje visible qué partes podrían migrar a:
+  def, node, edge, validation o meta/conventions.
+
+--------------------------------------------------------------------------------
+7) FORMA OBLIGATORIA EN QUE LOS PROMPTS LOCALES DEBEN USAR EL GRAFO
+
+Los prompts locales deberán tratar el grafo como infraestructura activa y no como
+simple referencia decorativa.
+
+Eso implica que, cuando un estrato sea corregido, el prompt deberá pedir al chat
+que revise explícitamente:
+
+7.1) Qué nodos canónicos del grafo ya existen y deben reutilizarse.
+7.2) Qué componentes del estrato son:
+- nodos globales,
+- especializaciones locales,
+- stages,
+- o relaciones entre nodos.
+7.3) Qué aristas del grafo sirven para expresar mejor sus relaciones.
+7.4) Qué parte del estrato pertenece a una secuencia global ya fijada.
+7.5) Qué parte del estrato requiere subgrafo propio.
+7.6) Qué colapsos conceptuales deben corregirse para hacerlo compatible con la
+estructura del grafo.
+
+Regla:
+el prompt local no deberá pedir simplemente:
+“desarrolla este estrato”.
+
+Deberá pedir algo como:
+“corrige este estrato usándolo y leyéndolo como región del grafo ACCD, con
+reutilización de nodos, declaración de especializaciones y explicitación de
+relaciones”.
+
+--------------------------------------------------------------------------------
+8) PLANTILLA MÍNIMA QUE DEBERÍAN SEGUIR LOS PROMPTS LOCALES
+
+Todo prompt local debería incluir, como mínimo, instrucciones del tipo:
+
+A. Relee el estrato como región del grafo ACCD y no como texto aislado.
+
+B. Reutiliza nodos canónicos existentes cuando correspondan y no los redefinas.
+
+C. Si necesitas una variante propia del estrato, declárala como:
+- especialización,
+- refinamiento,
+- subnodo,
+- o stage.
+
+D. Identifica y corrige:
+- inconsistencias de nombre,
+- inconsistencias de nivel,
+- inconsistencias de secuencia,
+- inconsistencias de borde,
+- inconsistencias diagnósticas,
+- inconsistencias de dependencia,
+- e inconsistencias de fase.
+
+E. Completa o justifica el checklist mínimo del estrato.
+
+F. Explicita relaciones con otros nodos, secuencias o paquetes cuando sean
+estructuralmente necesarias.
+
+G. Produce una versión más fuerte, más delimitada y más próxima a representación
+formal de grafo.
+
+--------------------------------------------------------------------------------
+9) RESULTADO ESPERADO DE ESTA INFRAESTRUCTURA GLOBAL
+
+Si esta infraestructura se usa correctamente al diseñar prompts locales, el
+resultado esperado no es solo “tener mejores textos”.
+
+El resultado esperado es otro:
+
+- estratos más compatibles entre sí;
+- menos reinvención local de componentes ya fijados;
+- mejor trazabilidad entre nivel global y corrección local;
+- mejor explicitación de secuencias, bordes y dependencias;
+- y una migración mucho más natural desde fotografía cognitiva hacia grafo
+  formalizable.
+
+--------------------------------------------------------------------------------
+10) FÓRMULA DE CIERRE
+
+Infraestructura global para prompts locales ACCD =
+finalidad explícita de corrección orientada a grafo
++ política de nombres canónicos
++ checklist de completitud
++ protocolo de inconsistencias
++ manejo de contradicciones de fase
++ puente a formalización de grafo
++ e instrucciones obligatorias de uso del grafo dentro de cada prompt local.
+
+Por eso, este documento no debe leerse como comentario sobre cómo revisar
+estratos.
+
+Debe leerse como la capa global que hará posible construir prompts locales
+realmente compatibles con el grafo ACCD.
+
+================================================================================
+FIN
+================================================================================

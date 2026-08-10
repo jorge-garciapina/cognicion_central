@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion",
+    "label": "atencion_en_exploracion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion",
+    "summary": "Valor declarado para el campo estado_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La atención está disponible para una entrada exploratoria."
+  }
+}

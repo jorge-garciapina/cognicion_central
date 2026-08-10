@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+    "type": "has_field",
+    "rationale": "uso_de_audio_generado es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion."
+  }
+}

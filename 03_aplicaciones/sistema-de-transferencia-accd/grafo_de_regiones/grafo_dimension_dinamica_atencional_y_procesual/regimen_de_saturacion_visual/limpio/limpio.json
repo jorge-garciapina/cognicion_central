@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-limpio-limpio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-limpio-limpio",
+    "label": "limpio",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-limpio-limpio",
+    "summary": "**Definición.** Régimen de baja carga visual con pocos elementos, jerarquía clara y ausencia de ruido perceptivo. La limpieza no exige minimalismo radical, sino que cada elemento presente tenga función reconocible.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

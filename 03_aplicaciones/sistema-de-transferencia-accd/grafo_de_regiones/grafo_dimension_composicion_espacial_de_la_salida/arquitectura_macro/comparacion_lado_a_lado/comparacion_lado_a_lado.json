@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-comparacion_lado_a_lado-comparacion_lado_a_lado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-comparacion_lado_a_lado-comparacion_lado_a_lado",
+    "label": "comparacion_lado_a_lado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-comparacion_lado_a_lado-comparacion_lado_a_lado",
+    "summary": "**Definición.** Arquitectura que divide el campo en áreas paralelas para comparar elementos equivalentes. Exige equilibrio suficiente para que la comparación sea justa, pero también diferencias visibles para que el contraste sea comprensible.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

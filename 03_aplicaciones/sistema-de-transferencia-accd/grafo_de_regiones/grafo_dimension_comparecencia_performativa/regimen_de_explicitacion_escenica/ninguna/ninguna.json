@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna",
+    "label": "ninguna",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna",
+    "summary": "Valor ninguna del campo regimen_de_explicitacion_escenica.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica"
+  }
+}

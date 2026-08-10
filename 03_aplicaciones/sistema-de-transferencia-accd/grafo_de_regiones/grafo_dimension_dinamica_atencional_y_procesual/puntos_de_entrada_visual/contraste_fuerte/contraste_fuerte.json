@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-contraste_fuerte-contraste_fuerte",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-contraste_fuerte-contraste_fuerte",
+    "label": "contraste_fuerte",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-contraste_fuerte-contraste_fuerte",
+    "summary": "**Definición.** Entrada basada en oposición perceptiva marcada: claro/oscuro, grande/pequeño, lleno/vacío, orden/ruptura, color neutro/color intenso, figura/fondo o elementos semánticamente opuestos.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

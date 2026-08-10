@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial",
+    "label": "equivalencia_parcial",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial",
+    "summary": "Valor equivalencia_parcial declarado para tipo_de_relacion.",
+    "metadata": {
+      "value_of": "tipo_de_relacion"
+    }
+  }
+}

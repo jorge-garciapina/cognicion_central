@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+    "label": "efecto_sonoro",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+    "summary": "Efectos sonoros puntuales relevantes para la ejecución local.",
+    "value_type": "Descriptivo controlado",
+    "cardinality": "Cero o más por bloque"
+  }
+}

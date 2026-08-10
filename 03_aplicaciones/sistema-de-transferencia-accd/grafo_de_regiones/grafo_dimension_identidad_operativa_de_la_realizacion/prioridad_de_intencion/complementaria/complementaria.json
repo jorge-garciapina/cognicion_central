@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-complementaria-complementaria",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-complementaria-complementaria",
+    "label": "complementaria",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-complementaria-complementaria",
+    "summary": "**Definición.** Valor que indica que la realización no ocupa el lugar principal de la arquitectura comunicativa, sino que acompaña, refuerza o completa otra pieza, idea, sistema o secuencia. Lo complementario no significa irrelevante; significa que su sentido se termina de entender en relación con un elemento mayor al que apoya.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

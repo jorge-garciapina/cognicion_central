@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+    "label": "marca_mensaje_cta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+    "summary": "**Definición.** Arquitectura que articula identidad, mensaje principal y acción esperada. No se limita a colocar logotipo y botón: organiza la relación entre quién habla, qué dice y qué debería hacer el receptor.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

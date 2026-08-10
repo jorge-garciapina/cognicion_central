@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-imagen_texto_cta-imagen_texto_cta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-imagen_texto_cta-imagen_texto_cta",
+    "label": "imagen_texto_cta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-imagen_texto_cta-imagen_texto_cta",
+    "summary": "**Definición.** Relación orientada a respuesta: imagen para captar o demostrar, texto para enunciar valor y CTA para cerrar. Es frecuente en piezas comerciales o de conversión.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen"
+    }
+  }
+}

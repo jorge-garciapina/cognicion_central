@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-collage-collage",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-collage-collage",
+    "label": "collage",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-collage-collage",
+    "summary": "**Definición.** Estilo que combina fragmentos visuales heterogéneos: fotos, recortes, texturas, tipografía o ilustración. Puede comunicar mezcla, tensión, cultura visual o composición editorial.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-superior_inferior-superior_inferior",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-superior_inferior-superior_inferior",
+    "label": "superior_inferior",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-superior_inferior-superior_inferior",
+    "summary": "**Definición.** Organización que divide sentido entre zona alta y zona baja. Puede expresar promesa/resultado, causa/consecuencia, título/desarrollo, ideal/realidad o antes/después vertical.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial"
+    }
+  }
+}

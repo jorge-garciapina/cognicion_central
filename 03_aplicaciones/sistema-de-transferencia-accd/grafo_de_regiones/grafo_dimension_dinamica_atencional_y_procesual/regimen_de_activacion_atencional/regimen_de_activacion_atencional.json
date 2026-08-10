@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "label": "regimen_de_activacion_atencional",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "summary": "Modo principal en que la realización debe activar, sostener o reabrir la atención.",
+    "section": "7.2",
+    "value_type": "Categorial cerrado",
+    "cardinality": "Un valor obligatorio"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+    "label": "legibilidad_visual",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+    "summary": "**Definición del campo.** Campo que describe qué tan fácilmente pueden distinguirse, reconocerse y leerse los elementos visuales de una pieza. Incluye tamaño, contraste, separación, nitidez, jerarquía, claridad de formas, legibilidad tipográfica y ausencia de interferencias visuales.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

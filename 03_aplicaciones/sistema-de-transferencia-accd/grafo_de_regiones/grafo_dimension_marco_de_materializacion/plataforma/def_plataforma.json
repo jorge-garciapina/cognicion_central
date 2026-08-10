@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+  "content": "Describir el entorno de plataforma para el que se construye la salida. Tipo de valor: Categorial cerrado. Cardinalidad: Un valor obligatorio."
+}

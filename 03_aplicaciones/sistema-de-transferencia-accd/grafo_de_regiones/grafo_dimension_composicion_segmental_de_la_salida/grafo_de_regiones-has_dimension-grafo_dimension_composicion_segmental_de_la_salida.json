@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+  "content": {
+    "id": "grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+    "from": "grafo_de_regiones",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+    "type": "has_dimension",
+    "rationale": "grafo_dimension_composicion_segmental_de_la_salida es una dimensión disponible dentro de grafo_de_regiones."
+  }
+}

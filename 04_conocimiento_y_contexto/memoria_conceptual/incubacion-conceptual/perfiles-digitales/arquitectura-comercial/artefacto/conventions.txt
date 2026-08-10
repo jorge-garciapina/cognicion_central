@@ -1,0 +1,612 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d442ac-b988-83e8-9caf-0cba85fab976
+{"address":"meta/conventions","content":"[
+================================================================================
+META/CONVENTIONS — ACCD
+Arquitectura Comercial de Creación de Contenido Digital
+================================================================================
+
+0) Función del componente
+
+meta/conventions fija las convenciones de representación, nombrado, tipado y uso
+de aristas para el grafo ACCD.
+
+Su función no es definir nodos particulares del dominio.
+Su función es fijar la gramática formal mínima mediante la cual los nodos,
+subgrafos, secuencias y relaciones del paquete pueden representarse de manera:
+
+- consistente,
+- interoperable,
+- auditable,
+- y reutilizable.
+
+Debe leerse como componente transversal del paquete.
+
+Si un nodo del grafo depende de reglas de nombrado, dirección de aristas,
+criterios de especialización, o condiciones de reutilización, esas reglas deben
+ser tomadas de meta/conventions y no inventadas localmente.
+
+--------------------------------------------------------------------------------
+1) Convenciones generales de representación
+
+1.1) Tipos básicos de address
+El grafo ACCD usa al menos los siguientes addresses estructurales:
+
+- def/<Nombre-Canonico>
+- graph/node/<Nombre-Canonico>
+- graph/edge/<Nombre-Canonico-de-la-arista>
+- meta/conventions
+- overview/<Nombre-del-paquete>     (cuando exista)
+- validation/<Nombre-del-componente> (cuando exista)
+
+1.2) Principio de duplicación mínima
+Un componente no debe redefinirse en múltiples lugares como si fuera una entidad
+distinta.
+
+Si un componente ya existe como nodo canónico:
+- debe reutilizarse;
+- o debe declararse explícitamente como especialización local.
+
+1.3) Relación entre def y graph/node
+- def/<X> contiene la definición conceptual fuerte del componente.
+- graph/node/<X> contiene su existencia como nodo de grafo.
+- graph/node/<X> debe apuntar a def/<X> mediante definition_ref o convención equivalente.
+
+1.4) Relación entre subgrafo y componente canónico
+Un subgrafo puede:
+- usar componentes canónicos,
+- refinarlos,
+- especializarlos,
+- o conectarlos,
+pero no debe redefinirlos como entidades totalmente nuevas sin declaración explícita.
+
+--------------------------------------------------------------------------------
+2) Convenciones de nombrado
+
+2.1) Prefijo canónico
+Todos los nodos canónicos del paquete deben usar el prefijo:
+ACCD-
+
+2.2) Regla de unicidad nominal
+No debe usarse el mismo nombre para entidades de distinto nivel ontológico.
+
+2.3) Regla de alias
+Si un componente tiene alias:
+- debe existir un nombre canónico;
+- los alias deben declararse como aceptables o desaconsejados;
+- y el alias no debe sustituir silenciosamente al nombre canónico.
+
+2.4) Regla de especialización
+Si una entidad local deriva de un componente global, su nombre debe expresar
+esa derivación semántica y no simular independencia ontológica total.
+
+Ejemplo:
+- ACCD-Contexto-Institucional puede existir como especialización local;
+- no debe presentarse como nodo desligado del sistema general de contexto.
+
+2.5) Regla de nombre de arista
+El nombre del archivo de arista debe seguir la forma:
+
+<Source>-<type>-<Target>
+
+Ejemplo:
+ACCD-Distinciones-Globales-uses-ACCD-Funcion
+
+--------------------------------------------------------------------------------
+3) Convenciones de dirección de aristas
+
+Toda arista del grafo ACCD debe leerse direccionalmente.
+
+La dirección no es decorativa.
+Expresa una asimetría semántica.
+
+3.1) Regla general
+source = nodo que ejerce la relación
+target = nodo que la recibe o al que se dirige
+
+3.2) Regla de lectura
+Toda arista debe poder leerse como oración mínima:
+
+<source> <tipo_de_arista> <target>
+
+3.3) Regla de justificación
+Toda arista relevante debe incluir rationale o justificación equivalente.
+
+--------------------------------------------------------------------------------
+4) Aristas canónicas transversales
+
+Quedan fijadas como aristas canónicas transversales del paquete las siguientes:
+
+4.1) is_a
+Definición:
+Relación de tipado o pertenencia fuerte.
+
+Dirección:
+va del subtipo al tipo o clase más general.
+
+Lectura:
+<X> is_a <Y>
+
+Uso correcto:
+cuando X es una instancia fuerte, subtipo o forma perteneciente a Y.
+
+No debe confundirse con:
+- specializes, si lo que se quiere marcar es una derivación local dentro del paquete;
+- refines, si lo que se quiere marcar es especificación sin tipado fuerte.
+
+--------------------------------------------------------------------------------
+4.2) depends_on
+Definición:
+Dependencia estructural sin la cual el nodo no puede formularse correctamente.
+
+Dirección:
+va del nodo dependiente al nodo del cual depende.
+
+Lectura:
+<X> depends_on <Y>
+
+Uso correcto:
+cuando X no puede definirse, sostenerse o entenderse adecuadamente sin Y.
+
+No debe confundirse con:
+- uses, si Y solo es empleado operativamente;
+- interfaces_with, si solo hay acoplamiento externo.
+
+--------------------------------------------------------------------------------
+4.3) uses
+Definición:
+Uso operativo de un nodo sin implicar dependencia ontológica total.
+
+Dirección:
+va del nodo que usa al nodo usado.
+
+Lectura:
+<X> uses <Y>
+
+Uso correcto:
+cuando X emplea Y como recurso conceptual, operacional o compositivo.
+
+No debe confundirse con:
+- depends_on, si Y es condición estructural fuerte;
+- produces, si Y es resultado emitido por X.
+
+--------------------------------------------------------------------------------
+4.4) conditions
+Definición:
+Un nodo condiciona la forma de operación o validez de otro.
+
+Dirección:
+va del condicionante al condicionado.
+
+Lectura:
+<X> conditions <Y>
+
+Uso correcto:
+cuando X no produce ni restringe totalmente a Y, pero sí modifica su modo
+de posibilidad, operación o validez.
+
+No debe confundirse con:
+- constrains, si la relación es de restricción fuerte;
+- activates, si lo que hace es habilitar el paso a otro régimen.
+
+--------------------------------------------------------------------------------
+4.5) constrains
+Definición:
+Un nodo restringe el dominio válido de otro.
+
+Dirección:
+va del restrictor al restringido.
+
+Lectura:
+<X> constrains <Y>
+
+Uso correcto:
+cuando X fija límites, bordes o condiciones no negociables sobre Y.
+
+No debe confundirse con:
+- conditions, si solo modula;
+- validates, si en vez de restringir, confirma.
+
+--------------------------------------------------------------------------------
+4.6) produces
+Definición:
+Un nodo produce otro como salida u operación resultante.
+
+Dirección:
+va del productor a la salida producida.
+
+Lectura:
+<X> produces <Y>
+
+Uso correcto:
+cuando Y es resultado emitido por X.
+
+No debe confundirse con:
+- manifests, si lo que se quiere marcar es comparecencia visible;
+- feeds, si Y no es resultado terminal sino insumo posterior.
+
+--------------------------------------------------------------------------------
+4.7) feeds
+Definición:
+Un nodo alimenta a otro como insumo posterior.
+
+Dirección:
+va del nodo que alimenta al nodo alimentado.
+
+Lectura:
+<X> feeds <Y>
+
+Uso correcto:
+cuando X entra en Y como material, entrada, condición previa o insumo secuencial.
+
+No debe confundirse con:
+- produces, si se trata de una salida completa;
+- reenters, si lo que reingresa es un output al sistema.
+
+--------------------------------------------------------------------------------
+4.8) translates_to
+Definición:
+Traducción entre planos o formas de representación.
+
+Dirección:
+va de la forma traducida o de origen a la forma de llegada.
+
+Lectura:
+<X> translates_to <Y>
+
+Uso correcto:
+cuando X y Y no son simplemente etapas secuenciales, sino formas distintas
+de representación, manifestación o formalización.
+
+No debe confundirse con:
+- produces, si Y es una salida;
+- manifests, si Y es comparecencia visible de X.
+
+--------------------------------------------------------------------------------
+4.9) manifests
+Definición:
+Una interfaz, caso o entidad se manifiesta como otra forma visible.
+
+Dirección:
+va desde la entidad que comparece hacia la forma visible en la que comparece.
+
+Lectura:
+<X> manifests <Y>
+
+Uso correcto:
+cuando se quiere marcar el paso desde estructura o interfaz a forma visible.
+
+No debe confundirse con:
+- produces, si el foco está en causalidad de salida;
+- translates_to, si el foco está en equivalencia de plano.
+
+--------------------------------------------------------------------------------
+4.10) mediates
+Definición:
+Un nodo actúa como mediador entre dos regiones del sistema.
+
+Dirección:
+va desde el mediador hacia el nodo o relación mediada.
+
+Lectura:
+<X> mediates <Y>
+
+Uso correcto:
+cuando X cumple función de puente, interfaz o traducción funcional entre regiones.
+
+Convención adicional:
+si la mediación involucra dos polos importantes, deben usarse dos aristas o
+explicitarse esa dualidad en rationale.
+
+No debe confundirse con:
+- uses, si solo hay empleo operativo;
+- interfaces_with, si solo hay acoplamiento.
+
+--------------------------------------------------------------------------------
+4.11) refines
+Definición:
+Un nodo afina o especifica otro sin reemplazarlo.
+
+Dirección:
+va del nodo más específico al más general que refina.
+
+Lectura:
+<X> refines <Y>
+
+Uso correcto:
+cuando X introduce mayor resolución conceptual sobre Y sin dejar de pertenecer
+a su región de sentido.
+
+No debe confundirse con:
+- is_a, si se trata de tipado fuerte;
+- specializes, si se trata de derivación desde componente global.
+
+--------------------------------------------------------------------------------
+4.12) specializes
+Definición:
+Un nodo es especialización de un componente global.
+
+Dirección:
+va desde la especialización al componente global del que deriva.
+
+Lectura:
+<X> specializes <Y>
+
+Uso correcto:
+cuando X hereda identidad básica de Y, pero la concreta localmente.
+
+No debe confundirse con:
+- refines, si no existe relación explícita de especialización global;
+- is_a, si se quiere marcar solo tipado fuerte abstracto.
+
+--------------------------------------------------------------------------------
+4.13) stabilizes
+Definición:
+Un nodo ayuda a conservar continuidad o persistencia de otro.
+
+Dirección:
+va del estabilizador al nodo estabilizado.
+
+Lectura:
+<X> stabilizes <Y>
+
+Uso correcto:
+cuando X contribuye a preservación, continuidad o robustez de Y.
+
+No debe confundirse con:
+- validates, si el foco es confirmación;
+- accumulates_into, si el foco es sedimentación progresiva.
+
+--------------------------------------------------------------------------------
+4.14) validates
+Definición:
+Un nodo o criterio valida a otro.
+
+Dirección:
+va del validador al validado.
+
+Lectura:
+<X> validates <Y>
+
+Uso correcto:
+cuando X funciona como criterio, prueba, evidencia o umbral de confirmación de Y.
+
+No debe confundirse con:
+- conditions, si solo condiciona;
+- stabilizes, si lo que hace es sostener continuidad.
+
+--------------------------------------------------------------------------------
+4.15) activates
+Definición:
+Un nodo habilita el paso o la entrada a otro régimen.
+
+Dirección:
+va del activador al régimen, nodo o transición activada.
+
+Lectura:
+<X> activates <Y>
+
+Uso correcto:
+cuando X no produce directamente Y, pero sí hace posible su entrada,
+desencadenamiento o disponibilidad.
+
+No debe confundirse con:
+- produces, si Y es emitido directamente;
+- conditions, si solo modula.
+
+--------------------------------------------------------------------------------
+4.16) reenters
+Definición:
+Un output reingresa al sistema como insumo.
+
+Dirección:
+va del output reingresado al nodo o secuencia a la que reingresa.
+
+Lectura:
+<X> reenters <Y>
+
+Uso correcto:
+cuando una salida previa vuelve a entrar en el sistema como nueva entrada o
+como parte de un circuito de retorno.
+
+No debe confundirse con:
+- feeds, si no hay condición de reingreso;
+- produces, si no hay retorno.
+
+--------------------------------------------------------------------------------
+4.17) accumulates_into
+Definición:
+Una salida o proceso sedimenta en un acumulado posterior.
+
+Dirección:
+va del elemento que sedimenta al acumulado resultante.
+
+Lectura:
+<X> accumulates_into <Y>
+
+Uso correcto:
+cuando X no se convierte inmediatamente en Y, pero sí contribuye a su acumulación
+o sedimentación longitudinal.
+
+No debe confundirse con:
+- converts_to, si el pasaje es de transformación de forma de valor;
+- stabilizes, si el foco es continuidad y no acumulación.
+
+--------------------------------------------------------------------------------
+4.18) converts_to
+Definición:
+Una condición o activo se convierte en otra forma de valor o cierre.
+
+Dirección:
+va desde la forma de origen hacia la forma de valor o cierre de llegada.
+
+Lectura:
+<X> converts_to <Y>
+
+Uso correcto:
+cuando hay tránsito entre formas de valor, elegibilidad, activo o cierre.
+
+No debe confundirse con:
+- accumulates_into, si lo que ocurre es sedimentación;
+- produces, si no hay conversión de régimen.
+
+--------------------------------------------------------------------------------
+4.19) interfaces_with
+Definición:
+Acoplamiento explícito entre paquetes o regiones sin equivalencia.
+
+Dirección:
+se registra de X hacia Y, aunque su semántica es débilmente simétrica.
+
+Lectura:
+<X> interfaces_with <Y>
+
+Uso correcto:
+cuando dos paquetes, regiones o nodos se acoplan funcionalmente sin que uno
+dependa totalmente del otro ni deba confundirse con él.
+
+No debe confundirse con:
+- depends_on, si existe dependencia estructural;
+- uses, si solo hay empleo unilateral.
+
+--------------------------------------------------------------------------------
+5) Arista local permitida para secuencias y subgrafos stage-based
+
+5.1) stage_of
+Definición:
+Un nodo funciona como stage explícito de una secuencia o subgrafo secuencial.
+
+Dirección:
+va del stage a la secuencia de la que forma parte.
+
+Lectura:
+<X> stage_of <Y>
+
+Uso correcto:
+cuando una secuencia necesita declarar sus stages internos como componentes
+explícitos y ordenables.
+
+Regla de rango:
+stage_of no queda fijada aquí como arista canónica transversal del mismo rango que
+las 19 anteriores.
+Queda fijada como arista local permitida para:
+- secuencias,
+- subgrafos stage-based,
+- trayectorias canónicas,
+- y representaciones donde convenga distinguir explícitamente componentes-stage
+  de un nodo secuencial mayor.
+
+No debe confundirse con:
+- feeds, porque stage_of marca pertenencia secuencial, no alimentación;
+- refines, porque no marca especificación conceptual;
+- produces, porque no marca resultado.
+
+--------------------------------------------------------------------------------
+6) Reglas de uso de aristas
+
+6.1) Regla de trazabilidad
+Toda arista importante debe poder justificarse en una oración mínima.
+
+6.2) Regla de no inflación
+No deben multiplicarse aristas si una sola expresa con claridad la relación.
+
+6.3) Regla de no colapso
+Una misma arista no debe usarse para cubrir relaciones semánticamente distintas.
+
+6.4) Regla de preferencia semántica
+Si una relación cabe claramente en una arista ya fijada, debe usarse esa y no
+inventarse otra.
+
+6.5) Regla de excepción
+Si una relación no cabe en ninguna arista fijada:
+- debe explicarse por qué;
+- debe declararse como local o provisional;
+- y no debe elevarse automáticamente a convención transversal.
+
+--------------------------------------------------------------------------------
+7) Convenciones útiles adicionales para el grafo ACCD
+
+7.1) Convención de centralidad
+Todo subgrafo debe preferir reutilizar componentes globales antes que redefinirlos.
+
+7.2) Convención de borde
+Todo nodo o subgrafo importante debe poder decir:
+- qué delimita,
+- qué no delimita,
+- y con qué se conecta.
+
+7.3) Convención de nivel ontológico
+Todo nodo relevante debe poder ubicarse en un nivel:
+- arquitectura,
+- entidad comercializada,
+- interfaz,
+- caso,
+- manifestación,
+- evidencia/retorno,
+- convertibilidad/captura.
+
+7.4) Convención de secuencia
+Las secuencias deben usar:
+- stage_of, cuando la prioridad sea declarar pertenencia stage-based;
+- feeds, cuando la prioridad sea declarar insumo posterior;
+- reenters, cuando la prioridad sea declarar reingreso al sistema.
+
+7.5) Convención de especialización
+Cuando un nodo local derive de un componente global, debe preferirse:
+specializes
+antes que una redefinición silenciosa.
+
+7.6) Convención de refinamiento
+Cuando un nodo o subgrafo explicite una región conceptual ya fijada, debe
+preferirse:
+refines
+
+7.7) Convención de integración interpaquete
+Las conexiones con otros paquetes conceptuales deben usar preferentemente:
+- depends_on
+- uses
+- specializes
+- interfaces_with
+
+y no expresiones ambiguas no tipadas.
+
+--------------------------------------------------------------------------------
+8) Checklist mínimo de validación relacional
+
+Antes de fijar una arista, conviene preguntar:
+
+1. ¿Cuál es exactamente la relación semántica?
+2. ¿Cuál es la dirección correcta?
+3. ¿Existe ya una arista canónica que la cubra?
+4. ¿La arista expresa:
+   tipado,
+   dependencia,
+   uso,
+   producción,
+   mediación,
+   refinamiento,
+   especialización,
+   reingreso,
+   acumulación,
+   conversión,
+   interfaz,
+   o stage?
+5. ¿Se está confundiendo una relación de pertenencia con una de causalidad?
+6. ¿La arista necesita rationale explícito?
+7. ¿Esta relación debería ser transversal o solo local?
+
+--------------------------------------------------------------------------------
+9) Fórmula de cierre
+
+meta/conventions = componente transversal del paquete que fija:
+- reglas de representación,
+- reglas de nombrado,
+- direcciones de aristas,
+- semántica mínima de las relaciones canónicas,
+- uso controlado de aristas locales como stage_of,
+- y criterios de validación relacional para mantener consistencia en el grafo ACCD.
+
+Por eso, meta/conventions no es un apéndice técnico menor.
+
+Es el componente que permite que el grafo no se vuelva una suma arbitraria de
+nodos y aristas, sino una estructura formalizable, reutilizable y coherente.
+]"}

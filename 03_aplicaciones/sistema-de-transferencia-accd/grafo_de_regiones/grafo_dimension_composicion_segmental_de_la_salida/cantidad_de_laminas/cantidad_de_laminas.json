@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+    "label": "cantidad_de_laminas",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+    "summary": "Campo que fija la extensión laminar compatible de una salida carousel.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

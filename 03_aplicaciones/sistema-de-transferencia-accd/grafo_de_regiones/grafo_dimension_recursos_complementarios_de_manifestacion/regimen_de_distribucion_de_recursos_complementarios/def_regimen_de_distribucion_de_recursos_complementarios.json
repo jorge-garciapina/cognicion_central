@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios",
+  "content": "Indicar cómo se distribuyen globalmente los recursos complementarios a lo largo de la pieza. Tipo de valor: Categorial cerrado. Cardinalidad: Un valor obligatorio. Restricciones: Debe ser coherente con la arquitectura macro. Debe poder realizarse dentro de la segmentación interna declarada."
+}

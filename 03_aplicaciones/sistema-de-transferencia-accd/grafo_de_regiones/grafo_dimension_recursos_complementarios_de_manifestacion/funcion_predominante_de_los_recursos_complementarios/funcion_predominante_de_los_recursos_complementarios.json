@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios",
+    "label": "funcion_predominante_de_los_recursos_complementarios",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios",
+    "summary": "Indicar qué función cumplen predominantemente los recursos complementarios dentro de la pieza.",
+    "metadata": {
+      "section": "12.5",
+      "value_type": "Categorial cerrado múltiple controlado",
+      "cardinality": "Uno o más valores compatibles",
+      "raw_restrictions": [
+        "Los valores seleccionados deben ser compatibles entre sí.",
+        "La función predominante debe ser coherente con la función dominante de la pieza."
+      ]
+    }
+  }
+}

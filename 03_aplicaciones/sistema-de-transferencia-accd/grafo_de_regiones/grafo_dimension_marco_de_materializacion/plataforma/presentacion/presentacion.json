@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+    "label": "presentacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+    "summary": "**Definición.** Entorno de exposición visual por diapositivas o pantallas. La imagen debe sostener lectura a distancia, apoyo oral potencial y comprensión rápida por parte de una audiencia.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma"
+    }
+  }
+}

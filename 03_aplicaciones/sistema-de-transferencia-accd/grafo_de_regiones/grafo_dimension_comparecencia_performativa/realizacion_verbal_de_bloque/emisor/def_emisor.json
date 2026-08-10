@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor",
+  "content": "Debe indicar qué tipo de emisor verbal comparece localmente cuando el bloque lo requiere. Tipo de valor: descriptivo controlado. Cardinalidad: cero o uno por bloque."
+}

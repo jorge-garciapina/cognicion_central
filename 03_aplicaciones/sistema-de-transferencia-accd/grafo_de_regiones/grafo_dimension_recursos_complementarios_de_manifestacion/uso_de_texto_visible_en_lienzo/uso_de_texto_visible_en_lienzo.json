@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo",
+    "label": "uso_de_texto_visible_en_lienzo",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo",
+    "summary": "**Definición.** Campo que define cómo aparece texto legible dentro del campo visual. A diferencia de “texto en pantalla”, está pensado para piezas estáticas donde el texto forma parte del lienzo y puede actuar como titular, etiqueta, anotación, bloque informativo o elemento visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-causa_efecto-causa_efecto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-causa_efecto-causa_efecto",
+    "label": "causa_efecto",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-causa_efecto-causa_efecto",
+    "summary": "**Definición.** Relación en la que una idea se presenta como origen y otra como consecuencia. Puede expresarse por flechas, transformación, gradiente, impacto o antes/después. Su rasgo esencial es la direccionalidad causal, no la mera sucesión.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

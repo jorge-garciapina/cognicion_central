@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear",
+    "label": "nuclear",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear",
+    "summary": "Valor nuclear declarado para el campo rol_conceptual.",
+    "metadata": {
+      "value_of": "rol_conceptual"
+    }
+  }
+}

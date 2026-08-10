@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-impacto_visual_inmediato-impacto_visual_inmediato",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-impacto_visual_inmediato-impacto_visual_inmediato",
+    "label": "impacto_visual_inmediato",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-impacto_visual_inmediato-impacto_visual_inmediato",
+    "summary": "**Definición.** Valor que indica una activación atencional basada en la fuerza perceptiva instantánea de la composición. El receptor debe notar la pieza antes de procesar sus detalles, gracias a un contraste, escala, forma, color, imagen, vacío, gesto o tensión visual dominante.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

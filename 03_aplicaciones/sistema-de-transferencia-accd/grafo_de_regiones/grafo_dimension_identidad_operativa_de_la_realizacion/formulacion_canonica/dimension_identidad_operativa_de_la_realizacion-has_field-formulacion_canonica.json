@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-has_field-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-has_field-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "from": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+    "to": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "type": "has_field",
+    "rationale": "formulacion_canonica es un campo directo declarado dentro de dimension_identidad_operativa_de_la_realizacion."
+  }
+}

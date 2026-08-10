@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-analoga-analoga",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-analoga-analoga",
+    "label": "analoga",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-analoga-analoga",
+    "summary": "**Definición.** Paleta basada en colores cercanos entre sí. Produce armonía, continuidad y sensación de sistema coherente con menor tensión cromática.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica"
+    }
+  }
+}

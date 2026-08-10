@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "type": "has_field",
+    "rationale": "regimen_de_activacion_atencional es un campo directo declarado dentro de dimension_dinamica_atencional_y_procesual."
+  }
+}

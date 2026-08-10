@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora",
+    "label": "sintetizadora",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora",
+    "summary": "Valor sintetizadora declarado para el campo configuracion_discursiva.",
+    "metadata": {
+      "value_of": "configuracion_discursiva",
+      "source_section": "4.4"
+    }
+  }
+}

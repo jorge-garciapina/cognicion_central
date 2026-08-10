@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "type": "has_field",
+    "rationale": "clase_de_materializacion es un campo directo declarado dentro de dimension_marco_de_materializacion."
+  }
+}

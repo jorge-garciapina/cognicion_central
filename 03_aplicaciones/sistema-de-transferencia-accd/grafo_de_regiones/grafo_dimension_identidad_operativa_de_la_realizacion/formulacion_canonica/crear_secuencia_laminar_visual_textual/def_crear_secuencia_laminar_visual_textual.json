@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_secuencia_laminar_visual_textual-crear_secuencia_laminar_visual_textual",
+  "content": "Valor que define la realización como una secuencia compuesta por unidades laminares, donde texto e imagen pueden operar como partes estructurales de la pieza.\n\nEste valor ayuda a distinguir `carousel/` de `video_corto/`: el primero se organiza por láminas; el segundo, por continuidad audiovisual temporal.\n\nEjemplo de uso:\n\n```txt\nformulacion_canonica: crear_secuencia_laminar_visual_textual\n```\n\nSirve cuando se quiere enfatizar la materialidad propia del carousel: una progresión visual-textual organizada por láminas.\n\n---"
+}

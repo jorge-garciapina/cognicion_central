@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-imagen_dominante_texto_secundario-imagen_dominante_texto_secundario",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-imagen_dominante_texto_secundario-imagen_dominante_texto_secundario",
+    "label": "imagen_dominante_texto_secundario",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-imagen_dominante_texto_secundario-imagen_dominante_texto_secundario",
+    "summary": "Valor en el que la imagen o escena ocupa el peso principal de la lámina, mientras el texto guía la interpretación.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

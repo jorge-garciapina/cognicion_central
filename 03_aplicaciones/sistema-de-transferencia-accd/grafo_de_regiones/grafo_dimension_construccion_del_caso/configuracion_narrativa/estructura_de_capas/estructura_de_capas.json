@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-estructura_de_capas-estructura_de_capas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-estructura_de_capas-estructura_de_capas",
+    "label": "estructura_de_capas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-estructura_de_capas-estructura_de_capas",
+    "summary": "**Definición.** Configuración que organiza el caso por niveles superpuestos, estratos o planos de profundidad conceptual. Sirve para mostrar que una idea tiene superficie, soporte, fondo, infraestructura, contexto o niveles de lectura. Se distingue de una lista porque los elementos no son equivalent",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

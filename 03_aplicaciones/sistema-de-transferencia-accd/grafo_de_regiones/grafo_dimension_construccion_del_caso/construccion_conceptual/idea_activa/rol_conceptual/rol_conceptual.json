@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual",
+    "label": "rol_conceptual",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual",
+    "summary": "Campo interno que determina el papel conceptual de la idea activa dentro del caso.",
+    "metadata": {
+      "value_type": "Categorial cerrado",
+      "declared_inside": "idea_activa"
+    }
+  }
+}

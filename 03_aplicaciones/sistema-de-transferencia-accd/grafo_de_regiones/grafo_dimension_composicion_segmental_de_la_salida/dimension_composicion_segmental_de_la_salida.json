@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+    "label": "dimension_composicion_segmental_de_la_salida",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida",
+    "summary": "Dimensión que describe cómo se organiza la salida en el tiempo y en la distribución interna de bloques, tramos y unidades de construcción.",
+    "metadata": {
+      "section": "11",
+      "mode": "sin_inferencias",
+      "source_scope": "solo campos, valores y restricciones declaradas"
+    }
+  }
+}

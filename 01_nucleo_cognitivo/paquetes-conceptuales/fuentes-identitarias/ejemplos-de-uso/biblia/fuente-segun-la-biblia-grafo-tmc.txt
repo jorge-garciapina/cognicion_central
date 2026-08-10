@@ -1,0 +1,1053 @@
+{"address":"meta/header","content":{
+  "title":"Artefacto — Grafo del concepto de «Fuente» según la Biblia",
+  "version":"0.1.0",
+  "status":"Draft",
+  "date":"2026-03-15",
+  "language":"es",
+  "goal":"Mantener una fotografía cognitiva del concepto bíblico de «fuente» mostrando que en la Escritura no nombra solo un manantial físico, sino una arquitectura teológica de origen, vida, sabiduría, pureza, mediación, discernimiento, denuncia de falsos sustentos y restauración final."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                           CONVENCIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"meta/conventions","content":{
+  "namespaces":{"graph_nodes":"graph/node/*","graph_edges":"graph/edge/*","definitions":"def/*"},
+  "edge_types":{
+    "depends_on":"A depends_on B = A NO puede existir (definirse con identidad estable) sin B",
+    "uses":"A uses B = A incorpora a B como recurso o instrumento, pero A puede existir sin B",
+    "refines":"A refines B = A hace más preciso a B sin cambiar su núcleo (reduce ambigüedad)",
+    "enables":"A enables B = A hace viable u operable a B, sin ser constitutivo de su identidad",
+    "constrains":"A constrains B = A impone límites a B (reduce el espacio de configuraciones válidas)",
+    "projects_to":"A projects_to B = A se expresa o se representa en B como plano de manifestación",
+    "realizes":"A realizes B = A encarna o instancia B como entidad operativa o forma concreta",
+    "provides_criteria_for":"A provides_criteria_for B = A impone o provee criterios de formulación y validación para que B sea legible y transferible"
+  },
+  "node_min_fields":["id","label","type","definition_ref","summary"],
+  "edge_min_fields":["id","from","to","type","rationale"],
+  "note":"Este artefacto sigue la misma lógica estructural del grafo de TMC: meta/header, meta/conventions, overview, nodos, aristas y definiciones extensas. El contenido no replica TMC; solo reutiliza su forma de definición. Las referencias bíblicas funcionan como anclajes canónicos orientativos, no como lista exhaustiva de todos los pasajes donde aparece la palabra o la imagen."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                  OVERVIEW
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/overview","content":"[
+================================================================================
+OVERVIEW — FUENTE SEGÚN LA BIBLIA
+================================================================================
+
+En la Biblia, «fuente» no debe leerse solo como un objeto del paisaje. Tampoco debe reducirse a una
+metáfora poética aislada. El campo semántico de la fuente funciona como una arquitectura conceptual
+profunda que conecta, al mismo tiempo, varios planos:
+
+1) ONTOLÓGICO:
+   La fuente nombra el origen no derivado o el principio del que algo procede.
+
+2) VITAL:
+   La fuente nombra aquello que sostiene la vida, la renueva y la hace posible de manera continua.
+
+3) NOÉTICO Y NORMATIVO:
+   La fuente puede aparecer como sabiduría, instrucción, palabra o enseñanza que orienta la existencia.
+
+4) ANTROPOLÓGICO:
+   El ser humano también aparece como una fuente secundaria: del corazón brotan palabras, decisiones,
+   intenciones y obras. Esto significa que la Biblia no reserva la lógica de la fuente solo para Dios o
+   para el paisaje, sino que la interioriza.
+
+5) CRÍTICO:
+   La Biblia opone fuentes verdaderas a fuentes falsas. El contraste decisivo no es solo entre agua y
+   sequía, sino entre una fuente viva y una cisterna rota: entre lo que realmente mana y lo que solo
+   promete sostener.
+
+6) CULTUAL Y SALVÍFICO:
+   La fuente se asocia con pureza, perdón, limpieza, sanidad y restauración del pueblo.
+
+7) CRISTOLÓGICO:
+   En el Nuevo Testamento, la lógica de la fuente alcanza una concentración singular en Cristo como
+   mediación del agua viva, sin romper por ello la afirmación de Dios como fuente primaria.
+
+8) ESCATOLÓGICO:
+   Al final de la economía bíblica, la fuente se expande como río de vida, como agua que brota del
+   trono, del templo o de la nueva creación. Esto muestra que la fuente no es solo origen inicial;
+   también es consumación.
+
+La clave teórica de este artefacto es la siguiente:
+
+- Una fuente bíblica no se reconoce solo por su punto de origen.
+- Se reconoce por el tipo de realidad que hace brotar.
+- Se reconoce por su capacidad de sostener vida, verdad, pureza y fidelidad.
+- Se reconoce también por la coherencia entre origen, flujo y fruto.
+
+Esto permite construir una ontología más fuerte del concepto.
+
+La fuente, en sentido bíblico, no es únicamente:
+- un lugar de agua,
+- una figura literaria,
+- una metáfora religiosa genérica,
+- ni un sinónimo simple de «origen».
+
+Es, más bien, una estructura relacional donde se articula:
+- de dónde procede algo,
+- qué clase de vida comunica,
+- bajo qué condiciones permanece viva,
+- cómo se distingue de sus sustitutos falsos,
+- y cómo desemboca en una economía de restauración.
+
+Un rasgo decisivo es la diferencia entre FUENTE y DEPÓSITO.
+
+La fuente es dinámica: mana.
+El depósito es derivado: contiene.
+La cisterna puede almacenar, pero no es fuente en sentido fuerte.
+Por eso Jeremías 2:13 es decisivo para esta ontología: el problema no es solo el pecado entendido
+moralmente, sino el reemplazo de la fuente viva por estructuras derivadas, cerradas o rotas. Esa
+crítica revela algo central: bíblicamente, una falsa fuente no deja de ser falsa porque sea visible,
+útil o tradicional, sino porque no posee flujo vital propio.
+
+Otro rasgo decisivo es que la fuente bíblica se mueve entre trascendencia e interioridad.
+
+- Dios es fuente primaria.
+- Cristo media o actualiza esa fuente en la economía de la salvación.
+- El corazón humano actúa como fuente secundaria de conducta.
+- La comunidad restaurada participa de ese flujo.
+- La nueva creación lo universaliza simbólicamente como río o agua de vida.
+
+Así, «fuente» se vuelve un operador que organiza una red entera:
+origen → flujo → recepción → discernimiento → fruto → restauración.
+
+Ese es el principio ordenador del presente grafo.
+
+Referencias bíblicas orientativas para el overview:
+Ps 36:9; Prov 4:23; 10:11; 13:14; 14:27; 16:22; Jer 2:13; 17:13; Zac 13:1; Ez 47; Jn 4:10-14;
+Jn 7:37-39; Stg 3:11-12; Ap 21:6; 22:1-2.
+================================================================================
+FIN DEL OVERVIEW
+================================================================================
+]"}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (NODOS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/node/BIB-Fuente-Segun-la-Biblia","content":{
+  "id":"BIB-Fuente-Segun-la-Biblia",
+  "label":"Fuente según la Biblia — arquitectura del origen, sustento y flujo",
+  "type":"root_bridge",
+  "definition_ref":"def/BIB-Fuente-Segun-la-Biblia",
+  "summary":"Este nodo fija el concepto general de «fuente» en clave bíblica como una estructura relacional que
+  une origen, vida, flujo, discernimiento y restauración. No se limita al manantial físico; nombra aquello que tiene
+  capacidad de hacer brotar, sostener y comunicar una realidad. En la Biblia, la fuente es reconocible por lo que emana
+  de ella, por el tipo de vida que sostiene y por su oposición a sustitutos cerrados o rotos (Ps 36:9; Jer 2:13; Jn 4:10-14)."
+}}
+
+{"address":"graph/node/BIB-Dios-Como-Fuente-Primaria","content":{
+  "id":"BIB-Dios-Como-Fuente-Primaria",
+  "label":"Dios como fuente primaria",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Dios-Como-Fuente-Primaria",
+  "summary":"Este nodo fija que, dentro de la economía bíblica, Dios no es una fuente entre otras, sino la fuente primaria
+  y no derivada. La vida, la luz, la sabiduría, la fidelidad y la salvación no aparecen como realidades autónomas, sino como
+  flujos que remiten a Él. Esto vuelve a Dios el fundamento ontológico del concepto, no solo su referente devocional (Ps 36:9;
+  Jer 2:13; Jer 17:13)."
+}}
+
+{"address":"graph/node/BIB-Fuente-de-Vida","content":{
+  "id":"BIB-Fuente-de-Vida",
+  "label":"Fuente de vida",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-de-Vida",
+  "summary":"Este nodo concentra la dimensión vital del concepto. La fuente bíblica no se define solo por ser origen, sino
+  por ser origen que sostiene la vida y la hace fluir. La expresión «fuente de vida» indica que la verdadera fuente posee
+  eficacia sustentadora, regeneradora y orientadora; no es una causa abstracta sino un principio vivo que alimenta la existencia
+  (Ps 36:9; Prov 13:14; 14:27; 16:22)."
+}}
+
+{"address":"graph/node/BIB-Fuente-de-Agua-Viva","content":{
+  "id":"BIB-Fuente-de-Agua-Viva",
+  "label":"Fuente de agua viva",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-de-Agua-Viva",
+  "summary":"Este nodo precisa que la Biblia distingue entre agua meramente disponible y agua viva. La fuente de agua viva
+  nombra un origen activo, renovador y no estancado. En el Antiguo Testamento, esa imagen denuncia el abandono de Dios y,
+  en el Nuevo, se concentra en la promesa de Cristo. El rasgo decisivo es el movimiento vivificante del agua: brota, renueva
+  y no depende de almacenamiento muerto (Jer 2:13; Jn 4:10-14; 7:37-39)."
+}}
+
+{"address":"graph/node/BIB-Fuente-de-Sabiduria-y-Ensenanza","content":{
+  "id":"BIB-Fuente-de-Sabiduria-y-Ensenanza",
+  "label":"Fuente de sabiduría y enseñanza",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-de-Sabiduria-y-Ensenanza",
+  "summary":"Este nodo introduce la dimensión noética y normativa de la fuente. En la Biblia, la fuente no solo comunica
+  agua o vida biológica; también comunica orientación, juicio, prudencia y enseñanza. La sabiduría, la instrucción y la
+  palabra justa pueden ser descritas como una fuente porque generan una forma de vida, abren camino y preservan del extravío
+  (Prov 10:11; 13:14; 16:22)."
+}}
+
+{"address":"graph/node/BIB-Fuente-del-Corazon","content":{
+  "id":"BIB-Fuente-del-Corazon",
+  "label":"El corazón como fuente secundaria",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-del-Corazon",
+  "summary":"Este nodo fija la interiorización antropológica del concepto. El corazón humano aparece como lugar del que
+  brotan palabras, decisiones y conductas; por eso puede analizarse como fuente secundaria. La Biblia no equipara el corazón
+  a la fuente divina, pero sí usa la misma lógica estructural: del interior mana algo que luego se exterioriza y se vuelve
+  visible por sus frutos (Prov 4:23; Mt 12:34-35; Lc 6:45; Stg 3:11-12)."
+}}
+
+{"address":"graph/node/BIB-Fuente-de-Pureza-y-Sanidad","content":{
+  "id":"BIB-Fuente-de-Pureza-y-Sanidad",
+  "label":"Fuente de pureza y sanidad",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-de-Pureza-y-Sanidad",
+  "summary":"Este nodo reúne la dimensión cultual, moral y restaurativa del concepto. Hay una fuente que no solo sacia, sino que limpia, purifica, sana y reabre la comunión. La Biblia asocia la fuente con perdón, eliminación de impureza, restauración del pueblo y transformación del espacio herido. Por eso la fuente también opera como una economía de limpieza y renovación (Zac 13:1; Ez 47:1-12; Ap 22:1-2)."
+}}
+
+{"address":"graph/node/BIB-Fuentes-Falsas-y-Cisternas-Rotas","content":{
+  "id":"BIB-Fuentes-Falsas-y-Cisternas-Rotas",
+  "label":"Fuentes falsas y cisternas rotas",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuentes-Falsas-y-Cisternas-Rotas",
+  "summary":"Este nodo introduce el contraste crítico sin el cual el concepto queda incompleto. La Biblia denuncia sustitutos de la fuente: realidades que prometen sustento, seguridad o vida, pero carecen de flujo propio y terminan vacías o agrietadas. La cisterna rota es el anti-modelo de la fuente viva: conserva apariencia de provisión, pero no comunica vida durable (Jer 2:13; Jer 17:13; Isa 55:1-2 como contraste de la búsqueda verdadera)."
+}}
+
+{"address":"graph/node/BIB-Mediacion-Cristologica-de-la-Fuente","content":{
+  "id":"BIB-Mediacion-Cristologica-de-la-Fuente",
+  "label":"Mediación cristológica de la fuente",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Mediacion-Cristologica-de-la-Fuente",
+  "summary":"Este nodo fija que, en el Nuevo Testamento, la lógica de la fuente se concentra en Cristo de manera singular. Él no sustituye a Dios como fuente primaria, pero sí actualiza, ofrece, distribuye y encarna el agua viva en la economía de la salvación. La cristología de la fuente vuelve personal, ofrecida y escatológicamente eficaz la realidad que en el Antiguo Testamento aparecía prometida o figurada (Jn 4:10-14; Jn 7:37-39; Ap 21:6)."
+}}
+
+{"address":"graph/node/BIB-Fuente-Escatologica-de-Restauracion","content":{
+  "id":"BIB-Fuente-Escatologica-de-Restauracion",
+  "label":"Fuente escatológica de restauración",
+  "type":"bridge_node",
+  "definition_ref":"def/BIB-Fuente-Escatologica-de-Restauracion",
+  "summary":"Este nodo fija la dimensión final del concepto: la fuente bíblica desemboca en una visión de restauración total. Lo que empieza como manantial, agua viva o purificación termina figurado como río que sale del templo o del trono y rehace el mundo. Esto muestra que la fuente no es solo un origen pasado ni una experiencia individual presente, sino también una promesa de consumación cósmica (Ez 47; Zac 14:8; Ap 22:1-2)."
+}}
+
+{"address":"graph/node/BIB-Discernimiento-de-la-Fuente","content":{
+  "id":"BIB-Discernimiento-de-la-Fuente",
+  "label":"Discernimiento de la fuente",
+  "type":"principle_methodological",
+  "definition_ref":"def/BIB-Discernimiento-de-la-Fuente",
+  "summary":"Este nodo introduce el criterio metodológico para reconocer qué cuenta como fuente verdadera dentro de la lógica bíblica. La Escritura obliga a evaluar las fuentes por su origen, su coherencia, lo que producen y el tipo de vida que hacen brotar. No toda abundancia es agua viva, no toda voz es sabiduría, no todo depósito es fuente, y no todo brote interior es puro (Prov 4:23; Stg 3:11-12; Jer 2:13; Mt 7:16-20 por analogía de fruto)."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                              GRAFO (ARISTAS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/edge/BIB-Dios-Como-Fuente-Primaria-realizes-BIB-Fuente-Segun-la-Biblia","content":{
+  "id":"BIB-Dios-Como-Fuente-Primaria-realizes-BIB-Fuente-Segun-la-Biblia",
+  "from":"BIB-Dios-Como-Fuente-Primaria",
+  "to":"BIB-Fuente-Segun-la-Biblia",
+  "type":"realizes",
+  "rationale":"La arista realizes establece que el concepto general de fuente, dentro de la Biblia, encuentra su realización primaria en Dios. El nodo raíz no puede quedar como una abstracción hidráulica o literaria; requiere un anclaje ontológico. Ese anclaje es Dios como origen no derivado de vida, luz, fidelidad y salvación."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Vida-refines-BIB-Dios-Como-Fuente-Primaria","content":{
+  "id":"BIB-Fuente-de-Vida-refines-BIB-Dios-Como-Fuente-Primaria",
+  "from":"BIB-Fuente-de-Vida",
+  "to":"BIB-Dios-Como-Fuente-Primaria",
+  "type":"refines",
+  "rationale":"La arista refines establece que «fuente de vida» hace más preciso el significado de Dios como fuente primaria. No añade otro origen distinto, sino que especifica el modo en que la primacía divina se manifiesta: como sustento vital, preservación de la existencia y principio que comunica vida."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Agua-Viva-depends_on-BIB-Dios-Como-Fuente-Primaria","content":{
+  "id":"BIB-Fuente-de-Agua-Viva-depends_on-BIB-Dios-Como-Fuente-Primaria",
+  "from":"BIB-Fuente-de-Agua-Viva",
+  "to":"BIB-Dios-Como-Fuente-Primaria",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que la noción de agua viva no puede definirse con identidad estable sin Dios como fuente primaria. De otro modo, «agua viva» se degradaría a simple vitalidad simbólica o a energía genérica sin origen teológico claro."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Agua-Viva-refines-BIB-Fuente-de-Vida","content":{
+  "id":"BIB-Fuente-de-Agua-Viva-refines-BIB-Fuente-de-Vida",
+  "from":"BIB-Fuente-de-Agua-Viva",
+  "to":"BIB-Fuente-de-Vida",
+  "type":"refines",
+  "rationale":"La arista refines establece que el agua viva hace más concreta la categoría de fuente de vida. Mientras «vida» puede permanecer relativamente abstracta, «agua viva» la presenta como flujo renovador, disponible, dinámico y no estancado."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Sabiduria-y-Ensenanza-refines-BIB-Dios-Como-Fuente-Primaria","content":{
+  "id":"BIB-Fuente-de-Sabiduria-y-Ensenanza-refines-BIB-Dios-Como-Fuente-Primaria",
+  "from":"BIB-Fuente-de-Sabiduria-y-Ensenanza",
+  "to":"BIB-Dios-Como-Fuente-Primaria",
+  "type":"refines",
+  "rationale":"La arista refines establece que la dimensión de sabiduría y enseñanza hace más precisa la afirmación de Dios como fuente. Dios no solo origina la vida; también origina la orientación, la prudencia y la palabra que estructura la existencia."
+}}
+
+{"address":"graph/edge/BIB-Fuente-Segun-la-Biblia-projects_to-BIB-Fuente-del-Corazon","content":{
+  "id":"BIB-Fuente-Segun-la-Biblia-projects_to-BIB-Fuente-del-Corazon",
+  "from":"BIB-Fuente-Segun-la-Biblia",
+  "to":"BIB-Fuente-del-Corazon",
+  "type":"projects_to",
+  "rationale":"La arista projects_to establece que la lógica general de la fuente se proyecta en el plano antropológico del corazón. El ser humano no se vuelve fuente primaria, pero sí un lugar secundario de emanación donde la interioridad produce palabras, decisiones y obras."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Pureza-y-Sanidad-refines-BIB-Fuente-de-Agua-Viva","content":{
+  "id":"BIB-Fuente-de-Pureza-y-Sanidad-refines-BIB-Fuente-de-Agua-Viva",
+  "from":"BIB-Fuente-de-Pureza-y-Sanidad",
+  "to":"BIB-Fuente-de-Agua-Viva",
+  "type":"refines",
+  "rationale":"La arista refines establece que la pureza y la sanidad hacen más preciso el sentido del agua viva. La vida que brota de la fuente bíblica no solo sostiene; también limpia, reordena, cura y restituye la comunión rota."
+}}
+
+{"address":"graph/edge/BIB-Fuentes-Falsas-y-Cisternas-Rotas-constrains-BIB-Fuente-Segun-la-Biblia","content":{
+  "id":"BIB-Fuentes-Falsas-y-Cisternas-Rotas-constrains-BIB-Fuente-Segun-la-Biblia",
+  "from":"BIB-Fuentes-Falsas-y-Cisternas-Rotas",
+  "to":"BIB-Fuente-Segun-la-Biblia",
+  "type":"constrains",
+  "rationale":"La arista constrains establece que el contraste con fuentes falsas reduce el espacio de configuraciones válidas del concepto general. Gracias a este nodo se vuelve claro que no todo depósito, sistema de sostén o promesa de vida cuenta como fuente en sentido bíblico."
+}}
+
+{"address":"graph/edge/BIB-Mediacion-Cristologica-de-la-Fuente-realizes-BIB-Fuente-de-Agua-Viva","content":{
+  "id":"BIB-Mediacion-Cristologica-de-la-Fuente-realizes-BIB-Fuente-de-Agua-Viva",
+  "from":"BIB-Mediacion-Cristologica-de-la-Fuente",
+  "to":"BIB-Fuente-de-Agua-Viva",
+  "type":"realizes",
+  "rationale":"La arista realizes establece que la promesa de agua viva encuentra una realización decisiva en Cristo dentro del Nuevo Testamento. Él la ofrece, la personifica y la vuelve experiencia salvífica concreta sin separar esa agua de su origen divino."
+}}
+
+{"address":"graph/edge/BIB-Mediacion-Cristologica-de-la-Fuente-depends_on-BIB-Dios-Como-Fuente-Primaria","content":{
+  "id":"BIB-Mediacion-Cristologica-de-la-Fuente-depends_on-BIB-Dios-Como-Fuente-Primaria",
+  "from":"BIB-Mediacion-Cristologica-de-la-Fuente",
+  "to":"BIB-Dios-Como-Fuente-Primaria",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que la mediación cristológica no puede definirse de manera estable sin Dios como fuente primaria. En términos bíblicos, Cristo no inaugura una fuente autónoma desligada del Padre; media y actualiza la fuente divina."
+}}
+
+{"address":"graph/edge/BIB-Fuente-Escatologica-de-Restauracion-depends_on-BIB-Mediacion-Cristologica-de-la-Fuente","content":{
+  "id":"BIB-Fuente-Escatologica-de-Restauracion-depends_on-BIB-Mediacion-Cristologica-de-la-Fuente",
+  "from":"BIB-Fuente-Escatologica-de-Restauracion",
+  "to":"BIB-Mediacion-Cristologica-de-la-Fuente",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que, en la síntesis canónica cristiana, la restauración final queda ligada a la mediación cristológica de la fuente. La consumación escatológica no es una realidad acuática anónima, sino la expansión final del don divino ya ofrecido."
+}}
+
+{"address":"graph/edge/BIB-Fuente-Escatologica-de-Restauracion-refines-BIB-Fuente-de-Pureza-y-Sanidad","content":{
+  "id":"BIB-Fuente-Escatologica-de-Restauracion-refines-BIB-Fuente-de-Pureza-y-Sanidad",
+  "from":"BIB-Fuente-Escatologica-de-Restauracion",
+  "to":"BIB-Fuente-de-Pureza-y-Sanidad",
+  "type":"refines",
+  "rationale":"La arista refines establece que la visión escatológica hace más precisa la dimensión de pureza y sanidad. Lo que en el presente aparece como limpieza o restauración parcial, en la escatología se vuelve reconfiguración integral del mundo."
+}}
+
+{"address":"graph/edge/BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuente-Segun-la-Biblia","content":{
+  "id":"BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuente-Segun-la-Biblia",
+  "from":"BIB-Discernimiento-de-la-Fuente",
+  "to":"BIB-Fuente-Segun-la-Biblia",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que el discernimiento provee el estándar para formular el concepto general sin vaguedad. Gracias a este nodo, la fuente se juzga por origen, flujo, coherencia y fruto, no por mera apariencia religiosa o emotiva."
+}}
+
+{"address":"graph/edge/BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuente-del-Corazon","content":{
+  "id":"BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuente-del-Corazon",
+  "from":"BIB-Discernimiento-de-la-Fuente",
+  "to":"BIB-Fuente-del-Corazon",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que el discernimiento entrega criterios para leer el corazón como fuente secundaria. No todo brote interior es santo ni todo impulso es puro; es necesario evaluar qué tipo de realidad mana del corazón."
+}}
+
+{"address":"graph/edge/BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuentes-Falsas-y-Cisternas-Rotas","content":{
+  "id":"BIB-Discernimiento-de-la-Fuente-provides_criteria_for-BIB-Fuentes-Falsas-y-Cisternas-Rotas",
+  "from":"BIB-Discernimiento-de-la-Fuente",
+  "to":"BIB-Fuentes-Falsas-y-Cisternas-Rotas",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que el discernimiento es el mecanismo que permite denunciar los sustitutos de la fuente. Sin este criterio, las cisternas rotas podrían seguir pareciendo estructuras legítimas de sustento."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Sabiduria-y-Ensenanza-enables-BIB-Discernimiento-de-la-Fuente","content":{
+  "id":"BIB-Fuente-de-Sabiduria-y-Ensenanza-enables-BIB-Discernimiento-de-la-Fuente",
+  "from":"BIB-Fuente-de-Sabiduria-y-Ensenanza",
+  "to":"BIB-Discernimiento-de-la-Fuente",
+  "type":"enables",
+  "rationale":"La arista enables establece que la sabiduría y la enseñanza hacen viable el discernimiento. La Biblia no deja el juicio de las fuentes a intuición privada; lo vincula con instrucción, prudencia y palabra reveladora."
+}}
+
+{"address":"graph/edge/BIB-Fuente-de-Vida-projects_to-BIB-Fuente-Escatologica-de-Restauracion","content":{
+  "id":"BIB-Fuente-de-Vida-projects_to-BIB-Fuente-Escatologica-de-Restauracion",
+  "from":"BIB-Fuente-de-Vida",
+  "to":"BIB-Fuente-Escatologica-de-Restauracion",
+  "type":"projects_to",
+  "rationale":"La arista projects_to establece que la lógica de la fuente de vida se proyecta a un plano escatológico. La vida que brota de Dios no se agota en conservación presente; se despliega como promesa de restauración última."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                DEFINICIONES (AUTÓNOMAS + LISTAS PARA GRAFO)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/BIB-Fuente-Segun-la-Biblia","content":"[
+================================================================================
+DEFINICIÓN — FUENTE SEGÚN LA BIBLIA
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para evitar una reducción superficial del término «fuente». Cuando la Biblia habla de
+fuente, manantial, agua viva, brote o corriente originaria, no solo describe un recurso natural. Está
+organizando una inteligencia teológica del origen y del sostenimiento. Por eso, la fuente debe leerse
+como una estructura: aquello de lo cual algo procede de manera viva, aquello que comunica sustento,
+aquello que puede ser abandonado o falsificado, y aquello que al final restaura.
+
+1) Definición central
+Fuente según la Biblia = principio relacional de origen y flujo que comunica vida, verdad, pureza o
+sustento, cuya autenticidad se reconoce por el tipo de realidad que hace brotar y por su continuidad
+con Dios como fuente primaria.
+
+2) Qué fenómeno delimita
+Este concepto delimita un fenómeno doble:
+2.1) El origen vivificante de una realidad.
+2.2) La dinámica por la cual ese origen se manifiesta en flujo, nutrición, limpieza, enseñanza o fruto.
+
+Por eso, «fuente» no se reduce ni al instante inicial de origen ni al contenido que circula. Nombra la
+articulación entre ambos.
+
+3) Invariantes
+3.1) Invariante de origen:
+     La fuente remite a un punto originario o a un principio del que algo procede.
+3.2) Invariante de flujo:
+     La fuente no es mero almacenamiento; implica emanación, brote o comunicación.
+3.3) Invariante de cualidad:
+     Lo que brota de la fuente revela la naturaleza de la fuente.
+3.4) Invariante de discernimiento:
+     La Biblia obliga a distinguir entre fuentes verdaderas y falsas.
+3.5) Invariante de dependencia teológica:
+     En la lectura canónica, la fuente verdadera remite finalmente a Dios.
+
+4) Dominio de variación
+La fuente puede aparecer:
+- como realidad física,
+- como metáfora de vida,
+- como símbolo de sabiduría,
+- como imagen del corazón,
+- como figura de purificación,
+- como don cristológico,
+- o como visión escatológica.
+La variación de plano no rompe el concepto mientras permanezca la lógica origen → flujo → fruto.
+
+5) Discriminadores
+No toda imagen acuática es fuente en sentido fuerte.
+Un mar puede ser masa de agua sin señalar origen.
+Una cisterna puede contener agua sin ser fuente.
+Un río puede manifestar la expansión de la fuente, pero no siempre identifica el punto originario.
+La fuente se reconoce por originar y comunicar.
+
+6) Frontera conceptual
+Entran dentro del concepto:
+- origen vivificante,
+- dinamismo de brote,
+- capacidad de sustento,
+- pureza o renovación,
+- oposición con sustitutos falsos.
+No entran automáticamente:
+- cualquier uso ornamental del agua,
+- cualquier abundancia,
+- cualquier origen neutro sin cualidad vital o teológica.
+
+7) Relaciones con otras unidades del grafo
+- Se realiza primariamente en Dios como fuente primaria.
+- Se precisa en la noción de fuente de vida y agua viva.
+- Se proyecta al corazón humano como fuente secundaria.
+- Se vuelve criterio crítico frente a las cisternas rotas.
+- Se consuma en la fuente escatológica de restauración.
+
+8) Anclajes bíblicos orientativos
+Ps 36:9; Prov 13:14; Jer 2:13; Jn 4:10-14; Stg 3:11-12; Ap 22:1-2.
+
+9) Fórmula de cierre
+En sentido bíblico, una fuente es verdadera no solo porque origina algo, sino porque lo que origina
+y comunica participa de la vida de Dios y produce un flujo coherente con ella.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Dios-Como-Fuente-Primaria","content":"[
+================================================================================
+DEFINICIÓN — DIOS COMO FUENTE PRIMARIA
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para impedir que el concepto bíblico de fuente se vuelva una categoría religiosa
+abstracta o intercambiable. La Biblia radicaliza la idea: la fuente verdadera no es un principio
+impersonal de energía ni un equilibrio cósmico anónimo. Tiene identidad personal y teológica.
+Esa identidad, en la economía bíblica, corresponde a Dios.
+
+1) Definición central
+Dios como fuente primaria = afirmación de que el origen último, no derivado y vivificante de la vida,
+la luz, la verdad, la fidelidad y la salvación reside en Dios.
+
+2) Qué delimita
+Delimita el plano ontológico del concepto.
+La Biblia puede hablar de muchas fuentes secundarias:
+- sabiduría,
+- palabras justas,
+- corazón humano,
+- templo restaurado,
+- agua viva ofrecida.
+Pero ninguna de ellas posee autosuficiencia. Todas remiten, en última instancia, a Dios.
+Eso convierte la primariedad divina en criterio de lectura.
+
+3) Invariantes
+3.1) No-derivación:
+     Dios no recibe de otro la cualidad de fuente.
+3.2) Plenitud:
+     En Dios la fuente no es carencia compensada, sino sobreabundancia.
+3.3) Comunicabilidad:
+     La fuente divina no queda cerrada en sí; se comunica.
+3.4) Fidelidad:
+     La fuente divina no es caprichosa; su consistencia se liga al pacto y a la fidelidad.
+3.5) Juicio:
+     Abandonar la fuente no es un simple error de estrategia; es ruptura espiritual y relacional.
+
+4) Discriminadores
+Dios como fuente primaria se distingue de:
+- ídolos, porque estos no poseen vida propia;
+- estructuras humanas de seguridad, porque son derivadas;
+- fuentes interiores del hombre, porque estas son secundarias y ambiguas;
+- mediaciones salvíficas, porque estas dependen de la primacía divina.
+
+5) Relaciones con otras unidades del grafo
+- Realiza el concepto general de fuente.
+- Es refinado por la categoría de fuente de vida.
+- Hace posible la noción de agua viva.
+- Permanece como fundamento de la mediación cristológica.
+- Queda traicionado cuando el pueblo cava cisternas rotas.
+
+6) Anclajes bíblicos orientativos
+Ps 36:9 presenta a Dios como fuente de vida.
+Jer 2:13 lo presenta como fuente de aguas vivas abandonada por el pueblo.
+Jer 17:13 lo vincula con la esperanza de Israel.
+Ap 21:6 y 22:1-2 permiten ver que la consumación también brota de la soberanía divina.
+
+7) Fórmula de cierre
+Decir «Dios como fuente primaria» es afirmar que la Biblia no entiende la vida verdadera como un
+recurso autónomo al alcance del sujeto, sino como participación en un origen personal que antecede,
+sostiene y juzga todo flujo legítimo.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-de-Vida","content":"[
+================================================================================
+DEFINICIÓN — FUENTE DE VIDA
+================================================================================
+
+0) Intención del concepto
+Este nodo se introduce para concentrar la dimensión vital del concepto de fuente. En la Escritura, el
+lenguaje de la fuente no permanece en el plano del origen abstracto. Importa porque produce vida, la
+sostiene y protege contra muerte, necedad o extravío.
+
+1) Definición central
+Fuente de vida = modo en que la fuente se manifiesta como principio sostenedor, regenerador y protector
+de la existencia.
+
+2) Qué delimita
+Delimita el paso del origen a la vitalidad comunicada.
+No basta con decir que algo tiene un comienzo en Dios; la Biblia insiste en que la fuente verdadera
+alimenta el vivir humano, lo rescata de la muerte moral y orienta el camino.
+
+3) Invariantes
+3.1) Vitalidad:
+     lo que brota de esta fuente sostiene la vida.
+3.2) Orientación:
+     la vida comunicada no es biología desnuda; incluye dirección.
+3.3) Protección:
+     la fuente de vida preserva de trampas de muerte.
+3.4) Continuidad:
+     no es un acto único, sino un sostén renovado.
+
+4) Dominio de variación
+La fuente de vida puede nombrar:
+- la comunión con Dios,
+- la sabiduría que libra de la muerte,
+- la instrucción justa,
+- la experiencia de gracia,
+- la consumación futura.
+En todos esos casos se conserva la función vital.
+
+5) Discriminadores
+Se distingue de una causalidad meramente física porque la vida bíblica incluye sentido, dirección y
+relación con Dios.
+Se distingue de bienestar superficial porque no depende solo de comodidad, éxito o preservación
+temporal.
+Se distingue también de mera supervivencia, porque puede incluir corrección, temor de Dios y sabiduría.
+
+6) Relaciones con otras unidades del grafo
+- Refina a Dios como fuente primaria.
+- Es precisada por la noción de agua viva.
+- Se proyecta al plano escatológico de restauración.
+- Ayuda a leer el corazón: aquello que mana del interior participa o no de la vida verdadera.
+
+7) Anclajes bíblicos orientativos
+Ps 36:9; Prov 13:14; 14:27; 16:22.
+
+8) Fórmula de cierre
+La fuente de vida designa el hecho de que el origen verdadero no solo explica que existamos; explica
+también cómo una existencia llega a ser plena, orientada y preservada de la muerte profunda.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-de-Agua-Viva","content":"[
+================================================================================
+DEFINICIÓN — FUENTE DE AGUA VIVA
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para precisar una de las imágenes más densas del campo bíblico. «Agua viva» no es una
+simple intensificación estética de «agua». Marca una diferencia estructural entre lo que brota y lo
+que se estanca, entre lo vivo y lo retenido, entre la fuente y su sustituto.
+
+1) Definición central
+Fuente de agua viva = fuente cuyo flujo posee dinamismo renovador, eficacia vital y capacidad de saciar
+sin reducirse a reserva cerrada o estancada.
+
+2) Qué delimita
+Delimita la cualidad dinámica de la fuente. La Biblia no piensa la verdadera provisión en términos
+meramente acumulativos. El agua viva es agua que viene de una fuente activa. Por eso puede operar como
+símbolo de la gracia divina, del Espíritu, de la comunión y de la restauración.
+
+3) Invariantes
+3.1) Movimiento:
+     el agua viva brota; no depende de quietud cerrada.
+3.2) Renovación:
+     el flujo no solo mantiene, también reanima.
+3.3) No-estancamiento:
+     una fuente viva no equivale a una reserva muerta.
+3.4) Saciedad verdadera:
+     responde a la sed profunda, no solo a la necesidad inmediata.
+
+4) Relación crítica con las cisternas rotas
+Jeremías 2:13 vuelve decisiva esta oposición.
+La cisterna rota puede ser una estructura religiosa, política o existencial que pretende garantizar
+sustento. Pero no produce agua viva. Su defecto no es meramente moral; es ontológico y funcional:
+no mana, no comunica vida por sí misma y ni siquiera conserva bien lo que retiene.
+
+5) Relación cristológica
+En Juan 4 y 7, la imagen alcanza una nueva densidad. El agua viva ya no es solo una metáfora profética
+o cultual; se ofrece personalmente. Cristo habla de un agua que llega a convertirse en fuente interior
+o brote permanente hacia vida eterna. Eso no elimina el fondo veterotestamentario; lo concentra.
+
+6) Discriminadores
+- No toda agua es agua viva.
+- No toda religiosidad sacia.
+- No toda experiencia intensa es brote de vida.
+- No todo almacenamiento equivale a una fuente.
+
+7) Anclajes bíblicos orientativos
+Jer 2:13; Jn 4:10-14; Jn 7:37-39; Ap 21:6.
+
+8) Fórmula de cierre
+La fuente de agua viva es el modo bíblico de decir que la vida verdadera no se recibe de sistemas
+cerrados de autosustento, sino de un origen que brota y renueva continuamente.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-de-Sabiduria-y-Ensenanza","content":"[
+================================================================================
+DEFINICIÓN — FUENTE DE SABIDURÍA Y ENSEÑANZA
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para mostrar que la fuente bíblica no se limita a la dimensión biológica o cultual.
+También hay una fuente cognitiva y normativa. La Biblia puede describir la enseñanza, la boca del
+justo o la instrucción sabia como fuente, porque de ellas mana una forma de vida.
+
+1) Definición central
+Fuente de sabiduría y enseñanza = dimensión de la fuente por la cual el origen divino se expresa como
+orientación, prudencia, juicio recto e instrucción capaz de preservar y conducir la vida.
+
+2) Qué delimita
+Delimita el hecho de que en la Escritura la vida no es solo sostenida materialmente; también necesita
+forma, criterio y dirección. La fuente enseña. La fuente instruye. La fuente ordena el camino.
+Esto convierte a la sabiduría en flujo y no solo en contenido.
+
+3) Invariantes
+3.1) Comunicabilidad:
+     la sabiduría mana hacia otros.
+3.2) Orientación:
+     no es dato neutro; guía.
+3.3) Preservación:
+     libra del extravío y de la muerte.
+3.4) Coherencia:
+     la fuente de sabiduría produce una forma de vida correspondiente.
+
+4) Dominio de variación
+Esta fuente puede manifestarse como:
+- Torah o instrucción,
+- consejo prudente,
+- palabra justa,
+- disciplina formativa,
+- enseñanza que hace discernir entre caminos.
+
+5) Discriminadores
+Se distingue de la mera información porque produce forma de vida.
+Se distingue del conocimiento técnico porque está vinculada con prudencia, temor de Dios y justicia.
+Se distingue de la elocuencia vacía porque su fruto no es apariencia, sino conducción recta.
+
+6) Relación con el discernimiento
+La sabiduría no solo brota como fuente; también habilita el reconocimiento de otras fuentes. Ayuda a
+juzgar si un discurso, una práctica o un deseo conducen a vida o a ruina.
+
+7) Anclajes bíblicos orientativos
+Prov 10:11; 13:14; 16:22; Sal 1 leído por afinidad estructural.
+
+8) Fórmula de cierre
+La Biblia enseña que una verdadera fuente no solo sacia la sed; también enseña a caminar para no
+volver a morir de sed en caminos falsos.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-del-Corazon","content":"[
+================================================================================
+DEFINICIÓN — EL CORAZÓN COMO FUENTE SECUNDARIA
+================================================================================
+
+0) Intención del concepto
+Este nodo se introduce para mostrar que la Biblia interioriza la lógica de la fuente. No solo pregunta
+de dónde viene la vida en sentido teológico, sino también qué mana del hombre. El corazón aparece como
+centro de emanación ética y existencial.
+
+1) Definición central
+Corazón como fuente secundaria = nivel antropológico en el que la interioridad humana actúa como lugar
+del que brotan palabras, deseos, juicios y conductas.
+
+2) Qué delimita
+Delimita el plano humano del concepto. El corazón no es fuente primaria, porque no es origen absoluto
+de la vida. Sin embargo, es fuente secundaria porque desde él salen los contenidos que configuran la
+acción visible. La Biblia insiste en que el exterior revela algo del brote interior.
+
+3) Invariantes
+3.1) Interioridad productiva:
+     el corazón no es pasividad pura; genera exteriorización.
+3.2) Visibilidad del fruto:
+     lo que brota del corazón se reconoce por palabras y obras.
+3.3) Ambigüedad moral:
+     el corazón humano puede brotar pureza o corrupción.
+3.4) Necesidad de guarda:
+     por eso se manda guardarlo con vigilancia.
+
+4) Discriminadores
+No debe confundirse con psicologismo moderno.
+«Corazón» en sentido bíblico no nombra solo emoción; incluye centro de intención, juicio, deseo y
+orientación.
+Tampoco debe confundirse con autonomía espiritual: el hecho de que el corazón sea fuente secundaria no
+significa que baste consigo mismo.
+
+5) Relación con otras unidades del grafo
+- Recibe la proyección de la lógica general de la fuente.
+- Requiere discernimiento para juzgar qué brota de él.
+- Puede alinearse con la vida verdadera o convertirse en lugar de contaminación.
+- Hace visible, a escala humana, la tesis de que la fuente se conoce por lo que emite.
+
+6) Anclajes bíblicos orientativos
+Prov 4:23; Mt 12:34-35; Lc 6:45; Stg 3:11-12.
+
+7) Fórmula de cierre
+El corazón es fuente secundaria porque la Biblia considera que el interior del hombre no solo siente:
+mana, produce y expone, en su brote, la verdad de su estado.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-de-Pureza-y-Sanidad","content":"[
+================================================================================
+DEFINICIÓN — FUENTE DE PUREZA Y SANIDAD
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para impedir que la fuente se lea solo en clave de saciedad o vida biológica. En la
+Biblia, la fuente también limpia. Lo que brota de Dios no solo mantiene vivo; purifica, sana y
+recompone lo corrompido.
+
+1) Definición central
+Fuente de pureza y sanidad = manifestación de la fuente como poder de limpieza, restauración y
+reapertura de la comunión dañada.
+
+2) Qué delimita
+Delimita la función purificadora del flujo divino. Esta función aparece de modo cultual, moral y
+escatológico:
+- elimina impureza,
+- restituye al pueblo,
+- transforma la tierra,
+- sana lo enfermo,
+- vuelve habitable lo estéril.
+
+3) Invariantes
+3.1) Limpieza:
+     la fuente separa de impureza real, no solo de incomodidad simbólica.
+3.2) Restauración:
+     la limpieza bíblica apunta a recomposición de relación y de vida.
+3.3) Alcance expansivo:
+     lo que brota puede sanar incluso regiones más amplias.
+3.4) No neutralidad:
+     la fuente purificadora juzga lo contaminado precisamente porque lo transforma.
+
+4) Dominio de variación
+Puede manifestarse como:
+- fuente abierta para pecado e impureza,
+- agua que sanea lo muerto,
+- río que vuelve fértil lo estéril,
+- gracia que limpia la conciencia,
+- don final de restauración en la nueva creación.
+
+5) Discriminadores
+Se distingue del mero alivio emocional.
+Se distingue también de una pureza ritualista aislada, porque su efecto es restaurar vida y comunión.
+No es solo «lavar» sino reordenar el estado de la realidad dañada.
+
+6) Relaciones con otras unidades del grafo
+- Refina el agua viva.
+- Es llevada a plenitud por la restauración escatológica.
+- Muestra que la vida que viene de la fuente verdadera no puede coexistir indefinidamente con corrupción.
+
+7) Anclajes bíblicos orientativos
+Zac 13:1; Ez 47:1-12; Ap 22:1-2.
+
+8) Fórmula de cierre
+La fuente bíblica purifica porque la vida que comunica no es compatible con la corrupción; al brotar,
+limpia y sana el espacio donde entra.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuentes-Falsas-y-Cisternas-Rotas","content":"[
+================================================================================
+DEFINICIÓN — FUENTES FALSAS Y CISTERNAS ROTAS
+================================================================================
+
+0) Intención del concepto
+Este nodo se introduce porque sin contraste el concepto de fuente se vuelve sentimental. La Biblia
+insiste en que existen sustitutos: realidades en las que el hombre deposita confianza, sed o esperanza,
+pero que no pueden cumplir la función de fuente verdadera.
+
+1) Definición central
+Fuentes falsas y cisternas rotas = estructuras derivadas, insuficientes o engañosas que prometen
+sustento, seguridad o vida, pero carecen de brote propio y no pueden comunicar plenitud durable.
+
+2) Qué delimita
+Delimita el campo negativo del concepto.
+La Biblia no solo presenta la fuente verdadera; denuncia el desplazamiento hacia lo derivado.
+Ese desplazamiento no es un error menor, porque cambia la ontología del sustento:
+se abandona lo que mana para depender de lo que apenas intenta retener.
+
+3) Invariantes
+3.1) Derivación:
+     la falsa fuente no tiene brote originario propio.
+3.2) Insuficiencia:
+     falla al sostener la sed profunda.
+3.3) Fragilidad:
+     incluso aquello que retiene se pierde.
+3.4) Imitación:
+     suele parecer un mecanismo legítimo de provisión.
+3.5) Idolatría funcional:
+     termina ocupando el lugar de la fuente verdadera.
+
+4) Variaciones posibles
+Las cisternas rotas pueden leerse como:
+- idolatría,
+- autosuficiencia,
+- religiosidad vacía,
+- estructuras políticas o económicas absolutizadas,
+- deseos que prometen plenitud sin Dios,
+- discursos seductores sin vida verdadera.
+
+5) Discriminadores
+No toda mediación es cisterna rota. Una mediación válida remite a la fuente y participa de ella.
+La cisterna rota, en cambio, pretende funcionar como autosustento cerrado.
+Tampoco toda carencia visible indica falsedad; el punto decisivo es la incapacidad estructural para
+comunicar vida.
+
+6) Relaciones con otras unidades del grafo
+- Constrain el concepto general de fuente al mostrar lo que no cuenta como fuente.
+- Requiere discernimiento para ser identificada.
+- Funciona como reverso crítico del agua viva.
+- Hace visible que el pecado bíblico es también reconfiguración errónea del origen y del sustento.
+
+7) Anclajes bíblicos orientativos
+Jer 2:13; Jer 17:13; Isa 55:1-2 por contraste teológico.
+
+8) Fórmula de cierre
+La cisterna rota es la figura bíblica del falso sostén: parece resolver la sed, pero en realidad solo
+hace visible la tragedia de haber abandonado la fuente viva.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Mediacion-Cristologica-de-la-Fuente","content":"[
+================================================================================
+DEFINICIÓN — MEDIACIÓN CRISTOLÓGICA DE LA FUENTE
+================================================================================
+
+0) Intención del concepto
+Este nodo se introduce para captar la concentración neotestamentaria del símbolo. La fuente no queda
+solo como imagen profética o sapiencial; en Cristo la oferta del agua viva toma forma personal,
+relacional y salvífica.
+
+1) Definición central
+Mediación cristológica de la fuente = modo en que el Nuevo Testamento presenta a Cristo como aquel que
+ofrece, comunica, actualiza y hace accesible el agua viva de Dios.
+
+2) Qué delimita
+Delimita la personalización de la fuente en la economía de la salvación.
+El agua viva ya no solo se describe; se ofrece.
+La sed ya no solo se diagnostica; se confronta en el encuentro con Cristo.
+La promesa ya no solo se anuncia; se pone en circulación efectiva.
+
+3) Invariantes
+3.1) Dependencia del Padre:
+     la mediación no rompe la primacía divina.
+3.2) Personalidad del don:
+     la fuente se ofrece en relación con una persona.
+3.3) Interiorización:
+     el don puede volverse brote interior hacia vida eterna.
+3.4) Universalización:
+     la oferta se abre más allá de límites estrictamente locales o rituales.
+
+4) Discriminadores
+Este nodo no afirma que Cristo sea una fuente aislada de Dios.
+Tampoco afirma una simple repetición de símbolos antiguos.
+Afirma una concentración y actualización: lo prometido por la lógica veterotestamentaria de la fuente
+se vuelve encuentro, don y mediación decisiva.
+
+5) Relaciones con otras unidades del grafo
+- Realiza la fuente de agua viva.
+- Depende de Dios como fuente primaria.
+- Prepara la forma escatológica final de la restauración.
+- Muestra que el don de la fuente puede habitar al receptor.
+
+6) Anclajes bíblicos orientativos
+Jn 4:10-14; Jn 7:37-39; 1 Cor 10:4 como afinidad tipológica; Ap 21:6.
+
+7) Fórmula de cierre
+La mediación cristológica de la fuente significa que la vida divina deja de aparecer solo como figura
+prometida y se vuelve don ofrecido, interiorizable y eficaz en el encuentro con Cristo.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Fuente-Escatologica-de-Restauracion","content":"[
+================================================================================
+DEFINICIÓN — FUENTE ESCATOLÓGICA DE RESTAURACIÓN
+================================================================================
+
+0) Intención del concepto
+Este nodo existe para evitar una lectura puramente individual o presente del símbolo. La Biblia no usa
+la fuente solo para hablar de experiencia espiritual inmediata; también la usa para imaginar el final
+recto de la historia y la recomposición del mundo.
+
+1) Definición central
+Fuente escatológica de restauración = manifestación final y expansiva de la fuente divina como río o
+flujo de vida que sana, fecunda y rehace la creación.
+
+2) Qué delimita
+Delimita la dimensión de consumación del concepto.
+La fuente ya no se piensa solo como punto localizado de acceso, sino como principio de transformación
+integral:
+- sana territorios,
+- fecunda árboles,
+- reorganiza el espacio,
+- y convierte la nueva creación en ámbito de vida inagotable.
+
+3) Invariantes
+3.1) Expansión:
+     la fuente se convierte en corriente de alcance mayor.
+3.2) Restauración integral:
+     no solo cambia al individuo, cambia el orden del mundo.
+3.3) Procedencia soberana:
+     el flujo sale del templo o del trono; no es autónomo.
+3.4) Inagotabilidad:
+     el horizonte final elimina la lógica de escasez radical.
+
+4) Discriminadores
+Se distingue de utopía genérica porque mantiene procedencia teológica.
+Se distingue de mera abundancia natural porque su efecto es sanador, santo y ordenante.
+Se distingue de consuelo privado porque tiene escala comunitaria y cósmica.
+
+5) Relaciones con otras unidades del grafo
+- Depende, en la síntesis canónica cristiana, de la mediación de la fuente ofrecida en Cristo.
+- Refina la fuente de pureza y sanidad.
+- Funciona como proyección última de la fuente de vida.
+
+6) Anclajes bíblicos orientativos
+Ez 47:1-12; Zac 14:8; Ap 22:1-2.
+
+7) Fórmula de cierre
+La escatología bíblica no imagina el final como clausura seca de la historia, sino como desbordamiento
+ordenado de la fuente verdadera sobre toda la realidad restaurada.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}
+
+{"address":"def/BIB-Discernimiento-de-la-Fuente","content":"[
+================================================================================
+DEFINICIÓN — DISCERNIMIENTO DE LA FUENTE
+================================================================================
+
+0) Intención del concepto
+Este nodo se introduce para dar al grafo una pieza metodológica. Sin discernimiento, el lenguaje de la
+fuente puede volverse ambiguo, sentimental o manipulable. La Biblia, sin embargo, no permite esa
+ambigüedad: obliga a juzgar las fuentes por su origen, coherencia y fruto.
+
+1) Definición central
+Discernimiento de la fuente = operación interpretativa y práctica mediante la cual se reconoce si un
+flujo, una voz, un deseo, una enseñanza o una promesa participan de la fuente verdadera o funcionan
+como sustitutos engañosos.
+
+2) Qué delimita
+Delimita la inteligibilidad crítica del concepto.
+No basta con percibir que algo «brota» con intensidad.
+La pregunta bíblica es: ¿de dónde brota?, ¿qué comunica?, ¿qué produce?, ¿hacia dónde conduce?
+
+3) Criterios mínimos
+3.1) Criterio de origen:
+     una fuente verdadera remite, directa o indirectamente, a Dios.
+3.2) Criterio de coherencia:
+     lo que brota no contradice la verdad de la fuente.
+3.3) Criterio de fruto:
+     se reconoce por lo que genera en la vida.
+3.4) Criterio de permanencia:
+     no depende de excitación breve ni de apariencia momentánea.
+3.5) Criterio de pureza:
+     lo que mana no puede ser simultáneamente agua dulce y agua amarga sin contradicción.
+
+4) Campo de aplicación
+Este discernimiento se aplica a:
+- el corazón,
+- la palabra,
+- la sabiduría,
+- la religiosidad,
+- las estructuras de seguridad,
+- las promesas de plenitud,
+- y las mediaciones espirituales.
+
+5) Relaciones con otras unidades del grafo
+- Provee criterios para formular el concepto general de fuente.
+- Provee criterios para juzgar el corazón como fuente secundaria.
+- Provee criterios para denunciar las cisternas rotas.
+- Es habilitado por la sabiduría y la enseñanza.
+
+6) Anclajes bíblicos orientativos
+Prov 4:23; Stg 3:11-12; Mt 7:16-20 por analogía del fruto; Jer 2:13.
+
+7) Fórmula de cierre
+Discernir la fuente, en clave bíblica, es aprender a juzgar no solo la intensidad del brote, sino la
+verdad del origen y la cualidad de lo que produce.
+================================================================================
+FIN DE LA UNIDAD
+================================================================================
+]"}}

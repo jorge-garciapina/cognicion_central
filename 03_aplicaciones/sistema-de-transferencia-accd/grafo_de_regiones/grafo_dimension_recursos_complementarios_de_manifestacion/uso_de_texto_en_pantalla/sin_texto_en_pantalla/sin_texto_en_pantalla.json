@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla",
+    "label": "sin_texto_en_pantalla",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla",
+    "summary": "Valor sin_texto_en_pantalla declarado para el campo uso_de_texto_en_pantalla.",
+    "metadata": {
+      "value_of": "uso_de_texto_en_pantalla",
+      "source_section": "12.1"
+    }
+  }
+}

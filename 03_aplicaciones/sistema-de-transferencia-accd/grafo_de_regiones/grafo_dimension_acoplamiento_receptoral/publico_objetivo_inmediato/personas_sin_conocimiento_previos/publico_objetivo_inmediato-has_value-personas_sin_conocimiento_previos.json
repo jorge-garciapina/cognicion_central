@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos",
+    "type": "has_value",
+    "rationale": "personas_sin_conocimiento_previos es un valor sugerido declarado para el campo publico_objetivo_inmediato."
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_modular-composicion_modular",
+  "content": "**Definición.** Arquitectura que divide el lienzo en módulos relativamente autónomos. Cada módulo contiene una unidad de información, pero todos comparten sistema visual. Es útil para categorías, pasos, beneficios o grupos comparables."
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_descendente-diagonal_descendente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_descendente-diagonal_descendente",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_descendente-diagonal_descendente",
+    "type": "has_value",
+    "rationale": "diagonal_descendente es un valor nuevo de trayectoria_de_mirada incorporado para la realización imagen."
+  }
+}

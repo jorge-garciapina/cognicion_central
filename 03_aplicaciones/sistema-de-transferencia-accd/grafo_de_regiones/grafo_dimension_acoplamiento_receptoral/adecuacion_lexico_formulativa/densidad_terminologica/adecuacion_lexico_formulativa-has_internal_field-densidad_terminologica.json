@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica",
+    "type": "has_internal_field",
+    "rationale": "densidad_terminologica es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa."
+  }
+}

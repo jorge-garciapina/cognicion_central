@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-composicion_por_zonas-composicion_por_zonas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-composicion_por_zonas-composicion_por_zonas",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-composicion_por_zonas-composicion_por_zonas",
+    "type": "has_value",
+    "rationale": "composicion_por_zonas es un valor nuevo incorporado en modo_de_distribucion_conceptual_en_lienzo para la realización imagen."
+  }
+}

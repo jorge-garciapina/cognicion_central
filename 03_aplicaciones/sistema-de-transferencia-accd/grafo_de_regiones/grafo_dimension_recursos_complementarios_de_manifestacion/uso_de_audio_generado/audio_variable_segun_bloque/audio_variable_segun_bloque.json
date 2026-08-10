@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque",
+    "label": "audio_variable_segun_bloque",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque",
+    "summary": "Valor audio_variable_segun_bloque declarado para el campo uso_de_audio_generado.",
+    "metadata": {
+      "value_of": "uso_de_audio_generado",
+      "source_section": "12.4"
+    }
+  }
+}

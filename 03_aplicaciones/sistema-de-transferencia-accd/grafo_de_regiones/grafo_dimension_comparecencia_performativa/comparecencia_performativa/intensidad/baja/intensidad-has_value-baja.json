@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja",
+    "type": "has_value",
+    "rationale": "baja es un valor declarado para el campo intensidad."
+  }
+}

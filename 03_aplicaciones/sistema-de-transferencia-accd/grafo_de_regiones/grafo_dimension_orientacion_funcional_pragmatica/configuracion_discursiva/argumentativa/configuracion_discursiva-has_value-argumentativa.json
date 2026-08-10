@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa",
+    "type": "has_value",
+    "rationale": "argumentativa es un valor declarado para el campo configuracion_discursiva."
+  }
+}

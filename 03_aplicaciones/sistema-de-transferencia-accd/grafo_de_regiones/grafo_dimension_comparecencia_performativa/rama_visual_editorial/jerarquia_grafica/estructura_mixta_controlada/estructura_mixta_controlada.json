@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-estructura_mixta_controlada-estructura_mixta_controlada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-estructura_mixta_controlada-estructura_mixta_controlada",
+    "label": "estructura_mixta_controlada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-estructura_mixta_controlada-estructura_mixta_controlada",
+    "summary": "Valor en el que se combinan varios recursos visuales y textuales con una jerarquía definida.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion",
+    "type": "has_value",
+    "rationale": "expectativa_de_resolucion es un valor declarado para el campo efecto_buscado."
+  }
+}

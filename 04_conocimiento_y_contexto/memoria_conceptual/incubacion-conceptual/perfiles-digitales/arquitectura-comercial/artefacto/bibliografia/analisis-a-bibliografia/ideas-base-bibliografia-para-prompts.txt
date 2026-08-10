@@ -1,0 +1,632 @@
+ANÁLISIS DE ORDEN 2
+BIBLIOGRAFÍA + ESTRATOS
+ARQUITECTURA COMERCIAL DE CREACIÓN DE CONTENIDO DIGITAL (ACCD)
+
+Propósito de este documento
+---------------------------
+Este documento no busca fijar la versión final de la arquitectura comercial.
+
+Su función es otra:
+- identificar cómo las ideas presentes en la bibliografía funcionan como base
+  conceptual de la arquitectura;
+- reorganizar esas ideas de primer orden (documentos) en ideas de segundo orden
+  útiles para la creación de prompts de refinamiento por estrato;
+- mostrar cómo cada estrato puede ser empujado por ideas bibliográficas sin
+  obligarlo todavía a cerrarse como ontología definitiva.
+
+Regla de lectura
+----------------
+- Los documentos bibliográficos son ideas de orden 1.
+- Las ideas-base de cada estrato, tal como aparecen aquí, son ideas de orden 2.
+- Una idea de orden 2 puede combinar varios documentos de orden 1.
+- Un mismo documento de orden 1 puede reaparecer en más de una idea de orden 2.
+
+El criterio usado aquí es práctico:
+solo se conserva lo que sirve como base para diseñar prompts de refinamiento que
+alineen cada estrato con la arquitectura comercial como máquina reusable para
+crear entidades de producción de contenido digital.
+
+==============================================================================
+IDEAS BASE TRANSVERSALES DEL PAQUETE
+==============================================================================
+
+Antes de entrar por estrato, conviene fijar unas pocas ideas-base transversales
+que sostienen a todo ACCD y que reaparecen en casi todos los prompts locales.
+
+Idea transversal 1:
+ACCD no debe pensarse como “marketing de contenidos”, sino como máquina reusable
+para fabricar entidades de producción de contenido digital.
+Base documental:
+[arquitectura-comercial.txt], [ideas-de-publisher.txt], [plan-de-negocios-version-5.txt],
+[modelo-del-sistema-version-1.txt], [creacion-de-contenido.txt].
+
+Idea transversal 2:
+La arquitectura completa debe poder cambiar de tema sin colapsar:
+el núcleo cambia, pero la forma de producción, atención, retorno y convertibilidad
+debe seguir siendo reusable.
+Base documental:
+[vision-fractal-de-sistemas.txt], [snapshot-entendimiento-fractal.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt], [FAC], [esencificacion.txt].
+
+Idea transversal 3:
+La unidad real del sistema no es la pieza aislada, sino una composición más fuerte:
+caso, fuente, contexto, adaptación, manifestación, evidencia, trayectoria.
+Base documental:
+[proyeccion-contextual.txt], [fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt], [FAC],
+[trayectoria-de-proyeccion.txt].
+
+Idea transversal 4:
+La arquitectura debe ser pensada como grafo, con nodos, aristas, contratos,
+invariantes, niveles y superficies de integración.
+Base documental:
+[modelado-usando-teoria-de-grafos.txt], [teoria-general-de-modelado-de-ideas.txt],
+[vision-fractal-de-sistemas.txt], [vision-fractal-pesos.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt].
+
+Idea transversal 5:
+La convertibilidad no puede ser el punto de partida ontológico de la arquitectura;
+es un cierre tardío que depende de identidad, proyección, atención, validación,
+activo relacional y acoplamiento al mercado del dinero.
+Base documental:
+[convertibilidad-y-dinero.txt], [mediacion-economica-contextual.txt],
+[subbranch-activo-relacional.txt], [subbranch-secuencia-mediacion.txt],
+[arquitectura-hub.txt].
+
+==============================================================================
+ESTRATO: IDENTITARIO
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato identitario fija qué debe preservarse para que la entidad comercializada
+siga siendo la misma a través de contextos, plataformas, piezas, ritmos y cierres
+económicos distintos. Dentro de la arquitectura comercial, este estrato no describe
+la totalidad del sistema, sino el subgrafo que hace posible que la máquina produzca
+una presencia comercializable sin perder continuidad.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+La identidad del sistema no debe definirse por tema, tono o branding superficial,
+sino por un núcleo preservable y portable.
+Base documental:
+[esencificacion.txt], [descripcion-estratos-fabrica-arquitecturas.txt],
+[vision-fractal-de-sistemas.txt], [snapshot-entendimiento-fractal.txt].
+
+Idea 2:
+La arquitectura necesita distinguir entre identidad profunda y forma pública de
+comparecencia; por eso no basta con “marca”, hace falta separar entidad,
+interfaz y manifestación.
+Base documental:
+[perfil-de-influencer.txt], [personalidad-digital-cognitiva.txt],
+[arquitectura-comercial.txt], [ideas-de-publisher.txt].
+
+Idea 3:
+El estrato identitario debe modelar una entidad comercializada, no solo una voz
+editorial; por eso conviene pensar en una estructura que pueda operar como
+puente entre una intención, un nicho y una máquina de difusión.
+Base documental:
+[perfil-de-influencer.txt], [creacion-de-contenido.txt],
+[ideas-de-publisher.txt], [plan-de-negocios-version-5.txt].
+
+Idea 4:
+La identidad debe formularse mediante contrato estructural:
+invariantes, límites, reglas de preservación, condiciones de pérdida de identidad
+y bordes de variación legítima.
+Base documental:
+[esencificacion.txt], [vision-fractal-pesos.txt],
+[snapshot-entendimiento-fractal.txt], [descripcion-estratos-fabrica-arquitecturas.txt].
+
+Idea 5:
+La identidad no es estática; debe poder leerse como trayectoria, es decir, como
+estructura que cambia de fase sin dejar de ser ella misma.
+Base documental:
+[trayectoria-de-proyeccion.txt], [modelo-del-sistema-version-1.txt],
+[creacion-de-realidad.txt], [planteamiento-integral-teoria-de-lazo.txt].
+
+Idea 6:
+El estrato identitario debe tratar la personalidad digital cognitiva y el perfil
+de influencer como interfaces distintas de una entidad preservada, no como
+sinónimos ni como decoración.
+Base documental:
+[perfil-de-influencer.txt], [personalidad-digital-cognitiva.txt],
+[arquitectura-comercial.txt].
+
+Idea 7:
+La pregunta identitaria correcta no es “qué tema se toca”, sino “qué forma de
+valor, lectura y relación debe seguir siendo reconocible cuando cambian contexto,
+plataforma o monetización”.
+Base documental:
+[arquitectura-comercial.txt], [creacion-de-contenido.txt],
+[planteamiento-de-nicho.txt], [planteamiento-de-la-moda.txt].
+
+==============================================================================
+ESTRATO: INSTANCIACIÓN CONTEXTUAL
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato de instanciación contextual fija el mecanismo por el cual una entidad
+preservable no baja de forma directa a una pieza, sino que atraviesa una composición
+contextual, un régimen de lectura y una traducción adaptativa hasta volverse
+manifestación concreta. Dentro de ACCD, es el subgrafo metodológico que vuelve
+construible, diagnosticable y corregible el paso entre identidad y manifestación.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+La unidad real de operación no es la pieza, sino el caso compuesto de proyección.
+Base documental:
+[proyeccion-contextual.txt], [fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[FAC], [teoria-general-de-modelado-de-ideas.txt].
+
+Idea 2:
+La instanciación debe distinguir claramente:
+soporte estructural, contexto de sujeto, contexto de distribución, intención,
+restricciones, heurísticas de salida, contenido material y adaptador.
+Base documental:
+[proyeccion-contextual.txt], [FAC], [fuente-de-instanciacion/ejemplos.txt],
+[fuente-de-instanciacion/fuente-de-instanciacion.txt].
+
+Idea 3:
+La arquitectura necesita un mecanismo explícito de traducción entre estructura y
+salida; por eso el adaptador no es accesorio, sino pieza central del estrato.
+Base documental:
+[FAC], [fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[fuente-de-instanciacion/ejemplos.txt], [creacion-de-contenido.txt].
+
+Idea 4:
+Los casos deben poder diagnosticarse como válidos, ambiguos, inestables o
+inválidos, no solo ejecutarse.
+Base documental:
+[fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[campo-interpretativo.txt].
+
+Idea 5:
+La construcción inversa es legítima: puede fijarse primero la salida deseada y
+luego reconstruir la configuración del caso que la vuelve válida.
+Base documental:
+[fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[fuente-de-instanciacion/ejemplos.txt], [FAC].
+
+Idea 6:
+La instanciación debe ser fractal: lo que hoy es “caso de contenido” en un nivel
+puede ser “proyección” de un nivel superior en mercado del dinero, capital
+institucional o creación de realidad.
+Base documental:
+[ideas-de-publisher.txt], [vision-fractal-de-sistemas.txt],
+[arquitectura-hub.txt], [mediacion-economica-contextual.txt].
+
+Idea 7:
+El estrato debe conservar una separación nítida entre identidad, caso y salida,
+porque si colapsa esos planos se vuelve imposible auditar por qué una proyección
+funcionó o falló.
+Base documental:
+[teoria-general-de-modelado-de-ideas.txt], [FAC],
+[descripcion-estratos-fabrica-arquitecturas.txt], [arquitectura-comercial.txt].
+
+==============================================================================
+ESTRATO: CONTEXTUAL
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato contextual fija el subgrafo de condiciones bajo las cuales un núcleo
+estructural puede proyectarse sin perder inteligibilidad, compatibilidad,
+continuidad funcional ni posibilidad de convertibilidad. Dentro de ACCD, el
+contexto no es metadata decorativa, sino parte activa del mecanismo de proyección.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+El contexto debe dividirse en familias con identidad propia, y no tratarse como
+una sola bolsa de “circunstancias”.
+Base documental:
+[proyeccion-contextual.txt], [campo-interpretativo.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt], [FAC].
+
+Idea 2:
+Debe distinguirse con claridad entre:
+contexto de sujeto/recepción y contexto de distribución/plataforma.
+Base documental:
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[ejemplos-casos-fuente-recepcion-atencional.txt],
+[proyeccion-contextual.txt].
+
+Idea 3:
+Además del contexto de recepción y distribución, la arquitectura necesita pensar
+contextos institucionales y contextos comerciales porque el sistema no vive solo
+en el plano del contenido.
+Base documental:
+[mediacion-economica-contextual.txt], [convertibilidad-y-dinero.txt],
+[arquitectura-hub.txt], [ideas-de-publisher.txt].
+
+Idea 4:
+El contexto debe formularse mediante dimensiones y restricciones, no solo mediante
+descripciones narrativas.
+Base documental:
+[campo-interpretativo.txt], [fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[vision-fractal-pesos.txt], [ejemplo-text-scores-p1.txt], [p2], [p3].
+
+Idea 5:
+El contexto no solo condiciona validez; también condiciona qué tipo de adaptación,
+de complejidad, de ritmo y de interfaz será legítima.
+Base documental:
+[FAC], [esencificacion.txt], [creacion-de-contenido.txt],
+[perfil-de-influencer.txt], [personalidad-digital-cognitiva.txt].
+
+Idea 6:
+El estrato contextual debe producir diagnósticos, no solo listar entornos; debe
+poder decir qué configuraciones son compatibles, ambiguas, inestables o inválidas.
+Base documental:
+[campo-interpretativo.txt], [fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt].
+
+Idea 7:
+El contexto debe integrarse al caso como parte constitutiva de la proyección y no
+como información añadida al final.
+Base documental:
+[proyeccion-contextual.txt], [FAC], [teoria-general-de-modelado-de-ideas.txt].
+
+==============================================================================
+ESTRATO: ATENCIÓN ORGANIZADA
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato de Atención Organizada modela la lógica mediante la cual la respuesta
+del entorno deja de ser flujo indiferenciado y se convierte en materia legible,
+estabilizable, segmentable, acumulable y potencialmente derivable a validación,
+activo relacional y convertibilidad. Dentro de ACCD, este estrato debe servir
+para desarrollar la lógica que permite crear el contenido con el que se construye,
+sostiene y expande un campo de atención estructurada.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+La atención no debe modelarse como tráfico o alcance, sino como campo estructurado
+de recepción legible.
+Base documental:
+[atencion_socialmente_organizada.md],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[ejemplos-casos-fuente-recepcion-atencional.txt],
+[arquitectura-comercial.txt].
+
+Idea 2:
+Las lógicas de consumo, como Second viewing y sus refinamientos no deben tratarse como identidad total de la
+fuente, sino como regiones o perfiles intensionales dentro de una fuente más general de recepción atencional.
+Base documental:
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[ejemplos-casos-fuente-recepcion-atencional.txt].
+
+Idea 3:
+El estrato debe distinguir captación, continuidad, reenganche, explicitación,
+fragmentación, secuencialidad y legibilidad como dimensiones o estados de un
+campo atencional, no como intuiciones dispersas.
+Base documental:
+[definicion-1.txt], [pipelines_cognitivos.txt],
+[ejemplo-text-scores-p1.txt], [p2], [p3],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt].
+
+Idea 4:
+La atención organizada puede pensarse como infraestructura que luego abre puertos
+de inserción para terceros o para cierres comerciales posteriores.
+Base documental:
+[atencion_socialmente_organizada.md], [ideas-de-publisher.txt],
+[arquitectura-hub.txt], [arquitectura-comercial.txt].
+
+Idea 5:
+La arquitectura necesita poder leer el campo atencional como espacio de estados,
+regiones y trayectorias, no solo como reacción instantánea.
+Base documental:
+[definicion-1.txt], [pipelines_cognitivos.txt],
+[trayectoria-de-proyeccion.txt],
+[fuente-configuracion-recepcion-atencional-del-contenido.txt].
+
+Idea 6:
+El estrato no debe limitarse a describir recepción; debe producir exigencias
+estructurales de diseño para las piezas.
+Base documental:
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[ejemplos-casos-fuente-recepcion-atencional.txt],
+[creacion-de-contenido.txt], [fuente-de-instanciacion/ejemplos.txt].
+
+Idea 7:
+La atención organizada debe ser pensada como subgrafo que enlaza comparecencia,
+respuesta, validación inicial y potencial de retorno, no como etapa aislada.
+Base documental:
+[subbranch-secuencia-mediacion.txt], [lazo-y-cierre.txt],
+[planteamiento-integral-teoria-de-lazo.txt], [creacion-de-realidad.txt].
+
+==============================================================================
+ESTRATO: PIEZAS
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato funcional de piezas fija el plano donde las salidas materiales del
+sistema pueden clasificarse no por tema ni por formato, sino por la transformación
+dominante que buscan realizar dentro de una arquitectura mayor de mediación.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+Las piezas no deben clasificarse primero por formato o plataforma, sino por función
+dominante dentro del sistema.
+Base documental:
+[creacion-de-contenido.txt], [ejemplo-text-scores-p1.txt],
+[p2], [p3], [arquitectura-comercial.txt].
+
+Idea 2:
+Una pieza es una manifestación material de un caso, no una unidad ontológica
+primaria del sistema.
+Base documental:
+[fuente-de-instanciacion/fuente-de-instanciacion.txt],
+[proyeccion-contextual.txt], [FAC].
+
+Idea 3:
+La arquitectura necesita familias funcionales de piezas ligadas a captación,
+clarificación, densificación, reestructuración, relación, conversión y memoria.
+Base documental:
+[ejemplos-estructura-poker-videos.md],
+[creacion-de-contenido.txt], [ejemplo-text-scores-p1.txt], [p2], [p3].
+
+Idea 4:
+La pieza debe poder leerse como artefacto evaluable por scores, pesos o criterios
+de desempeño funcional.
+Base documental:
+[ejemplo-text-scores-p1.txt], [p2], [p3],
+[vision-fractal-pesos.txt], [pipelines_cognitivos.txt].
+
+Idea 5:
+El estrato de piezas debe dialogar con Atención Organizada: la función de una
+pieza debe definirse también por el estado o región atencional que intenta
+abrir, sostener o corregir.
+Base documental:
+[fuente-configuracion-recepcion-atencional-del-contenido.txt],
+[ejemplos-casos-fuente-recepcion-atencional.txt],
+[creacion-de-contenido.txt].
+
+Idea 6:
+El estrato debe poder describir piezas simples, secuencias y formatos compuestos
+sin perder la función dominante.
+Base documental:
+[ejemplos-estructura-poker-videos.md],
+[fuente-de-instanciacion/ejemplos.txt],
+[composicion-ascendente implícita en ejemplo-acondicionamiento-fisico.txt].
+
+Idea 7:
+Las piezas deben ser pensadas como outputs auditables de la arquitectura y no como
+inspiraciones sueltas.
+Base documental:
+[vision-fractal-de-sistemas.txt], [snapshot-entendimiento-fractal.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt].
+
+==============================================================================
+ESTRATO: COMPOSICIÓN ASCENDENTE
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato de Composición Ascendente fija cómo se organiza la composición material
+y operativa de ACCD cuando la proyección del núcleo ya debe traducirse a artefactos,
+secuencias y sistemas de mayor escala. Su función es distinguir unidades, módulos,
+escalas y trayectorias de ensamblaje válidas.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+La arquitectura necesita distinguir entre unidad mínima del dominio y unidad mínima
+de ejecución.
+Base documental:
+[ejemplo-acondicionamiento-fisico.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt],
+[vision-fractal-de-sistemas.txt].
+
+Idea 2:
+La composición ascendente no es suma lineal; es preservación de identidad a través
+de escalas.
+Base documental:
+[vision-fractal-de-sistemas.txt], [arquitectura-cognitiva-fractal.txt],
+[snapshot-entendimiento-fractal.txt], [esencificacion.txt].
+
+Idea 3:
+Un módulo compuesto puede operar como unidad mínima de una escala superior.
+Base documental:
+[ejemplo-acondicionamiento-mejorado-teoria-de-lazo.txt],
+[vision-fractal-de-sistemas.txt], [arquitectura-cognitiva-fractal.txt].
+
+Idea 4:
+La composición debe distinguir claramente entre:
+hook, segmento, bloque, pieza, serie, campaña, sistema de canal y arquitectura.
+Base documental:
+[ejemplos-estructura-poker-videos.md],
+[creacion-de-contenido.txt],
+[fuente-de-instanciacion/ejemplos.txt].
+
+Idea 5:
+El estrato de composición necesita conectarse con teoría de lazo, porque al crecer
+una composición cambian también sus bucles de evidencia y retorno.
+Base documental:
+[lazo-y-cierre.txt], [planteamiento-integral-teoria-de-lazo.txt],
+[ejemplo-acondicionamiento-mejorado-teoria-de-lazo.txt].
+
+Idea 6:
+La composición ascendente debe ser compatible con el enfoque de grafo:
+las partes no se apilan solo por tamaño, sino por relaciones explícitas.
+Base documental:
+[modelado-usando-teoria-de-grafos.txt],
+[teoria-general-de-modelado-de-ideas.txt],
+[vision-fractal-de-sistemas.txt].
+
+Idea 7:
+Este estrato debe servir para volver construible una arquitectura reusable y no
+solo para enumerar formatos de contenido.
+Base documental:
+[arquitectura-comercial.txt], [creacion-de-contenido.txt],
+[descripcion-estratos-fabrica-arquitecturas.txt].
+
+==============================================================================
+ESTRATO: COMERCIAL Y CONVERTIBILIDAD
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato comercial y de convertibilidad modela el pasaje por el cual una entidad
+ya proyectada, atendida, validada y parcialmente sedimentada en el campo puede
+volverse elegible para relaciones de valor, acoplarse al mercado del dinero,
+realizar captura económica efectiva y devolver evidencia estructural al sistema.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+El estrato comercial no debe comenzar por “formas de monetización”, sino por la
+secuencia que lleva desde atención y validación hasta captura económica.
+Base documental:
+[subbranch-secuencia-mediacion.txt],
+[convertibilidad-y-dinero.txt],
+[mediacion-economica-contextual.txt],
+[planteamiento-refinado.txt].
+
+Idea 2:
+La convertibilidad es una condición intermedia, no equivalente ni a atención ni a
+captura económica.
+Base documental:
+[convertibilidad-y-dinero.txt], [planteamiento-refinado.txt],
+[arquitectura-comercial.txt].
+
+Idea 3:
+La arquitectura comercial debe distinguir capital institucional y activo relacional
+como acumulados intermedios necesarios para el cierre económico.
+Base documental:
+[subbranch-activo-relacional.txt], [subbranch-secuencia-mediacion.txt],
+[arquitectura-hub.txt], [ideas-de-publisher.txt].
+
+Idea 4:
+La comercialización debe pensarse como mediación contextual, no como simple venta
+de productos o cursos.
+Base documental:
+[mediacion-economica-contextual.txt], [planteamiento-refinado.txt],
+[arquitectura-hub.txt], [plan-de-negocios-version-5.txt].
+
+Idea 5:
+Los puertos de inserción en un campo atencional organizado son parte de la lógica
+económica de la arquitectura.
+Base documental:
+[atencion_socialmente_organizada.md], [ideas-de-publisher.txt],
+[arquitectura-comercial.txt].
+
+Idea 6:
+El mercado del dinero no es el sistema completo; es una región externa con la cual
+la arquitectura debe acoplarse de forma explícita.
+Base documental:
+[convertibilidad-y-dinero.txt], [mediacion-economica-contextual.txt],
+[plan-de-negocios-version-5.txt].
+
+Idea 7:
+La captura económica debe devolver evidencia al sistema y no tratarse como cierre
+definitivo.
+Base documental:
+[convertibilidad-y-dinero.txt], [lazo-y-cierre.txt],
+[creacion-de-realidad.txt], [planteamiento-integral-teoria-de-lazo.txt].
+
+Idea 8:
+La monetización de contenido digital es una proyección de una lógica mayor de
+captura de valor, no el horizonte absoluto del sistema.
+Base documental:
+[ideas-de-publisher.txt], [arquitectura-hub.txt],
+[mediacion-economica-contextual.txt], [vision-fractal-de-sistemas.txt].
+
+==============================================================================
+ESTRATO: EVIDENCIA Y APRENDIZAJE
+==============================================================================
+
+Descripción del estrato
+-----------------------
+El estrato de Evidencia y Aprendizaje fija el subgrafo de retorno estructural del
+sistema: la arquitectura deja de ser una máquina que solo emite piezas y se vuelve
+capaz de leer la respuesta del entorno, diagnosticar sus proyecciones, corregirse,
+actualizar su estado, acumular trayectoria y modular nuevas entradas.
+
+Ideas que se desprenden de los documentos
+-----------------------------------------
+
+Idea 1:
+La evidencia no es analítica residual, sino materia prima del lazo de corrección.
+Base documental:
+[lazo-y-cierre.txt], [planteamiento-integral-teoria-de-lazo.txt],
+[creacion-de-realidad.txt], [ejemplo-acondicionamiento-mejorado-teoria-de-lazo.txt].
+
+Idea 2:
+Debe distinguirse entre evidencia de atención, evidencia relacional, evidencia
+comercial e incluso evidencia institucional.
+Base documental:
+[arquitectura-comercial.txt], [convertibilidad-y-dinero.txt],
+[subbranch-activo-relacional.txt], [fuente-configuracion-recepcion-atencional-del-contenido.txt].
+
+Idea 3:
+El aprendizaje no debe entenderse como “intuición posterior”, sino como actualización
+de pesos, trayectorias, estados o configuraciones permitidas.
+Base documental:
+[vision-fractal-pesos.txt], [snapshot-entendimiento-fractal.txt],
+[pipelines_cognitivos.txt], [definicion-1.txt].
+
+Idea 4:
+La arquitectura necesita memoria longitudinal; por eso trayectoria y evidencia no
+deben separarse.
+Base documental:
+[trayectoria-de-proyeccion.txt], [creacion-de-realidad.txt],
+[modelo-del-sistema-version-1.txt], [lazo-y-cierre.txt].
+
+Idea 5:
+El estrato de evidencia debe poder modificar no solo la ejecución local, sino
+también el propio modelo cuando la evidencia muestra ruptura estructural.
+Base documental:
+[teoria-general-de-modelado-de-ideas.txt],
+[vision-fractal-pesos.txt], [planteamiento-integral-teoria-de-lazo.txt].
+
+Idea 6:
+La evidencia es también criterio de promoción o bloqueo entre fases del sistema.
+Base documental:
+[vision-fractal-pesos.txt], [snapshot-entendimiento-fractal.txt],
+[convertibilidad-y-dinero.txt].
+
+Idea 7:
+Sin este estrato, la arquitectura solo produce outputs; con él, puede cerrar el
+circuito de desarrollo y dejar de ser potencialidad indefinida.
+Base documental:
+[creacion-de-realidad.txt], [modelo-del-sistema-version-1.txt],
+[plan-de-negocios-version-5.txt], [arquitectura-comercial.txt].
+
+==============================================================================
+CIERRE DEL DOCUMENTO
+==============================================================================
+
+Lectura final
+-------------
+La bibliografía no sirve aquí como “decoración teórica” ni como repositorio de
+ideas sueltas.
+
+Sirve como base para construir prompts locales de refinamiento porque permite
+transformar documentos de orden 1 en ideas-base de orden 2, es decir, en
+principios operativos que pueden empujar a cada estrato a alinearse con una misma
+máquina reusable.
+
+La utilidad de este documento para los prompts es la siguiente:
+
+- no le dirá a cada chat solo “reformula el estrato”;
+- le permitirá decir:
+  “reformula este estrato apoyándote en estas ideas-base, que se desprenden de
+   estos documentos, y alínea la formulación local con ACCD como máquina reusable
+   de producción de campos atencionales y convertibilidad”.
+
+Fin del documento.

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+    "type": "has_value",
+    "rationale": "compartir es un valor declarado para el campo accion_esperada."
+  }
+}

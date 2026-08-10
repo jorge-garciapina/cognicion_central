@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-mapa_de_relaciones-mapa_de_relaciones",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-mapa_de_relaciones-mapa_de_relaciones",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-mapa_de_relaciones-mapa_de_relaciones",
+    "type": "has_value",
+    "rationale": "mapa_de_relaciones es un valor nuevo incorporado en modo_de_distribucion_conceptual_en_lienzo para la realización imagen."
+  }
+}

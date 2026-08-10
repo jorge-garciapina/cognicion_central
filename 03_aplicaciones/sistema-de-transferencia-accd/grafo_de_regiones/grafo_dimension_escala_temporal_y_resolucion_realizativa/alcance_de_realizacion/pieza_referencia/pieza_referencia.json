@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_referencia-pieza_referencia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_referencia-pieza_referencia",
+    "label": "pieza_referencia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_referencia-pieza_referencia",
+    "summary": "**Definición.** Valor que indica que la pieza está pensada para funcionar como recurso estable de consulta o remisión. Su valor no se agota en el primer impacto; puede volver a usarse para recordar una estructura, revisar criterios, recuperar información o apoyar una explicación posterior.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios",
+  "content": "Indicar qué función cumplen predominantemente los recursos complementarios dentro de la pieza. Tipo de valor: Categorial cerrado múltiple controlado. Cardinalidad: Uno o más valores compatibles. Restricciones: Los valores seleccionados deben ser compatibles entre sí. La función predominante debe ser coherente con la función dominante de la pieza."
+}

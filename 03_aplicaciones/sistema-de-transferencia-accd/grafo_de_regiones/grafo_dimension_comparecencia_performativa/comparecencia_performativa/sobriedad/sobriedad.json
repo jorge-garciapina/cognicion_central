@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad",
+    "label": "sobriedad",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad",
+    "summary": "Grado de contención formal o libertad expresiva admitida por la pieza.",
+    "value_type": "Categorial ordinal",
+    "cardinality": null
+  }
+}

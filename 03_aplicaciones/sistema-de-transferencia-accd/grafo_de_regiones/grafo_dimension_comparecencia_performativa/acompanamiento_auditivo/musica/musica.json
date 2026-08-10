@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+    "label": "musica",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+    "summary": "Uso local o global de música cuando forme parte de la realización.",
+    "value_type": "Descriptivo controlado",
+    "cardinality": "Cero o una configuración por bloque o por pieza"
+  }
+}

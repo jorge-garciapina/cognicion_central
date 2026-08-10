@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo",
+    "label": "texto_minimo_de_refuerzo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo",
+    "summary": "Valor texto_minimo_de_refuerzo declarado para el campo uso_de_texto_en_pantalla.",
+    "metadata": {
+      "value_of": "uso_de_texto_en_pantalla",
+      "source_section": "12.1"
+    }
+  }
+}

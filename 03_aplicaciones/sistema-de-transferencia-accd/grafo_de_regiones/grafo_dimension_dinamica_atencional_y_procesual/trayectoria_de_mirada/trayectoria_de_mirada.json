@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+    "label": "trayectoria_de_mirada",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+    "summary": "**Definición del campo.** Campo que describe el recorrido esperado de la atención dentro de un campo visual. No define objetos ni contenido, sino la forma en que la mirada se desplaza entre focos, zonas, masas, señales, textos y relaciones. Su función semántica es distinguir patrones de lectura espacial dentro de una composición estática.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

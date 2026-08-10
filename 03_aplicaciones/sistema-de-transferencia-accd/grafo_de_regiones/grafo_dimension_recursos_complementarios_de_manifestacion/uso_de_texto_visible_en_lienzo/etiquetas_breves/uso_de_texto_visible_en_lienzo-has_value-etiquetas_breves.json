@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+    "type": "has_value",
+    "rationale": "etiquetas_breves es un valor nuevo incorporado en uso_de_texto_visible_en_lienzo para la realización imagen."
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-numero_o_dato-numero_o_dato",
+  "content": "**Definición.** Entrada basada en una cifra, métrica, porcentaje, cantidad, fecha, ranking o dato destacado. La atención se activa por especificidad informativa y promesa de evidencia.\n\n**Diferenciación semántica.** Se diferencia de `titulo_principal` porque la entrada depende de información cuantificada o puntual. Se diferencia de `pregunta_visible` porque ofrece un ancla concreta en lugar de abrir una incógnita.\n\n**Interpretación mínima.** La IA debe entender que el número o dato debe ser visualmente prominente y semánticamente relevante."
+}

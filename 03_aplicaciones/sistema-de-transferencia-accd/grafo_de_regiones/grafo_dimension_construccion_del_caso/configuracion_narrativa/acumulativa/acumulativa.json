@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa",
+    "label": "acumulativa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa",
+    "summary": "Valor acumulativa declarado para configuracion_narrativa.",
+    "metadata": {
+      "value_of": "configuracion_narrativa"
+    }
+  }
+}

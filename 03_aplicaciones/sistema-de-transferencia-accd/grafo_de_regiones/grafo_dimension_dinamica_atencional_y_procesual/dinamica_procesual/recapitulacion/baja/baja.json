@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja",
+    "label": "baja",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja",
+    "summary": "Valor baja del eje recapitulacion.",
+    "value_type": "Valor ordinal",
+    "value_description": "Pocas reformulaciones o recuperaciones del recorrido."
+  }
+}

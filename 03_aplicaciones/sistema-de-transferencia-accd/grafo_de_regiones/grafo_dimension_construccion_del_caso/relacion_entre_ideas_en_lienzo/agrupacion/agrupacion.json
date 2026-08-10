@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-agrupacion-agrupacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-agrupacion-agrupacion",
+    "label": "agrupacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-agrupacion-agrupacion",
+    "summary": "**Definición.** Relación en la que varios elementos se leen como conjunto por compartir contenedor, color, forma, proximidad, etiqueta o alineación. Es útil para crear categorías visuales o bloques conceptuales dentro del lienzo.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{"address":"def/ACCD-Separacion-Ontologico-Operativa","content":"[
+================================================================================
+DEFINICIÓN — SEPARACIÓN ONTOLÓGICO-OPERATIVA
+================================================================================
+0) Intención
+Fijar, de manera explícita y portable, la distinción canónica entre:
+- lo que existe como estructura del sistema,
+- y lo que se hace como operación sobre esa estructura.
+
+1) Definición central
+Separación Ontológico-Operativa = subgrafo transversal cuya función es impedir el
+colapso entre:
+- entidades, regiones, estados, dimensiones y relaciones,
+- y técnicas, heurísticas, operaciones, módulos y mecanismos de ejecución.
+
+2) Tesis estructural
+La distinción no existe para separar arbitrariamente dos listas.
+Existe para volver auditable:
+- qué pertenece al plano estructural,
+- qué pertenece al plano operativo,
+- cómo ambos planos se acoplan,
+- y qué errores de modelado aparecen cuando se confunden.
+
+3) Regla general
+Todo estrato debe ser examinado para determinar:
+- si requiere separación explícita entre eje ontológico y eje operativo,
+- cómo se acoplan ambos ejes,
+- y qué formas de colapso deben evitarse.
+
+4) Fórmula de cierre
+La arquitectura gana precisión cuando distingue:
+ontología + operación + acoplamiento + criterio de aplicabilidad + detección de colapsos.
+]"}
+
+{"address":"def/ACCD-Eje-Ontologico","content":"[
+================================================================================
+DEFINICIÓN — EJE ONTOLÓGICO
+================================================================================
+0) Intención
+Fijar el plano de qué existe como estructura del estrato.
+
+1) Definición central
+Eje Ontológico = plano estructural que reúne las entidades, campos, regiones,
+estados, dimensiones, bordes y relaciones sin reducirlos todavía a técnicas de
+realización o a secuencias de ejecución.
+
+2) Función
+Su función es responder:
+¿qué tipo de cosas existen en este estrato aunque todavía no estén siendo
+operadas, activadas o ejecutadas?
+
+3) Criterio de pertenencia
+Pertenecen al eje ontológico las unidades cuya identidad depende de:
+- qué son,
+- qué delimitan,
+- qué relación guardan con otras unidades,
+- y bajo qué borde siguen siendo la misma entidad.
+
+4) Regla de borde
+No pertenecen aquí:
+- heurísticas,
+- tácticas,
+- procedimientos,
+- secuencias,
+- ni mecanismos de realización.
+]"} 
+
+{"address":"def/ACCD-Eje-Operativo","content":"[
+================================================================================
+DEFINICIÓN — EJE OPERATIVO
+================================================================================
+0) Intención
+Fijar el plano de qué se hace sobre la estructura del estrato.
+
+1) Definición central
+Eje Operativo = plano que reúne técnicas, heurísticas, operaciones, ensamblajes,
+mecanismos de realización y módulos de ejecución que actúan sobre entidades ya
+delimitadas por el eje ontológico.
+
+2) Función
+Su función es responder:
+¿qué operaciones realiza el sistema sobre la estructura que reconoce?
+
+3) Criterio de pertenencia
+Pertenecen al eje operativo las unidades cuya identidad depende de:
+- su función de intervención,
+- su modo de ejecución,
+- su capacidad de traducir,
+- activar,
+- modular,
+- ensamblar,
+- o realizar una estructura.
+
+4) Regla de borde
+No pertenecen aquí las entidades cuyo estatuto principal es estructural,
+taxonómico o definicional.
+]"} 
+
+{"address":"def/ACCD-Acoplamiento-Entre-Ejes","content":"[
+================================================================================
+DEFINICIÓN — ACOPLAMIENTO ENTRE EJES
+================================================================================
+0) Intención
+Volver explícita la relación entre estructura y operación.
+
+1) Definición central
+Acoplamiento entre Ejes = plano relacional que fija cómo:
+- la ontología habilita, restringe o condiciona operaciones,
+- y cómo la operación actualiza, manifiesta, recorre o reorganiza configuraciones
+  ontológicas.
+
+2) Función
+Su función es impedir que la separación entre ejes se vuelva una escisión estéril.
+
+3) Principio
+La ontología no se ejecuta por sí sola.
+La operación no opera sobre la nada.
+Ambas necesitan una interfaz explícita de acoplamiento.
+
+4) Regla de borde
+Si un estrato distingue ontología y operación, debe poder decir también:
+- cómo se tocan,
+- en qué dirección se condicionan,
+- y qué depende de qué.
+]"} 
+
+{"address":"def/ACCD-Criterio-de-Aplicabilidad-de-la-Distincion","content":"[
+================================================================================
+DEFINICIÓN — CRITERIO DE APLICABILIDAD DE LA DISTINCIÓN
+================================================================================
+0) Intención
+Determinar cuándo un estrato necesita distinguir explícitamente entre eje
+ontológico y eje operativo.
+
+1) Definición central
+Criterio de Aplicabilidad = dispositivo de decisión que permite establecer si la
+separación debe declararse como parte constitutiva del estrato o si puede
+omitirse con justificación explícita.
+
+2) Señales de aplicabilidad fuerte
+La distinción aplica cuando el estrato:
+- contiene entidades con identidad propia y operaciones sobre ellas,
+- admite confusión entre clase de cosa y modo de intervención,
+- requiere composición estructural y también composición de ejecución,
+- o produce errores de modelado si ambos planos se mezclan.
+
+3) Señales de no aplicabilidad fuerte
+La distinción puede no requerirse cuando el estrato:
+- es casi puramente taxonómico,
+- o casi puramente procedimental,
+- y la mezcla no introduce ambigüedad relevante.
+
+4) Regla
+Si la distinción aplica, debe declararse.
+Si no aplica, debe indicarse por qué.
+]"} 
+
+{"address":"def/ACCD-Tipos-de-Colapso-Entre-Ejes","content":"[
+================================================================================
+DEFINICIÓN — TIPOS DE COLAPSO ENTRE EJES
+================================================================================
+0) Intención
+Volver explícitas las formas recurrentes de error producidas por la mezcla
+indebida entre ontología y operación.
+
+1) Definición central
+Tipos de Colapso entre Ejes = conjunto de patrones diagnósticos que permiten
+detectar cuándo una entidad estructural ha sido confundida con una operación, o
+cuándo una operación ha sido tratada como si fuera una entidad del plano
+ontológico.
+
+2) Casos principales
+- colapso de entidad en operación,
+- colapso de operación en entidad,
+- colapso de dimensión en técnica,
+- colapso de contexto en heurística,
+- colapso de adaptador en manifestación,
+- colapso de estructura en procedimiento.
+
+3) Función
+Su función es servir como bloque de diagnóstico para revisar estratos y evitar
+modelados mezclados o inestables.
+
+4) Fórmula de cierre
+Cuando no se distingue qué existe y qué se hace, el sistema pierde borde,
+precisión y capacidad de expansión.
+]"} 
+
+{"address":"def/ACCD-Regla-de-Declaracion-por-Estrato","content":"[
+================================================================================
+DEFINICIÓN — REGLA DE DECLARACIÓN POR ESTRATO
+================================================================================
+0) Intención
+Imponer una salida explícita mínima cada vez que un estrato sea revisado bajo la
+distinción ontológico-operativa.
+
+1) Definición central
+Regla de Declaración por Estrato = exigencia de explicitación mínima por la cual
+cada estrato debe declarar, cuando aplique:
+- sus unidades ontológicas,
+- sus unidades operativas,
+- sus aristas de acoplamiento,
+- sus colapsos típicos,
+- y la justificación de excepción si la distinción no aplica.
+
+2) Función
+Su función es transformar una recomendación metodológica general en un criterio
+operativo de modelado reutilizable.
+
+3) Resultado esperado
+El estrato deja de decir solo:
+“hay ontología y operación”.
+Pasa a decir:
+- qué pertenece a cada plano,
+- cómo se relacionan,
+- y cómo detectar confusiones.
+]"} 
+
+{"address":"graph/node/ACCD-Separacion-Ontologico-Operativa","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa",
+  "label":"ACCD — Separación ontológico-operativa",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Separacion-Ontologico-Operativa",
+  "summary":"Subgrafo transversal que fija la distinción entre estructura y operación, vuelve explícito su acoplamiento y permite diagnosticar colapsos de modelado entre ambos planos."
+}}
+
+{"address":"graph/node/ACCD-Eje-Ontologico","content":{
+  "id":"ACCD-Eje-Ontologico",
+  "label":"ACCD — Eje ontológico",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Eje-Ontologico",
+  "summary":"Plano de entidades, campos, regiones, estados, dimensiones, bordes y relaciones que existen como estructura del estrato."
+}}
+
+{"address":"graph/node/ACCD-Eje-Operativo","content":{
+  "id":"ACCD-Eje-Operativo",
+  "label":"ACCD — Eje operativo",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Eje-Operativo",
+  "summary":"Plano de técnicas, heurísticas, operaciones, ensamblajes, mecanismos de realización y módulos de ejecución que actúan sobre la estructura."
+}}
+
+{"address":"graph/node/ACCD-Acoplamiento-Entre-Ejes","content":{
+  "id":"ACCD-Acoplamiento-Entre-Ejes",
+  "label":"ACCD — Acoplamiento entre ejes",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Acoplamiento-Entre-Ejes",
+  "summary":"Plano relacional que fija cómo la ontología habilita o restringe operaciones y cómo la operación actualiza, manifiesta o reorganiza configuraciones ontológicas."
+}}
+
+{"address":"graph/node/ACCD-Criterio-de-Aplicabilidad-de-la-Distincion","content":{
+  "id":"ACCD-Criterio-de-Aplicabilidad-de-la-Distincion",
+  "label":"ACCD — Criterio de aplicabilidad de la distinción",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Criterio-de-Aplicabilidad-de-la-Distincion",
+  "summary":"Dispositivo de decisión que determina cuándo un estrato debe distinguir explícitamente entre eje ontológico y eje operativo, y cuándo puede justificar su no aplicación."
+}}
+
+{"address":"graph/node/ACCD-Tipos-de-Colapso-Entre-Ejes","content":{
+  "id":"ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "label":"ACCD — Tipos de colapso entre ejes",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "summary":"Bloque diagnóstico que reúne los patrones recurrentes de error producidos por la mezcla indebida entre entidad estructural y operación."
+}}
+
+{"address":"graph/node/ACCD-Regla-de-Declaracion-por-Estrato","content":{
+  "id":"ACCD-Regla-de-Declaracion-por-Estrato",
+  "label":"ACCD — Regla de declaración por estrato",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Regla-de-Declaracion-por-Estrato",
+  "summary":"Exigencia mínima por la cual cada estrato debe declarar sus componentes ontológicos, operativos, acoplamientos, colapsos típicos y, si corresponde, la justificación de excepción."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Eje-Ontologico","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Eje-Ontologico",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Eje-Ontologico",
+  "type":"depends_on",
+  "rationale":"La separación solo puede formularse con precisión si el plano estructural del estrato queda fijado explícitamente."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Eje-Operativo","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Eje-Operativo",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Eje-Operativo",
+  "type":"depends_on",
+  "rationale":"La separación requiere un plano explícito de operaciones para evitar que la ontología absorba indebidamente la ejecución."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Acoplamiento-Entre-Ejes","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-depends_on-ACCD-Acoplamiento-Entre-Ejes",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Acoplamiento-Entre-Ejes",
+  "type":"depends_on",
+  "rationale":"La distinción entre ejes queda incompleta si no se vuelve explícita la forma en que estructura y operación se condicionan mutuamente."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Criterio-de-Aplicabilidad-de-la-Distincion","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Criterio-de-Aplicabilidad-de-la-Distincion",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Criterio-de-Aplicabilidad-de-la-Distincion",
+  "type":"uses",
+  "rationale":"La revisión de estratos requiere un criterio explícito para decidir cuándo la distinción debe declararse y cuándo su omisión puede justificarse."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Tipos-de-Colapso-Entre-Ejes","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "type":"uses",
+  "rationale":"El subgrafo necesita una tipología diagnóstica para detectar mezclas indebidas entre entidad estructural y operación."
+}}
+
+{"address":"graph/edge/ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Regla-de-Declaracion-por-Estrato","content":{
+  "id":"ACCD-Separacion-Ontologico-Operativa-uses-ACCD-Regla-de-Declaracion-por-Estrato",
+  "from":"ACCD-Separacion-Ontologico-Operativa",
+  "to":"ACCD-Regla-de-Declaracion-por-Estrato",
+  "type":"uses",
+  "rationale":"La separación global se vuelve operable cuando cada estrato está obligado a declarar sus componentes, acoplamientos y excepciones."
+}}
+
+{"address":"graph/edge/ACCD-Acoplamiento-Entre-Ejes-depends_on-ACCD-Eje-Ontologico","content":{
+  "id":"ACCD-Acoplamiento-Entre-Ejes-depends_on-ACCD-Eje-Ontologico",
+  "from":"ACCD-Acoplamiento-Entre-Ejes",
+  "to":"ACCD-Eje-Ontologico",
+  "type":"depends_on",
+  "rationale":"No puede describirse un acoplamiento real sin un plano estructural explícito respecto del cual la operación quede orientada."
+}}
+
+{"address":"graph/edge/ACCD-Acoplamiento-Entre-Ejes-depends_on-ACCD-Eje-Operativo","content":{
+  "id":"ACCD-Acoplamiento-Entre-Ejes-depends_on-ACCD-Eje-Operativo",
+  "from":"ACCD-Acoplamiento-Entre-Ejes",
+  "to":"ACCD-Eje-Operativo",
+  "type":"depends_on",
+  "rationale":"El acoplamiento exige un plano operativo explícito para poder describir qué operaciones actúan sobre qué estructuras."
+}}
+
+{"address":"graph/edge/ACCD-Criterio-de-Aplicabilidad-de-la-Distincion-provides_criteria_for-ACCD-Regla-de-Declaracion-por-Estrato","content":{
+  "id":"ACCD-Criterio-de-Aplicabilidad-de-la-Distincion-provides_criteria_for-ACCD-Regla-de-Declaracion-por-Estrato",
+  "from":"ACCD-Criterio-de-Aplicabilidad-de-la-Distincion",
+  "to":"ACCD-Regla-de-Declaracion-por-Estrato",
+  "type":"provides_criteria_for",
+  "rationale":"La regla de declaración necesita un criterio explícito que indique cuándo la separación debe exigirse y bajo qué condiciones puede exceptuarse."
+}}
+
+{"address":"graph/edge/ACCD-Tipos-de-Colapso-Entre-Ejes-provides_criteria_for-ACCD-Regla-de-Declaracion-por-Estrato","content":{
+  "id":"ACCD-Tipos-de-Colapso-Entre-Ejes-provides_criteria_for-ACCD-Regla-de-Declaracion-por-Estrato",
+  "from":"ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "to":"ACCD-Regla-de-Declaracion-por-Estrato",
+  "type":"provides_criteria_for",
+  "rationale":"La declaración por estrato gana valor operativo cuando obliga a identificar también las formas típicas de colapso que deben evitarse."
+}}
+
+{"address":"graph/edge/ACCD-Tipos-de-Colapso-Entre-Ejes-refines-ACCD-Separacion-Ontologico-Operativa","content":{
+  "id":"ACCD-Tipos-de-Colapso-Entre-Ejes-refines-ACCD-Separacion-Ontologico-Operativa",
+  "from":"ACCD-Tipos-de-Colapso-Entre-Ejes",
+  "to":"ACCD-Separacion-Ontologico-Operativa",
+  "type":"refines",
+  "rationale":"La tipología de colapsos hace más precisa la función del subgrafo al mostrar en qué casos concretos la separación falla o se vuelve insuficiente."
+}}
+
+{"address":"graph/edge/ACCD-Regla-de-Declaracion-por-Estrato-refines-ACCD-Separacion-Ontologico-Operativa","content":{
+  "id":"ACCD-Regla-de-Declaracion-por-Estrato-refines-ACCD-Separacion-Ontologico-Operativa",
+  "from":"ACCD-Regla-de-Declaracion-por-Estrato",
+  "to":"ACCD-Separacion-Ontologico-Operativa",
+  "type":"refines",
+  "rationale":"La regla convierte la separación global en un criterio de modelado aplicable y no solo en una observación metodológica general."
+}}

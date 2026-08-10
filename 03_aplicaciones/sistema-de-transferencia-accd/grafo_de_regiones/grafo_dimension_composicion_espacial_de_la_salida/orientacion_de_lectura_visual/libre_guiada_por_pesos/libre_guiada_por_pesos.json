@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-libre_guiada_por_pesos-libre_guiada_por_pesos",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-libre_guiada_por_pesos-libre_guiada_por_pesos",
+    "label": "libre_guiada_por_pesos",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-libre_guiada_por_pesos-libre_guiada_por_pesos",
+    "summary": "**Definición.** Orientación sin ruta geométrica fija, donde la mirada se mueve según tamaño, contraste, color, aislamiento o intensidad. Requiere jerarquía clara para que la libertad no se convierta en caos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual"
+    }
+  }
+}

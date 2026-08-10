@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_marketplace-imagen_para_marketplace",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_marketplace-imagen_para_marketplace",
+    "label": "imagen_para_marketplace",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_marketplace-imagen_para_marketplace",
+    "summary": "**Definición.** Aplicación para entornos donde muchos productos o propuestas compiten. Necesita diferenciación rápida, limpieza, confianza y reconocimiento del objeto o beneficio.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

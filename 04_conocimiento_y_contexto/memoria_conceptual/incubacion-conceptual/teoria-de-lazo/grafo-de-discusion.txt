@@ -1,0 +1,273 @@
+{
+    Núcleo: Este es el grafo en el que desarrollaré la teoría de lazo, el punto de partida es aleatorio. 
+    Invariantes: Todos los nodos estarán conectados
+    Dominio de Variación: cada nodo puede contener un tema distinto
+}
+
+******************************************************************************************************************
+******************************************************************************************************************
+NODO:
+{"address":"graph/node/","content":{
+  "id":"",
+  "label":"",
+  "type":"",
+  "link":"",
+  "definition_ref":"def/",
+  "summary":"",
+}}
+
+
+{"address":"def/","content":"[]"}
+******************************************************************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+ARISTA:
+{"address":"graph/edge/","content":{
+  "id":"",
+  "from":"",
+  "to":"",
+  "type":"refines",
+  "rationale":""
+}}
+******************************************************************************************************************
+******************************************************************************************************************
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+NODOS:
+{"address":"graph/node/TEORIA-DE-LAZO-DEFINICION-BASE","content":{
+  "id":"TEORIA-DE-LAZO-DEFINICION-BASE",
+  "label":"PLANTEAMIENTO FUNDAMENTAL DE LA TEORÍA DE LAZO",
+  "type":"root_node",
+  "link":"https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a7501-bb8c-8330-aba0-b463a521c3ac",
+  "definition_ref":"def/TEORIA-DE-LAZO-DEFINICION-BASE",
+  "summary":"La Teoría de Lazo es un marco para describir sistemas cuya dinámica esencial se organiza como un acoplamiento recíproco entre:
+               (A) un eje ontológico (forma/estado/configuración del sistema en un instante conceptual), y
+               (B) un eje de ejecución (recorrido/operación/transformación del sistema a través de pasos),
+             de modo que:
+               1) el estado condiciona qué operaciones son posibles, típicas o permitidas, y
+               2) las operaciones reconfiguran el estado, produciendo trayectorias y, bajo condiciones específicas, cierres (loops) definidos
+                  por equivalencia de estado.
+  ",
+}}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EDGES:
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DEFINICIONES
+{"address":"def/TEORIA-DE-LAZO-DEFINICION-BASE","content":"[
+TEORÍA DE LAZO (Loop Theory) — Planteamiento normado y portable (documento de consulta)
+
+0) Tipo de salida, propósito y criterio general de calidad
+- Tipo de salida: Documento destinado a consulta.
+- Propósito de uso: Fijar la identidad conceptual de “Teoría de Lazo” como unidad reutilizable para análisis y diseño de sistemas
+                    (incluidos sistemas conversacionales y grafos conceptuales).
+- Criterio general de calidad: El texto debe funcionar por sí mismo como referencia autónoma: definiciones operativas, invariantes,
+                               dominio de variación, relaciones explícitas y criterios de aplicación, sin depender de contexto externo.
+
+1) Definición explícita (núcleo: qué delimita la Teoría de Lazo)
+Definición operativa:
+La Teoría de Lazo es un marco para describir sistemas cuya dinámica esencial se organiza como un acoplamiento recíproco entre:
+(A) un eje ontológico (forma/estado/configuración del sistema en un instante conceptual), y
+(B) un eje de ejecución (recorrido/operación/transformación del sistema a través de pasos),
+de modo que:
+1) el estado condiciona qué operaciones son posibles, típicas o permitidas, y
+2) las operaciones reconfiguran el estado, produciendo trayectorias y, bajo condiciones específicas, cierres (loops) definidos por equivalencia de estado.
+
+En esta teoría, “lazo” no significa repetición superficial, sino una regla estructural de co-determinación:
+- Estado → Operación (condicionamiento),
+- Operación → Estado (actualización),
+con un criterio explícito para declarar cuándo existe cierre (retorno a estado equivalente).
+
+2) Componentes mínimos (piezas indispensables para que exista un lazo)
+2.1 Eje ontológico (espacio de forma)
+Conjunto de variables que describen la configuración relevante del sistema.
+Incluye, según dominio:
+- Estructura interna (partes, roles, restricciones).
+- Recursos y límites (umbrales, capacidad, reglas).
+- Memoria o estado acumulado (si existe).
+- Relaciones activas con el entorno (interfaces, entradas/salidas).
+
+Definición mínima:
+Eje ontológico = “lo que debe conocerse del sistema para describir cómo está configurado”.
+
+2.2 Eje de ejecución (parámetro de recorrido)
+Parámetro que ordena transformaciones.
+No requiere ser tiempo físico; puede ser:
+- índice de iteración (paso 1, paso 2, …),
+- eventos discretos,
+- turnos de interacción,
+- ciclos de control,
+- transacciones.
+
+Definición mínima:
+Eje de ejecución = “lo que permite describir cómo cambia el sistema paso a paso”.
+
+2.3 Regla de acoplamiento (el operador de lazo)
+Conjunto de reglas que conectan ambos ejes:
+- Regla forward (estado → operación): determina qué operaciones quedan habilitadas, inhibidas o moduladas por el estado.
+- Regla backward (operación → estado): determina cómo una operación modifica el estado.
+
+Definición mínima:
+Regla de acoplamiento = “la especificación de co-determinación entre forma y operación”.
+
+2.4 Criterio de cierre (loop) mediante equivalencia de estado
+Un lazo requiere un criterio explícito de retorno:
+- No exige volver al mismo estado literal,
+- Exige volver a un estado equivalente bajo una relación de equivalencia declarada.
+
+Ejemplos de equivalencia (abstractos):
+- “Mis mismos invariantes se preservan” (identidad estructural).
+- “El sistema recupera coherencia” (cierre por consistencia).
+- “Se alcanza una condición de término repetible” (cierre operacional).
+
+Definición mínima:
+Cierre = “existencia de un retorno a estado equivalente, detectable con criterios explícitos”.
+
+3) Invariantes (lo que no puede cambiar sin dejar de ser Teoría de Lazo)
+I1 — Dualidad explícita:
+Debe existir una separación clara entre:
+- variables de forma/estado (ontología operativa), y
+- parámetro(s) de recorrido/operación (ejecución).
+Si solo hay estado estático o solo hay secuencia de eventos sin estado, no hay lazo.
+
+I2 — Co-determinación (dos direcciones):
+Debe existir influencia en ambos sentidos:
+- el estado condiciona la operación,
+- la operación reconfigura el estado.
+Una cadena causal lineal (solo hacia adelante) no basta.
+
+I3 — Cierre decidible:
+Debe existir un criterio explícito para declarar:
+- cuándo hay cierre (loop),
+- y cuándo no hay cierre (deriva, ruptura, ejecución sin retorno equivalente).
+
+I4 — Identidad por estructura (no por etiqueta):
+La pertenencia a “Teoría de Lazo” debe decidirse por componentes verificables (ejes + acoplamiento + cierre),
+no por el uso de palabras (“feedback”, “bucle”, “retroalimentación”) sin estructura.
+
+I5 — Separación entre analogía formal e identidad material:
+El eje de ejecución puede cumplir un rol análogo al tiempo (ordenar cambio), pero no se identifica necesariamente con tiempo físico.
+La teoría exige declarar el parámetro de ejecución utilizado en cada dominio.
+
+4) Dominio de variación (qué puede cambiar sin romper la identidad de la teoría)
+V1 — Dominio de aplicación:
+La teoría se puede aplicar a múltiples dominios (biología, software, conversación, economía, diseño institucional),
+si se preservan invariantes I1–I5.
+
+V2 — Representación:
+Puede expresarse como texto, diagrama, especificación formal o grafo, siempre que las piezas mínimas sean recuperables.
+
+V3 — Dimensionalidad de forma:
+El eje ontológico puede requerir 1, 2, 3 o más coordenadas según el dominio.
+La plantilla “3+1” se entiende como coordinación útil (tres coordenadas mínimas de forma + una de ejecución), no como ley universal.
+
+V4 — Definición de equivalencia de estado:
+La relación de equivalencia para cierre puede variar (según identidad del sistema), pero debe ser explícita y aplicable.
+
+5) Relaciones con unidades conceptuales del grafo (integración con el núcleo del proyecto)
+Este apartado fija relaciones sin depender de contexto conversacional.
+
+5.1 Relación con CCCO (Cognition as Operational Capacity: cognición como capacidad de operar sobre información)
+La Teoría de Lazo es compatible con CCCO porque modela cómo un sistema:
+- posee un estado informacional (configuración de representaciones, restricciones, memoria),
+- ejecuta operaciones sobre información (transformaciones, decisiones, inferencias),
+- y produce actualizaciones de estado que condicionan ejecuciones futuras.
+
+En términos estructurales:
+CCCO fija el fenómeno base (operar sobre información); la Teoría de Lazo fija una forma canónica de dinámica (acoplamiento estado–operación).
+
+5.2 Relación con CCMC (Cognition as Conditioned Manifestation: cognición como manifestación condicionada)
+La Teoría de Lazo ofrece una explicación estructural de “manifestación condicionada”:
+- Las condiciones externas se incorporan como parte del estado (ontología) o como restricciones sobre la operación (ejecución).
+- Cambiar condiciones altera qué operaciones dominan; esas operaciones reconfiguran el estado, generando nuevas condiciones internas.
+
+5.3 Relación con PTE (Structural Transferability Principle: principio de transferibilidad estructural)
+La Teoría de Lazo exige describir identidad por estructura explícita:
+- declarar invariantes,
+- declarar dominio de variación,
+- declarar criterio de cierre,
+para que distintos receptores converjan en “es el mismo lazo” sin depender de intuición privada.
+
+5.4 Relación con CP (Membership Criteria: criterios de pertenencia)
+CP se interpreta como el mecanismo para decidir si un sistema observado instancia un lazo:
+- pruebas de existencia de ejes,
+- pruebas de co-determinación,
+- pruebas de cierre o de ausencia de cierre,
+con trazabilidad suficiente para auditoría.
+
+5.5 Relación con MNODE (Minimal Cognitive Form: forma cognitiva mínima portadora de identidad)
+Un “lazo” puede tratarse como una forma estructural (no solo como evento):
+- Un MNODE puede contener un lazo como subestructura cuando su identidad incluye reglas de actualización y cierre.
+- Alternativamente, un lazo puede ser el patrón que conecta varios nodos: una arista o conjunto de aristas que implementan acoplamiento y retorno.
+
+5.6 Relación con RO (Operational Role: rol operativo)
+La distinción de ejes permite definir roles operativos con mayor precisión:
+- “Rol operativo” puede ser tratado como componente del eje de ejecución (cómo opera),
+mientras que invariantes y dominio de variación pertenecen al eje ontológico (qué conserva identidad).
+La Teoría de Lazo coordina ambas capas para evitar que “rol” se degrade a etiqueta.
+
+6) Criterios de aplicación correcta (tests operativos de pertenencia a la Teoría de Lazo)
+Test A — Identificación de forma (eje ontológico)
+Debe poder listarse el conjunto mínimo de variables de configuración relevantes.
+Si el análisis solo describe “cosas que pasan” sin estado, falla I1.
+
+Test B — Identificación de recorrido (eje de ejecución)
+Debe poder declararse el parámetro que ordena transformaciones (pasos, eventos, turnos, ciclos).
+Si solo hay estado sin transformación ordenada, falla I1.
+
+Test C — Regla forward (estado → operación)
+Debe poder indicarse qué aspecto del estado habilita, modula o bloquea operaciones.
+Si el estado no condiciona nada, falla I2.
+
+Test D — Regla backward (operación → estado)
+Debe poder indicarse qué operación actualiza qué parte del estado.
+Si las operaciones no reconfiguran estado, falla I2.
+
+Test E — Criterio de cierre por equivalencia
+Debe declararse:
+- qué cuenta como “retorno”,
+- y cómo se reconoce un estado equivalente.
+Si no existe equivalencia explícita, falla I3.
+
+Test F — Discriminación contra casos parecidos
+Debe poder distinguirse la Teoría de Lazo de:
+- secuencia lineal sin retroacción (solo forward),
+- repetición mecánica sin actualización de estado (ciclo trivial),
+- uso de la palabra “feedback” sin reglas inspeccionables.
+
+7) Ejemplos de proyección (anclas de reconocimiento; no son fundamento de identidad)
+Ejemplo 1 — Sistema conversacional (grafo de discusión)
+- Eje ontológico: estado del grafo (nodos existentes, restricciones de formato, reglas de integración, memoria estructural).
+- Eje de ejecución: turnos y operaciones (peticiones del usuario; generación de unidades integrables; bifurcación por “hilo”).
+- Acoplamiento:
+  * forward: el estado del grafo condiciona el formato permitido de salida y el tipo de integración posible.
+  * backward: cada salida estructurada actualiza el estado del grafo (crea/refina nodos y relaciones).
+- Cierre: retorno a un estado equivalente donde el sistema recupera coherencia (por ejemplo, después de refinamientos, el nodo queda estable y reutilizable).
+
+Ejemplo 2 — Biología (modelo conceptual)
+- Eje ontológico: configuración interna (estructura, compartimentos, restricciones).
+- Eje de ejecución: procesos (metabolismo, regulación, respuesta).
+- Acoplamiento: la configuración condiciona qué reacciones pueden ocurrir; las reacciones actualizan condiciones internas.
+- Cierre: ciclos homeostáticos (retorno a rangos equivalentes de funcionamiento).
+
+Ejemplo 3 — Software (modelo conceptual)
+- Eje ontológico: estado del sistema (datos, configuraciones, reglas).
+- Eje de ejecución: eventos/transacciones.
+- Acoplamiento: el estado valida o impide acciones; las acciones mutan estado.
+- Cierre: bucles de control (reintentos con condición de éxito; convergencia a estado consistente).
+
+8) Límites y advertencias de uso (para evitar degradación)
+- La Teoría de Lazo no es sinónimo de “iteración” ni de “ciclo” en sentido superficial.
+- No toda repetición es un lazo: debe existir actualización de estado y criterio de cierre por equivalencia.
+- La teoría no impone un número fijo de dimensiones ontológicas; exige declarar las que sean mínimas para el dominio.
+
+9) Resumen compacto (para reutilización rápida)
+La Teoría de Lazo describe sistemas donde:
+- hay un estado (forma) y un recorrido (ejecución),
+- el estado condiciona operaciones y las operaciones reconfiguran el estado,
+- y existe un criterio explícito para declarar cierre como retorno a estado equivalente.
+
+]"}
+

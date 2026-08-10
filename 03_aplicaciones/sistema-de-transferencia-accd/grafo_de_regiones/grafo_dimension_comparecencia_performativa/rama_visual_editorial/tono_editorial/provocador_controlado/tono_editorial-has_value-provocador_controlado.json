@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-provocador_controlado-provocador_controlado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-provocador_controlado-provocador_controlado",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-provocador_controlado-provocador_controlado",
+    "type": "has_value",
+    "rationale": "provocador_controlado es un valor de tono_editorial incorporado para la realización carousel."
+  }
+}

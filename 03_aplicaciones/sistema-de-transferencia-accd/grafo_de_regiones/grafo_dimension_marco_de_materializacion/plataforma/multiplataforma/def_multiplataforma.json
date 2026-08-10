@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-multiplataforma-multiplataforma",
+  "content": "Valor que indica que el carousel debe construirse de forma suficientemente general para poder adaptarse a más de una plataforma.\n\nEl protocolo debe evitar decisiones demasiado dependientes de un entorno específico.\n\nSirve cuando se busca reutilizar una misma pieza base en Instagram, TikTok, LinkedIn u otros canales con ajustes menores.\n\n---"
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-conceptual_simbolico-conceptual_simbolico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-conceptual_simbolico-conceptual_simbolico",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-conceptual_simbolico-conceptual_simbolico",
+    "type": "has_value",
+    "rationale": "conceptual_simbolico es un valor de estilo_de_composicion_visual incorporado para la realización carousel."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-metaforica_visual-metaforica_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-metaforica_visual-metaforica_visual",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-metaforica_visual-metaforica_visual",
+    "type": "has_value",
+    "rationale": "metaforica_visual es un valor nuevo de configuracion_discursiva incorporado para la realización imagen."
+  }
+}

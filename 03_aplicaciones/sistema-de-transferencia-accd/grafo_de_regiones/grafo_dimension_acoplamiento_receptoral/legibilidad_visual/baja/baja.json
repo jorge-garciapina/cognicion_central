@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-baja-baja",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-baja-baja",
+    "label": "baja",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-baja-baja",
+    "summary": "**Definición.** Nivel en el que la pieza permite cierto esfuerzo de lectura visual, ya sea por densidad, complejidad, estilo experimental, baja separación entre elementos o intención de fricción. No significa ilegibilidad total; significa que el acceso visual no es inmediato.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-artesanal-artesanal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-artesanal-artesanal",
+    "label": "artesanal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-artesanal-artesanal",
+    "summary": "**Definición.** Estilo que comunica factura manual, textura humana, imperfección controlada o cercanía material. Puede usar trazos, papel, collage manual o estética orgánica.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

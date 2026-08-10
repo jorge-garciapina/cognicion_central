@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_marco-jerarquia_por_marco",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_marco-jerarquia_por_marco",
+    "label": "jerarquia_por_marco",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_marco-jerarquia_por_marco",
+    "summary": "**Definición.** Jerarquía en la que un contenedor, borde o caja convierte un elemento en unidad destacada. El marco indica que lo contenido debe leerse como bloque privilegiado.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global"
+    }
+  }
+}

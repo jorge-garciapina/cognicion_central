@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_color-por_color",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_color-por_color",
+    "label": "por_color",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_color-por_color",
+    "summary": "**Definición.** Orientación en la que los colores guían categorías, orden o ruta de atención. Un mismo color puede conectar elementos no contiguos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual"
+    }
+  }
+}

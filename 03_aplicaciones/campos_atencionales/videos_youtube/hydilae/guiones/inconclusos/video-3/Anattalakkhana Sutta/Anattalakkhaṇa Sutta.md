@@ -1,0 +1,8 @@
+- En el canon pali corresponde a **SN 22.59**, y en la tradición budista temprana suele ser presentado como el **segundo discurso** del Buddha, pronunciado después del **Dhammacakkappavattana Sutta** Fue dirigido al grupo de los **cinco ascetas** en el Parque de los Ciervos, en Isipatana, cerca de Varanasi.
+- La importancia del sermón no está solo en enumerar cinco partes, sino en **mostrar que ninguna de ellas puede ser identificada legítimamente como un “[[Yo]]” permanente**.
+- Si alguno de esos agregados fuera verdaderamente el [[Yo]], entonces podría ser controlado de manera soberana —“que sea así”, “que no sea así”— y no conduciría a aflicción. Pero como todos son inestables, cambiantes y conducen al sufrimiento o a la insatisfacción, ninguno puede ser el [[Yo]].
+- Propone que hay 5 [[Agregados (dimensiones)]]
+- Los agregados se presentan usando la misma [[Estructura Argumental]]
+- Lo más fuerte no es solo que diga “no hay yo”. Lo más fuerte es **dónde** desarma la idea de yo. La desmonta en todas las capas donde normalmente nos refugiamos: en el cuerpo, en el sentir, en el reconocer,  en la actividad mental, en la conciencia misma
+  Es decir, no deja un escondite fácil para una identidad esencial. Por eso este sermón es tan decisivo dentro del budismo temprano. Access to Insight lo describe precisamente como el discurso donde el Buddha demuestra que no puede haber un self perdurable en ninguno de los cinco agregados.
+[[Consecuencias]]

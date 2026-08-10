@@ -1,0 +1,248 @@
+# ============================================================
+# EJEMPLO APLICADO — "ESTRATEGIA COSACA EN LA CAMPAÑA DE 1812"
+# Conforme a la PLANTILLA GENERAL DE ESTRATEGIA v1.0 (sin siglas)
+# Autosuficiente: instancia la plantilla al caso de los cosacos
+# durante la invasión de Napoleón a Rusia.
+# ============================================================
+
+@metadata: {
+  identificador: "EJEMPLO_ESTRATEGIA_COSACA_1812@v1.0",
+  modelo_base: "ESTRATEGIA_GENERAL@v1.0",
+  dominio: "operaciones terrestres — caballería ligera irregular",
+  teatro: "Rusia occidental (campaña de 1812)",
+  periodo: "junio–diciembre de 1812",
+  version_de_esquema: "1.0.0"
+}
+
+# ------------------------------------------------------------
+# A) DEFINICIÓN Y TEORÍA DE LA VICTORIA (NIVEL ESTRATÉGICO)
+# ------------------------------------------------------------
+estrategia: {
+  fin_principal: "Desorganizar, retrasar y desgastar a la fuerza invasora francesa sin comprometer batallas decisivas en condiciones desfavorables.",
+  medio_dominante: "Caballería ligera irregular dispersa en partidas, que hostiga flancos, retaguardias, convoyes y comunicaciones, y fuerza al enemigo a marchar más lento y más concentrado.",
+  modo_de_ejecucion: "Elegir el cuándo y el dónde con conocimiento del terreno; aparecer en los bordes del dispositivo enemigo; morder y soltar; convertir cada jornada de marcha en fricción acumulada.",
+  teoria_de_la_victoria: "Ventaja sostenible mediante coste diario impuesto al adversario (tiempo perdido, alimentos y munición que no llegan, hombres que se rezagan o se rinden), con riesgo propio bajo y coordinación con el ejército regular."
+}
+
+# ------------------------------------------------------------
+# B) INVARIANTES (NO NEGOCIABLES; SU RUPTURA BLOQUEA ACCIONES)
+# ------------------------------------------------------------
+invariantes: [
+  "Evitar choque frontal prolongado contra infantería apoyada por artillería.",
+  "Conservar movilidad: ningún golpe compromete la retirada segura de la partida.",
+  "Priorizar blancos vulnerables: trenes de suministros, correos, destacamentos aislados.",
+  "Mantener la pantalla delante y en los flancos del ejército regular para negar observación al enemigo.",
+  "Registrar rutas de escape y puntos de reunión antes de golpear."
+]
+
+# ------------------------------------------------------------
+# C) PORTAFOLIO DE ARQUITECTURAS UTILIZADAS (FORMAS REUSABLES)
+# ------------------------------------------------------------
+arquitecturas: [
+  {
+    id: "ARQUITECTURA_ESTEPA_MOVIL",
+    descripcion: "Control de corredores de marcha con movilidad y dispersión; ocupación intermitente de cruces, pasos y márgenes boscosos para imponer peajes de tiempo y riesgo.",
+    condiciones_de_uso: [ "Profundidad de maniobra suficiente", "Caballos rústicos con forraje local", "Guiado por habitantes locales" ],
+    riesgos: [ "Sobrepersecución tras un éxito que expone a la partida", "Exceso de confianza en terreno abierto contra caballería pesada" ]
+  },
+  {
+    id: "ARQUITECTURA_GUERRA_DE_PARTIDAS",
+    descripcion: "Pequeñas bandas con mando flexible que eligen blancos blandos y rehúyen la fijación prolongada; cooperación con campesinado y exploradores.",
+    condiciones_de_uso: [ "Inteligencia local confiable", "Capacidad de reagrupación rápida", "Señales y mensajería simple y robusta" ],
+    riesgos: [ "Dispersión que impide concentrar fuerza cuando surge la oportunidad", "Confusión con tropas regulares si fallan las señales" ]
+  },
+  {
+    id: "ARQUITECTURA_GOLPE_DE_OPORTUNIDAD",
+    descripcion: "Concentración breve de varias partidas para cercar y forzar rendiciones de fracciones aisladas (por ejemplo, columnas de abastecimiento o guarniciones menores).",
+    condiciones_de_uso: [ "Identificación positiva de una fracción aislada", "Velocidad para cerrar la bolsa y retirarse antes del refuerzo" ],
+    riesgos: [ "Encierro propio si el enemigo reacciona con rapidez", "Desgaste de caballos por marcha forzada sin reposición" ]
+  },
+  {
+    id: "ARQUITECTURA_SALIDA_DE_CABALLERIA_COORDINADA",
+    descripcion: "Empleo en masa junto con caballería regular para crear retrasos operativos en el punto de mayor presión enemiga.",
+    condiciones_de_uso: [ "Acuerdo previo con mando regular", "Objetivo temporal claro (demorar, desordenar, no decidir por sí sola)" ],
+    riesgos: [ "Pérdida de la ventaja de invisibilidad si se prolonga el choque", "Confusión de mando entre irregular y regular" ]
+  }
+]
+
+# ------------------------------------------------------------
+# D) ADAPTADORES ESTRATÉGICOS (PARAMETRIZACIÓN DEL CONTEXTO)
+# ------------------------------------------------------------
+adaptadores: {
+  entorno_estructural: [
+    "Bosques, ríos y ondulaciones que permiten ocultamiento y aproximación por los márgenes",
+    "Población rural hostil al invasor, dispuesta a guiar o negar recursos",
+    "Clima y estaciones que penalizan la logística de larga distancia"
+  ],
+  tecnologia_dominante: [
+    "Caballería ligera con lanzas y carabinas",
+    "Mensajería por jinetes y señales simples",
+    "Aprovechamiento de postas, aldeas y forraje local"
+  ],
+  horizonte_temporal: [
+    "Hostigamiento sostenido desde el cruce de frontera, acentuado en la retirada"
+  ],
+  legitimidad_objetivo: [
+    "Defensa del territorio, coordinación con mando regular y respeto de disciplina básica para evitar represalias sobre población aliada"
+  ],
+  restriccion_principal: [
+    "No comprometer la libertad de maniobra; evitar pérdidas innecesarias de caballos y jinetes"
+  ]
+}
+
+# ------------------------------------------------------------
+# E) ORQUESTADOR DE PESOS (LAS PRIORIDADES DEBEN SUMAR 1.0)
+# ------------------------------------------------------------
+orquestador_de_pesos: {
+  dimensiones: [
+    "rapidez_de_decision",
+    "costo_operativo",
+    "calidad_y_confiabilidad_de_informacion_local",
+    "flexibilidad_de_dispersar_y_concentrar",
+    "legitimidad_y_disciplina",
+    "aprendizaje_por_ciclo"
+  ],
+  pesos_sugeridos: {
+    rapidez_de_decision: 0.20,
+    costo_operativo: 0.10,
+    calidad_y_confiabilidad_de_informacion_local: 0.25,
+    flexibilidad_de_dispersar_y_concentrar: 0.20,
+    legitimidad_y_disciplina: 0.15,
+    aprendizaje_por_ciclo: 0.10
+  },
+  regla: "Si la suma de los pesos es distinta de 1.0 se bloquea la operación y se corrige antes de salir."
+}
+
+# ------------------------------------------------------------
+# F) CONTRATOS MÍNIMOS (INTERFACES QUE DEBEN CUMPLIRSE)
+# ------------------------------------------------------------
+contratos: [
+  {
+    id: "CONTRATO_PARTIDA_DE_ACOSO",
+    campos_obligatorios: [
+      "sector_asignado",
+      "puntos_de_ocultamiento_y_de_reunion",
+      "blancos_prioritarios (convoyes, correos, rezagados)",
+      "tiempo_maximo_de_exposicion",
+      "ruta_de_escape_y_postas",
+      "señales_de_reagrupacion"
+    ],
+    validaciones: [
+      "Confirmación de forraje local suficiente para caballos",
+      "Reconocimiento de cruce de ríos y pasos practicables"
+    ],
+    bloqueos: [
+      "Sin ruta de escape verificada, la salida se cancela",
+      "Si el sector no ofrece ocultamiento real, se reasigna el blanco"
+    ]
+  },
+  {
+    id: "CONTRATO_GOLPE_DE_OPORTUNIDAD",
+    campos_obligatorios: [
+      "identificacion_positiva_de_fraccion_aislada",
+      "cierre_de_bolsas (puntos por adelantado y por retaguardia)",
+      "tiempo_limite_para_rendicion",
+      "plan_de_retiro_escalonado",
+      "reserva_movil_para_imprevistos"
+    ],
+    validaciones: [
+      "La suma de partidas alcanza superioridad local por un periodo breve",
+      "El terreno permite negar auxilio rápido del enemigo"
+    ],
+    bloqueos: [
+      "Sin reserva móvil no se autoriza el cerco",
+      "Si el terreno favorece al enemigo para abrir el cerco, se aborta"
+    ]
+  },
+  {
+    id: "CONTRATO_PANTALLA_Y_FLANCOS",
+    campos_obligatorios: [
+      "anchura_de_pantalla",
+      "profundidad_de_exploracion",
+      "ritmo_de_relevos",
+      "puntos_de_aviso_al_mando_regular"
+    ],
+    validaciones: [
+      "La pantalla detecta con antelación aproximaciones enemigas a columnas propias",
+      "La exploración no deja huecos persistentes"
+    ],
+    bloqueos: [
+      "Si la pantalla pierde continuidad, se refuerza o se detiene el avance propio"
+    ]
+  }
+]
+
+# ------------------------------------------------------------
+# G) REGLAS SI–ENTONCES (GOBERNANZA OPERATIVA)
+# ------------------------------------------------------------
+reglas_si_entonces: [
+  "Si la columna enemiga se estira por terreno difícil, entonces golpear extremos y centro logístico al mismo tiempo para forzar cuadros y detenciones.",
+  "Si un destacamento enemigo se separa de su cuerpo principal, entonces concentrar partidas para cercarlo con tiempo límite de rendición.",
+  "Si el enemigo marcha en orden cerrado con fuerte escolta, entonces evitar contacto y seguirlo por los costados para atacar su tren cuando baje la guardia.",
+  "Si el mando regular planea una acción mayor, entonces ampliar la pantalla y sembrar información contradictoria para ocultar la concentración propia.",
+  "Si la partida sufre pérdidas de caballos por agotamiento, entonces rotar por postas y reducir radios de acción hasta recuperar monturas."
+]
+
+# ------------------------------------------------------------
+# H) MÉTRICAS (SEPARAR FARO DEL SISTEMA Y MÉTRICAS DE INSTANCIA)
+# ------------------------------------------------------------
+metricas: {
+  faro_del_sistema: [
+    "tiempo_adicional_impuesto_por_jornada_de_marcha (horas perdidas)",
+    "volumen_de_suministros_interceptado (alimentos, munición, forraje)",
+    "fracciones_aisladas_rendidas_o_desarmadas (por periodo)",
+    "conservacion_de_la_movilidad_propia (caballos y jinetes disponibles)"
+  ],
+  metricas_de_instancia: [
+    "exito_de_ataques_a_convoy (porcentaje con captura o destrucción)",
+    "rezagados_capturados_por_jornada",
+    "avisos_tempranos_emitidos_a_mando_regular",
+    "tiempo_de_reagrupacion_tras_golpe"
+  ],
+  umbrales_de_accion: [
+    "Si el tiempo adicional impuesto cae por debajo del mínimo, abrir diagnóstico de rutas elegidas y replantear sectores.",
+    "Si la conservación de movilidad desciende por debajo del umbral, reducir tempo y priorizar reposición de caballos.",
+    "Si los avisos tempranos no llegan a tiempo, rediseñar señales y ampliar profundidad de exploración."
+  ]
+}
+
+# ------------------------------------------------------------
+# I) VALIDACIONES ESTRICTAS (BLOQUEOS AUTOMÁTICOS)
+# ------------------------------------------------------------
+bloqueos: [
+  "Si falta ruta de escape verificada, ninguna partida sale del bosque o de la aldea.",
+  "Si no hay confirmación de forraje, se reduce el radio de acción o se aplaza la salida.",
+  "Si el enemigo concentra caballería pesada en terreno abierto, se evita el choque frontal."
+]
+
+# ------------------------------------------------------------
+# J) TRAZABILIDAD Y APRENDIZAJE (DETERMINISTA)
+# ------------------------------------------------------------
+trazabilidad: {
+  identificador_compuesto: "[Teatro/Arquitectura/Partida/Fecha_y_hora/Blanco]@versionX.Y",
+  bitacora_minima: [
+    "arquitecturas_activas",
+    "pesos_vigentes",
+    "blancos_intervenidos",
+    "tiempos_impuestos",
+    "pérdidas_propias_y_del_enemigo",
+    "lecciones_aprendidas",
+    "acciones_siguientes"
+  ],
+  aprendizaje: [
+    "Promover rutas y aldeas que repetidamente generan capturas limpias.",
+    "Evitar corredores donde la caballería pesada enemiga haya reaccionado con éxito.",
+    "Ajustar la mezcla entre dispersión y concentración según resultados semanales."
+  ]
+}
+
+# ------------------------------------------------------------
+# K) LISTA DE VERIFICACIÓN PREVIA A LA EJECUCIÓN
+# ------------------------------------------------------------
+lista_de_verificacion: [
+  "Arquitecturas declaradas y compatibles con el terreno.",
+  "Pesos de prioridad suman uno y reflejan el objetivo de desgaste con riesgo bajo.",
+  "Contratos verificados: partida de acoso, golpe de oportunidad, pantalla y flancos.",
+  "Métricas activas con umbrales claros y bitácora determinista preparada.",
+  "Plan de relevo de caballos y de reposición de munición listo en postas seguras."
+]

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion",
+    "type": "has_value",
+    "rationale": "captar_atencion es un valor declarado para el campo funcion_dominante."
+  }
+}

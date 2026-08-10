@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-flecha_principal-flecha_principal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-flecha_principal-flecha_principal",
+    "label": "flecha_principal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-flecha_principal-flecha_principal",
+    "summary": "**Definición.** Entrada basada en un indicador direccional dominante. La flecha no sólo conecta elementos; inicia la lectura señalando hacia dónde mirar o qué relación seguir.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

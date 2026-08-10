@@ -1,0 +1,557 @@
+================================================================================
+MODELADO ONTOLÓGICO + REALIZACIÓN CONTEXTUAL (PRIMER INTENTO)
+Compendio exhaustivo de ejemplos trabajados en el chat
+================================================================================
+
+0) INTRODUCCIÓN: POR QUÉ “ONTOLOGÍA” + “REALIZACIÓN CONTEXTUAL”
+---------------------------------------------------------------
+
+Este documento describe un marco para modelar ideas, procesos y estrategias como
+estructuras explícitas, evitando ambigüedades. El marco separa dos niveles:
+
+(1) ONTOLOGÍA (nivel “qué existe”):
+    - Define los tipos de cosas que existen en el modelo (clases/tipos).
+    - Define qué relaciones entre tipos están permitidas.
+    - Permite validar consistencia (evitar mezclar categorías).
+
+(2) REALIZACIÓN CONTEXTUAL (nivel “cómo se adapta”):
+    - Define cómo un “núcleo” (una idea/base) se instancia en intervenciones
+      concretas bajo condiciones particulares.
+    - Exige declarar invariantes: aquello que debe preservarse para que el núcleo
+      mantenga identidad.
+    - Produce una familia de intervenciones (múltiples realizaciones), cada una
+      adaptada a un sujeto y a contextos de ejecución y distribución.
+
+La tesis operativa es:
+    “La traducción INTENCIÓN → INTERVENCIÓN no es un acto único, sino una
+     familia de transformaciones gobernadas por reglas, restricciones e invariantes.”
+
+Este documento usa una ONTOLOGÍA MÍNIMA (términos y tipos) y la aplica a
+ejemplos concretos: educación, seguros, fabricación, videos por nicho y medicina.
+
+---
+
+1) GLOSARIO ONTOLÓGICO MÍNIMO (TIPOS Y DEFINICIONES)
+----------------------------------------------------
+
+Nota: las definiciones se redactan de modo que puedan funcionar como “tipos”:
+cada término se define por su rol y por cómo se relaciona con otros términos.
+
+1.1 ENTIDADES CENTRALES
+
+[A] NÚCLEO (Core):
+    - Definición: estructura conceptual que conserva identidad a través de
+      adaptaciones. Un núcleo no es “texto” ni “frase”, es un conjunto de
+      propiedades esenciales (invariantes) + un dominio de variación permitido.
+    - Función: es lo que se “realiza” o “instancia” en contextos.
+
+[B] INVARIANTE:
+    - Definición: condición del núcleo que debe preservarse para que el núcleo
+      sea “el mismo” (criterio de identidad). Si una invariante se viola, la
+      realización deja de ser una instancia del núcleo original.
+    - Función: frontera entre adaptación legítima y deformación.
+
+[C] INTENCIÓN:
+    - Definición (según tu formulación): efecto deseado en el sujeto.
+    - Observación estricta: la intención no describe el contenido del núcleo,
+      describe el cambio buscado en el estado del sujeto (cognitivo, conductual,
+      operativo, etc.).
+
+[D] INTERVENCIÓN:
+    - Definición (según tu formulación): acción concreta para traducir la
+      estructura del núcleo al sujeto.
+    - Observación estricta: la intervención es “realizable” y ejecutable. Puede
+      ser un mensaje, una clase, un guion, un ajuste técnico, un proceso, etc.
+
+[E] SUJETO:
+    - Definición (según tu formulación): destinatario de la intención.
+    - Observación estricta: sujeto no implica humano; puede ser una entidad
+      organizacional o un sistema (por ejemplo una planta/fábrica).
+
+1.2 CONTEXTOS (SUBTIPOS NECESARIOS PARA EVITAR AMBIGÜEDAD)
+
+[F] CONTEXTO (general):
+    - Definición: conjunto de condiciones relevantes para seleccionar o
+      parametrizar una intervención.
+
+Subtipos explícitos (evitan mezclar “plataforma” con “persona”):
+
+[F1] CONTEXTO DE SUJETO:
+     - Definición: condiciones propias del sujeto (atributos, estado, historia,
+       capacidades, preferencias, restricciones internas).
+     - Ejemplos: edad del paciente, conocimientos previos del alumno, miedos del
+       cliente, cultura profesional, presupuesto, tolerancia al riesgo.
+
+[F2] CONTEXTO DE EJECUCIÓN:
+     - Definición: condiciones del acto de ejecutar la intervención (medio,
+       temporalidad, interacción, sincronicidad, canal operativo).
+     - Ejemplos: en línea vs cara a cara; llamada telefónica; clase presencial;
+       demostración; reunión; taller; “subida” de un video como acto técnico.
+
+[F3] CONTEXTO DE DISTRIBUCIÓN:
+     - Definición: condiciones del sistema que expone/propaga la intervención a
+       audiencias (mecanismos algorítmicos, formatos, reglas del feed, métricas).
+     - Ejemplos: TikTok/YouTube/Instagram como sistemas de distribución; normas
+       de formato; algoritmos de recomendación; dinámica de retención.
+
+(Nota de consistencia):
+- TikTok como plataforma es CONTEXTO DE DISTRIBUCIÓN.
+- “Adolescentes” o “profesionistas” son CONTEXTO DE SUJETO.
+- “Subir el video” es un ACTO en un CONTEXTO DE EJECUCIÓN (y además habilita la
+  distribución).
+
+1.3 OTROS TIPOS RELEVANTES
+
+[G] RESTRICCIÓN:
+    - Definición: condición que limita el espacio de intervenciones posibles.
+    - Ejemplos: presupuesto limitado, tiempo de clase, normativa, tolerancias,
+      regulaciones, limitaciones de formato, logística.
+
+[H] EVIDENCIA:
+    - Definición: observación o medición que indica si la intención se está
+      cumpliendo (criterio de evaluación).
+    - Ejemplos: examen del alumno, conversión en ventas, tasa de retención,
+      auditoría de calidad en fábrica, evolución clínica en paciente.
+
+[I] FAMILIA DE TRANSFORMACIONES:
+    - Definición (consistente con el marco): conjunto de reglas/operadores que
+      llevan del núcleo a múltiples intervenciones, cada una parametrizada por
+      contextos y restricciones.
+    - Función: formaliza el hecho de que la adaptación no es “una”, sino “muchas”.
+
+[J] HOMOMORFISMO (uso conceptual mínimo, no matemático formal completo):
+    - Definición operativa: mapeo que preserva estructura relevante, aunque
+      colapse detalles. En nuestro marco: la intervención conserva la estructura
+      esencial (invariantes) del núcleo, aunque cambie representación superficial.
+    - Advertencia: no es isomorfismo (no preserva todo), preserva lo necesario.
+
+---
+
+2) PLANTILLA DE MODELADO (ESQUEMA REPETIBLE)
+-------------------------------------------
+
+Para cada ejemplo se documenta:
+
+(1) Núcleo:
+    - Qué es el núcleo.
+(2) Invariantes (criterio de identidad):
+    - Qué debe permanecer igual y por qué.
+(3) Intención:
+    - Qué efecto deseado se busca en el sujeto.
+(4) Sujetos:
+    - Qué tipo de entidades reciben la intención.
+(5) Contextos:
+    - (a) Contexto de sujeto
+    - (b) Contexto de ejecución
+    - (c) Contexto de distribución (si aplica)
+(6) Restricciones:
+    - Qué limita la intervención.
+(7) Intervenciones (múltiples):
+    - Qué acciones concretas se realizan.
+(8) Familia de transformaciones:
+    - Reglas/operadores que generan intervenciones a partir del núcleo.
+(9) Evidencia:
+    - Cómo se mide el resultado.
+(10) Preservación vs adaptación:
+    - Qué se preserva (invariantes) y qué se adapta (variables).
+
+---
+
+3) EJEMPLO A: EDUCACIÓN (ENSEÑANZA DE VECTORES)
+-----------------------------------------------
+
+3.1 Núcleo
+- Núcleo: “Concepto de vector” (definición matemática y propiedades esenciales).
+  Incluye: representación, operaciones válidas, interpretación geométrica y/o
+  algebraica aceptable para el nivel educativo.
+
+3.2 Invariantes (criterio de identidad del núcleo)
+- Invariante 1: estructura formal mínima del vector (magnitud y dirección, o
+  representación como elemento de un espacio vectorial según el nivel).
+- Invariante 2: operaciones coherentes (suma de vectores, multiplicación por
+  escalar, propiedades como conmutatividad/asociatividad donde aplique).
+- Invariante 3: consistencia semántica: un vector no se redefine como “número
+  cualquiera” si eso rompe el aprendizaje posterior.
+(Justificación: si estas invariantes cambian, “vector” deja de ser el concepto
+que permite resolver problemas estándar y conectar con física/matemáticas.)
+
+3.3 Intención (efecto deseado en el sujeto)
+- Intención: que el estudiante comprenda y pueda usar vectores correctamente:
+  identificar, operar, interpretar y resolver problemas.
+
+3.4 Sujeto
+- Sujeto: cada estudiante (humano individual) como destinatario.
+
+3.5 Contextos
+(a) Contexto de sujeto:
+    - Conocimientos previos (álgebra, geometría).
+    - Estilo cognitivo (visual, simbólico, verbal).
+    - Nivel de ansiedad matemática, motivación.
+    - Lenguaje dominante y referencias culturales.
+(b) Contexto de ejecución:
+    - Clase presencial vs en línea.
+    - Tiempo disponible, tamaño del grupo.
+    - Interacción sincrónica o asincrónica.
+(c) Contexto de distribución (si aplica):
+    - Si la intervención se distribuye como contenido: plataforma educativa,
+      repositorio de videos, sistema de tareas. (No es el foco principal, pero
+      existe si la “clase” se vuelve material distribuible.)
+
+3.6 Restricciones
+- Restricción: tiempo de clase, plan curricular, evaluación estandarizada,
+  recursos disponibles (pizarrón, simuladores, etc.).
+
+3.7 Intervenciones (acciones concretas)
+- Intervención 1: explicación formal (definición + axiomas/propiedades).
+- Intervención 2: analogías visuales (flechas, desplazamientos).
+- Intervención 3: ejercicios graduados (de mecánicos a aplicados).
+- Intervención 4: feedback inmediato y corrección de errores típicos.
+
+3.8 Familia de transformaciones (del núcleo a intervenciones)
+- Transformación T1 (Representación): elegir representación compatible con el
+  sujeto (geométrica, algebraica, física) sin violar invariantes.
+- Transformación T2 (Ejemplificación): generar ejemplos que respeten reglas del
+  núcleo y conecten con intereses del sujeto.
+- Transformación T3 (Secuenciación): ordenar dificultad según contexto de sujeto.
+- Transformación T4 (Lenguaje): traducir definiciones a lenguaje accesible sin
+  deformar el significado.
+
+3.9 Evidencia
+- Evidencia: examen, ejercicios, resolución de problemas, explicación verbal del
+  alumno, transferencia a física (fuerzas, velocidad).
+
+3.10 Preservación vs adaptación
+- Preservar: definición y operaciones válidas (invariantes).
+- Adaptar: analogías, ejemplos, ritmo, modalidad (ejecución), recursos.
+
+---
+
+4) EJEMPLO B: VENTA DE SEGUROS (SEGURO DE GASTOS MÉDICOS MAYORES TIPO A)
+------------------------------------------------------------------------
+
+4.1 Núcleo
+- Núcleo: “Seguro de gastos médicos mayores tipo A” como producto-contrato.
+  Incluye: coberturas, exclusiones, suma asegurada, deducible, coaseguro,
+  condiciones de póliza, primas, procedimientos de reclamación.
+
+4.2 Invariantes (criterio de identidad del núcleo)
+- Invariante 1: estructura contractual real del producto (no inventar coberturas).
+- Invariante 2: condiciones clave (exclusiones, límites, requisitos) no se
+  contradicen en la explicación.
+- Invariante 3: promesa comercial compatible con lo contratado (no prometer lo
+  que el contrato no cumple).
+(Justificación: si se alteran, ya no se vende “ese seguro” sino otro; además se
+incurre en desinformación.)
+
+4.3 Intención (efecto deseado en el sujeto)
+- Intención: que el cliente entienda el valor y decida contratar (o avanzar en el
+embudo de decisión) con claridad y confianza.
+
+4.4 Sujeto
+- Sujeto: cliente potencial (humano individual o familiar como unidad de decisión).
+
+4.5 Contextos
+(a) Contexto de sujeto:
+    - Perfil de riesgo percibido (salud, edad, familia).
+    - Capacidad de pago, aversión al riesgo, historial de experiencias médicas.
+    - Objeciones típicas (“nunca me enfermo”, “es caro”, “no confío”).
+    - Miedos: endeudamiento, hospitalización, catástrofes financieras.
+(b) Contexto de ejecución:
+    - Conversación cara a cara vs llamada vs videollamada vs chat.
+    - Tiempo disponible, nivel de confianza inicial.
+    - Presencia de terceros (pareja/familia) en la decisión.
+(c) Contexto de distribución (si aplica):
+    - Si la intervención se distribuye como campaña: correo, anuncios, redes.
+      (Aquí la venta puede incluir distribución, pero el núcleo del ejemplo es
+      la conversación.)
+
+4.6 Restricciones
+- Restricción: regulación, compliance, tiempo, competencia, sensibilidad del tema
+  (salud), límites de precio.
+
+4.7 Intervenciones (acciones concretas)
+- Intervención 1: explicación del producto en términos del sujeto (sin violar
+  invariantes contractuales).
+- Intervención 2: manejo de objeciones (respuestas específicas).
+- Intervención 3: casos y escenarios (catástrofe financiera evitada).
+- Intervención 4: propuesta de plan/pago adaptada (sin falsear condiciones).
+
+4.8 Familia de transformaciones (del núcleo a intervenciones)
+- Transformación S1 (Selección de énfasis): resaltar cláusulas relevantes al
+  contexto del sujeto (por ejemplo maternidad, accidentes, red hospitalaria).
+- Transformación S2 (Traducción de lenguaje): pasar de jerga a lenguaje cotidiano
+  sin cambiar significado.
+- Transformación S3 (Objeción→Respuesta): mapear objeciones a explicaciones que
+  preservan el contrato y reducen fricción.
+- Transformación S4 (Escenario): generar escenarios plausibles y comparables a la
+  vida del sujeto (homomorfismo: conservar estructura de riesgo-transferencia,
+  cambiar la superficie narrativa).
+
+4.9 Evidencia
+- Evidencia: avance en etapas (cita, cotización aceptada, firma), calidad de
+  comprensión (preguntas correctas), tasa de conversión, retención.
+
+4.10 Preservación vs adaptación
+- Preservar: contrato real y promesas compatibles (invariantes).
+- Adaptar: narrativa, orden, analogías, énfasis, forma de ejecución.
+
+---
+
+5) EJEMPLO C: FABRICACIÓN (MISMO MODELO DE AUTOMÓVIL EN DOS PLANTAS)
+-------------------------------------------------------------------
+
+5.1 Núcleo
+- Núcleo: “Modelo de automóvil X” como especificación de diseño + estándares de
+  calidad. Incluye: tolerancias, materiales, ensambles, pruebas, seguridad.
+
+5.2 Invariantes (criterio de identidad del núcleo)
+- Invariante 1: tolerancias y especificaciones críticas (seguridad, ajuste).
+- Invariante 2: requisitos de calidad (pruebas mínimas, métricas).
+- Invariante 3: funcionalidad y compatibilidad de piezas esenciales.
+(Justificación: cambiar tolerancias rompe identidad del producto.)
+
+5.3 Intención (efecto deseado en el sujeto)
+- Intención: que cada planta produzca el mismo modelo cumpliendo especificaciones
+y calidad (identidad preservada).
+
+5.4 Sujeto
+- Sujeto: planta/fábrica (entidad organizacional y sistema productivo).
+
+5.5 Contextos
+(a) Contexto de sujeto:
+    - Capacidad instalada, maquinaria, habilidades del personal.
+    - Red de proveedores disponible localmente.
+    - Cultura de calidad, historial de fallas.
+(b) Contexto de ejecución:
+    - Flujo de producción específico, turnos, layout, logística interna.
+    - Secuencia de ensamblaje (puede variar).
+(c) Contexto de distribución:
+    - Aquí “distribución” no es redes sociales, sino distribución logística:
+      cadena de suministro y envío. (Si se incluye, debe declararse como contexto
+      de distribución logística, no de plataforma digital.)
+
+5.6 Restricciones
+- Restricción: proveedores disponibles, costos, regulaciones, tiempos, transporte,
+  contratos con terceros.
+
+5.7 Intervenciones (acciones concretas)
+- Intervención 1: adaptar el proceso de ensamblaje a recursos locales.
+- Intervención 2: seleccionar proveedores (uno o múltiples) manteniendo calidad.
+- Intervención 3: ajustar logística (rutas, inventario, secuencias).
+- Intervención 4: controles de calidad y auditorías específicos.
+
+5.8 Familia de transformaciones
+- Transformación F1 (Proceso): derivar un proceso local válido desde el diseño.
+- Transformación F2 (Sourcing): mapear piezas a proveedores sin violar specs.
+- Transformación F3 (Logística): reconfigurar flujo manteniendo tolerancias.
+- Transformación F4 (Control): definir pruebas equivalentes (homomorfismo: misma
+  estructura de validación, distinta implementación concreta).
+
+5.9 Evidencia
+- Evidencia: tasa de defectos, auditorías, pruebas de seguridad, devoluciones.
+
+5.10 Preservación vs adaptación
+- Preservar: especificaciones/tolerancias/estándares.
+- Adaptar: proceso, proveedores, logística, secuencia.
+
+---
+
+6) EJEMPLO D: VIDEOS Y NICHOS (MISMO “TEMA A” PARA ADOLESCENTES Y PROFESIONISTAS)
+-------------------------------------------------------------------------------
+
+6.1 Núcleo
+- Núcleo: “Tema A” como tesis central (idea base) + estructura argumental mínima.
+
+6.2 Invariantes (criterio de identidad del núcleo)
+- Invariante 1: tesis central (qué afirma el tema).
+- Invariante 2: relación causal o lógica principal (por qué el tema es válido).
+- Invariante 3: promesa de valor informativa (qué aprende/obtiene el receptor).
+(Justificación: si cambia tesis o lógica, ya es otro tema.)
+
+6.3 Intención
+- Intención: producir comprensión/atención/retención y transmitir la tesis a la
+audiencia objetivo.
+
+6.4 Sujeto
+- Sujeto: audiencia-nicho (clase de sujetos) o individuo dentro del nicho.
+
+6.5 Contextos
+(a) Contexto de sujeto:
+    - Adolescente: referencias culturales, ritmo cognitivo, motivaciones.
+    - Profesionista: objetivos prácticos, lenguaje técnico, menor tolerancia a
+      relleno, interés por utilidad.
+(b) Contexto de ejecución:
+    - Acto de creación y publicación: guion, grabación, edición, “subida”.
+    - Si es en vivo vs grabado; interacción en comentarios.
+(c) Contexto de distribución:
+    - TikTok vs YouTube vs Instagram:
+      - formatos permitidos, duración, algoritmo de recomendación,
+        métrica dominante (retención, clics, watch time).
+
+6.6 Restricciones
+- Restricción: duración, formato vertical/horizontal, reglas de plataforma,
+  atención disponible, competencia de contenido.
+
+6.7 Intervenciones
+- Intervención 1: guion con “humor rápido” y cortes para adolescentes.
+- Intervención 2: guion con estructura lógica, ejemplos prácticos para
+  profesionistas.
+- Intervención 3: edición y formato según plataforma.
+- Intervención 4: llamados a la acción (comentarios, guardados, clics).
+
+6.8 Familia de transformaciones
+- Transformación V1 (Tono): ajustar lenguaje/estilo sin cambiar tesis.
+- Transformación V2 (Estructura): reorganizar explicación (gancho vs desarrollo).
+- Transformación V3 (Formato): adaptar duración y visuales a distribución.
+- Transformación V4 (Ejemplos): cambiar ejemplos para resonancia cultural.
+
+6.9 Evidencia
+- Evidencia: retención, tiempo de visualización, comentarios de comprensión,
+  conversiones (si hay objetivo comercial), shares, guardados.
+
+6.10 Preservación vs adaptación
+- Preservar: tesis y lógica central (invariantes).
+- Adaptar: tono, ejemplos, formato, ritmo, plataforma.
+
+---
+
+7) EJEMPLO E: MEDICINA (PROTOCOLO MÉDICO EN PACIENTES CON EDADES/CONDICIONES DISTINTAS)
+-------------------------------------------------------------------------------------
+
+7.1 Núcleo
+- Núcleo: “Protocolo médico” como conjunto de reglas clínicas, objetivos
+terapéuticos, criterios de seguridad, indicaciones y contraindicaciones.
+
+7.2 Invariantes
+- Invariante 1: objetivo terapéutico (qué se busca corregir).
+- Invariante 2: límites de seguridad (rangos máximos, riesgos).
+- Invariante 3: evidencia clínica subyacente (racionalidad del protocolo).
+(Justificación: alterar seguridad u objetivo cambia el protocolo o lo vuelve dañino.)
+
+7.3 Intención
+- Intención: mejorar condición del paciente sin violar seguridad.
+
+7.4 Sujeto
+- Sujeto: paciente individual.
+
+7.5 Contextos
+(a) Contexto de sujeto:
+    - Edad, peso, comorbilidades, historial, alergias.
+(b) Contexto de ejecución:
+    - Hospital vs casa; supervisión; adherencia; seguimiento.
+(c) Contexto de distribución:
+    - Menos central, pero puede existir como “sistema de salud” que implementa el
+      protocolo a escala (guías, hospitales, aseguradoras). Si se usa, debe
+      declararse explícitamente.
+
+7.6 Restricciones
+- Restricción: disponibilidad de fármacos, recursos, normativas, tiempo, riesgos.
+
+7.7 Intervenciones
+- Intervención: “ajuste de dosis” (acción concreta) para adecuar protocolo al
+  contexto del sujeto.
+
+7.8 Familia de transformaciones
+- Transformación M1 (Parametrización): calcular dosis según variables del sujeto.
+- Transformación M2 (Monitoreo): ajustar según respuesta observada.
+- Transformación M3 (Riesgo): modificar intervención manteniendo límites seguros.
+
+7.9 Evidencia
+- Evidencia: indicadores clínicos, síntomas, efectos adversos, pruebas.
+
+7.10 Preservación vs adaptación
+- Preservar: seguridad, objetivo terapéutico.
+- Adaptar: dosis, frecuencia, modo de administración.
+
+---
+
+8) EJEMPLO F: “MANZANA” (LENGUAJE Y SIGNIFICADO) COMO CASO MÍNIMO
+------------------------------------------------------------------
+
+8.1 Núcleo
+- Núcleo: el concepto “manzana” como categoría (fruta) con propiedades típicas.
+
+8.2 Invariantes (mínimas, según propósito)
+- Invariante 1: pertenencia a categoría “fruta” (si el dominio lo requiere).
+- Invariante 2: identidad referencial: “manzana” refiere a un tipo de objeto.
+(Justificación: si “manzana” pasa a significar cualquier cosa, se pierde el concepto.)
+
+8.3 Intención
+- Intención: que el interlocutor identifique/entienda el referente.
+
+8.4 Sujeto
+- Sujeto: interlocutor (humano).
+
+8.5 Contextos
+(a) Contexto de sujeto:
+    - idioma, experiencia previa, cultura.
+(b) Contexto de ejecución: 
+    - conversación, texto, imagen.
+(c) Contexto de distribución:
+    - normalmente no aplica, salvo que se distribuya como material (diccionario).
+
+8.6 Restricciones
+- Restricción: ambigüedad lingüística, polisemia, falta de referencia visual.
+
+8.7 Intervenciones
+- Intervención 1: descripción por propiedades (rojo, verde, dulce, etc.).
+- Intervención 2: clasificación (fruta).
+- Intervención 3: ejemplos (manzana roja vs verde).
+
+8.8 Familia de transformaciones
+- Transformación L1 (Propiedades): seleccionar propiedades relevantes para el
+  sujeto (visual vs gustativo).
+- Transformación L2 (Categoría): ubicar en taxonomía (“fruta”).
+- Transformación L3 (Ejemplos): proporcionar instancias típicas.
+
+8.9 Evidencia
+- Evidencia: reconocimiento correcto, uso correcto del término.
+
+8.10 Preservación vs adaptación
+- Preservar: referente/categoría (invariantes mínimas).
+- Adaptar: propiedades y ejemplos elegidos.
+
+---
+
+9) EJEMPLO G: “EJECUCIÓN” COMO TIPO (DISTINCIÓN CRÍTICA DEL EXAMEN)
+-------------------------------------------------------------------
+
+Este no es un “dominio” separado, sino un hallazgo ontológico que atraviesa
+todos los ejemplos: el mismo núcleo puede realizarse mediante distintos modos
+de ejecución, y ese hecho no debe confundirse con contexto de sujeto ni con
+distribución.
+
+9.1 Ejecución (tipo)
+- Definición: instancia del acto mediante el cual se lleva a cabo una
+  intervención en el mundo (medio operativo del acto).
+
+9.2 Ejemplos de ejecución
+- Conversación con cliente (online o cara a cara).
+- Clase (online o presencial).
+- Subida de un video (acto técnico de publicación).
+
+9.3 Aclaración de ambigüedad
+- “En línea/cara a cara” son propiedades del contexto de ejecución.
+- “TikTok/YouTube” son contextos de distribución (no ejecución).
+- “Adolescentes/profesionistas” son contextos de sujeto.
+
+---
+
+10) CONCLUSIÓN (LO QUE ESTE COMPENDIO ESTÁ INTENTANDO FIJAR)
+------------------------------------------------------------
+
+Este documento no pretende “cerrar” el modelo, sino establecer un primer intento
+de modelado ontológico y realización contextual:
+
+- Se fija una ontología mínima (tipos + relaciones implícitas).
+- Se introduce la distinción crítica de contextos (sujeto, ejecución, distribución).
+- Se define el papel de invariantes como criterio de identidad del núcleo.
+- Se formaliza la idea de “familia de transformaciones” como mecanismo de
+  producción de intervenciones (múltiples realizaciones) preservando estructura.
+- Se muestra que la misma estructura de razonamiento aplica a dominios distintos
+  (educación, seguros, fabricación, videos, medicina), lo que sugiere similitud
+  estructural (homomorfismo operativo: preservar estructura relevante, variar
+  superficie).
+
+FIN DEL COMPENDIO
+================================================================================

@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado",
+    "label": "con_desplazamiento_controlado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado",
+    "summary": "Valor con_desplazamiento_controlado del campo tipo_de_escenificacion_admitida.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida"
+  }
+}

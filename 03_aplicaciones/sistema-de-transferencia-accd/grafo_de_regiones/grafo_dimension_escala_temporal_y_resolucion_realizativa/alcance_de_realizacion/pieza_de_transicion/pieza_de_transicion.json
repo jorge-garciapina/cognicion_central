@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion",
+    "label": "pieza_de_transicion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion",
+    "summary": "Valor declarado para el campo alcance_de_realizacion: pieza_de_transicion.",
+    "source_field": "alcance_de_realizacion"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-centro_periferia-centro_periferia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-centro_periferia-centro_periferia",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-centro_periferia-centro_periferia",
+    "type": "has_value",
+    "rationale": "centro_periferia es un valor nuevo incorporado en orientacion_de_lectura_visual para la realización imagen."
+  }
+}

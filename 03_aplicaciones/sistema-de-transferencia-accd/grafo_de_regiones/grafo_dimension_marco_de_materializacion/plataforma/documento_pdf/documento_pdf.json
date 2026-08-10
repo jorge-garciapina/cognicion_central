@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-documento_pdf-documento_pdf",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-documento_pdf-documento_pdf",
+    "label": "documento_pdf",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-documento_pdf-documento_pdf",
+    "summary": "**Definición.** Entorno documental donde la imagen convive con páginas, texto, estructura formal y posible lectura prolongada. Prioriza claridad, legibilidad, impresión posible y coherencia con un sistema documental.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma"
+    }
+  }
+}

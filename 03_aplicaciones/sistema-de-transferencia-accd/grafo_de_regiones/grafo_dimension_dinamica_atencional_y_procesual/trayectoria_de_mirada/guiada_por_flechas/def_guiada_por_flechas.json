@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_flechas-guiada_por_flechas",
+  "content": "**Definición.** Recorrido en el que flechas o indicadores direccionales conducen explícitamente la mirada entre elementos. La dirección no queda sólo sugerida por composición, sino marcada mediante signos de orientación.\n\n**Diferenciación semántica.** Se diferencia de `flujo_visual` implícito porque aquí la guía es visible y codificada. Se diferencia de `guiada_por_numeracion` porque no se basa en orden ordinal, sino en dirección gráfica.\n\n**Interpretación mínima.** La IA debe entender que las flechas o conectores direccionales son parte semántica del recorrido, no decoración."
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_titulo-entrada_por_titulo",
+  "content": "**Definición.** Valor que indica que el acceso inicial a la pieza se produce mediante una frase principal visible. El título funciona como puerta de interpretación: establece tema, tensión, promesa, categoría o pregunta antes de que el receptor examine los demás elementos.\n\n**Diferenciación semántica.** Se diferencia de `titulo_principal` como punto de entrada porque aquí nombra un régimen atencional: la activación depende de la lectura del título. Se diferencia de `entrada_por_pregunta_visible` porque el título no necesariamente tiene forma interrogativa.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la primera comprensión de la pieza debe estar mediada por un titular suficientemente visible, informativo o provocador."
+}

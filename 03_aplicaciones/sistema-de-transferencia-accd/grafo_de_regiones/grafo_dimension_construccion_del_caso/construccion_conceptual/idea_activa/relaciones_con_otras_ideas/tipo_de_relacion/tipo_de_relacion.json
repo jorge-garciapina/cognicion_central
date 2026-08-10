@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion",
+    "label": "tipo_de_relacion",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion",
+    "summary": "Componente que clasifica el tipo de relación entre ideas.",
+    "metadata": {
+      "value_type": "Categorial cerrado",
+      "declared_inside": "relaciones_con_otras_ideas"
+    }
+  }
+}

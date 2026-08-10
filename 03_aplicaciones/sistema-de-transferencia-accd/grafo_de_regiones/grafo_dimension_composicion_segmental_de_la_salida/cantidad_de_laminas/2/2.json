@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-2-2",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-2-2",
+    "label": "2",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-2-2",
+    "summary": "Valor que indica una secuencia mínima de dos láminas.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

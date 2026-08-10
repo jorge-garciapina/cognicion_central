@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+    "type": "has_value",
+    "rationale": "moderado es un valor nuevo de regimen_de_saturacion_visual incorporado para la realización imagen."
+  }
+}

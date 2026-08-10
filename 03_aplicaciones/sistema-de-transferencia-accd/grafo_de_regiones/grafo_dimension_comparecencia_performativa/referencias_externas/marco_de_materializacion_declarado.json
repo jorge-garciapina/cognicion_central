@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+    "label": "marco_de_materializacion_declarado",
+    "type": "external_reference_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado",
+    "summary": "Referencia externa mencionada por restricciones de este grafo.",
+    "externality": "mentioned_but_not_defined_as_field"
+  }
+}

@@ -1,0 +1,231 @@
+https://chatgpt.com/c/69b86ae9-d1f0-8329-9ec1-bcc49a1d9021
+
+
+Descripción breve
+Los ejemplos reunidos en este documento representan una modelación de casos construidos a partir de la fuente 
+identitaria de primacía visible, entendida como una estructura en la que un centro de autoridad o prestigio debe 
+conservar su posición como foco principal de reconocimiento. Los casos del libro fueron reinterpretados mediante 
+esta ontología para identificar cómo varían dimensiones como el retorno de gloria al centro, la subordinación visible, 
+el eclipsamiento relativo y la autonomía simbólica del jugador. 
+
+FUENTE DE PRIMACÍA VISIBLE: PATRONAZGO
+MODELADO NUMÉRICO DE CASOS PARA GRÁFICA RADAR
+ESCALA NORMALIZADA: [0,1]
+
+ORDEN FIJO DE LOS EJES PARA AMBOS CASOS:
+1. Retorno de gloria al centro
+2. Subordinación visible
+3. Eclipsamiento relativo
+4. Autonomía simbólica del jugador
+
+
+
+
+====================================================================
+CASO 1 — NICOLÁS FOUQUET / LUIS XIV
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+Luis XIV.
+
+Jugador:
+Nicolás Fouquet.
+
+Escena visible principal:
+La fiesta de Vaux-le-Vicomte organizada por Fouquet en honor del rey.
+
+Resultado visible del caso:
+Arresto, juicio, condena y reclusión.
+
+Lectura mínima del tipo de caso:
+El jugador intenta producir homenaje visible al centro, pero la escena termina siendo leída por el centro como exhibición 
+de brillo propio, riqueza propia y fascinación social propia. El resultado final no es absorción favorable, sino sanción.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- Fouquet era ministro de Finanzas de Luis XIV.
+- Tras la muerte de Mazarino, esperaba sucederlo, pero el rey decidió suprimir el cargo.
+- Fouquet sospechó que estaba cayendo en desgracia.
+- Organizó la fiesta más espectacular jamás vista.
+- El motivo oficial era la inauguración de Vaux-le-Vicomte, pero el objetivo real era homenajear al rey.
+- Asistieron nobles destacados y figuras brillantes de la época.
+- Hubo cena opulenta, música compuesta para la ocasión, jardines, fuentes, fuegos artificiales y representación teatral.
+- Fouquet acompañó personalmente al rey durante el recorrido.
+- El texto afirma que, en realidad, ocurrió lo contrario de lo que Fouquet esperaba.
+- El texto afirma que cada nuevo espectáculo y cada sonrisa de apreciación dirigida por los huéspedes hicieron sentir a Luis XIV que estaban más fascinados por Fouquet que por él.
+- El texto afirma que Fouquet hacía indebida ostentación de su fortuna y de su poder.
+- El texto afirma que Luis XIV no soportaba que nadie lo superara en opulencia.
+- Al día siguiente de la fiesta, Fouquet fue arrestado.
+- Luego fue juzgado, hallado culpable y enviado a prisión.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.20
+
+Justificación mínima:
+Fouquet sí busca honrar al rey, pero la ontología exige atender al efecto visible efectivo del caso. El texto dice que 
+la fiesta no consolidó la gloria del centro, sino que hizo sentir al rey desplazado por la fascinación que producía 
+Fouquet. Por eso el retorno no puede quedar medio ni alto. Tampoco es 0.00, porque sí hubo una intención ceremonial 
+explícita de homenaje. Se fija en 0.20.
+
+3.2. Subordinación visible = 0.55
+
+Justificación mínima:
+La subordinación visible sí aparece en la superficie ceremonial: la fiesta es en honor del rey, el rey es el centro 
+oficial del agasajo y Fouquet lo acompaña personalmente. Pero esa subordinación queda parcialmente erosionada por la 
+propia magnitud autoexpresiva del montaje. Por eso no es baja, pero tampoco alta. Se fija en 0.55.
+
+3.3. Eclipsamiento relativo = 0.90
+
+Justificación mínima:
+Esta es la dimensión dominante del caso. El texto dice de forma muy fuerte que los demás parecían más fascinados por 
+Fouquet que por Luis XIV, y que la fiesta ofendió la vanidad del soberano. El caso entero gira alrededor de ese 
+desplazamiento visible de centralidad. Se fija en 0.90.
+
+3.4. Autonomía simbólica del jugador = 0.85
+
+Justificación mínima:
+Fouquet no aparece sólo como servidor, sino como foco visible de riqueza, gusto, relaciones, capacidad organizativa 
+y poder propio. El texto además dice que quería mostrar que era indispensable para el rey. Eso produce una visibilidad 
+de poder autónomo muy alta. No se lleva a 1.00 por prudencia metodológica, pero sí a 0.85.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.20, 0.55, 0.90, 0.85]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy bajo
+- Subordinación visible: media
+- Eclipsamiento relativo: muy alto
+- Autonomía simbólica del jugador: alta
+
+Lectura visual mínima:
+El polígono del caso Fouquet debe abrirse con fuerza hacia eclipsamiento y autonomía, mantenerse intermedio en 
+subordinación y quedar retraído en retorno de gloria al centro.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Fouquet / Luis XIV
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.20, 0.55, 0.90, 0.85]
+
+
+====================================================================
+CASO 2 — GALILEO / MÉDICI
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+La casa de los Médici, con referencia específica a Cosme II.
+
+Jugador:
+Galileo.
+
+Escena visible principal:
+La presentación del descubrimiento de las lunas de Júpiter como engrandecimiento simbólico de los Médici.
+
+Resultado visible del caso:
+Nombramiento oficial en la corte y salario respetable.
+
+Lectura mínima del tipo de caso:
+El jugador posee un descubrimiento propio valioso, pero en vez de dejarlo como brillo autónomo, lo reconduce hacia 
+la grandeza del centro patronal. El caso no produce sombra, sino afirmación del centro.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- Galileo se encontraba en una situación difícil y dependía de la generosidad de los gobernantes.
+- Antes había obsequiado descubrimientos e inventos a distintos amos.
+- En 1610 descubrió las lunas de Júpiter.
+- En lugar de dividir ese descubrimiento entre distintos amos, concentró su atención exclusivamente en los Médici.
+- Los eligió porque Júpiter ya era símbolo de poder de esa familia.
+- Transformó el descubrimiento en un acontecimiento cósmico que honraba la grandeza de los Médici.
+- Anunció que los astros se ofrecían en el momento en que Cosme II era entronizado.
+- Dijo que el número de lunas armonizaba con la estructura familiar de los Médici mencionada en el texto.
+- Afirmó que las lunas giraban en torno de Júpiter como esos hijos en torno de Cosme I.
+- Mandó confeccionar un emblema y lo obsequió a Cosme II como símbolo de unión con los astros.
+- Cosme II nombró a Galileo filósofo y matemático oficial de la corte con salario respetable.
+- La interpretación del texto afirma que Galileo no desafió la autoridad intelectual de los Médici.
+- La interpretación afirma que Galileo no los hizo sentir inferiores.
+- La interpretación afirma que no hizo sombra a su amo, sino que logró que su amo brillara más que nadie.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.90
+
+Justificación mínima:
+El descubrimiento es reinyectado de manera deliberada y visible en la grandeza de los Médici. El texto no sólo muestra 
+homenaje, sino una transformación simbólica del hallazgo en gloria del centro patronal. Por eso el retorno queda muy alto. Se fija en 0.90.
+
+3.2. Subordinación visible = 0.85
+
+Justificación mínima:
+Galileo concentra la operación simbólica exclusivamente en los Médici, no compite con ellos y presenta su hallazgo 
+como engrandecimiento de la casa patronal. Su inteligencia no aparece como desafío visible al centro, sino como 
+servicio visible a su grandeza. Se fija en 0.85.
+
+3.3. Eclipsamiento relativo = 0.15
+
+Justificación mínima:
+El propio texto dice que Galileo no hizo sombra a su amo, sino que logró que brillara más que nadie. Eso obliga a 
+poner esta dimensión en zona baja. No se fija en 0.00 porque Galileo sigue siendo el descubridor y sigue teniendo 
+presencia visible en la escena. Se fija en 0.15.
+
+3.4. Autonomía simbólica del jugador = 0.20
+
+Justificación mínima:
+Galileo posee mérito propio real, porque el descubrimiento es suyo. Pero la presentación pública del caso no deja 
+ese mérito como foco autónomo rival, sino que lo subordina a la magnificencia de los Médici. Por eso la autonomía 
+simbólica queda baja, aunque no nula. Se fija en 0.20.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.90, 0.85, 0.15, 0.20]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy alto
+- Subordinación visible: alto
+- Eclipsamiento relativo: muy bajo
+- Autonomía simbólica del jugador: bajo
+
+Lectura visual mínima:
+El polígono del caso Galileo debe expandirse hacia retorno y subordinación, y retraerse con claridad en eclipsamiento 
+y autonomía.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Galileo / Médici
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.90, 0.85, 0.15, 0.20]

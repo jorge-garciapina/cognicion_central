@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante",
+    "label": "registro_predominante",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante",
+    "summary": "Eje interno que describe el registro verbal predominante de la realización.",
+    "metadata": {
+      "section": "6.2.1",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Eje obligatorio dentro de adecuacion_lexico_formulativa"
+    }
+  }
+}

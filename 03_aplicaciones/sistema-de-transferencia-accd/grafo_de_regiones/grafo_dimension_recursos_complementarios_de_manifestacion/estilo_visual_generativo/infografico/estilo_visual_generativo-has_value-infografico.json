@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+    "type": "has_value",
+    "rationale": "infografico es un valor nuevo incorporado en estilo_visual_generativo para la realización imagen."
+  }
+}

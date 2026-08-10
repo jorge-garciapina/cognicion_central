@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica",
+    "label": "familiaridad_iconografica",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica",
+    "summary": "**Definición del campo.** Campo que describe qué tan reconocibles son los signos gráficos, iconos o símbolos usados por la pieza para el público esperado. Regula si la imagen se apoya en convenciones visuales comunes, códigos de nicho o símbolos que requieren aprendizaje previo.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

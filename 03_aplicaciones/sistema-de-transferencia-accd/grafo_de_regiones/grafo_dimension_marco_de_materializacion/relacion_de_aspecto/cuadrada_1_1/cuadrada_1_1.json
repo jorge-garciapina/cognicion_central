@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-cuadrada_1_1-cuadrada_1_1",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-cuadrada_1_1-cuadrada_1_1",
+    "label": "cuadrada_1_1",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-cuadrada_1_1-cuadrada_1_1",
+    "summary": "**Definición.** Proporción equilibrada entre ancho y alto. Favorece composiciones centradas, modulares o de foco único, con buena compatibilidad social. Limita recorridos muy horizontales o verticales extensos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

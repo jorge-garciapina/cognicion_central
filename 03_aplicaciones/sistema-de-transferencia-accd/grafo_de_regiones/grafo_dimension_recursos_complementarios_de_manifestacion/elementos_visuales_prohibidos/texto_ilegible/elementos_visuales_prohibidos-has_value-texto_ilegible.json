@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos-texto_ilegible-texto_ilegible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos-texto_ilegible-texto_ilegible",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_prohibidos-texto_ilegible-texto_ilegible",
+    "type": "has_value",
+    "rationale": "texto_ilegible es un valor nuevo incorporado en elementos_visuales_prohibidos para la realización imagen."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-calida-calida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-calida-calida",
+    "label": "calida",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-calida-calida",
+    "summary": "**Definición.** Paleta orientada a rojos, naranjas, amarillos o tonos tierra. Puede comunicar energía, cercanía, urgencia, humanidad, apetito o calidez emocional.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica"
+    }
+  }
+}

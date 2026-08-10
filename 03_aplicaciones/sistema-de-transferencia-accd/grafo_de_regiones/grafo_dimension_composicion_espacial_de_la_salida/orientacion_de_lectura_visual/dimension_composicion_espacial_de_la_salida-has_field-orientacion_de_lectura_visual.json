@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual",
+    "type": "has_field",
+    "rationale": "orientacion_de_lectura_visual es un campo nuevo incorporado en dimension_composicion_espacial_de_la_salida para la realización imagen."
+  }
+}

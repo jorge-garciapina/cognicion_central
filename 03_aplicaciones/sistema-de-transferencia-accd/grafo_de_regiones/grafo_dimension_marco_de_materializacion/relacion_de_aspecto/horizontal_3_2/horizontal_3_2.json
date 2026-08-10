@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+    "label": "horizontal_3_2",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+    "summary": "**Definición.** Proporción horizontal menos extrema que 16:9. Funciona bien para fotografía, composiciones editoriales o imágenes con equilibrio entre escena y texto.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

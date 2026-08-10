@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+    "type": "has_value",
+    "rationale": "contraste_visual_fuerte es un valor de uso_de_imagen_generada incorporado para la realización carousel."
+  }
+}

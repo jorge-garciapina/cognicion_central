@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media",
+    "summary": "Valor media declarado para el campo interno densidad_terminologica.",
+    "metadata": {
+      "value_of": "densidad_terminologica",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

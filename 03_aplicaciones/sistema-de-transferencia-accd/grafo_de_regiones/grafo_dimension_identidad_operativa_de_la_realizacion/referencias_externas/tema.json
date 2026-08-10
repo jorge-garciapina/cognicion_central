@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema",
+    "label": "tema",
+    "type": "external_reference_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema",
+    "summary": "Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.",
+    "metadata": {
+      "defined_inside_this_dimension": false
+    }
+  }
+}

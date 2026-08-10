@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado",
+    "label": "encuadre_con_reencuadre_controlado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado",
+    "summary": "Valor encuadre_con_reencuadre_controlado del campo regimen_de_encuadre_performativo.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo"
+  }
+}

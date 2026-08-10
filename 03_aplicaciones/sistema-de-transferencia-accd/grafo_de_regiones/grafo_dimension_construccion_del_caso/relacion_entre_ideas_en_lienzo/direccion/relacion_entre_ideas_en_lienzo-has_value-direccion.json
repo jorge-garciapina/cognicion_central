@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-direccion-direccion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-direccion-direccion",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-direccion-direccion",
+    "type": "has_value",
+    "rationale": "direccion es un valor nuevo incorporado en relacion_entre_ideas_en_lienzo para la realización imagen."
+  }
+}

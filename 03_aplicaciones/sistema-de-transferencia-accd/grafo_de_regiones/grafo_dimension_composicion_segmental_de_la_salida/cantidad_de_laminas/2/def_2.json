@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-2-2",
+  "content": "Valor que indica una secuencia mínima de dos láminas.\n\nEs útil para estructuras binarias, contrastes simples o piezas de entrada muy breves.\n\nEjemplos:\n\n```txt\nLámina 1: problema.\nLámina 2: resolución.\n```\n\n```txt\nLámina 1: antes.\nLámina 2: después.\n```\n\nSirve para micro-carousels, piezas de contraste, antes/después y mensajes de alta síntesis.\n\n---"
+}

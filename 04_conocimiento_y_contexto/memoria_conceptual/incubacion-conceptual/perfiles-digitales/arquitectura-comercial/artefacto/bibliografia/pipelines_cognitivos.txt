@@ -1,0 +1,170 @@
+TITLE: Estado Cognitivo (EC) — Definición Operativa para Pipelines Cognitivos
+VERSION: 1.0.0
+STATUS: Working Draft (alta precisión; listo para refinamiento)
+LANGUAGE: Español
+SCOPE: Definir “estado cognitivo” en términos de mNodes y su dinámica; habilitar el
+       análisis de pipelines (por ejemplo AIDA) como secuencias de cambios de estado.
+NON-SCOPE: Neurobiología; afirmaciones clínicas; modelos psicométricos exhaustivos.
+
+───────────────────────────────────────────────────────────────────────────────
+0) Declaración ejecutiva (una sola idea central)
+───────────────────────────────────────────────────────────────────────────────
+Un Estado Cognitivo (EC) es la configuración interna (persistente por un intervalo) de un
+sistema cognitivo, representable como un grafo ponderado de mNodes (estructuras cognitivas
+internas) cuya distribución de pesos determina la “dirección” u orientación dominante de la
+cognición en ese momento. Un pipeline cognitivo se entiende como una secuencia de operaciones
+que, mediante contenido y conexiones entre etapas, reconfigura ese grafo (cambia pesos, activa
+o inhibe subgrafos, crea o transforma mNodes) para conducir el sistema desde un estado inicial
+hacia un estado objetivo, típicamente caracterizado por la dominancia de un subgrafo orientado
+a una acción (por ejemplo: comprar, comentar, suscribirse, agendar, etc.).
+
+───────────────────────────────────────────────────────────────────────────────
+1) Definición formal (forma estricta)
+───────────────────────────────────────────────────────────────────────────────
+1.1 Definición
+Un Estado Cognitivo (EC) es una estructura interna que:
+A) Es configuracional:
+   - está constituida por un conjunto de mNodes activos o disponibles,
+     más relaciones entre ellos (conectividad) y una asignación de pesos (intensidades).
+B) Es direccional:
+   - la asignación de pesos define una orientación dominante (qué subgrafo “gobierna” la
+     siguiente conducta o la siguiente reorganización interna).
+C) Es dinámico pero identificable:
+   - cambia en el tiempo, pero puede describirse como “una configuración” en ventanas
+     discretas (t0, t1, t2…) relevantes para un pipeline.
+D) Es explicable por transmutaciones causadas por contenido:
+   - el contenido de cada etapa de un pipeline produce transmutaciones: activa mNodes,
+     cambia pesos, genera nuevas conexiones o debilita conexiones existentes.
+E) Es compatible con proyección:
+   - los mNodes que componen el estado pueden proyectarse a cNodes, preservando invariantes
+     y dominios de variación, sin depender de ejemplares autobiográficos.
+
+1.2 Definición de una sola línea (reuso rápido)
+Estado cognitivo = grafo ponderado de mNodes cuya distribución de pesos determina la
+orientación dominante de la cognición en un instante o intervalo.
+
+───────────────────────────────────────────────────────────────────────────────
+2) Componentes (partes mínimas del Estado Cognitivo)
+───────────────────────────────────────────────────────────────────────────────
+2.1 Conjunto de mNodes (contenido estructural)
+- mNodes = estructuras cognitivas internas (por familia base o extendida), por ejemplo:
+  Idea, Plan, Método, Diseño, Patrón de razonamiento, además de Schema, Heuristic, Script, etc.
+- En un EC no se asume que “toda entrada crea un mNode”; una entrada puede:
+  (i) activar mNodes existentes,
+  (ii) modificar su peso,
+  (iii) crear/actualizar mNodes,
+  (iv) reconfigurar conexiones entre mNodes.
+
+2.2 Conectividad (edges)
+- Relaciones internas entre mNodes: asociación, dependencia, soporte, oposición, causalidad,
+  analogía, evidencia, objeción, etc.
+- Las conexiones influyen en cómo se propaga activación y cómo se forman transiciones.
+
+2.3 Pesos (ponderación)
+- Peso = magnitud operativa que indica prioridad/dominancia relativa de un mNode o subgrafo.
+- Interpretación: el subgrafo de mayor peso representa lo que “tira” del sistema.
+- La ponderación es el indicador práctico de “dirección” (orientación hacia acción, evaluación,
+  exploración, defensa, duda, etc.).
+
+2.4 Variables internas típicas (observables como “lecturas” del estado)
+Estas variables no son el estado completo, sino lecturas resumidas del EC:
+- nivel de atención (foco), carga cognitiva, fatiga
+- relevancia percibida (“esto es para mí”)
+- comprensión (qué se ofrece y por qué importa)
+- confianza (credibilidad del emisor / seguridad del objeto)
+- emoción dominante (curiosidad, esperanza, miedo, aspiración)
+- intención (predisposición a ejecutar acción)
+- objeciones activas (precio, riesgo, duda, alternativa)
+
+2.5 Criterio de orientación (acción objetivo)
+- El EC puede describirse por el “atractor” dominante: el tipo de salida hacia el que tiende.
+- En modelos persuasivos (AIDA), el objetivo es que el subgrafo orientado a acción gane peso.
+
+───────────────────────────────────────────────────────────────────────────────
+3) Cómo se crea y cómo cambia un Estado Cognitivo
+───────────────────────────────────────────────────────────────────────────────
+3.1 Estado inicial (pre-existencia)
+- Un EC puede existir antes de cualquier entrada: hábitos, creencias, objetivos, fatiga,
+  predisposiciones, etc. (subgrafos preponderantes).
+
+3.2 Perturbación (entrada)
+- Una entrada (mensaje, estímulo, evento, observación) perturba el EC y dispara operaciones:
+  - activación de mNodes por asociación
+  - ajuste de pesos (sube/baja relevancia, confianza, emoción, etc.)
+  - creación o actualización de mNodes (nueva Idea, nueva Objeción, nuevo Plan)
+  - reestructuración de conexiones (nueva relación evidencia→conclusión, o costo→objeción)
+
+3.3 Rol del “contenido” de cada stage
+- La transmutación no depende solo de “existir etapas”, sino del contenido aplicado en ellas.
+- Dos contenidos distintos en la misma etapa pueden generar estados finales distintos:
+  - ejemplo conceptual: dos aperturas narrativas distintas pueden capturar atención, pero
+    activan subgrafos diferentes (asociaciones y emociones distintas), alterando la trayectoria.
+
+3.4 Importancia de las transiciones (no solo stages)
+- Las transiciones (cómo se pasa de una etapa a otra) son operaciones sobre el grafo:
+  - refuerzan conexiones específicas
+  - inhiben objeciones
+  - construyen puentes entre subgrafos (por ejemplo: deseo → confianza → intención)
+
+───────────────────────────────────────────────────────────────────────────────
+4) Estado Cognitivo como grafo ponderado (representación mínima)
+───────────────────────────────────────────────────────────────────────────────
+4.1 Modelo
+EC(t) = (V, E, W)
+- V: conjunto de mNodes relevantes en el intervalo t
+- E: conjunto de relaciones entre mNodes (edges)
+- W: función de peso W: V → ℝ≥0 (y opcionalmente W: E → ℝ≥0)
+
+4.2 Interpretación de “dirección”
+- “Dirección” = configuración en la que ciertos nodos/subgrafos concentran masa de peso.
+- El pipeline intenta redistribuir W para desplazar el centro de peso hacia el subgrafo objetivo.
+
+4.3 Notas sobre granularidad
+- EC puede representarse a distintos niveles:
+  - macro: pocos nodos (atención, confianza, intención)
+  - meso: nodos por familias (Idea, Heuristic, Objeción, Plan)
+  - micro: nodos específicos (Idea: “oferta”, Objeción: “precio”, Evidencia: “testimonio”)
+
+───────────────────────────────────────────────────────────────────────────────
+5) Relación con AIDA (secuencia de cambios de estado)
+───────────────────────────────────────────────────────────────────────────────
+AIDA puede describirse como una trayectoria EC0 → EC1 → EC2 → EC3 → EC4 donde:
+- EC0: indiferencia (peso bajo en relevancia e intención; subgrafo de acción no domina)
+- EC1: foco/atención (subgrafo de atención crece; se abren rutas de activación)
+- EC2: involucramiento/comprensión/interés (subgrafo de significado y relevancia gana peso)
+- EC3: preferencia/confianza/valor percibido (subgrafo de evaluación favorece la opción)
+- EC4: ejecución (subgrafo de intención→acción domina y produce salida)
+
+Importante:
+- Las “4 letras” no son la lista completa de variables del estado; son macro-etapas.
+- Las variables internas típicas son lecturas que cambian dentro y a través de las etapas.
+
+───────────────────────────────────────────────────────────────────────────────
+6) Validación mínima (tests para “esto es un Estado Cognitivo”)
+───────────────────────────────────────────────────────────────────────────────
+T-EC-1 (Configuración):
+- Es posible listar mNodes relevantes y al menos algunas relaciones entre ellos.
+
+T-EC-2 (Ponderación):
+- Es posible identificar qué nodos/subgrafos dominan (qué tiene mayor peso relativo).
+
+T-EC-3 (Dirección):
+- Es posible describir la orientación dominante (hacia qué tipo de salida tiende el sistema).
+
+T-EC-4 (Dinámica por perturbación):
+- Es posible describir cómo una entrada cambia pesos/conexiones/mNodes.
+
+T-EC-5 (Compatibilidad con pipeline):
+- Es posible describir una secuencia de estados EC(t0..tn) inducida por etapas/operaciones.
+
+───────────────────────────────────────────────────────────────────────────────
+7) Consecuencia directa para la teoría de pipeline cognitivo
+───────────────────────────────────────────────────────────────────────────────
+- Un pipeline cognitivo no es solo “etapas” sino “operaciones sobre el grafo”.
+- Las “salidas” (compra, registro, like, comentario, etc.) se interpretan como:
+  manifestaciones particulares de un estado final donde el subgrafo de acción domina.
+- Reformulación recomendada:
+  Pipeline cognitivo = operador que transforma un EC inicial en un EC objetivo mediante
+  una secuencia de contenidos + conexiones (operaciones) que reconfiguran el grafo.
+
+END OF DOCUMENT

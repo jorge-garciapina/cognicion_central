@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-izquierda_derecha-izquierda_derecha",
+  "content": "**Definición.** Recorrido horizontal en el que la mirada avanza lateralmente entre elementos. En contextos de lectura occidental, suele sugerir paso de inicio a consecuencia, antes a después, problema a solución, opción A a opción B o elemento origen a elemento destino.\n\n**Diferenciación semántica.** Se diferencia de `jerarquica_horizontal` porque no implica necesariamente diferencias fuertes de importancia entre los elementos; puede ser una lectura de avance o comparación. Se diferencia de `arriba_abajo` porque privilegia relación lateral antes que profundidad por niveles.\n\n**Interpretación mínima.** La IA debe entender que la composición debe facilitar una lectura lateral clara, evitando que la mirada salte sin orden entre columnas o zonas."
+}

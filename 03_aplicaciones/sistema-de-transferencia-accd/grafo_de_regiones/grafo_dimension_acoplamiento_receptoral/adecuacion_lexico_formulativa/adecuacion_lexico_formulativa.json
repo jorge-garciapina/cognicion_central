@@ -1,0 +1,20 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa",
+    "label": "adecuacion_lexico_formulativa",
+    "type": "compound_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa",
+    "summary": "Campo que describe el ajuste verbal dominante de la realización en función del receptor.",
+    "metadata": {
+      "section": "6.2",
+      "value_type": "Compuesto",
+      "cardinality": "Un valor obligatorio compuesto por cinco ejes",
+      "restrictions": [
+        "Los cinco ejes deben declararse.",
+        "Deben ser coherentes con el público objetivo inmediato.",
+        "Su combinación debe ser viable dentro de la comparecencia y del codominio."
+      ]
+    }
+  }
+}

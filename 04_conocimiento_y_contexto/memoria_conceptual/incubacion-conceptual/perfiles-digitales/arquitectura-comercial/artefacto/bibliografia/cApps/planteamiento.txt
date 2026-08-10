@@ -1,0 +1,299 @@
+================================================================================
+PLANTEAMIENTO — cApp (Aplicación Cognitiva)
+================================================================================
+
+0) Nombre canónico del nodo
+- cApp-Aplicacion-Cognitiva
+
+1) Tesis del nodo (qué fija y por qué existe)
+Una cApp (Aplicación Cognitiva) fija la forma mínima de una unidad operativa diseñada para
+producir un efecto cognitivo específico (un fin) bajo condiciones externas (contexto),
+manteniendo identidad estructural mediante invariantes y controlando su adaptación mediante
+un dominio de variación permitido.
+
+En este marco, una cApp no se define por “tema” ni por frases literales; se define por:
+(1) la transformación que produce (fin/intención),
+(2) el contrato de interacción e invocación (cómo se usa para producir ese efecto),
+(3) el borde de aplicación (qué casos incluye y excluye),
+(4) la validación (cómo se decide si el efecto ocurrió),
+(5) la integrabilidad (cómo se conecta como nodo en un grafo de unidades).
+
+Esto convierte a la cApp en una pieza inventariable, sugerible, verificable, transferible y
+componible dentro de un sistema mayor de diseño cognitivo
+
+2) Glosario mínimo (para evitar ambigüedad semántica)
+- cApp (Aplicación Cognitiva): Cognitive Application (en inglés). Unidad operativa orientada a un fin,
+  compuesta por piezas (mNodes y otras unidades, por ejemplo, otras cApps) y relaciones, con contrato, borde y validación.
+- prompt-cApp: proyección textual de una cApp en formato de prompt (texto de control) dirigida
+  a un modelo generativo de lenguaje.
+- Modelo generativo de lenguaje: Large Language Model (LLM, a model trained to predict and generate text).
+- mNode: Minimal Cognitive Form (forma mínima con identidad + invariantes + dominio de variación).
+- RO (Rol Operativo): Operational Role (en inglés). Función estructural dominante que una manifestación
+  cumple al operar sobre información.
+- FAM (Familia Cognitiva): Family (en inglés). Tipología operativa (Idea, Plan, Método, Diseño, Patrón de razonamiento)
+  usada para clasificar “qué tipo de output” produce una estructura y “cómo opera”.
+- CP (Criterios de Pertenencia): Membership Criteria (en inglés). Dispositivo formal auditables para decidir pertenencia.
+- PTE (Principio de Transferibilidad Estructural): Principle of Structural Transferability (en inglés).
+  Regla: transferir estructura (no solo etiquetas) entre contextos sin depender de intuición privada.
+- CCCO: Cognition as Operational Capacity (en inglés). Cognición entendida como capacidad operativa sobre información.
+- CCMC: Cognition as Conditioned Manifestation (en inglés). Cognición como manifestación condicionada por contornos externos.
+- Contrato del sujeto: requisitos mínimos de consumo y condiciones de éxito definidas por quien consume la salida.
+- Borde (de aplicación): frontera declarada: qué incluye y qué excluye como destinatario de uso.
+
+3) Qué “tipo de cosa” es una cApp dentro del marco (estatus ontológico-operativo)
+3.1 No es unidad mínima
+- Una cApp no sustituye a mNode: usa mNodes (y otras piezas del grafo) como componentes,
+  pero no hereda el estatus de unidad mínima.
+- Un mNode puede existir sin estar embebido en una cApp concreta.
+- Una cApp típicamente no existe sin componentes y relaciones: es un ensamblaje operativo orientado a un fin.
+
+3.2 Es un ensamblaje operativo y se describe por operación (no por tema)
+Una cApp es una arquitectura funcional: componentes + relaciones + criterios.
+Su naturaleza se identifica por:
+- RO dominante (qué hace),
+- fin/intención (qué transformación busca),
+- borde (dónde aplica y dónde no),
+- validación (cómo se decide corrección),
+- invariantes y dominio de variación (qué la mantiene “siendo la misma” bajo adaptación).
+
+3.3 Puede ser jerárquica y composable
+- Una cApp puede contener subcApps.
+- Una cApp puede ser subestructura dentro de una cApp mayor.
+- En una arquitectura por capas, una prompt-cApp puede ser subnodo dentro de una cApp mayor,
+  y esa cApp mayor puede ser subnodo dentro de un sistema de aplicaciones cognitivas.
+La jerarquía no es decorativa: habilita composición y ensamblaje por familias, fines y condiciones de contorno.
+
+4) Relaciones estructurales con el núcleo del grafo (cómo se sostiene el concepto)
+(Estas relaciones no son “decorativas”: describen qué necesita una cApp para existir como pieza del marco.)
+
+4.1 cApp depends_on CCCO (Cognition as Operational Capacity)
+- Una cApp existe para operar sobre información: recibe entradas, aplica reglas, produce salidas.
+- Define una transformación cognitiva, no una narrativa.
+
+4.2 cApp depends_on CCMC (Cognition as Conditioned Manifestation)
+- Una cApp se activa y adapta según condiciones externas:
+  canal, restricciones, sujeto, nivel técnico, idioma, disponibilidad de evidencia, tiempo, etc.
+- La misma identidad puede manifestarse distinto bajo contornos distintos sin perder núcleo.
+
+4.3 cApp depends_on PTE (Principle of Structural Transferability)
+- Una cApp debe poder operar sin depender de intuición autobiográfica del autor.
+- Exige explicitación de invariantes, dominio de variación y validación mínima para que exista transferencia.
+
+4.4 cApp depends_on RO (Operational Role)
+- Una cApp se describe y clasifica por cómo opera, no por tema.
+- RO dominante define la huella funcional y ayuda a discriminar familias vecinas.
+
+4.5 cApp uses MNODE
+- mNodes aportan unidades mínimas (definibles, transferibles) que una cApp compone para producir un fin.
+
+4.6 cApp uses FAM
+- Familias cognitivas proveen tipologías de reconocimiento del tipo de output y su forma operativa.
+- Una cApp declara familia dominante (o combinación) para ser inventariable y sugerible.
+
+4.7 cApp uses CP
+- Criterios de pertenencia vuelven decidible y auditable:
+  (a) la familia dominante,
+  (b) la corrección de la cApp respecto de su fin,
+  (c) la corrección de una proyección (por ejemplo prompt-cApp) respecto de la estructura.
+
+5) prompt-cApp: proyección textual de una cApp (estructura vs manifestación)
+5.1 Definición
+Una prompt-cApp es una proyección de una cApp en formato de prompt (texto de control) dirigida
+a un modelo generativo de lenguaje (LLM).
+
+5.2 Distinción crítica: estructura vs proyección
+- cApp: arquitectura funcional (componentes + relaciones + criterios).
+- prompt-cApp: representación (projects_to) de esa arquitectura como instrucciones textuales para ejecución.
+
+5.3 Criterio de corrección de la proyección
+Una prompt-cApp es correcta si:
+- preserva invariantes estructurales de la cApp,
+- mantiene el borde y criterios de pertenencia,
+- permite validación (no solo “suena parecido”).
+
+Una prompt-cApp es incorrecta si:
+- rompe criterios de pertenencia, validación o borde,
+- enumera contenido sin especificar transformación ni condiciones de éxito,
+- produce outputs “bonitos” pero inutilizables para el sujeto real.
+
+6) Estructura mínima de una cApp (plantilla operativa y estructural)
+Una cApp, para ser invocable, sugerible y verificable, requiere una estructura mínima estable.
+
+6.1 Metadatos de identidad (inventariabilidad)
+- id: identificador único (estable en el catálogo y en el grafo).
+- nombre: etiqueta legible por humanos.
+- fin/intención: efecto buscado expresado como transformación (no como tema).
+- familia dominante: una familia base o una combinación declarada (con reglas de composición).
+- RO dominante: contorno operativo que identifica la naturaleza (definir, planear, validar, diseñar, justificar, etc.).
+- borde de aplicación: qué casos incluye y qué casos excluye como destinatario de uso.
+- condiciones de contorno típicas: rasgos del contexto que activan esta cApp (canal, riesgo, auditoría, etc.).
+- entradas esperadas: tipos de entrada (texto libre, grafo, subgrafo, restricciones, materiales, parámetros).
+- salidas esperadas: forma de salida (definición, plan, procedimiento, diseño, argumento, plantilla, etc.).
+- dependencias permitidas: recursos requeridos (glosario, subgrafo, plantillas, reglas, validators).
+
+6.2 Contrato de invocación (invocabilidad)
+El contrato describe cómo se “llama” la cApp y qué debe ocurrir para considerarla ejecutada.
+
+Debe declarar:
+A) Modo de invocación:
+   - firma conceptual (comando, llamada, etiqueta, o selector en catálogo).
+   - parámetros obligatorios (mínimos).
+   - parámetros opcionales (dominio de variación).
+
+B) Precondiciones:
+   - qué debe estar presente en la entrada para operar (material mínimo).
+   - qué restricciones son necesarias (por ejemplo, límite de longitud, idioma, formato exigido por el sujeto).
+
+C) Obligaciones de salida:
+   - estructura de salida (campos/partes).
+   - garantías mínimas (por ejemplo, incluir borde, incluir validación, incluir invariantes explícitas).
+   - trazabilidad mínima cuando aplique (cómo se justifican decisiones).
+
+D) Condiciones de éxito (contrato del sujeto):
+   - cómo el sujeto consume la salida (uso previsto).
+   - qué cuenta como “útil” y “correcto”.
+   - indicadores de fallo: salida no operable, no auditable, no integrable, o no consumible por el sujeto.
+
+6.3 Núcleo operativo (lo que “hace”)
+- Operación principal: transformación definida (por ejemplo, normalizar una definición, derivar discriminadores,
+  proponer arquitectura, extraer intención, etc.).
+- Procedimiento (si aplica): pasos o reglas; puede existir como Plan (secuencia) o Método (secuencia + control de calidad).
+- Interfaces cognitivas: especificación explícita de qué entra y qué sale (habilita composición).
+
+6.4 Validación (verificabilidad y control de calidad)
+Una cApp incluye mecanismos de control de calidad para evitar resultados no auditables o irrepetibles.
+
+Debe declarar:
+- pruebas o criterios para aceptar/rechazar el output (criterios de éxito),
+- discriminantes (para evitar confundir familia dominante o forma del output),
+- chequeos internos (consistencia, no contradicción, completitud mínima),
+- trazabilidad mínima (capacidad de explicar por qué cada parte existe).
+
+Formas típicas de validación:
+- checklist de invariantes satisfechas,
+- pruebas de consistencia,
+- comparación con plantillas de familia,
+- validación por convergencia (cuando el objetivo exige auditoría): dos evaluadores independientes
+  deberían reconocer la pertenencia y la corrección bajo reglas compartidas.
+
+6.5 Invariantes típicas de cApp (mínimos no negociables)
+Ejemplos de invariantes típicas:
+- Debe producir una salida cuya forma sea evaluable (no solo retórica).
+- Debe declarar borde (qué incluye y qué excluye) cuando su familia dominante lo exige.
+- Debe evitar dependencia privada (no puede requerir intuición autobiográfica del autor para funcionar).
+- Debe mantener compatibilidad con el sistema de integración (por ejemplo, poder conectarse como nodo del grafo).
+- Debe sostener el contrato del sujeto: requisitos mínimos de consumo y condiciones de éxito.
+
+6.6 Dominio de variación (variaciones permitidas sin romper identidad)
+Ejemplos de variación permitida:
+- cambiar ejemplos temáticos,
+- cambiar estilo de redacción,
+- ajustar granularidad (más breve vs más técnico) si no se rompen invariantes,
+- adaptar idioma, tono, canal, estructura superficial de salida,
+- elegir estrategia de interacción (preguntas vs salida directa) si el contrato lo permite.
+
+Indicador de violación:
+- cuando cambiar el contexto obliga a reescribir todo, el núcleo estaba mezclado con variación.
+
+6.7 Borde de aplicación (frontera incluye/excluye)
+El borde es un componente obligatorio cuando:
+- el riesgo de uso indebido es alto,
+- hay ambigüedad con cApps vecinas,
+- el catálogo requiere selección robusta.
+
+Debe incluir:
+- “incluye”: condiciones bajo las cuales la cApp aplica (clase de problema, clase de entrada, clase de sujeto).
+- “excluye”: condiciones bajo las cuales NO aplica (casos límite, familia equivocada, ausencia de material mínimo).
+- consecuencias: qué hacer si se detecta exclusión (derivar a otra cApp o construir una nueva).
+
+7) Componibilidad: cApps como nodos en un grafo de cApps
+7.1 Principio
+cApps pueden encadenarse o combinarse para flujos complejos, siempre que:
+- las interfaces cognitivas (entradas/salidas) sean compatibles,
+- el contrato de cada cApp permanezca estable,
+- la validación de cada cApp sea aplicable en el pipeline.
+
+7.2 Secuencias típicas por familias (ejemplo estructural)
+- Idea → Plan → Método → Diseño → Patrón de razonamiento
+Lectura:
+- primero se fija identidad (Idea),
+- luego se secuencian acciones (Plan),
+- luego se añade control de calidad (Método),
+- luego se organiza el sistema (Diseño),
+- luego se justifican decisiones (Patrón de razonamiento).
+
+7.3 SubcApps y jerarquía
+- Una cApp puede encapsular un conjunto de subcApps como un pipeline estable.
+- Una prompt-cApp puede ser un submódulo de ejecución dentro de una cApp más amplia (por ejemplo, una cApp con interfaz + prompt).
+
+8) Catálogo e invocación por comando (condición para “no improvisar”)
+Una cApp, para formar parte de un sistema de diseño y recomendación, debe ser inventariable.
+Eso exige que su identidad y su contrato permitan:
+
+- indexación por intención (efecto),
+- indexación por familia dominante y RO dominante,
+- registro de invariantes, dominio de variación, discriminantes y borde,
+- registro de dependencias permitidas,
+- especificación de entradas y salidas esperadas.
+
+Una unidad sin esto tiende a convertirse en “texto dependiente del hilo conversacional” y no en pieza reutilizable.
+
+9) Lógica de sugerencia (cómo elegir cApps sin improvisación)
+La selección/sugerencia de cApps se puede describir como un esquema mínimo de cuatro pasos:
+
+Paso A: Lectura del problema como fin estructural
+- identificar tipo de output requerido: definición, plan, método, diseño, o razonamiento.
+
+Paso B: Clasificación por familia dominante
+- aplicar discriminadores de familia para no confundir, por ejemplo, Plan con Método.
+
+Paso C: Selección por condiciones de contorno
+- comparar contornos del caso con perfiles típicos:
+  ambigüedad terminológica → Idea,
+  riesgo de omitir pasos → Plan,
+  necesidad de fiabilidad/auditoría → Método,
+  múltiples restricciones e integración → Diseño,
+  necesidad de justificar inferencias → Patrón de razonamiento.
+
+Paso D: Estrategia: invocar o construir
+- si existe una cApp en catálogo con alta compatibilidad: invocación directa,
+- si no existe o compatibilidad es baja: construcción de una cApp nueva como adaptación contextual,
+  declarando invariantes/variación/validación/borde.
+
+10) Evolución controlada: cambios como “patches” de estructura
+Una cApp puede evolucionar sin perder identidad si:
+- se mantiene intención y reglas esenciales,
+- se registran cambios significativos,
+- los cambios permanecen dentro del dominio de variación o, si exceden, se declara “nueva cApp”.
+
+Indicador de violación:
+- cambios que alteran el efecto buscado sin declarar que se trata de otra cApp.
+
+11) Separación por estratos: cApp vs Fábrica de Adaptaciones Contextuales
+11.1 Estrato 1: Principios de diseño de cApps (esto define a la cApp)
+- qué es una cApp (unidad operativa),
+- sus partes mínimas (contrato, núcleo, validación, variación, integración),
+- su relación con sujeto, contexto e intención,
+- su componibilidad y evolución controlada.
+
+11.2 Estrato 2: Fábrica de Adaptaciones Contextuales (esto gobierna un sistema de cApps)
+La fábrica:
+- selecciona cApps desde un catálogo,
+- sugiere cApps apropiadas según el problema,
+- genera nuevas cApps cuando no exista una adecuada,
+- adapta cApps a contextos y sujetos sin romper el núcleo.
+
+La fábrica no es “otra cApp”:
+- es el sistema que produce y gobierna cApps como adaptaciones.
+
+12) Consecuencia operativa (qué habilita este planteamiento)
+Con esta definición, el grafo puede tratar cApps como:
+- nodos composables,
+- unidades invocables por contrato,
+- piezas clasificables por familias y RO,
+- estructuras validables (incluida validación por convergencia cuando se requiera),
+- proyecciones implementables (prompt-cApp u otros medios) sin confundir manifestación con estructura.
+
+================================================================================
+FIN
+================================================================================

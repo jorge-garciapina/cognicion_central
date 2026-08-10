@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+    "label": "ilustracion_conceptual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-ilustracion_conceptual-ilustracion_conceptual",
+    "summary": "**Definición.** Recurso visual que representa una idea abstracta mediante figuras, escenas, símbolos o relaciones no necesariamente literales. Se diferencia de una fotografía o render porque su prioridad es hacer visible un concepto, no documentar un objeto realista.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada"
+    }
+  }
+}

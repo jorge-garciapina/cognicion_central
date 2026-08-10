@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+    "type": "has_field",
+    "rationale": "jerarquia_visual_global es un campo nuevo incorporado en dimension_composicion_espacial_de_la_salida para la realización imagen."
+  }
+}

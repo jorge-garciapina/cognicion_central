@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-plataforma_pendiente_de_especificacion-plataforma_pendiente_de_especificacion",
+  "content": "Valor provisional para casos en los que aún no se decide la plataforma final.\n\nPermite construir o preconfigurar una instancia sin bloquear el proceso, dejando la adaptación específica para una fase posterior.\n\nSirve para borradores, pruebas, generación temprana de ideas o configuraciones que todavía no tienen canal definitivo.\n\n---"
+}

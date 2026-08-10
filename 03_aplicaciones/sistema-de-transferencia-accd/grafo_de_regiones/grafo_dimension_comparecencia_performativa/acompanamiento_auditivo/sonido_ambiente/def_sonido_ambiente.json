@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente",
+  "content": "Debe indicar el uso de ambientación sonora cuando ésta acompañe la pieza. Tipo de valor: descriptivo controlado. Cardinalidad: cero o una configuración por bloque o por pieza."
+}

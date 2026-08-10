@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_simbolo-entrada_por_simbolo",
+  "content": "**Definición.** Valor que indica que la atención se activa mediante un signo visual condensado: ícono, emblema, objeto simbólico, figura abstracta, marca semántica o imagen que representa algo más amplio que su forma literal.\n\n**Diferenciación semántica.** Se diferencia de `entrada_por_imagen_central` porque la fuerza de entrada no está sólo en una imagen dominante, sino en la carga simbólica del elemento. Se diferencia de `entrada_por_icono_principal` porque un símbolo puede ser más abierto, cultural, conceptual o metafórico que un ícono funcional.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que el primer anclaje visual debe contener sentido condensado, no sólo presencia estética.\n\n---"
+}

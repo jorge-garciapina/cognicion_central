@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-presentacion-presentacion",
+    "type": "has_value",
+    "rationale": "presentacion es un valor nuevo incorporado en plataforma para la realización imagen."
+  }
+}

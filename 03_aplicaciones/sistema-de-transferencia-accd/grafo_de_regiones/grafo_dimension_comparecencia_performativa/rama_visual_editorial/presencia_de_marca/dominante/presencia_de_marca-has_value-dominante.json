@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-dominante-dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-dominante-dominante",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-dominante-dominante",
+    "type": "has_value",
+    "rationale": "dominante es un valor de presencia_de_marca incorporado para la realización carousel."
+  }
+}

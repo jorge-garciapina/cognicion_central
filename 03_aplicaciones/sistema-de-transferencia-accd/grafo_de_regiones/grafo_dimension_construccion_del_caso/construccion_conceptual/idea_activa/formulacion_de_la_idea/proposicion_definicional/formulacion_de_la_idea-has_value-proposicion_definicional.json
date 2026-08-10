@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional",
+    "type": "has_value",
+    "rationale": "proposicion_definicional es un valor declarado para el campo formulacion_de_la_idea."
+  }
+}

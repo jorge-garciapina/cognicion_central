@@ -1,0 +1,649 @@
+*06-ene-2026-revision-de-conceptos.txt*:
+Resumen: Revisión amplia de conceptos base: material cognitivo como materia prima, núcleo/contexto/modelo de negocio, esencificación de redes, automatización de procesos cognitivos y puentes con mercado del dinero.
+aportaciones: {
+atencion-organizada: [Refuerza que la atención organizada debe entenderse como parte de una arquitectura de creación y no como métrica aislada.; Aporta la intuición de esencificar salidas de contenido según identidad y contexto de sujeto/distribución.],
+comercial-y-convertibilidad: Aporta la idea temprana de 'puentes con el mercado del dinero' como marco para cursos, monetización de contenidos y creación de nodos de realidad.,
+composicion-ascendente: Sugiere tratar el contenido y las intervenciones como procesos compuestos y no como piezas sueltas.,
+contextual: Explicita la tríada núcleo / contexto / modelo de negocio; útil para separar contexto de sujeto y de distribución.,
+evidencia-y-aprendizaje: Introduce la duda sobre evidencias y su negociación; útil para pensar evidencia como componente explícito del sistema.,
+identitario: Muy útil para núcleo, esencia, invariantes y contexto como soporte de salidas esencificadas.,
+instanciacion-contextual: Ayuda a pensar la intervención concreta como traducción del núcleo al sujeto.,
+piezas: Útil para entender que las piezas son intervenciones realizables y no el centro del sistema.
+}
+
+*10-ene-2026-modelo-del-sistema-version-1.txt*:
+Resumen: Modelo sistémico temprano que integra diseño del sistema, responsabilidades, interfaces y organización general del proyecto.
+aportaciones: {
+atencion-organizada: Aporta visión de conjunto para ubicar atención organizada como subsistema y no como teoría aislada.,
+comercial-y-convertibilidad: Útil para conectar el campo atencional con flujos mayores de valor y captura.,
+composicion-ascendente: Aporta una vista sistémica de composición entre partes del modelo.,
+contextual: Ayuda a ubicar contextos e interfaces dentro del sistema total.,
+evidencia-y-aprendizaje: Aporta noción de retorno sistémico y necesidad de aprendizaje estructurado.,
+identitario: Útil para separar arquitectura general de entidades particulares.,
+instanciacion-contextual: Da marco para entender la instanciación como parte de un sistema mayor.,
+piezas: Ayuda a situar piezas como outputs de un diseño de sistema más amplio.
+}
+
+*20-dic-2025-plan-de-negocios-version-5.txt*:
+Resumen: Plantea el plan de negocios como puente entre el sistema y el mercado del dinero; desarrolla cursos, monetización de contenidos y creación de nodos de realidad.
+aportaciones: {
+atencion-organizada: Útil de forma indirecta: muestra que el campo atencional es previo a la monetización y que la atención debe organizarse como activo.,
+comercial-y-convertibilidad: Muy útil: define el puente con el mercado del dinero y muestra varias vías de captura.,
+composicion-ascendente: Aporta secuencias de materialización comercial y pasos del puente de negocio.,
+contextual: Útil para modelar contexto de aplicación y sujeto dentro del proceso de venta de intervenciones.,
+evidencia-y-aprendizaje: Ayuda a pensar evidencia ligada a negociación, comercialización y resultados.,
+identitario: Refuerza que el núcleo comercializable es invariante y se adapta a contextos.,
+instanciacion-contextual: Útil para pensar la intervención comercial como realización contextual del núcleo.,
+piezas: Aporta la idea de contenido como vehículo de monetización, no como fin en sí mismo.
+}
+
+*26-dic-2025-modelado-usando-teoria-de-grafos.txt*:
+Resumen: Introduce el giro a pensar ideas y procesos como grafos, con nodos, aristas, relaciones y múltiples modelos posibles.
+aportaciones: {
+atencion-organizada: Útil para representar atención organizada como subgrafo y no solo como descripción verbal.,
+comercial-y-convertibilidad: Permite formalizar rutas de convertibilidad como nodos y aristas.,
+composicion-ascendente: Muy útil para composición ascendente: módulos, relaciones, ensamblajes y subgrafos.,
+contextual: Aporta forma de modelar contexto como nodos/relaciones y no como metadato difuso.,
+evidencia-y-aprendizaje: Útil para hacer explícitos nodos de evidencia y relaciones de retorno.,
+identitario: Útil para fijar componentes identitarios como nodos canónicos.,
+instanciacion-contextual: Muy útil para formalizar fuente, caso, vector y adaptador como unidades de un grafo.,
+piezas: Aporta directamente a la idea de pieza como nodo/artefacto dentro de un ensamblaje.
+}
+
+*31-dic-2025-teoria-general-de-modelado-de-ideas.txt*:
+Resumen: Documento base sobre modelado ontológico y realización contextual; separa dominio y metodología y fija nociones como núcleo, sujeto, intervención y contexto.
+aportaciones: {
+atencion-organizada: Útil para no confundir atención con pieza ni con contexto; la atención puede modelarse como resultado de una realización contextual.,
+comercial-y-convertibilidad: Útil para distinguir la lógica comercial como respuesta protocolaria y no como identidad total del sistema.,
+composicion-ascendente: Muy útil para composición ascendente y ensamblaje de intervenciones.,
+contextual: Central para contextual: distingue sujeto, distribución, realización y contexto.,
+evidencia-y-aprendizaje: Útil porque fija la intervención y permite pensar evidencia del efecto de esa intervención.,
+identitario: Central para identitario: fija núcleo, invariantes y relación entre idea y realización.,
+instanciacion-contextual: Fundacional para instanciación contextual: el caso se entiende como realización contextual de estructura.,
+piezas: Ayuda a tratar piezas como intervenciones realizables derivadas del núcleo.
+}
+
+*air-combat-1-0-0.txt*:
+Resumen: Ejemplo aplicado de plantilla general de estrategia instanciada a un caso histórico concreto.
+aportaciones: {
+atencion-organizada: sin aporte directo claro,
+comercial-y-convertibilidad: Aporta, de manera débil, la idea de traducir una plantilla general a un dominio concreto y luego a objetivos/ganancias.,
+composicion-ascendente: Útil por analogía: muestra cómo una plantilla puede instanciarse a un caso sin perder forma.,
+contextual: Aporta poco al contexto de contenido salvo la lógica de instanciación situacional.,
+evidencia-y-aprendizaje: sin aporte directo claro,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil por analogía para instanciación: una estructura abstracta baja a un caso específico.,
+piezas: sin aporte directo claro
+}
+
+*arquitectura-cognitiva-fractal.txt*:
+Resumen: Marco general para pensar sistemas cognitivos como estructuras fractales con niveles, herencia, invariantes y composición.
+aportaciones: {
+atencion-organizada: Muy útil para pensar atención organizada como campo interno fractal y escalable.,
+comercial-y-convertibilidad: Útil para entender que la convertibilidad puede operar en múltiples escalas del sistema.,
+composicion-ascendente: Muy útil: composición ascendente, escalas, herencia y subgrafos fractales.,
+contextual: Ayuda a pensar contextos por niveles y acoplamientos.,
+evidencia-y-aprendizaje: Útil para retorno multi-escala y aprendizaje distribuido.,
+identitario: Central para distinguir identidad por niveles y herencia de invariantes.,
+instanciacion-contextual: Aporta forma para tratar casos e instanciaciones como fenómenos fractales dependientes de escala.,
+piezas: Útil para pensar piezas como unidades de diferentes escalas dentro del mismo sistema.
+}
+
+*arquitectura-comercial.txt*:
+Resumen: Planteamiento explícito de ACCD como campo interpretativo-comercial de atención organizada.
+aportaciones: {
+atencion-organizada: Central: define atención organizada como uno de los núcleos de la arquitectura comercial.,
+comercial-y-convertibilidad: Central: define rutas de convertibilidad y el papel de la arquitectura en generar valor.,
+composicion-ascendente: Central: fija la arquitectura general de composición del sistema.,
+contextual: Central: relaciona proyección contextual, recepción y distribución.,
+evidencia-y-aprendizaje: Central: incluye evidencia y cierre de circuito.,
+identitario: Central: articula entidad, núcleo y preservación identitaria.,
+instanciacion-contextual: Central: formula el caso de proyección contextual publisher.,
+piezas: Central: ubica piezas como manifestaciones dentro de una arquitectura mayor.
+}
+
+*arquitectura-hub.txt*:
+Resumen: Define una arquitectura hub-fractal de mediación y densificación relacional.
+aportaciones: {
+atencion-organizada: Aporta la idea de campo como hub que concentra y redistribuye atención.,
+comercial-y-convertibilidad: Muy útil para comercial: densificación relacional como paso previo a convertibilidad.,
+composicion-ascendente: Muy útil para composición de un centro y sus ramas de proyección.,
+contextual: Ayuda a pensar contextos como radios del hub o regiones de acoplamiento.,
+evidencia-y-aprendizaje: Útil para retorno al centro y cierre relacional.,
+identitario: Aporta a identitario al permitir un centro que articula núcleos parciales.,
+instanciacion-contextual: Útil para pensar instanciaciones como salidas del hub a contextos específicos.,
+piezas: Ayuda a pensar series o piezas como radios o salidas desde un centro articulador.
+}
+
+*atencion_socialmente_organizada.md*:
+Resumen: Planteamiento macrosocial de campos atencionales estratificados utilizables por terceros.
+aportaciones: {
+atencion-organizada: Muy útil: introduce la idea de campo atencional estructurado, jerarquías, puertos de inserción y valor del campo más allá del contenido puntual.,
+comercial-y-convertibilidad: Útil para pensar sponsors, inserción de terceros y explotación comercial de campos ya organizados.,
+composicion-ascendente: Indirectamente útil para composición de un sistema que produce y sostiene el campo.,
+contextual: Aporta lectura macro del contexto social y del campo como entorno de recepción.,
+evidencia-y-aprendizaje: Puede aportar indicadores de sedimentación del campo y valor relacional.,
+identitario: Aporta poco al núcleo salvo la idea de entidad que organiza atención para terceros.,
+instanciacion-contextual: Útil de forma indirecta: la proyección ya no solo crea piezas, crea campos utilizables.,
+piezas: Ayuda a leer piezas como instrumentos de estructuración del campo y no solo outputs.
+}
+
+*campo-interpretativo.txt*:
+Resumen: Define campo interpretativo como unidad conceptual autónoma, con entradas, ponderación, salidas, cierre y relación con entorno.
+aportaciones: {
+atencion-organizada: Muy útil: la atención organizada puede leerse como campo interpretativo atencional.,
+comercial-y-convertibilidad: Útil para comercial porque permite que la lectura del entorno y del valor sea estructurada.,
+composicion-ascendente: Útil para composición de subgrafos internos con reglas de respuesta.,
+contextual: Central para contextual: contexto entra al campo como condicionante de interpretación.,
+evidencia-y-aprendizaje: Muy útil para evidencia y aprendizaje: el campo recibe entradas, emite salidas y corrige.,
+identitario: Útil para identitario al separar identidad del campo y casos particulares.,
+instanciacion-contextual: Central para instanciación: el caso puede verse como input al campo que modula respuesta.,
+piezas: Útil para piezas en tanto outputs de un campo interpretativo.
+}
+
+*convertibilidad-y-dinero.txt*:
+Resumen: Amplía la relación entre tangibilidad, convertibilidad institucional y mercado del dinero.
+aportaciones: {
+atencion-organizada: Indirectamente útil: ayuda a no confundir atención con dinero y a ubicar atención como condición previa.,
+comercial-y-convertibilidad: Muy útil: aclara la transición entre validación, convertibilidad y mercado del dinero.,
+composicion-ascendente: Útil para componer la secuencia de mediación económica dentro del sistema.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Útil para evidencia post-captura y criterios de cierre económico.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*cosacos-1812-1-0-0.txt*:
+Resumen: Otro ejemplo aplicado de estrategia que instancia una plantilla general a un caso histórico.
+aportaciones: {
+atencion-organizada: sin aporte directo claro,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Útil solo por analogía: muestra instanciación de plantilla a caso y necesidad de preservar forma.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: sin aporte directo claro,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil débilmente para instanciación contextual como ejemplo de traducción de patrón a caso.,
+piezas: sin aporte directo claro
+}
+
+*creacion-de-contenido.txt*:
+Resumen: Ejemplo estructurado de creación de contenido multi-nicho como difusión semántica contextualizada y cNode.
+aportaciones: {
+atencion-organizada: Muy útil: muestra cómo pensar contenido como mecanismo de organización de atención alrededor de un núcleo.,
+comercial-y-convertibilidad: Útil indirecto: sugiere usos comerciales distintos según nichos y configuraciones.,
+composicion-ascendente: Muy útil: contenido multi-nicho requiere composición y ensamblajes múltiples.,
+contextual: Muy útil: difusión semántica contextualizada exige contexto por nicho y canal.,
+evidencia-y-aprendizaje: Útil para rastrear respuesta por nicho y por difusión.,
+identitario: Útil porque conecta núcleo y esencia con difusión en múltiples nichos.,
+instanciacion-contextual: Muy útil: instancia el paso desde estructura a casos por contexto.,
+piezas: Central para piezas: aporta ejemplos de piezas y familias de contenido multi-nicho.
+}
+
+*creacion-de-realidad.txt*:
+Resumen: Semilla de subgrafo sobre creación de realidad como dominio conceptual y operativo.
+aportaciones: {
+atencion-organizada: Útil: ayuda a ver el campo atencional como parte de una operación de creación de realidad y no solo de publicación.,
+comercial-y-convertibilidad: Indirectamente útil si la entidad de contenido crea realidades comercializables.,
+composicion-ascendente: Útil para composición de nodos de realidad y subgrafos.,
+contextual: Aporta marco contextual para cómo una estructura toca realidad externa.,
+evidencia-y-aprendizaje: Útil para pensar evidencia como huella de creación efectiva en el mundo.,
+identitario: Útil para identidad si la entidad comercializada es un nodo de realidad.,
+instanciacion-contextual: Útil para instanciación al pensar cada salida como proyección de realidad.,
+piezas: Puede aportar lectura de pieza como nodo de realidad materializado.
+}
+
+*definicion-1.txt*:
+Resumen: Definición operativa de estado cognitivo como objeto conceptual para describir configuraciones internas del receptor.
+aportaciones: {
+atencion-organizada: Útil, pero subordinado a Fuentes Identitarias: aporta la idea de espacio de estados y transición de configuraciones atencionales.,
+comercial-y-convertibilidad: Útil indirecto: algunos cierres comerciales dependen de estados previos del receptor.,
+composicion-ascendente: sin aporte directo claro,
+contextual: Útil para describir contexto de sujeto como configuración cognitiva actual.,
+evidencia-y-aprendizaje: Muy útil: permite interpretar evidencia como cambio de estado, no solo como métrica.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación cuando el caso se define en parte por el estado del receptor.,
+piezas: Puede ayudar a diseñar piezas según estados cognitivos esperados del receptor.
+}
+
+*descripcion-estratos-fabrica-arquitecturas.txt*:
+Resumen: Describe por estratos una fábrica de adaptaciones contextuales y principios de arquitectura de software/cognitiva.
+aportaciones: {
+atencion-organizada: Muy útil para ubicar atención organizada como estrato con función propia dentro de una fábrica.,
+comercial-y-convertibilidad: Útil para ubicar comercial y convertibilidad como estrato diferenciado.,
+composicion-ascendente: Muy útil: composición por estratos, responsabilidades y articulaciones.,
+contextual: Muy útil: sitúa contexto como estrato y como condición de adaptación.,
+evidencia-y-aprendizaje: Útil para explicar dónde vive el cierre de lazo dentro de la fábrica.,
+identitario: Útil para ubicar identidad como estrato y no como adorno transversal.,
+instanciacion-contextual: Muy útil para ubicar instanciación contextual como módulo metodológico.,
+piezas: Útil para ubicar piezas como outputs de una fábrica organizada.
+}
+
+*ejemplo-acondicionamiento-fisico.txt*:
+Resumen: Ejemplo usado para separar ontología del dominio, unidades mínimas, módulos y escalas.
+aportaciones: {
+atencion-organizada: sin aporte directo claro,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Muy útil: inspira la separación entre ontología del dominio, módulos simples, compuestos y escalas.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: sin aporte directo claro,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: Útil para piezas porque ayuda a distinguir unidad mínima, módulo simple y módulo compuesto.
+}
+
+*ejemplo-acondicionamiento-mejorado-teoria-de-lazo.txt*:
+Resumen: Versión refinada del ejemplo anterior integrada con teoría de lazo y corrección.
+aportaciones: {
+atencion-organizada: Indirectamente útil: permite pensar lazo atencional y retorno de estados.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Muy útil para composición ascendente con bucles de corrección.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Muy útil: muestra cómo cerrar lazo, corregir y reescalar.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: Útil para piezas si se quiere pensar series y módulos con retroalimentación.
+}
+
+*ejemplo-text-scores-p1.txt*:
+Resumen: Ejemplo de modelado de textos mediante scores o sub-scores funcionales.
+aportaciones: {
+atencion-organizada: Útil para puntuar configuraciones atencionales, claridad, densidad o reenganche.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Útil para composición como criterio de evaluación de módulos.,
+contextual: Útil para modelar ajuste contextual de textos según scores.,
+evidencia-y-aprendizaje: Muy útil para evidencia si los scores se contrastan con desempeño real.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación cuando el caso requiere un mapa de respuesta cuantificable.,
+piezas: Muy útil para piezas textuales y su evaluación funcional.
+}
+
+*ejemplo-text-scores-p2.txt*:
+Resumen: Continuación/refinamiento del modelado de textos mediante puntuaciones funcionales.
+aportaciones: {
+atencion-organizada: Útil para refinar una base de evaluación atencional.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Útil para composición y selección de módulos textuales.,
+contextual: Útil para ajustar textos a contexto.,
+evidencia-y-aprendizaje: Útil para comparar evidencia y scores previstos.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para mapas de respuesta textuales.,
+piezas: Muy útil para piezas textuales.
+}
+
+*ejemplo-text-scores-p3.txt*:
+Resumen: Tercera parte del esquema de text scores, probablemente con mayor detalle operativo.
+aportaciones: {
+atencion-organizada: Útil para operacionalizar recepción atencional de piezas textuales.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Útil para gobernar selección/composición por score.,
+contextual: Útil si el contexto textual exige variación controlada.,
+evidencia-y-aprendizaje: Útil para lectura de resultados frente a scoring.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para formalizar salida diagnóstica del caso textual.,
+piezas: Muy útil para piezas.
+}
+
+*ejemplos-casos-fuente-recepcion-atencional copy.txt*:
+Resumen: Copia del refinamiento de second viewing aplicada a casos de fuente de recepción atencional.
+aportaciones: {
+atencion-organizada: Muy útil: aporta ejemplos de casos, regiones y perfiles de recepción atencional.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: sin aporte directo claro,
+contextual: Útil porque refina contexto de sujeto/recepción de modo muy concreto.,
+evidencia-y-aprendizaje: Útil si conecta casos de recepción con evidencias observables.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Muy útil: aporta casos concretos para la fuente de recepción atencional.,
+piezas: Útil para diseñar piezas compatibles con regiones de recepción.
+}
+
+*ejemplos-casos-fuente-recepcion-atencional.txt*:
+Resumen: Refinamiento de second viewing mediante ejemplos explícitos de casos de fuente de recepción atencional.
+aportaciones: {
+atencion-organizada: Central para atención organizada: ofrece casos, perfiles, regiones y ejemplos concretos de recepción legible.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: sin aporte directo claro,
+contextual: Muy útil para contextual: afina el plano de recepción sin mezclarlo con distribución.,
+evidencia-y-aprendizaje: Útil si permite ligar casos con evidencias de comprensión, pérdida de hilo o reenganche.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Muy útil para instanciación cuando el caso depende del régimen de recepción.,
+piezas: Útil para piezas porque ayuda a decidir qué tipo de pieza cabe en cada región de recepción.
+}
+
+*ejemplos-estructura-poker-videos.md*:
+Resumen: Ejemplos estructurados de videos de póker, probablemente como artefactos compuestos con intención y secuencia.
+aportaciones: {
+atencion-organizada: Útil indirectamente: muestra cómo piezas pueden diseñarse para sostener atención en un dominio concreto.,
+comercial-y-convertibilidad: Puede aportar ejemplos de inserción comercial en videos temáticos.,
+composicion-ascendente: Muy útil para composición de videos, secuencias y módulos narrativos.,
+contextual: Útil para contextual porque muestra adaptación a un nicho/dominio concreto.,
+evidencia-y-aprendizaje: Útil para observar qué evidencia generan distintos formatos de video.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación como ejemplo aplicado de caso → video.,
+piezas: Muy útil para piezas audiovisuales.
+}
+
+*esencificacion.txt*:
+Resumen: Define esencificación como proceso de adaptación contextual con conservación estructural.
+aportaciones: {
+atencion-organizada: Útil indirectamente: la atención organizada no debe romper la esencia al buscar captación.,
+comercial-y-convertibilidad: Indirectamente útil si las rutas comerciales deben respetar esencia.,
+composicion-ascendente: sin aporte directo claro,
+contextual: Muy útil: la adaptación al contexto debe preservar identidad estructural.,
+evidencia-y-aprendizaje: Útil porque evidencia permite medir si la esencia se perdió o conservó.,
+identitario: Central para identitario: preservación estructural en múltiples contextos.,
+instanciacion-contextual: Muy útil: el caso contextual se entiende mejor como realización esencificada.,
+piezas: Útil para piezas porque estas deben encarnar la esencia sin colapso.
+}
+
+*fabrica-de-adaptaciones-contextuales.txt*:
+Resumen: Plantea explícitamente la fábrica de adaptaciones contextuales como máquina o subarquitectura.
+aportaciones: {
+atencion-organizada: Útil de forma indirecta: la atención organizada se integra como una de las lógicas que la fábrica debe producir o respetar.,
+comercial-y-convertibilidad: Útil indirecto para conectar adaptaciones con fines comerciales.,
+composicion-ascendente: Muy útil: ofrece una meta-arquitectura para organizar módulos y flujos de adaptación.,
+contextual: Central para contextual.,
+evidencia-y-aprendizaje: Útil para fijar retorno y ajuste de adaptaciones según evidencia.,
+identitario: Útil indirectamente porque la esencia entra a la fábrica como insumo.,
+instanciacion-contextual: Central para instanciación contextual.,
+piezas: Útil para piezas como outputs concretos de la fábrica.
+}
+
+*Fis-E-fisica-estructural.txt*:
+Resumen: Documento de física estructural o analogías estructurales para entender estabilidad, fuerzas o campos.
+aportaciones: {
+atencion-organizada: Puede aportar metáforas fuertes para campo, tensión, equilibrio y estabilidad atencional, pero de forma indirecta.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Puede aportar noción de estructura, equilibrio y ensamblaje.,
+contextual: Indirectamente útil para pensar contexto como entorno de fuerzas.,
+evidencia-y-aprendizaje: Podría aportar lectura de estabilidad/inestabilidad de trayectorias.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*fuente-configuracion-recepcion-atencional-del-contenido.txt*:
+Resumen: Documento probablemente central sobre la fuente de configuración de recepción atencional del contenido.
+aportaciones: {
+atencion-organizada: Central: probablemente fija la ontología refinada de la fuente atencional, sus dimensiones, regiones y respuestas.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: sin aporte directo claro,
+contextual: Muy útil: separa recepción del contenido respecto de otros contextos.,
+evidencia-y-aprendizaje: Útil si introduce mapa de respuesta y evidencia de recepción.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Muy útil: puede integrarse como fuente específica dentro del caso contextual.,
+piezas: Muy útil para decidir compatibilidad de piezas con regímenes de recepción.
+}
+
+*fuente-de-instanciacion/ejemplos.txt*:
+Resumen: Ejemplos concretos de la fuente de instanciación contextual.
+aportaciones: {
+atencion-organizada: Útil indirecto: puede mostrar cómo distintas salidas producen distintos regímenes atencionales.,
+comercial-y-convertibilidad: Útil indirecto si algunos ejemplos incluyen rutas de valor.,
+composicion-ascendente: Muy útil: muestra instancias concretas y su composición.,
+contextual: Útil porque cada ejemplo materializa contextos distintos.,
+evidencia-y-aprendizaje: Útil si los ejemplos incluyen respuesta/evidencia.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Central para instanciación: casos concretos de fuente → vector → región → salida.,
+piezas: Útil para piezas como demostración material de los casos.
+}
+
+*fuente-de-instanciacion/fuente-de-instanciacion.txt*:
+Resumen: Define la fuente de instanciación contextual como mecanismo que genera casos, regiones y manifestaciones.
+aportaciones: {
+atencion-organizada: Útil indirecto porque la atención organizada puede recibir casos definidos por esta fuente.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: sin aporte directo claro,
+contextual: Útil: contexto entra como parte constitutiva del caso.,
+evidencia-y-aprendizaje: Útil para conectar salida con evidencia y actualización.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Central para instanciación contextual.,
+piezas: Muy útil para piezas como salidas de la fuente.
+}
+
+*ideas-de-publisher.txt*:
+Resumen: Ideas sobre publisher, publicidad digital y creación de contenido como arquitectura de monetización/mediación.
+aportaciones: {
+atencion-organizada: Útil porque refuerza que el contenido organiza atención antes de monetizar.,
+comercial-y-convertibilidad: Muy útil: publisher, inventario, sponsorabilidad, puertos de inserción y explotación de atención.,
+composicion-ascendente: Útil para componer la arquitectura de medios/contenido.,
+contextual: Útil para pensar contextos de distribución y audiencia del publisher.,
+evidencia-y-aprendizaje: Útil para medir qué evidencia importa en sistemas publisher.,
+identitario: Útil si el publisher se encarna en una entidad proyectada.,
+instanciacion-contextual: Útil para casos de proyección publisher.,
+piezas: Muy útil para piezas dentro de una arquitectura publisher.
+}
+
+*lazo-y-cierre.txt*:
+Resumen: Documento sobre teoría de lazo y cierre de circuito.
+aportaciones: {
+atencion-organizada: Útil: la atención organizada no debe quedarse en captación; debe cerrar sobre evidencia y continuidad.,
+comercial-y-convertibilidad: Útil para entender que la captura económica sigue dentro del lazo y no cierra definitivamente el sistema.,
+composicion-ascendente: Útil para composición de bucles y dependencias.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Central para evidencia-y-aprendizaje.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación en tanto cada caso debe poder reingresar como aprendizaje.,
+piezas: Útil para piezas si se las piensa como activadores de lazo y no como outputs aislados.
+}
+
+*mediacion-economica-contextual.txt*:
+Resumen: Modelo de mediación económica contextual entre contenido/posición y valor económico.
+aportaciones: {
+atencion-organizada: Indirectamente útil: ubica la atención como fase mediadora previa a valor.,
+comercial-y-convertibilidad: Central para comercial y convertibilidad.,
+composicion-ascendente: Útil para composición de la secuencia de mediación.,
+contextual: Útil porque la mediación depende de contextos concretos.,
+evidencia-y-aprendizaje: Útil para evidencia sobre qué mediaciones efectivamente convierten.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*ontologia.txt*:
+Resumen: Documento general sobre ontología, categorías y organización conceptual.
+aportaciones: {
+atencion-organizada: Útil para fijar qué tipo de cosa es el campo atencional.,
+comercial-y-convertibilidad: Útil para ubicar convertibilidad, dinero y valor en niveles ontológicos distintos.,
+composicion-ascendente: Útil para composición al distinguir tipos de unidades.,
+contextual: Útil para no mezclar contexto con entidad o proceso.,
+evidencia-y-aprendizaje: Útil para distinguir evidencia, estado y salida.,
+identitario: Muy útil para identidad, categorías y borde.,
+instanciacion-contextual: Útil para distinguir caso, fuente y vector.,
+piezas: Útil para distinguir pieza, artefacto, manifestación y módulo.
+}
+
+*perfil-de-influencer.txt*:
+Resumen: Define perfil de influencer como interfaz cognitivo-institucional de mediación.
+aportaciones: {
+atencion-organizada: Útil porque el campo atencional puede organizarse alrededor de una interfaz pública estable.,
+comercial-y-convertibilidad: Útil para sponsorabilidad, puertos de inserción y explotación comercial del perfil.,
+composicion-ascendente: Útil para composición del sistema alrededor de una interfaz central.,
+contextual: Útil para nicho y distribución asociados al perfil.,
+evidencia-y-aprendizaje: Útil para tipos de evidencia específicos del perfil.,
+identitario: Muy útil para identitario al separar entidad, interfaz y figura pública.,
+instanciacion-contextual: Útil para instanciación si el caso baja a manifestaciones mediadas por perfil.,
+piezas: Útil para piezas encarnadas en una interfaz pública.
+}
+
+*personalidad-digital-cognitiva.txt*:
+Resumen: Define personalidad digital cognitiva como forma estable de expresión, inferencia y relación.
+aportaciones: {
+atencion-organizada: Indirectamente útil: la atención puede organizarse mejor si la interfaz es cognitivamente estable.,
+comercial-y-convertibilidad: Indirectamente útil para comercial si la personalidad mejora convertibilidad.,
+composicion-ascendente: sin aporte directo claro,
+contextual: Útil para adaptar recepción a una forma estable de comparecencia.,
+evidencia-y-aprendizaje: Útil si la evidencia sirve para saber si la personalidad se percibe con claridad.,
+identitario: Central para identitario.,
+instanciacion-contextual: Útil para instanciación como interfaz que condiciona el caso.,
+piezas: Útil para piezas porque marca cómo se encarna la entidad en salidas concretas.
+}
+
+*pipelines_cognitivos.txt*:
+Resumen: Define estado cognitivo para analizar pipelines como secuencias de cambios de estado (por ejemplo AIDA).
+aportaciones: {
+atencion-organizada: Útil para atención organizada como secuencia de transiciones y no solo como regiones estáticas.,
+comercial-y-convertibilidad: Útil indirecto: algunos pipelines terminan en acción/valor.,
+composicion-ascendente: Útil para composición de pipelines y etapas.,
+contextual: Útil para modelar contexto del sujeto según etapa cognitiva.,
+evidencia-y-aprendizaje: Muy útil para evidencia: medir transición de estados.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación si el caso busca mover un pipeline concreto.,
+piezas: Útil para piezas como activadores de transiciones de estado.
+}
+
+*planteamiento-de-la-moda.txt*:
+Resumen: Planteamiento autónomo del dominio moda.
+aportaciones: {
+atencion-organizada: Útil solo como ejemplo de cómo un tema puede ocupar la arquitectura sin definirla.,
+comercial-y-convertibilidad: Puede sugerir puertos comerciales específicos por dominio.,
+composicion-ascendente: Útil como ejemplo de composición temática de una arquitectura reusable.,
+contextual: Útil como ejemplo de contexto sectorial.,
+evidencia-y-aprendizaje: sin aporte directo claro,
+identitario: Útil como ejemplo de núcleo temático y borde identitario de dominio.,
+instanciacion-contextual: Útil como ejemplo de instanciación temática.,
+piezas: Útil como ejemplo de familias de piezas para un dominio específico.
+}
+
+*planteamiento-de-nicho.txt*:
+Resumen: Planteamiento autónomo de nicho como estructura con identidad propia.
+aportaciones: {
+atencion-organizada: Útil para atención organizada porque el campo no es abstracto: organiza atención de un nicho.,
+comercial-y-convertibilidad: Útil para comercial porque el nicho condiciona convertibilidad.,
+composicion-ascendente: sin aporte directo claro,
+contextual: Muy útil: nicho como contexto estructural y no solo segmentación superficial.,
+evidencia-y-aprendizaje: Útil si evidencia se lee también a nivel de nicho.,
+identitario: Útil para identitario porque el nicho no es el núcleo, pero sí acoplamiento clave.,
+instanciacion-contextual: Útil para instanciación porque cada caso baja a un nicho o subnicho.,
+piezas: Útil para piezas adaptadas a nichos específicos.
+}
+
+*planteamiento-integral-teoria-de-lazo.txt*:
+Resumen: Planteamiento integral de teoría de lazo como documento conceptual normado y portable.
+aportaciones: {
+atencion-organizada: Útil: atención organizada puede pensarse como lazo entre comparecencia, recepción, reenganche y continuidad.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: Útil para composición con cierre y bucles.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Central para evidencia-y-aprendizaje.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: Útil para instanciación si cada caso debe estar inscrito en un lazo de respuesta.,
+piezas: Útil para piezas seriales o episódicas como partes de un lazo.
+}
+
+*planteamiento-refinado.txt*:
+Resumen: Planteamiento refinado del modelo de mediación económica contextual con fractalidad.
+aportaciones: {
+atencion-organizada: Indirectamente útil: ubica atención como parte de una cadena que no debe confundirse con dinero.,
+comercial-y-convertibilidad: Central para comercial y convertibilidad.,
+composicion-ascendente: Útil para composición ascendente de mediaciones en distintas escalas.,
+contextual: Útil para contextos económicos y operativos.,
+evidencia-y-aprendizaje: Útil para evidencia de qué mediaciones son efectivas en cada escala.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*proyeccion-contextual.txt*:
+Resumen: Planteamiento del Caso de Proyección Contextual en arquitectura publisher.
+aportaciones: {
+atencion-organizada: Útil indirectamente: la atención organizada depende del caso, no de la pieza aislada.,
+comercial-y-convertibilidad: sin aporte directo claro,
+composicion-ascendente: sin aporte directo claro,
+contextual: Central para contextual: define formalmente contexto de sujeto y de distribución dentro del caso.,
+evidencia-y-aprendizaje: sin aporte directo claro,
+identitario: Útil indirecto: el caso toma soporte estructural desde identidad/fuente.,
+instanciacion-contextual: Central para instanciación contextual.,
+piezas: Muy útil para piezas como manifestaciones del caso.
+}
+
+*refinamiento-estratos-arquitectura-comercial.txt*:
+Resumen: Lectura de refinamiento por estratos de ACCD basada en teoría y comentarios.
+aportaciones: {
+atencion-organizada: Muy útil como mapa de qué debe mejorar en el estrato atención organizada.,
+comercial-y-convertibilidad: Muy útil para comercial por su relectura de secuencias y convertibilidad.,
+composicion-ascendente: Muy útil: aclara el papel de composición ascendente.,
+contextual: Muy útil para contextual.,
+evidencia-y-aprendizaje: Muy útil para evidencia y aprendizaje.,
+identitario: Muy útil para identitario.,
+instanciacion-contextual: Muy útil para instanciación.,
+piezas: Muy útil para piezas como estrato funcional.
+}
+
+*snapshot-entendimiento-fractal.txt*:
+Resumen: Snapshot del entendimiento fractal actual: contratos, invariantes, niveles y relaciones.
+aportaciones: {
+atencion-organizada: Útil para pensar atención organizada como parte de un sistema fractal gobernado por contratos.,
+comercial-y-convertibilidad: Útil para comercial en cuanto a herencia de reglas y presets.,
+composicion-ascendente: Muy útil para composición ascendente y niveles.,
+contextual: Útil para distribuir contextos por escala.,
+evidencia-y-aprendizaje: Útil para retorno y trazabilidad por nivel.,
+identitario: Útil para identidad por herencia de invariantes.,
+instanciacion-contextual: Útil para instanciación por relación entre padre/hijo/contexto.,
+piezas: Útil para piezas como unidades de distintos niveles.
+}
+
+*subbranch-activo-relacional.txt*:
+Resumen: Planteamiento autónomo de activo relacional como nodo de valor acumulado.
+aportaciones: {
+atencion-organizada: Indirectamente útil: atención organizada puede sedimentar en activo relacional.,
+comercial-y-convertibilidad: Central para comercial: el activo relacional es paso clave antes de convertibilidad/captura.,
+composicion-ascendente: sin aporte directo claro,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Útil para evidencia de densificación relacional.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*subbranch-secuencia-mediacion.txt*:
+Resumen: Planteamiento de la secuencia de mediación entre atención, validación, capital institucional, activo relacional, convertibilidad y dinero.
+aportaciones: {
+atencion-organizada: Muy útil para ubicar exactamente qué lugar ocupa atención organizada en la secuencia global.,
+comercial-y-convertibilidad: Central para comercial y convertibilidad.,
+composicion-ascendente: Útil para composición de fases del sistema.,
+contextual: sin aporte directo claro,
+evidencia-y-aprendizaje: Útil para evidencia porque cada tramo de la secuencia puede producir señales distintas.,
+identitario: sin aporte directo claro,
+instanciacion-contextual: sin aporte directo claro,
+piezas: sin aporte directo claro
+}
+
+*trayectoria-de-proyeccion.txt*:
+Resumen: Planteamiento del estado de desarrollo de la proyección como trayectoria y no como salida aislada.
+aportaciones: {
+atencion-organizada: Útil: atención organizada puede variar según fase de desarrollo de la proyección.,
+comercial-y-convertibilidad: Útil para comercial porque la convertibilidad depende de fase de desarrollo.,
+composicion-ascendente: Útil para composición de escalas temporales o de madurez.,
+contextual: Útil para contexto temporal-ejecutivo.,
+evidencia-y-aprendizaje: Muy útil para evidencia y actualización de trayectoria.,
+identitario: Útil para identitario porque la identidad se despliega en trayectoria.,
+instanciacion-contextual: Útil para instanciación porque el caso no opera igual en todas las fases.,
+piezas: Útil para piezas porque ciertas piezas corresponden a ciertas fases.
+}
+
+*vision-fractal-de-sistemas.txt*:
+Resumen: Guía operativa de sistemas fractales con contratos e invariantes, aplicable a contenidos.
+aportaciones: {
+atencion-organizada: Muy útil: permite pensar el campo atencional como sistema fractal con partes que replican forma.,
+comercial-y-convertibilidad: Útil para comercial porque valor, captura y retorno pueden leerse por nivel.,
+composicion-ascendente: Central para composición ascendente.,
+contextual: Útil para distribuir contexto por niveles del sistema.,
+evidencia-y-aprendizaje: Útil para aprendizaje por auditoría, contratos y trazabilidad.,
+identitario: Útil para identidad por invariantes y contratos.,
+instanciacion-contextual: Útil para instanciación como herencia de forma entre niveles.,
+piezas: Útil para piezas como unidades que preservan forma del sistema.
+}
+
+*vision-fractal-pesos.txt*:
+Resumen: Integra visión fractal con un orquestador de pesos/presets aplicable a cualquier dominio.
+aportaciones: {
+atencion-organizada: Muy útil: ofrece una forma de gobernar presets de recepción, reenganche, densidad o continuidad en atención organizada.,
+comercial-y-convertibilidad: Útil para comercial si se quieren presets de convertibilidad o riesgo.,
+composicion-ascendente: Útil para composición porque el orquestador opera por niveles.,
+contextual: Útil para contextual al definir presets por contexto operativo.,
+evidencia-y-aprendizaje: Muy útil para aprendizaje: los pesos se recalibran con evidencia.,
+identitario: Indirectamente útil: los presets no deben romper invariantes identitarios.,
+instanciacion-contextual: Útil para instanciación porque un caso puede activarse bajo ciertos presets.,
+piezas: Útil para piezas si se usan presets de función narrativa/atencional.
+}

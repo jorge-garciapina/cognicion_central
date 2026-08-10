@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+    "label": "horizonte_temporal",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+    "summary": "Campo que indica en qué escala temporal busca operar la realización.",
+    "value_type": "categorial_cerrado",
+    "cardinality": "un_valor_obligatorio",
+    "source_section": "5.2"
+  }
+}

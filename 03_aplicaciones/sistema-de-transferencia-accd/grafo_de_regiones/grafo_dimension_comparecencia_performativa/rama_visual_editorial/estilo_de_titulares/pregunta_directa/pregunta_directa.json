@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares-pregunta_directa-pregunta_directa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares-pregunta_directa-pregunta_directa",
+    "label": "pregunta_directa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares-pregunta_directa-pregunta_directa",
+    "summary": "Valor en el que el titular se formula como una pregunta clara que activa reflexión o curiosidad.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

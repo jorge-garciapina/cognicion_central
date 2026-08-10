@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante",
+    "type": "has_value",
+    "rationale": "dominante es un valor declarado para el campo grado_de_dependencia_de_la_performance_visible."
+  }
+}

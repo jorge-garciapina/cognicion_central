@@ -1,0 +1,298 @@
+/REFINE START
+OBJETO: Estado cognitivo (definición operativa dentro de la Teoría de Máquinas Cognitivas)
+DEFINICIÓN_BASE (D0):
+[NOTA CRÍTICA]
+El proceso RefinementPipeline exige una DEFINICIÓN_BASE completa (D0).
+En este caso, el “documento base” referido (respuesta anterior) no está presente
+en el input disponible. Para no bloquear el proceso, se construye una D0
+reconstruida a partir de las ideas ya fijadas en este chat (pipeline-v1.pdf y
+comentarios sobre AIDA, mNodes, transmutaciones, ponderación y dirección).
+
+D0 (reconstruida, mínima, para arrancar):
+“Un estado cognitivo es la configuración interna vigente de un receptor/agente
+mientras procesa una secuencia de entradas, donde dicha configuración puede
+describirse como un conjunto estructurado de variables y relaciones que cambian
+por la activación y transmutación de estructuras cognitivas (mNodes), y que
+orienta la transición hacia resultados observables (salidas), como acciones o
+micro-salidas.”
+
+RESTRICCIONES:
+- No formalizar matemáticamente en sentido estricto (evitar desviar el foco).
+- Mantener compatibilidad conceptual con: mNode, familia cognitiva, proyección,
+  pipeline cognitivo, y la intuición de “grafo ponderado” como dirección/orientación.
+- Evitar colapsar niveles (estado ≠ salida; estado ≠ mNode; estado ≠ etapa).
+
+OBJETIVO_DE_CALIDAD (gates):
+- Frontera clara: qué incluye un “estado” y qué no.
+- Operabilidad: debe permitir describir cambios entre etapas de un pipeline.
+- Explicar “dirección” mediante ponderación sin exigir teoría formal de grafos.
+- Integrar explícitamente: (a) transmutaciones por contenido de stage,
+  (b) importancia del modo de transición entre stages (conexiones),
+  (c) relación estado → salidas como “manifestaciones particulares”.
+
+================================================================================
+ESTADO DEL PROCESO
+- Versión vigente: D0 (reconstruida)
+- Stage actual: Stage 0 — Baseline
+- Pendientes (breve):
+  1) Normalizar D0 (estructura mínima + ambigüedades).
+  2) Integrar idea central: “estado = grafo ponderado de mNodes con dirección”.
+  3) Producir D1 completa (definición extendida y usable).
+
+================================================================================
+OUTPUT — STAGE 0 (Baseline)
+D0_normalizada (estructura mínima):
+- Núcleo: configuración interna vigente del receptor durante un proceso.
+- Mecanismo de cambio: activación + transmutación de mNodes por contenido de cada stage.
+- Representación sugerida: red/grafo de mNodes con ponderaciones (saliencia / fuerza).
+- Función: orientar transiciones internas y predisponer salidas observables.
+
+Invariantes actuales (derivadas de la discusión):
+- Un estado no es una etapa del pipeline; es lo que “va cambiando” durante ellas.
+- Un estado no es una salida; las salidas son manifestaciones observables del estado.
+- Un estado no es un único mNode; es una configuración que incluye varios mNodes y relaciones.
+- El contenido del stage (y el método retórico/técnico usado) modifica el estado de forma diferente
+  aun si el stage nominal es el mismo (ejemplo de dos frases para capturar atención).
+
+Lista_de_ambigüedades (a resolver en D1):
+- ¿El estado es “vector de variables” o “grafo ponderado” o ambos?
+- ¿Qué parte del estado pertenece a “mNodes” y qué parte a “variables globales”
+  (atención, emoción, intención, objeciones, etc.)?
+- ¿Cómo se diferencia “ponderación” (dirección) de “conexiones/flujo” (transición)?
+- ¿Cómo expresar la jerarquía: estados → micro-salidas → salidas, sin colapsarlas?
+
+================================================================================
+/REFINE APPLY
+(Integración inmediata para producir D1, dado que el objetivo del ejemplo es
+“crear la definición que hace falta” usando la discusión ya fijada.)
+
+================================================================================
+ESTADO DEL PROCESO
+- Versión vigente: D1
+- Stage actual: Stage 4 — Integración (Patch) + Stage 5 — Verificación (Quality Gates)
+- Pendientes (breve):
+  1) Confirmar si “estado” se define a nivel individual (receptor) o también a nivel de sistema social.
+  2) Definir una lista mínima de “tipos de pesos” (saliencia, valencia, urgencia) o dejarlo abierto.
+  3) Preparar ejemplos formales para AIDA y para “estructura aristotélica” bajo el mismo lenguaje.
+
+================================================================================
+DEFINICIÓN_NUEVA (D1) — “Estado cognitivo”
+(Documento autónomo, estilo técnico, sin formato cNode)
+
+1. Propósito de la definición
+Esta definición busca fijar qué significa “estado cognitivo” dentro de una teoría
+que interpreta la cognición como un sistema que opera mediante estructuras internas
+(mNodes) y que puede describirse como un pipeline (entrada → transformaciones internas
+→ salidas observables). El objetivo no es formalizar matemáticamente, sino construir
+una definición operable que permita:
+- describir qué cambia en el receptor a través de un pipeline,
+- explicar por qué el “contenido” de cada stage altera el resultado,
+- justificar el uso de una representación tipo grafo ponderado como indicador de dirección.
+
+2. Definición (enunciado central)
+Un estado cognitivo es la configuración interna vigente de un receptor/agente en un
+instante o intervalo de procesamiento, definida por:
+(a) qué estructuras cognitivas (mNodes) están activas,
+(b) cómo se relacionan entre sí (conexiones),
+(c) con qué intensidad/orientación dominan el procesamiento (ponderaciones),
+de modo que esa configuración determina la dirección del pensamiento/atención y
+predispone transiciones hacia estados posteriores y hacia salidas observables.
+
+3. Componentes del estado cognitivo (partes)
+La definición propone separar el estado en dos capas coordinadas (sin colapsarlas):
+
+3.1 Capa estructural (mNodes + relaciones)
+- Conjunto activo de mNodes:
+  Ideas, planes, métodos, diseños, patrones de razonamiento, rutinas, etc.
+  Importante: un mNode puede existir antes de la entrada; la entrada puede activarlo,
+  modificarlo (transmutarlo) o inhibirlo.
+- Relaciones entre mNodes:
+  Enlaces de asociación, causalidad interpretada, analogía, conflicto, soporte,
+  secuenciación, dependencia, objeción-respuesta, etc.
+  Estas relaciones son lo que hace que el estado sea más que una “lista de variables”.
+
+3.2 Capa dinámica (variables internas globales)
+Variables internas típicas que describen la dinámica del receptor durante el avance:
+- Atención: foco, distractibilidad, fatiga.
+- Carga cognitiva: facilidad/dificultad de procesar.
+- Relevancia percibida: “esto es para mí”.
+- Comprensión: qué se ofrece y por qué importa.
+- Confianza: credibilidad del emisor, seguridad percibida.
+- Emoción dominante: curiosidad, esperanza, miedo, aspiración, etc.
+- Intención: predisposición a ejecutar una acción objetivo.
+- Objeciones activas: precio, riesgo, duda, alternativas.
+
+Estas variables no sustituyen a los mNodes: describen cómo “se siente” y cómo se
+orienta el procesamiento global mientras los mNodes se activan y se transforman.
+
+4. Representación sugerida: grafo ponderado (sin formalismo estricto)
+4.1 Por qué un grafo
+La discusión muestra que no basta con enumerar etapas (AIDA u otras), porque:
+- dos mensajes distintos pueden ocupar el mismo stage (por ejemplo, “captar atención”)
+  y aun así producir estados internos diferentes,
+- la diferencia ocurre en las conexiones que se activan y en qué subestructuras ganan peso.
+
+Un grafo (aunque sea descrito de forma cualitativa) permite expresar:
+- qué elementos internos existen (nodos: mNodes o submNodes),
+- cómo se conectan (aristas),
+- qué domina el estado (ponderaciones).
+
+4.2 Qué significa “ponderación” aquí
+La ponderación es un indicador de orientación o dirección del estado cognitivo.
+No es una exigencia matemática; es una noción operativa:
+- “más peso” = más saliencia / dominancia / capacidad de arrastre sobre lo que sigue.
+- “dirección” = hacia qué tipo de salida se está empujando el sistema.
+
+Ejemplo de dirección en AIDA:
+- si el subgrafo asociado a “ejecutar acción” (comprar, registrarse, suscribirse)
+  es el de mayor peso, el estado está orientado a acción.
+- si el subgrafo dominante es “curiosidad sin cierre” o “objeción activa”, la dirección
+  se desvía: se puede obtener micro-salida (guardar para después) en lugar de acción.
+
+5. Cómo se crea un estado cognitivo (origen)
+Un estado cognitivo existe como configuración previa (estado inicial) y se actualiza
+por perturbaciones/entradas. El origen práctico puede describirse así:
+
+5.1 Estado inicial (S0)
+Antes de cualquier entrada relevante:
+- ya hay mNodes presentes (memoria, hábitos, metas, narrativas personales),
+- ya hay ponderaciones (preferencias, sesgos de atención, emociones latentes),
+- ya hay conexiones estabilizadas (aprendizajes previos).
+
+5.2 Entrada como perturbación (I)
+Una entrada puede ser:
+- estímulo sensorial, texto, historia, anuncio, discurso político,
+- evento interno (recuerdo, asociación espontánea, preocupación),
+- cambio de contexto (cansancio, urgencia, presión social).
+
+La entrada no “se convierte automáticamente en un mNode”.
+La entrada:
+- activa algunos mNodes,
+- crea o refuerza conexiones,
+- provoca transmutaciones (modifica mNodes existentes o produce variantes),
+- cambia ponderaciones.
+
+6. Cómo cambia el estado: transmutaciones por contenido de stage
+La idea central de los comentarios queda integrada así:
+
+6.1 Stage como “operador de cambio”
+Cada stage en un pipeline (AIDA, narrativa, guion de video, etc.) puede entenderse
+como un bloque funcional cuyo contenido intenta producir un efecto. Ese efecto se
+implementa mediante técnicas (retóricas, informativas, emocionales, estructurales).
+
+6.2 El contenido específico importa (no solo el nombre del stage)
+Ejemplo (captura de atención):
+- Mensaje A: “Nadie le creía, hasta que todos vieron el resultado…”
+- Mensaje B: “Cuando un sueño se hace realidad, el soñador despierta.”
+
+Ambos pueden pertenecer al “slot” de apertura de superación personal, pero:
+- activan mNodes distintos (escepticismo social vs. poesía/aspiración),
+- abren conexiones distintas (conflicto social → validación vs. interioridad → despertar),
+- generan ponderaciones distintas (tensión/curiosidad vs. emoción contemplativa).
+
+Por lo tanto:
+- el stage no determina por sí solo el estado;
+- el contenido del stage define qué transmutaciones ocurren.
+
+7. Conexiones (edges / flujo) como control de transición
+La discusión también sugiere que no solo importan las etapas, sino “cómo se pasa” entre ellas.
+Esto se formula así:
+
+- El pipeline externo describe la secuencia de stages.
+- El estado cognitivo describe la configuración interna en cada momento.
+- Las conexiones/flujo describen el mecanismo de transición: qué activaciones y refuerzos
+  convierten un estado Si en el siguiente estado Si+1.
+
+En otras palabras:
+- Stages = macro-estructura del proceso.
+- Estado = micro-configuración interna que se mueve dentro de esa macro-estructura.
+- Conexiones = la ingeniería del paso: qué se refuerza, qué se inhibe, qué se reencuadra.
+
+8. Salidas como manifestaciones particulares (y su relación con estado)
+La observación “salidas = casos particulares de estados” se integra con una distinción:
+
+8.1 Dos niveles de salida
+- Salida interna (cambio de estado): el pipeline siempre produce una modificación interna,
+  incluso si no hay acción externa.
+- Salida externa (manifestación observable): conducta o signo (compra, registro, voto,
+  comentario, like, guardar, pedir información).
+
+8.2 Por qué la salida externa es “descendiente” del estado
+Una acción observable es la cristalización de una configuración:
+- el estado contiene predisposiciones (intención, confianza, emoción),
+- contiene mNodes activados (razones, objeciones, narrativas),
+- contiene ponderaciones (qué subgrafo domina),
+y esa combinación hace probable una acción u otra.
+
+Por eso, resulta correcto decir:
+- “compra, registro, suscripción, recuerdo de marca” son manifestaciones particulares,
+pero no sustituye la distinción: no toda manifestación agota el estado, y el estado puede
+cambiar sin producir manifestación externa inmediata.
+
+9. Analogía recomendada (para integrar stages + micro-dinámica)
+Una analogía útil, sin matematizar, es la de “tablero de control con red interna”:
+
+- Los stages (AIDA) son como estaciones de una línea de ensamblaje: definen el orden macro.
+- El estado es el “panel interno” del sistema: múltiples indicadores y módulos trabajando.
+- Las conexiones son el cableado y las rutas internas: determinan qué módulo influye en cuál.
+- Las ponderaciones son los niveles de potencia/asignación: qué módulo domina en cada momento.
+
+Esta analogía preserva lo esencial:
+- la misma estación puede producir estados diferentes según cómo se opere,
+- el paso entre estaciones depende de la ingeniería de transición,
+- la salida final depende de qué módulo/subred terminó dominando.
+
+10. Frontera conceptual (qué incluye y qué excluye)
+Incluye:
+- activaciones/transmutaciones de mNodes,
+- variables internas globales relevantes,
+- conexiones internas y su fuerza cualitativa,
+- orientación/dirección por dominancia ponderada,
+- predisposición a transiciones y salidas.
+
+Excluye (para evitar colapso):
+- identificar estado con “la etapa” del pipeline,
+- identificar estado con “una única salida”,
+- identificar estado con “un solo mNode recién creado por la entrada”.
+
+11. Uso mínimo (operabilidad inmediata)
+Con esta definición, un pipeline cognitivo puede describirse así:
+- Se parte de un estado S0.
+- Cada stage aplica contenido que produce transmutaciones y reponderaciones del grafo interno,
+  generando una secuencia S0 → S1 → S2 → ... → Sn.
+- La salida externa es una manifestación probable del estado final (o de estados intermedios),
+  y también existen micro-salidas que alimentan ciclos futuros.
+
+================================================================================
+DIFF_CONCEPTUAL (D0 → D1)
+- Se separa explícitamente: stages (macro) vs. estado (micro) vs. conexiones (transición).
+- Se integra el punto clave: estado como grafo ponderado que indica dirección/orientación.
+- Se aclara la relación “salidas”:
+  salidas externas como manifestaciones particulares; cambios de estado como salida interna.
+- Se evita el colapso: entrada ≠ mNode inmediato; entrada causa activación/transmutación.
+
+================================================================================
+STAGE 5 — VERIFICACIÓN (Quality Gates)
+- Coherencia interna: Aprobado (no contradice mNode/pipeline; separa niveles).
+- Frontera conceptual: Aprobado (incluye/excluye explícitamente).
+- Operabilidad: Aprobado (sirve para describir AIDA como secuencia de estados).
+- Variación permitida: Aprobado (pesos y tipos de relación pueden variar por modelo).
+
+================================================================================
+STAGE 6 — REGISTRO (Observabilidad)
+- Idea cruda (integrada): “estados cognitivos como grafo ponderado cuya ponderación
+  indica dirección; en AIDA se busca que el nodo/subgrafo de acción tenga mayor peso.”
+- Idea tipada:
+  (1) Enunciado: Estado = configuración interna representable como grafo ponderado.
+  (2) Qué pretende cambiar: evitar tratar stages y salidas como si fueran el estado.
+  (3) Por qué: el contenido del stage cambia conexiones y pesos; explica diferencias.
+  (4) Ejemplo: dos aperturas distintas generan estados distintos.
+  (5) Riesgo: colapsar conceptos o exigir formalismo; mitigado con definición operativa.
+- Dictamen: INTEGRAR_SIN_PREREQUISITOS
+- Cambios aplicados: ver Diff_Conceptual
+- Preguntas abiertas:
+  1) ¿Se modelan tipos de ponderación (saliencia/valencia/urgencia) o se deja abierto?
+  2) ¿Se define un “umbral” para acción o se mantiene cualitativo?
+  3) ¿Cómo se documenta el “mecanismo de transición” como parte estándar de un pipeline?
+
+(LOCKED MODE activo: el proceso continúa hasta que exista /REFINE END.)

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+    "type": "has_value",
+    "rationale": "jerarquia_por_tamano es un valor nuevo incorporado en jerarquia_grafica para la realización imagen."
+  }
+}

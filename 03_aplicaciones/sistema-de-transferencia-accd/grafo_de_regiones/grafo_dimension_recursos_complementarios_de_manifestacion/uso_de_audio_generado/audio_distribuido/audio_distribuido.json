@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido",
+    "label": "audio_distribuido",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido",
+    "summary": "Valor audio_distribuido declarado para el campo uso_de_audio_generado.",
+    "metadata": {
+      "value_of": "uso_de_audio_generado",
+      "source_section": "12.4"
+    }
+  }
+}

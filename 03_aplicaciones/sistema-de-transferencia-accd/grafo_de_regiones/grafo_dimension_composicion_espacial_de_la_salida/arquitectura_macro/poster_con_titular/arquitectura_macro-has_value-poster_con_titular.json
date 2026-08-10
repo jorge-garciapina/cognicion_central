@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-poster_con_titular-poster_con_titular",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-poster_con_titular-poster_con_titular",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-poster_con_titular-poster_con_titular",
+    "type": "has_value",
+    "rationale": "poster_con_titular es un valor nuevo incorporado en arquitectura_macro para la realización imagen."
+  }
+}

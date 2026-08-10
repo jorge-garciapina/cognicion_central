@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-marca-marca",
+  "content": "**Definición.** Entrada basada en reconocimiento de identidad: logotipo, nombre, color corporativo, sello, sistema gráfico o rasgo visual asociado a una entidad. La lectura comienza porque el receptor identifica quién emite o respalda la pieza.\n\n**Diferenciación semántica.** Se diferencia de `producto` porque la marca opera como identidad, no como objeto ofrecido. Se diferencia de `color_dominante` porque el color sólo cuenta como marca si remite a una identidad reconocible.\n\n**Interpretación mínima.** La IA debe entender que el elemento de marca debe ser suficientemente reconocible para organizar la primera lectura."
+}

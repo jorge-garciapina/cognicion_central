@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro",
+    "type": "has_internal_field",
+    "rationale": "efecto_sonoro es un campo interno declarado dentro de acompanamiento_auditivo."
+  }
+}

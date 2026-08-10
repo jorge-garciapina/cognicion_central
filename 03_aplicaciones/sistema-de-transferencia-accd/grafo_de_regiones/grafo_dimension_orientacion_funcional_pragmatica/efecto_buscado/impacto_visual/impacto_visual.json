@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-impacto_visual-impacto_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-impacto_visual-impacto_visual",
+    "label": "impacto_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-impacto_visual-impacto_visual",
+    "summary": "**Definición.** Valor que designa un efecto perceptivo de alta presencia inicial. La pieza debe producir una impresión visual suficientemente fuerte como para interrumpir la indiferencia, destacar entre estímulos vecinos o fijarse rápidamente en la atención del receptor.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

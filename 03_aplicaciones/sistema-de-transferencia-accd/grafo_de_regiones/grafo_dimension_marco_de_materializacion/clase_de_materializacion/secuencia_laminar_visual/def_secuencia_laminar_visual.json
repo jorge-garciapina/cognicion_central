@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+  "content": "Valor que fija la materialidad propia de `carousel/`: una salida compuesta por láminas visuales organizadas en secuencia.\n\nNo equivale a video, hilo o documento largo. Su unidad compositiva dominante es la lámina.\n\nEjemplo de uso:\n\n```txt\nclase_de_materializacion: secuencia_laminar_visual\n```\n\nSirve para declarar que el protocolo debe producir una pieza laminar visual-textual, no un guion audiovisual ni un texto corrido.\n\n---"
+}

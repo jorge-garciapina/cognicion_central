@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+    "label": "jerarquia_por_iluminacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+    "summary": "**Definición.** Jerarquía que usa luz, brillo, sombra o foco luminoso para dirigir atención. Funciona especialmente en escenas, renders, fotografía o composiciones con profundidad.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global"
+    }
+  }
+}

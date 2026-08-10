@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_posicion-jerarquia_por_posicion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_posicion-jerarquia_por_posicion",
+    "label": "jerarquia_por_posicion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_posicion-jerarquia_por_posicion",
+    "summary": "**Definición.** Jerarquía determinada por ubicación estratégica: centro, parte superior, inicio cultural de lectura, esquina dominante o zona terminal. La posición comunica prioridad.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global"
+    }
+  }
+}

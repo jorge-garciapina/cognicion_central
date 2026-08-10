@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+    "type": "has_value",
+    "rationale": "tablero_visual es un valor nuevo incorporado en configuracion_narrativa para la realización imagen."
+  }
+}

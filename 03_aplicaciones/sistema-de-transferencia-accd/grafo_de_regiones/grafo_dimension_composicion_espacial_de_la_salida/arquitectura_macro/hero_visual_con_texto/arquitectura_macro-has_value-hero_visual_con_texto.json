@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-hero_visual_con_texto-hero_visual_con_texto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-hero_visual_con_texto-hero_visual_con_texto",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-hero_visual_con_texto-hero_visual_con_texto",
+    "type": "has_value",
+    "rationale": "hero_visual_con_texto es un valor nuevo incorporado en arquitectura_macro para la realización imagen."
+  }
+}

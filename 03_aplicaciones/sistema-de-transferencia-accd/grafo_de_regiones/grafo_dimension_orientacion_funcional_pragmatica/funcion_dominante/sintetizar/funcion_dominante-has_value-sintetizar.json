@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar",
+    "type": "has_value",
+    "rationale": "sintetizar es un valor declarado para el campo funcion_dominante."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion",
+    "type": "has_value",
+    "rationale": "identificacion es un valor declarado para el campo efecto_buscado."
+  }
+}

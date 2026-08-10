@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-denso-denso",
+  "content": "**Definición.** Régimen de alta carga visual o informativa donde múltiples elementos conviven en el lienzo. La densidad puede ser válida si existe organización, jerarquía y agrupación suficientes para evitar confusión.\n\n**Diferenciación semántica.** Se diferencia de `saturado_intencional` porque no necesariamente busca exceso expresivo; puede ser densidad funcional. Se diferencia de `infografico_denso` porque no siempre está organizado como información diagramática o datos.\n\n**Interpretación mínima.** La IA debe entender que habrá mucha información o presencia visual, pero debe conservar estructura legible."
+}

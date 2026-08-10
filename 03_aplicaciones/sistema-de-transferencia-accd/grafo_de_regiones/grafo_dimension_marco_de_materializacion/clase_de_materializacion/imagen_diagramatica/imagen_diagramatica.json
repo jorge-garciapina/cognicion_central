@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+    "label": "imagen_diagramatica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+    "summary": "**Definición.** Clase material donde la organización visual adopta forma de diagrama, mapa, flujo, matriz, eje, esquema o sistema de relaciones. El valor se usa cuando la estructura gráfica es tan importante como los elementos representados.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion"
+    }
+  }
+}

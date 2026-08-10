@@ -1,0 +1,314 @@
+TRANSCRIPCIÓN — “REPRESENTACIÓN MÍNIMA” (02/febrero/2026)
+(Portabilidad / cNode / superficie de integración / subgrafos / pesos)
+
+Nota de transcripción:
+- Se respetó el contenido y el orden general de las páginas.
+- Cuando una palabra no se distingue con certeza, se marca como [ilegible].
+- Los grafos dibujados se representan como estructuras tipo “objeto-array” (nodos + aristas), siguiendo el enfoque anterior.
+- En los dibujos donde los nodos no tienen etiqueta explícita, se numeran solo para poder fijar una configuración.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 1
+──────────────────────────────────────────────────────────────────────────────
+
+[Representación mínima] 02/febrero/2026
+
+La idea del proyecto es que cada cosa que se añada tenga identidad propia y permita portabilidad. La esencia del cNode era:
+
+“self-contained, repeatable integrable ontology package that captures a cognitive structure by projection, so it can be shared across contexts without hidden personal assumptions”
+
+Este concepto es la forma de hacer crecer el grafo, así que se debe entender en profundidad.
+
+Según el enfoque utilizado todo lo que pertenezca a la teoría tendrá forma de grafo. Esto implica que no hay conceptos sueltos, todo forma parte del grafo.
+
+Diagrama 1
+Representación visual del grafo
+
+¿Qué pasa si se quiere utilizar uno de esos nodos por “separado”?
+(es decir, ¿cómo implementar la portabilidad?)
+
+Cada nodo debería tener información mínima sobre sus conexiones con sus pares más cercanos, así como el tipo de las aristas que lo conectan con su entorno inmediato, algo que se parece a lo que en las definiciones de cNode se denomina “superficie de integración”, por ejemplo:
+
+Diagrama 2
+En este diagrama se muestra que el nodo “C” tiene o usa cosas (representados por colores) de los nodos “A” y “B”, “C” tiene su propia esencia, pero esta esencia usa las esencias de otros nodos como base.
+
+Analogía:
+Esto se parece al modelo de la célula y el ADN: aunque la célula está especializada recibe “información” del ADN por una superficie de integración.
+
+[GRAFOS — PÁGINA 1]
+GRAFOS = [
+  {
+    nombre: "p1_diagrama_1_grafo_general",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 }
+    ]
+  },
+
+  {
+    nombre: "p1_diagrama_2_superficie_integracion_ABC",
+    nodos: [
+      { identificador: "A", dentro_linea_roja: false },
+      { identificador: "B", dentro_linea_roja: false },
+      { identificador: "C", dentro_linea_roja: false }
+    ],
+    aristas: [
+      { origen: "A", destino: "C" },
+      { origen: "B", destino: "C" }
+    ]
+  }
+]
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 2
+──────────────────────────────────────────────────────────────────────────────
+
+Aquí me surgen algunas ideas:
+
+* I1: un cNode, en combinación con el concepto de artefacto, dan como resultado algo interesante:
+
+Supongamos que este es el grafo base.
+
+[Diagrama 1]
+
+Si añado un nuevo nodo, con una ontología “débil” (o nula), se tiene que:
+
+[Diagrama 2]
+
+El nuevo nodo podría ser una definición con una [superficie de integración] simple, por ejemplo, una sección en la que se enuncie cómo se usan los nodos a los que está conectado (conceptualmente)
+
+En el pasado (por ejemplo, cuando separé “criterios de pertenencia” de la definición de “familia cognitiva”) he refinado definiciones, lo cual permite dividir una “definición” (una ontología débil) en nodos, es decir, crear una ontología fuerte, el diagrama anterior se representaría como (una vez que se pasa de una simple definición a una ontología):
+
+[Diagrama 3]
+
+En esta nueva versión ya no se cuenta con una “definición” (ontología débil), ya se cuenta con un grupo de nodos, cada uno con una identidad particular
+
+Lo que está dentro de la línea roja es el mismo concepto que se encontraba definido en un solo nodo (la “definición”), es decir, esa combinación genera una identidad.
+Aquí es donde entra la importancia de los artefactos, éstos permiten agrupar nodos, es decir, crear fotografías cognitivas (aunque sería mejor: “fotografías estructurales”, puesto [ilegible/continúa])
+
+[GRAFOS — PÁGINA 2]
+GRAFOS = [
+  {
+    nombre: "p2_diagrama_1_grafo_base",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 }
+    ]
+  },
+
+  {
+    nombre: "p2_diagrama_2_nuevo_nodo_con_definicion_debil",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false },
+      { identificador: "NUEVO", dentro_linea_roja: false }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: "NUEVO", destino: 3 },
+      { origen: "NUEVO", destino: 6 }
+    ]
+  },
+
+  {
+    nombre: "p2_diagrama_3_refinamiento_a_ontologia_fuerte_subgrafo",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false },
+
+      { identificador: 8, dentro_linea_roja: true },
+      { identificador: 9, dentro_linea_roja: true },
+      { identificador: 10, dentro_linea_roja: true },
+      { identificador: 11, dentro_linea_roja: true },
+      { identificador: 12, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 6, destino: 8 },
+
+      { origen: 8, destino: 9 },
+      { origen: 9, destino: 10 },
+      { origen: 10, destino: 11 },
+      { origen: 11, destino: 12 },
+      { origen: 9, destino: 12 }
+    ]
+  }
+]
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 3
+──────────────────────────────────────────────────────────────────────────────
+
+Vale lo mismo para un dominio ajeno a la cognición). Lo que se crean son “subgrafos”, aunque dicha categoría (“sub”) sea “sintético”
+puesto que como se ve del diagrama anterior, la única diferencia entre los elementos del grafo y los elementos del subgrafo [ilegible] dentro
+de la línea roja es una elección particular.
+
+Por otro lado, si se usa el concepto de cNode a lo que ya se dijo, podríamos tener algo parecido a:
+
+[Diagrama 4] (S1)
+[Diagrama 5] (S2)
+
+En estos dos ejemplos se muestran dos escenarios distintos, en cada caso la preponderancia que se le da a cada componente es distinta,
+causando que aunque se tengan los mismos elementos el resultado final pueda diferir. El ejemplo de los text-scores es la mejor muestra de lo
+que pasa al asignar pesos distintos.
+
+Nota:
+El peso se relaciona con lo que en ACF se denomina como “atención”.
+
+De los diagramas 4 y 5 tenemos dos subgrafos S1 y S2, éstos requieren:
+
+  1) Objetivo primario
+  2) Superficie de integración: cómo se conecta con otros nodos del grafo (de vecindad inmediata)
+  3) Ontología interna: relaciones de los nodos miembros (pesos, aristas, etc.)
+
+Esto es un cNode, es decir: una parte del grafo con un fin en particular. Este es el principio de funcionamiento de los cApps,
+aunque cApps se especializan en ejecutar una tarea, mientras que cNodes no está limitado a tareas, puede ser: crear entornos de entendimiento
+(por ejemplo, la ontología de interpretación), “entornos de explicación”, y [continúa]
+
+[GRAFOS — PÁGINA 3]
+GRAFOS = [
+  {
+    nombre: "p3_diagrama_4_subgrafo_S1",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false },
+
+      { identificador: 8, dentro_linea_roja: true },
+      { identificador: 9, dentro_linea_roja: true },
+      { identificador: 10, dentro_linea_roja: true },
+      { identificador: 11, dentro_linea_roja: true },
+      { identificador: 12, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 6, destino: 8 },
+
+      { origen: 8, destino: 9 },
+      { origen: 9, destino: 10 },
+      { origen: 10, destino: 11 },
+      { origen: 11, destino: 12 },
+      { origen: 9, destino: 12 }
+    ],
+    enfasis_aristas: [
+      { origen: 6, destino: 8 },
+      { origen: 8, destino: 9 },
+      { origen: 9, destino: 10 }
+    ]
+  },
+
+  {
+    nombre: "p3_diagrama_5_subgrafo_S2",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false },
+
+      { identificador: 8, dentro_linea_roja: true },
+      { identificador: 9, dentro_linea_roja: true },
+      { identificador: 10, dentro_linea_roja: true },
+      { identificador: 11, dentro_linea_roja: true },
+      { identificador: 12, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 3, destino: 5 },
+      { origen: 4, destino: 5 },
+      { origen: 5, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 6, destino: 8 },
+
+      { origen: 8, destino: 9 },
+      { origen: 9, destino: 10 },
+      { origen: 10, destino: 11 },
+      { origen: 11, destino: 12 },
+      { origen: 9, destino: 12 }
+    ],
+    enfasis_aristas: [
+      { origen: 6, destino: 8 },
+      { origen: 10, destino: 11 },
+      { origen: 11, destino: 12 }
+    ]
+  }
+]
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 4
+──────────────────────────────────────────────────────────────────────────────
+
+“Otras estructuras cognitivas que me gustaría estudiar en mayor detalle.
+
+- La estructura de cNode permite portabilidad.
+- Permite tener la capacidad de usar los elementos del grafo en formas diversas: reciclar estructuras, expandir resolución, etc.
+
+(En el margen derecho aparecen dos bocetos de grafos muy tenues; no contienen etiquetas adicionales legibles en esta imagen.)

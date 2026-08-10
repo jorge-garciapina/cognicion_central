@@ -1,0 +1,2 @@
+DIRECCIÓN DEL CHAT DE DISCUSIÓN
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8/c/6a0bb795-4588-83e8-8cad-8ba1534354dd

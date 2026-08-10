@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-separacion-separacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-separacion-separacion",
+    "label": "separacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-separacion-separacion",
+    "summary": "**Definición.** Relación que marca distancia, ruptura, frontera o independencia entre ideas. Puede usar espacio vacío, líneas, bloques, contraste o aislamiento. No es ausencia de relación: comunica que los elementos no deben fusionarse semánticamente.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

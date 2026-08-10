@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_posicion-jerarquia_por_posicion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_posicion-jerarquia_por_posicion",
+    "label": "jerarquia_por_posicion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_posicion-jerarquia_por_posicion",
+    "summary": "**Definición.** Modo de jerarquía donde la ubicación dentro del campo visual asigna importancia. La parte superior, centro, esquinas, eje izquierdo o zona terminal pueden adquirir pesos distintos según la cultura de lectura y el formato.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica"
+    }
+  }
+}

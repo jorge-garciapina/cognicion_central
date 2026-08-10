@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal",
+    "label": "transversal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal",
+    "summary": "Valor transversal declarado para el campo modo_de_presencia.",
+    "metadata": {
+      "value_of": "modo_de_presencia"
+    }
+  }
+}

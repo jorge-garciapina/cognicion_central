@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+  "content": "Estructura obligatoria de cada idea activa dentro de construccion_conceptual. Cada idea_activa debe declarar formulacion_de_la_idea, rol_conceptual, peso_relativo, modo_de_presencia y relaciones_con_otras_ideas."
+}

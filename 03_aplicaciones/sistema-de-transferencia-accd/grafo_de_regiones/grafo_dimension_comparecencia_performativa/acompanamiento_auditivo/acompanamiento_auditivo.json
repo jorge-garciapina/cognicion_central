@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+    "label": "acompanamiento_auditivo",
+    "type": "compound_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+    "summary": "Tipos de acompañamiento auditivo que puede admitir la pieza.",
+    "section": "9.5",
+    "value_type": "Estructura compuesta",
+    "cardinality": "Una estructura opcionalmente activable"
+  }
+}

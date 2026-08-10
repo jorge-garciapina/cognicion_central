@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+    "label": "recapitulacion",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+    "summary": "Eje que indica el grado de recuperación, síntesis o reexpresión del recorrido.",
+    "section": "7.3.5",
+    "value_type": "Categorial ordinal",
+    "cardinality": "Eje obligatorio de dinamica_procesual"
+  }
+}

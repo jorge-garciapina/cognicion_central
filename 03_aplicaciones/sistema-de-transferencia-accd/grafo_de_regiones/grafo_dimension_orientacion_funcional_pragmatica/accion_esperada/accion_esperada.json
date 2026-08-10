@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "label": "accion_esperada",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "summary": "Campo que fija la acción concreta que la realización espera activar en el receptor.",
+    "metadata": {
+      "section": "4.3",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Uno o más valores",
+      "restrictions": [
+        "Debe ser coherente con la función dominante.",
+        "Las acciones esperadas deben ser plausibles dentro del codominio elegido."
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-titulo_principal-titulo_principal",
+  "content": "**Definición.** Entrada basada en una frase visible que encuadra el sentido de la pieza. El receptor empieza por lenguaje escrito dominante antes de interpretar imágenes, iconos o estructura.\n\n**Diferenciación semántica.** Se diferencia de `pregunta_visible` porque el título puede afirmar, prometer, clasificar o nombrar sin abrir una interrogante. Se diferencia de `figura_central` porque la entrada depende de lectura verbal, no de reconocimiento visual primario.\n\n**Interpretación mínima.** La IA debe entender que el titular debe tener suficiente jerarquía para ser leído antes que otros elementos."
+}

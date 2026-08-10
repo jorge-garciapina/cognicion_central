@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+    "label": "indicaciones_escenicas_concretas_por_bloque",
+    "type": "external_reference_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+    "summary": "Referencia externa mencionada por restricciones de este grafo.",
+    "externality": "mentioned_but_not_defined_as_field"
+  }
+}

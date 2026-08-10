@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion",
+    "label": "pieza_de_profundizacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion",
+    "summary": "Valor declarado para el campo alcance_de_realizacion: pieza_de_profundizacion.",
+    "source_field": "alcance_de_realizacion"
+  }
+}

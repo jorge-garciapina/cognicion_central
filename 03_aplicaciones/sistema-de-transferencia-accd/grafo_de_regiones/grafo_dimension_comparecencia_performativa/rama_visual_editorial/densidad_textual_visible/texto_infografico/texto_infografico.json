@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_infografico-texto_infografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_infografico-texto_infografico",
+    "label": "texto_infografico",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_infografico-texto_infografico",
+    "summary": "**Definición.** Régimen donde el texto se combina con números, iconos, etiquetas, bloques y relaciones visuales para explicar información. Lo verbal está subordinado a una arquitectura informativa, no a una narración corrida.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible"
+    }
+  }
+}

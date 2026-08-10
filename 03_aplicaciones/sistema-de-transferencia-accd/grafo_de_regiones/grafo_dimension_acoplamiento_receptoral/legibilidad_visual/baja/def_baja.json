@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-baja-baja",
+  "content": "**Definición.** Nivel en el que la pieza permite cierto esfuerzo de lectura visual, ya sea por densidad, complejidad, estilo experimental, baja separación entre elementos o intención de fricción. No significa ilegibilidad total; significa que el acceso visual no es inmediato.\n\n**Diferenciación semántica.** Se diferencia de una mala composición porque puede ser una elección expresiva o contextual. Se diferencia de `media` porque exige más atención para distinguir partes o interpretar relaciones.\n\n**Interpretación mínima.** La IA debe entender que la lectura visual puede requerir esfuerzo, pero no debe volverse imposible si el valor se usa de manera válida."
+}

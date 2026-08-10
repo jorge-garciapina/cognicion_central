@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-centro_a_periferia-centro_a_periferia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-centro_a_periferia-centro_a_periferia",
+    "label": "centro_a_periferia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-centro_a_periferia-centro_a_periferia",
+    "summary": "**Definición.** Recorrido en el que la atención nace en un núcleo central dominante y luego se expande hacia elementos secundarios situados alrededor. El centro funciona como fuente de sentido, y la periferia como soporte, contexto, detalle o consecuencia.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

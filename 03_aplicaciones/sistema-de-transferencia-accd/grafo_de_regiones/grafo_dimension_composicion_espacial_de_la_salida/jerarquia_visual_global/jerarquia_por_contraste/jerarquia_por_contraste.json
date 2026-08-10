@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_contraste-jerarquia_por_contraste",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_contraste-jerarquia_por_contraste",
+    "label": "jerarquia_por_contraste",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_contraste-jerarquia_por_contraste",
+    "summary": "**Definición.** Jerarquía basada en diferencias fuertes de valor, color, escala, forma o densidad. El elemento prioritario se impone por oposición perceptiva.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global"
+    }
+  }
+}

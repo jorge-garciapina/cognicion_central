@@ -1,0 +1,22 @@
+[TRANSCRIPCIÓN — SOBRE CONVERSOR DE CONTRATOS A GRAFOS]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos poco claros se marcaron notas como [dudoso] o [tachado].]
+
+[PÁGINA 1]
+
+[Sobre conversor de contratos a grafos:]    mar-09-dic-2025
+
+Es el mismo principio ya antes estudiado, consta de un [artefacto] de entrada, el contrato, y un [artefacto] de salida, el cual podría ser cualquiera de las cosas siguientes:
+   • [Una imagen] que contiene el grafo que representa el contrato.
+   • Un [proyecto de código] (por ejemplo, cytoscape.js) en el que se contendrá [dudoso] una descripción completa e integral del contrato
+   • Cualquier otra cosa que no estoy considerando en este momento.
+
+Es importante considerar que con esta aplicación es posible generar un “puente” entre dos [interfaces lingüísticas]: [contrato de seguro] / [código].
+Debo definir aún qué tipo de [proyecto de código] generar, o si es de utilidad (tal vez lo correcto sería decir: “en qué situaciones”).
+Por el momento creo que la mejor opción es generar una imagen, lo pienso así debido a que es mucho más simple, sin embargo, debo tener presente que el proyecto de código es una herramienta poderosa.
+
+Nota:
+El ejemplo presentado aquí es [comunicación estructural], el principio es el mismo en casi todos los casos:
+   - Recibir en la estructura lingüística de un sistema
+   - Procesar usando IA
+   - Emitir en otra estructura lingüística.
+Debo aprender a [traducir] otras estructuras.

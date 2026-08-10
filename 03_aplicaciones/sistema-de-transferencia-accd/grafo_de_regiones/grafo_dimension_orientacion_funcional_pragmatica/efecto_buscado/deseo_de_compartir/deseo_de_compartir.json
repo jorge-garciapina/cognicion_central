@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir",
+    "label": "deseo_de_compartir",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir",
+    "summary": "Valor deseo_de_compartir declarado para el campo efecto_buscado.",
+    "metadata": {
+      "value_of": "efecto_buscado",
+      "source_section": "4.2",
+      "suggested_value": true
+    }
+  }
+}

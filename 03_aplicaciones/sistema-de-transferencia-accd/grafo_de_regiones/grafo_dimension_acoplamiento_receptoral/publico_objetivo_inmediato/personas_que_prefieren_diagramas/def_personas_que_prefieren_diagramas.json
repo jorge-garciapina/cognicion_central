@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_prefieren_diagramas-personas_que_prefieren_diagramas",
+  "content": "**Definición.** Receptor que comprende mejor cuando las relaciones se muestran mediante estructuras visuales: nodos, flechas, ejes, mapas, sistemas, matrices, flujos o esquemas. Su preferencia se orienta a ver relaciones más que a leer explicaciones largas.\n\n**Diferenciación semántica.** Se diferencia de `personas_que_consumen_infografias` porque el énfasis no está en empaquetar información, sino en mostrar conexiones, dependencias o arquitectura conceptual. Se diferencia de un receptor técnico porque la preferencia por diagramas no implica necesariamente conocimiento especializado.\n\n**Interpretación mínima.** La IA debe entender que la pieza debe favorecer estructura relacional visible sobre exposición textual extensa.\n\n---"
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-circular-circular",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-circular-circular",
+    "label": "circular",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-circular-circular",
+    "summary": "**Definición.** Recorrido que organiza la mirada como ciclo cerrado o casi cerrado. La atención vuelve al punto de origen o recorre elementos dispuestos para sugerir repetición, proceso continuo, circuito, ciclo, retroalimentación o totalidad sin inicio terminal fuerte.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

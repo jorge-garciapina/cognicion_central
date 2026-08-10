@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "label": "dinamica_procesual",
+    "type": "compound_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "summary": "Experiencia de recorrido de la realización compuesta por cinco ejes obligatorios.",
+    "section": "7.3",
+    "value_type": "Compuesto",
+    "cardinality": "Un valor obligatorio compuesto por cinco ejes"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+    "label": "alta_social",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+    "summary": "**Definición.** Nivel de resolución suficiente para publicaciones sociales de buena calidad, especialmente en pantallas móviles y feeds de alta densidad visual. Permite texto legible, bordes limpios y detalles moderados sin llegar a exigencias de impresión profesional.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo"
+    }
+  }
+}

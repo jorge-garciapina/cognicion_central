@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica",
+    "label": "pieza_unica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica",
+    "summary": "Valor declarado para el campo alcance_de_realizacion: pieza_unica.",
+    "source_field": "alcance_de_realizacion"
+  }
+}

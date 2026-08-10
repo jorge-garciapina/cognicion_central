@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-atemporal-atemporal",
+  "content": "**Definición.** Valor que indica que la pieza no depende de una fecha, evento, temporada, tendencia o coyuntura específica para conservar sentido. Su contenido y forma deben poder seguir siendo comprensibles fuera del momento inmediato de publicación.\n\n**Diferenciación semántica.** Se diferencia de `largo_plazo` porque no sólo extiende duración de vigencia; reduce dependencia contextual. Una pieza puede durar mucho por estrategia de campaña, pero `atemporal` indica que su significado no está anclado a un tiempo concreto.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe evitar referencias demasiado coyunturales, modas visuales efímeras o textos que caduquen rápidamente, salvo que estén subordinados a una estructura más permanente.\n\n---"
+}

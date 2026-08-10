@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible",
+    "label": "grado_de_dependencia_de_la_performance_visible",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible",
+    "summary": "Medida en que la eficacia de la pieza depende de la ejecución corporal o visible del emisor.",
+    "section": "9.10",
+    "value_type": "Categorial ordinal",
+    "cardinality": "Un valor obligatorio"
+  }
+}

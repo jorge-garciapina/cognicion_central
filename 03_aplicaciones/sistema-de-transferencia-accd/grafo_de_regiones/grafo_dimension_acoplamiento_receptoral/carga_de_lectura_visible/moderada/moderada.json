@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+    "label": "moderada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+    "summary": "**Definición.** Nivel en el que la pieza contiene una cantidad perceptible de texto, suficiente para guiar, explicar o etiquetar, pero sin convertirse en documento textual. Puede incluir título, subtítulo, algunas etiquetas, microbloques o anotaciones breves.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

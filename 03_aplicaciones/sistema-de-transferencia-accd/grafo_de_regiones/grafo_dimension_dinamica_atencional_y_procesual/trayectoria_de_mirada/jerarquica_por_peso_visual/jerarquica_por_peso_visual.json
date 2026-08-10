@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-jerarquica_por_peso_visual-jerarquica_por_peso_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-jerarquica_por_peso_visual-jerarquica_por_peso_visual",
+    "label": "jerarquica_por_peso_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-jerarquica_por_peso_visual-jerarquica_por_peso_visual",
+    "summary": "**Definición.** Recorrido en el que la mirada no sigue una dirección geométrica fija, sino la fuerza relativa de los elementos: tamaño, contraste, color, nitidez, aislamiento, luminosidad, posición o densidad. El orden perceptivo se determina por jerarquía de peso visual.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

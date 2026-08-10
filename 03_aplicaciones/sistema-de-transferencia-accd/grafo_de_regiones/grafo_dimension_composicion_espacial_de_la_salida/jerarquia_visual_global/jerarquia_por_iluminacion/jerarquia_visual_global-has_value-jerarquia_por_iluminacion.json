@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-jerarquia_por_iluminacion-jerarquia_por_iluminacion",
+    "type": "has_value",
+    "rationale": "jerarquia_por_iluminacion es un valor nuevo incorporado en jerarquia_visual_global para la realización imagen."
+  }
+}

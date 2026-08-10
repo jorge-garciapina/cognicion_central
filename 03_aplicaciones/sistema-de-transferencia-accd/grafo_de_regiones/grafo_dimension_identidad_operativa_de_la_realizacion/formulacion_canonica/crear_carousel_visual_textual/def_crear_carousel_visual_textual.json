@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_carousel_visual_textual-crear_carousel_visual_textual",
+  "content": "Valor más directo y legible para declarar que la realización esperada es un carousel compuesto por texto e imagen.\n\nPuede funcionar como formulación práctica cuando no se necesita usar el término más técnico `manifestacion_codominial_carousel`.\n\nEjemplo de uso:\n\n```txt\nformulacion_canonica: crear_carousel_visual_textual\n```\n\nSirve para configuraciones más accesibles, especialmente cuando el ensamblaje o protocolo necesita conservar una formulación clara para humanos.\n\n---"
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+    "label": "moderado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-moderado-moderado",
+    "summary": "**Definición.** Régimen de carga visual equilibrada: suficientes elementos para comunicar contenido, pero sin saturar la percepción. Permite combinar imagen, texto, iconos o zonas con control jerárquico.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

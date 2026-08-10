@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-horizontal-horizontal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-horizontal-horizontal",
+    "label": "horizontal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-horizontal-horizontal",
+    "summary": "**Definición.** Formato que favorece recorrido lateral, comparación, escena amplia o distribución de elementos en franja. Es útil para presentaciones, banners, miniaturas y composiciones panorámicas moderadas.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo"
+    }
+  }
+}

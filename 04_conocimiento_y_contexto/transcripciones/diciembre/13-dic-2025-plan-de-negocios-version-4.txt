@@ -1,0 +1,79 @@
+[TRANSCRIPCIÓN — PLAN DE NEGOCIOS: VERSIÓN 4]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos poco claros se marcaron notas como [dudoso] o [tachado]. Los diagramas se transcribieron también como grafos usando la convención acordada.]
+
+[PÁGINA 1]
+
+Plan de negocios: versión 4    sab-13-dic-2025
+El estudio del jue-11-dic-2025 se limitó a estudiar las ideas que aparecían en el resto de estudios. Lo que busco conseguir en el estudio de hoy es crear una versión más refinada del [sistema de creación de contenidos], en el cual se resuelvan muchas de las preguntas que tenía en los estudios previos, principalmente las relacionadas con la implementación.
+
+1) Sobre los nichos
+   Después de leer los estudios previos me doy cuenta que quizás lo más importante de esta aplicación es el concepto de nichos. El [sistema de creación de contenidos] debe ser agnóstico del nicho, es decir, debe funcionar igual sin importar qué nicho haya sido elegido. La relación que existe entre estos dos conceptos es: [muchos nichos] -> [un solo sistema de creación de contenidos ]
+   [DIAGRAMA: NICHOS Y PERFILES]
+   GRAFOS = [
+     {
+       nombre: "nichos_y_perfiles_de_influencer",
+       entidades: [],
+       nodos: [
+         { identificador: "nicho_1", entidades_contenedoras: [] },
+         { identificador: "nicho_2", entidades_contenedoras: [] },
+         { identificador: "nicho_n", entidades_contenedoras: [] },
+         { identificador: "sistema_de_creacion_de_contenidos", entidades_contenedoras: [] },
+         { identificador: "perfil_de_influencer_1", entidades_contenedoras: [] },
+         { identificador: "perfil_de_influencer_2", entidades_contenedoras: [] },
+         { identificador: "perfil_de_influencer_n", entidades_contenedoras: [] }
+       ],
+       aristas: [
+         { origen: "nicho_1", destino: "sistema_de_creacion_de_contenidos" },
+         { origen: "nicho_2", destino: "sistema_de_creacion_de_contenidos" },
+         { origen: "nicho_n", destino: "sistema_de_creacion_de_contenidos" },
+         { origen: "sistema_de_creacion_de_contenidos", destino: "perfil_de_influencer_1" },
+         { origen: "sistema_de_creacion_de_contenidos", destino: "perfil_de_influencer_2" },
+         { origen: "sistema_de_creacion_de_contenidos", destino: "perfil_de_influencer_n" }
+       ]
+     }
+   ]
+
+
+[PÁGINA 2]
+
+   Después de realizar el diagrama anterior me surgió la idea de [dudoso] que [nicho] y [perfil de influencer] no son lo mismo, ya que un [nicho] puede tener más de un [perfil de influencer] (y, de hecho, el [perfil] puede tener más de un [nicho]).
+   Para evitar confusiones es mejor definir ambas cosas.
+   Nicho:
+     - Cercano al concepto de “Buyer persona”.
+     - Grupo de personas específico, delimitado por características muy particulares.
+       • Misma edad [cognitiva]
+       • Mismo vocabulario
+       • Mismos intereses
+       • Mismos gustos.
+     (A pesar de no tener la capacidad técnica para describir al nicho correctamente, en términos de la teoría que me encuentro realizando puedo decir que un nicho es un grupo de personas que comparten un número particular de [puentes cognitivos], los mismos que las empresas buscan en sus clientes potenciales)
+   Perfil de influencer:
+     - [Puente cognitivo] entre los [nichos] y las empresas o [entidades interesadas en difundir un mensaje].
+     - Se puede considerar como un [adaptador] entre [el sistema] y el [mercado del dinero]
+     - Es multiplataforma, se extiende a través de todos los medios pertinentes.
+   Las definiciones anteriores me permiten ver que el trabajo actual se resume en puentes y adaptadores, quiero describir esto con un mayor detalle.
+
+
+[PÁGINA 3]
+
+2) Descripción de la idea
+   Este trabajo busca crear [plataformas de difusión] las cuales serán creadas a partir de [puentes cognitivos].
+   2.1) Puentes cognitivos
+     Los [puentes cognitivos] son [nodos cognitivos], es decir, proyecciones de ideas o conceptos compartidos entre el [sistema de creación de contenidos] y un grupo de personas.
+     Pueden ser cualquier cosa:
+       - Palabras (vocabulario)
+       - Memes
+       - Conceptos [tachado]
+       - chistes
+       - situaciones
+       - Identidad
+       - Nacionalidad
+       - Emociones
+       - Sentimientos.
+       - Inseguridades
+       - etc.
+     Lo importante no es qué forma adquiera cada [puente cognitivo], lo importante es que sea compartido entre un grupo de personas. Se llaman [puentes] porque crean un vínculo.
+     A manera de explicación es importante notar que los jóvenes comprenden su forma de hablar no porque sean jóvenes, sino porque ese es el lenguaje que manejan con sus pares.
+     Una canción de desamor se “siente” con mayor intensidad después de un rompimiento porque hay un vínculo emocional.
+     Podría continuar con estos ejemplos, pero la idea sería la misma:
+       “Un puente conecta una [predisposición cognitiva] (vocabulario, emociones, modos, etc.) con un sistema que proporcione contenido compatible con dicha [predisposición].”
+     Los [influencers] funcionan bajo el mismo principio, la única diferencia con el trabajo actual es que es un proceso automatizado.

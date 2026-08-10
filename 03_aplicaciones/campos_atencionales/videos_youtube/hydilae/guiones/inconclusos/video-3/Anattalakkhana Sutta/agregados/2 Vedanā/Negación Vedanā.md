@@ -1,0 +1,1 @@
+El sutta incluye también esto bajo anattā: incluso esa capa íntima del sentir cambia, aparece y desaparece, no permanece y por tanto tampoco puede ser el yo. No controlamos totalmente qué nos resulta agradable, desagradable o neutro, ni cuánto dura cada tonalidad.

@@ -1,0 +1,3740 @@
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                   PAQUETE CONCEPTUAL: COMUNICACIÓN ESTRUCTURAL
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69c1aa7b-9458-83e8-b60c-f2673ba45667
+---------------------------
+NODOS
+---------------------------
+{"address":"graph/node/Com-Est-Comunicacion-Estructural","content":{
+  "id":"Com-Est-Comunicacion-Estructural",
+  "label":"Comunicación Estructural",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Comunicacion-Estructural",
+  "summary":"Este nodo introduce la Comunicación Estructural como el proceso por el cual dos o más sistemas
+  intercambian no solo datos, sino arquitecturas operativas. Su función es convertir la transferencia estructural
+  en un fenómeno explícito del grafo: una operación en la que una estructura puede circular entre agentes, soportes
+  o dominios preservando identidad suficiente para seguir siendo reconocible y utilizable."
+}}
+
+{"address":"graph/node/Com-Est-Lenguaje-de-Estructuras","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras",
+  "label":"Lenguaje de Estructuras",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Lenguaje-de-Estructuras",
+  "summary":"Este nodo introduce el Lenguaje de Estructuras como el medio profundo que permite expresar una estructura
+  cognitiva por sus invariantes, dominio de variación, rol operativo, restricciones y criterios de validación, en lugar
+  de depender solo de palabras superficiales. Su función es volver portable, auditable e integrable la identidad de una
+  estructura para que pueda transferirse entre contextos sin colapsar en interpretación privada."
+}}
+
+{"address":"graph/node/Com-Est-Intermediacion-de-Estructuras","content":{
+  "id":"Com-Est-Intermediacion-de-Estructuras",
+  "label":"Intermediación de Estructuras",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Intermediacion-de-Estructuras",
+  "summary":"Este nodo introduce la Intermediación de Estructuras como el caso especializado en el que un agente, sistema
+  o mecanismo recibe una estructura en el lenguaje o interfaz de una estructura y la reemite en la de otra. Su función es
+  modelar el paso mediado entre expresiones heterogéneas preservando, en la medida de lo posible, el núcleo operativo de
+  la estructura transferida."
+}}
+
+{"address":"graph/node/Com-Est-Compatibilidad-Estructural","content":{
+  "id":"Com-Est-Compatibilidad-Estructural",
+  "label":"Compatibilidad Estructural",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Compatibilidad-Estructural",
+  "summary":"Este nodo introduce la Compatibilidad Estructural como la relación verificable que debe existir entre estructuras
+  para que la Comunicación Estructural pueda ocurrir de manera robusta. Su función es volver tratable, dentro del paquete, la
+  pregunta por la viabilidad de la transferencia: si dos estructuras pueden alinearse sin contradicción irresoluble respecto
+  a invariantes, restricciones, tipos y rol operativo."
+}}
+
+{"address":"graph/node/Com-Est-Superficie-de-Comunicacion","content":{
+  "id":"Com-Est-Superficie-de-Comunicacion",
+  "label":"Superficie de Comunicación",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Superficie-de-Comunicacion",
+  "summary":"Este nodo introduce la Superficie de Comunicación como la interfaz explícita y portable por la cual una
+  estructura entra o sale de un proceso de Comunicación Estructural. Su función es declarar cómo una estructura se 
+  presenta para ser transferida: qué ofrece, qué requiere, qué preserva, bajo qué restricciones opera y qué condiciones 
+  deben mantenerse para que la transferencia siga siendo estructural y no mera semejanza verbal."
+}}
+
+{"address":"graph/node/Com-Est-Adaptador-Estructural","content":{
+  "id":"Com-Est-Adaptador-Estructural",
+  "label":"Adaptador Estructural",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Adaptador-Estructural",
+  "summary":"Este nodo introduce el Adaptador Estructural como el mecanismo local que permite mapear tipos, relaciones, 
+  alias, vocabularios o formatos entre dos expresiones estructurales cuando existe desajuste entre ellas. Su función es 
+  realizar, de forma controlada, la reexpresión de una estructura sin alterar arbitrariamente sus invariantes centrales."
+}}
+
+{"address":"graph/node/Com-Est-Estructura-Fuente","content":{
+  "id":"Com-Est-Estructura-Fuente",
+  "label":"Estructura Fuente",
+  "type":"bridge_node",
+  "definition_ref":"def/Com-Est-Estructura-Fuente",
+  "summary":"Este nodo introduce la Estructura Fuente como la estructura original que se intenta comunicar, transferir o 
+  reexpresar dentro del paquete Com-Est. Su función es fijar el punto de partida de la transferencia estructural para que 
+  el análisis pueda preguntar qué identidad se preserva, qué parte se adapta y bajo qué condiciones la estructura sigue 
+  siendo la misma al circular entre sistemas."
+}}
+
+---------------------------
+ARISTAS
+---------------------------
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-CCCO-Cognicion-Como_Capacidad_Operativa","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-CCCO-Cognicion-Como_Capacidad_Operativa",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"CCCO-Cognicion-Como_Capacidad_Operativa",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras no puede formularse con identidad 
+  estable sin CCCO-Cognicion-Como_Capacidad_Operativa, porque el paquete presupone que la cognición consiste en operar 
+  sobre información. El Lenguaje de Estructuras no se introduce como teoría lingüística autónoma, sino como forma 
+  explícita de organizar y transferir estructuras cognitivas."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-CCMC-Cognicion-Como-Manifestacion-Condicionada","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-CCMC-Cognicion-Como-Manifestacion-Condicionada",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"CCMC-Cognicion-Como-Manifestacion-Condicionada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras depende de 
+  CCMC-Cognicion-Como-Manifestacion-Condicionada porque el problema de la transferencia estructural aparece precisamente 
+  cuando una misma estructura puede manifestarse de maneras distintas según condiciones externas. El Lenguaje de Estructuras 
+  se introduce para conservar identidad a través de esa variación."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-PTE-Principio-Transferibilidad-Estructural","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-PTE-Principio-Transferibilidad-Estructural",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"PTE-Principio-Transferibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras depende de 
+  PTE-Principio-Transferibilidad-Estructural porque el Lenguaje de Estructuras funciona como implementación expresiva del 
+  principio de transferibilidad: la identidad no puede quedar sostenida por palabras generales, sino por estructura explícita 
+  portable entre contextos."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-RO-Rol-Operativo","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-RO-Rol-Operativo",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"RO-Rol-Operativo",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras depende de RO-Rol-Operativo porque la 
+  transferencia estructural no se decide solo por tema o semejanza verbal, sino por lo que una estructura hace como forma. 
+  El rol operativo es parte de la identidad que el Lenguaje de Estructuras debe volver explícita y transferible."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-CP-Criterios-de-Pertenencia","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-CP-Criterios-de-Pertenencia",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"CP-Criterios-de-Pertenencia",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras depende de CP-Criterios-de-Pertenencia 
+  porque la transferencia estructural debe ser auditable: debe poder decidirse qué cuenta como preservación de identidad 
+  y qué cuenta como deriva, deformación o mera etiqueta. CP aporta esa lógica de decisión explícita."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-depends_on-PIU-Principio-de-Integrabilidad-Universal","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-depends_on-PIU-Principio-de-Integrabilidad-Universal",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"PIU-Principio-de-Integrabilidad-Universal",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Lenguaje-de-Estructuras depende de 
+  PIU-Principio-de-Integrabilidad-Universal porque una vez que la estructura se vuelve explícita y portable, el siguiente 
+  problema es su integración efectiva con otras estructuras. El Lenguaje de Estructuras prepara la expresabilidad de lo 
+  que PIU vuelve integrable mediante compatibilidad, alineación y adaptación."
+}}
+
+{"address":"graph/edge/Com-Est-Comunicacion-Estructural-depends_on-CCCO-Cognicion-Como_Capacidad_Operativa","content":{
+  "id":"Com-Est-Comunicacion-Estructural-depends_on-CCCO-Cognicion-Como_Capacidad_Operativa",
+  "from":"Com-Est-Comunicacion-Estructural",
+  "to":"CCCO-Cognicion-Como_Capacidad_Operativa",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Comunicacion-Estructural depende de 
+  CCCO-Cognicion-Como_Capacidad_Operativa porque la Comunicación Estructural no se refiere al simple tránsito de signos, 
+  sino al intercambio de forma cognitiva operativa entre sistemas. Sin CCCO, el fenómeno perdería su anclaje en la teoría 
+  general de la cognición."
+}}
+
+{"address":"graph/edge/Com-Est-Compatibilidad-Estructural-depends_on-PIU-Principio-de-Integrabilidad-Universal","content":{
+  "id":"Com-Est-Compatibilidad-Estructural-depends_on-PIU-Principio-de-Integrabilidad-Universal",
+  "from":"Com-Est-Compatibilidad-Estructural",
+  "to":"PIU-Principio-de-Integrabilidad-Universal",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Compatibilidad-Estructural depende de 
+  PIU-Principio-de-Integrabilidad-Universal porque la noción de compatibilidad que necesita este paquete no debe inventarse 
+  de manera paralela, sino heredarse del marco más general de integración explícita entre estructuras. PIU aporta la lógica 
+  para tratar compatibilidad como relación verificable y no como impresión subjetiva."
+}}
+
+{"address":"graph/edge/Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Lenguaje-de-Estructuras","content":{
+  "id":"Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Lenguaje-de-Estructuras",
+  "from":"Com-Est-Comunicacion-Estructural",
+  "to":"Com-Est-Lenguaje-de-Estructuras",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Comunicacion-Estructural no puede definirse con identidad estable 
+  sin Com-Est-Lenguaje-de-Estructuras, porque la Comunicación Estructural presupone una forma explícita de preservar y expresar 
+  identidad a través del cambio de soporte, interfaz o dominio. Sin ese medio profundo, la comunicación se degradaría a 
+  transmisión superficial de palabras o datos."
+}}
+
+{"address":"graph/edge/Com-Est-Intermediacion-de-Estructuras-specializes-Com-Est-Comunicacion-Estructural","content":{
+  "id":"Com-Est-Intermediacion-de-Estructuras-specializes-Com-Est-Comunicacion-Estructural",
+  "from":"Com-Est-Intermediacion-de-Estructuras",
+  "to":"Com-Est-Comunicacion-Estructural",
+  "type":"specializes",
+  "rationale":"La arista specializes establece que Com-Est-Intermediacion-de-Estructuras hace más preciso un subcaso de 
+  Com-Est-Comunicacion-Estructural: aquel en que la transferencia estructural no ocurre de modo directo, sino mediante un 
+  agente o mecanismo que recibe en una interfaz y reemite en otra. La intermediación no reemplaza la comunicación estructural 
+  general; la especializa."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-enables-Com-Est-Intermediacion-de-Estructuras","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-enables-Com-Est-Intermediacion-de-Estructuras",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"Com-Est-Intermediacion-de-Estructuras",
+  "type":"enables",
+  "rationale":"La arista enables establece que Com-Est-Lenguaje-de-Estructuras habilita Com-Est-Intermediacion-de-Estructuras 
+  porque solo puede haber reexpresión mediada entre estructuras heterogéneas si existe una forma de conservar explícitamente 
+  su núcleo operativo. El Lenguaje de Estructuras provee esa condición de portabilidad identitaria."
+}}
+
+{"address":"graph/edge/Com-Est-Lenguaje-de-Estructuras-enables-Com-Est-Comunicacion-Estructural","content":{
+  "id":"Com-Est-Lenguaje-de-Estructuras-enables-Com-Est-Comunicacion-Estructural",
+  "from":"Com-Est-Lenguaje-de-Estructuras",
+  "to":"Com-Est-Comunicacion-Estructural",
+  "type":"enables",
+  "rationale":"La arista enables establece que Com-Est-Lenguaje-de-Estructuras habilita Com-Est-Comunicacion-Estructural 
+  porque vuelve expresable y portable la identidad de una estructura, haciendo posible que esa identidad entre en circulación 
+  entre sistemas sin reducirse a coincidencia léxica o memoria autobiográfica."
+}}
+
+{"address":"graph/edge/Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Compatibilidad-Estructural","content":{
+  "id":"Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Compatibilidad-Estructural",
+  "from":"Com-Est-Comunicacion-Estructural",
+  "to":"Com-Est-Compatibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Comunicacion-Estructural requiere Com-Est-Compatibilidad-Estructural 
+  porque no toda transferencia pretendida entre estructuras es viable. La comunicación solo puede ser verdaderamente estructural 
+  cuando existe compatibilidad suficiente entre las formas involucradas respecto a invariantes, restricciones, tipos y rol 
+  operativo."
+}}
+
+{"address":"graph/edge/Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Superficie-de-Comunicacion","content":{
+  "id":"Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Superficie-de-Comunicacion",
+  "from":"Com-Est-Comunicacion-Estructural",
+  "to":"Com-Est-Superficie-de-Comunicacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Comunicacion-Estructural requiere Com-Est-Superficie-de-Comunicacion 
+  porque la transferencia estructural necesita una interfaz explícita por la cual una estructura pueda presentarse, circular y 
+  reconstruirse. Sin esa superficie, la comunicación carecería de punto portable de entrada y salida."
+}}
+
+{"address":"graph/edge/Com-Est-Adaptador-Estructural-implements-Com-Est-Intermediacion-de-Estructuras","content":{
+  "id":"Com-Est-Adaptador-Estructural-implements-Com-Est-Intermediacion-de-Estructuras",
+  "from":"Com-Est-Adaptador-Estructural",
+  "to":"Com-Est-Intermediacion-de-Estructuras",
+  "type":"implements",
+  "rationale":"La arista implements establece que Com-Est-Adaptador-Estructural actúa como implementación local de 
+  Com-Est-Intermediacion-de-Estructuras. La intermediación nombra el fenómeno general del puente entre estructuras; 
+  el adaptador nombra uno de los mecanismos concretos por los que dicho puente puede ejecutarse cuando hay desajuste 
+  de formatos, tipos o vocabularios."
+}}
+
+
+/****************************************************************
+{"address":"graph/edge/Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Estructura-Fuente","content":{
+  "id":"Com-Est-Comunicacion-Estructural-depends_on-Com-Est-Estructura-Fuente",
+  "from":"Com-Est-Comunicacion-Estructural",
+  "to":"Com-Est-Estructura-Fuente",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Comunicacion-Estructural no puede formularse plenamente sin 
+  Com-Est-Estructura-Fuente, porque la comunicación estructural requiere un punto de partida explícito: la estructura 
+  cuya identidad se intenta transferir, alinear o reexpresar entre sistemas."
+}}
+
+{"address":"graph/edge/Com-Est-Intermediacion-de-Estructuras-depends_on-Com-Est-Estructura-Fuente","content":{
+  "id":"Com-Est-Intermediacion-de-Estructuras-depends_on-Com-Est-Estructura-Fuente",
+  "from":"Com-Est-Intermediacion-de-Estructuras",
+  "to":"Com-Est-Estructura-Fuente",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Intermediacion-de-Estructuras depende de 
+  Com-Est-Estructura-Fuente porque todo puente estructural mediado tiene como referencia una estructura original que 
+  debe ser recibida, interpretada y reemitida en otra interfaz sin perder arbitrariamente su núcleo operativo."
+}}
+
+{"address":"graph/edge/Com-Est-Superficie-de-Comunicacion-refines-Arq-Cog-Superficie-de-Integración","content":{
+  "id":"Com-Est-Superficie-de-Comunicacion-refines-Arq-Cog-Superficie-de-Integración",
+  "from":"Com-Est-Superficie-de-Comunicacion",
+  "to":"Arq-Cog-Superficie-de-Integración",
+  "type":"refines",
+  "rationale":"La arista refines establece que Com-Est-Superficie-de-Comunicacion hace más precisa, para el dominio 
+  de la transferencia estructural, la idea general de Arq-Cog-Superficie-de-Integración. Mientras la superficie de 
+  integración nombra la interfaz portable de una entidad en un contexto mayor, la superficie de comunicación 
+  especializa esa lógica en el problema del ingreso, egreso y circulación de estructuras entre sistemas."
+}}
+
+{"address":"graph/edge/PTE-Principio-Transferibilidad-Estructural-provides_criteria_for-Com-Est-Superficie-de-Comunicacion","content":{
+  "id":"PTE-Principio-Transferibilidad-Estructural-provides_criteria_for-Com-Est-Superficie-de-Comunicacion",
+  "from":"PTE-Principio-Transferibilidad-Estructural",
+  "to":"Com-Est-Superficie-de-Comunicacion",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que PTE-Principio-Transferibilidad-Estructural provee los 
+  criterios que Com-Est-Superficie-de-Comunicacion debe satisfacer para ser realmente transferible. La superficie no 
+  puede quedar como interfaz informal o implícita; debe expresar de manera portable qué preserva, qué admite variar y 
+  bajo qué condiciones la estructura sigue siendo la misma al circular."
+}}
+
+{"address":"graph/edge/CP-Criterios-de-Pertenencia-provides_criteria_for-Com-Est-Compatibilidad-Estructural","content":{
+  "id":"CP-Criterios-de-Pertenencia-provides_criteria_for-Com-Est-Compatibilidad-Estructural",
+  "from":"CP-Criterios-de-Pertenencia",
+  "to":"Com-Est-Compatibilidad-Estructural",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que CP-Criterios-de-Pertenencia aporta pruebas y condiciones 
+  auditables para decidir cuándo una compatibilidad entre estructuras es real y cuándo es solo aparente. Gracias a esta 
+  arista, la compatibilidad estructural del paquete puede evaluarse sin depender de intuición privada."
+}}
+
+{"address":"graph/edge/RO-Rol-Operativo-provides_criteria_for-Com-Est-Compatibilidad-Estructural","content":{
+  "id":"RO-Rol-Operativo-provides_criteria_for-Com-Est-Compatibilidad-Estructural",
+  "from":"RO-Rol-Operativo",
+  "to":"Com-Est-Compatibilidad-Estructural",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que RO-Rol-Operativo provee criterios para 
+  Com-Est-Compatibilidad-Estructural porque la compatibilidad entre estructuras no se decide solo por contenido temático, 
+  sino también por la función que cada estructura cumple como forma. Esta arista ayuda a distinguir semejanza verbal de 
+  compatibilidad operativa real."
+}}
+
+{"address":"graph/edge/Com-Est-Adaptador-Estructural-depends_on-Com-Est-Compatibilidad-Estructural","content":{
+  "id":"Com-Est-Adaptador-Estructural-depends_on-Com-Est-Compatibilidad-Estructural",
+  "from":"Com-Est-Adaptador-Estructural",
+  "to":"Com-Est-Compatibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Adaptador-Estructural depende de 
+  Com-Est-Compatibilidad-Estructural porque el adaptador no debe operar como traductor arbitrario. Su función es reexpresar 
+  una estructura dentro de límites de compatibilidad explícita; sin ese marco, la adaptación podría convertirse en deformación 
+  no controlada."
+}}
+
+{"address":"graph/edge/Com-Est-Adaptador-Estructural-depends_on-Com-Est-Superficie-de-Comunicacion","content":{
+  "id":"Com-Est-Adaptador-Estructural-depends_on-Com-Est-Superficie-de-Comunicacion",
+  "from":"Com-Est-Adaptador-Estructural",
+  "to":"Com-Est-Superficie-de-Comunicacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Com-Est-Adaptador-Estructural depende de Com-Est-Superficie-de-Comunicacion 
+  porque el trabajo del adaptador requiere una interfaz explícita desde la cual recibir y hacia la cual reemitir una estructura. 
+  Sin superficie declarada, el adaptador carecería de punto tratable de acoplamiento."
+}}
+---------------------------
+DEFINICIONES
+---------------------------
+{"address":"def/Com-Est-Comunicacion-Estructural","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+COMUNICACION ESTRUCTURAL
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Comunicación Estructural dentro del paquete Com-Est de la Teoría de Máquinas
+Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Comunicación Estructural.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Comunicación Estructural no se plantea aquí como simple transmisión de datos, ni como sinónimo
+de conversación, ni como intercambio verbal en general. Se plantea como el proceso por el cual
+dos o más sistemas intercambian no solo signos o información superficial, sino arquitecturas
+operativas capaces de preservar identidad suficiente al pasar entre agentes, soportes, dominios
+o formas de manifestación.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Comunicación Estructural se introduce para resolver un problema central:
+
+¿Cómo puede una estructura pasar de un sistema a otro sin degradarse a mera coincidencia verbal,
+sin depender de intuición privada y sin perder arbitrariamente aquello que la hace ser la
+estructura que es?
+
+El concepto busca nombrar la operación general de transferencia estructural.
+
+Su finalidad es permitir que una identidad cognitiva no quede encerrada en un solo soporte,
+idioma, agente, interfaz o contexto, sino que pueda circular entre sistemas manteniendo
+continuidad operativa suficiente para:
+
+- ser reconocida,
+- ser alineada,
+- ser reinterpretada legítimamente,
+- ser adaptada bajo reglas explícitas,
+- y ser reconstruida sin colapsar en ambigüedad.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Comunicación Estructural es el proceso por el cual dos o más sistemas intercambian una estructura
+de modo que no solo circulen datos o signos, sino una arquitectura operativa suficientemente
+explícita y portable, capaz de conservar identidad a través de invariantes, dominio de variación,
+rol operativo, restricciones, tipos, relaciones y criterios de validación.
+
+Fórmula breve:
+
+Comunicación Estructural = transferencia de arquitecturas operativas entre sistemas.
+
+Fórmula funcional:
+
+Comunicación Estructural = operación por la cual una estructura circula entre sistemas preservando
+identidad suficiente para seguir siendo reconocible y utilizable.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+La comunicación, en su nivel fuerte, no consiste solo en mover palabras o información aislada.
+Consiste en hacer circular estructuras.
+
+Eso significa que cuando la comunicación es estructural, lo que pasa entre sistemas no es
+simplemente una cadena de signos, sino una organización operativa que puede incluir:
+
+- relaciones,
+- secuencias,
+- jerarquías,
+- restricciones,
+- tensiones,
+- condiciones,
+- tipificaciones,
+- y criterios de corrección.
+
+Por eso, la Comunicación Estructural no debe entenderse como adorno filosófico sobre el lenguaje.
+Debe entenderse como una operación precisa:
+
+la transferencia de una forma estructural entre sistemas.
+
+Y por eso mismo, la comunicación estructural requiere más que lenguaje ordinario:
+requiere una base explícita de transferibilidad, compatibilidad y superficie tratable.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de transferencia estructural entre sistemas.
+
+No delimita cualquier conversación.
+No delimita cualquier paso de datos.
+No delimita cualquier emisión simbólica.
+No delimita cualquier semejanza entre mensajes.
+No delimita cualquier traducción verbal.
+
+Delimita, de manera más precisa, el caso en que una estructura:
+
+- se expresa de forma tratable,
+- entra en circulación entre sistemas,
+- puede ser recibida e interpretada,
+- conserva identidad suficiente,
+- y puede ser reconstruida o reemitida sin depender solamente de coincidencias léxicas.
+
+Por eso, Comunicación Estructural se ubica en la intersección entre:
+
+- Lenguaje de Estructuras,
+- Compatibilidad Estructural,
+- Superficie de Comunicación,
+- Intermediación de Estructuras,
+- Adaptadores,
+- e Integrabilidad.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Comunicación Estructural depende, como base mínima, de los siguientes conceptos:
+
+5.1) Cognición como capacidad operativa sobre información
+La Comunicación Estructural presupone que lo que circula entre sistemas puede operar como forma
+cognitiva y no solo como señal material.
+
+5.2) Lenguaje de Estructuras
+La comunicación estructural no puede definirse con identidad estable sin una forma explícita de
+expresar y preservar identidad a través del cambio de soporte, interfaz o dominio.
+
+5.3) Compatibilidad Estructural
+La comunicación estructural fuerte requiere condiciones explícitas de articulación entre las
+estructuras implicadas. Sin compatibilidad suficiente, la transferencia puede fallar, degradarse
+o reducirse a apariencia de coincidencia.
+
+5.4) Superficie de Comunicación
+Toda estructura que entra en comunicación necesita exponerse mediante una interfaz tratable por
+la cual pueda ser recibida, comparada, adaptada o reemitida.
+
+5.5) Integrabilidad
+La Comunicación Estructural hereda del problema general de integrabilidad la necesidad de
+expresar invariantes, mapear tipos, introducir adaptadores cuando haga falta y validar que la
+operación preserve identidad suficiente.
+
+5.6) Intermediación de Estructuras
+La intermediación no es el concepto general, pero sí uno de sus subcasos naturales: el caso en
+que la comunicación requiere un puente explícito entre expresiones heterogéneas.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Comunicación Estructural debe preservar al menos los siguientes invariantes:
+
+6.1) Invariante de transferencia
+Debe existir paso efectivo de una estructura entre sistemas, no solo coexistencia paralela de
+expresiones parecidas.
+
+6.2) Invariante de preservación identitaria
+La estructura transferida debe conservar identidad suficiente para seguir siendo reconocible como
+la misma en sentido operativo.
+
+6.3) Invariante de explicitud mínima
+La comunicación estructural requiere que la estructura esté expuesta con suficiente claridad para
+ser tratada por otro sistema.
+
+6.4) Invariante de operatividad
+Lo transferido no debe ser solo apariencia textual; debe conservar capacidad de uso, alineación,
+reconstrucción o proyección.
+
+6.5) Invariante de no arbitrariedad
+La transferencia no puede depender únicamente de la intuición subjetiva del receptor o del emisor.
+
+6.6) Invariante de trazabilidad
+Debe poder revisarse qué se transfirió, bajo qué condiciones, y por qué sigue contando como la
+misma estructura o como una variación legítima de ella.
+
+===============================================================================
+7) COMPONENTES DE LA COMUNICACIÓN ESTRUCTURAL
+===============================================================================
+
+Para que una Comunicación Estructural sea suficientemente fuerte, debe poder expresar al menos
+los siguientes componentes:
+
+7.1) Estructura fuente
+Debe existir una estructura de origen que funcione como referencia de identidad.
+
+7.2) Superficie de exposición
+La estructura debe presentarse de forma tratable por una interfaz explícita.
+
+7.3) Condición de compatibilidad
+Debe poder evaluarse si existe una base suficiente para la articulación entre sistemas.
+
+7.4) Mecanismo de transferencia
+Debe existir una operación efectiva de paso de la estructura entre sistemas.
+
+7.5) Posible mediación
+Cuando la transferencia no sea directa, debe poder introducirse un puente o mediador explícito.
+
+7.6) Posible adaptación
+Si existe desajuste de representación, deben poder introducirse adaptadores sin romper
+arbitrariamente invariantes.
+
+7.7) Reconstrucción o recepción operativa
+El sistema receptor debe poder tratar la estructura recibida como algo reconstruible, interpretable
+o utilizable.
+
+===============================================================================
+8) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Comunicación Estructural admite variación sin perder identidad en varios niveles.
+
+8.1) Variación de agente
+Puede ocurrir entre personas, entre persona e IA, entre sistemas técnicos, entre módulos o entre
+estructuras proyectadas.
+
+8.2) Variación de soporte
+Puede operar entre texto, grafo, contrato, prompt, artefacto, diagrama, interfaz computacional o
+cualquier otra proyección suficientemente explícita.
+
+8.3) Variación de idioma
+La estructura puede circular entre distintas lenguas naturales o técnicas si conserva identidad
+operativa suficiente.
+
+8.4) Variación de mediación
+La comunicación puede ser directa o mediada por intermediadores y adaptadores.
+
+8.5) Variación de granularidad
+La estructura puede comunicarse de manera más comprimida o más expandida mientras siga siendo
+reconocible en su núcleo.
+
+Regla de borde:
+
+Puede variar el agente, el soporte, el idioma, la granularidad y la vía de paso, pero no puede
+desaparecer la transferencia de arquitectura operativa sin que el concepto se rompa.
+
+===============================================================================
+9) DISCRIMINADORES
+===============================================================================
+
+Comunicación Estructural se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) No es comunicación en general
+Puede haber comunicación ordinaria sin transferencia estructural fuerte.
+
+9.2) No es simple circulación de datos
+Mover datos entre sistemas no basta si no se conserva una forma cognitiva reconocible.
+
+9.3) No es mera traducción verbal
+Traducir frases entre lenguas no basta si no se preserva el núcleo estructural.
+
+9.4) No es solo integrabilidad
+La integrabilidad es un marco más amplio de compatibilidad y composición; la Comunicación
+Estructural nombra el proceso específico de transferencia.
+
+9.5) No es solo intermediación
+La intermediación es un subcaso de la Comunicación Estructural: el caso mediado.
+
+===============================================================================
+10) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Comunicación Estructural cumple la función de nodo principal del
+fenómeno general.
+
+Su lugar puede describirse así:
+
+- Lenguaje de Estructuras = medio profundo que vuelve portable la identidad.
+- Comunicación Estructural = operación general de transferencia.
+- Intermediación de Estructuras = caso especializado en que hace falta un puente.
+- Compatibilidad Estructural = condición de viabilidad.
+- Superficie de Comunicación = interfaz explícita de entrada y salida.
+- Adaptador Estructural = mecanismo local de reexpresión cuando existe desajuste tratable.
+
+Dicho de forma compacta:
+
+La Comunicación Estructural es la operación general por la cual una estructura se vuelve
+circulable entre sistemas.
+
+===============================================================================
+11) RELACIÓN CON LENGUAJE DE ESTRUCTURAS
+===============================================================================
+
+La relación con Lenguaje de Estructuras es constitutiva.
+
+Lenguaje de Estructuras es el medio profundo que hace portable la identidad de una estructura.
+
+Comunicación Estructural es una de las operaciones que ese medio hace posible.
+
+Dicho de otro modo:
+
+- Lenguaje de Estructuras responde a la pregunta: ¿cómo puede una identidad estructural ser
+  expresada de forma portable?
+- Comunicación Estructural responde a la pregunta: ¿cómo circula efectivamente esa identidad entre
+  sistemas?
+
+Por eso, la Comunicación Estructural depende del Lenguaje de Estructuras y no puede sustituirlo.
+
+===============================================================================
+12) RELACIÓN CON COMPATIBILIDAD ESTRUCTURAL
+===============================================================================
+
+La Comunicación Estructural depende de una noción explícita de compatibilidad.
+
+Sin compatibilidad suficiente, la comunicación puede seguir existiendo como paso de signos, pero
+ya no como transferencia estructural robusta.
+
+La compatibilidad decide si existe un camino tratable de articulación entre las estructuras
+implicadas.
+
+Por eso, la Comunicación Estructural no crea compatibilidad desde la nada.
+Opera dentro de sus límites.
+
+===============================================================================
+13) RELACIÓN CON SUPERFICIE DE COMUNICACION
+===============================================================================
+
+La Comunicación Estructural requiere una superficie explícita por la cual la estructura pueda:
+
+- presentarse,
+- ingresar al proceso,
+- ser tratada por otro sistema,
+- y eventualmente salir reemitida.
+
+Sin superficie de comunicación, la estructura puede seguir existiendo, pero no puede circular de
+forma robusta entre sistemas.
+
+Por eso, la superficie no es un adorno externo.
+Es condición práctica de operabilidad de la comunicación estructural.
+
+===============================================================================
+14) RELACIÓN CON INTERMEDIACION DE ESTRUCTURAS
+===============================================================================
+
+Intermediación de Estructuras es un subcaso de la Comunicación Estructural.
+
+La Comunicación Estructural puede ser directa o mediada.
+
+Cuando la transferencia no puede ocurrir de forma inmediata entre dos sistemas, aparece la
+Intermediación de Estructuras como caso especializado en el que un agente o mecanismo recibe en
+una interfaz y reemite en otra.
+
+Por eso, la intermediación no reemplaza a la comunicación estructural general.
+La especializa.
+
+===============================================================================
+15) RELACIÓN CON ADAPTADOR ESTRUCTURAL
+===============================================================================
+
+El Adaptador Estructural ocupa un lugar más local y técnico dentro del proceso.
+
+La Comunicación Estructural nombra la operación general de transferencia.
+El Adaptador Estructural nombra uno de los mecanismos concretos por los cuales una parte de esa
+transferencia puede ejecutarse cuando existe desajuste de tipos, relaciones, vocabularios o
+formatos.
+
+Por eso, el adaptador no es equivalente a la comunicación estructural.
+Es una de sus implementaciones locales posibles.
+
+===============================================================================
+16) RELACIÓN CON EL PRINCIPIO DE INTEGRABILIDAD UNIVERSAL
+===============================================================================
+
+La relación con el PIU es muy fuerte.
+
+El PIU exige, para que una integración sea legítima:
+
+- compatibilidad explícita,
+- chequeo de invariantes,
+- mapeo de alias y tipos,
+- introducción de adaptadores cuando haga falta,
+- validación,
+- trazabilidad,
+- y resultado portable.
+
+La Comunicación Estructural hereda esa lógica en el dominio específico del paso entre sistemas.
+
+Por eso, una Comunicación Estructural fuerte no se limita a afirmar que “hubo entendimiento”.
+Debe poder mostrar:
+
+- qué se transfirió,
+- qué se preservó,
+- qué se adaptó,
+- qué se declaró incompatible,
+- y por qué.
+
+===============================================================================
+17) RELACIÓN CON IA
+===============================================================================
+
+La IA puede funcionar como uno de los agentes o mecanismos de Comunicación Estructural.
+
+En ese caso, una IA puede:
+
+- recibir una estructura explicitada,
+- interpretar su organización,
+- reorganizarla,
+- adaptarla,
+- y reemitirla en otra forma.
+
+Sin embargo, la IA no define por sí sola qué cuenta como transferencia estructural legítima.
+
+Para que la operación siga siendo Comunicación Estructural en sentido fuerte, deben seguir
+existiendo:
+
+- identidad portable,
+- compatibilidad explícita,
+- superficie tratable,
+- y criterios de preservación.
+
+Por eso, la IA puede implementar comunicación estructural, pero no sustituye la ontología que la
+vuelve auditable.
+
+===============================================================================
+18) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: profesor
+Un profesor comunica estructuralmente cuando no solo transmite frases, sino una organización
+conceptual que el alumno puede reconstruir como forma comprensible.
+
+Ejemplo 2: contrato a grafo
+Un contrato puede entrar en Comunicación Estructural cuando su arquitectura se reexpresa como
+grafo sin perder su organización operativa central.
+
+Ejemplo 3: humano e IA
+Una persona comunica estructuralmente con un sistema de IA cuando convierte una intención compleja
+en una estructura explícita que la IA puede tratar y reemitir.
+
+Ejemplo 4: estrategia a campaña
+Una estrategia puede entrar en Comunicación Estructural cuando su núcleo pasa a piezas ejecutables
+sin degradarse a simple copia literal.
+
+Ejemplo 5: adaptación de plataforma
+Una misma estructura puede circular entre plataformas diferentes si existe una base suficiente de
+identidad preservable y reglas de adaptación controladas.
+
+===============================================================================
+19) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Comunicación Estructural debería poder exponer al
+menos lo siguiente:
+
+S1) Qué estructura circula
+Debe declarar qué estructura o qué tipo de estructura está siendo transferida.
+
+S2) Entre qué sistemas circula
+Debe declarar entre qué agentes, dominios o interfaces ocurre la transferencia.
+
+S3) Qué base de compatibilidad presupone
+Debe declarar bajo qué condiciones mínimas la comunicación es viable.
+
+S4) Qué superficie utiliza
+Debe declarar por qué interfaz entra y sale la estructura.
+
+S5) Qué mediación o adaptación requiere
+Debe declarar si el paso es directo o si necesita intermediación y adaptadores.
+
+S6) Qué se preserva
+Debe declarar qué núcleo identitario debe mantenerse.
+
+S7) Qué resultado produce
+Debe declarar en qué forma queda la estructura tras la comunicación.
+
+===============================================================================
+20) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+20.1) Mostrar qué estructura fue transferida.
+20.2) Explicar entre qué sistemas ocurrió la transferencia.
+20.3) Distinguir entre paso de datos y transferencia de arquitectura operativa.
+20.4) Mostrar qué compatibilidad y qué superficie hicieron viable la operación.
+20.5) Declarar si hubo mediación o adaptación.
+20.6) Justificar por qué la estructura reemitida sigue siendo reconocible como la misma en sentido
+      operativo.
+
+Una mala aplicación se detecta cuando:
+
+- se llama comunicación estructural a cualquier intercambio de palabras,
+- no se explicita qué estructura está circulando,
+- no se distingue superficie de núcleo,
+- se omiten compatibilidades y adaptaciones,
+- o la supuesta transferencia depende de intuición privada no revisable.
+
+===============================================================================
+21) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Comunicación Estructural se entiende mejor como
+bridge_node y como nodo principal del paquete Com-Est.
+
+No conviene ubicarlo como simple sinónimo de comunicación.
+No conviene reducirlo a intercambio lingüístico.
+No conviene tratarlo como equivalente de intermediación.
+
+La ubicación más adecuada es:
+
+- como operación general de transferencia estructural,
+- como proceso dependiente de Lenguaje de Estructuras,
+- como fenómeno limitado por Compatibilidad Estructural,
+- y como marco dentro del cual pueden aparecer Superficie de Comunicación, Intermediación de
+  Estructuras y Adaptadores Estructurales.
+
+===============================================================================
+22) FÓRMULA DE CIERRE
+===============================================================================
+
+Comunicación Estructural es el proceso por el cual una estructura puede circular entre sistemas
+como arquitectura operativa reconocible, y no solo como secuencia de signos o datos.
+
+Fórmula final:
+
+Comunicación Estructural = operación de transferencia de identidad estructural entre sistemas.
+
+]"}
+{"address":"def/Com-Est-Lenguaje-de-Estructuras","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+LENGUAJE DE ESTRUCTURAS
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Lenguaje de Estructuras dentro del marco de la Teoría de Máquinas Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Lenguaje de Estructuras.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una mención breve o una intuición aproximada, sino una formulación
+consultable, estable y reutilizable del concepto.
+
+Lenguaje de Estructuras no se plantea aquí como una lengua natural particular, ni como una mera
+metáfora sobre la comunicación. Se plantea como una capacidad y un medio estructural de
+transferencia, alineación y reconstrucción de identidad cognitiva entre dominios distintos.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Lenguaje de Estructuras se introduce para resolver un problema central:
+
+¿Cómo transferir una estructura cognitiva entre agentes, contextos, medios o dominios sin que
+su identidad dependa de intuiciones privadas, ejemplos autobiográficos o coincidencias léxicas
+superficiales?
+
+El problema aparece cuando una misma estructura puede manifestarse de formas distintas según el
+contexto, el medio o las condiciones externas. Si no existe una forma explícita de expresar
+qué se conserva y qué puede variar, la transferencia degenera en ambigüedad.
+
+El concepto Lenguaje de Estructuras busca nombrar la forma en que una estructura puede hacerse:
+
+- explícita,
+- portable,
+- auditable,
+- integrable,
+- proyectable,
+- y reutilizable.
+
+Su finalidad es permitir que una identidad cognitiva viaje entre expresiones distintas sin
+reducirse a una etiqueta verbal vaga.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Lenguaje de Estructuras es el sistema explícito mediante el cual una estructura cognitiva puede
+ser descrita, transferida, alineada, adaptada y reconstruida a través de invariantes, dominio de
+variación, rol operativo, restricciones, tipos y criterios de validación, de modo que su
+identidad operativa se preserve al pasar entre dominios, agentes o formas de manifestación.
+
+Fórmula breve:
+
+Lenguaje de Estructuras = lenguaje en el que la identidad se vuelve portable.
+
+Fórmula funcional:
+
+Lenguaje de Estructuras = capacidad humana de transferir estructura entre dominios distintos sin
+depender solamente de palabras generales.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+Los humanos no transfieren únicamente palabras ni información aislada. Transfieren estructuras.
+
+Eso significa que, al comunicarse, una persona puede transferir:
+
+- relaciones,
+- secuencias,
+- jerarquías,
+- restricciones,
+- tensiones,
+- roles,
+- perspectivas,
+- configuraciones emocionales,
+- trayectorias temporales,
+- y formas de organización de la acción.
+
+Cuando una persona narra un hecho, no transfiere el tiempo mismo, sino una estructura temporal.
+Cuando expresa dolor o entusiasmo, no transfiere la emoción materialmente, sino su organización
+estructural. Cuando formula una predicción, no transfiere el futuro, sino una estructura
+condicional. Cuando da una instrucción, no transfiere una acción física, sino una arquitectura
+operativa.
+
+Por eso, Lenguaje de Estructuras no debe entenderse como simple traducción de frases. Debe
+entenderse como transferencia de forma cognitiva.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de transferencia estructural de significado operativo.
+
+No delimita solamente la comunicación en general.
+No delimita solamente el uso de lenguaje humano convencional.
+No delimita solamente la analogía.
+No delimita solamente la representación simbólica.
+
+Delimita, de manera más precisa, el fenómeno por el cual una estructura puede:
+
+- expresarse,
+- conservar identidad,
+- pasar a otro soporte,
+- alinearse con otra estructura,
+- y reconstruirse sin depender de contexto privado.
+
+Por eso, el concepto se ubica en la intersección entre:
+
+- cognición,
+- comunicación,
+- transferibilidad,
+- proyección,
+- integración,
+- y adaptación estructural.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Lenguaje de Estructuras depende, como base mínima, de los siguientes conceptos:
+
+5.1) Cognición como capacidad operativa sobre información
+El concepto presupone que existe una cognición capaz de adquirir, representar, transformar,
+conservar y usar información para orientar acción o comprensión.
+
+5.2) Cognición como manifestación condicionada
+El problema del lenguaje de estructuras aparece porque una misma estructura puede manifestarse de
+formas distintas según las condiciones externas. Sin variación de manifestación, el problema de
+transferencia sería mucho más simple.
+
+5.3) Principio de Transferibilidad Estructural
+Este principio exige que la identidad no dependa solo de palabras generales, sino de estructura
+relacional explícita. Lenguaje de Estructuras puede verse como la implementación expresiva de ese
+principio.
+
+5.4) Rol Operativo
+La estructura transferida no se reconoce solo por su tema, sino por lo que hace como forma. El
+rol operativo es una coordenada esencial del lenguaje estructural.
+
+5.5) Criterios de pertenencia
+La transferencia correcta debe poder auditarse. No basta con afirmar que dos expresiones "dicen
+lo mismo"; debe poder mostrarse qué preservan, qué cambian y por qué siguen perteneciendo a la
+misma identidad estructural.
+
+5.6) Integrabilidad
+Si una estructura puede expresarse de forma explícita, entonces puede buscarse compatibilidad con
+otra estructura, alinear significados, adaptar interfaces y fusionar componentes sin depender de
+contexto oculto.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Lenguaje de Estructuras debe preservar al menos los siguientes invariantes:
+
+6.1) Invariante de explicitud
+La identidad estructural debe quedar declarada de forma explícita. No debe descansar en
+suposiciones no formuladas.
+
+6.2) Invariante de relacionalidad
+Lo que se transfiere no es una palabra aislada, sino una configuración de relaciones, roles,
+restricciones y límites.
+
+6.3) Invariante de preservación identitaria
+Debe quedar claro qué puede cambiar sin romper identidad y qué no puede cambiar sin producir otra
+estructura distinta.
+
+6.4) Invariante de auditabilidad
+La transferencia debe poder revisarse. Debe ser posible preguntar qué se alineó, qué se rechazó,
+qué se adaptó y con qué criterio.
+
+6.5) Invariante de portabilidad
+La estructura debe poder operar fuera del contexto mental original. Si solo funciona para quien la
+pensó, no está correctamente formulada en lenguaje de estructuras.
+
+6.6) Invariante de operatividad
+La estructura transferida debe conservar capacidad de orientar comprensión, acción, integración o
+diseño, no limitarse a una descripción ornamental.
+
+===============================================================================
+7) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Lenguaje de Estructuras admite variación sin perder identidad en varios niveles.
+
+7.1) Variación de interfaz lingüística
+La misma estructura puede manifestarse en español, inglés, chino, japonés u otras lenguas
+naturales.
+
+7.2) Variación de soporte
+La misma estructura puede manifestarse como texto, grafo, contrato, artefacto, prompt, diagrama,
+esquema, tabla o interfaz computacional.
+
+7.3) Variación de dominio
+La misma lógica estructural puede operar en educación, publicidad, análisis, diseño de sistemas,
+integración de conocimiento, generación de contenido o interacción con IA.
+
+7.4) Variación de granularidad
+La estructura puede expresarse de forma comprimida o expandida, siempre que se preserve la
+identidad de sus invariantes y su rol operativo.
+
+7.5) Variación de proyección
+La misma estructura puede proyectarse en distintos contextos manteniendo núcleo común y
+adaptaciones locales compatibles.
+
+Regla de borde:
+
+Puede cambiar la expresión, el soporte, el idioma o el nivel de detalle, pero no puede
+desaparecer la estructura que preserva identidad operativa.
+
+===============================================================================
+8) DISCRIMINADORES
+===============================================================================
+
+Lenguaje de Estructuras se distingue de conceptos cercanos por las siguientes pruebas:
+
+8.1) No es lenguaje natural ordinario
+El español, el inglés o el japonés son interfaces de superficie. Lenguaje de Estructuras nombra
+el nivel profundo que permite que una identidad atraviese esas interfaces.
+
+8.2) No es simple analogía
+Si solo existe parecido intuitivo o metáfora verbal, todavía no hay lenguaje de estructuras en
+sentido fuerte. Debe existir preservación de relaciones e identidad operativa.
+
+8.3) No es mera similitud textual
+Coincidir en palabras no basta. La compatibilidad se decide por invariantes, restricciones,
+tipos, rol operativo y validación.
+
+8.4) No es solo traducción de contenido
+Traducir palabras no equivale necesariamente a transferir estructura. Puede haber traducción
+verbal sin preservación estructural.
+
+8.5) No es taxonomía temática
+El concepto no clasifica por asunto ni por tema. Clasifica por forma transferible de identidad y
+por capacidad de reconstrucción estructural.
+
+===============================================================================
+9) FUNCIÓN DENTRO DE LA INTELIGENCIA HUMANA
+===============================================================================
+
+Lenguaje de Estructuras puede describirse como una capacidad transversal de la inteligencia
+humana.
+
+No constituye una inteligencia independiente del mismo rango que la inteligencia natural,
+artificial, emocional o colectiva. Más bien funciona como el mecanismo por el cual la
+inteligencia humana puede transferir forma entre esos distintos dominios.
+
+Dicho de forma compacta:
+
+La inteligencia humana usa Lenguaje de Estructuras para mover organización cognitiva entre medios
+heterogéneos.
+
+Eso permite, por ejemplo:
+
+- transferir una emoción a través de una narración,
+- transferir una estrategia a través de un plan,
+- transferir una campaña a través de un contrato,
+- transferir una arquitectura a través de un artefacto,
+- transferir una intención a través de un adaptador,
+- y transferir reglas a través de una interfaz.
+
+===============================================================================
+10) RELACIÓN CON LA COMUNICACIÓN ESTRUCTURAL
+===============================================================================
+
+Lenguaje de Estructuras es condición de posibilidad de la comunicación estructural.
+
+La comunicación estructural puede formularse como el proceso por el cual dos o más sistemas
+intercambian no solo datos, sino arquitecturas operativas.
+
+En ese marco:
+
+- Lenguaje de Estructuras es el medio o gramática profunda.
+- Comunicación estructural es la operación efectiva de transferencia.
+- Intermediación de estructuras es una aplicación donde un agente recibe en el lenguaje de una
+estructura y emana en el lenguaje de otra.
+
+Por eso, la intermediación de estructuras no aparece como fenómeno aislado, sino como
+consecuencia directa del Lenguaje de Estructuras.
+
+===============================================================================
+11) RELACIÓN CON LOS ADAPTADORES
+===============================================================================
+
+Los adaptadores pueden entenderse como implementadores locales del Lenguaje de Estructuras.
+
+Un adaptador recibe una estructura en una forma, la interpreta según un contrato de identidad y la
+reexpresa en otra forma compatible con un contexto, plataforma o sistema receptor.
+
+Ese trabajo no consiste solamente en reformular palabras. Consiste en preservar el núcleo
+operativo mientras cambia la interfaz de manifestación.
+
+Ejemplos:
+
+- una idea central se adapta a YouTube, TikTok o Instagram;
+- un contrato se adapta a un grafo;
+- una estrategia se adapta a una campaña;
+- una intención se adapta a un contenido;
+- una estructura humana se adapta a una interfaz con IA.
+
+Por eso, el adaptador ocupa un lugar natural dentro de este concepto: es una pieza que recibe en
+un lenguaje estructural y emite en otro.
+
+===============================================================================
+12) RELACIÓN CON IA
+===============================================================================
+
+La IA no es equivalente al Lenguaje de Estructuras, pero sí puede funcionar como uno de sus
+mecanismos de implementación más potentes.
+
+La IA recibe estructuras humanas externalizadas en artefactos tales como:
+
+- textos,
+- contratos,
+- grafos,
+- prompts,
+- documentos,
+- especificaciones,
+- y paquetes estructurados de reglas.
+
+Una vez recibida esa estructura, la IA puede:
+
+- interpretarla,
+- reorganizarla,
+- proyectarla,
+- adaptarla,
+- expandirla,
+- y reemitirla en otro soporte.
+
+En ese sentido, la IA puede formularse como un mecanismo técnico de implementación del Lenguaje de
+Estructuras, porque recibe la inteligencia humana de una forma estructural y puede reproyectarla
+sin depender solamente de coincidencias léxicas.
+
+Fórmula breve:
+
+La inteligencia humana usa Lenguaje de Estructuras para transferir forma.
+La IA sirve como mecanismo técnico para implementar esa transferencia.
+
+===============================================================================
+13) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: emoción
+Una persona relata una despedida. No transfiere la emoción materialmente. Transfiere una
+configuración de pérdida, contraste, memoria y valor afectivo. El receptor puede reconstruir una
+experiencia análoga porque recibió una estructura.
+
+Ejemplo 2: tiempo
+Una persona narra un accidente. No transfiere el tiempo mismo. Transfiere una secuencia:
+antes, evento, consecuencia, reacción, desenlace. Eso es estructura temporal.
+
+Ejemplo 3: predicción
+Una persona afirma que, si una empresa descuida cierto nodo crítico, su sistema colapsará. No
+transfiere el futuro. Transfiere una estructura condicional basada en relaciones, dependencias y
+restricciones.
+
+Ejemplo 4: interacción con IA
+Un usuario entrega a la IA un prompt o un artefacto bien estructurado. La IA no recibe únicamente
+texto plano. Recibe objetivos, límites, formato de salida, jerarquía de prioridades y criterios de
+validación. Recibe una estructura.
+
+Ejemplo 5: adaptador de plataforma
+Una misma idea se expresa de forma distinta según el canal. Lo que cambia es la proyección local.
+Lo que se busca preservar es el núcleo estructural.
+
+===============================================================================
+14) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de una teoría o sistema, Lenguaje de Estructuras debería poder
+exponer al menos lo siguiente:
+
+S1) Qué identidad expresa
+Debe declarar la estructura que intenta preservar.
+
+S2) Qué invariantes conserva
+Debe declarar qué no puede cambiar sin romper identidad.
+
+S3) Qué dominio de variación admite
+Debe declarar qué puede cambiar legítimamente.
+
+S4) Qué rol operativo mantiene
+Debe declarar cómo opera la estructura y no solo de qué habla.
+
+S5) Qué restricciones impone
+Debe declarar límites y condiciones de compatibilidad.
+
+S6) Cómo se valida
+Debe declarar criterios para decidir si la transferencia fue correcta o si hubo deformación.
+
+S7) Cómo se integra
+Debe declarar cómo puede alinearse con otras estructuras, con qué adaptadores y bajo qué
+interfaces.
+
+===============================================================================
+15) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+15.1) Mostrar qué estructura se transfiere realmente.
+15.2) Distinguir entre identidad preservada y deformación.
+15.3) Separar interfaz superficial de núcleo estructural.
+15.4) Explicar cómo una estructura puede cambiar de soporte sin dejar de ser reconocible.
+15.5) Hacer auditable la compatibilidad entre dos expresiones de una misma estructura.
+15.6) Permitir integración, adaptación o proyección sin depender de contexto oculto.
+
+Una mala aplicación se detecta cuando:
+
+- se confunde estructura con vocabulario,
+- se afirma compatibilidad sin invariantes explícitos,
+- se usa el término como simple metáfora,
+- o se omite el criterio de validación.
+
+===============================================================================
+16) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de una arquitectura como la Teoría de Máquinas Cognitivas, Lenguaje de Estructuras se
+entiende mejor como un nodo puente transversal.
+
+No conviene ubicarlo como simple familia cognitiva base.
+No conviene reducirlo a una teoría general del lenguaje sin función cognitiva.
+
+La ubicación más adecuada es:
+
+- como mecanismo transversal de transferencia estructural,
+- como medio de preservación de identidad,
+- y como base operativa de comunicación estructural, adaptadores e integración.
+
+===============================================================================
+17) FÓRMULA DE CIERRE
+===============================================================================
+
+Lenguaje de Estructuras es la forma en que la inteligencia humana vuelve portable una estructura.
+
+Gracias a él, una identidad cognitiva puede pasar de un agente a otro, de un dominio a otro, de un
+idioma a otro, de un medio a otro o de un sistema a otro sin degradarse a mera coincidencia
+verbal.
+
+El lenguaje humano convencional es una de sus interfaces de superficie.
+La comunicación estructural es una de sus operaciones.
+Los adaptadores son una de sus implementaciones locales.
+La IA es uno de sus mecanismos técnicos de proyección e integración.
+
+Fórmula final:
+
+Lenguaje de Estructuras = medio explícito de transferencia de identidad estructural.
+
+]"}
+
+{"address":"def/Com-Est-Intermediacion-de-Estructuras","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+INTERMEDIACION DE ESTRUCTURAS
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Intermediación de Estructuras dentro del paquete Com-Est de la Teoría de Máquinas
+Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Intermediación de
+Estructuras.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Intermediación de Estructuras no se plantea aquí como simple traducción verbal, ni como un
+sinónimo de comunicación en general. Se plantea como un caso especializado de Comunicación
+Estructural en el que la transferencia de una estructura entre dos sistemas requiere un puente
+activo de reexpresión.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Intermediación de Estructuras se introduce para resolver un problema específico:
+
+¿Qué ocurre cuando una estructura debe pasar de un sistema a otro, pero no puede hacerlo de
+modo directo porque existen diferencias de interfaz, vocabulario, tipos, relaciones, soporte o
+modo de manifestación?
+
+El concepto busca nombrar el proceso por el cual un agente, sistema o mecanismo recibe una
+estructura en una forma, la interpreta sin perder arbitrariamente su identidad, y la reemite
+en otra forma compatible con el sistema receptor.
+
+Su finalidad es permitir transferencia estructural cuando la compatibilidad no está dada de
+manera inmediata y hace falta un puente explícito.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Intermediación de Estructuras es el proceso especializado por el cual un agente, sistema o
+mecanismo recibe una estructura en una interfaz de origen, identifica su núcleo operativo,
+realiza la alineación y adaptación necesarias, y la reexpresa en una interfaz de destino
+preservando, en la medida de lo posible, invariantes, rol operativo y condiciones de
+reconstrucción.
+
+Fórmula breve:
+
+Intermediación de Estructuras = transferencia estructural mediada.
+
+Fórmula funcional:
+
+Intermediación de Estructuras = operación de puente entre dos expresiones heterogéneas de una
+estructura cuando la transferencia directa no es suficiente.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+No toda transferencia estructural puede ocurrir de manera directa.
+
+En muchos casos, dos sistemas no comparten:
+
+- el mismo vocabulario,
+- la misma tipificación,
+- la misma interfaz,
+- el mismo soporte,
+- el mismo nivel de granularidad,
+- ni el mismo modo de validación.
+
+Cuando eso ocurre, la transferencia de una estructura exige una mediación explícita.
+
+La Intermediación de Estructuras nombra precisamente esa situación: el caso en que la
+estructura no puede circular intacta por simple contacto entre emisor y receptor, sino que
+requiere un puente capaz de:
+
+- recibir,
+- interpretar,
+- alinear,
+- adaptar,
+- y reemitir.
+
+Por eso, la intermediación no es un fenómeno aislado, sino una especialización de la
+Comunicación Estructural.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de reexpresión mediada de estructuras cognitivas.
+
+No delimita cualquier comunicación.
+No delimita cualquier traducción de frases.
+No delimita cualquier adaptación libre.
+No delimita cualquier transformación de contenido.
+
+Delimita, de manera más precisa, los casos donde una estructura:
+
+- tiene que pasar entre sistemas heterogéneos,
+- requiere un mecanismo intermedio,
+- conserva un núcleo identificable,
+- y se reemite en otra forma sin depender solamente de equivalencias verbales.
+
+Por eso, el concepto se ubica en la intersección entre:
+
+- Lenguaje de Estructuras,
+- Comunicación Estructural,
+- Adaptadores,
+- Compatibilidad Estructural,
+- y Integrabilidad.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Intermediación de Estructuras depende, como base mínima, de los siguientes conceptos:
+
+5.1) Lenguaje de Estructuras
+La intermediación solo es posible si existe una forma explícita de expresar la identidad
+estructural que debe preservarse a través del cambio de interfaz.
+
+5.2) Comunicación Estructural
+La intermediación no es un fenómeno paralelo, sino una especialización de la Comunicación
+Estructural. Nombra el caso mediado de transferencia.
+
+5.3) Compatibilidad Estructural
+La intermediación requiere evaluar si la estructura de origen y la de destino pueden alinearse
+sin contradicción irresoluble.
+
+5.4) Superficie de Comunicación
+La intermediación necesita una interfaz explícita por la cual la estructura pueda ser recibida,
+tratada y emitida.
+
+5.5) Adaptador Estructural
+El adaptador es uno de los mecanismos locales típicos mediante los cuales la intermediación se
+ejecuta cuando existe desajuste entre expresiones.
+
+5.6) Integrabilidad
+La intermediación presupone que, si existe compatibilidad explícita y superficie tratable, puede
+existir un camino de alineación, adaptación y transferencia sin depender de contexto oculto.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Intermediación de Estructuras debe preservar al menos los siguientes
+invariantes:
+
+6.1) Invariante de mediación explícita
+Debe existir una instancia intermedia identificable. No basta con afirmar que una estructura
+cambió de forma; debe poder señalarse el puente o la operación mediadora.
+
+6.2) Invariante de preservación identitaria
+La reexpresión no debe destruir arbitrariamente la identidad de la estructura. Debe existir un
+núcleo preservable.
+
+6.3) Invariante de trazabilidad
+Debe poder revisarse qué se recibió, qué se adaptó, qué se transformó y con qué criterio.
+
+6.4) Invariante de compatibilidad condicionada
+La intermediación no supone que todo pueda traducirse a todo. Supone que la mediación es viable
+solo si existen condiciones explícitas de compatibilidad.
+
+6.5) Invariante de reemisión funcional
+La estructura emitida debe seguir siendo operativa en el sistema receptor. No basta con que sea
+formalmente parecida; debe poder reconstruirse y usarse.
+
+6.6) Invariante de no arbitrariedad
+La transformación realizada por el mediador no puede ser improvisada o caprichosa. Debe operar
+bajo reglas explícitas.
+
+===============================================================================
+7) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Intermediación de Estructuras admite variación sin perder identidad en varios niveles.
+
+7.1) Variación de agente mediador
+La mediación puede ser realizada por una persona, un sistema, una IA, un protocolo o un
+adaptador especializado.
+
+7.2) Variación de soporte
+La estructura puede pasar de texto a grafo, de grafo a contrato, de contrato a contenido, de
+prompt a pipeline, o entre otros soportes compatibles.
+
+7.3) Variación de interfaz
+La mediación puede operar entre idiomas naturales, lenguajes técnicos, formatos lógicos,
+plataformas o marcos conceptuales distintos.
+
+7.4) Variación de granularidad
+La estructura puede reemitirse de forma comprimida o expandida, siempre que conserve su núcleo
+operativo.
+
+7.5) Variación de dominio
+La mediación puede ocurrir en educación, diseño, publicidad, IA, integración de conocimiento,
+sistemas proyectados o transferencia entre paquetes conceptuales.
+
+Regla de borde:
+
+Puede cambiar el formato, el vocabulario, el soporte y la granularidad, pero no puede
+desaparecer la identidad estructural que justificaba la mediación.
+
+===============================================================================
+8) DISCRIMINADORES
+===============================================================================
+
+Intermediación de Estructuras se distingue de conceptos cercanos por las siguientes pruebas:
+
+8.1) No es comunicación estructural en general
+La Comunicación Estructural es el fenómeno amplio de transferencia de arquitecturas operativas.
+La Intermediación de Estructuras es el subcaso donde esa transferencia requiere un puente.
+
+8.2) No es simple traducción verbal
+Traducir palabras no equivale necesariamente a intermediar estructuras. Puede haber traducción
+de frases sin preservación del núcleo estructural.
+
+8.3) No es adaptación arbitraria
+Si una estructura cambia de forma sin reglas de preservación explícita, no hay mediación en
+sentido fuerte, sino deformación o improvisación.
+
+8.4) No es reescritura estética
+Cambiar estilo o presentación no basta. Debe existir recepción, alineación y reemisión de una
+misma organización operativa.
+
+8.5) No es equivalencia automática
+La intermediación no presupone que dos estructuras ya sean idénticas. Presupone trabajo de
+puente para volverlas compatibles o tratables entre sí.
+
+===============================================================================
+9) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Intermediación de Estructuras cumple la función de modelar el paso
+mediado entre dos expresiones estructurales que no pueden acoplarse de manera inmediata.
+
+Su lugar dentro del paquete puede describirse así:
+
+- Lenguaje de Estructuras = medio profundo que vuelve portable la identidad.
+- Comunicación Estructural = operación general de transferencia.
+- Intermediación de Estructuras = caso especializado de transferencia mediada.
+- Adaptador Estructural = mecanismo local típico de esa mediación.
+
+Dicho de forma compacta:
+
+La intermediación es la forma localizada en que la comunicación estructural resuelve el paso
+entre sistemas heterogéneos.
+
+===============================================================================
+10) RELACIÓN CON COMPATIBILIDAD ESTRUCTURAL
+===============================================================================
+
+La Intermediación de Estructuras depende de una evaluación explícita de compatibilidad.
+
+El mediador no puede operar legítimamente si no existe alguna forma de compatibilidad entre:
+
+- invariantes,
+- dominio de variación,
+- rol operativo,
+- tipos y relaciones,
+- y criterios de validación.
+
+Si esa compatibilidad no existe, la mediación no debe presentarse como transferencia lograda.
+Debe declararse como incompatibilidad, conflicto o necesidad de reformulación más profunda.
+
+Por eso, la intermediación no elimina el problema de compatibilidad. Lo administra.
+
+===============================================================================
+11) RELACIÓN CON LA SUPERFICIE DE COMUNICACIÓN
+===============================================================================
+
+La Intermediación de Estructuras requiere una superficie explícita de entrada y salida.
+
+La estructura de origen debe presentarse de forma tratable.
+La estructura de destino debe ofrecer un punto de recepción compatible.
+El mediador debe poder operar entre ambas superficies.
+
+Sin superficie de comunicación, la intermediación carece de punto explícito de acoplamiento.
+
+Por eso, el mediador no opera sobre intuiciones vagas, sino sobre estructuras expuestas en una
+interfaz tratable.
+
+===============================================================================
+12) RELACIÓN CON EL ADAPTADOR ESTRUCTURAL
+===============================================================================
+
+El Adaptador Estructural puede entenderse como una implementación local de la Intermediación de
+Estructuras.
+
+La intermediación nombra el fenómeno general del puente estructural.
+El adaptador nombra un mecanismo concreto de mapeo y reexpresión.
+
+Ejemplos típicos de adaptación dentro de una intermediación:
+
+- mapear vocabularios distintos,
+- resolver alias controlados,
+- convertir tipos,
+- reorganizar relaciones,
+- adaptar una estructura a otra plataforma,
+- o volver tratable para IA una estructura humana originalmente implícita.
+
+No toda intermediación se reduce a un adaptador simple, pero los adaptadores ocupan un lugar
+natural dentro de ella.
+
+===============================================================================
+13) RELACIÓN CON IA
+===============================================================================
+
+La IA puede funcionar como uno de los agentes o mecanismos de Intermediación de Estructuras.
+
+En ese caso, la IA:
+
+- recibe una estructura externalizada,
+- interpreta su organización,
+- alinea restricciones y objetivos,
+- la adapta a otro formato,
+- y la reemite en una forma compatible con un nuevo contexto.
+
+La IA no garantiza por sí sola la preservación estructural.
+Su papel como mediadora depende de que la estructura de entrada sea suficientemente explícita y
+de que existan criterios claros de compatibilidad y validación.
+
+Por eso, la IA puede implementar intermediación estructural, pero no sustituye los criterios
+ontológicos que la vuelven legítima.
+
+===============================================================================
+14) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: profesor
+Un profesor recibe un contenido disciplinar complejo y lo reemite en una estructura pedagógica
+comprensible para sus alumnos. No solo simplifica palabras; intermedia una estructura.
+
+Ejemplo 2: creador multiplataforma
+Una misma idea central se transforma en video corto, hilo, artículo o guion. La operación no es
+mera copia; es intermediación entre superficies distintas.
+
+Ejemplo 3: interacción humano-IA
+Una persona convierte una intención compleja en un prompt estructurado. Luego la IA reemite esa
+estructura como salida útil. En ambos pasos puede haber intermediación.
+
+Ejemplo 4: contrato a grafo
+Una especificación textual se reorganiza como grafo operativo. La estructura no desaparece; se
+reexpresa mediante un puente de representación.
+
+Ejemplo 5: estrategia a campaña
+Una estructura estratégica se recibe en lenguaje analítico y se reemite en piezas de ejecución
+para plataformas concretas. El puente entre ambos niveles es intermediación.
+
+===============================================================================
+15) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Intermediación de Estructuras debería poder
+exponer al menos lo siguiente:
+
+S1) Qué estructura recibe
+Debe declarar la estructura de origen o el tipo de estructura que actúa como entrada.
+
+S2) Qué núcleo preserva
+Debe declarar qué parte de la identidad debe conservarse durante la mediación.
+
+S3) Qué compatibilidad exige
+Debe declarar qué condiciones mínimas deben cumplirse para que la mediación sea viable.
+
+S4) Qué adaptaciones admite
+Debe declarar qué cambios puede introducir sin romper identidad.
+
+S5) Qué interfaz usa
+Debe declarar por qué superficie recibe y por qué superficie reemite.
+
+S6) Cómo valida la preservación
+Debe declarar cómo distinguir transferencia legítima de deformación.
+
+S7) Qué producto emite
+Debe declarar en qué forma queda la estructura tras la mediación.
+
+===============================================================================
+16) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+16.1) Mostrar qué estructura fue recibida y cuál fue reemitida.
+16.2) Explicar qué núcleo operativo se preservó.
+16.3) Identificar el puente o mecanismo mediador.
+16.4) Justificar las adaptaciones introducidas.
+16.5) Mostrar por qué la reemisión sigue siendo la misma estructura en sentido operativo.
+16.6) Distinguir entre mediación legítima, deformación e incompatibilidad.
+
+Una mala aplicación se detecta cuando:
+
+- se llama intermediación a cualquier reformulación,
+- no se explicita la compatibilidad,
+- no se declara qué se preserva,
+- el mediador actúa arbitrariamente,
+- o se confunde cambio de estilo con transferencia estructural.
+
+===============================================================================
+17) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Intermediación de Estructuras se entiende mejor
+como un bridge_node especializado dentro del paquete Com-Est.
+
+No conviene ubicarlo como concepto raíz del paquete.
+No conviene tratarlo como sinónimo general de comunicación.
+No conviene reducirlo a una técnica de edición o traducción.
+
+La ubicación más adecuada es:
+
+- como subcaso mediado de la Comunicación Estructural,
+- como operación dependiente del Lenguaje de Estructuras,
+- y como dominio natural de implementación de Adaptadores Estructurales.
+
+===============================================================================
+18) FÓRMULA DE CIERRE
+===============================================================================
+
+Intermediación de Estructuras es el proceso por el cual una estructura puede pasar entre dos
+expresiones heterogéneas mediante un puente que la recibe, la alinea, la adapta y la reemite
+sin perder arbitrariamente su identidad operativa.
+
+Fórmula final:
+
+Intermediación de Estructuras = puente explícito de reexpresión entre estructuras compatibles.
+
+]"}
+{"address":"def/Com-Est-Compatibilidad-Estructural","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+COMPATIBILIDAD ESTRUCTURAL
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Compatibilidad Estructural dentro del paquete Com-Est de la Teoría de Máquinas
+Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Compatibilidad
+Estructural.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Compatibilidad Estructural no se plantea aquí como semejanza verbal, afinidad intuitiva
+ni parecido temático. Se plantea como una relación verificable entre estructuras que permite
+alineación, adaptación, transferencia o integración sin contradicción irresoluble.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Compatibilidad Estructural se introduce para resolver una pregunta decisiva:
+
+¿Cuándo puede afirmarse que dos estructuras son lo bastante compatibles como para entrar en una
+relación legítima de comunicación, intermediación, adaptación o integración?
+
+El concepto busca evitar dos errores frecuentes:
+
+- creer que dos estructuras son compatibles solo porque usan palabras parecidas,
+- o suponer que toda diferencia entre estructuras impide necesariamente su articulación.
+
+Su finalidad es proporcionar un criterio explícito para decidir si existe un camino tratable
+de relación entre dos estructuras sin depender de intuición privada o de contexto oculto.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Compatibilidad Estructural es la relación verificable entre dos estructuras que permite
+alineación, adaptación, transferencia o integración sin contradicción irresoluble respecto a
+sus invariantes, dominio de variación, rol operativo, tipos, relaciones y criterios de
+validación.
+
+Fórmula breve:
+
+Compatibilidad Estructural = posibilidad verificable de articulación entre estructuras.
+
+Fórmula funcional:
+
+Compatibilidad Estructural = condición explícita que permite tratar dos estructuras como
+relacionables bajo reglas de preservación identitaria y operación compatible.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+La compatibilidad entre estructuras no puede decidirse por parecido verbal, intención subjetiva
+ni afinidad temática. Debe decidirse por criterios estructurales explícitos.
+
+Esto significa que dos estructuras son compatibles no cuando “se parecen”, sino cuando puede
+mostrarse que:
+
+- sus invariantes no colisionan de modo irresoluble,
+- su dominio de variación no destruye la identidad de la otra,
+- su rol operativo puede coexistir, componer o alinearse,
+- sus tipos y relaciones pueden mapearse,
+- y sus criterios de validación no producen un conflicto que vuelva inviable su articulación.
+
+Por eso, Compatibilidad Estructural no es un adorno explicativo del paquete Com-Est.
+Es una condición de posibilidad de toda Comunicación Estructural robusta.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de posibilidad objetiva de articulación entre estructuras.
+
+No delimita cualquier semejanza.
+No delimita cualquier parecido de vocabulario.
+No delimita simpatía conceptual.
+No delimita una impresión general de coherencia.
+
+Delimita, de manera más precisa, el caso en que dos estructuras pueden entrar en relación
+sin colapsar su identidad ni producir una contradicción insoluble.
+
+Por eso, Compatibilidad Estructural funciona como filtro previo de operaciones como:
+
+- Comunicación Estructural,
+- Intermediación de Estructuras,
+- adaptación estructural,
+- y, en general, integración entre estructuras explícitas.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Compatibilidad Estructural depende, como base mínima, de los siguientes conceptos:
+
+5.1) Principio de Integrabilidad Universal
+La noción central de compatibilidad proviene del PIU. No se define como similitud textual,
+sino como relación verificable entre invariantes, tipos, restricciones y objetivos
+operativos.
+
+5.2) Criterios de Pertenencia
+La compatibilidad requiere pruebas auditables para decidir si dos estructuras pueden
+relacionarse sin perder identidad.
+
+5.3) Rol Operativo
+La compatibilidad no se decide solo por contenido. También se decide por la función que
+cada estructura cumple como forma.
+
+5.4) Lenguaje de Estructuras
+La compatibilidad solo puede evaluarse con claridad si la estructura ha sido expresada de
+modo suficientemente explícito.
+
+5.5) Comunicación Estructural
+La compatibilidad es condición para que la Comunicación Estructural sea robusta y no mera
+circulación superficial de palabras.
+
+5.6) Superficie de Comunicación
+La compatibilidad necesita una interfaz tratable donde lo que la estructura ofrece, requiere,
+restringe y valida quede suficientemente expuesto.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Compatibilidad Estructural debe preservar al menos los siguientes
+invariantes:
+
+6.1) Invariante de explicitud
+La compatibilidad debe poder justificarse de forma explícita. No basta con decir que dos
+estructuras “encajan”.
+
+6.2) Invariante de verificabilidad
+La compatibilidad debe poder examinarse mediante criterios revisables y no por impresión
+subjetiva.
+
+6.3) Invariante de no trivialidad
+Compatibilidad no significa identidad total. Dos estructuras pueden ser compatibles sin ser
+idénticas.
+
+6.4) Invariante de no arbitrariedad
+La compatibilidad no puede decretarse por conveniencia narrativa. Debe seguir reglas.
+
+6.5) Invariante de preservación identitaria
+La compatibilidad no debe comprarse al precio de destruir la identidad de una de las
+estructuras implicadas.
+
+6.6) Invariante de condicionalidad
+La compatibilidad no se presume universal. Siempre depende de condiciones explícitas.
+
+===============================================================================
+7) COMPONENTES DE LA COMPATIBILIDAD
+===============================================================================
+
+Compatibilidad Estructural debe poder analizarse, al menos, en los siguientes componentes:
+
+7.1) Compatibilidad de invariantes
+No debe existir una contradicción directa entre los invariantes de ambas estructuras.
+Si existe, debe poder resolverse mediante refinamiento, separación o versión explícita.
+
+7.2) Compatibilidad de dominio de variación
+Lo que una estructura permite cambiar no debe destruir la identidad de la otra al componerlas
+o alinearlas.
+
+7.3) Compatibilidad de rol operativo
+Debe existir una relación funcional tratable entre ambas estructuras:
+cooperación, composición, uso mutuo o alineación hacia un objetivo compatible.
+
+7.4) Compatibilidad de tipos y relaciones
+Las entidades, tipos y relaciones de una estructura deben poder mapearse a las de la otra,
+directamente o mediante adaptadores explícitos.
+
+7.5) Compatibilidad de validación
+Los criterios de corrección no deben producir un conflicto irresoluble sobre el mismo objeto,
+salvo que el conflicto quede declarado como tal.
+
+7.6) Compatibilidad de superficie
+Debe existir una interfaz suficiente para exponer lo que cada estructura ofrece, requiere,
+limita y permite alinear.
+
+===============================================================================
+8) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Compatibilidad Estructural admite variación sin perder identidad en varios niveles.
+
+8.1) Variación de grado
+La compatibilidad puede ser más fuerte o más débil, siempre que siga siendo verificable y no
+meramente intuitiva.
+
+8.2) Variación de contexto
+Dos estructuras pueden ser compatibles en un contexto operativo y no serlo en otro.
+
+8.3) Variación de soporte
+La compatibilidad puede evaluarse entre texto, grafo, prompt, contrato, artefacto o cualquier
+otra proyección estructural explícita.
+
+8.4) Variación de mediación
+La compatibilidad puede ser directa o requerir adaptadores e intermediación.
+
+8.5) Variación de granularidad
+Dos estructuras pueden no coincidir al mismo nivel de detalle, pero seguir siendo compatibles
+si existe una relación tratable entre núcleo y detalle.
+
+Regla de borde:
+
+Puede variar el grado, la vía y el soporte de la compatibilidad, pero no puede desaparecer la
+posibilidad verificable de articulación sin que el concepto se rompa.
+
+===============================================================================
+9) DISCRIMINADORES
+===============================================================================
+
+Compatibilidad Estructural se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) No es similitud textual
+Usar palabras parecidas no basta para declarar compatibilidad.
+
+9.2) No es afinidad temática
+Hablar “de lo mismo” no garantiza que dos estructuras puedan componerse.
+
+9.3) No es identidad total
+Dos estructuras compatibles no tienen por qué ser iguales.
+
+9.4) No es traducción automática
+Que dos expresiones puedan mapearse superficialmente no implica que preserven invariantes.
+
+9.5) No es compatibilidad imaginada
+Si la compatibilidad no puede exponerse, justificarse y revisarse, no es Compatibilidad
+Estructural en sentido fuerte.
+
+===============================================================================
+10) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Compatibilidad Estructural cumple la función de condición de
+viabilidad de toda transferencia estructural robusta.
+
+Su lugar puede describirse así:
+
+- Lenguaje de Estructuras = hace explícita la identidad.
+- Compatibilidad Estructural = decide si dos estructuras pueden articularse.
+- Comunicación Estructural = realiza la transferencia cuando esa articulación es viable.
+- Intermediación de Estructuras = resuelve el caso mediado cuando la compatibilidad no es
+  inmediata en superficie.
+- Adaptador Estructural = ejecuta localmente parte de esa resolución.
+
+Dicho de forma compacta:
+
+Compatibilidad Estructural decide si la transferencia estructural es posible en términos
+controlados.
+
+===============================================================================
+11) RELACIÓN CON EL PRINCIPIO DE INTEGRABILIDAD UNIVERSAL
+===============================================================================
+
+El vínculo con el PIU es central.
+
+El PIU afirma que la integración solo es posible si existe compatibilidad explícita entre
+estructuras y si la interfaz de integración es también explícita.
+
+Dentro de Com-Est, Compatibilidad Estructural hereda esa lógica y la aplica al dominio
+particular de la transferencia estructural.
+
+Por eso, este concepto no debe formular una noción de compatibilidad distinta o paralela al
+PIU. Debe refinarla para el problema de comunicación y mediación entre estructuras.
+
+===============================================================================
+12) RELACIÓN CON LENGUAJE DE ESTRUCTURAS
+===============================================================================
+
+La compatibilidad no puede evaluarse correctamente si las estructuras permanecen implícitas.
+
+El Lenguaje de Estructuras hace visible:
+
+- lo que una estructura es,
+- lo que no puede cambiar,
+- lo que puede variar,
+- lo que hace como forma,
+- y cómo se valida.
+
+Compatibilidad Estructural usa esa explicitación para decidir si dos estructuras pueden
+relacionarse sin colapsar identidad.
+
+Por eso, Lenguaje de Estructuras no sustituye la compatibilidad.
+La hace evaluable.
+
+===============================================================================
+13) RELACIÓN CON COMUNICACIÓN ESTRUCTURAL
+===============================================================================
+
+La Comunicación Estructural depende de Compatibilidad Estructural.
+
+Sin compatibilidad, la comunicación puede seguir existiendo como circulación de signos,
+pero ya no como transferencia estructural robusta.
+
+La compatibilidad funciona como criterio de paso:
+
+- si existe compatibilidad suficiente, la comunicación estructural puede intentarse;
+- si no existe, la teoría debe declarar incompatibilidad, conflicto o necesidad de mayor
+  reformulación.
+
+Por eso, Compatibilidad Estructural no es una nota secundaria del paquete.
+Es un filtro constitutivo.
+
+===============================================================================
+14) RELACIÓN CON INTERMEDIACIÓN DE ESTRUCTURAS
+===============================================================================
+
+La Intermediación de Estructuras no elimina la necesidad de compatibilidad.
+La presupone.
+
+El mediador no crea compatibilidad desde la nada.
+Administra una compatibilidad posible o parcial entre dos estructuras.
+
+Cuando la compatibilidad no es inmediata, la intermediación puede:
+
+- hacer visible el desajuste,
+- introducir adaptadores,
+- alinear vocabularios,
+- reorganizar relaciones,
+- y reemitir una estructura tratable.
+
+Pero si no existe ningún camino verificable de compatibilidad, la intermediación no debe
+presentarse como transferencia legítima.
+
+===============================================================================
+15) RELACIÓN CON ADAPTADOR ESTRUCTURAL
+===============================================================================
+
+El Adaptador Estructural opera dentro de los límites de la Compatibilidad Estructural.
+
+Su función no es forzar equivalencias arbitrarias, sino construir puentes explícitos entre
+formatos, tipos, vocabularios o relaciones cuando ya existe una base tratable de
+compatibilidad.
+
+Por eso, el adaptador depende de la compatibilidad.
+No la reemplaza.
+
+===============================================================================
+16) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: texto y grafo
+Un texto estratégico y un grafo operativo pueden ser compatibles si expresan el mismo núcleo
+relacional, aunque usen superficies distintas.
+
+Ejemplo 2: profesor y alumno
+Un contenido disciplinar complejo y su versión pedagógica pueden ser compatibles si la
+simplificación no destruye los invariantes centrales del concepto.
+
+Ejemplo 3: humano e IA
+Una intención humana y un prompt formalizado pueden ser compatibles si la estructura del
+prompt preserva objetivos, restricciones y criterio de salida.
+
+Ejemplo 4: dos nodos temáticamente parecidos
+Dos nodos sobre “mercado” pueden ser incompatibles si uno trata mercado como sistema social
+y otro como técnica puntual, sin puente explícito entre roles e invariantes.
+
+Ejemplo 5: adaptación de plataforma
+Una misma estructura de campaña puede ser compatible con varias plataformas si existe un
+núcleo preservable y si las adaptaciones no destruyen su lógica operativa.
+
+===============================================================================
+17) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Compatibilidad Estructural debería poder
+exponer al menos lo siguiente:
+
+S1) Qué estructuras compara
+Debe declarar entre qué estructuras se está evaluando compatibilidad.
+
+S2) Qué dimensiones evalúa
+Debe declarar si la compatibilidad se evalúa en invariantes, variación, rol, tipos,
+relaciones, validación o superficie.
+
+S3) Qué grado de compatibilidad detecta
+Debe declarar si la compatibilidad es suficiente, parcial, conflictiva o inexistente.
+
+S4) Qué conflictos encuentra
+Debe declarar qué contradicciones o tensiones impiden una articulación plena.
+
+S5) Qué puentes admite
+Debe declarar si la compatibilidad requiere adaptadores, refinamiento o intermediación.
+
+S6) Qué resultado produce
+Debe declarar si habilita comunicación, integración, coexistencia por versiones o rechazo.
+
+===============================================================================
+18) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+18.1) Mostrar entre qué estructuras se evaluó compatibilidad.
+18.2) Explicitar por qué son compatibles o incompatibles.
+18.3) Distinguir similitud verbal de compatibilidad real.
+18.4) Mostrar qué dimensiones estructurales fueron comparadas.
+18.5) Indicar si se requieren adaptadores o intermediación.
+18.6) Justificar por qué la articulación resultante preserva identidad suficiente.
+
+Una mala aplicación se detecta cuando:
+
+- se declara compatibilidad solo por parecido de palabras,
+- no se muestran invariantes ni rol operativo,
+- se omiten conflictos de validación,
+- se finge integración donde solo hay cercanía temática,
+- o se usa compatibilidad como impresión subjetiva no revisable.
+
+===============================================================================
+19) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Compatibilidad Estructural se entiende mejor
+como bridge_node dentro del paquete Com-Est.
+
+No conviene ubicarlo como simple propiedad adjetiva de otros nodos.
+No conviene reducirlo a similitud semántica.
+No conviene tratarlo como noción independiente del PIU.
+
+La ubicación más adecuada es:
+
+- como condición estructural de viabilidad para la Comunicación Estructural,
+- como base de evaluación para la Intermediación de Estructuras,
+- y como marco límite dentro del cual los Adaptadores Estructurales pueden operar
+  legítimamente.
+
+===============================================================================
+20) FÓRMULA DE CIERRE
+===============================================================================
+
+Compatibilidad Estructural es la relación verificable por la cual dos estructuras pueden
+articularse, alinearse o transferirse sin contradicción irresoluble respecto a su identidad
+operativa.
+
+Fórmula final:
+
+Compatibilidad Estructural = condición explícita de articulación legítima entre estructuras.
+
+]"}
+
+
+
+{"address":"def/Com-Est-Superficie-de-Comunicacion","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+SUPERFICIE DE COMUNICACION
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Superficie de Comunicación dentro del paquete Com-Est de la Teoría de Máquinas
+Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Superficie de Comunicación.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Superficie de Comunicación no se plantea aquí como simple “canal” en sentido físico, ni como
+mera apariencia textual de una estructura. Se plantea como la interfaz explícita por la cual una
+estructura se presenta para ser recibida, interpretada, transferida, adaptada o reemitida dentro
+de un proceso de Comunicación Estructural.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Superficie de Comunicación se introduce para resolver un problema específico:
+
+¿Cómo puede una estructura entrar en una relación de transferencia sin depender de contexto
+privado, supuestos implícitos o conocimiento autobiográfico del emisor?
+
+El concepto busca nombrar la interfaz explícita en la que una estructura expone lo necesario
+para ser tratada por otro sistema.
+
+Su finalidad es hacer posible que la estructura no circule solo como una formulación verbal
+vaga, sino como una entidad tratable que declara de manera suficientemente clara:
+
+- qué ofrece,
+- qué requiere,
+- qué preserva,
+- qué restringe,
+- qué lenguaje interno utiliza,
+- y qué puentes admite.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Superficie de Comunicación es la interfaz explícita y portable por la cual una estructura se
+presenta como tratable dentro de un proceso de Comunicación Estructural, declarando de forma
+suficiente lo que ofrece, lo que requiere, sus restricciones, sus tipos, sus alias o puentes
+de adaptación y las condiciones mínimas bajo las cuales puede ser recibida, alineada o
+reemitida sin colapsar su identidad operativa.
+
+Fórmula breve:
+
+Superficie de Comunicación = interfaz explícita de entrada y salida de una estructura.
+
+Fórmula funcional:
+
+Superficie de Comunicación = forma en que una estructura se expone para poder circular entre
+sistemas sin degradarse a mera semejanza verbal.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+No basta con que una estructura exista; para que pueda entrar en comunicación estructural debe
+exponer una interfaz tratable.
+
+Eso significa que la estructura no puede quedar apoyada únicamente en:
+
+- memoria del autor,
+- ejemplos privados,
+- contexto implícito,
+- intuiciones no formuladas,
+- o vocabulario ambiguo.
+
+Debe presentarse mediante una superficie suficientemente explícita para que otro sistema pueda
+hacer algo con ella.
+
+Por eso, la Superficie de Comunicación no es un detalle secundario del paquete Com-Est. Es una
+condición de operabilidad.
+
+Una estructura sin superficie explícita puede existir internamente, pero no puede participar de
+forma robusta en procesos de comunicación, intermediación, adaptación o integración.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de exposición tratable de una estructura para su circulación
+entre sistemas.
+
+No delimita cualquier forma visible.
+No delimita cualquier texto.
+No delimita cualquier representación superficial.
+No delimita cualquier canal material.
+
+Delimita, de manera más precisa, el caso en que una estructura:
+
+- se vuelve explícita,
+- se presenta como tratable,
+- hace visible lo necesario para su transferencia,
+- y permite que otro sistema la reciba sin depender de inferencias arbitrarias.
+
+Por eso, la Superficie de Comunicación se ubica en la intersección entre:
+
+- Lenguaje de Estructuras,
+- Comunicación Estructural,
+- Compatibilidad Estructural,
+- Intermediación de Estructuras,
+- Adaptadores,
+- e Integrabilidad.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Superficie de Comunicación depende, como base mínima, de los siguientes conceptos:
+
+5.1) Lenguaje de Estructuras
+La superficie solo puede existir si hay una forma de expresar estructuralmente la identidad que
+debe ponerse en circulación.
+
+5.2) Principio de Integrabilidad Universal
+La noción de superficie se apoya directamente en la idea de superficie explícita exigida por el
+PIU para que una estructura pueda ser alineada, adaptada e integrada.
+
+5.3) Comunicación Estructural
+La superficie es una condición de entrada y salida para la Comunicación Estructural.
+
+5.4) Compatibilidad Estructural
+La superficie hace visible lo necesario para que la compatibilidad pueda evaluarse.
+
+5.5) Intermediación de Estructuras
+La intermediación requiere una superficie tratable desde la cual recibir y hacia la cual
+reemitiir una estructura.
+
+5.6) Adaptador Estructural
+El adaptador opera sobre una superficie explícita; sin ella, carece de punto controlado de
+acoplamiento.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Superficie de Comunicación debe preservar al menos los siguientes invariantes:
+
+6.1) Invariante de explicitud
+La superficie debe exponer de forma explícita lo suficiente para que la estructura pueda ser
+tratada por otro sistema.
+
+6.2) Invariante de portabilidad
+La superficie debe poder operar fuera del contexto mental original del autor.
+
+6.3) Invariante de no sustitución
+La superficie no reemplaza la estructura; la expone de forma tratable.
+
+6.4) Invariante de preservación identitaria
+La superficie debe presentar la estructura sin deformar arbitrariamente su núcleo operativo.
+
+6.5) Invariante de operatividad
+La superficie no debe ser puramente ornamental. Debe servir para recepción, alineación,
+transferencia, adaptación o reconstrucción.
+
+6.6) Invariante de trazabilidad
+Debe poder revisarse qué parte de la estructura quedó expuesta, bajo qué restricciones y con qué
+posibilidades de puente.
+
+===============================================================================
+7) COMPONENTES DE LA SUPERFICIE
+===============================================================================
+
+Para que una Superficie de Comunicación sea suficientemente fuerte, debe poder expresar al menos
+los siguientes componentes:
+
+7.1) Lo que proporciona
+Qué conceptos, procedimientos, relaciones, validaciones o capacidades pone a disposición de otros
+sistemas.
+
+7.2) Lo que requiere
+Qué dependencias, presupuestos, tipos, condiciones o estructuras externas necesita para operar
+correctamente.
+
+7.3) Restricciones
+Qué no puede violarse sin romper identidad, coherencia o función de la estructura.
+
+7.4) Tipos y relaciones
+Qué entidades, clases, relaciones o categorías utiliza como base interna de organización.
+
+7.5) Alias y puentes
+Cómo puede alinearse con vocabularios, formatos o expresiones externas sin colapsar significado.
+
+7.6) Condiciones de recepción
+Qué nivel mínimo de compatibilidad, inteligibilidad o soporte necesita para ser tratada por otro
+sistema.
+
+7.7) Condiciones de reemisión
+Qué debe preservarse para que una reexpresión siga contando como salida legítima de la misma
+estructura.
+
+===============================================================================
+8) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Superficie de Comunicación admite variación sin perder identidad en varios niveles.
+
+8.1) Variación de soporte
+La superficie puede manifestarse como texto, grafo, contrato, prompt, artefacto, tabla,
+diagrama, interfaz computacional u otra forma proyectada.
+
+8.2) Variación de idioma
+La misma superficie puede presentarse en distintas lenguas naturales si preserva la estructura
+que expone.
+
+8.3) Variación de granularidad
+La superficie puede ser más comprimida o más expandida, siempre que siga exponiendo lo necesario
+para tratar la estructura de forma legítima.
+
+8.4) Variación de dominio
+La superficie puede operar en educación, diseño, publicidad, análisis, IA, integración de
+conocimiento o adaptación contextual.
+
+8.5) Variación de mediación
+La superficie puede usarse en comunicación directa o en comunicación mediada por adaptadores e
+intermediadores.
+
+Regla de borde:
+
+Puede cambiar el soporte, el idioma, el nivel de detalle o el contexto, pero no puede
+desaparecer la capacidad de exponer tratablemente la estructura sin que el concepto se rompa.
+
+===============================================================================
+9) DISCRIMINADORES
+===============================================================================
+
+Superficie de Comunicación se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) No es la estructura completa
+La superficie expone la estructura; no agota necesariamente toda su profundidad interna.
+
+9.2) No es simple apariencia textual
+Que algo esté escrito no significa que posea superficie de comunicación suficiente.
+
+9.3) No es mero canal físico
+El medio material de transmisión no equivale por sí solo a la interfaz estructural que vuelve
+tratables los contenidos.
+
+9.4) No es resumen libre
+Resumir una estructura no garantiza haber expuesto una superficie suficiente para transferirla.
+
+9.5) No es decoración de salida
+La superficie no es estilo visual ni forma estética añadida. Es condición funcional de
+circulación estructural.
+
+===============================================================================
+10) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Superficie de Comunicación cumple la función de interfaz explícita
+que vuelve tratable una estructura para su circulación entre sistemas.
+
+Su lugar puede describirse así:
+
+- Lenguaje de Estructuras = hace portable la identidad.
+- Superficie de Comunicación = expone esa identidad en una interfaz tratable.
+- Compatibilidad Estructural = decide si otra estructura puede articularse con ella.
+- Comunicación Estructural = ejecuta la transferencia.
+- Intermediación de Estructuras = resuelve el caso mediado.
+- Adaptador Estructural = opera localmente sobre la superficie para alinear expresiones.
+
+Dicho de forma compacta:
+
+La Superficie de Comunicación es el punto en el que la estructura se vuelve operable para otros.
+
+===============================================================================
+11) RELACIÓN CON EL PRINCIPIO DE INTEGRABILIDAD UNIVERSAL
+===============================================================================
+
+La relación con el PIU es directa.
+
+El PIU exige que toda estructura integrable exponga una superficie explícita con lo que
+proporciona, lo que requiere, sus restricciones, sus tipos y sus reglas de alineación.
+
+Superficie de Comunicación hereda esa exigencia y la aplica al problema particular de la
+transferencia estructural.
+
+Por eso, este concepto no inventa una noción independiente de superficie. Refina, para el
+dominio de Com-Est, la lógica general de superficie explícita exigida por el PIU.
+
+===============================================================================
+12) RELACIÓN CON LENGUAJE DE ESTRUCTURAS
+===============================================================================
+
+Lenguaje de Estructuras y Superficie de Comunicación no son sinónimos.
+
+Lenguaje de Estructuras nombra el medio profundo que permite expresar una identidad de manera
+portable.
+
+Superficie de Comunicación nombra la forma explícita en la que esa identidad se presenta para
+ser recibida, alineada y transferida.
+
+Dicho de otro modo:
+
+- Lenguaje de Estructuras hace posible la expresabilidad estructural.
+- Superficie de Comunicación vuelve esa expresabilidad operable en un intercambio concreto.
+
+===============================================================================
+13) RELACIÓN CON COMUNICACIÓN ESTRUCTURAL
+===============================================================================
+
+La Comunicación Estructural depende de la existencia de una Superficie de Comunicación.
+
+Sin superficie explícita, puede haber circulación de signos, pero no transferencia robusta de
+estructura.
+
+La superficie funciona como punto de ingreso y egreso:
+
+- por ella la estructura se expone,
+- por ella otro sistema la recibe,
+- y por ella puede evaluarse qué fue realmente transferido.
+
+Por eso, la Superficie de Comunicación no es un anexo técnico. Es parte constitutiva del
+proceso de comunicación estructural.
+
+===============================================================================
+14) RELACIÓN CON COMPATIBILIDAD ESTRUCTURAL
+===============================================================================
+
+La compatibilidad entre estructuras no puede evaluarse correctamente si las superficies no hacen
+visible lo que cada estructura ofrece, requiere, restringe y tipa.
+
+La Superficie de Comunicación no decide por sí sola la compatibilidad, pero la hace evaluable.
+
+Sin superficie explícita, la compatibilidad queda reducida a intuición subjetiva o a cercanía
+verbal.
+
+===============================================================================
+15) RELACIÓN CON INTERMEDIACIÓN DE ESTRUCTURAS
+===============================================================================
+
+La Intermediación de Estructuras requiere una Superficie de Comunicación de entrada y una de
+salida.
+
+El intermediador necesita:
+
+- una superficie desde la cual recibir la estructura,
+- una superficie sobre la cual operar,
+- y una superficie hacia la cual reemitirla.
+
+Por eso, la intermediación depende de superficies tratables y no puede reducirse a una
+transformación oculta o improvisada.
+
+===============================================================================
+16) RELACIÓN CON ADAPTADOR ESTRUCTURAL
+===============================================================================
+
+El Adaptador Estructural opera sobre la Superficie de Comunicación.
+
+Su función consiste en construir puentes explícitos entre vocabularios, tipos, relaciones o
+formatos cuando existe desajuste entre superficies.
+
+Por eso, el adaptador no reemplaza la superficie.
+La usa como punto controlado de acoplamiento.
+
+===============================================================================
+17) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: prompt
+Un prompt bien construido funciona como superficie de comunicación entre una intención humana y
+un sistema de IA, porque expone objetivos, restricciones y formato esperado.
+
+Ejemplo 2: grafo
+Un grafo operativo funciona como superficie de comunicación cuando hace visible una estructura en
+términos de nodos, relaciones y dependencias tratables.
+
+Ejemplo 3: contrato
+Un contrato estructurado funciona como superficie cuando declara condiciones, roles,
+restricciones y obligaciones de manera portable.
+
+Ejemplo 4: explicación pedagógica
+Una explicación docente puede funcionar como superficie de comunicación si no solo simplifica,
+sino que expone el núcleo estructural del contenido de manera tratable para el alumno.
+
+Ejemplo 5: artefacto cognitivo
+Un artefacto que resume la arquitectura de un sistema funciona como superficie si permite a otro
+agente reconstruir de forma tratable la organización esencial del sistema.
+
+===============================================================================
+18) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Superficie de Comunicación debería poder exponer
+al menos lo siguiente:
+
+S1) Qué estructura presenta
+Debe declarar qué estructura, o qué tipo de estructura, está siendo expuesta.
+
+S2) Qué ofrece
+Debe declarar qué capacidades, relaciones, operaciones o validaciones pone a disposición.
+
+S3) Qué requiere
+Debe declarar qué dependencias, presupuestos o condiciones asume.
+
+S4) Qué restringe
+Debe declarar qué no puede violarse sin romper identidad.
+
+S5) Qué tipos utiliza
+Debe declarar qué entidades y relaciones forman parte de su lenguaje canónico interno.
+
+S6) Qué puentes admite
+Debe declarar qué alias, adaptadores o alineaciones controladas pueden utilizarse.
+
+S7) Cómo circula
+Debe declarar bajo qué formato, soporte o interfaz puede entrar y salir del proceso.
+
+===============================================================================
+19) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+19.1) Mostrar cómo una estructura se vuelve tratable para otros sistemas.
+19.2) Distinguir superficie explícita de simple formulación textual.
+19.3) Mostrar qué ofrece, qué requiere y qué restringe la estructura expuesta.
+19.4) Hacer evaluable la compatibilidad con otras estructuras.
+19.5) Servir como punto real de recepción, alineación o reemisión.
+19.6) Mantener identidad suficiente sin depender de contexto oculto.
+
+Una mala aplicación se detecta cuando:
+
+- se llama superficie a cualquier texto visible,
+- no se exponen restricciones ni tipos,
+- la estructura sigue dependiendo de conocimiento privado del autor,
+- se confunde estilo de presentación con interfaz operativa,
+- o la supuesta superficie no permite ninguna forma de tratamiento estructural.
+
+===============================================================================
+20) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Superficie de Comunicación se entiende mejor como
+bridge_node dentro del paquete Com-Est.
+
+No conviene ubicarlo como simple accesorio de presentación.
+No conviene reducirlo a formato técnico.
+No conviene tratarlo como sinónimo de Lenguaje de Estructuras.
+
+La ubicación más adecuada es:
+
+- como interfaz explícita de entrada y salida de estructuras,
+- como refinamiento del problema general de superficie exigido por la integrabilidad,
+- y como condición práctica para que la Comunicación Estructural, la Intermediación y los
+  Adaptadores puedan operar de forma legítima.
+
+===============================================================================
+21) FÓRMULA DE CIERRE
+===============================================================================
+
+Superficie de Comunicación es la interfaz explícita por la cual una estructura se vuelve
+tratable para otros sistemas dentro de un proceso de transferencia estructural.
+
+Fórmula final:
+
+Superficie de Comunicación = exposición portable y operable de una estructura para su
+circulación entre sistemas.
+
+]"}
+{"address":"def/Com-Est-Adaptador-Estructural","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+ADAPTADOR ESTRUCTURAL
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Adaptador Estructural dentro del paquete Com-Est de la Teoría de Máquinas
+Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Adaptador Estructural.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Adaptador Estructural no se plantea aquí como sinónimo de traductor verbal, ni como un
+convertidor arbitrario de formatos. Se plantea como un mecanismo local de reexpresión
+controlada que opera cuando dos superficies o dos expresiones estructurales presentan un
+desajuste tratable y necesitan un puente explícito para alinearse sin perder identidad
+operativa.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Adaptador Estructural se introduce para resolver un problema puntual pero decisivo:
+
+¿Qué mecanismo concreto permite pasar de una expresión estructural a otra cuando existe
+compatibilidad suficiente entre ambas, pero no identidad inmediata de vocabulario, tipos,
+relaciones, formato, soporte o interfaz?
+
+El concepto busca nombrar la pieza local que hace operativo el puente entre dos expresiones
+heterogéneas.
+
+Su finalidad es permitir que una estructura pueda ser:
+
+- recibida en una superficie,
+- reinterpretada bajo reglas explícitas,
+- ajustada en sus puntos de desajuste,
+- y reemitida en otra superficie,
+
+sin que el proceso se convierta en deformación arbitraria, pérdida de identidad o simple
+reescritura estética.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Adaptador Estructural es el mecanismo local de mapeo, alineación y reexpresión que permite
+tratar un desajuste entre dos expresiones estructurales compatibles, convirtiendo tipos,
+relaciones, alias, restricciones, formatos o interfaces de una forma controlada para que una
+misma estructura pueda circular, integrarse o reconstruirse en un nuevo contexto sin perder
+arbitrariamente su núcleo operativo.
+
+Fórmula breve:
+
+Adaptador Estructural = mecanismo local de puente entre expresiones estructurales.
+
+Fórmula funcional:
+
+Adaptador Estructural = operador explícito de conversión controlada entre superficies
+compatibles.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+La Intermediación de Estructuras requiere, en muchos casos, una pieza técnica o conceptual
+capaz de resolver localmente los desajustes entre dos expresiones de una misma estructura.
+
+Esa pieza no puede operar como traductor libre.
+Debe actuar bajo tres restricciones principales:
+
+- debe existir una base de compatibilidad estructural,
+- debe preservarse un núcleo identitario explícito,
+- y la transformación debe ser trazable y justificable.
+
+Por eso, el Adaptador Estructural no crea compatibilidad desde la nada.
+No inventa equivalencias arbitrarias.
+No sustituye la estructura por otra.
+
+Su función es más precisa:
+
+administrar el paso entre dos expresiones cuando el desajuste es tratable.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de conversión estructural local y controlada.
+
+No delimita cualquier cambio de formato.
+No delimita cualquier resumen.
+No delimita cualquier traducción de palabras.
+No delimita cualquier edición de estilo.
+No delimita cualquier reinterpretación creativa.
+
+Delimita, de manera más precisa, el caso en que existe una estructura que debe conservarse,
+pero sus expresiones de origen y destino no coinciden directamente en superficie, y hace falta
+un mecanismo explícito para construir el paso entre ambas.
+
+Por eso, el Adaptador Estructural pertenece al dominio de:
+
+- reexpresión estructural,
+- alineación local,
+- conversión de superficies,
+- resolución de desajustes tratables,
+- y ejecución localizada de la intermediación.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Adaptador Estructural depende, como base mínima, de los siguientes conceptos:
+
+5.1) Compatibilidad Estructural
+El adaptador solo opera legítimamente si existe una base tratable de compatibilidad entre las
+estructuras o superficies implicadas.
+
+5.2) Superficie de Comunicación
+El adaptador requiere una superficie de entrada y una superficie de salida sobre las que pueda
+realizar su trabajo de mapeo y reexpresión.
+
+5.3) Intermediación de Estructuras
+El adaptador puede entenderse como una de las implementaciones locales típicas de la
+intermediación.
+
+5.4) Lenguaje de Estructuras
+El adaptador necesita que la identidad estructural esté suficientemente explicitada para saber
+qué puede transformar y qué no puede alterar.
+
+5.5) Comunicación Estructural
+El adaptador existe al servicio de procesos de transferencia estructural más amplios.
+
+5.6) Integrabilidad
+El adaptador hereda del problema general de integración la necesidad de tratar tipos,
+restricciones, alias, relaciones y compatibilidad sin depender de contexto oculto.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Adaptador Estructural debe preservar al menos los siguientes invariantes:
+
+6.1) Invariante de localización
+El adaptador resuelve un desajuste localizado. No redefine toda la ontología por sí mismo.
+
+6.2) Invariante de preservación identitaria
+El adaptador no puede alterar arbitrariamente el núcleo operativo de la estructura.
+
+6.3) Invariante de explicitud
+Las reglas de adaptación deben poder declararse y revisarse.
+
+6.4) Invariante de no arbitrariedad
+No toda equivalencia superficial es aceptable. El adaptador debe operar bajo criterios
+estructurales explícitos.
+
+6.5) Invariante de trazabilidad
+Debe poder revisarse qué fue mapeado, qué fue convertido, qué alias se usaron y qué se
+mantuvo constante.
+
+6.6) Invariante de subordinación
+El adaptador depende de una compatibilidad previa o parcialmente construible. No la reemplaza.
+
+6.7) Invariante de operatividad
+La salida producida por el adaptador debe seguir siendo tratable para el sistema receptor.
+
+===============================================================================
+7) COMPONENTES DEL ADAPTADOR
+===============================================================================
+
+Para que un Adaptador Estructural sea suficientemente fuerte, debe poder expresar al menos los
+siguientes componentes:
+
+7.1) Entrada estructural
+Qué recibe exactamente el adaptador: tipos, relaciones, restricciones, alias, formato o
+superficie de origen.
+
+7.2) Núcleo preservable
+Qué elementos no deben alterarse sin romper identidad.
+
+7.3) Reglas de mapeo
+Cómo se convierten tipos, relaciones, unidades de organización, nombres o convenciones.
+
+7.4) Reglas de alias
+Qué equivalencias controladas se aceptan entre vocabularios o etiquetas distintas.
+
+7.5) Restricciones de adaptación
+Qué cambios están prohibidos aunque hagan la salida más cómoda o más familiar.
+
+7.6) Superficie de salida
+En qué forma debe quedar la estructura para ser tratable por el receptor.
+
+7.7) Criterio de éxito
+Qué condiciones debe cumplir la salida para seguir contando como reexpresión legítima de la
+misma estructura.
+
+===============================================================================
+8) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Adaptador Estructural admite variación sin perder identidad en varios niveles.
+
+8.1) Variación de soporte
+Puede operar entre texto, grafo, prompt, contrato, artefacto, diagrama, tabla o cualquier otra
+superficie explícita.
+
+8.2) Variación de vocabulario
+Puede alinear términos distintos que desempeñan el mismo papel estructural bajo reglas
+controladas.
+
+8.3) Variación de tipificación
+Puede convertir entidades o relaciones entre sistemas con taxonomías distintas si existe
+mapeo explícito.
+
+8.4) Variación de granularidad
+Puede comprimir o expandir ciertos niveles de detalle siempre que no se pierda el núcleo
+operativo.
+
+8.5) Variación de contexto
+Puede adaptar una estructura a una plataforma, audiencia o sistema receptor distinto si las
+restricciones de identidad se conservan.
+
+Regla de borde:
+
+Puede cambiar formato, terminología, granularidad o interfaz, pero no puede transformar la
+estructura en otra sin declarar ruptura de identidad.
+
+===============================================================================
+9) DISCRIMINADORES
+===============================================================================
+
+Adaptador Estructural se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) No es traductor verbal genérico
+Traducir palabras entre idiomas no basta para constituir un Adaptador Estructural.
+
+9.2) No es simple convertidor de formato
+Cambiar de PDF a TXT, o de texto a tabla, no basta si no hay preservación de estructura
+operativa.
+
+9.3) No es intermediación completa
+La Intermediación de Estructuras nombra el fenómeno general del puente; el adaptador nombra una
+pieza local de ese proceso.
+
+9.4) No es compatibilidad
+La compatibilidad decide si el paso es viable; el adaptador ejecuta una parte localizada de ese
+paso.
+
+9.5) No es superficie de comunicación
+La superficie expone la estructura; el adaptador opera sobre la superficie.
+
+9.6) No es reescritura libre
+Si el mecanismo altera objetivos, restricciones o invariantes sin criterio explícito, ya no es
+adaptador estructural en sentido fuerte.
+
+===============================================================================
+10) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Adaptador Estructural cumple la función de operador local de
+alineación y reexpresión entre dos superficies o expresiones estructurales.
+
+Su lugar puede describirse así:
+
+- Lenguaje de Estructuras = vuelve portable la identidad.
+- Superficie de Comunicación = expone la estructura de forma tratable.
+- Compatibilidad Estructural = decide si existe un camino legítimo de articulación.
+- Intermediación de Estructuras = nombra el fenómeno general del puente.
+- Adaptador Estructural = ejecuta localmente una parte del puente.
+
+Dicho de forma compacta:
+
+El Adaptador Estructural es la pieza que hace operable la intermediación en puntos concretos de
+desajuste.
+
+===============================================================================
+11) RELACIÓN CON COMPATIBILIDAD ESTRUCTURAL
+===============================================================================
+
+La relación con Compatibilidad Estructural es constitutiva.
+
+El adaptador depende de una base de compatibilidad.
+No debe inventarla por decreto.
+
+Eso significa que el adaptador solo opera legítimamente cuando existe alguna de estas
+condiciones:
+
+- compatibilidad directa suficiente,
+- compatibilidad parcial que puede completarse por mapeo,
+- o compatibilidad condicionada que requiere alineación explícita.
+
+Si no existe ningún camino verificable de compatibilidad, el adaptador no debe presentarse como
+solución válida. Debe declararse incompatibilidad, conflicto o necesidad de reformulación más
+profunda.
+
+===============================================================================
+12) RELACIÓN CON SUPERFICIE DE COMUNICACION
+===============================================================================
+
+La relación con Superficie de Comunicación también es constitutiva.
+
+El adaptador necesita una superficie de entrada suficientemente explícita para recibir la
+estructura y una superficie de salida suficientemente tratable para reemitirla.
+
+Sin superficie explícita, el adaptador carece de:
+
+- punto de recepción,
+- unidad tratable de intervención,
+- y criterio claro de salida.
+
+Por eso, el adaptador no opera sobre la estructura “en abstracto”, sino sobre superficies
+específicas en las que la estructura se presenta.
+
+===============================================================================
+13) RELACIÓN CON INTERMEDIACION DE ESTRUCTURAS
+===============================================================================
+
+El Adaptador Estructural puede entenderse como implementación local de la Intermediación de
+Estructuras.
+
+La intermediación es más amplia: incluye recepción, alineación, tratamiento y reemisión.
+
+El adaptador ocupa un lugar más delimitado:
+resuelve un punto concreto de desajuste dentro de ese proceso.
+
+Por eso:
+
+- toda adaptación estructural fuerte pertenece naturalmente al dominio de la intermediación,
+- pero no toda intermediación se reduce a un solo adaptador.
+
+Puede haber intermediaciones que usen múltiples adaptadores o que incluyan además decisiones de
+versión, validación, pedagogía, diseño o proyección contextual.
+
+===============================================================================
+14) RELACIÓN CON LENGUAJE DE ESTRUCTURAS
+===============================================================================
+
+Lenguaje de Estructuras y Adaptador Estructural no son sinónimos.
+
+Lenguaje de Estructuras expresa la identidad de una estructura de manera portable.
+Adaptador Estructural opera sobre esa explicitación para convertir una expresión en otra.
+
+Dicho de otro modo:
+
+- Lenguaje de Estructuras vuelve legible la identidad.
+- Adaptador Estructural opera sobre esa legibilidad para construir un puente localizado.
+
+Sin explicitación suficiente, el adaptador queda ciego.
+No sabe qué preservar ni qué puede cambiar.
+
+===============================================================================
+15) RELACIÓN CON COMUNICACION ESTRUCTURAL
+===============================================================================
+
+La Comunicación Estructural puede ser directa o puede requerir adaptadores.
+
+Cuando la compatibilidad no es inmediata en superficie, el Adaptador Estructural permite que la
+comunicación siga siendo viable sin reducirse a improvisación.
+
+Por eso, el adaptador no es un accesorio opcional del paquete.
+Es una de las piezas que hacen posible la transferencia robusta en casos de heterogeneidad
+tratada.
+
+===============================================================================
+16) RELACIÓN CON IA
+===============================================================================
+
+La IA puede funcionar como soporte o implementador de Adaptadores Estructurales.
+
+En ese caso, una IA puede:
+
+- mapear vocabularios,
+- reorganizar relaciones,
+- traducir estructuras entre formatos,
+- adaptar una salida a una plataforma,
+- o volver tratable una estructura humana inicialmente implícita.
+
+Sin embargo, la IA no garantiza por sí sola la legitimidad del adaptador.
+
+Para que la adaptación sea estructuralmente válida, siguen siendo necesarios:
+
+- un núcleo preservable,
+- una base de compatibilidad,
+- reglas explícitas de mapeo,
+- y criterios de validación.
+
+Por eso, la IA puede implementar adaptadores, pero no sustituye la ontología del paquete.
+
+===============================================================================
+17) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: vocabularios distintos
+Dos sistemas usan etiquetas diferentes para el mismo rol estructural. El adaptador define el
+mapeo explícito entre ambos nombres.
+
+Ejemplo 2: texto a grafo
+Una estructura descrita narrativamente se convierte a nodos y relaciones sin perder sus
+dependencias centrales.
+
+Ejemplo 3: estrategia a prompt
+Una estrategia compleja se adapta a una superficie de interacción con IA preservando objetivos,
+restricciones y formato esperado.
+
+Ejemplo 4: contenido multiplataforma
+Una misma estructura de mensaje se adapta a redes distintas ajustando longitud, ritmo y
+presentación sin destruir el núcleo de campaña.
+
+Ejemplo 5: explicación pedagógica
+Un contenido técnico se adapta para un alumno mediante reorganización de términos, ejemplos y
+secuencia, pero manteniendo el corazón conceptual del tema.
+
+===============================================================================
+18) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Adaptador Estructural debería poder exponer al
+menos lo siguiente:
+
+S1) Qué recibe
+Debe declarar la superficie o estructura de entrada sobre la que opera.
+
+S2) Qué preserva
+Debe declarar qué núcleo identitario no puede alterarse.
+
+S3) Qué transforma
+Debe declarar qué tipos, relaciones, nombres, formatos o convenciones puede mapear.
+
+S4) Con qué reglas transforma
+Debe declarar cómo realiza la adaptación y bajo qué límites.
+
+S5) Hacia qué salida apunta
+Debe declarar la superficie o forma de destino esperada.
+
+S6) Qué compatibilidad presupone
+Debe declarar qué base de compatibilidad hace legítima la adaptación.
+
+S7) Qué criterio de éxito usa
+Debe declarar cómo se decidirá que la salida sigue siendo reexpresión legítima de la misma
+estructura.
+
+===============================================================================
+19) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+19.1) Mostrar qué desajuste específico está resolviendo el adaptador.
+19.2) Declarar qué se preserva y qué se transforma.
+19.3) Justificar las reglas de mapeo utilizadas.
+19.4) Mostrar por qué la salida sigue siendo operativamente la misma estructura.
+19.5) Distinguir adaptación legítima de deformación arbitraria.
+19.6) Hacer revisable la relación entre entrada, reglas y salida.
+
+Una mala aplicación se detecta cuando:
+
+- se llama adaptador a cualquier conversión superficial,
+- no se explicita compatibilidad previa,
+- no se declara núcleo preservado,
+- se alteran restricciones sin justificación,
+- se confunde cambio de estilo con reexpresión estructural,
+- o el supuesto adaptador actúa como caja negra no auditable.
+
+===============================================================================
+20) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Adaptador Estructural se entiende mejor como
+bridge_node o mechanism_node dentro del paquete Com-Est, según el nivel de especificidad que se
+quiera enfatizar.
+
+No conviene ubicarlo como nodo raíz del paquete.
+No conviene reducirlo a herramienta técnica externa.
+No conviene tratarlo como sinónimo de intermediación general.
+
+La ubicación más adecuada es:
+
+- como mecanismo local que implementa parte de la Intermediación de Estructuras,
+- como operador subordinado a la Compatibilidad Estructural,
+- y como pieza que trabaja explícitamente sobre la Superficie de Comunicación.
+
+===============================================================================
+21) FÓRMULA DE CIERRE
+===============================================================================
+
+Adaptador Estructural es el mecanismo local que permite reexpresar una estructura compatible en
+otra superficie, resolviendo desajustes tratables sin perder arbitrariamente su identidad
+operativa.
+
+Fórmula final:
+
+Adaptador Estructural = operador explícito de mapeo controlado entre superficies estructurales.
+
+]"}
+
+{"address":"def/Com-Est-Estructura-Fuente","content":"[
+PLANTEAMIENTO DEL CONCEPTO
+ESTRUCTURA FUENTE
+
+Tipo de salida:
+Documento TXT de consulta posterior.
+
+Propósito de uso:
+Servir como referencia autónoma, portable y reutilizable para comprender, discutir y proyectar
+el concepto Estructura Fuente dentro del paquete Com-Est de la Teoría de Máquinas Cognitivas.
+
+Criterio general de calidad:
+El documento debe funcionar por sí mismo como unidad de conocimiento. Debe ser comprensible sin
+contexto externo y permitir reutilización por lectores humanos o sistemas de IA.
+
+===============================================================================
+0) DEFINICIÓN DE ENTRADA Y ALCANCE
+===============================================================================
+
+Este documento presenta un planteamiento autocontenido del concepto Estructura Fuente.
+
+El texto no depende de conversaciones previas ni de contexto oculto. Todos los términos
+relevantes quedan definidos dentro del propio documento.
+
+El objetivo no es producir una descripción breve o aproximada, sino una formulación estable,
+consultable y reutilizable del concepto.
+
+Estructura Fuente no se plantea aquí como simple mensaje inicial, ni como soporte material
+aislado, ni como una primera redacción casual de un contenido. Se plantea como la estructura
+de origen cuya identidad operativa se intenta comunicar, intermediar, adaptar o reemitir dentro
+de un proceso de Comunicación Estructural.
+
+===============================================================================
+1) INTENCIÓN DEL CONCEPTO
+===============================================================================
+
+Estructura Fuente se introduce para resolver una necesidad básica pero decisiva:
+
+¿Qué es exactamente lo que entra al proceso de Comunicación Estructural como punto de partida?
+
+El concepto busca fijar con claridad el origen estructural de la transferencia.
+
+Su finalidad es evitar que la teoría hable de comunicación, intermediación, adaptación o
+compatibilidad sin declarar con precisión cuál es la estructura cuya identidad se pretende
+preservar, transformar controladamente o reconstruir en otro sistema.
+
+Por eso, Estructura Fuente cumple una función de anclaje:
+hace visible que todo proceso de transferencia estructural parte de algo que debe poder ser
+identificado, delimitado y tratado como origen.
+
+===============================================================================
+2) DEFINICIÓN CENTRAL
+===============================================================================
+
+Estructura Fuente es la estructura de origen que entra a un proceso de Comunicación Estructural
+como referente inicial de identidad, y cuya organización operativa debe ser recibida,
+evaluada, comunicada, intermediada, adaptada o reemitida en otros contextos sin perder
+arbitrariamente aquello que la hace ser la estructura que es.
+
+Fórmula breve:
+
+Estructura Fuente = origen estructural de la transferencia.
+
+Fórmula funcional:
+
+Estructura Fuente = punto de partida explícito de la identidad que se intenta hacer circular
+entre sistemas.
+
+===============================================================================
+3) TESIS CENTRAL
+===============================================================================
+
+La tesis central del concepto es la siguiente:
+
+No puede haber Comunicación Estructural rigurosa si no se explicita qué estructura actúa como
+fuente.
+
+Eso significa que no basta con decir:
+
+- “hay una idea”,
+- “hay un contenido”,
+- “hay una intención”,
+- o “hay un mensaje”.
+
+Es necesario poder señalar una estructura suficientemente delimitada que funcione como origen de
+la operación.
+
+Sin Estructura Fuente, el paquete Com-Est pierde anclaje.
+No puede responder con rigor:
+
+- qué se está transfiriendo,
+- qué se está preservando,
+- qué se está deformando,
+- qué se está adaptando,
+- o respecto de qué se evalúa la compatibilidad.
+
+Por eso, Estructura Fuente no es un detalle auxiliar.
+Es la referencia estructural básica del proceso.
+
+===============================================================================
+4) QUÉ FENÓMENO DELIMITA
+===============================================================================
+
+Este concepto delimita el fenómeno de origen estructural explícito de una transferencia.
+
+No delimita cualquier antecedente cronológico.
+No delimita cualquier texto previo.
+No delimita cualquier motivación psicológica del emisor.
+No delimita cualquier borrador.
+No delimita cualquier soporte inicial en bruto.
+
+Delimita, de manera más precisa, la estructura que opera como fuente reconocible de identidad
+dentro de un proceso de circulación estructural.
+
+Por eso, Estructura Fuente se ubica en la base de problemas como:
+
+- preservación de identidad,
+- trazabilidad de transferencia,
+- evaluación de compatibilidad,
+- intermediación entre expresiones,
+- adaptación controlada,
+- y reconstrucción en el receptor.
+
+===============================================================================
+5) DEPENDENCIAS CONCEPTUALES
+===============================================================================
+
+Estructura Fuente depende, como base mínima, de los siguientes conceptos:
+
+5.1) Lenguaje de Estructuras
+La fuente solo puede tratarse rigurosamente si su identidad ha sido expresada de forma
+suficientemente estructural y no solo como intuición privada.
+
+5.2) Comunicación Estructural
+La Estructura Fuente existe aquí como nodo funcional del proceso de Comunicación Estructural:
+es aquello que entra a la transferencia.
+
+5.3) Compatibilidad Estructural
+La fuente debe poder ponerse en relación con otras estructuras bajo criterios explícitos de
+compatibilidad.
+
+5.4) Superficie de Comunicación
+La fuente necesita una forma de presentación tratable por la cual pueda ser recibida,
+comparada o reemitida.
+
+5.5) Intermediación de Estructuras
+Cuando la fuente no puede pasar directamente a otra expresión, entra en un proceso de
+intermediación.
+
+5.6) Adaptador Estructural
+El adaptador actúa sobre la fuente o sobre su superficie cuando existe un desajuste tratable
+respecto al destino.
+
+===============================================================================
+6) INVARIANTES DEL CONCEPTO
+===============================================================================
+
+Un uso correcto de Estructura Fuente debe preservar al menos los siguientes invariantes:
+
+6.1) Invariante de origen
+La fuente debe cumplir la función de punto de partida del proceso de transferencia estructural.
+
+6.2) Invariante de identificabilidad
+Debe poder señalarse con suficiente claridad qué estructura está actuando como fuente.
+
+6.3) Invariante de preservabilidad
+La fuente debe contener un núcleo susceptible de preservación, aunque no toda su expresión sea
+copiada literalmente.
+
+6.4) Invariante de trazabilidad
+Debe poder revisarse la relación entre la fuente y las estructuras derivadas, adaptadas o
+reemitidas.
+
+6.5) Invariante de no reducción al soporte
+La fuente no se confunde con su materialidad accidental. Puede manifestarse en distintos
+soportes sin dejar de ser la misma estructura.
+
+6.6) Invariante de relevancia operativa
+La fuente no es solo “lo primero que apareció”; es lo que funciona como referencia activa de
+identidad dentro del proceso.
+
+===============================================================================
+7) COMPONENTES DE LA ESTRUCTURA FUENTE
+===============================================================================
+
+Para que una Estructura Fuente sea suficientemente fuerte, debe poder expresar al menos los
+siguientes componentes:
+
+7.1) Núcleo identitario
+Qué parte de la estructura no debería perderse sin que se rompa su continuidad operativa.
+
+7.2) Invariantes
+Qué elementos deben preservarse a través de las transformaciones.
+
+7.3) Dominio de variación
+Qué puede cambiar sin destruir la identidad de la fuente.
+
+7.4) Rol operativo
+Qué hace la estructura como forma y por qué eso debe seguir siendo reconocible tras la
+transferencia.
+
+7.5) Restricciones
+Qué límites no pueden violarse sin deformar arbitrariamente la fuente.
+
+7.6) Superficie disponible
+Cómo se presenta la fuente para ser tratada por otros sistemas.
+
+7.7) Condiciones de derivación
+Qué tipo de adaptaciones, reemisiones o reconstrucciones pueden considerarse todavía ligadas
+legítimamente a la fuente.
+
+===============================================================================
+8) DOMINIO DE VARIACIÓN
+===============================================================================
+
+Estructura Fuente admite variación sin perder identidad en varios niveles.
+
+8.1) Variación de soporte
+La misma fuente puede presentarse como texto, grafo, prompt, contrato, artefacto, diagrama o
+cualquier otra superficie explícita.
+
+8.2) Variación de idioma
+La fuente puede expresarse en distintas lenguas naturales si conserva su organización
+estructural central.
+
+8.3) Variación de granularidad
+La fuente puede formularse de manera más resumida o más desarrollada mientras preserve el
+núcleo que actúa como referencia de identidad.
+
+8.4) Variación de contexto
+La misma fuente puede circular por contextos distintos y seguir siendo la referencia estructural
+del proceso.
+
+8.5) Variación de proyección
+La fuente puede dar lugar a versiones, adaptaciones o reemisiones sin dejar de funcionar como
+origen del conjunto.
+
+Regla de borde:
+
+Puede cambiar la forma de presentación, el nivel de detalle y el contexto de uso, pero no puede
+desaparecer la identidad operativa que la vuelve fuente de otras expresiones.
+
+===============================================================================
+9) DISCRIMINADORES
+===============================================================================
+
+Estructura Fuente se distingue de conceptos cercanos por las siguientes pruebas:
+
+9.1) No es cualquier antecedente
+No todo lo que ocurre antes en el tiempo cuenta como fuente.
+
+9.2) No es simple soporte inicial
+Un archivo, papel, prompt o grabación no son fuente por sí mismos si no contienen una
+estructura operativa tratable.
+
+9.3) No es solo intención subjetiva
+La intención del autor puede participar, pero la fuente debe estar estructuralmente
+expresada o al menos recuperable como tal.
+
+9.4) No es idéntica a la estructura reemitida
+La fuente puede dar lugar a reexpresiones legítimas sin coincidir superficialmente con ellas.
+
+9.5) No es una esencia mística
+La fuente no se define por una identidad inefable, sino por una estructura tratable que puede
+ser analizada, preservada y proyectada.
+
+===============================================================================
+10) FUNCIÓN DENTRO DEL PAQUETE COM-EST
+===============================================================================
+
+Dentro del paquete Com-Est, Estructura Fuente cumple la función de referencia inicial de
+identidad de todo proceso de transferencia estructural.
+
+Su lugar puede describirse así:
+
+- Estructura Fuente = origen de la estructura que entra al proceso.
+- Lenguaje de Estructuras = medio por el cual esa fuente se vuelve portable y explícita.
+- Superficie de Comunicación = interfaz por la cual la fuente se presenta como tratable.
+- Compatibilidad Estructural = decide si la fuente puede articularse con otra estructura.
+- Intermediación de Estructuras = opera cuando la fuente necesita un puente.
+- Adaptador Estructural = resuelve localmente desajustes de reexpresión respecto de la fuente.
+
+Dicho de forma compacta:
+
+La Estructura Fuente fija qué identidad está en juego dentro del proceso de comunicación.
+
+===============================================================================
+11) RELACIÓN CON LENGUAJE DE ESTRUCTURAS
+===============================================================================
+
+La Estructura Fuente necesita del Lenguaje de Estructuras para volverse explícita como entidad
+portable.
+
+Sin esa explicitación, la fuente puede seguir existiendo de manera implícita, pero no puede
+entrar de forma robusta en procesos de comparación, comunicación o adaptación.
+
+Por eso:
+
+- la fuente aporta el origen,
+- el Lenguaje de Estructuras aporta la expresabilidad portable de ese origen.
+
+===============================================================================
+12) RELACIÓN CON COMUNICACIÓN ESTRUCTURAL
+===============================================================================
+
+La Comunicación Estructural necesita una Estructura Fuente porque debe existir algo que se
+intente comunicar estructuralmente.
+
+La fuente no es un elemento decorativo del proceso.
+Es su punto de partida.
+
+Sin fuente explícita, la comunicación puede existir como intercambio de signos, pero no como
+proceso plenamente auditable de transferencia de una identidad estructural determinada.
+
+===============================================================================
+13) RELACIÓN CON COMPATIBILIDAD ESTRUCTURAL
+===============================================================================
+
+La Compatibilidad Estructural se evalúa siempre respecto de estructuras concretas.
+En el paquete Com-Est, una de esas referencias típicas es la Estructura Fuente.
+
+La compatibilidad pregunta, entre otras cosas, si la fuente puede:
+
+- alinearse,
+- articularse,
+- adaptarse,
+- o reemitirse
+
+sin contradicción irresoluble respecto a otra estructura o sistema receptor.
+
+Por eso, la fuente funciona como uno de los polos de la comparación estructural.
+
+===============================================================================
+14) RELACIÓN CON SUPERFICIE DE COMUNICACION
+===============================================================================
+
+La Estructura Fuente no circula sin más; necesita una Superficie de Comunicación.
+
+La superficie es la forma explícita en que la fuente se presenta como tratable.
+
+Por eso, no debe confundirse:
+
+- Estructura Fuente = la identidad estructural de origen.
+- Superficie de Comunicación = la interfaz por la que esa identidad se expone.
+
+La fuente puede ser la misma aunque su superficie cambie.
+
+===============================================================================
+15) RELACIÓN CON INTERMEDIACION DE ESTRUCTURAS
+===============================================================================
+
+La Intermediación de Estructuras actúa sobre una fuente cuando esta no puede pasar
+directamente a una nueva expresión o a un nuevo sistema receptor.
+
+En ese caso, la fuente:
+
+- entra al mediador,
+- es interpretada estructuralmente,
+- es alineada bajo reglas explícitas,
+- y es reemitida en otra forma.
+
+Por eso, la fuente no desaparece en la intermediación.
+Permanece como referencia de preservación, trazabilidad y legitimidad del puente.
+
+===============================================================================
+16) RELACIÓN CON ADAPTADOR ESTRUCTURAL
+===============================================================================
+
+El Adaptador Estructural puede operar sobre la fuente o sobre su superficie para permitir su
+reexpresión controlada en otro formato, vocabulario, plataforma o interfaz.
+
+Sin embargo, el adaptador no reemplaza la fuente.
+Su función es construir un paso localizado a partir de ella.
+
+Por eso, la fuente fija qué debe preservarse y el adaptador fija cómo realizar un cambio
+tratado sin romper arbitrariamente esa identidad.
+
+===============================================================================
+17) RELACIÓN CON IA
+===============================================================================
+
+La IA puede recibir una Estructura Fuente cuando esta ha sido suficientemente externalizada en
+una superficie tratable.
+
+En ese caso, la IA puede:
+
+- interpretarla,
+- reorganizarla,
+- expandirla,
+- resumirla,
+- o reemitirla en otra forma.
+
+Pero la legitimidad de ese proceso sigue dependiendo de que la fuente haya sido lo bastante
+explícita como para conservar identidad estructural reconocible.
+
+Por eso, la IA puede operar sobre fuentes, pero no define por sí sola qué cuenta como fuente
+ni qué debe preservarse de ella.
+
+===============================================================================
+18) EJEMPLOS ANCLA
+===============================================================================
+
+Ejemplo 1: idea estratégica
+Una estrategia general de campaña funciona como fuente de múltiples piezas, siempre que su
+núcleo operativo permanezca reconocible en las derivaciones.
+
+Ejemplo 2: contrato
+Un contrato estructurado puede funcionar como fuente para un grafo, un resumen ejecutivo o una
+implementación operativa.
+
+Ejemplo 3: contenido docente
+Una formulación disciplinar robusta puede funcionar como fuente de explicaciones pedagógicas,
+ejercicios o materiales audiovisuales.
+
+Ejemplo 4: prompt maestro
+Un prompt maestro puede funcionar como fuente de prompts especializados, versiones resumidas o
+adaptaciones a distintas herramientas.
+
+Ejemplo 5: artefacto cognitivo
+Un artefacto que condensa la arquitectura de un sistema puede funcionar como fuente de análisis,
+modificación o reproyección por parte de humanos o IA.
+
+===============================================================================
+19) SUPERFICIE DE INTEGRACIÓN DEL CONCEPTO
+===============================================================================
+
+Para operar correctamente dentro de la teoría, Estructura Fuente debería poder exponer al menos
+lo siguiente:
+
+S1) Qué es la fuente
+Debe declarar cuál es la estructura de origen en juego.
+
+S2) Qué núcleo preserva
+Debe declarar qué parte de su identidad no debe perderse.
+
+S3) Qué puede variar
+Debe declarar qué cambios son admisibles sin ruptura de identidad.
+
+S4) Qué rol cumple
+Debe declarar cuál es su rol operativo como forma.
+
+S5) Cómo se presenta
+Debe declarar por qué superficie entra al proceso de comunicación.
+
+S6) Qué derivaciones admite
+Debe declarar qué tipos de reexpresión siguen contando como ligadas legítimamente a la fuente.
+
+S7) Cómo se valida
+Debe declarar cómo se decidirá que una estructura derivada conserva continuidad con la fuente.
+
+===============================================================================
+20) VALIDACIÓN
+===============================================================================
+
+La aplicación del concepto se considera correcta cuando permite:
+
+20.1) Identificar con claridad qué estructura funciona como origen.
+20.2) Distinguir la fuente de sus soportes accidentales.
+20.3) Explicitar qué núcleo se pretende preservar.
+20.4) Mostrar cómo la fuente entra en comunicación, intermediación o adaptación.
+20.5) Hacer trazable la relación entre la fuente y las estructuras reemitidas.
+20.6) Distinguir entre derivación legítima, deformación y ruptura de identidad.
+
+Una mala aplicación se detecta cuando:
+
+- se llama fuente a cualquier antecedente textual,
+- no se distingue la fuente de su soporte,
+- no se explicita qué parte de la identidad debe preservarse,
+- la fuente depende enteramente de contexto oculto,
+- o se pierde toda trazabilidad entre la fuente y sus derivaciones.
+
+===============================================================================
+21) UBICACIÓN ONTOLÓGICA PROPUESTA
+===============================================================================
+
+Dentro de la Teoría de Máquinas Cognitivas, Estructura Fuente se entiende mejor como
+bridge_node dentro del paquete Com-Est.
+
+No conviene ubicarla como simple metadato de entrada.
+No conviene reducirla a “primer borrador”.
+No conviene tratarla como sinónimo de soporte inicial.
+
+La ubicación más adecuada es:
+
+- como referencia estructural de origen del proceso de transferencia,
+- como anclaje de identidad para evaluación de compatibilidad y preservación,
+- y como punto de partida de la comunicación, la intermediación y la adaptación.
+
+===============================================================================
+22) FÓRMULA DE CIERRE
+===============================================================================
+
+Estructura Fuente es la estructura de origen cuya identidad operativa entra al proceso de
+Comunicación Estructural como referencia inicial de preservación, adaptación y reconstrucción.
+
+Fórmula final:
+
+Estructura Fuente = origen explícito de la identidad que se intenta transferir entre sistemas.
+
+]"}

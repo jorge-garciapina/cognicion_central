@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion",
+    "type": "has_value",
+    "rationale": "apertura_contraste_resolucion es un valor declarado para el campo arquitectura_macro."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_secuencia_laminar_visual_textual-crear_secuencia_laminar_visual_textual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_secuencia_laminar_visual_textual-crear_secuencia_laminar_visual_textual",
+    "label": "crear_secuencia_laminar_visual_textual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_secuencia_laminar_visual_textual-crear_secuencia_laminar_visual_textual",
+    "summary": "Valor que define la realización como una secuencia compuesta por unidades laminares, donde texto e imagen pueden operar como partes estructurales de la pieza.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

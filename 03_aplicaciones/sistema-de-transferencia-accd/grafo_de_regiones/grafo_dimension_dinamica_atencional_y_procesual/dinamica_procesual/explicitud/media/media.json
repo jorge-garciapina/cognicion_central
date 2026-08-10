@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media",
+    "summary": "Valor media del eje explicitud.",
+    "value_type": "Valor ordinal",
+    "value_description": "Parte importante del contenido se explicita."
+  }
+}

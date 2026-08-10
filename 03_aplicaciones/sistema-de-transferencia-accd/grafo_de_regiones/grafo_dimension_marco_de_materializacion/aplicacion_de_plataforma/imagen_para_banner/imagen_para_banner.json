@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_banner-imagen_para_banner",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_banner-imagen_para_banner",
+    "label": "imagen_para_banner",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_banner-imagen_para_banner",
+    "summary": "**Definición.** Aplicación en franja horizontal o formato destacado de interfaz. Requiere composición panorámica, mensaje breve y foco que soporte recortes o responsividad.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia",
+    "label": "audiencia_tibia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia",
+    "summary": "Valor audiencia_tibia declarado para el campo publico_objetivo_inmediato.",
+    "metadata": {
+      "value_of": "publico_objetivo_inmediato",
+      "declared_as": "espacio_de_valores_sugerido"
+    }
+  }
+}

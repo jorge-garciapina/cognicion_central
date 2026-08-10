@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea",
+    "label": "formulacion_de_la_idea",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea",
+    "summary": "Campo interno que determina la forma de formulación conceptual de la idea activa.",
+    "metadata": {
+      "value_type": "Categorial controlado",
+      "declared_inside": "idea_activa"
+    }
+  }
+}

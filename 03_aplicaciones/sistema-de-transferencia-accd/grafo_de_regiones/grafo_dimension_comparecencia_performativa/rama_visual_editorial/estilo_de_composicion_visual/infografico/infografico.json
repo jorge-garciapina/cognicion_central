@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-infografico-infografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-infografico-infografico",
+    "label": "infografico",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-infografico-infografico",
+    "summary": "Valor que combina información, estructura visual, iconos, flechas, datos, categorías o procesos.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_aislamiento-jerarquia_por_aislamiento",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_aislamiento-jerarquia_por_aislamiento",
+    "label": "jerarquia_por_aislamiento",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_aislamiento-jerarquia_por_aislamiento",
+    "summary": "**Definición.** Modo de jerarquía que da peso a un elemento separándolo de otros mediante espacio vacío o distancia. La importancia no proviene de tamaño o color, sino de quedar solo y perceptivamente protegido.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica"
+    }
+  }
+}

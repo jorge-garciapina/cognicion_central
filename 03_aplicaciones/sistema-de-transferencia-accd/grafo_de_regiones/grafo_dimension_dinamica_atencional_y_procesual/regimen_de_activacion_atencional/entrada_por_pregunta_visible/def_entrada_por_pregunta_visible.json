@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+  "content": "**Definición.** Valor que indica que la atención se abre mediante una pregunta explícita colocada como elemento visible. La pregunta crea una brecha cognitiva: el receptor percibe que hay algo por resolver, comprobar o responder.\n\n**Diferenciación semántica.** Se diferencia de `entrada_por_titulo` porque su fuerza no está sólo en nombrar el tema, sino en producir incompletud o tensión interrogativa. Se diferencia de `entrada_por_numero_o_dato` porque no se apoya en evidencia cuantitativa, sino en curiosidad o problema abierto.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza debe iniciar con una formulación interrogativa clara, visible y suficientemente relevante para activar búsqueda de respuesta."
+}

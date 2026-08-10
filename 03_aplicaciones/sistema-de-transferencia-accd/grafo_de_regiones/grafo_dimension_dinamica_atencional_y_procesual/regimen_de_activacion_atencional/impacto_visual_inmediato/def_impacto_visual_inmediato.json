@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-impacto_visual_inmediato-impacto_visual_inmediato",
+  "content": "**Definición.** Valor que indica una activación atencional basada en la fuerza perceptiva instantánea de la composición. El receptor debe notar la pieza antes de procesar sus detalles, gracias a un contraste, escala, forma, color, imagen, vacío, gesto o tensión visual dominante.\n\n**Diferenciación semántica.** Se diferencia de `impacto_visual` como efecto porque aquí funciona como régimen de activación: describe el mecanismo inicial que abre la atención. Se diferencia de `entrada_por_titulo` porque no depende principalmente de lectura verbal.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza necesita una señal visual primaria que actúe antes que la explicación textual."
+}

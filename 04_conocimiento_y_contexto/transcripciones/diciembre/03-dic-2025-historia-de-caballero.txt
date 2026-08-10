@@ -1,0 +1,143 @@
+[PÁGINA 1]
+
+Historia de caballero                      03/dic/2025      @13812
+
+Se me ocurrió una escena que podría utilizar:
+
+[Un caballero se marcha, su armadura cubre el rostro; aquel ser proyecta un poder inconmensurable.
+En una segunda toma se ve el rostro de aquel caballero: un niño que llora amargamente mientras se despide]
+Si analizo esto en detalle es posible notar que se crean muchas conexiones con muchas cosas.
+  • Mostrar fortaleza en el exterior, a pesar de la debilidad interna.
+  • [Equivalencias metafóricas] que ayudan a crear un vínculo (el cual puede ser emocional, cognitivo, temporal, etc.) entre el mensaje (o el anuncio) y la persona receptora.
+  • Crecimiento, maduración, etc., ciclo de la vida, paraíso perdido, etc. (puede ser que pertenezca al punto anterior)
+Es importante notar que esto es un muy buen camino para comprender el [procesamiento de ideas] del que hablaba ayer. No se trata de tener todas las respuestas, lo importante es contar con la[capacidad] de expandir cada idea.
+¿Cómo expandir las ideas?
+creo que tengo algunas opciones:
+
+1) Usar el concepto de [artefacto] de código, el cual se define como:
+   Artefacto de código:
+   Documento de texto el cual contiene todo un repositorio de código. Metafóricamente: es el puente entre la IA y el código.
+   
+[PÁGINA 2]
+   
+   La idea es:
+     1- Creo el grafo usando cytoscape.js
+     2- Guardo el repo completo como artefacto
+     3- Comparto el artefacto y lo uso como [cognición central]
+   Esta idea resuelve muchos problemas, aunque genera algunas dudas.
+   Problemas que resuelve:
+     • Optimización del proceso de comunicación (puedo “desarrollar” en JS y ejecutar en IA)
+       Nota:Personalmente me gusta esta idea.
+       (Es importante resaltar el hecho que con este enfoque es posible crear un puente entre JS y la IA)
+     • Al hacerlo de esa forma podré llevar el artefacto a otras IA, sin estar limitado a ChatGPT.
+     • Ya no me limitaré a guardar archivos (salvo que se requiera) con prompts e ideas, el grafo en el artefacto tendrá una descripción precisa de los conceptos y sus conexiones.
+     • Esto es un ejemplo tipo “hace como pato, camina como pato, nada como pato”... ¿Qué podrá ser? Lo pienso así debido a que este artefacto parece ser la pieza que hacía falta en el rompecabezas: “El nodo cognitivo de mi propia cognición”, es decir: la proyección de mi cognición en el [mundo tangible] (gracias a la programación), lo cual se puede decir en frases que comienzo a cuestionar, pero me gusta decir: [un nodo de realidad].
+
+
+[PÁGINA 3]
+
+Ya no necesito cuestionar que la opción 1) es la mejor, aunque tampoco puedo negar que estoy sesgado hacia ella, pero aún así, [tachado] es un camino con el que estoy familiarizado.
+¿Cómo aplicaría este sistema para [procesar ideas]?
+Debo admitir que cuando comencé con este escrito tenía una idea muy distinta sobre como llevar a cabo el [procesamiento de ideas], pero, ahora que cuento con el modelo mental de artefacto se me ocurren algunas cosas:
+  * Puedo extender la idea por ramas, loops, etc.
+  * Puedo aplicar cualquier concepto que quiera para refinar la idea.
+  * Puedo generar código “relacionado” con la idea
+    Nota: A pesar de no parecer muy relevante, es muy importante notar que esto tiene muchas implicaciones en muchos sectores.
+  *Siguiendo la lógica del punto anterior, es útil no olvidar que, al igual que en el caso del código, el cual es una “pieza” (ya antes usaba esta nomenclatura) producto de un [proceso mayor]* -Nota: Proceso mayor: Aún me cuesta un poco, pero debo tener presente que el modelo es un grafo, un “proceso mayor” solo es otro nodo.- (como “idea” en el punto anterior), tal y como lo pueden ser:
+     • scripts
+     • tablas
+     • imágenes
+     • documentos
+     • [y otras piezas similares, los cuales dependen del contexto]
+Se abre un campo de oportunidad al seguir este enfoque, la razón de esto (y seguiré tratando de [procesar] esta idea tal y como se viene estudiando)
+
+ 
+[PÁGINA 4]
+
+Así como [tachado] puede pensarse en un puente entre la IA y la programación a través del uso de [artefactos] que almacenan grafos, que en este contexto podrían ser conocidos como "nodo de realidad".
+Considero que esta es una excelente oportunidad para comenzar a estudiar el concepto de “nodo de realidad”.
+Antes, propuse algunas ideas sobre este concepto, así que me gustaría comenzar por ahí.
+   • Un nodo de realidad es la proyección de un [nodo cognitivo]* (Quiero resaltar la importancia del hecho que el [nodo cognitivo] es, en sí, una proyección de mi cognición (o de algún proceso dentro de esta)) en el que se almacena algún proceso que pueda ser descrito como texto.
+     [Nota:
+     Esto es interesante: “la IA se limita a trabajar con texto, entonces todo se debe transformar a texto”. La situación es más profunda aún, veamos:
+       - Hay ecuaciones para describir gran parte de los procesos naturales, esto es un equivalente a tener descripciones “comprendidas por IA”.
+       - Hay modelos para describir cualquier sistema humano que pueda ser diseñado.
+       - Hay teorías y modelos para comprender, alterar y manipular el comportamiento humano,
+     Es posible aprovechar todo el conocimiento humano acumulado, no solo acceder a éste como con el Internet, sino realmente a aprovecharlo.
+     ]
+   • Un [nodo de realidad] es una descripción de algún proceso que se efectuará en el [mundo tangible] (no hay un mínimo de información requerido para el nodo de realidad, pero, como en todo, a mayor detalle, mejor funcionamiento)
+   • Al igual que para los [nodos cognitivos], los [nodos de realidad] tienen muchas “formas”, alcances y funciones,
+
+
+[PÁGINA 5]
+
+Creo que ambas ideas son un buen punto de partida, ya permiten guiar la discusión.
+Aun no poseo una definición, solo tengo más ideas:
+* El [nodo de realidad] es una herramienta de ejecución, que todo parece apuntar, usa el tiempo.
+  [Nota: Ayer tenía la misma idea (al menos “parecida” porque en ambas lidio con el tiempo), pero hay un hecho indiscutible: debido a que la IA permite generar incontables piezas (código, discursos, estrategias,modelos de negocio, etc.), entonces la única limitante es el tiempo.]
+* Hace algunas semanas noté un fenómeno interesante: los [app de IA] son independientes del tiempo, no estoy seguro de cómo podría categorizarlo, pero se me ocurre que:
+   - Son conceptualmente opuestas a como funciona un servidor de Express(JS), el cual por definición es stateless, mientras que una [app de IA] por definición, necesita de, por mínimo un prompt (este ejemplo es débil, ya que, aunque una app use express, para que sea app debe tener al menos de un script, aún así, puede que sea útil después)
+   - Con respecto al punto anterior:
+     Estoy pensando en lo que sucede cuando creo una app usando como [mecanismo de entrada IA], por ejemplo, un chat de chatGPT. Si le digo: ‘si escribo -rojo- entonces di: “felicidades”, si escribo cualquier otra cosa di “respuesta incorrecta”’, no pases adelante hasta que escriba “rojo”".
+     En esta app puedo iniciar hoy y continuar en 3 días y se encuentra en un mismo punto, por eso digo que estas apps son independientes del tiempo.
+
+[PÁGINA 6]
+
+Tengo algunas otras ideas, pero son muy parecidas a las que ya escribí. Creo que es aún más importante discutir la relación que percibo entre el tiempo y los nodos de realidad.
+La relación que propongo (lo cual puede ser incorrecta, pero al menos sirve para pensar en el problema) se basa en la idea de que la capacidad de la mente de producir ideas se limita por el tiempo. Los seres humanos somos capaces de ejecutar una tarea a la vez, aunque haya personas que presuman, nadie puede leer poesía mientras corre 100m planos (Es necesario notar que existen tareas simples que requieren un mínimo esfuerzo cognitivo, los cuales permiten ejecutar más de una al mismo tiempo).
+Idealmente, en una situación perfecta en la que una persona estuviera anotando todas las ideas que vienen a su mente, sin poner restricciones o límites (como intento hacer en este momento), entonces la única limitante a la creación de ideas son los limitantes físicos:
+   - Fatiga
+   - Sueño
+   - Hambre
+   - Sed
+   - Baño
+   - Etc.
+Todas estas limitantes son causadas por el tiempo.
+Con la IA es posible crear mecanismos que permitan automatizar tareas cognitivas ¿Qué implica esto? Que se podrá ahorrar tiempo (o a generar más valor del tiempo).
+En la revolución industrial pasó algo parecido. Si analizamos a fondo, en esencia, la máquina de vapor permitió tener control del movimiento, o la mecánica, si se quiere ver así. Al tener un dominio sobre el movimiento fue posible tener un control casi absoluto sobre el proceso de fabricación, implicando que fuera posible diseñar sistemas más modulares (cada módulo especializado altamente en su proceso). No es necesario describir todas las consecuencias que este cambio tecnológico trajo en el mundo -no olvidar nota sobre ford-, basta con decir que el mundo moderno se deriva, ya sea de manera directa o indirecta de la revolución industrial.
+[continúa]
+
+[PÁGINA 7]
+
+La IA permite crear un escenario “similar” (en el sentido metafórico de: “algo puede ser automatizado”) a lo que sucedió en la revolución industrial, pero esta vez, lo que será automatizado no es el movimiento, sino procesos cognitivos.
+Quienes sean capaces de dominar la automatización de [procesos cognitivos], al igual que quienes dominaron la automatización del movimiento durante la revolución industrial, se verán muy beneficiados.
+Basado en el estudio que he realizado los últimos dos años he llegado a algunas conclusiones, las cuales tomo como punto de partida para mi plan de creación:
+   + En unos años todos los tareas realizadas por humanos serán hechas por la IA. En el corto plazo se comenzará a experimentar una disminución de ofertas laborales por que la IA hace que contratar personas sin experiencia sea innecesarias en muchos sectores.
+   + Como ejemplo basta con decir que con los artefactos con grafos es muy factible la creación de una gran cantidad de [piezas]:
+     • Código        
+     • imágenes       
+     • libros
+     • Texto         
+     • Diseños      
+     • análisis
+     • Video         
+     • arquitecturas  
+     • etc.
+   + No hay campo al que no se pueda entrar, siempre y cuando pueda ser explicado con texto, entonces la IA puede hacerlo.
+
+[PÁGINA 8]
+
+Esas son las conclusiones que tengo, las cuales me hacen ver de una forma clara que la pérdida de empleo no se deberá a que la economía colapse, lejos de desaparecer, es muy probable que la economía experimente un crecimiento sin precedente, lo que pasará es que las tareas que antes requerían de un humano para completarse, podrán ser realizadas de forma automática por un [proceso cognitivo] automatizado. En ese nuevo escenario, gran parte de la población poseerá, [tachado/ilegible], irremediable a un nuevo tipo de analfabetismo.
+Visto exclusivamente como una transacción comercial, los empleos no son sino un costo más para las empresas.
+Hay dos formas de aumentar ganancias:
+  • Reducir costos
+  • Aumentar productividad
+La IA encaja bien [tachado] como herramienta para implementar cualquiera de los modelos anteriores.
+(Pienso que una pérdida masiva de empleos podría evitarse, pero requiere mucha educación, además que es incompatible con modelos de mano de obra barata.)
+¿Qué empresas van a florecer?
+Aquellas que utilicen la IA para crear cadenas de producción que aprovechen la automatización de la cognición.
+Visto así, el objetivo parece simplificarse:
+La clave está en buscar procesos cognitivos que puedan automatizarse y automatizarlos
+Todas las aplicaciones que se me han ocurrido [en línea/en sintonía/son cercanas/se parecen] a lo que se menciona en la definición anterior:
+
+
+[PÁGINA 9]
+  • creación de código
+  • creación de scripts
+  • automatización de cotizaciones
+Son todos ejemplos de [procesos cognitivos que pueden automatizarse], a pesar que no se me ocurre otro de estos procesos, lo importante es notar que todos estos son “manifestaciones” o “proyecciones” de [nodos cognitivos] en el [mundo tangible].
+Esta generalización es útil, ya que permite vislumbrar una forma optimizada de [creación de automatizaciones cognitivas].
+Hay algunas preguntas por resolver:
+  • ¿Cómo se relaciona con [la estructura] todo esto?
+  • ¿Cómo hallar los puentes entre las aplicaciones y las finanzas? (¿modelos de negocio?)
+  • ¿Habrá departamento de IA en las empresa?

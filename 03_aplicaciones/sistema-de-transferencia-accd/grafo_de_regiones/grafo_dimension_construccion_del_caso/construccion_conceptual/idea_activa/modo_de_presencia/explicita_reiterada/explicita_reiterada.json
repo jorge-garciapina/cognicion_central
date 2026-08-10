@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada",
+    "label": "explicita_reiterada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada",
+    "summary": "Valor explicita_reiterada declarado para el campo modo_de_presencia.",
+    "metadata": {
+      "value_of": "modo_de_presencia"
+    }
+  }
+}

@@ -1,0 +1,781 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69c42c1a-ef90-83e8-8a90-49d46eb7c2e7
+================================================================================
+PLANTEAMIENTO REFINADO — MODELO DE MEDIACIÓN ECONÓMICA CONTEXTUAL
+Versión: v1.0
+Producto: documento de consulta
+Propósito de uso: fijar un planteamiento autónomo, portable y refinado del
+Modelo de Mediación Económica Contextual al incorporar la fractalidad como
+principio estructural interno
+Criterio general de calidad: que funcione por sí mismo como referencia,
+sin depender de contexto externo
+================================================================================
+
+0) Intención del planteamiento
+
+Este documento fija una versión refinada del Modelo de Mediación Económica
+Contextual.
+
+Su función no es reemplazar el modelo previo.
+
+Su función es hacerlo más preciso.
+
+El refinamiento introducido aquí consiste en incorporar la fractalidad como
+criterio de lectura, diseño y evaluación del modelo.
+
+La fractalidad no se entiende aquí como ornamento geométrico, ni como simple
+metáfora de complejidad.
+
+Se entiende como propiedad estructural por la cual la misma gramática de
+mediación reaparece en escalas distintas sin perder identidad.
+
+Eso permite describir con mayor precisión algo que el modelo general ya hacía
+visible, pero todavía no tematizaba de manera suficiente:
+
+un núcleo no solo se adapta a un campo;
+también puede ser subnúcleo de una mediación mayor,
+y puede contener en su interior mediaciones menores.
+
+Por eso, el problema ya no debe formularse solo así:
+- qué núcleo porta una entidad,
+- en qué campo intenta operar,
+- cómo se traduce,
+- dónde se valida,
+- y cómo llega al dinero.
+
+Debe formularse también así:
+- en qué escala se encuentra cada una de esas piezas,
+- qué relación guarda esa escala con otras,
+- qué elementos funcionan como ancestro, hermano o heredero,
+- y cómo circula la validación, la convertibilidad y la captura entre niveles.
+
+Este documento introduce esa capa adicional.
+
+La mediación económica contextual sigue siendo el modelo.
+
+La fractalidad no crea otro modelo.
+
+La fractalidad muestra la estructura interna de ese modelo con mayor resolución.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Modelo de Mediación Económica Contextual Refinado = estructura fractal mediante
+la cual un actor económico, portador de un núcleo, adapta ese núcleo a uno o más
+campos de aplicación estructurados por medio de traducciones contextuales e
+intervenciones situadas, produciendo validación, estabilización local,
+convertibilidad institucional y captura de valor económico en múltiples escalas
+coordinadas.
+
+Dicho con más precisión:
+
+El modelo refinado describe el mecanismo por el cual una entidad no monetiza
+directamente su esencia, sino realizaciones contextualizadas, validadas y
+convertibles de su núcleo, entendiendo además que esas realizaciones pueden
+funcionar a la vez como:
+
+- descendientes de una mediación mayor,
+- unidades autónomas en su propia escala,
+- y fuentes de mediaciones ulteriores.
+
+Su identidad no reside en una industria particular.
+
+Tampoco reside en un producto específico.
+
+Tampoco reside en una sola escala de observación.
+
+Su identidad reside en una configuración relacional y recursiva que une, como
+mínimo:
+
+- un actor económico portador de núcleo,
+- un núcleo preservable,
+- un campo de aplicación con estructura propia,
+- una operación de traducción contextual,
+- una intervención concreta,
+- una región de estabilización,
+- un proceso de validación,
+- una bisagra de convertibilidad institucional,
+- un acoplamiento con el mercado del dinero,
+- y una relación ordenada entre escalas de mediación.
+
+Por eso, el modelo refinado no reemplaza la fórmula previa.
+
+La profundiza.
+
+La mediación económica contextual deja de aparecer como una sola cadena lineal y
+pasa a aparecer como una arquitectura de pasajes repetibles entre niveles.
+
+--------------------------------------------------------------------------------
+
+2) Qué fenómeno o función delimita
+
+Este planteamiento delimita el fenómeno por el cual un núcleo económico no solo
+se vuelve operable en un campo, sino que además puede desplegarse como una
+familia jerárquica de mediaciones coherentes entre sí.
+
+Recorta, por tanto, dos problemas simultáneos:
+
+2.1) Problema básico de mediación
+- cómo una identidad preservable entra en un campo externo,
+- cómo se traduce,
+- cómo se valida,
+- y cómo puede capturar valor.
+
+2.2) Problema refinado de fractalidad
+- cómo esa misma lógica se repite entre escalas,
+- cómo una intervención puede convertirse en subnúcleo,
+- cómo un campo puede contener subcampos,
+- cómo un nicho puede contener subnichos,
+- y cómo la convertibilidad puede existir de forma parcial, local o escalonada.
+
+El modelo refinado, entonces, no describe solo producción.
+
+Tampoco describe solo marketing.
+
+Tampoco describe solo distribución.
+
+Tampoco describe solo monetización.
+
+Describe la arquitectura multiescala que vuelve posible que una configuración
+validada se vuelva económicamente operable sin perder continuidad estructural al
+descender o ascender entre niveles.
+
+Su función dominante es explicar no solo la transición:
+- de núcleo a forma contextual,
+- de forma contextual a validación,
+- de validación a convertibilidad,
+- y de convertibilidad a dinero,
+
+sino también la repetición de esa misma transición en varias escalas
+encadenadas.
+
+--------------------------------------------------------------------------------
+
+3) Definiciones refinadoras
+
+3.1) Fractalidad operativa
+
+Fractalidad operativa = propiedad por la cual una misma gramática de mediación
+económica reaparece en escalas distintas, conservando identidad estructural
+mientras cambia de alcance, resolución, soporte o nivel de agregación.
+
+La fractalidad operativa no implica que todos los niveles sean idénticos.
+   
+Implica que todos los niveles conservan una forma comparable.
+
+Esa forma comparable consiste, como mínimo, en una relación entre:
+núcleo, campo, traducción, intervención, validación y posibilidad de captura.
+
+3.2) Escala de mediación
+
+Escala de mediación = nivel relativamente estable de organización dentro del cual
+una unidad económica puede tratarse como portadora de núcleo, campo, traducción,
+intervención, validación y convertibilidad.
+
+Una escala puede ser amplia o estrecha.
+
+Puede corresponder, por ejemplo, a:
+- una institución,
+- una unidad de negocio,
+- una línea de oferta,
+- un circuito de distribución,
+- un nicho específico,
+- una campaña,
+- una pieza,
+- o una interfaz de monetización.
+
+Lo importante no es su tamaño.
+
+Lo importante es que pueda comportarse como unidad estructural fuerte.
+
+3.3) Unidad fractal de mediación
+
+Unidad fractal de mediación = instancia concreta del modelo en una escala
+determinada.
+
+Cada unidad fractal debe poder responder, como mínimo, las siguientes preguntas:
+- qué núcleo preserva,
+- en qué campo opera,
+- qué traducción realiza,
+- qué intervención produce,
+- dónde busca estabilizarse,
+- cómo se valida,
+- bajo qué forma se vuelve convertible,
+- y por qué vía captura valor.
+
+3.4) Relación ancestro-heredero
+
+Relación ancestro-heredero = relación entre dos escalas de mediación donde una
+unidad más amplia provee invariantes, orientación y condiciones de continuidad, y
+una unidad más localizada realiza esas invariantes en una configuración más
+situada.
+
+La relación no es de copia.
+
+Es de herencia con adaptación.
+
+3.5) Relación de hermandad estructural
+
+Relación de hermandad estructural = relación entre unidades de la misma escala
+que comparten ancestro, pero divergen en campo, nicho, circuito, soporte o
+mecanismo de captura.
+
+Esta relación es importante porque la fractalidad no solo introduce niveles
+verticales.
+
+Introduce también familias laterales de variación legítima.
+
+3.6) Subnúcleo
+
+Subnúcleo = núcleo derivado que conserva continuidad con un núcleo más amplio,
+pero organiza una mediación más localizada con invariantes propias de escala.
+
+El subnúcleo no es cualquier fragmento.
+
+Es una unidad suficientemente estable como para comportarse como fuente de
+nuevas traducciones e intervenciones.
+
+--------------------------------------------------------------------------------
+
+4) Tesis central del refinamiento
+
+La tesis central del refinamiento puede formularse así:
+
+La mediación económica contextual no debe pensarse como una sola cadena plana,
+sino como una cadena fractal de mediaciones donde cada realización puede actuar,
+según la escala considerada, como:
+- realización descendiente,
+- unidad operativa presente,
+- y fuente ascendente o lateral de nuevas realizaciones.
+
+De esta tesis se siguen varias consecuencias.
+
+4.1) El núcleo no es indivisible en sentido simple
+
+El núcleo puede descomponerse en niveles sin perder identidad global.
+
+Puede existir:
+- un núcleo rector de escala amplia,
+- un subnúcleo estratégico,
+- un subnúcleo de oferta,
+- un subnúcleo de canal,
+- y un subnúcleo de intervención.
+
+Esto no rompe la unidad.
+
+La vuelve analizable.
+
+4.2) El campo no es una exterioridad única
+
+El campo amplio puede contener:
+- subcampos,
+- regiones,
+- nichos,
+- plataformas,
+- circuitos institucionales,
+- y mecanismos específicos de admisión.
+
+Por eso no basta con decir:
+"la entidad opera en un campo".
+
+Hay que distinguir en qué escala de campo se produce cada pasaje.
+
+4.3) La validación no es un evento único
+
+Una forma puede:
+- validarse localmente,
+- fracasar institucionalmente,
+- convertirse parcialmente,
+- o capturar valor en una escala sin lograrlo en otra.
+
+Por eso la validación debe leerse como fenómeno multiescala.
+
+4.4) La convertibilidad no es un interruptor binario
+
+Puede existir:
+- convertibilidad de nicho,
+- convertibilidad de prestigio,
+- convertibilidad contractual,
+- convertibilidad distributiva,
+- convertibilidad institucional amplia,
+- y convertibilidad directamente monetaria.
+
+Eso obliga a distinguir entre elegibilidad económica parcial y cierre económico
+pleno.
+
+4.5) El dinero no cierra todo por sí mismo
+
+Puede haber captura monetaria local sin consolidación estructural.
+
+Puede haber dinero sin continuidad.
+
+Puede haber reconocimiento sin dinero.
+
+Puede haber convertibilidad sin captura suficiente.
+
+El refinamiento fractal obliga a separar estos cierres por escala.
+
+--------------------------------------------------------------------------------
+
+5) Componentes principales reinterpretados fractalmente
+
+5.1) Actor económico fractal
+
+Actor económico = entidad capaz de portar, preservar, gestionar y proyectar un
+núcleo con orientación de realización económica.
+
+Leído fractalmente, esto significa además que el actor económico no siempre
+coincide con una sola escala organizativa.
+
+Puede haber:
+- actor económico rector,
+- actor económico derivado,
+- actor económico de unidad,
+- actor económico de canal,
+- o actor económico de interfaz.
+
+Una institución puede comportarse como actor económico en una escala.
+
+Una unidad menor dentro de ella puede comportarse también como actor económico
+en otra.
+
+La pregunta correcta deja de ser:
+"quién vende".
+
+Pasa a ser:
+"qué unidad porta continuidad y toma decisiones en esta escala concreta".
+
+5.2) Núcleo preservable fractal
+
+Núcleo = conjunto preservable de invariantes que define la identidad operativa de
+una unidad económica.
+
+Leído fractalmente, esto significa que el núcleo puede contener:
+- invariantes globales,
+- invariantes de subescala,
+- y dominios de variación diferenciados según la escala.
+
+No todo lo que es invariante arriba lo es abajo.
+
+No todo lo que varía abajo rompe la identidad arriba.
+
+Esto obliga a modelar niveles de preservación.
+
+5.3) Campo de aplicación fractal
+
+Campo de aplicación = infraestructura externa de legibilidad, pertenencia,
+jerarquía y validación dentro de la cual el núcleo debe reconfigurarse para
+volverse operable.
+
+Leído fractalmente, esto significa que el campo puede descomponerse como:
+- campo amplio,
+- región,
+- nicho,
+- circuito,
+- plataforma,
+- superficie de intercambio,
+- e institución de captura.
+
+Cada uno de esos niveles impone condiciones distintas.
+
+Por eso, una unidad puede estar bien traducida para un nivel y mal traducida
+para otro.
+
+5.4) Traducción contextual fractal
+
+Traducción contextual = operación por la cual un núcleo se reconfigura según las
+condiciones de un campo sin perder identidad estructural.
+
+Leída fractalmente, la traducción deja de ser un único gesto adaptativo.
+
+Pasa a ser una familia encadenada de traducciones:
+- traducción de núcleo amplio a subnúcleo operativo,
+- traducción de subnúcleo a campo,
+- traducción de campo a nicho,
+- traducción de nicho a intervención,
+- y traducción de validación a convertibilidad.
+
+Esto permite ver que la adaptación no ocurre una sola vez.
+
+Ocurre repetidamente.
+
+5.5) Intervención fractal
+
+Intervención = realización concreta y situada de una traducción contextual.
+
+Leída fractalmente, una intervención puede ser:
+- el resultado final en una escala,
+- y el punto de partida en otra.
+
+Por ejemplo, una oferta estabilizada puede ser intervención respecto de un
+campo amplio, pero subnúcleo respecto de una campaña concreta.
+
+Esa doble condición es una de las claves del refinamiento.
+
+5.6) Región de estabilización fractal
+
+La región de estabilización ya no debe pensarse como punto único.
+
+Debe pensarse como familia de cierres locales.
+
+Una forma puede estabilizarse:
+- en una lectura de nicho,
+- en un circuito de distribución,
+- en una comunidad de referencia,
+- en una institución,
+- o en una arquitectura de monetización.
+
+Cada estabilización puede habilitar la siguiente, pero no la garantiza.
+
+5.7) Validación multiescala
+
+La validación puede aparecer en distintos niveles:
+- validación de legibilidad,
+- validación de pertenencia,
+- validación local,
+- validación reputacional,
+- validación institucional,
+- validación contractual,
+- y validación económica.
+
+Por eso, la pregunta correcta no es solo:
+"¿está validado?"
+
+La pregunta correcta es:
+"¿validado por quién, en qué escala y para qué umbral de convertibilidad?"
+
+5.8) Convertibilidad escalonada
+
+Convertibilidad institucional = capacidad de una forma ya validada para
+traducirse en relaciones de valor reconocidas.
+
+Leída fractalmente, esta convertibilidad puede ser:
+- inicial,
+- parcial,
+- local,
+- lateral,
+- acumulativa,
+- o sistémica.
+
+Una forma puede ser muy convertible en una región estrecha y casi nula en otra.
+
+Eso obliga a pensar gradientes y pasajes.
+
+5.9) Mercado del dinero como envolvente de captura
+
+El mercado del dinero sigue siendo el régimen de captura final.
+
+Pero el refinamiento fractal obliga a no tratarlo como único cierre relevante.
+
+El dinero aparece al final de una cadena.
+
+Sin embargo, esa cadena puede contener:
+- precondiciones múltiples,
+- cierres parciales,
+- y umbrales intermedios de elegibilidad.
+
+Por eso, la relación entre mediación y dinero debe leerse como cierre por capas.
+
+--------------------------------------------------------------------------------
+
+6) Secuencia operativa refinada
+
+La secuencia mínima del modelo puede seguir escribiéndose así:
+
+Actor económico
+→ Núcleo
+→ Campo de aplicación
+→ Traducción contextual
+→ Intervención
+→ Nicho o región de estabilización
+→ Validación
+→ Convertibilidad institucional
+→ Mercado del dinero
+
+Pero el refinamiento exige añadir una segunda lectura:
+
+cada uno de esos nodos puede, a su vez, abrir una nueva cadena de mediación.
+
+Por eso, la secuencia operativa refinada debe entenderse así:
+
+6.1) Un núcleo amplio desciende hacia una mediación situada.
+6.2) Esa mediación situada puede estabilizarse.
+6.3) Una vez estabilizada, puede operar como subnúcleo de otra mediación.
+6.4) Esa nueva mediación puede producir otra intervención.
+6.5) Cada escala devuelve validación y restricciones.
+6.6) La convertibilidad puede acumularse, bloquearse o bifurcarse entre niveles.
+6.7) La captura económica final depende del acoplamiento suficiente entre varias
+     escalas previas.
+
+En términos más compactos:
+
+mediación amplia
+→ mediación intermedia
+→ mediación localizada
+→ convertibilidad escalonada
+→ captura final
+
+--------------------------------------------------------------------------------
+
+7) Qué muestra la fractalidad que el modelo simple dejaba menos visible
+
+7.1) Que el producto no es la única unidad operativa
+
+La unidad operativa puede ser también:
+- una línea,
+- un circuito,
+- un adaptador,
+- una interfaz,
+- una campaña,
+- un régimen de validación,
+- o un mecanismo de monetización.
+
+7.2) Que el nicho no es solo destino de estabilización
+
+El nicho puede funcionar además como:
+- filtro,
+- subcampo,
+- archivo de lectura,
+- reservorio de validación,
+- y trampolín de convertibilidad.
+
+7.3) Que la mediación económica puede fallar en escalas diferentes
+
+Puede fallar:
+- por mala traducción del núcleo,
+- por mala lectura del campo,
+- por estabilización insuficiente,
+- por convertibilidad incompleta,
+- por captura contractual débil,
+- o por descoordinación entre escalas.
+
+7.4) Que la rentabilidad puede ocultar fragilidad estructural
+
+Una captura monetaria puntual no prueba que toda la cadena esté consolidada.
+
+Puede haber dinero local con identidad inestable.
+
+Puede haber desempeño táctico sin arquitectura durable.
+
+7.5) Que una forma puede ser fuerte arriba y débil abajo, o al revés
+
+Puede existir:
+- núcleo rector fuerte y piezas débiles,
+- piezas exitosas y núcleo mal preservado,
+- validación intensa en nicho y baja convertibilidad amplia,
+- o convertibilidad institucional amplia con baja intensidad cultural local.
+
+--------------------------------------------------------------------------------
+
+8) Invariantes del modelo refinado
+
+El modelo refinado conserva todos los invariantes del modelo general y añade
+algunos más.
+
+8.1) Invariante de identidad estructural
+La unidad sigue definiéndose por estructura y no por ejemplos sueltos.
+
+8.2) Invariante de continuidad bajo variación
+Debe existir identidad preservable a través de realizaciones distintas.
+
+8.3) Invariante de mediación
+Nada llega directamente al cierre económico.
+Siempre existen pasos intermedios.
+
+8.4) Invariante de validación
+Ninguna forma es autosuficiente.
+Siempre requiere lectura, validación o admisión.
+
+8.5) Invariante de borde
+Las unidades deben distinguirse de sus vecinas.
+Sin borde, la escala se vuelve confusa.
+
+8.6) Invariante de transferibilidad estructural
+La arquitectura debe poder proyectarse a rubros distintos.
+
+8.7) Invariante de recursividad limitada
+La misma gramática puede repetirse entre escalas, pero no de manera caótica.
+La repetición debe poder delimitarse.
+
+8.8) Invariante de herencia con adaptación
+Toda escala derivada debe conservar algo del ancestro y variar algo para ser
+operable en su campo.
+
+8.9) Invariante de diferenciación de cierres
+No debe confundirse validación local con convertibilidad amplia, ni
+convertibilidad con captura monetaria final.
+
+--------------------------------------------------------------------------------
+
+9) No equivalencias críticas del modelo refinado
+
+Para evitar errores, conviene fijar explícitamente las siguientes no
+equivalencias.
+
+No equivaler:
+- fractalidad = complejidad vaga
+- fractalidad = mera jerarquía administrativa
+- subnúcleo = fragmento arbitrario
+- escala = importancia
+- intervención = unidad mínima universal
+- validación local = cierre económico total
+- convertibilidad parcial = monetización plena
+- dinero = prueba suficiente de estabilidad estructural
+- plataforma = campo total
+- nicho = audiencia
+- producto = núcleo
+- mediación económica contextual = una sola cadena lineal sin niveles
+
+Estas no equivalencias son decisivas.
+
+Si se rompen, el refinamiento desaparece y el modelo vuelve a colapsar en una
+lectura plana.
+
+--------------------------------------------------------------------------------
+
+10) Consecuencias operativas para diseño de aplicaciones
+
+Cuando este modelo se usa para diseñar una aplicación, la fractalidad obliga a
+trabajar de manera distinta.
+
+10.1) Declarar escalas explícitas
+
+No basta con describir:
+- actor,
+- núcleo,
+- campo,
+- y salida.
+
+Hay que indicar además en qué escala se encuentra cada pieza.
+
+10.2) Definir invariantes por escala
+
+Una aplicación robusta no solo define el núcleo global.
+
+Define también:
+- qué debe preservarse arriba,
+- qué puede variar abajo,
+- y qué subnúcleos adquieren autonomía suficiente.
+
+10.3) Modelar relaciones laterales
+
+No basta con bajar verticalmente desde un núcleo rector.
+
+También hay que reconocer unidades hermanas:
+- nichos paralelos,
+- circuitos alternos,
+- canales equivalentes,
+- o mecanismos distintos de captura.
+
+10.4) Separar validación por niveles
+
+Una aplicación no debe resumir toda evidencia en una sola métrica.
+
+Debe distinguir, al menos, entre:
+- validación de legibilidad,
+- validación local,
+- validación institucional,
+- y captura económica.
+
+10.5) Evitar colapso de producto y núcleo
+
+Toda salida concreta debe leerse como intervención de una escala.
+
+No debe confundirse con el núcleo total del sistema.
+
+10.6) Permitir corrección ascendente y descendente
+
+La evidencia obtenida abajo puede corregir:
+- una intervención,
+- una traducción,
+- una lectura de nicho,
+- o incluso la articulación de un subnúcleo.
+
+La corrección no debe quedar atrapada en una sola capa.
+
+En términos prácticos, una aplicación bien diseñada bajo este modelo debería
+poder responder:
+- qué escala falló,
+- qué escala se estabilizó,
+- cuál se volvió convertible,
+- y cuál todavía no logró cierre suficiente.
+
+--------------------------------------------------------------------------------
+
+11) Criterio de validez del modelo refinado
+
+Una aplicación concreta pertenece a esta versión refinada del modelo si cumple,
+como mínimo, las siguientes condiciones:
+
+- existe un actor económico identificable en la escala estudiada,
+- existe un núcleo preservable en esa escala,
+- existe un campo de aplicación con estructura propia,
+- existe una traducción contextual,
+- existe una intervención concreta,
+- existe algún régimen de validación,
+- existe una región de estabilización o equivalente,
+- existe una posibilidad de convertibilidad institucional,
+- existe una vía de captura económica,
+- y existe además una relación explícita con una escala superior, inferior o
+  lateral que permita describir herencia, diferenciación o encadenamiento.
+
+Si faltan las primeras condiciones, no hay mediación económica contextual en
+sentido fuerte.
+
+Si falta la última, puede seguir habiendo modelo general, pero todavía no se ha
+introducido el refinamiento fractal en sentido pleno.
+
+--------------------------------------------------------------------------------
+
+12) Fórmula compacta del modelo refinado
+
+La forma mínima del refinamiento puede escribirse así:
+
+Unidad fractal de mediación =
+Actor económico
+→ Núcleo
+→ Campo
+→ Traducción
+→ Intervención
+→ Estabilización
+→ Validación
+→ Convertibilidad
+→ Captura
+
+Y su regla de composición puede formularse así:
+
+toda intervención suficientemente estabilizada puede convertirse en subnúcleo de
+una nueva unidad fractal de mediación.
+
+Fórmula verbal condensada:
+
+Una entidad no monetiza directamente su esencia;
+monetiza familias coordinadas de realizaciones contextualizadas, validadas y
+convertibles de su núcleo, distribuidas en escalas encadenadas de mediación.
+
+--------------------------------------------------------------------------------
+
+13) Cierre
+
+El refinamiento fractal de la Mediación Económica Contextual no sustituye el
+modelo previo.
+
+Lo vuelve más resolutivo.
+
+Su aporte principal consiste en mostrar que el verdadero puente con el mercado
+del dinero no es una intervención aislada, ni siquiera la cadena simple tomada
+una sola vez, sino la arquitectura recursiva de mediaciones por la cual un
+núcleo se vuelve progresivamente legible, estable, convertible y capturable en
+distintas escalas.
+
+Por eso, la unidad mínima de análisis ya no debe buscarse únicamente en la
+mercancía, ni en la pieza, ni en la campaña.
+
+Debe buscarse en la unidad fractal de mediación: una relación estructural entre
+núcleo, campo, traducción, intervención, validación, convertibilidad y escala.
+
+Esa es la forma refinada del modelo.
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

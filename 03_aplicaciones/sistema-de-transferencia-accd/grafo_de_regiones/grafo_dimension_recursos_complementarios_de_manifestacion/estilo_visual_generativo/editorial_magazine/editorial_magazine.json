@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-editorial_magazine-editorial_magazine",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-editorial_magazine-editorial_magazine",
+    "label": "editorial_magazine",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-editorial_magazine-editorial_magazine",
+    "summary": "**Definición.** Estilo de revista o publicación editorial, con cuidado tipográfico, composición sofisticada, fotografía o ilustración tratada y jerarquía visual refinada.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

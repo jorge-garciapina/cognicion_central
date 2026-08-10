@@ -1,0 +1,268 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d3fe79-ac6c-83e8-afa3-25c5601cbb04
+{"address":"graph/node/ACCD-Secuencias","content":{
+  "id":"ACCD-Secuencias",
+  "label":"ACCD — Secuencias",
+  "type":"domain_node",
+  "definition_ref":"def/ACCD-Secuencias",
+  "summary":"Subgrafo del paquete ACCD que define la región de trayectorias estructurales por las cuales la arquitectura puede leerse como proceso. No nombra una secuencia particular, sino la familia de secuencias que recortan el pasaje entre proyección, recepción, convertibilidad y retorno, y que sirven como referencia global para ubicar, corregir y alinear estratos."
+}}
+
+{"address":"def/ACCD-Secuencias","content":"[
+================================================================================
+DEFINICIÓN — ACCD — SECUENCIAS
+================================================================================
+
+0) Intención del nodo
+
+ACCD-Secuencias se introduce para fijar, como subgrafo autónomo dentro de ACCD,
+la región dedicada a las trayectorias estructurales por las cuales la
+arquitectura puede leerse como proceso.
+
+Su función no es nombrar:
+- una secuencia particular,
+- una cronología trivial de producción,
+- una carpeta de archivos,
+- ni una simple convención organizativa.
+
+Su función es nombrar una región conceptual del grafo que reúne las secuencias
+por las cuales ACCD puede describirse como conjunto articulado de transformaciones.
+
+Dicho de otro modo:
+
+ACCD-Secuencias no es una secuencia más.
+Es el subgrafo que fija qué significa, dentro de ACCD, que algo sea leído como
+trayectoria secuencial.
+
+--------------------------------------------------------------------------------
+1) Definición central
+
+ACCD-Secuencias =
+subgrafo del paquete ACCD que organiza la familia de secuencias por las cuales
+la arquitectura puede ser leída en términos de:
+
+- pasaje desde origen estructural a salida material,
+- pasaje desde salida material a recepción estructurable,
+- pasaje desde recepción y validación a acumulación convertible,
+- y pasaje desde huella producida a retorno, diagnóstico y modulación futura.
+
+Su función es introducir una gramática común de trayectorias para que los
+distintos estratos del paquete puedan situarse respecto de:
+- qué tramo del proceso recortan,
+- qué stages usan,
+- qué stages producen,
+- y qué secuencias refinan o atraviesan.
+
+--------------------------------------------------------------------------------
+2) Qué delimita este subgrafo
+
+Este subgrafo delimita la región procesual de ACCD.
+
+Recorta, por tanto:
+- las trayectorias mínimas por las cuales el sistema se proyecta,
+- es recibido,
+- acumula valor,
+- y retorna sobre sí mismo.
+
+No delimita:
+- la ontología total del paquete,
+- la identidad completa de la entidad comercializada,
+- la lista global de componentes canónicos,
+- ni los estratos en su integridad.
+
+Su borde es más preciso:
+
+ACCD-Secuencias recorta el plano donde ACCD deja de leerse solo como conjunto de
+componentes y empieza a leerse como conjunto de transformaciones acopladas.
+
+--------------------------------------------------------------------------------
+3) Lectura fuerte del subgrafo
+
+La lectura fuerte de ACCD-Secuencias no es:
+
+“la arquitectura tiene varios pasos”.
+
+La lectura fuerte es esta:
+
+ACCD no opera solo por coexistencia de componentes,
+sino por trayectorias canónicas en las que:
+- algo estructural entra en proyección,
+- una salida comparece y puede ser recibida,
+- una respuesta puede ganar espesor y volverse elegible para valor,
+- y esa historia puede reingresar al sistema como aprendizaje.
+
+Por eso, las secuencias no deben leerse como pipelines cerrados ni como líneas
+cronológicas rígidas.
+
+Deben leerse como:
+- recortes estructurales del proceso,
+- trayectorias distinguibles pero acoplables,
+- y superficies de integración transversal para los estratos.
+
+--------------------------------------------------------------------------------
+4) Composición del subgrafo
+
+En el estado actual del artefacto, ACCD-Secuencias está compuesto por las
+siguientes unidades de secuencia:
+
+4.1) ACCD-Secuencia-de-Proyeccion
+Recorta el pasaje desde un origen estructural preservable hasta una manifestación
+material concreta.
+
+4.2) ACCD-Secuencia-de-Recepcion
+Recorta el pasaje desde la manifestación material hasta el umbral temprano de
+recepción estructurable.
+
+4.3) ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno
+Recorta una trayectoria local comprimida que articula stages de recepción,
+acumulación convertible y retorno correctivo sin pretender agotar por sí sola
+las secuencias globales canónicas.
+
+4.4) ACCD-Secuencia-de-Retorno
+Recorta la trayectoria por la cual una huella reingresa al sistema como
+evidencia, diagnóstico, corrección, actualización, trayectoria y nueva entrada
+modulada.
+
+Nota de lectura:
+la presencia de una secuencia parcial local dentro del subgrafo no rompe la
+estructura del conjunto. Lo que indica es que ACCD-Secuencias no sólo puede
+contener secuencias globales puras, sino también subgrafos locales comprimidos
+que refinen o atraviesen varias trayectorias canónicas a la vez, siempre que
+declaren explícitamente su borde y no se presenten como arquitectura total.
+
+--------------------------------------------------------------------------------
+5) Invariantes del subgrafo
+
+ACCD-Secuencias preserva al menos los siguientes invariantes:
+
+5.1) Invariante de lectura procesual
+Toda secuencia del subgrafo debe recortar una trayectoria reconocible del
+sistema y no una simple colección de componentes.
+
+5.2) Invariante de no-agotamiento
+Ninguna secuencia local puede presentarse como si agotara toda la arquitectura.
+
+5.3) Invariante de borde declarado
+Toda secuencia debe poder decir:
+- qué recorta,
+- qué no recorta,
+- y con qué otras secuencias se acopla.
+
+5.4) Invariante de stages legibles
+Toda secuencia debe poder declarar los stages que la componen o que presupone.
+
+5.5) Invariante de acoplamiento
+Las secuencias pueden distinguirse, pero no deben modelarse como sistemas
+aislados sin relación con el resto de ACCD.
+
+5.6) Invariante de reutilización
+Las secuencias deben reutilizar componentes globales canónicos en lugar de
+redefinirlos arbitrariamente.
+
+--------------------------------------------------------------------------------
+6) Función del subgrafo dentro del paquete mayor
+
+Dentro del grafo mayor de ACCD, ACCD-Secuencias cumple una función muy precisa:
+
+- ofrecer un plano común de trayectorias;
+- volver explícito que los estratos pueden participar en distintos tramos del
+  proceso;
+- y proporcionar una referencia global para correcciones locales futuras.
+
+Esto significa que ACCD-Secuencias debe poder ser leído como región de
+referencia transversal para prompts, revisiones y alineaciones, sin sustituir el
+trabajo propio de cada estrato.
+
+No reemplaza:
+- el subgrafo identitario,
+- el subgrafo contextual,
+- el subgrafo comercial,
+- ni el subgrafo de evidencia.
+
+Lo que hace es darles una gramática común de trayectorias.
+
+--------------------------------------------------------------------------------
+7) Regla de interpretación de los refinamientos
+
+Toda secuencia conectada a ACCD-Secuencias debe ser leída como refinamiento de la
+noción general de trayectoria secuencial dentro de ACCD.
+
+Eso implica:
+
+- no se conecta a raíz como archivo suelto;
+- se conecta porque refina una región conceptual ya fijada;
+- y al refinarla, muestra un recorte más preciso del proceso general.
+
+Por tanto, si alguien lee este nodo raíz correctamente, debe entender que:
+- las secuencias son subgrafos independientes en su desarrollo interno;
+- pero no son entidades desconectadas sin marco común;
+- todas refinan la región ACCD-Secuencias;
+- y desde ahí participan del grafo mayor del paquete.
+
+--------------------------------------------------------------------------------
+8) Validación
+
+La definición se considera correctamente aplicada cuando permite entender que:
+
+1. ACCD-Secuencias no es una secuencia particular, sino el subgrafo de
+   trayectorias;
+2. las secuencias conectadas a él refinan problemas distintos del proceso;
+3. ninguna de ellas agota por sí sola la arquitectura ACCD;
+4. pueden existir tanto secuencias globales puras como secuencias locales
+   comprimidas;
+5. este subgrafo sirve como referencia transversal para ubicar estratos y no
+   sólo como organización de archivos.
+
+Una mala aplicación se detecta cuando:
+- ACCD-Secuencias se lee como simple carpeta;
+- se trata a las secuencias como archivos sin función conceptual común;
+- o se cree que el nodo raíz sólo dice “todas cuelgan de aquí”.
+
+--------------------------------------------------------------------------------
+9) Fórmula de cierre
+
+ACCD-Secuencias =
+subgrafo de trayectorias estructurales de ACCD
+donde distintas secuencias refinan, desde ángulos distintos, el hecho de que la
+arquitectura puede leerse como proceso de:
+proyección,
+recepción,
+acumulación convertible,
+y retorno.
+
+Por eso, este nodo no nombra un paso adicional del sistema.
+
+Nombra la región del grafo donde las trayectorias del sistema quedan definidas
+como familia articulada y reutilizable.
+]"} 
+
+{"address":"graph/edge/ACCD-Secuencia-de-Proyeccion-refines-ACCD-Secuencias","content":{
+  "id":"ACCD-Secuencia-de-Proyeccion-refines-ACCD-Secuencias",
+  "from":"ACCD-Secuencia-de-Proyeccion",
+  "to":"ACCD-Secuencias",
+  "type":"refines",
+  "rationale":"La Secuencia de Proyeccion refina ACCD-Secuencias porque explicita el tramo por el cual un origen estructural preservable se convierte en manifestación material concreta."
+}}
+
+{"address":"graph/edge/ACCD-Secuencia-de-Recepcion-refines-ACCD-Secuencias","content":{
+  "id":"ACCD-Secuencia-de-Recepcion-refines-ACCD-Secuencias",
+  "from":"ACCD-Secuencia-de-Recepcion",
+  "to":"ACCD-Secuencias",
+  "type":"refines",
+  "rationale":"La Secuencia de Recepcion refina ACCD-Secuencias porque explicita el tramo por el cual una manifestación material entra en comparecencia, atención organizada y primera legibilidad de respuesta."
+}}
+
+{"address":"graph/edge/ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno-refines-ACCD-Secuencias","content":{
+  "id":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno-refines-ACCD-Secuencias",
+  "from":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "to":"ACCD-Secuencias",
+  "type":"refines",
+  "rationale":"La Secuencia Parcial de Recepcion-Convertibilidad-y-Retorno refina ACCD-Secuencias porque comprime localmente un tramo acoplado de recepción, acumulación convertible y retorno correctivo sin presentarse como trayectoria total del paquete."
+}}
+
+{"address":"graph/edge/ACCD-Secuencia-de-Retorno-refines-ACCD-Secuencias","content":{
+  "id":"ACCD-Secuencia-de-Retorno-refines-ACCD-Secuencias",
+  "from":"ACCD-Secuencia-de-Retorno",
+  "to":"ACCD-Secuencias",
+  "type":"refines",
+  "rationale":"La Secuencia de Retorno refina ACCD-Secuencias porque explicita el tramo por el cual una huella reingresa al sistema como evidencia, diagnóstico, corrección, trayectoria y nueva entrada modulada."
+}}

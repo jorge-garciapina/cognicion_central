@@ -1,0 +1,20 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual",
+    "label": "construccion_conceptual",
+    "type": "compound_structural_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual",
+    "summary": "Campo que hace explícita la composición de ideas activas que sostienen la realización.",
+    "metadata": {
+      "section": "8.1",
+      "value_type": "Compuesto estructural",
+      "cardinality": "Una colección de una o más idea_activa",
+      "restrictions": [
+        "Toda instancia debe contener una o más ideas activas.",
+        "Cada idea activa debe declarar todos sus componentes mínimos.",
+        "Debe existir consistencia entre rol, peso, presencia y relaciones."
+      ]
+    }
+  }
+}

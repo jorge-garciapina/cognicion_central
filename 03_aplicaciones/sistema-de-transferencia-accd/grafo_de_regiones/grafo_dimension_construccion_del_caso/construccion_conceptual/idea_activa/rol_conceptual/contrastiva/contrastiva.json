@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva",
+    "label": "contrastiva",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva",
+    "summary": "Valor contrastiva declarado para el campo rol_conceptual.",
+    "metadata": {
+      "value_of": "rol_conceptual"
+    }
+  }
+}

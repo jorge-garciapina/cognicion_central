@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo-alta_social-alta_social",
+    "type": "has_value",
+    "rationale": "alta_social es un valor nuevo incorporado en resolucion_objetivo para la realización imagen."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-tablero_de_decision-tablero_de_decision",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-tablero_de_decision-tablero_de_decision",
+    "label": "tablero_de_decision",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-tablero_de_decision-tablero_de_decision",
+    "summary": "**Definición.** Valor que organiza información para permitir elección, evaluación o comparación entre alternativas. La pieza funciona como superficie de decisión: muestra criterios, opciones, rutas, consecuencias o condiciones.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[TRANSCRIPCIÓN — NOTAS SOBRE PROYECTO DE EDUCACIÓN]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos menos claros se marcaron notas como [dudoso].]
+
+[PÁGINA 1]
+
+[Notas sobre proyecto de educación]    dom-21-dic-2025
+
+1) Cada mente posee estructuras particulares, símbolos familiares, analogías, formas de aprender.
+   Un primer punto de partida sería crear [perfiles cognitivos] de cada alumno. ¿Cómo? Se necesitaría desarrollar una metodología al respecto.
+   Lo anterior no es más que una forma más de decir aquello que siempre se ha sabido,
+2) Primero se crea el perfil, después la estrategia,
+3) Si se crean [módulos cognitivos] de cada estudiante, entonces será posible simular antes de llevar a la práctica:
+4) Para optimizar el proceso de creación de la arquitectura cognitiva, lo ideal sería estructurar cada parte del curso desde un inicio.
+5) Si se crean [módulos cognitivos] para cada tema en específico, entonces los estudiantes podrían interactuar directamente con ellos.
+6) Análogamente al punto anterior, los profesores podrían tener acceso al [módulo cognitivo] con los detalles de cada curso.
+7) Lo que se busca producir no son objetos, sino
+     - Formas de acceso al conocimiento.
+     - Rutas cognitivas a la comprensión.
+     - Configuraciones de sentido.
+   Buscamos comprender cómo el conocimiento se vuelve efectivo para un sujeto.
+
+
+[PÁGINA 2]
+
+8) Dos explicaciones pueden ser:
+     - igualmente [dudoso]
+     - igualmente completas
+     - igualmente correctas
+   pero solo una produce comprensión en un alumno específico.
+   ¿Por qué?
+   Porque:
+     - el conocimiento no entra en un vacío,
+     - entra en una mente con estructuras previas
+     - errores (sesgos)
+     - analogías internas,
+     - símbolos familiares
+
+9) Es necesario crear un grafo de los conceptos que cada uno de los alumnos domina. Cualitativamente, lo que se busca es transferir el [grafo contrato] del curso al [grafo contexto] de cada alumno.

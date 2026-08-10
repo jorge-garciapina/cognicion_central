@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-editorial_sobrio-editorial_sobrio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-editorial_sobrio-editorial_sobrio",
+    "label": "editorial_sobrio",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual-editorial_sobrio-editorial_sobrio",
+    "summary": "Valor que adopta una apariencia cercana a una publicación editorial, ensayo visual o documento analítico.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_composicion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

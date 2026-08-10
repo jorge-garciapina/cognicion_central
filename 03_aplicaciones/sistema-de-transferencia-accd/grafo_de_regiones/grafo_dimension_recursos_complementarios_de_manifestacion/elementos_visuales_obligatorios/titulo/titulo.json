@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+    "label": "titulo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+    "summary": "**Definición.** Elemento verbal principal que nombra, enmarca o abre la interpretación de la pieza. Su obligatoriedad indica que la imagen no debe depender sólo de lo visual para establecer el tema o promesa de lectura.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios"
+    }
+  }
+}

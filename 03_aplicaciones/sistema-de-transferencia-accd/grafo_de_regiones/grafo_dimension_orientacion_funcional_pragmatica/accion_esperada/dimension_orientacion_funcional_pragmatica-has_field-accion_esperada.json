@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "type": "has_field",
+    "rationale": "accion_esperada es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica."
+  }
+}

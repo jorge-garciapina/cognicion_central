@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios",
+  "content": "Indicar en qué medida la pieza depende de los recursos complementarios para funcionar correctamente. Tipo de valor: Categorial ordinal. Cardinalidad: Un valor obligatorio. Restricciones: Debe ser coherente con el uso declarado de cada tipo de recurso. No debe contradecir la modalidad general de realización."
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-matriz_de_cuadrantes-matriz_de_cuadrantes",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-matriz_de_cuadrantes-matriz_de_cuadrantes",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-matriz_de_cuadrantes-matriz_de_cuadrantes",
+    "type": "has_value",
+    "rationale": "matriz_de_cuadrantes es un valor nuevo incorporado en arquitectura_macro para la realización imagen."
+  }
+}

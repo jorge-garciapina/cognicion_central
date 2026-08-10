@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_marca-jerarquia_por_marca",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_marca-jerarquia_por_marca",
+    "label": "jerarquia_por_marca",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_marca-jerarquia_por_marca",
+    "summary": "**Definición.** Modo en el que la marca, logotipo, color propietario o signo identitario organiza prioridades visuales. La marca puede actuar como sello, origen, garantía, cierre o elemento dominante.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica"
+    }
+  }
+}

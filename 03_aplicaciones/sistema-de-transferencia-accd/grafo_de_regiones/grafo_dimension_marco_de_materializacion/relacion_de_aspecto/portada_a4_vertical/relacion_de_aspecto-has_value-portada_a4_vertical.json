@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-portada_a4_vertical-portada_a4_vertical",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-portada_a4_vertical-portada_a4_vertical",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-portada_a4_vertical-portada_a4_vertical",
+    "type": "has_value",
+    "rationale": "portada_a4_vertical es un valor nuevo incorporado en relacion_de_aspecto para la realización imagen."
+  }
+}

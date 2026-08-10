@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican",
+    "label": "personas_que_no_aplican",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican",
+    "summary": "Valor personas_que_no_aplican declarado para el campo publico_objetivo_inmediato.",
+    "metadata": {
+      "value_of": "publico_objetivo_inmediato",
+      "declared_as": "espacio_de_valores_sugerido"
+    }
+  }
+}

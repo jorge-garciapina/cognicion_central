@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_flechas-por_flechas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_flechas-por_flechas",
+    "label": "por_flechas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual-por_flechas-por_flechas",
+    "summary": "**Definición.** Orientación explícitamente guiada por flechas o vectores. La dirección visual está marcada por signos gráficos, no sólo por distribución espacial.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual"
+    }
+  }
+}

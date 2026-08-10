@@ -1,0 +1,22 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "label": "clase_de_materializacion",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "summary": "Describir la clase de materialización textual válida para la realización.",
+    "metadata": {
+      "section": "10.1",
+      "tipo_de_valor": "Categorial cerrado.",
+      "cardinalidad": "Un valor obligatorio.",
+      "espacio_de_valores": [
+        "guion_audiovisual_breve"
+      ],
+      "restricciones": [
+        "Toda instancia del modelo debe fijar esta clase.",
+        "La salida debe ser reconocible como guión audiovisual breve."
+      ]
+    }
+  }
+}

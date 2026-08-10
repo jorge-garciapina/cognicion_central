@@ -1,0 +1,161 @@
+DIVISIONES DE LOS CHAT: 
+RUTINA BICEP TRICEP:
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6994be6e-c2e8-832b-b4aa-0dfe94bca439
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69974b50-01a8-832e-b886-95eb73e05333
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6996b428-0678-8325-ac6c-3039579f6db2
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6997eaa4-42e0-8326-95a3-a1f4b8d8b1eb
+48 LEYES: 
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a92e1-d624-8333-90cf-c67a59cf9dad
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a9775-4800-8327-a388-2f7d60a9cf81
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699ab9cc-0bfc-832d-8071-ab8d736494c5
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699b5d17-c40c-8328-8a4c-caa8ada0d146
+
+PARTES DE UNA CELULA: 
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6998afc5-f2e8-8325-906c-605ae1ba4704
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69991997-26fc-8333-a82a-79691cb86912
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699924f9-1b68-832f-9497-d49b97a91875
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a738e-b7f4-832c-870f-533b7df07218
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a7501-bb8c-8330-aba0-b463a521c3ac
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699a7f91-7a2c-8328-b28f-e6dee333cacf
+extra: 
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699ab04b-7a78-8329-a1e0-77a2cad14fc6
+
+SOLO LEVELING:
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699ad1b1-9e74-832c-a2af-5461c48f2b67
+
+GRAFO DE DISCUSIÓN
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699c9dc7-ba90-8332-b6c5-a3eebce5dffc
+
+DOCUMENTO CON LA DISCUSIÓN DE ARQ-COG: 
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69ab1d71-0f34-8325-b0ad-5c2c9b894451
+
+CHAT DE ARQUITECTURA COGNITIVA FRACTAL: 
+https://chatgpt.com/g/g-p-68f18f6837dc8191a13e5e97192a8a4d-programer-training/c/69a231b0-edf4-8325-928d-a6afea401533
+
+
+LA TEORÍA DE LAZO SERÁ LA BASE PARA LA SIGUIENTE PARTE DEL PROYECTO, AUNQUE YA ES UNA TEORÍA CON UN 
+FUNDAMENTO VÁLIDO, ES NECESARIO TENER SU PLANTEAMIENTO BIEN DEFINIDO.
+
+AÑADIRÉ LA TEORÍA DE LAZO (TL) AL GRAFO CON LA "TEORÍA DE MÁQUINAS COGNITIVAS" USANDO LO QUE AÑADÍ SOBRE "FAMILIAS" Y
+"SIMILARIDAD ESTRUCTURAL" YA QUE PUEDE SER EXPRESADA COMO UNA COMBINACIÓN DE FAMILIAS, PUESTO QUE EN PARTE ES UNA IDEA, 
+EN PARTE UN MÉTODO, ETC. EN ESTE DOCUMENTO PLASMARÉ TODAS LAS IDEAS RELATIVAS A LA TEORÍA DE LAZO
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+TENGO UNA COMBINACIÓN DE CHATS QUE ES DE UTILIDAD: 
+EN ESTE CHAT: https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699c9dc7-ba90-8332-b6c5-a3eebce5dffc
+ES EL QUE ESTABA LLEVANDO A CABO LA DISCUSIÓN PARA CREAR EL [GRAFO CONCEPTUAL], EL CUAL EVOLUCIONÓ HASTA CONVERTIRSE EN LA 
+"TRANSFORMACIÓN DE ESTADO CON REACCIÓN OBSERVABLE", EN LA CUAL SE MUESTRA UN MECANISMO PARA CREAR TRANSFORMACIONES DE ESTADO A 
+PARTIR DE OPERADORES. 
+
+EN ESTE CHAT: https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699f783c-f950-8329-b541-9fd17bc5339d
+ESTABA INTENTANDO UTILIZAR: 
+  - EJEMPLO DE ACONDICIONAMIENTO FÍSICO
+  - lazo-y-cierre.txt
+  - planteamiento-teoria-de-lazo.txt
+  - Fis-E-fisica-estructural.txt 
+  - familias-dominio-fisico.txt 
+PARA CREAR UNA VERSIÓN MÁS SÓLIDA DE LA TEORÍA DE LAZO (ESA ERA MI INTENCIÓN ORIGINAL), SIN EMBARGO DESCUBRÍ QUE HAY ALGO DE MAYOR 
+UTILIDAD: ME DI CUENTA QUE YO PUEDO CREAR EL ESTADO INICIAL DE CUALQUIER CHAT, ESTE ES EL PROMPT QUE AÚN NO ENVÍO: 
+"USARÉ EL CONCEPTO DE "TERO"  PARA ANALIZAR EL PROCESO META-COGNITIVO, ES DECIR, LO QUE BUSCO ES MODELAR LA RESPUESTA:
+CONSIDERANDO UN ESTADO INICIAL (QUE SERÁ CREADO AL COMPARTIR DOCUMENTOS, O PROMPTS INICIALES, ETC), LO UTILIZARÉ PARA
+CREAR UNA RESPUESTA "MODULADA", POR EJEMPLO: UNA VEZ QUE TENGO UN ESTADO INICIAL, ES POSIBLE USARLO PARA ANALIZAR.
+AL MODULAR ESTADOS, LO QUE ESTARÍA CREANDO ES UNA MÁQUINA COGNITIVA: MODIFICARÍA LA "ENTRADA" DE ACUERDO A LA ESTRUCTURA ELEGIDA"
+------------
+SI SOY CAPAZ DE DEFINIR EL ESTADO INICIAL DE UN CHAT, PUEDO APLICAR EL CONCEPTO DE TERO PARA CREAR MÁQUINAS COGNITIVAS. 
+TENDRÍA CONTROL DE LAS RESPUESTAS, PODRÍA USAR EL CHAT EN MI CONVENIENCIA. 
+  * PODRÍA VER EL EJEMPLO DE ACONDICIONAMIENTO FÍSICO COMO UN EJEMPLO DE TERO 
+  * EL CONCEPTO DE "ESTADO" DEPENDE DE "DIMENSIONES ONTOLÓGICAS"
+  * EL CONCEPTO DE TERO DEPENDE DE "EJECUCIÓN"
+  * LOS DOS PUNTOS ANTERIORES IMPLICAN: TERO ES UNA APLICACIÓN DE TEORÍA DE LAZO 
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+EN ESTE CHAT: https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/699f783c-f950-8329-b541-9fd17bc5339d
+
+POR FIN TUVE UN PLANTEAMIENTO DE LA TEORÍA DE LAZO QUE ES ÚTIL. 
+AúN TIENE MUCHAS FISURAS PERO ES UN BUEN PUNTO DE PARTIDA. 
+
+EL DOCUMENTO ES UN PUNTO DE PARTIDA, LA VERSIÓN FINAL DEBE SER UN GRAFO. PARA MEJORAR LA TEORÍA CON TODO LO QUE HE APRENDIDO AL
+DESARROLLARLA DEBO ANALIZARLA DESDE DIVERSOS PUNTOS DE VISTA (ALGO SIMILAR A LO QUE PROPUSE CON LAS MÁQUINAS COGNITIVAS
+CONVERSACIONALES): 
+  * ANALIZAR LAS CONEXIONES DE LA TEORÍA DE LAZO CON LA TEORÍA DE MÁQUINAS COGNITIVAS. ESTO ES IMPORTANTE PARA SABER CÓMO 
+    UNIR AMBAS EN UNA SOLA TEORÍA ENRIQUECIDA. SI LA CONEXIÓN NO ES DIRECTA, ES POSIBLE CREAR UN PUENTE AL USAR LAS FAMILIAS: 
+    EN EL PLANTEAMIENTO DE LA TEORÍA DE LAZO SE MENCIONA: 
+    "Teoría de Lazo es un MARCO para describir y diseñar sistemas..."
+    SI SE MODELA "MARCO" EN TÉRMINOS DE mNodes Y FAMILIAS, ENTONCES A PARTIR DE AHÍ ES POSIBLE UNIR AMBAS TEORÍAS.
+  
+  * PARA EJEMPLIFICAR EL USO DE LA TEORÍA DE LAZO, ES IMPORTANTE CONSTRUIR LOS CASOS QUE HAN SIDO ESTUDIADOS:
+    + ACONDICIONAMIENTO FÍSICO 
+    + MÁQUINA COGNITIVA: CONVERSACIONAL
+    + MÁQUINA COGNITIVA: CREACIÓN DE CAPITAL INSTITUCIONAL 
+    + TRAYECTO DE EXISTENCIA (EN ESTE CASO SE USARÍA LA TL PARA CREAR UN PROCESO, NO UNA ENTIDAD)
+
+  * 
+
+
+***************************************************************************************************************
+***************************************************************************************************************
+***************************************************************************************************************
+EL PLANTEAMIENTO EN EL QUE NOS ENCONTRAMOS TRABAJANDO TIENE COMO FINALIDAD CREAR LA BASE NECESARIA PARA QUE SEA POSIBLE
+DEFINIR LA TEORÍA DE LAZO, LA CUAL SE DEFINE EN LOS DOCUMENTOS ADJUNTOS Fis-E-fisica-estructural.txt Y lazo-y-cierre.txt.
+QUIERO QUE EXPLORES EL DOCUMENTO teoria-de-maquinas-cognitivas.txt EN LA MEMORIA DE ESTE PROYECTO, JUNTO CON LOS ARCHIVOS
+ADJUNTOS Fis-E-fisica-estructural.txt Y lazo-y-cierre.txt ASÍ COMO LO QUE ESTAMOS DISCUTIENDO EN ESTE CHAT PARA TRATAR DE
+COMPRENDER LOS REQUERIMIENTOS QUE DEBEN TENER TANTO EL GRAFO OPERATIVO COMO EL GRAFO DE EJECUCIÓN. HE NOTADO QUE EL
+ENTENDIMIENTO QUE TIENES SOBRE EL GRAFO OPERATIVO Y EL GRAFO DE EJECUCIÓN ES LIGERAMENTE DISTINTO QUE MIS IDEAS ORIGINALES,
+POR EJEMPLO, EN EL GRAFO DE EJECUCIÓN ESTÁS CONSIDERANDO QUE ES UNA MANIFESTACIÓN CONCRETA, CUANDO EN MI IDEA ORIGINAL NO SE
+TRATA DE UNA MANIFESTACIÓN CONCRETA, SINO DE LOS PASOS A SEGUIR PARA UNA MANIFESTACIÓN, ES DECIR, SI ESTUVIERAMOS EN EL
+DOMINIO DE ACONDICIONAMIENTO FÍSICO (DOCUMENTOS familias-dominio-fisico.txt Y transcripcion-libreta.txt)  EL GRAFO DE
+EJECUCIÓN CONTENDRÍA LA DIMENSIÓN TEMPORAL, NO UNA MANIFESTACIÓN CONCRETA, ES DECIR, TENDRÍA QUE INCLUIR LA TODOS LOS
+ELEMENTOS DE LA TABLA 4 DEL DOCUMENTO transcripcion-libreta.txt:
+
+Tabla 4. Dimensión temporal: niveles de composición por sucesión
+| Nivel | Estructura                              | Descripción |
+|------:|------------------------------------------|-------------|
+| 0     | [Unidad funcional mínima]                 | Estructura mínima del dominio que porta identidad. |
+| 1     | [Módulo de ejecución simple]              | Sucesión de unidades mínimas (en este dominio: serie de lagartijas). |
+| 2     | [Módulo de ejecución compuesto (mínimo)]  | Sucesión de [módulos de ejecución simple] ([sesión de entrenamiento], Ejemplo 8). |
+| 3     | [Módulo de ejecución compuesto (semanal)] | Sucesión de [módulos de ejecución compuestos mínimos]; es decir, todas las [sesiones de entrenamiento] en una semana. Aquí entra [tiempo para entrenar]. |
+| 4     | [Módulo de ejecución compuesto (mensual)] | Sucesión de [módulos de ejecución compuestos semanales]; es decir: planeación de objetivos semanales. |
+| 5     | [Plazo propuesto]                         | Define el intervalo en el que ocurrirá la transformación. |
+
+ES IMPORTANTE ACLARAR QUE NO SE LIMITA AL TIEMPO, EL GRAFO DE EJECUCIÓN MÁS SE REFIERE A ALGO QUE PUEDE CAMBIAR Y QUE PUEDE
+DARSE POR UNA SUCESIÓN DE PASOS.
+POR OTRO LADO, EL GRAFO OPERATIVO SÍ SE PARECE MÁS A LO QUE ESTÁS PROPONIENDO: ES UNA ENTIDAD (QUE PODEMOS LLAMAR "D") CON
+IDENTIDAD PROPIA, ES DECIR, UN DOMINIO PARTICULAR, POR EJEMPLO, EL DOMINIO DE "ACONDICIONAMIENTO FÍSICO" ES EN EFECTO UN
+GRAFO OPERATIVO: 
+  - NO ES LA TEORÍA DE MÁQUINAS COGNITIVAS, AUNQUE PARA CONSTRUIRLO SE NECESITE DE ÉSTA
+  - EN SU INTERIOR SE ENCUENTRA CONTENIDO TODO LO REFERENTE A ESE DOMINIO, AHÍ PODEMOS ENCONTRAR COSAS COMO: CATÁLOGO DE LAS
+    UNIDADES MÍNIMAS DE DOMINIO (EN VARIOS NIVELES), POR EJEMPLO, FAMILIAS DE DOMINIO FÍSICO (PRODUCCIÓN DE FUERZA, RESISTENCIA
+    MUSCULAR LOCAL, ETC) VISTAS COMO UN SUBGRAFO, UNIDADES DE DOMINIO EN UN NIVEL "MENOR", POR EJEMPLO, CATÁLOGO DE EJERCICIOS
+    (QUE SERÁ DISCRIMINADO POR EL CONTEXTO DE CADA SUJETO), OTRAS UNIDADES DE DOMINIO EN OTROS NIVELES, POR EJEMPLO, TIPOS DE
+    ENTRENAMIENTO, ESTRUCTURA DE SESIÓN DE ENTRENAMIENTO (POR EJEMPLO, QUE UNA COMIENCE ESTIRANDO Y CONTINÚE CON CARDIO, ETC;
+    OTRA QUE COMIENCE CON CARDIO Y TERMINE CON PESAS, ETC)
+
+ES DECIR, EL CATÁLOGO OPERATIVO ES UN SUB DOMINIO AUTOSUFICIENTE.
+
+EL GRAFO DE EJECUCIÓN ESTÁ PENSADO PARA CONSTRUIR "RECETAS" (PIPELINES DE EJECUCIÓN) USANDO:
+  1) EL CONTEXTO DE CADA PERSONA 
+  2) LOS "COMPONENTES" DADOS POR EL GRAFO OPERATIVO 
+POR EJEMPLO, EN EL DOCUMENTO transcripcion-libreta.txt SE DAN DOS SUJETOS: 
+Tabla 2. Variables de contexto por sujeto
+
+| Variables de contexto       | Sujeto 1        | Sujeto 2 |
+|----------------------------|-----------------|----------|
+| Tiempo de entrenamiento     | 2 h por día      | 1 h por día |
+| Estilo de vida              | sedentario       | activo |
+| Presupuesto                 | alto             | medio |
+| Limitaciones físicas        | lesión en rodilla| ninguna |
+| Experiencia previa          | atletismo        | ninguna |
+| Plazo de tiempo propuesto   | 5 meses          | 9 meses |
+| Lugar de entrenamiento      | gym equipado     | casa |
+
+EL CONTEXTO DE CADA UNO HACE QUE LAS EJECUCIONES POSIBLES SEAN DISTINTAS, ASÍ QUE SERÍA ERRÓNEO CONSIDERAR QUE 
+EXISTE UN ÚNICO GRAFO DE EJECUCIÓN: AMBOS TENDRÁN ACCESO A DISTINTOS EJERCICIOS EN EL CATÁLOGO (MOTIVADO POR LAS 
+LIMITACIONES FÍSICAS Y POR EL LUGAR DE ENTRENAMIENTO), AMBOS TENDRÁN UNA COMPOSICIÓN TEMPORAL DISTINTA EN CADA SESIÓN
+DE ENTRENAMIENTO (MOTIVADO POR EL TIEMPO DE ENTREAMIENTO Y POR EL PLAZO DE TIEMPO PROPUESTP). 
+
+CON ESTO ES SUFICIENTE PARA QUE COMIENCES A REPLANTEAR EL ENTENDIMIENTO QUE TIENES SOBRE AMBOS GRAFOS. QUIERO QUE 
+ESTUDIES TODO ESTO Y ENTIENDAS EN UN NUEVO NIVEL DE DETALLE 
+
+

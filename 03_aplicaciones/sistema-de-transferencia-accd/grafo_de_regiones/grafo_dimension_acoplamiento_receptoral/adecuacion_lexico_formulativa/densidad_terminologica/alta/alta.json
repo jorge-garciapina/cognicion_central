@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta",
+    "label": "alta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta",
+    "summary": "Valor alta declarado para el campo interno densidad_terminologica.",
+    "metadata": {
+      "value_of": "densidad_terminologica",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

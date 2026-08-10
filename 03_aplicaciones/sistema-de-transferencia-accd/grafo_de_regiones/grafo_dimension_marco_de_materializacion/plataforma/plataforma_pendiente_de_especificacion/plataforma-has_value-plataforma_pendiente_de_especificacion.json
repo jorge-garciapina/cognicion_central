@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-plataforma_pendiente_de_especificacion-plataforma_pendiente_de_especificacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-plataforma_pendiente_de_especificacion-plataforma_pendiente_de_especificacion",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-plataforma_pendiente_de_especificacion-plataforma_pendiente_de_especificacion",
+    "type": "has_value",
+    "rationale": "plataforma_pendiente_de_especificacion es un valor de plataforma incorporado para la realización carousel."
+  }
+}

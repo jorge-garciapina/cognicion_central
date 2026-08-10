@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_prefieren_diagramas-personas_que_prefieren_diagramas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_prefieren_diagramas-personas_que_prefieren_diagramas",
+    "label": "personas_que_prefieren_diagramas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_prefieren_diagramas-personas_que_prefieren_diagramas",
+    "summary": "**Definición.** Receptor que comprende mejor cuando las relaciones se muestran mediante estructuras visuales: nodos, flechas, ejes, mapas, sistemas, matrices, flujos o esquemas. Su preferencia se orienta a ver relaciones más que a leer explicaciones largas.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

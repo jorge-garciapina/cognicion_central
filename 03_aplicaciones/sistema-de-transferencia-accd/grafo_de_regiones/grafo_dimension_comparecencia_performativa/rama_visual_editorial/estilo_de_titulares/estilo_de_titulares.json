@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares",
+    "label": "estilo_de_titulares",
+    "type": "subfield_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-estilo_de_titulares",
+    "summary": "Subcampo que describe la forma predominante de los titulares usados para abrir, orientar o tensionar la lectura.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "parent_field": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

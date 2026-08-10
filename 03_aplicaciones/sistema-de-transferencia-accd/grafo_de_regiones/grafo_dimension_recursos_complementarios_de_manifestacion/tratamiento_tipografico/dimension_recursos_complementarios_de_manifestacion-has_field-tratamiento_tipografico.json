@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+    "type": "has_field",
+    "rationale": "tratamiento_tipografico es un campo nuevo incorporado en dimension_recursos_complementarios_de_manifestacion para la realización imagen."
+  }
+}

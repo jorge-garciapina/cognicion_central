@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_para_red_social-imagen_para_red_social",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_para_red_social-imagen_para_red_social",
+    "label": "imagen_para_red_social",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_para_red_social-imagen_para_red_social",
+    "summary": "**Definición.** Clase material diseñada para circulación en plataformas sociales. Implica legibilidad rápida, compatibilidad con formatos móviles, potencia de entrada visual y capacidad de competir en entornos de navegación acelerada.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion"
+    }
+  }
+}

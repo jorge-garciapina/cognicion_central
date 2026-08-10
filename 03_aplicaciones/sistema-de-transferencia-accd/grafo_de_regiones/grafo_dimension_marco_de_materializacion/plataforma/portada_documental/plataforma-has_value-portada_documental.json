@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-portada_documental-portada_documental",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-portada_documental-portada_documental",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-portada_documental-portada_documental",
+    "type": "has_value",
+    "rationale": "portada_documental es un valor nuevo incorporado en plataforma para la realización imagen."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+    "type": "has_field",
+    "rationale": "criterio_de_coherencia_de_recursos_complementarios es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion."
+  }
+}

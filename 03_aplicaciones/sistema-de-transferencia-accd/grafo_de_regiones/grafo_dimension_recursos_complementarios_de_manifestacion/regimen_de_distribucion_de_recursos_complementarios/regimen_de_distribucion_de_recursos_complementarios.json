@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios",
+    "label": "regimen_de_distribucion_de_recursos_complementarios",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios",
+    "summary": "Indicar cómo se distribuyen globalmente los recursos complementarios a lo largo de la pieza.",
+    "metadata": {
+      "section": "12.7",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "raw_restrictions": [
+        "Debe ser coherente con la arquitectura macro.",
+        "Debe poder realizarse dentro de la segmentación interna declarada."
+      ]
+    }
+  }
+}

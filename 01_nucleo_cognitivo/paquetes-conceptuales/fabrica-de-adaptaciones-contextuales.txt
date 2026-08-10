@@ -1,0 +1,3711 @@
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+PAQUETE CONCEPTUAL: FAC — FÁBRICA DE ADAPTACIONES CONTEXTUALES
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69c2c0be-214c-83e8-992d-8ccfc1af80f5
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+GRAFO (NODOS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/node/FAC-Fabrica-de-Adaptaciones-Contextuales","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "label":"Fábrica de Adaptaciones Contextuales",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "summary":"Este nodo introduce la Fábrica de Adaptaciones Contextuales como la arquitectura que permite realizar 
+  un mismo núcleo en contextos múltiples sin romper su identidad funcional. Su función es convertir la adaptación 
+  contextual en un proceso explícito del grafo: una secuencia estructurada de composición contextual, transformación 
+  regulada, intervención situada y corrección por evidencia."
+}}
+
+{"address":"graph/node/FAC-Nucleo-Preservable","content":{
+  "id":"FAC-Nucleo-Preservable",
+  "label":"Núcleo Preservable",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Nucleo-Preservable",
+  "summary":"Este nodo introduce el Núcleo Preservable como la estructura que debe seguir siendo reconocible a través 
+  de las adaptaciones contextuales. Su función es fijar qué invariantes, límites e intención central deben conservarse 
+  para que la variación siga siendo adaptación legítima y no deriva arbitraria."
+}}
+
+{"address":"graph/node/FAC-Contexto-de-Sujeto","content":{
+  "id":"FAC-Contexto-de-Sujeto",
+  "label":"Contexto de Sujeto",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Contexto-de-Sujeto",
+  "summary":"Este nodo introduce el Contexto de Sujeto como el recorte contextual relativo al receptor, usuario o 
+  agente de destino de una realización. Su función es volver tratables diferencias de recepción, atención, nivel 
+  previo, sensibilidad o modo de lectura dentro de la adaptación contextual."
+}}
+
+{"address":"graph/node/FAC-Contexto-de-Medio","content":{
+  "id":"FAC-Contexto-de-Medio",
+  "label":"Contexto de Medio",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Contexto-de-Medio",
+  "summary":"Este nodo introduce el Contexto de Medio como el recorte contextual relativo al entorno estructurado 
+  de operación. Su función es fijar el medio con reglas, restricciones, ritmos y formas de respuesta propias dentro 
+  del cual el núcleo tendrá que proyectarse."
+}}
+
+{"address":"graph/node/FAC-Contexto-de-Distribucion","content":{
+  "id":"FAC-Contexto-de-Distribucion",
+  "label":"Contexto de Distribución",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Contexto-de-Distribucion",
+  "summary":"Este nodo introduce el Contexto de Distribución como el recorte contextual relativo al régimen de 
+  circulación de una realización. Su función es hacer explícito el papel de plataformas, canales o lógicas de 
+  difusión que condicionan la forma en que el núcleo puede proyectarse sin perder efectividad."
+}}
+
+{"address":"graph/node/FAC-Contexto-de-Ejecucion","content":{
+  "id":"FAC-Contexto-de-Ejecucion",
+  "label":"Contexto de Ejecución",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Contexto-de-Ejecucion",
+  "summary":"Este nodo introduce el Contexto de Ejecución como el recorte relativo a las condiciones concretas 
+  en que la intervención será implementada o vivida. Su función es distinguir la situación operativa efectiva 
+  del medio general, evitando tratar toda realización como si ocurriera en condiciones abstractas."
+}}
+
+{"address":"graph/node/FAC-Composicion-Contextual","content":{
+  "id":"FAC-Composicion-Contextual",
+  "label":"Composición Contextual",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Composicion-Contextual",
+  "summary":"Este nodo introduce la Composición Contextual como el bloque que articula de forma explícita los 
+  distintos contextos relevantes de un caso. Su función es convertir el conjunto de condiciones de realización 
+  en una unidad tratable, para que la adaptación no dependa de intuiciones implícitas o de contexto no declarado."
+}}
+
+{"address":"graph/node/FAC-Intencion-de-Intervencion","content":{
+  "id":"FAC-Intencion-de-Intervencion",
+  "label":"Intención de Intervención",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Intencion-de-Intervencion",
+  "summary":"Este nodo introduce la Intención de Intervención como la dirección operativa que orienta una adaptación 
+  contextual. Su función es fijar qué se busca lograr con la realización, evitando que la transformación se describa 
+  solo como ajuste formal sin propósito explícito."
+}}
+
+{"address":"graph/node/FAC-Heuristica-de-Transformacion","content":{
+  "id":"FAC-Heuristica-de-Transformacion",
+  "label":"Heurística de Transformación",
+  "type":"principle_methodological",
+  "definition_ref":"def/FAC-Heuristica-de-Transformacion",
+  "summary":"Este nodo introduce la Heurística de Transformación como el conjunto de reglas prácticas que orientan la 
+  adaptación del núcleo en un caso concreto. Su función es volver explícitos los criterios operativos locales que guían 
+  la reexpresión contextual sin reducirla a arbitrariedad."
+}}
+
+{"address":"graph/node/FAC-Restriccion-de-Salida","content":{
+  "id":"FAC-Restriccion-de-Salida",
+  "label":"Restricción de Salida",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Restriccion-de-Salida",
+  "summary":"Este nodo introduce la Restricción de Salida como el bloque que limita el espacio de realizaciones válidas. 
+  Su función es declarar qué formas de salida quedan fuera del dominio legítimo del caso, ya sea por incompatibilidad 
+  contextual, por pérdida de identidad o por condiciones de entorno."
+}}
+
+{"address":"graph/node/FAC-Regimen-de-Variacion-Legitima","content":{
+  "id":"FAC-Regimen-de-Variacion-Legitima",
+  "label":"Régimen de Variación Legítima",
+  "type":"principle_methodological",
+  "definition_ref":"def/FAC-Regimen-de-Variacion-Legitima",
+  "summary":"Este nodo introduce el Régimen de Variación Legítima como el criterio que distingue una adaptación válida 
+  de una deformación identitaria. Su función es fijar el borde entre cambio contextual permitido y pérdida de continuidad 
+  estructural del núcleo."
+}}
+
+{"address":"graph/node/FAC-Transformacion-Contextual","content":{
+  "id":"FAC-Transformacion-Contextual",
+  "label":"Transformación Contextual",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Transformacion-Contextual",
+  "summary":"Este nodo introduce la Transformación Contextual como el puente regulado entre un núcleo preservable y una 
+  composición contextual dada. Su función es hacer explícita la reexpresión estructural por la cual el núcleo se vuelve 
+  realizable en un caso sin perder arbitrariamente lo que lo identifica."
+}}
+
+{"address":"graph/node/FAC-Caso-de-Proyeccion-Contextual","content":{
+  "id":"FAC-Caso-de-Proyeccion-Contextual",
+  "label":"Caso de Proyección Contextual",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Caso-de-Proyeccion-Contextual",
+  "summary":"Este nodo introduce el Caso de Proyección Contextual como la unidad concreta compuesta por núcleo, intención 
+  y configuración contextual. Su función es evitar que la fábrica se piense solo en abstracto: el trabajo real del paquete 
+  ocurre sobre casos de proyección situados."
+}}
+
+{"address":"graph/node/FAC-Intervencion-Situada","content":{
+  "id":"FAC-Intervencion-Situada",
+  "label":"Intervención Situada",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Intervencion-Situada",
+  "summary":"Este nodo introduce la Intervención Situada como la salida concreta producida por la fábrica en un 
+  caso determinado. Su función es nombrar la realización efectiva del núcleo proyectado, ya sea en forma de pieza, 
+  explicación, acción, propuesta, clase, mensaje o cualquier encarnación contextual equivalente."
+}}
+
+{"address":"graph/node/FAC-Evidencia-de-Retorno","content":{
+  "id":"FAC-Evidencia-de-Retorno",
+  "label":"Evidencia de Retorno",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Evidencia-de-Retorno",
+  "summary":"Este nodo introduce la Evidencia de Retorno como el bloque que recoge la respuesta del entorno frente 
+  a una intervención situada. Su función es cerrar el circuito práctico de la adaptación contextual mediante señales 
+  de comprensión, desempeño, recepción, error o ajuste."
+}}
+
+{"address":"graph/node/FAC-Correccion-Acumulativa","content":{
+  "id":"FAC-Correccion-Acumulativa",
+  "label":"Corrección Acumulativa",
+  "type":"bridge_node",
+  "definition_ref":"def/FAC-Correccion-Acumulativa",
+  "summary":"Este nodo introduce la Corrección Acumulativa como el mecanismo por el cual la evidencia de retorno ajusta 
+  futuras realizaciones de la fábrica. Su función es estabilizar y mejorar el comportamiento contextual del sistema sin 
+  necesidad de redefinir el núcleo en cada iteración."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+GRAFO (ARISTAS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-cApp-Aplicacion-Cognitiva","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-cApp-Aplicacion-Cognitiva",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"cApp-Aplicacion-Cognitiva",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de cApp-Aplicacion-Cognitiva porque la fábrica se formula como una arquitectura aplicativa de realización contextual. Su sentido no es describir un núcleo contemplativo, sino una cApp capaz de producir intervenciones situadas a partir de un núcleo y una composición de contextos."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-CCMC-Cognicion-Como-Manifestacion-Condicionada","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-CCMC-Cognicion-Como-Manifestacion-Condicionada",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"CCMC-Cognicion-Como-Manifestacion-Condicionada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de CCMC-Cognicion-Como-Manifestacion-Condicionada porque la fábrica presupone que un mismo fenómeno puede manifestarse de formas distintas según condiciones externas. Sin esa premisa, la adaptación contextual perdería inteligibilidad teórica."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-PTE-Principio-Transferibilidad-Estructural","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-PTE-Principio-Transferibilidad-Estructural",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"PTE-Principio-Transferibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de PTE-Principio-Transferibilidad-Estructural porque la fábrica necesita un criterio para conservar identidad estructural a través del cambio contextual. Sin PTE, la variación podría degradarse a ajuste verbal sin continuidad auditable del núcleo."
+}}
+
+{"address":"graph/edge/FAC-Nucleo-Preservable-depends_on-Com-Est-Estructura-Fuente","content":{
+  "id":"FAC-Nucleo-Preservable-depends_on-Com-Est-Estructura-Fuente",
+  "from":"FAC-Nucleo-Preservable",
+  "to":"Com-Est-Estructura-Fuente",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Nucleo-Preservable depende de Com-Est-Estructura-Fuente porque el núcleo preservable de la fábrica es una especialización del problema de la estructura de origen cuya identidad operativa se intenta comunicar o reexpresar entre contextos."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-depends_on-Com-Est-Comunicacion-Estructural","content":{
+  "id":"FAC-Transformacion-Contextual-depends_on-Com-Est-Comunicacion-Estructural",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"Com-Est-Comunicacion-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Transformacion-Contextual depende de Com-Est-Comunicacion-Estructural porque la transformación contextual no debe entenderse como ajuste informal, sino como transferencia y reexpresión estructural de un núcleo en condiciones heterogéneas."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-uses-Com-Est-Adaptador-Estructural","content":{
+  "id":"FAC-Transformacion-Contextual-uses-Com-Est-Adaptador-Estructural",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"Com-Est-Adaptador-Estructural",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Transformacion-Contextual usa Com-Est-Adaptador-Estructural porque la fábrica requiere mecanismos locales de reexpresión cuando existen desajustes entre la estructura fuente y las condiciones del caso. El adaptador no agota la fábrica, pero sí implementa parte de su trabajo de traducción contextual."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-uses-Com-Est-Superficie-de-Comunicacion","content":{
+  "id":"FAC-Transformacion-Contextual-uses-Com-Est-Superficie-de-Comunicacion",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"Com-Est-Superficie-de-Comunicacion",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Transformacion-Contextual usa Com-Est-Superficie-de-Comunicacion porque toda transformación contextual necesita una interfaz explícita donde declarar qué ofrece la estructura, qué requiere y bajo qué condiciones puede ser reemitida sin perder continuidad funcional."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-depends_on-Com-Est-Compatibilidad-Estructural","content":{
+  "id":"FAC-Transformacion-Contextual-depends_on-Com-Est-Compatibilidad-Estructural",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"Com-Est-Compatibilidad-Estructural",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Transformacion-Contextual depende de Com-Est-Compatibilidad-Estructural porque no toda variación contextual es legítima. La transformación necesita un criterio de viabilidad que permita distinguir alineación estructural real de semejanza superficial o adaptación inválida."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-uses-Arq-Cog-Envolvente","content":{
+  "id":"FAC-Composicion-Contextual-uses-Arq-Cog-Envolvente",
+  "from":"FAC-Composicion-Contextual",
+  "to":"Arq-Cog-Envolvente",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Composicion-Contextual usa Arq-Cog-Envolvente porque la composición contextual requiere un concepto de exterior relevante sobre el cual recortar las condiciones de realización. La envolvente aporta la base ontológica del afuera que importa para el caso."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-uses-Arq-Cog-Vecindad-Relevante","content":{
+  "id":"FAC-Composicion-Contextual-uses-Arq-Cog-Vecindad-Relevante",
+  "from":"FAC-Composicion-Contextual",
+  "to":"Arq-Cog-Vecindad-Relevante",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Composicion-Contextual usa Arq-Cog-Vecindad-Relevante porque no todo el exterior cuenta por igual para una adaptación. La vecindad relevante permite seleccionar qué parte de la envolvente realmente acopla con el núcleo en un caso de realización contextual."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-depends_on-Arq-Cog-Superficie-de-Integración","content":{
+  "id":"FAC-Transformacion-Contextual-depends_on-Arq-Cog-Superficie-de-Integración",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"Arq-Cog-Superficie-de-Integración",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Transformacion-Contextual depende de Arq-Cog-Superficie-de-Integración porque la fábrica necesita una infraestructura portable de interfaz para realizar el cruce controlado entre núcleo y contexto. La superficie de integración aporta ese soporte sin que FAC tenga que redefinirlo."
+}}
+
+{"address":"graph/edge/FAC-Intervencion-Situada-uses-Arq-Cog-Frontera-de-Salida","content":{
+  "id":"FAC-Intervencion-Situada-uses-Arq-Cog-Frontera-de-Salida",
+  "from":"FAC-Intervencion-Situada",
+  "to":"Arq-Cog-Frontera-de-Salida",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Intervencion-Situada usa Arq-Cog-Frontera-de-Salida porque la intervención es el egreso estructurado de la fábrica hacia el entorno. La frontera de salida ayuda a modelar cómo la realización contextual se proyecta efectivamente fuera del sistema."
+}}
+
+{"address":"graph/edge/FAC-Evidencia-de-Retorno-uses-Arq-Cog-Frontera-de-Entrada","content":{
+  "id":"FAC-Evidencia-de-Retorno-uses-Arq-Cog-Frontera-de-Entrada",
+  "from":"FAC-Evidencia-de-Retorno",
+  "to":"Arq-Cog-Frontera-de-Entrada",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Evidencia-de-Retorno usa Arq-Cog-Frontera-de-Entrada porque la evidencia reingresa al sistema como señal de ajuste. La frontera de entrada permite modelar ese retorno sin tratarlo como dato suelto o exterior indiferenciado."
+}}
+
+{"address":"graph/edge/FAC-Heuristica-de-Transformacion-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"FAC-Heuristica-de-Transformacion-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"FAC-Heuristica-de-Transformacion",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Heuristica-de-Transformacion depende de Arq-Cog-Operatividad-Intensional porque las heurísticas de adaptación suelen requerir pesos, umbrales, prioridades y moduladores con efecto real sobre la salida. Sin ese régimen intensional, la heurística quedaría submodelada."
+}}
+
+{"address":"graph/edge/FAC-Restriccion-de-Salida-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"FAC-Restriccion-de-Salida-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"FAC-Restriccion-de-Salida",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Restriccion-de-Salida depende de Arq-Cog-Operatividad-Intensional porque las restricciones fuertes alteran el espacio válido de realizaciones y, por tanto, exigen un régimen donde condiciones, umbrales y límites sean modelados con efecto estructural explícito."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Nucleo-Preservable","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Nucleo-Preservable",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Nucleo-Preservable",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Nucleo-Preservable porque sin un núcleo identificable no hay fábrica de adaptaciones, sino variación dispersa sin criterio de continuidad."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Composicion-Contextual","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Composicion-Contextual",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Composicion-Contextual",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Composicion-Contextual porque la fábrica no trabaja sobre contexto genérico, sino sobre configuraciones explícitas de condiciones relevantes para la realización."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Transformacion-Contextual","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Transformacion-Contextual",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Transformacion-Contextual",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Transformacion-Contextual porque la fábrica necesita un puente regulado que vuelva realizable el núcleo bajo condiciones contextuales concretas."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Intervencion-Situada","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Intervencion-Situada",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Intervencion-Situada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Intervencion-Situada porque la salida real de la fábrica no es una abstracción vacía, sino una realización concreta del núcleo en un caso dado."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Evidencia-de-Retorno","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Evidencia-de-Retorno",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Evidencia-de-Retorno",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Evidencia-de-Retorno porque sin evidencia del entorno la fábrica puede producir salidas, pero no evaluar su desempeño contextual ni retroalimentar sus siguientes iteraciones."
+}}
+
+{"address":"graph/edge/FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Correccion-Acumulativa","content":{
+  "id":"FAC-Fabrica-de-Adaptaciones-Contextuales-depends_on-FAC-Correccion-Acumulativa",
+  "from":"FAC-Fabrica-de-Adaptaciones-Contextuales",
+  "to":"FAC-Correccion-Acumulativa",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Correccion-Acumulativa porque la arquitectura completa de la fábrica no solo emite realizaciones, sino que incorpora aprendizaje estructurado a partir de evidencia acumulada."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Sujeto","content":{
+  "id":"FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Sujeto",
+  "from":"FAC-Composicion-Contextual",
+  "to":"FAC-Contexto-de-Sujeto",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Composicion-Contextual depende de FAC-Contexto-de-Sujeto porque la composición del caso debe incorporar el recorte relativo al receptor o usuario de la realización."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Medio","content":{
+  "id":"FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Medio",
+  "from":"FAC-Composicion-Contextual",
+  "to":"FAC-Contexto-de-Medio",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Composicion-Contextual depende de FAC-Contexto-de-Medio porque la composición del caso debe integrar el medio estructurado donde el núcleo tendrá que operar."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Distribucion","content":{
+  "id":"FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Distribucion",
+  "from":"FAC-Composicion-Contextual",
+  "to":"FAC-Contexto-de-Distribucion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Composicion-Contextual depende de FAC-Contexto-de-Distribucion porque la composición del caso debe integrar el régimen de circulación o difusión bajo el cual la realización contextual será proyectada."
+}}
+
+{"address":"graph/edge/FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Ejecucion","content":{
+  "id":"FAC-Composicion-Contextual-depends_on-FAC-Contexto-de-Ejecucion",
+  "from":"FAC-Composicion-Contextual",
+  "to":"FAC-Contexto-de-Ejecucion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Composicion-Contextual depende de FAC-Contexto-de-Ejecucion porque la composición del caso debe incorporar las condiciones concretas bajo las cuales la intervención tendrá que funcionar."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-uses-FAC-Intencion-de-Intervencion","content":{
+  "id":"FAC-Transformacion-Contextual-uses-FAC-Intencion-de-Intervencion",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"FAC-Intencion-de-Intervencion",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Transformacion-Contextual usa FAC-Intencion-de-Intervencion porque la adaptación del núcleo no depende solo de a qué contexto se dirige, sino también de para qué se adapta. La intención orienta la forma de la reexpresión contextual."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-uses-FAC-Heuristica-de-Transformacion","content":{
+  "id":"FAC-Transformacion-Contextual-uses-FAC-Heuristica-de-Transformacion",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"FAC-Heuristica-de-Transformacion",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Transformacion-Contextual usa FAC-Heuristica-de-Transformacion porque la reexpresión contextual requiere criterios prácticos locales que guíen la adaptación sin reducirla a decisión arbitraria o puramente intuitiva."
+}}
+
+{"address":"graph/edge/FAC-Transformacion-Contextual-uses-FAC-Restriccion-de-Salida","content":{
+  "id":"FAC-Transformacion-Contextual-uses-FAC-Restriccion-de-Salida",
+  "from":"FAC-Transformacion-Contextual",
+  "to":"FAC-Restriccion-de-Salida",
+  "type":"uses",
+  "rationale":"La arista uses establece que FAC-Transformacion-Contextual usa FAC-Restriccion-de-Salida porque la adaptación debe anticipar qué realizaciones quedan excluidas por límites de caso, compatibilidad o preservación de identidad."
+}}
+
+{"address":"graph/edge/FAC-Regimen-de-Variacion-Legitima-provides_criteria_for-FAC-Transformacion-Contextual","content":{
+  "id":"FAC-Regimen-de-Variacion-Legitima-provides_criteria_for-FAC-Transformacion-Contextual",
+  "from":"FAC-Regimen-de-Variacion-Legitima",
+  "to":"FAC-Transformacion-Contextual",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que FAC-Regimen-de-Variacion-Legitima provee los criterios que FAC-Transformacion-Contextual debe satisfacer para que el cambio siga contando como adaptación válida. Sin este régimen, la transformación perdería un borde claro entre variación legítima y deriva estructural."
+}}
+
+{"address":"graph/edge/FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Nucleo-Preservable","content":{
+  "id":"FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Nucleo-Preservable",
+  "from":"FAC-Caso-de-Proyeccion-Contextual",
+  "to":"FAC-Nucleo-Preservable",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Caso-de-Proyeccion-Contextual depende de FAC-Nucleo-Preservable porque cada caso de proyección sigue siendo un caso de ese núcleo y no de una identidad contextual independiente."
+}}
+
+{"address":"graph/edge/FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Composicion-Contextual","content":{
+  "id":"FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Composicion-Contextual",
+  "from":"FAC-Caso-de-Proyeccion-Contextual",
+  "to":"FAC-Composicion-Contextual",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Caso-de-Proyeccion-Contextual depende de FAC-Composicion-Contextual porque el caso no se define solo por el núcleo, sino también por la configuración concreta de condiciones que lo sitúan."
+}}
+
+{"address":"graph/edge/FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Intencion-de-Intervencion","content":{
+  "id":"FAC-Caso-de-Proyeccion-Contextual-depends_on-FAC-Intencion-de-Intervencion",
+  "from":"FAC-Caso-de-Proyeccion-Contextual",
+  "to":"FAC-Intencion-de-Intervencion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que FAC-Caso-de-Proyeccion-Contextual depende de FAC-Intencion-de-Intervencion porque la finalidad operativa forma parte constitutiva del recorte que define un caso contextual."
+}}
+
+{"address":"graph/edge/FAC-Intervencion-Situada-realizes-FAC-Caso-de-Proyeccion-Contextual","content":{
+  "id":"FAC-Intervencion-Situada-realizes-FAC-Caso-de-Proyeccion-Contextual",
+  "from":"FAC-Intervencion-Situada",
+  "to":"FAC-Caso-de-Proyeccion-Contextual",
+  "type":"realizes",
+  "rationale":"La arista realizes establece que FAC-Intervencion-Situada realiza FAC-Caso-de-Proyeccion-Contextual porque la intervención es la encarnación concreta del caso compuesto por núcleo, intención y configuración contextual."
+}}
+
+{"address":"graph/edge/FAC-Evidencia-de-Retorno-provides_criteria_for-FAC-Correccion-Acumulativa","content":{
+  "id":"FAC-Evidencia-de-Retorno-provides_criteria_for-FAC-Correccion-Acumulativa",
+  "from":"FAC-Evidencia-de-Retorno",
+  "to":"FAC-Correccion-Acumulativa",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que FAC-Evidencia-de-Retorno provee los criterios que FAC-Correccion-Acumulativa debe usar para ajustar futuras realizaciones. La corrección no debe quedar librada a intuición retrospectiva, sino quedar anclada en la evidencia efectivamente devuelta por el entorno."
+}}
+
+{"address":"graph/edge/FAC-Correccion-Acumulativa-refines-FAC-Transformacion-Contextual","content":{
+  "id":"FAC-Correccion-Acumulativa-refines-FAC-Transformacion-Contextual",
+  "from":"FAC-Correccion-Acumulativa",
+  "to":"FAC-Transformacion-Contextual",
+  "type":"refines",
+  "rationale":"La arista refines establece que FAC-Correccion-Acumulativa hace más precisa la noción general de FAC-Transformacion-Contextual al introducir el ajuste progresivo basado en evidencia. La transformación nombra el puente contextual en general; la corrección acumulativa especifica cómo ese puente se mejora iterativamente."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+DEFINICIONES (PLACEHOLDERS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/FAC-Fabrica-de-Adaptaciones-Contextuales","content":"[
+
+FAC-Fabrica-de-Adaptaciones-Contextuales es la arquitectura conceptual que permite realizar un mismo
+núcleo en contextos múltiples sin romper su identidad funcional.
+
+Su función es convertir la adaptación contextual en un proceso explícito, auditable y reutilizable,
+en lugar de dejarla como ajuste implícito, intuición local o improvisación dependiente del autor.
+
+La fábrica no produce variaciones arbitrarias del núcleo. Produce realizaciones contextuales válidas
+del núcleo bajo condiciones de sujeto, medio, distribución y ejecución explícitamente compuestas.
+
+La fábrica existe para resolver el siguiente problema:
+cómo hacer que una misma estructura siga siendo operativa en contextos distintos sin degradarse a
+mera semejanza verbal, a copia rígida o a deformación contextual.
+
+Definición funcional mínima
+
+La fábrica opera como una secuencia estructurada compuesta por:
+núcleo preservable, composición contextual, transformación contextual, intervención situada,
+evidencia de retorno y corrección acumulativa.
+
+Cada uno de estos momentos cumple una función distinta y no debe absorberse indistintamente en los
+demás.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de realización contextual controlada de una estructura.
+
+No delimita cualquier cambio de forma.
+No delimita cualquier traducción.
+No delimita cualquier adaptación empírica.
+
+Delimita únicamente aquellos casos en los que:
+una estructura debe mantenerse reconocible,
+el contexto modifica las condiciones de realización,
+la transformación es regulada,
+la salida tiene forma de intervención situada,
+y la evidencia permite corregir futuras realizaciones.
+
+Invariantes
+
+Para que una instancia cuente como Fábrica de Adaptaciones Contextuales deben preservarse, como
+mínimo, los siguientes invariantes:
+
+1. Debe existir un núcleo preservable.
+   La fábrica no opera sobre materia conceptual indiferenciada, sino sobre una estructura cuya
+   continuidad debe conservarse.
+
+2. Debe existir composición contextual explícita.
+   El sistema no adapta contra un contexto genérico, sino contra un recorte de condiciones
+   declaradas y tratables.
+
+3. Debe existir transformación contextual regulada.
+   El paso entre núcleo y caso no puede quedar librado a equivalencias vagas o ajustes opacos.
+
+4. Debe existir intervención situada.
+   La salida de la fábrica debe tomar forma de realización concreta en un caso.
+
+5. Debe existir evidencia de retorno.
+   La fábrica no queda completa si solo produce una salida y no recibe respuesta del entorno.
+
+6. Debe existir corrección acumulativa.
+   La evidencia debe poder modificar o refinar realizaciones futuras sin exigir redefinir el núcleo
+   en cada iteración.
+
+7. Debe preservarse un régimen de variación legítima.
+   La adaptación debe distinguirse de la deriva identitaria y de la sustitución arbitraria.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto:
+
+- el tipo de núcleo que se adapta,
+- el tipo de sujeto destinatario,
+- el medio de operación,
+- el régimen de distribución,
+- el modo de ejecución,
+- las heurísticas de transformación,
+- las restricciones de salida,
+- la forma concreta de la intervención,
+- la forma de la evidencia obtenida,
+- el mecanismo particular de corrección.
+
+Estas variaciones son legítimas mientras no desaparezcan los invariantes definidos arriba.
+
+Relaciones estructurales
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Nucleo-Preservable porque la fábrica exige
+una estructura cuya continuidad deba preservarse.
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Composicion-Contextual porque toda
+adaptación válida exige declarar el conjunto de condiciones relevantes del caso.
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Transformacion-Contextual porque el paso
+entre núcleo y caso debe ser mediado por una reexpresión regulada.
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Intervencion-Situada porque la fábrica no
+termina en abstracciones, sino en realizaciones concretas.
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Evidencia-de-Retorno porque la respuesta
+del entorno es condición de evaluación del desempeño contextual.
+
+FAC-Fabrica-de-Adaptaciones-Contextuales depende de FAC-Correccion-Acumulativa porque la fábrica
+incluye aprendizaje estructurado a partir de evidencia.
+
+Relaciones con paquetes externos
+
+La fábrica depende de CCMC-Cognicion-Como-Manifestacion-Condicionada porque presupone que un mismo
+fenómeno puede manifestarse de modos distintos bajo condiciones externas diferentes.
+
+La fábrica depende de PTE-Principio-Transferibilidad-Estructural porque necesita criterios para
+preservar continuidad estructural a través del cambio de contexto.
+
+La fábrica depende de cApp-Aplicacion-Cognitiva porque su orientación fundamental es operativa:
+producir realizaciones situadas y no solo descripciones estáticas.
+
+La fábrica depende de Com-Est-Comunicacion-Estructural porque la transformación contextual debe
+entenderse como reexpresión estructural y no como simple cambio superficial.
+
+La fábrica extiende Arq-Cog y no lo duplica.
+Cuando requiere interior, envolvente, vecindad relevante, superficie de integración, fronteras o
+operatividad intensional, los toma como infraestructura conceptual ya disponible.
+
+Criterios de aplicación correcta
+
+La fábrica está correctamente aplicada cuando se cumplen de forma explícita las siguientes
+condiciones:
+
+- se identifica el núcleo que debe preservarse,
+- se declara la composición contextual del caso,
+- se explicita la intención de intervención,
+- se justifican las heurísticas y restricciones de transformación,
+- la salida toma forma de intervención situada,
+- existe evidencia de retorno pertinente,
+- y dicha evidencia puede alimentar corrección acumulativa.
+
+Si alguno de estos elementos falta, el concepto puede usarse de forma parcial, pero su aplicación
+queda debilitada.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe un núcleo preservable reconocible,
+- no se ha declarado el contexto relevante,
+- la transformación se reduce a intuición tácita,
+- la salida no constituye una intervención situada,
+- no existe evidencia de retorno,
+- o la variación destruye la continuidad funcional de la estructura.
+
+Diferencia específica
+
+La fábrica no es idéntica al adaptador estructural.
+El adaptador resuelve un paso local entre expresiones o superficies.
+
+La fábrica es la arquitectura más amplia que organiza:
+qué núcleo se preserva,
+en qué contexto se proyecta,
+cómo se transforma,
+qué salida se produce,
+y cómo la evidencia refina iteraciones futuras.
+
+Fórmula sintética
+
+FAC-Fabrica-de-Adaptaciones-Contextuales =
+núcleo preservable
++ composición contextual explícita
++ transformación contextual regulada
++ intervención situada
++ evidencia de retorno
++ corrección acumulativa
+
+Resultado conceptual
+
+La Fábrica de Adaptaciones Contextuales convierte la adaptación de un núcleo a contextos distintos en
+una operación estructural explícita, reusable y corregible, compatible con continuidad identitaria.
+]"}}
+
+
+{"address":"def/FAC-Nucleo-Preservable","content":"[
+
+FAC-Nucleo-Preservable es la estructura del sistema que debe conservar continuidad funcional a través de
+las adaptaciones contextuales producidas por la fábrica.
+
+Su función es fijar qué debe seguir siendo reconocible cuando una realización cambia de sujeto, medio,
+distribución o ejecución.
+
+No nombra cualquier contenido central ni cualquier idea importante del sistema.
+
+Nombra únicamente aquello cuya pérdida destruiría la identidad operativa del caso como realización de
+ese mismo núcleo y no de otro.
+
+Definición funcional mínima
+
+FAC-Nucleo-Preservable es el componente de la Fábrica de Adaptaciones Contextuales que concentra los
+invariantes cuya continuidad debe mantenerse a través de la transformación contextual.
+
+Opera como referencia de preservación para decidir:
+qué puede variar,
+qué debe mantenerse,
+qué cambios siguen siendo adaptación legítima,
+y qué cambios ya constituyen deriva, sustitución o ruptura.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de preservación identitaria bajo cambio contextual.
+
+No delimita cualquier centro temático.
+No delimita cualquier resumen del sistema.
+No delimita cualquier intención general.
+
+Delimita únicamente el conjunto de rasgos estructurales cuya continuidad es condición para que una
+realización siga contando como caso válido del mismo sistema.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Nucleo-Preservable deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir una estructura reconocible cuya continuidad importe.
+   Sin una estructura que deba preservarse no hay núcleo, solo variación dispersa.
+
+2. Debe existir relación explícita con una fábrica de adaptación.
+   El núcleo no se define en abstracto, sino en relación con transformaciones contextuales posibles.
+
+3. Debe existir función de criterio.
+   El núcleo debe servir para distinguir adaptación legítima de deformación o sustitución.
+
+4. Debe existir preservación de identidad operativa.
+   Lo preservado no es solo una apariencia verbal, sino una capacidad funcional reconocible.
+
+5. Debe existir posibilidad de realización múltiple.
+   El núcleo se justifica porque puede proyectarse en casos distintos sin dejar de ser el mismo.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del núcleo, siempre que sus
+invariantes permanezcan:
+
+- la forma expresiva,
+- el lenguaje local,
+- el nivel de detalle,
+- el canal o medio,
+- la interfaz de comunicación,
+- la estrategia de intervención,
+- la distribución,
+- la ejecución situada,
+- la forma externa de la salida.
+
+Estas variaciones son legítimas solo si no destruyen la continuidad funcional de la estructura
+preservada.
+
+Relaciones estructurales
+
+FAC-Nucleo-Preservable depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque el núcleo se define
+como aquello que debe mantenerse a través de realizaciones contextuales múltiples.
+
+FAC-Nucleo-Preservable depende de Com-Est-Estructura-Fuente porque el problema del núcleo coincide con
+el problema de la estructura de origen cuya identidad operativa debe ser comunicada sin colapsar.
+
+FAC-Nucleo-Preservable se relaciona con FAC-Regimen-de-Variacion-Legitima porque dicho régimen fija el
+borde entre variación aceptable y ruptura identitaria.
+
+FAC-Nucleo-Preservable se relaciona con FAC-Transformacion-Contextual porque toda transformación válida
+debe tomar al núcleo como referencia de preservación.
+
+FAC-Nucleo-Preservable se relaciona con FAC-Caso-de-Proyeccion-Contextual porque cada caso debe poder
+ser reconocido como realización del mismo núcleo y no de otro.
+
+Relaciones con Arq-Cog
+
+FAC-Nucleo-Preservable no duplica Arq-Cog-Interior, pero se apoya en él.
+
+Arq-Cog-Interior ayuda a delimitar qué elementos pertenecen estructuralmente a la entidad.
+
+FAC-Nucleo-Preservable selecciona, dentro de esa estructura, aquello cuya continuidad debe preservarse
+a través de la adaptación contextual.
+
+Por eso, Interior responde a la pregunta:
+qué pertenece a la estructura.
+
+Y Núcleo Preservable responde a la pregunta:
+qué no puede perderse si la estructura va a proyectarse en contextos distintos.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado una estructura cuya continuidad importa,
+- se ha distinguido esa estructura de rasgos meramente accidentales,
+- el núcleo sirve como criterio de evaluación de transformaciones,
+- y puede usarse para decidir si una realización sigue siendo caso válido del mismo sistema.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe una estructura cuya continuidad sea relevante,
+- todo puede cambiar sin pérdida reconocible,
+- el supuesto núcleo es solo tema, ejemplo o estilo,
+- o no puede distinguirse entre adaptación legítima y sustitución estructural.
+
+Diferencia específica
+
+FAC-Nucleo-Preservable no es idéntico a la intención de intervención.
+
+La intención indica para qué se adapta una realización.
+
+El núcleo preservable indica qué debe seguir siendo la misma estructura a través de esa adaptación.
+
+Tampoco es idéntico al caso proyectado.
+
+El caso es una realización contextual concreta.
+
+El núcleo es aquello que permite reconocer varios casos como realizaciones de la misma estructura.
+
+Fórmula sintética
+
+FAC-Nucleo-Preservable =
+conjunto de invariantes funcionales
+cuya continuidad debe mantenerse
+a través de variaciones contextuales legítimas.
+
+Resultado conceptual
+
+FAC-Nucleo-Preservable convierte la identidad del sistema en un criterio explícito de preservación,
+permitiendo adaptar una estructura a contextos múltiples sin perder continuidad operativa.
+]"}}
+
+{"address":"def/FAC-Contexto-de-Sujeto","content":"[
+FAC-Contexto-de-Sujeto es el componente de la Fábrica de Adaptaciones Contextuales que delimita
+las condiciones relevantes del sujeto para quien una realización contextual debe volverse operativa.
+
+Su función es hacer explícito que una adaptación no ocurre frente a un vacío, sino frente a un
+receptor, usuario, agente, audiencia o instancia de lectura cuyas capacidades, restricciones,
+hábitos, sensibilidades y modos de interpretación modifican las condiciones de realización del núcleo.
+
+No nombra cualquier descripción psicológica del sujeto.
+No nombra cualquier dato biográfico.
+No nombra cualquier perfil narrativo del receptor.
+
+Nombra únicamente el recorte de condiciones del sujeto que son estructuralmente relevantes para
+decidir cómo un núcleo preservable puede realizarse de forma válida en un caso concreto.
+
+Definición funcional mínima
+
+FAC-Contexto-de-Sujeto es la estructura contextual que reúne los rasgos del sujeto que afectan la
+recepción, comprensión, uso, interpretación, adopción o ejecución de una intervención situada.
+
+Opera como componente de la composición contextual y permite determinar qué transformaciones son
+necesarias para que una misma estructura siga siendo funcional al entrar en relación con sujetos
+distintos.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de condicionamiento subjetivo de la realización contextual.
+
+No delimita al sujeto en toda su complejidad.
+No delimita una teoría general de la persona.
+No delimita la totalidad de la experiencia subjetiva.
+
+Delimita únicamente la porción del sujeto que cuenta como condición relevante para que una
+realización contextual sea inteligible, viable, pertinente, usable o efectiva.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Contexto-de-Sujeto deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir un sujeto o clase de sujeto relevante para la realización.
+   Si no hay destinatario, usuario, lector, receptor, operador o agente de interacción, no hay
+   contexto de sujeto sino solo formulación abstracta.
+
+2. Debe existir un recorte de rasgos relevantes.
+   El contexto de sujeto no incorpora todo lo que puede saberse del sujeto, sino solo aquello que
+   afecta estructuralmente la realización del núcleo.
+
+3. Debe existir relación con la adaptación contextual.
+   Los rasgos seleccionados deben tener efecto real sobre la forma de la transformación o de la
+   intervención situada.
+
+4. Debe existir incidencia sobre recepción o uso.
+   El contexto de sujeto debe modificar la manera en que la salida será comprendida, interpretada,
+   utilizada, aceptada, rechazada o ejecutada.
+
+5. Debe existir posibilidad de comparación entre sujetos o clases de sujeto.
+   El concepto solo adquiere fuerza operativa si permite distinguir por qué una misma estructura
+   debe realizarse de modo diferente ante sujetos distintos.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+siendo relevantes para la realización contextual:
+
+- nivel de conocimiento previo,
+- vocabulario disponible,
+- capacidad técnica o conceptual,
+- atención esperada,
+- sensibilidad emocional,
+- tolerancia a complejidad,
+- ritmo de procesamiento,
+- hábitos de lectura o interacción,
+- grado de confianza o resistencia,
+- posición funcional dentro del caso,
+- expectativas normativas o prácticas,
+- restricciones perceptivas o cognitivas,
+- motivaciones dominantes,
+- intereses locales,
+- marcos interpretativos activos.
+
+Estas variaciones son legítimas mientras sigan funcionando como condiciones del sujeto que afectan
+la realización del núcleo y no como simple descripción decorativa.
+
+Relaciones estructurales
+
+FAC-Contexto-de-Sujeto depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que adapta un núcleo a condiciones múltiples.
+
+FAC-Contexto-de-Sujeto depende de FAC-Composicion-Contextual porque no actúa aislado, sino como una
+de las dimensiones que deben componerse con medio, distribución y ejecución.
+
+FAC-Contexto-de-Sujeto se relaciona con FAC-Intencion-de-Intervencion porque la relevancia de los
+rasgos del sujeto depende también de qué se busca lograr sobre o con ese sujeto.
+
+FAC-Contexto-de-Sujeto se relaciona con FAC-Transformacion-Contextual porque las propiedades del
+sujeto condicionan qué reexpresiones del núcleo son legítimas, necesarias o suficientes.
+
+FAC-Contexto-de-Sujeto se relaciona con FAC-Intervencion-Situada porque la salida concreta debe
+estar formulada de modo compatible con el sujeto al que se dirige o con el que interactúa.
+
+FAC-Contexto-de-Sujeto se relaciona con FAC-Evidencia-de-Retorno porque parte de la evidencia
+proviene precisamente del modo en que el sujeto recibe, interpreta o usa la intervención.
+
+Relaciones con Arq-Cog
+
+FAC-Contexto-de-Sujeto no duplica Arq-Cog-Envolvente ni Arq-Cog-Vecindad-Relevante, pero se apoya
+en ambos.
+
+Arq-Cog-Envolvente ayuda a identificar el exterior relevante del sistema.
+
+Arq-Cog-Vecindad-Relevante ayuda a recortar qué parte de ese exterior acopla de forma efectiva.
+
+FAC-Contexto-de-Sujeto selecciona, dentro de esa región, las condiciones específicamente
+atribuidas al sujeto que modifican la realización contextual del núcleo.
+
+Por eso, Envolvente y Vecindad Relevante responden a la pregunta:
+qué exterior cuenta.
+
+Y Contexto de Sujeto responde a la pregunta:
+qué condiciones del sujeto, dentro de ese exterior relevante, deben incorporarse para adaptar la
+realización sin perder identidad funcional.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad quién es el sujeto o la clase de sujeto relevante,
+- se han recortado solo los rasgos que afectan estructuralmente la realización,
+- esos rasgos modifican efectivamente la transformación o la intervención,
+- y el contexto de sujeto permite justificar por qué una misma estructura requiere formas
+  distintas de realización ante sujetos distintos.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hay sujeto relevante para el caso,
+- el supuesto contexto de sujeto se reduce a datos irrelevantes,
+- la descripción del sujeto no afecta ninguna decisión de transformación,
+- o el concepto se usa como etiqueta vaga para justificar cambios arbitrarios sin criterio
+  estructural.
+
+Diferencia específica
+
+FAC-Contexto-de-Sujeto no es idéntico a FAC-Contexto-de-Medio.
+
+El contexto de medio nombra las condiciones del entorno estructurado donde la realización operará.
+
+El contexto de sujeto nombra las condiciones del receptor, usuario o agente cuya forma de recibir,
+interpretar o usar la realización condiciona su validez.
+
+Tampoco es idéntico a FAC-Contexto-de-Ejecucion.
+
+El contexto de ejecución describe la situación concreta de implementación.
+
+El contexto de sujeto describe las condiciones del tipo de sujeto implicado en esa implementación.
+
+Fórmula sintética
+
+FAC-Contexto-de-Sujeto =
+recorte explícito de condiciones relevantes del sujeto
+que modifican la recepción, interpretación, uso o eficacia
+de una realización contextual del núcleo.
+
+Resultado conceptual
+
+FAC-Contexto-de-Sujeto convierte al sujeto en una condición estructural explícita de la adaptación,
+permitiendo que la Fábrica de Adaptaciones Contextuales no proyecte realizaciones hacia destinatarios
+genéricos, sino hacia configuraciones subjetivas relevantes y tratables.
+]"}}
+
+
+{"address":"def/FAC-Contexto-de-Medio","content":"[
+FAC-Contexto-de-Medio es el componente de la Fábrica de Adaptaciones Contextuales que delimita
+las condiciones relevantes del medio en el que una realización contextual debe operar.
+
+Su función es hacer explícito que una adaptación no solo depende del sujeto, sino también del
+entorno estructurado en el que el núcleo será realizado, recibido, ejecutado o desplegado.
+
+No nombra cualquier entorno de forma genérica.
+No nombra cualquier canal tomado de manera superficial.
+No nombra cualquier soporte entendido como simple contenedor neutro.
+
+Nombra únicamente el recorte de condiciones del medio que modifican de forma estructural la
+manera en que un núcleo preservable puede realizarse válidamente en un caso concreto.
+
+Definición funcional mínima
+
+FAC-Contexto-de-Medio es la estructura contextual que reúne los rasgos del medio que afectan la
+forma de operación, expresión, transmisión, interacción, restricción o respuesta de una intervención
+situada.
+
+Opera como componente de la composición contextual y permite determinar qué transformaciones son
+necesarias para que un mismo núcleo siga siendo funcional al ingresar en medios distintos.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de condicionamiento medial de la realización contextual.
+
+No delimita una teoría general de los medios.
+No delimita cualquier tipología de soportes.
+No delimita la totalidad del entorno donde algo ocurre.
+
+Delimita únicamente la porción del medio que cuenta como condición relevante para que una
+realización contextual sea posible, compatible, estable, interpretable o eficaz.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Contexto-de-Medio deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir un medio o clase de medio relevante para la realización.
+   Si no hay entorno estructurado de operación, no hay contexto de medio sino formulación
+   abstracta o transferencia indiferenciada.
+
+2. Debe existir un recorte de rasgos relevantes del medio.
+   El contexto de medio no incluye todo lo que rodea al caso, sino solo aquello que afecta
+   estructuralmente la realización del núcleo.
+
+3. Debe existir relación con la adaptación contextual.
+   Los rasgos seleccionados del medio deben modificar de forma real la transformación contextual
+   o la forma de la intervención situada.
+
+4. Debe existir incidencia sobre las condiciones de operación.
+   El medio debe afectar la manera en que la realización puede desplegarse, sostenerse, circular,
+   ser percibida, ser procesada o responder.
+
+5. Debe existir posibilidad de comparación entre medios o clases de medio.
+   El concepto solo adquiere fuerza operativa si permite distinguir por qué una misma estructura
+   debe realizarse de modo diferente en medios distintos.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como condiciones del medio que afectan la realización contextual:
+
+- grado de materialidad o virtualidad,
+- estabilidad o volatilidad del entorno,
+- velocidad de respuesta,
+- latencia,
+- granularidad de interacción,
+- capacidad de almacenamiento,
+- capacidad de transmisión,
+- límite de longitud o duración,
+- resolución expresiva disponible,
+- nivel de interactividad,
+- restricciones técnicas o físicas,
+- régimen algorítmico,
+- visibilidad o invisibilidad de la operación,
+- persistencia temporal,
+- capacidad de réplica,
+- densidad estructural del soporte,
+- tolerancia a complejidad,
+- requisitos de compatibilidad local.
+
+Estas variaciones son legítimas mientras sigan operando como condiciones del medio y no como
+simple descripción decorativa del entorno.
+
+Relaciones estructurales
+
+FAC-Contexto-de-Medio depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que adapta un núcleo a condiciones múltiples.
+
+FAC-Contexto-de-Medio depende de FAC-Composicion-Contextual porque no actúa aisladamente, sino
+como una de las dimensiones que deben componerse con sujeto, distribución y ejecución.
+
+FAC-Contexto-de-Medio se relaciona con FAC-Transformacion-Contextual porque las propiedades del
+medio condicionan qué reexpresiones del núcleo son posibles, compatibles o eficaces.
+
+FAC-Contexto-de-Medio se relaciona con FAC-Restriccion-de-Salida porque parte de los límites de
+la realización provienen de lo que el medio permite, exige o impide.
+
+FAC-Contexto-de-Medio se relaciona con FAC-Heuristica-de-Transformacion porque muchas decisiones
+de adaptación dependen de regularidades propias del medio.
+
+FAC-Contexto-de-Medio se relaciona con FAC-Intervencion-Situada porque la salida concreta debe
+estar formulada de modo compatible con el medio en el que operará.
+
+FAC-Contexto-de-Medio se relaciona con FAC-Evidencia-de-Retorno porque parte de la evidencia
+proviene del modo en que el propio medio responde, limita, amplifica o distorsiona la intervención.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Contexto-de-Medio no duplica Arq-Cog-Envolvente ni Arq-Cog-Vecindad-Relevante, pero se apoya
+en ambos.
+
+Arq-Cog-Envolvente ayuda a identificar el exterior relevante del sistema.
+
+Arq-Cog-Vecindad-Relevante ayuda a recortar qué parte de ese exterior acopla de forma efectiva.
+
+FAC-Contexto-de-Medio selecciona, dentro de esa región, las condiciones específicamente atribuidas
+al medio que modifican la realización contextual del núcleo.
+
+Por eso, Envolvente y Vecindad Relevante responden a la pregunta:
+qué exterior cuenta.
+
+Y Contexto de Medio responde a la pregunta:
+qué condiciones del entorno estructurado, dentro de ese exterior relevante, deben incorporarse para
+adaptar la realización sin perder identidad funcional.
+
+FAC-Contexto-de-Medio también se relaciona indirectamente con Com-Est-Superficie-de-Comunicacion y
+Com-Est-Compatibilidad-Estructural, porque el medio no solo condiciona la realización, sino también
+la forma local en que una estructura puede entrar, acoplarse y reemitirse válidamente.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad cuál es el medio o la clase de medio relevante,
+- se han recortado solo los rasgos del medio que afectan estructuralmente la realización,
+- esos rasgos modifican efectivamente la transformación o la intervención,
+- y el contexto de medio permite justificar por qué una misma estructura requiere formas distintas
+  de realización en medios distintos.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hay medio relevante para el caso,
+- el supuesto contexto de medio se reduce a etiquetas genéricas sin efecto estructural,
+- la descripción del medio no altera ninguna decisión de transformación,
+- o el concepto se usa para justificar cambios arbitrarios sin criterio de compatibilidad.
+
+Diferencia específica
+
+FAC-Contexto-de-Medio no es idéntico a FAC-Contexto-de-Sujeto.
+
+El contexto de sujeto nombra las condiciones del receptor, usuario o agente implicado.
+
+El contexto de medio nombra las condiciones del entorno estructurado donde la realización debe
+operar.
+
+Tampoco es idéntico a FAC-Contexto-de-Distribucion.
+
+El contexto de distribución describe el régimen de circulación o propagación de la salida.
+
+El contexto de medio describe el entorno estructurado de operación considerado en sí mismo, incluso
+antes de su circulación.
+
+Tampoco es idéntico a FAC-Contexto-de-Ejecucion.
+
+El contexto de ejecución nombra la situación concreta de implementación.
+
+El contexto de medio nombra las propiedades relativamente estables del entorno en el que dicha
+implementación se vuelve posible o limitada.
+
+Fórmula sintética
+
+FAC-Contexto-de-Medio =
+recorte explícito de condiciones relevantes del medio
+que modifican la operación, compatibilidad, expresión o eficacia
+de una realización contextual del núcleo.
+
+Resultado conceptual
+
+FAC-Contexto-de-Medio convierte al medio en una condición estructural explícita de la adaptación,
+permitiendo que la Fábrica de Adaptaciones Contextuales no proyecte realizaciones hacia entornos
+genéricos, sino hacia configuraciones mediales relevantes, comparables y tratables.
+]"}}
+{"address":"def/FAC-Contexto-de-Distribucion","content":"[
+FAC-Contexto-de-Distribucion es el componente de la Fábrica de Adaptaciones Contextuales que delimita
+las condiciones relevantes de circulación, propagación, acceso y exposición de una realización
+contextual.
+
+Su función es hacer explícito que una adaptación no solo depende del sujeto que recibe ni del medio
+en el que opera, sino también del régimen según el cual la salida circula, se entrega, se expone,
+se replica, se recomienda, se filtra o se vuelve accesible.
+
+No nombra cualquier canal considerado de manera superficial.
+No nombra cualquier plataforma entendida solo como soporte técnico.
+No nombra cualquier trayecto de difusión descrito de forma narrativa.
+
+Nombra únicamente el recorte de condiciones de distribución que modifican estructuralmente la manera
+en que un núcleo preservable puede llegar, sostenerse, repetirse, localizarse o volverse visible en
+un caso concreto.
+
+Definición funcional mínima
+
+FAC-Contexto-de-Distribucion es la estructura contextual que reúne los rasgos del régimen de
+circulación de una realización y que afectan su acceso, alcance, exposición, repetición, timing,
+orden de aparición, persistencia o probabilidad de encuentro.
+
+Opera como componente de la composición contextual y permite determinar qué transformaciones son
+necesarias para que un mismo núcleo siga siendo funcional al entrar en regímenes de distribución
+distintos.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de condicionamiento distributivo de la realización contextual.
+
+No delimita una teoría general de medios de difusión.
+No delimita cualquier logística de transporte.
+No delimita la totalidad de la infraestructura social o técnica de circulación.
+
+Delimita únicamente la porción del régimen de distribución que cuenta como condición relevante para
+que una realización contextual sea encontrable, entregable, visible, reiterable, priorizada,
+retenida o desplazada.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Contexto-de-Distribucion deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir un régimen de distribución relevante para la realización.
+   Si la salida no circula, no se expone, no se entrega o no depende de condiciones de acceso, no
+   hay contexto de distribución sino simple emisión local o formulación aislada.
+
+2. Debe existir un recorte de rasgos distributivos relevantes.
+   El contexto de distribución no incorpora toda la infraestructura de circulación, sino solo
+   aquello que modifica estructuralmente la llegada o exposición de la realización.
+
+3. Debe existir relación con la adaptación contextual.
+   Los rasgos distributivos seleccionados deben afectar de forma real la transformación contextual o
+   la forma de la intervención situada.
+
+4. Debe existir incidencia sobre acceso o exposición.
+   El régimen de distribución debe alterar quién encuentra la realización, cuándo la encuentra, con
+   qué prioridad, cuántas veces, en qué secuencia o bajo qué condiciones de visibilidad.
+
+5. Debe existir posibilidad de comparación entre regímenes de distribución.
+   El concepto solo adquiere fuerza operativa si permite distinguir por qué una misma estructura
+   debe realizarse de modo diferente bajo distribuciones distintas.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como condiciones de distribución que afectan la realización contextual:
+
+- frecuencia de exposición,
+- orden de aparición,
+- prioridad de entrega,
+- visibilidad relativa,
+- lógica algorítmica de recomendación,
+- segmentación de audiencia,
+- persistencia o caducidad,
+- replicabilidad,
+- ritmo de circulación,
+- densidad de competencia atencional,
+- accesibilidad temporal,
+- accesibilidad geográfica o técnica,
+- condiciones de indexación o búsqueda,
+- reglas de publicación,
+- filtros de moderación,
+- capacidad de reenvío o redistribución,
+- dependencia de suscripción, membresía o permiso,
+- probabilidad de encuentro incidental o dirigido.
+
+Estas variaciones son legítimas mientras sigan operando como condiciones distributivas y no como
+simple descripción general del entorno.
+
+Relaciones estructurales
+
+FAC-Contexto-de-Distribucion depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función
+solo tiene sentido dentro de una arquitectura que adapta un núcleo a condiciones múltiples.
+
+FAC-Contexto-de-Distribucion depende de FAC-Composicion-Contextual porque no actúa aisladamente,
+sino como una de las dimensiones que deben componerse con sujeto, medio y ejecución.
+
+FAC-Contexto-de-Distribucion se relaciona con FAC-Transformacion-Contextual porque muchas
+reexpresiones del núcleo dependen del régimen de visibilidad, frecuencia, prioridad o acceso con el
+que la realización circulará.
+
+FAC-Contexto-de-Distribucion se relaciona con FAC-Restriccion-de-Salida porque parte de los límites
+de una realización provienen del modo en que puede o no puede circular.
+
+FAC-Contexto-de-Distribucion se relaciona con FAC-Heuristica-de-Transformacion porque muchas
+decisiones de adaptación dependen de regularidades del régimen distributivo.
+
+FAC-Contexto-de-Distribucion se relaciona con FAC-Intervencion-Situada porque la forma concreta de
+la salida debe ser compatible con el modo en que será entregada, encontrada o reiterada.
+
+FAC-Contexto-de-Distribucion se relaciona con FAC-Evidencia-de-Retorno porque parte de la evidencia
+relevante proviene de métricas, patrones de acceso, trayectorias de exposición, repetición o
+alcance producidas por la distribución.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Contexto-de-Distribucion no duplica Arq-Cog-Envolvente ni Arq-Cog-Vecindad-Relevante, pero se
+apoya en ambos.
+
+Arq-Cog-Envolvente ayuda a identificar el exterior relevante del sistema.
+
+Arq-Cog-Vecindad-Relevante ayuda a recortar qué parte de ese exterior acopla de forma efectiva.
+
+FAC-Contexto-de-Distribucion selecciona, dentro de esa región, las condiciones específicamente
+atribuidas al régimen de circulación de la realización.
+
+Por eso, Envolvente y Vecindad Relevante responden a la pregunta:
+qué exterior cuenta.
+
+Y Contexto de Distribución responde a la pregunta:
+qué condiciones de circulación, acceso y exposición, dentro de ese exterior relevante, deben
+incorporarse para adaptar la realización sin perder identidad funcional.
+
+FAC-Contexto-de-Distribucion también se relaciona indirectamente con
+Com-Est-Superficie-de-Comunicacion y Com-Est-Compatibilidad-Estructural, porque una realización no
+solo debe ser compatible con un medio, sino también con la forma concreta en que será presentada,
+transmitida o redistribuida en ese régimen.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad cuál es el régimen de distribución o la clase de distribución
+  relevante,
+- se han recortado solo los rasgos distributivos que afectan estructuralmente la realización,
+- esos rasgos modifican efectivamente la transformación o la intervención,
+- y el contexto de distribución permite justificar por qué una misma estructura requiere formas
+  distintas de realización bajo distribuciones distintas.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hay régimen de circulación relevante para el caso,
+- el supuesto contexto de distribución se reduce a nombrar una plataforma sin efecto estructural,
+- la descripción distributiva no altera ninguna decisión de transformación,
+- o el concepto se usa como etiqueta vaga para justificar cambios arbitrarios sin criterio de
+  llegada, visibilidad o acceso.
+
+Diferencia específica
+
+FAC-Contexto-de-Distribucion no es idéntico a FAC-Contexto-de-Medio.
+
+El contexto de medio nombra las condiciones del entorno estructurado donde la realización opera.
+
+El contexto de distribución nombra las condiciones según las cuales esa realización circula, se
+expone, se entrega o se vuelve accesible.
+
+Tampoco es idéntico a FAC-Contexto-de-Ejecucion.
+
+El contexto de ejecución describe la situación concreta en la que la realización se implementa.
+
+El contexto de distribución describe el régimen mediante el cual esa realización llega, reaparece,
+se prioriza o se encuentra.
+
+Tampoco es idéntico a FAC-Contexto-de-Sujeto.
+
+El contexto de sujeto recorta las condiciones del receptor o usuario.
+
+El contexto de distribución recorta las condiciones de circulación que median entre la realización y
+su encuentro por parte de sujetos posibles.
+
+Fórmula sintética
+
+FAC-Contexto-de-Distribucion =
+recorte explícito de condiciones relevantes de circulación, acceso y exposición
+que modifican la llegada, visibilidad, reiteración o eficacia
+de una realización contextual del núcleo.
+
+Resultado conceptual
+
+FAC-Contexto-de-Distribucion convierte la distribución en una condición estructural explícita de la
+adaptación, permitiendo que la Fábrica de Adaptaciones Contextuales no proyecte realizaciones hacia
+regímenes de circulación genéricos, sino hacia configuraciones distributivas relevantes,
+comparables y tratables.
+]"}}
+
+
+{"address":"def/FAC-Contexto-de-Ejecucion","content":"[
+FAC-Contexto-de-Ejecucion es el componente de la Fábrica de Adaptaciones Contextuales que delimita
+las condiciones concretas bajo las cuales una realización contextual debe implementarse, desplegarse
+o ponerse en acto.
+
+Su función es hacer explícito que una adaptación no solo depende del sujeto, del medio o del régimen
+de distribución, sino también de la situación efectiva de ejecución en la que la realización tendrá
+que funcionar.
+
+No nombra cualquier circunstancia descrita de forma anecdótica.
+No nombra cualquier detalle accidental del caso.
+No nombra cualquier ambiente entendido de manera genérica.
+
+Nombra únicamente el recorte de condiciones de ejecución que modifican estructuralmente la manera en
+que un núcleo preservable puede realizarse válidamente en una situación concreta.
+
+Definición funcional mínima
+
+FAC-Contexto-de-Ejecucion es la estructura contextual que reúne los rasgos de la situación efectiva
+de implementación que afectan la viabilidad, estabilidad, timing, secuencia, coordinación, recursos,
+riesgos, contingencias o desempeño de una intervención situada.
+
+Opera como componente de la composición contextual y permite determinar qué transformaciones son
+necesarias para que un mismo núcleo siga siendo funcional al pasar de una formulación abstracta a una
+puesta en acto concreta.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de condicionamiento ejecutivo de la realización contextual.
+
+No delimita una teoría general de la acción.
+No delimita cualquier descripción del entorno inmediato.
+No delimita la totalidad de las circunstancias empíricas del caso.
+
+Delimita únicamente la porción de la situación de ejecución que cuenta como condición relevante para
+que una realización contextual pueda implementarse, sostenerse, coordinarse, secuenciarse o producir
+efectos bajo condiciones concretas.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Contexto-de-Ejecucion deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir una situación efectiva de implementación relevante para la realización.
+   Si la salida no necesita ponerse en acto, coordinarse o ejecutarse bajo condiciones concretas, no
+   hay contexto de ejecución sino formulación abstracta o mera circulación.
+
+2. Debe existir un recorte de rasgos ejecutivos relevantes.
+   El contexto de ejecución no incorpora toda la contingencia del caso, sino solo aquello que afecta
+   estructuralmente la implementación de la realización.
+
+3. Debe existir relación con la adaptación contextual.
+   Los rasgos seleccionados de la ejecución deben modificar de forma real la transformación
+   contextual o la forma de la intervención situada.
+
+4. Debe existir incidencia sobre la puesta en acto.
+   La situación de ejecución debe alterar cómo, cuándo, con qué recursos, en qué secuencia o bajo
+   qué restricciones puede operar la realización.
+
+5. Debe existir posibilidad de comparación entre situaciones de ejecución.
+   El concepto solo adquiere fuerza operativa si permite distinguir por qué una misma estructura debe
+   realizarse de modo diferente bajo situaciones concretas de implementación distintas.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como condiciones de ejecución que afectan la realización contextual:
+
+- disponibilidad de tiempo,
+- secuencia de acciones requerida,
+- recursos materiales disponibles,
+- recursos humanos disponibles,
+- coordinación necesaria entre actores,
+- ventana temporal de implementación,
+- urgencia o presión situacional,
+- margen de error tolerable,
+- condiciones espaciales de despliegue,
+- nivel de ruido o interferencia,
+- estabilidad o inestabilidad del entorno inmediato,
+- número de pasos operativos exigidos,
+- dependencia de sincronización,
+- grado de supervisión disponible,
+- costo de fallo,
+- facilidad o dificultad de reversión,
+- contingencias probables,
+- restricciones normativas o procedimentales de ejecución.
+
+Estas variaciones son legítimas mientras sigan operando como condiciones de implementación y no como
+simple narración accidental del caso.
+
+Relaciones estructurales
+
+FAC-Contexto-de-Ejecucion depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que adapta un núcleo a condiciones múltiples.
+
+FAC-Contexto-de-Ejecucion depende de FAC-Composicion-Contextual porque no actúa aisladamente, sino
+como una de las dimensiones que deben componerse con sujeto, medio y distribución.
+
+FAC-Contexto-de-Ejecucion se relaciona con FAC-Transformacion-Contextual porque muchas reexpresiones
+del núcleo dependen de las condiciones reales de implementación del caso.
+
+FAC-Contexto-de-Ejecucion se relaciona con FAC-Restriccion-de-Salida porque parte de los límites de
+una realización provienen de lo que la situación concreta permite, exige o impide al momento de
+ejecutarla.
+
+FAC-Contexto-de-Ejecucion se relaciona con FAC-Heuristica-de-Transformacion porque muchas decisiones
+de adaptación dependen de regularidades prácticas de la implementación.
+
+FAC-Contexto-de-Ejecucion se relaciona con FAC-Intervencion-Situada porque la salida concreta debe
+estar formulada de modo compatible con la situación real en la que será puesta en acto.
+
+FAC-Contexto-de-Ejecucion se relaciona con FAC-Evidencia-de-Retorno porque parte de la evidencia
+relevante proviene del desempeño real de la intervención bajo condiciones concretas de ejecución.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Contexto-de-Ejecucion no duplica Arq-Cog-Envolvente ni Arq-Cog-Vecindad-Relevante, pero se apoya
+en ambos.
+
+Arq-Cog-Envolvente ayuda a identificar el exterior relevante del sistema.
+
+Arq-Cog-Vecindad-Relevante ayuda a recortar qué parte de ese exterior acopla de forma efectiva.
+
+FAC-Contexto-de-Ejecucion selecciona, dentro de esa región, las condiciones específicamente
+atribuidas a la situación concreta de implementación de la realización.
+
+Por eso, Envolvente y Vecindad Relevante responden a la pregunta:
+qué exterior cuenta.
+
+Y Contexto de Ejecucion responde a la pregunta:
+qué condiciones de implementación, dentro de ese exterior relevante, deben incorporarse para adaptar
+la realización sin perder identidad funcional.
+
+FAC-Contexto-de-Ejecucion también se relaciona indirectamente con
+Com-Est-Superficie-de-Comunicacion y Com-Est-Compatibilidad-Estructural, porque una realización no
+solo debe ser compatible con un medio o una distribución, sino también con la forma concreta en que
+debe ponerse en acto en una situación determinada.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad cuál es la situación de implementación o la clase de ejecución
+  relevante,
+- se han recortado solo los rasgos ejecutivos que afectan estructuralmente la realización,
+- esos rasgos modifican efectivamente la transformación o la intervención,
+- y el contexto de ejecución permite justificar por qué una misma estructura requiere formas
+  distintas de realización bajo implementaciones concretas distintas.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hay situación efectiva de implementación relevante para el caso,
+- el supuesto contexto de ejecución se reduce a detalles anecdóticos sin efecto estructural,
+- la descripción de la ejecución no altera ninguna decisión de transformación,
+- o el concepto se usa como etiqueta vaga para justificar cambios arbitrarios sin criterio práctico
+  de puesta en acto.
+
+Diferencia específica
+
+FAC-Contexto-de-Ejecucion no es idéntico a FAC-Contexto-de-Medio.
+
+El contexto de medio nombra las condiciones del entorno estructurado donde la realización opera.
+
+El contexto de ejecución nombra las condiciones concretas bajo las cuales esa realización debe
+implementarse y funcionar efectivamente.
+
+Tampoco es idéntico a FAC-Contexto-de-Distribucion.
+
+El contexto de distribución describe el régimen de circulación, acceso o exposición.
+
+El contexto de ejecución describe la situación de puesta en acto, coordinación y desempeño práctico
+de la realización.
+
+Tampoco es idéntico a FAC-Contexto-de-Sujeto.
+
+El contexto de sujeto recorta las condiciones del receptor, usuario o agente implicado.
+
+El contexto de ejecución recorta las condiciones de la situación concreta en la que la realización
+debe operar, independientemente de que esas condiciones pertenezcan enteramente al sujeto o no.
+
+Fórmula sintética
+
+FAC-Contexto-de-Ejecucion =
+recorte explícito de condiciones relevantes de implementación
+que modifican la viabilidad, secuencia, coordinación o desempeño
+de una realización contextual del núcleo.
+
+Resultado conceptual
+
+FAC-Contexto-de-Ejecucion convierte la ejecución en una condición estructural explícita de la
+adaptación, permitiendo que la Fábrica de Adaptaciones Contextuales no proyecte realizaciones hacia
+situaciones abstractas de puesta en acto, sino hacia configuraciones ejecutivas relevantes,
+comparables y tratables.
+]"}}
+
+
+{"address":"def/FAC-Composicion-Contextual","content":"[
+FAC-Composicion-Contextual es el componente de la Fábrica de Adaptaciones Contextuales que articula
+en una configuración tratable los contextos relevantes de sujeto, medio, distribución y ejecución
+para un caso determinado.
+
+Su función es convertir un conjunto disperso de condiciones contextuales en una estructura explícita
+de composición, de modo que la adaptación del núcleo no dependa de intuiciones fragmentarias ni de
+ajustes tácitos no declarados.
+
+No nombra la mera suma de contextos.
+No nombra cualquier lista de variables del caso.
+No nombra cualquier descripción amplia del entorno.
+
+Nombra únicamente la organización explícita de los contextos relevantes en tanto configuración
+conjunta que condiciona de forma estructural la realización válida de un núcleo preservable.
+
+Definición funcional mínima
+
+FAC-Composicion-Contextual es la estructura que integra en un mismo recorte operativo los contextos
+del caso y permite tratarlos como una unidad de condicionamiento para la transformación contextual.
+
+Opera como mediación entre el núcleo preservable y la intervención situada, porque vuelve tratable
+la pregunta por las condiciones concretas bajo las cuales una misma estructura puede realizarse sin
+perder continuidad funcional.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de integración contextual explícita para la adaptación.
+
+No delimita el contexto tomado por separado.
+No delimita la descripción aislada de un sujeto, un medio, una distribución o una ejecución.
+No delimita cualquier agregación informal de factores.
+
+Delimita únicamente el proceso y el resultado de componer contextos distintos en una unidad
+estructural relevante para decidir cómo debe transformarse y realizarse un núcleo en un caso.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Composicion-Contextual deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir pluralidad contextual relevante.
+   La composición presupone que más de una dimensión contextual condiciona la realización del núcleo.
+
+2. Debe existir integración explícita de esas dimensiones.
+   Los contextos no pueden permanecer como bloques inconexos; deben ser organizados en una
+   configuración conjunta tratable.
+
+3. Debe existir incidencia sobre la transformación contextual.
+   La composición debe modificar de forma real la manera en que el núcleo puede realizarse.
+
+4. Debe existir función de criterio para el caso.
+   La composición debe permitir justificar por qué una realización concreta es válida en ese caso y
+   no en otro.
+
+5. Debe existir relación con una intervención situada.
+   La composición no se justifica por descripción, sino por su capacidad para orientar una salida
+   contextual concreta.
+
+6. Debe existir compatibilidad con preservación identitaria.
+   La composición no puede absorber el núcleo hasta disolverlo; debe condicionar la realización sin
+   destruir la continuidad funcional de la estructura preservada.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como dimensiones de composición contextual relevantes para la realización:
+
+- la cantidad de contextos integrados,
+- el peso relativo de cada contexto,
+- la prioridad entre sujeto, medio, distribución y ejecución,
+- la forma de representar cada contexto,
+- el grado de explicitación de la composición,
+- la granularidad del recorte contextual,
+- la estabilidad o dinamismo de las condiciones,
+- la dependencia entre contextos,
+- la densidad de restricciones cruzadas,
+- el nivel de conflicto entre condiciones,
+- el modo de resolución entre demandas contextuales incompatibles,
+- la temporalidad de la composición,
+- el número de iteraciones requeridas para estabilizar el caso.
+
+Estas variaciones son legítimas mientras la composición siga funcionando como estructura conjunta de
+condicionamiento y no como simple colección desordenada de factores.
+
+Relaciones estructurales
+
+FAC-Composicion-Contextual depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función
+solo tiene sentido dentro de una arquitectura que realiza un núcleo a través de contextos múltiples.
+
+FAC-Composicion-Contextual depende de FAC-Contexto-de-Sujeto porque parte de la composición del caso
+consiste en recortar las condiciones relevantes del sujeto implicado.
+
+FAC-Composicion-Contextual depende de FAC-Contexto-de-Medio porque parte de la composición del caso
+consiste en recortar las condiciones relevantes del medio de operación.
+
+FAC-Composicion-Contextual depende de FAC-Contexto-de-Distribucion porque parte de la composición del
+caso consiste en recortar las condiciones relevantes del régimen de circulación de la realización.
+
+FAC-Composicion-Contextual depende de FAC-Contexto-de-Ejecucion porque parte de la composición del
+caso consiste en recortar las condiciones relevantes de la implementación concreta.
+
+FAC-Composicion-Contextual se relaciona con FAC-Nucleo-Preservable porque la composición contextual
+solo es pertinente en relación con una estructura cuya continuidad deba mantenerse.
+
+FAC-Composicion-Contextual se relaciona con FAC-Transformacion-Contextual porque la transformación
+necesita una configuración contextual explícita sobre la cual operar.
+
+FAC-Composicion-Contextual se relaciona con FAC-Caso-de-Proyeccion-Contextual porque el caso no es
+otra cosa que un núcleo preservable bajo una composición contextual determinada.
+
+FAC-Composicion-Contextual se relaciona con FAC-Intencion-de-Intervencion porque la relevancia de
+cada dimensión contextual depende también de qué se busca lograr en el caso.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Composicion-Contextual no duplica Arq-Cog-Envolvente ni Arq-Cog-Vecindad-Relevante, pero se
+apoya en ambos.
+
+Arq-Cog-Envolvente ayuda a identificar el exterior relevante del sistema.
+
+Arq-Cog-Vecindad-Relevante ayuda a recortar qué porción de ese exterior acopla efectivamente con la
+entidad o con el caso.
+
+FAC-Composicion-Contextual toma esas condiciones ya recortadas y las organiza como una unidad
+operativa de condicionamiento contextual.
+
+Por eso, Envolvente y Vecindad Relevante responden a la pregunta:
+qué exterior cuenta.
+
+Y Composición Contextual responde a la pregunta:
+cómo se organizan las condiciones relevantes de ese exterior, junto con sus dimensiones internas de
+caso, para que una transformación contextual pueda realizarse de modo explícito y tratable.
+
+FAC-Composicion-Contextual también se relaciona indirectamente con
+Com-Est-Superficie-de-Comunicacion y Com-Est-Compatibilidad-Estructural, porque la composición
+contextual ayuda a determinar bajo qué superficies y compatibilidades puede comunicarse
+estructuralmente el núcleo en un caso dado.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se han identificado las dimensiones contextuales relevantes del caso,
+- dichas dimensiones han sido integradas en una configuración explícita,
+- la composición resultante modifica realmente la transformación o la forma de la intervención,
+- y esa composición permite justificar por qué el núcleo debe realizarse de cierta manera en ese
+  caso particular.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- solo existe una lista dispersa de factores sin integración estructural,
+- los contextos se mencionan pero no se articulan entre sí,
+- la supuesta composición no altera ninguna decisión de transformación,
+- o el concepto se usa como nombre general para “tener contexto” sin construir una configuración
+  conjunta tratable.
+
+Diferencia específica
+
+FAC-Composicion-Contextual no es idéntico a ninguno de los contextos particulares que integra.
+
+El contexto de sujeto recorta condiciones del receptor o agente implicado.
+El contexto de medio recorta condiciones del entorno estructurado de operación.
+El contexto de distribución recorta condiciones de circulación y acceso.
+El contexto de ejecución recorta condiciones de implementación concreta.
+
+La composición contextual no reemplaza a ninguno de ellos.
+
+Su trabajo consiste en articularlos en una sola configuración operativa capaz de orientar la
+transformación del núcleo en un caso determinado.
+
+Tampoco es idéntica a FAC-Transformacion-Contextual.
+
+La composición organiza las condiciones del caso.
+
+La transformación reexpresa el núcleo a la luz de esa organización.
+
+Fórmula sintética
+
+FAC-Composicion-Contextual =
+integración explícita de contextos relevantes
+en una configuración conjunta de condicionamiento
+para la realización válida de un núcleo preservable.
+
+Resultado conceptual
+
+FAC-Composicion-Contextual convierte la pluralidad de condiciones del caso en una estructura tratable
+de adaptación, permitiendo que la Fábrica de Adaptaciones Contextuales opere sobre configuraciones
+explícitas y no sobre contextos fragmentarios, implícitos o meramente intuitivos.
+]"}}
+
+
+{"address":"def/FAC-Intencion-de-Intervencion","content":"[
+FAC-Intencion-de-Intervencion es el componente de la Fábrica de Adaptaciones Contextuales que fija
+la orientación operativa de una realización contextual y explicita qué efecto, desplazamiento,
+resultado o modificación se busca producir en un caso determinado.
+
+Su función es impedir que la adaptación contextual quede reducida a ajuste formal sin dirección,
+porque toda transformación válida del núcleo requiere saber no solo a qué contexto responde, sino
+también para qué se realiza.
+
+No nombra cualquier deseo general del sistema.
+No nombra cualquier propósito abstracto formulado de manera retórica.
+No nombra cualquier declaración amplia de motivación.
+
+Nombra únicamente la orientación de intervención que resulta estructuralmente relevante para decidir
+cómo debe adaptarse un núcleo preservable en un caso concreto.
+
+Definición funcional mínima
+
+FAC-Intencion-de-Intervencion es la estructura que explicita el para qué operativo de una realización
+contextual y que sirve como criterio de dirección para seleccionar, justificar y limitar la
+transformación contextual.
+
+Opera como componente de la fábrica porque permite vincular el núcleo preservable con una salida
+situada orientada a producir efectos determinados bajo composición contextual explícita.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de orientación teleológica de la adaptación contextual.
+
+No delimita cualquier finalidad humana posible.
+No delimita una teoría general de la intención.
+No delimita la totalidad de las motivaciones implicadas en un caso.
+
+Delimita únicamente la porción de intención que cuenta como criterio explícito para decidir qué
+intervención debe producirse, bajo qué forma y con qué dirección operativa, a partir del núcleo y
+de la composición contextual del caso.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Intencion-de-Intervencion deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir una orientación operativa explícita.
+   Si no puede decirse qué se busca lograr con la realización, no hay intención de intervención sino
+   adaptación indeterminada.
+
+2. Debe existir relación con una intervención situada.
+   La intención no se justifica por mera formulación abstracta; debe orientar una salida concreta.
+
+3. Debe existir incidencia sobre la transformación contextual.
+   La intención debe modificar de forma real cómo se adapta el núcleo y no limitarse a acompañar la
+   descripción del caso.
+
+4. Debe existir compatibilidad con el núcleo preservable.
+   La intención no puede exigir una transformación que destruya arbitrariamente la identidad
+   operativa de la estructura que se intenta realizar.
+
+5. Debe existir relación con la composición contextual.
+   La intención debe poder formularse y evaluarse en función de sujeto, medio, distribución y
+   ejecución, y no como propósito desligado del caso.
+
+6. Debe existir capacidad de discriminación.
+   La intención debe ayudar a distinguir entre realizaciones contextuales posibles, permitiendo
+   preferir unas y descartar otras.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como orientación operativa de la realización contextual:
+
+- el tipo de efecto buscado,
+- el alcance de la intervención,
+- la escala temporal esperada,
+- el grado de explicitación de la meta,
+- el nivel de transformación requerido,
+- la intensidad del cambio buscado,
+- la clase de sujeto afectado,
+- el tipo de respuesta esperada,
+- la direccionalidad persuasiva, explicativa, instructiva, coordinativa o ejecutiva,
+- el margen de reversibilidad aceptable,
+- el criterio principal de éxito,
+- el tipo de modificación conductual, cognitiva, afectiva o estructural buscada.
+
+Estas variaciones son legítimas mientras la intención siga funcionando como criterio de dirección de
+la intervención y no como formulación decorativa o consigna general.
+
+Relaciones estructurales
+
+FAC-Intencion-de-Intervencion depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función
+solo tiene sentido dentro de una arquitectura que adapta un núcleo para producir realizaciones
+situadas.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Nucleo-Preservable porque la orientación de la
+intervención debe operar sobre una estructura cuya continuidad se busca conservar.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Composicion-Contextual porque la intención solo
+adquiere determinación práctica cuando se formula respecto de un caso contextual explícito.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Transformacion-Contextual porque la
+transformación necesita saber no solo qué preservar y bajo qué condiciones, sino también qué tipo de
+resultado debe alcanzar.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Heuristica-de-Transformacion porque las
+heurísticas se seleccionan y justifican parcialmente según el tipo de efecto buscado.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Restriccion-de-Salida porque no toda salida
+compatible con el contexto es válida para la intención perseguida.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Caso-de-Proyeccion-Contextual porque la
+intención forma parte del recorte que convierte una adaptación potencial en un caso definido.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Intervencion-Situada porque la salida concreta
+debe encarnar de forma reconocible la dirección operativa declarada por la intención.
+
+FAC-Intencion-de-Intervencion se relaciona con FAC-Evidencia-de-Retorno porque parte de la
+evaluación del caso depende de si la intervención produjo o no el efecto que se buscaba.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Intencion-de-Intervencion no duplica Arq-Cog-Interior ni Arq-Cog-Operatividad-Intensional, pero
+puede apoyarse en ambos.
+
+Arq-Cog-Interior ayuda a distinguir qué pertenece estructuralmente a la entidad o al caso.
+
+Arq-Cog-Operatividad-Intensional ayuda cuando la intención introduce prioridades, umbrales,
+preferencias o criterios que modifican de forma real la selección de transformaciones posibles.
+
+FAC-Intencion-de-Intervencion tampoco duplica Com-Est-Comunicacion-Estructural.
+
+La comunicación estructural explica cómo una estructura puede transferirse o reexpresarse sin perder
+su identidad operativa.
+
+La intención de intervención explica para qué se orienta esa reexpresión en un caso determinado.
+
+Por eso, Comunicación Estructural responde a la pregunta:
+cómo pasa una estructura.
+
+E Intención de Intervención responde a la pregunta:
+para qué debe pasar de esta manera y no de otra en este caso.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha formulado con claridad qué efecto, resultado o modificación se busca producir,
+- esa formulación altera realmente la selección de transformaciones posibles,
+- la intención puede ponerse en relación con el núcleo y con la composición contextual del caso,
+- y permite justificar por qué una intervención concreta es preferible a otras realizaciones
+  posibles del mismo núcleo.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no puede explicitarse ningún efecto buscado,
+- la supuesta intención es tan general que no orienta ninguna decisión,
+- la formulación no cambia en nada la transformación contextual,
+- o la intención exige una realización incompatible con la preservación funcional del núcleo.
+
+Diferencia específica
+
+FAC-Intencion-de-Intervencion no es idéntico a FAC-Nucleo-Preservable.
+
+El núcleo preservable indica qué debe seguir siendo la misma estructura a través de la adaptación.
+
+La intención de intervención indica para qué se realiza esa adaptación en el caso concreto.
+
+Tampoco es idéntico a FAC-Intervencion-Situada.
+
+La intervención situada es la salida concreta producida por la fábrica.
+
+La intención de intervención es la orientación operativa que guía la producción de esa salida.
+
+Tampoco es idéntico a FAC-Heuristica-de-Transformacion.
+
+La heurística organiza cómo adaptar.
+
+La intención organiza para qué adaptar.
+
+Fórmula sintética
+
+FAC-Intencion-de-Intervencion =
+orientación operativa explícita
+que dirige la transformación contextual del núcleo
+hacia una intervención situada con efecto buscado en un caso determinado.
+
+Resultado conceptual
+
+FAC-Intencion-de-Intervencion convierte la dirección de la adaptación en un criterio explícito de
+diseño contextual, permitiendo que la Fábrica de Adaptaciones Contextuales no produzca realizaciones
+solo compatibles con el caso, sino realizaciones orientadas hacia un efecto definido, evaluable y
+estructuralmente justificado.
+]"}}
+
+
+{"address":"def/FAC-Heuristica-de-Transformacion","content":"[
+FAC-Heuristica-de-Transformacion es el componente de la Fábrica de Adaptaciones Contextuales que
+organiza los criterios prácticos de decisión mediante los cuales un núcleo preservable puede
+reexpresarse en un caso concreto sin quedar librado a improvisación opaca ni a rigidez mecánica.
+
+Su función es hacer tratable el paso entre composición contextual e intervención situada cuando la
+transformación no puede deducirse automáticamente a partir de reglas puramente formales, pero
+tampoco debe quedar reducida a intuición no explicitada.
+
+No nombra cualquier regla empírica aislada.
+No nombra cualquier preferencia subjetiva del operador.
+No nombra cualquier procedimiento técnico completo.
+
+Nombra únicamente el conjunto de orientaciones prácticas que guían la selección, priorización,
+ajuste o descarte de transformaciones posibles dentro de un caso, preservando la continuidad
+funcional del núcleo bajo condiciones contextuales explícitas.
+
+Definición funcional mínima
+
+FAC-Heuristica-de-Transformacion es la estructura que reúne criterios operativos de decisión para
+resolver cómo debe adaptarse un núcleo preservable cuando múltiples realizaciones contextuales son
+posibles, pero no todas son igualmente válidas, viables o pertinentes.
+
+Opera como mediación entre la composición contextual y la transformación contextual, permitiendo
+escoger entre alternativas, resolver tensiones entre condiciones del caso y orientar la adaptación
+sin convertirla en arbitrariedad.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de orientación práctica de la transformación contextual.
+
+No delimita una teoría general del razonamiento heurístico.
+No delimita cualquier regla de optimización.
+No delimita una metodología completa de diseño o ejecución.
+
+Delimita únicamente la porción de criterio práctico que cuenta como guía explícita para decidir
+cómo debe realizarse una transformación contextual bajo condiciones de incertidumbre local,
+pluralidad de opciones o tensiones entre restricciones.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Heuristica-de-Transformacion deben preservarse, como mínimo,
+los siguientes invariantes:
+
+1. Debe existir pluralidad de transformaciones posibles.
+   Si solo hay una transformación única, directa y completamente determinada, la heurística pierde
+   función específica.
+
+2. Debe existir necesidad de orientación práctica.
+   La heurística aparece cuando el caso exige decidir entre alternativas, priorizar condiciones o
+   resolver tensiones que no se agotan en reglas puramente mecánicas.
+
+3. Debe existir relación con el núcleo preservable.
+   La heurística no puede orientar transformaciones que destruyan arbitrariamente la continuidad
+   funcional de la estructura que se intenta realizar.
+
+4. Debe existir relación con la composición contextual.
+   La heurística solo tiene sentido si opera sobre condiciones del caso explícitamente recortadas y
+   no sobre abstracciones desancladas del contexto.
+
+5. Debe existir incidencia real sobre la transformación.
+   La heurística debe modificar de forma efectiva qué transformación se elige, cómo se ajusta o qué
+   alternativas se descartan.
+
+6. Debe existir posibilidad de explicitación.
+   Aunque una heurística pueda tener origen práctico o experiencial, debe poder formularse de modo
+   suficiente para ser examinada, comparada y corregida.
+
+7. Debe existir compatibilidad con evaluación posterior.
+   La heurística debe poder ponerse en relación con evidencia de retorno para ser refinada,
+   confirmada, limitada o sustituida.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como criterios prácticos de orientación de la transformación contextual:
+
+- grado de formalización,
+- nivel de generalidad,
+- prioridad otorgada a claridad, eficacia, estabilidad o velocidad,
+- sensibilidad a restricciones del medio,
+- sensibilidad a restricciones del sujeto,
+- sensibilidad a restricciones de distribución,
+- sensibilidad a restricciones de ejecución,
+- tolerancia a complejidad,
+- tolerancia a ambigüedad,
+- preferencia por minimización de riesgo,
+- preferencia por maximización de impacto,
+- preferencia por reversibilidad,
+- preferencia por legibilidad,
+- preferencia por compatibilidad estructural,
+- número de alternativas comparadas,
+- modo de resolución entre tensiones contextuales,
+- peso relativo de criterios concurrentes,
+- dependencia de experiencia acumulada.
+
+Estas variaciones son legítimas mientras la heurística siga funcionando como guía práctica de
+selección y ajuste de transformaciones, y no como mera ocurrencia no justificable ni como algoritmo
+cerrado que ya no requiera criterio local.
+
+Relaciones estructurales
+
+FAC-Heuristica-de-Transformacion depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su
+función solo tiene sentido dentro de una arquitectura que adapta un núcleo a casos múltiples.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Composicion-Contextual porque la heurística
+requiere una configuración explícita de condiciones sobre la cual operar.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Nucleo-Preservable porque toda decisión
+heurística válida debe respetar la continuidad funcional de la estructura preservada.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Intencion-de-Intervencion porque parte del
+criterio de selección depende del efecto o resultado que se busca producir en el caso.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Restriccion-de-Salida porque la guía práctica
+de transformación debe operar dentro de límites explícitos de validez, viabilidad o compatibilidad.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Transformacion-Contextual porque su función
+propia es orientar, modular o decidir el modo en que dicha transformación se realiza.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Intervencion-Situada porque las decisiones
+heurísticas influyen directamente en la forma concreta que tomará la salida del sistema.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Evidencia-de-Retorno porque parte de su
+fortaleza o debilidad solo puede evaluarse mediante desempeño observado en casos realizados.
+
+FAC-Heuristica-de-Transformacion se relaciona con FAC-Correccion-Acumulativa porque la evidencia
+permite refinar, sustituir o estabilizar heurísticas a lo largo de iteraciones sucesivas.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Heuristica-de-Transformacion no duplica Arq-Cog-Operatividad-Intensional, pero se apoya en él.
+
+Arq-Cog-Operatividad-Intensional proporciona el régimen formal en el que pesos, prioridades,
+umbrales, restricciones y modulaciones cuentan de manera real en la operación del sistema.
+
+FAC-Heuristica-de-Transformacion selecciona, organiza o activa criterios prácticos dentro de ese
+régimen para decidir entre transformaciones posibles en un caso concreto.
+
+Por eso, Operatividad Intensional responde a la pregunta:
+cómo pueden operar estructuralmente pesos, prioridades, umbrales y restricciones.
+
+Y Heurística de Transformación responde a la pregunta:
+cómo se usan prácticamente esos criterios para elegir o ajustar una transformación contextual en un
+caso dado.
+
+FAC-Heuristica-de-Transformacion tampoco duplica Com-Est-Adaptador-Estructural.
+
+El adaptador estructural resuelve reexpresiones locales entre superficies o lenguajes estructurales.
+
+La heurística de transformación orienta qué adaptaciones conviene realizar, con qué prioridad y
+bajo qué compromisos cuando varias rutas son posibles.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- existe más de una transformación plausible del núcleo bajo la composición contextual dada,
+- se han explicitado criterios prácticos de selección o ajuste,
+- dichos criterios modifican efectivamente la elección de la transformación,
+- la heurística respeta la continuidad funcional del núcleo,
+- y su uso puede ponerse en relación con evidencia posterior para ser evaluado.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe necesidad real de decidir entre alternativas,
+- la supuesta heurística no altera ninguna decisión de transformación,
+- las decisiones se apoyan solo en preferencia arbitraria sin criterio explicitado,
+- la guía práctica contradice el núcleo preservable,
+- o el concepto se usa para encubrir opacidad decisional sin posibilidad de examen o corrección.
+
+Diferencia específica
+
+FAC-Heuristica-de-Transformacion no es idéntico a FAC-Transformacion-Contextual.
+
+La transformación contextual nombra el proceso o puente de reexpresión del núcleo bajo condiciones
+del caso.
+
+La heurística de transformación nombra el criterio práctico que orienta cómo debe resolverse ese
+proceso cuando admite alternativas o tensiones.
+
+Tampoco es idéntico a FAC-Restriccion-de-Salida.
+
+La restricción de salida fija límites de validez o exclusión.
+
+La heurística de transformación guía la selección positiva entre opciones aún válidas dentro de esos
+límites.
+
+Tampoco es idéntico a FAC-Intencion-de-Intervencion.
+
+La intención define para qué adaptar.
+
+La heurística define cómo decidir prácticamente entre rutas de adaptación compatibles con ese para
+qué y con las condiciones del caso.
+
+Fórmula sintética
+
+FAC-Heuristica-de-Transformacion =
+conjunto explícito de criterios prácticos
+que orientan la selección, ajuste o descarte
+de transformaciones contextuales posibles
+para realizar un núcleo preservable en un caso concreto.
+
+Resultado conceptual
+
+FAC-Heuristica-de-Transformacion convierte la decisión adaptativa en una operación examinable y
+corregible, permitiendo que la Fábrica de Adaptaciones Contextuales no transforme núcleos por mera
+intuición tácita, sino mediante criterios prácticos explícitos, comparables y refinables.
+]"}}
+
+
+{"address":"def/FAC-Restriccion-de-Salida","content":"[
+FAC-Restriccion-de-Salida es el componente de la Fábrica de Adaptaciones Contextuales que delimita
+las condiciones de exclusión, límite y no admisibilidad bajo las cuales una realización contextual
+deja de ser válida como salida del sistema.
+
+Su función es impedir que la adaptación contextual se expanda sin borde, confundiendo variación
+legítima con deriva, compatibilidad parcial con validez total, o posibilidad local con realización
+aceptable.
+
+No nombra cualquier dificultad del caso.
+No nombra cualquier preferencia secundaria del operador.
+No nombra cualquier límite empírico descrito de manera informal.
+
+Nombra únicamente el conjunto de condiciones que reduce el espacio de salidas posibles al excluir
+aquellas realizaciones que, aun siendo imaginables o técnicamente producibles, no deben contar como
+salidas válidas del núcleo en un caso contextual determinado.
+
+Definición funcional mínima
+
+FAC-Restriccion-de-Salida es la estructura que fija límites explícitos sobre la forma, alcance,
+contenido, compatibilidad, intensidad o efectos de una intervención situada, de modo que la
+transformación contextual opere dentro de un dominio controlado de realizaciones aceptables.
+
+Opera como componente regulador de la fábrica porque permite distinguir entre:
+lo que puede hacerse,
+lo que conviene hacer,
+y lo que debe quedar excluido como salida del caso.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de limitación normativa y operativa de la realización contextual.
+
+No delimita una teoría general de la restricción.
+No delimita cualquier imposibilidad material.
+No delimita la totalidad de las condiciones del caso.
+
+Delimita únicamente aquellas restricciones que cuentan como criterio explícito para invalidar,
+rechazar, acotar o limitar salidas posibles de una adaptación contextual.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Restriccion-de-Salida deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir un espacio de salidas posibles.
+   Sin pluralidad o apertura de realizaciones potenciales no hay necesidad específica de
+   restricción de salida.
+
+2. Debe existir un criterio de exclusión o acotación.
+   La restricción no puede reducirse a advertencia vaga; debe poder decir qué clase de salida queda
+   fuera, qué rango se limita o qué condición invalida una realización.
+
+3. Debe existir relación con la transformación contextual.
+   La restricción debe modificar de forma real qué transformaciones pueden aceptarse y cuáles deben
+   descartarse.
+
+4. Debe existir relación con el núcleo preservable.
+   La restricción debe contribuir a proteger la continuidad funcional del núcleo o a evitar su
+   deformación ilegítima.
+
+5. Debe existir relación con la composición contextual.
+   La restricción no opera en abstracto, sino bajo condiciones concretas de sujeto, medio,
+   distribución y ejecución.
+
+6. Debe existir incidencia sobre la intervención situada.
+   La restricción debe afectar la forma concreta de la salida y no permanecer como condición
+   meramente decorativa o externa.
+
+7. Debe existir posibilidad de explicitación y examen.
+   La restricción debe poder formularse con claridad suficiente para ser discutida, comparada,
+   validada o revisada.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como límites explícitos sobre salidas posibles de una realización contextual:
+
+- el tipo de límite impuesto,
+- el nivel de severidad de la restricción,
+- la fuente de la restricción,
+- el grado de reversibilidad permitido,
+- el margen de desviación aceptable,
+- la tolerancia a error,
+- la tolerancia a complejidad,
+- la tolerancia a ambigüedad,
+- la tolerancia a intensidad persuasiva o emocional,
+- la longitud o extensión máxima admitida,
+- el tiempo de ejecución máximo permitido,
+- el costo máximo aceptable,
+- el nivel de riesgo tolerable,
+- el grado de transformación permitido sobre el núcleo,
+- los contenidos excluidos,
+- los formatos excluidos,
+- las secuencias no permitidas,
+- las incompatibilidades con sujeto, medio, distribución o ejecución.
+
+Estas variaciones son legítimas mientras sigan funcionando como criterios de limitación de salidas y
+no como simple lista de obstáculos sin efecto estructural sobre la realización del caso.
+
+Relaciones estructurales
+
+FAC-Restriccion-de-Salida depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que produce realizaciones contextuales y necesita limitar
+qué salidas cuentan como válidas.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Nucleo-Preservable porque parte de su trabajo consiste
+en evitar realizaciones que destruyan o deformen arbitrariamente la continuidad funcional del núcleo.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Composicion-Contextual porque los límites relevantes
+de una salida solo pueden formularse correctamente respecto de un caso contextual explícito.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Intencion-de-Intervencion porque no toda salida
+contextualmente compatible sirve al efecto buscado por la intervención.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Heuristica-de-Transformacion porque la heurística
+opera dentro del espacio de salidas todavía válidas después de aplicar restricciones explícitas.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Transformacion-Contextual porque la transformación
+debe desarrollarse bajo límites que recortan qué rutas pueden aceptarse.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Intervencion-Situada porque la salida concreta debe
+respetar las condiciones de validez, límite o exclusión definidas para el caso.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Evidencia-de-Retorno porque parte de la evidencia
+permite mostrar que ciertas salidas antes aceptadas deben restringirse más, o que ciertas
+restricciones pueden relajarse sin pérdida de validez.
+
+FAC-Restriccion-de-Salida se relaciona con FAC-Correccion-Acumulativa porque la experiencia del
+sistema puede refinar, endurecer, debilitar o reorganizar restricciones futuras.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Restriccion-de-Salida no duplica Arq-Cog-Operatividad-Intensional, pero se apoya en él.
+
+Arq-Cog-Operatividad-Intensional proporciona el régimen en el que límites, pesos, umbrales,
+prioridades y condiciones de activación pueden modificar estructuralmente el funcionamiento del
+sistema.
+
+FAC-Restriccion-de-Salida selecciona, dentro de ese régimen, aquellas condiciones que actúan como
+bordes explícitos del espacio de salidas válidas.
+
+Por eso, Operatividad Intensional responde a la pregunta:
+cómo pueden operar estructuralmente restricciones, umbrales y prioridades.
+
+Y Restricción de Salida responde a la pregunta:
+qué límites concretos deben aplicarse para invalidar o acotar realizaciones posibles en este caso.
+
+FAC-Restriccion-de-Salida tampoco duplica Com-Est-Compatibilidad-Estructural.
+
+La compatibilidad estructural ayuda a determinar si una transferencia o reexpresión entre
+estructuras es legítima.
+
+La restricción de salida ayuda a determinar si, aun siendo estructuralmente compatible, una salida
+debe excluirse o limitarse por razones del caso, de la intención, del medio o del régimen de
+realización.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- existe más de una salida posible o más de una transformación plausible del núcleo,
+- se han formulado explícitamente condiciones que invalidan o acotan algunas de esas salidas,
+- esas condiciones modifican realmente la transformación o la forma de la intervención,
+- las restricciones pueden justificarse respecto del núcleo, del caso y de la intención,
+- y su aplicación puede ser revisada a la luz de evidencia posterior.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe espacio real de variación en las salidas,
+- la supuesta restricción no excluye ni acota nada de forma efectiva,
+- las condiciones se formulan de manera tan vaga que no pueden operar como criterio,
+- la restricción contradice sin justificación la intención o destruye innecesariamente el núcleo,
+- o se usa el concepto para introducir arbitrariedad opaca en vez de límites examinables.
+
+Diferencia específica
+
+FAC-Restriccion-de-Salida no es idéntico a FAC-Heuristica-de-Transformacion.
+
+La heurística orienta positivamente cómo elegir o ajustar entre transformaciones posibles.
+
+La restricción de salida delimita negativamente qué realizaciones deben quedar fuera o qué bordes no
+pueden cruzarse.
+
+Tampoco es idéntico a FAC-Intencion-de-Intervencion.
+
+La intención define el efecto buscado por la adaptación.
+
+La restricción de salida define lo que no puede admitirse aunque una salida parezca compatible con
+ese efecto.
+
+Tampoco es idéntico a FAC-Regimen-de-Variacion-Legitima.
+
+El régimen de variación legítima fija el criterio general que distingue adaptación válida de ruptura
+identitaria.
+
+La restricción de salida aplica límites más locales y operativos sobre salidas concretas dentro de
+un caso contextual determinado.
+
+Fórmula sintética
+
+FAC-Restriccion-de-Salida =
+conjunto explícito de límites, exclusiones y condiciones de no admisibilidad
+que recortan el espacio de realizaciones contextuales posibles
+para preservar validez funcional en un caso determinado.
+
+Resultado conceptual
+
+FAC-Restriccion-de-Salida convierte los límites de la adaptación en un criterio explícito de control
+de salidas, permitiendo que la Fábrica de Adaptaciones Contextuales no produzca cualquier realización
+compatible en apariencia, sino solo intervenciones situadas que permanezcan dentro de un dominio
+válido, examinable y estructuralmente justificado.
+]"}}
+
+
+{"address":"def/FAC-Regimen-de-Variacion-Legitima","content":"[
+FAC-Regimen-de-Variacion-Legitima es el componente de la Fábrica de Adaptaciones Contextuales que
+fija el criterio general mediante el cual una transformación puede seguir contando como adaptación
+válida del núcleo y no como deriva, sustitución o ruptura identitaria.
+
+Su función es hacer explícito el borde entre cambio legítimo y cambio ilegítimo, de modo que la
+variación contextual no se confunda ni con rigidez absoluta ni con deformación arbitraria.
+
+No nombra cualquier cambio permitido en sentido coloquial.
+No nombra cualquier tolerancia empírica del sistema.
+No nombra cualquier margen informal de ajuste.
+
+Nombra únicamente el régimen de criterios que permite decidir cuándo una variación sigue siendo
+reconocible como realización válida del mismo núcleo bajo condiciones contextuales distintas.
+
+Definición funcional mínima
+
+FAC-Regimen-de-Variacion-Legitima es la estructura que establece el dominio de cambios admisibles
+para una realización contextual, preservando la continuidad funcional del núcleo mientras permite
+la plasticidad necesaria para operar en casos distintos.
+
+Opera como criterio general de validación de la adaptación, porque fija el borde entre:
+
+- preservación legítima con variación,
+- rigidez que impide adaptación,
+- y variación excesiva que destruye identidad.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de validez estructural del cambio contextual.
+
+No delimita cualquier cambio observable.
+No delimita una teoría general de identidad.
+No delimita la totalidad de las restricciones del sistema.
+
+Delimita únicamente el régimen que permite evaluar si una modificación del núcleo, de su forma de
+expresión o de su intervención situada sigue siendo una adaptación válida del mismo sistema en un
+caso concreto.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Regimen-de-Variacion-Legitima deben preservarse, como mínimo,
+los siguientes invariantes:
+
+1. Debe existir un núcleo preservable.
+   Sin una estructura cuya continuidad importe no hay problema de variación legítima, sino solo
+   cambio indiferenciado.
+
+2. Debe existir posibilidad real de variación.
+   Si nada puede cambiar, no hay régimen de variación sino rigidez absoluta.
+
+3. Debe existir criterio de continuidad funcional.
+   La legitimidad de la variación no puede decidirse por semejanza superficial o por simple
+   preferencia local; debe poder evaluarse respecto de la continuidad operativa del núcleo.
+
+4. Debe existir criterio de exclusión.
+   El régimen debe permitir identificar cuándo una variación deja de ser adaptación y pasa a ser
+   deriva, sustitución o ruptura.
+
+5. Debe existir relación con la composición contextual.
+   La legitimidad de la variación no se evalúa en abstracto, sino respecto de condiciones concretas
+   de sujeto, medio, distribución y ejecución.
+
+6. Debe existir capacidad de gobernar transformaciones.
+   El régimen no puede permanecer como declaración teórica vacía; debe afectar de forma real qué
+   transformaciones se aceptan, cuáles se limitan y cuáles se descartan.
+
+7. Debe existir posibilidad de revisión por evidencia.
+   El régimen debe poder refinarse, confirmarse o precisarse a partir del desempeño observado de las
+   realizaciones contextuales.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como criterios de legitimidad del cambio contextual:
+
+- el grado de plasticidad permitido,
+- el tipo de invariante considerado prioritario,
+- el nivel de transformación expresiva admitido,
+- el nivel de transformación operativa admitido,
+- la tolerancia a simplificación,
+- la tolerancia a expansión,
+- la tolerancia a desplazamiento de forma,
+- la tolerancia a cambio de lenguaje o formato,
+- la tolerancia a pérdida de detalle,
+- la tolerancia a cambio de secuencia,
+- el peso relativo de restricciones contextuales,
+- la severidad de los bordes de exclusión,
+- la granularidad del criterio de continuidad,
+- la dependencia de evidencia empírica,
+- el número de dimensiones sobre las que puede variar un caso,
+- el nivel de reversibilidad exigido para ciertos cambios,
+- el margen de reinterpretación permitido.
+
+Estas variaciones son legítimas mientras el régimen siga funcionando como criterio explícito para
+distinguir adaptación válida de ruptura identitaria y no como simple tolerancia vaga al cambio.
+
+Relaciones estructurales
+
+FAC-Regimen-de-Variacion-Legitima depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su
+función solo tiene sentido dentro de una arquitectura que realiza un mismo núcleo en contextos
+múltiples.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Nucleo-Preservable porque la pregunta por la
+variación legítima presupone una estructura cuya continuidad deba conservarse.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Composicion-Contextual porque la legitimidad
+de la variación solo puede evaluarse respecto de un caso contextual explícito.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Transformacion-Contextual porque su función
+principal es proporcionar criterio para aceptar, limitar o rechazar transformaciones posibles.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Heuristica-de-Transformacion porque las
+heurísticas operan dentro de un espacio de cambio cuya legitimidad debe estar previamente fijada.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Restriccion-de-Salida porque las
+restricciones locales del caso pueden verse como aplicaciones particulares de bordes definidos por
+el régimen general de variación.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Caso-de-Proyeccion-Contextual porque cada
+caso debe poder ser evaluado como realización válida o inválida del mismo núcleo.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Intervencion-Situada porque la legitimidad
+del cambio se verifica finalmente en la forma concreta que adopta la salida.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Evidencia-de-Retorno porque parte de la
+evidencia del sistema puede mostrar que ciertas variaciones antes aceptadas erosionan identidad, o
+que ciertas restricciones eran innecesariamente rígidas.
+
+FAC-Regimen-de-Variacion-Legitima se relaciona con FAC-Correccion-Acumulativa porque el régimen
+puede refinarse a partir de iteraciones sucesivas sin perder su papel de criterio general.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Regimen-de-Variacion-Legitima no duplica PTE-Principio-Transferibilidad-Estructural, pero se
+apoya en él.
+
+PTE proporciona el marco general según el cual una estructura puede transferirse o preservarse a
+través de transformaciones sin colapsar en mera similitud verbal.
+
+FAC-Regimen-de-Variacion-Legitima especifica, dentro del dominio de la fábrica, qué rango de
+variaciones sigue siendo aceptable para un núcleo en realizaciones contextuales múltiples.
+
+Por eso, PTE responde a la pregunta:
+cómo puede preservarse continuidad estructural a través del cambio.
+
+Y Régimen de Variación Legítima responde a la pregunta:
+qué cambios concretos deben aceptarse o rechazarse para seguir considerando válida la realización de
+un núcleo en esta fábrica.
+
+FAC-Regimen-de-Variacion-Legitima tampoco duplica Arq-Cog-Operatividad-Intensional, pero puede
+apoyarse en él cuando la legitimidad dependa de pesos, umbrales, prioridades o condiciones de
+activación con efecto estructural real.
+
+FAC-Regimen-de-Variacion-Legitima tampoco duplica Com-Est-Compatibilidad-Estructural.
+
+La compatibilidad estructural ayuda a decidir si una reexpresión entre estructuras puede articularse
+legítimamente.
+
+El régimen de variación legítima ayuda a decidir si esa reexpresión, aun siendo compatible, sigue
+siendo una realización válida del mismo núcleo o si ya excede el borde aceptable de transformación.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad qué debe permanecer funcionalmente continuo,
+- se ha reconocido que el caso exige variación contextual real,
+- se han formulado criterios que distinguen entre cambio aceptable e inaceptable,
+- dichos criterios afectan efectivamente la selección o validación de transformaciones,
+- y el régimen puede revisarse a la luz de evidencia sin perder su función normativa.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe núcleo preservable,
+- no existe necesidad real de variación contextual,
+- el supuesto régimen no permite distinguir entre adaptación y ruptura,
+- el criterio de legitimidad se reduce a semejanza verbal o preferencia arbitraria,
+- o el concepto se usa para justificar cualquier cambio sin borde explícito.
+
+Diferencia específica
+
+FAC-Regimen-de-Variacion-Legitima no es idéntico a FAC-Restriccion-de-Salida.
+
+La restricción de salida fija límites más locales y operativos sobre realizaciones concretas de un
+caso.
+
+El régimen de variación legítima fija el criterio más general que permite decidir qué cambios, en
+principio, pueden seguir contando como adaptaciones válidas del mismo núcleo.
+
+Tampoco es idéntico a FAC-Heuristica-de-Transformacion.
+
+La heurística orienta cómo elegir entre rutas de adaptación posibles.
+
+El régimen de variación legítima fija dentro de qué borde general esas rutas siguen siendo
+aceptables.
+
+Tampoco es idéntico a FAC-Nucleo-Preservable.
+
+El núcleo preservable indica qué debe seguir siendo la misma estructura.
+
+El régimen de variación legítima indica cuánto, cómo y bajo qué condiciones puede variar la
+realización de esa estructura sin dejar de ser la misma.
+
+Fórmula sintética
+
+FAC-Regimen-de-Variacion-Legitima =
+criterio general explícito
+que distingue adaptación válida de ruptura identitaria
+al fijar el borde aceptable de cambio
+para la realización contextual de un núcleo preservable.
+
+Resultado conceptual
+
+FAC-Regimen-de-Variacion-Legitima convierte la legitimidad del cambio en un criterio estructural
+explícito, permitiendo que la Fábrica de Adaptaciones Contextuales adapte un mismo núcleo a casos
+múltiples sin quedar atrapada ni en la rigidez que impide operar ni en la deriva que destruye
+continuidad funcional.
+]"}}
+
+
+{"address":"def/FAC-Transformacion-Contextual","content":"[
+FAC-Transformacion-Contextual es el componente de la Fábrica de Adaptaciones Contextuales que
+realiza el paso regulado entre un núcleo preservable y una intervención situada bajo una
+composición contextual explícita.
+
+Su función es convertir la adaptación de una estructura a un caso en una operación tratable,
+justificable y controlada, evitando tanto la copia rígida del núcleo como su deformación
+arbitraria.
+
+No nombra cualquier cambio de forma.
+No nombra cualquier ajuste expresivo local.
+No nombra cualquier traducción superficial entre formatos.
+
+Nombra únicamente la reexpresión estructural del núcleo bajo condiciones contextuales explícitas,
+de modo que la salida siga contando como realización válida del mismo sistema y no como
+sustitución, deriva o simple semejanza verbal.
+
+Definición funcional mínima
+
+FAC-Transformacion-Contextual es la estructura operativa que toma como insumos:
+un núcleo preservable,
+una composición contextual explícita,
+una intención de intervención,
+heurísticas de transformación,
+restricciones de salida,
+y un régimen de variación legítima,
+
+para producir una reexpresión contextual del núcleo capaz de encarnarse como intervención situada
+en un caso determinado.
+
+Opera como corazón funcional de la fábrica porque es el punto en el que la continuidad del núcleo
+debe encontrarse con la heterogeneidad del contexto sin colapsar ni en invariancia estéril ni en
+adaptación arbitraria.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de reexpresión contextual regulada de una estructura.
+
+No delimita cualquier modificación observable.
+No delimita cualquier mediación entre formas.
+No delimita cualquier proceso general de cambio.
+
+Delimita únicamente aquellos procesos en los que una estructura debe cambiar de forma, énfasis,
+organización, interfaz, secuencia o densidad para seguir siendo funcional en un caso distinto,
+sin perder su identidad operativa.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Transformacion-Contextual deben preservarse, como mínimo,
+los siguientes invariantes:
+
+1. Debe existir un núcleo preservable.
+   Sin una estructura cuya continuidad deba mantenerse no hay transformación contextual, sino
+   producción libre o cambio indiferenciado.
+
+2. Debe existir una composición contextual explícita.
+   La transformación no ocurre frente a un contexto abstracto o genérico, sino frente a un recorte
+   tratable de condiciones del caso.
+
+3. Debe existir reexpresión y no mera repetición.
+   La transformación supone modificación suficiente para responder al contexto y no simple réplica
+   del núcleo en su forma anterior.
+
+4. Debe existir preservación funcional.
+   La salida resultante debe seguir contando como realización válida del mismo núcleo y no como
+   sustitución arbitraria.
+
+5. Debe existir regulación del cambio.
+   La transformación no puede quedar reducida a intuición opaca; debe estar guiada por intención,
+   heurísticas, restricciones y régimen de variación legítima.
+
+6. Debe existir relación con una intervención situada.
+   La transformación no se justifica por sí sola; su resultado debe poder encarnarse en una salida
+   contextual concreta.
+
+7. Debe existir posibilidad de evaluación.
+   La transformación debe poder examinarse a la luz de evidencia de retorno para ser refinada,
+   confirmada, limitada o corregida.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como dimensiones de reexpresión contextual del núcleo:
+
+- el grado de cambio formal,
+- el nivel de simplificación o expansión,
+- el cambio de lenguaje o vocabulario,
+- la reorganización de secuencia,
+- la redistribución de énfasis,
+- el cambio de interfaz,
+- la modificación de escala,
+- la densidad conceptual o expresiva,
+- la complejidad estructural visible,
+- el ritmo o timing de la salida,
+- el nivel de explicitación,
+- el modo de acoplamiento con el sujeto,
+- el modo de acoplamiento con el medio,
+- el modo de acoplamiento con la distribución,
+- el modo de acoplamiento con la ejecución,
+- la cantidad de adaptadores estructurales requeridos,
+- el margen de plasticidad permitido por el régimen de variación legítima.
+
+Estas variaciones son legítimas mientras sigan operando como reexpresiones de un mismo núcleo y no
+como producción de otra estructura que ya no conserve continuidad funcional.
+
+Relaciones estructurales
+
+FAC-Transformacion-Contextual depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función
+solo tiene sentido dentro de una arquitectura que adapta un núcleo a contextos múltiples.
+
+FAC-Transformacion-Contextual depende de FAC-Nucleo-Preservable porque toda transformación válida
+necesita una estructura cuya continuidad deba preservarse.
+
+FAC-Transformacion-Contextual depende de FAC-Composicion-Contextual porque la transformación exige
+una configuración explícita de condiciones del caso sobre la cual operar.
+
+FAC-Transformacion-Contextual usa FAC-Intencion-de-Intervencion porque la reexpresión del núcleo no
+solo debe responder al contexto, sino orientarse hacia un efecto o resultado buscado.
+
+FAC-Transformacion-Contextual usa FAC-Heuristica-de-Transformacion porque, cuando hay múltiples
+rutas posibles de adaptación, se requieren criterios prácticos para seleccionar y ajustar la
+reexpresión.
+
+FAC-Transformacion-Contextual usa FAC-Restriccion-de-Salida porque no toda transformación posible
+debe admitirse como salida válida del caso.
+
+FAC-Transformacion-Contextual recibe criterio de FAC-Regimen-de-Variacion-Legitima porque necesita
+un borde explícito que permita distinguir adaptación válida de ruptura identitaria.
+
+FAC-Transformacion-Contextual se relaciona con FAC-Caso-de-Proyeccion-Contextual porque el caso
+puede entenderse como núcleo preservable bajo composición contextual e intención explícita, listo
+para ser realizado por una transformación.
+
+FAC-Transformacion-Contextual se relaciona con FAC-Intervencion-Situada porque la salida concreta
+del sistema es la encarnación visible de la reexpresión lograda.
+
+FAC-Transformacion-Contextual se relaciona con FAC-Evidencia-de-Retorno porque el desempeño de la
+salida permite evaluar si la transformación fue suficiente, excesiva o defectuosa.
+
+FAC-Transformacion-Contextual se relaciona con FAC-Correccion-Acumulativa porque las iteraciones
+futuras de la transformación pueden refinarse con base en evidencia previa.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Transformacion-Contextual no duplica Com-Est-Comunicacion-Estructural, pero depende de ella.
+
+Com-Est-Comunicacion-Estructural proporciona el marco según el cual una estructura puede pasar,
+reexpresarse o reemitirse entre superficies, dominios o lenguajes sin perder arbitrariamente su
+identidad operativa.
+
+FAC-Transformacion-Contextual toma ese marco y lo especializa dentro de la fábrica para el problema
+particular de realizar un núcleo en contextos múltiples.
+
+Por eso, Comunicación Estructural responde a la pregunta:
+cómo puede transferirse una estructura entre formas heterogéneas.
+
+Y Transformación Contextual responde a la pregunta:
+cómo debe reexpresarse una estructura fuente, dentro de esta fábrica, para producir una realización
+válida bajo condiciones contextuales explícitas.
+
+FAC-Transformacion-Contextual usa Com-Est-Adaptador-Estructural cuando la reexpresión exige
+operadores locales de mapeo entre superficies o lenguajes estructurales.
+
+FAC-Transformacion-Contextual usa Com-Est-Superficie-de-Comunicacion porque la transferencia del
+núcleo hacia el caso necesita una interfaz explícita de entrada, acoplamiento y reemisión.
+
+FAC-Transformacion-Contextual depende de Com-Est-Compatibilidad-Estructural porque no toda
+reexpresión posible es legítima; la transformación necesita saber cuándo una articulación entre
+núcleo y contexto sigue siendo estructuralmente válida.
+
+FAC-Transformacion-Contextual tampoco duplica Arq-Cog-Superficie-de-Integracion, pero se apoya en
+ella.
+
+Arq-Cog-Superficie-de-Integracion proporciona la infraestructura general de interfaz entre una
+entidad y su exterior relevante.
+
+FAC-Transformacion-Contextual usa esa infraestructura para realizar el cruce regulado entre núcleo
+y composición contextual.
+
+FAC-Transformacion-Contextual también puede apoyarse en Arq-Cog-Operatividad-Intensional cuando la
+reexpresión dependa de pesos, umbrales, prioridades, moduladores o restricciones que afecten de
+forma real la selección de transformaciones posibles.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad el núcleo que debe preservarse,
+- se ha explicitado la composición contextual del caso,
+- la transformación modifica realmente la forma de realización del núcleo,
+- dicha modificación sigue conservando continuidad funcional,
+- la transformación está guiada por intención, heurísticas, restricciones y régimen de variación
+  legítima,
+- y su resultado puede evaluarse mediante evidencia posterior.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe núcleo preservable,
+- no existe composición contextual explícita,
+- la supuesta transformación es solo repetición rígida sin adaptación,
+- la reexpresión destruye la identidad operativa del núcleo,
+- el cambio se decide de manera opaca sin criterios tratables,
+- o el concepto se usa para justificar cualquier modificación sin borde explícito de validez.
+
+Diferencia específica
+
+FAC-Transformacion-Contextual no es idéntico a FAC-Heuristica-de-Transformacion.
+
+La heurística orienta cómo decidir entre rutas posibles de adaptación.
+
+La transformación contextual nombra el proceso mismo de reexpresión del núcleo bajo condiciones del
+caso.
+
+Tampoco es idéntico a FAC-Intervencion-Situada.
+
+La intervención situada es la salida concreta ya realizada.
+
+La transformación contextual es el puente regulado que produce esa salida a partir del núcleo y del
+contexto.
+
+Tampoco es idéntico a Com-Est-Adaptador-Estructural.
+
+El adaptador estructural resuelve operaciones locales de compatibilidad o mapeo.
+
+La transformación contextual organiza el proceso completo de reexpresión del núcleo dentro de la
+fábrica y puede usar uno o varios adaptadores cuando el caso lo exija.
+
+Fórmula sintética
+
+FAC-Transformacion-Contextual =
+reexpresión regulada de un núcleo preservable
+bajo composición contextual explícita,
+orientada por intención, heurísticas, restricciones
+y régimen de variación legítima,
+para producir una intervención situada válida.
+
+Resultado conceptual
+
+FAC-Transformacion-Contextual convierte la adaptación del núcleo en una operación estructural
+explícita, examinable y corregible, permitiendo que la Fábrica de Adaptaciones Contextuales no se
+limite a cambiar formas de manera intuitiva, sino que produzca realizaciones contextuales válidas
+con continuidad funcional justificada.
+]"}}
+
+
+{"address":"def/FAC-Caso-de-Proyeccion-Contextual","content":"[
+FAC-Caso-de-Proyeccion-Contextual es el componente de la Fábrica de Adaptaciones Contextuales que
+nombra la unidad concreta en la que un núcleo preservable, bajo una composición contextual explícita
+y una intención de intervención determinada, queda listo para realizarse como salida situada.
+
+Su función es convertir la relación entre núcleo y contexto en una unidad tratable de proyección,
+de modo que la adaptación no opere sobre abstracciones sueltas, sino sobre casos explícitos,
+comparables y realizables.
+
+No nombra cualquier ejemplo del sistema.
+No nombra cualquier instancia empírica observada.
+No nombra cualquier salida ya ejecutada.
+
+Nombra únicamente la configuración de caso en la que un núcleo preservable ha sido recortado bajo
+condiciones contextuales e intención explícitas, constituyendo una unidad válida de realización
+potencial dentro de la fábrica.
+
+Definición funcional mínima
+
+FAC-Caso-de-Proyeccion-Contextual es la estructura que integra:
+un núcleo preservable,
+una composición contextual explícita,
+y una intención de intervención,
+
+para formar una unidad de proyección sobre la cual la transformación contextual puede operar hasta
+producir una intervención situada.
+
+Opera como unidad real de trabajo de la fábrica porque permite tratar cada adaptación no como
+variación difusa del núcleo ni como salida aislada, sino como caso definido de realización
+contextual.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de configuración de caso para la realización contextual.
+
+No delimita una teoría general del caso.
+No delimita cualquier particular empírico.
+No delimita la salida final ya materializada.
+
+Delimita únicamente la unidad estructural en la que un núcleo, bajo un contexto compuesto y una
+dirección de intervención explícita, queda configurado como proyección realizable del sistema.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Caso-de-Proyeccion-Contextual deben preservarse, como mínimo,
+los siguientes invariantes:
+
+1. Debe existir un núcleo preservable.
+   Sin una estructura cuya continuidad importe no hay caso de proyección, sino episodio aislado o
+   producción desvinculada.
+
+2. Debe existir composición contextual explícita.
+   El caso no puede quedar definido por contexto genérico o implícito; debe apoyarse en un recorte
+   tratable de sujeto, medio, distribución y ejecución.
+
+3. Debe existir intención de intervención.
+   El caso no se constituye solo por condiciones del entorno, sino por la orientación operativa bajo
+   la cual el núcleo será realizado.
+
+4. Debe existir unidad de proyección.
+   El caso debe poder tratarse como una configuración coherente y no como simple yuxtaposición de
+   factores inconexos.
+
+5. Debe existir relación con una realización posible.
+   El caso no es mera descripción del estado del entorno; debe servir como base para una
+   transformación contextual y una intervención situada.
+
+6. Debe existir continuidad identitaria.
+   La configuración del caso debe seguir remitiendo al mismo núcleo y no convertirlo en otra
+   estructura.
+
+7. Debe existir posibilidad de comparación entre casos.
+   El concepto adquiere fuerza operativa cuando permite distinguir configuraciones contextuales
+   diferentes del mismo núcleo y tratarlas como casos comparables de proyección.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como condiciones de configuración de un caso de proyección contextual:
+
+- el tipo de núcleo preservable implicado,
+- la composición concreta de contextos,
+- la intención de intervención,
+- la escala del caso,
+- el nivel de granularidad contextual,
+- el grado de especificidad del sujeto,
+- el grado de especificidad del medio,
+- el régimen distributivo considerado,
+- la situación de ejecución,
+- la complejidad de la configuración,
+- la cantidad de restricciones presentes,
+- la cantidad de heurísticas requeridas,
+- el margen de variación permitido,
+- el número de realizaciones posibles derivables del caso,
+- la estabilidad o dinamismo de la configuración contextual,
+- el nivel de explicitación de la unidad de caso.
+
+Estas variaciones son legítimas mientras el caso siga funcionando como unidad estructural de
+proyección contextual y no como simple ejemplo narrativo o salida ya consumada.
+
+Relaciones estructurales
+
+FAC-Caso-de-Proyeccion-Contextual depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su
+función solo tiene sentido dentro de una arquitectura que realiza un mismo núcleo en contextos
+múltiples.
+
+FAC-Caso-de-Proyeccion-Contextual depende de FAC-Nucleo-Preservable porque todo caso de proyección
+debe ser reconocible como caso de un mismo núcleo y no de otro.
+
+FAC-Caso-de-Proyeccion-Contextual depende de FAC-Composicion-Contextual porque el caso requiere una
+configuración explícita de condiciones relevantes para su realización.
+
+FAC-Caso-de-Proyeccion-Contextual depende de FAC-Intencion-de-Intervencion porque la orientación de
+la intervención forma parte de la configuración que vuelve al caso proyectable.
+
+FAC-Caso-de-Proyeccion-Contextual se relaciona con FAC-Transformacion-Contextual porque el caso es
+la unidad sobre la cual la transformación opera para producir una salida válida.
+
+FAC-Caso-de-Proyeccion-Contextual se relaciona con FAC-Intervencion-Situada porque la intervención
+es la realización concreta del caso ya transformado.
+
+FAC-Caso-de-Proyeccion-Contextual se relaciona con FAC-Regimen-de-Variacion-Legitima porque el caso
+debe permanecer dentro del borde aceptable de cambio para seguir contando como proyección válida del
+núcleo.
+
+FAC-Caso-de-Proyeccion-Contextual se relaciona con FAC-Restriccion-de-Salida porque parte de la
+configuración del caso incluye límites que recortan qué realizaciones pueden considerarse válidas.
+
+FAC-Caso-de-Proyeccion-Contextual se relaciona con FAC-Evidencia-de-Retorno porque el desempeño de
+intervenciones derivadas del caso puede retroalimentar su refinamiento, su reclasificación o su
+descomposición futura.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Caso-de-Proyeccion-Contextual no duplica Arq-Cog-Interior, Arq-Cog-Envolvente ni
+Arq-Cog-Vecindad-Relevante, pero puede apoyarse en ellos.
+
+Arq-Cog-Interior ayuda a delimitar qué pertenece estructuralmente al núcleo.
+
+Arq-Cog-Envolvente y Arq-Cog-Vecindad-Relevante ayudan a recortar qué exterior cuenta para la
+configuración del caso.
+
+FAC-Caso-de-Proyeccion-Contextual organiza esos componentes bajo una forma de caso proyectable, es
+decir, como unidad contextual lista para ser realizada.
+
+FAC-Caso-de-Proyeccion-Contextual tampoco duplica Com-Est-Estructura-Fuente ni
+Com-Est-Comunicacion-Estructural.
+
+La estructura fuente fija qué identidad operativa intenta preservarse.
+La comunicación estructural explica cómo puede reexpresarse esa identidad entre superficies,
+dominios o formas heterogéneas.
+
+El caso de proyección contextual nombra la configuración intermedia en la que esa estructura, bajo
+cierto contexto e intención, queda preparada para ser realizada por una transformación contextual.
+
+Por eso, Estructura Fuente responde a la pregunta:
+qué estructura se intenta preservar.
+
+Comunicación Estructural responde a la pregunta:
+cómo puede transferirse o reexpresarse esa estructura.
+
+Y Caso de Proyección Contextual responde a la pregunta:
+en qué configuración contextual concreta queda definida esa estructura para ser realizada en este
+caso y no en otro.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- se ha identificado con claridad el núcleo preservable implicado,
+- se ha explicitado la composición contextual relevante del caso,
+- se ha formulado la intención de intervención correspondiente,
+- esos tres componentes se integran en una unidad coherente de proyección,
+- y esa unidad puede servir efectivamente como base de transformación contextual hacia una
+  intervención situada.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe núcleo preservable identificable,
+- no existe composición contextual explícita,
+- no existe intención de intervención formulada,
+- la supuesta unidad de caso no orienta ninguna transformación posible,
+- o el concepto se usa como sinónimo de ejemplo, instancia empírica o salida ya ejecutada.
+
+Diferencia específica
+
+FAC-Caso-de-Proyeccion-Contextual no es idéntico a FAC-Composicion-Contextual.
+
+La composición contextual organiza las condiciones del caso.
+
+El caso de proyección contextual integra esa composición con el núcleo preservable y con la
+intención de intervención, formando una unidad realizable.
+
+Tampoco es idéntico a FAC-Transformacion-Contextual.
+
+La transformación contextual nombra el proceso que reexpresa el núcleo bajo condiciones del caso.
+
+El caso de proyección contextual nombra la unidad sobre la que ese proceso opera.
+
+Tampoco es idéntico a FAC-Intervencion-Situada.
+
+La intervención situada es la salida concreta ya realizada.
+
+El caso de proyección contextual es la configuración previa que hace posible esa realización.
+
+Fórmula sintética
+
+FAC-Caso-de-Proyeccion-Contextual =
+núcleo preservable
++ composición contextual explícita
++ intención de intervención
+integrados como unidad realizable
+para la transformación contextual de un caso determinado.
+
+Resultado conceptual
+
+FAC-Caso-de-Proyeccion-Contextual convierte la relación entre núcleo, contexto e intención en una
+unidad explícita de trabajo, permitiendo que la Fábrica de Adaptaciones Contextuales opere sobre
+casos estructuralmente definidos y no sobre adaptaciones difusas, ejemplos sueltos o salidas
+desvinculadas del sistema.
+]"}}
+
+
+{"address":"def/FAC-Intervencion-Situada","content":"[
+
+FAC-Intervencion-Situada es el componente de la Fábrica de Adaptaciones Contextuales que nombra la
+realización concreta mediante la cual un núcleo preservable, ya transformado bajo una composición
+contextual explícita, entra efectivamente en un caso.
+
+Su función es convertir una transformación contextual en una salida operativa localizada, de modo
+que la fábrica no termine en una estructura abstracta de adaptación, sino en una realización capaz
+de actuar, incidir, orientar, explicar, coordinar, modificar o producir efectos bajo condiciones
+determinadas.
+
+No nombra cualquier acción empírica aislada.
+No nombra cualquier producto final considerado de manera indiferenciada.
+No nombra cualquier manifestación externa del sistema.
+
+Nombra únicamente la salida concreta de la fábrica en tanto realización contextual del núcleo, ya
+formulada para operar en un caso específico y no solo para existir como posibilidad de proyección.
+
+Definición funcional mínima
+
+FAC-Intervencion-Situada es la estructura de salida mediante la cual una transformación contextual
+se encarna en una forma operativa concreta bajo condiciones explícitas de sujeto, medio,
+distribución y ejecución.
+
+Opera como realización efectiva del caso de proyección contextual, porque convierte la adaptación
+del núcleo en una presencia contextual concreta capaz de entrar en relación con el entorno y de
+producir evidencia de retorno.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de realización operativa localizada de una adaptación
+contextual.
+
+No delimita cualquier estado interno del sistema.
+No delimita cualquier formulación preparatoria.
+No delimita una teoría general de la intervención.
+
+Delimita únicamente la salida concreta mediante la cual una estructura adaptada entra en acto, en
+circulación, en interacción o en implementación dentro de un caso determinado.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Intervencion-Situada deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir una salida concreta del sistema.
+   Si no hay realización efectiva, no hay intervención situada sino solo preparación, diseño o
+   proyección.
+
+2. Debe existir relación con un núcleo preservable.
+   La intervención debe seguir contando como realización válida del mismo núcleo y no como
+   sustitución estructural arbitraria.
+
+3. Debe existir relación con una transformación contextual.
+   La intervención no surge directamente del núcleo en abstracto, sino de una reexpresión regulada
+   bajo condiciones del caso.
+
+4. Debe existir localización en un caso.
+   La intervención debe operar en condiciones específicas de sujeto, medio, distribución o
+   ejecución y no permanecer como forma indiferenciada o genérica.
+
+5. Debe existir capacidad de incidencia.
+   La intervención debe poder actuar, orientar, modificar, comunicar, ejecutar o producir efectos
+   relevantes dentro del caso.
+
+6. Debe existir posibilidad de retorno de evidencia.
+   La intervención debe poder ser evaluada por respuesta del entorno, del sujeto, del medio o del
+   desempeño situacional.
+
+7. Debe existir compatibilidad con restricciones y régimen de variación legítima.
+   La intervención no puede quedar fuera del dominio válido fijado por la fábrica para ese caso.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como formas concretas de realización operativa de una adaptación contextual:
+
+- el formato de salida,
+- el lenguaje usado,
+- el nivel de explicitación,
+- la escala de la intervención,
+- la intensidad del efecto buscado,
+- la duración de la intervención,
+- el grado de interactividad,
+- la secuencia operativa,
+- el canal de aparición,
+- el nivel de complejidad visible,
+- el tono o registro,
+- la densidad conceptual o práctica,
+- la cantidad de pasos requeridos,
+- la forma de implementación,
+- el grado de autonomía de la salida,
+- la dependencia de operadores externos,
+- la reversibilidad de sus efectos,
+- la velocidad de ejecución,
+- el tipo de respuesta esperada.
+
+Estas variaciones son legítimas mientras la intervención siga funcionando como salida concreta y
+contextualmente localizada de la fábrica, y no como mero esquema abstracto o como acción sin
+continuidad con el núcleo preservado.
+
+Relaciones estructurales
+
+FAC-Intervencion-Situada depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que transforma núcleos en realizaciones contextuales.
+
+FAC-Intervencion-Situada se relaciona con FAC-Nucleo-Preservable porque debe seguir contando como
+realización válida del mismo núcleo a través de su forma concreta de aparición.
+
+FAC-Intervencion-Situada se relaciona con FAC-Composicion-Contextual porque la salida solo puede
+entenderse correctamente respecto de las condiciones explícitas del caso en que opera.
+
+FAC-Intervencion-Situada realiza FAC-Caso-de-Proyeccion-Contextual porque constituye la encarnación
+concreta de una unidad de proyección previamente configurada.
+
+FAC-Intervencion-Situada se relaciona con FAC-Transformacion-Contextual porque la salida concreta es
+el resultado visible y operativo de dicha transformación.
+
+FAC-Intervencion-Situada se relaciona con FAC-Intencion-de-Intervencion porque debe expresar de
+modo reconocible la orientación operativa que justificó la adaptación del núcleo.
+
+FAC-Intervencion-Situada se relaciona con FAC-Heuristica-de-Transformacion porque la forma final de
+la salida depende parcialmente de los criterios usados para seleccionar y ajustar la transformación.
+
+FAC-Intervencion-Situada se relaciona con FAC-Restriccion-de-Salida porque no toda forma concreta de
+realización es válida; la intervención debe respetar bordes explícitos de admisibilidad.
+
+FAC-Intervencion-Situada se relaciona con FAC-Evidencia-de-Retorno porque la intervención es uno de
+los puntos principales desde los cuales el entorno devuelve respuesta, desempeño, recepción o error.
+
+FAC-Intervencion-Situada se relaciona con FAC-Correccion-Acumulativa porque la observación de
+intervenciones previas permite ajustar futuras realizaciones del núcleo.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Intervencion-Situada no duplica Arq-Cog-Frontera-de-Salida, pero se apoya en ella.
+
+Arq-Cog-Frontera-de-Salida proporciona la noción general de egreso estructurado desde una entidad
+hacia su exterior relevante.
+
+FAC-Intervencion-Situada especializa esa salida dentro de la fábrica como realización contextual
+concreta de un núcleo preservable en un caso determinado.
+
+Por eso, Frontera de Salida responde a la pregunta:
+por dónde proyecta o emite una estructura hacia el exterior.
+
+E Intervención Situada responde a la pregunta:
+qué realización concreta toma esa proyección cuando la fábrica adapta el núcleo para un caso
+específico.
+
+FAC-Intervencion-Situada tampoco duplica Com-Est-Comunicacion-Estructural.
+
+La comunicación estructural explica cómo una estructura puede transferirse o reexpresarse entre
+formas heterogéneas sin perder identidad operativa.
+
+La intervención situada es la forma concreta que resulta cuando esa reexpresión ya ha sido realizada
+para operar en un caso particular.
+
+FAC-Intervencion-Situada también puede relacionarse con Com-Est-Superficie-de-Comunicacion porque
+la salida concreta debe aparecer a través de una superficie desde la cual el sistema entra en
+contacto efectivo con su entorno.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- existe una salida concreta y no solo una proyección potencial del caso,
+- dicha salida puede reconocerse como realización válida del mismo núcleo,
+- la intervención opera bajo condiciones contextuales explícitas,
+- su forma concreta expresa la intención de intervención y la transformación realizada,
+- y puede generar evidencia de retorno relevante para evaluar su desempeño.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hay salida concreta del sistema,
+- la supuesta intervención es solo posibilidad no realizada,
+- la salida no guarda continuidad funcional con el núcleo preservable,
+- la forma concreta ignora por completo las condiciones del caso,
+- o el concepto se usa como sinónimo genérico de acción, producto o manifestación externa sin
+  referencia a la fábrica.
+
+Diferencia específica
+
+FAC-Intervencion-Situada no es idéntico a FAC-Transformacion-Contextual.
+
+La transformación contextual nombra el proceso de reexpresión del núcleo bajo condiciones del caso.
+
+La intervención situada nombra la salida concreta que resulta de ese proceso y que ya opera en el
+caso.
+
+Tampoco es idéntico a FAC-Caso-de-Proyeccion-Contextual.
+
+El caso de proyección contextual es la unidad estructural configurada para ser realizada.
+
+La intervención situada es la realización efectiva de esa unidad.
+
+Tampoco es idéntico a FAC-Evidencia-de-Retorno.
+
+La intervención situada es la salida emitida por la fábrica.
+
+La evidencia de retorno es la respuesta que el entorno devuelve una vez que esa salida ha operado.
+
+Fórmula sintética
+
+FAC-Intervencion-Situada =
+realización concreta y operativa
+de un núcleo preservable ya transformado contextualmente
+para actuar en un caso específico
+y producir efectos evaluables.
+
+Resultado conceptual
+
+FAC-Intervencion-Situada convierte la adaptación del núcleo en una salida efectiva del sistema,
+permitiendo que la Fábrica de Adaptaciones Contextuales no termine en configuraciones potenciales,
+sino en realizaciones concretas capaces de operar en el mundo, producir efectos y abrir el circuito
+de evidencia y corrección.
+]"}}
+
+
+{"address":"def/FAC-Evidencia-de-Retorno","content":"[
+FAC-Evidencia-de-Retorno es el componente de la Fábrica de Adaptaciones Contextuales que reúne las
+señales, respuestas, efectos observables o retroacciones del entorno a partir de las cuales una
+intervención situada puede evaluarse como válida, insuficiente, excesiva, defectuosa o corregible.
+
+Su función es impedir que la fábrica opere en circuito abierto, produciendo realizaciones
+contextuales sin criterio empírico, funcional o situacional para valorar su desempeño.
+
+No nombra cualquier dato disponible del caso.
+No nombra cualquier impresión subjetiva posterior a una intervención.
+No nombra cualquier registro indiferenciado del entorno.
+
+Nombra únicamente el conjunto de respuestas relevantes que vuelven desde el caso hacia la fábrica y
+que permiten examinar qué ocurrió realmente cuando una realización contextual entró en operación.
+
+Definición funcional mínima
+
+FAC-Evidencia-de-Retorno es la estructura de recepción mediante la cual la fábrica recoge,
+selecciona y trata las respuestas del entorno, del sujeto, del medio, de la distribución o de la
+ejecución una vez que una intervención situada ha sido realizada.
+
+Opera como condición de evaluación y aprendizaje porque hace posible comparar lo esperado con lo
+ocurrido, distinguiendo entre intención declarada, forma de salida y efecto efectivamente producido.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de retroalimentación relevante para la evaluación de una
+realización contextual.
+
+No delimita una teoría general de la evidencia.
+No delimita cualquier información contextual posterior.
+No delimita la totalidad de los efectos posibles de una intervención.
+
+Delimita únicamente aquellas respuestas del caso que cuentan como criterio tratable para valorar el
+desempeño de la intervención situada y para orientar refinamientos posteriores de la fábrica.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Evidencia-de-Retorno deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir una intervención situada previa.
+   Sin una realización concreta del sistema no hay retorno, sino solo expectativa o simulación.
+
+2. Debe existir respuesta del caso o del entorno.
+   La evidencia presupone que algo vuelve desde la interacción entre la intervención y sus
+   condiciones de operación.
+
+3. Debe existir relevancia evaluativa.
+   No toda respuesta del entorno cuenta como evidencia de retorno; solo aquella que permite valorar
+   el desempeño, la validez o los límites de la intervención.
+
+4. Debe existir relación con la intención de intervención.
+   La evidencia debe poder ponerse en relación con lo que se buscaba producir para distinguir entre
+   éxito, desvío, exceso, insuficiencia o efecto lateral.
+
+5. Debe existir relación con la transformación contextual.
+   La evidencia debe permitir examinar si la forma de reexpresión del núcleo fue adecuada o no bajo
+   las condiciones del caso.
+
+6. Debe existir capacidad de alimentar corrección.
+   La evidencia no se agota en constatación descriptiva; debe poder usarse para refinar futuras
+   realizaciones.
+
+7. Debe existir selectividad.
+   La evidencia de retorno debe poder separarse del ruido, de los datos irrelevantes o de señales
+   que no aportan criterio para la fábrica.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como retorno relevante para evaluar una intervención contextual:
+
+- el tipo de señal recibida,
+- el grado de explicitación del retorno,
+- la rapidez con que aparece,
+- la escala temporal en que se mide,
+- la fuente principal del retorno,
+- el nivel de granularidad de la evidencia,
+- la proporción entre evidencia cuantitativa y cualitativa,
+- la estabilidad o volatilidad de las señales,
+- la claridad o ambigüedad del retorno,
+- la intensidad del efecto observado,
+- el grado de coincidencia con la intención original,
+- la facilidad de trazabilidad causal,
+- la presencia de efectos secundarios,
+- la presencia de ruido o interferencia,
+- el costo de obtención de la evidencia,
+- el nivel de comparabilidad entre casos,
+- la dependencia de interpretación experta,
+- el margen de incertidumbre admitido.
+
+Estas variaciones son legítimas mientras la evidencia siga funcionando como retorno relevante para la
+evaluación de la intervención y no como simple acumulación de datos sin función correctiva.
+
+Relaciones estructurales
+
+FAC-Evidencia-de-Retorno depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función solo
+tiene sentido dentro de una arquitectura que no solo realiza un núcleo en contextos múltiples, sino
+que también necesita evaluar y refinar esas realizaciones.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Intervencion-Situada porque la evidencia aparece como
+respuesta al ingreso operativo de una salida concreta en un caso específico.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Intencion-de-Intervencion porque parte de su función
+consiste en mostrar en qué medida la intervención produjo o no el efecto buscado.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Transformacion-Contextual porque permite examinar si
+la forma de reexpresión del núcleo fue suficiente, excesiva, inadecuada o defectuosa.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Composicion-Contextual porque el valor del retorno
+solo puede interpretarse correctamente respecto de las condiciones del caso en que surgió.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Restriccion-de-Salida porque parte de la evidencia
+puede mostrar que ciertas salidas antes admitidas deben restringirse más o que algunas restricciones
+eran innecesariamente rígidas.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Heuristica-de-Transformacion porque el desempeño
+observado de intervenciones previas permite reforzar, debilitar o reemplazar criterios prácticos de
+adaptación.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Regimen-de-Variacion-Legitima porque puede mostrar
+que ciertos cambios aceptados estaban erosionando identidad o que ciertos márgenes de variación eran
+compatibles con el núcleo.
+
+FAC-Evidencia-de-Retorno se relaciona con FAC-Correccion-Acumulativa porque constituye uno de los
+insumos principales a partir de los cuales la fábrica puede aprender y refinarse.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Evidencia-de-Retorno no duplica Arq-Cog-Frontera-de-Entrada, pero se apoya en ella.
+
+Arq-Cog-Frontera-de-Entrada proporciona la noción general de recepción desde el exterior relevante
+hacia el sistema.
+
+FAC-Evidencia-de-Retorno especializa esa recepción dentro de la fábrica como retorno evaluativamente
+relevante proveniente del desempeño de una intervención situada.
+
+Por eso, Frontera de Entrada responde a la pregunta:
+por dónde recibe una estructura información o influencia desde el exterior.
+
+Y Evidencia de Retorno responde a la pregunta:
+qué parte de ese retorno cuenta como señal relevante para evaluar una intervención y corregir
+futuras realizaciones.
+
+FAC-Evidencia-de-Retorno tampoco duplica Com-Est-Superficie-de-Comunicacion.
+
+La superficie de comunicación ayuda a fijar el punto explícito de contacto entre estructuras.
+
+La evidencia de retorno nombra las respuestas que vuelven a través de ese contacto o de sus efectos
+derivados, una vez que la realización contextual ya ha operado en el caso.
+
+FAC-Evidencia-de-Retorno también puede apoyarse en Arq-Cog-Operatividad-Intensional cuando la
+selección, ponderación o interpretación del retorno dependa de umbrales, pesos, prioridades o
+moduladores que afecten estructuralmente el juicio del sistema.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- existe una intervención situada efectivamente realizada,
+- se han identificado respuestas del caso relevantes para valorar su desempeño,
+- esas respuestas pueden ponerse en relación con la intención, la transformación y el contexto,
+- la evidencia obtenida permite distinguir entre realizaciones más y menos adecuadas,
+- y el retorno puede usarse para orientar corrección acumulativa.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no hubo intervención situada previa,
+- no existe respuesta relevante del entorno,
+- el supuesto retorno se reduce a ruido o datos sin función evaluativa,
+- la evidencia no altera ninguna posible decisión futura de la fábrica,
+- o el concepto se usa como nombre general para cualquier información posterior sin criterio de
+  relevancia estructural.
+
+Diferencia específica
+
+FAC-Evidencia-de-Retorno no es idéntico a FAC-Intervencion-Situada.
+
+La intervención situada es la salida concreta emitida por la fábrica.
+
+La evidencia de retorno es la respuesta que vuelve desde el caso una vez que esa salida ha operado.
+
+Tampoco es idéntico a FAC-Correccion-Acumulativa.
+
+La corrección acumulativa es el proceso de refinamiento que reorganiza futuras realizaciones del
+sistema.
+
+La evidencia de retorno es el insumo evaluativo a partir del cual dicha corrección puede justificarse.
+
+Tampoco es idéntico a una simple métrica o registro.
+
+Una métrica aislada puede formar parte de la evidencia, pero solo cuenta como evidencia de retorno
+si contribuye a evaluar la intervención dentro del marco del núcleo, del caso y de la intención.
+
+Fórmula sintética
+
+FAC-Evidencia-de-Retorno =
+conjunto seleccionado de respuestas relevantes del caso
+que vuelven después de una intervención situada
+y permiten evaluar su desempeño, sus límites o sus efectos
+para orientar refinamientos posteriores de la fábrica.
+
+Resultado conceptual
+
+FAC-Evidencia-de-Retorno convierte la respuesta del entorno en un criterio explícito de evaluación,
+permitiendo que la Fábrica de Adaptaciones Contextuales no opere en circuito abierto, sino como una
+arquitectura capaz de aprender de sus realizaciones, distinguir entre salidas más y menos válidas y
+alimentar correcciones futuras con base en retorno estructuralmente relevante.
+]"}}
+
+
+{"address":"def/FAC-Correccion-Acumulativa","content":"[
+  def/FAC-Correccion-Acumulativa
+
+FAC-Correccion-Acumulativa es el componente de la Fábrica de Adaptaciones Contextuales que
+reorganiza, refina y estabiliza futuras realizaciones del núcleo a partir de evidencia de retorno
+proveniente de intervenciones situadas previas.
+
+Su función es impedir que la fábrica permanezca estática o repita indefinidamente la misma lógica
+de transformación frente a evidencia nueva, permitiendo que el sistema incorpore aprendizaje sin
+perder continuidad identitaria.
+
+No nombra cualquier cambio posterior al caso.
+No nombra cualquier ajuste improvisado después de una intervención.
+No nombra cualquier modificación aislada del sistema.
+
+Nombra únicamente el proceso mediante el cual la fábrica integra evidencia relevante de casos
+anteriores para corregir, refinar, endurecer, flexibilizar o reordenar futuras transformaciones
+contextuales del mismo núcleo.
+
+Definición funcional mínima
+
+FAC-Correccion-Acumulativa es la estructura de refinamiento iterativo mediante la cual la fábrica
+usa evidencia de retorno para modificar de forma explícita sus criterios, restricciones,
+heurísticas, márgenes de variación o decisiones de transformación en realizaciones posteriores.
+
+Opera como mecanismo de aprendizaje estructurado porque permite que el sistema no solo produzca
+intervenciones situadas, sino que también se vuelva progresivamente más ajustado, más estable o más
+preciso en la manera en que adapta el núcleo a contextos múltiples.
+
+Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de refinamiento acumulativo de la adaptación contextual.
+
+No delimita una teoría general del aprendizaje.
+No delimita cualquier memoria de casos previos.
+No delimita cualquier cambio histórico del sistema.
+
+Delimita únicamente la incorporación estructural de evidencia relevante en la arquitectura de la
+fábrica para modificar cómo se producirán futuras realizaciones del núcleo.
+
+Invariantes
+
+Para que una instancia cuente como FAC-Correccion-Acumulativa deben preservarse, como mínimo, los
+siguientes invariantes:
+
+1. Debe existir evidencia de retorno previa.
+   Sin retorno relevante no hay base para corrección acumulativa, sino modificación arbitraria o
+   simple reiteración.
+
+2. Debe existir continuidad de la fábrica a través de múltiples casos.
+   La corrección acumulativa presupone iteración, repetición de problema o familia de realizaciones
+   comparables dentro del mismo sistema.
+
+3. Debe existir incorporación real de la evidencia.
+   La corrección no puede reducirse a registrar casos pasados; debe modificar de forma efectiva
+   criterios, decisiones o parámetros de realizaciones futuras.
+
+4. Debe existir preservación del núcleo.
+   La corrección acumulativa no justifica sustituir arbitrariamente la estructura fuente, sino
+   refinar el modo en que esa estructura se realiza contextualmente.
+
+5. Debe existir direccionalidad de mejora, ajuste o refinamiento.
+   La corrección debe orientarse a resolver desajustes, errores, excesos, insuficiencias o rigideces
+   detectadas en casos previos.
+
+6. Debe existir acumulación y no simple reacción puntual.
+   El concepto exige que el sistema pueda integrar historia de desempeño, no solo responder de forma
+   instantánea y desarticulada a un evento aislado.
+
+7. Debe existir posibilidad de explicitación.
+   La corrección debe poder formularse en términos de qué cambió, por qué cambió y qué dimensión de
+   la fábrica fue afectada.
+
+Dominio de variación
+
+Los siguientes elementos pueden variar sin destruir la identidad del concepto, siempre que sigan
+funcionando como refinamiento acumulativo de la fábrica a partir de evidencia previa:
+
+- el tipo de evidencia incorporada,
+- la frecuencia de actualización,
+- la severidad de la corrección,
+- el nivel de granularidad del ajuste,
+- la dimensión corregida del sistema,
+- el grado de automatización de la corrección,
+- la velocidad de incorporación del aprendizaje,
+- la estabilidad o reversibilidad de los cambios,
+- el peso relativo dado a evidencia reciente o histórica,
+- el margen de incertidumbre tolerado antes de corregir,
+- la prioridad entre precisión, estabilidad, compatibilidad o eficacia,
+- el tipo de error que activa corrección,
+- el umbral mínimo para intervenir sobre heurísticas o restricciones,
+- la relación entre corrección local y corrección global,
+- la dependencia de validación adicional antes de consolidar cambios.
+
+Estas variaciones son legítimas mientras la corrección siga funcionando como incorporación
+estructurada de evidencia para refinar futuras adaptaciones, y no como reacción caprichosa o
+sustitución total del sistema.
+
+Relaciones estructurales
+
+FAC-Correccion-Acumulativa depende de FAC-Fabrica-de-Adaptaciones-Contextuales porque su función
+solo tiene sentido dentro de una arquitectura que produce realizaciones múltiples del mismo núcleo y
+puede refinarse a través del tiempo.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Evidencia-de-Retorno porque la evidencia constituye
+uno de sus insumos principales y proporciona la base para justificar cambios futuros.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Transformacion-Contextual porque una de sus
+funciones centrales es refinar cómo el núcleo será reexpresado en casos posteriores.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Heuristica-de-Transformacion porque parte de la
+corrección acumulativa puede consistir en fortalecer, debilitar, sustituir o reorganizar criterios
+prácticos de decisión.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Restriccion-de-Salida porque parte del aprendizaje
+de la fábrica puede requerir endurecer, relajar o reformular límites de salida.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Regimen-de-Variacion-Legitima porque la experiencia
+acumulada puede precisar mejor qué cambios siguen siendo válidos y cuáles empiezan a erosionar la
+continuidad del núcleo.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Intencion-de-Intervencion porque parte de la
+corrección depende de comparar efectos buscados con efectos efectivamente logrados en casos previos.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Intervencion-Situada porque las intervenciones
+realizadas son la fuente histórica de desempeño a partir de la cual la fábrica aprende.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Composicion-Contextual porque el aprendizaje puede
+mostrar que ciertas configuraciones contextuales estaban mal recortadas, insuficientemente
+ponderadas o pobremente integradas.
+
+FAC-Correccion-Acumulativa se relaciona con FAC-Nucleo-Preservable porque el refinamiento debe
+mantener el borde entre aprender a realizar mejor el núcleo y destruir lo que el núcleo es.
+
+Relaciones con Arq-Cog y Com-Est
+
+FAC-Correccion-Acumulativa no duplica Arq-Cog-Frontera-de-Entrada, pero puede apoyarse en ella en
+la medida en que la evidencia entra al sistema a través de formas estructuradas de recepción.
+
+FAC-Correccion-Acumulativa tampoco duplica Arq-Cog-Operatividad-Intensional, pero puede apoyarse en
+él cuando la corrección afecte pesos, prioridades, umbrales, restricciones o moduladores que
+modifican de forma real la operación de la fábrica.
+
+Por eso, Operatividad Intensional responde a la pregunta:
+cómo pueden cambiar estructuralmente prioridades, límites o condiciones de activación del sistema.
+
+Y Corrección Acumulativa responde a la pregunta:
+cómo se reorganizan esas dimensiones a partir de evidencia histórica para mejorar futuras
+realizaciones del núcleo.
+
+FAC-Correccion-Acumulativa tampoco duplica Com-Est-Comunicacion-Estructural.
+
+La comunicación estructural explica cómo una estructura puede reexpresarse válidamente entre
+superficies o formas heterogéneas.
+
+La corrección acumulativa explica cómo el sistema ajusta progresivamente esa reexpresión a partir de
+retornos observados en realizaciones previas.
+
+Criterios de aplicación correcta
+
+El concepto está correctamente aplicado cuando:
+
+- existe evidencia de retorno proveniente de intervenciones previas,
+- esa evidencia se incorpora realmente en la modificación de futuras decisiones de la fábrica,
+- el refinamiento conserva continuidad con el núcleo preservable,
+- la corrección puede describirse como cambio acumulativo y no solo como reacción puntual,
+- y el sistema puede mostrar qué dimensión fue corregida y con base en qué desempeño observado.
+
+Criterios de no aplicación o aplicación inválida
+
+No corresponde aplicar este concepto cuando:
+
+- no existe evidencia relevante previa,
+- la supuesta corrección no modifica nada del sistema,
+- los cambios se realizan de manera arbitraria sin relación con retornos observados,
+- la corrección destruye o sustituye innecesariamente el núcleo preservable,
+- o el concepto se usa para nombrar cualquier cambio histórico sin función refinadora sobre la
+  fábrica.
+
+Diferencia específica
+
+FAC-Correccion-Acumulativa no es idéntico a FAC-Evidencia-de-Retorno.
+
+La evidencia de retorno es el conjunto de respuestas relevantes que vuelve desde el caso después de
+una intervención.
+
+La corrección acumulativa es el proceso mediante el cual esa evidencia se incorpora para refinar
+futuras realizaciones.
+
+Tampoco es idéntico a FAC-Transformacion-Contextual.
+
+La transformación contextual nombra el proceso actual de reexpresión del núcleo en un caso.
+
+La corrección acumulativa nombra el refinamiento histórico de cómo se harán futuras transformaciones.
+
+Tampoco es idéntico a una simple memoria de casos.
+
+La memoria puede conservar antecedentes.
+
+La corrección acumulativa usa esos antecedentes para modificar de forma explícita criterios
+operativos de la fábrica.
+
+Fórmula sintética
+
+FAC-Correccion-Acumulativa =
+incorporación estructurada de evidencia de retorno
+para refinar progresivamente
+heurísticas, restricciones, criterios y transformaciones
+de futuras realizaciones contextuales del mismo núcleo.
+
+Resultado conceptual
+
+FAC-Correccion-Acumulativa convierte la experiencia de la fábrica en aprendizaje tratable,
+permitiendo que la Fábrica de Adaptaciones Contextuales no solo adapte un núcleo a casos múltiples,
+sino que mejore acumulativamente la calidad, estabilidad y precisión de esas adaptaciones a partir
+del desempeño real de sus intervenciones previas.
+]"}}

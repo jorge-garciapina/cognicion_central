@@ -1,0 +1,1031 @@
+Descripción breve
+Este documento presenta la ontología de la fuente de primacía visible de patronazgo como una construcción particular 
+derivada de la ontología de Fuentes Identitarias, en la medida en que adapta el mapa de respuesta base y reutiliza 
+componentes operativos del marco Fuentes Identitarias, como pesos de contribución, signos, umbrales, moduladores y 
+condiciones de activación. Su función es formalizar, en el dominio específico del patronazgo visible, cómo un caso 
+puede traducirse a regiones y salidas según la relación entre retorno de gloria al centro, subordinación visible, 
+eclipsamiento relativo y autonomía simbólica del jugador.
+────────────────────────────────────────────────────────────────────────────────
+PATCH OPERATIVO — FUENTE DE PRIMACÍA VISIBLE DE PATRONAZGO
+AÑADIR AL GRAFO EXISTENTE
+────────────────────────────────────────────────────────────────────────────────
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (NODOS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/node/FPVP-Regimen-de-Ponderacion-Patronal","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "label":"Patronazgo visible — Régimen de ponderación patronal",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Regimen-de-Ponderacion-Patronal",
+  "summary":"Subgrafo intensional operativo que traduce configuraciones del espacio patronal visible a regiones y salidas 
+  mediante contribuciones ponderadas, modulaciones, umbrales, condiciones de activación y reglas de resolución."
+}}
+
+{"address":"graph/node/FPVP-Matriz-de-Contribucion-Regional","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional",
+  "label":"Patronazgo visible — Matriz de contribución regional",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Matriz-de-Contribucion-Regional",
+  "summary":"Matriz particular que asigna pesos y signos de contribución entre dimensiones intensionales y regiones de 
+  respuesta del patronazgo visible."
+}}
+
+{"address":"graph/node/FPVP-Score-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Score-de-Afirmacion-Orbital",
+  "label":"Patronazgo visible — Score de afirmación orbital",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Score-de-Afirmacion-Orbital",
+  "summary":"Puntaje agregado que mide en qué grado la configuración de un caso cae en la región de afirmación orbital."
+}}
+
+{"address":"graph/node/FPVP-Score-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Score-de-Sombra-Sancionable",
+  "label":"Patronazgo visible — Score de sombra sancionable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Score-de-Sombra-Sancionable",
+  "summary":"Puntaje agregado que mide en qué grado la configuración de un caso cae en la región de sombra sancionable."
+}}
+
+{"address":"graph/node/FPVP-Regla-de-Ambiguedad-Patronal","content":{
+  "id":"FPVP-Regla-de-Ambiguedad-Patronal",
+  "label":"Patronazgo visible — Regla de ambigüedad patronal",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Regla-de-Ambiguedad-Patronal",
+  "summary":"Regla que activa región ambigua cuando los scores afirmativo y negativo compiten sin dominancia clara."
+}}
+
+{"address":"graph/node/FPVP-Regla-de-Invalidez-Patronal","content":{
+  "id":"FPVP-Regla-de-Invalidez-Patronal",
+  "label":"Patronazgo visible — Regla de invalidez patronal",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Regla-de-Invalidez-Patronal",
+  "summary":"Regla que invalida vectores incompletos, fuera de rango o incompatibles con el dominio mínimo de la fuente."
+}}
+
+{"address":"graph/node/FPVP-Regla-de-Desempate-Patronal","content":{
+  "id":"FPVP-Regla-de-Desempate-Patronal",
+  "label":"Patronazgo visible — Regla de desempate patronal",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Regla-de-Desempate-Patronal",
+  "summary":"Regla que resuelve competencia entre absorción favorable, tolerancia vigilada, sospecha y castigo cuando
+  varias salidas quedan simultáneamente activas."
+}}
+
+{"address":"graph/node/FPVP-Umbral-de-Absorcion-Favorable","content":{
+  "id":"FPVP-Umbral-de-Absorcion-Favorable",
+  "label":"Patronazgo visible — Umbral de absorción favorable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Umbral-de-Absorcion-Favorable",
+  "summary":"Umbral regional mínimo para activar absorción favorable."
+}}
+
+{"address":"graph/node/FPVP-Umbral-de-Recompensa","content":{
+  "id":"FPVP-Umbral-de-Recompensa",
+  "label":"Patronazgo visible — Umbral de recompensa",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Umbral-de-Recompensa",
+  "summary":"Umbral fuerte de afirmación orbital para activar recompensa."
+}}
+
+{"address":"graph/node/FPVP-Umbral-de-Sospecha","content":{
+  "id":"FPVP-Umbral-de-Sospecha",
+  "label":"Patronazgo visible — Umbral de sospecha",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Umbral-de-Sospecha",
+  "summary":"Umbral negativo inicial a partir del cual la fuente ya relee el valor ajeno como foco riesgoso."
+}}
+
+{"address":"graph/node/FPVP-Umbral-de-Castigo","content":{
+  "id":"FPVP-Umbral-de-Castigo",
+  "label":"Patronazgo visible — Umbral de castigo",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Umbral-de-Castigo",
+  "summary":"Umbral fuerte de sombra sancionable a partir del cual el sistema activa castigo si existen condiciones 
+  de capacidad."
+}}
+
+{"address":"graph/node/FPVP-Condicion-de-Activacion-de-Absorcion-Favorable","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Absorcion-Favorable",
+  "label":"Patronazgo visible — Condición de activación de absorción favorable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Condicion-de-Activacion-de-Absorcion-Favorable",
+  "summary":"Condición que exige afirmación orbital suficiente y sombra no dominante."
+}}
+
+{"address":"graph/node/FPVP-Condicion-de-Activacion-de-Recompensa","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Recompensa",
+  "label":"Patronazgo visible — Condición de activación de recompensa",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Condicion-de-Activacion-de-Recompensa",
+  "summary":"Condición que exige afirmación orbital alta, sombra baja y retorno/subordinación claramente elevados."
+}}
+
+{"address":"graph/node/FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada",
+  "label":"Patronazgo visible — Condición de activación de tolerancia vigilada",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada",
+  "summary":"Condición que activa una salida intermedia cuando el caso no cae limpiamente en afirmación orbital ni en 
+  sombra sancionable."
+}}
+
+{"address":"graph/node/FPVP-Condicion-de-Activacion-de-Sospecha","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Sospecha",
+  "label":"Patronazgo visible — Condición de activación de sospecha",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Condicion-de-Activacion-de-Sospecha",
+  "summary":"Condición que activa sospecha cuando el score de sombra supera el umbral negativo inicial sin llegar todavía 
+  a castigo terminal."
+}}
+
+{"address":"graph/node/FPVP-Condicion-de-Activacion-de-Castigo","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Castigo",
+  "label":"Patronazgo visible — Condición de activación de castigo",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Condicion-de-Activacion-de-Castigo",
+  "summary":"Condición que activa castigo cuando la sombra sancionable domina y la capacidad efectiva de sanción es 
+  suficiente."
+}}
+
+{"address":"graph/node/FPVP-Modulacion-de-Tolerancia","content":{
+  "id":"FPVP-Modulacion-de-Tolerancia",
+  "label":"Patronazgo visible — Modulación por tolerancia",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Modulacion-de-Tolerancia",
+  "summary":"Mecanismo que atenúa o amplifica la lectura negativa según la tolerancia del centro al brillo ajeno."
+}}
+
+{"address":"graph/node/FPVP-Modulacion-de-Seguridad","content":{
+  "id":"FPVP-Modulacion-de-Seguridad",
+  "label":"Patronazgo visible — Modulación por seguridad",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Modulacion-de-Seguridad",
+  "summary":"Mecanismo que altera la sensibilidad del sistema a comparación y amenaza según la seguridad simbólica del centro."
+}}
+
+{"address":"graph/node/FPVP-Modulacion-de-Sancion","content":{
+  "id":"FPVP-Modulacion-de-Sancion",
+  "label":"Patronazgo visible — Modulación por capacidad de sanción",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Modulacion-de-Sancion",
+  "summary":"Mecanismo que altera la transición entre sospecha y castigo según la capacidad efectiva de sanción del centro."
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Retorno-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "label":"Patronazgo visible — Contribución retorno→afirmación orbital",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "summary":"Parámetro positivo alto que mide cuánto empuja el retorno de gloria hacia la región de afirmación orbital.",
+  "weight":0.95,
+  "sign":"+"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "label":"Patronazgo visible — Contribución subordinación→afirmación orbital",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "summary":"Parámetro positivo medio-alto que mide cuánto empuja la subordinación visible hacia la región de afirmación 
+  orbital.",
+  "weight":0.75,
+  "sign":"+"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "label":"Patronazgo visible — Contribución eclipsamiento→afirmación orbital",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "summary":"Parámetro negativo alto que mide cuánto reduce el eclipsamiento la posibilidad de afirmación orbital.",
+  "weight":0.85,
+  "sign":"-"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "label":"Patronazgo visible — Contribución autonomía→afirmación orbital",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "summary":"Parámetro negativo alto que mide cuánto reduce la autonomía simbólica la posibilidad de absorción afirmativa.",
+  "weight":0.80,
+  "sign":"-"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "label":"Patronazgo visible — Contribución eclipsamiento→sombra sancionable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "summary":"Parámetro positivo muy alto que mide cuánto empuja el eclipsamiento relativo hacia la región de sombra sancionable.",
+  "weight":0.95,
+  "sign":"+"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Autonomia-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "label":"Patronazgo visible — Contribución autonomía→sombra sancionable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "summary":"Parámetro positivo alto que mide cuánto empuja la autonomía simbólica del jugador hacia sombra sancionable.",
+  "weight":0.90,
+  "sign":"+"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Retorno-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "label":"Patronazgo visible — Contribución retorno→sombra sancionable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "summary":"Parámetro negativo alto que mide cuánto inhibe el retorno de gloria la región de sombra sancionable.",
+  "weight":0.85,
+  "sign":"-"
+}}
+
+{"address":"graph/node/FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "label":"Patronazgo visible — Contribución subordinación→sombra sancionable",
+  "type":"bridge_node",
+  "definition_ref":"def/FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "summary":"Parámetro negativo medio-alto que mide cuánto inhibe la subordinación visible la caída en sombra sancionable.",
+  "weight":0.70,
+  "sign":"-"
+}}
+
+{"address":"graph/edge/FPVP-Mapa-de-Respuesta-de-Patronazgo-Visible-depends_on-FPVP-Regimen-de-Ponderacion-Patronal","content":{
+  "id":"FPVP-Mapa-de-Respuesta-de-Patronazgo-Visible-depends_on-FPVP-Regimen-de-Ponderacion-Patronal",
+  "from":"FPVP-Mapa-de-Respuesta-de-Patronazgo-Visible",
+  "to":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "type":"depends_on",
+  "rationale":"La fuente particular solo se vuelve realmente operativa cuando su mapa de respuesta incorpora un régimen paramétrico explícito."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (ARISTAS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-adapts_from-FI-Mapa-de-Respuesta","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-adapts_from-FI-Mapa-de-Respuesta",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Mapa-de-Respuesta",
+  "type":"adapts_from",
+  "rationale":"Este régimen conserva la estructura general del mapa de respuesta base, pero la convierte en un 
+  sistema local de pesos, modulaciones, umbrales y activación para patronazgo visible."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Matriz-de-Contribucion-Regional","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Matriz-de-Contribucion-Regional",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Matriz-de-Contribucion-Regional",
+  "type":"depends_on",
+  "rationale":"El régimen necesita una matriz explícita que relacione dimensiones con regiones de respuesta."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Score-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Score-de-Afirmacion-Orbital",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Score-de-Afirmacion-Orbital",
+  "type":"depends_on",
+  "rationale":"La operatividad exige un score afirmativo explícito y no solo regiones semánticas."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Score-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-depends_on-FPVP-Score-de-Sombra-Sancionable",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Score-de-Sombra-Sancionable",
+  "type":"depends_on",
+  "rationale":"La operatividad exige un score negativo explícito para distinguir sombra real de mera ambigüedad."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Peso-de-Contribucion","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Peso-de-Contribucion",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Peso-de-Contribucion",
+  "type":"uses",
+  "rationale":"El régimen operativo usa pesos base de la ontología extendida, pero aquí ya los instancia localmente."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Signo-de-Contribucion","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Signo-de-Contribucion",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Signo-de-Contribucion",
+  "type":"uses",
+  "rationale":"La dirección de cada contribución debe quedar explícita en el régimen local."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Umbral","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Umbral",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Umbral",
+  "type":"uses",
+  "rationale":"El régimen solo decide si dispone de umbrales operativos específicos."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Modulador","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Modulador",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Modulador",
+  "type":"uses",
+  "rationale":"Las modulaciones de tolerancia, seguridad y sanción deben quedar instanciadas localmente."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Condicion-de-Activacion","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Condicion-de-Activacion",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Condicion-de-Activacion",
+  "type":"uses",
+  "rationale":"La activación de salidas requiere condiciones explícitas, no solo nombres de salida."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Regla-de-Desempate","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Regla-de-Desempate",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Regla-de-Desempate",
+  "type":"uses",
+  "rationale":"Las zonas fronterizas entre integración, ambigüedad y sanción necesitan regla local de resolución."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Deteccion-de-Incoherencias","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FI-Deteccion-de-Incoherencias",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FI-Deteccion-de-Incoherencias",
+  "type":"uses",
+  "rationale":"El régimen operativo debe poder declarar invalidez y no limitarse a devolver siempre una salida limpia."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Retorno-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "type":"uses",
+  "rationale":"La matriz afirmativa incorpora la contribución positiva del retorno de gloria."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "type":"uses",
+  "rationale":"La matriz afirmativa incorpora la contribución positiva de la subordinación visible."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "type":"uses",
+  "rationale":"La matriz afirmativa incorpora el efecto inhibidor del eclipsamiento sobre la afirmación orbital."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "type":"uses",
+  "rationale":"La matriz afirmativa incorpora el efecto inhibidor de la autonomía simbólica."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "type":"uses",
+  "rationale":"La matriz negativa incorpora la contribución principal del eclipsamiento a la región de sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Autonomia-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "type":"uses",
+  "rationale":"La matriz negativa incorpora la contribución de la autonomía simbólica a la región de sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Retorno-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "type":"uses",
+  "rationale":"La matriz negativa incorpora el efecto inhibidor del retorno de gloria sobre la sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable","content":{
+  "id":"FPVP-Matriz-de-Contribucion-Regional-uses-FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "from":"FPVP-Matriz-de-Contribucion-Regional",
+  "to":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "type":"uses",
+  "rationale":"La matriz negativa incorpora el efecto inhibidor de la subordinación visible sobre la sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Retorno-a-Afirmacion-Orbital-evaluates_by-FPVP-Retorno-de-Gloria-al-Centro","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital-evaluates_by-FPVP-Retorno-de-Gloria-al-Centro",
+  "from":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "to":"FPVP-Retorno-de-Gloria-al-Centro",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución toma como variable explícita el retorno de gloria al centro."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Retorno-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital",
+  "from":"FPVP-Contribucion-Retorno-a-Afirmacion-Orbital",
+  "to":"FPVP-Region-de-Afirmacion-Orbital",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja positivamente hacia la región afirmativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital-evaluates_by-FPVP-Subordinacion-Visible","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital-evaluates_by-FPVP-Subordinacion-Visible",
+  "from":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "to":"FPVP-Subordinacion-Visible",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución toma como variable explícita la subordinación visible."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital",
+  "from":"FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital",
+  "to":"FPVP-Region-de-Afirmacion-Orbital",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja positivamente hacia la región afirmativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital-evaluates_by-FPVP-Eclipsamiento-Relativo","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital-evaluates_by-FPVP-Eclipsamiento-Relativo",
+  "from":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "to":"FPVP-Eclipsamiento-Relativo",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa el eclipsamiento como variable inhibitoria de la región afirmativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital",
+  "from":"FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital",
+  "to":"FPVP-Region-de-Afirmacion-Orbital",
+  "type":"maps_to",
+  "rationale":"Aunque apunta a la región afirmativa, lo hace con signo negativo."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital-evaluates_by-FPVP-Autonomia-Simbolica-del-Jugador","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital-evaluates_by-FPVP-Autonomia-Simbolica-del-Jugador",
+  "from":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "to":"FPVP-Autonomia-Simbolica-del-Jugador",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa la autonomía como variable inhibitoria de la región afirmativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital",
+  "from":"FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital",
+  "to":"FPVP-Region-de-Afirmacion-Orbital",
+  "type":"maps_to",
+  "rationale":"Aunque apunta a la región afirmativa, lo hace con signo negativo."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable-evaluates_by-FPVP-Eclipsamiento-Relativo","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable-evaluates_by-FPVP-Eclipsamiento-Relativo",
+  "from":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "to":"FPVP-Eclipsamiento-Relativo",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa eclipsamiento como motor principal de la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable",
+  "from":"FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable",
+  "to":"FPVP-Region-de-Sombra-Sancionable",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja directamente hacia la región de sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Autonomia-a-Sombra-Sancionable-evaluates_by-FPVP-Autonomia-Simbolica-del-Jugador","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable-evaluates_by-FPVP-Autonomia-Simbolica-del-Jugador",
+  "from":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "to":"FPVP-Autonomia-Simbolica-del-Jugador",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa la autonomía como motor fuerte de la región de sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Autonomia-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable",
+  "from":"FPVP-Contribucion-Autonomia-a-Sombra-Sancionable",
+  "to":"FPVP-Region-de-Sombra-Sancionable",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja directamente hacia la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Retorno-a-Sombra-Sancionable-evaluates_by-FPVP-Retorno-de-Gloria-al-Centro","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable-evaluates_by-FPVP-Retorno-de-Gloria-al-Centro",
+  "from":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "to":"FPVP-Retorno-de-Gloria-al-Centro",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa el retorno como inhibidor de la región de sombra sancionable."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Retorno-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable",
+  "from":"FPVP-Contribucion-Retorno-a-Sombra-Sancionable",
+  "to":"FPVP-Region-de-Sombra-Sancionable",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja con signo negativo respecto de la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable-evaluates_by-FPVP-Subordinacion-Visible","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable-evaluates_by-FPVP-Subordinacion-Visible",
+  "from":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "to":"FPVP-Subordinacion-Visible",
+  "type":"evaluates_by",
+  "rationale":"Esta contribución usa la subordinación como inhibidor de la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable",
+  "from":"FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable",
+  "to":"FPVP-Region-de-Sombra-Sancionable",
+  "type":"maps_to",
+  "rationale":"Esta contribución empuja con signo negativo respecto de la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Tolerancia","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Tolerancia",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Modulacion-de-Tolerancia",
+  "type":"uses",
+  "rationale":"La tolerancia debe operar como modulador concreto y no solo como dimensión abstracta."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Seguridad","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Seguridad",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Modulacion-de-Seguridad",
+  "type":"uses",
+  "rationale":"La seguridad simbólica debe operar como modulador concreto y no solo como dimensión abstracta."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Sancion","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Modulacion-de-Sancion",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Modulacion-de-Sancion",
+  "type":"uses",
+  "rationale":"La capacidad de sanción debe operar como modulador concreto de la transición negativa."
+}}
+
+{"address":"graph/edge/FPVP-Modulacion-de-Tolerancia-modulated_by-FPVP-Tolerancia-del-Centro","content":{
+  "id":"FPVP-Modulacion-de-Tolerancia-modulated_by-FPVP-Tolerancia-del-Centro",
+  "from":"FPVP-Modulacion-de-Tolerancia",
+  "to":"FPVP-Tolerancia-del-Centro",
+  "type":"modulated_by",
+  "rationale":"La tolerancia del centro controla cuánto se atenúa la lectura negativa y cuánto se conserva la absorbibilidad."
+}}
+
+{"address":"graph/edge/FPVP-Modulacion-de-Seguridad-modulated_by-FPVP-Seguridad-Simbolica-del-Centro","content":{
+  "id":"FPVP-Modulacion-de-Seguridad-modulated_by-FPVP-Seguridad-Simbolica-del-Centro",
+  "from":"FPVP-Modulacion-de-Seguridad",
+  "to":"FPVP-Seguridad-Simbolica-del-Centro",
+  "type":"modulated_by",
+  "rationale":"La seguridad simbólica regula cuánto pesa la comparación desfavorable en la lectura final."
+}}
+
+{"address":"graph/edge/FPVP-Modulacion-de-Sancion-modulated_by-FPVP-Capacidad-Efectiva-de-Sancion","content":{
+  "id":"FPVP-Modulacion-de-Sancion-modulated_by-FPVP-Capacidad-Efectiva-de-Sancion",
+  "from":"FPVP-Modulacion-de-Sancion",
+  "to":"FPVP-Capacidad-Efectiva-de-Sancion",
+  "type":"modulated_by",
+  "rationale":"La capacidad efectiva de sanción regula el paso de sospecha a castigo."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Absorcion-Favorable","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Absorcion-Favorable",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Umbral-de-Absorcion-Favorable",
+  "type":"uses",
+  "rationale":"La afirmación orbital solo debe activar absorción favorable si supera un nivel mínimo explícito."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Recompensa","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Recompensa",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Umbral-de-Recompensa",
+  "type":"uses",
+  "rationale":"La recompensa exige un umbral más alto que la simple absorción favorable."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Sospecha","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Sospecha",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Umbral-de-Sospecha",
+  "type":"uses",
+  "rationale":"La sospecha necesita activarse en un rango negativo inicial distinto del castigo."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Castigo","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Umbral-de-Castigo",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Umbral-de-Castigo",
+  "type":"uses",
+  "rationale":"El castigo requiere un umbral negativo fuerte y no debe ser activado por cualquier variación."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Absorcion-Favorable","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Absorcion-Favorable",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Condicion-de-Activacion-de-Absorcion-Favorable",
+  "type":"uses",
+  "rationale":"La absorción favorable necesita una condición explícita de activación."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Recompensa","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Recompensa",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Condicion-de-Activacion-de-Recompensa",
+  "type":"uses",
+  "rationale":"La recompensa requiere condiciones más exigentes que la mera afirmación orbital."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada",
+  "type":"uses",
+  "rationale":"La tolerancia vigilada requiere una condición de activación intermedia ligada a competencia regional."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Sospecha","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Sospecha",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Condicion-de-Activacion-de-Sospecha",
+  "type":"uses",
+  "rationale":"La sospecha necesita activarse de manera explícita antes de castigo."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Castigo","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Condicion-de-Activacion-de-Castigo",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Condicion-de-Activacion-de-Castigo",
+  "type":"uses",
+  "rationale":"El castigo no debe depender solo del score negativo; requiere condición fuerte y capacidad efectiva."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Ambiguedad-Patronal","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Ambiguedad-Patronal",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Regla-de-Ambiguedad-Patronal",
+  "type":"uses",
+  "rationale":"La región ambigua necesita criterio local de activación."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Invalidez-Patronal","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Invalidez-Patronal",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Regla-de-Invalidez-Patronal",
+  "type":"uses",
+  "rationale":"El régimen operativo debe invalidar vectores incompletos o fuera de rango."
+}}
+
+{"address":"graph/edge/FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Desempate-Patronal","content":{
+  "id":"FPVP-Regimen-de-Ponderacion-Patronal-uses-FPVP-Regla-de-Desempate-Patronal",
+  "from":"FPVP-Regimen-de-Ponderacion-Patronal",
+  "to":"FPVP-Regla-de-Desempate-Patronal",
+  "type":"uses",
+  "rationale":"Las salidas simultáneamente activas necesitan una resolución patronal local."
+}}
+
+{"address":"graph/edge/FPVP-Score-de-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital","content":{
+  "id":"FPVP-Score-de-Afirmacion-Orbital-maps_to-FPVP-Region-de-Afirmacion-Orbital",
+  "from":"FPVP-Score-de-Afirmacion-Orbital",
+  "to":"FPVP-Region-de-Afirmacion-Orbital",
+  "type":"maps_to",
+  "rationale":"Este score mide la cercanía del vector a la región afirmativa."
+}}
+
+{"address":"graph/edge/FPVP-Score-de-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable","content":{
+  "id":"FPVP-Score-de-Sombra-Sancionable-maps_to-FPVP-Region-de-Sombra-Sancionable",
+  "from":"FPVP-Score-de-Sombra-Sancionable",
+  "to":"FPVP-Region-de-Sombra-Sancionable",
+  "type":"maps_to",
+  "rationale":"Este score mide la cercanía del vector a la región negativa."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Ambiguedad-Patronal-maps_to-FPVP-Region-de-Ambiguedad-Patronal","content":{
+  "id":"FPVP-Regla-de-Ambiguedad-Patronal-maps_to-FPVP-Region-de-Ambiguedad-Patronal",
+  "from":"FPVP-Regla-de-Ambiguedad-Patronal",
+  "to":"FPVP-Region-de-Ambiguedad-Patronal",
+  "type":"maps_to",
+  "rationale":"La ambigüedad patronal define la región intermedia del espacio."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Invalidez-Patronal-yields-FI-Configuracion-Invalida","content":{
+  "id":"FPVP-Regla-de-Invalidez-Patronal-yields-FI-Configuracion-Invalida",
+  "from":"FPVP-Regla-de-Invalidez-Patronal",
+  "to":"FI-Configuracion-Invalida",
+  "type":"yields",
+  "rationale":"La regla local de invalidez emite diagnóstico de configuración inválida cuando el vector no cumple condiciones mínimas."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Ambiguedad-Patronal-yields-FI-Configuracion-Ambigua","content":{
+  "id":"FPVP-Regla-de-Ambiguedad-Patronal-yields-FI-Configuracion-Ambigua",
+  "from":"FPVP-Regla-de-Ambiguedad-Patronal",
+  "to":"FI-Configuracion-Ambigua",
+  "type":"yields",
+  "rationale":"La regla local de ambigüedad puede emitir diagnóstico ambivalente si no hay dominancia regional clara."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Absorcion-Favorable","content":{
+  "id":"FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Absorcion-Favorable",
+  "from":"FPVP-Regla-de-Desempate-Patronal",
+  "to":"FPVP-Absorcion-Favorable",
+  "type":"provides_criteria_for",
+  "rationale":"La regla local puede favorecer absorción favorable cuando la afirmación domina levemente y la sombra no activa umbral negativo."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Tolerancia-Vigilada","content":{
+  "id":"FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Tolerancia-Vigilada",
+  "from":"FPVP-Regla-de-Desempate-Patronal",
+  "to":"FPVP-Tolerancia-Vigilada",
+  "type":"provides_criteria_for",
+  "rationale":"La regla local favorece tolerancia vigilada cuando ambas regiones compiten dentro de una banda estrecha."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Sospecha","content":{
+  "id":"FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Sospecha",
+  "from":"FPVP-Regla-de-Desempate-Patronal",
+  "to":"FPVP-Sospecha",
+  "type":"provides_criteria_for",
+  "rationale":"La regla local favorece sospecha cuando la región negativa domina moderadamente sin activar castigo."
+}}
+
+{"address":"graph/edge/FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Castigo","content":{
+  "id":"FPVP-Regla-de-Desempate-Patronal-provides_criteria_for-FPVP-Castigo",
+  "from":"FPVP-Regla-de-Desempate-Patronal",
+  "to":"FPVP-Castigo",
+  "type":"provides_criteria_for",
+  "rationale":"La regla local favorece castigo cuando la sombra domina con umbral fuerte y sanción suficiente."
+}}
+
+{"address":"graph/edge/FPVP-Condicion-de-Activacion-de-Absorcion-Favorable-provides_criteria_for-FPVP-Absorcion-Favorable","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Absorcion-Favorable-provides_criteria_for-FPVP-Absorcion-Favorable",
+  "from":"FPVP-Condicion-de-Activacion-de-Absorcion-Favorable",
+  "to":"FPVP-Absorcion-Favorable",
+  "type":"provides_criteria_for",
+  "rationale":"La absorción favorable se activa solo si el score afirmativo supera 0.65 y el score de sombra permanece por debajo de 0.45."
+}}
+
+{"address":"graph/edge/FPVP-Condicion-de-Activacion-de-Recompensa-provides_criteria_for-FPVP-Recompensa","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Recompensa-provides_criteria_for-FPVP-Recompensa",
+  "from":"FPVP-Condicion-de-Activacion-de-Recompensa",
+  "to":"FPVP-Recompensa",
+  "type":"provides_criteria_for",
+  "rationale":"La recompensa se activa solo si el score afirmativo supera 0.80, el de sombra es menor de 0.35, el retorno >= 0.75 y la subordinación >= 0.60."
+}}
+
+{"address":"graph/edge/FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada-provides_criteria_for-FPVP-Tolerancia-Vigilada","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada-provides_criteria_for-FPVP-Tolerancia-Vigilada",
+  "from":"FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada",
+  "to":"FPVP-Tolerancia-Vigilada",
+  "type":"provides_criteria_for",
+  "rationale":"La tolerancia vigilada se activa si |score_afirmacion - score_sombra| <= 0.15 o si ambos scores caen en la banda media [0.45, 0.70], sin invalidación ni castigo activo."
+}}
+
+{"address":"graph/edge/FPVP-Condicion-de-Activacion-de-Sospecha-provides_criteria_for-FPVP-Sospecha","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Sospecha-provides_criteria_for-FPVP-Sospecha",
+  "from":"FPVP-Condicion-de-Activacion-de-Sospecha",
+  "to":"FPVP-Sospecha",
+  "type":"provides_criteria_for",
+  "rationale":"La sospecha se activa si el score de sombra >= 0.60 y < 0.80, o si domina levemente sobre afirmación sin capacidad suficiente para castigo."
+}}
+
+{"address":"graph/edge/FPVP-Condicion-de-Activacion-de-Castigo-provides_criteria_for-FPVP-Castigo","content":{
+  "id":"FPVP-Condicion-de-Activacion-de-Castigo-provides_criteria_for-FPVP-Castigo",
+  "from":"FPVP-Condicion-de-Activacion-de-Castigo",
+  "to":"FPVP-Castigo",
+  "type":"provides_criteria_for",
+  "rationale":"El castigo se activa si el score de sombra >= 0.80 y la capacidad efectiva de sanción >= 0.60."
+}}
+
+{"address":"graph/edge/FPVP-Umbral-de-Absorcion-Favorable-provides_criteria_for-FPVP-Absorcion-Favorable","content":{
+  "id":"FPVP-Umbral-de-Absorcion-Favorable-provides_criteria_for-FPVP-Absorcion-Favorable",
+  "from":"FPVP-Umbral-de-Absorcion-Favorable",
+  "to":"FPVP-Absorcion-Favorable",
+  "type":"provides_criteria_for",
+  "rationale":"Valor crítico = 0.65"
+}}
+
+{"address":"graph/edge/FPVP-Umbral-de-Recompensa-provides_criteria_for-FPVP-Recompensa","content":{
+  "id":"FPVP-Umbral-de-Recompensa-provides_criteria_for-FPVP-Recompensa",
+  "from":"FPVP-Umbral-de-Recompensa",
+  "to":"FPVP-Recompensa",
+  "type":"provides_criteria_for",
+  "rationale":"Valor crítico = 0.80"
+}}
+
+{"address":"graph/edge/FPVP-Umbral-de-Sospecha-provides_criteria_for-FPVP-Sospecha","content":{
+  "id":"FPVP-Umbral-de-Sospecha-provides_criteria_for-FPVP-Sospecha",
+  "from":"FPVP-Umbral-de-Sospecha",
+  "to":"FPVP-Sospecha",
+  "type":"provides_criteria_for",
+  "rationale":"Valor crítico = 0.60"
+}}
+
+{"address":"graph/edge/FPVP-Umbral-de-Castigo-provides_criteria_for-FPVP-Castigo","content":{
+  "id":"FPVP-Umbral-de-Castigo-provides_criteria_for-FPVP-Castigo",
+  "from":"FPVP-Umbral-de-Castigo",
+  "to":"FPVP-Castigo",
+  "type":"provides_criteria_for",
+  "rationale":"Valor crítico = 0.80"
+}}
+
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                             DEFINICIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+{"address":"def/FPVP-Regimen-de-Ponderacion-Patronal","content":"[
+================================================================================
+DEFINICIÓN — RÉGIMEN DE PONDERACIÓN PATRONAL
+================================================================================
+0) Intención
+Volver operativo el mapa de respuesta del patronazgo visible.
+
+1) Definición central
+Régimen de Ponderación Patronal = subgrafo paramétrico que traduce un vector de instanciación a regiones y salidas usando:
+- contribuciones dimensión→región,
+- signos,
+- modulaciones,
+- umbrales,
+- condiciones de activación,
+- invalidez,
+- y reglas de resolución.
+
+2) Fórmulas base
+Sea:
+R = retorno de gloria al centro
+E = eclipsamiento relativo
+S = subordinación visible
+A = autonomía simbólica del jugador
+T = tolerancia del centro
+G = seguridad simbólica del centro
+C = capacidad efectiva de sanción
+
+Todos los valores se suponen normalizados en [0,1].
+
+Score de afirmación orbital:
+Aff = (0.95*R) + (0.75*S) - (0.85*E) - (0.80*A) + (0.20*T) + (0.10*G)
+
+Score de sombra sancionable:
+Sha = (0.95*E) + (0.90*A) - (0.85*R) - (0.70*S) + (0.25*(1-G)) + (0.20*(1-T)) + (0.15*C)
+
+3) Activación regional
+- Región de afirmación orbital si Aff > Sha y Aff >= 0.65
+- Región de sombra sancionable si Sha > Aff y Sha >= 0.60
+- Región de ambigüedad patronal si |Aff - Sha| <= 0.15 o si ambos scores caen en banda media [0.45,0.70]
+
+4) Activación de salidas
+- Absorción favorable si Aff >= 0.65 y Sha < 0.45
+- Recompensa si Aff >= 0.80 y Sha < 0.35 y R >= 0.75 y S >= 0.60
+- Tolerancia vigilada si región ambigua activa y castigo no activo
+- Sospecha si Sha >= 0.60 y Aff < 0.80
+- Castigo si Sha >= 0.80 y C >= 0.60
+
+5) Invalidez mínima
+- cualquier dimensión fuera de [0,1]
+- vector incompleto
+- ausencia de valores para al menos una dimensión constitutiva del caso
+
+6) Fórmula de cierre
+La ontología particular deja de ser solo definicional cuando un vector ya puede traducirse de manera explícita a una región y a una salida.
+]"}
+
+{"address":"def/FPVP-Matriz-de-Contribucion-Regional","content":"[
+================================================================================
+DEFINICIÓN — MATRIZ DE CONTRIBUCIÓN REGIONAL
+================================================================================
+La matriz de contribución regional organiza los parámetros locales del patronazgo visible.
+
+Afirmación orbital:
+- retorno de gloria: +0.95
+- subordinación visible: +0.75
+- eclipsamiento relativo: -0.85
+- autonomía simbólica del jugador: -0.80
+
+Sombra sancionable:
+- eclipsamiento relativo: +0.95
+- autonomía simbólica del jugador: +0.90
+- retorno de gloria al centro: -0.85
+- subordinación visible: -0.70
+
+La matriz no contiene todavía umbrales ni moduladores.
+Solo fija la contribución estructural base de cada dimensión a cada región principal.
+]"}
+
+{"address":"def/FPVP-Score-de-Afirmacion-Orbital","content":"[
+================================================================================
+DEFINICIÓN — SCORE DE AFIRMACIÓN ORBITAL
+================================================================================
+Score afirmativo del patronazgo visible.
+
+Aff = (0.95*R) + (0.75*S) - (0.85*E) - (0.80*A) + (0.20*T) + (0.10*G)
+
+Interpretación:
+mide hasta qué punto el caso sigue siendo orbitalmente absorbible para el centro.
+]"}
+
+{"address":"def/FPVP-Score-de-Sombra-Sancionable","content":"[
+================================================================================
+DEFINICIÓN — SCORE DE SOMBRA SANCIONABLE
+================================================================================
+Score negativo del patronazgo visible.
+
+Sha = (0.95*E) + (0.90*A) - (0.85*R) - (0.70*S) + (0.25*(1-G)) + (0.20*(1-T)) + (0.15*C)
+
+Interpretación:
+mide hasta qué punto el caso ya cayó en una zona de rivalidad visible y sancionabilidad potencial.
+]"}
+
+{"address":"def/FPVP-Regla-de-Ambiguedad-Patronal","content":"[
+================================================================================
+DEFINICIÓN — REGLA DE AMBIGÜEDAD PATRONAL
+================================================================================
+Un caso entra en región ambigua si:
+- |Aff - Sha| <= 0.15
+o
+- Aff y Sha están ambos en la banda media [0.45, 0.70]
+
+Interpretación:
+el caso todavía es utilizable, pero la fuente no puede integrarlo limpiamente ni sancionarlo terminalmente sin costo.
+]"}
+
+{"address":"def/FPVP-Regla-de-Invalidez-Patronal","content":"[
+================================================================================
+DEFINICIÓN — REGLA DE INVALIDEZ PATRONAL
+================================================================================
+La configuración se invalida si:
+- falta al menos un valor de dimensión constitutiva;
+- alguna dimensión queda fuera del rango [0,1];
+- o el vector no puede ser interpretado como caso completo del sistema.
+
+Interpretación:
+la invalidez no es todavía una salida del patronazgo, sino un diagnóstico del modelo.
+]"}
+
+{"address":"def/FPVP-Regla-de-Desempate-Patronal","content":"[
+================================================================================
+DEFINICIÓN — REGLA DE DESEMPATE PATRONAL
+================================================================================
+Orden de prioridad sugerido:
+1. Castigo, si umbral fuerte y capacidad efectiva están activados.
+2. Recompensa, si afirmación alta y sombra baja.
+3. Sospecha, si sombra domina sin capacidad terminal.
+4. Tolerancia vigilada, si hay competencia regional sin dominancia suficiente.
+5. Absorción favorable, si afirmación supera mínimo pero no alcanza premio.
+
+Interpretación:
+la prioridad refleja que, en esta fuente, la amenaza fuerte debe resolverse antes que la integración tibia.
+]"}
+
+{"address":"def/FPVP-Umbral-de-Absorcion-Favorable","content":"[Valor crítico mínimo: 0.65]"}
+{"address":"def/FPVP-Umbral-de-Recompensa","content":"[Valor crítico mínimo: 0.80]"}
+{"address":"def/FPVP-Umbral-de-Sospecha","content":"[Valor crítico mínimo: 0.60]"}
+{"address":"def/FPVP-Umbral-de-Castigo","content":"[Valor crítico mínimo: 0.80]"}
+
+{"address":"def/FPVP-Condicion-de-Activacion-de-Absorcion-Favorable","content":"[
+Activación:
+Aff >= 0.65 y Sha < 0.45
+]"}
+{"address":"def/FPVP-Condicion-de-Activacion-de-Recompensa","content":"[
+Activación:
+Aff >= 0.80 y Sha < 0.35 y R >= 0.75 y S >= 0.60
+]"}
+{"address":"def/FPVP-Condicion-de-Activacion-de-Tolerancia-Vigilada","content":"[
+Activación:
+(|Aff - Sha| <= 0.15 o ambos scores en banda media) y castigo no activo
+]"}
+{"address":"def/FPVP-Condicion-de-Activacion-de-Sospecha","content":"[
+Activación:
+Aff >= 0.60 y Sha < 0.80
+]"}
+{"address":"def/FPVP-Condicion-de-Activacion-de-Castigo","content":"[
+Activación:
+Sha >= 0.80 y C >= 0.60
+]"}
+
+{"address":"def/FPVP-Modulacion-de-Tolerancia","content":"[
+La tolerancia modula el sistema amortiguando la transición hacia lectura negativa.
+T entra con signo positivo en Aff y como (1-T) con signo positivo en Sha.
+]"}
+{"address":"def/FPVP-Modulacion-de-Seguridad","content":"[
+La seguridad simbólica amortigua la sombra sancionable.
+G entra con signo positivo moderado en Aff y como (1-G) con signo positivo en Sha.
+]"}
+{"address":"def/FPVP-Modulacion-de-Sancion","content":"[
+La capacidad efectiva de sanción no crea por sí sola la región negativa, pero sí aumenta su probabilidad de pasar 
+de sospecha a castigo.
+C entra positivamente en Sha y además condiciona activación terminal.
+]"}
+
+{"address":"def/FPVP-Contribucion-Retorno-a-Afirmacion-Orbital","content":"[Peso: +0.95]"}
+{"address":"def/FPVP-Contribucion-Subordinacion-a-Afirmacion-Orbital","content":"[Peso: +0.75]"}
+{"address":"def/FPVP-Contribucion-Eclipsamiento-a-Afirmacion-Orbital","content":"[Peso: -0.85]"}
+{"address":"def/FPVP-Contribucion-Autonomia-a-Afirmacion-Orbital","content":"[Peso: -0.80]"}
+{"address":"def/FPVP-Contribucion-Eclipsamiento-a-Sombra-Sancionable","content":"[Peso: +0.95]"}
+{"address":"def/FPVP-Contribucion-Autonomia-a-Sombra-Sancionable","content":"[Peso: +0.90]"}
+{"address":"def/FPVP-Contribucion-Retorno-a-Sombra-Sancionable","content":"[Peso: -0.85]"}
+{"address":"def/FPVP-Contribucion-Subordinacion-a-Sombra-Sancionable","content":"[Peso: -0.70]"}

@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad",
+    "label": "nivel_de_especificidad",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad",
+    "summary": "Campo que indica el grado de precisión con el que está formulada la realización.",
+    "metadata": {
+      "section": "3.2",
+      "value_type": "Categorial ordinal",
+      "cardinality": "Un valor obligatorio"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-zigzag-zigzag",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-zigzag-zigzag",
+    "label": "zigzag",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-zigzag-zigzag",
+    "summary": "**Definición.** Recorrido alternante en el que la mirada cambia de lado mientras avanza. Permite organizar comparaciones seriadas, pasos alternados, pares de información, secuencias con contraste o lectura dinámica entre columnas o bloques no alineados linealmente.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

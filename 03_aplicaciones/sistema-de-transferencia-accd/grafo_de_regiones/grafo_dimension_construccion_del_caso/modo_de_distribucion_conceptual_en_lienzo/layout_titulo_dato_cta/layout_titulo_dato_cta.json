@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_titulo_dato_cta-layout_titulo_dato_cta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_titulo_dato_cta-layout_titulo_dato_cta",
+    "label": "layout_titulo_dato_cta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_titulo_dato_cta-layout_titulo_dato_cta",
+    "summary": "**Definición.** Distribución que articula una lectura persuasiva breve: una frase de entrada, un dato o evidencia central y una invitación a actuar. Es útil cuando la imagen debe captar, justificar y cerrar en un mismo campo visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+    "label": "duracion_objetivo",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo",
+    "summary": "Campo que fija el rango temporal compatible de la salida.",
+    "metadata": {
+      "section": "11.1",
+      "value_type": "Rango categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "restricciones_textuales": [
+        "Debe ser coherente con arquitectura, segmentación y modalidad de guión."
+      ]
+    }
+  }
+}

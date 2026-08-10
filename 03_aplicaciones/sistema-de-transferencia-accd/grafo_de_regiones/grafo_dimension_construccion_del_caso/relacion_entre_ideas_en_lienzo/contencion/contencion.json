@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-contencion-contencion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-contencion-contencion",
+    "label": "contencion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-contencion-contencion",
+    "summary": "**Definición.** Relación en la que una idea aparece dentro del marco, área, categoría o dominio de otra. Sirve para indicar pertenencia, inclusión, alcance o dependencia contextual. Se diferencia de proximidad porque existe una frontera o recipiente conceptual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

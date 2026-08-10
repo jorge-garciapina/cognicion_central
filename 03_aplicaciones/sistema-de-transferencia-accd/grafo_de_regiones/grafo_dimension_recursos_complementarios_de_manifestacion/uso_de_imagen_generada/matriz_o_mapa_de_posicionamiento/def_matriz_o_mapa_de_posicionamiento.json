@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-matriz_o_mapa_de_posicionamiento-matriz_o_mapa_de_posicionamiento",
+  "content": "Sirve para ubicar elementos en dos o más ejes.\n\nEjemplo:\n\n```txt\n                 Profundo\n                    ↑\n                    |\nDifícil de compartir | Fácil de compartir\n                    |\n                    ↓\n                Superficial\n```\n\nOtros ejemplos:\n\n```txt\nEmoción alta / emoción baja.\nUtilidad alta / utilidad baja.\nRiesgo alto / riesgo bajo.\nClaridad alta / complejidad alta.\nAutoridad alta / cercanía alta.\n```\n\nEste tipo es excelente para crear categorías nuevas y ubicar fenómenos en un espacio interpretativo.\n\n---"
+}

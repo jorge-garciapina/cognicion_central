@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico",
+    "label": "tecnico",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico",
+    "summary": "Valor tecnico declarado para el campo interno registro_predominante.",
+    "metadata": {
+      "value_of": "registro_predominante",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

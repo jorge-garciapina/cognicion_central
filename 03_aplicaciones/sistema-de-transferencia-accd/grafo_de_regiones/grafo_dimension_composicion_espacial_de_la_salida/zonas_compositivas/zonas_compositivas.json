@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas",
+    "label": "zonas_compositivas",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas",
+    "summary": "**Definición.** Campo que nombra áreas funcionales dentro del lienzo. Una zona no es sólo una ubicación: es una región con tarea semántica propia, como titular, foco, dato, comparación, marca, contexto, CTA o fondo.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

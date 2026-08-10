@@ -1,0 +1,187 @@
+TÍTULO
+cApp y prompt-cApp: definición revisada y coherente con la Teoría de Máquinas Cognitivas (distinción explícita respecto de mNode)
+
+1) Propósito del documento
+Este texto define qué es una cApp (Cognitive Application: aplicación cognitiva) y qué es una prompt-cApp (cApp proyectada en forma de prompt),
+manteniendo una distinción estricta respecto de mNode (forma cognitiva mínima portadora de identidad) y usando como base los núcleos:
+- Cognición como capacidad operativa sobre información (CCCO).
+- Cognición como manifestación condicionada por condiciones externas (CCMC).
+- Principio de Transferibilidad Estructural (PTE).
+- Rol Operativo (RO).
+
+El objetivo es describir cApps de manera autónoma, atemporal y operable: que puedan inventariarse, compararse, sugerirse y diseñarse sin
+dependencias implícitas.
+
+──────────────────────────────────────────────────────────────────────────────
+2) Términos mínimos (definiciones de base)
+
+2.1 Cognición (CCCO, lectura operativa)
+Cognición se entiende como la capacidad de un agente (humano o artificial) de operar sobre información: adquirirla, representarla, transformarla,
+conservarla y usarla para orientar decisiones y acciones.
+
+2.2 Manifestación condicionada (CCMC)
+Un mismo fenómeno (cognición) puede presentarse en modos distintos según condiciones externas. Estas condiciones no son “detalles decorativos”;
+modulan el modo de manifestación y, por tanto, el tipo de operación que se vuelve dominante.
+
+2.3 Transferibilidad estructural (PTE)
+Una formulación es robusta cuando no depende de etiquetas verbales vagas ni de intuiciones privadas. La identidad debe preservarse mediante
+estructura relacional explícita: invariantes, dominios de variación, restricciones y criterios de validación que produzcan convergencia entre receptores.
+
+2.4 Rol Operativo (RO)
+Rol Operativo nombra el contorno estructural de una operación cognitiva en uso: “cómo opera” una manifestación sobre información.
+No clasifica por tema (de qué trata), sino por función (qué transformación impone y qué vuelve posible).
+
+2.5 mNode (forma cognitiva mínima portadora de identidad)
+mNode es la unidad mínima con identidad estructural transferible dentro del modelo. Un mNode:
+- Mantiene identidad bajo variación.
+- Tiene borde claro de pertenencia.
+- Es transferible por convergencia estructural.
+El mNode es “mínimo” en el sentido de identidad formal: por debajo de ese umbral solo hay etiquetas vagas o fragmentos dependientes de contexto.
+
+──────────────────────────────────────────────────────────────────────────────
+3) Definición revisada: qué es una cApp (sin confundirla con mNode)
+
+3.1 Definición operativa de cApp
+Una cApp (Cognitive Application: aplicación cognitiva) es una configuración seleccionada de estructuras cognitivas y relaciones que,
+al operar como un sistema compuesto, está orientada a producir un efecto cognitivo específico bajo ciertas condiciones externas.
+
+Puntos esenciales:
+A) Una cApp es una unidad operativa compuesta (no mínima).
+B) Una cApp se define por su arquitectura funcional: qué transforma, con qué componentes, bajo qué restricciones y con qué criterios de éxito.
+C) Una cApp no sustituye a mNode: usa mNodes (y otras piezas del grafo) como componentes, pero no hereda el estatus de “unidad mínima”.
+D) Una cApp puede contener subcApps; una cApp puede ser subestructura dentro de una cApp mayor.
+
+3.2 Diferencia crítica entre mNode y cApp
+- mNode: unidad mínima portadora de identidad (forma mínima con invariantes y dominio de variación).
+- cApp: unidad compuesta orientada a un fin (sistema de componentes y relaciones que realiza una operación).
+Un mNode puede existir sin estar embebido en una cApp concreta.
+Una cApp típicamente no existe sin componentes (mNodes u otras unidades) y relaciones entre ellos.
+
+3.3 Qué “tipo de cosa” es una cApp dentro del marco
+Una cApp es un ensamblaje operativo:
+- Se apoya en CCCO (porque su función es operar sobre información).
+- Se interpreta bajo CCMC (porque se activa y adapta según condiciones externas).
+- Se formula bajo PTE (porque debe ser transferible y no depender de intuición privada).
+- Se describe y clasifica por RO (porque su naturaleza se identifica por cómo opera, no por tema).
+
+──────────────────────────────────────────────────────────────────────────────
+4) prompt-cApp: proyección textual de una cApp
+
+4.1 Definición de prompt-cApp
+Una prompt-cApp es una proyección de una cApp en formato de prompt (texto de control) dirigido a un modelo generativo de lenguaje.
+Modelo generativo de lenguaje: Large Language Model (LLM, a model trained to generate text).
+
+La prompt-cApp es un modo de implementación o manifestación de la cApp, no la cApp misma.
+La cApp (estructura) puede proyectarse también en otros medios: interfaz, script, diagrama ejecutable, motor de reglas, etc.
+
+4.2 Diferencia crítica: estructura vs proyección
+- cApp: arquitectura funcional (componentes + relaciones + criterios).
+- prompt-cApp: una representación (projects_to) de esa arquitectura en instrucciones textuales para ejecución.
+
+Una prompt-cApp es correcta si preserva las invariantes estructurales de la cApp y permite su validación.
+Una prompt-cApp es incorrecta si solo “suena parecido” pero rompe criterios de pertenencia, validación o borde de operación.
+
+──────────────────────────────────────────────────────────────────────────────
+5) Componentes mínimos de una cApp (plantilla estructural)
+
+Una cApp, para ser inventariable y utilizable como parte de un catálogo, debe declarar explícitamente:
+
+5.1 Identidad de la cApp (nivel compuesto)
+- id: identificador único.
+- nombre: etiqueta legible.
+- fin: efecto buscado expresado como transformación (no como tema).
+- borde de aplicación: qué casos incluye/excluye como destinatario de uso.
+
+5.2 Rol Operativo dominante (RO)
+- RO dominante: contorno de operación que identifica la naturaleza de la cApp (por ejemplo: definir, planear, validar, diseñar, justificar).
+- RO secundarios (opcional): roles auxiliares presentes en el pipeline.
+
+5.3 Condiciones externas de activación (CCMC aplicado)
+- Condiciones típicas que vuelven dominante ese RO (presión temporal, riesgo, restricciones, incertidumbre, necesidad de trazabilidad, etc.).
+- Señales de disparo: evidencias observables que sugieren invocar la cApp.
+
+5.4 Componentes internos (ensamblaje)
+- Componentes: mNodes y/o otras unidades (por ejemplo: criterios, ejemplos ancla, validadores, módulos de normalización).
+- Relaciones: tipo de aristas (dependencias, refinamientos, restricciones, proyecciones).
+La cApp declara su composición como estructura, no como lista narrativa.
+
+5.5 Entrada y salida (contrato operativo)
+- Entradas: qué información requiere (texto base, restricciones, contexto, datos).
+- Salidas: qué forma produce (definición operativa, plan mínimo, procedimiento validado, diseño de partes, argumento justificable).
+
+5.6 Invariantes de cApp (nivel sistema, no nivel mNode)
+Las invariantes de una cApp no son las invariantes de un mNode. Son invariantes del ensamblaje:
+- Debe producir una salida evaluable contra criterios explícitos.
+- Debe preservar el borde del fin (no transformarse en otra clase de operación).
+- Debe incluir el conjunto mínimo de pasos/partes sin los cuales el fin se vuelve inalcanzable.
+
+5.7 Dominio de variación de cApp (nivel sistema)
+Variaciones permitidas sin cambiar la identidad funcional de la cApp:
+- Cambiar dominio temático (software, derecho, cocina) conservando el mismo RO.
+- Cambiar formato de salida (texto, lista, diagrama) conservando criterios.
+- Ajustar granularidad (más breve o más detallada) conservando invariantes.
+
+5.8 Validación (PTE aplicado a cApps)
+La cApp debe incluir criterios de validación que promuevan convergencia:
+- Pruebas internas (discriminadores): cómo reconocer que la cApp se aplicó correctamente.
+- Criterios de corrección del output: cómo decidir si el resultado cumple el fin.
+- Condiciones de falla: cuándo se considera inválida la aplicación.
+
+──────────────────────────────────────────────────────────────────────────────
+6) Familias cognitivas como clasificación de cApps (sin mezclar con mNode)
+
+6.1 Qué clasifica una familia
+Una familia clasifica por el modo operativo dominante (RO) que organiza la cApp.
+No clasifica por tema ni por “tipo de archivo”.
+
+6.2 Familias base (clasificación por fin/forma)
+- Idea: cApps cuyo RO dominante estabiliza identidad y frontera (definir).
+- Plan: cApps cuyo RO dominante secuencia acciones hacia un objetivo (planear).
+- Método: cApps cuyo RO dominante prioriza repetibilidad y control de calidad (procedimentalizar y validar).
+- Diseño: cApps cuyo RO dominante organiza partes bajo restricciones (arquitecturar).
+- Patrón de razonamiento: cApps cuyo RO dominante deriva conclusiones justificadas (inferir/argumentar).
+
+6.3 Relación correcta entre familia, RO, cApp y mNode
+- RO: coordenada de lectura (“opera como…”).
+- Familia: agrupación de RO dominantes en categorías operativas.
+- cApp: ensamblaje orientado a fin con un RO dominante (por eso pertenece a una familia).
+- mNode: unidad mínima que puede participar como componente dentro de una cApp.
+La pertenencia a familia se aplica al nivel de cApp (o al nivel de RO), no al nivel de “texto” y no necesariamente al nivel de mNode.
+
+──────────────────────────────────────────────────────────────────────────────
+7) Catálogo de cApps: sugerencia y construcción controlada
+
+7.1 Por qué un catálogo es posible
+Un catálogo existe cuando las cApps se describen con estructura explícita (PTE): metadatos, RO, familia, condiciones, entradas, salidas y validación.
+
+7.2 Sugerencia (selección no improvisada)
+La sugerencia sigue un esquema:
+A) Leer el problema como fin (transformación esperada).
+B) Identificar RO dominante mediante discriminadores (qué operación se requiere).
+C) Clasificar por familia (agrupación de RO).
+D) Seleccionar cApp por compatibilidad: condiciones externas + entradas disponibles + restricciones.
+E) Si no hay cApp compatible: construir una nueva cApp como adaptación contextual.
+
+7.3 Construcción de una cApp nueva (adaptación contextual)
+Construir no equivale a redactar un prompt “creativo”. Construir implica:
+- Fijar fin y borde (qué casos incluye/excluye).
+- Declarar RO dominante y familia.
+- Seleccionar componentes (mNodes y piezas auxiliares) y relaciones.
+- Declarar invariantes del ensamblaje y dominio de variación.
+- Especificar validación: criterios de éxito y condiciones de falla.
+- Elegir proyección de implementación (por ejemplo: prompt-cApp).
+
+──────────────────────────────────────────────────────────────────────────────
+8) Checklist mínimo de coherencia (anti-traslape con la teoría)
+
+Una definición de cApp es coherente con el grafo si cumple:
+
+[ ] No define a la cApp como “unidad mínima” (ese estatus es de mNode).
+[ ] Presenta a la cApp como ensamblaje orientado a un fin (unidad compuesta).
+[ ] Declara RO dominante (cómo opera) y familia (clasificación operativa).
+[ ] Declara condiciones externas de activación (CCMC aplicado).
+[ ] Declara invariantes y variación a nivel sistema (no confundir con invariantes de mNode).
+[ ] Incluye validación para convergencia (PTE aplicado).
+[ ] Diferencia estructura (cApp) de proyección (prompt-cApp).
+
+FIN DEL DOCUMENTO

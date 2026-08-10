@@ -1,0 +1,2371 @@
+NODE: ACCD-Arquitectura
+
+Definición:
+Nodo raíz del paquete completo.
+
+No nombra una pieza, ni una entidad concreta proyectada, ni una vía de
+monetización, ni un estrato particular.
+
+Nombra la arquitectura general que articula todas las operaciones del sistema:
+- preservación identitaria,
+- composición contextual,
+- traducción adaptativa a manifestaciones,
+- organización de atención,
+- lectura de evidencia,
+- acumulación de trayectoria,
+- y activación de convertibilidad.
+
+Es, por tanto, la unidad de orden superior dentro de la cual los demás
+componentes adquieren posición, función y relación.
+
+Función global:
+servir como marco arquitectónico total del paquete.
+
+Qué incluye en sentido fuerte:
+- los estratos,
+- los campos internos,
+- los mecanismos de instanciación,
+- los regímenes de retorno,
+- las rutas de convertibilidad,
+- y las reglas de interacción entre esas regiones.
+
+Qué no debe confundirse con este nodo:
+- la entidad comercializada,
+- un perfil público,
+- una estrategia de contenido,
+- una campaña,
+- una monetización,
+- ni la suma de piezas visibles.
+
+Razón de centralidad:
+sin este nodo, los demás componentes quedarían como lista dispersa y no como
+sistema articulado.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Entidad-Comercializada
+
+Definición:
+Entidad que el sistema busca preservar, proyectar, adaptar y volver operable.
+
+Este componente nombra aquello que la arquitectura quiere hacer existir de forma
+reconocible dentro del campo digital y comercial. No es todavía la arquitectura
+que la produce, sino la entidad que la arquitectura toma como portadora de valor,
+identidad, promesa, estilo profundo de lectura, posición simbólica o función de
+mercado.
+
+Puede tomar distintas formas:
+- una marca-persona,
+- un perfil de influencer fijado a estructura,
+- una presencia cognitiva estabilizada,
+- una empresa traducida a interfaz pública,
+- una figura editorial,
+- o cualquier entidad equivalente que deba seguir siendo reconocible a través de
+  múltiples realizaciones.
+
+Función global:
+ser el portador identitario del sistema.
+
+Qué conserva:
+- un núcleo,
+- una promesa,
+- una forma de lectura del mundo,
+- una posición relacional,
+- una continuidad reconocible a través de contextos y piezas.
+
+Qué no debe confundirse con este nodo:
+- la arquitectura total,
+- una pieza particular,
+- una campaña,
+- una plataforma,
+- una estética,
+- ni un simple “avatar de marca”.
+
+Razón de centralidad:
+muchos estratos necesitan saber qué es exactamente lo que están proyectando,
+preservando o volviendo operable; por eso esta entidad no puede quedar absorbida
+dentro de un solo estrato.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Nucleo-Identitario
+
+Definición:
+Centro estructural de la entidad comercializada.
+
+No equivale a tema, tono o estética superficial.
+
+Nombra el patrón profundo que organiza la identidad de la entidad comercializada:
+- qué valor porta,
+- qué promesa sostiene,
+- qué tipo de lectura sabe producir,
+- qué borde no puede cruzar sin dejar de ser lo que es,
+- qué forma de relación quiere conservar,
+- y qué posición simbólica o cognitiva quiere mantener.
+
+El núcleo es más profundo que:
+- el tema del que habla,
+- el formato que usa,
+- la plataforma donde aparece,
+- o la manera episódica en que se manifiesta.
+
+Función global:
+servir como centro de preservación estructural y como fuente profunda de
+coherencia entre realizaciones distintas.
+
+Qué no debe confundirse con este nodo:
+- un tema de contenido,
+- una vertical de negocio,
+- un slogan,
+- un tono,
+- una “voz de marca” superficial,
+- ni una pieza especialmente representativa.
+
+Razón de centralidad:
+el núcleo es uno de los elementos que más atraviesan el paquete: identidad,
+instanciación, contexto, atención, evidencia y convertibilidad dependen de él
+de maneras distintas.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contrato-Estructural
+
+Definición:
+Contenedor portable de invariantes, límites, reglas de preservación,
+restricciones y condiciones de pertenencia.
+
+Este componente existe para volver explícita y operable la identidad de la
+entidad comercializada. Su función no es decorar el sistema con “principios”,
+sino fijar de manera portable qué debe conservarse, qué puede variar, qué está
+prohibido, qué exige adaptación y qué cuenta como salida todavía perteneciente
+a la misma entidad.
+
+Puede incluir:
+- invariantes identitarios,
+- bordes editoriales,
+- límites de simplificación,
+- restricciones de tono profundo,
+- reglas de distribución compatibles,
+- reglas de interacción,
+- condiciones de pérdida de identidad,
+- y criterios de pertenencia.
+
+Función global:
+servir como estructura explícita de preservación y auditoría.
+
+Qué no debe confundirse con este nodo:
+- el núcleo mismo,
+- un manual de estilo débil,
+- branding,
+- guidelines visuales solamente,
+- ni una lista de buenas prácticas.
+
+Razón de centralidad:
+si no existe un contrato estructural explícito, cada estrato tiende a reinterpretar
+por su cuenta la identidad, y el sistema pierde centralidad.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Interfaz-de-Manifestacion
+
+Definición:
+Nodo general para las formas estabilizadas de comparecencia pública.
+
+No nombra todavía una pieza particular, sino la forma estructural mediante la
+cual una entidad comercializada se vuelve visible, legible y operable en el plano
+digital.
+
+Es un nodo más general que componentes como:
+- ACCD-Personalidad-Digital-Cognitiva,
+- ACCD-Perfil-de-Influencer,
+porque ambos pueden entenderse como especializaciones de esta interfaz.
+
+Función global:
+nombrar el plano donde la entidad deja de estar solo “en potencia” y adquiere
+una forma reconocible de presencia.
+
+Qué hace posible:
+- estabilización de la comparecencia,
+- reconocibilidad entre piezas,
+- continuidad de mediación,
+- acoplamiento con nichos y plataformas,
+- y legibilidad por parte del entorno.
+
+Qué no debe confundirse con este nodo:
+- el núcleo,
+- la entidad completa,
+- la pieza final,
+- el adaptador,
+- ni la manifestación material concreta.
+
+Razón de centralidad:
+varios estratos necesitan distinguir entre identidad profunda y forma pública de
+comparecencia. Este nodo existe precisamente para no colapsar esos dos planos.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Personalidad-Digital-Cognitiva
+
+Definición:
+Interfaz que enfatiza forma estable de expresión, distinción y relación.
+
+Es una especialización de ACCD-Interfaz-de-Manifestacion.
+
+Nombra la manera estabilizada en que un núcleo estructural se expresa en entornos
+digitales con continuidad:
+- expresiva,
+- inferencial,
+- relacional.
+
+No es simplemente:
+- tono,
+- estilo de copy,
+- branding verbal,
+- personaje ficticio,
+- ni una pose estética.
+
+Es la forma consistente en que la entidad:
+- habla,
+- explica,
+- distingue,
+- relaciona,
+- interpreta,
+- densifica,
+- reencuadra,
+- y se vuelve reconocible como cierto tipo de mente o lectura.
+
+Función global:
+garantizar que la entidad no solo siga siendo la misma “en abstracto”, sino
+también en la forma concreta en que comparece y opera digitalmente.
+
+Qué no debe confundirse con este nodo:
+- la entidad comercializada completa,
+- el núcleo identitario,
+- el perfil de influencer como interfaz de mediación,
+- una estética visual,
+- ni la suma de hábitos retóricos.
+
+Razón de centralidad:
+muchos problemas del paquete surgen precisamente por no distinguir entre identidad
+profunda y forma digital estable de manifestación.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Perfil-de-Influencer
+
+Definición:
+Interfaz que enfatiza mediación entre entidad, nicho, distribución, atención y
+evidencia.
+
+Es una especialización de ACCD-Interfaz-de-Manifestacion.
+
+No debe entenderse como:
+“persona que tiene seguidores”.
+
+Debe entenderse como una interfaz cognitivo-institucional y operativa que cumple
+la función de mediar entre:
+- la entidad comercializada,
+- el nicho o público,
+- la lógica de distribución,
+- la captura de atención,
+- la producción de evidencia,
+- y, eventualmente, la convertibilidad.
+
+Mientras que la Personalidad Digital Cognitiva enfatiza la forma estable de
+manifestación, el Perfil de Influencer enfatiza la función de interfaz pública
+que articula:
+- presencia,
+- mediación,
+- relación,
+- nicho,
+- trayectoria,
+- y retorno del entorno.
+
+Función global:
+nombrar una forma privilegiada de interfaz pública cuando la arquitectura opera
+a través de presencia visible y mediación sostenida.
+
+Qué no debe confundirse con este nodo:
+- una celebridad,
+- una métrica de followers,
+- una cuenta de red social,
+- ni una identidad completa.
+
+Razón de centralidad:
+este nodo permite separar claramente:
+- entidad comercializada,
+- personalidad digital,
+- interfaz pública,
+- y pieza concreta.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Caso-de-Proyeccion-Contextual
+
+Definición:
+Unidad compuesta real de construcción del sistema.
+
+Este es uno de los componentes globales más importantes.
+Nombra la unidad por la cual una entidad estructural baja a una salida realizable.
+
+No es:
+- una pieza,
+- un formato,
+- una plataforma,
+- ni una simple idea de contenido.
+
+Es una composición estructurada.
+
+Su fórmula canónica es:
+
+ACCD-Caso-de-Proyeccion-Contextual =
+ACCD-Soporte-Estructural-de-Proyeccion
++ ACCD-Contexto-de-Sujeto
++ ACCD-Contexto-de-Distribucion
++ ACCD-Intencion-Dominante
++ ACCD-Restricciones
++ ACCD-Heuristicas-de-Salida
++ ACCD-Contenido-Material-Estructurado
++ ACCD-Adaptador
+
+Su función global es permitir que el sistema deje de pensar en “piezas” como
+unidades primitivas y empiece a pensar en configuraciones compuestas
+proyectables, comparables, diagnosticables y corregibles.
+
+Qué no debe confundirse con este nodo:
+- la fuente estructural sin contextualización,
+- la pieza final,
+- el artefacto visible,
+- ni la monetización posterior.
+
+Razón de centralidad:
+si este componente no se fija globalmente, cada estrato vuelve a inventar su
+propia unidad de proyección y el sistema pierde coherencia.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Adaptador
+
+Definición:
+Operador de traducción entre caso compuesto y manifestación material.
+
+No es un simple formateador.
+No es una plantilla vacía.
+No es la pieza final.
+
+Es el componente que recibe una composición estructural ya contextualizada y la
+traduce a una realización concreta compatible con:
+- el sujeto,
+- la distribución,
+- las restricciones,
+- la intención,
+- la región funcional buscada,
+- y las exigencias del sistema.
+
+Puede producir:
+- guiones,
+- storyboards,
+- grafos de artefacto,
+- reels,
+- carruseles,
+- newsletters,
+- secuencias,
+- landings,
+- u otras manifestaciones.
+
+Función global:
+hacer posible la traducción entre estructura y comparecencia.
+
+Qué no debe confundirse con este nodo:
+- el caso,
+- la manifestación,
+- el contexto,
+- ni una técnica local como hook o CTA.
+
+Razón de centralidad:
+varios estratos necesitan explicar cómo se pasa de configuración a salida sin
+improvisación; el adaptador es justamente ese punto de traducción.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Manifestacion-Material
+
+Definición:
+Salida visible o realizable del caso.
+
+Es el plano donde la proyección ya comparece como artefacto concreto.
+
+Ejemplos:
+- reel,
+- carrusel,
+- newsletter,
+- landing,
+- hilo,
+- video largo,
+- secuencia,
+- CTA materializado,
+- pieza multiformato.
+
+La manifestación material no debe tratarse como origen del sistema.
+Es un output terminal del caso traducido por el adaptador.
+
+Función global:
+nombrar la salida concreta y visible que el entorno puede recibir, leer, ignorar,
+usar, responder o convertir.
+
+Qué no debe confundirse con este nodo:
+- el caso de proyección,
+- el núcleo,
+- la interfaz de manifestación en sentido estable,
+- la evidencia,
+- ni el efecto funcional dominante.
+
+Razón de centralidad:
+todo el paquete necesita distinguir entre estructura generadora y salida visible.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Evidencia
+
+Definición:
+Nodo general para toda huella observable y legible del entorno.
+
+No se reduce a métricas.
+No se reduce a analítica de plataforma.
+No se reduce a feedback informal.
+
+Nombra toda respuesta observable del entorno que puede ser leída por el sistema
+como señal de:
+- recepción,
+- validación,
+- contradicción,
+- continuidad,
+- interés relacional,
+- elegibilidad económica,
+- sedimentación institucional,
+- o degradación de identidad.
+
+Puede especializarse como:
+- evidencia de atención,
+- evidencia relacional,
+- evidencia comercial,
+- evidencia institucional,
+- evidencia de continuidad identitaria.
+
+Función global:
+hacer posible el retorno estructural del sistema.
+
+Qué no debe confundirse con este nodo:
+- la pieza misma,
+- el contexto,
+- la intuición del operador,
+- ni un dato aislado sin régimen de lectura.
+
+Razón de centralidad:
+sin evidencia, la arquitectura solo emite salidas; con evidencia, puede leer,
+diagnosticar, corregir y aprender.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Trayectoria
+
+Definición:
+Memoria estructural acumulada del sistema.
+
+No nombra simplemente “historial” ni “archivo”.
+
+Nombra la secuencia acumulada de:
+- estados,
+- salidas,
+- evidencias,
+- diagnósticos,
+- actualizaciones,
+- correcciones,
+- cambios de fase,
+- y sedimentaciones.
+
+Su función es introducir memoria operativa:
+la siguiente entrada ya no se procesa en vacío, sino sobre una historia ya
+modificada por salidas anteriores.
+
+La trayectoria puede leerse en varias escalas:
+- trayectoria de una pieza,
+- trayectoria de una serie,
+- trayectoria de una entidad proyectada,
+- trayectoria de una arquitectura.
+
+Función global:
+preservar continuidad longitudinal y modificar el sentido de las nuevas entradas.
+
+Qué no debe confundirse con este nodo:
+- una simple cronología,
+- un archivo pasivo,
+- ni la identidad en sentido estático.
+
+Razón de centralidad:
+múltiples estratos necesitan distinguir entre estado actual y memoria acumulada.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Convertibilidad
+
+Definición:
+Condición por la cual una forma validada se vuelve elegible para relaciones de
+valor.
+
+No equivale todavía a dinero.
+No equivale todavía a captura.
+No equivale a “ya vendió”.
+
+Nombra el estado en el que una entidad, relación, atención o activo ya puede
+entrar de manera plausible en:
+- sponsor,
+- lead,
+- comunidad,
+- curso,
+- servicio,
+- licencia,
+- producto,
+- contrato,
+- u otra forma de relación de valor.
+
+Función global:
+marcar la bisagra entre valor estructural acumulado y valor potencialmente
+capturable.
+
+Qué no debe confundirse con este nodo:
+- atención,
+- validación,
+- dinero,
+- cierre,
+- ni robustez total del sistema.
+
+Razón de centralidad:
+varios estratos necesitan distinguir entre:
+- comparecer,
+- ser leído,
+- ser validado,
+- y ya ser elegible para valor.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Captura-Economica
+
+Definición:
+Cierre económico efectivo.
+
+Este nodo nombra el momento en que una forma ya no solo es elegible, sino que
+efectivamente entra en una relación de valor cerrada:
+- venta,
+- pago,
+- contrato,
+- patrocinio,
+- suscripción,
+- licencia,
+- servicio cobrado,
+- adquisición,
+- o forma equivalente.
+
+Su función no es agotar la arquitectura, sino nombrar un tipo de cierre fuerte
+dentro de una secuencia más amplia.
+
+Regla crítica:
+captura económica no equivale a:
+- robustez estructural total,
+- continuidad garantizada,
+- ni cierre absoluto del sistema.
+
+Después de la captura todavía puede haber:
+- evidencia post-captura,
+- refuerzo o erosión de legitimidad,
+- reconfiguración,
+- y nueva trayectoria.
+
+Razón de centralidad:
+el paquete necesita separar claramente convertibilidad potencial y captura
+económica efectiva.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Diagnostico-Transversal
+
+Definición:
+Familia canónica de diagnósticos compartidos.
+
+Este componente existe para que los distintos estratos no inventen taxonomías de
+estado totalmente incompatibles entre sí.
+
+Su núcleo canónico es:
+- válido,
+- ambiguo,
+- inestable,
+- inválido.
+
+Puede admitir extensiones locales como:
+- frágil,
+- competitivo,
+- insuficientemente determinado,
+- saturado,
+- no compatible con núcleo,
+- contradicción de fase,
+- sobrecargado,
+- subestimulado.
+
+Función global:
+servir como marco diagnóstico común del paquete.
+
+Qué no debe confundirse con este nodo:
+- una taxonomía específica de un solo estrato,
+- una evaluación moral,
+- ni una simple opinión sobre si “funciona” o “no funciona”.
+
+Razón de centralidad:
+sin diagnóstico transversal, cada estrato madura su propio sistema de estados y
+luego la integración se vuelve mucho más difícil.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Espacio-Dimensional-Compartido
+
+Definición:
+Base mínima de dimensiones comparables entre estratos.
+
+Este componente existe para evitar que cada estrato cree su propio espacio de
+variación sin relación con los demás.
+
+La base dimensional compartida mínima fijada globalmente es:
+- densidad,
+- explicitez,
+- complejidad,
+- repetitividad funcional,
+- exigencia atencional,
+- facilidad de reenganche,
+- sensibilidad secuencial.
+
+Esto no impide que cada estrato tenga dimensiones locales.
+Pero sí obliga a distinguir entre:
+- dimensiones transversales del paquete,
+- dimensiones compartidas por algunos estratos,
+- y dimensiones estrictamente locales.
+
+Función global:
+crear comparabilidad entre subgrafos sin forzar una homogeneización total.
+
+Qué no debe confundirse con este nodo:
+- una base numérica obligatoria,
+- una métrica única del sistema,
+- ni el espacio intensional completo de todos los estratos.
+
+Razón de centralidad:
+la arquitectura ya se está volviendo multiespacial y multidimensional; sin una
+base compartida, la comparabilidad futura se pierde.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Tipos-de-Inconsistencia
+
+Definición:
+Protocolo común de detección de inconsistencias.
+
+Este componente existe para que la corrección local de estratos no dependa solo
+de intuición libre, sino de una tipología común de problemas estructurales.
+
+Las inconsistencias mínimas fijadas globalmente son:
+
+- inconsistencia de nombre,
+- inconsistencia de nivel,
+- inconsistencia de secuencia,
+- inconsistencia de borde,
+- inconsistencia de granularidad,
+- inconsistencia diagnóstica,
+- inconsistencia de dependencia,
+- inconsistencia de evidencia,
+- inconsistencia de fase.
+
+Función global:
+volver auditable la revisión de estratos y hacer explícito qué tipos de error o
+desalineación deben buscarse siempre.
+
+Qué no debe confundirse con este nodo:
+- una lista de errores de redacción,
+- una crítica estilística,
+- ni un control superficial de coherencia.
+
+Razón de centralidad:
+si no existe un protocolo compartido de inconsistencias, cada hilo local corrige
+según intuiciones distintas y el paquete pierde fuerza de integración.
+
+--------------------------------------------------------------------------------
+REGLA GLOBAL DE USO DE LOS COMPONENTES CANÓNICOS
+
+Si un estrato necesita uno de estos componentes, debe:
+
+- usar su nombre canónico,
+- o declarar explícitamente que usa una especialización local del componente
+  canónico.
+
+No se permite redefinirlos como si fueran entidades totalmente nuevas.
+
+Regla complementaria:
+si un estrato necesita ampliar uno de estos nodos, debe hacerlo como:
+- subnodo,
+- refinamiento,
+- o especialización,
+pero no como reinvención desligada del componente global.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Soporte-Estructural-de-Proyeccion
+
+Es el componente fuente del caso.
+
+Nombra aquello que entra a proyección como portador de estructura.
+Es el lugar desde el cual el caso recibe su carga identitaria, su dirección
+profunda y su base de preservación.
+
+Este componente no debe confundirse con:
+- la pieza visible,
+- el contexto,
+- el adaptador,
+- ni el simple tema de un contenido.
+
+Es el punto estructural desde el cual algo puede ser proyectado.
+
+Puede ser enfatizado localmente como:
+- ACCD-Nucleo-Identitario, cuando el foco está en identidad profunda,
+  invariantes y preservación de pertenencia;
+- ACCD-Fuente-de-Instanciacion, cuando el foco está en capacidad generativa,
+  espacio intensional y producción de múltiples casos.
+
+Regla crucial:
+núcleo identitario y fuente de instanciación no deben tratarse como sinónimos
+absolutos, pero sí como especializaciones del mismo lugar estructural dentro del
+caso: el soporte estructural que entra a proyección.
+
+Dicho de otra forma:
+- cuando se quiere subrayar qué debe preservarse, conviene hablar de núcleo;
+- cuando se quiere subrayar desde dónde pueden generarse múltiples casos,
+  conviene hablar de fuente;
+- pero en ambos casos se sigue ocupando la misma posición dentro de la fórmula.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-de-Sujeto
+
+Describe las condiciones del lado de la recepción.
+
+Este componente nombra el contorno del sujeto o tipo de sujeto al que se dirige
+la proyección:
+- atención esperable,
+- tolerancia a complejidad,
+- vocabulario legible,
+- memoria requerida,
+- necesidades prácticas,
+- sensibilidad emocional,
+- disposición al reenganche,
+- y condiciones de consumo.
+
+Su función no es describir “audiencia” en sentido publicitario débil, sino fijar
+las condiciones reales bajo las cuales la salida podrá ser:
+- legible,
+- útil,
+- tolerable,
+- convincente,
+- o siquiera recibible.
+
+No debe confundirse con:
+- nicho como etiqueta superficial,
+- plataforma,
+- ni intención dominante.
+
+El contexto de sujeto responde a preguntas como:
+- ¿para quién comparece esta salida?
+- ¿qué nivel de densidad soporta?
+- ¿qué tipo de reencuadre puede absorber?
+- ¿qué forma de explicación necesita?
+
+Sin este componente, la proyección queda ciega respecto de su receptor.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-de-Distribucion
+
+Describe las condiciones del lado del entorno de circulación.
+
+Este componente nombra el régimen externo donde la salida aparecerá:
+- plataforma,
+- canal,
+- ritmo de consumo,
+- presión algorítmica,
+- visibilidad esperable,
+- competencia por atención,
+- duración eficaz,
+- secuencialidad disponible,
+- y restricciones materiales de comparecencia.
+
+Su función es impedir que el sistema trate la distribución como mero “lugar”
+donde se pega una pieza ya resuelta.
+
+El contexto de distribución modifica estructuralmente:
+- qué tan rápido debe abrir,
+- cuánto puede densificar,
+- cómo debe cerrar,
+- cuánta continuidad puede prometer,
+- y qué forma de adaptador será compatible.
+
+No debe confundirse con:
+- el sujeto,
+- la intención,
+- ni el formato final en sí mismo.
+
+Responde a preguntas como:
+- ¿en qué régimen de circulación va a comparecer esto?
+- ¿cómo se consume ahí?
+- ¿qué tipo de comienzo, ritmo o cierre exige ese medio?
+
+Sin este componente, el caso puede ser correcto en abstracto y fallar por
+incompatibilidad de circulación.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Intencion-Dominante
+
+Nombra la dirección funcional principal del caso.
+
+Este componente fija qué quiere hacer principalmente la proyección en ese caso
+particular:
+- captar atención,
+- retener,
+- clarificar,
+- reencuadrar,
+- densificar,
+- convertir relacionalmente,
+- activar una acción,
+- preparar una venta,
+- abrir una serie,
+- producir legitimación,
+- o cualquier otra función dominante del sistema.
+
+No debe confundirse con:
+- deseo subjetivo del operador,
+- propósito abstracto de toda la arquitectura,
+- ni tema del contenido.
+
+La intención dominante no responde a “de qué habla” la salida,
+sino a “qué efecto funcional principal debe producir aquí”.
+
+Esto es decisivo porque una misma fuente estructural puede proyectarse con
+intenciones muy distintas:
+- una vez para captar,
+- otra para explicar,
+- otra para convertir,
+- otra para estabilizar legitimidad.
+
+Sin este componente, el caso pierde direccionalidad funcional y la proyección
+queda sobredeterminada o ambigua.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Restricciones
+
+Nombra los límites efectivos bajo los que el caso debe operar.
+
+Incluye restricciones como:
+- longitud,
+- tiempo,
+- complejidad tolerable,
+- bordes editoriales,
+- límites institucionales,
+- restricciones legales,
+- restricciones reputacionales,
+- restricciones de evidencia,
+- restricciones de formato,
+- y límites de preservación identitaria.
+
+Su función es volver explícito que no toda salida posible es una salida válida.
+
+Las restricciones no son un obstáculo exterior accidental.
+Son parte constitutiva del caso.
+
+Delimitan:
+- qué está permitido,
+- qué está prohibido,
+- qué debe evitarse,
+- y qué rango de variación sigue siendo legítimo.
+
+No debe confundirse con:
+- contexto en general,
+- ni contrato estructural completo.
+
+Aquí se nombran las condiciones limitantes activas dentro del caso concreto.
+
+Sin restricciones explícitas, el sistema tiende a producir salidas aparentes que
+pueden ser atractivas localmente pero incompatibles con identidad, contexto o
+continuidad futura.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Heuristicas-de-Salida
+
+Nombra las reglas prácticas de conformación de la salida.
+
+Este componente no contiene todavía la pieza terminada.
+Contiene criterios operativos que orientan cómo debe configurarse la comparecencia
+visible del caso.
+
+Puede incluir, por ejemplo:
+- intensidad de hook,
+- ritmo de apertura,
+- grado de explicitud,
+- nivel de tecnicidad,
+- necesidad de contraste,
+- tipo de cierre,
+- posición del CTA,
+- necesidad de cliffhanger,
+- orden de bloques,
+- o tipo de serialización sugerida.
+
+Su función es mediar entre:
+- la estructura profunda del caso,
+- y las decisiones de construcción próximas a la manifestación.
+
+No debe confundirse con:
+- el adaptador,
+- el contenido material,
+- ni la intención dominante.
+
+La intención dominante dice qué efecto principal se busca.
+Las heurísticas de salida dicen cómo conviene orientar la construcción visible
+para favorecer ese efecto dentro de este caso.
+
+Sin heurísticas de salida, el paso de la intención a la manifestación queda
+demasiado indeterminado.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contenido-Material-Estructurado
+
+Nombra el material semántico y compositivo que será traducido a salida.
+
+Este componente es decisivo porque impide confundir el caso con una pura
+geometría vacía de función y contexto.
+
+Aquí entran:
+- tesis,
+- argumentos,
+- secuencias,
+- ejemplos,
+- escenas,
+- contrastes,
+- giros,
+- pruebas,
+- reencuadres,
+- bloques explicativos,
+- y materiales equivalentes ya organizados estructuralmente.
+
+La palabra importante aquí es: estructurado.
+
+No se trata de “información disponible” en bruto.
+Se trata del material ya configurado para ser proyectado en ese caso.
+
+No debe confundirse con:
+- una base de ideas desordenadas,
+- la manifestación material final,
+- ni el adaptador.
+
+El contenido material estructurado todavía no es reel, carrusel, hilo o landing.
+Es el cuerpo compositivo que luego será traducido a una forma concreta.
+
+Sin este componente, el caso tiene dirección, contexto y reglas,
+pero no tiene qué proyectar de manera organizada.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Adaptador
+
+Nombra el operador de traducción entre el caso compuesto y la manifestación
+material.
+
+No es una plantilla vacía.
+No es una simple herramienta técnica.
+No es la pieza final.
+
+Su función es recibir una configuración ya compuesta y traducirla a una forma
+concreta compatible con:
+- el contexto de sujeto,
+- el contexto de distribución,
+- la intención dominante,
+- las restricciones,
+- las heurísticas de salida,
+- y el contenido material estructurado.
+
+El adaptador resuelve el paso entre:
+- estructura del caso,
+- y comparecencia material.
+
+Puede especializarse como:
+- adaptador de reel corto,
+- adaptador de carrusel,
+- adaptador de hilo,
+- adaptador de newsletter,
+- adaptador de landing,
+- adaptador de secuencia,
+- o cualquier otra interfaz material equivalente.
+
+No debe confundirse con:
+- la fuente,
+- el contexto,
+- la intención,
+- ni la manifestación material.
+
+El adaptador produce la traducción.
+La manifestación material es el resultado de esa traducción.
+
+Sin adaptador, la arquitectura sabe qué quiere proyectar,
+pero no cuenta con el operador que vuelve eso realizable en un medio concreto.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-Institucional
+
+Definición:
+ACCD-Contexto-Institucional = componente local opcional del caso que describe el
+campo de legitimidad, aceptación, riesgo, reconocimiento y sanción bajo el cual
+la proyección será leída por actores, centros, organizaciones o envolventes con
+capacidad de validar, bloquear, premiar, absorber o castigar la realización.
+
+Función:
+- explicitar si el caso entra en una zona institucional favorable, ambigua,
+  competitiva o sancionable;
+- modelar la relación del caso con actores relevantes;
+- evitar que la realizabilidad del caso se piense sólo en términos de sujeto,
+  plataforma o formato.
+
+No debe confundirse con:
+- ACCD-Contexto-de-Sujeto, porque no describe al receptor inmediato;
+- ACCD-Contexto-de-Distribucion, porque no describe el régimen de circulación de
+  la plataforma;
+- ACCD-Contexto-Comercial, porque no describe por sí mismo el cierre económico.
+
+Preguntas guía:
+- ¿Este caso es legítimo o riesgoso dentro del campo institucional relevante?
+- ¿Qué actores pueden absorberlo favorablemente o bloquearlo?
+- ¿Existe riesgo reputacional, eclipsamiento o sanción?
+- ¿La envolvente institucional puede traducir esta proyección en premio o castigo?
+
+Dimensiones posibles:
+- legitimidad contextual,
+- riesgo reputacional,
+- compatibilidad con actores,
+- sponsorabilidad,
+- capacidad de absorción favorable,
+- tolerancia institucional al brillo autónomo,
+- sensibilidad al eclipsamiento,
+- capacidad efectiva de sanción,
+- disposición a traducir valor en recompensa.
+
+Criterio de uso:
+Debe incorporarse cuando la viabilidad del caso dependa de centros de poder,
+instancias de validación, bordes de aceptabilidad o mecanismos de sanción que no
+quedan descritos ni por el sujeto ni por la distribución.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-Comercial
+
+Definición:
+ACCD-Contexto-Comercial = componente local opcional del caso que describe las
+condiciones locales de cierre, circulación de valor, convertibilidad y fricción
+transaccional bajo las cuales una proyección particular puede o no producir un
+resultado económico o relacional convertible.
+
+Función:
+- explicitar si el caso tiene condiciones reales de cierre;
+- distinguir entre atención generada y valor efectivamente convertible;
+- modelar la compatibilidad entre la proyección y una ruta concreta de
+  monetización, patrocinio, lead, afiliación, servicio o producto.
+
+No debe confundirse con:
+- el estrato comercial completo, porque aquí no se modela toda la arquitectura de
+  monetización del sistema, sino sólo las condiciones locales del caso;
+- ACCD-Contexto-Institucional, porque una proyección puede ser institucionalmente
+  válida y comercialmente inviable, o viceversa;
+- ACCD-Contexto-de-Distribucion, porque circular bien no equivale a cerrar bien.
+
+Preguntas guía:
+- ¿Qué tipo de cierre es posible en este caso?
+- ¿Qué fricción transaccional existe?
+- ¿El tráfico o vínculo generado tiene calidad de convertibilidad?
+- ¿La fase actual de la relación permite monetización, captura de lead o cierre?
+
+Dimensiones posibles:
+- tipo de cierre posible,
+- fricción transaccional,
+- madurez del vínculo,
+- calidad del tráfico,
+- convertibilidad activa,
+- elegibilidad económica,
+- fase de monetización,
+- compatibilidad con ruta de cierre,
+- invariantes locales del circuito de valor.
+
+Criterio de uso:
+Debe incorporarse cuando el caso no sólo busca realización simbólica,
+comunicativa o institucional, sino también una vía local de cierre o de
+convertibilidad económica/relacional que afecta la forma correcta de la
+proyección.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-de-Ejecucion
+
+Definición:
+ACCD-Contexto-de-Ejecucion = componente local opcional del caso que describe las
+condiciones materiales, técnicas, operativas y de implementación concreta bajo
+las cuales la proyección debe ponerse en acto y sostenerse como realización
+efectiva.
+
+Función:
+- separar proyección deseada de capacidad real de ejecución;
+- explicitar límites de producción, coordinación, recursos y latencia;
+- ajustar el caso a la situación concreta de implementación.
+
+No debe confundirse con:
+- ACCD-Contexto-de-Distribucion, porque distribuir no es lo mismo que ejecutar;
+- ACCD-Contexto-de-Sujeto, porque no describe el régimen de recepción;
+- ACCD-Contexto-Temporal-Ejecutivo, porque aquí el foco no es el régimen temporal
+  en sí, sino las condiciones materiales y operativas de puesta en acto.
+
+Preguntas guía:
+- ¿Con qué recursos reales puede ejecutarse este caso?
+- ¿Qué equipo, herramientas o presupuesto hay?
+- ¿Qué fricciones operativas, latencias o límites de iteración existen?
+- ¿El caso es realizable en la situación concreta de implementación?
+
+Dimensiones posibles:
+- tiempo disponible de producción,
+- recursos técnicos,
+- equipo disponible,
+- presupuesto,
+- fricción operativa,
+- capacidad de iteración,
+- latencia de respuesta,
+- volumen realizable.
+
+Criterio de uso:
+Debe incorporarse cuando la realización concreta depende de condiciones de
+implementación que alteran de forma estructural la proyección válida del caso y
+no pueden tratarse como meros detalles anecdóticos.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Contexto-Temporal-Ejecutivo
+
+Definición:
+ACCD-Contexto-Temporal-Ejecutivo = componente local opcional del caso que
+describe el régimen temporal bajo el cual la proyección puede operar,
+persistir, interrumpirse, reactivarse o perder validez dentro de una secuencia
+real de ejecución.
+
+Función:
+- evitar que el caso se piense como fotografía fija;
+- modelar ritmos, ventanas, pausas, persistencia y arrastre secuencial;
+- hacer explícita la temporalidad efectiva del caso.
+
+No debe confundirse con:
+- ACCD-Contexto-de-Ejecucion, porque no describe principalmente recursos o
+  implementación material, sino régimen temporal de operación;
+- ACCD-Contexto-de-Distribucion, porque el tiempo del feed o del canal no agota
+  la temporalidad ejecutiva del caso;
+- ACCD-Restricciones, porque una restricción temporal puntual no equivale a un
+  régimen temporal completo.
+
+Preguntas guía:
+- ¿Este caso requiere sincronía o tolera asincronía?
+- ¿La proyección conserva utilidad si se pausa?
+- ¿Cuál es su ventana temporal de utilidad?
+- ¿Qué latencia puede tolerar entre pieza, respuesta y reenganche?
+- ¿Existe arrastre secuencial o continuidad acumulativa?
+
+Dimensiones posibles:
+- sincronía/asincronía,
+- persistencia de estado,
+- tolerancia a pausas,
+- ventana temporal de utilidad,
+- latencia entre pieza y respuesta,
+- ritmo de reiteración,
+- capacidad de arrastre secuencial.
+
+Criterio de uso:
+Debe incorporarse cuando la temporalidad concreta modifica de manera real la
+validez, estabilidad o eficacia del caso, especialmente en arquitecturas con
+serialización, continuidad, pausas, reenganche o persistencia de estado.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Comparecencia
+
+Definición:
+Momento o condición por la cual una manifestación material deja de existir solo
+como salida producida o archivo disponible y entra efectivamente en superficie de
+encuentro dentro de un entorno de recepción.
+
+Comparecer significa:
+- aparecer ante un sujeto o conjunto de sujetos;
+- entrar en un medio de circulación;
+- quedar expuesta a condiciones reales de recepción;
+- y dejar de ser solo posibilidad abstracta.
+
+Su función es abrir el umbral mínimo de presencia efectiva de la proyección.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Manifestacion-Material, porque la manifestación puede existir sin haber
+  comparecido todavía como evento efectivo de recepción;
+- ACCD-Atencion-Organizada, porque comparecer no equivale todavía a producir una
+  atención estructurada;
+- ACCD-Evidencia, porque la comparecencia es anterior a la lectura de huellas.
+
+Razón de centralidad:
+permite distinguir entre “salida ya producida” y “salida efectivamente puesta en
+encuentro con el entorno”.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Atencion-Organizada
+
+Definición:
+Campo interno donde la respuesta visible del entorno deja de ser flujo
+indiferenciado y pasa a convertirse en materia:
+- legible,
+- estabilizable,
+- segmentable,
+- acumulable,
+- y derivable hacia validación y convertibilidad.
+
+No equivale a:
+- tráfico bruto,
+- audiencia en bruto,
+- impresiones aisladas,
+- ni simple interés difuso del público.
+
+Su función es nombrar el punto en que la recepción ya puede ser tratada como
+activo intermedio del sistema.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Comparecencia, porque comparecer no garantiza todavía atención operable;
+- ACCD-Validacion, porque la atención organizada todavía no equivale a
+  reconocimiento estructural;
+- ACCD-Convertibilidad, porque atención no equivale automáticamente a valor
+  capturable.
+
+Razón de centralidad:
+sin este nodo, el sistema no puede distinguir entre mera visibilidad y recepción
+ya utilizable.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Lectura-Inicial
+
+Definición:
+Primer procesamiento interpretativo de la respuesta producida por la atención.
+
+No es todavía el régimen completo de lectura de evidencia posterior.
+Es una primera inteligibilidad situada de lo ocurrido en recepción.
+
+Puede incluir:
+- si hubo captación;
+- si hubo continuidad;
+- si hubo abandono prematuro;
+- si la pieza fue legible;
+- si la explicitación era suficiente;
+- si la configuración resultó frágil, sobrecargada o insuficiente.
+
+Su función es dar al sistema una primera lectura operable del comportamiento de
+recepción.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Lectura-de-Evidencia, porque esta última pertenece al régimen más amplio
+  de retorno y corrección;
+- ACCD-Diagnostico, porque la lectura inicial todavía puede ser un primer
+  procesamiento previo a clasificación más fuerte;
+- ACCD-Validacion-Inicial, porque leer no equivale todavía a confirmar.
+
+Razón de centralidad:
+permite que la secuencia de recepción no se reduzca a “se publicó y hubo datos”.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Validacion-Inicial
+
+Definición:
+Primer umbral de confirmación de que la comparecencia no fue puro ruido y que la
+recepción produjo una aceptación mínima, situada y todavía temprana.
+
+No equivale todavía a:
+- capital institucional,
+- validación fuerte,
+- ni convertibilidad económica.
+
+Puede expresarse como:
+- legibilidad mínima conseguida;
+- resonancia suficiente;
+- continuidad local;
+- primera aceptación;
+- o señal de que la pieza entró correctamente al entorno.
+
+Su función es marcar el tránsito entre recepción organizada y reconocimiento
+inicial con peso estructural.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Atencion-Organizada, porque puede haber atención sin validación;
+- ACCD-Validacion, porque esta última nombra un umbral más fuerte y menos local;
+- ACCD-Capital-Institucional, porque una confirmación temprana no es todavía
+  sedimentación acumulada.
+
+Razón de centralidad:
+permite distinguir entre “la pieza fue vista” y “la pieza comenzó a ser
+reconocida como pertinente o compatible”.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Perfil-de-Respuesta
+
+Definición:
+Clasificación inicial del tipo de respuesta que la manifestación produjo en el
+entorno de recepción.
+
+No se limita a “gustó / no gustó”.
+Debe poder distinguir configuraciones como:
+- captación sin continuidad;
+- continuidad frágil;
+- recepción inmersiva;
+- recepción intermitente asistida;
+- consulta modular;
+- entrada a umbral relacional;
+- atención incompatible con núcleo;
+- atención saturada o insuficiente.
+
+Su función es tipificar el comportamiento de la respuesta para volverlo usable
+por otros estratos.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Diagnostico, porque el perfil de respuesta pertenece primariamente al
+  régimen de recepción y no al cierre completo del ciclo;
+- ACCD-Atencion-Organizada, porque perfilar la respuesta no es lo mismo que
+  producir el campo atencional;
+- ACCD-Evidencia, porque el perfil ya es una lectura tipificada de respuesta.
+
+Razón de centralidad:
+permite registrar cómo respondió el entorno en términos más finos que una métrica
+aislada.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Validacion
+
+Definición:
+Confirmación situada de que la entidad o proyección no solo comparece ni solo
+retiene atención, sino que empieza a ser leída como:
+- pertinente,
+- confiable,
+- valiosa,
+- o digna de continuidad.
+
+No equivale todavía a capital institucional.
+La validación puede ser:
+- temprana,
+- local,
+- parcial,
+- o todavía inestable.
+
+Su función es marcar el tránsito entre atención y reconocimiento con peso
+estructural suficiente para entrar en acumulación cualitativa.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Validacion-Inicial, porque la validación aquí ya participa de la cadena de
+  convertibilidad y no solo del primer umbral de recepción;
+- ACCD-Capital-Institucional, porque validar no equivale a sedimentar;
+- ACCD-Convertibilidad, porque ser reconocido no equivale todavía a ser elegible
+  para valor.
+
+Razón de centralidad:
+introduce el umbral donde la arquitectura deja de registrar solo recepción y
+empieza a registrar reconocimiento con capacidad de arrastre.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Capital-Institucional
+
+Definición:
+Sedimentación acumulada de reconocimiento, confianza, trazabilidad y continuidad
+de una entidad o sistema dentro de un campo relevante.
+
+No equivale a:
+- dinero,
+- mera atención,
+- ni validación instantánea.
+
+Nombra el estado acumulado en el que la posición del sistema ya no depende solo
+de una pieza o de una reacción puntual.
+
+Puede expresarse como:
+- legitimidad;
+- compatibilidad institucional;
+- confianza acumulada;
+- sponsorabilidad creciente;
+- estabilidad de reconocimiento;
+- reducción de fricción futura.
+
+Su función es nombrar la consolidación cualitativa de validaciones previas.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Validacion, porque la validación puede ser todavía local o efímera;
+- ACCD-Activo-Relacional, porque sedimentación no equivale todavía a potencia
+  operativa de vínculo;
+- ACCD-Captura-Economica, porque capital institucional no implica cierre económico.
+
+Razón de centralidad:
+permite describir acumulación estructural sin reducir toda ganancia a dinero.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Activo-Relacional
+
+Definición:
+Capacidad operativa de vínculo, movilización o activación que se vuelve posible
+sobre la base de validación acumulada y capital institucional.
+
+Si el capital institucional nombra un estado sedimentado,
+el activo relacional nombra la potencia operable de ese estado.
+
+Implica, por ejemplo:
+- capacidad de activar conversaciones;
+- movilizar respuestas;
+- abrir rutas privadas;
+- convocar actores;
+- producir leads cualificados;
+- sostener comunidad;
+- o convertir proximidad en recurso usable.
+
+Su función es convertir sedimentación cualitativa en potencia relacional
+operable.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Capital-Institucional, porque una cosa es la acumulación y otra la
+  capacidad operativa que esa acumulación habilita;
+- ACCD-Convertibilidad, porque tener activo relacional no equivale todavía a
+  elegibilidad económica cerrada;
+- ACCD-Comunidad-Paga o rutas concretas, porque este nodo es más general.
+
+Razón de centralidad:
+explica el puente entre reconocimiento acumulado y capacidad real de activar
+relaciones valiosas.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Acoplamiento-al-Mercado-del-Dinero
+
+Definición:
+Ingreso efectivo de una forma ya convertible a un régimen de:
+- transacción,
+- selección,
+- precio,
+- presupuesto,
+- contrato,
+- cierre,
+- y fricción económica real.
+
+Este nodo existe porque una forma puede ser convertible y aun así no acoplar bien
+a una estructura de dinero.
+
+Su función es modelar el paso entre elegibilidad de valor y tránsito efectivo a
+un régimen transaccional.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Convertibilidad, porque ser elegible para valor no es lo mismo que entrar
+  realmente al circuito de dinero;
+- ACCD-Captura-Economica, porque acoplar no garantiza todavía cierre;
+- ACCD-Contexto-Comercial, porque este nodo nombra una transición de secuencia,
+  no el contexto local del caso.
+
+Razón de centralidad:
+permite detectar fallos donde sí existe valor potencial, pero no cierre
+económico efectivo.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Manifestacion-Material-o-Captura
+
+Definición:
+Nodo de entrada de la secuencia de retorno que nombra los dos orígenes posibles de
+reingreso de huellas al sistema:
+- una manifestación material;
+- o una captura económica.
+
+Su función es mostrar que el sistema puede aprender tanto de:
+- recepción,
+- como de cierre comercial.
+
+No es una tercera entidad independiente entre manifestación y captura.
+Es un nodo conjuntivo de arranque de la secuencia de retorno.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Manifestacion-Material, porque aquí no se la toma como salida de
+  proyección, sino como posible origen de retorno;
+- ACCD-Captura-Economica, porque tampoco la reemplaza;
+- ACCD-Evidencia, porque todavía nombra el punto previo a la aparición de huellas.
+
+Razón de centralidad:
+evita que el retorno se lea como dependiente de una sola fuente de aprendizaje.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Lectura-de-Evidencia
+
+Definición:
+Régimen por el cual la evidencia deja de ser masa indiferenciada y se convierte
+en señal interpretable.
+
+Opera con:
+- criterios,
+- pesos,
+- umbrales,
+- restricciones,
+- reglas de activación,
+- y reglas de invalidez.
+
+Su función es traducir evidencia en materia diagnóstica.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Evidencia, porque la evidencia es la huella y su lectura es el régimen que
+  la procesa;
+- ACCD-Lectura-Inicial, porque aquí ya estamos en el ciclo de retorno completo;
+- ACCD-Diagnostico, porque leer evidencia no es todavía clasificar
+  estructuralmente el caso.
+
+Razón de centralidad:
+sin este nodo, la evidencia existe pero no reingresa al sistema de manera
+operable.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Diagnostico
+
+Definición:
+Clasificación estructural de lo ocurrido a partir de la lectura de evidencia.
+
+No dice solo:
+“funcionó / no funcionó”.
+
+Debe poder producir clasificaciones como:
+- configuración válida;
+- configuración ambigua;
+- configuración inestable;
+- configuración inválida;
+- continuidad preservada o rota;
+- evidencia insuficiente;
+- incompatibilidad contextual;
+- mala traducción del adaptador;
+- convertibilidad bloqueada.
+
+Su función es volver decidible qué pasó estructuralmente.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Diagnostico-Transversal, porque este último es la familia canónica general
+  y ACCD-Diagnostico es la operación o salida diagnóstica concreta dentro del
+  retorno;
+- ACCD-Lectura-de-Evidencia, porque leer no equivale todavía a clasificar;
+- ACCD-Correccion-Local-o-del-Modelo, porque diagnosticar no equivale aún a
+  intervenir.
+
+Razón de centralidad:
+permite que la arquitectura no solo observe señales, sino que formule juicios
+estructurales accionables.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Correccion-Local-o-del-Modelo
+
+Definición:
+Stage de intervención correctiva activado por el diagnóstico.
+
+Puede dividirse en dos regímenes:
+
+A. Corrección local:
+ajuste de una pieza, caso, adaptador, heurística, región o configuración concreta.
+
+B. Corrección del modelo:
+revisión de pesos, umbrales, dimensiones, restricciones o formalismo más general.
+
+Su función es impedir que el sistema se limite a observar; debe poder corregir
+algo real de su operación o de su formalismo.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Diagnostico, porque saber qué pasó no equivale todavía a intervenir;
+- ACCD-Actualizacion-de-Estado, porque corregir no es lo mismo que registrar el
+  nuevo estado resultante;
+- ACCD-Restricciones, porque aquí no se nombran límites previos sino cambios
+  posteriores.
+
+Razón de centralidad:
+introduce el momento en que el aprendizaje deja de ser descriptivo y se vuelve
+operativo.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Actualizacion-de-Estado
+
+Definición:
+Registro del cambio efectivo producido por la corrección o por la nueva lectura
+del sistema.
+
+Nombra la modificación de:
+- prioridades,
+- condiciones internas,
+- lectura del contexto,
+- disponibilidad de rutas,
+- estado de la entidad proyectada,
+- o condiciones de convertibilidad.
+
+Su función es hacer explícito que el sistema ya no está en el mismo estado que
+antes del retorno.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Correccion-Local-o-del-Modelo, porque corregir es intervenir y actualizar
+  es registrar el nuevo estado resultante;
+- ACCD-Trayectoria, porque la trayectoria es la sedimentación longitudinal de
+  múltiples estados actualizados;
+- ACCD-Evidencia, porque no es una huella del entorno sino un cambio interno
+  reconocido.
+
+Razón de centralidad:
+sin este nodo, el aprendizaje queda como intención de ajuste y no como cambio
+efectivo del sistema.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Nueva-Entrada-Modulada
+
+Definición:
+Entrada futura que ya no reingresa al sistema en vacío, sino sobre una historia
+previamente modificada por salidas, evidencias, diagnósticos, correcciones y
+actualizaciones anteriores.
+
+Su función es cerrar el circuito mostrando que el aprendizaje modifica
+efectivamente el modo de procesar la siguiente proyección.
+
+No nombra cualquier entrada nueva, sino una entrada ya condicionada por:
+- trayectoria,
+- memoria operativa,
+- restricciones recalibradas,
+- prioridades actualizadas,
+- y lectura histórica del sistema.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Trayectoria, porque la trayectoria es la sedimentación acumulada y la nueva
+  entrada modulada es el punto donde esa sedimentación vuelve a operar;
+- ACCD-Caso-de-Proyeccion-Contextual, porque todavía no es el caso compuesto, sino
+  una entrada ya afectada por aprendizaje previo;
+- ACCD-Evidencia, porque ya no es respuesta del entorno sino insumo futuro
+  transformado.
+
+Razón de centralidad:
+hace explícito que el sistema no repite cada proyección desde cero, sino desde un
+estado históricamente modulado.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Funcion
+
+Definición:
+Transformación dominante buscada dentro del sistema.
+
+ACCD-Funcion nombra el papel operativo principal que una unidad cumple dentro de
+la arquitectura. No nombra el tema del que se habla, ni el formato visible, ni
+la plataforma de circulación, ni el diagnóstico de la unidad, ni el resultado
+final que se emite.
+
+Nombra aquello que la unidad intenta transformar principalmente.
+
+Ejemplos de funciones dentro de ACCD:
+- captación inicial,
+- retención temporal,
+- serialización,
+- clarificación cognitiva,
+- reestructuración interpretativa,
+- activación emocional,
+- legitimación epistémica,
+- conversión relacional,
+- activación práctica,
+- conversión metodológica,
+- conversión transaccional,
+- distribuibilidad social.
+
+Función global:
+permitir que el sistema clasifique unidades por el efecto dominante que buscan
+producir y no solo por tema, formato o plataforma.
+
+Preguntas guía:
+- ¿Qué intenta hacer principalmente esta unidad?
+- ¿Qué transforma dentro del sistema?
+- ¿Cuál es su efecto dominante buscado?
+
+Qué no debe confundirse con este nodo:
+- un estado diagnóstico (“válido”, “ambiguo”, “inestable”, “inválido”);
+- una región del campo o del espacio;
+- una salida concreta;
+- una identidad estructural;
+- una pieza material específica.
+
+Razón de centralidad:
+sin este nodo, el sistema tiende a clasificar por tema o por formato; con él,
+puede clasificar por rol operativo dominante.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Region
+
+Definición:
+Zona del espacio, campo o mapa donde dominan ciertas propiedades, exigencias o
+comportamientos.
+
+ACCD-Region nombra una localización estructural dentro de un espacio de
+posibilidades o dentro de un campo interno del sistema. No debe entenderse solo
+en sentido geométrico. Una región es una zona donde se estabilizan ciertas
+condiciones, restricciones, umbrales o comportamientos típicos.
+
+Puede tratarse, por ejemplo, de:
+- una región del espacio intensional,
+- una región de salida,
+- una zona de atención organizada,
+- una región de compatibilidad,
+- una región inestable del mapa de respuesta.
+
+La región no dice por sí sola:
+- qué función busca una unidad,
+- en qué estado diagnóstico se encuentra,
+- ni qué salida ya fue emitida.
+
+Función global:
+dar al sistema topología interna, permitiendo distinguir zonas estructurales con
+propiedades dominantes y sin colapsarlas en función, diagnóstico o salida.
+
+Preguntas guía:
+- ¿En qué zona del mapa o del campo se encuentra esta configuración?
+- ¿Qué propiedades dominan en esa zona?
+- ¿Qué comportamiento es típico ahí?
+- ¿Qué restricciones o exigencias caracterizan esa región?
+
+Qué no debe confundirse con este nodo:
+- una función dominante;
+- un estado diagnóstico;
+- una salida concreta;
+- un componente identitario;
+- una secuencia de pasos.
+
+Razón de centralidad:
+sin este nodo, el sistema pierde capacidad de modelar mapas, campos y espacios
+de posibilidad; con él, puede distinguir localizaciones estructurales sin
+confundirlas con propósito o condición.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Estado
+
+Definición:
+Condición actual o diagnóstica de una configuración, caso, campo o trayectoria.
+
+ACCD-Estado nombra cómo se encuentra algo en un momento dado respecto de ciertos
+criterios de lectura, validación, estabilidad o compatibilidad.
+
+No responde a:
+- qué intenta hacer una unidad,
+- ni en qué región del espacio se encuentra,
+- ni cuál fue el resultado emitido al final.
+
+Responde a:
+¿en qué condición está actualmente esta unidad?
+
+Ejemplos de estados diagnósticos canónicos:
+- válido,
+- ambiguo,
+- inestable,
+- inválido.
+
+Ejemplos de extensiones locales posibles:
+- frágil,
+- competitivo,
+- insuficientemente determinado,
+- contradicción de fase,
+- sobrecargado,
+- subestimulado.
+
+Función global:
+permitir que el sistema emita juicios de condición sobre configuraciones, casos,
+campos, trayectorias o resultados parciales sin confundir esos juicios con
+funciones, regiones o salidas.
+
+Preguntas guía:
+- ¿Cómo se encuentra actualmente esta configuración?
+- ¿Es válida, ambigua, inestable o inválida?
+- ¿Qué tan consolidada, frágil o compatible está?
+- ¿Qué juicio de condición se puede emitir sobre ella?
+
+Qué no debe confundirse con este nodo:
+- una función dominante;
+- una región del sistema;
+- una salida material o económica;
+- una identidad estructural;
+- una pieza concreta.
+
+Razón de centralidad:
+sin este nodo, el paquete no puede diagnosticar estados del sistema; con él,
+puede emitir juicios estructurales sobre la condición actual de sus unidades.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Salida
+
+Definición:
+Resultado emitido por un proceso o estrato.
+
+Puede ser:
+- material,
+- diagnóstico,
+- relacional,
+- económico,
+- institucional,
+- o de otra clase.
+
+ACCD-Salida nombra aquello que efectivamente produce o devuelve una operación del
+sistema. Es el resultado emitido, no el propósito buscado, no la zona del
+espacio donde algo ocurre y no la condición diagnóstica de la unidad.
+
+Ejemplos de salidas:
+- una manifestación material: reel, carrusel, newsletter, landing;
+- una salida diagnóstica: clasificación como válida o inestable;
+- una salida relacional: DM, comentario, respuesta;
+- una salida institucional: validación, aceptación, elegibilidad;
+- una salida económica: venta, contrato, patrocinio, suscripción.
+
+Función global:
+permitir que el sistema describa con precisión qué fue emitido por un proceso o
+estrato, distinguiendo claramente entre transformación buscada, localización
+estructural, condición diagnóstica y resultado efectivo.
+
+Preguntas guía:
+- ¿Qué produjo finalmente este proceso?
+- ¿Qué fue emitido?
+- ¿Qué resultado quedó disponible para el entorno o para el siguiente estrato?
+- ¿La salida fue material, diagnóstica, relacional, institucional o económica?
+
+Qué no debe confundirse con este nodo:
+- una función dominante;
+- una región del sistema;
+- un estado diagnóstico;
+- una identidad estructural;
+- una intención dominante.
+
+Razón de centralidad:
+sin este nodo, el sistema no puede distinguir entre lo que busca hacer y lo que
+efectivamente produjo; con él, puede describir resultados emitidos sin
+confundirlos con propósito, posición o estado.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Estrato
+
+Definición:
+Unidad funcional de organización interna de ACCD.
+
+No nombra simplemente una sección del documento ni un subtítulo de exposición.
+Nombra una región del paquete que agrupa componentes, relaciones, entradas,
+salidas e invariantes alrededor de una función específica dentro de la
+arquitectura comercial.
+
+Un estrato debe poder entenderse como subgrafo con borde propio.
+
+Su función no es reemplazar a la arquitectura total, sino resolver una dimensión
+determinada de la máquina general.
+
+Función:
+permitir la partición funcional de ACCD en regiones relativamente autónomas,
+comparables e integrables.
+
+Qué contiene normalmente:
+- una intención específica,
+- una definición central,
+- un conjunto de componentes,
+- entradas y salidas si aplica,
+- relaciones con otros estratos,
+- invariantes,
+- y criterios de validación o diagnóstico.
+
+Qué no debe confundirse con este nodo:
+- un capítulo meramente expositivo,
+- una pieza,
+- un componente aislado,
+- ni la arquitectura total.
+
+Razón de centralidad:
+sin la noción explícita de estrato, ACCD tiende a presentarse como texto lineal
+y no como arquitectura organizada en subgrafos funcionales.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Pieza
+
+Definición:
+Unidad material discreta de comparecencia producida por la arquitectura.
+
+Una pieza es una realización concreta, reconocible y relativamente delimitable
+del sistema en el plano de circulación:
+- reel,
+- post,
+- carrusel,
+- video,
+- newsletter,
+- hilo,
+- clip,
+- landing,
+- módulo secuencial,
+- o forma equivalente.
+
+La pieza no es el núcleo, no es el caso completo y no es la arquitectura.
+Es una unidad material que puede participar en composiciones mayores.
+
+Función:
+servir como unidad mínima o intermedia de salida material sobre la que pueden
+medirse atención, respuesta, continuidad, evidencia y composición ascendente.
+
+Relación con Manifestación Material:
+- Manifestación Material es el plano general de salida realizable del caso.
+- Pieza es una unidad discreta dentro de ese plano.
+Por eso, una manifestación material puede coincidir con una sola pieza o con una
+composición de varias piezas.
+
+Qué no debe confundirse con este nodo:
+- el caso de proyección contextual,
+- el adaptador,
+- la interfaz de manifestación,
+- ni la trayectoria completa.
+
+Razón de centralidad:
+la arquitectura necesita una unidad material discreta para poder modelar
+composición ascendente, evidencia por salida y continuidad entre realizaciones.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Nucleo-Preservable
+
+Definición:
+Configuración estructural de identidad que debe conservarse a través de
+adaptaciones, plataformas, piezas y contextos sin perder pertenencia al sistema.
+
+Nombra el aspecto del núcleo que importa desde el punto de vista de la
+preservación:
+- aquello que no puede romperse sin que la entidad deje de ser la misma.
+
+Puede incluir:
+- promesa central,
+- borde editorial o cognitivo,
+- posición relacional,
+- criterio profundo,
+- forma básica de lectura,
+- y condiciones de continuidad.
+
+Función:
+fijar qué debe permanecer reconocible cuando la arquitectura se realiza en
+múltiples contextos y salidas.
+
+Relación con Núcleo Identitario:
+- Núcleo Identitario nombra el centro estructural profundo.
+- Núcleo Preservable enfatiza de ese núcleo la parte que debe mantenerse
+  invariada bajo adaptación.
+
+Qué no debe confundirse con este nodo:
+- un tema de contenido,
+- una estética,
+- un tono superficial,
+- un manual de estilo,
+- ni una pieza particularmente representativa.
+
+Razón de centralidad:
+sin esta distinción, la preservación tiende a confundirse con repetición
+superficial o con branding débil.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Nucleo-Portable
+
+Definición:
+Configuración estructural del núcleo preparada para ser trasladada entre
+contextos, plataformas, formatos, interfaces y ensamblajes sin perder su
+identidad de familia.
+
+Si el Núcleo Preservable enfatiza lo que no debe perderse, el Núcleo Portable
+enfatiza lo que puede ser llevado, instanciado y reutilizado operativamente en
+múltiples realizaciones.
+
+Un núcleo portable debe poder:
+- entrar en casos distintos,
+- acoplarse a contextos distintos,
+- traducirse por adaptadores distintos,
+- y producir piezas heterogéneas
+sin dejar de ser miembro de la misma familia estructural.
+
+Función:
+servir como versión transferible del núcleo para la proyección contextual y la
+fabricación de salidas múltiples.
+
+Relación con Contrato Estructural:
+el contrato puede fijar de forma explícita qué hace portable al núcleo y bajo qué
+condiciones deja de serlo.
+
+Qué no debe confundirse con este nodo:
+- una idea genérica,
+- un tema exportable sin borde,
+- una plantilla vacía,
+- ni una esencia abstracta sin mecanismos de realización.
+
+Razón de centralidad:
+ACCD busca ser reusable entre núcleos temáticos distintos; por eso necesita una
+noción explícita de portabilidad estructural y no solo de preservación.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Composicion-Contextual
+
+Definición:
+Operación y resultado estructurado por el cual un soporte proyectable se articula
+con contextos, intención, restricciones, heurísticas y contenido antes de su
+traducción material.
+
+La composición contextual no es todavía la pieza final.
+Tampoco es solamente “el contexto”.
+Es la configuración estructurada que resulta de poner en relación:
+
+- soporte estructural de proyección,
+- contexto de sujeto,
+- contexto de distribución,
+- intención dominante,
+- restricciones,
+- heurísticas de salida,
+- contenido material estructurado,
+- y, cuando aplique, condiciones institucionales o comerciales.
+
+Función:
+servir como plano de ensamblaje previo a la adaptación material.
+
+Relación con Caso de Proyección Contextual:
+- El Caso de Proyección Contextual es la unidad compuesta real completa.
+- La Composición Contextual enfatiza la lógica de ensamblaje interno de esa
+  unidad.
+Puede entenderse como el subgrafo compositivo interno del caso.
+
+Relación con Adaptador:
+la composición contextual antecede operativamente a la traducción del adaptador.
+
+Qué no debe confundirse con este nodo:
+- un contexto aislado,
+- una lista de metadatos,
+- la salida material,
+- ni el núcleo sin contextualización.
+
+Razón de centralidad:
+muchas discusiones del paquete dependen de entender que la proyección no es
+directa, sino compuesta; por eso conviene fijar explícitamente el nodo que nombra
+esa composición.
+
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Fractal
+
+Definición:
+Principio de repetición estructural por escalas dentro de ACCD.
+
+Nombra la propiedad por la cual una organización, mecanismo o patrón puede
+reaparecer en distintas escalas del sistema conservando una forma relacional
+análoga, aunque no idéntica en tamaño, complejidad o materialidad.
+
+En ACCD, la fractalidad permite que:
+- una lógica local reaparezca en una pieza, en una secuencia y en una campaña;
+- un módulo compuesto funcione como unidad para una escala superior;
+- un patrón de mediación se conserve en niveles distintos de organización;
+- y la arquitectura reuse estructuras sin reconstruirlas desde cero en cada nivel.
+
+Función:
+hacer pensable la continuidad de forma entre escalas distintas del sistema.
+
+Qué no debe confundirse con este nodo:
+- simple repetición mecánica;
+- copia literal de formatos;
+- redundancia;
+- ni una escala fija del sistema.
+
+Razón de centralidad:
+sin este componente, la composición ascendente tiende a pensarse como suma lineal
+de partes y no como arquitectura capaz de conservar forma al crecer.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Mecanismo-de-Proyeccion
+
+Definición:
+Conjunto de operaciones por las cuales una entidad, núcleo o soporte estructural
+se traduce a casos de proyección y de ahí a manifestaciones materiales.
+
+Este componente no nombra una sola pieza ni un solo paso de la secuencia, sino el
+mecanismo que hace posible el pasaje entre:
+- identidad preservada,
+- composición contextual,
+- adaptación,
+- comparecencia material,
+- recepción,
+- y retorno del entorno.
+
+En su formulación mínima, el mecanismo de proyección articula:
+- soporte estructural de proyección;
+- composición contextual;
+- adaptador;
+- manifestación material;
+- y salida al entorno.
+
+Función:
+nombrar el mecanismo generativo por el cual ACCD pasa de estructura a
+comparecencia operable.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Caso-de-Proyeccion-Contextual, porque el caso es una unidad compuesta
+  específica y el mecanismo es la lógica más general que hace posibles esos casos;
+- ACCD-Adaptador, porque el adaptador es un operador interno del mecanismo, no el
+  mecanismo entero;
+- ACCD-Manifestacion-Material, porque la salida visible es solo un término del
+  proceso.
+
+Razón de centralidad:
+permite describir la arquitectura como máquina de proyección y no solo como
+conjunto de componentes estáticos.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Perfiles-Intensionales
+
+Definición:
+Familia de configuraciones distinguibles dentro de un espacio intensional.
+
+Nombra el conjunto de perfiles posibles que una fuente, un campo, una región o un
+caso puede adoptar cuando se describen sus valores relativos sobre ciertas
+dimensiones relevantes.
+
+Un perfil intensional no es todavía:
+- una pieza concreta,
+- ni una persona,
+- ni un nicho sociológico,
+- ni una plataforma.
+
+Es una configuración estructural reconocible en el espacio de variación del
+sistema.
+
+Puede servir para describir, por ejemplo:
+- regímenes de recepción;
+- configuraciones de continuidad;
+- patrones de reenganche;
+- posiciones relativas de explicitud, densidad o fragmentación;
+- o regiones típicas de comportamiento dentro de una fuente.
+
+Función:
+permitir la clasificación comparativa de configuraciones sin reducirlas a un solo
+estado puntual ni a una sola salida material.
+
+Relación con dimensiones:
+los perfiles intensionales se construyen sobre un espacio de dimensiones; no
+sustituyen a las dimensiones, sino que las organizan en configuraciones legibles.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Espacio-Dimensional-Compartido, porque una cosa es la base de dimensiones
+  y otra los perfiles que se forman en ella;
+- ACCD-Estado, porque un estado puede ser una condición puntual mientras que un
+  perfil intensional enfatiza una configuración estructural reconocible;
+- ACCD-Region, porque una región es una zona del espacio, no necesariamente un
+  perfil ya descrito como patrón.
+
+Razón de centralidad:
+varios estratos necesitan pensar configuraciones estructurales comparables sin
+colapsarlas en piezas, personas o salidas.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Puertos-de-Insercion
+
+Definición:
+Puntos o regiones operables del sistema a través de los cuales terceros pueden
+entrar en relación con un campo ya estructurado.
+
+Nombra las superficies de acoplamiento por las cuales una arquitectura comercial
+ya suficientemente organizada permite:
+- patrocinio,
+- afiliación,
+- colaboración,
+- lead generation,
+- licenciamiento,
+- servicios,
+- puentes institucionales,
+- o formas equivalentes de inserción.
+
+Un puerto de inserción no es simplemente una monetización concreta.
+Es la condición estructural que permite que una relación de valor pueda entrar de
+manera operable en el sistema sin destruir su identidad.
+
+Los puertos de inserción dependen normalmente de:
+- atención ya organizada;
+- cierto grado de validación;
+- capital institucional;
+- activo relacional;
+- y formas legibles de interfaz.
+
+Función:
+nombrar los puntos de acoplamiento entre el campo construido por ACCD y relaciones
+externas de valor.
+
+Qué no debe confundirse con este nodo:
+- ACCD-Convertibilidad, porque la convertibilidad es una condición más general de
+  elegibilidad, mientras que el puerto de inserción es el punto concreto de
+  entrada o acoplamiento;
+- ACCD-Captura-Economica, porque un puerto puede existir sin que el cierre se
+  haya efectuado todavía;
+- una simple llamada a la acción, porque el puerto es más estructural que una
+  instrucción local de una pieza.
+
+Razón de centralidad:
+permite describir cómo un campo de atención estructurada se vuelve utilizable por
+relaciones de valor externas sin reducir toda esa transición a “venta” o “curso”.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Artefacto
+
+Definición:
+Unidad material, documental, gráfica, audiovisual, secuencial o compuesta que
+comparece como realización organizada del sistema.
+
+El término “artefacto” debe usarse cuando no se quiere restringir la salida a una
+sola clase de pieza ni a un único formato de manifestación. Sirve para nombrar
+objetos construidos por la arquitectura que ya poseen cierta organización interna
+y cierta función operativa, aunque puedan pertenecer a escalas distintas.
+
+Puede incluir, según el caso:
+- una pieza aislada;
+- un conjunto de piezas;
+- una secuencia organizada;
+- un documento de arquitectura;
+- una estructura de campaña;
+- un material de inserción;
+- o una forma compuesta equivalente.
+
+Relación con otros componentes:
+- Es más general que ACCD-Pieza.
+- Puede coincidir con una ACCD-Manifestacion-Material, pero no se reduce a ella.
+- Puede operar como módulo dentro de ACCD-Composicion-Ascendente.
+
+Función:
+nombrar salidas o construcciones materiales del sistema sin fijarlas todavía a una
+sola escala ni a una sola clase de soporte.
+
+Qué no debe confundirse con este nodo:
+- el núcleo;
+- el caso de proyección contextual;
+- el adaptador;
+- la identidad de la entidad comercializada;
+- ni el estrato total.
+
+Razón de centralidad:
+permite hablar de objetos construidos por ACCD cuando todavía no conviene decidir
+si deben modelarse como pieza, secuencia, módulo compuesto o documento operativo.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Materia-Prima
+
+Definición:
+Conjunto de insumos primarios sobre los cuales la arquitectura opera para producir
+entidad, casos, piezas, artefactos, atención organizada y convertibilidad.
+
+La materia prima no es todavía una salida organizada.
+Tampoco es todavía identidad plenamente estructurada.
+Nombra aquello que el sistema toma, selecciona, interpreta, ordena, refina o
+reconfigura para alimentar sus procesos de proyección y producción.
+
+Puede incluir:
+- núcleos temáticos;
+- conceptos;
+- relatos;
+- escenas;
+- problemas;
+- casos;
+- ejemplos;
+- intuiciones;
+- documentos fuente;
+- fragmentos de experiencia;
+- materiales bibliográficos;
+- y cualquier otra base que pueda ser procesada por la arquitectura.
+
+Función:
+servir como base de transformación para la producción del sistema.
+
+Relación con otros componentes:
+- Puede alimentar al ACCD-Nucleo-Identitario, pero no equivale a él.
+- Puede entrar a ACCD-Composicion-Contextual como contenido material estructurado.
+- Puede ser refinada por mecanismos de selección, esencificación, composición y
+  adaptación.
+
+Qué no debe confundirse con este nodo:
+- el contrato estructural;
+- la identidad ya preservada;
+- una pieza terminada;
+- la evidencia;
+- ni el campo de atención ya organizado.
+
+Razón de centralidad:
+permite distinguir entre insumos de partida y estructuras ya operativamente
+construidas por ACCD.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Memoria-Longitudinal
+
+Definición:
+Memoria acumulativa del sistema leída a través del tiempo, donde se conservan
+rastros relevantes de proyecciones, salidas, evidencias, correcciones, cambios
+de fase, sedimentaciones y reconfiguraciones.
+
+No debe entenderse como archivo pasivo ni como simple historial cronológico.
+La memoria longitudinal es una memoria estructural y operativa: aquello que hace
+que el sistema no procese cada nueva situación desde cero, sino desde una
+continuidad ya modificada por experiencias anteriores.
+
+Puede incluir:
+- evidencia persistida;
+- estados previos;
+- diagnósticos acumulados;
+- cambios de configuración;
+- aprendizajes sobre recepción;
+- cambios de convertibilidad;
+- sedimentación institucional;
+- y huellas que alteran la lectura futura del sistema.
+
+Relación con otros componentes:
+- Está estrechamente vinculada a ACCD-Trayectoria, pero no es idéntica.
+- Trayectoria enfatiza la línea estructural de desarrollo del sistema.
+- Memoria Longitudinal enfatiza la persistencia operativa de información útil para
+  nuevas decisiones.
+
+Función:
+permitir continuidad de aprendizaje, relectura de experiencia y acumulación
+estructural entre iteraciones.
+
+Qué no debe confundirse con este nodo:
+- almacenamiento indiferenciado;
+- una línea temporal descriptiva;
+- ni un simple repositorio documental.
+
+Razón de centralidad:
+sin memoria longitudinal, ACCD puede emitir salidas, pero no consolidarse como
+máquina que aprende y se reconfigura históricamente.
+
+--------------------------------------------------------------------------------
+NODE: ACCD-Maquina-Cognitiva
+
+Definición:
+Lectura funcional de ACCD como sistema reusable de transformación estructural.
+
+Nombra a la arquitectura cuando se la considera no solo como paquete conceptual
+ni como conjunto de estratos, sino como máquina capaz de:
+- recibir materia prima;
+- preservar núcleos;
+- producir casos de proyección;
+- adaptarlos a contextos;
+- generar artefactos y piezas;
+- organizar atención;
+- leer evidencia;
+- corregirse;
+- acumular trayectoria;
+- y activar convertibilidad.
+
+La expresión “máquina cognitiva” enfatiza que ACCD no es una taxonomía estática,
+sino un sistema que procesa, decide, traduce, diagnostica, actualiza y vuelve a
+proyectar.
+
+Relación con otros componentes:
+- ACCD-Arquitectura nombra el paquete en su forma estructural general.
+- ACCD-Maquina-Cognitiva nombra la misma arquitectura en su lectura operativa y
+  transformacional.
+
+Por tanto:
+- no son sinónimos absolutos,
+- pero sí dos lecturas complementarias del mismo sistema.
+
+Función:
+hacer explícito que ACCD debe evaluarse por su capacidad de producir y sostener
+transformaciones cognitivas y comerciales, no solo por la claridad de sus
+definiciones.
+
+Qué no debe confundirse con este nodo:
+- una metáfora retórica;
+- una simple automatización;
+- un flujo lineal de marketing;
+- ni una plataforma concreta.
+
+Razón de centralidad:
+este componente permite fijar con precisión la intención más general del proyecto:
+construir una arquitectura reusable para fabricar entidades de producción de
+contenido digital y campos de atención estructurada.
+

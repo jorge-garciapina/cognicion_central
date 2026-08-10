@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_f-en_f",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_f-en_f",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_f-en_f",
+    "type": "has_value",
+    "rationale": "en_f es un valor nuevo incorporado en arquitectura_espacial para la realización imagen."
+  }
+}

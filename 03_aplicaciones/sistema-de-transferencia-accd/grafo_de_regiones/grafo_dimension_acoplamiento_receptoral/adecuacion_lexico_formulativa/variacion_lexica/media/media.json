@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media",
+    "summary": "Valor media declarado para el campo interno variacion_lexica.",
+    "metadata": {
+      "value_of": "variacion_lexica",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

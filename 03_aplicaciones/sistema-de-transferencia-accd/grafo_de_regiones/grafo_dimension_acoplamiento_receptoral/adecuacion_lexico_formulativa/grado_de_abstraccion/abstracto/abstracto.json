@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto",
+    "label": "abstracto",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto",
+    "summary": "Valor abstracto declarado para el campo interno grado_de_abstraccion.",
+    "metadata": {
+      "value_of": "grado_de_abstraccion",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-orientacion_de_lectura_visual",
+  "content": "**Definición.** Campo que define la ruta preferente de lectura dentro del lienzo. No describe dónde están los elementos por separado, sino cómo se espera que la mirada avance entre ellos."
+}

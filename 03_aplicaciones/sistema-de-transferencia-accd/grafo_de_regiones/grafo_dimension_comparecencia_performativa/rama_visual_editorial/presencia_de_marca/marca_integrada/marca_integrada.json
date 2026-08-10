@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_integrada-marca_integrada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_integrada-marca_integrada",
+    "label": "marca_integrada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_integrada-marca_integrada",
+    "summary": "**Definición.** Presencia donde la marca forma parte natural de la composición: color, estilo, signo, patrón, producto o tono. No aparece como añadido final, sino como componente coherente del sistema visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca"
+    }
+  }
+}

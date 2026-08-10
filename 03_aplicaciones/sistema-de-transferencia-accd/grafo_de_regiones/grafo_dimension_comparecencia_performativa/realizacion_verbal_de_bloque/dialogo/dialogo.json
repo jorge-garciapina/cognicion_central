@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo",
+    "label": "dialogo",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo",
+    "summary": "Contenido verbal local realizable cuando exista material dialogado o equivalente.",
+    "value_type": "Descriptivo controlado",
+    "cardinality": "Cero o más unidades por bloque"
+  }
+}

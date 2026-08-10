@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_problema_solucion-layout_problema_solucion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_problema_solucion-layout_problema_solucion",
+    "label": "layout_problema_solucion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_problema_solucion-layout_problema_solucion",
+    "summary": "**Definición.** Distribución que separa o conecta un estado problemático con una respuesta propuesta. Su sentido aparece en la relación entre carencia, tensión o dolor y la solución visualizada o nombrada.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

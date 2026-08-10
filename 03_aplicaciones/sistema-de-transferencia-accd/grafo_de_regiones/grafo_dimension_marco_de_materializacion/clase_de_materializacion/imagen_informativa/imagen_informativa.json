@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_informativa-imagen_informativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_informativa-imagen_informativa",
+    "label": "imagen_informativa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_informativa-imagen_informativa",
+    "summary": "**Definición.** Clase material orientada a transmitir información organizada. No se limita a decorar o llamar la atención: su existencia se justifica por hacer visible un dato, explicación, categoría, relación, aviso o síntesis.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion"
+    }
+  }
+}

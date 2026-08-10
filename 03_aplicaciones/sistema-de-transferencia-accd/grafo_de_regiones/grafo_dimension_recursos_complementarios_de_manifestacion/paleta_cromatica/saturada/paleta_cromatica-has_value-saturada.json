@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-saturada-saturada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-saturada-saturada",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-saturada-saturada",
+    "type": "has_value",
+    "rationale": "saturada es un valor nuevo incorporado en paleta_cromatica para la realización imagen."
+  }
+}

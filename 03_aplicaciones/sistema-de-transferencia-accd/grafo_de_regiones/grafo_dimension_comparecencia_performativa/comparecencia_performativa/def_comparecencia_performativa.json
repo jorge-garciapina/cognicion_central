@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+  "content": "Fijar la configuración general de presencia performativa del emisor. Tipo de valor: estructura compuesta. Cardinalidad: una estructura obligatoria."
+}

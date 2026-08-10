@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado",
+    "label": "escenificado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado",
+    "summary": "Valor escenificado del campo modalidad_de_guion.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+    "type": "has_value",
+    "rationale": "hoja_documental es un valor nuevo incorporado en formato_de_lienzo para la realización imagen."
+  }
+}

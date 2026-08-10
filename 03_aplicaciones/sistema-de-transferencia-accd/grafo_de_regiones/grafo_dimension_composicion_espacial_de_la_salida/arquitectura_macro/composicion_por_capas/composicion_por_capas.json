@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_por_capas-composicion_por_capas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_por_capas-composicion_por_capas",
+    "label": "composicion_por_capas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_por_capas-composicion_por_capas",
+    "summary": "**Definición.** Arquitectura que dispone información en planos superpuestos o estratos. Puede comunicar profundidad, infraestructura, jerarquía de niveles, acumulación o distinción entre superficie y fondo conceptual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

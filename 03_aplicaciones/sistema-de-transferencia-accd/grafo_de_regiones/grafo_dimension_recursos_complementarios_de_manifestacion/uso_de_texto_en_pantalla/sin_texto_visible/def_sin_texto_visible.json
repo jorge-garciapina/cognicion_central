@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_visible-sin_texto_visible",
+  "content": "Valor que indica que la lámina puede no contener texto visible o usarlo de manera nula.\n\nEn carousel, este valor debe usarse con cuidado, porque la pieza suele depender de texto. Sin embargo, puede ser útil cuando una lámina funciona como pausa visual, escena simbólica o transición.\n\nEjemplos:\n\n```txt\nUna imagen simbólica sin texto.\nUna escena conceptual que prepara la siguiente lámina.\nUn separador visual dentro de una secuencia.\n```\n\nSirve para respiración visual, transición emocional, pausa narrativa o refuerzo simbólico.\n\n---"
+}

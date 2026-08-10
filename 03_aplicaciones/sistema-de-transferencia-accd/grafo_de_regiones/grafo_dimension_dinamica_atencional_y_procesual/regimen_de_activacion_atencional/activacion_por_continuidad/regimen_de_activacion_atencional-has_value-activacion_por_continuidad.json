@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad",
+    "type": "has_value",
+    "rationale": "activacion_por_continuidad es un valor declarado para el campo regimen_de_activacion_atencional."
+  }
+}

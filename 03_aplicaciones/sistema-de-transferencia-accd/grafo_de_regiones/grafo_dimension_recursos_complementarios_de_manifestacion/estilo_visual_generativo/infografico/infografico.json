@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+    "label": "infografico",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-infografico-infografico",
+    "summary": "**Definición.** Estilo orientado a organizar datos, categorías, pasos o relaciones mediante recursos gráficos. Prioriza legibilidad, estructura y síntesis informativa.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

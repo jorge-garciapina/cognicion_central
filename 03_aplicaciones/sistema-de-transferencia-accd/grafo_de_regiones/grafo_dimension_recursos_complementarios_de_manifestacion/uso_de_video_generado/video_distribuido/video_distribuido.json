@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido",
+    "label": "video_distribuido",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido",
+    "summary": "Valor video_distribuido declarado para el campo uso_de_video_generado.",
+    "metadata": {
+      "value_of": "uso_de_video_generado",
+      "source_section": "12.3"
+    }
+  }
+}

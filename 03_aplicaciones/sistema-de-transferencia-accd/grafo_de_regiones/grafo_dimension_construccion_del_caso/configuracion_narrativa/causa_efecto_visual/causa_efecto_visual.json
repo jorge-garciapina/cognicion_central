@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-causa_efecto_visual-causa_efecto_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-causa_efecto_visual-causa_efecto_visual",
+    "label": "causa_efecto_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-causa_efecto_visual-causa_efecto_visual",
+    "summary": "**Definición.** Configuración donde la comprensión del caso depende de mostrar una relación causal de forma perceptible. Puede mostrar origen, mecanismo, consecuencia, propagación, transformación o impacto. Se diferencia de una comparación porque no coloca elementos sólo en paralelo: establece que u",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

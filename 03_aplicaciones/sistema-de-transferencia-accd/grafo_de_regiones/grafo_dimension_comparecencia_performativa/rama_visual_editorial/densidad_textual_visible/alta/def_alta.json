@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-alta-alta",
+  "content": "Valor que permite una mayor carga textual por lámina.\n\nDebe usarse con cuidado: requiere jerarquía clara, separación visual y una audiencia dispuesta a leer más.\n\nEjemplo:\n\n```txt\nUna lámina que explica una distinción con definición, ejemplo breve y consecuencia.\n```\n\nSirve para audiencias tibias o calientes, contenido técnico, documentos visuales y carruseles de profundización.\n\n---"
+}

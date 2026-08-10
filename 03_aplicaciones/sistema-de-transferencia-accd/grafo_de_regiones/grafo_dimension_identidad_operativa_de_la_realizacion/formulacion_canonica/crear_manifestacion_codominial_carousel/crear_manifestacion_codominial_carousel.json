@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_manifestacion_codominial_carousel-crear_manifestacion_codominial_carousel",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_manifestacion_codominial_carousel-crear_manifestacion_codominial_carousel",
+    "label": "crear_manifestacion_codominial_carousel",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_manifestacion_codominial_carousel-crear_manifestacion_codominial_carousel",
+    "summary": "Valor que define la intención operativa de producir una salida final perteneciente al codominio `carousel`.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto",
+    "type": "has_value",
+    "rationale": "encuadre_mixto es un valor declarado para el campo regimen_de_encuadre_performativo."
+  }
+}

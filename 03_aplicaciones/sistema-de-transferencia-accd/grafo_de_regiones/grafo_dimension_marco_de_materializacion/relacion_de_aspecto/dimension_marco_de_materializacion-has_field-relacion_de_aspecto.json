@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+    "type": "has_field",
+    "rationale": "relacion_de_aspecto es un campo nuevo incorporado en dimension_marco_de_materializacion para la realización imagen."
+  }
+}

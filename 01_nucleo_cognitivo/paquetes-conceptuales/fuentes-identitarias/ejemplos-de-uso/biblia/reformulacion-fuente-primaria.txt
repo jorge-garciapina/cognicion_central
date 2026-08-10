@@ -1,0 +1,1009 @@
+{"address":"meta/header","content":{
+  "title":"Artefacto — Reformulación ontológica extendida: Fuente Identitaria Primaria, Universo Transformacional y Cognición como Actualización Secundaria",
+  "version":"0.0.1",
+  "status":"Draft",
+  "date":"2026-03-15",
+  "language":"es",
+  "goal":"Fijar, en forma de grafo textual compatible con la gramática de TMC y con la ontología de Fuentes Identitarias, una reformulación fuerte de la tesis según la cual Dios puede modelarse como Fuente Identitaria Primaria, el universo como campo de manifestación transformacional, y la cognición como lectura regional y actualización secundaria de configuraciones reales."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                  CONVENCIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"meta/conventions","content":{
+  "namespaces":{"graph_nodes":"graph/node/*","graph_edges":"graph/edge/*","definitions":"def/*"},
+  "edge_types":{
+    "depends_on":"A depends_on B = A no puede sostener su identidad sin B",
+    "uses":"A uses B = A incorpora a B como recurso o instrumento sin agotarse en él",
+    "refines":"A refines B = A hace más preciso a B sin negar su núcleo",
+    "enables":"A enables B = A hace viable u operable a B",
+    "constrains":"A constrains B = A impone límites al espacio de configuraciones válidas de B",
+    "realizes":"A realizes B = A encarna a B como caso o forma concreta",
+    "has_intensional_dimension":"A has_intensional_dimension B = B es una dimensión constitutiva del espacio intensional de A",
+    "maps_to":"A maps_to B = A traduce vectores o configuraciones hacia B como región, clase o salida",
+    "yields":"A yields B = A puede producir B como salida o consecuencia estructurada",
+    "provides_criteria_for":"A provides_criteria_for B = A provee criterios explícitos para formular, leer o validar B",
+    "modulated_by":"A modulated_by B = el comportamiento de A cambia según el estado de B",
+    "invalidates":"A invalidates B = A detecta a B como fuera del dominio permitido o como configuración rota",
+    "adapts_from":"A adapts_from B = A es una proyección o adaptación derivada de B dentro de otro plano"
+  },
+  "node_min_fields":["id","label","type","definition_ref","summary"],
+  "edge_min_fields":["id","from","to","type","rationale"],
+  "note":"Este artefacto no redefine los nodos base de TMC/Arq-Cog. Cuando requiere Interior, Frontera, Envolvente, Vecindad Relevante, Superficie de Integración, Operatividad Intensional o Dimensiones Ontológicas, los referencia mediante aristas. La novedad del presente texto consiste en reformular explícitamente la tesis discutida usando la ontología extendida de Fuentes Identitarias y el concepto de Región del Espacio Intensional."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                   OVERVIEW
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/overview","content":"[
+================================================================================
+OVERVIEW — FUENTE IDENTITARIA PRIMARIA, UNIVERSO TRANSFORMACIONAL Y COGNICIÓN
+================================================================================
+
+La tesis que este artefacto fija es la siguiente:
+
+1. Dios no debe modelarse como un caso dentro del sistema, ni como un vector entre otros, sino como Fuente Identitaria Primaria.
+2. La Fuente Primaria no se describe adecuadamente como un conjunto arbitrario de atributos dispersos, sino como identidad estable que sostiene un espacio originario de dimensiones y regiones de manifestación.
+3. El universo no debe tratarse como mera colección plana de objetos o vectores, sino como campo de manifestación transformacional compuesto por configuraciones, regiones, trayectorias e invariantes.
+4. Las entidades particulares del universo pueden representarse como vectores de instanciación ontológica dentro de dicho campo.
+5. Las transformaciones reales del universo se comprenden mejor como trayectorias sobre regiones del espacio intensional, bajo invariantes, restricciones y cierres.
+6. La cognición no crea ex nihilo; surge de un proceso de acoplamiento perceptivo con lo real y opera como lectura regional, reorganización interna y actualización secundaria de la realidad.
+7. La Biblia no presenta una tabla formal de dimensiones, pero sí una constelación estable que permite reconstruir, en lenguaje teórico, ejes originarios de manifestación: originación, vida, luz/inteligibilidad, palabra eficaz, espíritu/dinamismo, sabiduría/orden, santidad/pureza, justicia/rectitud, misericordia/fidelidad, fecundidad/restauración, interiorización/derivación y discernimiento de autenticidad.
+8. Estas dimensiones no deben leerse como “partes de Dios”, sino como ejes originarios estables desde los cuales se hacen posibles regiones diferenciadas de manifestación.
+9. El modelo mejora de manera decisiva cuando deja de pensar solo en dimensiones sueltas y empieza a pensar en regiones del espacio intensional: zonas donde múltiples configuraciones comparten lógica, validez, salida o diagnóstico.
+10. En consecuencia, el problema central ya no es únicamente “qué dimensiones hay”, sino “qué regiones se abren, qué trayectorias las recorren, qué invariantes conservan identidad y qué tipo de lectura cognitiva las actualiza”.
+]"}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (NODOS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/node/FIP-Fuente-Identitaria-Primaria","content":{
+  "id":"FIP-Fuente-Identitaria-Primaria",
+  "label":"Fuente Identitaria Primaria",
+  "type":"root_bridge",
+  "definition_ref":"def/FIP-Fuente-Identitaria-Primaria",
+  "summary":"Nombra la fuente originaria estable que no debe modelarse como caso del sistema, sino como principio de identidad,
+  posibilidad y lectura para el campo de manifestación universal."
+}}
+
+{"address":"graph/node/FIP-Identidad-Extensional-Primaria","content":{
+  "id":"FIP-Identidad-Extensional-Primaria",
+  "label":"Fuente Primaria — Identidad extensional",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Identidad-Extensional-Primaria",
+  "summary":"Bloque que fija la identidad estructural mínima de la Fuente Primaria mediante interior, frontera, envolvente, vecindad relevante, lógica de lectura y salidas compatibles."
+}}
+
+{"address":"graph/node/FIP-Espacio-Intensional-Originario","content":{
+  "id":"FIP-Espacio-Intensional-Originario",
+  "label":"Fuente Primaria — Espacio intensional originario",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Espacio-Intensional-Originario",
+  "summary":"Espacio organizado de dimensiones originarias de manifestación. No se interpreta como colección de partes de la Fuente, sino como gramática estable de lo que puede proceder de ella sin negar su identidad."
+}}
+
+{"address":"graph/node/FIP-Region-del-Espacio-Intensional-Originario","content":{
+  "id":"FIP-Region-del-Espacio-Intensional-Originario",
+  "label":"Fuente Primaria — Región del espacio intensional originario",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-del-Espacio-Intensional-Originario",
+  "summary":"Subzona del espacio originario donde distintas configuraciones comparten lógica estructural de manifestación, validez o salida. Permite pasar de dimensiones sueltas a geometrías regionales coherentes."
+}}
+
+{"address":"graph/node/FIP-Dimension-Originaria","content":{
+  "id":"FIP-Dimension-Originaria",
+  "label":"Fuente Primaria — Dimensión originaria",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Dimension-Originaria",
+  "summary":"Nodo genérico para cada eje originario estable de manifestación. Las dimensiones originarias son coordenadas teóricas del espacio procedente de la Fuente Primaria."
+}}
+
+{"address":"graph/node/FIP-Originacion","content":{
+  "id":"FIP-Originacion",
+  "label":"Dimensión originaria — Originación",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Originacion",
+  "summary":"Eje que nombra la capacidad de hacer surgir realidad, no solo de sostenerla una vez dada."
+}}
+
+{"address":"graph/node/FIP-Vida","content":{
+  "id":"FIP-Vida",
+  "label":"Dimensión originaria — Vida",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Vida",
+  "summary":"Eje que nombra la potencia vivificante, sostenedora y renovadora que la tradición bíblica asocia repetidamente con la fuente verdadera."
+}}
+
+{"address":"graph/node/FIP-Luz-Inteligibilidad","content":{
+  "id":"FIP-Luz-Inteligibilidad",
+  "label":"Dimensión originaria — Luz / inteligibilidad",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Luz-Inteligibilidad",
+  "summary":"Eje que nombra la apertura de visibilidad, revelación e inteligibilidad por la cual lo real se hace cognoscible."
+}}
+
+{"address":"graph/node/FIP-Palabra-Eficaz","content":{
+  "id":"FIP-Palabra-Eficaz",
+  "label":"Dimensión originaria — Palabra eficaz",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Palabra-Eficaz",
+  "summary":"Eje que nombra la actualización articulada de configuraciones: aquello que no solo nombra sino que instaura, ordena o llama al ser."
+}}
+
+{"address":"graph/node/FIP-Espiritu-Dinamismo","content":{
+  "id":"FIP-Espiritu-Dinamismo",
+  "label":"Dimensión originaria — Espíritu / dinamismo",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Espiritu-Dinamismo",
+  "summary":"Eje que nombra el dinamismo renovador, animante y circulante por el cual la realidad no queda reducida a estructura muerta."
+}}
+
+{"address":"graph/node/FIP-Sabiduria-Orden","content":{
+  "id":"FIP-Sabiduria-Orden",
+  "label":"Dimensión originaria — Sabiduría / orden",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Sabiduria-Orden",
+  "summary":"Eje que nombra la inteligibilidad compositiva, la forma, el límite y el orden que hacen modelable lo real sin degradarlo a caos."
+}}
+
+{"address":"graph/node/FIP-Santidad-Pureza","content":{
+  "id":"FIP-Santidad-Pureza",
+  "label":"Dimensión originaria — Santidad / pureza",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Santidad-Pureza",
+  "summary":"Eje que nombra la diferencia cualitativa, la no-indiferenciación y la preservación del origen frente a mezcla degradante."
+}}
+
+{"address":"graph/node/FIP-Justicia-Rectitud","content":{
+  "id":"FIP-Justicia-Rectitud",
+  "label":"Dimensión originaria — Justicia / rectitud",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Justicia-Rectitud",
+  "summary":"Eje que nombra el criterio de peso, orden normativo y discriminación entre configuraciones compatibles e incompatibles."
+}}
+
+{"address":"graph/node/FIP-Misericordia-Fidelidad","content":{
+  "id":"FIP-Misericordia-Fidelidad",
+  "label":"Dimensión originaria — Misericordia / fidelidad",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Misericordia-Fidelidad",
+  "summary":"Eje que nombra la gratuidad del don, la permanencia del vínculo y la estabilidad benevolente del sostén."
+}}
+
+{"address":"graph/node/FIP-Fecundidad-Restauracion","content":{
+  "id":"FIP-Fecundidad-Restauracion",
+  "label":"Dimensión originaria — Fecundidad / restauración",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Fecundidad-Restauracion",
+  "summary":"Eje que nombra el fruto, la sanación, la recomposición y la plenitud hacia la cual tienden las trayectorias vivas."
+}}
+
+{"address":"graph/node/FIP-Interiorizacion-Derivacion","content":{
+  "id":"FIP-Interiorizacion-Derivacion",
+  "label":"Dimensión originaria — Interiorización / derivación",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Interiorizacion-Derivacion",
+  "summary":"Eje que nombra la posibilidad de que la fuente primaria produzca brotes secundarios legítimos sin perder su primacía."
+}}
+
+{"address":"graph/node/FIP-Discernimiento-de-Autenticidad","content":{
+  "id":"FIP-Discernimiento-de-Autenticidad",
+  "label":"Dimensión originaria — Discernimiento de autenticidad",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Discernimiento-de-Autenticidad",
+  "summary":"Eje que nombra la capacidad de distinguir fuente verdadera de sustituto, flujo vivo de depósito roto, mediación legítima de simulacro."
+}}
+
+{"address":"graph/node/FIP-Campo-de-Manifestacion-Universal","content":{
+  "id":"FIP-Campo-de-Manifestacion-Universal",
+  "label":"Campo de manifestación universal",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Campo-de-Manifestacion-Universal",
+  "summary":"Plano en el que se realizan configuraciones, regiones y trayectorias compatibles con la Fuente Primaria. No es la Fuente misma, sino su dominio de manifestación."
+}}
+
+{"address":"graph/node/FIP-Vector-de-Instanciacion-Ontologica","content":{
+  "id":"FIP-Vector-de-Instanciacion-Ontologica",
+  "label":"Vector de instanciación ontológica",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Vector-de-Instanciacion-Ontologica",
+  "summary":"Representación ordenada de una entidad, evento o configuración concreta en términos de valores sobre dimensiones relevantes del espacio originario y del campo manifestado."
+}}
+
+{"address":"graph/node/FIP-Trayectoria-de-Transformacion","content":{
+  "id":"FIP-Trayectoria-de-Transformacion",
+  "label":"Trayectoria de transformación",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Trayectoria-de-Transformacion",
+  "summary":"Secuencia de desplazamientos de una configuración a través de regiones del espacio intensional bajo invariantes, restricciones y modulaciones del sistema."
+}}
+
+{"address":"graph/node/FIP-Invariante-de-Conservacion","content":{
+  "id":"FIP-Invariante-de-Conservacion",
+  "label":"Invariante de conservación",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Invariante-de-Conservacion",
+  "summary":"Aquello que permanece estable a través de una familia de transformaciones y permite afirmar continuidad de identidad en medio del cambio."
+}}
+
+{"address":"graph/node/FIP-Restriccion-de-Regimen","content":{
+  "id":"FIP-Restriccion-de-Regimen",
+  "label":"Restricción de régimen",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Restriccion-de-Regimen",
+  "summary":"Límite estructural que reduce el espacio de configuraciones o trayectorias válidas. Impide pensar el campo de manifestación como dominio indiferenciado donde todo vale."
+}}
+
+{"address":"graph/node/FIP-Region-de-Alineacion-Generativa","content":{
+  "id":"FIP-Region-de-Alineacion-Generativa",
+  "label":"Región de alineación generativa",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-de-Alineacion-Generativa",
+  "summary":"Región donde convergen originación, vida, orden, legitimidad y fecundidad de forma compatible y mutuamente reforzante."
+}}
+
+{"address":"graph/node/FIP-Region-de-Mediacion-Legitima","content":{
+  "id":"FIP-Region-de-Mediacion-Legitima",
+  "label":"Región de mediación legítima",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-de-Mediacion-Legitima",
+  "summary":"Región donde un brote secundario o una instancia derivada participa realmente de la Fuente sin suplantarla."
+}}
+
+{"address":"graph/node/FIP-Region-de-Fecundidad-Restaurativa","content":{
+  "id":"FIP-Region-de-Fecundidad-Restaurativa",
+  "label":"Región de fecundidad restaurativa",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-de-Fecundidad-Restaurativa",
+  "summary":"Región donde el flujo se traduce en fruto, sanación, recomposición y expansión de vida estable."
+}}
+
+{"address":"graph/node/FIP-Region-Ambigua","content":{
+  "id":"FIP-Region-Ambigua",
+  "label":"Región ambigua",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-Ambigua",
+  "summary":"Región donde coexisten señales compatibles e incompatibles sin resolución suficiente para una lectura firme."
+}}
+
+{"address":"graph/node/FIP-Region-Inestable","content":{
+  "id":"FIP-Region-Inestable",
+  "label":"Región inestable",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-Inestable",
+  "summary":"Región donde una configuración es todavía formable pero no sostiene continuidad suficiente de trayectoria."
+}}
+
+{"address":"graph/node/FIP-Region-de-Sustitucion-Invalidante","content":{
+  "id":"FIP-Region-de-Sustitucion-Invalidante",
+  "label":"Región de sustitución invalidante",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Region-de-Sustitucion-Invalidante",
+  "summary":"Región donde aparece simulacro de fuente, promesa de sostén sin continuidad real de flujo, o configuración rota respecto del origen."
+}}
+
+{"address":"graph/node/FIP-Cognicion-como-Lectura-Regional","content":{
+  "id":"FIP-Cognicion-como-Lectura-Regional",
+  "label":"Cognición como lectura regional",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Cognicion-como-Lectura-Regional",
+  "summary":"Describe la cognición como operación que no lee puntos sueltos sino regiones, patrones, compatibilidades y transiciones dentro del campo de manifestación."
+}}
+
+{"address":"graph/node/FIP-Percepcion-como-Acoplamiento","content":{
+  "id":"FIP-Percepcion-como-Acoplamiento",
+  "label":"Percepción como acoplamiento",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Percepcion-como-Acoplamiento",
+  "summary":"Bloque que nombra la percepción como contacto estructurado entre sistema cognitivo y realidad, no como copia pasiva ni como invención ex nihilo."
+}}
+
+{"address":"graph/node/FIP-Actualizacion-Secundaria-de-Realidad","content":{
+  "id":"FIP-Actualizacion-Secundaria-de-Realidad",
+  "label":"Actualización secundaria de realidad",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Actualizacion-Secundaria-de-Realidad",
+  "summary":"Operación por la cual un sistema cognitivo reorganiza internamente pesos y salidas, y puede modificar condiciones del entorno mediante acción, decisión y comunicación."
+}}
+
+{"address":"graph/node/FIP-Mapa-de-Respuesta-Regional","content":{
+  "id":"FIP-Mapa-de-Respuesta-Regional",
+  "label":"Mapa de respuesta regional",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Mapa-de-Respuesta-Regional",
+  "summary":"Bloque que traduce vectores y trayectorias hacia regiones dominantes, diagnósticos y consecuencias estructuradas."
+}}
+
+{"address":"graph/node/FIP-Deteccion-de-Incoherencias","content":{
+  "id":"FIP-Deteccion-de-Incoherencias",
+  "label":"Detección de incoherencias",
+  "type":"bridge_node",
+  "definition_ref":"def/FIP-Deteccion-de-Incoherencias",
+  "summary":"Subbloque del mapa encargado de detectar configuraciones rotas, ambiguas, contradictorias o insuficientemente sostenidas."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (ARISTAS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/edge/FIP-001","content":{
+  "id":"FIP-001",
+  "from":"FIP-Fuente-Identitaria-Primaria",
+  "to":"FIP-Identidad-Extensional-Primaria",
+  "type":"depends_on",
+  "rationale":"La Fuente Primaria solo puede formularse de manera portable si su identidad extensional queda fijada explícitamente."
+}}
+
+{"address":"graph/edge/FIP-002","content":{
+  "id":"FIP-002",
+  "from":"FIP-Fuente-Identitaria-Primaria",
+  "to":"FIP-Espacio-Intensional-Originario",
+  "type":"depends_on",
+  "rationale":"La Fuente Primaria requiere un espacio intensional para hacer explícita la gramática estable de lo que puede proceder de ella."
+}}
+
+{"address":"graph/edge/FIP-003","content":{
+  "id":"FIP-003",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Dimension-Originaria",
+  "type":"depends_on",
+  "rationale":"Un espacio intensional originario necesita ejes explícitos de manifestación para ser analizable y comparable."
+}}
+
+{"address":"graph/edge/FIP-004","content":{
+  "id":"FIP-004",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Region-del-Espacio-Intensional-Originario",
+  "type":"depends_on",
+  "rationale":"El análisis fuerte del espacio no se agota en dimensiones sueltas; necesita regiones estructurales."
+}}
+
+{"address":"graph/edge/FIP-005","content":{
+  "id":"FIP-005",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Originacion",
+  "type":"has_intensional_dimension",
+  "rationale":"La originación es uno de los ejes reconstruidos como dimensión estable del espacio procedente de la Fuente."
+}}
+
+{"address":"graph/edge/FIP-006","content":{
+  "id":"FIP-006",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Vida",
+  "type":"has_intensional_dimension",
+  "rationale":"La vida constituye un eje central en la reconstrucción bíblica de la fuente verdadera."
+}}
+
+{"address":"graph/edge/FIP-007","content":{
+  "id":"FIP-007",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Luz-Inteligibilidad",
+  "type":"has_intensional_dimension",
+  "rationale":"La inteligibilidad y la visibilidad de lo real proceden, en esta reformulación, como dimensión originaria."
+}}
+
+{"address":"graph/edge/FIP-008","content":{
+  "id":"FIP-008",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Palabra-Eficaz",
+  "type":"has_intensional_dimension",
+  "rationale":"La actualización articulada de configuraciones se modela como dimensión originaria específica."
+}}
+
+{"address":"graph/edge/FIP-009","content":{
+  "id":"FIP-009",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Espiritu-Dinamismo",
+  "type":"has_intensional_dimension",
+  "rationale":"El dinamismo vivificante y renovador necesita quedar fijado como eje propio."
+}}
+
+{"address":"graph/edge/FIP-010","content":{
+  "id":"FIP-010",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Sabiduria-Orden",
+  "type":"has_intensional_dimension",
+  "rationale":"La composibilidad y el orden modelable de lo real se expresan como dimensión originaria."
+}}
+
+{"address":"graph/edge/FIP-011","content":{
+  "id":"FIP-011",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Santidad-Pureza",
+  "type":"has_intensional_dimension",
+  "rationale":"La preservación cualitativa del origen limita el espacio de mezclas posibles."
+}}
+
+{"address":"graph/edge/FIP-012","content":{
+  "id":"FIP-012",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Justicia-Rectitud",
+  "type":"has_intensional_dimension",
+  "rationale":"La discriminación entre configuraciones compatibles e incompatibles requiere un eje de rectitud."
+}}
+
+{"address":"graph/edge/FIP-013","content":{
+  "id":"FIP-013",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Misericordia-Fidelidad",
+  "type":"has_intensional_dimension",
+  "rationale":"La gratuidad y la estabilidad del vínculo pertenecen al espacio originario reconstruido."
+}}
+
+{"address":"graph/edge/FIP-014","content":{
+  "id":"FIP-014",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Fecundidad-Restauracion",
+  "type":"has_intensional_dimension",
+  "rationale":"La orientación del sistema hacia fruto, sanación y restauración se fija como dimensión propia."
+}}
+
+{"address":"graph/edge/FIP-015","content":{
+  "id":"FIP-015",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Interiorizacion-Derivacion",
+  "type":"has_intensional_dimension",
+  "rationale":"La posibilidad de brotes secundarios legítimos debe formar parte del espacio originario."
+}}
+
+{"address":"graph/edge/FIP-016","content":{
+  "id":"FIP-016",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"FIP-Discernimiento-de-Autenticidad",
+  "type":"has_intensional_dimension",
+  "rationale":"La diferencia entre fuente viva y sustituto roto exige un eje de discernimiento explícito."
+}}
+
+{"address":"graph/edge/FIP-017","content":{
+  "id":"FIP-017",
+  "from":"FIP-Fuente-Identitaria-Primaria",
+  "to":"FIP-Campo-de-Manifestacion-Universal",
+  "type":"enables",
+  "rationale":"La Fuente Primaria hace posible el campo de manifestación, pero no debe confundirse con él."
+}}
+
+{"address":"graph/edge/FIP-018","content":{
+  "id":"FIP-018",
+  "from":"FIP-Campo-de-Manifestacion-Universal",
+  "to":"FIP-Vector-de-Instanciacion-Ontologica",
+  "type":"realizes",
+  "rationale":"Las entidades y eventos concretos del campo se representan como vectores de instanciación ontológica."
+}}
+
+{"address":"graph/edge/FIP-019","content":{
+  "id":"FIP-019",
+  "from":"FIP-Campo-de-Manifestacion-Universal",
+  "to":"FIP-Trayectoria-de-Transformacion",
+  "type":"realizes",
+  "rationale":"La historia efectiva del campo se expresa como trayectorias, no como instantáneas aisladas."
+}}
+
+{"address":"graph/edge/FIP-020","content":{
+  "id":"FIP-020",
+  "from":"FIP-Invariante-de-Conservacion",
+  "to":"FIP-Trayectoria-de-Transformacion",
+  "type":"constrains",
+  "rationale":"Los invariantes delimitan qué transformaciones conservan identidad a lo largo de una trayectoria."
+}}
+
+{"address":"graph/edge/FIP-021","content":{
+  "id":"FIP-021",
+  "from":"FIP-Restriccion-de-Regimen",
+  "to":"FIP-Campo-de-Manifestacion-Universal",
+  "type":"constrains",
+  "rationale":"El campo no es indiferenciado; sus configuraciones válidas quedan recortadas por restricciones de régimen."
+}}
+
+{"address":"graph/edge/FIP-022","content":{
+  "id":"FIP-022",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-de-Alineacion-Generativa",
+  "type":"maps_to",
+  "rationale":"Algunas configuraciones concretas ocupan regiones donde vida, orden y legitimidad convergen."
+}}
+
+{"address":"graph/edge/FIP-023","content":{
+  "id":"FIP-023",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-de-Mediacion-Legitima",
+  "type":"maps_to",
+  "rationale":"Algunas configuraciones no son originarias, pero sí derivadas legítimamente de la Fuente."
+}}
+
+{"address":"graph/edge/FIP-024","content":{
+  "id":"FIP-024",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-de-Fecundidad-Restaurativa",
+  "type":"maps_to",
+  "rationale":"Las configuraciones con fruto, sanación y recomposición suficiente se leen como región restaurativa."
+}}
+
+{"address":"graph/edge/FIP-025","content":{
+  "id":"FIP-025",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-Ambigua",
+  "type":"maps_to",
+  "rationale":"No toda configuración admite lectura fuerte; algunas activan competencia regional sin resolución suficiente."
+}}
+
+{"address":"graph/edge/FIP-026","content":{
+  "id":"FIP-026",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-Inestable",
+  "type":"maps_to",
+  "rationale":"Ciertas configuraciones son formables, pero no sostienen continuidad suficiente de trayectoria."
+}}
+
+{"address":"graph/edge/FIP-027","content":{
+  "id":"FIP-027",
+  "from":"FIP-Vector-de-Instanciacion-Ontologica",
+  "to":"FIP-Region-de-Sustitucion-Invalidante",
+  "type":"maps_to",
+  "rationale":"Las configuraciones donde aparece simulacro de fuente o depósito roto se clasifican en región invalidante."
+}}
+
+{"address":"graph/edge/FIP-028","content":{
+  "id":"FIP-028",
+  "from":"FIP-Cognicion-como-Lectura-Regional",
+  "to":"FIP-Region-del-Espacio-Intensional-Originario",
+  "type":"uses",
+  "rationale":"La cognición opera mejor como lectura de regiones, compatibilidades y transiciones que como lectura de puntos aislados."
+}}
+
+{"address":"graph/edge/FIP-029","content":{
+  "id":"FIP-029",
+  "from":"FIP-Cognicion-como-Lectura-Regional",
+  "to":"FIP-Percepcion-como-Acoplamiento",
+  "type":"depends_on",
+  "rationale":"La lectura regional presupone percepción como contacto real con configuraciones del campo."
+}}
+
+{"address":"graph/edge/FIP-030","content":{
+  "id":"FIP-030",
+  "from":"FIP-Cognicion-como-Lectura-Regional",
+  "to":"FIP-Actualizacion-Secundaria-de-Realidad",
+  "type":"yields",
+  "rationale":"La lectura cognitiva puede reorganizar estados internos y proyectarse en acción sobre el entorno."
+}}
+
+{"address":"graph/edge/FIP-031","content":{
+  "id":"FIP-031",
+  "from":"FIP-Actualizacion-Secundaria-de-Realidad",
+  "to":"FIP-Campo-de-Manifestacion-Universal",
+  "type":"adapts_from",
+  "rationale":"La actualización secundaria no crea el campo desde cero; reopera localmente dentro de él."
+}}
+
+{"address":"graph/edge/FIP-032","content":{
+  "id":"FIP-032",
+  "from":"FIP-Mapa-de-Respuesta-Regional",
+  "to":"FIP-Vector-de-Instanciacion-Ontologica",
+  "type":"uses",
+  "rationale":"El mapa necesita vectores concretos para producir lectura, diagnóstico y salida."
+}}
+
+{"address":"graph/edge/FIP-033","content":{
+  "id":"FIP-033",
+  "from":"FIP-Mapa-de-Respuesta-Regional",
+  "to":"FIP-Trayectoria-de-Transformacion",
+  "type":"uses",
+  "rationale":"Las salidas no deben depender solo del instante, sino también de la consistencia de la trayectoria."
+}}
+
+{"address":"graph/edge/FIP-034","content":{
+  "id":"FIP-034",
+  "from":"FIP-Mapa-de-Respuesta-Regional",
+  "to":"FIP-Deteccion-de-Incoherencias",
+  "type":"depends_on",
+  "rationale":"Un mapa fuerte debe poder detectar configuraciones inválidas, ambiguas o inestables."
+}}
+
+{"address":"graph/edge/FIP-035","content":{
+  "id":"FIP-035",
+  "from":"FIP-Deteccion-de-Incoherencias",
+  "to":"FIP-Region-de-Sustitucion-Invalidante",
+  "type":"invalidates",
+  "rationale":"La región de sustitución rota es una de las salidas diagnósticas centrales del discernimiento."
+}}
+
+{"address":"graph/edge/FIP-036","content":{
+  "id":"FIP-036",
+  "from":"FIP-Deteccion-de-Incoherencias",
+  "to":"FIP-Region-Ambigua",
+  "type":"provides_criteria_for",
+  "rationale":"La ambigüedad no es ausencia de lectura, sino diagnóstico estructural específico."
+}}
+
+{"address":"graph/edge/FIP-037","content":{
+  "id":"FIP-037",
+  "from":"FIP-Deteccion-de-Incoherencias",
+  "to":"FIP-Region-Inestable",
+  "type":"provides_criteria_for",
+  "rationale":"La inestabilidad debe distinguirse de la invalidez y de la mera ambigüedad."
+}}
+
+{"address":"graph/edge/FIP-038","content":{
+  "id":"FIP-038",
+  "from":"FIP-Identidad-Extensional-Primaria",
+  "to":"Arq-Cog-Interior",
+  "type":"depends_on",
+  "rationale":"La formulación portable de la Fuente Primaria requiere declarar interior como criterio mínimo de identidad."
+}}
+
+{"address":"graph/edge/FIP-039","content":{
+  "id":"FIP-039",
+  "from":"FIP-Identidad-Extensional-Primaria",
+  "to":"Arq-Cog-Frontera",
+  "type":"depends_on",
+  "rationale":"La Fuente necesita frontera explícita para distinguir interior, contacto y exterior relevante."
+}}
+
+{"address":"graph/edge/FIP-040","content":{
+  "id":"FIP-040",
+  "from":"FIP-Identidad-Extensional-Primaria",
+  "to":"Arq-Cog-Envolvente",
+  "type":"depends_on",
+  "rationale":"La identidad solo es legible si el entorno potencialmente relevante queda declarado."
+}}
+
+{"address":"graph/edge/FIP-041","content":{
+  "id":"FIP-041",
+  "from":"FIP-Identidad-Extensional-Primaria",
+  "to":"Arq-Cog-Vecindad-Relevante",
+  "type":"depends_on",
+  "rationale":"No todo exterior importa por igual; la vecindad relevante recorta el contacto significativo."
+}}
+
+{"address":"graph/edge/FIP-042","content":{
+  "id":"FIP-042",
+  "from":"FIP-Espacio-Intensional-Originario",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"El espacio originario solo puede tratarse adecuadamente bajo una gramática intensional, no puramente extensional."
+}}
+
+{"address":"graph/edge/FIP-043","content":{
+  "id":"FIP-043",
+  "from":"FIP-Cognicion-como-Lectura-Regional",
+  "to":"Arq-Cog-Superficie-de-Integracion",
+  "type":"uses",
+  "rationale":"La cognición actualiza configuraciones a través de superficies de integración entre interior y entorno."
+}}
+
+{"address":"graph/edge/FIP-044","content":{
+  "id":"FIP-044",
+  "from":"FIP-Percepcion-como-Acoplamiento",
+  "to":"Arq-Cog-Frontera-de-Entrada",
+  "type":"uses",
+  "rationale":"La percepción se formula operativamente como entrada estructurada a través de una frontera de recepción."
+}}
+
+{"address":"graph/edge/FIP-045","content":{
+  "id":"FIP-045",
+  "from":"FIP-Actualizacion-Secundaria-de-Realidad",
+  "to":"Arq-Cog-Frontera-de-Salida",
+  "type":"uses",
+  "rationale":"La actualización secundaria modifica condiciones del entorno mediante salidas, acciones y expresiones."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                DEFINICIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/FIP-Fuente-Identitaria-Primaria","content":"[
+DEFINICIÓN
+La Fuente Identitaria Primaria nombra, dentro de esta ontología, la entidad que no debe tratarse como una instancia más del campo, sino como el principio estable desde el cual se abre el régimen de posibilidad, manifestación y lectura del sistema.
+
+ACLARACIÓN
+Esta definición no pretende convertir a Dios en un objeto finito dentro del mismo nivel ontológico que las entidades del universo. La función del nodo es metodológica y ontológica a la vez: impedir que la fuente sea reducida a caso, atributo disperso, símbolo poético o explicación arbitraria de lagunas.
+
+FUNCIÓN DENTRO DEL MODELO
+La Fuente Primaria cumple cinco funciones mínimas:
+1. sostener identidad estable;
+2. abrir un espacio intensional originario;
+3. habilitar un campo de manifestación;
+4. hacer posible discernimiento entre configuraciones compatibles e incompatibles;
+5. impedir que el sistema colapse en puro relativismo transformacional.
+
+POR QUÉ NO ES UN VECTOR
+Un vector pertenece al plano de los casos y de las configuraciones concretas. La Fuente Primaria, en cambio, es la condición de que haya un espacio dentro del cual esos vectores puedan existir, ser comparados y recorrerse en trayectorias.
+]"}
+
+{"address":"def/FIP-Identidad-Extensional-Primaria","content":"[
+DEFINICIÓN
+Bloque que fija la identidad estructural mínima de la Fuente Primaria mediante los componentes extensionales exigidos por la gramática de TMC: interior, frontera, envolvente, vecindad relevante, lógica de lectura y salidas compatibles.
+
+FUNCIÓN
+Su función no es describir exhaustivamente la esencia divina, sino volver portable la entidad dentro de un grafo. Una ontología sin identidad extensional clara se degrada rápidamente a lenguaje evocativo o interpretación privada.
+
+NOTA
+La necesidad de este bloque no contradice la tesis de que la fuente sea primaria; al contrario, evita que “primaria” signifique solo “vaga”.
+]"}
+
+{"address":"def/FIP-Espacio-Intensional-Originario","content":"[
+DEFINICIÓN
+Conjunto organizado de dimensiones originarias de manifestación que proceden de la Fuente Primaria sin dividirla en partes. Opera como gramática estable del dominio de posibilidad originaria.
+
+ACLARACIÓN CRÍTICA
+Decir “espacio intensional originario” no significa que Dios cambie internamente como un objeto paramétrico ordinario. Significa que, para fines de modelado, es posible reconstruir ejes estables desde los cuales las configuraciones creadas pueden ser leídas como compatibles, derivadas, ambiguas, restaurativas o deformadas.
+
+MEJORA RESPECTO DE FORMULACIONES ANTERIORES
+La expresión corrige dos reducciones frecuentes:
+1. reducir la fuente a metáfora sin estructura;
+2. tratar las dimensiones como si fueran atributos sueltos y no coordenadas de un espacio inteligible.
+]"}
+
+{"address":"def/FIP-Region-del-Espacio-Intensional-Originario","content":"[
+DEFINICIÓN
+Subzona del espacio originario donde distintas configuraciones comparten propiedades estructurales relevantes o tienden a producir respuestas semejantes.
+
+IMPORTANCIA TEÓRICA
+Este nodo es decisivo porque permite pasar de un análisis basado en listas de atributos a una geometría ontológica. Ya no se pregunta solo “qué dimensiones tiene una configuración”, sino “qué región ocupa”, “qué trayectorias la atraviesan” y “qué diagnósticos produce”.
+
+GANANCIA
+La región vuelve posible una lectura fuerte del discernimiento: una configuración puede no ser simplemente buena o mala, sino ambigua, inestable, restaurativa, derivada legítimamente o sustituyente de la fuente.
+]"}
+
+{"address":"def/FIP-Dimension-Originaria","content":"[
+DEFINICIÓN
+Nodo genérico para cada eje estable de manifestación reconstruido desde la constelación bíblica y formalizado dentro del modelo de Fuentes Identitarias.
+
+ACLARACIÓN
+Una dimensión originaria no es una parte separable de la Fuente Primaria. Es un eje teórico de procedencia y lectura desde el cual ciertas configuraciones creadas pueden ser pensadas, comparadas y evaluadas.
+]"}
+
+{"address":"def/FIP-Originacion","content":"[
+DEFINICIÓN
+La originación es la dimensión por la cual la Fuente Primaria no solo conserva o alimenta lo dado, sino que hace surgir realidad, abre procesos y llama configuraciones al ser.
+
+FUNCIÓN DENTRO DEL MODELO
+Esta dimensión sirve para distinguir entre:
+- lo que posee potencia de inicio,
+- lo que solo conserva,
+- y lo que meramente imita una génesis sin producirla realmente.
+
+NOTA
+En la reconstrucción bíblica, esta dimensión se apoya en la recurrencia de Dios como creador y principio de surgimiento efectivo.
+]"}
+
+{"address":"def/FIP-Vida","content":"[
+DEFINICIÓN
+La vida es la dimensión por la cual la Fuente Primaria vivifica, sostiene, renueva y reconstituye procesos y entidades.
+
+USO TEÓRICO
+Esta dimensión permite distinguir configuraciones que solo exhiben movimiento aparente de aquellas que realmente poseen continuidad vivificante.
+
+RAZÓN DE SU CENTRALIDAD
+La tradición bíblica acopla repetidamente fuente y vida; por eso este eje funciona como uno de los organizadores mayores del espacio originario.
+]"}
+
+{"address":"def/FIP-Luz-Inteligibilidad","content":"[
+DEFINICIÓN
+Dimensión por la cual la realidad se hace visible, comprensible y susceptible de lectura. No nombra solamente iluminación moral o espiritual, sino inteligibilidad efectiva.
+
+FUNCIÓN
+Conecta la fuente con la posibilidad de cognición: no porque la cognición cree la luz, sino porque participa de una apertura previa de manifestación.
+]"}
+
+{"address":"def/FIP-Palabra-Eficaz","content":"[
+DEFINICIÓN
+Dimensión que nombra la actualización articulada de configuraciones: aquello que separa, distingue, nombra y al mismo tiempo hace emerger régimen de realidad.
+
+FUNCIÓN
+Permite modelar el paso de posibilidad a manifestación sin reducirlo a mecanismo ciego ni a expresión puramente simbólica.
+]"}
+
+{"address":"def/FIP-Espiritu-Dinamismo","content":"[
+DEFINICIÓN
+Dimensión que nombra el dinamismo circulante y renovador de la realidad. Introduce la tesis de que el campo de manifestación no es estático, aunque conserve invariantes.
+
+FUNCIÓN
+Aporta una manera de pensar transformación real sin ruptura total de identidad.
+]"}
+
+{"address":"def/FIP-Sabiduria-Orden","content":"[
+DEFINICIÓN
+Dimensión que nombra composición, límite, forma, inteligibilidad y articulación no caótica de lo real.
+
+FUNCIÓN
+Es una de las bases más fuertes del puente entre tu teoría y el planteamiento sobre matemáticas/modelado: si la realidad es modelable, no es porque sea matemática en sentido trivial, sino porque su orden admite preservación estructural.
+]"}
+
+{"address":"def/FIP-Santidad-Pureza","content":"[
+DEFINICIÓN
+Dimensión que nombra la diferencia cualitativa del origen, su no-indiferenciación y su resistencia a mezclas que degradan la legitimidad de la manifestación.
+
+FUNCIÓN
+Introduce un criterio fuerte para pensar por qué no toda combinación o trayectoria merece contarse como compatible con la fuente.
+]"}
+
+{"address":"def/FIP-Justicia-Rectitud","content":"[
+DEFINICIÓN
+Dimensión que nombra peso normativo, orden evaluativo y capacidad de discriminar entre configuraciones compatibles, ambiguas o rotas.
+
+FUNCIÓN
+Impide que el espacio de posibilidad se lea como un continuum axiológicamente plano.
+]"}
+
+{"address":"def/FIP-Misericordia-Fidelidad","content":"[
+DEFINICIÓN
+Dimensión que nombra gratuidad del don, continuidad del vínculo y estabilidad benevolente del sostén.
+
+FUNCIÓN
+Evita que la fuente primaria se interprete solo como poder, estructura o régimen normativo. Introduce la dimensión de vínculo, permanencia y donación.
+]"}
+
+{"address":"def/FIP-Fecundidad-Restauracion","content":"[
+DEFINICIÓN
+Dimensión que nombra fruto, sanación, recomposición y plenitud de trayectoria.
+
+FUNCIÓN
+Permite leer el telos del sistema no como mera conservación mecánica, sino como restauración fecunda.
+]"}
+
+{"address":"def/FIP-Interiorizacion-Derivacion","content":"[
+DEFINICIÓN
+Dimensión que nombra la posibilidad de que una entidad creada o una instancia histórica opere como brote derivado de la Fuente sin reclamar primacía absoluta.
+
+FUNCIÓN
+Es crucial para pensar sujetos, comunidades, prácticas o mediaciones que no son la fuente misma, pero sí pueden ser cauces legítimos de su flujo.
+]"}
+
+{"address":"def/FIP-Discernimiento-de-Autenticidad","content":"[
+DEFINICIÓN
+Dimensión que nombra la capacidad de distinguir fuente viva de sustituto, brote legítimo de simulacro, depósito vivo de cisterna rota.
+
+FUNCIÓN
+Hace posible una lectura estructural del problema bíblico de la fuente falsa y además se articula directamente con la detección de incoherencias del modelo intensional.
+]"}
+
+{"address":"def/FIP-Campo-de-Manifestacion-Universal","content":"[
+DEFINICIÓN
+Plano de realización de configuraciones, regiones y trayectorias compatibles con la Fuente Primaria.
+
+ACLARACIÓN
+El campo no debe confundirse con la fuente. La fuente habilita el campo; el campo manifiesta configuraciones. La distinción impide que el universo sea tratado como la totalidad autosuficiente o como simple vector.
+
+FUNCIÓN
+Permite pensar el universo como dominio transformacional bajo invariantes, restricciones y regiones, en lugar de imaginarlo como colección plana de cosas."
+]}
+
+{"address":"def/FIP-Vector-de-Instanciacion-Ontologica","content":"[
+DEFINICIÓN
+Representación ordenada de una entidad, proceso o evento concreto en términos de valores sobre dimensiones relevantes del espacio intensional.
+
+FUNCIÓN
+Hace posible comparar casos, ubicarlos en regiones, producir diagnósticos y seguir trayectorias.
+
+ACLARACIÓN
+El vector no agota la entidad real; la vuelve operable dentro del modelo.
+]"}
+
+{"address":"def/FIP-Trayectoria-de-Transformacion","content":"[
+DEFINICIÓN
+Secuencia de desplazamientos de una configuración entre regiones del campo, bajo ciertas restricciones e invariantes.
+
+IMPORTANCIA
+Este nodo es central para tu intuición de que la realidad está hecha de transformaciones. La corrección que introduce es la siguiente: la transformación no ocurre en vacío ni destruye siempre la identidad; ocurre sobre trayectorias que pueden conservar algo, romperlo, restaurarlo o desplazarlo de régimen.
+]"}
+
+{"address":"def/FIP-Invariante-de-Conservacion","content":"[
+DEFINICIÓN
+Aquello que permanece estable bajo una familia de transformaciones y permite afirmar continuidad de identidad.
+
+FUNCIÓN
+Traduce al lenguaje de la ontología lo que en ciencias aparece como conservación, simetría o estructura preservada. Hace posible pensar el universo como cambio real sin colapso total del todo.
+]"}
+
+{"address":"def/FIP-Restriccion-de-Regimen","content":"[
+DEFINICIÓN
+Límite estructural que reduce el espacio de configuraciones válidas.
+
+FUNCIÓN
+Evita dos errores:
+1. pensar que todo punto del espacio es igualmente legítimo;
+2. pensar que toda trayectoria es equiparable a cualquier otra.
+
+RESULTADO
+Con restricciones, el espacio de posibilidad deja de ser mera expansión abstracta y se convierte en dominio cualificado.
+]"}
+
+{"address":"def/FIP-Region-de-Alineacion-Generativa","content":"[
+DEFINICIÓN
+Región donde originación, vida, orden, legitimidad y fecundidad convergen de forma compatible.
+
+FUNCIÓN
+Sirve como zona patrón para configuraciones que no solo subsisten, sino que además generan continuidad, inteligibilidad y fruto.
+]"}
+
+{"address":"def/FIP-Region-de-Mediacion-Legitima","content":"[
+DEFINICIÓN
+Región donde una instancia derivada participa realmente de la Fuente sin suplantarla.
+
+FUNCIÓN
+Permite pensar sujetos, comunidades, acciones, signos o mediaciones como brotes secundarios legítimos. Evita la falsa dicotomía entre origen absoluto y simulacro total.
+]"}
+
+{"address":"def/FIP-Region-de-Fecundidad-Restaurativa","content":"[
+DEFINICIÓN
+Región donde una trayectoria produce recomposición, sanación, fruto y estabilidad de vida.
+
+FUNCIÓN
+Expresa el modo en que la dimensión restaurativa del espacio originario llega a hacerse visible en el campo de manifestación.
+]"}
+
+{"address":"def/FIP-Region-Ambigua","content":"[
+DEFINICIÓN
+Región donde una configuración activa señales mixtas o competidoras sin resolución suficiente.
+
+FUNCIÓN
+Permite abandonar la lógica binaria simplista. Una configuración puede no ser todavía ilegítima y, sin embargo, no estar clara.
+]"}
+
+{"address":"def/FIP-Region-Inestable","content":"[
+DEFINICIÓN
+Región donde una configuración todavía puede formarse, pero no sostiene continuidad robusta de trayectoria.
+
+FUNCIÓN
+Introduce diagnóstico dinámico: algo puede parecer válido en un instante y, aun así, no ser estable.
+]"}
+
+{"address":"def/FIP-Region-de-Sustitucion-Invalidante","content":"[
+DEFINICIÓN
+Región donde aparece simulacro de fuente, promesa de sostén sin continuidad real de flujo, o configuración estructuralmente rota respecto del origen.
+
+FUNCIÓN
+Formaliza el problema bíblico de la sustitución de la fuente viva por depósitos que no sostienen vida, continuidad o legitimidad.
+]"}
+
+{"address":"def/FIP-Cognicion-como-Lectura-Regional","content":"[
+DEFINICIÓN
+La cognición se formula aquí como operación de lectura de regiones, patrones, compatibilidades y transiciones dentro del campo de manifestación.
+
+CORRECCIÓN SOBRE FORMULACIONES ANTERIORES
+No basta decir que la cognición “percibe cosas”. La cognición discrimina, agrupa, pondera, anticipa trayectorias y organiza salidas a partir de configuraciones regionales.
+
+VENTAJA
+Esta formulación encaja mucho mejor con TMC y con la ontología intensional que una idea puramente receptiva o pasiva del conocer.
+]"}
+
+{"address":"def/FIP-Percepcion-como-Acoplamiento","content":"[
+DEFINICIÓN
+La percepción nombra el acoplamiento estructurado entre sistema cognitivo y configuraciones reales del campo.
+
+ACLARACIÓN
+Aquí la percepción no es copia fotográfica del mundo ni invención absoluta de la mente. Es contacto real, recortado, modulado y capaz de reorganizar interioridad.
+
+FUNCIÓN
+Permite sostener la tesis de que el pensamiento no emerge ex nihilo, sin reducirlo a repetición mecánica de lo dado.
+]"}
+
+{"address":"def/FIP-Actualizacion-Secundaria-de-Realidad","content":"[
+DEFINICIÓN
+Operación por la cual un sistema cognitivo reorganiza pesos, umbrales, prioridades y salidas internas, y puede modificar condiciones del entorno a través de acción, decisión y comunicación.
+
+POR QUÉ ES SECUNDARIA
+Es secundaria porque no crea el campo de manifestación ni la fuente originaria. Opera dentro de un dominio previamente abierto, aunque puede reconfigurar regiones locales de experiencia, práctica e institución.
+]"}
+
+{"address":"def/FIP-Mapa-de-Respuesta-Regional","content":"[
+DEFINICIÓN
+Bloque que traduce vectores y trayectorias hacia regiones dominantes, diagnósticos y consecuencias estructuradas.
+
+FUNCIÓN
+Es el lugar donde el modelo decide si una configuración cae en alineación generativa, mediación legítima, fecundidad restaurativa, ambigüedad, inestabilidad o sustitución invalidante.
+]"}
+
+{"address":"def/FIP-Deteccion-de-Incoherencias","content":"[
+DEFINICIÓN
+Subbloque del mapa de respuesta encargado de detectar configuraciones rotas, ambiguas, contradictorias o insuficientemente sostenidas.
+
+FUNCIÓN
+Garantiza que el sistema pueda declarar no solo salidas positivas, sino también diagnósticos fuertes de invalidez, mezcla, tensión o fragilidad.
+
+IMPORTANCIA
+Sin este bloque, la ontología perdería gran parte de su poder de discernimiento y volvería a una descripción plana del espacio.
+]"}

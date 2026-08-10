@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_en_scroll_rapido-personas_en_scroll_rapido",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_en_scroll_rapido-personas_en_scroll_rapido",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_en_scroll_rapido-personas_en_scroll_rapido",
+    "type": "has_value",
+    "rationale": "personas_en_scroll_rapido es un valor nuevo de publico_objetivo_inmediato incorporado para la realización imagen."
+  }
+}

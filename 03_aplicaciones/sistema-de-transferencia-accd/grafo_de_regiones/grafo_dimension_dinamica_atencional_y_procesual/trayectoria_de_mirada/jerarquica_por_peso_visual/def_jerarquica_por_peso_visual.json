@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-jerarquica_por_peso_visual-jerarquica_por_peso_visual",
+  "content": "**Definición.** Recorrido en el que la mirada no sigue una dirección geométrica fija, sino la fuerza relativa de los elementos: tamaño, contraste, color, nitidez, aislamiento, luminosidad, posición o densidad. El orden perceptivo se determina por jerarquía de peso visual.\n\n**Diferenciación semántica.** Se diferencia de `arriba_abajo` o `izquierda_derecha` porque no depende de una dirección espacial estable. Se diferencia de `libre_exploratoria` porque existe un orden inducido por dominancia visual, aunque no sea lineal.\n\n**Interpretación mínima.** La IA debe entender que los elementos más pesados visualmente serán leídos primero, sin importar necesariamente su posición geométrica."
+}

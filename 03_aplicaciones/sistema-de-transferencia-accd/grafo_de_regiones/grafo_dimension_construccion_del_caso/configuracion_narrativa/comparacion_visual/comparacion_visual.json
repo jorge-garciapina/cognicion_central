@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-comparacion_visual-comparacion_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-comparacion_visual-comparacion_visual",
+    "label": "comparacion_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-comparacion_visual-comparacion_visual",
+    "summary": "**Definición.** Configuración en la que el caso se entiende mediante la oposición o evaluación paralela de dos o más elementos visibles. No se limita a “comparar”: exige que la diferencia conceptual pueda percibirse por contraste espacial, atributos gráficos, escala, posición, color, iconos, etiquet",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

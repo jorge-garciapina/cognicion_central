@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo",
+    "label": "video_puntual_de_refuerzo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo",
+    "summary": "Valor video_puntual_de_refuerzo declarado para el campo uso_de_video_generado.",
+    "metadata": {
+      "value_of": "uso_de_video_generado",
+      "source_section": "12.3"
+    }
+  }
+}

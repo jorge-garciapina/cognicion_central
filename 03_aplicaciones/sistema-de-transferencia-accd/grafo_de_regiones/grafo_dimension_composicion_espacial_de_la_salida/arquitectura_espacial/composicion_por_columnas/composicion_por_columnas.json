@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-composicion_por_columnas-composicion_por_columnas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-composicion_por_columnas-composicion_por_columnas",
+    "label": "composicion_por_columnas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-composicion_por_columnas-composicion_por_columnas",
+    "summary": "**Definición.** Organización que estructura información en columnas verticales. Es útil para comparar categorías, crear lectura escaneable o distribuir bloques de información con orden editorial.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial"
+    }
+  }
+}

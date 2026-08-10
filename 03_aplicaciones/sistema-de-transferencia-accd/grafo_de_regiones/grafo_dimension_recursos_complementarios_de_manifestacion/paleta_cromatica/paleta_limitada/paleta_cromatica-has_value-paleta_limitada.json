@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-paleta_limitada-paleta_limitada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-paleta_limitada-paleta_limitada",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-paleta_limitada-paleta_limitada",
+    "type": "has_value",
+    "rationale": "paleta_limitada es un valor nuevo incorporado en paleta_cromatica para la realización imagen."
+  }
+}

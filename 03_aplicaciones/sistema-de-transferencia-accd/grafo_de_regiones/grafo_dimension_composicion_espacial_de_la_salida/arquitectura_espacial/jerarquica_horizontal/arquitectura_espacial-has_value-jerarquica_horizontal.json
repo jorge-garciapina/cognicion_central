@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_horizontal-jerarquica_horizontal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_horizontal-jerarquica_horizontal",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_horizontal-jerarquica_horizontal",
+    "type": "has_value",
+    "rationale": "jerarquica_horizontal es un valor nuevo incorporado en arquitectura_espacial para la realización imagen."
+  }
+}

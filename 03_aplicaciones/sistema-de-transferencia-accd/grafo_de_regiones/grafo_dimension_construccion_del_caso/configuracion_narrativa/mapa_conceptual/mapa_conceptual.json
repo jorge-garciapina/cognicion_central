@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-mapa_conceptual-mapa_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-mapa_conceptual-mapa_conceptual",
+    "label": "mapa_conceptual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-mapa_conceptual-mapa_conceptual",
+    "summary": "**Definición.** Configuración que representa el caso como una red de conceptos conectados. Prioriza nodos, vínculos, dependencias y agrupaciones por encima de una narración lineal. Sirve para mostrar cómo varias ideas se relacionan entre sí, qué conceptos ocupan posición central y cuáles funcionan c",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

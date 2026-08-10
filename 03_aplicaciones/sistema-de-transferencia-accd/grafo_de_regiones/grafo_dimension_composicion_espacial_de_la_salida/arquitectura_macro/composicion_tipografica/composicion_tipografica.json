@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_tipografica-composicion_tipografica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_tipografica-composicion_tipografica",
+    "label": "composicion_tipografica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_tipografica-composicion_tipografica",
+    "summary": "**Definición.** Arquitectura donde la tipografía es el principal organizador visual. Las palabras no sólo se leen: construyen peso, ritmo, forma, jerarquía y estilo de la imagen.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

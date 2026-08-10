@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-matriz_cuadrantes-matriz_cuadrantes",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-matriz_cuadrantes-matriz_cuadrantes",
+    "label": "matriz_cuadrantes",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-matriz_cuadrantes-matriz_cuadrantes",
+    "summary": "**Definición.** Distribución que divide el lienzo por dos ejes cruzados, generando cuatro espacios de clasificación. Cada cuadrante representa una combinación de variables, tensiones o criterios. Es útil cuando el significado surge de la posición relativa dentro de un plano de decisión.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

@@ -1,0 +1,502 @@
+================================================================================
+DEFINICIÓN — ARQ-COG — CORRELACIÓN INTERCAPA
+Versión: v1.0 (autónoma + lista para integrar en grafo)
+Propósito dual:
+1) Ser legible como sección autónoma de consulta, sin depender de contexto conversacional.
+2) Ser integrable al grafo teórico como ontología débil refinable, preparada para futura expansión.
+
+================================================================================
+
+0) Intención del concepto
+
+Arq-Cog-Correlación-Intercapa se introduce para fijar, de manera explícita y portable, un tipo
+particular de relación explicativa que aparece cuando una covariación observable en un plano del
+sistema no encuentra su razón suficiente en ese mismo plano, sino en una capa ontológica distinta
+que la hace posible, la organiza o la restringe.
+
+Su función no es nombrar cualquier correlación entre partes del sistema.
+Tampoco es ofrecer una forma elegante de decir que “todo está relacionado”.
+Su función es volver auditable una situación muy específica:
+
+- una manifestación cambia junto con otra,
+- pero la explicación de esa covariación no está principalmente en la relación local visible entre
+  ambas manifestaciones,
+- sino en una estructura generativa compartida, situada en otra capa del sistema.
+
+Este nodo existe para evitar un error metodológico frecuente:
+buscar siempre la causa en el mismo plano donde el efecto se vuelve visible.
+
+En otras palabras, Arq-Cog-Correlación-Intercapa responde a una pregunta central:
+
+“¿Qué ocurre cuando dos realizaciones covarían, pero esa covariación no se explica bien por su
+vecindad local inmediata, sino por una dependencia común respecto de una capa ontológica superior?”
+
+Por eso, este concepto no debe entenderse como metáfora.
+Debe entenderse como un criterio estructural para decidir cuándo una relación aparente entre
+manifestaciones debe modelarse verticalmente (por dependencia compartida respecto de una ontología
+o estructura generativa) y no solo horizontalmente (por contacto local entre manifestaciones).
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Correlación intercapa = relación de covariación entre dos o más manifestaciones observables cuya
+explicación estructural principal no se agota en su relación local dentro del plano de ejecución,
+sino que depende de una capa ontológica distinta que actúa como base generativa, criterio de
+preservación, restricción común, régimen intensional compartido o condición de realización.
+
+Dicho de forma más compacta:
+
+Una correlación es intercapa cuando:
+- aparece en un plano,
+- pero se explica principalmente desde otro.
+
+En este marco, “otra capa” no significa un mundo separado ni un plano místico.
+Significa:
+- un estrato de organización distinto,
+- una región del sistema con otra función estructural,
+- o una base formal que gobierna, orienta o limita las realizaciones visibles.
+
+Por eso, la correlación intercapa no debe confundirse con:
+- causalidad directa local,
+- proximidad topológica,
+- simultaneidad superficial,
+- ni semejanza verbal entre ejemplos.
+
+Lo que se afirma aquí es más preciso:
+la covariación entre realizaciones puede provenir de una dependencia común respecto de:
+- un núcleo,
+- una ontología,
+- un conjunto de invariantes,
+- una lógica de adaptación,
+- una condición de realización,
+- o un régimen intensional compartido.
+
+--------------------------------------------------------------------------------
+
+2) Qué fenómeno o función delimita
+
+Este concepto delimita el fenómeno de dependencia explicativa vertical entre planos distintos del
+sistema.
+
+Recorta el problema:
+- cuándo una correlación visible no debe modelarse solo como relación local entre salidas,
+- cuándo dos manifestaciones dependen de la misma base generativa,
+- cuándo la ejecución expresa una organización más alta,
+- y cuándo una lectura exclusivamente topológica del plano visible resulta insuficiente.
+
+Arq-Cog-Correlación-Intercapa delimita, por tanto, el plano de no-reducción entre:
+
+- manifestación y condición,
+- realización y ontología,
+- salida visible y estructura generativa,
+- conectividad local y dependencia formal compartida.
+
+No describe:
+- cualquier conexión entre nodos,
+- cualquier correlación estadística,
+- cualquier jerarquía de niveles,
+- ni cualquier relación entre teoría y ejemplo.
+
+Se concentra específicamente en:
+- relaciones de covariación observables,
+- cuya razón suficiente está en otra capa del sistema,
+- y cuya correcta modelación exige distinguir plano de aparición y plano de generación.
+
+--------------------------------------------------------------------------------
+
+3) Dependencias conceptuales
+
+Esta definición depende, como base mínima, de los siguientes conceptos:
+
+3.1) Ontología
+Depende de la noción de ontología porque la correlación intercapa solo tiene sentido si existe una
+capa de condiciones, estructura o identidad más profunda que la mera ejecución visible.
+
+3.2) Realización o manifestación
+Depende del concepto de realización porque el fenómeno aparece inicialmente como covariación entre
+formas desplegadas, adaptaciones, salidas o manifestaciones concretas.
+
+3.3) Distinción ontología / realización
+Depende especialmente de la distinción entre categoría ontológica y categoría de realización, o
+entre núcleo conceptual y adaptación, porque sin esa separación la covariación tendería a modelarse
+solo como relación entre fenómenos del mismo nivel.
+
+3.4) Interior
+Depende de Interior porque la capa generativa suele apoyarse en una composición interna portadora de
+identidad, donde viven reglas, invariantes, pesos, restricciones o criterios que luego se expresan
+en realizaciones.
+
+3.5) Frontera
+Depende de Frontera porque muchas manifestaciones visibles aparecen precisamente al nivel donde la
+entidad entra en contacto con condiciones externas; la frontera es una región de acoplamiento que
+puede hacer visible una dependencia cuya causa estructural está “más adentro” o “más arriba”.
+
+3.6) Envolvente y vecindad relevante
+Depende de Envolvente y Vecindad Relevante porque una explicación insuficiente suele consistir en
+buscar toda la razón causal en la vecindad local visible, cuando parte de la explicación pertenece a
+otra capa del sistema.
+
+3.7) Superficie de integración
+Depende de Superficie de Integración porque la correlación intercapa obliga a distinguir entre:
+- lo que una entidad toca localmente,
+- y la estructura que permite que ese toque sea inteligible y portable.
+
+3.8) Operatividad intensional
+Depende de Operatividad Intensional porque una correlación intercapa puede deberse no a la mera
+topología visible del sistema, sino a pesos, umbrales, prioridades, restricciones o condiciones
+definitorias compartidas.
+
+3.9) Invariantes
+Depende de Invariantes porque la capa superior que explica la covariación suele expresarse mediante
+elementos que permanecen constantes bajo cambios de realización.
+
+3.10) Adaptación contextual
+Depende del concepto de adaptación porque muchas covariaciones visibles no son relación directa entre
+manifestaciones, sino co-expresiones de una misma estructura adaptada a contextos distintos.
+
+Estas dependencias no funcionan como bibliografía.
+Funcionan como base ontológica mínima del concepto.
+
+--------------------------------------------------------------------------------
+
+4) Invariantes
+
+Arq-Cog-Correlación-Intercapa preserva, al menos, los siguientes invariantes:
+
+4.1) Invariante de doble plano
+Debe existir, como mínimo, un plano de manifestación y otro plano estructuralmente distinto desde el
+cual la covariación recibe su explicación principal.
+
+4.2) Invariante de covariación visible
+Debe existir una variación observable o reconocible entre realizaciones, salidas o manifestaciones.
+
+4.3) Invariante de no-suficiencia local
+La relación local visible entre las manifestaciones no debe bastar, por sí sola, para explicar de
+manera satisfactoria la covariación.
+
+4.4) Invariante de dependencia compartida
+Las manifestaciones correlacionadas deben depender de una base común:
+- núcleo,
+- invariante,
+- criterio,
+- restricción,
+- peso dominante,
+- o condición de realización.
+
+4.5) Invariante de asimetría explicativa
+El plano donde aparece la correlación no coincide necesariamente con el plano donde se encuentra su
+razón suficiente.
+
+4.6) Invariante de relevancia estructural
+La capa superior no puede ser una abstracción decorativa; debe afectar efectivamente la identidad,
+el funcionamiento o el comportamiento de las realizaciones.
+
+4.7) Invariante de audibilidad estructural
+La explicación intercapa debe poder formularse como relación estructural rastreable y no como intuición
+privada del analista.
+
+--------------------------------------------------------------------------------
+
+5) Dominio de variación
+
+Arq-Cog-Correlación-Intercapa admite variación sin perder identidad en, al menos, las siguientes
+dimensiones:
+
+5.1) Variación de dominio
+Puede aplicarse a:
+- teoría,
+- diseño,
+- cognición,
+- contenido digital,
+- modelos de negocio,
+- estructuras sociales,
+- aprendizaje,
+- interfaces,
+siempre que exista diferencia entre manifestación y base generativa.
+
+5.2) Variación de escala
+La correlación puede aparecer entre:
+- dos salidas,
+- dos módulos,
+- dos realizaciones de un mismo núcleo,
+- o dos capas completas del sistema.
+
+5.3) Variación de representación
+Puede expresarse como:
+- dependencia vertical,
+- acoplamiento intercapa,
+- realización compartida,
+- covariación por ontología común,
+- o dependencia respecto de invariantes.
+
+5.4) Variación del plano superior
+La capa explicativa puede ser:
+- ontológica,
+- intensional,
+- contractual,
+- metodológica,
+- normativa,
+- identitaria,
+- o de adaptación contextual,
+siempre que funcione como base estructural compartida.
+
+5.5) Variación del tipo de manifestación
+La covariación observable puede aparecer como:
+- conducta,
+- percepción,
+- contenido,
+- decisión,
+- expresión verbal,
+- configuración de interfaz,
+- o salida operativa.
+
+Regla de borde:
+Puede cambiar el tipo de manifestación y el tipo de capa superior,
+pero no puede desaparecer la estructura mínima:
+“covariación visible explicada principalmente por dependencia compartida respecto de otra capa”.
+
+--------------------------------------------------------------------------------
+
+6) Discriminadores o pruebas de reconocimiento
+
+Arq-Cog-Correlación-Intercapa se distingue de conceptos cercanos por las siguientes pruebas:
+
+6.1) Prueba contra causalidad local directa
+Si la covariación puede explicarse suficientemente por una cadena local explícita dentro del mismo
+plano visible, entonces no es necesario introducir correlación intercapa.
+
+6.2) Prueba contra mera coexistencia
+Si dos manifestaciones ocurren juntas pero no comparten base estructural ni dependencia común, no hay
+correlación intercapa en sentido fuerte.
+
+6.3) Prueba contra analogía verbal
+Si la relación entre fenómenos se establece solo porque “se parecen” verbalmente, sin estructura
+compartida ni capa generativa común, el concepto no aplica correctamente.
+
+6.4) Prueba contra jerarquía vacía
+Si solo se afirma que “hay niveles”, pero no se identifica una base común que organice la covariación,
+todavía no se ha llegado al nivel de correlación intercapa.
+
+6.5) Prueba por levantamiento explicativo
+Si al subir a una capa ontológica, intensional o contractual la covariación se vuelve comprensible
+sin necesidad de suponer contacto directo fuerte entre realizaciones, entonces hay una señal positiva
+de correlación intercapa.
+
+6.6) Prueba por cambio coordinado
+Si múltiples realizaciones cambian coordinadamente cuando cambia un mismo núcleo, invariante, criterio
+o contrato, eso funciona como ancla positiva del concepto.
+
+6.7) Prueba contra vecindad topológica suficiente
+Si la vecindad relevante local basta para explicar la covariación, no conviene usar este concepto.
+
+--------------------------------------------------------------------------------
+
+7) Frontera conceptual
+
+Entran dentro de Arq-Cog-Correlación-Intercapa:
+- las covariaciones observables entre realizaciones,
+- las dependencias compartidas respecto de una capa superior,
+- las situaciones donde la razón suficiente no está en la relación horizontal visible,
+- los casos donde una ontología, contrato, invariante o régimen intensional común organiza varias
+  manifestaciones.
+
+No entran dentro de Arq-Cog-Correlación-Intercapa:
+- toda correlación estadística,
+- toda relación entre teoría y práctica,
+- toda jerarquía entre conceptos,
+- cualquier proximidad entre nodos,
+- ni cualquier relación de causa-efecto local.
+
+La frontera conceptual del término se rompe cuando “correlación intercapa” se usa para:
+- nombrar cualquier relación compleja,
+- evitar especificar la mediación real,
+- o reemplazar con vaguedad una modelación que todavía no se ha refinado.
+
+El concepto deja de aplicar cuando:
+- no hay doble plano identificable,
+- no hay dependencia compartida,
+- o la explicación local ya es suficiente.
+
+--------------------------------------------------------------------------------
+
+8) Relaciones con otras unidades del grafo
+
+8.1) Relación con Arq-Cog-Operatividad-Intensional
+Existe una relación muy fuerte.
+Sentido:
+muchas correlaciones intercapa se vuelven visibles cuando la topología extensional no basta y la
+explicación debe desplazarse hacia pesos, umbrales, prioridades o restricciones compartidas.
+
+8.2) Relación con Arq-Cog-Vecindad-Relevante
+Existe una relación crítica de contraste.
+Sentido:
+Vecindad Relevante fija el exterior que acopla efectivamente con la frontera.
+Correlación Intercapa aparece cuando la explicación del fenómeno no puede reducirse por completo a
+esa vecindad local visible.
+
+8.3) Relación con Arq-Cog-Superficie-de-Integración
+Existe una relación funcional importante.
+Sentido:
+la superficie de integración vuelve explícita la interfaz local.
+La correlación intercapa ayuda a mostrar que una interfaz local puede estar siendo gobernada por una
+base estructural situada en otra capa.
+
+8.4) Relación con Interior
+Existe una relación de apoyo ontológico.
+Sentido:
+muchas bases generativas compartidas viven en el interior refinado de una entidad: invariantes,
+criterios, memoria estructural, restricciones, contrato, lógica de adaptación.
+
+8.5) Relación con ontología / realización
+Existe una relación constitutiva.
+Sentido:
+sin esa distinción, el concepto colapsa, porque no habría forma de decir que la correlación aparece en
+un plano y se explica en otro.
+
+8.6) Relación con adaptación contextual
+Existe una relación de especial interés.
+Sentido:
+cuando varias adaptaciones distintas dependen del mismo núcleo, la covariación entre ellas suele ser un
+caso claro de correlación intercapa.
+
+--------------------------------------------------------------------------------
+
+9) Superficie de integración
+
+La superficie de integración de esta definición es la siguiente:
+
+Este concepto se integra al resto del sistema como una herramienta de diagnóstico estructural.
+Su función inmediata es ayudar a decidir cómo debe modelarse una covariación:
+
+- como relación local entre manifestaciones,
+- o como dependencia vertical respecto de una capa común superior.
+
+Dentro de una ontología débil portable, esto es crucial porque evita dos errores:
+
+9.1) Error de reducción superficial
+Suponer que toda correlación visible debe representarse como arista horizontal entre salidas.
+
+9.2) Error de abstracción vacía
+Invocar “niveles” o “capas” sin identificar qué estructura superior organiza realmente la covariación.
+
+En términos de uso dentro del grafo, este concepto toca inmediatamente:
+- ontología / realización,
+- operatividad intensional,
+- superficie de integración,
+- vecindad relevante,
+- invariantes,
+- adaptación contextual,
+- y cualquier nodo donde aparezca una tensión entre plano visible y plano generativo.
+
+--------------------------------------------------------------------------------
+
+10) Validación
+
+La definición se considera correctamente aplicada cuando permite:
+
+10.1) Identificar una covariación observable entre realizaciones o manifestaciones.
+10.2) Mostrar que la explicación local visible es insuficiente o incompleta.
+10.3) Identificar una capa superior compartida que organiza, restringe o genera esa covariación.
+10.4) Explicar de qué modo esa capa superior afecta realmente la identidad o funcionamiento de las
+      realizaciones.
+10.5) Formular la relación de manera estructural, portable y auditable.
+10.6) Distinguir entre:
+      - correlación local,
+      - simple coexistencia,
+      - y dependencia intercapa.
+
+Una mala aplicación se detecta cuando:
+- se usa el concepto para evitar especificar mediaciones reales,
+- se llama “intercapa” a cualquier relación compleja,
+- no se identifica la capa superior compartida,
+- se ignora la posibilidad de que la explicación local sí sea suficiente,
+- o se confunde una analogía verbal con una estructura generativa común.
+
+--------------------------------------------------------------------------------
+
+11) Anclas de reconocimiento o ejemplos
+
+11.1) Ejemplo ancla: núcleo conceptual y adaptaciones
+Un mismo núcleo conceptual produce dos realizaciones contextuales distintas.
+Si cambia el núcleo, cambian ambas realizaciones.
+La correlación entre las realizaciones no se explica principalmente porque una toque a la otra,
+sino porque ambas dependen del mismo núcleo.
+Este es un caso típico de correlación intercapa.
+
+11.2) Ejemplo ancla: contrato y salidas de contenido
+Un contrato estructural fija invariantes, tono, nicho, objetivos y reglas.
+Distintas piezas de contenido cambian coordinadamente cuando cambia el contrato.
+La correlación visible entre piezas no se explica por contacto directo entre ellas, sino por la
+proyección compartida del mismo contrato.
+
+11.3) Ejemplo ancla: régimen intensional
+Dos configuraciones con topología semejante producen salidas distintas o cambian juntas porque
+comparten un mismo umbral, prioridad o restricción dominante.
+La razón suficiente ya no vive en la extensionalidad visible, sino en la capa intensional.
+
+--------------------------------------------------------------------------------
+
+12) Posibilidad de refinamiento
+
+Esta definición está redactada para poder expandirse, al menos, en las siguientes direcciones:
+
+12.1) Separación en subnodos
+Podría descomponerse en:
+- dependencia de realización,
+- covariación por núcleo compartido,
+- correlación por régimen intensional,
+- correlación por contrato compartido,
+- correlación por adaptación contextual.
+
+12.2) Creación de aristas futuras
+Podría sugerir relaciones explícitas como:
+- depends_on,
+- refines,
+- realizes,
+- provides_criteria_for,
+entre correlación intercapa y nodos como ontología, realización, operatividad intensional,
+superficie de integración y vecindad relevante.
+
+12.3) Desarrollo de pruebas formales
+Podría expandirse hacia un protocolo de auditoría:
+- detectar covariación,
+- testear suficiencia local,
+- buscar base compartida,
+- decidir si la modelación correcta es horizontal, vertical o mixta.
+
+12.4) Integración con creación de realidad
+Podría servir como pieza metodológica para analizar cuándo distintas manifestaciones de creación de
+realidad dependen de un mismo núcleo generativo sin relacionarse localmente entre sí.
+
+--------------------------------------------------------------------------------
+
+13) Fórmula de cierre
+
+Arq-Cog-Correlación-Intercapa no nombra simplemente una relación entre niveles.
+Nombra una situación estructural precisa:
+
+una covariación observable cuya razón suficiente principal no vive en el mismo plano donde aparece,
+sino en una capa distinta que la organiza, la restringe o la hace posible.
+
+Por eso:
+
+Correlación Intercapa
+=
+covariación visible
++
+insuficiencia explicativa local
++
+dependencia compartida respecto de otra capa
++
+posibilidad de formulación estructural portable.
+
+Si falta alguna de estas piezas, el concepto se debilita y colapsa hacia:
+- correlación local ordinaria,
+- coexistencia sin explicación,
+- analogía verbal,
+- o jerarquía vacía sin función estructural.
+
+================================================================================
+FIN DE DEFINICIÓN
+================================================================================

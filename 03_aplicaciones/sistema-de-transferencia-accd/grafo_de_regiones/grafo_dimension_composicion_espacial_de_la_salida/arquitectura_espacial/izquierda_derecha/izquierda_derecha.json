@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-izquierda_derecha-izquierda_derecha",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-izquierda_derecha-izquierda_derecha",
+    "label": "izquierda_derecha",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-izquierda_derecha-izquierda_derecha",
+    "summary": "**Definición.** Organización que distribuye elementos en un eje lateral. Puede comunicar comparación, secuencia cultural de lectura, origen/destino o contraste entre alternativas.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+    "label": "pieza_visual_estatica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+    "summary": "**Definición.** Clase material que enfatiza la ausencia de movimiento. Puede contener texto, iconos, fotografía, ilustración, diagrama o marca, pero no depende de animación, transición, reproducción o tiempo de reproducción.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion"
+    }
+  }
+}

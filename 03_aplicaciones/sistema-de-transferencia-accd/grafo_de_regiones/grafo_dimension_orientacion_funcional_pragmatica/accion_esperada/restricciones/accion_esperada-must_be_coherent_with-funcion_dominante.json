@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-must_be_coherent_with-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-must_be_coherent_with-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "type": "must_be_coherent_with",
+    "rationale": "La acción esperada debe ser coherente con la función dominante."
+  }
+}

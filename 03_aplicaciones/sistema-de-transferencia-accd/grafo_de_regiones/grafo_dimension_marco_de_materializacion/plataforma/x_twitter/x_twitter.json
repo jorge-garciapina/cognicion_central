@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-x_twitter-x_twitter",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-x_twitter-x_twitter",
+    "label": "x_twitter",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-x_twitter-x_twitter",
+    "summary": "**Definición.** Entorno de circulación rápida donde la imagen acompaña conversación, opinión, dato, noticia, argumento o síntesis. La pieza debe poder captar atención en un flujo textual denso y competir con lectura veloz.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma"
+    }
+  }
+}

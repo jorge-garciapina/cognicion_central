@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-formato_libre-formato_libre",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-formato_libre-formato_libre",
+    "label": "formato_libre",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-formato_libre-formato_libre",
+    "summary": "**Definición.** Proporción no fijada previamente. Permite adaptar la composición a necesidades conceptuales o materiales específicas, pero exige definir después criterios de legibilidad y destino.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

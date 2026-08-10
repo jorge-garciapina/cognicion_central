@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+    "type": "must_be_compatible_with",
+    "rationale": "El régimen de encuadre performativo debe ser compatible con la densidad de acción visible."
+  }
+}

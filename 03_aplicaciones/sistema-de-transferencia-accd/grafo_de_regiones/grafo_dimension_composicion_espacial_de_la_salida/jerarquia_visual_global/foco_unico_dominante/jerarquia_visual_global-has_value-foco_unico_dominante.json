@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-foco_unico_dominante-foco_unico_dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-foco_unico_dominante-foco_unico_dominante",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global-foco_unico_dominante-foco_unico_dominante",
+    "type": "has_value",
+    "rationale": "foco_unico_dominante es un valor nuevo incorporado en jerarquia_visual_global para la realización imagen."
+  }
+}

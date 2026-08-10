@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica",
+    "label": "accesibilidad_lexica",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica",
+    "summary": "Eje interno que describe la accesibilidad léxica de la realización.",
+    "metadata": {
+      "section": "6.2.4",
+      "value_type": "Categorial ordinal",
+      "cardinality": "Eje obligatorio dentro de adecuacion_lexico_formulativa"
+    }
+  }
+}

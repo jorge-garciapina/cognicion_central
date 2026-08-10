@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-flujo_de_decision-flujo_de_decision",
+  "content": "**Definición.** Configuración que organiza el caso como una sucesión de elecciones, condiciones o bifurcaciones. A diferencia de una secuencia simple, aquí cada paso puede abrir rutas alternativas según una pregunta, criterio o resultado. Es útil para representar procesos de diagnóstico, selección, priorización, descarte o recomendación."
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+  "content": "Indicar el principio general que debe guiar la coherencia entre los recursos complementarios y el contenido principal del guión. Tipo de valor: Categorial cerrado. Cardinalidad: Un valor obligatorio. Restricciones: Debe ser coherente con la función predominante de los recursos complementarios. Debe poder sostenerse de manera consistente a lo largo de la pieza."
+}

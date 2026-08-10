@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+    "label": "densidad_de_accion_visible",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+    "summary": "Cantidad de acción corporal o visible esperada en la pieza.",
+    "section": "9.8",
+    "value_type": "Categorial ordinal",
+    "cardinality": "Un valor obligatorio"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_inmediata-comprension_inmediata",
+    "type": "has_value",
+    "rationale": "comprension_inmediata es un valor nuevo de efecto_buscado incorporado para la realización imagen."
+  }
+}

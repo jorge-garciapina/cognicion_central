@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-centro_periferia-centro_periferia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-centro_periferia-centro_periferia",
+    "label": "centro_periferia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-centro_periferia-centro_periferia",
+    "summary": "**Definición.** Configuración en la que una idea, elemento o núcleo ocupa el centro semántico y otros componentes se disponen como contexto, soporte, consecuencia, satélite o extensión. No significa simplemente poner algo en el centro del lienzo: implica que la interpretación de las partes periféric",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

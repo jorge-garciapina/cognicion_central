@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+    "from": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+    "to": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+    "type": "has_value",
+    "rationale": "comprension_por_recorrido_visual es un valor nuevo de regimen_de_resolucion_buscada incorporado para la realización imagen."
+  }
+}

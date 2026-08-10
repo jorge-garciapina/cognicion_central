@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_espacio_negativo-jerarquia_por_espacio_negativo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_espacio_negativo-jerarquia_por_espacio_negativo",
+    "label": "jerarquia_por_espacio_negativo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_espacio_negativo-jerarquia_por_espacio_negativo",
+    "summary": "**Definición.** Modo de jerarquía donde el vacío alrededor de un elemento aumenta su peso. El espacio sin contenido funciona como marco perceptivo y hace que el elemento rodeado se lea como más importante o refinado.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica"
+    }
+  }
+}

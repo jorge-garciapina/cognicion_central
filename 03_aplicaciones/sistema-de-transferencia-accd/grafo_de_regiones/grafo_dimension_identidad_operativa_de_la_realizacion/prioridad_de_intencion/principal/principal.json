@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal",
+    "label": "principal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal",
+    "summary": "Valor principal declarado para el campo prioridad_de_intencion.",
+    "metadata": {
+      "value_of": "prioridad_de_intencion",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

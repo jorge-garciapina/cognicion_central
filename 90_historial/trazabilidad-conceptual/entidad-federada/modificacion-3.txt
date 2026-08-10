@@ -1,0 +1,211 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69da8f32-ef5c-83e8-8cd5-00c2bba71141
+# Entidad federada de producción de contenido digital
+
+## Formato de trazabilidad de construcción con pesos normalizados
+
+### Texto consolidado de la definición
+
+La **entidad federada de producción de contenido digital** es una forma de
+realización de la Arquitectura Comercial de Creación de Contenido Digital
+(ACCD) en la que una misma unidad no se manifiesta como una sola superficie
+pública homogénea, sino como una **multiplicidad de realizaciones coordinadas**
+cuya unidad se explica principalmente por dos propiedades:
+
+- la **correlación intercapa**;
+- y la **fractalidad**.
+
+Vista desde la correlación intercapa, una entidad federada aparece cuando varias
+superficies visibles:
+- covarían,
+- se refuerzan,
+- se degradan,
+- se corrigen,
+- o se redistribuyen funcionalmente,
+
+de una forma que no se explica bien si cada superficie se toma como sistema
+independiente. La mejor explicación de esa covariación está en una capa
+arquitectónica superior compartida. Por eso, la unidad de la federación no se
+prueba por semejanza visual entre ramas, sino por el hecho de que las ramas
+pueden describirse como dependientes de una misma estructura generativa.
+
+Vista desde la fractalidad, la entidad federada aparece cuando esa misma forma
+arquitectónica puede reaparecer en varias escalas sin dejar de ser la misma.
+Esto significa que una rama de la federación puede comportarse localmente como
+una microarquitectura:
+- con piezas propias,
+- con una región específica de atención,
+- con una función local dentro del campo,
+- e incluso con un régimen particular de inserción o cierre,
+
+sin por ello separarse de la arquitectura superior. La federación es, entonces,
+una unidad cuya forma no solo se distribuye, sino que también se **reproduce
+parcialmente por escalas**.
+
+La combinación de correlación intercapa y fractalidad permite describir una
+unidad arquitectónica que no depende de una sola interfaz ni de una sola línea
+de producción. La misma arquitectura puede:
+- abrir bordes de entrada diferentes;
+- sostener capas distintas de densificación;
+- producir regiones de validación desiguales;
+- operar con superficies de relación más o menos profundas;
+- y distribuir funciones de mediación o captura,
+
+sin perder continuidad arquitectónica.
+
+Por eso, una entidad federada no debe describirse como un agregado de canales ni
+como una simple estrategia multicanal. Debe describirse como una **unidad
+arquitectónica distribuida y fractal**, en la que varias superficies públicas
+funcionan como manifestaciones correlacionadas de una misma ACCD.
+
+Su unidad no reside en la uniformidad de formato, sino en que las diferencias
+entre ramas siguen siendo inteligibles como deformaciones, especializaciones o
+repeticiones parciales de una forma común. De ahí que la entidad federada pueda
+sostener pluralidad visible sin perder identidad, y complejidad funcional sin
+romper arquitectura.
+
+Dicho de manera más condensada:
+
+la entidad federada de producción de contenido digital es una ACCD cuya unidad
+se hace visible porque sus ramas están **estructuralmente correlacionadas** y
+porque la misma forma puede **reaparecer fractalmente** en varias escalas de
+comparecencia, de atención y de operación.
+
+---
+
+### Estructura de trazabilidad de construcción
+
+**unidad_de_destino:**  
+`ACCD / entidad federada de producción de contenido digital / definición arquitectónica`
+
+**tipo_de_unidad:**  
+`definición arquitectónica derivada con dominancia dual`
+
+**función_de_la_unidad:**  
+`describir una forma de entidad de producción de contenido digital explicada principalmente por correlación intercapa y fractalidad`
+
+**estado_de_construcción:**  
+`consolidada, experimental en redistribución de pesos`
+
+---
+
+### Ideas fuente activas en esta definición
+
+#### Idea fuente 1
+
+- **id:** `IF-EF-001`
+- **origen_tipo:** `documento`
+- **origen:** `correlacion-intercapa.txt`
+- **idea_extraída:**  
+  “las covariaciones entre capas visibles pueden explicarse mejor por
+  dependencia respecto de una estructura superior compartida que por simple
+  relación local entre ellas”
+- **función_en_la_definición:**  
+  `criterio principal de unidad arquitectónica`
+- **peso:** `0.45`
+- **modo_de_uso:**  
+  `principio estructural dominante`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 2
+
+- **id:** `IF-EF-008`
+- **origen_tipo:** `documento`
+- **origen:** `vision-fractal-de-sistemas.txt`
+- **idea_extraída:**  
+  “una misma forma puede reaparecer en varias escalas sin dejar de pertenecer a
+  una misma arquitectura”
+- **función_en_la_definición:**  
+  `criterio principal de multiplicación coordinada de ramas`
+- **peso:** `0.45`
+- **modo_de_uso:**  
+  `principio de escala dominante`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 3
+
+- **id:** `IF-EF-004`
+- **origen_tipo:** `documento`
+- **origen:** `arquitectura-comercial.txt`
+- **idea_extraída:**  
+  “una entidad de producción de contenido digital debe poder leerse como máquina
+  de preservación, proyección, atención, acumulación, valor y retorno”
+- **función_en_la_definición:**  
+  `anclaje mínimo a ACCD`
+- **peso:** `0.05`
+- **modo_de_uso:**  
+  `marco arquitectónico de fondo`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 4
+
+- **id:** `IF-EF-009`
+- **origen_tipo:** `chat`
+- **origen:** `discusión sobre entidad federada como evolución de una entidad simple`
+- **idea_extraída:**  
+  “una arquitectura puede desplegarse en varias microentidades públicas sin
+  perder unidad”
+- **función_en_la_definición:**  
+  `síntesis mínima de integración`
+- **peso:** `0.05`
+- **modo_de_uso:**  
+  `cierre integrador`
+- **estado:** `estable en la conversación`
+
+**suma_total_de_pesos:** `1.00`
+
+---
+
+### Reglas formales de esta definición
+
+1. La entidad federada debe reconocerse primero por la correlación intercapa de
+   sus ramas y no por la mera coexistencia de superficies.
+
+2. La entidad federada debe poder describirse como una repetición fractal de una
+   misma forma arquitectónica en distintas escalas.
+
+3. Si la covariación entre ramas no exige una arquitectura superior común, la
+   hipótesis de federación se debilita.
+
+4. Si las ramas no pueden leerse como realizaciones escalares de una misma
+   forma, la hipótesis de fractalidad se debilita.
+
+5. La combinación de correlación intercapa y fractalidad tiene prioridad
+   interpretativa sobre explicaciones basadas solo en tema, formato o canal.
+
+---
+
+### Operaciones de construcción reconocidas
+
+- **condensación fuerte:** reducir la definición a una dominancia dual;
+- **anclaje selectivo:** privilegiar dos fuentes estructurales como ejes de
+  explicación;
+- **lectura vertical:** explicar la unidad por dependencia de una capa superior;
+- **lectura escalar:** explicar la multiplicidad por repetición parcial de forma;
+- **reducción de complejidad:** suspender, en esta versión, detalles sobre
+  mediación, atención o valor que no sean necesarios para la hipótesis principal.
+
+---
+
+### Qué permite esta forma de definición
+
+Esta definición permite:
+
+- probar si una aparente multiplicidad de canales es realmente una federación;
+- distinguir entre agregado y unidad distribuida;
+- reconocer cuándo una rama es solo extensión local y cuándo es microarquitectura;
+- explicar la unidad del sistema sin depender primero de tema, interfaz o
+  monetización;
+- y ensayar una versión de la entidad federada construida casi exclusivamente
+  sobre dos principios: correlación estructural y repetición escalar.
+
+---
+
+### Fórmula final
+
+**Entidad federada de producción de contenido digital** =  
+unidad arquitectónica distribuida de ACCD cuya identidad se explica
+principalmente porque:
+
+- sus ramas están correlacionadas por dependencia de una capa superior común;
+- y la misma forma arquitectónica reaparece fractalmente en varias escalas de
+  comparecencia y operación.

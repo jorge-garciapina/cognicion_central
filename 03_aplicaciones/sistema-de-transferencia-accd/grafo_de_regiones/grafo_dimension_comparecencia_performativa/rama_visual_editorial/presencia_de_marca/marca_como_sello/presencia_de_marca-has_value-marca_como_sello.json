@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_como_sello-marca_como_sello",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_como_sello-marca_como_sello",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_como_sello-marca_como_sello",
+    "type": "has_value",
+    "rationale": "marca_como_sello es un valor nuevo incorporado en presencia_de_marca para la realización imagen."
+  }
+}

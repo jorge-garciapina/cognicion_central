@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa",
+    "type": "has_value",
+    "rationale": "sorpresa es un valor declarado para el campo efecto_buscado."
+  }
+}

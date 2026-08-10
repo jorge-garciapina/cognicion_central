@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+    "label": "soporte_de_explicacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+    "summary": "**Definición.** Valor que indica que la realización existe para sostener o facilitar una explicación. Su función identitaria no es sólo acompañar visualmente, sino hacer que una relación, concepto, diferencia, proceso o estructura sea más comprensible mediante apoyo formal.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado",
+    "type": "must_be_coherent_with",
+    "rationale": "grado_de_dependencia_de_recursos_complementarios debe ser coherente con el uso declarado de video generado."
+  }
+}

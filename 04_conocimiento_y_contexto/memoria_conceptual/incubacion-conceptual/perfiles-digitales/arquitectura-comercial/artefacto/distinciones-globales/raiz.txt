@@ -1,0 +1,93 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d442ac-b988-83e8-9caf-0cba85fab976
+
+================================================================================
+SUBGRAFO
+ACCD-Distinciones-Globales
+================================================================================
+
+--------------------------------------------------------------------------------
+address: "def/ACCD-Distinciones-Globales"
+
+title: "ACCD-Distinciones-Globales"
+
+definition:
+ACCD-Distinciones-Globales = nodo transversal del paquete que fija la diferencia
+obligatoria entre cuatro tipos de entidad que no deben colapsarse entre sí dentro
+de la Arquitectura Comercial de Creación de Contenido Digital:
+
+- ACCD-Funcion
+- ACCD-Region
+- ACCD-Estado
+- ACCD-Salida
+
+Su función no es redefinir esos componentes, sino establecer y preservar su
+distinción estructural.
+
+Este nodo existe para impedir errores como:
+- tratar una función como si fuera una salida;
+- tratar una región como si fuera un estado;
+- tratar un estado como si fuera una salida;
+- o tratar una salida como si fuera la función dominante de una unidad.
+
+Por tanto, ACCD-Distinciones-Globales no nombra una pieza, una interfaz, un caso
+de proyección ni una ruta de convertibilidad.
+
+Nombra una regla transversal de higiene conceptual del paquete.
+
+formula_de_cierre:
+ACCD-Distinciones-Globales =
+nodo transversal que usa ACCD-Funcion, ACCD-Region, ACCD-Estado y ACCD-Salida
+para fijar una distinción obligatoria entre:
+- efecto dominante buscado,
+- zona estructural,
+- condición diagnóstica,
+- y resultado emitido.
+
+--------------------------------------------------------------------------------
+address: "graph/node/ACCD-Distinciones-Globales"
+
+id: "ACCD-Distinciones-Globales"
+label: "ACCD-Distinciones-Globales"
+type: "graph/node"
+summary: "Nodo transversal que fija la distinción obligatoria entre función, región, estado y salida."
+definition_ref: "def/ACCD-Distinciones-Globales"
+
+--------------------------------------------------------------------------------
+address: "graph/edge/ACCD-Distinciones-Globales-uses-ACCD-Funcion"
+
+id: "ACCD-Distinciones-Globales-uses-ACCD-Funcion"
+source: "ACCD-Distinciones-Globales"
+target: "ACCD-Funcion"
+type: "uses"
+rationale: "El nodo ACCD-Distinciones-Globales usa ACCD-Funcion como una de las cuatro categorías cuya diferencia transversal debe preservarse dentro del paquete."
+
+--------------------------------------------------------------------------------
+address: "graph/edge/ACCD-Distinciones-Globales-uses-ACCD-Region"
+
+id: "ACCD-Distinciones-Globales-uses-ACCD-Region"
+source: "ACCD-Distinciones-Globales"
+target: "ACCD-Region"
+type: "uses"
+rationale: "El nodo ACCD-Distinciones-Globales usa ACCD-Region como una de las cuatro categorías cuya diferencia transversal debe preservarse dentro del paquete."
+
+--------------------------------------------------------------------------------
+address: "graph/edge/ACCD-Distinciones-Globales-uses-ACCD-Estado"
+
+id: "ACCD-Distinciones-Globales-uses-ACCD-Estado"
+source: "ACCD-Distinciones-Globales"
+target: "ACCD-Estado"
+type: "uses"
+rationale: "El nodo ACCD-Distinciones-Globales usa ACCD-Estado como una de las cuatro categorías cuya diferencia transversal debe preservarse dentro del paquete."
+
+--------------------------------------------------------------------------------
+address: "graph/edge/ACCD-Distinciones-Globales-uses-ACCD-Salida"
+
+id: "ACCD-Distinciones-Globales-uses-ACCD-Salida"
+source: "ACCD-Distinciones-Globales"
+target: "ACCD-Salida"
+type: "uses"
+rationale: "El nodo ACCD-Distinciones-Globales usa ACCD-Salida como una de las cuatro categorías cuya diferencia transversal debe preservarse dentro del paquete."
+
+================================================================================
+FIN
+================================================================================

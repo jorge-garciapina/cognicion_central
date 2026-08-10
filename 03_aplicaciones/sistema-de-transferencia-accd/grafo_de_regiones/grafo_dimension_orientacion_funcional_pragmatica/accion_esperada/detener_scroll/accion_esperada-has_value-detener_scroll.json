@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+    "type": "has_value",
+    "rationale": "detener_scroll es un valor nuevo de accion_esperada incorporado para la realización imagen."
+  }
+}

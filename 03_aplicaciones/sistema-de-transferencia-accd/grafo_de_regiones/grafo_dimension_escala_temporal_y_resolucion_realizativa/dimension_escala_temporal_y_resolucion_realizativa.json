@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa",
+    "label": "dimension_escala_temporal_y_resolucion_realizativa",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa",
+    "summary": "Dimensión que describe la escala temporal y el régimen de resolución de la realización.",
+    "source_section": "5"
+  }
+}

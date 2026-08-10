@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_contexto-zona_contexto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_contexto-zona_contexto",
+    "label": "zona_contexto",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_contexto-zona_contexto",
+    "summary": "**Definición.** Área que proporciona entorno, marco situacional o información de fondo necesaria para interpretar el foco principal.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas"
+    }
+  }
+}

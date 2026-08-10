@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo",
+    "label": "mediano_plazo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo",
+    "summary": "Valor declarado para el campo horizonte_temporal: mediano_plazo.",
+    "source_field": "horizonte_temporal"
+  }
+}

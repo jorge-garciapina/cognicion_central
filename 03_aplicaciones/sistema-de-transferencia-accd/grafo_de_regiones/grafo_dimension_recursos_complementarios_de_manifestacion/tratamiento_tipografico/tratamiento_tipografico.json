@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+    "label": "tratamiento_tipografico",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-tratamiento_tipografico",
+    "summary": "**Definición.** Campo que define la apariencia y función visual de la tipografía. No se limita a elegir fuente: regula legibilidad, tono, jerarquía, personalidad, densidad y relación entre texto e imagen.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

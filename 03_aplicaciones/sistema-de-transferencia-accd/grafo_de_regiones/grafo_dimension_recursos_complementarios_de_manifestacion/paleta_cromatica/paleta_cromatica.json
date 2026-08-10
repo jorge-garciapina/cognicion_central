@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "label": "paleta_cromatica",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "summary": "**Definición.** Campo que define el sistema de color predominante. No sólo afecta estética: puede organizar jerarquía, tono emocional, identidad de marca, contraste, legibilidad y relación entre elementos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+    "type": "has_value",
+    "rationale": "entrada_por_pregunta_visible es un valor nuevo de regimen_de_activacion_atencional incorporado para la realización imagen."
+  }
+}

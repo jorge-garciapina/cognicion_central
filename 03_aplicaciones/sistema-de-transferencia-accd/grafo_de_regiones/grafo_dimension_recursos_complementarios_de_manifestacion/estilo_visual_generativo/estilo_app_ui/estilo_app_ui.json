@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-estilo_app_ui-estilo_app_ui",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-estilo_app_ui-estilo_app_ui",
+    "label": "estilo_app_ui",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-estilo_app_ui-estilo_app_ui",
+    "summary": "**Definición.** Estilo inspirado en interfaces digitales: tarjetas, botones, pantallas, componentes, iconos y jerarquías de producto digital. Útil para tecnología, software o flujos de uso.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

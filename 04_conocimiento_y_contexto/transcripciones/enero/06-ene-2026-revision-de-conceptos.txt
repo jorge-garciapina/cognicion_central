@@ -1,0 +1,457 @@
+TÍTULO:
+Revisión de conceptos
+
+FECHA GENERAL:
+mar-06-ene-2026
+
+
+[Página 1]
+
+Como resultado del último estudio ([Teoría general de modelado de ideas] en mie-31-dic-2025*) he aclarado muchos conceptos. Quiero llevar a cabo esta revisión para usar las ideas previas en el nuevo contexto, estoy seguro que hay mucho que debe ser resaltado.
+
+Estudio: Escritura creativa
+Fecha: 02/dic/2025
+
+Ideas rápidas
+  - El ritmo de trabajo es más importante que los resultados de corto plazo: no todos los días tengo resultados, pero al acumular el trabajo poseo acceso a muchas ideas.
+  - Si tengo un gran número de escritos, es buena práctica dedicar un día (como hoy) a revisar, podría ser una vez al mes (ver Yin/Yang), así podría refinar las ideas en crudo (así dice en el estudio).
+  - "El tiempo es lo que le da estructura a mi proceso de creación, es la moneda de intercambio que se debe pagar a cambio de la manifestación de proyecciones de cNodes (en la realidad)".
+A pesar que este estudio parece no estar relacionado con el trabajo de creación de [aplicaciones cognitivas] funciona como mi base personal, ya que fue el punto en el que me decidí a comenzar.
+Me gusta la idea que se propone sobre el [material cognitivo] visto como la [materia prima] de un proceso de creación, ya que lo que busco es transformar las ideas en estructuras del [mundo tangible].
+  Un [nodo de realidad] es la proyección de un [nodo cognitivo] en el [mundo tangible]. 
+
+
+[Página 2]
+
+Estudio: Historia de caballero
+Fecha: 03/dic/2025
+
+Ideas rápidas:
+- Ver los artefactos como "cognición central" tiene mucha utilidad; a pesar que cada aplicación tendrá su propia cognición central (forma, objetivos, vínculos, estructura, etc.), el concepto permite vislumbrar aplicaciones como:
+  * Esencificación de redes sociales (redes cuyas salidas (el contenido) están gobernados por la esencia de la empresa)
+    - Activar redes esencificadas = contenido alineado a identidad de marca.
+    - El sistema esencifica el tono, valores y límites editoriales.
+  La implementación de esta idea no es muy compleja:
+  - El [núcleo] toma el papel de "cognición central", en él se "guarda" la [esencia/identidad] de una marca ([invariantes, restricciones, ontología conceptual, reglas]).
+  - Se definen los [contextos]:
+    * Sujeto: nicho que se espera dominar,
+    * Distribución: plataformas, medios. (TikTok, Instagram, etc.)
+    * Ejecución: tipo de contenido (videos, publicaciones, etc.)
+  - Todas las intervenciones se crearán siguiendo la estructura definida de antemano.
+  - Aún tengo dudas sobre los [evidencias], pero éstos pueden estar definidos al momento de la negociación.
+
+- Un script de código es un proceso lógico con una tarea en específico. Una aplicación (en el sentido tradicional) consta de muchos scripts interactuando de forma organizada. En las aplicaciones cognitivas sucede algo muy parecido pero, debido a que la IA se encarga de abstraer la parte lingüística, ya no es necesario un lenguaje de programación.
+  La principal implicación de lo anterior es que las entidades ejecutables que guardan procesos lógicos no se limitan a scripts de código, sino que pueden ser cualquier cosa que pueda expresarse lingüísticamente. Esta es la razón por la que las aplicaciones cognitivas permiten programar la realidad.
+  (O, al menos, modelar programáticamente casi cualquier proceso).
+  
+  Algunos ejemplos:
+  
+  [Página 3]
+    - Existen muchas teorías/ecuaciones para describir un gran número de procesos naturales.
+    - Cada sistema humano que existe cuenta con un modelo.
+    - Hay teorías y modelos para comprender el comportamiento humano.
+
+- En la pág. 5 del estudio menciono algo acerca de que "las app de IA son independientes del tiempo"; creo que esa es una intuición de que la IA depende del contexto en el que se esté trabajando, sin memoria cada pregunta (a pesar de ser siempre la misma pregunta) se trata de una forma diferente (¿probabilística?). Esto causa que la API de OpenAI requiera un entendimiento profundo y que en la web los proyectos sean tan útiles, si la memoria no cambia, entonces no importa cuánto tiempo pase, "los apps" (ver ejemplo en el estudio).
+
+- Sobre la idea: "La IA permite automatizar la cognición de la misma forma que la máquina de vapor permitió automatizar el movimiento", hay algunas preguntas:
+  * ¿Qué relación hay entre el adelanto que Ford introdujo al proceso de fabricación y la revolución industrial?
+  * ¿Qué relación tienen ambas con la revolución informática?
+  * ¿Qué relación tienen con la IA?
+
+  Al estudiar procesos antiguos se pueden diseñar nuevos.
+
+    - Cadenas de producción cognitivas
+    - En este estudio se da una idea de marketing de mi sistema.
+    - "Quienes sean capaces de dominar la automatización de los [procesos cognitivos], al igual que quienes dominaron la automatización del movimiento durante la revolución industrial, se verán muy beneficiados".
+
+
+[Página 4]
+
+Estudio: Sobre el analfabetismo digital
+Fecha: 04/dic/2025
+
+Ideas:
+- Cualquier idea puede ser comercializada, sólo se debe hallar el modelo de negocio adecuado.
+- Comprender, coordinar y ejecutar.
+- La [idea] es el núcleo (por ejemplo, un servicio, el cual es invariante); el [contexto] es el modelo que se tenga sobre dónde aplicar la idea; [el modelo de negocio] es la [respuesta protocolaria].
+
+Este plan puede ser incorrecto. Es necesario pensar con mayor detalle:
+
+Definición plan de negocio:
+El objetivo principal de un modelo de negocio es [hallar/describir] un proceso (y todo parece apuntar a que es un proceso de ejecución) mediante el cual sea posible [vender] (es decir intercambiar por dinero) intervenciones generadas por una [aplicación cognitiva].
+Esta definición sólo funciona para mi sistema (quizás por eso me costó tanto hallarla: estaba buscando en lo general).
+
+Es necesario hacer algunas precisiones:
+- En el estudio "Teoría general de modelado de ideas" (mie-31-dic-2025), pág. 11 definí intervención como: "acción concreta para traducir la estructura del núcleo al sujeto, lo cual es realizable y ejecutable. Puede ser un mensaje, una clase, un guión, un ajuste técnico, un proceso, etc." Esta definición implica que el Sujeto es (extraído de la misma página): "entidad única de la realidad. Puede ser un organismo o entidad organizacional". No hay más requisitos para las entidades en las que se aplicarán las ideas.
+  ¿Qué significa el párrafo anterior?
+  Que cualquier idea puede ser comercializada. Sólo se debe definir el sujeto y modelar su contexto y crear la intervención, lo cual será el núcleo del [proceso de comercialización] para el cual, el [modelo de negocio] no es más que una intervención.
+  Un diagrama mostrará esta descripción con mayor claridad:
+
+
+[Página 5]
+
+  Trataré de modelar mi propia idea:
+  Tengo 3 ideas comercializables (sab-20-dic-2025):
+  - Creación de nodos de realidad (excluye perfil de influencer y esencificación)
+  - Cursos
+  - Monetización de contenidos
+  Aunque distintas, las 3 parten del mismo núcleo: el diseño base del sistema. Veamos:
+  - Creación de nodos de realidad:
+      * Donde se busca crear un núcleo y adaptar la lógica a contextos relevantes.
+      * Se busca comprender un problema a partir de la experiencia de alguien y automatizar partes del proceso cognitivo.
+      * Se busca extraer esa experiencia para usarla en otras aplicaciones.
+      * La ganancia monetaria será del tipo Software As a Service -> [falta definir]
+  - Cursos:
+      * Cobrar por enseñar algunas herramientas (por ejemplo: modelado estructural, prompt creation, etc.) (patrones de IA, esencificación)
+  - Monetización de contenidos
+      * Basados en los perfiles de influencer.
+      * Dependiente de plataforma y patrocinadores.
+      * Se parte de una idea y se adapta a contextos.
+  Reescribiendo lo mismo como nodos:
+
+GRAFOS = [
+  {
+    nombre: "Puentes del sistema con el mercado del dinero",
+    entidades: [],
+    nodos: [
+      {
+        identificador: "Puentes del sistema con el mercado del dinero",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "Creación de nodos de realidad",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "Cursos",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "Monetización de contenidos",
+        entidades_contenedoras: []
+      }
+    ],
+    aristas: [
+      { origen: "Puentes del sistema con el mercado del dinero", destino: "Creación de nodos de realidad" },
+      { origen: "Puentes del sistema con el mercado del dinero", destino: "Cursos" },
+      { origen: "Puentes del sistema con el mercado del dinero", destino: "Monetización de contenidos" }
+    ]
+  }
+]
+
+
+[Página 6]
+
+Ahora me enfocaré en la [monetización de contenidos], tal y como lo hice antes, desarrollaré un ejemplo lingüístico:
+
+Ejemplo 1:
+Donde se trata de explorar el concepto [perfil de influencer].
+
+Ideas a priori:
+- "Lo importante de la idea no es enfocar la atención en una plataforma en particular, sino en la creación del contenido que será colocado" ([Plan de negocios: 1 -> 06/dic/2025*])
+
+- En el mismo documento (06/dic/2025), pág. 2 se menciona:
+  [El concepto de [idea] podría ser la descripción completa de una [campaña publicitaria], la cual contiene lo importante:
+     * Palabras clave
+     * Core values
+     * Nichos
+     * Geolocalización
+     * Diseño de colores
+     * Temas (visual, sonoro, etc.)
+   En este caso, los videos generados son adaptaciones de la campaña a cada plataforma.]
+
+   A pesar que en el estudio considero [campaña publicitaria] y [perfil de influencer] como cosas distintas, ambos tienen la apariencia de núcleo y todos los elementos de la lista de arriba encajan en la idea de [perfil de influencer] (en una nota al final de 3 del estudio lo digo).
+- El [perfil de influencer] es un [perfil profesional] encargado de ser un puente entre empresas y un nicho en particular.
+- El concepto [perfil de influencer] se relaciona (o al menos, es posible relacionarnos) con el concepto de "comunicación de estructuras" (07/dic/2025) en el sentido que, tal y como se mencionó arriba, es un puente entre empresas y nicho.
+  Visto de otro modo: el [perfil de influencer] es el [nodo cognitivo] mientras que el nicho es la proyección del [cNode] en el mundo tangible, id est: el [nodo de realidad].
+  Dicho [RNode] ofrece un camino de dos vías:
+  + como plataforma de distribución de publicidad;
+  + como mecanismo de evidencia para medir efectividad de campañas (o "sensor" que mide la audiencia).
+
+
+[Página 7]
+
+- A pesar de no estar bajo la misma lógica que el [perfil de influencer], el concepto de [adaptador de plataforma] será vital para crear los videos. (pág. > mar-09-dic-2025)
+- El concepto de [esencificación] (ver pag. 2), [perfil de influencer] y [personalidad digital cognitiva] son la misma cosa ([también [campaña publicitaria], aunque este último aún me causa dudas]).
+  Todos se basan en un "contrato" que es el núcleo, el cual contiene (ver mar-09-dic-2025 pág. 5):
+
+TABLA:
+- Columna 1:
+  * Invariantes
+  * Temas
+  * Descripción del producto
+  * Frecuencia de publicación
+
+- Columna 2:
+  * DO/don't
+  * [Personalidad digital cognitiva]
+  * Emociones que se busca generar
+  * Servicios ofrecidos
+
+- Columna 3:
+  * Reglas de distribución
+  * Heurísticos que se busca generar
+  * Objetivos (cuantificables) ([resultados esperados])
+  * Lenguaje a utilizar
+
+- En mar-09-dic-2025 incluyo [perfil de influencer], [campaña publicitaria] y otras, como: "entidades que pueden ser estructuradas...", y defino estructura como: "un contrato el cual contiene reglas, invariantes, acciones buscadas, objetivos y todo lo necesario para comprender la idea". Puedo usar exactamente esta definición para describir el núcleo (el cual definí como: "estructura conceptual que conserva identidad a través de adaptaciones. Un núcleo no es un texto ni una frase; es un conjunto de propiedades esenciales (invariantes) más un dominio de variación permitido. Es lo que se realiza o instancia en contextos").
+  Ahora que lo pienso de esta forma me es un poco más fácil comprender el núcleo, puesto que es claro que lejos de ser algo que va a "realizarse" en un contexto en particular, es la base que expone las reglas que se deben seguir en cualquier contexto para poder llevar a cabo las intervenciones. El diagrama de la pág. 15 en mie-31-dic-2025 toma más sentido.
+  El módulo llamado [prompt creator] (pág. 15, 31-dic-2025) deberá contener, como parte de su prompt, instrucciones que le digan cómo utilizar cada uno de los [cNodes] que recibe.
+  Antes de seguir adelante quiero hacer una nueva versión del diagrama (pág. 15, mie-31-dic-2025):
+
+
+[Página 8 — Diagrama]
+
+GRAFOS = [
+  {
+    nombre: "Prompt creator",
+    entidades: [
+      { identificador: "PROMPT creator" }
+    ],
+    nodos: [
+      {
+        identificador: "PROMPT creator",
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "Contexto de sujeto",
+        categoría: ["cNode"]
+      },
+      {
+        identificador: "Respuestas protocolarias",
+        categoría: ["cNode"]
+      },
+      {
+        identificador: "Intención",
+        categoría: ["cNode"]
+      },
+      {
+        identificador: "Núcleo",
+        categoría: ["cNode"]
+      },
+      {
+        identificador: "Contextos de ejecución",
+        categoría: ["cNode"]
+      },
+      {
+        identificador: "Contextos de distribución",
+        categoría: ["cNode"]
+      },
+
+      {
+        identificador: "Adaptador de respuestas protocolarias",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+      },
+      {
+        identificador: "Adaptador de intención",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+      },
+      {
+        identificador: "Adaptador de núcleo",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+      },
+      {
+        identificador: "Adaptador de contextos de ejecución",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+      },
+      {
+        identificador: "Adaptador de contextos de distribución",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+      },
+      {
+        identificador: "Main Prompt",
+        entidades_contenedoras: ["PROMPT creator"],
+        tipo: ["Prompt en el proyecto", "cApp"]
+
+      },
+      {
+        identificador: "Output: Un prompt que contendrá la descripción de la intervención buscada",
+        entidades_contenedoras: ["PROMPT creator"]
+      },
+
+      {
+        identificador: "Prompt executor",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "Intervención",
+        entidades_contenedoras: []
+      }
+    ],
+    aristas: [
+      { origen: "Contexto de sujeto", destino: "Adaptador de respuestas protocolarias" },
+      { origen: "Respuestas protocolarias", destino: "Adaptador de respuestas protocolarias" },
+
+      { origen: "Intención", destino: "Adaptador de intención" },
+      { origen: "Núcleo", destino: "Adaptador de núcleo" },
+      { origen: "Contextos de ejecución", destino: "Adaptador de contextos de ejecución" },
+      { origen: "Contextos de distribución", destino: "Adaptador de contextos de distribución" },
+
+      { origen: "Adaptador de respuestas protocolarias", destino: "Main Prompt" },
+      { origen: "Adaptador de intención", destino: "Main Prompt" },
+      { origen: "Adaptador de núcleo", destino: "Main Prompt" },
+      { origen: "Adaptador de contextos de ejecución", destino: "Main Prompt" },
+      { origen: "Adaptador de contextos de distribución", destino: "Main Prompt" },
+
+      { origen: "Main Prompt", destino: "Output: Un prompt que contendrá la descripción de la intervención buscada" },
+      { origen: "Output: Un prompt que contendrá la descripción de la intervención buscada", destino: "Prompt executor" },
+      { origen: "Prompt executor", destino: "Intervención" }
+    ]
+  }
+]
+
+
+[Página 9]
+
+Observaciones al diagrama:
+
+- El diagrama no muestra el procedimiento en su totalidad, a continuación dejo un intento:
+  Procedimiento para convertir el grafo (los grafos) que guardan la descripción de cada una de las [partes del modelo] ([intención, núcleo, contextos, respuestas protocolarias, etc.]) en el prompt que será enviado al [Prompt executor] para crear una intervención particular:
+    1 -> Se parte del código JS "en bruto"; id est: sin procesar.
+         El proyecto de código contiene la descripción del grafo, pero también muchas cosas que no son relevantes para crear la intervención como estilos, posiciones de nodos (en pantalla, no confundir con las conexiones entre los nodos -> ontología ->), para convertir este código en bruto en una [pieza] útil al sistema se utilizan los artefactos: todo el proyecto se convierte en [artefacto de código].
+    2 -> El [artefacto] se "envía" al proyecto con el [adaptador] (es decir, el proyecto que se muestra en la página 8 y que ahí se llama [prompt creator], el cual contiene los [adaptadores]).
+         ¿Qué es un [adaptador] en este contexto?
+         Es un prompt con todas las instrucciones necesarias para extraer la ontología (o la lógica relevante) de alguna de los [partes del modelo].
+         Su nombre correcto sería: [Prompt extractor de ontología]
+         ¿Qué significa "enviar" el artefacto al proyecto (¿que sería mejor decir: [al adaptador]?)?
+         Puede ser algo tan simple como una pregunta en la que se adjunte el [artefacto] de alguna [parte del modelo], junto con la indicación (por ejemplo):
+         "Usa el [adaptador de núcleo] para extraer la ontología del artefacto adjunto a esta pregunta".
+[Página 10]
+         
+         ¿Qué se espera a la salida del [adaptador] (es decir, como respuesta a la pregunta escrita en el párrafo anterior)?
+         Hay dos opciones:         
+           1) Nodo cognitivo el cual cuente con la descripción de la [parte del modelo] y en los nodos, la ontología.
+                - Esta opción es la que se describe en el diagrama de la página 3.
+                - Es algo intermedio entre el grafo que guarda la ontología como código y una estructura "más cercana" al lenguaje humano.
+           2) Un prompt o descripción (algo textual) en el que se describa a detalle la ontología, el cual formará parte del [main prompt] en su sección especial (cada [parte del modelo] tendrá su propia sección dedicada).
+           Extra) Es posible que lo mejor sea una combinación de las opciones 1 y 2, podría ser un documento con ambos.
+
+3 -> Se debe repetir el paso 2 para cada cada una de los [partes del modelo], una vez que se tengan:
+Es necesario [combinar todas las ontologías] (id est: las [salidas de los adaptadores]) para crear el [main prompt].
+
+¿Qué significa [combinar las ontologías]?
+El nombre [main prompt] da una pista.
+Lo que busco es crear una descripción integral, holística del modelo, antes de seguir, es importante pensar en cómo se llevará a cabo la combinación. Siguiendo el modelo al final de la página anterior, "combinar" podría ser algo tan simple como:
+Enviar una pregunta con los archivos adjuntos de las [salidas de los adaptadores] junto con:
+"Combina estas [salidas] de acuerdo a cómo se establece en el [prompt central] de este proyecto".
+
+[Página 11]
+
+¿Qué debe contener la salida de la operación anterior
+i.e.: el [main prompt]?
+
+En la pág. > mencioné una intuición, definí:
+
+Núcleo: "es la base que expone las reglas que se deben seguir en cualquier contexto para poder llevar a cabo las intervenciones".
+
+El hecho que tanto el núcleo como cualquier otro [elemento del modelo] pueda desempeñar un rol se debe a que en el diseño dichos roles serán asignados. Lo que quiero decir con esto es que para que sea posible que el [prompt executor] sea capaz de saber qué hacer, es necesario que el [main prompt] proporcione una descripción precisa de las partes del [modelo], así como de las relaciones entre ellas (de ahí la palabra "holístico" usada en la página anterior).
+
+Proceso de creación del [main prompt]:
+1) Consideraciones previas:
+   Tal y como ya se dijo al final de la página 10, el [main prompt] será creado al combinar los [cNodes-salida de los adaptadores] enviados como documentos adjuntos y un prompt en el que se indica cómo combinarlos. El cómo combinar puede ser:
+       a) Un redireccionamiento a alguna parte del [prompt central] del proyecto [prompt creator] (esta es la configuración usada en el ejemplo de la pág. 10)
+       b) Un redireccionamiento a algún documento guardado en la memoria del proyecto.
+       c) Un archivo adjunto enviado con los [cNodes-salida de los adaptadores].
+       d) Un [texto] que reemplazará al mostrado en el ejemplo al final de la pág. 10.
+
+    [Lista de opciones de procesamiento del cNode].
+    Lo anterior tiene una implicación evidente:
+    El proyecto [prompt creator] es único para cada aplicación cognitiva (hace falta un mejor nombre) ya que almacenará documentos con información sobre el diseño de cada [elemento del modelo].
+    
+[Página 12]
+    
+    En la pág. 1 de jue-11-dic-2025 hablo (idea 2) sobre el concepto [cognición central], debido a que éste componente "contiene todas las memorias de todos los módulos" entonces ofrece una interfaz que puede interactuar tanto con la [interfaz humana] como con otros módulos, así, el [prompt creator] cumple o desempeña el rol de [cognición central]. Es [aquí] donde se define la [arquitectura cognitiva].
+    Los puntos a) y b) de la lista de la página anterior ejemplifican cómo funciona la [arquitectura cognitiva]:
+    La memoria del proyecto (ya sea en el [prompt central] o en documentos) guarda todos los detalles del diseño de cada [elemento]:
+      - Información sobre el diseño del grafo.
+      - Definiciones de la ontología (conexiones, nodos y el porqué de cada uno) (tipos y relaciones)
+      - Modelos estructurales.  • Formato esperado
+      - Protocolos
+      - Cosas como definición de sujeto y su contexto
+      - En general todo lo que necesite saberse del [elemento del modelo].
+    [Ver nota al final de pág. 15]
+    Cuando la [cognición central] (notar que se reemplazó [prompt creator]) recibe el [cNode-salida del adaptador] éste no es una entidad ajena o desconocida, al contrario, es posible diseñar el prompt para rechazar un cNode con un formato distinto al esperado, es esta la razón por la que se sabe qué hacer.
+
+2) Procesamiento del [cNode-salida del adaptador]
+   El punto anterior era necesario para que el resto del Proceso de creación del [main prompt] tuviera sentido.
+   El proceso de enviar el [cNode-salida del adaptador] y procesarlo usando alguno de los métodos descritos en la lista de la página anterior necesita un nombre.
+
+[Página 13]
+
+   Antes de pensar en el nombre es más importante preguntarse ¿qué se busca conseguir como resultado del proceso? ¿todos los [elementos del modelo] tendrán la misma "frecuencia de cambio"?
+
+   Con respecto a la segunda pregunta es vital considerar algunas ideas:
+     - Núcleo, intención, contextos de ejecución y contextos de distribución no deberían cambiar mucho, y me atrevo a decir que son constantes,
+       La discusión de intervención en mie-31-dic-2025 dice:
+       Intervención: "acción concreta y realizable para traducir la estructura del Núcleo al Sujeto, es realizable y ejecutable. Puede ser un mensaje, una clase, un guión, un ajuste técnico, un proceso, etc."
+       Puesto que la idea es crear intervenciones por definición no podemos cambiar otra cosa* que no sean las [Respuestas protocolarias] ligadas a un contexto en particular. Si se cambiara, por ejemplo el Núcleo o la intención tendría una [aplicación cognitiva] distinta (ver discusión de intención página 6 mie-31-dic-2025).
+       Esto es un resultado importante:
+       [El único [elemento del modelo] que cambiará es [Respuestas protocolarias], todos los demás serán parte de la [arquitectura cognitiva] de la [cognición central]]
+
+   Con respecto a la primera pregunta:
+      - Ya se aclaró una de las preguntas más trascendentales (que de hecho, fue la causa de iniciar la discusión actual en la página 10):
+        No hay combinación de ontologías, esto implica que con la configuración correcta de la [cognición central] sólo la salida de [main prompt] sea
+
+*Ahora que lo pienso mejor es posible imaginar casos en los que sí cambien los contextos de ejecución y contextos de distribución,
+
+
+[Página 14]
+
+   Esta discusión sigue siendo parte del último punto en la página >.
+   Después de la discusión llevada a cabo sobre el diseño del sistema (páginas 8-13) es necesario un nuevo modelo.
+   Aquí hay una lista con los cambios que deben hacerse
+     - Ya no hay un "procedimiento para convertir los grafos que guardan la descripción de cada una de las [partes del modelo] en el prompt que será enviado al [prompt executor] para crear una intervención en particular".
+   La idea o el objetivo que buscaba conseguir con ese procedimiento se basaba en que el [prompt creator] recibiría los artefactos de cada una de las [partes del modelo] y los adaptadores convertirían dichos artefactos en [piezas] útiles al [sistema] (lo que llamé [c-Nodes-salida de los adaptadores] a partir de la página 11).
+   ¿Qué cambió?
+     + Las partes del modelo: núcleo, intención y contextos (todos) serán parte de la [cognición central], no serán recibidos (a pesar de que es plausible que estén almacenados como artefactos) como entrada.
+     + Ya no existirá el módulo [prompt executor], sus responsabilidades deben ser realizadas como un proceso dentro de la [cognición central].
+     + Al proponer el diseño de la página 10 (y al comenzar con las observaciones) no tomé en cuenta la importancia que tiene la [configuración IA] de la [cognición central]. Los prompts del proyecto son en sí mismos [aplicaciones cognitivas] las cuales ejecutarán acciones como la creación de las intervenciones. En el nuevo diseño debo considerar este hecho.
+
+Nota: Es sumamente importante la forma de definir los prompts, cada una de las funcionalidades propuestas depende de prompts adecuados.
+
+
+[Página 15]
+
+   * La salida del chat al que se le envíe el artefacto con las [respuestas protocolarias] no debe ser una única intervención, podría ser un [artefacto de salida] con un conjunto de intervenciones con distintos parámetros (por ejemplo el archivo cognitive-apps/documentos-de-investigacion/work-spaces/scripts/ejemplo-text-scores-p3.txt)
+   * Para complementar lo que mencioné arriba sobre los prompts es importante complementar con lo que digo en la opción 2) de la página 10: cada parte de la aplicación tendrá su propia sección dedicada.
+   Esto acerca el diseño de la [cognición central] a los aplicaciones "tradicionales", sólo que este módulo se construye sobre la IA. A pesar
+   Es importante considerar algunas cosas:
+     - En el proyecto [cognición central] habrá un [prompt central] el cual se encargará de realizar actividades básicas, por ejemplo: validación de input (para evitar formatos equivocados), redireccionamiento (cuando se envíen comandos específicos para ejecutar tareas específicas), guía sobre funcionalidades o capacidades (que puede ser un redireccionamiento).
+     - El [prompt central] podría ser un elemento más dentro de un artefacto el cual contendrá todos los prompts del mismo modo que el artefacto de código contiene todos los archivos de una aplicación.
+       Importante:
+       La idea del punto anterior es clave: todos los prompts dentro de la [cognición central] son equivalentes a los archivos de un proyecto de código. Si hay un pre-procesamiento usando IA para crear el artefacto con los prompt, entonces habría una precisión grande beneficiando las capacidades cognitivas centrales.
+
+
+[Página 16]
+
+Nota: Sobre las aplicaciones cognitivas
+      
+      Esta nota es independiente a la discusión de la página anterior, pero es necesaria.
+      
+      La nota al final de la página 15 me deja pensando en que las aplicaciones cognitivas no son otra cosa que prompts funcionando como "un proceso lógico con una tarea en específico" (ver página 2). Es posible hacer algunas equivalencias metafóricas:
+      
+      "Un archivo con un [prompt] es a la [aplicación cognitiva]"
+      lo que
+      "un archivo con un script es a una aplicación tradicional".
+      
+      Tanto el [artefacto con los prompts] de la [aplicación cognitiva]
+      como el [artefacto con los archivos] del [proyecto]
+      en una [aplicación tradicional]
+      son equivalentes a una [fotografía cognitiva] de la arquitectura de la aplicación. Dicha [fotografía cognitiva] muestra la lógica y las ideas (en general, la estructura) detrás de la aplicación.
+      
+      La [cognición central] no es otra cosa que una interacción con dicha fotografía.
+
+
+[Página 17]
+
+   * La aplicación cognitiva provee una interfaz que ayuda a quien la usa ya que puede dar ejemplos, es decir, tiene la capacidad de autodescribirse, lo que la hace diferente a una aplicación tradicional (al menos una que no usa un artefacto para guardar su lógica). Este es exactamente el concepto detrás de la idea de [esencificación].
+   * La lista de la página 11 sigue siendo válida para procesar, no sólo [cNodes] (aunque sólo será en el de los [respuestas protocolarias] no sería bueno limitar las posibilidades), sino en general, para procesar cualquier [pieza] [de información] compatible con el sistema.
+
+  Lo que escribí desde la página 7 hasta el punto anterior fue consecuencia de la discusión sobre el [perfil de influencer], que a su vez era una discusión para responder a la cuestión de [monetización de contenidos] nacida en consecuencia de la revisión de las ideas del estudio sobre el analfabetismo digital.
+  No tiene sentido continuar con las discusiones hasta que tenga un mejor diseño del sistema, así que dejaré aquí este estudio y me enfocaré en crear un estudio dedicado al diseño; ya hay mucho material.

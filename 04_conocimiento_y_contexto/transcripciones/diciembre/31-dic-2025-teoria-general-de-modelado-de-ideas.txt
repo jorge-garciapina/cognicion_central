@@ -1,0 +1,518 @@
+[TRANSCRIPCIÓN — PRIMERA PARTE DEL DOCUMENTO]
+
+[PÁGINA 1]
+
+Teoría general de modelado de ideas:
+[Modelado ontológico] y [Realización Contextual]    mie-31-dic-2025
+
+En el estudio anterior: “Modelado usando teoría de grafos” iniciado el vie-26-dic-2025 se tuvieron resultados importantes que serán considerados como el punto de partida de la implementación del sistema. Es importante considerar que las definiciones y los conceptos estudiados me ayudarán a construir el modelado de ideas, no son la solución a todos los problemas sino el punto de partida a un modelado más eficiente.
+Como mencioné al final del estudio anterior, cada aplicación será distinta en cuanto a responsabilidades de [interfaz humana] e [interfaz de IA] se refiere, debido a esto, es mucho más importante entender las [relaciones (aristas)] y los componentes [nodos] en vez de tratar de forzar una arquitectura global (la cual tendría que ser cambiada cada vez que necesite implementar una característica nueva).
+Este estudio será hecho como complemento a la creación de un nuevo proyecto, lo hago así puesto que el principio de funcionamiento del sistema es una integración de las interfaces IA y humana,
+¿Cuál es el punto de partida del nuevo proyecto?
+Lo principal es lo que ya mencioné arriba y vuelvo a transcribir:
+“En cada aplicación las responsabilidades de cada una de las interfaces (IA y humana) serán distintas y estarán definidas en el diseño de su arquitectura propia.”
+La principal consecuencia de lo anterior es que los sistemas no tendrán una [naturaleza/forma/constituciones/estructura*] definida, sino que [ésta] dependerá de las condiciones particulares de cada caso. Esto es algo parecido a lo que ocurre con los gases,
+
+[PÁGINA 2]
+
+ya que éstos no tienen un volumen definido sino que éste se adapta a las condiciones del recipiente que contiene al gas. (A manera de curiosidad; en los gases se estudian las moléculas y las relaciones entre éstos, lo cual es muy similar a lo que quiero hacer con los nodos y las aristas de un grafo.) A pesar de esta naturaleza dinámica de la arquitectura conceptual de las [aplicaciones cognitivas], es posible definir [átomos o moléculas]* que serán usados para establecer las [definiciones] y [relaciones] conceptuales (y contextuales) de cada arquitectura, los cuales* fueron definidos en el estudio sobre el modelado ontológico.
+
+1) Arquitectura cognitiva.
+En esta sección estudiaré los [átomos] de la arquitectura cognitiva, lo que busco es crear el [núcleo invariante] para la [teoría general de modelado de ideas], a partir del cual pueda crear las [aplicaciones cognitivas] como [realizaciones contextuales].
+[Nota]
+“La traducción Intención -> Intervención no es un acto único, sino una familia de transformaciones gobernadas por reglas, restricciones e invariantes.”
+
+1.1) Definiciones básicas:
+Teoría general de modelado de ideas:
+A partir de un núcleo estable se busca producir, de manera controlado y verificable, múltiples realizaciones contextuales (intervenciones) para sujetos distintos bajo condiciones de ejecución y distribución distintas. La IA se vuelve relevante porque hace viable ejecutar esa “fábrica” de adaptaciones a escala y con fineza, pero el corazón de este trabajo es:
+   • Definir la estructura conceptual que hace que el proceso de adaptación sea:
+     - repetible
+     - explicable
+     - auditable
+     - extensible a nuevos dominios
+   
+[PÁGINA 3]
+   
+   • Definir un lenguaje de modelado mínimo (ontología)
+   • Definir un conjunto de operaciones (realización contextual) que produzca una intervención específica sin romper la identidad del núcleo cuando se proporcione:
+     - una intención,
+     - un núcleo con invariantes,
+     - un sujeto y contextos (ejecución/distribución),
+     - restricciones
+
+Nota:
+El chat añade algo que aunque no comprendo en profundidad, se me hace superficialmente interesante: “En ese sentido, sí: como dijo el developer, esto ya no es sólo ingeniería. Es epistemología aplicada: estás diseñando reglas explícitas sobre cómo el conocimiento se mantiene “siendo el mismo” mientras se traduce a situaciones nuevas”
+
+1.1.1) Ontología (nivel “qué existe”):
+   - Define los tipos de cosas que existen en el modelo (clases/tipos)
+   - Define qué relaciones entre tipos están permitidas.
+   - Permite validar consistencia (evitar mezclar categorías)
+
+1.1.2) Realización Contextual (nivel “cómo se adapta”)
+   - Define cómo un “núcleo” (una idea/base) se instancia en intervenciones concretas bajo condiciones particulares
+   - Exige declarar invariantes: aquello que debe preservarse para que el núcleo mantenga identidad.
+   - Produce una familia de intervenciones (múltiples realizaciones), cada una adaptada a un sujeto y a contextos de ejecución y distribución.
+
+
+[PÁGINA 4]
+
+1.1.3) Entidades centrales
+   Nucleo
+      - Definición: estructura conceptual que conserva identidad a través adaptaciones. No es un texto ni una frase, es un conjunto de propiedades esenciales (invariantes) y un dominio de variación permitido.
+      - Función: es lo que se “realiza” o “instancia” en contextos.
+   Invariante:
+      - Definición: condición del núcleo que debe preservarse para que el núcleo sea “el mismo” (criterio de identidad). Si una invariante se viola, la realización deja de ser una instancia del núcleo original.
+      - Función: Frontera entre adaptación legítima y deformación.
+   Intención:
+      - Definición: Efecto que se busca generar en el sujeto, no describe el contenido del núcleo, sino el cambio buscado en el estado del sujeto (cognitivo, conductual, operativo, etc.)
+   Intervención:
+   - Definición: acción concreta para traducir la estructura del núcleo al sujeto, es realizable y ejecutable. Puede ser un mensaje, una clase, un guión, un ajuste técnico, un proceso, etc.
+   Sujeto:
+   - Definición: destinatario de la intención. El sujeto no implica humano; puede ser una entidad organizacional o un sistema (por ejemplo una planta o fábrica).
+   - Observación: lo veo más cercano al sujeto lingüístico, es decir, en la oración: “el día es bello”; “el día” es el sujeto, y éste puede ser reemplazado por: “el gallo”, o, “el automóvil”, “el país”, etc., sin que esto cambie en nada la validez de la oración
+
+
+[PÁGINA 5]
+
+1.1.4) Contextos (necesarios para evitar ambigüedad)
+   Contexto
+     - Definición: conjunto de condiciones relevantes para seleccionar o parametrizar una intervención.
+     - Observación: el contexto es el entorno al que pertenece cada sujeto.
+   Un hecho que debe resaltarse (ver estudio “Modelado usando teoría de grafos” - vie-26-dic-2025) es que el concepto contexto puede causar confusión ya que puede ser aplicado a distintos situaciones igual de válidos, por ejemplo: si quiero hacer que un grupo de estudiantes aprendan el tema A, entonces un tema A es el núcleo y cada estudiante es un sujeto con un contexto en particular; para llevar a cabo la explicación del tema puedo hacerlo de muchas formas: clase presencial, clase en línea, entrevista personal, etc., en este caso, el objetivo es “ejecutar la enseñanza”, cada forma de ejecución es un contexto (de ejecución). Para comprender esto en mayor detalle, se presentan los siguientes ejemplos:
+   Contexto de sujeto: Ver página 10 para una mejor descripción.
+   - Definición: condiciones propios del sujeto (atributos, estado, historia, capacidades, preferencias, restricciones internas)
+   - Ejemplos generales: edad del paciente, conocimientos previos del alumno, miedos del cliente, cultura profesional, presupuesto, tolerancia al riesgo, etc.
+   - Ejemplos lingüísticos:
+       [DIAGRAMA — REPRESENTACIÓN ESTRUCTURADA DEL EJEMPLO]
+       [Estudiantes = sujetos]
+       GRAFOS = [
+         {
+           nombre: "modulo_de_analisis_de_plataforma",
+           entidades: [
+             { identificador: "objetivo" }
+             { identificador: "contextos" }
+           ],
+           nodos: [
+             {
+               identificador: "enseñar_tema_A",
+               entidades_contenedoras: ["objetivo"]
+             },
+             {
+               identificador: "contexto_1",
+               descripción: "[Estudiante 1] tiene aptitudes pero posee muy poca capacidad de concentración"
+               entidades_contenedoras: ["contextos"]
+             },
+             {
+               identificador: "contexto_2",
+               descripción: "[Estudiante 2] aprende bien con ejemplos visuales"
+               entidades_contenedoras: ["contextos"]
+             },
+             {
+               identificador: "contexto_3",
+               descripción: "[Estudiante 3] se esfuerza, la falta de aptitudes es compensada por trabajo duro"
+               entidades_contenedoras: ["contextos"]
+             },
+           ],
+           aristas: [
+             {
+               origen: "objetivo",
+               destino: "contexto_1"
+             },
+             {
+               origen: "objetivo",
+               destino: "contexto_2"
+             },
+             {
+               origen: "objetivo",
+               destino: "contexto_3"
+             },
+       
+           ]
+         }
+       ]
+
+[PÁGINA 6]
+
+Descripción del ejemplo dado:
+
+• Intención:
+   Hasta este momento no había considerado que la intención es el punto de partida del modelo, todo lo que se presenta depende de ésta. Si cambiara la [intención] entonces las aristas cambiarían, y los [contextos] educativos serían irrelevantes para la nueva [configuración], esto, sin importar que el [núcleo] permanezca constante.
+   Anteriormente definí intención como un efecto deseado en el sujeto, pero en la práctica este concepto es más profundo ya que al definir el efecto deseado, no sólo en el sujeto sino en la realidad, se define la configuración del [grafo de la aplicación cognitiva].
+   Quizás sea adecuado reformular la definición de intención en términos de [aplicaciones cognitivas]:
+   “La intención es:
+     * La razón de ser de una [aplicación cognitiva], su idea base, la raíz, el motivo, la finalidad que se busca cumplir.
+     * La entidad que será utilizada como [medida/referencia] de otros componentes en la [aplicación cognitiva], tales como: contextos, intervenciones,
+     * La idea que define la configuración de todos los elementos de la [aplicación cognitiva] (El comentario final (pág.20) del estudio del Vie-26-dic-2025 se ve resuelto con esta nueva definición de la intención)”
+
+   Siento que esta definición me acerca un poco a mi visión inicial ya que se busca condensar dos cosas: una idea (intención) y un efecto en la realidad. Las aplicaciones cognitivos son los nodos de realidad, los cuales han sido mi búsqueda del último año.
+
+[PÁGINA 7]
+
+• Aristas
+   Debo admitir que esta es la tercera vez que comienzo esta sección, la razón de esto se debe a que no había considerado que las aristas dependen del contexto en el que estén siendo definidas. Antes de transcribir la respuesta que me dió el chat, quiero expandir los ejemplos lingüísticos que se desprenden del grafo en la página 5:
+   
+   Objetivo: Enseñar tema A
+   
+   [Caso 1]:
+      “Estudiante 1 tiene aptitudes pero posee muy poca capacidad de concentración,”
+      Si tratara de modelar este ejemplo usando la teoría de grafos, sería algo así:
+      Modelo 1:
+      GRAFOS = [
+        {
+          nombre: "Modelo 1",
+          entidades: [],
+          nodos: [
+            { identificador: "Estudiante 1", entidades_contenedoras: [] },
+            { identificador: "tiene", id: "1", entidades_contenedoras: [] },
+            { identificador: "tiene", id: "2", entidades_contenedoras: [] },
+            { identificador: "aptitudes", entidades_contenedoras: [] },
+            { identificador: "capacidad de concentración", entidades_contenedoras: [] },
+            
+          ],
+          aristas: [
+            { origen: "Estudiante 1", destino(id): "tiene"(1)},
+            { origen: "Estudiante 1", destino(id): "tiene"(2)},
+            { origen(id): "tiene"(1), destino(id): "aptitudes"},
+            { origen(id): "tiene"(2), destino(id): "capacidad de concentración"},
+          ]
+        }
+      ]
+   
+      Este modelo es cualitativo, pero no cuantitativo, ya que al verlo no es posible saber que si “capacidad de concentración” es muy poca, y, de hecho tampoco es posible saber si sus aptitudes son buenas/malas, avanzados/regulares, mediocres, etc.
+      Debido a que Modelo 1 carece de una descripción de magnitud las siguientes descripciones son igual de válidos:
+        - “Estudiante 1 tiene bajos aptitudes y tiene muy alta capacidad de concentración”
+        - “Estudiante 1 tiene nulas aptitudes y capacidad de concentración”
+      Es necesario refinar el modelo, podríamos usar líneas más gruesos para representar la magnitud:
+      Modelo 2:
+      GRAFOS = [
+        {
+          nombre: "Modelo 2",
+          entidades: [],
+          nodos: [
+            { identificador: "Estudiante 1", entidades_contenedoras: [] },
+            { identificador: "tiene", id: "1", entidades_contenedoras: [] },
+            { identificador: "tiene", id: "2", entidades_contenedoras: [] },
+            { identificador: "aptitudes", entidades_contenedoras: [] },
+            { identificador: "capacidad de concentración", entidades_contenedoras: [] },
+            
+          ],
+          aristas: [
+            { origen: "Estudiante 1", destino(id): "tiene"(1), peso: "alto"},
+            { origen: "Estudiante 1", destino(id): "tiene"(2), peso: "bajo"},
+            { origen(id): "tiene"(1), destino(id): "aptitudes", peso: "alto"},
+            { origen(id): "tiene"(2), destino(id): "capacidad de concentración", peso: "bajo"},
+          ]
+        }
+      ]
+   
+   [PÁGINA 8]
+   
+   A pesar que el modelo 2 parece haber solucionado un problema, no ha solucionado todos, basta con considerar el ejemplo 2 para descubrirlo.
+   
+   [Caso 2]:
+      “Estudiante 2 aprende bien con ejemplos visuales”
+      Es posible modelar este ejemplo como
+      Modelo 1:
+      GRAFOS = [
+        {
+          nombre: "Modelo 2",
+          entidades: [],
+          nodos: [
+            { identificador: "Estudiante 2", entidades_contenedoras: [] },
+            { identificador: "Forma de aprendizaje", entidades_contenedoras: [] },
+            { identificador: "visual", entidades_contenedoras: [] },
+            { identificador: "auditivo", entidades_contenedoras: [] },
+            { identificador: "práctico", entidades_contenedoras: [] },      
+          ],
+          aristas: [
+            { origen: "Estudiante 2", destino: "Forma de aprendizaje"},
+            { origen: "Forma de aprendizaje", destino: "visual", peso: "alto"},
+            { origen: "Forma de aprendizaje", destino: "auditivo", peso: "bajo"},
+            { origen: "Forma de aprendizaje", destino: "práctico", peso: "medio"},
+          ]
+        }
+      ]
+   
+      ¿Cuál es el problema del que se hablaba? Que el modelo 1 del [caso 2] es “incompatible” (en el sentido que no tiene los mismos elementos) con los modelos de l [caso 1]. Cada vez que se intente definir una descripción para un estudiante sería necesario crear un grafo único.
+   
+      Solución:
+      Definir una [estructura base] la cual es un [modelo] con el que se tratará de representar el contexto de cada sujeto (en el ejemplo actual, sujeto = estudiante).
+   
+      Observaciones:
+        * Al implementar esta solución se perderá generalidad puesto que la descripción de cada contexto tendrá que adaptarse, estrictamente a la [estructura base], sin embargo, esto permitirá una uniformidad, facilitando la implementación de la intención en los distintos contextos, es decir: facilitando la creación de las [intervenciones].
+        * La creación de los [modelos] se convierte, así, en una tarea fundamental. Hay dos formas de crear los modelos:
+            1) Usar modelos ya existentes: extraer la estructura y reutilizarla para modelar los contextos.
+            2) Crea [estructura base] propia: ideal para problemas simples
+   
+   
+   [PÁGINA 9]
+   
+        * El punto anterior me recuerda un poco a usar librerías en el desarrollo de software, ya que en un principio siempre es posible desarrollar una solución para cada problema, pero en la mayor parte de los casos esto es innecesario, ya que los librerías han sido creadas, probadas y optimizadas para resolver los mismos problemas. En el ejemplo que me encuentro estudiando los [modelos estructurales] están dados por todas las teorías de la educación.
+        * Similarmente al ejemplo de educación, es útil entender que en cualquier rubro de labor humana existen modelos que tratan de representar las distintos situaciones. El ejemplo dado en la página 2 del 5/dic/2025 habla sobre la importancia de contar con modelos detallados en entornos con posibilidades casi infinitos (en el ejemplo se habló de la guerra), los modelos son una teoría basada en invariantes y su función es describir (o tratar de) la realidad. Cada modelo que utilice para describir cualquier contexto cumple con el mismo fin. Al reutilizar modelos creados por otros para crear mis propias intervenciones, estaría poniendo el conocimiento humano a mi alcance. La extracción de modelos se convierte así en una llave fundamental de este trabajo, al tener una librería de estos, no habría campo del saber humano al que no podría acceder.
+        * Para proceder con el [modelado estructural] es bueno usar una combinación de cytoscape.js y el concepto de artefactos: los [modelos estructurales] hallados en la literatura se representarán como un grafo; la implementación del modelo (extracción de la información del contexto, conversión, etc.) será realizado por la IA
+   
+   
+   [PÁGINA 10]
+   
+      Ejemplo:
+      A continuación muestro un ejemplo de lo que espero conseguir, a pesar de que el modelo tiene huecos (lo advierto desde antes), funciona como una guía para el trabajo futuro.
+      Trataré de modelar estructuralmente los ejemplos mostrados por el diagrama de la página 5:
+   
+   [DIAGRAMA]
+   Modelo estructural de aprendizaje
+   GRAFOS = [
+     {
+       nombre: "Modelo estructural de aprendizaje",
+       entidades: [],
+       nodos: [
+         { identificador: "Estudiante"},
+         { identificador: "Esfuerzo"},
+         { identificador: "Esfuerzo_valor = bajo"},
+         { identificador: "Esfuerzo_valor = medio"},
+         { identificador: "Esfuerzo_valor = alto"},
+         { identificador: "Interés"},
+         { identificador: "Interés_valor = bajo"},
+         { identificador: "Interés_valor = medio"},
+         { identificador: "Interés_valor = alto"},
+         { identificador: "Forma de aprendizaje"},
+         { identificador: "Forma de aprendizaje_valor = "visual""},
+         { identificador: "Forma de aprendizaje_valor = "auditiva""},
+         { identificador: "Forma de aprendizaje_valor = "práctica""},
+         { identificador: "Concentración"},
+         { identificador: "Concentración_valor = nula"},
+         { identificador: "Concentración_valor = poca"},
+         { identificador: "Concentración_valor = media"},
+         { identificador: "Concentración_valor = alta"},
+         { identificador: "Aptitudes"},
+         { identificador: "Aptitudes_valor = nula"},
+         { identificador: "Aptitudes_valor = poca"},
+         { identificador: "Aptitudes_valor = media"},
+         { identificador: "Aptitudes_valor = alta"},
+       ],
+       aristas: [
+         { origen: "Estudiante", destino: "Esfuerzo"},
+         { origen: "Estudiante", destino: "Interés"},
+         { origen: "Estudiante", destino: "Forma de aprendizaje"},
+         { origen: "Estudiante", destino: "Concentración"},
+         { origen: "Estudiante", destino: "Aptitudes"},
+   
+         { origen: "Esfuerzo", destino: "Esfuerzo_valor = bajo"},
+         { origen: "Esfuerzo", destino: "Esfuerzo_valor = medio"},
+         { origen: "Esfuerzo", destino: "Esfuerzo_valor = alto"},
+   
+         { origen: "Interés", destino: "Interés_valor = bajo"},
+         { origen: "Interés", destino: "Interés_valor = medio"},
+         { origen: "Interés", destino: "Interés_valor = alto"},
+   
+         { origen: "Forma de aprendizaje", destino: "Forma de aprendizaje_valor = "visual""},
+         { origen: "Forma de aprendizaje", destino: "Forma de aprendizaje_valor = "auditiva""},
+         { origen: "Forma de aprendizaje", destino: "Forma de aprendizaje_valor = "práctica""},
+   
+         { origen: "Concentración", destino: "Concentración_valor = nula"},
+         { origen: "Concentración", destino: "Concentración_valor = poca"},
+         { origen: "Concentración", destino: "Concentración_valor = media"},
+         { origen: "Concentración", destino: "Concentración_valor = alta"},
+   
+         { origen: "Aptitudes", destino: "Aptitudes_valor = nula"},
+         { origen: "Aptitudes", destino: "Aptitudes_valor = poca"},
+         { origen: "Aptitudes", destino: "Aptitudes_valor = media"},
+         { origen: "Aptitudes", destino: "Aptitudes_valor = alta"},
+       ]
+     }
+   ]
+   
+   Los descripciones que se dan en el diagrama de la página 5 pueden ser deducidos de esta estructura general.
+
+   La idea detrás del concepto [extracción de modelos estructurales] es crear un modelo estructural similar al mostrado más arriba, pero con teorías de la educación profesionales, probados y estudiados a detalle.
+
+   Continuación de la discusión:
+   Con la discusión anterior aclaré algunas dudas que tenía sobre las aristas, aún me falta entender cómo es que se utiliza el contexto y el núcleo para crear una [intervención] en particular. Seguiré en una nueva sección con la certeza de que aún no concluyo la discusión sobre aristas.
+
+[PÁGINA 11]
+
+• Intervención
+   En el pasado (página 4) definí intervención como: “acción concreta para traducir la estructura del [núcleo] al [sujeto], es realizable y ejecutable. Puede ser un mensaje, una clase, un guión, un ajuste técnico, un proceso, etc.”, esta definición funciona, sin embargo, no da ningún indicio acerca de cómo proceder con la creación de [intervenciones] a partir de un núcleo, un contexto y una intención dados. Para comprender en mayor detalle a continuación escribo los términos aislados:
+   +) Núcleo:
+     - Estructura conceptual formada de invariantes.
+     - Entidad que será transformada (adaptada) en cada contexto.
+     - Su existencia (definición) es independiente de cualquier “necesidad” externa de la misma forma que una palabra en el diccionario no depende de dónde será usada.
+   +) Sujeto:
+     - Entidad única de la realidad. Puede ser un organismo, o entidad organizacional.
+   +) Contexto:
+     - Conjunto de condiciones (ontología) que describen al sujeto en el [medio] definido por la intención. (Ver la definición de intención en la página 6: las aplicaciones cognitivas existen con un fin, todo lo que las conforma está ahí con el único objetivo de cumplir con dicho fin)
+     - Es importante resaltar el hecho que el [medio] define el contexto, lo cual implica que no sólo existe un único contexto, sino que habrá uno para cada [medio] (intención), es decir, cada aplicación cognitiva existe para un único fin (Single-Responsibility Principle)
+   +) Intervención:
+     - Es una de los posibles transformaciones que pueden hacerse para adaptar el núcleo a un contexto en particular, la cual depende del [contexto de distribución] y [contexto de ejecución]
+     z
+[PÁGINA 12]
+
+     Ahora que he escrito los términos así es necesario comenzar a formularlos en conceptos más matemáticos: Las siguientes no son definiciones de una función, sino ideas obtenidos del libro “Calculus” de Tom M. Apostol
+     d1 • Dados dos conjuntos de objetos, el conjunto X y el conjunto Y, una función es una ley que asocia a cada objeto de X uno y sólo un objeto en Y. El conjunto X se denomina el dominio de la función. Los objetos de Y, asociados con los objetos de X forman otro conjunto denominado el recorrido de la función (página 63 del Apostol)
+     d2 • Una función F es un conjunto de pares ordenados (x,y) ninguno de los cuales tiene el mismo primer elemento (página 65 del Apostol)
+     d3 • Los objetos x y F(x) que aparecen en los pares ordenados (x,F(x)) de una función no tienen por qué ser números sino que pueden ser objetos de cualquier clase.
+     
+     Pensaba en definir una pseudo-función que utilizara el núcleo y el contexto como entrada, y a partir de “una interacción” entre ambos crear una intervención, algo así:
+        I(n,c) = intervención,   Ec. 1
+     El problema con esta definición es que no toma en cuenta los contextos de distribución y ejecución, tal y como se menciona al final de la página anterior: un ejemplo práctico podría funcionar bien en una clase presencial, pero mal en una clase en línea (esto es igual para otros ejemplos, no sólo el relacionado con la educación). La solución más intuitiva sería definir de nuevo la función considerando los contextos faltantes:
+       a) I(n, c-sujeto, c-distribución, c-ejecución) = intervención   [Ec. 2 a]
+       b) I(n, C(sujeto, distribución, ejecución)) = intervención      [Ec. 2 b]
+     
+     
+     [PÁGINA 13]
+     
+     La Ec.2 cumple con la necesidad de mostrar (al menos de forma cualitativa) que la intervención depende tanto del núcleo como del contexto, pero no dice nada acerca de cómo operar las distintas entidades, estas definiciones están inspiradas en d3 de la página 12, es decir, más que nada son conceptuales.
+     Para resolver el problema de la operatividad se me ocurre seguir un enfoque parecido al utilizado en la solución dada al problema de la página 8:
+     Propuesta de solución al problema de operatividad:
+       Al igual que la solución en la página 3, en esta solución se sacrifica generalidad para tener operabilidad.
+       Así como es más fácil definir el grafo que describe un contexto a partir de una [estructura base], es posible crear [relaciones base] las cuales recuerdan a los protocolos, un vistazo a la definición aclarará mi idea:
+       Protocolo:
+         Procedimiento normado que prescribe acciones concretas ante una clase de situaciones, con el fin de alcanzar un objetivo específico, garantizando consistencia y repetibilidad.
+         - Procedimiento: secuencia de acciones
+         - Normado: definido de antemano; no se improvisa
+         - Clase de situaciones: no describe evento único, sino un tipo de evento.
+         - Objetivo específico: cumplir con un fin particular
+         - Repetibilidad: se aplica igual en distintos momentos (por distintas personas)
+         - Características:
+             * Prescriptivo (dice qué hacer).
+             * Condicional (“Si ocurre X, hacer Y”)
+             * Secuencial (orden importa)
+             * Verificable (se puede evaluar si se siguió o no)
+       Los protocolos permiten adaptación contextual sin pérdida de identidad
+          
+     [PÁGINA 14]
+     
+     ¿De dónde proviene el protocolo?
+       Así como el [modelo estructural] proviene de estudios hallados en la literatura, el [protocolo] se crea usando las mismas teorías (o mejor: modelos). Cada “átomo” del modelo contendrá una respuesta protocolaria.
+       Como ejemplo, consideremos los ejemplos lingüísticos de la página 5.
+       
+       [DIAGRAMA]
+       [Estudiante 1 tiene aptitudes
+       pero posee muy poca capacidad
+       de concentración]
+               |
+               | [respuesta protocolaria]
+               v
+       - Aumentar concentración
+       - Ejercicios más
+         complejos
+       - Probar emociones y
+         heurísticas
+       
+       Para comprender en mayor profundidad es necesario utilizar el modelo propuesto en la página 10:
+       (por cuestiones de espacio usaré sólo los nodos que son relevantes al ejemplo)
+       
+       [DIAGRAMA — MODELO PROTOCOLARIO 1]
+       GRAFOS = [
+         {
+           nombre: "Modelo estructural de aprendizaje",
+           entidades: [],
+           nodos: [
+             { identificador: "Estudiante 1"},
+             { identificador: "Aptitudes"},
+             { identificador: "Aptitudes_valor = nula", seleccionado: false},
+             { identificador: "Aptitudes_valor = poca", seleccionado: false},
+             { identificador: "Aptitudes_valor = media", seleccionado: false},
+             { identificador: "Aptitudes_valor = alta", seleccionado: true},
+       
+             { identificador: [Buscar momento Eureka]},
+             { identificador: [Trabajar las bases]},
+             { identificador: [Resolver problemas y situaciones]},
+             { identificador: [crear, innovar]},
+       
+             { identificador: "Concentración"},
+             { identificador: "Concentración_valor = nula", seleccionado: false},
+             { identificador: "Concentración_valor = poca", seleccionado: true},
+             { identificador: "Concentración_valor = media", seleccionado: false},
+             { identificador: "Concentración_valor = alta", seleccionado: false},
+       
+             { identificador: [Buscar mecanismos de atención]},
+             { identificador: [Heurísticos, emociones]},
+             { identificador: [Poner retos]},
+             { identificador: [Profundizar en aplicaciones]},
+       
+           ],
+           aristas: [
+             { origen: "Estudiante", destino: "Aptitudes"},
+             { origen: "Estudiante", destino: "Concentración"},
+       
+             { origen: "Aptitudes_valor = nula", , destino: [Buscar momento Eureka]},
+             { origen: "Aptitudes_valor = poca", , destino: [Trabajar las bases]},
+             { origen: "Aptitudes_valor = media", , destino: [Resolver problemas y situaciones]},
+             { origen: "Aptitudes_valor = alta", , destino: [crear, innovar]},
+       
+             { origen: "Concentración_valor = nula", destino: [Buscar mecanismos de atención]},
+             { origen: "Concentración_valor = poca", destino: [Heurísticos, emociones]},
+             { origen: "Concentración_valor = media", destino: [Poner retos]},
+             { origen: "Concentración_valor = alta", destino: [Profundizar en aplicaciones]},
+       
+       
+           ]
+         }
+       ]
+       
+       A pesar que aún no estoy seguro de una manera formal, el Modelo protocolario 1 se parece más a las definiciones de función de la página 12 (del libro Apostol) puesto que aquí hay pares (no necesariamente ordenados) que relacionan la [estructura base] con las respuestas que se esperan a cada situación.
+     
+     
+     [PÁGINA 15]
+     
+     Observaciones:
+     Hay algunas cosas que pueden desprenderse del Modelo Protocolario 1 que me gustaría resaltar:
+     
+       - Las [respuestas protocolarias] pueden ser utilizados como partes de un Prompt, así, para “condensar” la estructura en forma de una intervención se requeriría ayuda de la IA. Un ejemplo visual aclara la situación:
+       [DIAGRAMA]
+       GRAFOS = [
+         {
+           nombre: "Modelo Protocolario",
+           entidades: [{ identificador: "Sistemas IA"}],
+           nodos: [
+             { identificador: "Sistemas IA"},
+             { identificador: "Prompt creator", entidades_contenedoras: ["Sistemas IA"]},
+             { identificador: "Prompt executor", entidades_contenedoras: ["Sistemas IA"]},
+             { identificador: "Respuestas protocolarias"},
+             { identificador: "Intención"},
+             { identificador: "Núcleo"},
+             { identificador: "Contextos"},
+             { identificador: "Intervención"},
+       
+           ],
+           aristas: [
+             { origen: "Respuestas protocolarias", destino: "Prompt creator"},
+             { origen: "Intención", destino: "Prompt creator"},
+             { origen: "Núcleo", destino: "Prompt creator"},
+             { origen: "Contextos", destino: "Prompt creator"},
+             { origen: "Prompt creator", destino: "Prompt executor"},
+             { origen: "Prompt executor", destino: "Intervención"},
+       
+           ]
+         }
+       ]
+     
+     
+     
+       - La estructura más adecuada para llevar a cabo la idea anterior es el [nodo cognitivo], las razones son:
+           * Acepta nodos, así como instrucciones que indican qué hacer con dichos nodos.
+       - Debido a que cada parte (respuestas protocolarias, intención, núcleo, contextos) son independientes, entonces ya no existe más el problema de dependencia, lo cual implica que éste es el punto de partida para cualquier implementación, si hacen falta más partes se podrían añadir, o si es necesario optimizar alguna se podría hacer sin afectar el “todo”.
+     
+     Esta discusión del término Intervención se extendió más de lo que pensaba, sin embargo, ahora sé cómo proceder en la creación de intervenciones, y en general, en cómo llevar a cabo las aplicaciones, pero aún falta discutir los términos restantes.
+
+
+[PÁGINA 16]
+
+• Núcleo:
+   Anteriormente definí núcleo como:
+     Estructura conceptual que conserva identidad a través de adaptaciones. Un núcleo no es un “texto” ni una “frase”; es un conjunto de propiedades esenciales (invariantes) más un dominio de variación permitido. Es lo que se “realiza” o “instancia” en contextos.
+   Después de la discusión anterior pienso que el núcleo no es (y no debe ser) muy distinto a un contexto en el sentido que ambos pueden ser modelados a partir de una [estructura base]. La principal diferencia es que la [estructura base] de los contextos dependerá de la intención mientras que la [estructura base] del núcleo es absoluta, independiente de las condiciones externas, se mantiene invariante a cambios externos, autocontenida (de ahí que no dependa del exterior) y se describe a sí misma.
+   La única dependencia que tiene es lingüística, lo cuál es obvio porque sino no podría usar la IA para trabajar con el núcleo; sin embargo, al analizar esto en detalle, me doy cuenta que esto se parece mucho al concepto de [lenguaje de estructuras] ¿la razón? el núcleo es la definición de un [concepto estructural]. El diccionario ofrece descripciones lingüísticas y a pesar de que internamente cada palabra depende de asociaciones con ideas y conceptos (lo cual hace que las definiciones se basen en otras definiciones que a su vez dependen de otras definiciones y así ad infinitum), haciendo que tal palabra no pueda utilizarse en todos los contextos (“el perro es un paquidermo” es incorrecto en significado aunque correcto lingüísticamente), la verdad es que el diccionario no ofrece ningún indicio acerca de “la estructura” a la que pertenece la palabra (por eso en la definición de arriba se dice que el núcleo “no es un texto o una frase”). La [definición estructural] no contiene significado (al menos en el sentido tradicional), sino una ontología que describe “la naturaleza particular” de una entidad.
+
+[PÁGINA 17]
+
+   Para el caso de contexto me fue fácil decir que es posible llevar a cabo el modelado a partir de una [estructura base] debido a que existe literatura al respecto, para el caso del núcleo, si bien es posible usar las definiciones que existen para los conceptos, eso no aplicaría en todos los casos puesto que no todos los núcleos serán conceptos, ya que cosas como el contrato de un seguro, el diseño de un automóvil, un tema para un video o el protocolo médico para los pacientes de un hospital no son conceptos, sino estructuras con ontologías propias.
+   Lo anterior evidencia la necesidad de ampliar el concepto de [modelado estructural] más allá de la [estructura base].
+   Hay algunos puntos que deben ser resaltados:
+     * Si bien el núcleo cumple con las condiciones dados en la página 16 (“condiciones de autosuficiencia”), éste no proviene de la nada, más bien es el resultado de un proceso que trata de representar una [idea], esto aplica a todos los casos mencionados más arriba (contrato de seguro, diseño de automóvil, tema para video, definición de un vector, protocolo médico, etc), así, para modelar un núcleo no se requiere otra cosa que comprender la [idea], describirla con el mayor detalle posible (lo cual se ha hecho desde siempre) y usar la IA para crear la ontología. Así no parece un proceso tan intimidante.
+     * En muchas aplicaciones como venta de seguros, el núcleo será dado a priori (por ejemplo: mediante un contrato o diseño), facilitando la labor.
+     * Ya había vislumbrado algo parecido al núcleo, en la página 3 del [Plan de negocios: segunda vuelta] del mar-09-dic-2025 mencioné: “la [Idea] es una proyección en la que se almacena una [memoria cognitiva] del [modelo de negocio] o contrato que se tenga entre [el sistema] y la [entidad interesada en difundir una idea]” el núcleo es la [idea]: el puente entre la [aplicación cognitiva] y el mundo exterior.
+       El puente hallado entre los planes de negocios que realicé el mes pasado, en combinación con las nuevas definiciones y observaciones hacen que comprender al núcleo sea una tarea de mediación, ver, por ejemplo el estudio [Comunicación de estructuras (07-dic/2025)].
+
+[PÁGINA 18]
+Aun faltan secciones (invariante y sujeto), sin embargo ambos conceptos son partes del núcleo y el contexto, respectivamente. Terminaré el estudio aquí pues[to] que con el contenido aquí desarrollado puedo proseguir mañana con una nueva versión del plan de negocios el cual será enriquecido por todo esta discusión.

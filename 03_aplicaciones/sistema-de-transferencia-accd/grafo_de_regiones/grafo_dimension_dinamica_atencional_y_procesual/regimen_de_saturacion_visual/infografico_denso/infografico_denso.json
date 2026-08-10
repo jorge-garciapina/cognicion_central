@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-infografico_denso-infografico_denso",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-infografico_denso-infografico_denso",
+    "label": "infografico_denso",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-infografico_denso-infografico_denso",
+    "summary": "**Definición.** Régimen de alta densidad informativa organizada mediante recursos infográficos: datos, etiquetas, diagramas, iconos, secciones, flechas, tablas, leyendas o estructuras de comparación. La carga es alta, pero su función es explicar o condensar información.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

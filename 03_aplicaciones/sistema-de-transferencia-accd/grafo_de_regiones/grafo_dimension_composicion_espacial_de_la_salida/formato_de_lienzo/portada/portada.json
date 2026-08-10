@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-portada-portada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-portada-portada",
+    "label": "portada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-portada-portada",
+    "summary": "**Definición.** Formato que introduce una pieza mayor: documento, serie, campaña, presentación o sección. Debe condensar tema, tono e identidad sin intentar explicar todo el contenido.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo"
+    }
+  }
+}

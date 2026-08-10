@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-anatomia_visual-anatomia_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-anatomia_visual-anatomia_visual",
+    "label": "anatomia_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-anatomia_visual-anatomia_visual",
+    "summary": "**Definición.** Configuración que descompone un objeto, concepto, sistema o fenómeno en partes identificables. Su lógica es analítica: muestra componentes, funciones internas, zonas, capas o piezas constitutivas. Es útil cuando entender el todo requiere ver cómo está construido por dentro o qué func",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

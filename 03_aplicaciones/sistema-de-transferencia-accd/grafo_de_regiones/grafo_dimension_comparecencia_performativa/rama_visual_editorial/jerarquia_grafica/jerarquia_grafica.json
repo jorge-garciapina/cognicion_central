@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+    "label": "jerarquia_grafica",
+    "type": "subfield_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+    "summary": "Subcampo que describe qué elemento organiza visualmente la lámina: titular, texto, imagen, diagrama o estructura mixta.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "parent_field": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

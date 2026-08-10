@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa",
+    "label": "recapitulativa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa",
+    "summary": "Valor recapitulativa declarado para configuracion_narrativa.",
+    "metadata": {
+      "value_of": "configuracion_narrativa"
+    }
+  }
+}

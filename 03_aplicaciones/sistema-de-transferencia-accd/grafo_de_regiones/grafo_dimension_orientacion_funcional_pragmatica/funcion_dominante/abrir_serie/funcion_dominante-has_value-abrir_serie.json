@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie",
+    "type": "has_value",
+    "rationale": "abrir_serie es un valor declarado para el campo funcion_dominante."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_z-en_z",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_z-en_z",
+    "label": "en_z",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-en_z-en_z",
+    "summary": "**Definición.** Organización que induce un recorrido visual similar a una Z: entrada superior, desplazamiento lateral, descenso diagonal y cierre inferior. No dibuja una letra, sino que coloca pesos visuales para guiar una lectura con inicio, transición y remate.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial"
+    }
+  }
+}

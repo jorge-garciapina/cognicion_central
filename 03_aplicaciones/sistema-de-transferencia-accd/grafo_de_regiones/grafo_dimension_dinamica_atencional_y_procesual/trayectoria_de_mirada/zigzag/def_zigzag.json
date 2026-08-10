@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-zigzag-zigzag",
+  "content": "**Definición.** Recorrido alternante en el que la mirada cambia de lado mientras avanza. Permite organizar comparaciones seriadas, pasos alternados, pares de información, secuencias con contraste o lectura dinámica entre columnas o bloques no alineados linealmente.\n\n**Diferenciación semántica.** Se diferencia de `izquierda_derecha` porque no avanza en una sola línea; alterna direcciones. Se diferencia de `libre_exploratoria` porque conserva una ruta inducida, aunque sea quebrada.\n\n**Interpretación mínima.** La IA debe entender que los elementos deben colocarse para provocar una alternancia controlada, no una dispersión accidental."
+}

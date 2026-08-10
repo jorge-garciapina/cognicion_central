@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba",
+    "label": "pieza_de_prueba",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba",
+    "summary": "Valor declarado para el campo alcance_de_realizacion: pieza_de_prueba.",
+    "source_field": "alcance_de_realizacion"
+  }
+}

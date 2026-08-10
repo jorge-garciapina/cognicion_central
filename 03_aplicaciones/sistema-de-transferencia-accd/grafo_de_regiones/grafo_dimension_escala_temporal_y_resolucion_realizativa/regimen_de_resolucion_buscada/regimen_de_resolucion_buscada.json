@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+    "label": "regimen_de_resolucion_buscada",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+    "summary": "Campo que fija cómo se distribuye la resolución del contenido dentro de la realización.",
+    "value_type": "categorial_cerrado",
+    "cardinality": "un_valor_obligatorio",
+    "source_section": "5.3"
+  }
+}

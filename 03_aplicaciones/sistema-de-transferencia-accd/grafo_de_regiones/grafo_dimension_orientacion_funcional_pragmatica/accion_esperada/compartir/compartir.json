@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+    "label": "compartir",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir",
+    "summary": "Valor compartir declarado para el campo accion_esperada.",
+    "metadata": {
+      "value_of": "accion_esperada",
+      "source_section": "4.3"
+    }
+  }
+}

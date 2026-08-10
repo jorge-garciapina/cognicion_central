@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-media-media",
+  "content": "**Definición.** Nivel en el que los elementos principales son distinguibles con claridad razonable, aunque algunos detalles, relaciones secundarias o textos menores requieran atención adicional. Es un punto de equilibrio entre riqueza visual y acceso.\n\n**Diferenciación semántica.** Se diferencia de `alta` porque no maximiza claridad para todos los elementos. Se diferencia de `baja` porque el receptor no debería tener dificultad para identificar lo principal.\n\n**Interpretación mínima.** La IA debe entender que lo esencial debe leerse sin esfuerzo excesivo, aunque la pieza pueda contener capas secundarias."
+}

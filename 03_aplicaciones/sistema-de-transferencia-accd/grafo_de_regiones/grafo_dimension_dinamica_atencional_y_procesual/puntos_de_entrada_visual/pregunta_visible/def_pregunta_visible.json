@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-pregunta_visible-pregunta_visible",
+  "content": "**Definición.** Entrada basada en una interrogante textual destacada. La pregunta introduce una falta de información o problema que empuja al receptor a buscar respuesta dentro de la pieza.\n\n**Diferenciación semántica.** Se diferencia de `titulo_principal` porque no sólo encuadra, sino que abre una tensión cognitiva. Se diferencia de `numero_o_dato` porque no ofrece evidencia inicial, sino una incógnita.\n\n**Interpretación mínima.** La IA debe entender que la pregunta debe ser legible, relevante y capaz de activar curiosidad o diagnóstico."
+}

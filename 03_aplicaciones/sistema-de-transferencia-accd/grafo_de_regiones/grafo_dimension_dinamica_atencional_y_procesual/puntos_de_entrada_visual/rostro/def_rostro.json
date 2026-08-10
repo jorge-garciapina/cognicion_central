@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-rostro-rostro",
+  "content": "**Definición.** Entrada basada en la atracción perceptiva de una cara humana o humanoide. La mirada del receptor tiende a fijarse en rostros por reconocimiento social, expresión, dirección de mirada e inferencia emocional.\n\n**Diferenciación semántica.** Se diferencia de `figura_central` porque el punto de entrada es específicamente la cara, no cualquier figura. Se diferencia de `producto` porque activa lectura social o afectiva antes que lectura material o comercial.\n\n**Interpretación mínima.** La IA debe entender que expresión, mirada, posición y tamaño del rostro condicionan la entrada interpretativa."
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_carousel_post-instagram_carousel_post",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_carousel_post-instagram_carousel_post",
+    "label": "instagram_carousel_post",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_carousel_post-instagram_carousel_post",
+    "summary": "Valor que indica que la pieza se publicará como post carousel en Instagram.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

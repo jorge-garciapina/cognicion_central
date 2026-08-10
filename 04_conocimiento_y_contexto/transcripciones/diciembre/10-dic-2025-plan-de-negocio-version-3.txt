@@ -1,0 +1,240 @@
+[TRANSCRIPCIÓN — PLAN DE NEGOCIO: VERSIÓN 3]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos poco claros se marcaron notas como [dudoso] o [tachado]. Los diagramas se transcribieron también como grafos usando la convención acordada: entidades, nodos, aristas y entidades_contenedoras. Cuando un componente contenedor aparecía sin nombre explícito en el dibujo, se le asignó un nombre relevante según la idea que representa.]
+
+[PÁGINA 1]
+
+Plan de negocio: version 3    mie-10-dic-2025
+
+En el plan de negocios que hice ayer noté que hay más cosas que deben ser consideradas. Por el momento me enfocaré en lo que es más obvio, y conforme avance volveré a hacer el diseño
+
+[Módulo de creación de contenido]
+   No estoy completamente seguro de la forma exacta de este módulo (lo mismo ha pasado con todos), tengo algunas ideas que me gustaría explorar:
+    • Al igual que el [sistema transformador] es un [puente] con el exterior, el [Módulo de creación de contenido] es un [puente] cuya labor es recibir los [requisitos] del contenido que será creado, [enviarlo] ([aquí nace la necesidad de crear otro módulo]) y mostrarlo al [validador] para su evaluación
+    • Al igual que el resto de los módulos (tanto de este diseño como de otros), éste será reutilizable
+    • Aún no sé si cada adaptador tendrá su propio [módulo de creación de contenidos] (lo que implicaría uno para cada plataforma), o si el mismo [módulo] puede ser reutilizado por los diferentes adaptadores del [sistema de creación de contenidos] (lo cual me parece ideal)
+    • La entrada de este [módulo] está dada por el módulo de [Recepción de lógica de IA], de éste recibe la descripción integral de lo que se necesita (en este punto es importante notar que esto es un ejecutable, y muy posiblemente necesite API, o mínimo, el validador pueda generar el video), mientras que el validador humano recibirá, aprobará o rechazará el contenido y lo publicará en caso de ser correcto.
+
+[PÁGINA 2]
+
+    • En las siguientes versiones de este plan de negocio necesito tener presente cómo controlar las salidas, puesto que, si limito a videos, entonces tendré que generar muchas cosas;
+        - script para voz
+        - voz a partir de script.
+        - Prompt para crear el video
+        - video con voz añadido (sólo se me ocurre edición manual)
+
+[Nota1: Los [perfiles de influencer] son una buena opción, es [la proyección] de un estilo de vida, o una empresa o una organización. Aprender a diseñarlos e implementarlos es una prioridad en este proyecto]
+[Nota2: En alguna parte mencioné que cada uno de los módulos necesita una [parte humana de validación], lo cual es cierto. Lo que no consideré cuando hice dicha afirmación es que podría ser el mismo humano en más de un módulo. A pesar que eso es una obviedad, quería mencionarlo.]
+Con las ideas anteriores en mente, aquí está una primera aproximación del [módulo de creación de contenidos]:
+
+[DIAGRAMA: Módulo de creación de contenido]
+GRAFOS = [
+  {
+    nombre: "modulo_de_creacion_de_contenido",
+    entidades: [
+      { identificador: "modulo_de_creacion_de_contenido" }
+    ],
+    nodos: [
+      {
+        identificador: "recepcion_de_logica_de_ia",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "entrada_descripcion_integral_del_contenido_a_generar",
+        entidades_contenedoras: ["modulo_de_creacion_de_contenido"]
+      },
+      {
+        identificador: "llm_conexion_con_el_exterior",
+        nota: "puede ser: OpenAI API, Sora Web, Text Generator, Music gen, etc"
+        entidades_contenedoras: ["modulo_de_creacion_de_contenido"]
+      },
+      {
+        identificador: "validacion_interfaz_humana",
+        nota: "Interfaz humana que verifica la validez de contenido"
+        entidades_contenedoras: ["modulo_de_creacion_de_contenido"]
+      },
+      {
+        identificador: "salida",
+        entidades_contenedoras: ["modulo_de_creacion_de_contenido"]
+      }
+    ],
+    aristas: [
+      {
+        origen: "recepcion_de_logica_de_ia",
+        destino: "entrada_descripcion_integral_del_contenido_a_generar"
+      },
+      {
+        origen: "entrada_descripcion_integral_del_contenido_a_generar",
+        destino: "llm_conexion_con_el_exterior"
+      },
+      {
+        origen: "llm_conexion_con_el_exterior",
+        destino: "validacion_interfaz_humana"
+      },
+      {
+        origen: "validacion_interfaz_humana",
+        destino: "salida"
+      }
+    ]
+  }
+]
+
+
+[PÁGINA 3]
+
+Es una buena idea explorar los distintos componentes del adaptador de una forma similar a como hice con el [módulo de creación de contenido], estoy satisfecho con esa descripción ya que es bastante ilustrativa-
+
+   • Necesito un nuevo componente módulo (o al menos necesito saber en dónde entra la lógica faltante) el cual [tachado] asocie un [adaptador genérico a una plataforma en particular] (En vez de usar “adaptador genérico a una plataforma en particular”, usaré [reglas de algoritmo])
+     Opciones:
+     - El módulo de [Recepción de lógica de IA].
+       La consecuencia de esto es que el [módulo] necesitaría un módulo interno (o una [entrada]) el cual contenga las [reglas de algoritmo].
+       Esta opción solo lleva el problema del [sistema de creación de contenidos] al [Recepción de lógica de IA]
+     - Un módulo aparte dentro del adaptador.
+       Lo cual es mejor ya que es más simple de manejar así.
+   • ¿Qué relación existe entre el [cNode con la proyección del contrato] y el [Recepción de lógica de IA]?
+     Hago la pregunta anterior debido a que los [2 módulos] parecen ser muy similares en cuanto a sus responsabilidades, sin embargo:
+       [Recepción de lógica de IA] -> Responsabilidades del adaptador
+       [Proyección del contrato] -> Responsabilidades del sistema de creación de contenidos,
+     Este punto es obvio, pero no quería que se quedara sin una descripción.
+   
+[PÁGINA 4]
+   
+   • Las [Reglas de distribución] me recuerdan un poco a lo que estudié anteriormente acerca de las combinaciones lineales:
+       Total de videos = a1 Youtube + a2 Tiktok + a3 Instagram + ...
+     Esta podría ser, quizás, una forma de definir costos.
+
+
+
+Similarmente a como hice con [Creación de contenido] en la página 2 de este estudio, quisiera explorar el resto de los módulos del [sistema de creación de contenido],
+
+[Recepción de lógica de IA:]
+   Entrada: Grafo con el contrato de distribución (o una parte, y quizás por esa razón [Reglas de distribución] es un componente necesario, ya que no es buena idea mostrar todo el contrato, sino solo la parte referente a la creación del contenido).
+   Salida: Prompts que serán enviados al [Módulo de creación de contenidos] por el [Validador]
+   Interacción:
+     - A través de interfaz web; id est: mediante un proyecto de chatGPT.
+     - Usando una interfaz especializado: API, proyecto de código, etc.
+GRAFOS = [
+  {
+    nombre: "modulo_de_recepcion_de_logica_de_ia",
+    entidades: [
+      { identificador: "modulo_de_recepcion_de_logica_de_ia" }
+    ],
+    nodos: [
+      {
+        identificador: "reglas_de_distribucion",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "memoria_del_modulo",
+        nota: "Por ejemplo un documento en el proyecto (un grafo, una definición, etc)"
+        entidades_contenedoras: ["modulo_de_recepcion_de_logica_de_ia"]
+      },
+      {
+        identificador: "interfaz_de_interaccion",
+        entidades_contenedoras: ["modulo_de_recepcion_de_logica_de_ia"]
+      },
+      {
+        identificador: "interfaz_humana",
+        nota: "Por ejemplo, la web de OpenAI, o la API de OpenAI"
+        entidades_contenedoras: ["modulo_de_recepcion_de_logica_de_ia"]
+      },
+      {
+        identificador: "salida",
+        entidades_contenedoras: ["modulo_de_recepcion_de_logica_de_ia"]
+      }
+    ],
+    aristas: [
+      {
+        origen: "reglas_de_distribucion",
+        destino: "memoria_del_modulo"
+      },
+      {
+        origen: "memoria_del_modulo",
+        destino: "interfaz_de_interaccion"
+      },
+      {
+        origen: "interfaz_de_interaccion",
+        destino: "interfaz_humana"
+      },
+      {
+        origen: "interfaz_humana",
+        destino: "salida"
+      }
+    ]
+  }
+]
+
+
+[PÁGINA 5]
+
+[Análisis de plataforma]
+Este módulo está pensado para medir y analizar el desempeño del contenido.
+Aquí se llevará el registro de todo el contenido creado (referente al contrato) en [cada] plataforma en particular
+Nota: Debe existir una memoria global que contenga todas “las memorias” de todos los módulos para el [contrato en particular].
+Este nodo debe contener descripciones (o quizás otros sub nodos) que digan el tipo de análisis que se busca hacer con los datos que se poseen.
+
+Debe contener un registro del material generado (aún es necesario definir la forma). Esto se reduce a pocas palabras: una base de datos. Dicha base de datos será actualizada manualmente (al menos por ahora). La información puede venir de: API específico de plataforma, agregado manualmente. Aún [tengo que definir esto en detalle]
+
+[DIAGRAMA: Análisis de plataforma]
+
+GRAFOS = [
+  {
+    nombre: "modulo_de_analisis_de_plataforma",
+    entidades: [
+      { identificador: "modulo_de_analisis_de_plataforma" }
+    ],
+    nodos: [
+      {
+        identificador: "plataforma_digital",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "extractor_de_informacion",
+        nota: "Esto puede ser tan simple como añadir manualmente la información o conectarse a una API"
+        entidades_contenedoras: ["modulo_de_analisis_de_plataforma"]
+      },
+      {
+        identificador: "memoria_del_proyecto_base_de_datos",
+        entidades_contenedoras: ["modulo_de_analisis_de_plataforma"]
+      },
+      {
+        identificador: "interfaz_de_interaccion",
+        entidades_contenedoras: ["modulo_de_analisis_de_plataforma"]
+      },
+      {
+        identificador: "interfaz_humana",
+        entidades_contenedoras: ["modulo_de_analisis_de_plataforma"]
+      },
+      {
+        identificador: "salida",
+        entidades_contenedoras: ["modulo_de_analisis_de_plataforma"]
+      }
+    ],
+    aristas: [
+      {
+        origen: "plataforma_digital",
+        destino: "extractor_de_informacion"
+      },
+      {
+        origen: "extractor_de_informacion",
+        destino: "memoria_del_proyecto_base_de_datos"
+      },
+      {
+        origen: "memoria_del_proyecto_base_de_datos",
+        destino: "interfaz_de_interaccion"
+      },
+      {
+        origen: "interfaz_de_interaccion",
+        destino: "interfaz_humana"
+      },
+      {
+        origen: "interfaz_humana",
+        destino: "salida"
+      }
+    ]
+  }
+]
+
+
+[PÁGINA 6]
+
+Estaba pensando colocar aquí un diagrama de nuevo del sistema de creación de contenidos, sin embargo, antes de hacer eso va a ser necesario hacer una revisión de los módulos propuestos, ya que surgieron muchas ideas. En la siguiente iteración del plan de negocios [tachado] añadiré todo lo nuevo.

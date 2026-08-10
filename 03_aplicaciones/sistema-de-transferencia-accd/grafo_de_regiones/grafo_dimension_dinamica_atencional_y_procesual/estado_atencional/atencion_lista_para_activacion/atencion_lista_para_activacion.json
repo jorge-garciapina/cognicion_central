@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion",
+    "label": "atencion_lista_para_activacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion",
+    "summary": "Valor declarado para el campo estado_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La atención está lista para recibir una invitación más práctica o decisional."
+  }
+}

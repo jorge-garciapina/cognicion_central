@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+    "label": "comparecencia_performativa",
+    "type": "compound_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+    "summary": "Configuración general de presencia performativa del emisor.",
+    "section": "9.1",
+    "value_type": "Estructura compuesta",
+    "cardinality": "Una estructura obligatoria"
+  }
+}

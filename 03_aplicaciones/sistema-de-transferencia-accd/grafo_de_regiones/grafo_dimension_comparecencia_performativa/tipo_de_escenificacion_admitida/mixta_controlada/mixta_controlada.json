@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada",
+    "label": "mixta_controlada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada",
+    "summary": "Valor mixta_controlada del campo tipo_de_escenificacion_admitida.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida"
+  }
+}

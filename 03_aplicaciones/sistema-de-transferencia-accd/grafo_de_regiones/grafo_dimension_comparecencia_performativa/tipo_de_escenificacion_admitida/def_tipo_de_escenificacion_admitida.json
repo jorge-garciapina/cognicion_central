@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida",
+  "content": "Indicar qué tipo general de escenificación es compatible con la pieza. Tipo de valor: categorial cerrado. Cardinalidad: uno o más valores compatibles."
+}

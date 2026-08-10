@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro",
+    "label": "arquitectura_macro",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro",
+    "summary": "Campo que describe la organización estructural general del guión.",
+    "metadata": {
+      "section": "11.2",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "restricciones_textuales": [
+        "Debe haber exactamente una arquitectura macro dominante.",
+        "Debe ser compatible con segmentación, duración y modalidad de guión."
+      ]
+    }
+  }
+}

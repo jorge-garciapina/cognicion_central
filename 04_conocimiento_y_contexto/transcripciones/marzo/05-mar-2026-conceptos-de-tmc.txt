@@ -1,0 +1,305 @@
+TRANSCRIPCIÓN — “Integración de conceptos a grafo de Teoría de Máquinas Cognitivas”
+Fecha visible: 05-marzo-2026-jue
+
+Nota de transcripción:
+- Se respetó el contenido y el orden de las páginas.
+- Cuando una palabra no se distingue con certeza, se marca como [ilegible].
+- Los grafos se transcriben con la misma técnica usada en este chat: objetos con nodos y aristas.
+- En algunos grafos, la conectividad y la pertenencia a D se conservan con prioridad; la dirección exacta de alguna flecha puede ser aproximada cuando no se distingue con total certeza en la imagen.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 1
+──────────────────────────────────────────────────────────────────────────────
+
+[Integración de conceptos a grafo de Teoría de Máquinas Cognitivas]
+
+1.1 De “definición comprimida” a “identidad distribuida”
+
+El hecho que sea posible “convertir” una definición (D) en un conjunto de nodos con aristas internas es consecuencia de la tesis operativa de la Teoría de Máquinas Cognitivas: “un nodo no es solo texto, sino una estructura proyectable”.
+
+Una implicación de esto es que siempre y cuando algo pueda ser descrito por palabras puede ser integrado al grafo, y poco a poco expandido estructuralmente; además, implica que cualquier concepto puede ser expandido tanto como sea necesario.
+
+Aquí se implica algo muy importante;
+Si se parte de un nodo cualquiera, es posible expandirlo, por ejemplo:
+
+Estado inicial.
+Se tiene una definición “D”.
+Nota:
+Se hace una diferencia entre D y el resto de los nodos, sin embargo, cualquiera de los nodos es susceptible al mismo proceso.
+
+Refinamiento 1
+La definición D fue reemplazada por un sistema de relaciones.
+Como “regla” podemos decir que la [resolución] mide la cantidad de nodos en los que se ha dividido D.
+Nota: esta última afirmación debe ser tratada con cuidado.
+
+Es importante considerar que el refinamiento no cambia el número de conexiones con el exterior (Nota: esto se parece un poco a la explicación que se da a “número de líneas por unidad de área” cuando se explica el flujo eléctrico en cursos introductorios de electromagnetismo), además, si se considera que una arista conecta solo 2 nodos, entonces es posible considerar a los nodos de la [frontera] como “especiales”, a continuación aclaro este punto:
+
+[GRAFOS — PÁGINA 1]
+GRAFOS = [
+  {
+    nombre: "p1_estado_inicial",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: "D", dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 2, destino: 1 },
+      { origen: 1, destino: 3 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 2, destino: "D" },
+      { origen: 4, destino: "D" }
+    ]
+  },
+
+  {
+    nombre: "p1_refinamiento_1",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: true },
+      { identificador: 6, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 2, destino: 1 },
+      { origen: 1, destino: 3 },
+      { origen: 2, destino: 3 },
+      { origen: 2, destino: 4 },
+      { origen: 2, destino: 5 },
+      { origen: 4, destino: 6 },
+      { origen: 5, destino: 6 }
+    ]
+  }
+]
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 2
+──────────────────────────────────────────────────────────────────────────────
+
+Se usará el siguiente modelo propuesto por el chat:
+
+Sea un grafo dirigido o no dirigido
+
+G = (N, A)
+
+N → Nodos, A → aristas
+
+Una entidad D es un conjunto de nodos dentro de un grafo.
+( un subconjunto de un conjunto )
+( un subgrafo de un grafo )
+
+Se define una función de pertenencia para D:
+
+μ_D : N → {0,1}
+• Esta es la forma más mínima de formalizar pertenencia
+• Responde a la pregunta ¿este nodo está dentro de D?
+
+μ_D(n) = 1 si: nodo n está dentro de D
+μ_D(n) = 0 si: está fuera
+
+Se representan los distintos elementos como:
+
+• Interior: I_D = { n ∈ N | μ_D(n) = 1 }
+
+• Frontera: F_D = { n ∈ I_D | ∃ u ∉ I_D tal que (n,u) ∈ A ∨ (u,n) ∈ A }
+
+• Exterior: X_D = { u ∉ I_D | ∃ n ∈ F_D tal que (n,u) ∈ A ∨ (u,n) ∈ A }
+  (el “exterior” es la vecindad relevante)
+
+Ejemplo:
+
+Interior: {5,6,7,8,9,10}
+Frontera: {5,6,7}
+Exterior: {3,4}
+
+Nota: creo que es mejor usar “envolvente” en vez de exterior
+
+El dominio actual es el de [grafos cognitivos].
+Consideremos las dos afirmaciones hechas al final de la página anterior:
+
+1 → El refinamiento no cambia el número de conexiones (aristas) con el exterior.
+2 → Por definición una arista conecta 2 nodos.
+
+[GRAFOS — PÁGINA 2]
+GRAFOS = [
+  {
+    nombre: "p2_ejemplo_entidad_D",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+
+      { identificador: 5, dentro_linea_roja: true },
+      { identificador: 6, dentro_linea_roja: true },
+      { identificador: 7, dentro_linea_roja: true },
+      { identificador: 8, dentro_linea_roja: true },
+      { identificador: 9, dentro_linea_roja: true },
+      { identificador: 10, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 1, destino: 3 },
+      { origen: 2, destino: 3 },
+      { origen: 3, destino: 4 },
+
+      { origen: 3, destino: 5 },
+      { origen: 3, destino: 6 },
+      { origen: 4, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 5, destino: 8 },
+      { origen: 6, destino: 8 },
+      { origen: 6, destino: 7 },
+      { origen: 7, destino: 9 },
+      { origen: 8, destino: 10 }
+    ]
+  }
+]
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 3
+──────────────────────────────────────────────────────────────────────────────
+
+Los nodos en la frontera son “especiales” debido a que cumplen una característica:
+
+Para cualquier nodo dentro de D, existe por lo menos un camino con alguno de los nodos en la frontera.
+
+En este dominio, los elementos de la frontera son “la base” de la expansión conceptual: todos los elementos dentro de D dependen de éstos. No se pueden remover (por afirmación 1; si se removiera un elemento de la frontera cambiaría la identidad de D, es decir, se convertiría en otra cosa).
+
+A partir de este momento se define:
+
+Dimensiones ontológicas:
+- Todos los elementos de la frontera
+- Elementos base de D
+- Puntos de contacto con el exterior
+- Membrana que separa interior y exterior
+- Canales de “entrada” y “salida” (en este punto aún no se analiza “salida”)
+
+Aunque la [resolución] de la expansión aumente, el número de dimensiones ontológicas permanecerá constante.
+
+Las dimensiones ontológicas son exactamente la idea que inspiró el concepto de [eje ontológico] en la teoría de lazo. Debo recalcar que esta idea original ha cambiado un poco; en el planteamiento integral de la teoría de lazo se propone que:
+
+Eje ontológico = forma, estado o configuración del sistema
+
+Es decir, apegándonos al ejemplo de esta sección, lo que la TL entiende como [eje ontológico], aquí es la unión: { I_D ∪ F_D } (en este punto aún no hablo del “estado” mencionado en TL, pero a grandes rasgos el estado es un valor numérico medible y modificable que se le puede asignar a cada nodo, se estudiará después en mayor detalle).
+
+Tanto el modelo matemático propuesto por el chat “en la página anterior”, como el concepto de “dimensiones ontológicas” deben ser considerados como nodos a añadir.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 4
+──────────────────────────────────────────────────────────────────────────────
+
+1.2 Superficie de integración
+
+En el dominio que se estudia aquí (cognición) la frontera hasta este punto se ha considerado solo la “entrada”, es lo que provee a D de identidad. En el grafo de la teoría de máquinas cognitivas (TMC) es posible hallar muchos ejemplos sobre esto, el más claro es el del nodo de “Cognición Como Capacidad Operativa”, en éste se presenta lo que la teoría acepta como cognición. Un gran número de nodos en la teoría dependen de CCCO debido a que es el “puente” entre el “mundo exterior” y la teoría, es decir, todos los nodos que dependen de CCCO adquieren significado gracias a éste.
+
+Para la salida sucede un caso análogo: la salida es el significado que se desprende de la entidad. Cualquier nodo ∈ I_D es susceptible de funcionar como salida (membrana de salida), y no hay un límite en cuanto al número de [aristas de salida] que pueden desprenderse de un nodo (por lo tanto, tampoco hay límite de aristas que salen de D).
+
+Nota para chat:
+Es importante discutir los conceptos de Frontera de entrada y de salida: sus características, restricciones, libertades, etc. Quiero ver la forma de añadir un nodo (o varios) sobre esto.
+
+1.3 Operatividad
+
+En el dominio cognitivo tenemos que los nodos y las aristas no tienen pesos, es decir, tienen una relación “extensional” (componentes pertenecientes a un objeto).
+
+El otro tipo de relaciones es conocida como “intensional”.
+En este tipo de relaciones se trata de plasmar la intensión (condiciones necesarios y suficientes para que un objeto pertenezca a un concepto).
+
+El grafo con la Teoría de Máquinas Cognitivas es extensional pues solo considera los nodos y sus conexiones.
+
+Los cNodes de los que se habla en el documento “Representación Mínima” se pensaron para ser grafos intensionales:
+- Es posible asignar valores cuantificables a algunos o todos los nodos
+- Es posible asignar peso a las aristas
+
+* Intensional y extensional definen dos formas de abordar el significado de un concepto: la intensión son los rasgos definitorios o propiedades que es, mientras que la extensión es el conjunto de individuos o cosas a las que se aplica dicho concepto (a qué se refiere)
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 5
+──────────────────────────────────────────────────────────────────────────────
+
+1.4 Sobre D en el dominio cognitivo.
+
+A pesar de haber desarrollado los conceptos sobre interior, frontera y exterior en el dominio cognitivo, es importante notar que D es una decisión con fines “educativos”, puesto que en el grafo de TMC si se expande una definición D, todos sus elementos (elementos de la expansión) son “compatibles” (tienen la misma naturaleza, es decir, son mNodes) con el resto de nodos en el grafo de TMC (esto explica por qué en la página 4 se menciona “cualquier nodo ∈ I_D es susceptible de funcionar como membrana de salida, y no hay un límite en cuanto al número de aristas de salida que pueden desprenderse de un nodo”).
+
+Lo anterior quiere decir que los siguientes ejemplos son iguales:
+
+La superficie D es solo una forma de agrupar, de forma similar a cuando se decide estudiar algo dentro de ciertos límites.
+
+Nota para chat:
+Todo lo dicho sobre las cualidades de D (interior, frontera, exterior) es verdadero y se debe añadir al grafo de TMC, pero es importante resaltar el hecho que las superficies D y el concepto de cNode no son exactamente lo mismo, y ambos serán más útiles para describir grafos intensionales.
+
+[GRAFOS — PÁGINA 5]
+GRAFOS = [
+  {
+    nombre: "p5_grafo_con_superficie_D",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+
+      { identificador: 5, dentro_linea_roja: true },
+      { identificador: 6, dentro_linea_roja: true },
+      { identificador: 7, dentro_linea_roja: true },
+      { identificador: 8, dentro_linea_roja: true },
+      { identificador: 9, dentro_linea_roja: true },
+      { identificador: 10, dentro_linea_roja: true }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 1, destino: 3 },
+      { origen: 2, destino: 3 },
+      { origen: 3, destino: 4 },
+
+      { origen: 3, destino: 5 },
+      { origen: 3, destino: 6 },
+      { origen: 4, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 5, destino: 8 },
+      { origen: 6, destino: 8 },
+      { origen: 6, destino: 7 },
+      { origen: 7, destino: 9 },
+      { origen: 8, destino: 10 }
+    ]
+  },
+
+  {
+    nombre: "p5_grafo_sin_superficie_D",
+    nodos: [
+      { identificador: 1, dentro_linea_roja: false },
+      { identificador: 2, dentro_linea_roja: false },
+      { identificador: 3, dentro_linea_roja: false },
+      { identificador: 4, dentro_linea_roja: false },
+      { identificador: 5, dentro_linea_roja: false },
+      { identificador: 6, dentro_linea_roja: false },
+      { identificador: 7, dentro_linea_roja: false },
+      { identificador: 8, dentro_linea_roja: false },
+      { identificador: 9, dentro_linea_roja: false },
+      { identificador: 10, dentro_linea_roja: false }
+    ],
+    aristas: [
+      { origen: 1, destino: 2 },
+      { origen: 1, destino: 3 },
+      { origen: 2, destino: 3 },
+      { origen: 3, destino: 4 },
+
+      { origen: 3, destino: 5 },
+      { origen: 3, destino: 6 },
+      { origen: 4, destino: 6 },
+      { origen: 4, destino: 7 },
+
+      { origen: 5, destino: 8 },
+      { origen: 6, destino: 8 },
+      { origen: 6, destino: 7 },
+      { origen: 7, destino: 9 },
+      { origen: 8, destino: 10 }
+    ]
+  }
+]

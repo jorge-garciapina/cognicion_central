@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+    "label": "estado_atencional",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+    "summary": "Configuración dominante de la relación atencional del receptor con la pieza al momento de la realización.",
+    "section": "7.1",
+    "value_type": "Categorial semiabierto",
+    "cardinality": "Un valor obligatorio"
+  }
+}

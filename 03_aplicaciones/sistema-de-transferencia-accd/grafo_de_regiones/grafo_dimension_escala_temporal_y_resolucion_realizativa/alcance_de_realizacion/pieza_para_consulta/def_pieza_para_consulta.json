@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_para_consulta-pieza_para_consulta",
+  "content": "**Definición.** Valor que indica que la pieza está diseñada para ser revisada cuando el receptor necesita información, orientación o confirmación. Su estructura debe favorecer recuperación rápida de datos, relaciones, pasos, categorías o criterios.\n\n**Diferenciación semántica.** Se diferencia de `pieza_referencia` porque enfatiza el acto de consulta: volver a mirar para resolver una duda o aplicar algo. Una pieza de referencia puede sostener identidad o marco conceptual; una pieza para consulta debe facilitar acceso operativo a información.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza debe ser legible, ordenada y consultable, con jerarquías o divisiones que permitan encontrar información sin reconstruir todo desde cero.\n\n---"
+}

@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil",
+    "label": "deseo_de_ir_al_perfil",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil",
+    "summary": "Valor deseo_de_ir_al_perfil declarado para el campo efecto_buscado.",
+    "metadata": {
+      "value_of": "efecto_buscado",
+      "source_section": "4.2",
+      "suggested_value": true
+    }
+  }
+}

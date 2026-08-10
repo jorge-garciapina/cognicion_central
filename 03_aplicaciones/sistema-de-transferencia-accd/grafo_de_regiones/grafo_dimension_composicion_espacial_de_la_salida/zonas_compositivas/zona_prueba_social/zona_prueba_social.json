@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_prueba_social-zona_prueba_social",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_prueba_social-zona_prueba_social",
+    "label": "zona_prueba_social",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_prueba_social-zona_prueba_social",
+    "summary": "**Definición.** Área que muestra validación externa: testimonios, cifras, logos, usuarios, calificaciones o evidencia de adopción.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas"
+    }
+  }
+}

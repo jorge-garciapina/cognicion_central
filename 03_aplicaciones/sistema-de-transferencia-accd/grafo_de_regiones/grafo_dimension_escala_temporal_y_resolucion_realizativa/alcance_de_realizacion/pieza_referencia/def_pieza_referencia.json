@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_referencia-pieza_referencia",
+  "content": "**Definición.** Valor que indica que la pieza está pensada para funcionar como recurso estable de consulta o remisión. Su valor no se agota en el primer impacto; puede volver a usarse para recordar una estructura, revisar criterios, recuperar información o apoyar una explicación posterior.\n\n**Diferenciación semántica.** Se diferencia de una pieza de captación porque no depende únicamente del impacto inicial. Se diferencia de `pieza_para_consulta` porque `pieza_referencia` puede tener un papel más amplio: servir como punto común, material citacional o imagen base a la que otros contenidos remiten.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza debe tener estabilidad semántica, claridad duradera y suficiente autonomía para ser recuperada después."
+}

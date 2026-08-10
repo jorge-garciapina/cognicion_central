@@ -1,0 +1,627 @@
+16/febrero/2025
+
+Introducción
+Antes de comenzar es necesario hacer algunas consideraciones:
+
+1) Existen sistemas:
+     + Tangibles -> construidos con materiales físicos, los cuales pueden ser percibidos con los sentidos.
+     + Intangibles -> construidos con cognición pura, no es posible percibirlos con los sentidos.
+   En ambos casos se busca lo mismo: efectuar una conversión o transformación, es decir, recibir una materia prima y
+   convertirla en otra cosa.
+
+2) Un sistema se compone de muchas partes que pueden ser llamados “subsistemas”, cada una con un fin dentro de la totalidad,
+   no son independientes, son interdependientes.
+
+3) Todos los sistemas evolucionan de lo simple a lo complejo (trayectoria de existencia).
+
+El sistema que crearé es mixto (parte tangible / parte intangible), sus estructuras internas serán procesos; su fin global: la creación de la realidad.
+
+
+Planteamiento fundamental
+Cualquier transformación necesita estructura, no es opcional, es una ley, la cual puede resumirse en:
+“nada viene de la nada”.
+
+Para transformar se necesitan sistemas (los proveedores de la estructura) con entrada, salida y procesos internos claramente definidos.
+En los sistemas tangibles es fácil comprender las responsabilidades de cada una de las partes:
+  - En un reloj de cuerda se sabe que cada sistema tiene un fin.
+  - En un automóvil se sabe que motor y ajuste de altura del asiento son “independientes” pero relacionados.
+
+En los sistemas intangibles la comprensión no es tan inmediata, y la razón es que para entenderlos es necesario comprender razonamientos
+más que movimientos.
+
+----------------------
+Inicio paréntesis 1
+Sistemas cognitivos:
+Hay una categoría aún más compleja, puesto que en los sistemas cognitivos es necesario comprender procesos meta-cognitivos, por ejemplo.
+En un sistema intangible:
+  - El razonamiento X es necesario para hacer Y.
+En un sistema cognitivo:
+  - Las estructuras A, B, C, ... son las causas del razonamiento.
+Fin paréntesis 1
+----------------------
+
+A pesar de que las estructuras intangibles son cognitivas, su naturaleza no es distinta que la de los sistemas intangibles;
+para mostrarlo es necesario dar un ejemplo:
+
+
+Ejemplo 1. Estructura intangible: Acondicionamiento físico
+Descripción base:
+En esta estructura se plantea llevar a cabo una transformación física, es decir: cambiar algo del cuerpo, por ejemplo:
+- Bajar de peso (grasa, IMC)
+- Correr más rápido
+- Brincar más alto
+- Aumentar resistencia
+- Aumentar masa muscular
+- Aumentar flexibilidad
+- Reducir tallas
+- Energía
+- Etc.
+
+En general, en la transformación se busca llevar alguna [variable] física del estado A al B, es decir:
+
+A (inicio)  ->  Transformación  ->  B (objetivo)
+
+Para entender esta transformación definimos los siguientes pasos:
+
+Paso 1
+Crear un modelo que represente el cuerpo, no en su totalidad, sino en los aspectos relevantes al dominio.
+En el ejemplo actual:
+
+Lista 1. Variables (parámetros) que modelan al cuerpo en el dominio “condición física”
+(ESTO DEBE SER CAMBIADO POR LAS FAMILIAS FÍSICAS BASE CREADAS: 
+PFAM-1: Producción de fuerza
+PFAM-2: Potencia y velocidad de producción de fuerza
+PFAM-3: Resistencia muscular local
+PFAM-4: Capacidad cardiorrespiratoria y sistemas energéticos
+PFAM-5: Movilidad y flexibilidad funcional
+PFAM-6: Estabilidad, control postural y robustez articular
+PFAM-7: Coordinación y control motor
+PFAM-8: Estructura corporal y composición
+SE DEBE NOTAR QUE ESTOS PARÁMETROS LOS REELEVANTES AL DOMINIO, SON EL MODELO CON EL QUE SE TRATA DE DESCRIBIR 
+EL DOMINIO PARTICULAR, CADA DOMINIO TENDRÁ SU MODELO Y SUS PARÁMETROS PARTICULARES, COMO SE VERÁ MÁS ADELANTE: 
+LA TRANSFORMACIÓN DEL SISTEMA DE LA QUE SE HABLA ANTES EXISTE PARA MODIFICAR ALGUNO DE ESTOS PARÁMETROS, SIN 
+ÉSTOS LA TRANSFORMACIÓN NO TIENE SENTIDO, POR ESO ES QUE CADA DOMINIO NECESITA SU GRUPO DE PARÁMETROS PROPIO.
+)
+- Capacidad aeróbica
+- Capacidad anaeróbica
+- Fuerza
+- Flexibilidad
+- Resistencia
+- Agilidad
+- Índice de masa corporal
+- Masa muscular
+- Reflejos
+- Peso
+
+La lista anterior es solo un ejemplo; honestamente no sé cuáles sean los parámetros adecuados para modelar el cuerpo en el dominio “condición física”,
+sin embargo, sirven para mostrar el punto.
+
+Al elegir estos parámetros para crear el modelo del cuerpo, la estructura tangible se enfocará en crear procesos que operen en cada una de estas variables.
+Dependiendo de los objetivos se dará mayor o menor peso a los operadores de cada variable. Los objetivos pueden cambiar en el tiempo.
+
+Es importante considerar que también es bueno considerar las partes del cuerpo:
+- Grupos musculares
+- Articulaciones
+- Ligamentos
+- Sistema respiratorio
+- Etc.
+
+Estos son necesarios como puente de transición.
+(
+NOTA: 
+CATEGORÍA: "POSIBLE CONFUSIÓN ENTRE UNIDADES MÍNIMAS DEL DOMINIO Y fNode"
+NÚMERO EN CATEGORÍA: 1    
+
+EN EL EJEMPLO ACTUAL -Estructura intangible: Acondicionamiento físico-, HAY MUCHAS "DIMENSIONES", POR EJEMPLO, LAS FAMILIAS -PFAM-1-PFAM-8- PROVEEN 
+CRITERIOS PARA AGRUPAR ENTIDADES PORTADORAS DE IDÉNDIDAD MÍNIMA DEL DOMINIO Acondicionamiento físico (QUE SE DENOMINARON "fNodes" -Fitness Nodes-), LAS CUALES 
+CUMPLEN LOS CRITERIOS: 
+  + Tiene salida observable: algo que puede manifestarse (rendimiento, rango, estabilidad, tolerancia).
+  + Es evaluable: existe al menos una métrica o prueba operativa para observarlo.
+  + Es entrenable/modulable: se puede influir con intervenciones (entrenamiento, descanso, nutrición, movilidad, etc.).
+  + Tiene borde de pertenencia: se puede distinguir de unidades vecinas (no se confunde con “todo a la vez”).
+LOS fNodes COMO SE PROPUSIERON AGRUPAN atributo/capacidad FÍSICAS con identidad propia. 
+
+MÁS ADELANTE EN ESTE ESTUDIO DEFINO "Unidades Mínimas del Dominio", LAS CUALES SON IMPORTANTES DEBIDO A QUE LAS USO COMO LA BASE PARA 
+LA CREACIÓN DE MÓDULOS, COMO SE MENCIONARÁ MÁS ADELANTE, LAS "Unidades Mínimas del Dominio" SON ESTRUCTURAS PORTADORAS DE IDENTIDAD MÍNIMA, SIN EMBARGO, 
+LA "DIMENSIÓN" A LA QUE PERTENECEN ES DISTINTA A LA DE LOS fNode DESCRITOS ARRIBA, PUESTO QUE LAS "Unidades Mínimas del Dominio" TAL Y CÓMO SE DEFINIERON 
+(LO CUAL PODRÍA CAMBIAR) PERTENECEN AL DOMINIO DE EJECUCIÓN (EN ESTE CASO, "EJECUCIÓN DE UN EJERCICIO"), LOS EJEMPLOS QUE SE DAN "EJERCICIOS QUE NO PUEDEN
+DIVIDIRSE EN PARTES MÁS PEQUEÑAS":
+  - SENTADILLA: CONTRACCIÓN Y ESTIRAMIENTO DE LAS PIERNAS
+  - ABDOMINAL: INCLINACIÓN Y REGRESO A POSICIÓN INICILAL DEL DORSO
+  - CAMINADORA (UNA UNIDAD, POR EJEMPLO, DOS PASOS): MÁQUINA CAMINADORA 
+TODOS ESTOS SON UNIDADES MÍNIMAS QUE NO PUEDEN SER TRATADAS COMO UNA COMBINACIÓN DE PARTES, POR ESO SON "Unidades Mínimas del Dominio".
+
+AMBOS CONCEPTOS "Unidades Mínimas del Dominio" Y fNode NO SON INCOMPATIBLES, POR EJEMPLO, CUANDO SE DICE QUE UN fNode
+  + Es entrenable/modulable: se puede influir con intervenciones (entrenamiento, descanso, nutrición, movilidad, etc.).
+SE MENCIONA "entrenamiento", EL CUAL (MÁS ADELANTE HABLÓ SOBRE [SESIÓN DE ENTRENAMIENTO], LO CUAL ES LO MISMO), ESTÁ CONFORMADO POR UNA SUCESIÓN DE MÓDULOS 
+CREADOS CON "Unidades Mínimas del Dominio" COMO BASE.
+
+EL RESULTADO DE ESTA DISCUSIÓN ES QUE COMIENZO A PENSAR QUE CADA ESCALA TENDRÁ "Unidades Mínimas" (QUE QUIZÁS DEBERÍA LLAMAR "Unidades Mínimas de ESCALA").
+ES IMPORTANTE ESTUDIAR ESTO EN MAYOR DETALLE. 
+
+NOTA POSTERIOR: 
+EN AMBOS CASOS, LAS "Unidades mínimas" SON CONSECUENCIA DE LA TEORÍA DE LAZO.
+)
+
+
+------------------------------------------------------------
+
+En general, podríamos decir que se busca pasar de un [Estado inicial] a un [Estado final], donde cada estado se define como:
+
+Estado:
+  e1 = a1
+  e2 = a2
+   :
+  ei = ai
+   :
+  en = an
+
+Es importante aclarar:
+- ei -> Variable de estado (en el ejemplo actual: fuerza, flexibilidad, resistencia, etc.). BAJO LA TEORÍA DE LAZO, ESTO ES CONOCIDO COMO "DIMENSIÓN ONTOLÓGICA"
+- ai -> Valor de una variable de estado (es importante considerar que el [modelo] debe proporcionar formas de medir cada uno de estos valores, no es opcional).
+  En el ejemplo actual:
+  - Peso -> Kilogramos
+  - Reflejos -> Tiempo de respuesta
+  - Resistencia -> Duración máxima de un ejercicio (quizás)
+  - ...
+
+Es posible descubrir que [cambiar un estado] requiere llevar a cabo transformaciones en las [variables de estado]; los criterios de éxito están dados por los
+valores de dichas variables.
+EN EL PASO 3 SE ACLARA QUE EL ÉXITO O FRACASO DEPENDE DEL [Objetivo] FIJADO.
+
+
+Paso 2
+LO QUE SE ENTIENDE AQUÍ COMO [modelo del dominio] ES LA ONTOLOGÍA, LO QUE SE PROPUSO EN EL PASO 1 SUPONE (CASI DE FORMA ACCIDENTAL) LA EXISTENCIA DE UNA ONTOLOGÍA
+Una vez que se tiene el [modelo del dominio], es necesario conocer el estado inicial y “proponer” un estado final, es decir:
+
+Estado inicial:
+  e1 = a1^i
+  e2 = a2^i
+   :
+  en = an^i
+
+            Transformación  ->
+
+Estado final:
+  e1 = a1^f
+  e2 = a2^f
+   :
+  en = an^f
+
+
+------------------------------------------------------------
+
+La transformación puede ser representada como:
+
+T([estado inicial]) = [estado final]
+
+Para que cada uno de los valores de las variables de estado sea transformado, es necesario que:
+
+T(e1, e2, ..., en) = { t1(e1), t2(e2), ..., tn(en) }   (estado final)
+
+Es decir, la transformación debe tener la capacidad de operar en cada una de las variables de estado.
+ESTO MUESTRA QUE LA ONTOLOGÍA SIRVE COMO "DOMINIO MATEMÁTICO" (PARA NO CONFUNDIR CON EL dominio: [acondicionamiento físico]) A LA TRANSFORMACIÓN, ES DECIR,
+OPERARÁ SÓLO EN LAS DIMENSIONES ONTOLÓGICAS DEFINIDAS AL INICIO DEL PROCESO.
+
+
+Paso 3
+El paso anterior dice: “transformar estado inicial en estado final”, ahora es importante fijar el cómo.
+(Los ejemplos son cualitativos/intuitivos con fines de demostración).
+
+Estamos trabajando en el dominio [acondicionamiento físico], y en ese dominio se podrían definir [objetivos]; cada [objetivo] puede
+entenderse como un [estado final], es decir, como una configuración particular de los valores de las variables de estado.
+En la siguiente tabla (Tabla 1) se explica mejor:
+
+
+Tabla 1. Variables de estado vs. objetivos (cada objetivo entendido como un “estado final”)
+
+| Variables de estado | Estado inicial | Correr más rápido | Aumentar masa muscular | Aumentar resistencia | Bajar de peso |
+|---------------------|---------------|-------------------|------------------------|---------------------|--------------|
+| C. anaeróbica       | 1             | >                 | 2                      | 9                   | 3            |
+| C. aeróbica         | 1             | 9                 | 2                      | 9                   | 3            |
+| Fuerza              | 1             | 5                 | 8                      | 5                   | 3            |
+| Flexibilidad        | 1             | 3                 | 2                      | 4                   | 2            |
+| Resistencia         | 1             | 5                 | 2                      | 10                  | 3            |
+| Agilidad            | 1             | 9                 | 2                      | 2                   | 3            |
+| IMC                 | 5             | 2                 | 5                      | 3                   | 1 [dato poco legible] |
+| Masa muscular       | 1             | 2                 | 10                     | 4                   | 3            |
+| Reflejos            | 1             | 2                 | 1                      | 1                   | 3            |
+| Peso                | 8             | 2                 | 6                      | 3                   | 3            |
+
+
+Las columnas "Correr más rápido", "Aumentar masa muscular", "Aumentar resistencia", "Bajar de peso", son estados-objetivo. 
+Para llegar a cada estado se requiere una transformación distinta. 
+Las [Variables de estado] (ontología), pueden ser consideradas como un intervalo en el cual operan las transformaciones, 
+de forma análoga a cómo sucede en matemáticas cuando se definen los intervalos en los que están definidas las funciones. 
+En un escenario real, si un entrenador quisiera diseñar entrenamientos personalizados, no tendría que crear [Variables de estado]
+cada vez que quisiera un nuevo diseño (para un cliente particular), bastaría con crear una nueva transformación adaptada al contexto 
+particular de su cliente (más adelante menciono los contextos). 
+El modelo corporal con las [Variables de estado] podría ser algo ajeno al entrenador, podría ser creado por fisiologos, kinesiologos, médicos, etc, 
+el entrenador podría ser simplemente un cliente del modelo
+ESTO ME DA UNA IDEA: UN MODELO ONTOLÓGICO PUEDE SERVIR COMO PRODUCTO PARA ALGUIEN INTERESADO EN CONSTRUIR "SOBRE" DICHO MODELO
+
+Paso 4. Adaptaciones contextuales
+En el paso anterior se sugirió que existe un grupo de transformaciones; es importante entender la naturaleza de estas.
+
+La transformación depende del contexto del sujeto, veamos:
+En el siguiente ejemplo ambos sujetos parten del mismo estado inicial; sin embargo, sus contextos son distintos.
+
+Objetivo de ambos: Bajar de peso (mismo estado final).
+
+Tabla 2. Variables de contexto por sujeto (AUNQUE SE DENOMINEN "Variables de contexto", SON DIMENSIONES ONTOLÓGICAS DEL CONTEXTO)
+
+| Variables de contexto       | Sujeto 1        | Sujeto 2 |
+|-----------------------------|-----------------|----------|
+| Tiempo de entrenamiento     | 2 h por día      | 1 h por día |
+| Estilo de vida              | sedentario       | activo |
+| Presupuesto                 | alto             | medio |
+| Limitaciones físicas        | lesión en rodilla| ninguna |
+| Experiencia previa          | atletismo        | ninguna |
+| Plazo de tiempo propuesto   | 5 meses          | 9 meses |
+| Lugar de entrenamiento      | gym equipado     | casa |
+
+La tabla anterior (Tabla 2) evidencia que las transformaciones de cada uno no pueden ser iguales, aunque el objetivo (estado final) sea el mismo;
+es necesario adaptar la transformación al contexto particular.
+AQUÍ QUEDA EVIDENTE LO QUE SE DIJO MÁS ARRIBA: DOS TRANSFORMACIONES DEFINIDAS EN EL MISMO "DOMINIO-MATEMÁTICO" QUE OPERAN DE FORMA DISTINTA
+
+La pregunta es: ¿qué se adapta?
+Aquí es donde se debe comenzar a pensar en el [dominio].
+
+En este ejemplo:
+Dominio = Acondicionamiento físico.
+
+Los elementos del dominio son “todas las herramientas disponibles en dicho dominio”.
+Es necesario ser más específico:
+
+
+------------------------------------------------------------
+
+En acondicionamiento físico, algunas herramientas de dominio son:
+QUIZÁS EL TÉRMINO "HERRAMIENTA" NO ES EL MÁS ADECUADO, QUIZÁS: "OPERACIONES" SERÍA MÁS CONVENIENTE
+
+Movimientos libres:
+- Sentadillas
+- Lagartijas
+- Fondos
+- Abdominales
+- Puntas
+- Tocar puntas (sentado, parado)
+- Levantar piernas
+- Pliometría
+- Isometría
+- Funcionales
+- Calistenia
+- Correr
+- Burpees
+
+Máquinas cardio:
+- Escaladora
+- Caminadora
+- Elíptica
+- Bicicleta
+
+Máquinas gym:
+- Abductores
+- Press de banca
+- Pantorrilla
+
+Alberca:
+- Estilos
+- Distancias
+
+Descanso (el “cero”):
+- Respiración
+- Descanso activo
+
+Es posible seguir la lista, pero un mayor tamaño no aportaría nada nuevo a la idea:
+Un elemento del dominio es una unidad funcional con una estructura definida:
+- grupo muscular afectado
+- núcleo: grupo muscular
+- dominio de variación: duración, número de repeticiones, ritmo
+- invariantes: técnica correcta
+AQUÍ SE MUESTRA DE NUEVO QUE CADA UNA DE ESTAS "HERRAMIENTAS" O "unidades funcionales" NECESITA UNA ONTOLOGÍA PROPIA. 
+CADA UNA DE LAS ENTIDADES QUE SE MUESTRAN: CONTEXTOS, [DOMINIO Acondicionamiento físico], VARIABLE DE ESTADO, ETC ES UNA ENTIDAD CON 
+IDENTIDAD PROPIA
+
+
+Cada unidad funcional (herramienta) es un sistema en sí misma, es decir, una estructura; es importante analizar en mayor detalle.
+
+Unidad funcional mínima del dominio
+Dentro de cada dominio existen estructuras portadoras de identidad mínima.
+El adjetivo “mínimo” proviene del dominio; veamos en el caso actual:
+
+
+Ejemplo 2. Unidad portadora de identidad: Sentadilla
+- Núcleo: contracción y estiramiento de piernas
+- Invariantes: flexionamiento de piernas y posterior estiramiento
+- Dominio de variación:
+  - peso libre / peso añadido
+  - piernas estáticas / cambio de posición
+  - banco o apoyo
+
+
+Ejemplo 3. Unidad portadora de identidad: Abdominal
+- Núcleo: inclinación de parte superior de cuerpo
+- Invariantes: inclinación y regreso a posición inicial de torso
+- Dominio de variación:
+  - peso libre / peso añadido
+  - inclinación en máquina
+  - piernas dobladas / estiradas
+
+
+Ejemplo 4. Unidad portadora de identidad: Caminadora
+- Núcleo: unidad de tiempo en máquina caminadora
+- Invariantes: cinta que simula desplazamiento
+- Dominio de variación:
+  - velocidad
+  - inclinación
+
+Todos estos ejemplos muestran unidades mínimas (portadoras de identidad), es decir, estas unidades no pueden descomponerse en piezas más pequeñas;
+tratar de hacerlo provocaría que se pierda la identidad mínima.
+
+Es posible considerar a estas unidades funcionales mínimas como los building-blocks del sistema transformador que estoy construyendo.
+NOTA: CUANDO ESCRIBÍ ESTO NO CONSIDERÉ QUE ESTOS SON BUILDING-BLOCKS DEL EJE DE EJECUCIÓN, LA DISCUSIÓN POSTERIOR LO ACLARA. 
+
+Paso 5
+Una vez que se han definido las unidades mínimas de construcción, es importante entender cómo serán utilizadas; para esto es útil analizar una sesión de entrenamiento.
+
+Creación de módulos
+En esta sección "módulo" se entiende como:
+“Arreglo de unidades mínimas (módulos simples) o de otros módulos (módulos compuestos) interconectados siguiendo reglas específicas”.
+
+Siguiendo esta definición, podemos dar algunos ejemplos de módulos:
+
+Ejemplo 5. Módulo simple: Serie de sentadillas
+- Núcleo: sucesión ininterrumpida de sentadillas (repeticiones / iteraciones)
+- Invariantes: solo puede haber sentadillas
+- Dominio de variación:
+  - velocidad
+  - número de repeticiones / tiempo
+
+
+Ejemplo 6. Módulo simple: Serie de abdominales
+- Núcleo: sucesión ininterrumpida de abdominales
+- Invariantes: solo abdominales
+- Dominio de variación:
+  - velocidad
+  - repeticiones / tiempo
+
+
+Ejemplo 7. Módulo simple: Sesión de caminadora
+- Núcleo: intervalo de tiempo en caminadora
+- Invariantes: lapso de tiempo ininterrumpido
+- Dominio de variación:
+  - cantidad de tiempo
+
+Los 3 módulos anteriores son “simples”, es decir, se componen de unidades mínimas de dominio.
+En el siguiente ejemplo se muestra un módulo “compuesto”.
+
+
+Ejemplo 8. Módulo compuesto: Sesión de entrenamiento
+- Núcleo: intervalo de tiempo en el que se ejecutarán diversos módulos (simples o compuestos)
+- Invariantes:
+  - se debe ejecutar al menos un módulo
+- Dominio de variación:
+  - variable de estado objetivo (EN SESIÓN)
+  - grupos musculares
+  - duración
+  - número de módulos ( >= 1)
+  - lugar (ubicación)
+  - intensidad
+
+La razón por la que una sesión de entrenamiento es un módulo compuesto es que consta de módulos simples.
+Una sesión de entrenamiento se ve como algo parecido a:
+
+Ejecución: Sesión de entrenamiento
+- Sección 1: calentamiento
+- Sección 2: lubricación
+- Sección 3: 3 x (módulo simple(ms)1 + ms2 + ms3)
+- Sección 4: 3 x (ms4 + ms5 + ms6)
+- Sección 5: enfriamiento
+- Sección 6: estiramiento
+
+Si bien hay muchas variantes, el ejemplo anterior captura la esencia.
+
+Hay algo importante que se debe notar del ejemplo anterior, puesto que abre la puerta a un nuevo concepto.
+
+Módulo de ejecución
+NOTA: TODO ESTO SE REFIERE AL EJE DE EJECUCIÓN, ESTE EJEMPLO FUE CREADO ANTES DE DEFINIR ONTOLOGÍA Y EJECUCIÓN, POR ESO MUCHAS COSAS APARECEN MEZCLADAS
+Si se analiza en detalle la sesión de entrenamiento (ejecución), es posible notar que es un [evento] que abarca un intervalo de tiempo.
+Usando esta idea es posible definir:
+
+Módulo de ejecución:
+- Definición 1: “Módulo (simple o compuesto) el cual depende del tiempo”.
+- Definición 2: “Módulo (simple o compuesto) cuyas componentes son una sucesión ordenada, cada una con proyección en el mundo tangible”.
+
+(La definición correcta tiene un poco de ambas).
+
+El [módulo de ejecución] puede ser simple, por ejemplo:
+- Serie de sentadillas
+- Serie de abdominales
+- Sesión de caminadora
+
+(Notas estructurales del módulo simple)
+- Sus componentes son unidades mínimas de dominio.
+- Todos sus componentes tienen proyección temporal en el mundo tangible.
+- Sus componentes son una sucesión ordenada.
+
+El [módulo de ejecución] puede ser compuesto:
+- Sesión de entrenamiento
+  - Sus componentes son módulos (simples o compuestos).
+  - Sus componentes tienen proyección temporal.
+  - Sus componentes son una sucesión ordenada.
+
+Es importante notar que la naturaleza temporal es muy importante; esta naturaleza permite la construcción de [módulos de ejecución] de forma ascendente, veamos:
+
+
+En los ejemplos anteriores, los [módulos de ejecución] (simples y compuestos) tienen naturaleza temporal; es por esta razón que un [módulo de ejecución]
+compuesto puede ser construido por módulos simples. De alguna forma es posible decir que tienen las mismas unidades.
+
+La sesión de entrenamiento que se mostró anteriormente ejemplifica cómo funciona la construcción de [módulos de ejecución]:
+
+1) Está compuesta por secciones:
+   sesión de entrenamiento = sección 1 + sección 2 + ... + sección n
+
+   - Cada una de las secciones desempeña un rol particular dentro del sistema. (EN EJECUCIÓN: DEFINE COMO SE MANIFIESTA EL CAMBIO)
+   - El contenido de cada sección dependerá del objetivo (núcleo) fijado para esa sesión. (ES DECIR, DE LA ONTOLOGÍA)
+   - El número de secciones dependerá del objetivo (núcleo) fijado para esa sesión. (DE LA ONTOLOGÍA)
+
+2) Debido a que la sesión de entrenamiento es en sí misma un [módulo de ejecución], entonces las sesiones de entrenamiento pueden ser utilizadas
+para construir otros [módulos de ejecución], para, por ejemplo, definir una semana y un mes.
+LO ANTERIOR MUESTRA ALGO INTERESANTE:
+EXISTE COMPOSICIÓN ASCENDENTE: UNIDADES SIMPLES CONSTRUYEN UNIDADES COMPUESTAS, ESTO ES VÁLIDO EN EL EJE DE EJECUCIÓN (EL PRESENTADO EN EL PÁRRAFO DE ARRIBA) 
+COMO EN EL EJE ONTOLÓGICO. 
+
+Hasta este punto se ha visto la construcción de módulos desde la perspectiva de “ejecución”; es importante comprender la parte de diseño.
+LO QUE AQUÍ LLAMÉ "diseño" ES LA "ONTOLOGÍA"
+
+
+Paso 6
+En el paso anterior se explica cómo crear [módulos de ejecución], sin embargo no se menciona nada acerca de la relación que éstos tienen con la
+transformación que se trata de entender. En este paso se explora la relación entre la ejecución y el diseño. (EJE DE EJECUCIÓN Y EJE ONTOLÓGICO)
+
+Con respecto a las secciones (número de secciones, contenido de cada sección) se dijo que:
+“... dependerá del objetivo (núcleo) fijado para esa sesión”. (ES DECIR, EL CONTENIDO DE CADA MODULO DE EJECUCIÓN DEPENDE DE LA ONTOLOGÍA)
+
+Lo que esto significa es que cada sesión es una entidad con identidad propia, es decir, tiene un núcleo, invariantes y dominio de variación.
+En general, es posible decir:
+
+“Un módulo (simple, compuesto, de ejecución, ONTOLÓIGICO) es una entidad con identidad propia, la cual está dada/definida/creada por los parámetros estructurales:
+- Núcleo
+- Invariantes
+- Dominio de variación”.
+
+En la página 10 de este estudio ya se habla sobre este modelo aplicado a sesión de entrenamiento (ver Ejemplo 8), pero ahí se modela el
+concepto [sesión de entrenamiento] como “plantilla”, mientras que lo que se intenta desarrollar en este paso es una [sesión particular]
+que “hereda” su identidad del concepto [sesión de entrenamiento]. En mayor detalle:
+
+[Sesión de entrenamiento] (Ejemplo 8 revisado):
+Núcleo:
+- Módulo (simple/compuesto) de ejecución cuyo fin es agrupar una sucesión de [módulos de ejecución] del dominio [acondicionamiento físico].
+
+Invariantes:
+- Debe ser una sucesión con al menos 1 módulo.
+- Debe tener un fin/objetivo (variable de estado, grupo muscular, etc.).
+
+Dominio de variación:
+- Número de secciones
+- Contenido de cada sección
+- Fin buscado
+
+Ejemplo 9. [Sesión particular de entrenamiento] 
+
+Núcleo:
+- Hereda de [sesión de entrenamiento] (Ejemplo 8).
+- Objetivo:
+  - Variable de estado: fuerza
+  - Grupos musculares: bíceps, tríceps
+
+Sucesión:
+- Sección 1: Calentamiento: 5 min, bicicleta, rotaciones de hombro, extensiones y flexiones del codo.
+- Sección 2: Base (4 x 8): { press de barra agarre cerrado (CT), descanso, curl con barra recta (CB) }.
+- Sección 3: Hipertrofia (4 x 12): { curl inclinado mancuernas (B), descanso, fondos en máquina (CT) }.
+- Sección 4: Estiramiento/enfriamiento.
+
+Invariantes:
+- Ejercicios propuestos.
+
+Dominio de variación:
+- Peso
+- Tiempo de descanso
+- Número de repeticiones/series
+
+De los dos ejemplos anteriores (Ejemplo 8 y Ejemplo 9) es posible notar que [sesión de entrenamiento] es el “ancestro”, mientras que
+[sesión particular de entrenamiento] es un “heredero” del ancestro aplicado a un contexto particular.
+
+En la teoría de máquinas cognitivas este proceso de creación se conoce como “fábrica de adaptaciones contextuales”; el ejemplo actual
+de acondicionamiento físico permite ver con mayor claridad.
+
+
+------------------------------------------------------------
+
+Relación de construcción (diagrama):
+                               -> [sesión particular 1]
+   [sesión de entrenamiento]   -> [sesión particular 2]
+                               -> [sesión particular 3]
+
+Esta es una relación de construcción; aquí no se considera el contenido específico de cada [sesión particular]. [Sesión de entrenamiento] provee la forma de construcción.
+
+En este punto surge la pregunta: ¿qué provee el contenido específico?
+El proveedor del contenido es el [objetivo], en unión con el [contexto].
+ES POSIBLE DECIR LO MISMO USANDO LA TEORÍA DE LAZO: EL CONTENIDO DE CADA UNIDAD DE EJECUCIÓN ESTÁ DADO POR LA ONTOLOGÍA. 
+
+El ejemplo (Tabla 2) muestra dos sujetos con el mismo objetivo: bajar de peso. Se supone que ambos parten del mismo [contexto inicial] dado por la Tabla 1.
+Los contextos pueden ser modelados siguiendo los parámetros de la Tabla 2, la cual se debe entender como dos [contextos particulares] que heredan de un ancestro común:
+
+Ejemplo 10. [Molde de contexto de sujeto]
+Núcleo:
+- Conjunto de parámetros que describen “bajo los que se llevará a cabo la transformación”. (Las condiciones)
+
+Invariantes:
+- Cada condición es una “dimensión” del contorno de la transformación. (DIMENSIÓN ONTOLÓGICA )
+- Debe haber al menos una “dimensión” (condición). UNA DIMENSION ONTOLÓGICA
+- Debe definir el [sujeto].
+
+Dominio de variación:
+- El número de condiciones puede variar; mayor número refinará la capacidad operativa de la transformación.
+  ES  DECIR: UN MODELO ONTOLÓGICO CON MÁS DIMENSIONES ES MÁS EFICIENTE
+
+Las entradas en la Tabla 2 “heredan” de este molde. Veamos (siguiente sección):
+
+
+------------------------------------------------------------
+
+Ejemplo 11. [Contexto de sujeto 1] (SUJETO 1 DE LA TABLA 2)
+
+Núcleo:
+    - Hereda de [molde de contexto de sujeto] (Ejemplo 10).
+    - Objetivo: describir las condiciones de ejecución de la transformación para el [sujeto 1].
+    
+    Condiciones (Tabla 3):
+    Tabla 3. Condiciones de ejecución: [Contexto de sujeto 1]
+    | Condición               | Valor         |
+    |------------------------|---------------|
+    | Tiempo para entrenar    | 2 h/día       |
+    | Estilo de vida          | sedentario    |
+    | Presupuesto             | alto          |
+    | Limitaciones físicas    | lesión en rodilla |
+    | Experiencia previa      | atletismo     |
+    | Plazo propuesto         | 5 meses       |
+    | Lugar de entrenamiento  | gym equipado  |
+
+Invariantes:
+    - Limitaciones físicas, experiencia previa.
+
+Dominio de variación:
+    - Todo lo que no es invariante.
+
+(Omito deliberadamente el ejemplo para sujeto 2).
+
+Como ya se mencionó:
+“Los parámetros describen las condiciones bajo los cuales se llevará a cabo la transformación”.
+
+Para ejemplificar esto, tomemos las dimensiones temporales (para no desviar del ejemplo de ejecución):
+- El [plazo propuesto] define el intervalo en el que ocurrirá la transformación.
+- El [tiempo para entrenar] define la duración de cada ejecución.
+
+Ambos tiempos sirven para distintos fines, aunque ambos están relacionados. Veamos:
+
+
+------------------------------------------------------------
+
+Así como cada [sesión de entrenamiento particular] es una agrupación de [módulos de ejecución], el conjunto de entrenamientos a lo largo de una semana también lo es.
+Usando el lenguaje que se ha desarrollado en este estudio:
+
+Tabla 4. Dimensión temporal: niveles de composición por sucesión (COMPOSICIÓN ASCENDENTE EN EL EJE DE EJECUCIÓN)
+| Nivel | Estructura                              | Descripción |
+|------:|------------------------------------------|-------------|
+| 0     | [Unidad funcional mínima]                 | Estructura mínima del dominio que porta identidad. |
+| 1     | [Módulo de ejecución simple]              | Sucesión de unidades mínimas (en este dominio: serie de lagartijas). |
+| 2     | [Módulo de ejecución compuesto (mínimo)]  | Sucesión de [módulos de ejecución simple] ([sesión de entrenamiento], Ejemplo 8). |
+| 3     | [Módulo de ejecución compuesto (semanal)] | Sucesión de [módulos de ejecución compuestos mínimos]; es decir, todas las [sesiones de entrenamiento] en una semana. Aquí entra [tiempo para entrenar]. |
+| 4     | [Módulo de ejecución compuesto (mensual)] | Sucesión de [módulos de ejecución compuestos semanales]; es decir: planeación de objetivos semanales. |
+| 5     | [Plazo propuesto]                         | Define el intervalo en el que ocurrirá la transformación. |
+
+Esta es la dimensión temporal. En todos los niveles se cumple la misma estructura que la propuesta para [sesión de entrenamiento] (Ejemplo 8), ya que al
+final cada nivel es gobernado por un [módulo de ejecución]; lo que cambia es qué hay en cada una de las secciones.
+

@@ -1,0 +1,1672 @@
+{"address":"meta/header","content":{
+  "title":"Artefacto — Ontología extendida de Fuentes Identitarias y Espacios Intensionales",
+  "version":"0.0.1",
+  "status":"Draft",
+  "date":"YYYY-MM-DD",
+  "language":"es",
+  "goal":"Fijar, en forma de grafo, la ontología base del modelo de Fuentes Identitarias y Espacios Intensionales. Este artefacto no redefine los nodos de Arq-Cog/TMC ya existentes; en su lugar, los usa como dependencias explícitas cuando son necesarios para sostener la identidad del nuevo sistema."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                           CONVENCIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"meta/conventions","content":{
+  "namespaces":{"graph_nodes":"graph/node/*","graph_edges":"graph/edge/*","definitions":"def/*"},
+  "edge_types":{
+    "depends_on":"A depends_on B = A NO puede existir (definirse con identidad estable) sin B",
+    "uses":"A uses B = A incorpora a B como recurso/instrumento, pero A puede existir sin B",
+    "refines":"A refines B = A hace más preciso a B sin cambiar su núcleo (reduce ambigüedad)",
+    "enables":"A enables B = A hace viable/operable a B, sin ser constitutivo de su identidad",
+    "constrains":"A constrains B = A impone límites a B (reduce el espacio de configuraciones válidas)",
+    "realizes":"A realizes B = A encarna/instancia B como forma concreta o caso operativo",
+    "provides_criteria_for":"A provides_criteria_for B = A provee criterios explícitos para formular, validar o decidir B",
+    "adapts_from":"A adapts_from B = A es una adaptación contextual de B; conserva su núcleo pero lo particulariza",
+    "has_intensional_dimension":"A has_intensional_dimension B = B es una dimensión intensional constitutiva de A",
+    "has_internal_operator":"A has_internal_operator B = B opera como mecanismo interno de A",
+    "evaluates_by":"A evaluates_by B = A evalúa entradas usando B como variable o criterio explícito de lectura",
+    "modulated_by":"A modulated_by B = el comportamiento de A cambia según el estado o valor de B",
+    "yields":"A yields B = A puede producir B como salida estructurada",
+    "maps_to":"A maps_to B = A traduce configuraciones o entradas hacia B como región, clase o salida",
+    "provides_meaning_to": A provides_meaning_to B = "A se usa como un criterio para evaluar el sentido de B con respecto a la identidad del sistema"
+  },
+  "node_min_fields":["id","label","type","definition_ref","summary"],
+  "edge_min_fields":["id","from","to","type","rationale"],
+  "note":"Este artefacto extiende el modelo de Fuentes Identitarias sin duplicar la infraestructura general de Arq-Cog. Cuando se requieren componentes ya definidos en TMC (Interior, Frontera, Envolvente, Vecindad Relevante, Superficie de Integración, Frontera de Entrada, Frontera de Salida, Operatividad Intensional), se los referencia mediante aristas y no se los redefine aquí."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                  OVERVIEW
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/overview","content":"[
+================================================================================
+OVERVIEW — ONTOLOGÍA EXTENDIDA DE FUENTES IDENTITARIAS Y ESPACIOS INTENSIONALES
+================================================================================
+
+Este grafo organiza el modelo en seis bloques ontológicos mínimos:
+
+1. Recorte y validez.
+2. Identidad extensional de la Fuente Identitaria.
+3. Espacio de dimensiones intensionales.
+4. Caso y vector de instanciación.
+5. Mapa de respuesta.
+6. Construcción inversa, cierre, evidencia y actualización.
+
+La tesis central del artefacto es esta:
+- una Fuente Identitaria no se agota en ninguno de sus casos,
+- define un espacio intensional propio,
+- cada caso se representa como vector dentro de ese espacio,
+- y un mapa de respuesta traduce dicho vector a una salida bajo pesos, umbrales, moduladores, restricciones y validación.
+]"}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (NODOS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/node/FI-Fuente-Identitaria","content":{
+  "id":"FI-Fuente-Identitaria",
+  "label":"Fuente Identitaria",
+  "type":"root_bridge",
+  "definition_ref":"def/FI-Fuente-Identitaria",
+  "summary":"Nodo base del modelo. Nombra la entidad-fuente cuya identidad extensional y cuyo espacio intensional permiten 
+  representar casos concretos como vectores y traducirlos a salidas mediante un mapa de respuesta."
+}}
+
+{"address":"graph/node/FI-Recorte-y-Validez","content":{
+  "id":"FI-Recorte-y-Validez",
+  "label":"Fuente Identitaria — Recorte y validez",
+  "type":"principle_methodological",
+  "definition_ref":"def/FI-Recorte-y-Validez",
+  "summary":"Bloque que fija el fenómeno modelado, el propósito del modelo, su dominio de aplicación, sus simplificaciones
+  y sus condiciones mínimas de validez."
+}}
+
+{"address":"graph/node/FI-Identidad-Extensional","content":{
+  "id":"FI-Identidad-Extensional",
+  "label":"Fuente Identitaria — Identidad extensional",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Identidad-Extensional",
+  "summary":"Bloque que fija la identidad estructural de la fuente mediante interior, frontera, envolvente, vecindad 
+  relevante, lógica de lectura y salidas posibles."
+}}
+
+{"address":"graph/node/FI-Espacio-de-Dimensiones-Intensionales","content":{
+  "id":"FI-Espacio-de-Dimensiones-Intensionales",
+  "label":"Fuente Identitaria — Espacio de dimensiones intensionales",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Espacio-de-Dimensiones-Intensionales",
+  "summary":"Conjunto organizado de dimensiones internas sobre las cuales la fuente puede configurarse sin dejar de 
+  ser la misma. Funciona como espacio de estados parametrizado."
+}}
+
+{"address":"graph/node/FI-Dimension-Intensional","content":{
+  "id":"FI-Dimension-Intensional",
+  "label":"Fuente Identitaria — Dimensión intensional",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Dimension-Intensional",
+  "summary":"Nodo genérico para cada eje interno del espacio intensional. Una dimensión intensional es una coordenada
+  posible de configuración de la fuente."
+}}
+
+{"address":"graph/node/FI-Valor-de-Dimension","content":{
+  "id":"FI-Valor-de-Dimension",
+  "label":"Fuente Identitaria — Valor de dimensión",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Valor-de-Dimension",
+  "summary":"Valor concreto que una dimensión intensional toma en un caso determinado. Pertenece al caso y no al modelo 
+  general de la fuente."
+}}
+
+{"address":"graph/node/FI-Caso","content":{
+  "id":"FI-Caso",
+  "label":"Fuente Identitaria — Caso",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Caso",
+  "summary":"Manifestación concreta de la fuente en un contexto determinado. Un caso no redefine la fuente; la instancia 
+  bajo una configuración particular."
+}}
+
+{"address":"graph/node/FI-Vector-de-Instanciacion","content":{
+  "id":"FI-Vector-de-Instanciacion",
+  "label":"Fuente Identitaria — Vector de instanciación",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Vector-de-Instanciacion",
+  "summary":"Representación del caso como tupla ordenada de valores sobre las dimensiones intensionales de la fuente."
+}}
+
+{"address":"graph/node/FI-Region-del-Espacio-Intensional","content":{
+  "id":"FI-Region-del-Espacio-Intensional",
+  "label":"Fuente Identitaria — Región del espacio intensional",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Region-del-Espacio-Intensional",
+  "summary":"Subzona del espacio intensional donde distintas configuraciones comparten propiedades estructurales relevantes
+  o tienden a producir respuestas similares."
+}}
+
+{"address":"graph/node/FI-Isomorfismo-de-Configuraciones","content":{
+  "id":"FI-Isomorfismo-de-Configuraciones",
+  "label":"Fuente Identitaria — Isomorfismo de configuraciones",
+  "type":"principle_methodological",
+  "definition_ref":"def/FI-Isomorfismo-de-Configuraciones",
+  "summary":"Nombra la equivalencia estructural entre casos distintos que, aunque difieran narrativamente, ocupan regiones 
+  equivalentes del espacio intensional de una misma fuente."
+}}
+
+{"address":"graph/node/FI-Mapa-de-Respuesta","content":{
+  "id":"FI-Mapa-de-Respuesta",
+  "label":"Fuente Identitaria — Mapa de respuesta",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Mapa-de-Respuesta",
+  "summary":"Bloque que traduce vectores de instanciación a salidas del sistema bajo pesos de contribución, signos, umbrales, 
+  moduladores, restricciones y reglas de desempate."
+}}
+
+{"address":"graph/node/FI-Salida","content":{
+  "id":"FI-Salida",
+  "label":"Fuente Identitaria — Salida",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Salida",
+  "summary":"Respuesta estructurada que la fuente devuelve tras procesar una configuración intensional: clase, veredicto, 
+  región dominante o consecuencia."
+}}
+
+{"address":"graph/node/FI-Peso-de-Contribucion","content":{
+  "id":"FI-Peso-de-Contribucion",
+  "label":"Fuente Identitaria — Peso de contribución",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Peso-de-Contribucion",
+  "summary":"Parámetro del modelo que expresa cuánto contribuye una dimensión a empujar una salida específica. Pertenece 
+  al modelo, no al caso."
+}}
+
+{"address":"graph/node/FI-Signo-de-Contribucion","content":{
+  "id":"FI-Signo-de-Contribucion",
+  "label":"Fuente Identitaria — Signo de contribución",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Signo-de-Contribucion",
+  "summary":"Elemento que indica si una dimensión contribuye positiva o negativamente a una salida dada."
+}}
+
+{"address":"graph/node/FI-Umbral","content":{
+  "id":"FI-Umbral",
+  "label":"Fuente Identitaria — Umbral",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Umbral",
+  "summary":"Valor crítico que determina cuándo una acumulación de contribuciones basta para activar una salida, invalidar 
+  una configuración o marcar una transición de régimen."
+}}
+
+{"address":"graph/node/FI-Modulador","content":{
+  "id":"FI-Modulador",
+  "label":"Fuente Identitaria — Modulador",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Modulador",
+  "summary":"Componente que altera el efecto de pesos o dimensiones sin constituir por sí solo la salida; introduce estado, 
+  sensibilidad o cambio de régimen."
+}}
+
+{"address":"graph/node/FI-Restriccion","content":{
+  "id":"FI-Restriccion",
+  "label":"Fuente Identitaria — Restricción",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Restriccion",
+  "summary":"Límite estructural que reduce el espacio de configuraciones válidas de la fuente o de su mapa de respuesta."
+}}
+
+{"address":"graph/node/FI-Condicion-de-Activacion","content":{
+  "id":"FI-Condicion-de-Activacion",
+  "label":"Fuente Identitaria — Condición de activación",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Condicion-de-Activacion",
+  "summary":"Criterio mínimo que debe satisfacerse para que una salida, una transición o una regla del mapa de respuesta se activen."
+}}
+
+{"address":"graph/node/FI-Regla-de-Desempate","content":{
+  "id":"FI-Regla-de-Desempate",
+  "label":"Fuente Identitaria — Regla de desempate",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Regla-de-Desempate",
+  "summary":"Mecanismo que resuelve competencia entre salidas cuando varias regiones o puntuaciones quedan activas con fuerza similar."
+}}
+
+{"address":"graph/node/FI-Deteccion-de-Incoherencias","content":{
+  "id":"FI-Deteccion-de-Incoherencias",
+  "label":"Fuente Identitaria — Detección de incoherencias",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Deteccion-de-Incoherencias",
+  "summary":"Subbloque del mapa de respuesta encargado de detectar configuraciones inválidas, ambiguas, inestables o 
+  insuficientemente determinadas."
+}}
+
+{"address":"graph/node/FI-Configuracion-Invalida","content":{
+  "id":"FI-Configuracion-Invalida",
+  "label":"Fuente Identitaria — Configuración inválida",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Configuracion-Invalida",
+  "summary":"Etiqueta de salida diagnóstica para vectores que violan restricciones fuertes del sistema."
+}}
+
+{"address":"graph/node/FI-Configuracion-Ambigua","content":{
+  "id":"FI-Configuracion-Ambigua",
+  "label":"Fuente Identitaria — Configuración ambigua",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Configuracion-Ambigua",
+  "summary":"Etiqueta diagnóstica para vectores que activan regiones competidoras sin resolución suficiente."
+}}
+
+{"address":"graph/node/FI-Configuracion-Inestable","content":{
+  "id":"FI-Configuracion-Inestable",
+  "label":"Fuente Identitaria — Configuración inestable",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Configuracion-Inestable",
+  "summary":"Etiqueta diagnóstica para vectores que, aun siendo formables, no sostienen una trayectoria consistente o 
+  están demasiado cerca de una ruptura de régimen."
+}}
+
+{"address":"graph/node/FI-Region-de-Salida","content":{
+  "id":"FI-Region-de-Salida",
+  "label":"Fuente Identitaria — Región de salida",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Region-de-Salida",
+  "summary":"Subzona del espacio intensional asociada a una salida dominante del sistema."
+}}
+
+{"address":"graph/node/FI-Construccion-Inversa","content":{
+  "id":"FI-Construccion-Inversa",
+  "label":"Fuente Identitaria — Construcción inversa",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Construccion-Inversa",
+  "summary":"Bloque generativo del modelo que permite partir de una salida objetivo y buscar regiones o configuraciones 
+  compatibles para construir casos."
+}}
+
+{"address":"graph/node/FI-Salida-Objetivo","content":{
+  "id":"FI-Salida-Objetivo",
+  "label":"Fuente Identitaria — Salida objetivo",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Salida-Objetivo",
+  "summary":"Salida buscada intencionalmente para guiar la construcción inversa de casos o configuraciones."
+}}
+
+{"address":"graph/node/FI-Region-Compatible","content":{
+  "id":"FI-Region-Compatible",
+  "label":"Fuente Identitaria — Región compatible",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Region-Compatible",
+  "summary":"Región del espacio intensional compatible con una salida objetivo y utilizable como base para diseño o 
+  construcción de casos."
+}}
+
+{"address":"graph/node/FI-Construccion-de-Caso","content":{
+  "id":"FI-Construccion-de-Caso",
+  "label":"Fuente Identitaria — Construcción de caso",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Construccion-de-Caso",
+  "summary":"Proceso por el cual una región intensional compatible se traduce a una manifestación o caso concreto."
+}}
+
+{"address":"graph/node/FI-Optimizacion-bajo-Restricciones","content":{
+  "id":"FI-Optimizacion-bajo-Restricciones",
+  "label":"Fuente Identitaria — Optimización bajo restricciones",
+  "type":"principle_methodological",
+  "definition_ref":"def/FI-Optimizacion-bajo-Restricciones",
+  "summary":"Mecanismo que busca configuraciones compatibles con una salida deseada respetando restricciones, umbrales
+  y condiciones de activación."
+}}
+
+{"address":"graph/node/FI-Evidencia","content":{
+  "id":"FI-Evidencia",
+  "label":"Fuente Identitaria — Evidencia",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Evidencia",
+  "summary":"Huella observable, institucional, práctica o fenomenológica que permite validar o corregir la respuesta 
+  emitida por el modelo."
+}}
+
+{"address":"graph/node/FI-Cierre-de-Circuito","content":{
+  "id":"FI-Cierre-de-Circuito",
+  "label":"Fuente Identitaria — Cierre de circuito",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Cierre-de-Circuito",
+  "summary":"Bloque que conecta la salida con la evidencia y vuelve el modelo actualizable en vez de meramente clasificatorio."
+}}
+
+{"address":"graph/node/FI-Actualizacion-de-Estado","content":{
+  "id":"FI-Actualizacion-de-Estado",
+  "label":"Fuente Identitaria — Actualización de estado",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Actualizacion-de-Estado",
+  "summary":"Proceso por el cual la salida y la evidencia modifican el estado futuro de la fuente o del entorno pertinente."
+}}
+
+{"address":"graph/node/FI-Correccion-del-Modelo","content":{
+  "id":"FI-Correccion-del-Modelo",
+  "label":"Fuente Identitaria — Corrección del modelo",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Correccion-del-Modelo",
+  "summary":"Proceso de ajuste del mapa de respuesta, dimensiones, restricciones o pesos cuando la evidencia contradice la predicción."
+}}
+
+{"address":"graph/node/FI-Trayectoria","content":{
+  "id":"FI-Trayectoria",
+  "label":"Fuente Identitaria — Trayectoria",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Trayectoria",
+  "summary":"Secuencia de estados y salidas acumuladas que modifica el sentido de las nuevas entradas y evita tratar cada 
+  caso como aislado."
+}}
+
+{"address":"graph/node/FI-Nueva-Entrada","content":{
+  "id":"FI-Nueva-Entrada",
+  "label":"Fuente Identitaria — Nueva entrada",
+  "type":"bridge_node",
+  "definition_ref":"def/FI-Nueva-Entrada",
+  "summary":"Entrada futura ya modulada por trayectoria, actualización y evidencia previa; cierra el bucle del modelo."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                               GRAFO (ARISTAS)
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"graph/edge/FI-Fuente-Identitaria-depends_on-FI-Recorte-y-Validez","content":{
+  "id":"FI-Fuente-Identitaria-depends_on-FI-Recorte-y-Validez",
+  "from":"FI-Fuente-Identitaria",
+  "to":"FI-Recorte-y-Validez",
+  "type":"depends_on",
+  "rationale":"La fuente no puede fijarse con identidad estable sin un recorte explícito del fenómeno, una finalidad declarada
+  y condiciones mínimas de validez."
+}}
+
+{"address":"graph/edge/FI-Fuente-Identitaria-depends_on-FI-Identidad-Extensional","content":{
+  "id":"FI-Fuente-Identitaria-depends_on-FI-Identidad-Extensional",
+  "from":"FI-Fuente-Identitaria",
+  "to":"FI-Identidad-Extensional",
+  "type":"depends_on",
+  "rationale":"La fuente requiere una identidad extensional mínima para poder distinguirse de sus casos, entradas y salidas."
+}}
+
+{"address":"graph/edge/FI-Fuente-Identitaria-depends_on-FI-Espacio-de-Dimensiones-Intensionales","content":{
+  "id":"FI-Fuente-Identitaria-depends_on-FI-Espacio-de-Dimensiones-Intensionales",
+  "from":"FI-Fuente-Identitaria",
+  "to":"FI-Espacio-de-Dimensiones-Intensionales",
+  "type":"depends_on",
+  "rationale":"La fuente no es solo una identidad extensional; necesita un espacio intensional explícito para admitir 
+  configuraciones diferenciables."
+}}
+
+{"address":"graph/edge/FI-Fuente-Identitaria-depends_on-FI-Mapa-de-Respuesta","content":{
+  "id":"FI-Fuente-Identitaria-depends_on-FI-Mapa-de-Respuesta",
+  "from":"FI-Fuente-Identitaria",
+  "to":"FI-Mapa-de-Respuesta",
+  "type":"depends_on",
+  "rationale":"Sin un mapa de respuesta la fuente queda solo descrita, pero no operativa."
+}}
+
+{"address":"graph/edge/FI-Fuente-Identitaria-depends_on-FI-Cierre-de-Circuito","content":{
+  "id":"FI-Fuente-Identitaria-depends_on-FI-Cierre-de-Circuito",
+  "from":"FI-Fuente-Identitaria",
+  "to":"FI-Cierre-de-Circuito",
+  "type":"depends_on",
+  "rationale":"El modelo completo de fuente exige cierre entre respuesta, evidencia y actualización; sin eso la fuente 
+  clasifica, pero no aprende ni se corrige."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Interior","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Interior",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Interior",
+  "type":"depends_on",
+  "rationale":"La identidad extensional requiere una noción explícita de interior para distinguir qué componentes 
+  pertenecen realmente a la fuente."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Frontera",
+  "type":"depends_on",
+  "rationale":"La fuente necesita una frontera que haga posible contacto, selección y preservación de identidad."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Envolvente","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Envolvente",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Envolvente",
+  "type":"depends_on",
+  "rationale":"La fuente debe distinguir el exterior relevante que la condiciona sin pertenecerle."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Vecindad-Relevante","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Vecindad-Relevante",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Vecindad-Relevante",
+  "type":"depends_on",
+  "rationale":"La identidad extensional necesita delimitar qué parte del exterior acopla efectivamente con la fuente 
+  en una situación concreta."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Superficie-de-Integración","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Superficie-de-Integración",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Superficie-de-Integración",
+  "type":"depends_on",
+  "rationale":"La fuente requiere una interfaz explícita donde su estructura pueda conectarse portable y auditablamente 
+  con otros nodos."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera-de-Entrada","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera-de-Entrada",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Frontera-de-Entrada",
+  "type":"depends_on",
+  "rationale":"La fuente necesita especificar cómo ingresa información o producción al sistema."
+}}
+
+{"address":"graph/edge/FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera-de-Salida","content":{
+  "id":"FI-Identidad-Extensional-depends_on-Arq-Cog-Frontera-de-Salida",
+  "from":"FI-Identidad-Extensional",
+  "to":"Arq-Cog-Frontera-de-Salida",
+  "type":"depends_on",
+  "rationale":"La fuente necesita especificar cómo proyecta salidas, consecuencias o respuestas hacia el exterior."
+}}
+
+{"address":"graph/edge/FI-Espacio-de-Dimensiones-Intensionales-depends_on-FI-Dimension-Intensional","content":{
+  "id":"FI-Espacio-de-Dimensiones-Intensionales-depends_on-FI-Dimension-Intensional",
+  "from":"FI-Espacio-de-Dimensiones-Intensionales",
+  "to":"FI-Dimension-Intensional",
+  "type":"depends_on",
+  "rationale":"El espacio intensional no existe sin dimensiones explícitas que funcionen como coordenadas internas del sistema."
+}}
+
+{"address":"graph/edge/FI-Vector-de-Instanciacion-depends_on-FI-Caso","content":{
+  "id":"FI-Vector-de-Instanciacion-depends_on-FI-Caso",
+  "from":"FI-Vector-de-Instanciacion",
+  "to":"FI-Caso",
+  "type":"depends_on",
+  "rationale":"El vector es siempre vector de un caso determinado; no existe flotando sin una instanciación concreta."
+}}
+
+{"address":"graph/edge/FI-Vector-de-Instanciacion-depends_on-FI-Espacio-de-Dimensiones-Intensionales","content":{
+  "id":"FI-Vector-de-Instanciacion-depends_on-FI-Espacio-de-Dimensiones-Intensionales",
+  "from":"FI-Vector-de-Instanciacion",
+  "to":"FI-Espacio-de-Dimensiones-Intensionales",
+  "type":"depends_on",
+  "rationale":"El vector solo puede formarse respecto del espacio de dimensiones de la fuente."
+}}
+
+{"address":"graph/edge/FI-Vector-de-Instanciacion-uses-FI-Valor-de-Dimension","content":{
+  "id":"FI-Vector-de-Instanciacion-uses-FI-Valor-de-Dimension",
+  "from":"FI-Vector-de-Instanciacion",
+  "to":"FI-Valor-de-Dimension",
+  "type":"uses",
+  "rationale":"El vector se construye usando valores concretos asignados a cada dimensión intensional."
+}}
+
+{"address":"graph/edge/FI-Caso-realizes-FI-Fuente-Identitaria","content":{
+  "id":"FI-Caso-realizes-FI-Fuente-Identitaria",
+  "from":"FI-Caso",
+  "to":"FI-Fuente-Identitaria",
+  "type":"realizes",
+  "rationale":"Un caso encarna a la fuente como manifestación concreta sin agotar su identidad."
+}}
+
+{"address":"graph/edge/FI-Region-del-Espacio-Intensional-depends_on-FI-Espacio-de-Dimensiones-Intensionales","content":{
+  "id":"FI-Region-del-Espacio-Intensional-depends_on-FI-Espacio-de-Dimensiones-Intensionales",
+  "from":"FI-Region-del-Espacio-Intensional",
+  "to":"FI-Espacio-de-Dimensiones-Intensionales",
+  "type":"depends_on",
+  "rationale":"Una región es una subzona del espacio intensional y no puede formularse sin él."
+}}
+
+{"address":"graph/edge/FI-Isomorfismo-de-Configuraciones-depends_on-FI-Vector-de-Instanciacion","content":{
+  "id":"FI-Isomorfismo-de-Configuraciones-depends_on-FI-Vector-de-Instanciacion",
+  "from":"FI-Isomorfismo-de-Configuraciones",
+  "to":"FI-Vector-de-Instanciacion",
+  "type":"depends_on",
+  "rationale":"La equivalencia estructural entre casos se formula comparando vectores de instanciación."
+}}
+
+{"address":"graph/edge/FI-Isomorfismo-de-Configuraciones-uses-FI-Region-del-Espacio-Intensional","content":{
+  "id":"FI-Isomorfismo-de-Configuraciones-uses-FI-Region-del-Espacio-Intensional",
+  "from":"FI-Isomorfismo-de-Configuraciones",
+  "to":"FI-Region-del-Espacio-Intensional",
+  "type":"uses",
+  "rationale":"Los isomorfismos operativos se reconocen cuando distintos vectores ocupan regiones equivalentes
+  o vecinas del espacio intensional."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-depends_on-FI-Vector-de-Instanciacion","content":{
+  "id":"FI-Mapa-de-Respuesta-depends_on-FI-Vector-de-Instanciacion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Vector-de-Instanciacion",
+  "type":"depends_on",
+  "rationale":"El mapa de respuesta opera sobre vectores de instanciación; sin ellos no hay nada que traducir."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Salida","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Salida",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Salida",
+  "type":"uses",
+  "rationale":"El mapa necesita un conjunto explícito de salidas posibles para poder traducir configuraciones a consecuencias."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Peso-de-Contribucion","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Peso-de-Contribucion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Peso-de-Contribucion",
+  "type":"uses",
+  "rationale":"La traducción vector→salida requiere pesos que midan la contribución de cada dimensión a cada salida."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Signo-de-Contribucion","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Signo-de-Contribucion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Signo-de-Contribucion",
+  "type":"uses",
+  "rationale":"El mapa necesita signos para distinguir contribuciones que favorecen de las que desfavorecen una salida."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Umbral","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Umbral",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Umbral",
+  "type":"uses",
+  "rationale":"Sin umbrales el mapa solo produciría tendencias, no activaciones efectivas de salida."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Modulador","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Modulador",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Modulador",
+  "type":"uses",
+  "rationale":"Los moduladores alteran el efecto de dimensiones y pesos según el estado general del sistema."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Restriccion","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Restriccion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Restriccion",
+  "type":"uses",
+  "rationale":"El mapa necesita restricciones para invalidar configuraciones prohibidas y delimitar el espacio de casos válidos."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Condicion-de-Activacion","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Condicion-de-Activacion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Condicion-de-Activacion",
+  "type":"uses",
+  "rationale":"Las condiciones de activación determinan cuándo una salida, transición o regla se vuelve operativa."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Regla-de-Desempate","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Regla-de-Desempate",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Regla-de-Desempate",
+  "type":"uses",
+  "rationale":"Cuando varias salidas compiten, el mapa necesita reglas explícitas de resolución."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-uses-FI-Deteccion-de-Incoherencias","content":{
+  "id":"FI-Mapa-de-Respuesta-uses-FI-Deteccion-de-Incoherencias",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Deteccion-de-Incoherencias",
+  "type":"uses",
+  "rationale":"El mapa no solo decide salidas; también debe detectar configuraciones ambiguas, inválidas o inestables."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-maps_to-FI-Region-de-Salida","content":{
+  "id":"FI-Mapa-de-Respuesta-maps_to-FI-Region-de-Salida",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Region-de-Salida",
+  "type":"maps_to",
+  "rationale":"El mapa traduce configuraciones del espacio intensional a regiones de salida estructuralmente distinguibles."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-provides_criteria_for-FI-Salida","content":{
+  "id":"FI-Mapa-de-Respuesta-provides_criteria_for-FI-Salida",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Salida",
+  "type":"provides_criteria_for",
+  "rationale":"El mapa define qué condiciones, pesos y umbrales deben cumplirse para justificar una salida determinada."
+}}
+
+{"address":"graph/edge/FI-Peso-de-Contribucion-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"FI-Peso-de-Contribucion-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"FI-Peso-de-Contribucion",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"Los pesos pertenecen al régimen intensional del sistema y solo tienen sentido dentro de una operatividad
+  no puramente extensional."
+}}
+
+{"address":"graph/edge/FI-Signo-de-Contribucion-depends_on-FI-Peso-de-Contribucion","content":{
+  "id":"FI-Signo-de-Contribucion-depends_on-FI-Peso-de-Contribucion",
+  "from":"FI-Signo-de-Contribucion",
+  "to":"FI-Peso-de-Contribucion",
+  "type":"depends_on",
+  "rationale":"El signo completa el sentido del peso, distinguiendo dirección positiva o negativa de la contribución."
+}}
+
+{"address":"graph/edge/FI-Umbral-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"FI-Umbral-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"FI-Umbral",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"Los umbrales son una forma de intensionalidad fuerte: cambian realmente la activación de salidas y el
+  funcionamiento del sistema."
+}}
+
+{"address":"graph/edge/FI-Modulador-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"FI-Modulador-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"FI-Modulador",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"Los moduladores alteran la lectura del sistema según estado, sensibilidad o régimen, y por ello pertenecen
+  a la operatividad intensional."
+}}
+
+{"address":"graph/edge/FI-Mapa-de-Respuesta-constrains-FI-Vector-de-Instanciacion","content":{
+  "id":"FI-Mapa-de-Respuesta-constrains-FI-Vector-de-Instanciacion",
+  "from":"FI-Mapa-de-Respuesta",
+  "to":"FI-Vector-de-Instanciacion",
+  "type":"constrains",
+  "rationale":"El mapa no solo lee vectores; también delimita cuáles son válidos, activables o estructuralmente compatibles 
+  con la fuente."
+}}
+
+{"address":"graph/edge/FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Invalida","content":{
+  "id":"FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Invalida",
+  "from":"FI-Deteccion-de-Incoherencias",
+  "to":"FI-Configuracion-Invalida",
+  "type":"yields",
+  "rationale":"La detección de incoherencias puede producir el diagnóstico de invalidez cuando el vector viola 
+  restricciones fuertes."
+}}
+
+{"address":"graph/edge/FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Ambigua","content":{
+  "id":"FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Ambigua",
+  "from":"FI-Deteccion-de-Incoherencias",
+  "to":"FI-Configuracion-Ambigua",
+  "type":"yields",
+  "rationale":"La detección de incoherencias puede producir ambigüedad cuando varias regiones de salida compiten
+  sin resolución suficiente."
+}}
+
+{"address":"graph/edge/FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Inestable","content":{
+  "id":"FI-Deteccion-de-Incoherencias-yields-FI-Configuracion-Inestable",
+  "from":"FI-Deteccion-de-Incoherencias",
+  "to":"FI-Configuracion-Inestable",
+  "type":"yields",
+  "rationale":"La detección de incoherencias puede producir inestabilidad cuando la configuración se sostiene solo
+  precariamente o está demasiado cerca de una ruptura de régimen."
+}}
+
+{"address":"graph/edge/FI-Deteccion-de-Incoherencias-provides_meaning_to-FI-Vector-de-Instanciacion","content":{
+  "id":"FI-Deteccion-de-Incoherencias-provides_meaning_to-FI-Vector-de-Instanciacion",
+  "from":"FI-Deteccion-de-Incoherencias",
+  "to":"FI-Vector-de-Instanciacion",
+  "type":"provides_meaning_to",
+  "rationale":"En ciertos casos, la detección de incoherencias declara directamente que el vector no pertenece al
+  dominio válido del modelo."
+}}
+
+{"address":"graph/edge/FI-Construccion-Inversa-depends_on-FI-Mapa-de-Respuesta","content":{
+  "id":"FI-Construccion-Inversa-depends_on-FI-Mapa-de-Respuesta",
+  "from":"FI-Construccion-Inversa",
+  "to":"FI-Mapa-de-Respuesta",
+  "type":"depends_on",
+  "rationale":"La construcción inversa solo es posible si ya existe un mapa de respuesta que conecte configuraciones
+  con salidas."
+}}
+
+{"address":"graph/edge/FI-Construccion-Inversa-uses-FI-Salida-Objetivo","content":{
+  "id":"FI-Construccion-Inversa-uses-FI-Salida-Objetivo",
+  "from":"FI-Construccion-Inversa",
+  "to":"FI-Salida-Objetivo",
+  "type":"uses",
+  "rationale":"La construcción inversa parte de una salida buscada y no de un caso ya dado."
+}}
+
+{"address":"graph/edge/FI-Construccion-Inversa-uses-FI-Region-Compatible","content":{
+  "id":"FI-Construccion-Inversa-uses-FI-Region-Compatible",
+  "from":"FI-Construccion-Inversa",
+  "to":"FI-Region-Compatible",
+  "type":"uses",
+  "rationale":"La construcción inversa necesita una región compatible del espacio intensional desde la cual construir
+  un caso viable."
+}}
+
+{"address":"graph/edge/FI-Construccion-Inversa-yields-FI-Construccion-de-Caso","content":{
+  "id":"FI-Construccion-Inversa-yields-FI-Construccion-de-Caso",
+  "from":"FI-Construccion-Inversa",
+  "to":"FI-Construccion-de-Caso",
+  "type":"yields",
+  "rationale":"El producto de la construcción inversa es una manifestación o caso diseñado para habitar una región de
+  salida determinada."
+}}
+
+{"address":"graph/edge/FI-Construccion-Inversa-uses-FI-Optimizacion-bajo-Restricciones","content":{
+  "id":"FI-Construccion-Inversa-uses-FI-Optimizacion-bajo-Restricciones",
+  "from":"FI-Construccion-Inversa",
+  "to":"FI-Optimizacion-bajo-Restricciones",
+  "type":"uses",
+  "rationale":"La construcción inversa requiere buscar configuraciones compatibles sin violar restricciones del modelo."
+}}
+
+{"address":"graph/edge/FI-Region-Compatible-refines-FI-Region-de-Salida","content":{
+  "id":"FI-Region-Compatible-refines-FI-Region-de-Salida",
+  "from":"FI-Region-Compatible",
+  "to":"FI-Region-de-Salida",
+  "type":"refines",
+  "rationale":"Una región compatible es una precisión operativa de la región de salida cuando se la usa para diseñar
+  casos y no solo para clasificarlos."
+}}
+
+{"address":"graph/edge/FI-Evidencia-depends_on-FI-Salida","content":{
+  "id":"FI-Evidencia-depends_on-FI-Salida",
+  "from":"FI-Evidencia",
+  "to":"FI-Salida",
+  "type":"depends_on",
+  "rationale":"La evidencia se recoge respecto de una salida emitida por el sistema; sin salida no hay nada que contrastar."
+}}
+
+{"address":"graph/edge/FI-Cierre-de-Circuito-depends_on-FI-Evidencia","content":{
+  "id":"FI-Cierre-de-Circuito-depends_on-FI-Evidencia",
+  "from":"FI-Cierre-de-Circuito",
+  "to":"FI-Evidencia",
+  "type":"depends_on",
+  "rationale":"El cierre de circuito necesita evidencia para vincular la respuesta del sistema con su contraste externo."
+}}
+
+{"address":"graph/edge/FI-Cierre-de-Circuito-enables-FI-Actualizacion-de-Estado","content":{
+  "id":"FI-Cierre-de-Circuito-enables-FI-Actualizacion-de-Estado",
+  "from":"FI-Cierre-de-Circuito",
+  "to":"FI-Actualizacion-de-Estado",
+  "type":"enables",
+  "rationale":"Cerrar el circuito hace posible modificar el estado futuro de la fuente o del entorno."
+}}
+
+{"address":"graph/edge/FI-Cierre-de-Circuito-enables-FI-Correccion-del-Modelo","content":{
+  "id":"FI-Cierre-de-Circuito-enables-FI-Correccion-del-Modelo",
+  "from":"FI-Cierre-de-Circuito",
+  "to":"FI-Correccion-del-Modelo",
+  "type":"enables",
+  "rationale":"La evidencia devuelta por el circuito hace posible ajustar pesos, umbrales, dimensiones o restricciones
+  del modelo."
+}}
+
+{"address":"graph/edge/FI-Correccion-del-Modelo-uses-FI-Mapa-de-Respuesta","content":{
+  "id":"FI-Correccion-del-Modelo-uses-FI-Mapa-de-Respuesta",
+  "from":"FI-Correccion-del-Modelo",
+  "to":"FI-Mapa-de-Respuesta",
+  "type":"uses",
+  "rationale":"La corrección del modelo actúa principalmente sobre el mapa de respuesta porque allí viven pesos, umbrales, 
+  moduladores y reglas de decisión."
+}}
+
+{"address":"graph/edge/FI-Correccion-del-Modelo-uses-FI-Espacio-de-Dimensiones-Intensionales","content":{
+  "id":"FI-Correccion-del-Modelo-uses-FI-Espacio-de-Dimensiones-Intensionales",
+  "from":"FI-Correccion-del-Modelo",
+  "to":"FI-Espacio-de-Dimensiones-Intensionales",
+  "type":"uses",
+  "rationale":"Cuando la evidencia contradice el modelo, puede ser necesario revisar las dimensiones mismas y no solo sus pesos."
+}}
+
+{"address":"graph/edge/FI-Actualizacion-de-Estado-enables-FI-Trayectoria","content":{
+  "id":"FI-Actualizacion-de-Estado-enables-FI-Trayectoria",
+  "from":"FI-Actualizacion-de-Estado",
+  "to":"FI-Trayectoria",
+  "type":"enables",
+  "rationale":"La actualización de estado permite tratar la evolución del sistema como trayectoria y no como colección de 
+  casos aislados."
+}}
+
+{"address":"graph/edge/FI-Trayectoria-enables-FI-Nueva-Entrada","content":{
+  "id":"FI-Trayectoria-enables-FI-Nueva-Entrada",
+  "from":"FI-Trayectoria",
+  "to":"FI-Nueva-Entrada",
+  "type":"enables",
+  "rationale":"La trayectoria condiciona el sentido de las nuevas entradas y cierra el bucle entre historia del sistema y 
+  lectura futura."
+}}
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                             DEFINICIONES
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+{"address":"def/FI-Fuente-Identitaria","content":"[
+================================================================================
+DEFINICIÓN — FUENTE IDENTITARIA
+================================================================================
+0) Intención
+Nombrar la entidad-fuente que posee identidad extensional propia y define un espacio intensional dentro del cual pueden 
+existir casos como configuraciones particulares.
+
+1) Definición central
+Fuente Identitaria = entidad estructural que, además de mantener una identidad extensional estable, define un espacio de 
+dimensiones intensionales, un régimen de lectura de sus configuraciones y un conjunto de salidas posibles.
+
+2) Qué delimita
+Delimita aquello que no se agota en un caso ni en un ejemplo particular, sino que funciona como fuente de configuraciones 
+posibles y de respuestas del sistema.
+
+3) Dependencias
+Depende de recorte y validez, identidad extensional, espacio de dimensiones intensionales, mapa de respuesta y cierre de circuito.
+
+4) Invariantes
+- debe conservar identidad extensional;
+- debe admitir variación intensional;
+- debe poder traducir configuraciones a salidas.
+
+5) Fórmula de cierre
+Fuente Identitaria = identidad estable + espacio intensional + casos como vectores + respuesta bajo restricciones.
+]"}
+
+{"address":"def/FI-Recorte-y-Validez","content":"[
+================================================================================
+DEFINICIÓN — RECORTE Y VALIDEZ
+================================================================================
+0) Intención
+Fijar el fenómeno modelado, su propósito y las condiciones bajo las cuales el modelo puede considerarse legítimo.
+
+1) Definición central
+Recorte y Validez = bloque metodológico que determina qué queda dentro y qué queda fuera del modelo, con qué finalidad
+se construye y qué contará como evidencia de éxito o error.
+
+2) Qué delimita
+Delimita el rango de aplicación del sistema.
+
+3) Dependencias
+Depende de propósito, fenómeno recortado y evidencia.
+
+4) Invariantes
+- debe explicitar propósito;
+- debe fijar dominio;
+- debe fijar criterio mínimo de validación.
+
+5) Fórmula de cierre
+No hay fuente bien modelada sin fenómeno recortado y condiciones de validez explícitas.
+]"}
+
+{"address":"def/FI-Identidad-Extensional","content":"[
+================================================================================
+DEFINICIÓN — IDENTIDAD EXTENSIONAL
+================================================================================
+0) Intención
+Fijar qué mantiene siendo la misma a la fuente aunque cambien sus casos concretos.
+
+1) Definición central
+Identidad Extensional = bloque estructural compuesto por interior, frontera, envolvente, vecindad relevante, superficie 
+de integración, fronteras de entrada y salida, lógica de lectura y salidas posibles.
+
+2) Qué delimita
+Delimita el plano ontológico de la fuente y la separa de sus casos particulares.
+
+3) Dependencias
+Depende de los componentes Arq-Cog ya definidos en TMC.
+
+4) Invariantes
+- debe distinguir fuente de exterior;
+- debe permitir entrada y salida;
+- debe sostener una lógica de lectura.
+
+5) Fórmula de cierre
+La fuente necesita una forma extensional mínima para no degradarse a colección o narración suelta.
+]"}
+
+{"address":"def/FI-Espacio-de-Dimensiones-Intensionales","content":"[
+================================================================================
+DEFINICIÓN — ESPACIO DE DIMENSIONES INTENSIONALES
+================================================================================
+0) Intención
+Convertir a la fuente en un espacio de estados parametrizado por dimensiones explícitas.
+
+1) Definición central
+Espacio de Dimensiones Intensionales = conjunto organizado de ejes internos sobre los cuales la fuente puede 
+configurarse sin perder identidad.
+
+2) Qué delimita
+Delimita el espacio de variación interna relevante de la fuente.
+
+3) Dependencias
+Depende de la fuente y de dimensiones intensionales explícitas.
+
+4) Invariantes
+- las dimensiones deben ser distinguibles;
+- deben influir en lectura o salida;
+- deben admitir asignación de valor.
+
+5) Fórmula de cierre
+La fuente no es solo una estructura fija: también es el espacio de configuraciones que puede adoptar.
+]"}
+
+{"address":"def/FI-Dimension-Intensional","content":"[
+================================================================================
+DEFINICIÓN — DIMENSIÓN INTENSIONAL
+================================================================================
+0) Intención
+Nombrar cada eje interno del espacio intensional de la fuente.
+
+1) Definición central
+Dimensión Intensional = coordenada conceptual sobre la cual un caso puede variar dentro de la fuente.
+
+2) Qué delimita
+Delimita una diferencia relevante del estado del sistema.
+
+3) Dependencias
+Depende del espacio intensional.
+
+4) Invariantes
+- debe ser explícita;
+- debe variar;
+- debe tener efecto estructural real.
+
+5) Fórmula de cierre
+Una dimensión no es un caso ni una salida: es un eje de estado.
+]"}
+
+{"address":"def/FI-Valor-de-Dimension","content":"[
+================================================================================
+DEFINICIÓN — VALOR DE DIMENSIÓN
+================================================================================
+0) Intención
+Distinguir el valor instanciado de la dimensión respecto de la dimensión misma.
+
+1) Definición central
+Valor de Dimensión = valor concreto que una dimensión toma en un caso determinado.
+
+2) Qué delimita
+Delimita la instanciación local de una dimensión.
+
+3) Dependencias
+Depende de la dimensión y del caso.
+
+4) Invariantes
+- pertenece al caso;
+- no pertenece al modelo general de la fuente.
+
+5) Fórmula de cierre
+El espacio intensional se vuelve operativo cuando sus dimensiones reciben valores de caso.
+]"}
+
+{"address":"def/FI-Caso","content":"[
+================================================================================
+DEFINICIÓN — CASO
+================================================================================
+0) Intención
+Nombrar la manifestación concreta de una fuente dentro de su espacio intensional.
+
+1) Definición central
+Caso = instancia concreta de la fuente, descrita por una configuración particular de valores sobre sus dimensiones intensionales.
+
+2) Qué delimita
+Delimita la manifestación particular y no la fuente en sí.
+
+3) Dependencias
+Depende de fuente, vector y valores de dimensión.
+
+4) Invariantes
+- un caso debe pertenecer a una fuente;
+- debe poder representarse como vector.
+
+5) Fórmula de cierre
+El caso encarna a la fuente sin agotarla.
+]"}
+
+{"address":"def/FI-Vector-de-Instanciacion","content":"[
+================================================================================
+DEFINICIÓN — VECTOR DE INSTANCIACIÓN
+================================================================================
+0) Intención
+Representar cada caso como configuración formal dentro del espacio intensional.
+
+1) Definición central
+Vector de Instanciación = tupla ordenada de valores de dimensión que describe el estado de un caso dentro del espacio 
+intensional de la fuente.
+
+2) Qué delimita
+Delimita la forma operativa y comparable de representar casos.
+
+3) Dependencias
+Depende del caso, del espacio de dimensiones y de valores concretos.
+
+4) Invariantes
+- debe referirse a una misma base dimensional;
+- debe permitir comparación entre casos.
+
+5) Fórmula de cierre
+La narrativa del caso se vuelve operable cuando se traduce a vector.
+]"}
+
+{"address":"def/FI-Region-del-Espacio-Intensional","content":"[
+================================================================================
+DEFINICIÓN — REGIÓN DEL ESPACIO INTENSIONAL
+================================================================================
+0) Intención
+Nombrar zonas internas del espacio donde las configuraciones comparten rasgos estructurales relevantes.
+
+1) Definición central
+<<<<<<< HEAD:work-spaces/documentos-empresa/teoria/maquina-r/discusiones/creacion-de-realidad/definiciones/campos-interpretativos/fuentes-identitarias.txt
+Región del Espacio Intensional = subzona del espacio de estados de la fuente en la que distintas configuraciones tienden
+=======
+Región del Espacio Intensional = subzona del espacio de estados de la fuente en la que distintas configuraciones tienden 
+>>>>>>> 83f1787bac1f14803215c7845f8de24f255c37b2:work-spaces/documentos-empresa/teoria/maquina-r/discusiones/creacion-de-realidad/definiciones/campos-interpretativos/ontologia-extendida-fuentes-identitarias.txt
+a compartir propiedades de lectura, respuesta o validez.
+
+2) Qué delimita
+Delimita agrupaciones no narrativas sino geométrico-estructurales de casos.
+
+3) Dependencias
+Depende del espacio intensional.
+
+4) Invariantes
+- debe agrupar configuraciones comparables;
+- debe ser relevante para respuesta o coherencia.
+
+5) Fórmula de cierre
+Las regiones permiten hablar de familias de casos y no solo de casos aislados.
+]"}
+
+{"address":"def/FI-Isomorfismo-de-Configuraciones","content":"[
+================================================================================
+DEFINICIÓN — ISOMORFISMO DE CONFIGURACIONES
+================================================================================
+0) Intención
+Expresar cuándo dos casos distintos comparten una misma forma estructural relevante dentro de una fuente.
+
+1) Definición central
+Isomorfismo de Configuraciones = relación entre casos que, aunque difieran en materiales narrativos, ocupan regiones
+equivalentes del espacio intensional y producen patrones de respuesta comparables.
+
+2) Qué delimita
+Delimita la equivalencia estructural entre casos.
+
+3) Dependencias
+Depende de vectores y regiones del espacio intensional.
+
+4) Invariantes
+- requiere una misma fuente de referencia;
+- requiere una misma base dimensional.
+
+5) Fórmula de cierre
+Casos distintos pueden ser estructuralmente equivalentes si comparten forma intensional.
+]"}
+
+{"address":"def/FI-Mapa-de-Respuesta","content":"[
+================================================================================
+DEFINICIÓN — MAPA DE RESPUESTA
+================================================================================
+0) Intención
+Traducir configuraciones intensionales a salidas del sistema.
+
+1) Definición central
+Mapa de Respuesta = régimen de decisión que convierte vectores de instanciación en salidas mediante pesos de contribución, 
+signos, umbrales, moduladores, restricciones y reglas de resolución.
+
+2) Qué delimita
+Delimita el paso entre estado interno y consecuencia del sistema.
+
+3) Dependencias
+Depende de vectores, salidas, pesos, umbrales, moduladores, restricciones y detección de incoherencias.
+
+4) Invariantes
+- debe producir salida o diagnóstico;
+- debe distinguir validez e invalidez;
+- debe poder resolverse operativamente.
+
+5) Fórmula de cierre
+Tener dimensiones no basta: hace falta una regla que traduzca configuración en respuesta.
+]"}
+
+{"address":"def/FI-Salida","content":"[
+================================================================================
+DEFINICIÓN — SALIDA
+================================================================================
+0) Intención
+Nombrar la respuesta estructurada que el sistema devuelve tras procesar un caso.
+
+1) Definición central
+Salida = consecuencia, veredicto o clase final que la fuente emite para una configuración intensional dada.
+
+2) Qué delimita
+Delimita el resultado del procesamiento del caso.
+
+3) Dependencias
+Depende del mapa de respuesta.
+
+4) Invariantes
+- debe ser distinguible;
+- debe estar justificada por el mapa.
+
+5) Fórmula de cierre
+La salida es lo que la fuente devuelve, no lo que el caso trae consigo.
+]"}
+
+{"address":"def/FI-Peso-de-Contribucion","content":"[
+================================================================================
+DEFINICIÓN — PESO DE CONTRIBUCIÓN
+================================================================================
+0) Intención
+Medir cuánto empuja una dimensión a una salida específica.
+
+1) Definición central
+Peso de Contribución = parámetro del modelo que cuantifica la fuerza con que una dimensión, en combinación con el valor
+que toma en el caso, contribuye a una salida determinada.
+
+2) Qué delimita
+Delimita la intensidad relativa de cada dimensión respecto de una salida.
+
+3) Dependencias
+Depende de operatividad intensional y del mapa de respuesta.
+
+4) Invariantes
+- pertenece al modelo, no al caso;
+- siempre es relativo a una salida.
+
+5) Fórmula de cierre
+El valor lo trae el caso; el peso lo fija el modelo.
+]"}
+
+{"address":"def/FI-Signo-de-Contribucion","content":"[
+================================================================================
+DEFINICIÓN — SIGNO DE CONTRIBUCIÓN
+================================================================================
+0) Intención
+Indicar la dirección de la contribución de una dimensión a una salida.
+
+1) Definición central
+Signo de Contribución = marca positiva o negativa que indica si una dimensión favorece o desfavorece una salida dada.
+
+2) Qué delimita
+Delimita la dirección del empuje estructural.
+
+3) Dependencias
+Depende del peso de contribución.
+
+4) Invariantes
+- no tiene sentido sin peso ni salida de referencia.
+
+5) Fórmula de cierre
+No basta cuánto contribuye algo; importa también hacia dónde empuja.
+]"}
+
+{"address":"def/FI-Umbral","content":"[
+================================================================================
+DEFINICIÓN — UMBRAL
+================================================================================
+0) Intención
+Fijar cuándo una contribución acumulada basta para activar una salida o invalidar una configuración.
+
+1) Definición central
+Umbral = valor crítico de decisión que transforma tendencia en activación efectiva.
+
+2) Qué delimita
+Delimita el punto de transición entre mera propensión y salida operativa.
+
+3) Dependencias
+Depende de operatividad intensional y del mapa de respuesta.
+
+4) Invariantes
+- debe afectar realmente la decisión;
+- no puede ser decorativo.
+
+5) Fórmula de cierre
+Sin umbral, el sistema puntúa; con umbral, decide.
+]"}
+
+{"address":"def/FI-Modulador","content":"[
+================================================================================
+DEFINICIÓN — MODULADOR
+================================================================================
+0) Intención
+Introducir estado o régimen que altere el efecto de dimensiones y pesos sin constituir por sí solo una salida.
+
+1) Definición central
+Modulador = componente intensional que amplifica, atenúa o recontextualiza el efecto de una dimensión o de un conjunto de pesos.
+
+2) Qué delimita
+Delimita el cambio de régimen o de sensibilidad del sistema.
+
+3) Dependencias
+Depende de operatividad intensional y del mapa de respuesta.
+
+4) Invariantes
+- debe alterar realmente el cálculo o la región de salida;
+- no debe confundirse con una dimensión del caso si pertenece al estado del sistema.
+
+5) Fórmula de cierre
+El mismo vector puede producir otra salida si cambia el modulador.
+]"}
+
+{"address":"def/FI-Restriccion","content":"[
+================================================================================
+DEFINICIÓN — RESTRICCIÓN
+================================================================================
+0) Intención
+Delimitar configuraciones válidas y excluir combinaciones incompatibles.
+
+1) Definición central
+Restricción = condición estructural que reduce el espacio de configuraciones admisibles del modelo.
+
+2) Qué delimita
+Delimita lo posible, lo imposible y lo inválido dentro del sistema.
+
+3) Dependencias
+Depende del mapa de respuesta y de la identidad de la fuente.
+
+4) Invariantes
+- debe tener efecto real sobre el dominio válido del modelo.
+
+5) Fórmula de cierre
+No todo vector imaginable pertenece al espacio válido de la fuente.
+]"}
+
+{"address":"def/FI-Condicion-de-Activacion","content":"[
+================================================================================
+DEFINICIÓN — CONDICIÓN DE ACTIVACIÓN
+================================================================================
+0) Intención
+Fijar requisitos mínimos para que una salida, transición o regla se vuelva operativa.
+
+1) Definición central
+Condición de Activación = criterio de disparo que debe satisfacerse antes de que una salida o mecanismo se considere activado.
+
+2) Qué delimita
+Delimita el umbral lógico de entrada a un régimen de respuesta.
+
+3) Dependencias
+Depende del mapa de respuesta.
+
+4) Invariantes
+- debe ser explícita o recuperable;
+- debe influir realmente en la activación.
+
+5) Fórmula de cierre
+Tener puntaje alto no siempre basta; a veces se requiere activar condiciones específicas.
+]"}
+
+{"address":"def/FI-Regla-de-Desempate","content":"[
+================================================================================
+DEFINICIÓN — REGLA DE DESEMPATE
+================================================================================
+0) Intención
+Resolver competencia entre salidas rivales cuando el sistema no tiene una dominancia clara.
+
+1) Definición central
+Regla de Desempate = criterio jerárquico, conservador o composicional que decide qué hacer cuando varias salidas
+quedan activas con fuerza similar.
+
+2) Qué delimita
+Delimita la resolución de zonas fronterizas del espacio de respuesta.
+
+3) Dependencias
+Depende del mapa de respuesta.
+
+4) Invariantes
+- debe explicitar prioridad o procedimiento de resolución.
+
+5) Fórmula de cierre
+Un modelo serio no solo da respuestas claras; también sabe resolver ambigüedades.
+]"}
+
+{"address":"def/FI-Deteccion-de-Incoherencias","content":"[
+================================================================================
+DEFINICIÓN — DETECCIÓN DE INCOHERENCIAS
+================================================================================
+0) Intención
+Permitir que el modelo identifique configuraciones imposibles, ambiguas o inestables.
+
+1) Definición central
+Detección de Incoherencias = submecanismo del mapa de respuesta que declara cuándo un vector no debe ser tratado como caso limpio del sistema.
+
+2) Qué delimita
+Delimita el diagnóstico de error o ambigüedad interna del caso.
+
+3) Dependencias
+Depende del mapa de respuesta y de las restricciones.
+
+4) Invariantes
+- debe poder distinguir al menos invalidez, ambigüedad e inestabilidad.
+
+5) Fórmula de cierre
+El modelo no solo clasifica: también detecta cuándo no debe clasificar sin reservas.
+]"}
+
+{"address":"def/FI-Configuracion-Invalida","content":"[
+================================================================================
+DEFINICIÓN — CONFIGURACIÓN INVÁLIDA
+================================================================================
+0) Intención
+Nombrar vectores que no pertenecen al dominio permitido del sistema.
+
+1) Definición central
+Configuración Inválida = caso cuyo vector viola restricciones fuertes del modelo.
+
+2) Qué delimita
+Delimita lo que debe excluirse y no procesarse como caso normal.
+
+3) Invariantes
+- surge por violación de restricciones.
+
+4) Fórmula de cierre
+Inválido no significa raro; significa fuera del dominio estructural permitido.
+]"}
+
+{"address":"def/FI-Configuracion-Ambigua","content":"[
+================================================================================
+DEFINICIÓN — CONFIGURACIÓN AMBIGUA
+================================================================================
+0) Intención
+Nombrar vectores cuyo procesamiento activa salidas competidoras sin resolución suficiente.
+
+1) Definición central
+Configuración Ambigua = caso cuya posición en el espacio intensional no permite una salida limpia bajo el mapa actual.
+
+2) Qué delimita
+Delimita zonas fronterizas de decisión.
+
+3) Invariantes
+- debe surgir de competencia real entre salidas.
+
+4) Fórmula de cierre
+Ambiguo significa cerca de varias respuestas a la vez.
+]"}
+
+{"address":"def/FI-Configuracion-Inestable","content":"[
+================================================================================
+DEFINICIÓN — CONFIGURACIÓN INESTABLE
+================================================================================
+0) Intención
+Nombrar configuraciones que, aun siendo formables, no sostienen una trayectoria robusta.
+
+1) Definición central
+Configuración Inestable = caso cuya estructura es demasiado sensible a perturbaciones o demasiado próxima a una ruptura de régimen.
+
+2) Qué delimita
+Delimita fragilidad interna del estado.
+
+3) Invariantes
+- debe ser válida pero precaria.
+
+4) Fórmula de cierre
+Inestable no es imposible; es estructuralmente frágil.
+]"}
+
+{"address":"def/FI-Region-de-Salida","content":"[
+================================================================================
+DEFINICIÓN — REGIÓN DE SALIDA
+================================================================================
+0) Intención
+Nombrar zonas del espacio intensional asociadas a una respuesta dominante del sistema.
+
+1) Definición central
+Región de Salida = subzona del espacio intensional donde una misma salida domina bajo el mapa de respuesta.
+
+2) Qué delimita
+Delimita familias de vectores equivalentes respecto de la respuesta.
+
+3) Dependencias
+Depende del mapa de respuesta.
+
+4) Invariantes
+- debe estar asociada a una salida distinguible.
+
+5) Fórmula de cierre
+La respuesta no pertenece a un punto aislado, sino a regiones del espacio. 
+]"}
+
+{"address":"def/FI-Construccion-Inversa","content":"[
+================================================================================
+DEFINICIÓN — CONSTRUCCIÓN INVERSA
+================================================================================
+0) Intención
+Permitir que el modelo se use no solo para analizar casos, sino para construirlos.
+
+1) Definición central
+Construcción Inversa = régimen que, dada una salida objetivo, busca regiones compatibles del espacio intensional y a partir de ellas construye casos posibles.
+
+2) Qué delimita
+Delimita el uso generativo del modelo.
+
+3) Dependencias
+Depende del mapa de respuesta, la salida objetivo, regiones compatibles y optimización bajo restricciones.
+
+4) Invariantes
+- debe respetar restricciones del sistema;
+- debe partir de una salida explícita.
+
+5) Fórmula de cierre
+Analizar va de caso a salida; construir va de salida a caso.
+]"}
+
+{"address":"def/FI-Salida-Objetivo","content":"[
+================================================================================
+DEFINICIÓN — SALIDA OBJETIVO
+================================================================================
+0) Intención
+Nombrar la salida buscada al usar el modelo en modo generativo.
+
+1) Definición central
+Salida Objetivo = salida seleccionada como finalidad de la construcción inversa.
+
+2) Qué delimita
+Delimita el objetivo del proceso generativo.
+
+3) Dependencias
+Depende del conjunto de salidas posibles.
+
+4) Invariantes
+- debe pertenecer al espacio de salidas del sistema.
+
+5) Fórmula de cierre
+La construcción inversa empieza donde el análisis termina: en la salida deseada.
+]"}
+
+{"address":"def/FI-Region-Compatible","content":"[
+================================================================================
+DEFINICIÓN — REGIÓN COMPATIBLE
+================================================================================
+0) Intención
+Nombrar la región del espacio intensional desde la cual puede construirse un caso orientado a una salida objetivo.
+
+1) Definición central
+Región Compatible = refinamiento operativo de una región de salida usado como base para diseño de casos.
+
+2) Qué delimita
+Delimita configuraciones utilizables para construcción inversa.
+
+3) Dependencias
+Depende de la salida objetivo y de las regiones de salida.
+
+4) Invariantes
+- debe ser compatible con restricciones y umbrales del sistema.
+
+5) Fórmula de cierre
+No toda región de salida es automáticamente utilizable para construir casos; hace falta compatibilidad operativa.
+]"}
+
+{"address":"def/FI-Construccion-de-Caso","content":"[
+================================================================================
+DEFINICIÓN — CONSTRUCCIÓN DE CASO
+================================================================================
+0) Intención
+Traducir una región intensional compatible a una manifestación concreta.
+
+1) Definición central
+Construcción de Caso = proceso que convierte una región intensional objetivo en una instancia narrativa, institucional o práctica de la fuente.
+
+2) Qué delimita
+Delimita el paso de espacio intensional a manifestación concreta.
+
+3) Dependencias
+Depende de la construcción inversa.
+
+4) Invariantes
+- debe preservar compatibilidad con la salida objetivo.
+
+5) Fórmula de cierre
+La región compatible se vuelve visible cuando se encarna en un caso.
+]"}
+
+{"address":"def/FI-Optimizacion-bajo-Restricciones","content":"[
+================================================================================
+DEFINICIÓN — OPTIMIZACIÓN BAJO RESTRICCIONES
+================================================================================
+0) Intención
+Buscar configuraciones de alta compatibilidad con una salida sin violar límites estructurales.
+
+1) Definición central
+Optimización bajo Restricciones = mecanismo de búsqueda de configuraciones o casos que maximizan proximidad a una salida objetivo respetando restricciones y umbrales del modelo.
+
+2) Qué delimita
+Delimita el uso estratégico del espacio intensional.
+
+3) Dependencias
+Depende de restricciones, mapa de respuesta y salida objetivo.
+
+4) Invariantes
+- no puede romper restricciones del sistema.
+
+5) Fórmula de cierre
+Diseñar no es elegir cualquier caso, sino el mejor caso admisible para una salida deseada.
+]"}
+
+{"address":"def/FI-Evidencia","content":"[
+================================================================================
+DEFINICIÓN — EVIDENCIA
+================================================================================
+0) Intención
+Conectar la respuesta del modelo con huellas observables que permitan validarla o corregirla.
+
+1) Definición central
+Evidencia = huella externa, práctica, institucional o fenomenológica que permite contrastar la salida del sistema con el comportamiento del mundo recortado.
+
+2) Qué delimita
+Delimita la base de validación del modelo.
+
+3) Dependencias
+Depende de la salida.
+
+4) Invariantes
+- debe ser interpretable respecto del modelo.
+
+5) Fórmula de cierre
+Sin evidencia, el modelo puede clasificar pero no validarse.
+]"}
+
+{"address":"def/FI-Cierre-de-Circuito","content":"[
+================================================================================
+DEFINICIÓN — CIERRE DE CIRCUITO
+================================================================================
+0) Intención
+Evitar que el modelo quede como clasificador estático sin retroalimentación.
+
+1) Definición central
+Cierre de Circuito = bloque que conecta salida, evidencia, actualización y nueva entrada en un proceso recurrente.
+
+2) Qué delimita
+Delimita el paso de modelo estático a modelo actualizable.
+
+3) Dependencias
+Depende de evidencia y habilita actualización y corrección.
+
+4) Invariantes
+- debe permitir reingreso de resultados al sistema.
+
+5) Fórmula de cierre
+La respuesta no termina el modelo; lo reabre.
+]"}
+
+{"address":"def/FI-Actualizacion-de-Estado","content":"[
+================================================================================
+DEFINICIÓN — ACTUALIZACIÓN DE ESTADO
+================================================================================
+0) Intención
+Registrar cambios en la fuente o en su entorno después de una salida validada.
+
+1) Definición central
+Actualización de Estado = modificación del estado de la fuente o del entorno a partir de la respuesta emitida y su evidencia asociada.
+
+2) Qué delimita
+Delimita el cambio de estado futuro del sistema.
+
+3) Dependencias
+Depende del cierre de circuito.
+
+4) Invariantes
+- debe afectar trayectorias posteriores.
+
+5) Fórmula de cierre
+El modelo vivo no solo responde; cambia su estado para la siguiente iteración.
+]"}
+
+{"address":"def/FI-Correccion-del-Modelo","content":"[
+================================================================================
+DEFINICIÓN — CORRECCIÓN DEL MODELO
+================================================================================
+0) Intención
+Permitir que el sistema revise sus propios pesos, umbrales, dimensiones o restricciones cuando la evidencia lo exija.
+
+1) Definición central
+Corrección del Modelo = proceso de ajuste del formalismo de la fuente a partir de evidencia contradictoria o insuficiente.
+
+2) Qué delimita
+Delimita la auto-revisión del sistema.
+
+3) Dependencias
+Depende de evidencia, mapa de respuesta y espacio de dimensiones.
+
+4) Invariantes
+- debe conservar identidad del modelo mientras mejora su ajuste.
+
+5) Fórmula de cierre
+Sin corrección, el modelo se congela; con corrección, aprende.
+]"}
+
+{"address":"def/FI-Trayectoria","content":"[
+================================================================================
+DEFINICIÓN — TRAYECTORIA
+================================================================================
+0) Intención
+Introducir memoria estructural en el sistema.
+
+1) Definición central
+Trayectoria = secuencia acumulada de estados, salidas y actualizaciones que modifica el sentido de las nuevas entradas.
+
+2) Qué delimita
+Delimita la dimensión temporal del modelo.
+
+3) Dependencias
+Depende de actualización de estado.
+
+4) Invariantes
+- debe influir en el procesamiento futuro.
+
+5) Fórmula de cierre
+No toda entrada llega a un sistema virgen; llega a una trayectoria.
+]"}
+
+{"address":"def/FI-Nueva-Entrada","content":"[
+================================================================================
+DEFINICIÓN — NUEVA ENTRADA
+================================================================================
+0) Intención
+Nombrar la entrada futura ya modulada por trayectoria, evidencia y actualización previas.
+
+1) Definición central
+Nueva Entrada = ingreso posterior al sistema que ya no se lee en vacío, sino sobre un fondo actualizado por respuestas anteriores.
+
+2) Qué delimita
+Delimita el reinicio no inocente del ciclo.
+
+3) Dependencias
+Depende de trayectoria.
+
+4) Invariantes
+- debe entrar a un sistema ya modulado por su historia.
+
+5) Fórmula de cierre
+El cierre de circuito produce historia; la historia modifica la nueva entrada.
+]"}

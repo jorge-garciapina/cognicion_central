@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica",
+    "label": "simbolica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica",
+    "summary": "Valor simbolica declarado para el campo funcion_predominante_de_los_recursos_complementarios.",
+    "metadata": {
+      "value_of": "funcion_predominante_de_los_recursos_complementarios",
+      "source_section": "12.5"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+    "label": "uso_de_audio_generado",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado",
+    "summary": "Indicar el régimen general de uso de recursos sonoros o auditivos generados que acompañan el guión.",
+    "metadata": {
+      "section": "12.4",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "raw_restrictions": [
+        "No fija todavía el contenido sonoro exacto por bloque.",
+        "Debe ser coherente con el acompañamiento auditivo general de la pieza."
+      ]
+    }
+  }
+}

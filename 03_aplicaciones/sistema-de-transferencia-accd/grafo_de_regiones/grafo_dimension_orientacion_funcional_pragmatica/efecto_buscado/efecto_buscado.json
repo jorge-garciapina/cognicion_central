@@ -1,0 +1,20 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "label": "efecto_buscado",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "summary": "Campo que describe el efecto principal que la realización pretende provocar en el receptor.",
+    "metadata": {
+      "section": "4.2",
+      "value_type": "Categorial semiabierto",
+      "cardinality": "Uno o más valores, con una dominancia explícita",
+      "restrictions": [
+        "Puede haber más de un efecto, pero uno debe ser dominante.",
+        "Los efectos buscados deben ser compatibles con la función dominante."
+      ],
+      "values_are_suggested": true
+    }
+  }
+}

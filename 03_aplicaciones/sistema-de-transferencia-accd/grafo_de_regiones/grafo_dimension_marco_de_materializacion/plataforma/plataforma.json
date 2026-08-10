@@ -1,0 +1,18 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+    "label": "plataforma",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma",
+    "summary": "Describir el entorno de plataforma para el que se construye la salida.",
+    "metadata": {
+      "section": "10.2",
+      "tipo_de_valor": "Categorial cerrado.",
+      "cardinalidad": "Un valor obligatorio.",
+      "espacio_de_valores": [
+        "tiktok"
+      ]
+    }
+  }
+}

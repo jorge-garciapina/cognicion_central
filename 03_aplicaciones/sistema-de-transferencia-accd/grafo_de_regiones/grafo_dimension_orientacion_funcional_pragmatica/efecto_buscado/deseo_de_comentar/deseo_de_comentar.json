@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar",
+    "label": "deseo_de_comentar",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar",
+    "summary": "Valor deseo_de_comentar declarado para el campo efecto_buscado.",
+    "metadata": {
+      "value_of": "efecto_buscado",
+      "source_section": "4.2",
+      "suggested_value": true
+    }
+  }
+}

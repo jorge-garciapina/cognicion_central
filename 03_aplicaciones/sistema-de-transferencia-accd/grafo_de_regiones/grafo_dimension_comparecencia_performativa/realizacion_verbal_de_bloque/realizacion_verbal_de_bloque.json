@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque",
+    "label": "realizacion_verbal_de_bloque",
+    "type": "compound_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque",
+    "summary": "Componentes verbales locales que puede activar la pieza en sus bloques.",
+    "section": "9.4",
+    "value_type": "Estructura compuesta",
+    "cardinality": "Una estructura disponible para composición local"
+  }
+}

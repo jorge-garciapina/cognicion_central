@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "label": "configuracion_discursiva",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "summary": "Campo que describe el modo de formulación predominante de la realización.",
+    "metadata": {
+      "section": "4.4",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "restrictions": [
+        "Debe haber exactamente una configuración discursiva predominante.",
+        "Si es híbrida, la combinación debe seguir siendo identificable y controlada."
+      ]
+    }
+  }
+}

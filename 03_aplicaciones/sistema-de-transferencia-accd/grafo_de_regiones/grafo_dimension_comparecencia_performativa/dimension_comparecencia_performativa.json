@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa",
+    "label": "dimension_comparecencia_performativa",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa",
+    "summary": "Dimensión que describe cómo comparece la pieza como presencia verbal, corporal y performativa.",
+    "section": "9",
+    "value_type": "dimension"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+    "label": "iconos_universales",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+    "summary": "**Definición.** Valor que indica uso de signos gráficos ampliamente reconocibles por públicos diversos: flechas, check, alerta, lupa, corazón, calendario, ubicación, usuario, candado, gráfico, mensaje u otros símbolos de uso común.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

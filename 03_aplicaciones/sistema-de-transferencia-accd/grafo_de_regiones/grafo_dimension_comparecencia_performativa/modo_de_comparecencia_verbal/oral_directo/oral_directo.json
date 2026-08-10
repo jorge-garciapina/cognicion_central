@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo",
+    "label": "oral_directo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo",
+    "summary": "Valor oral_directo del campo modo_de_comparecencia_verbal.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal"
+  }
+}

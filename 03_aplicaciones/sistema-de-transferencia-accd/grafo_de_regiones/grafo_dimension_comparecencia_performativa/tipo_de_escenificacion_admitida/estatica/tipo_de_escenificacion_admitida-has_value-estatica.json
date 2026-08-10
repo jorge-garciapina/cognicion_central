@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica",
+    "type": "has_value",
+    "rationale": "estatica es un valor declarado para el campo tipo_de_escenificacion_admitida."
+  }
+}

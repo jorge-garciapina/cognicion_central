@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-facebook-facebook",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-facebook-facebook",
+    "label": "facebook",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-facebook-facebook",
+    "summary": "**Definición.** Entorno social amplio donde la imagen puede operar como publicación, anuncio, recurso comunitario, pieza informativa o contenido compartible. Combina consumo rápido con contextos de grupo, página y audiencia heterogénea.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma"
+    }
+  }
+}

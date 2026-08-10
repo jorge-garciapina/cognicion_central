@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla",
+    "label": "uso_de_texto_en_pantalla",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla",
+    "summary": "Indicar el régimen general de uso de texto en pantalla como recurso complementario de la pieza.",
+    "metadata": {
+      "section": "12.1",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "raw_restrictions": [
+        "Debe ser coherente con la modalidad de guion.",
+        "No fija todavía contenidos concretos por bloque."
+      ]
+    }
+  }
+}

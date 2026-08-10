@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media",
+    "summary": "Valor media del campo grado_de_dependencia_de_la_performance_visible.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible"
+  }
+}

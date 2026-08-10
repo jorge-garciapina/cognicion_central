@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-figura_central-figura_central",
+  "content": "**Definición.** Entrada basada en una forma visual dominante ubicada como núcleo compositivo. Puede ser persona, objeto, ilustración, símbolo, producto o forma abstracta que organiza la primera fijación de la mirada.\n\n**Diferenciación semántica.** Se diferencia de `objeto_principal` porque una figura central no siempre es un objeto material; puede ser una silueta, composición, personaje, forma o elemento gráfico. Se diferencia de `titulo_principal` porque la entrada ocurre por presencia visual, no por lectura.\n\n**Interpretación mínima.** La IA debe entender que el centro visual debe tener suficiente peso para iniciar la lectura."
+}

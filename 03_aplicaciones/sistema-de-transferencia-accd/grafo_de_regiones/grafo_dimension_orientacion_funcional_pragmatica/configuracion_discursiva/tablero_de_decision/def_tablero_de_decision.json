@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-tablero_de_decision-tablero_de_decision",
+  "content": "**Definición.** Valor que organiza información para permitir elección, evaluación o comparación entre alternativas. La pieza funciona como superficie de decisión: muestra criterios, opciones, rutas, consecuencias o condiciones.\n\n**Diferenciación semántica.** Se diferencia de una simple comparación porque implica selección o evaluación orientada. Se diferencia de una matriz visual porque puede incluir preguntas, señales, rutas o criterios prácticos, no sólo coordenadas o cuadrantes.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la información debe ayudar a decidir: qué opción conviene, qué ruta seguir, qué condición activa una elección o qué criterio separa alternativas.\n\n---"
+}

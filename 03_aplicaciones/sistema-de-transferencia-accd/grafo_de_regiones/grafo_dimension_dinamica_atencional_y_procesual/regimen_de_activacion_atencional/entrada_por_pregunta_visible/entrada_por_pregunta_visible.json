@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+    "label": "entrada_por_pregunta_visible",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-entrada_por_pregunta_visible-entrada_por_pregunta_visible",
+    "summary": "**Definición.** Valor que indica que la atención se abre mediante una pregunta explícita colocada como elemento visible. La pregunta crea una brecha cognitiva: el receptor percibe que hay algo por resolver, comprobar o responder.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

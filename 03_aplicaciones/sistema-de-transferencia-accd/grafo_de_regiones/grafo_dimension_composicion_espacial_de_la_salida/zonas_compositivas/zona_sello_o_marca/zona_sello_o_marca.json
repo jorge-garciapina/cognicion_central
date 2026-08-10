@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_sello_o_marca-zona_sello_o_marca",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_sello_o_marca-zona_sello_o_marca",
+    "label": "zona_sello_o_marca",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_sello_o_marca-zona_sello_o_marca",
+    "summary": "**Definición.** Área destinada a firma, logotipo, garantía, autoría o cierre identitario. Puede funcionar como validación sin dominar el contenido.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas"
+    }
+  }
+}

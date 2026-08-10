@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_3_2-horizontal_3_2",
+    "type": "has_value",
+    "rationale": "horizontal_3_2 es un valor nuevo incorporado en relacion_de_aspecto para la realización imagen."
+  }
+}

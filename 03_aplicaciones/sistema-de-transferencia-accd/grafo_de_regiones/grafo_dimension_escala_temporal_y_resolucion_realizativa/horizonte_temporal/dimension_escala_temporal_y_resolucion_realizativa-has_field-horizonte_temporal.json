@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa-has_field-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa-has_field-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+    "from": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa",
+    "to": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+    "type": "has_field",
+    "rationale": "horizonte_temporal es un campo directo declarado dentro de dimension_escala_temporal_y_resolucion_realizativa."
+  }
+}

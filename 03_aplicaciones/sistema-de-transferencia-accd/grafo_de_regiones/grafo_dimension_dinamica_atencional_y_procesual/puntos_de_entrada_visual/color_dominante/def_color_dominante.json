@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-color_dominante-color_dominante",
+  "content": "**Definición.** Entrada basada en la fuerza perceptiva de un color que domina la composición o rompe el entorno visual. El color actúa como primer estímulo antes de que el receptor identifique formas o texto.\n\n**Diferenciación semántica.** Se diferencia de `contraste_fuerte` porque puede depender de saturación, extensión o identidad cromática, no necesariamente de oposición entre elementos. Se diferencia de `marca` porque el color puede atraer aunque no sea corporativo.\n\n**Interpretación mínima.** La IA debe entender que el color principal debe tener función de captura, no sólo ambientación."
+}

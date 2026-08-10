@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-ilustrar_idea-ilustrar_idea",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-ilustrar_idea-ilustrar_idea",
+    "label": "ilustrar_idea",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-ilustrar_idea-ilustrar_idea",
+    "summary": "**Definición.** Valor que indica que una idea debe recibir una representación visual que la haga más accesible, evocadora o concreta. La ilustración no tiene que agotar el concepto; puede funcionar como ejemplo, escena, símbolo, imagen de apoyo, figura metafórica o materialización parcial.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-editorial_clara-editorial_clara",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-editorial_clara-editorial_clara",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-editorial_clara-editorial_clara",
+    "type": "has_value",
+    "rationale": "editorial_clara es un valor nuevo incorporado en paleta_cromatica para la realización imagen."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_vertical-jerarquica_vertical",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_vertical-jerarquica_vertical",
+    "label": "jerarquica_vertical",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial-jerarquica_vertical-jerarquica_vertical",
+    "summary": "**Definición.** Organización que ordena niveles de importancia a lo largo del eje vertical. Puede sugerir prioridad, progresión, fundamento, culminación o lectura de arriba hacia abajo.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial"
+    }
+  }
+}

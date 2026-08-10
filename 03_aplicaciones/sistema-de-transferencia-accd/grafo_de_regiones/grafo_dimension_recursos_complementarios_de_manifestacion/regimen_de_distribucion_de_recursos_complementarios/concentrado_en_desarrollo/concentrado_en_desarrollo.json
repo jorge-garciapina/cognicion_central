@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo",
+    "label": "concentrado_en_desarrollo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo",
+    "summary": "Valor concentrado_en_desarrollo declarado para el campo regimen_de_distribucion_de_recursos_complementarios.",
+    "metadata": {
+      "value_of": "regimen_de_distribucion_de_recursos_complementarios",
+      "source_section": "12.7"
+    }
+  }
+}

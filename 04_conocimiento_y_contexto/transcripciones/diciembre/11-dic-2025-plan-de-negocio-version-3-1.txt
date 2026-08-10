@@ -1,0 +1,156 @@
+[TRANSCRIPCIÓN — PLAN DE NEGOCIO: VERSIÓN 3.1]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos poco claros se marcaron notas como [dudoso] o [tachado].]
+
+[PÁGINA 1]
+
+Plan de negocio: versión [dudoso]    3.1    jue-11-dic-2025
+
+[Nodo de realidad]
+
+Comenzaré estudiando los documentos previos, anotaré las cosas que contribuyan a enriquecer este plan.
+
+[Idea 1]:
+  El concepto de artefacto es fundamental para comprender y llevar a cabo el proyecto de [monetización de contenido] (y muchos otros más). Me atrevo a decir, incluso, que el artefacto es la clave para poder llevar a cabo la implementación de cualquier proyecto que se me pueda ocurrir. La razón de la afirmación anterior es que los [artefactos] son los puentes [puentes] que llevan de lo “lingüístico” (contratos, código, etc.) al plano estructural.
+
+[Idea 2]: (03-dic-2025)
+  En la página 2 del documento se menciona el concepto [cognición central]. En la nota 3 del documento mie-10-dic-2025 menciono: “debe existir una memoria global que contenga todas las memorias de todos los módulos". Ambas ideas ([cognición central] y “todos las memorias”) son muy similares, y las dos pueden generar lo mismo: [módulos] con cierto nivel de cognición, los cuales pueden interactuar con una [interfaz humana] así como con otros [módulos], creando, de facto, un [sistema cognitivo]. Es esta la razón que a todo esto se le puede conocer como: [arquitectura cognitiva].
+
+[Idea 3]: (del 03-dic-2025)
+  En la pág. 3 del documento menciono que es posible expandir las ideas tanto como sea necesario; lo cual es verdad, pero la pregunta es ¿dónde ocurrirá este proceso? ¿En qué parte del proceso? ¿Será acaso en la negociación de los términos? ¿será dentro del [sistema de creación de contenidos?]
+
+[PÁGINA 2]
+
+  Para el caso de que las ideas sean expandidas durante el periodo de negociación (para el caso de venta de servicios), o durante el [diseño de temporada] (Diseño de temporada: Hasta este punto no había pensado en que la expansión es un proceso previo a la implementación. El contenido que será generado en un intervalo de tiempo debe ser planeado y definido con antelación, para eso se requiere el [contrato], el cual estará presente incluso para proyectos propios.), entonces el [contrato] deberá incluir una lista completa de todo el [contenido base] que se producirá durante el [lapso de tiempo que dure el proyecto]. Esta visión cambia los planes que me hallaba desarrollando sobre los adaptadores y los componentes que lo conforman, sin embargo, me gusta más ahora. Al hacerlo así se me ocurre:
+    • Los [perfiles de influencer] son un contrato en el que se ha especificado el nicho que se busca alcanzar, y todo lo  relativo a éste: temas, buyer persona, perfil del consumidor, etc,
+    • Para el caso en el que una empresa quiera crear su perfil digital, aplica la misma lógica que para el punto de arriba.
+
+[Idea 4]:
+  Con la [idea 3] en mente es posible vislumbrar que el [contrato] necesita:
+    - Descripción del nicho
+    - Lista con todo el contenido (al menos, la parte textual) que será creado durante un lapso de tiempo fijado.
+
+[Idea 5]:
+Aquí (después de comprender ideas 3 y 4) es importante notar que los canales deben ser flexibles: si un contenido funciona, seguir explorando dicho camino
+
+[PÁGINA 3]
+
+[Idea 6]:
+  El modelo de negocio que trato de hacer es, en pocas palabras, una teoría, y como toda teoría se basa en invariantes, los cuales son:
+    - Las empresas necesitan hallar nichos para poder dar a conocer sus productos.
+    - Al usar técnicas que provoquen que cada una de los [piezas] de contenido active algún o algunos de los mecanismos psicológicos (atención, heurísticos, emociones), entonces los perfiles digitales crecerán.
+    - Las empresas están dispuestas a pagar para que sus productos alcancen los nichos deseados.
+
+  Debo extender estas categorías usando IA
+
+[Idea 7]: (05-dic-2025)
+  En la página 2 del estudio se puede ver una frase clave:
+    “Encontrar oportunidades (En el estudio dice “vulnerabilidades”) y aprovecharlas”
+  Es sumamente importante expandir la [Idea 6] ya que así se hallarán otros campos en los que implementar los sistemas IA.
+  Mientras más detalles sea capaz de ver, mayor será el número de oportunidades que podré aprovechar.
+
+[Idea 8]: (05-dic-2025)
+  En la página 4 del estudio escribo: “Usando como referencia el modelo japonés de implementación de modelos extranjeros para crear su administración estatal, se podrían ofrecer diseños adaptados” en los que [dudoso] se usen modelos diversos [tachado] para alguna necesidad específica”
+  ¿Cómo? -> artefactos, grafos y cNodes,
+ 
+
+
+[PÁGINA 4]
+
+[Idea 9]: (06-dic-2025)
+  Transcribo la pág. 4 de dicho documento.
+  Variaciones leves a la estructura del “sistema de creación de contenidos” pueden ser aplicados a otros estructuras, por ejemplo:
+    1) La misma idea, para ser transmitida correctamente a personas distintas, requiere formas de comunicación distinta, es decir, el discurso se debe adaptar a la situación.
+    2) El proceso base para la elaboración de un producto debe ser adaptado a las condiciones de cada [entorno de producción], ejemplo: fábricas de carros.
+  Ahora que lo pienso, este podría ser considerado como un ejemplo de [similitud estructural]. La relación podría ser vista como:
+  [DIAGRAMA / ESQUEMA SIMPLE]
+  GRAFOS = [
+    {
+      nombre: "nodos_periféricos",
+      descripción: "Relación similar al patrón de diseño conocido como [Factory Pattern]: “Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created”
+                    En el caso que se estudia, lo que se haga en cada plataforma dependerá del sistema mismo de creación"
+      entidades: [],
+      nodos: [
+        {
+          identificador: "nodo_central" },
+        {
+          identificador: "nodo_A",
+        },
+        {
+          identificador: "nodo_B",
+        },
+        {
+          identificador: "nodo_C",
+        },
+        {
+          identificador: "nodo_D",
+        },
+      ],
+      aristas: [
+        {
+          origen: "nodo_central",
+          destino: "nodo_A"
+        },
+        {
+          origen: "nodo_central",
+          destino: "nodo_B"
+        },
+        {
+          origen: "nodo_central",
+          destino: "nodo_C"
+        },
+        {
+          origen: "nodo_central",
+          destino: "nodo_D"
+        },
+      ]
+    }
+  ]
+  El concepto manejado aquí es importante puesto que ofrece un marco de referencia para explorar una situación en particular.
+  Sería interesante explorar otros patrones de diseño y las situaciones en las que pueden ser utilizados.
+
+
+[PÁGINA 5]
+
+[Idea 10]: (dom-07-dic-2025) -> Sobre los adaptadores
+  Para publicidad: “Cada herramienta que se posea permitirá facilitar una tarea; así sea un martillo o un escritorio, contar con una herramienta facilita la implementación de la tarea, aumentando la productividad”
+  Este es el tipo de cosas que es necesario mencionar, en ventas.
+
+[Idea 11]: (dom-07-dic-2025) -> Sobre los adaptadores
+  Una de las cosas más importantes a considerar es el diseño de sistemas computacionales:
+  Herramientas computacionales = computación tradicional + IA + computación cuántica
+  Esta es la base de un paradigma de diseño.
+
+[Idea 12]: (dom-07-dic-2025)
+  Los adaptadores (el concepto) tiene mucho potencial.
+
+[Idea 13]: (dom-07-dic-2025) -> Comunicación de estructuras
+  Tengo la impresión que la [similitud estructural] me ayudará a implementar lo expuesto en [Idea 8] y [Idea 9] de este estudio.
+  Una casi-regla que he descubierto es que mientras sea posible crear vínculos y puentes entre conceptos, entonces es posible diseñar sistemas y arquitecturas.
+  Al usar la [similitud de estructuras] es posible transferir estructuras. Es [vital] explorar esto en mayor detalle. 
+  Quiero usar matemáticas para esto
+
+[Idea 14]: (07-dic-2025)
+  La creación de apps personalizados es muy interesante, si lo puedo hacer correctamente, cada módulo podría ser una App (ver pag. 3 de dicho estudio)
+
+
+[PÁGINA 6]
+
+[Idea 15]: (mar-09-dic-2025)
+  Muchas de las ideas que me encuentro desarrollando acerca de los módulos en el [sistema de creación de contenidos] pueden ser reutilizadas en otros módulos de otros sistemas, ejemplo:
+    • Cada módulo poseerá cierta cognición, la cual estará dado por una combinación de la [memoria del módulo] y los [instrucciones del módulo]
+    • Todos los módulos necesitan una interfaz humana y una interfaz de comunicación con otros nodos.
+  Es necesario expandir estos puntos en mayor detalle:
+  Hasta este momento no había considerado que cada módulo necesita dos “tipos” de memoria:
+  * Instrucciones del módulo.
+    En esta memoria se definen cosas particulares de cada módulo, por ejemplo:
+    - Responsabilidades: “Eres el módulo encargado de crear contenido para Youtube, el cual cumplirá...”
+    - Expectativas
+  * Memoria del proyecto.
+    Descripción del proyecto del cual el módulo forma parte. La mejor opción es un grafo.
+  * Base de datos
+    Útil en situaciones en los que se quiera llevar un registro de contenido generado por el módulo u otras partes del sistema
+
+[Idea 16]:
+  El proceso de “venta” debe hacerse de forma estructurada. Es necesario incluir estrategias y descripciones precisas, cada cosa que se ofrezca debe ser de una calidad imposible sin IA.
+
+Debo explotar al máximo la automatización cognitiva.

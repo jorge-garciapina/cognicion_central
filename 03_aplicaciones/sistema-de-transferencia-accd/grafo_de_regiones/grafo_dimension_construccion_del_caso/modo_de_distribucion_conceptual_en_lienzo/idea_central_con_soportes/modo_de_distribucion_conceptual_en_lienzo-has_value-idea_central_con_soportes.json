@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-idea_central_con_soportes-idea_central_con_soportes",
+    "type": "has_value",
+    "rationale": "idea_central_con_soportes es un valor nuevo incorporado en modo_de_distribucion_conceptual_en_lienzo para la realización imagen."
+  }
+}

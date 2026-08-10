@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-banner_horizontal-banner_horizontal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-banner_horizontal-banner_horizontal",
+    "label": "banner_horizontal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-banner_horizontal-banner_horizontal",
+    "summary": "**Definición.** Proporción alargada de baja altura relativa. Favorece mensajes breves, marca, CTA o navegación; restringe explicaciones complejas y exige economía visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

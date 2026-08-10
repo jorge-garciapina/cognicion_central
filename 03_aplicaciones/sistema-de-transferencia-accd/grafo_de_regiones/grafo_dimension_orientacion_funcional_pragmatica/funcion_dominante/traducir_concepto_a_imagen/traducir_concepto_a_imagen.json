@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+    "label": "traducir_concepto_a_imagen",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-traducir_concepto_a_imagen-traducir_concepto_a_imagen",
+    "summary": "**Definición.** Valor que indica que una idea abstracta, verbal, teórica o relacional debe convertirse en una forma visual comprensible. La función dominante no es solamente explicar, sino cambiar el medio de comprensión: pasar de una formulación conceptual a una organización visual que haga perceptible la idea.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_subtitulo-zona_subtitulo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_subtitulo-zona_subtitulo",
+    "label": "zona_subtitulo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_subtitulo-zona_subtitulo",
+    "summary": "**Definición.** Área destinada a precisar, matizar o completar el título. Su función es reducir ambigüedad sin competir con el mensaje principal.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas"
+    }
+  }
+}

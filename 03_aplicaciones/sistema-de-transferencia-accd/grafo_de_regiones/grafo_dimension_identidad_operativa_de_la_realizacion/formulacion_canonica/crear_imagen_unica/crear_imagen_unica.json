@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_imagen_unica-crear_imagen_unica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_imagen_unica-crear_imagen_unica",
+    "label": "crear_imagen_unica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_imagen_unica-crear_imagen_unica",
+    "summary": "**Definición.** Valor que identifica una realización orientada a producir una pieza visual individual, contenida en un solo campo de composición. La salida esperada no es una secuencia de láminas, una pieza audiovisual, un documento de varias páginas ni un conjunto de variantes, sino una unidad visual autónoma que concentra su sentido en una sola s",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

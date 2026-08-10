@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-fotografia_principal-fotografia_principal",
+  "content": "**Definición.** Entrada basada en una imagen fotográfica o de apariencia fotográfica que actúa como foco inicial. Puede aportar realismo, contexto, evidencia, presencia humana, producto o ambiente.\n\n**Diferenciación semántica.** Se diferencia de `ilustracion_principal` porque su fuerza proviene de apariencia fotográfica, materialidad o verosimilitud. Se diferencia de `figura_central` porque especifica el modo fotográfico como vía de entrada.\n\n**Interpretación mínima.** La IA debe entender que la lectura comienza por una imagen con pretensión de realidad, escena o presencia material."
+}

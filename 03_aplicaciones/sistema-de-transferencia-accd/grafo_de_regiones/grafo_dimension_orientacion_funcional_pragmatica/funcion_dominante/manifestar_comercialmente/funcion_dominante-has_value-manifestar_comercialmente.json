@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente",
+    "type": "has_value",
+    "rationale": "manifestar_comercialmente es un valor declarado para el campo funcion_dominante."
+  }
+}

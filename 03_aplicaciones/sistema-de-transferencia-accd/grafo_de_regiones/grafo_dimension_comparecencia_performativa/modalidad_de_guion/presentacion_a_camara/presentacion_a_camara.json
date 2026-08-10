@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara",
+    "label": "presentacion_a_camara",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara",
+    "summary": "Valor presentacion_a_camara del campo modalidad_de_guion.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion"
+  }
+}

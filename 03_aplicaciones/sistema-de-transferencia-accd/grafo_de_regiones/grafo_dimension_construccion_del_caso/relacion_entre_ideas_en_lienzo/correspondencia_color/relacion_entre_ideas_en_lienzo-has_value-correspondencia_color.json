@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-correspondencia_color-correspondencia_color",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-correspondencia_color-correspondencia_color",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-correspondencia_color-correspondencia_color",
+    "type": "has_value",
+    "rationale": "correspondencia_color es un valor nuevo incorporado en relacion_entre_ideas_en_lienzo para la realización imagen."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-escena_simbolica-escena_simbolica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-escena_simbolica-escena_simbolica",
+    "label": "escena_simbolica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-escena_simbolica-escena_simbolica",
+    "summary": "**Definición.** Configuración donde una escena, personaje, objeto o situación concreta representa una idea abstracta. No busca realismo literal como fin principal, sino traducir una relación conceptual mediante símbolos visuales. Es útil para expresar tensión, decisión, transformación, bloqueo, dese",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

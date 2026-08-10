@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica",
+    "type": "has_internal_field",
+    "rationale": "musica es un campo interno declarado dentro de acompanamiento_auditivo."
+  }
+}

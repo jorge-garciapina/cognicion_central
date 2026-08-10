@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial",
+    "label": "arquitectura_espacial",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_espacial",
+    "summary": "**Definición.** Campo que define el sistema de organización del espacio visual: ejes, simetrías, retículas, centros, diagonales, capas o libertad controlada. Describe cómo se distribuyen masas visuales y relaciones antes de elegir estilo, color o contenido específico.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

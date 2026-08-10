@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-carousel_multiplataforma-carousel_multiplataforma",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-carousel_multiplataforma-carousel_multiplataforma",
+    "label": "carousel_multiplataforma",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-carousel_multiplataforma-carousel_multiplataforma",
+    "summary": "Valor que indica que la manifestación se construirá como base reutilizable para varias plataformas.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

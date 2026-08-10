@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-texto_dominante_imagen_de_apoyo-texto_dominante_imagen_de_apoyo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-texto_dominante_imagen_de_apoyo-texto_dominante_imagen_de_apoyo",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-texto_dominante_imagen_de_apoyo-texto_dominante_imagen_de_apoyo",
+    "type": "has_value",
+    "rationale": "texto_dominante_imagen_de_apoyo es un valor nuevo incorporado en equilibrio_texto_imagen para la realización imagen."
+  }
+}

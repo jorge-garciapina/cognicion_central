@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional",
+    "type": "has_value",
+    "rationale": "definicional es un valor declarado para el campo configuracion_discursiva."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular",
+    "label": "modular",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular",
+    "summary": "Valor modular declarado para configuracion_narrativa.",
+    "metadata": {
+      "value_of": "configuracion_narrativa"
+    }
+  }
+}

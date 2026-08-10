@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_numeracion-guiada_por_numeracion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_numeracion-guiada_por_numeracion",
+    "label": "guiada_por_numeracion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_numeracion-guiada_por_numeracion",
+    "summary": "**Definición.** Recorrido en el que números, pasos o marcas ordinales establecen el orden de lectura. La mirada sigue una secuencia explícita porque los elementos están codificados como primero, segundo, tercero, etc.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

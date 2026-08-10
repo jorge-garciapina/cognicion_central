@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media",
+    "summary": "Valor media del eje friccion_interpretativa.",
+    "value_type": "Valor ordinal",
+    "value_description": "El recorrido contiene zonas moderadas de tensión interpretativa."
+  }
+}

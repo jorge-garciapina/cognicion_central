@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_be_coherent_with-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_be_coherent_with-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "type": "must_be_coherent_with",
+    "rationale": "adecuacion_lexico_formulativa debe ser coherente con publico_objetivo_inmediato."
+  }
+}

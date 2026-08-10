@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-diagrama_dominante-diagrama_dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-diagrama_dominante-diagrama_dominante",
+    "label": "diagrama_dominante",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-diagrama_dominante-diagrama_dominante",
+    "summary": "Valor en el que la estructura visual principal es un diagrama, flujo, matriz, mapa, tabla o esquema.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_ad_image-instagram_ad_image",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_ad_image-instagram_ad_image",
+    "label": "instagram_ad_image",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-instagram_ad_image-instagram_ad_image",
+    "summary": "**Definición.** Aplicación de imagen publicitaria para Instagram. Combina estética social con claridad de oferta, marca, beneficio o llamada a acción; debe resistir lectura rápida en entorno pautado.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

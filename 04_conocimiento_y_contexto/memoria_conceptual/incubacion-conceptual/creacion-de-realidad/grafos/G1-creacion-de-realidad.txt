@@ -1,0 +1,1117 @@
+NOTA GLOBAL: ESTE GRAFO FUE CREADO EN UNA SSOLA PREGUNTA. DECIDO CONSIDERARLO COMO APOYO, PERO LA VERDAD ES QUE NO ME 
+SIENTO MUY CONVENCIDO CON MUCHAS DE LAS COSAS QUE SE PRESENTAN YA QUE SIENTO QUE LE HACE FALTA MUCHO DETALLE, ADEMÁS QUE 
+NUNCA ES BUENO DEJAR QUE LA IA PROPONGA GRANDES MODIFICACIONES YA QUE ESO INDUCE MUCHO RUIDO
+
+SE SACÓ DE AQUÍ: https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69b33530-66cc-8326-af08-4e78959e7cd2
+
+{"address":"graph/node/CR-Creacion-de-Realidad","content":{
+  "id":"CR-Creacion-de-Realidad",
+  "label":"Creación de Realidad",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Creacion-de-Realidad",
+  "summary":"Este nodo introduce el dominio Creación de Realidad como un subgrafo especializado que modela cómo un
+  sistema acoplado sujeto-mundo actualiza y estabiliza las condiciones de posibilidad de lo real para sí. Su función
+  es servir como punto de entrada del dominio y como compresión inicial de un conjunto de procesos donde percepción,
+  ontología, evaluación, actualización, acción, comunicación, decisión e institucionalización quedan unificados dentro
+  de un mismo circuito."
+}}
+
+{"address":"graph/node/CR-Ejecucion-Perceptiva","content":{
+  "id":"CR-Ejecucion-Perceptiva",
+  "label":"Creación de Realidad — Ejecución Perceptiva",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Ejecucion-Perceptiva",
+  "summary":"Este nodo fija la ejecución perceptiva como el plano en el que la realidad aparece efectivamente para el
+  sistema. No se introduce como recepción pasiva de datos, sino como acto perceptivo en curso, organizado por atención,
+  objetivos, umbrales, hipótesis y condiciones de entorno. Su función es delimitar el nivel de manifestación desde el
+  cual la ontología se vuelve fenomenológicamente visible."
+  
+}}
+
+{"address":"graph/node/CR-Ontologia-de-Condiciones","content":{
+  "id":"CR-Ontologia-de-Condiciones",
+  "label":"Creación de Realidad — Ontología de Condiciones",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Ontologia-de-Condiciones",
+  "summary":"Este nodo fija la ontología de condiciones como el sistema de condiciones internas y externas que hacen
+  posible, guían y limitan lo que puede aparecer como real. Su función es impedir que la realidad se trate como dato
+  bruto, mostrando que toda percepción depende de un molde generativo compuesto por categorías, lenguaje, atención,
+  memoria, oportunidades, resistencias, artefactos y estructura institucional."
+  COMENTARIO: 
+  AQUÍ ES NECESARIO HACER UNA DIVISIÓN ENTRE: [CONDICIONES INTERNAS] Y [CONDICIONES EXTERNAS]
+  NO HAY NINGUNA VENTAJA EN CONDENSAR AMBOS CONCEPTOS EN UN SOLO NODO. 
+}}
+
+{"address":"graph/node/CR-Percepcion-Enfocada","content":{
+  "id":"CR-Percepcion-Enfocada",
+  "label":"Creación de Realidad — Percepción Enfocada",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Percepcion-Enfocada",
+  "summary":"Este nodo introduce la percepción enfocada como interfaz primaria del sistema con el exterior. No se formula
+  como simple mirar, sino como reorganización del acoplamiento con el mundo: redistribuye atención, activa objetivos,
+  cambia umbrales de detección y modifica la inferencia dominante. Su función es explicar cómo el exterior comienza a
+  volverse legible para el sistema."
+}}
+
+{"address":"graph/node/CR-Criterio-de-Evaluacion","content":{
+  "id":"CR-Criterio-de-Evaluacion",
+  "label":"Creación de Realidad — Criterio de Evaluación",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Criterio-de-Evaluacion",
+  "summary":"Este nodo fija el criterio de evaluación como la instancia que decide qué señales cuentan, qué se descarta
+  y qué exige actualización. Su función es impedir que el sistema quede reducido a recepción infinita de señales; convierte
+  el flujo externo en material seleccionable, comparable y utilizable para reconfigurar la estructura interna o la relación
+  con el entorno."
+}}
+
+{"address":"graph/node/CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Politica-de-Actualizacion",
+  "label":"Creación de Realidad — Política de Actualización",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Politica-de-Actualizacion",
+  "summary":"Este nodo introduce la política de actualización como la regla o conjunto de reglas mediante las cuales el
+  sistema transforma resultados evaluados en reorganización efectiva de sus condiciones internas o externas. Su función
+  es marcar el paso entre interpretación y cambio real, evitando que el aprendizaje, la percepción o la señal queden sin
+  traducción estructural."
+}}
+
+{"address":"graph/node/CR-Cierre-de-Circuito","content":{
+  "id":"CR-Cierre-de-Circuito",
+  "label":"Creación de Realidad — Cierre de Circuito",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Cierre-de-Circuito",
+  "summary":"Este nodo fija el cierre de circuito como la estructura mínima que conecta señal, evaluación, actualización
+  y nueva interacción con el exterior. No se introduce como clausura rígida, sino como condición de desarrollo: una entidad
+  se desarrolla cuando su intercambio con el exterior retorna sobre su propia estructura y la reorganiza de forma que habilita
+  nuevas operaciones."
+}}
+
+{"address":"graph/node/CR-Regulacion-Minima","content":{
+  "id":"CR-Regulacion-Minima",
+  "label":"Creación de Realidad — Regulación Mínima",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Regulacion-Minima",
+  "summary":"Este nodo introduce la regulación mínima como el conjunto más simple de mecanismos necesarios para que el
+  sistema no colapse bajo expansión perceptiva, ruido o dispersión. Su función es preservar coherencia suficiente durante
+  fases tempranas de desarrollo, cuando el intercambio con el exterior existe, pero la organización todavía no está
+  plenamente desplegada."
+}}
+
+{"address":"graph/node/CR-Creacion-Epistemica","content":{
+  "id":"CR-Creacion-Epistemica",
+  "label":"Creación de Realidad — Creación Epistémica",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Creacion-Epistemica",
+  "summary":"Este nodo fija la creación epistémica como la vía por la cual cambia la realidad operativa del sistema
+  al reconfigurarse el molde interno: categorías, creencias, lenguaje, objetivos y pesos atencionales. Su función es
+  explicar por qué puede cambiar el mundo para el sujeto aun cuando el entorno material inmediato permanezca estable."
+}}
+
+{"address":"graph/node/CR-Creacion-Enactiva","content":{
+  "id":"CR-Creacion-Enactiva",
+  "label":"Creación de Realidad — Creación Enactiva",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Creacion-Enactiva",
+  "summary":"Este nodo introduce la creación enactiva como la vía práctica por la cual la acción modifica el entorno y,
+  al hacerlo, reconfigura futuras condiciones de percepción, decisión y operación. Su función es impedir que la creación
+  de realidad quede reducida al plano interno, mostrando que el mundo también cambia cuando el sistema actúa sobre él."
+}}
+
+{"address":"graph/node/CR-Creacion-Social-Institucional","content":{
+  "id":"CR-Creacion-Social-Institucional",
+  "label":"Creación de Realidad — Creación Social-Institucional",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Creacion-Social-Institucional",
+  "summary":"Este nodo fija la creación social-institucional como la vía en la que normas, acuerdos, contratos, roles,
+  reputaciones y símbolos estabilizan nuevas realidades colectivas. Su función es mostrar que, en dominios humanos, una
+  parte decisiva de lo real no depende solo de percepción o acción física, sino de marcos institucionales que estructuran
+  posibilidades, obligaciones y valor."
+}}
+
+{"address":"graph/node/CR-Interfaz-Primaria","content":{
+  "id":"CR-Interfaz-Primaria",
+  "label":"Creación de Realidad — Interfaz Primaria",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Interfaz-Primaria",
+  "summary":"Este nodo introduce la interfaz primaria como la primera vía de intercambio estructurado con el exterior
+  dentro de fases tempranas del sistema. Su función es fijar cómo un dominio todavía en activación logra recibir señales,
+  discriminar relevancia y comenzar a proyectar efectos, aun antes de poseer una arquitectura madura de integración."
+}}
+
+{"address":"graph/node/CR-Correlacion-Intercapa","content":{
+  "id":"CR-Correlacion-Intercapa",
+  "label":"Creación de Realidad — Correlación Intercapa",
+  "type":"domain_node",
+  "definition_ref":"def/CR-Correlacion-Intercapa",
+  "summary":"Este nodo introduce la correlación intercapa como herramienta diagnóstica para casos en los que una
+  covariación observable en el plano de ejecución no encuentra su explicación suficiente en ese mismo plano, sino en
+  una capa ontológica distinta que la organiza o la hace posible. Su función es vincular el dominio de Creación de
+  Realidad con la tesis de que las variaciones ontológicas se manifiestan fenomenológicamente como cambios en lo percibido."
+}}
+
+{"address":"def/CR-Creacion-de-Realidad","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD
+Versión: v1.0 (autónoma + lista para integrar en grafo)
+
+0) Intención del concepto
+CR-Creacion-de-Realidad se introduce para funcionar como punto de entrada del subgrafo
+Creación de Realidad. Su función no es nombrar una metáfora vaga sobre ‘manifestar’,
+sino fijar una unidad conceptual fuerte para modelar cómo un sistema acoplado sujeto-mundo
+actualiza y estabiliza las condiciones de posibilidad de lo real para sí.
+
+1) Definición central
+Creación de Realidad = proceso estructurado mediante el cual un sistema acoplado sujeto-mundo
+actualiza y estabiliza condiciones internas y externas que determinan qué puede aparecer,
+ser reconocido, ser interpretado y ser sostenido como real, habilitando nuevas formas de
+percepción, acción, comunicación, decisión e institucionalización.
+
+2) Qué fenómeno o función delimita
+Delimita:
+- cambio de condiciones de posibilidad de lo real,
+- actualización de estructura interna por señales del exterior,
+- intervención práctica que modifica futuras percepciones,
+- e institucionalización de nuevas realidades.
+No delimita:
+- percepción pasiva,
+- imaginación sin huella estructural,
+- ni variación subjetiva trivial sin reconfiguración de condiciones.
+
+3) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Interior,
+- Arq-Cog-Frontera,
+- Arq-Cog-Envolvente,
+- Arq-Cog-Vecindad-Relevante,
+- Arq-Cog-Superficie-de-Integración,
+- Arq-Cog-Frontera-de-Entrada,
+- Arq-Cog-Frontera-de-Salida,
+- Arq-Cog-Operatividad-Intensional.
+Dentro del subgrafo depende además de:
+- CR-Ontologia-de-Condiciones,
+- CR-Ejecucion-Perceptiva,
+- CR-Criterio-de-Evaluacion,
+- CR-Politica-de-Actualizacion,
+- CR-Cierre-de-Circuito.
+
+4) Invariantes
+4.1) Debe existir distinción entre condiciones y manifestaciones.
+4.2) Debe existir distinción operativa entre interior y exterior.
+4.3) Debe existir acoplamiento efectivo entre ambos.
+4.4) Deben existir señales legibles.
+4.5) Debe existir criterio de evaluación.
+4.6) Debe existir posibilidad de actualización.
+4.7) Debe existir posibilidad de estabilización.
+4.8) Debe preservarse identidad mínima del sistema.
+4.9) Debe existir, al menos potencialmente, cierre de circuito.
+
+5) Dominio de variación
+Puede variar en:
+- escala,
+- dominio,
+- tipo de señales,
+- tipo de criterio,
+- forma de estabilización,
+- grado de explicitud teórica.
+Regla de borde:
+puede cambiar el contenido de lo real transformado,
+pero no puede desaparecer la estructura condiciones -> evaluación -> actualización -> nueva realidad operativa.
+
+6) Discriminadores
+Un caso pertenece a este nodo cuando:
+- no solo cambia una experiencia,
+- sino las condiciones bajo las cuales algo puede aparecer como real,
+- y ese cambio deja huella estructural en percepción, acción o institución.
+
+7) Relaciones con otros nodos
+- uses CR-Correlacion-Intercapa
+- organizes CR-Creacion-Epistemica
+- organizes CR-Creacion-Enactiva
+- organizes CR-Creacion-Social-Institucional
+- depends_on CR-Ontologia-de-Condiciones
+- realizes por medio de CR-Percepcion-Enfocada y CR-Interfaz-Primaria
+- requires CR-Cierre-de-Circuito y CR-Regulacion-Minima
+
+8) Superficie de integración
+Se integra al resto del grafo como nodo central de un dominio que traduce interior/exterior/
+acoplamiento hacia un régimen específico de percepción, ontología, actualización, práctica,
+institucionalización y cierre.
+
+9) Validación
+La definición se considera bien aplicada cuando permite reconstruir:
+- condiciones internas,
+- condiciones externas,
+- señal,
+- criterio,
+- actualización,
+- nueva interacción,
+- y estabilización.
+
+10) Posibilidad de refinamiento
+Puede expandirse hacia nodos de:
+- señal legible,
+- motor de activación,
+- condiciones internas,
+- condiciones externas,
+- estabilización de realidad,
+- y trayectorias de desarrollo.
+
+11) Fórmula de cierre
+Creación de Realidad
+=
+condiciones internas y externas
++
+percepción/ejecución
++
+criterio de evaluación
++
+actualización estructural
++
+acción/comunicación/decisión
++
+estabilización
++
+cierre de circuito.
+]"}}
+
+{"address":"def/CR-Ejecucion-Perceptiva","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — EJECUCIÓN PERCEPTIVA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Ejecucion-Perceptiva se introduce para fijar el plano donde la realidad aparece
+efectivamente para el sistema. Su función es impedir que lo percibido se trate como dato bruto
+o como simple reflejo del exterior.
+
+1) Definición central
+Ejecución Perceptiva = acto perceptivo en curso mediante el cual una configuración de condiciones
+internas y externas se manifiesta como experiencia, discriminación, reconocimiento o saliencia
+operativa para el sistema.
+
+2) Qué fenómeno o función delimita
+Delimita el plano de manifestación:
+- qué se detecta,
+- qué se ignora,
+- qué se considera relevante,
+- qué aparece como amenaza u oportunidad.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Ontologia-de-Condiciones,
+- CR-Percepcion-Enfocada,
+- Arq-Cog-Operatividad-Intensional,
+- Arq-Cog-Frontera-de-Entrada.
+
+4) Invariantes
+4.1) Debe existir algo que aparezca para el sistema.
+4.2) Debe existir modulación por condiciones.
+4.3) Debe poder distinguirse entre lo percibido y el molde que lo hace posible.
+
+5) Dominio de variación
+Puede variar en:
+- dominio sensorial,
+- dominio conceptual,
+- dominio práctico,
+- carga afectiva,
+- escala temporal.
+Regla de borde:
+si desaparece la manifestación efectiva, desaparece este nodo.
+
+6) Discriminadores
+No es:
+- ontología,
+- ni criterio,
+- ni política de actualización.
+Es el plano donde esas estructuras se vuelven visibles como realidad operativa.
+
+7) Relaciones con otros nodos
+- is_explained_by CR-Ontologia-de-Condiciones
+- is_modulated_by CR-Percepcion-Enfocada
+- is_reinterpreted_by CR-Criterio-de-Evaluacion
+- manifests CR-Correlacion-Intercapa
+
+8) Superficie de integración
+Se integra como nodo de manifestación: permite conectar cambios ontológicos con cambios fenomenológicos.
+
+9) Validación
+Está bien aplicado cuando se puede mostrar:
+- qué aparece,
+- bajo qué condiciones,
+- y por qué esa aparición no es puramente pasiva.
+
+10) Fórmula de cierre
+Ejecución Perceptiva
+=
+manifestación fenomenológica
++
+modulación por condiciones
++
+saliencia operativa.
+]"}}
+
+{"address":"def/CR-Ontologia-de-Condiciones","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — ONTOLOGÍA DE CONDICIONES
+Versión: v1.0
+
+0) Intención del concepto
+CR-Ontologia-de-Condiciones se introduce para fijar el molde generativo de la realidad operativa.
+Su función es impedir que la realidad se trate como algo dado sin estructura de posibilidad.
+
+1) Definición central
+Ontología de Condiciones = sistema de condiciones internas y externas que hacen posible, guían,
+limitan y seleccionan lo que puede aparecer como real para un sistema.
+
+2) Qué fenómeno o función delimita
+Delimita el plano generativo compuesto por:
+- categorías,
+- memoria,
+- lenguaje,
+- objetivos,
+- atención,
+- afecto,
+- hábitos,
+- estímulos disponibles,
+- oportunidades,
+- resistencias,
+- artefactos,
+- estructura social e institucional.
+
+3) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Interior,
+- Arq-Cog-Envolvente,
+- Arq-Cog-Vecindad-Relevante,
+- Arq-Cog-Operatividad-Intensional.
+
+4) Invariantes
+4.1) Debe existir configuración interna.
+4.2) Debe existir exterior relevante.
+4.3) Debe existir acoplamiento sujeto-mundo.
+4.4) Debe afectar realmente lo que puede aparecer como real.
+
+5) Dominio de variación
+Puede variar en:
+- complejidad,
+- dominio,
+- resolución,
+- peso relativo de factores internos y externos.
+Regla de borde:
+puede variar el contenido de las condiciones,
+pero no su función generativa.
+
+6) Discriminadores
+No es percepción misma.
+No es solo contexto externo.
+No es solo estado interno.
+Es configuración conjunta con efecto generativo.
+
+7) Relaciones con otros nodos
+- explains CR-Ejecucion-Perceptiva
+- is_reconfigured_by CR-Politica-de-Actualizacion
+- is_expressed_in CR-Creacion-Epistemica
+- is_modified_by CR-Creacion-Enactiva y CR-Creacion-Social-Institucional
+
+8) Superficie de integración
+Se integra como capa superior de explicación del dominio.
+
+9) Validación
+Está bien aplicado cuando puede mostrarse cómo un cambio en categorías, atención, entorno o institución
+cambia lo que puede aparecer como real.
+
+10) Fórmula de cierre
+Ontología de Condiciones
+=
+condiciones internas
++
+condiciones externas
++
+acoplamiento sujeto-mundo
++
+función generativa sobre lo real.
+]"}}
+
+{"address":"def/CR-Percepcion-Enfocada","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — PERCEPCIÓN ENFOCADA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Percepcion-Enfocada se introduce para fijar la primera interfaz funcional con el exterior.
+Su función es mostrar que enfocar no es solo mirar mejor, sino reorganizar el acoplamiento con el mundo.
+
+1) Definición central
+Percepción Enfocada = reconfiguración selectiva del ingreso perceptivo mediante la cual el sistema
+redistribuye atención, activa objetivos, modifica umbrales y vuelve legible una región específica
+del exterior.
+
+2) Qué fenómeno o función delimita
+Delimita:
+- detección de relevancia,
+- reorganización de saliencia,
+- apertura selectiva de ingreso,
+- y preparación de actualización.
+
+3) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Frontera-de-Entrada,
+- Arq-Cog-Vecindad-Relevante,
+- CR-Interfaz-Primaria,
+- CR-Ontologia-de-Condiciones.
+
+4) Invariantes
+4.1) Debe existir selección.
+4.2) Debe existir reorganización del peso de señales.
+4.3) Debe poder cambiar el modo de acoplamiento con el exterior.
+
+5) Dominio de variación
+Puede variar en:
+- intensidad,
+- duración,
+- objetivo activo,
+- canal,
+- dominio perceptivo.
+Regla de borde:
+si no hay selección ni reorganización, no hay percepción enfocada.
+
+6) Discriminadores
+No es todo el ingreso perceptivo.
+No es todavía evaluación.
+Es la apertura focalizada del contacto.
+
+7) Relaciones con otros nodos
+- realizes CR-Interfaz-Primaria
+- prepares CR-Criterio-de-Evaluacion
+- modulates CR-Ejecucion-Perceptiva
+- activates CR-Creacion-Enactiva y CR-Creacion-Epistemica
+
+8) Superficie de integración
+Se integra como interfaz primaria de entrada del dominio.
+
+9) Validación
+Está bien aplicada cuando puede mostrarse qué cambia al enfocar:
+- atención,
+- umbral,
+- hipótesis,
+- relevancia,
+- dirección del sistema.
+
+10) Fórmula de cierre
+Percepción Enfocada
+=
+selección
++
+redistribución de atención
++
+modificación de relevancia
++
+apertura de ingreso legible.
+]"}}
+
+{"address":"def/CR-Criterio-de-Evaluacion","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CRITERIO DE EVALUACIÓN
+Versión: v1.0
+
+0) Intención del concepto
+CR-Criterio-de-Evaluacion se introduce para impedir que el sistema quede reducido a recepción infinita.
+Su función es decidir qué señales importan, qué se descarta y qué obliga a reorganización.
+
+1) Definición central
+Criterio de Evaluación = instancia selectiva mediante la cual una señal, percepción o variación se compara
+con prioridades, umbrales, objetivos o reglas, y se decide si debe traducirse en actualización.
+
+2) Qué fenómeno o función delimita
+Delimita el momento de:
+- selección valorativa,
+- filtrado,
+- comparación,
+- y decisión de relevancia estructural.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada,
+- CR-Ontologia-de-Condiciones,
+- Arq-Cog-Operatividad-Intensional.
+
+4) Invariantes
+4.1) Debe existir algo evaluable.
+4.2) Debe existir regla, prioridad, objetivo o umbral.
+4.3) Debe poder producir resultado diferencial: aceptar, descartar o transformar.
+
+5) Dominio de variación
+Puede variar en:
+- rigidez,
+- sensibilidad,
+- complejidad,
+- explicitud,
+- temporalidad.
+Regla de borde:
+si todo ingresa con igual peso, el criterio se ha disuelto.
+
+6) Discriminadores
+No es percepción.
+No es política de actualización.
+Es la bisagra entre ambas.
+
+7) Relaciones con otros nodos
+- evaluates CR-Ejecucion-Perceptiva
+- feeds CR-Politica-de-Actualizacion
+- supports CR-Regulacion-Minima
+- contributes_to CR-Cierre-de-Circuito
+
+8) Superficie de integración
+Se integra como mediador entre ingreso y reconfiguración.
+
+9) Validación
+Está bien aplicado cuando se puede explicitar:
+- qué cuenta como señal relevante,
+- por qué,
+- y con qué consecuencia estructural.
+
+10) Fórmula de cierre
+Criterio de Evaluación
+=
+señal
++
+comparación con regla u objetivo
++
+decisión de relevancia estructural.
+]"}}
+
+{"address":"def/CR-Politica-de-Actualizacion","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — POLÍTICA DE ACTUALIZACIÓN
+Versión: v1.0
+
+0) Intención del concepto
+CR-Politica-de-Actualizacion se introduce para fijar cómo el sistema transforma resultados evaluados
+en reorganización efectiva. Su función es evitar que la señal evaluada quede sin consecuencia.
+
+1) Definición central
+Política de Actualización = conjunto de reglas, criterios o procedimientos por los cuales el sistema
+traduce resultados de evaluación en cambio real de sus condiciones internas, externas o de acoplamiento.
+
+2) Qué fenómeno o función delimita
+Delimita:
+- traducción de criterio a cambio,
+- reorganización de categorías, atención, reglas o prácticas,
+- y fijación de nuevas condiciones operativas.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Criterio-de-Evaluacion,
+- CR-Ontologia-de-Condiciones,
+- CR-Regulacion-Minima,
+- CR-Cierre-de-Circuito.
+
+4) Invariantes
+4.1) Debe existir posibilidad de cambio.
+4.2) Debe existir regla de traducción.
+4.3) Debe existir huella estructural de la actualización.
+
+5) Dominio de variación
+Puede variar en:
+- velocidad,
+- intensidad,
+- dominio,
+- reversibilidad,
+- nivel de explicitud.
+Regla de borde:
+si no hay traducción efectiva a cambio, no hay política de actualización.
+
+6) Discriminadores
+No es el criterio mismo.
+No es todavía el cambio ya estabilizado.
+Es la regla de paso entre ambos.
+
+7) Relaciones con otros nodos
+- reconfigures CR-Ontologia-de-Condiciones
+- is_required_by CR-Cierre-de-Circuito
+- supports CR-Creacion-Epistemica, CR-Creacion-Enactiva y CR-Creacion-Social-Institucional
+
+8) Superficie de integración
+Se integra como operador de paso entre evaluación y nueva realidad operativa.
+
+9) Validación
+Está bien aplicada cuando se puede mostrar:
+- qué cambió,
+- por qué cambió,
+- y bajo qué regla cambió.
+
+10) Fórmula de cierre
+Política de Actualización
+=
+resultado evaluado
++
+regla de transformación
++
+reconfiguración efectiva.
+]"}}
+
+{"address":"def/CR-Cierre-de-Circuito","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CIERRE DE CIRCUITO
+Versión: v1.0
+
+0) Intención del concepto
+CR-Cierre-de-Circuito se introduce para fijar la condición mínima de desarrollo del sistema.
+Su función es mostrar que una entidad no se desarrolla solo por exposición a señales, sino cuando
+esas señales retornan sobre su estructura y la reorganizan.
+
+1) Definición central
+Cierre de Circuito = estructura mínima en la que una señal del exterior es admitida, evaluada,
+traducida en actualización y devuelta al campo de interacción en forma de nueva operación posible.
+
+2) Qué fenómeno o función delimita
+Delimita el paso de:
+- recepción dispersa
+a
+- desarrollo estructurado.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada,
+- CR-Criterio-de-Evaluacion,
+- CR-Politica-de-Actualizacion,
+- CR-Regulacion-Minima,
+- Arq-Cog-Frontera-de-Entrada,
+- Arq-Cog-Frontera-de-Salida.
+
+4) Invariantes
+4.1) Debe existir ingreso.
+4.2) Debe existir evaluación.
+4.3) Debe existir actualización.
+4.4) Debe existir nueva interacción posible.
+
+5) Dominio de variación
+Puede variar en:
+- complejidad,
+- duración,
+- número de pasos,
+- grado de automatización.
+Regla de borde:
+si no retorna sobre la estructura, no hay cierre de circuito.
+
+6) Discriminadores
+No es simple feedback indiferenciado.
+Es cierre con efecto organizador.
+
+7) Relaciones con otros nodos
+- requires CR-Regulacion-Minima
+- organizes el paso entre CR-Interfaz-Primaria y Creación de Realidad
+- is_triggered_by CR-Percepcion-Enfocada
+- is_completed_by CR-Politica-de-Actualizacion
+
+8) Superficie de integración
+Se integra como condición de maduración del dominio.
+
+9) Validación
+Está bien aplicado cuando puede reconstruirse:
+señal -> evaluación -> actualización -> nueva interacción.
+
+10) Fórmula de cierre
+Cierre de Circuito
+=
+ingreso
++
+criterio
++
+actualización
++
+retorno organizador.
+]"}}
+
+{"address":"def/CR-Regulacion-Minima","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — REGULACIÓN MÍNIMA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Regulacion-Minima se introduce para fijar el conjunto más simple de mecanismos necesarios para que
+el sistema no colapse durante fases tempranas de desarrollo.
+
+1) Definición central
+Regulación Mínima = conjunto básico de restricciones, ritmos, umbrales o reglas que preservan coherencia
+suficiente cuando el sistema aumenta su apertura al exterior, pero todavía no dispone de una arquitectura madura.
+
+2) Qué fenómeno o función delimita
+Delimita:
+- contención de ruido,
+- prevención de dispersión,
+- conservación de continuidad mínima,
+- y sostenimiento del proceso de actualización.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Criterio-de-Evaluacion,
+- CR-Politica-de-Actualizacion,
+- CR-Cierre-de-Circuito.
+
+4) Invariantes
+4.1) Debe existir apertura al exterior.
+4.2) Debe existir riesgo de colapso o dispersión.
+4.3) Debe existir mecanismo mínimo de preservación.
+
+5) Dominio de variación
+Puede variar en:
+- complejidad,
+- rigidez,
+- explicitud,
+- temporalidad.
+Regla de borde:
+si no tiene función estabilizadora real, no es regulación mínima.
+
+6) Discriminadores
+No es control total.
+No es arquitectura madura.
+Es soporte elemental de coherencia.
+
+7) Relaciones con otros nodos
+- stabilizes CR-Cierre-de-Circuito
+- constrains CR-Politica-de-Actualizacion
+- supports CR-Creacion-de-Realidad
+
+8) Superficie de integración
+Se integra como requisito de sostenibilidad del dominio.
+
+9) Validación
+Está bien aplicada cuando puede mostrarse qué evita:
+- colapso,
+- ruido,
+- dispersión,
+- o conversación infinita sin sistema.
+
+10) Fórmula de cierre
+Regulación Mínima
+=
+apertura
++
+riesgo de colapso
++
+mecanismo elemental de estabilización.
+]"}}
+
+{"address":"def/CR-Creacion-Epistemica","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CREACIÓN EPISTÉMICA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Creacion-Epistemica se introduce para fijar la vía interna por la cual cambia la realidad operativa
+del sistema sin necesidad de modificación material inmediata del entorno.
+
+1) Definición central
+Creación Epistémica = reconfiguración del molde interno del sistema mediante cambio de categorías,
+creencias, lenguaje, objetivos y pesos atencionales, de modo que cambia lo que puede aparecer como real.
+
+2) Qué fenómeno o función delimita
+Delimita la creación de realidad por cambio de:
+- interpretación,
+- categorización,
+- lenguaje,
+- atención,
+- hipótesis dominantes.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Ontologia-de-Condiciones,
+- CR-Politica-de-Actualizacion,
+- CR-Percepcion-Enfocada,
+- Arq-Cog-Operatividad-Intensional.
+
+4) Invariantes
+4.1) Debe haber cambio del molde interno.
+4.2) Debe cambiar lo que puede aparecer como real.
+4.3) El entorno físico inmediato puede permanecer estable.
+
+5) Dominio de variación
+Puede variar en profundidad, reversibilidad y velocidad.
+Regla de borde:
+si no cambia el molde, no hay creación epistémica.
+
+6) Discriminadores
+No es mera opinión pasajera.
+Es reorganización estructural del régimen de aparición.
+
+7) Relaciones con otros nodos
+- is_organized_by CR-Creacion-de-Realidad
+- refines CR-Ontologia-de-Condiciones
+- is_triggered_by CR-Politica-de-Actualizacion
+
+8) Superficie de integración
+Se integra como vía interna del dominio.
+
+9) Validación
+Está bien aplicada cuando aprender, redefinir o reencuadrar cambia efectivamente la realidad operativa del sistema.
+
+10) Fórmula de cierre
+Creación Epistémica
+=
+reconfiguración del molde interno
++
+cambio de aparición de lo real.
+]"}}
+
+{"address":"def/CR-Creacion-Enactiva","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CREACIÓN ENACTIVA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Creacion-Enactiva se introduce para fijar la vía práctica de creación de realidad.
+Su función es mostrar que el entorno también cambia cuando el sistema actúa sobre él.
+
+1) Definición central
+Creación Enactiva = modificación del entorno material o situacional por medio de la acción, de forma
+tal que cambian futuras condiciones de percepción, decisión y operación para el sistema.
+
+2) Qué fenómeno o función delimita
+Delimita la creación de realidad con huella externa:
+- mover,
+- reorganizar,
+- intervenir,
+- ajustar herramientas,
+- cambiar disposición del entorno.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada,
+- CR-Criterio-de-Evaluacion,
+- CR-Politica-de-Actualizacion,
+- Arq-Cog-Frontera-de-Salida.
+
+4) Invariantes
+4.1) Debe existir acción efectiva.
+4.2) Debe cambiar el entorno o el campo de posibilidades.
+4.3) Debe haber efecto sobre futuras realidades operativas.
+
+5) Dominio de variación
+Puede variar en escala, reversibilidad y materialidad.
+Regla de borde:
+si no hay modificación externa relevante, no hay creación enactiva.
+
+6) Discriminadores
+No es mera intención interna.
+No es solo decisión abstracta.
+Es intervención con efecto externo.
+
+7) Relaciones con otros nodos
+- is_organized_by CR-Creacion-de-Realidad
+- extends CR-Cierre-de-Circuito hacia el entorno
+- modifies CR-Ontologia-de-Condiciones
+
+8) Superficie de integración
+Se integra como vía práctica del dominio.
+
+9) Validación
+Está bien aplicada cuando puede mostrarse cómo una acción reconfigura condiciones futuras de realidad.
+
+10) Fórmula de cierre
+Creación Enactiva
+=
+acción
++
+modificación del entorno
++
+reconfiguración de condiciones futuras.
+]"}}
+
+{"address":"def/CR-Creacion-Social-Institucional","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CREACIÓN SOCIAL-INSTITUCIONAL
+Versión: v1.0
+
+0) Intención del concepto
+CR-Creacion-Social-Institucional se introduce para fijar la vía colectiva de creación de realidad.
+Su función es mostrar que en dominios humanos una parte decisiva de lo real se estabiliza mediante
+acuerdos, normas, símbolos, contratos y reputaciones.
+
+1) Definición central
+Creación Social-Institucional = producción y estabilización de realidad colectiva mediante marcos
+normativos, simbólicos y organizativos que estructuran posibilidades, obligaciones, valor e identidad social.
+
+2) Qué fenómeno o función delimita
+Delimita:
+- acuerdos,
+- contratos,
+- normas,
+- roles,
+- reputaciones,
+- marcos simbólicos,
+- y realidad institucionalmente estabilizada.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Creacion-de-Realidad,
+- CR-Politica-de-Actualizacion,
+- CR-Cierre-de-Circuito,
+- Arq-Cog-Envolvente,
+- Arq-Cog-Frontera-de-Salida.
+
+4) Invariantes
+4.1) Debe existir dimensión colectiva.
+4.2) Debe existir estabilización por marcos compartidos.
+4.3) Debe reorganizar posibilidades sociales reales.
+
+5) Dominio de variación
+Puede variar en:
+- escala social,
+- formalidad,
+- rigidez,
+- duración,
+- institucionalización.
+Regla de borde:
+si no hay marco compartido con efecto estructural, no hay creación social-institucional.
+
+6) Discriminadores
+No es simple interacción social pasajera.
+Es fijación colectiva de realidad operativa.
+
+7) Relaciones con otros nodos
+- is_organized_by CR-Creacion-de-Realidad
+- extends CR-Creacion-Enactiva al dominio institucional
+- modifies CR-Ontologia-de-Condiciones en su dimensión social
+
+8) Superficie de integración
+Se integra como vía colectiva de estabilización del dominio.
+
+9) Validación
+Está bien aplicada cuando puede mostrarse cómo norma, contrato o símbolo cambia de manera durable la realidad social relevante.
+
+10) Fórmula de cierre
+Creación Social-Institucional
+=
+marco compartido
++
+estabilización colectiva
++
+reorganización de posibilidades sociales.
+]"}}
+
+{"address":"def/CR-Interfaz-Primaria","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — INTERFAZ PRIMARIA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Interfaz-Primaria se introduce para fijar la primera vía de intercambio estructurado con el exterior
+en etapas tempranas del sistema.
+
+1) Definición central
+Interfaz Primaria = mecanismo inicial de contacto con el exterior mediante el cual el sistema logra
+recibir señales, discriminar relevancia básica y comenzar a proyectar respuestas, aun sin arquitectura madura.
+
+2) Qué fenómeno o función delimita
+Delimita el umbral de intercambio operativo temprano.
+
+3) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Superficie-de-Integración,
+- Arq-Cog-Frontera-de-Entrada,
+- Arq-Cog-Frontera-de-Salida,
+- CR-Percepcion-Enfocada.
+
+4) Invariantes
+4.1) Debe existir contacto inicial estructurado.
+4.2) Debe existir posibilidad de recepción.
+4.3) Debe existir posibilidad de proyección mínima.
+
+5) Dominio de variación
+Puede variar en complejidad y canal.
+Regla de borde:
+si no media intercambio real, no hay interfaz primaria.
+
+6) Discriminadores
+No es toda la arquitectura de integración.
+Es la primera vía operativa de contacto.
+
+7) Relaciones con otros nodos
+- is_realized_by CR-Percepcion-Enfocada
+- contributes_to CR-Cierre-de-Circuito
+- requires CR-Regulacion-Minima
+
+8) Superficie de integración
+Se integra como punto de arranque del intercambio.
+
+9) Validación
+Está bien aplicada cuando puede identificarse la primera vía por la que algo entra y algo comienza a salir del sistema.
+
+10) Fórmula de cierre
+Interfaz Primaria
+=
+primer contacto estructurado
++
+recepción mínima
++
+proyección mínima.
+]"}}
+
+{"address":"def/CR-Correlacion-Intercapa","content":"[
+================================================================================
+DEFINICIÓN — CREACIÓN DE REALIDAD — CORRELACIÓN INTERCAPA
+Versión: v1.0
+
+0) Intención del concepto
+CR-Correlacion-Intercapa se introduce para fijar un tipo particular de relación explicativa: aquella
+en la que una covariación observable en el plano de ejecución no encuentra su razón suficiente en ese
+mismo plano, sino en una capa ontológica distinta que la organiza.
+
+1) Definición central
+Correlación Intercapa = relación de covariación entre manifestaciones observables cuya explicación
+principal depende de una base generativa, criterio, invariante o régimen intensional compartido situado
+en otra capa del sistema.
+
+2) Qué fenómeno o función delimita
+Delimita el problema de:
+- dependencia vertical entre planos,
+- y no-reducción de lo visible a vecindad local inmediata.
+
+3) Dependencias conceptuales
+Depende de:
+- CR-Ejecucion-Perceptiva,
+- CR-Ontologia-de-Condiciones,
+- Arq-Cog-Operatividad-Intensional,
+- Arq-Cog-Vecindad-Relevante.
+
+4) Invariantes
+4.1) Debe existir doble plano.
+4.2) Debe existir covariación visible.
+4.3) La explicación local visible no debe bastar por sí sola.
+4.4) Debe existir dependencia compartida respecto de otra capa.
+
+5) Dominio de variación
+Puede variar en dominio, escala y tipo de capa superior.
+Regla de borde:
+si la explicación local basta, el concepto se debilita.
+
+6) Discriminadores
+No es causalidad local simple.
+No es analogía vaga.
+No es mera coexistencia.
+Es covariación visible explicada desde otra capa.
+
+7) Relaciones con otros nodos
+- explains la tesis de que variaciones ontológicas se manifiestan como cambios en lo percibido
+- links CR-Ontologia-de-Condiciones con CR-Ejecucion-Perceptiva
+- supports CR-Creacion-de-Realidad
+
+8) Superficie de integración
+Se integra como herramienta diagnóstica del dominio.
+
+9) Validación
+Está bien aplicada cuando puede mostrarse:
+- qué varía en la ejecución,
+- qué capa superior lo organiza,
+- y por qué la explicación local es insuficiente.
+
+10) Fórmula de cierre
+Correlación Intercapa
+=
+covariación visible
++
+insuficiencia explicativa local
++
+dependencia compartida respecto de otra capa.
+]"}}

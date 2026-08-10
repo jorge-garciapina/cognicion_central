@@ -1,0 +1,271 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d433a7-cb00-83e8-ae29-aa5fa513e52e
+
+{"address":"graph/node/ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Secuencia-de-Retorno",
+  "label":"ACCD — Secuencia de Retorno",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Secuencia-de-Retorno",
+  "summary":"Este nodo introduce la Secuencia de Retorno como trayectoria canónica de cierre de circuito dentro de ACCD. Su función es organizar el reingreso de huellas producidas por una manifestación material o una captura, su traducción a evidencia legible, su paso por diagnóstico y corrección, y su sedimentación en trayectoria hasta modular nuevas entradas del sistema."
+}}
+
+{"address":"def/ACCD-Secuencia-de-Retorno","content":"[
+================================================================================
+DEFINICIÓN — ACCD — SECUENCIA DE RETORNO
+================================================================================
+
+0) Intención del nodo
+
+ACCD-Secuencia-de-Retorno se introduce para fijar, de manera explícita y portable,
+la trayectoria canónica por la cual la arquitectura deja de emitir salidas aisladas
+y empieza a operar con cierre de circuito, memoria y reajuste.
+
+Su función no es nombrar:
+- una pieza particular,
+- un estrato aislado,
+- una métrica,
+- ni una mera revisión posterior del rendimiento.
+
+Su función es nombrar la secuencia estructural por la cual:
+- una salida o captura deja huellas,
+- esas huellas se convierten en evidencia,
+- la evidencia se vuelve diagnóstico,
+- el diagnóstico activa corrección,
+- la corrección actualiza estado,
+- el estado se sedimenta en trayectoria,
+- y la trayectoria modula la siguiente entrada.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Secuencia de Retorno = trayectoria canónica de cierre de circuito mediante la cual
+una manifestación material o una captura económica reingresan al sistema como
+evidencia legible, activan lectura, diagnóstico y corrección, producen actualización
+de estado, se sedimentan en trayectoria y modifican el procesamiento de nuevas
+entradas.
+
+Dicho de otro modo:
+
+La Secuencia de Retorno no es la evidencia sola.
+Tampoco es el diagnóstico solo.
+Tampoco es la corrección sola.
+
+Es la articulación estructural que conecta:
+origen de huella
+→ evidencia
+→ lectura
+→ diagnóstico
+→ corrección
+→ actualización
+→ trayectoria
+→ nueva entrada modulada.
+
+--------------------------------------------------------------------------------
+
+2) Qué delimita
+
+Este nodo delimita el problema del aprendizaje arquitectónico.
+
+Recorta, por tanto:
+- cómo una respuesta del entorno deja de ser ruido,
+- cómo esa respuesta se vuelve legible,
+- cómo esa legibilidad puede traducirse en juicio estructural,
+- cómo ese juicio puede intervenir sobre el sistema,
+- y cómo el sistema deja de partir de cero en cada nueva proyección.
+
+No delimita:
+- la secuencia de proyección,
+- la secuencia de recepción,
+- la secuencia de convertibilidad,
+- ni una simple inspección de métricas.
+
+Delimita un caso más fuerte:
+el reingreso estructurado de resultados al sistema.
+
+--------------------------------------------------------------------------------
+
+3) Stages canónicos de la secuencia
+
+La Secuencia de Retorno se compone, en su forma canónica, de los siguientes stages:
+
+3.1) ACCD-Manifestacion-Material-o-Captura
+Punto de origen de la huella que reingresa al sistema.
+
+3.2) ACCD-Evidencia
+Huella observable y utilizable producida por el entorno.
+
+3.3) ACCD-Lectura-de-Evidencia
+Régimen que traduce la evidencia a señal interpretable.
+
+3.4) ACCD-Diagnostico
+Clasificación estructural de lo ocurrido.
+
+3.5) ACCD-Correccion-Local-o-del-Modelo
+Intervención correctiva sobre caso local o formalismo general.
+
+3.6) ACCD-Actualizacion-de-Estado
+Registro del cambio efectivo producido por corrección o nueva lectura.
+
+3.7) ACCD-Trayectoria
+Sedimentación longitudinal de estados, salidas, diagnósticos y actualizaciones.
+
+3.8) ACCD-Nueva-Entrada-Modulada
+Entrada futura que ya no reingresa en vacío, sino afectada por historia previa.
+
+--------------------------------------------------------------------------------
+
+4) Invariantes
+
+La Secuencia de Retorno preserva al menos los siguientes invariantes:
+
+4.1) Debe existir una huella reingresable al sistema.
+4.2) Debe existir una diferencia entre huella bruta y evidencia legible.
+4.3) Debe existir una lectura explícita de la evidencia.
+4.4) Debe existir posibilidad de diagnóstico estructural.
+4.5) Debe existir posibilidad de corrección efectiva.
+4.6) Debe existir actualización real del estado del sistema.
+4.7) Debe existir sedimentación longitudinal en trayectoria.
+4.8) Debe existir modulación de entradas futuras.
+
+Regla de borde:
+si hay observación sin reingreso, no hay retorno pleno;
+si hay corrección sin actualización, no hay retorno completo;
+si hay actualización sin trayectoria, no hay memoria estructural suficiente.
+
+--------------------------------------------------------------------------------
+
+5) Relaciones con otras secuencias globales
+
+5.1) No reemplaza la Secuencia de Proyección.
+La proyección produce salidas; el retorno las reabre estructuralmente.
+
+5.2) No reemplaza la Secuencia de Recepción.
+La recepción puede producir evidencia temprana que luego entra en retorno.
+
+5.3) No reemplaza la Secuencia de Convertibilidad.
+La captura económica puede funcionar como punto de partida del retorno,
+pero el retorno no se reduce al dinero.
+
+5.4) Se acopla transversalmente a las demás.
+Puede recibir insumos:
+- desde manifestación material,
+- desde recepción,
+- desde validación comercial,
+- o desde captura económica.
+
+--------------------------------------------------------------------------------
+
+6) Superficie de integración
+
+Este nodo se integra al paquete como gramática transversal de aprendizaje.
+
+Permite que distintos estratos del sistema puedan declarar con precisión:
+- qué huella producen,
+- cómo esa huella se vuelve evidencia,
+- bajo qué lectura se interpreta,
+- qué diagnóstico activa,
+- qué corrección permite,
+- y cómo modifica la historia operativa del sistema.
+
+Por eso, la Secuencia de Retorno no debe tratarse como nota posterior,
+sino como uno de los ejes estructurales del paquete.
+
+--------------------------------------------------------------------------------
+
+7) Validación
+
+La definición se considera correctamente aplicada cuando permite:
+
+7.1) identificar el origen efectivo de la huella;
+7.2) distinguir evidencia de mera señal dispersa;
+7.3) explicitar el régimen de lectura de evidencia;
+7.4) producir un diagnóstico estructural reconocible;
+7.5) justificar una corrección local o del modelo;
+7.6) registrar una actualización de estado;
+7.7) mostrar sedimentación en trayectoria;
+7.8) explicar cómo la siguiente entrada ya llega modulada.
+
+Una mala aplicación se detecta cuando:
+- se llama retorno a cualquier revisión superficial,
+- se omite evidencia o lectura,
+- no existe actualización real,
+- o la siguiente entrada se procesa como si el sistema no hubiera aprendido nada.
+
+--------------------------------------------------------------------------------
+
+8) Fórmula de cierre
+
+ACCD-Secuencia-de-Retorno =
+huella reingresable
++ evidencia legible
++ lectura de evidencia
++ diagnóstico estructural
++ corrección
++ actualización de estado
++ trayectoria
++ nueva entrada modulada.
+]"}
+
+{"address":"graph/edge/ACCD-Manifestacion-Material-o-Captura-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Manifestacion-Material-o-Captura-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Manifestacion-Material-o-Captura",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Manifestacion-Material-o-Captura pertenece a la Secuencia de Retorno porque fija el punto de origen de la huella que va a reingresar al sistema, ya sea desde una manifestación material o desde una captura económica."
+}}
+
+{"address":"graph/edge/ACCD-Evidencia-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Evidencia-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Evidencia",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Evidencia pertenece a la Secuencia de Retorno porque convierte la huella dejada por el entorno en materia observable y utilizable para el aprendizaje del sistema."
+}}
+
+{"address":"graph/edge/ACCD-Lectura-de-Evidencia-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Lectura-de-Evidencia-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Lectura-de-Evidencia",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Lectura-de-Evidencia pertenece a la Secuencia de Retorno porque traduce la evidencia en señal interpretable bajo criterios, pesos, umbrales y restricciones, habilitando el paso a diagnóstico."
+}}
+
+{"address":"graph/edge/ACCD-Diagnostico-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Diagnostico-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Diagnostico",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Diagnostico pertenece a la Secuencia de Retorno porque clasifica estructuralmente lo ocurrido a partir de la lectura de evidencia y vuelve decidible la intervención posterior."
+}}
+
+{"address":"graph/edge/ACCD-Correccion-Local-o-del-Modelo-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Correccion-Local-o-del-Modelo-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Correccion-Local-o-del-Modelo",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Correccion-Local-o-del-Modelo pertenece a la Secuencia de Retorno porque introduce la intervención correctiva que transforma el diagnóstico en ajuste efectivo, ya sea sobre el caso local o sobre el formalismo general."
+}}
+
+{"address":"graph/edge/ACCD-Actualizacion-de-Estado-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Actualizacion-de-Estado-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Actualizacion-de-Estado",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Actualizacion-de-Estado pertenece a la Secuencia de Retorno porque registra el cambio efectivo producido por la corrección o por la nueva lectura y marca que el sistema ya no se encuentra en el mismo estado que antes."
+}}
+
+{"address":"graph/edge/ACCD-Trayectoria-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Trayectoria-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Trayectoria",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Trayectoria pertenece a la Secuencia de Retorno porque sedimenta longitudinalmente estados, salidas, evidencias, diagnósticos y actualizaciones, dando memoria estructural al sistema."
+}}
+
+{"address":"graph/edge/ACCD-Nueva-Entrada-Modulada-stage_of-ACCD-Secuencia-de-Retorno","content":{
+  "id":"ACCD-Nueva-Entrada-Modulada-stage_of-ACCD-Secuencia-de-Retorno",
+  "from":"ACCD-Nueva-Entrada-Modulada",
+  "to":"ACCD-Secuencia-de-Retorno",
+  "type":"stage_of",
+  "rationale":"ACCD-Nueva-Entrada-Modulada pertenece a la Secuencia de Retorno porque cierra el circuito mostrando que la historia acumulada del sistema altera efectivamente la forma en que se procesan las entradas futuras."
+}}

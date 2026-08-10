@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-esquema_visual-esquema_visual",
+  "content": "**Definición.** Valor que indica una representación simplificada y ordenada de una idea, proceso, estructura o conjunto de partes. El esquema reduce complejidad para mostrar lo esencial con claridad.\n\n**Diferenciación semántica.** Se diferencia de `mapa_conceptual_visual` porque no necesariamente muestra red de relaciones; puede ser una estructura lineal, jerárquica o modular. Se diferencia de `diagramatica` porque prioriza claridad sintética más que complejidad relacional.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza debe reducir la información a una forma visual clara, legible y estructurada."
+}

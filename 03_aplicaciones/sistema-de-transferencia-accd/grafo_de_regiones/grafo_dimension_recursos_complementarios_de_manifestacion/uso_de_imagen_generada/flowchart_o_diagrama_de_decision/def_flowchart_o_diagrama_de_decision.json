@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-flowchart_o_diagrama_de_decision-flowchart_o_diagrama_de_decision",
+  "content": "Sirve para representar rutas, bifurcaciones o decisiones.\n\nEjemplo:\n\n```txt\n¿La audiencia entiende el problema?\n        ↓\n      No → lámina de clarificación\n        ↓\n      Sí → lámina de profundización\n```\n\nPuede usarse para diagnósticos, decisiones, procesos, métodos, clasificaciones operativas o estructuras tipo “si pasa A, haz B”.\n\nEs especialmente útil cuando se quiere que el carousel no sea solo informativo, sino operable.\n\n---"
+}

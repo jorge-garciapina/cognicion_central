@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "label": "funcion_dominante",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+    "summary": "Campo que fija qué operación principal busca cumplir la realización.",
+    "metadata": {
+      "section": "4.1",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "restrictions": [
+        "Debe haber exactamente una función dominante.",
+        "Las demás orientaciones pragmáticas deben ser compatibles con ella."
+      ]
+    }
+  }
+}

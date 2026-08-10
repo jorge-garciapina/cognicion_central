@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+    "type": "has_field",
+    "rationale": "comparecencia_performativa es un campo directo declarado dentro de dimension_comparecencia_performativa."
+  }
+}

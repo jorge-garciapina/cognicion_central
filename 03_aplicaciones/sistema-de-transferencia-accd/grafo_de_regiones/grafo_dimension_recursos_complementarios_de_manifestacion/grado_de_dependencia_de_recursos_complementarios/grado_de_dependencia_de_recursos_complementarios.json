@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios",
+    "label": "grado_de_dependencia_de_recursos_complementarios",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios",
+    "summary": "Indicar en qué medida la pieza depende de los recursos complementarios para funcionar correctamente.",
+    "metadata": {
+      "section": "12.6",
+      "value_type": "Categorial ordinal",
+      "cardinality": "Un valor obligatorio",
+      "raw_restrictions": [
+        "Debe ser coherente con el uso declarado de cada tipo de recurso.",
+        "No debe contradecir la modalidad general de realización."
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral-has_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral-has_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+    "type": "has_field",
+    "rationale": "carga_de_lectura_visible es un campo nuevo de dimension_acoplamiento_receptoral incorporado para la realización imagen."
+  }
+}

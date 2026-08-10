@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-comercial_sutil-comercial_sutil",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-comercial_sutil-comercial_sutil",
+    "label": "comercial_sutil",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-comercial_sutil-comercial_sutil",
+    "summary": "Valor que permite orientar el carousel hacia una acción de valor o conversión, pero sin volverlo agresivamente publicitario.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

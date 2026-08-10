@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada",
+    "label": "sin_imagen_generada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada",
+    "summary": "Valor sin_imagen_generada declarado para el campo uso_de_imagen_generada.",
+    "metadata": {
+      "value_of": "uso_de_imagen_generada",
+      "source_section": "12.2"
+    }
+  }
+}

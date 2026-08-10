@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_16_9-horizontal_16_9",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_16_9-horizontal_16_9",
+    "label": "horizontal_16_9",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-horizontal_16_9-horizontal_16_9",
+    "summary": "**Definición.** Proporción panorámica estándar de video, presentación y miniatura. Favorece lectura lateral, escenas amplias, comparación horizontal y composición tipo portada audiovisual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

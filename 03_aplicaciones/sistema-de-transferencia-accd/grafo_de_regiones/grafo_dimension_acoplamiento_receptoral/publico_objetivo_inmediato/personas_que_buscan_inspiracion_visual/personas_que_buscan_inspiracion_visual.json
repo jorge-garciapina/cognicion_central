@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_buscan_inspiracion_visual-personas_que_buscan_inspiracion_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_buscan_inspiracion_visual-personas_que_buscan_inspiracion_visual",
+    "label": "personas_que_buscan_inspiracion_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_buscan_inspiracion_visual-personas_que_buscan_inspiracion_visual",
+    "summary": "**Definición.** Receptor que se acerca a la pieza buscando estímulos, referencias, posibilidades estéticas, ideas visuales o dirección creativa. Su lectura no es puramente informativa; incluye sensibilidad a estilo, atmósfera, forma, composición y potencial de apropiación.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

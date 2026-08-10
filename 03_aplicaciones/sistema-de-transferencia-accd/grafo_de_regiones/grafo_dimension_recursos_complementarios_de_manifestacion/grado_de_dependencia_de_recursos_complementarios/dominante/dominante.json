@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante",
+    "label": "dominante",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante",
+    "summary": "Valor dominante declarado para el campo grado_de_dependencia_de_recursos_complementarios.",
+    "metadata": {
+      "value_of": "grado_de_dependencia_de_recursos_complementarios",
+      "source_section": "12.6"
+    }
+  }
+}

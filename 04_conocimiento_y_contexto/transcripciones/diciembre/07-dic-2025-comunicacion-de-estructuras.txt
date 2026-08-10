@@ -1,0 +1,39 @@
+[TRANSCRIPCIÓN — COMUNICACIÓN DE ESTRUCTURAS]
+[Nota general: se respetó lo más posible la redacción original. En fragmentos poco claros se marcaron notas como [dudoso] o [tachado].]
+
+[PÁGINA 1]
+
+[Comunicación de estructuras]    07/dic/2025
+
+Comenzaré escribiendo acerca de la estructura.
+Mientras más pienso en la estructura, más me pregunto qué es. Este trabajo no es solo una labor técnica de construcción de sistemas informáticos, es, así mismo un camino personal de descubrimiento. Al comenzar a cuestionar las estructuras que sostienen a las ideas, descubrí que lo que sé del mundo es solo una idea, de que para explicar al mundo es necesario considerar que yo soy parte de éste. La [comunicación de estructuras] no es un invento nuevo, es simplemente recordar que [comunicación] es una actividad en la que dos o más partes transfieren información, por ejemplo, en una conversación, en una interacción usando el protocolo HTTP, o el aroma de las hembras jaguar durante su etapa fértil. Es vital definir [comunicación estructural] debido a que hay algunas sutilezas que es vital comprender:
+   * Las estructuras no transmiten información, sino arquitecturas. Es exactamente lo mismo que ocurre con los [design patterns]: ofrecer modelos que puedan ser utilizados en diversas situaciones. Tratan de explicar cómo manejar información.
+   * En la comprensión de las estructuras hay que ser siempre conscientes que lo único que requerimos son modelos jerárquicos. La teoría de grafos es ideal para este tipo de modelado, ya que ofrece la posibilidad de definir nodos y los tipos de conexiones que existen entre ellos.
+   * Aún no sé exactamente cómo definir los parámetros para "embonar" dos estructuras, aunque podría ser:
+       - Similitud en grafo. Tengo la idea que la situación que en (06-dic-2025) aclara este punto: partiendo del [sistema de creación de contenidos], es posible hallar estructuras similares (ver nota: [adaptación de discurso], [elaboración de productos])
+
+
+[PÁGINA 2]
+
+Nota:
+Tengo la impresión que la [similitud estructural] es una [jerarquía] ([quizás bastaría decir: subgrafo]), si hay una [forma] ([quizás aquí sea bueno usar "topología", aquí surge la necesidad de profundizar más en esto]), la [comunicación estructural] se puede comprender mejor usando matemáticas.
+Podría seguir explorando opciones, sin embargo, el estudio de la comunicación estructural lo llevaré a cabo mañana. Por el momento me limitaré a profundizar en las aplicaciones (es muy importante aclarar que el estudio de mañana sobre [comunicación estructural] no es para ver si es posible dicha comunicación, puesto que eso ya no está en duda, sino para extender la comprensión y aumentar el dominio). La aplicación más simple que se puede imaginar la describo [tachado] a continuación:
+
+Aplicación: Intermediación de estructuras
+Esta idea estaba programada como "Idea 2", y se suponía sería la continuación de la "idea 1" que aparece en el estudio (06-dic-2025).
+La programación en post-it era (tal cual):
+Idea 2:
+  Ser un intermediario de comunicación entre estructuras:
+  1- [Recibir] información en el [lenguaje] de cada una de las estructuras.
+  2- [Emanar] información en el lenguaje de cada estructura
+
+Con la discusión que llevé a cabo al inicio de este documento, pienso que hay muchos matices desde los que es posible llevar a cabo la implementación de la Idea 2, estos son algunos:
+
+
+[PÁGINA 3]
+
+1) El proyecto que estoy diseñando constará de varios nodos, cada uno de los cuales será independiente de otro. Yo actuaré como intermediario entre cada uno. Aunque de manera indirecta, este es un ejemplo de comunicación estructural.
+2) Crear interfaces automatizadas en los que sea  posible interactuar con sistemas enteros usando [lenguaje humano convencional] (español, inglés, chino, etc) Esta es la idea que tengo para los [Adaptadores] que mencioné en el estudio 06-dic-2025.
+3) Creación de artefactos de código a partir de  documentos (ver por ejemplo la creación de un proyecto de código en el que se muestra el grafo en cytoscapejs a partir del contrato de un seguro).
+   Esto abre la puerta a la creación de [Apps personalizadas] que si bien podrían ser sencillas, abren la puerta a muchas aplicaciones interesantes.
+La intermediación de estructuras es una consecuencia de la [comunicación estructural], posible gracias al concepto de [lenguaje de estructuras]. Esto es apenas el inicio y ya comienzan a aparecer cosas interesantes.

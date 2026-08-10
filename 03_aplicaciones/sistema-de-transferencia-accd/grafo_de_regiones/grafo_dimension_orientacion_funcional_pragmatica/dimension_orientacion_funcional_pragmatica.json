@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica",
+    "label": "dimension_orientacion_funcional_pragmatica",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica",
+    "summary": "Dimensión que describe qué quiere hacer la realización, qué efecto busca producir y qué respuesta espera activar.",
+    "metadata": {
+      "section": "4",
+      "function": "Describir qué quiere hacer la realización, qué efecto busca producir y qué clase principal de respuesta espera activar.",
+      "scope": "Esta dimensión fija el vector pragmático de la pieza. No describe todavía su segmentación ni su comparecencia local, pero sí el tipo de operación dominante que la salida debe cumplir."
+    }
+  }
+}

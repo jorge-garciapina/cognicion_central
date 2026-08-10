@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-antes_despues-antes_despues",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-antes_despues-antes_despues",
+    "label": "antes_despues",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-antes_despues-antes_despues",
+    "summary": "**Definición.** Distribución que enfrenta dos estados de un mismo objeto, situación o idea: estado inicial y estado transformado. Su sentido no está sólo en la diferencia visual, sino en la transformación que une ambas partes. Puede mostrar mejora, deterioro, corrección, evolución, intervención o ca",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

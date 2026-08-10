@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+    "label": "layout_producto_beneficio",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+    "summary": "**Definición.** Distribución donde un producto, servicio u objeto se presenta junto a su beneficio principal. No equivale a mostrar un producto aislado: exige una relación clara entre lo ofrecido y el valor que produce para el receptor.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

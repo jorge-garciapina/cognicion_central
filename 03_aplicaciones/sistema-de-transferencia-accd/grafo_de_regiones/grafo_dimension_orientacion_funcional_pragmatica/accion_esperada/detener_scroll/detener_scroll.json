@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+    "label": "detener_scroll",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-detener_scroll-detener_scroll",
+    "summary": "**Definición.** Valor que describe una acción atencional previa a cualquier interacción explícita: el receptor interrumpe el desplazamiento rápido de contenido para mirar la pieza. No equivale a comentar, guardar o comprar; es el umbral mínimo de detención perceptiva.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

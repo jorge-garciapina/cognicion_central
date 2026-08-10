@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_ascendente-diagonal_ascendente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_ascendente-diagonal_ascendente",
+    "label": "diagonal_ascendente",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-diagonal_ascendente-diagonal_ascendente",
+    "summary": "**Definición.** Recorrido que conduce la atención desde una zona inferior hacia una zona superior opuesta. Suele sugerir ascenso, mejora, crecimiento, aspiración, avance, superación o desplazamiento hacia una meta más alta.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

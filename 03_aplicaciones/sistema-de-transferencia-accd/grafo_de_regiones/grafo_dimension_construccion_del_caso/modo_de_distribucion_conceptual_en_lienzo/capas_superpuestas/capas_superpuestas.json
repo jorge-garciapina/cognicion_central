@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-capas_superpuestas-capas_superpuestas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-capas_superpuestas-capas_superpuestas",
+    "label": "capas_superpuestas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-capas_superpuestas-capas_superpuestas",
+    "summary": "**Definición.** Distribución que organiza ideas como planos que se montan unos sobre otros. Puede comunicar profundidad, acumulación, prioridad, ocultamiento, base y superficie. Se diferencia de una lista porque los elementos no sólo aparecen juntos: se perciben como niveles que se cubren, sostienen",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

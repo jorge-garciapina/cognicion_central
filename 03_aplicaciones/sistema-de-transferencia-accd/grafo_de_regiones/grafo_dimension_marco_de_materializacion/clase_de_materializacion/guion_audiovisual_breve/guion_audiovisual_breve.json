@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve",
+    "label": "guion_audiovisual_breve",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve",
+    "summary": "Valor declarado para el campo clase_de_materializacion: guion_audiovisual_breve.",
+    "metadata": {
+      "value_of": "clase_de_materializacion",
+      "section": "10.1"
+    }
+  }
+}

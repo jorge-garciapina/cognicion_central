@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-vertical-vertical",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-vertical-vertical",
+    "label": "vertical",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-vertical-vertical",
+    "summary": "**Definición.** Formato que favorece lectura descendente, presencia móvil y distribución por niveles. Permite apilar título, foco, cuerpo y cierre con más comodidad que un lienzo cuadrado.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo"
+    }
+  }
+}

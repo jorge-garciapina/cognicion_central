@@ -1,0 +1,778 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69cdb7ee-eb20-83e8-a480-b61cea616879
+================================================================================
+EJEMPLOS DE CASOS — FUENTE DE CONFIGURACIÓN DE RECEPCIÓN ATENCIONAL DEL CONTENIDO
+Versión: v1.0
+Estado: borrador fuerte
+Propósito: construir casos de ejemplo a partir de la fuente propuesta, explorar
+isomorfismos y usar dichos casos para refinar el modelo.
+Base usada: paquete conceptual de Fuentes Identitarias, ejemplo de Primacía Visible,
+FAC, Perfil de Influencer, Personalidad Digital Cognitiva y la discusión actual.
+================================================================================
+
+0) Intención de este documento
+
+Este documento no redefine la fuente.
+Tampoco busca agotar el espacio de casos posibles.
+
+Su función es más precisa:
+
+- construir ejemplos operables a partir de la Fuente de Configuración de Recepción
+  Atencional del Contenido;
+- mostrar cómo un mismo régimen estructural puede realizarse en temas, núcleos,
+  perfiles y plataformas distintas;
+- explorar isomorfismos para verificar que la fuente no está pegada a una sola
+  superficie material;
+- y distinguir con mayor claridad entre:
+  fuente,
+  región del espacio intensional,
+  caso,
+  perfil,
+  plataforma,
+  artefacto,
+  y estrategia de salida.
+
+La hipótesis de trabajo es la siguiente:
+
+si la fuente está bien formulada, entonces debe permitir generar casos distintos
+que conserven la misma forma estructural de recepción aun cuando cambien:
+- el tema,
+- el nicho,
+- la personalidad digital,
+- el perfil de influencer,
+- la plataforma,
+- el objetivo económico,
+- y la estética superficial.
+
+--------------------------------------------------------------------------------
+
+1) Recordatorio mínimo de la fuente
+
+La Fuente de Configuración de Recepción Atencional del Contenido modela la forma
+estructural en que un artefacto puede ser recibido sin perder inteligibilidad.
+
+No modela primariamente:
+- el tema,
+- la monetización,
+- la plataforma,
+- ni la estética.
+
+Modela:
+- continuidad atencional requerida,
+- densidad inferencial tolerable,
+- explicitación requerida,
+- redundancia funcional requerida,
+- tolerancia estructural a interrupciones,
+- facilidad de reenganche,
+- granularidad autosuficiente de segmentos,
+- y sensibilidad al orden secuencial.
+
+En este documento, cada caso se presenta como:
+
+CASO =
+{
+  núcleo orientador,
+  perfil / personalidad de manifestación,
+  región atencional,
+  vector intensional aproximado,
+  lectura estructural,
+  realizaciones superficiales posibles,
+  isomorfismos,
+  y prueba de no-isomorfismo
+}
+
+Escala usada para los vectores: [0,1]
+
+Orden fijo de los ejes:
+1. Continuidad atencional requerida
+2. Densidad inferencial tolerable
+3. Explicitación requerida
+4. Redundancia funcional requerida
+5. Tolerancia estructural a interrupciones
+6. Facilidad de reenganche
+7. Granularidad autosuficiente de segmentos
+8. Sensibilidad al orden secuencial
+
+--------------------------------------------------------------------------------
+
+2) Criterio de isomorfismo para este documento
+
+Dos casos cuentan como isomórficos cuando conservan la misma forma relacional de
+recepción, aunque cambien los actores, el tema, la plataforma o el objetivo.
+
+En términos prácticos, aquí habrá isomorfismo cuando:
+- el orden relativo de los ejes importantes se conserve,
+- la región intensional de pertenencia siga siendo la misma,
+- el mapa de respuesta recomendado siga siendo análogo,
+- y la inteligibilidad del artefacto dependa del mismo tipo de organización
+  atencional.
+
+No habrá isomorfismo cuando la semejanza sea solo superficial.
+Por ejemplo:
+- dos videos cortos en vertical,
+- dos clips con subtítulos,
+- dos canales de TikTok,
+pueden pertenecer a regiones atencionales distintas.
+
+--------------------------------------------------------------------------------
+
+3) CASO A — RECEPCIÓN ATENCIONAL DISCONTINUA ASISTIDA
+Región coloquialmente cercana a “second viewing”
+
+3.1) Identificación mínima del caso
+
+Núcleo orientador:
+volver legible un artefacto bajo atención fragmentada.
+
+Perfil / personalidad compatible:
+- perfil de influencer mediador,
+- personalidad digital cognitiva clara,
+- lenguaje de anclaje frecuente,
+- promesa de comprensión aun con foco parcial.
+
+Función estructural del caso:
+permitir que el sujeto siga entendiendo aunque entre y salga del foco.
+
+3.2) Vector intensional aproximado
+
+A = [0.20, 0.25, 0.85, 0.80, 0.90, 0.88, 0.82, 0.22]
+
+Lectura resumida:
+- exige poca continuidad sostenida,
+- tolera poca inferencia no explicitada,
+- requiere mucha explicitación,
+- requiere bastante redundancia funcional,
+- soporta bien interrupciones,
+- exige reenganche fácil,
+- funciona mejor con segmentos localmente valiosos,
+- y depende poco del orden fino.
+
+3.3) Lectura estructural del caso
+
+Este caso no debe entenderse como “contenido tonto” ni como “simplificación en
+abstracto”.
+
+Su lógica es más precisa:
+la forma del artefacto compensa la discontinuidad probable del sujeto.
+
+Por eso privilegia:
+- recordatorios funcionales,
+- recapitulación ligera,
+- frases de reanclaje,
+- marcadores de contexto,
+- explicitación de quién / qué / por qué,
+- y baja penalización por haber perdido un fragmento.
+
+3.4) Realizaciones superficiales posibles
+
+Realización 1:
+serie mainstream o video narrativo pensado para verse mientras el usuario revisa
+el celular.
+
+Realización 2:
+clip sobre estrategia política que explica un patrón replicable con frases muy
+claras, recapitulación y cierre explícito.
+
+Realización 3:
+pieza de educación financiera prudente donde la marca repite los supuestos clave
+para evitar malentendidos bajo atención parcial.
+
+Realización 4:
+video técnico breve de “mentor técnico accesible” donde se repiten pasos clave y
+se evita depender de inferencias largas.
+
+Realización 5: 
+video corto pensado para verse en el celular mientras el usuario ve una serie maintram 
+o video narrativo (o realiza alguna otra actividad compatible).
+
+3.5) Isomorfismos principales
+
+Isomorfismo A1:
+serie de entretenimiento mainstream
+↔ análisis de estrategia política en clip
+↔ explicación financiera prudente en reel
+↔ tutorial técnico breve con captions
+
+Lo que permanece no es el tema.
+Lo que permanece es la misma organización de recepción:
+- foco intermitente,
+- reanclaje alto,
+- explicitud alta,
+- costo bajo por pérdida local del hilo.
+
+Isomorfismo A2:
+plataformas distintas, misma región
+- TikTok
+- YouTube Shorts
+- Instagram Reels
+- incluso un módulo de onboarding dentro de una app
+
+La plataforma cambia la salida concreta, pero no destruye la forma del régimen.
+
+3.6) Prueba de no-isomorfismo
+
+No es isomórfico a:
+- una conferencia filosófica densa,
+- un ensayo audiovisual ambiguo,
+- un documental que exige atención secuencial fuerte,
+- una clase magistral larga donde una distracción destruye el hilo.
+
+3.7) Refinamiento que aporta a la fuente
+
+Este caso muestra que “second viewing” debe entenderse como región del espacio
+intensional y no como sinónimo de plataforma, tono o género.
+
+--------------------------------------------------------------------------------
+
+4) CASO B — RECEPCIÓN INSTRUMENTAL MODULAR DE CONSULTA
+
+4.1) Identificación mínima del caso
+
+Núcleo orientador:
+permitir acceso útil por fragmentos relativamente autosuficientes.
+
+Perfil / personalidad compatible:
+- mentor técnico accesible,
+- guía pedagógica práctica,
+- perfil que privilegia claridad utilitaria y recuperación rápida.
+
+Función estructural del caso:
+que cada segmento resuelva localmente una necesidad sin exigir inmersión total
+ni continuidad fuerte.
+
+4.2) Vector intensional aproximado
+
+B = [0.45, 0.30, 0.75, 0.45, 0.85, 0.90, 0.95, 0.30]
+
+Lectura resumida:
+- continuidad media-baja,
+- inferencia baja,
+- explicitación alta,
+- redundancia moderada,
+- alta tolerancia a interrupciones,
+- reenganche muy alto,
+- segmentos muy autosuficientes,
+- poca dependencia del orden global.
+
+4.3) Lectura estructural del caso
+
+Aquí el objetivo no es sostener un flujo inmersivo.
+El objetivo es que el contenido funcione como superficie de acceso modular.
+
+El sujeto puede:
+- entrar por una duda puntual,
+- resolver una necesidad concreta,
+- saltarse segmentos,
+- volver después,
+- y seguir obteniendo valor.
+
+4.4) Realizaciones superficiales posibles
+
+Realización 1:
+canal tecnológico donde cada video responde una pregunta específica:
+“cómo desplegar en Docker”, “cómo hacer polling en GraphQL”, “cómo modelar un
+schema en MongoDB”.
+
+Realización 2:
+módulos educativos donde cada cápsula resuelve un concepto del curso y puede
+consultarse por separado.
+
+Realización 3:
+manual audiovisual de uso de una herramienta o producto.
+
+Realización 4:
+contenido de acondicionamiento físico donde cada pieza explica una técnica,
+error común o corrección puntual.
+
+4.5) Isomorfismos principales
+
+Isomorfismo B1:
+video de software práctico
+↔ cápsula de matemáticas
+↔ rutina correctiva de entrenamiento
+↔ respuesta de FAQ empresarial
+
+En todos los casos se preserva:
+- consulta puntual,
+- valor por segmento,
+- reentrada muy fácil,
+- y bajo castigo por no seguir la serie completa.
+
+Isomorfismo B2:
+YouTube largo con capítulos
+↔ TikTok en serie
+↔ carrusel de Instagram
+↔ base de conocimiento interactiva
+
+La superficie cambia, pero la lógica sigue siendo modular.
+
+4.6) Prueba de no-isomorfismo
+
+No es isomórfico a:
+- contenido cuya fuerza depende del suspenso continuo,
+- una narrativa de revelación progresiva,
+- un argumento filosófico donde cada parte reordena el sentido de la anterior,
+- o una película con alto costo por pérdida del orden.
+
+4.7) Refinamiento que aporta a la fuente
+
+Este caso obliga a distinguir entre:
+- alta tolerancia a interrupciones,
+- y baja continuidad requerida,
+
+porque ambas pueden coexistir con una lógica distinta de la región cercana a
+“second viewing”.
+
+Aquí la diferencia decisiva no es solo la atención fragmentada, sino la alta
+autosuficiencia de segmentos.
+
+--------------------------------------------------------------------------------
+
+5) CASO C — RECEPCIÓN INMERSIVA SECUENCIAL DENSA
+
+5.1) Identificación mínima del caso
+
+Núcleo orientador:
+producir una trayectoria de comprensión que depende fuertemente del orden y del
+mantenimiento del foco.
+
+Perfil / personalidad compatible:
+- analista profundo,
+- ensayista serio,
+- profesor de alta densidad,
+- documentalista que no reancla de manera fuerte cada pocos pasos.
+
+Función estructural del caso:
+llevar al sujeto a una comprensión que solo emerge si se preserva la continuidad
+secuencial.
+
+5.2) Vector intensional aproximado
+
+C = [0.92, 0.78, 0.30, 0.20, 0.18, 0.25, 0.18, 0.94]
+
+Lectura resumida:
+- requiere mucha continuidad de foco,
+- tolera bastante inferencia,
+- necesita poca explicitación inmediata,
+- poca redundancia funcional,
+- baja tolerancia a interrupciones,
+- reenganche difícil,
+- segmentos poco autosuficientes,
+- alta dependencia del orden.
+
+5.3) Lectura estructural del caso
+
+Aquí el contenido no compensa la distracción.
+Más bien presupone una disposición inmersiva.
+
+El valor aparece por acumulación secuencial.
+Perder un tramo sí cuesta.
+Reentrar no es trivial.
+
+5.4) Realizaciones superficiales posibles
+
+Realización 1:
+video ensayo largo sobre estrategia, historia o filosofía política.
+
+Realización 2:
+clase profunda de teoría o matemáticas donde cada paso depende del anterior.
+
+Realización 3:
+documental serio con montaje argumental progresivo.
+
+Realización 4:
+curso premium de negocios donde el sentido completo emerge de la secuencia.
+
+5.5) Isomorfismos principales
+
+Isomorfismo C1:
+ensayo filosófico audiovisual
+↔ curso largo de estrategia
+↔ documental histórico de alta densidad
+↔ masterclass técnica avanzada
+
+La estructura compartida es:
+- continuidad fuerte,
+- alta sensibilidad al orden,
+- baja modularidad real,
+- inferencia más alta,
+- y castigo mayor por atención intermitente.
+
+5.6) Prueba de no-isomorfismo
+
+No es isomórfico a:
+- tutoriales modulares,
+- clips de social media con recapitulación alta,
+- piezas creadas para reenganche inmediato,
+- ni videos cuyo valor principal sea servir como puerta rápida hacia una capa
+  posterior de mediación.
+
+5.7) Refinamiento que aporta a la fuente
+
+Este caso demuestra que la fuente no debe sesgarse hacia el polo de atención
+fragmentada.
+
+Si la fuente es correcta, debe poder albergar también regiones que exigen foco
+continuo y secuencia fuerte.
+
+--------------------------------------------------------------------------------
+
+6) CASO D — RECEPCIÓN UMBRAL DE PROFUNDIZACIÓN RELACIONAL
+Región ligada a la estrategia de “interacción por profundización”
+
+6.1) Identificación mínima del caso
+
+Núcleo orientador:
+usar el contenido público como umbral suficiente para activar una relación más
+profunda fuera de la pieza.
+
+Perfil / personalidad compatible:
+- perfil de influencer como interfaz de mediación,
+- personalidad digital que deja clara una promesa de profundidad adicional,
+- presencia que convierte curiosidad pública en entrada relacional.
+
+Función estructural del caso:
+que el sujeto no necesite comprender todo, sino reconocer suficiente valor como
+para cruzar a otra capa: DM, curso, llamada, lead, descarga, comunidad.
+
+6.2) Vector intensional aproximado
+
+D = [0.35, 0.40, 0.72, 0.35, 0.82, 0.86, 0.78, 0.42]
+
+Lectura resumida:
+- continuidad relativamente baja,
+- inferencia moderada,
+- explicitación media-alta,
+- redundancia moderada-baja,
+- buena tolerancia a interrupciones,
+- reenganche alto,
+- segmentos con valor local suficiente,
+- orden secuencial de importancia media.
+
+6.3) Lectura estructural del caso
+
+Aquí el contenido no tiene como meta primaria agotar el valor dentro de sí.
+Su meta primaria es funcionar como umbral de elegibilidad relacional.
+
+La pieza pública debe:
+- mostrar competencia,
+- activar interés,
+- dejar ver profundidad potencial,
+- y señalar la siguiente capa.
+
+6.4) Realizaciones superficiales posibles
+
+Realización 1:
+clip sobre una estrategia política replicable que termina con:
+“si quieres explorar esto a fondo, envíame mensaje y te mando un prompt”.
+
+Realización 2:
+video sobre un modelo de negocio que abre paso a un curso o consultoría.
+
+Realización 3:
+pieza financiera que termina en invitación a diagnóstico o comunidad cerrada.
+
+Realización 4:
+explicación técnica breve que funciona como puerta a una mentoría, repositorio o
+herramienta premium.
+
+6.5) Isomorfismos principales
+
+Isomorfismo D1:
+estrategia política
+↔ modelo de negocios
+↔ marco de inversión prudente
+↔ arquitectura técnica reusable
+
+En todos los casos, la pieza pública se comporta como:
+- demostración mínima de valor,
+- filtro de interés real,
+- y puente hacia una capa posterior de mediación.
+
+Isomorfismo D2:
+video público
+↔ hilo en X
+↔ carrusel con CTA
+↔ webinar de entrada
+
+La superficie cambia, pero la función umbral permanece.
+
+6.6) Prueba de no-isomorfismo
+
+No es isomórfico a:
+- contenido autosuficiente que no necesita continuación relacional,
+- obra inmersiva cuyo fin es la experiencia misma,
+- ni tutorial modular cuyo objetivo es resolver ahí mismo una duda concreta.
+
+6.7) Refinamiento que aporta a la fuente
+
+Este caso ayuda a distinguir entre:
+- recepción para inteligibilidad completa,
+- y recepción suficiente para habilitar un paso de mediación posterior.
+
+Es decir:
+la fuente no solo debe modelar comprensión plena, sino también umbrales de
+recepción funcionalmente suficientes.
+
+--------------------------------------------------------------------------------
+
+7) CASO E — RECEPCIÓN DE SUSPENSIÓN-RETENCIÓN POR CORTE
+Región ligada a la estrategia de “anuncio interrumpido”
+
+7.1) Identificación mínima del caso
+
+Núcleo orientador:
+producir una tensión local que obligue a sostener o recuperar la atención tras un
+corte deliberado.
+
+Perfil / personalidad compatible:
+- comunicador de ritmo rápido,
+- perfil orientado a retención temporal,
+- presencia que controla el punto de interrupción como mecanismo de expectativa.
+
+Función estructural del caso:
+que la pieza no se sostenga solo por claridad o modularidad, sino por una promesa
+abierta que queda suspendida temporalmente.
+
+7.2) Vector intensional aproximado
+
+E = [0.58, 0.35, 0.60, 0.22, 0.62, 0.93, 0.50, 0.70]
+
+Lectura resumida:
+- continuidad media,
+- inferencia baja-media,
+- explicitación media,
+- poca redundancia,
+- tolerancia media a interrupciones,
+- reenganche muy alto,
+- segmentos no totalmente autosuficientes,
+- sensibilidad al orden claramente superior al caso modular.
+
+7.3) Lectura estructural del caso
+
+El sujeto puede no estar inmerso de forma profunda,
+pero sí queda capturado por una deuda de resolución.
+
+La pieza se organiza alrededor de:
+- activación rápida de expectativa,
+- corte en punto de máxima tensión,
+- y entrega posterior de resolución.
+
+7.4) Realizaciones superficiales posibles
+
+Realización 1:
+clip que promete una conclusión estratégica y se corta justo antes del ejemplo.
+
+Realización 2:
+video técnico que enumera un error crítico, interrumpe y luego muestra la solución.
+
+Realización 3:
+pieza de finanzas que plantea “la razón por la que este modelo fracasa” y retrasa
+unos segundos la explicación.
+
+Realización 4:
+relato breve donde el corte cae en el punto más emocionante.
+
+7.5) Isomorfismos principales
+
+Isomorfismo E1:
+clip narrativo
+↔ clip técnico
+↔ clip político
+↔ clip de marketing
+
+No es el tema lo que manda, sino la misma lógica:
+- promesa,
+- suspensión,
+- recuperación,
+- y cierre.
+
+7.6) Prueba de no-isomorfismo
+
+No es isomórfico a:
+- piezas hechas para consulta modular,
+- contenido que puede recorrerse en cualquier orden,
+- ni regiones donde el sujeto puede perder el hilo sin costo.
+
+7.7) Refinamiento que aporta a la fuente
+
+Este caso sirve para no confundir:
+- alta facilidad de reenganche,
+- con baja sensibilidad secuencial.
+
+Aquí el reenganche es alto, pero el orden sigue importando porque la deuda de
+resolución organiza la experiencia.
+
+--------------------------------------------------------------------------------
+
+8) Isomorfismos transversales que refinan la fuente
+
+8.1) Mismo régimen, distinta superficie
+
+Un mismo régimen atencional puede aparecer en:
+- entretenimiento,
+- política,
+- finanzas,
+- educación,
+- tecnología,
+- fitness,
+- ventas,
+- y onboarding.
+
+Esto confirma que la fuente no debe construirse desde el tema.
+
+8.2) Misma plataforma, distinto régimen
+
+TikTok no equivale a una sola región.
+En TikTok pueden convivir:
+- recepción discontinua asistida,
+- consulta modular,
+- suspensión-retención,
+- y umbral de profundización relacional.
+
+Esto confirma que plataforma != caso.
+
+8.3) Mismo perfil, múltiples regímenes
+
+Una misma personalidad digital cognitiva puede realizar varios regímenes.
+Por ejemplo, “mentor técnico accesible” puede producir:
+- consulta modular,
+- umbral de profundización,
+- o incluso una versión densa e inmersiva en un curso largo.
+
+Esto confirma que personalidad != región atencional.
+
+8.4) Mismo núcleo, múltiples casos
+
+Un mismo núcleo conceptual puede proyectarse en varias regiones.
+Ejemplo:
+“estrategia política” puede realizarse como:
+- clip second-viewing-like,
+- cápsula modular de consulta,
+- video umbral con CTA,
+- o masterclass inmersiva secuencial.
+
+Esto confirma que núcleo != caso.
+
+8.5) Misma región, distintos fines económicos
+
+La misma región atencional puede servir para:
+- awareness,
+- captura de atención,
+- validación,
+- filtrado de audiencia,
+- construcción de activo relacional,
+- o monetización posterior.
+
+Esto confirma que objetivo económico != fuente.
+
+--------------------------------------------------------------------------------
+
+9) No-isomorfismos decisivos
+
+Para refinar aún más la fuente, conviene fijar algunas diferencias fuertes:
+
+9.1) Atención fragmentada no equivale automáticamente a modularidad
+
+Un contenido puede tolerar interrupciones y aun así depender bastante del orden.
+Eso ocurre en la región de suspensión-retención.
+
+9.2) Explicitación alta no equivale automáticamente a “second viewing”
+
+También puede haber explicitación alta en una pieza umbral o en un tutorial
+modular.
+Lo decisivo es cómo se combinan todos los ejes, no uno solo.
+
+9.3) Reenganche alto no equivale automáticamente a bajo valor secuencial
+
+Puede haber reenganche alto por recapitulación,
+por modularidad,
+o por tensión suspendida.
+Son lógicas distintas.
+
+9.4) Formato corto no equivale automáticamente a un mismo régimen
+
+Un short puede ser:
+- modular,
+- umbral,
+- second-viewing-like,
+- o suspensivo.
+
+9.5) El mismo artefacto visible puede cambiar de caso si cambia su contrato de
+recepción
+
+No basta mirar la superficie material.
+Hay que mirar qué tipo de tránsito atencional se espera del sujeto.
+
+--------------------------------------------------------------------------------
+
+10) Posibles extensiones a partir de estos casos
+
+10.1) Crear una matriz de contribución regional
+
+A partir de estos cinco casos ya es posible comenzar a fijar una matriz que asigne
+pesos diferenciales de contribución entre dimensiones y regiones.
+
+10.2) Añadir moduladores contextuales
+
+La misma región puede verse modulada por:
+- edad o perfil cognitivo del sujeto,
+- familiaridad previa con el tema,
+- contexto de medio,
+- contexto de distribución,
+- tiempo disponible,
+- y objetivo institucional de la pieza.
+
+10.3) Traducir las regiones a exigencias de adaptación
+
+Cada región puede producir salidas del tipo:
+- aumentar recapitulación,
+- reducir elipsis,
+- reforzar CTA,
+- independizar segmentos,
+- o elevar continuidad narrativa.
+
+10.4) Integrar la fuente con Perfil de Influencer y Personalidad Digital Cognitiva
+
+Perfil de Influencer puede entenderse como unidad de mediación.
+Personalidad Digital Cognitiva puede entenderse como forma estabilizada de
+manifestación.
+La Fuente de Configuración de Recepción Atencional del Contenido agrega otra capa:
+la forma estructural en que el artefacto debe poder ser recibido.
+
+Esto permite una composición más fuerte:
+
+Núcleo
+→ Perfil de Influencer
+→ Personalidad Digital Cognitiva
+→ Región de Recepción Atencional
+→ Adaptador
+→ Artefacto de salida
+→ Evidencia
+
+--------------------------------------------------------------------------------
+
+11) Cierre provisional
+
+Estos casos muestran que la fuente propuesta sí puede comenzar a operar como una
+Fuente Identitaria en sentido fuerte.
+
+No porque ya esté cerrada definitivamente,
+sino porque ya permite:
+- distinguir casos,
+- construir vectores,
+- reconocer regiones,
+- detectar isomorfismos,
+- producir no-isomorfismos útiles,
+- y preparar una futura matriz de respuesta.
+
+El refinamiento principal que emerge de los ejemplos es este:
+
+la recepción atencional del contenido no debe modelarse como una sola escala de
+“más o menos atención”, sino como un espacio estructurado de regímenes donde se
+cruzan continuidad, inferencia, explicitación, redundancia, interrupción,
+reenganche, modularidad y secuencialidad.
+
+Por eso, “second viewing” deja de parecer un término confuso o periodístico y
+pasa a entenderse como lo que probablemente es dentro del modelo:
+
+una región particular del espacio intensional de una fuente más amplia.

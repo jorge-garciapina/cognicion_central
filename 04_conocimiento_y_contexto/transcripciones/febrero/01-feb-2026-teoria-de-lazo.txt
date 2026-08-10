@@ -1,0 +1,330 @@
+TRANSCRIPCIÓN — PÁGINAS (1) A (8)
+(Teoría de Lazo / mNode / composición ascendente / ejemplo musical / interior–exterior–frontera)
+
+Nota de transcripción:
+- Se respetó el contenido y el orden de las páginas.
+- Cuando una palabra no se distingue con certeza, se marca como [ilegible] o (¿?).
+- Los dibujos se representaron como “Figuras” en texto (diagramas ASCII o listas de nodos/aristas) para conservar la idea estructural.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 1
+──────────────────────────────────────────────────────────────────────────────
+
+[Teoría de Lazo]
+
+La teoría de Lazo es una consecuencia de la forma en la que Teoría de Máquinas Cognitivas modela las entidades.
+
+El modelo requiere que cada entidad cognitiva se origine a partir de piezas mínimas, que llamaremos “unidades mínimas de dominio”.
+Para la TMC, estas unidades mínimas son los mNode:
+
+• Un mNode es una forma cognitiva reconocible que conserva identidad bajo variación, posee un borde claro de pertenencia
+  y puede ser compartida sin degradarse en interpretaciones privadas. Su función dentro del grafo es actuar como entidad
+  formal mínima para poder hablar de “manifestaciones cognitivas” como unidades identificables, manteniendo criterios explícitos
+  de identidad y transferencia.
+
+Al inicio del proceso de desarrollo decía que la idea de los mNodes era funcionar como building-blocks de estructuras más complejas,
+de manera similar a como funcionan los lego. Esa es la razón detrás de hacer tanto énfasis en decir que un mNode debe poseer un borde
+claro. Existen analogías al concepto de mNode como Unidad Mínima de Dominio en otros dominios:
+
+• En biología, las células son unidades mínimas, estas forman tejidos, los tejidos órganos, los órganos sistemas, etc. En este
+  dominio hay escalas estructurales, las cuales están propiciadas por la composición ascendente.
+
+• En física se parte de partículas (electrón, neutrón, protón), estas forman átomos, moléculas, y sustancias (¿o materia?).
+  En este dominio también hay escalas y composición ascendente.
+
+En ambos ejemplos es posible observar que una teoría se sostiene a partir de unidades mínimas de dominio, aunque es importante considerar
+que estas unidades mínimas no son “absolutas” y que dependen de cada escala que se analice.
+
+Veamos.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 2
+──────────────────────────────────────────────────────────────────────────────
+
+Para entender el “escalonamiento” del cuerpo humano, es necesario hacer “escalas”, las cuales dependerán del nivel de detalle
+(resolución) requerido, por ejemplo:
+
+Si quisiéramos comprender a un nivel “superficial” podríamos fijar algunas dimensiones básicas.
+
+Entender como funciona una dieta:
+  - Tejido muscular
+  - Digestión
+  - Metabolismo
+  - Sistema cardiovascular
+  ] Dimensiones base…
+
+Explicar funcionamiento de protector solar:
+  - Tejido epitelial ] dimensión base
+
+Explicar contagio de gripe:
+  - Sistema inmunológico
+  - Sistema respiratorio ] Dimensiones base
+
+Para estas explicaciones superficiales no es necesario tener una resolución muy grande, un grupo de resoluciones base sirven para comprender
+una idea general (como ejemplo me pondré a mí mismo: las “dimensiones” de cada ejemplo los propuse a partir de un entendimiento superficial.
+Un médico o especialista de la salud dominará un mayor número de dimensiones).
+
+A continuación, un ejemplo de música:
+
+Nivel 0:
+  • Duración (segundos)
+  • Intensidad (bajo/media/alta)
+
+Nivel 1:
+  (Una “nota” se construye con los componentes de nivel 0)
+  • Nota (duración, intensidad)
+
+Nivel 2:
+  (Una melodía se construye con notas)
+  • Melodía = lista de notas.
+  • Duración total = suma de duraciones de las notas
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 3
+──────────────────────────────────────────────────────────────────────────────
+
+Los ejemplos anteriores muestran la idea central que se trata de transmitir: cualquier entidad existe como una ontología, es decir,
+la existencia de algo es la combinación de sus elementos. Esto tiene algunas implicaciones:
+
+  - Nada existe en aislamiento.
+  - Si todo está conectado al grafo primario, entonces por lo menos hay un camino entre cualesquiera 2 entidades (tangibles e intangibles)
+
+Regresando a la idea principal:
+Según esta visión, nada existe como una entidad aislada, sino como una combinación de varias partes.
+
+Como ejemplo, analicemos la música.
+
+El símbolo de una nota solo significa duración
+
+[Figura 3.1 — Nota aislada]
+  (símbolo de nota sin pentagrama, sin clave, sin tempo)
+
+Así, no habría forma de saber nada, porque incluso la duración depende del tempo.
+
+Si se mejorara la descripción y se añadiera
+
+[Figura 3.2 — Nota en pentagrama]
+  (pentagrama + nota)
+
+se tendría una idea más clara, pero aún quedarían dudas, pero si se añade
+
+[Figura 3.3 — Nota con clave]
+  (pentagrama + nota + clave; se muestran dos claves distintas separadas por una barra)
+
+En ambas situaciones la clave hace que cambie el significado,
+
+y si se añadiera el tempo:
+
+Moderate ♩ = 120
+
+[Figura 3.4 — Nota + clave + tempo]
+  (pentagrama + nota + clave + indicación de tempo)
+
+Entonces ya no habría duda de cómo tocar esa nota.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 4
+──────────────────────────────────────────────────────────────────────────────
+
+Una obra musical no solo son notas, también incluye posiciones de las notas, escala, tempo, entre otras cosas (compás, intensidad etc.).
+La obra musical es la combinación de muchas partes, y ni siquiera estoy considerando cosas como “melodías”, las cuales necesitan una base técnica).
+
+Veamos:
+
+Nivel 0: Dimensiones técnicas
+Son ejes técnicos que definen el espacio donde la música puede existir.
+
+  1- Altura (pitch): qué tan grave o aguda es la nota.
+  2- Duración (rhythm): cuánto dura una nota respecto a un pulso (negra, corchea, etc.).
+  3- Compás (meter): cómo se agrupa el pulso (p.e., 4/4: cuatro pulsos por compás).
+  4- Tempo: cuántos pulsos por minuto.
+  5- Intensidad (dynamics): qué tan fuerte o suave (piano, forte, etc.).
+
+Clave conceptual: cada dimensión es un dominio distinto. El tempo no “contiene” a la intensidad; el compás no “contiene” a la altura.
+Son ejes separables.
+
+Nivel 1: Unidades musicales básicas (hechas con Nivel 0)
+(Piezas con identidad propia)
+
+U1) Evento de nota (unidad mínima práctica)
+Un evento de nota se construye combinando dimensiones del Nivel 0:
+  • Evento = (altura, duración, posición-en-compás, intensidad)
+
+La posición-en-compás es la ubicación temporal dentro del compás (pulso1, pulso2, etc.). Esta posición existe porque ya existe “compás”
+y “tempo” como marco.
+
+U2) Compás como contenedor
+Un compás es un contenedor temporal definido por el compás (Nivel 0)
+  • Compás = conjunto ordenado de eventos que caben en 4 pulsos (si es 4/4)
+
+Identidad: un compás es una unidad que se puede mover, repetir o reemplazar.
+
+Nivel 2: Unidades musicales (patrones)
+(Estructuras musicales reconocibles)
+
+U3) Motivo (unidad reconocible y reusable)
+Un motivo es un patrón pequeño de eventos (Nivel 1) con identidad:
+  • motivo = secuencia corta de eventos (por ejemplo 4 eventos)
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 5
+──────────────────────────────────────────────────────────────────────────────
+
+Dimensiones del motivo:
+  1- Patrón de intervalos (cómo cambia la altura entre notas)
+  2- Patrón rítmico (cómo se reparten duraciones)
+  3- Patrón de acentos (qué posiciones se sienten fuertes dado el compás)
+
+Identidad: el motivo se puede repetir, variar, invertir, transponer, etc.
+
+U4) Melodía (cadena de motivos)
+  • Melodía = concatenación de motivos (y de compases que los contienen)
+
+Dimensiones mínimas:
+  1- Contorno (sube, baja, se mantiene)
+  2- Cadencia local (como “cierra” en puntos clave)
+  3- Densidad rítmica (muchas notas rápidas o pocos largos)
+
+Nivel 3: Estructuras mayores (Forma)
+
+U5) Frase
+  • Frase = varios compases organizados (por ejemplo, 2, 4 u 8 compases)
+
+Dimensiones mínimas:
+  1- Longitud (número de compases)
+  2- Tensión → resolución (sensación de ir y volver)
+  3- Cierre (tipo de final perceptible)
+
+U6) Sección (A, B, coro, verso)
+  • Sección = conjunto de frases con una identidad más grande
+
+Dimensiones mínimas:
+  1- Función (presentar, contrastar, culminar)
+  2- Energía promedio (por intensidad y densidad)
+  3- Estabilidad (qué tan “en casa” se siente el material)
+
+Ejemplo.
+
+[Tabla 5.1 — Ejemplo de construcción por niveles]
+
+Nivel 0:
+  - Compás: 4/4
+  - Tempo: 120
+  - Intensidad: media
+  - Alturas: Do-Re-Mi-Sol (por simplicidad)
+
+Nivel 1:
+  - Compás = [e1, e2, e3, e4]
+  - Eventos (cada uno es unidad):
+    e1 = (Do, negra, pulso 1, medio)
+    e2 = (Re, negra, pulso 2, medio)
+    e3 = (Mi, negra, pulso 3, medio)
+    e4 = (Sol, negra, pulso 4, medio)
+
+Nivel 2 (motivo y melodía):
+  - Motivo M = [e1, e2, e3, e4]
+  - Intervalos: sube, sube, sube más
+  - Ritmo: ♩ - ♩ - ♩ - ♩ pulsos
+  - Acento: fuerte en el pulso 1 (4/4)
+  - Melodía = repetir M dos veces
+  - Melodía = M + M
+
+Nivel 3 (frase):
+  - Frase F = 2 compases
+    Compás 1 = M
+    Compás 2 = M
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 6
+──────────────────────────────────────────────────────────────────────────────
+
+La teoría de Lazo nació como consecuencia de las ideas expuestas en los ejemplos anteriores. Por el momento me enfocaré exclusivamente
+en el eje ontológico.
+
+Eje ontológico = forma, estado o configuración del sistema.
+
+Aquí hay cierta confusión, es importante aclarar.
+
+En el ejemplo Representación Mínima del 02/febrero/2026 se analizó el “refinamiento” de una definición, es decir: el paso de una ontología
+“débil” a una ontología fuerte.
+
+[Figura 6.1 — Ontología débil vs. ontología fuerte (representación textual)]
+
+A) Ontología débil (esquema conceptual)
+- Nodos visibles: {1, 2, 3, 4} (conectados en una estructura pequeña).
+- Existe un “bloque” de definición (D) representado como un rectángulo aparte, aún no expandido en nodos internos.
+- Idea central: “D” está presente como referencia/etiqueta, pero su estructura interna no está explicitada en el grafo.
+
+B) Ontología fuerte (esquema conceptual)
+- Nodos visibles “externos”: {1, 2, 3, 4}.
+- Dentro de una frontera (línea roja punteada) aparece un subgrafo que explicita la estructura de D:
+  Nodos internos: {5, 6, 7, 8, 9} (y sus aristas internas).
+- Idea central: “D” deja de ser solo un bloque/etiqueta y se convierte en una ontología explícita (un sistema con partes y relaciones).
+
+Nota:
+El dibujo original contiene una configuración específica de aristas. En esta transcripción se conserva la intención estructural:
+“refinar” equivale a pasar de una entidad como caja opaca a una entidad como subgrafo explícito.
+
+En este ejemplo podemos ver que lo que se encuentra dentro de la línea roja es una “entidad”, que en el ejemplo del 02/feb/2026 se
+denominó cNode (nodo cognitivo). En el dominio que estamos desarrollando, cada nodo representa un mNode, es decir, una estructura cognitiva
+con identidad mínima (en el 02/feb/2026 ya se discutió sobre las aristas).
+
+Podemos definir algunas partes conceptuales:
+(Seguiré los números de los nodos)
+
+El sistema dentro de la línea roja punteada se “define” (es necesario usar con precaución la palabra “definición” puesto que los nodos
+5,6,7,8 y 9 surgieron como consecuencia de una “refinación” a una definición, según se menciona arriba) como la ontología formada por los
+nodos 5,6,7,8 y 9 así como por las aristas entre ellos, para simplificar, lo llamaremos sistema “D”.
+
+A partir de este punto es importante usar el ejemplo anterior para clarificar algunos conceptos que ya se tienen definidos tanto en el
+planteamiento de la teoría de Lazo como en la Arquitectura Cognitiva Fractal.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 7
+──────────────────────────────────────────────────────────────────────────────
+
+1) Interior
+Ejemplo: “Ontología formada por los nodos 5,6,7,8 y 9 así como por las aristas entre ellos”
+
+ACF: [Ocupación] → “Lo que efectivamente se hace o se piensa: conceptos, hábitos, actos, datos, ejemplos, prácticas, pensamientos,
+imágenes, experiencias.”
+
+TL: [Entidad]/[Sistema] → “Unidad que conserva identidad operacional; sostiene una frontera.”
+
+2) Exterior
+Ejemplo: “Todo lo que se encuentra fuera de la línea roja”
+
+ACF: [Envolvente] → “Campo que hace posible una forma de pensamiento o experiencia. Es el ‘espacio’ donde algo puede adquirir forma:
+idioma, paradigma, método, institución o marco perceptivo.”
+
+TL: [Campo de manifestación] → “Conjunto de restricciones, oportunidades, recursos, amenazas, consecuencias y estructura causal relevante
+con la que la entidad interactúa. NO equivale a ‘todo el mundo’; equivale al exterior que acopla la frontera.”
+
+En el ejemplo que se estudió, el “exterior” son los nodos 2, 3 y 1, puesto que estos son con los que D interactúa. Esto es importante ya
+que limita lo exterior a aquello que se encuentra en la vecindad de la entidad, como se indica en TL: “no equivale a todo el mundo; equivale
+al exterior que acopla la frontera”.
+
+Nota:
+Es posible hacer crecer la vecindad a voluntad, lo que es equivalente a “aplicar” el sistema o la entidad a un rubro en particular con alguna
+finalidad en particular.
+
+3) Frontera
+Ejemplo: Nodos 5 y 8. “Puntos” de contacto con el exterior.
+
+ACF: [Puentes] → “Conexiones entre zonas aisladas de la ocupación o entre distintas envolventes.”
+
+TL: [Membrana] → Regla que separa interior y exterior, y define canales de entrada (señales) y salida (acciones)
+
+Puede ser [lo que entra] o [lo que sale]. Lo que provee identidad o “el campo de manifestación”.
+
+──────────────────────────────────────────────────────────────────────────────
+PÁGINA 8
+──────────────────────────────────────────────────────────────────────────────
+
+El grafo anterior puede ser considerado como un [grafo conceptual]. Los nodos son mNodes, es decir, proyecciones estructurales de estructuras
+cognitivas, portadores de identidad propia.
+
+Con estas tres partes es posible entender cómo los [sistemas conceptuales] adquieren forma, cómo se transforman y cómo conservan coherencia
+mientras crecen. Un ejemplo claro es el grafo para la teoría de Máquinas Cognitivas, puesto que cada nodo es una entidad independiente se puede
+usar en distintas partes, por ejemplo el [Principio de Transferencia Estructural] provee criterios para definir [Familia Cognitiva]. Cada
+concepto (nodo) dentro del grafo de la teoría permite la misma funcionalidad.

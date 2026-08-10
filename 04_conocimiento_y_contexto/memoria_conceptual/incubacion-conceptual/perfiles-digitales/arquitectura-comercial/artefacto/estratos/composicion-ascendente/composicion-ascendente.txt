@@ -1,0 +1,375 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d020c4-7cb0-83e8-a1a2-5a92794f5116
+================================================================================
+PLANTEAMIENTO REVISADO
+ESTRATO DE UNIDADES MÍNIMAS Y COMPOSICIÓN ASCENDENTE
+================================================================================
+
+0) Intención del estrato
+
+Este estrato se introduce para fijar cómo se organiza la composición material y
+operativa de la Arquitectura Comercial de Creación de Contenido Digital cuando
+la proyección del núcleo ya debe traducirse a artefactos, secuencias y sistemas
+de mayor escala.
+
+Su función no es nombrar simplemente:
+- formatos de contenido,
+- piezas visibles,
+- ni una escalera intuitiva de “cosas pequeñas” a “cosas grandes”.
+
+Su función es más fuerte:
+nombrar el subgrafo que distingue
+- qué unidades existen en el dominio,
+- cómo se ensamblan en el eje de ejecución,
+- cómo cambian de escala,
+- y cómo una composición puede preservar identidad y seguir siendo válida al
+  crecer.
+
+--------------------------------------------------------------------------------
+1) Tesis central
+
+La composición ascendente no debe entenderse como una suma lineal del tipo:
+
+hook → bloque → reel → campaña.
+
+Debe entenderse como un régimen de ensamblaje multiescala donde:
+
+- existen unidades con identidad local,
+- esas unidades pertenecen a ejes distintos,
+- algunas funcionan como componentes del dominio,
+- otras como unidades de ejecución,
+- y su combinación solo es legítima cuando puede sostener
+  borde,
+  función,
+  compatibilidad,
+  continuidad estructural
+  y validez contextual.
+
+Dicho de forma compacta:
+
+Composición ascendente =
+diferenciación de ejes
++ unidades mínimas por escala
++ ensamblaje de módulos
++ preservación estructural
++ validación de la composición.
+
+--------------------------------------------------------------------------------
+2) Qué delimita este estrato
+
+Este estrato delimita el problema de:
+
+- cómo una proyección concreta se vuelve artefacto,
+- cómo varias unidades menores se integran en módulos mayores,
+- cómo esos módulos escalan a series, campañas y sistemas,
+- y cómo evitar que la arquitectura colapse en una lista indiferenciada de
+  formatos.
+
+No delimita, en sentido fuerte:
+- el núcleo identitario,
+- el contexto como tal,
+- el mapa de respuesta completo,
+- ni la convertibilidad económica final.
+
+Se articula con esos estratos,
+pero su foco propio es:
+la ontología composicional y ejecutiva del sistema.
+
+--------------------------------------------------------------------------------
+3) Distinción fundamental de ejes
+
+Este estrato exige separar, como mínimo, dos ejes:
+
+3.1) Eje ontológico del dominio
+Describe qué tipos de unidades existen como piezas del dominio de creación de
+contenido digital, independientemente de una ejecución puntual.
+
+3.2) Eje de ejecución
+Describe cómo esas unidades se usan, ensamblan, secuencian y escalan dentro de
+un caso concreto de proyección.
+
+Regla crítica:
+No toda unidad del dominio es automáticamente una unidad mínima de ejecución.
+No toda unidad de ejecución tiene la misma escala.
+No todo módulo compuesto pertenece a la misma familia funcional.
+
+--------------------------------------------------------------------------------
+4) Subestrato ontológico del dominio
+
+Este subestrato fija qué tipos de entidades existen en el dominio de composición.
+
+4.1) ACCD-Unidad-Minima-de-Dominio
+Unidad irreducible del dominio en una escala dada, tal que:
+- todavía conserva identidad funcional mínima,
+- ya no puede descomponerse sin perder la operación que la vuelve reconocible,
+- y puede servir como componente de módulos mayores.
+
+No se define por “ser corta” o “pequeña”.
+Se define por ser el mínimo estructural operativo de una escala.
+
+4.2) ACCD-Modulo-Simple-de-Dominio
+Arreglo estable de unidades mínimas del dominio que ya constituye una función
+reconocible, pero que todavía no despliega una arquitectura compuesta completa.
+
+Ejemplos candidatos:
+- apertura de captación,
+- bloque de clarificación,
+- bloque de densificación,
+- bloque de CTA,
+- cierre serial.
+
+4.3) ACCD-Modulo-Compuesto-de-Dominio
+Entidad de orden superior formada por módulos simples y/o por otras unidades
+compuestas, con:
+- borde propio,
+- función reconocible,
+- y posibilidad de operar como unidad reutilizable en una escala mayor.
+
+Ejemplos candidatos:
+- reel,
+- carrusel,
+- newsletter,
+- mini-serie,
+- funnel relacional,
+- secuencia breve de piezas.
+
+4.4) ACCD-Familia-Operativa-de-Dominio
+Clasificación transversal que agrupa unidades o módulos no por tema ni por
+formato superficial, sino por su rol operativo dominante dentro del sistema.
+
+Una familia operativa puede reunir elementos de distinta superficie material
+si comparten función estructural.
+
+--------------------------------------------------------------------------------
+5) Subestrato de ejecución
+
+Este subestrato fija cómo se usan, ensamblan y escalan las unidades del dominio
+dentro de una proyección concreta.
+
+5.1) ACCD-Unidad-Minima-de-Ejecucion
+Unidad mínima efectivamente manipulable dentro del flujo de construcción.
+
+Ejemplos candidatos:
+- hook,
+- giro,
+- reencuadre,
+- prueba,
+- promesa,
+- contraste,
+- ancla simbólica,
+- CTA,
+- cliffhanger,
+- cierre.
+
+Estas unidades no deben entenderse solo como “recursos narrativos”.
+Deben entenderse como operaciones locales de ejecución.
+
+5.2) ACCD-Modulo-Simple-de-Ejecucion
+Secuencia o agrupación breve de unidades mínimas de ejecución que ya cumple una
+función local reconocible.
+
+Ejemplos candidatos:
+- apertura de captación,
+- bloque de clarificación,
+- bloque de densificación,
+- bloque de CTA,
+- transición de reenganche,
+- cierre serial.
+
+5.3) ACCD-Modulo-Compuesto-de-Ejecucion
+Configuración ejecutiva de mayor escala que puede contener varios módulos
+simples y producir un artefacto o segmento funcionalmente reconocible.
+
+Ejemplos candidatos:
+- reel,
+- carrusel,
+- newsletter,
+- video largo breve,
+- secuencia de piezas,
+- hilo,
+- landing modular.
+
+5.4) ACCD-Composicion-Ascendente
+Régimen por el cual una construcción escala desde unidades mínimas hacia
+entidades mayores manteniendo:
+- coherencia funcional,
+- borde reconocible,
+- compatibilidad con la escala superior,
+- y trazabilidad estructural.
+
+Escalas mínimas candidatas:
+- unidad local,
+- módulo simple,
+- módulo compuesto,
+- pieza aislada,
+- serie,
+- campaña,
+- sistema de canal,
+- arquitectura comercial total.
+
+5.5) ACCD-Unidad-Minima-de-Escala
+Nodo metaestructural que fija que cada escala puede tener su propio mínimo.
+
+Esto impide errores como:
+- tratar hook y campaña como si fueran comparables sin mediación;
+- o asumir una sola noción universal de “unidad mínima”.
+
+--------------------------------------------------------------------------------
+6) Acoplamiento con el caso de proyección contextual
+
+Este estrato no debe operar en vacío.
+
+La unidad real que lo activa no es la pieza aislada, sino el caso de proyección
+contextual:
+
+Caso de Proyección =
+núcleo
++ contexto de sujeto
++ contexto de distribución
++ intención
++ restricciones
++ heurísticas de salida
++ contenido material estructurado
++ adaptador.
+
+Por tanto:
+el estrato de composición ascendente no inicia en la pieza,
+sino en la necesidad de dar forma material a un caso compuesto.
+
+--------------------------------------------------------------------------------
+7) Papel del contenido material y del adaptador
+
+7.1) Grafo de contenido
+El contenido material no debe reducirse a “texto”.
+Conviene modelarlo como estructura composicional:
+un grafo de materiales semánticos, narrativos, conceptuales o procedimentales.
+
+7.2) Adaptador
+El adaptador no es un simple formateador.
+Es el operador que traduce:
+
+- núcleo,
+- grafo de contenido,
+- contexto de sujeto,
+- contexto de distribución,
+- salida objetivo,
+- restricciones,
+- heurísticas,
+
+a un artefacto ejecutable.
+
+7.3) Grafo de artefacto
+La salida ideal de la composición no tiene por qué ser directamente “texto final”.
+Puede ser un grafo de artefacto capaz de renderizarse como:
+- guion,
+- storyboard,
+- captions,
+- reel,
+- carrusel,
+- lista de tomas,
+- landing,
+- secuencia de piezas.
+
+--------------------------------------------------------------------------------
+8) Invariantes del estrato
+
+8.1) Invariante de separación de ejes
+Debe distinguirse entre ontología del dominio y eje de ejecución.
+
+8.2) Invariante de mínimo por escala
+Cada escala debe tener borde propio y mínimo propio.
+
+8.3) Invariante de composición no arbitraria
+Una escala superior no es una simple suma.
+Debe constituir una entidad con función y borde.
+
+8.4) Invariante de trazabilidad
+Debe poder reconstruirse de qué unidades y módulos proviene una composición.
+
+8.5) Invariante de compatibilidad contextual
+La composición ejecutiva debe ser compatible con el caso de proyección que la
+origina.
+
+8.6) Invariante de no-colapso en formato
+Un reel, una newsletter o una mini-serie no deben definirse solo por superficie,
+sino por estructura operativa y lugar en la escala.
+
+8.7) Invariante de posible preservación identitaria
+La composición debe poder crecer sin romper necesariamente la identidad del
+núcleo o del contrato estructural.
+
+--------------------------------------------------------------------------------
+9) Estados de validez de la composición
+
+No toda composición pertenece automáticamente al dominio válido.
+
+Conviene distinguir al menos:
+
+9.1) Composición válida
+La configuración conserva borde, función, compatibilidad contextual y escala
+coherente.
+
+9.2) Composición ambigua
+La configuración activa lógicas parcialmente incompatibles o no resuelve con
+claridad su función dominante.
+
+9.3) Composición inestable
+La configuración es posible, pero frágil; su continuidad o eficacia depende de
+supuestos demasiado tensos.
+
+9.4) Composición inválida
+La combinación rompe bordes de escala, exige incompatibilidades contextuales o
+mezcla unidades de forma que impide una lectura funcional estable.
+
+--------------------------------------------------------------------------------
+10) Preguntas de diagnóstico del estrato
+
+Este estrato debe permitir responder preguntas como:
+
+- ¿qué tipo de unidad es esta?
+- ¿a qué eje pertenece?
+- ¿cuál es su escala?
+- ¿cuál es su mínimo operativo?
+- ¿qué función local cumple?
+- ¿de qué depende?
+- ¿cómo se integra en una unidad mayor?
+- ¿qué se preserva cuando escala?
+- ¿la composición resultante es válida, ambigua, inestable o inválida?
+
+--------------------------------------------------------------------------------
+11) Relaciones con otros estratos
+
+Este estrato:
+- depends_on Estrato de Instanciación Contextual,
+- uses Grafo de Contenido,
+- uses Adaptador,
+- conditions Estrato Funcional de Piezas,
+- refines Estrato de Atención Organizada,
+- and must remain compatible with Estrato Identitario.
+
+No sustituye a esos estratos.
+Les da materialidad composicional.
+
+--------------------------------------------------------------------------------
+12) Fórmula de cierre
+
+Estrato de Unidades Mínimas y Composición Ascendente =
+subgrafo que distingue:
+- ontología del dominio,
+- eje de ejecución,
+- unidades mínimas por escala,
+- módulos simples,
+- módulos compuestos,
+- trayectorias de composición,
+- y estados de validez,
+
+para modelar cómo un caso de proyección contextual se traduce, mediante
+adaptadores, en artefactos y sistemas multiescala sin reducir la arquitectura a
+una lista plana de formatos o piezas.
+
+Forma condensada:
+
+No se trata de enumerar formatos.
+Se trata de modelar cómo una proyección compuesta se vuelve artefacto escalable.
+================================================================================
+FIN
+================================================================================

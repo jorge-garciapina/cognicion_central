@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios-titulo-titulo",
+    "type": "has_value",
+    "rationale": "titulo es un valor nuevo incorporado en elementos_visuales_obligatorios para la realización imagen."
+  }
+}

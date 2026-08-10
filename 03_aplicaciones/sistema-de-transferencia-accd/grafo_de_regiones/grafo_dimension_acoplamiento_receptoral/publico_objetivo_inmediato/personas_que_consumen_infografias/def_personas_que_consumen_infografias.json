@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_consumen_infografias-personas_que_consumen_infografias",
+  "content": "**Definición.** Receptor habituado a comprender información mediante combinaciones de texto, iconos, datos, diagramas, bloques y jerarquías visuales. Espera que la imagen organice contenido, no sólo que lo ilustre.\n\n**Diferenciación semántica.** Se diferencia de `personas_que_prefieren_diagramas` porque la infografía puede integrar datos, titulares, visualizaciones, listas y explicaciones; el diagrama privilegia relaciones estructurales. Se diferencia de `personas_que_buscan_inspiracion_visual` porque su expectativa principal es informativa.\n\n**Interpretación mínima.** La IA debe entender que este receptor acepta cierta densidad visual si está organizada y señalizada."
+}

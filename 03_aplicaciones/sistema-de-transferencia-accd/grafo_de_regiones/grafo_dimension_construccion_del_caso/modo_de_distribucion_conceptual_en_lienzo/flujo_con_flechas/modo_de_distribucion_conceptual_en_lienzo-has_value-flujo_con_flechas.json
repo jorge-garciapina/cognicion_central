@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-flujo_con_flechas-flujo_con_flechas",
+    "type": "has_value",
+    "rationale": "flujo_con_flechas es un valor nuevo incorporado en modo_de_distribucion_conceptual_en_lienzo para la realización imagen."
+  }
+}

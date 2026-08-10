@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+    "type": "has_value",
+    "rationale": "3_a_5 es un valor de cantidad_de_laminas incorporado para la realización carousel."
+  }
+}

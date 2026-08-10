@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima",
+    "label": "minima",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima",
+    "summary": "Valor minima del campo regimen_de_explicitacion_escenica.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica"
+  }
+}

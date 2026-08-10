@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_image_post-linkedin_image_post",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_image_post-linkedin_image_post",
+    "label": "linkedin_image_post",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_image_post-linkedin_image_post",
+    "summary": "**Definición.** Aplicación para publicación visual en LinkedIn. Suele requerir tono profesional, claridad conceptual, autoridad, legibilidad y relación con temas laborales, técnicos, institucionales o comerciales.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

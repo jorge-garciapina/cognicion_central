@@ -1,0 +1,305 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d433a2-c744-83e8-bcba-81e3dd911aca
+
+{"address":"graph/node/ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Secuencia-de-Recepcion",
+  "label":"ACCD — Secuencia de Recepción",
+  "type":"domain_node",
+  "definition_ref":"def/ACCD-Secuencia-de-Recepcion",
+  "summary":"Este nodo fija la secuencia canónica por la cual una manifestación material deja de ser mera salida visible y entra en un régimen de recepción estructurable. Su función es ordenar el pasaje entre comparecencia, atención organizada y primera inteligibilidad de la respuesta, sin colapsar todavía en convertibilidad económica, capital institucional fuerte o evidencia de largo ciclo."
+}}
+
+{"address":"def/ACCD-Secuencia-de-Recepcion","content":"[
+================================================================================
+DEFINICIÓN — ACCD — SECUENCIA DE RECEPCIÓN
+Versión: v1.0
+================================================================================
+
+0) Intención del nodo
+
+ACCD-Secuencia-de-Recepcion se introduce para fijar una trayectoria canónica del
+paquete por la cual una manifestación material deja de ser simple salida visible
+y entra en un régimen de recepción estructurable.
+
+Su función no es nombrar:
+- una pieza aislada,
+- una cronología trivial de publicación,
+- una secuencia económica,
+- ni un régimen completo de evidencia o aprendizaje.
+
+Su función es nombrar una secuencia estructural específica que permite describir:
+- el paso entre salida visible y encuentro efectivo con el entorno;
+- la transformación de respuesta dispersa en atención operable;
+- y la producción de una primera lectura legible de lo ocurrido en recepción.
+
+Este nodo debe existir porque, sin él, los componentes cercanos a recepción
+quedan como lista suelta y no como trayectoria articulada.
+
+--------------------------------------------------------------------------------
+1) Definición central
+
+Secuencia de Recepción =
+trayectoria canónica por la cual una manifestación material comparece en un
+entorno, atraviesa un campo de atención organizada y produce una primera capa de
+lectura, validación inicial y perfil de respuesta, sin haber entrado todavía en
+regímenes fuertes de convertibilidad, capital institucional o retorno completo.
+
+Dicho de otro modo:
+
+ACCD-Secuencia-de-Recepcion no es la pieza.
+Tampoco es la monetización.
+Tampoco es la evidencia posterior.
+
+Es la trayectoria que organiza el umbral temprano de recepción.
+
+--------------------------------------------------------------------------------
+2) Qué fenómeno o función delimita
+
+Este nodo delimita el problema de cómo una pieza:
+- comparece,
+- es recibida,
+- produce foco, continuidad o abandono,
+- y deja una primera forma de respuesta legible para el sistema.
+
+Recorta específicamente:
+- el tránsito entre manifestación material y comparecencia;
+- el paso entre comparecencia y atención estructurable;
+- y el momento en que la respuesta del entorno se vuelve inicialmente legible.
+
+No delimita:
+- cierre económico,
+- capital institucional fuerte,
+- captura monetaria,
+- diagnóstico de retorno,
+- ni trayectoria acumulada.
+
+Su borde está en un umbral anterior:
+la recepción temprana estructurable.
+
+--------------------------------------------------------------------------------
+3) Dependencias conceptuales
+
+ACCD-Secuencia-de-Recepcion depende, como base mínima, de los siguientes nodos:
+
+3.1) ACCD-Manifestacion-Material
+Porque la secuencia parte de una salida ya producida y visible.
+
+3.2) ACCD-Comparecencia
+Porque la pieza debe dejar de existir solo como archivo y entrar en superficie de
+encuentro.
+
+3.3) ACCD-Atencion-Organizada
+Porque la recepción no puede tratarse como simple tráfico bruto; debe volverse
+materia legible, estabilizable y derivable.
+
+3.4) ACCD-Lectura-Inicial
+Porque el sistema necesita una primera inteligibilidad de lo ocurrido en
+recepción.
+
+3.5) ACCD-Validacion-Inicial
+Porque la secuencia incluye un primer umbral de confirmación de que la entrada al
+entorno no fue puro ruido.
+
+3.6) ACCD-Perfil-de-Respuesta
+Porque la arquitectura necesita tipificar la forma de respuesta producida por la
+manifestación.
+
+Estas dependencias no son decorativas.
+Funcionan como stages mínimos de la trayectoria.
+
+--------------------------------------------------------------------------------
+4) Invariantes
+
+ACCD-Secuencia-de-Recepcion preserva al menos los siguientes invariantes:
+
+4.1) Invariante de salida material previa
+Debe existir una manifestación material ya producida.
+
+4.2) Invariante de comparecencia efectiva
+La pieza debe entrar en una superficie real de encuentro con el entorno.
+
+4.3) Invariante de atención no bruta
+La respuesta del entorno no puede quedarse en flujo indiferenciado; debe existir
+algún grado de atención organizable.
+
+4.4) Invariante de primera legibilidad
+La secuencia debe permitir una lectura inicial de lo ocurrido.
+
+4.5) Invariante de umbral temprano de validación
+Debe poder distinguirse entre mera exposición y primera aceptación o
+compatibilidad mínima.
+
+4.6) Invariante de tipificación de respuesta
+La secuencia debe poder producir una primera clasificación del tipo de respuesta
+obtenida.
+
+4.7) Invariante de no-colapso con convertibilidad
+La secuencia no debe confundirse con monetización o captura.
+
+4.8) Invariante de no-colapso con retorno completo
+La secuencia no debe confundirse con evidencia, diagnóstico, corrección o
+trayectoria.
+
+--------------------------------------------------------------------------------
+5) Fórmula canónica de la secuencia
+
+manifestación material
+→ comparecencia
+→ atención organizada
+→ lectura inicial / validación inicial / perfil de respuesta
+
+Esta fórmula no debe leerse como cronología rígida de relojería.
+Debe leerse como gramática mínima de tránsito receptivo.
+
+--------------------------------------------------------------------------------
+6) Stages internos de la secuencia
+
+6.1) ACCD-Manifestacion-Material
+Stage de entrada de la secuencia.
+Aquí la pieza ya existe como salida visible, pero todavía no ha sido tratada como
+evento de recepción.
+
+6.2) ACCD-Comparecencia
+Umbral por el cual la manifestación material entra en un entorno de recepción y
+deja de ser solo posibilidad abstracta.
+
+6.3) ACCD-Atencion-Organizada
+Campo donde la respuesta del entorno deja de ser flujo indiferenciado y pasa a
+convertirse en materia legible, estabilizable, segmentable y acumulable.
+
+6.4) ACCD-Lectura-Inicial
+Primer procesamiento interpretativo de la respuesta producida por la atención.
+
+6.5) ACCD-Validacion-Inicial
+Primer umbral de confirmación de que la comparecencia no fue puro ruido y de que
+la pieza logró una compatibilidad mínima con el entorno.
+
+6.6) ACCD-Perfil-de-Respuesta
+Clasificación inicial del tipo de respuesta producido por la manifestación.
+
+--------------------------------------------------------------------------------
+7) Lectura fuerte del nodo
+
+La secuencia de recepción no dice simplemente:
+“se publicó algo y luego la gente reaccionó”.
+
+Dice algo más preciso:
+
+- una manifestación material comparece en un entorno;
+- esa comparecencia no garantiza todavía recepción operable;
+- la respuesta del entorno debe atravesar un campo de atención organizada;
+- y solo después puede producir lectura inicial, validación inicial y perfil de
+  respuesta.
+
+Esto permite distinguir entre:
+- estar visible,
+- comparecer efectivamente,
+- captar atención,
+- organizar atención,
+- y producir una respuesta legible.
+
+--------------------------------------------------------------------------------
+8) Superficie de integración
+
+ACCD-Secuencia-de-Recepcion se integra al resto del paquete como trayectoria
+global canónica que articula:
+- el eje de manifestación,
+- el eje de recepción,
+- y el umbral temprano de validación.
+
+Su utilidad es transversal porque permite que distintos estratos del paquete
+ubiquen con precisión:
+- qué parte del proceso están usando,
+- qué stage producen,
+- qué stage heredan,
+- y qué transiciones condicionan.
+
+Toca inmediatamente:
+- manifestación,
+- comparecencia,
+- atención,
+- lectura temprana,
+- validación temprana,
+- y tipificación de respuesta.
+
+--------------------------------------------------------------------------------
+9) Validación
+
+La definición se considera correctamente aplicada cuando permite:
+
+9.1) distinguir entre salida visible y comparecencia efectiva;
+9.2) distinguir entre comparecencia y atención organizada;
+9.3) explicar cómo la respuesta del entorno se vuelve legible;
+9.4) ubicar el umbral de validación temprana sin confundirlo con capital
+      institucional fuerte;
+9.5) producir una primera tipificación de la respuesta;
+9.6) mantener separada esta secuencia respecto de convertibilidad y retorno.
+
+Una mala aplicación se detecta cuando:
+- se trata la secuencia como simple publicación + métricas;
+- se confunde atención con monetización;
+- se confunde validación inicial con capital institucional;
+- o se absorbe todo el régimen de retorno dentro de recepción.
+
+--------------------------------------------------------------------------------
+10) Fórmula de cierre
+
+ACCD-Secuencia-de-Recepcion =
+manifestación material
++ comparecencia
++ atención organizada
++ primera legibilidad
++ validación inicial
++ perfil de respuesta
+
+Por eso este nodo no nombra una reacción genérica del entorno.
+Nombra la trayectoria mínima por la cual una salida entra realmente en régimen de
+recepción estructurable.
+]"} 
+
+{"address":"graph/edge/ACCD-Manifestacion-Material-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Manifestacion-Material-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Manifestacion-Material",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Manifestacion-Material pertenece a ACCD-Secuencia-de-Recepcion porque la trayectoria receptiva no puede comenzar sin una salida ya producida que funcione como superficie visible de encuentro posible con el entorno."
+}}
+
+{"address":"graph/edge/ACCD-Comparecencia-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Comparecencia-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Comparecencia",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Comparecencia pertenece a ACCD-Secuencia-de-Recepcion porque la recepción exige un umbral por el cual la manifestación material deja de existir solo como archivo y entra en presencia efectiva dentro de un entorno real de encuentro."
+}}
+
+{"address":"graph/edge/ACCD-Atencion-Organizada-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Atencion-Organizada-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Atencion-Organizada",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Atencion-Organizada pertenece a ACCD-Secuencia-de-Recepcion porque la secuencia no se agota en la mera comparecencia; requiere el punto en que la respuesta del entorno deja de ser flujo bruto y pasa a convertirse en materia receptiva operable."
+}}
+
+{"address":"graph/edge/ACCD-Lectura-Inicial-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Lectura-Inicial-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Lectura-Inicial",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Lectura-Inicial pertenece a ACCD-Secuencia-de-Recepcion porque la trayectoria receptiva debe producir una primera inteligibilidad de lo ocurrido, distinguiendo captación, continuidad, abandono, legibilidad o sobrecarga sin entrar todavía en el régimen completo de retorno."
+}}
+
+{"address":"graph/edge/ACCD-Validacion-Inicial-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Validacion-Inicial-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Validacion-Inicial",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Validacion-Inicial pertenece a ACCD-Secuencia-de-Recepcion porque la secuencia incluye un primer umbral de confirmación de que la comparecencia no fue puro ruido y de que la pieza logró una compatibilidad receptiva mínima con su entorno."
+}}
+
+{"address":"graph/edge/ACCD-Perfil-de-Respuesta-stage_of-ACCD-Secuencia-de-Recepcion","content":{
+  "id":"ACCD-Perfil-de-Respuesta-stage_of-ACCD-Secuencia-de-Recepcion",
+  "from":"ACCD-Perfil-de-Respuesta",
+  "to":"ACCD-Secuencia-de-Recepcion",
+  "type":"stage_of",
+  "rationale":"La arista stage_of establece que ACCD-Perfil-de-Respuesta pertenece a ACCD-Secuencia-de-Recepcion porque la trayectoria receptiva no solo debe registrar que hubo respuesta, sino también tipificar su forma estructural inicial: continuidad frágil, captación sin continuidad, recepción inmersiva, consulta modular u otras configuraciones equivalentes."
+}}

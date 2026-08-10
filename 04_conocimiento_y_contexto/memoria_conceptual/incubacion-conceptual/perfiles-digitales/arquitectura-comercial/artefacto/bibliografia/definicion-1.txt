@@ -1,0 +1,295 @@
+================================================================================
+TEORÍA DE MÁQUINAS COGNITIVAS — DEFINICIÓN OPERATIVA DE “ESTADO COGNITIVO”
+(versión de trabajo, derivada de la discusión sobre pipelines, AIDA, mNodes y grafos)
+================================================================================
+
+0) Propósito de esta definición
+-------------------------------
+Definir “estado cognitivo” como un objeto conceptual-operativo que permita:
+- describir qué está ocurriendo “dentro” del receptor en un momento dado,
+- explicar cómo un pipeline (por ejemplo AIDA) produce cambios internos,
+- hacer comparables dos intervenciones que comparten stages pero difieren en contenido,
+- preparar el terreno para representar cognición con mNodes y (si aplica) grafos.
+
+Esta definición NO presupone formalismo matemático completo.
+Sí fija un marco estructural mínimo y auditabile.
+
+================================================================================
+1) Definición central
+---------------------
+Un ESTADO COGNITIVO es la configuración actual de una plataforma cognitiva
+entendida como sistema, expresada como:
+
+(1) qué unidades internas (mNodes) están activas o disponibles,
+(2) con qué dominancia (peso) actúa cada una,
+(3) cómo se relacionan e influyen entre sí,
+(4) bajo qué restricciones y contexto operativo,
+(5) y con qué disposición hacia ciertas salidas (acciones o manifestaciones).
+
+En términos simples:
+- el estado cognitivo no es “una cosa”,
+- es una CONFIGURACIÓN de componentes + intensidades + relaciones,
+- que puede cambiar por estímulos/entradas y por operaciones internas.
+
+================================================================================
+2) Partes mínimas del estado cognitivo
+--------------------------------------
+Un estado cognitivo tiene, como mínimo, estas partes:
+
+2.1) Catálogo de mNodes relevantes (componentes internos)
+--------------------------------------------------------
+Los mNodes son unidades funcionales internas que “hacen algo como forma”,
+no solo “contienen contenido”.
+
+Ejemplos típicos (no exhaustivos) en el contexto de AIDA/pipeline persuasivo:
+- atención (foco)
+- carga cognitiva / fatiga
+- relevancia percibida (“esto es para mí”)
+- comprensión (“qué es / qué ofrece / por qué importa”)
+- confianza (credibilidad del emisor / seguridad del producto)
+- emoción dominante (curiosidad, esperanza, miedo, aspiración, etc.)
+- intención (predisposición a actuar)
+- objeciones activas (precio, riesgo, duda, alternativa)
+
+Nota: estos mNodes NO son “etapas” del pipeline.
+Son dimensiones internas que pueden variar a lo largo de cualquier etapa.
+
+2.2) Activación (qué está “encendido”)
+--------------------------------------
+Parte del estado es el subconjunto de mNodes que están activos.
+Ejemplo: en un estado inicial de indiferencia,
+- atención: baja o inactiva
+- relevancia: baja
+- comprensión: nula o irrelevante
+- intención: baja
+- objeciones: latentes (no activas todavía)
+
+Activación responde a: “qué variables internas están operando ahora”.
+
+2.3) Intensidad / peso (qué domina)
+-----------------------------------
+Cada mNode activo tiene un peso (dominancia).
+El peso expresa “qué gobierna” el estado actual.
+
+Ejemplos:
+- atención alta: el receptor está enfocado.
+- emoción alta: la emoción gobierna la interpretación.
+- objeción dominante: el bloqueo gobierna el comportamiento.
+- intención dominante: el sistema está orientado a ejecutar una acción.
+
+Los pesos explican por qué dos mensajes que “capturan atención” pueden
+no orientar hacia la misma salida: capturan atención de formas distintas,
+activando pesos distintos en otros mNodes (confianza, comprensión, objeciones).
+
+2.4) Relaciones internas (estructura entre mNodes)
+--------------------------------------------------
+Los mNodes no operan aislados. El estado incluye relaciones típicas como:
+- soporte: comprensión → intención (cuando entender impulsa actuar)
+- inhibición: objeciones → acción (bloqueo por riesgo/precio/duda)
+- amplificación: emoción → atención (la emoción concentra foco)
+- puente: relevancia → deseo (si es para mí, me importa)
+- degradación: carga cognitiva → comprensión (sobrecarga reduce claridad)
+
+Estas relaciones pueden representarse como:
+- reglas causales (“si sube X, baja Y”), o
+- conexiones en un grafo (si se adopta enfoque de grafos).
+
+2.5) Contexto y restricciones del estado
+----------------------------------------
+El estado no existe en vacío.
+Incluye condiciones que restringen cómo puede evolucionar:
+
+- contexto externo (situación, canal, tiempo, presión, credenciales del emisor)
+- restricciones de ejecución (fricción: pasos difíciles, costo, tiempo)
+- límites cognitivos (fatiga, atención disponible, tolerancia a complejidad)
+- memoria/experiencia previa (sesgos, experiencias con la marca, hábitos)
+
+Estas restricciones son relevantes porque determinan:
+- qué cambios son plausibles,
+- qué mNodes son más “sensibles” a la intervención.
+
+2.6) Orientación hacia salidas (disposición)
+--------------------------------------------
+El estado incluye una “orientación” o “tendencia” hacia ciertas salidas.
+Esta orientación se observa como:
+
+- cuál mNode o subconfiguración tiene mayor dominancia,
+- y qué trayectoria probable sigue el sistema si no se interviene.
+
+En un pipeline tipo AIDA, el objetivo es que la configuración final
+favorezca el atractor “acción” (o micro-acciones: like, comentario, guardar).
+
+================================================================================
+3) Cómo se crea un estado cognitivo
+-----------------------------------
+La creación de estado no es “generar un mNode de la nada” necesariamente.
+En un sistema cognitivo, un estado emerge por:
+
+3.1) Estado previo (persistencia)
+---------------------------------
+Siempre hay un estado anterior S(t-1). El nuevo estado es S(t),
+resultado de modificaciones sobre lo existente.
+
+Esto evita el error conceptual:
+“toda entrada se convierte en un mNode”.
+Más preciso:
+- la entrada produce un cambio de estado,
+- que puede activar un modo (familia),
+- y producir/actualizar algunos mNodes,
+- mientras otros mNodes persisten o se reutilizan.
+
+3.2) Entrada / perturbación
+---------------------------
+Una entrada es un estímulo (mensaje, evento, señal, evidencia, historia).
+La entrada por sí sola no es el estado; es el disparador de transición.
+
+3.3) Operación interna / transmutación (Δ)
+------------------------------------------
+La transición S(t-1) → S(t) se produce por operaciones internas:
+- selección/activación de mNodes,
+- ajuste de pesos,
+- creación o actualización de relaciones,
+- resolución o activación de objeciones,
+- consolidación o degradación de comprensión, etc.
+
+La forma concreta de la operación depende del “contenido” específico
+de la intervención, no solo del stage nominal.
+
+Ejemplo ilustrativo (mismo objetivo: captar atención):
+A) “Nadie le creía, hasta que todos vieron el resultado de su trabajo”.
+   Posibles efectos:
+   - atención ↑ (tensión narrativa)
+   - curiosidad ↑
+   - confianza ↑ (promesa de evidencia)
+   - objeción “es puro cuento” ↓
+
+B) “Cuando un sueño se hace realidad el soñador despierta”.
+   Posibles efectos:
+   - atención ↑ (tono poético)
+   - emoción ↑ (inspiración)
+   - comprensión ↔/↓ (ambigüedad)
+   - confianza ↔ (no necesariamente aumenta)
+
+Ambos pueden ocupar el mismo stage “Attention”,
+pero generan estados internos diferentes.
+
+3.4) Consolidación / memoria (acumulación parcial)
+--------------------------------------------------
+Algunas variables pueden acumularse:
+- confianza puede subir gradualmente o colapsar por inconsistencia.
+- comprensión puede consolidarse por repetición/claridad.
+- intención puede crecer hasta cruzar un umbral.
+- objeciones pueden aparecer, resolverse, reaparecer.
+
+Otras son pulsantes:
+- atención puede tener picos y caídas.
+- emoción puede dispararse y disiparse.
+
+Esto justifica que el estado incluya memoria de progreso.
+
+================================================================================
+4) Cómo un pipeline (AIDA) usa estados: macro-stages vs micro-dinámica
+----------------------------------------------------------------------
+Un pipeline define un orden de intervención (stages) y busca inducir
+una trayectoria de estados.
+
+4.1) Stages como “macro-tramos”
+------------------------------
+AIDA describe un camino macro:
+- de indiferencia → foco → involucramiento → preferencia → ejecución
+
+Aunque se nombre con 4 letras, el punto no es “solo ocurren 4 cosas internas”.
+El punto es:
+- hay un destino (acción),
+- y el mensaje debe empujar el sistema por tramos.
+
+4.2) Variables internas como “espacio de estado”
+------------------------------------------------
+La lista de variables (atención, comprensión, confianza, etc.) no es “otra lista
+de etapas”, sino el espacio interno mínimo para describir el cambio real.
+
+4.3) Cada stage presiona variables, pero ninguna variable pertenece en exclusiva
+----------------------------------------------------------------------------
+No existe regla rígida:
+- “atención solo en A”
+- “confianza solo en D”
+- “objeciones solo en Action”
+En cambio:
+- cada stage tiende a presionar ciertas variables más,
+- pero el contenido puede mover muchas variables a la vez.
+
+Ejemplos:
+- en Attention se puede subir confianza si se introduce prueba.
+- en Desire se puede perder atención si se sobrecarga con tecnicismos.
+- en Action se puede perder intención si aparece fricción (pasos difíciles).
+
+================================================================================
+5) Por qué un grafo ponderado es una buena representación (sin formalismo excesivo)
+---------------------------------------------------------------------------------
+La intuición central:
+
+- el estado es una configuración de mNodes con relaciones,
+- y esa configuración tiene dominancias (pesos),
+- por lo que un grafo ponderado es un soporte natural.
+
+5.1) Qué representaría un grafo ponderado
+-----------------------------------------
+- nodos: mNodes (atención, comprensión, confianza, intención, objeciones, etc.)
+- pesos de nodo: dominancia actual (qué gobierna)
+- aristas: influencias (soporte, inhibición, amplificación)
+- pesos de arista: fuerza de influencia (qué tan fácil X altera Y)
+
+5.2) Qué significa “dirección” u orientación
+--------------------------------------------
+“dirección” no es solo flechas; es el atractor dominante:
+- configuración hacia la cual el estado tiende a estabilizarse.
+
+En AIDA:
+- se busca redistribuir pesos para que el atractor final sea “acción”
+  (o micro-acciones, según el objetivo).
+
+Esto formaliza la intuición:
+“el nodo/subgrafo con mayor peso incita a la acción”.
+
+5.3) Qué aporta el enfoque de grafo frente a solo stages
+--------------------------------------------------------
+- explica por qué dos contenidos en el mismo stage producen estados distintos,
+- permite describir “detalles internos” sin reventar el pipeline,
+- permite modelar objeciones como nodos inhibidores,
+- permite modelar acumulación y deriva como cambios de pesos.
+
+================================================================================
+6) Criterios prácticos: cómo reconocer y comparar estados (operacionalización)
+------------------------------------------------------------------------------
+Un estado puede considerarse “bien definido” si se puede describir:
+
+- conjunto de mNodes relevantes (qué importa aquí),
+- pesos aproximados (qué domina),
+- relaciones principales (qué causa qué),
+- contexto y restricciones (qué limita),
+- orientación (qué salida es más probable).
+
+Comparar dos estados (S1 vs S2) consiste en comparar:
+- qué mNodes cambian de activación,
+- qué pesos se redistribuyen,
+- qué relaciones se fortalecen o debilitan,
+- y qué atractor se vuelve dominante.
+
+================================================================================
+7) Resultado: el estado como unidad puente para comprender el pipeline cognitivo
+--------------------------------------------------------------------------------
+El pipeline cognitivo puede definirse como:
+- un conjunto ordenado de intervenciones (stages),
+- diseñadas para producir una trayectoria de estados cognitivos,
+- mediante transmutaciones de mNodes (activación, peso, relación),
+- hasta alcanzar un atractor final (salida objetivo).
+
+Esto permite:
+- integrar AIDA y otros modelos dentro de la teoría de máquinas cognitivas,
+- sin tratar “stages” y “estado” como conceptos en competencia,
+- y sin confundir “salidas” con “estados” (las salidas son manifestaciones
+  observables; los estados son configuraciones internas que las hacen posibles).
+
+================================================================================
+fin
+================================================================================

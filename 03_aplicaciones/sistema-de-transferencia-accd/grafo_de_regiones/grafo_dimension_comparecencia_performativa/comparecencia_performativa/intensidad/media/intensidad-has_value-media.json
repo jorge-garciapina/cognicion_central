@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+    "type": "has_value",
+    "rationale": "media es un valor declarado para el campo intensidad."
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_en_una_mirada-comprension_en_una_mirada",
+  "content": "**Definición.** Valor que indica que la pieza debe entregar su sentido principal en una percepción inicial breve. No significa que todos los detalles se agoten instantáneamente, sino que la idea dominante, la relación central o la intención comunicativa deben reconocerse casi de inmediato.\n\n**Diferenciación semántica.** Se diferencia de `comprension_inmediata` como efecto buscado porque aquí regula el régimen de resolución: cómo se cierra cognitivamente la lectura principal. Se diferencia de `comprension_por_recorrido_visual` porque no requiere seguir una ruta interna extensa.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza necesita foco dominante, baja ambigüedad inicial y jerarquía clara desde el primer contacto visual."
+}

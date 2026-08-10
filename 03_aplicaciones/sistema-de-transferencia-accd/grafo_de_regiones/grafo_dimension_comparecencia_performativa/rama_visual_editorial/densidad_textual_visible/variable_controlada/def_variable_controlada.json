@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-variable_controlada-variable_controlada",
+  "content": "Valor que permite variar la densidad textual entre láminas, pero siguiendo una lógica explícita.\n\nPor ejemplo: portada de baja densidad, desarrollo de densidad media, lámina técnica de densidad alta y cierre de baja densidad.\n\nEjemplo:\n\n```txt\nLámina 1: frase breve.\nLámina 2-4: explicación media.\nLámina 5: matriz más densa.\nLámina 6: CTA breve.\n```\n\nSirve para carousels que combinan captación, explicación, herramienta y cierre.\n\n---"
+}

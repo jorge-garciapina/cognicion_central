@@ -1,0 +1,231 @@
+# Transformación de estado con reacción observable (TERO)
+Documento técnico (unidad conceptual para consulta y reutilización)
+
+Tipo de salida:
+- Producto: Documento técnico autosuficiente (unidad conceptual).
+- Propósito de uso: Referencia estable para modelar procesos como transformaciones de estado que producen una reacción
+  observable y actualizan el estado.
+
+---
+
+## 0) Identidad conceptual mínima
+
+Nombre canónico:
+- Transformación de estado con reacción observable
+- Abreviatura opcional: TERO (usar solo cuando el contexto ya la haya fijado).
+
+Rol operativo:
+- Plantilla/Marco (describe un proceso ancestro que puede proyectarse a múltiples dominios).
+
+Función:
+- Proveer una estructura universal para describir sistemas que:
+  (i) parten de un estado inicial,
+  (ii) reciben un operador de transformación,
+  (iii) producen una reacción medible,
+  (iv) actualizan el estado del sistema.
+
+---
+
+## 1) Delimitación (borde)
+
+Fenómeno delimitado:
+- Procesos en los que un sistema con estado aplica una transformación y produce un resultado observable,
+  dejando un estado actualizado.
+
+Incluye:
+- Transformaciones físicas, cognitivas, institucionales o computacionales, siempre que exista:
+  (a) un estado identificable,
+  (b) un operador aplicable,
+  (c) una reacción observable,
+  (d) un estado posterior.
+
+Excluye:
+- Secuencias sin estado identificable.
+- Cambios sin reacción medible (cuando no existe ningún criterio de observación, instrumentación o registro).
+- Reacciones sin actualización de estado (salidas que no alteran el sistema o que no quedan incorporadas en un estado posterior).
+
+---
+
+## 2) Definición operativa
+
+Definición:
+- Una TERO es una relación operativa que asigna, a un par (Estado, Operador), un par (Reacción, Estado actualizado):
+
+  (S, O) → (R, S')
+
+Donde:
+- S  = Estado inicial del sistema.
+- O  = Operador de transformación aplicable a S.
+- R  = Reacción observable producida por aplicar O sobre S.
+- S' = Estado resultante después de incorporar los efectos de O y/o R.
+
+Reacción observable:
+- “Observable” significa: medible, registrable o verificable bajo un criterio explícito.
+- La reacción puede ser un objeto (texto, señal, medición), un evento (acción ejecutada), o un conjunto estructurado de resultados.
+
+---
+
+## 3) Estructura interna de la TERO
+
+### 3.1 Estado (S)
+Definición mínima:
+- Un estado es una configuración de variables (dimensiones) que describen al sistema en un momento lógico.
+
+Propiedades normativas del estado:
+- Identidad: debe ser identificable como “el estado del mismo sistema”.
+- Dimensiones explícitas: el estado se define por un conjunto de variables relevantes.
+- Nivel de granularidad: puede variar, pero debe ser consistente durante una ejecución.
+
+### 3.2 Operador (O)
+Definición mínima:
+- Un operador es una transformación definida sobre el espacio de estados del sistema (o sobre una parte del mismo).
+
+Propiedades normativas del operador:
+- Dominio de aplicabilidad: especifica cuándo puede aplicarse (precondiciones).
+- Efecto esperado: describe qué tipo de cambio pretende inducir.
+- Restricciones de manifestación (si aplica): especifica cómo debe manifestarse la reacción (forma de salida).
+
+### 3.3 Reacción (R)
+Definición mínima:
+- La reacción es la manifestación medible del proceso de transformación.
+
+Propiedades normativas de la reacción:
+- Criterio de observación: define cómo se considera “medida” o “verificada”.
+- Estructura: puede ser simple o compuesta; si es compuesta debe declarar partes.
+
+### 3.4 Estado actualizado (S')
+Definición mínima:
+- El estado actualizado es el estado posterior a la aplicación del operador, incorporando:
+  (i) efectos directos del operador,
+  (ii) efectos indirectos derivados de la reacción (cuando la reacción se reintegra al sistema).
+
+---
+
+## 4) Invariantes (lo que debe preservarse para que siga siendo TERO)
+
+Invariante 1 — Existencia de estado:
+- Debe existir S y S' como configuraciones identificables.
+
+Invariante 2 — Operador aplicable:
+- Debe existir un operador O definido (al menos de manera operativa) sobre S.
+
+Invariante 3 — Reacción observable:
+- Debe existir una reacción R verificable bajo un criterio explícito.
+
+Invariante 4 — Acoplamiento mínimo:
+- La reacción R debe corresponder a la aplicación de O sobre S (no ser un evento desconectado).
+
+Invariante 5 — Actualización:
+- Debe existir un mecanismo (explícito o implícito) por el cual se obtiene S' a partir de (S, O) y/o R.
+
+---
+
+## 5) Dominio de variación (qué puede cambiar sin destruir la identidad de TERO)
+
+Puede variar sin romper TERO:
+- El dominio (físico, cognitivo, institucional, computacional).
+- La representación del estado (vector de variables, grafo, tabla, narrativa estructurada).
+- El tipo de operador (regla, procedimiento, algoritmo, decisión humana, protocolo).
+- El tipo de reacción (texto, señal, evento, medición numérica, artefacto).
+- El nivel de granularidad (pocas variables vs muchas variables), si se mantiene consistencia interna.
+
+No puede variar sin romper TERO:
+- Eliminar el estado como entidad describible.
+- Eliminar la reacción como entidad verificable.
+- Eliminar la actualización (no producir S').
+
+---
+
+## 6) Criterios de aplicación correcta
+
+Una instancia concreta se considera una TERO correctamente aplicada si:
+1) S está definido por dimensiones explícitas (aunque sean mínimas).
+2) O está definido por precondiciones y efecto esperado.
+3) R tiene un criterio de observación verificable.
+4) S' se obtiene y puede compararse con S mediante un delta (cambio de estado).
+
+Delta (operación recomendada):
+- Δ = S' − S (no necesariamente numérico; puede ser un conjunto de cambios cualitativos).
+- El delta debe declarar qué dimensiones cambiaron y cómo (incremento, decremento, aparición, desaparición, reponderación).
+
+---
+
+## 7) Modos de fallo (ruptura estructural)
+
+Fallo A — Ambigüedad de estado:
+- S no está definido por dimensiones; no existe borde interno del estado.
+
+Fallo B — Operador implícito:
+- O no se especifica; se confunde intención con transformación.
+
+Fallo C — Reacción no verificable:
+- R existe como “sensación” o “impresión” sin criterio de observación; no hay medición ni registro.
+
+Fallo D — Sin actualización:
+- Se produce una reacción, pero no se integra en un estado posterior (no existe S').
+
+Fallo E — Deriva:
+- Se concatenan operadores sin cierres parciales; no se registran deltas; el sistema crece en complejidad sin control.
+
+---
+
+## 8) Relación con otras unidades conceptuales (integración en grafos)
+
+Relación con Teoría de lazo (Loop Theory):
+- TERO puede considerarse un proceso ancestro: define la estructura mínima (S, O) → (R, S'). 
+    NECESITO REVISAR ESTO EN DETALLE, MI IDEA ES QUE TERO ES CONSECUENCIA DE TEORÍA DE LAZO, PUESTO QUE LA TEORÍA DE LAZO 
+    ES EN DÓNDE SE DEFINEN LOS CONCEPTOS DE ONTOLOGÍA Y EJECUCIÓN. PUEDE QUE INCLUSO SEAN LO MISMO, ES IMPORTANTE ACLARAR 
+    ESTO. 
+- Teoría de lazo añade, como especialización, elementos adicionales como:
+  borde dentro/fuera, campo de posibilidad y mecanismos explícitos de cierre del ciclo.
+
+Relación con Grafo Conceptual:
+ES NECESARIO DEFINIR ESTO PARA PODER UTILIZAR ESTE PLANTEAMIENTO EN OTROS LUGARES
+- Un Grafo Conceptual puede tratar:
+  - el “estado” como ontología de interpretación (configuración de dimensiones activas),
+  - el “operador” como operador de petición estructurado,
+  - la “reacción” como respuesta estructurada,
+  - y el “delta” como cambio auditado del estado del chat.
+
+Estas relaciones permiten recombinación sin redefinir el concepto, cumpliendo las exigencias normativas de identidad mínima, coherencia y transferibilidad. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 9) Ejemplos mínimos (proyección a dominios)
+
+Ejemplo 1 — Dominio físico (acondicionamiento):
+- S: estado corporal inicial (dimensiones: masa, fuerza, resistencia, hábitos).
+- O: disciplina/plan de entrenamiento (reglas + rutina).
+- R: mediciones observables (cambios de desempeño, marcadores fisiológicos).
+- S': estado corporal actualizado con delta sobre dimensiones.
+
+Ejemplo 2 — Dominio cognitivo (aprendizaje en ajedrez):
+- S: capacidad perceptiva inicial (dimensiones: patrones detectables, profundidad de cálculo).
+- O: entrenamiento (estudio de tácticas, práctica deliberada).
+- R: nuevas detecciones observables (identificación de amenazas, planes, estructuras).
+- S': estado cognitivo actualizado con incremento de detectabilidad estructural.
+
+Ejemplo 3 — Dominio conversacional (sistema de respuestas estructuradas):
+- S: estado interpretativo local (dimensiones activas y pesos).
+- O: operador de petición estructurado (intención + restricciones).
+- R: respuesta estructurada verificable (borde, secciones, interfaz, cierre).
+- S': estado actualizado (delta: nuevas definiciones, pesos ajustados, nuevas restricciones).
+
+---
+
+## 10) Superficie de exportación (para reutilización)
+
+Export Surface (superficie de exportación):
+- Esquema universal:
+  (S, O) → (R, S')
+- Checklist de aplicación correcta:
+  S definido + O definido + R observable + S' con delta.
+
+Integration Profile (perfil de integración):
+- Puede integrarse con cualquier dominio que admita:
+  (i) estado describible,
+  (ii) transformación operativa,
+  (iii) observación verificable,
+  (iv) actualización registrable.
+
+Fin del documento.

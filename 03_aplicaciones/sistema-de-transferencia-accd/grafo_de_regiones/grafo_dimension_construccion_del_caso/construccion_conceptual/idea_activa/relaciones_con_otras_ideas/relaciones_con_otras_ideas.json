@@ -1,0 +1,20 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas",
+    "label": "relaciones_con_otras_ideas",
+    "type": "internal_collection_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas",
+    "summary": "Campo interno que describe las relaciones de una idea activa con otras ideas.",
+    "metadata": {
+      "value_type": "Colección estructurada de relaciones formuladas",
+      "declared_inside": "idea_activa",
+      "cardinality": "Cero o más relaciones por idea activa",
+      "mandatory_components": [
+        "idea_relacionada",
+        "tipo_de_relacion",
+        "descripcion_de_la_relacion"
+      ]
+    }
+  }
+}

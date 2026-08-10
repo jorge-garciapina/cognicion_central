@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-aplicacion_pendiente_de_especificacion-aplicacion_pendiente_de_especificacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-aplicacion_pendiente_de_especificacion-aplicacion_pendiente_de_especificacion",
+    "label": "aplicacion_pendiente_de_especificacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-aplicacion_pendiente_de_especificacion-aplicacion_pendiente_de_especificacion",
+    "summary": "Valor provisional para casos en los que se conoce que la realización será carousel, pero aún no se sabe bajo qué aplicación concreta de plataforma se publicará.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

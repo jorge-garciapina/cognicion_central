@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_por_zonas-texto_por_zonas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_por_zonas-texto_por_zonas",
+    "label": "texto_por_zonas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_por_zonas-texto_por_zonas",
+    "summary": "**Definición.** Régimen donde distintas áreas del campo visual contienen textos breves con función local. Cada zona textual debe corresponder a una parte del mensaje, comparación, categoría o componente, evitando un bloque único de lectura.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible"
+    }
+  }
+}

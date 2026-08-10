@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo",
+    "label": "resolucion_objetivo",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-resolucion_objetivo",
+    "summary": "**Definición.** Campo que fija el nivel de definición técnica esperado para que la imagen conserve legibilidad y calidad en su destino. La resolución no sólo afecta nitidez: condiciona tamaño de texto, detalle admisible, densidad gráfica y posibilidad de reutilización.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

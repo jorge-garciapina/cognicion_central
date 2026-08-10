@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-titular_y_subtitulo-titular_y_subtitulo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-titular_y_subtitulo-titular_y_subtitulo",
+    "label": "titular_y_subtitulo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-titular_y_subtitulo-titular_y_subtitulo",
+    "summary": "**Definición.** Régimen textual con dos niveles verbales: una frase principal que introduce el mensaje y una frase secundaria que precisa contexto, beneficio o explicación. Permite impacto y claridad sin recurrir a párrafos extensos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo"
+    }
+  }
+}

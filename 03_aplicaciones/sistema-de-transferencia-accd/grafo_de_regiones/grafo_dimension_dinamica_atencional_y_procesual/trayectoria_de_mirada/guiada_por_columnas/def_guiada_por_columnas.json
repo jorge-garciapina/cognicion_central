@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_columnas-guiada_por_columnas",
+  "content": "**Definición.** Recorrido en el que la mirada se organiza mediante columnas verticales. Cada columna puede contener una categoría, alternativa, paso, bloque de información o comparación, y el receptor entiende la estructura por separación lateral.\n\n**Diferenciación semántica.** Se diferencia de `izquierda_derecha` porque no sólo implica avance lateral, sino agrupación vertical dentro de unidades paralelas. Se diferencia de `guiada_por_grilla` porque las columnas pueden existir sin retícula completa de filas y celdas.\n\n**Interpretación mínima.** La IA debe entender que las columnas deben funcionar como contenedores semánticos diferenciados."
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_integrado_a_diagrama-texto_integrado_a_diagrama",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_integrado_a_diagrama-texto_integrado_a_diagrama",
+    "label": "texto_integrado_a_diagrama",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-texto_integrado_a_diagrama-texto_integrado_a_diagrama",
+    "summary": "**Definición.** Régimen en el que el texto funciona como parte estructural de un diagrama: etiquetas, nodos, ejes, leyendas, pasos o nombres de partes. El texto no es comentario externo; es componente de la estructura visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible"
+    }
+  }
+}

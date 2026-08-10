@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+    "label": "tablero_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-tablero_visual-tablero_visual",
+    "summary": "**Definición.** Configuración que reúne varios indicadores, módulos o piezas de información en un mismo campo de consulta. Su lógica no es narrativa ni lineal, sino panorámica: permite revisar de un vistazo diferentes variables, estados, métricas, categorías o componentes de un sistema.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa"
+    }
+  }
+}

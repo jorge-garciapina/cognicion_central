@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente",
+    "label": "consumir_parte_siguiente",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente",
+    "summary": "Valor consumir_parte_siguiente declarado para el campo accion_esperada.",
+    "metadata": {
+      "value_of": "accion_esperada",
+      "source_section": "4.3"
+    }
+  }
+}

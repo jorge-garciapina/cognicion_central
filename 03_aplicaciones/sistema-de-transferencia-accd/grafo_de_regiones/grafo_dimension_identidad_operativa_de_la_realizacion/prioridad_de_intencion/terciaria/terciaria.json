@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria",
+    "label": "terciaria",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria",
+    "summary": "Valor terciaria declarado para el campo prioridad_de_intencion.",
+    "metadata": {
+      "value_of": "prioridad_de_intencion",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

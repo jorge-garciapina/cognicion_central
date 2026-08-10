@@ -1,0 +1,605 @@
+TEMA DE SALIDA PARA PDF
+ESPECIFICACIÓN INTENSIONAL COMPLETA DEL ESTILO EDITORIAL USADO EN EL PDF ANTERIOR
+VERSIÓN 1.0
+
+PROPÓSITO DEL DOCUMENTO
+Este archivo no describe solamente una lista de rasgos visibles del PDF, sino la lógica interna que genera su forma. Debe entenderse como una especificación de tema reutilizable para producir PDFs con la misma identidad visual, la misma jerarquía editorial y la misma sensación de lectura.
+
+La intención no es “poner colores verdes y cajas suaves”, sino construir un documento que transmita simultáneamente cinco cualidades:
+
+1. sobriedad editorial,
+2. calidez humana,
+3. legibilidad prolongada,
+4. orden conceptual,
+5. refinamiento discreto.
+
+Este tema fue pensado para documentos conceptuales, marcos teóricos, planes, propuestas, ontologías débiles, ensayos estructurados, notas extensas y documentos argumentativos que necesitan verse cuidados sin parecer publicitarios.
+
+==================================================
+I. DEFINICIÓN INTENSIONAL DEL TEMA
+==================================================
+
+NOMBRE DEL TEMA
+Editorial cálido con acento botánico sobrio.
+
+IDENTIDAD DEL TEMA
+Este tema no busca impresionar por ornamento, sino por composición. Su identidad nace de la tensión equilibrada entre una base neutra y un acento verde desaturado. El resultado debe sugerir que el documento fue diseñado con atención y criterio, pero sin convertir el diseño en protagonista.
+
+FUNCIÓN CENTRAL
+Transformar texto denso en un objeto editorial respirable.
+
+OBJETIVO COGNITIVO
+Hacer que el lector perciba que:
+- el documento es serio,
+- el contenido está ordenado,
+- la lectura puede sostenerse por muchas páginas sin fatiga,
+- cada sección tiene una entrada visual clara,
+- el conjunto posee coherencia interna.
+
+PRINCIPIO ESTRUCTURAL
+La forma visual debe servir como sistema de orientación, no como decoración. Cada elemento gráfico debe cumplir una función cognitiva:
+- el color guía,
+- la caja contiene,
+- el margen respira,
+- la jerarquía ordena,
+- la tipografía estabiliza,
+- el ritmo vertical evita la saturación.
+
+INVARIANTES DEL TEMA
+Estos puntos no deben romperse si se desea conservar la identidad del tema:
+
+1. Fondo cálido, no blanco puro.
+2. Cuerpo principal en serif legible.
+3. Encabezados en sans bold.
+4. Acento principal verde apagado, no saturado.
+5. Cajas suaves para portada y títulos de sección.
+6. Márgenes generosos.
+7. Jerarquía fuerte entre portada, secciones, subsecciones y cuerpo.
+8. Muy poca ornamentación: solo líneas, bandas suaves, cajas discretas y numeración minimalista.
+9. El contenido debe sentirse “maquetado”, no meramente exportado.
+10. El diseño nunca debe competir con el texto.
+
+VARIABLES NEGOCIABLES
+Estas pueden ajustarse ligeramente sin destruir el tema:
+- tamaño del título principal,
+- ancho exacto de las cajas,
+- grosor de líneas secundarias,
+- nivel de compactación del cuerpo,
+- uso o no de subtítulo en portada,
+- separación entre bloques.
+
+VARIABLES NO NEGOCIABLES
+- No usar colores saturados.
+- No usar tipografías decorativas o caligráficas.
+- No usar negro puro como color dominante del texto.
+- No llenar las páginas con elementos gráficos.
+- No comprimir márgenes para “meter más contenido”.
+- No reducir el interlineado hasta volverlo rígido.
+- No convertir el documento en presentación comercial.
+- No cambiar el contenido textual cuando el encargo sea solo de formato.
+
+==================================================
+II. SISTEMA DE SENTIDO DEL TEMA
+==================================================
+
+Este tema debe entenderse como una composición de cuatro capas semánticas.
+
+CAPA 1. BASE MATERIAL
+La página debe sentirse suave y respirable. Por eso el fondo no es blanco absoluto, sino marfil cálido.
+
+CAPA 2. ORDEN EDITORIAL
+Los encabezados, cajas y líneas no son adornos: marcan umbrales de lectura. Cada cambio de nivel debe tener un correlato visual evidente.
+
+CAPA 3. TONO AFECTIVO
+El verde usado no comunica exuberancia; comunica calma, cuidado, naturalidad, confiabilidad y una ligera asociación con salud, estructura y equilibrio.
+
+CAPA 4. ESTABILIDAD INTELECTUAL
+La serif del cuerpo y la regularidad del ritmo tipográfico deben dar la impresión de texto estable, argumentativo y digno de lectura extensa.
+
+RESUMEN INTENSIONAL EN UNA FRASE
+“El documento debe verse como un informe conceptual de alta calidad, con calidez natural y orden riguroso, diseñado para que el lector permanezca dentro del texto sin fricción visual.”
+
+==================================================
+III. TOKENS VISUALES REALES DEL TEMA
+==================================================
+
+A continuación se registran los valores concretos que fueron utilizados para generar el PDF base.
+
+A. FORMATO DE PÁGINA
+- Tamaño de página: LETTER
+- Dimensiones: 8.5 x 11 pulgadas
+- Orientación: vertical
+
+B. MÁRGENES
+- Margen izquierdo: 0.78 in
+- Margen derecho: 0.78 in
+- Margen superior: 0.82 in
+- Margen inferior: 0.82 in
+
+Lectura conceptual de estos márgenes:
+No son extremos ni estrechos. Son lo suficientemente amplios para generar aire visual, pero no tan amplios como para desperdiciar superficie útil. Este punto es importante: el tema no es lujoso-expositivo, sino editorial-práctico.
+
+C. PALETA CROMÁTICA BASE
+1. Fondo general de página
+- Nombre funcional: BG
+- Hex: #FBF8F3
+- Rol: marfil cálido de lectura
+- Función: evitar el contraste duro del blanco puro y dar sensación de papel cuidado
+
+2. Texto principal
+- Nombre funcional: TEXT
+- Hex: #2F2A24
+- Rol: marrón-negruzco profundo
+- Función: reemplazar el negro absoluto por una tinta visualmente más amable
+
+3. Texto secundario / metadatos
+- Nombre funcional: MUTED
+- Hex: #6B6258
+- Rol: gris cálido orgánico
+- Función: bajar intensidad sin perder legibilidad
+
+4. Acento principal
+- Nombre funcional: ACCENT
+- Hex: #6A8A60
+- Rol: verde natural sobrio
+- Función: articular identidad, líneas guía y presencia del sistema
+
+5. Acento oscuro
+- Nombre funcional: ACCENT_DARK
+- Hex: #4E6B47
+- Rol: verde profundo para encabezados
+- Función: aportar autoridad visual a títulos y subtítulos
+
+6. Acento suave para bandas
+- Nombre funcional: ACCENT_SOFT
+- Hex: #E8F0E3
+- Rol: verde pálido desaturado
+- Función: generar contención de sección sin crear cajas pesadas
+
+7. Línea y borde suave
+- Nombre funcional: LINE
+- Hex: #DCCFBE
+- Rol: beige-lino tenue
+- Función: divisores, bordes de cajas y pie de página
+
+8. Fondo de caja principal de portada
+- Nombre funcional: TITLE_BG
+- Hex: #EEF3E9
+- Rol: verde-marfil muy claro
+- Función: contenedor principal de la portada
+
+9. Superficie secundaria opcional
+- Nombre funcional: SUBTLE
+- Hex: #F4EEE5
+- Rol: beige suave
+- Función: posible uso futuro en callouts muy discretos
+
+D. REGLA DE USO DEL COLOR
+- BG domina la página completa.
+- TEXT domina el cuerpo continuo.
+- ACCENT_DARK domina títulos y jerarquías activas.
+- ACCENT se reserva para líneas de identidad.
+- ACCENT_SOFT y TITLE_BG construyen superficies de contención.
+- LINE se usa para separar, no para enmarcar agresivamente.
+
+REGLA CRÍTICA
+El verde nunca debe ocupar grandes superficies saturadas. Debe sentirse como guía, no como masa.
+
+==================================================
+IV. SISTEMA TIPOGRÁFICO REAL
+==================================================
+
+TIPOGRAFÍAS UTILIZADAS
+1. Familia serif principal del cuerpo:
+- DejaVu Serif
+- Uso: texto base, párrafos, enumeraciones y lectura sostenida
+
+2. Familia sans principal de jerarquía:
+- DejaVu Sans Bold / DejaVu Sans
+- Uso: título principal, metadatos de portada, secciones, subsecciones, etiquetas y numeración mínima
+
+LÓGICA TIPOGRÁFICA
+- Serif = continuidad, lectura, estabilidad, densidad intelectual.
+- Sans bold = estructura, entrada visual, orden, señalización.
+
+SI NO SE DISPONE DE ESTAS FUENTES
+Mantener esta lógica de sustitución:
+- Serif de sustitución aceptable: Georgia, Merriweather, Noto Serif, Liberation Serif, Times New Roman como último recurso.
+- Sans de sustitución aceptable: Inter, Source Sans, Noto Sans, Helvetica, Arial, Liberation Sans.
+
+A. TÍTULO PRINCIPAL DE PORTADA
+- Estilo interno: DocTitle
+- Fuente: Sans-Bold
+- Tamaño: 22 pt
+- Interlineado (leading): 28 pt
+- Color: #4E6B47
+- Alineación: centrada
+- Espacio posterior: 10 pt
+- Función: instalar el nombre del documento como bloque de autoridad editorial
+
+B. META / SUBTEXTO DE PORTADA
+- Estilo interno: Meta
+- Fuente: Sans-Bold
+- Tamaño: 10.5 pt
+- Interlineado: 13 pt
+- Color: #6B6258
+- Alineación: centrada
+- Espacio posterior: 3 pt
+- Tracking aproximado: 0.3
+- Función: enmarcar el núcleo temático y la identidad central sin competir con el título
+
+C. TÍTULO DE SECCIÓN
+- Estilo interno: Section
+- Fuente: Sans-Bold
+- Tamaño: 13 pt
+- Interlineado: 16 pt
+- Color: #4E6B47
+- Espacio antes: 12 pt
+- Espacio después: 8 pt
+- Función: abrir umbrales macroscópicos del documento
+
+D. SUBSECCIÓN
+- Estilo interno: Subsection
+- Fuente: Sans-Bold
+- Tamaño: 11.2 pt
+- Interlineado: 14 pt
+- Color: #4E6B47
+- Espacio antes: 8 pt
+- Espacio después: 4 pt
+- Función: segmentar sin producir ruido visual
+
+E. ETIQUETA O RÓTULO INTERNO
+- Estilo interno: Label
+- Fuente: Sans-Bold
+- Tamaño: 10 pt
+- Interlineado: 12 pt
+- Color: #2F2A24
+- Espacio antes: 4 pt
+- Espacio después: 2 pt
+- Función: anunciar bloques como “Definición propuesta:” o equivalentes
+
+F. CUERPO DE TEXTO
+- Estilo interno: Body
+- Fuente: Serif
+- Tamaño: 10.4 pt
+- Interlineado: 14.6 pt
+- Color: #2F2A24
+- Alineación: izquierda
+- Espacio posterior: 7 pt
+- Función: ofrecer lectura prolongada cómoda, con densidad controlada
+
+G. CUERPO AJUSTADO
+- Estilo interno: BodyTight
+- Base: Body
+- Espacio posterior: 4 pt
+- Función: compactar levemente cuando el flujo lo requiere sin perder respiración
+
+H. VIÑETAS
+- Estilo interno: MyBullet
+- Base: Body
+- Sangría izquierda: 16 pt
+- Sangría de primera línea: -10 pt
+- Sangría de viñeta: 0 pt
+- Espacio posterior: 4 pt
+- Viñeta usada: •
+- Función: mantener limpieza tipográfica y alineación estable
+
+I. ENUMERACIONES NUMERADAS
+- Estilo interno: NumberItem
+- Base: Body
+- Sangría izquierda: 16 pt
+- Sangría de primera línea: -16 pt
+- Espacio posterior: 4 pt
+- Función: crear enumeración con efecto de hanging indent
+
+REGLA TIPOGRÁFICA CENTRAL
+La diferencia entre niveles se consigue por combinación de peso, familia, color y espacio, no por exageración de tamaño.
+
+==================================================
+V. GRAMÁTICA DE COMPOSICIÓN
+==================================================
+
+El tema debe producir una gramática visual reconocible. Esto significa que el documento debe poder leerse incluso “de lejos”: primero por masas, luego por bloques, luego por frases.
+
+A. PORTADA
+La portada no es una página separada espectacular; es una instalación editorial del documento dentro de la primera página.
+
+Componentes reales de la portada:
+1. Línea superior de identidad.
+2. Caja principal ancha con fondo claro.
+3. Título centrado en dos líneas si es necesario.
+4. Dos líneas de metadatos/subidentidad.
+5. Aire suficiente alrededor.
+
+VALORES REALES DE LA CAJA DE PORTADA
+- Ancho: 6.6 in
+- Fondo: #EEF3E9
+- Borde exterior: 0.8 pt en #DCCFBE
+- Línea inferior del primer renglón: 0.6 pt en #DCCFBE
+- Padding lateral: 18 pt
+- Padding superior: 14 pt
+- Padding inferior: 12 pt
+
+FUNCIÓN DE LA PORTADA
+No “presenta una marca”; estabiliza la lectura. Le dice al lector: aquí hay un objeto editorial serio, ordenado y respirable.
+
+B. BANDA DE SECCIÓN
+Cada sección principal entra mediante una banda suave.
+
+VALORES REALES DE LA BANDA DE SECCIÓN
+- Ancho: 6.65 in
+- Fondo: #E8F0E3
+- Borde: 0.6 pt en #DCCFBE
+- Padding izquierdo: 12 pt
+- Padding derecho: 12 pt
+- Padding superior: 6 pt
+- Padding inferior: 5 pt
+
+FUNCIÓN DE LA BANDA
+La banda de sección debe actuar como umbral. No resalta por violencia visual, sino por condensación suave del espacio. La sección se “abre” como sala nueva dentro del documento.
+
+C. RITMO VERTICAL
+Valores usados en la composición del PDF base:
+- Espacio antes de la caja inicial: 0.45 in
+- Espacio después de la caja inicial: 0.22 in
+- Espacio antes de banda de sección: 0.05 in adicional dentro del flujo
+- Espacio después de banda de sección: 0.06 in
+- Espacio representando línea en blanco del texto fuente: 0.08 in
+
+INTERPRETACIÓN
+El ritmo vertical no es homogéneo. Está modulado para que el documento respire más en entradas jerárquicas y se compacte un poco dentro del discurso.
+
+D. ALINEACIÓN
+- Título principal: centrado
+- Metadatos de portada: centrados
+- Secciones: alineación natural de párrafo, con lectura dominante a la izquierda
+- Subsections: izquierda
+- Cuerpo: izquierda
+- Número de página: alineado a la derecha
+
+REGLA DE ALINEACIÓN
+Solo la portada puede estar centrada de forma dominante. El resto del documento debe anclarse a la izquierda para favorecer continuidad lectora.
+
+==================================================
+VI. ARQUITECTURA DE PÁGINA
+==================================================
+
+A. FONDO DE PÁGINA
+Toda la página se rellena con #FBF8F3. Esto no es opcional dentro del tema; es la base atmosférica del documento.
+
+B. LÍNEA SUPERIOR DE IDENTIDAD
+- Color: #6A8A60
+- Altura: 2.2 pt
+- Posición horizontal: desde el margen izquierdo hasta el ancho útil total
+- Posición vertical: aproximadamente a 0.55 in desde el borde superior
+
+FUNCIÓN
+Es la firma silenciosa del sistema. No organiza contenido por sí misma, pero instala continuidad entre páginas.
+
+C. LÍNEA DE PIE DE PÁGINA
+- Color: #DCCFBE
+- Grosor: 0.8 pt
+- Posición vertical: aproximadamente 0.58 in desde el borde inferior
+- Longitud: todo el ancho útil entre márgenes
+
+FUNCIÓN
+Cerrar la página con un límite suave y sostener visualmente la numeración.
+
+D. NUMERACIÓN
+- Fuente: Sans
+- Tamaño: 8.5 pt
+- Color: #6B6258
+- Posición: esquina inferior derecha dentro del ancho útil
+
+REGLA
+La numeración debe existir, pero nunca competir con el contenido. Debe sentirse residual, funcional y limpia.
+
+E. ENCABEZADOS CORRIENTES
+En el PDF base no se usó encabezado textual. Solo línea superior, línea inferior y numeración. Esa sobriedad es parte de la identidad.
+
+==================================================
+VII. ONTOLOGÍA FUNCIONAL DE LOS ELEMENTOS
+==================================================
+
+Este apartado explica no solo qué es cada elemento, sino qué “hace” dentro del documento.
+
+1. FONDO MARFIL
+No es mero color. Su función es desacelerar el brillo de la página y reducir dureza perceptiva.
+
+2. TEXTO EN TINTA MARRÓN OSCURA
+No es simple sustitución del negro. Su función es volver la lectura menos agresiva y más editorial.
+
+3. VERDE OSCURO EN TÍTULOS
+No solo jerarquiza. También marca el documento como cuidado, orgánico, confiable y orientado al equilibrio.
+
+4. BANDA DE SECCIÓN
+No es “un recuadro bonito”. Es una frontera suave entre regiones semánticas del texto.
+
+5. CAJA DE PORTADA
+No es un cartel. Es una cámara de compresión donde se concentran identidad, tema y tono antes de entrar al flujo argumentativo.
+
+6. SERIF EN CUERPO
+No es un gesto clásico superficial. Su función es sostener el tiempo de lectura.
+
+7. SANS BOLD EN JERARQUÍAS
+No es modernidad vacía. Su función es separar niveles con limpieza inmediata.
+
+8. LÍNEAS HORIZONTALES SUAVES
+No son decoración. Son costuras del objeto editorial.
+
+==================================================
+VIII. REGLAS GENERATIVAS DEL TEMA
+==================================================
+
+Estas reglas responden a la exigencia de una forma intensional. Es decir: describen cómo debe actuar el sistema cuando genera un PDF, no solo cómo debe verse al final.
+
+REGLA 1. EL DISEÑO DEBE NACER DEL TEXTO
+Si el documento es largo y denso, el tema debe priorizar ritmo, aire y jerarquía. Nunca debe responder con saturación gráfica.
+
+REGLA 2. LA PORTADA DEBE CONDENSAR LA IDENTIDAD
+Si el documento tiene título y dos líneas clave de contexto, deben instalarse como portada editorial dentro de un gran contenedor claro. Si no existen esas dos líneas, pueden construirse con metadatos del documento, pero sin inventar contenido nuevo cuando el usuario haya pedido conservar texto exacto.
+
+REGLA 3. LAS SECCIONES DEBEN PERCIBIRSE COMO UMBRALES
+Cada encabezado principal debe entrar dentro de una banda o caja suave, porque la sección no es solo un texto mayor: es una transición de dominio semántico.
+
+REGLA 4. EL CUERPO DEBE LEERSE EN MODO SOSTENIDO
+Por ello se usa serif, tamaño cercano a 10.4 pt y leading cercano a 14.6 pt. Si el documento fuera extremadamente denso, antes de bajar la tipografía debe revisarse:
+- ajuste de saltos,
+- agrupación de bloques,
+- separación entre secciones,
+- división más inteligente del contenido entre páginas.
+
+REGLA 5. EL COLOR DEBE TENER FUNCIÓN Y LÍMITE
+El color solo puede aparecer como:
+- identidad de sistema,
+- jerarquía,
+- superficie de contención,
+- divisor suave.
+No puede aparecer como relleno exuberante, degradado innecesario o elemento dominante.
+
+REGLA 6. EL TEMA DEBE FAVORECER LA RESPIRACIÓN
+Cuando exista duda entre compactar o dejar aire, este tema prefiere dejar aire, siempre que no rompa la continuidad lógica del documento.
+
+REGLA 7. LA PÁGINA DEBE SENTIRSE COHERENTE DE ARRIBA A ABAJO
+Cada página debe contener:
+- una firma superior consistente,
+- un campo central de lectura limpio,
+- un cierre inferior tenue.
+
+REGLA 8. LA JERARQUÍA NO DEBE DEPENDER DE UN SOLO RECURSO
+No basta con tamaño. Cada nivel debe diferenciarse por al menos tres de los siguientes recursos:
+- familia tipográfica,
+- peso,
+- color,
+- caja o banda,
+- espaciado,
+- posición.
+
+REGLA 9. EL DOCUMENTO DEBE PODER IMPRIMIRSE BIEN
+Aunque el tema esté optimizado para PDF digital, su paleta suave y contrastes moderados deben sobrevivir impresión sin perder legibilidad.
+
+REGLA 10. LA FIDELIDAD DEL CONTENIDO ES PRIORIDAD CUANDO ASÍ SE SOLICITA
+Si el usuario pide “no cambies nada, solo la presentación”, el sistema debe tratar el texto como fuente inmutable y aplicar únicamente transformación visual.
+
+==================================================
+IX. CASOS DE USO IDEALES DEL TEMA
+==================================================
+
+Este tema es especialmente adecuado para:
+- ontologías débiles o definiciones conceptuales,
+- planes de negocio escritos como marcos identitarios,
+- ensayos extensos,
+- textos teóricos con divisiones numeradas,
+- documentos donde importa más la claridad editorial que el branding agresivo,
+- propuestas con tono serio y humano.
+
+NO ES EL TEMA IDEAL PARA:
+- catálogos comerciales visuales,
+- pitch decks de alto impacto,
+- informes financieros llenos de tablas técnicas,
+- documentos juveniles o experimentales,
+- piezas que requieran color intenso o identidad corporativa fuerte.
+
+==================================================
+X. REGLAS DE ADAPTACIÓN SIN PERDER IDENTIDAD
+==================================================
+
+Si en el futuro quieres reutilizar este tema en otros PDFs, pueden hacerse las siguientes adaptaciones controladas.
+
+ADAPTACIONES PERMITIDAS
+1. Cambiar el verde por otro acento sobrio, siempre que conserve baja saturación y una función equivalente.
+2. Cambiar la serif o la sans por fuentes equivalentes manteniendo la lógica jerárquica.
+3. Ajustar el tamaño del título entre 20 y 26 pt si el título es más largo o más corto.
+4. Ajustar el cuerpo entre 10 y 11 pt si el documento lo exige.
+5. Cambiar tamaño de página a A4, recalculando márgenes de forma proporcional.
+
+ADAPTACIONES PROHIBIDAS SI SE QUIERE CONSERVAR EL TEMA
+1. Eliminar el fondo cálido y volver a blanco puro.
+2. Poner todo en sans o todo en serif.
+3. Sustituir las bandas suaves por cajas oscuras o color saturado.
+4. Usar negro puro en cuerpo y títulos.
+5. Reducir drásticamente el aire entre secciones.
+6. Añadir iconos, imágenes decorativas o marcos pesados sin necesidad.
+
+==================================================
+XI. ESPECIFICACIÓN RESUMIDA EN FORMATO DE TOKENS
+==================================================
+
+THEME_NAME = "Editorial cálido con acento botánico sobrio"
+PAGE_SIZE = "LETTER"
+PAGE_BACKGROUND = "#FBF8F3"
+TEXT_COLOR = "#2F2A24"
+TEXT_MUTED = "#6B6258"
+ACCENT = "#6A8A60"
+ACCENT_DARK = "#4E6B47"
+ACCENT_SOFT = "#E8F0E3"
+LINE_COLOR = "#DCCFBE"
+TITLE_BOX_BG = "#EEF3E9"
+SUBTLE_BG = "#F4EEE5"
+MARGIN_LEFT = "0.78in"
+MARGIN_RIGHT = "0.78in"
+MARGIN_TOP = "0.82in"
+MARGIN_BOTTOM = "0.82in"
+TITLE_FONT = "DejaVu Sans Bold"
+BODY_FONT = "DejaVu Serif"
+TITLE_SIZE = "22pt"
+TITLE_LEADING = "28pt"
+META_SIZE = "10.5pt"
+META_LEADING = "13pt"
+SECTION_SIZE = "13pt"
+SECTION_LEADING = "16pt"
+SUBSECTION_SIZE = "11.2pt"
+SUBSECTION_LEADING = "14pt"
+LABEL_SIZE = "10pt"
+LABEL_LEADING = "12pt"
+BODY_SIZE = "10.4pt"
+BODY_LEADING = "14.6pt"
+TOP_RULE_HEIGHT = "2.2pt"
+TOP_RULE_COLOR = "#6A8A60"
+FOOTER_RULE_HEIGHT = "0.8pt"
+FOOTER_RULE_COLOR = "#DCCFBE"
+PAGE_NUMBER_FONT = "DejaVu Sans"
+PAGE_NUMBER_SIZE = "8.5pt"
+
+==================================================
+XII. PROMPT REUTILIZABLE PARA FUTUROS CHATS
+==================================================
+
+Usa el archivo de contenido que adjunto como fuente textual inmutable y conviértelo en un PDF siguiendo estrictamente el tema "Editorial cálido con acento botánico sobrio" definido en mi TXT de lineamientos.
+
+Quiero que respetes los siguientes invariantes:
+- no cambies el contenido,
+- no resumas ni reescribas,
+- cambia solo la presentación,
+- usa fondo #FBF8F3,
+- cuerpo en serif tipo DejaVu Serif o equivalente,
+- títulos en sans bold tipo DejaVu Sans Bold o equivalente,
+- texto principal en #2F2A24,
+- acento principal en #6A8A60,
+- acento oscuro en #4E6B47,
+- bandas de sección en #E8F0E3 con borde #DCCFBE,
+- caja principal de portada en #EEF3E9,
+- márgenes generosos equivalentes a 0.78 in laterales y 0.82 in verticales,
+- título principal alrededor de 22 pt con leading 28 pt,
+- cuerpo alrededor de 10.4 pt con leading 14.6 pt,
+- numeración mínima en pie de página,
+- línea superior fina de identidad y línea inferior tenue.
+
+No quiero una salida meramente extensional. Quiero que reproduzcas la lógica interna del tema:
+- sobriedad editorial,
+- calidez visual,
+- jerarquía clara,
+- respiración vertical,
+- contención gráfica suave,
+- refinamiento discreto,
+- lectura prolongada cómoda.
+
+Si necesitas adaptar algo, adapta sin traicionar la intención del tema.
+
+==================================================
+XIII. DEFINICIÓN FINAL DEL TEMA EN MODO INTENSIONAL
+==================================================
+
+Este tema es una máquina de presentación para textos largos cuyo propósito es convertir densidad conceptual en legibilidad elegante. Su materia base es una página cálida, su estructura es una jerarquía editorial clara, su tono es botánico sobrio, su ética es no interferir con el contenido y su criterio de calidad es que el lector sienta orden, cuidado y continuidad sin percibir esfuerzo visual excesivo.
+
+La identidad del tema no se agota en colores, fuentes o medidas. Todo eso son manifestaciones de algo más profundo: una intención editorial de contención, claridad y dignidad para el texto.

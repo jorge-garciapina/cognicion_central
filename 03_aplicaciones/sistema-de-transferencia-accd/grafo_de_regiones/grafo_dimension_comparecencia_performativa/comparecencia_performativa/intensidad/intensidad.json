@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad",
+    "label": "intensidad",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad",
+    "summary": "Grado de energía expresiva y presencia ejecutiva de la realización.",
+    "value_type": "Categorial ordinal",
+    "cardinality": null
+  }
+}

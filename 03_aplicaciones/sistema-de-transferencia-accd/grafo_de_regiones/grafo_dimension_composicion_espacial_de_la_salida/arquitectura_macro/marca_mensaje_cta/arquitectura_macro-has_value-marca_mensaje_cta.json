@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-marca_mensaje_cta-marca_mensaje_cta",
+    "type": "has_value",
+    "rationale": "marca_mensaje_cta es un valor nuevo incorporado en arquitectura_macro para la realización imagen."
+  }
+}

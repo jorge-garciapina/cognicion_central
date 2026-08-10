@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "type": "has_field",
+    "rationale": "configuracion_narrativa es un campo directo declarado dentro de dimension_construccion_del_caso."
+  }
+}

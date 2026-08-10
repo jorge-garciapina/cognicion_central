@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-ilustracion_editorial-ilustracion_editorial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-ilustracion_editorial-ilustracion_editorial",
+    "label": "ilustracion_editorial",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo-ilustracion_editorial-ilustracion_editorial",
+    "summary": "**Definición.** Estilo ilustrado con mayor personalidad expresiva, común en revistas, artículos y piezas conceptuales. Puede usar metáfora, textura, composición cuidada y tono autoral.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-estilo_visual_generativo"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-divulgativo_claro-divulgativo_claro",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-divulgativo_claro-divulgativo_claro",
+    "label": "divulgativo_claro",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial-divulgativo_claro-divulgativo_claro",
+    "summary": "Valor que orienta la pieza hacia la explicación accesible de una idea que podría ser compleja.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

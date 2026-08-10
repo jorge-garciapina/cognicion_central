@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-arbol_de_decision-arbol_de_decision",
+  "content": "**Definición.** Distribución ramificada donde cada nodo abre alternativas condicionadas. Es útil cuando el caso no se resuelve por una sola ruta, sino mediante decisiones sucesivas que conducen a resultados distintos."
+}

@@ -1,0 +1,525 @@
+EJEMPLO MEJORADO — ACONDICIONAMIENTO FÍSICO USANDO TEORÍA DE LAZO
+(Con eje ontológico + eje de ejecución + composición ascendente)
+
+Versión: 1.0
+Fecha: 2026-02-25
+Propósito: mostrar, con un ejemplo completo, cómo la “Teoría de Lazo” permite construir
+           estructuras ejecutables en el mundo (entrenamientos reales) sin perder identidad
+           conceptual al escalar (rep → serie → bloque → sesión → semana → mesociclo).
+
+================================================================================
+0) IDEA CENTRAL (EN UNA FRASE)
+--------------------------------------------------------------------------------
+Transformación = (Estado inicial descrito por variables) + (Trayectoria de ejecución en el tiempo),
+bajo restricciones del contexto, y con un mecanismo de cierre que convierte resultados de ejecución
+en actualización durable del estado.
+
+================================================================================
+1) LA PLANTILLA DE IDENTIDAD MÍNIMA (AUTOSIMILARIDAD “TRONCO → RAMAS → VASOS”)
+--------------------------------------------------------------------------------
+En este ejemplo, TODAS las unidades (fNodes, repeticiones, series, sesiones, semanas) se tratarán
+como entidades con identidad propia, fijada por tres piezas:
+
+  - Núcleo: qué es / para qué existe en este dominio (función dominante).
+  - Invariantes: qué NO puede romperse sin perder identidad.
+  - Dominio de variación: qué SÍ puede cambiar sin romper identidad.
+
+Esto es la “forma canónica” que se repite en distintas escalas.
+
+================================================================================
+2) DOS EJES DISTINTOS: NO ES “ESCALA”, ES “PROYECCIÓN”
+--------------------------------------------------------------------------------
+La teoría se vuelve nítida cuando separas:
+
+(A) EJE ONTOLÓGICO (Estado / Condiciones / Variables)
+    - Describe QUÉ existe como dimensiones del estado (vector de variables).
+    - Composición dominante: agregación de dimensiones (producto / conjunto).
+    - Unidad mínima típica: una dimensión entrenable con borde (fNode).
+
+(B) EJE DE EJECUCIÓN (Tiempo / Operación / Trayectoria)
+    - Describe QUÉ ocurre como secuencia de eventos en el tiempo.
+    - Composición dominante: concatenación ordenada (sucesión).
+    - Unidad mínima típica: un evento de ejecución con identidad (una repetición o intervalo).
+
+Estos dos ejes se acoplan por un LAZO:
+  - Cambios en el estado alteran qué ejecución es viable/útil.
+  - Cambios por ejecución alteran el estado (si existe cierre).
+
+================================================================================
+3) UNIDADES MÍNIMAS DE DOMINIO (UMD): DOS ESPECIALIZACIONES
+--------------------------------------------------------------------------------
+3.1) UMD-S (Unidad mínima de Estado) = fNode
+-------------------------------------------
+Un fNode es una capacidad/atributo físico con identidad propia que cumple:
+  1) Tiene salida observable.
+  2) Es evaluable (tiene prueba o métrica).
+  3) Es entrenable/modulable.
+  4) Tiene borde de pertenencia (no se confunde con “todo a la vez”).
+
+Ejemplos:
+  - “fuerza máxima de empuje”
+  - “movilidad activa de tobillo”
+  - “recuperación entre sesiones”
+  - “estabilidad lumbo-pélvica bajo carga”
+
+3.2) UMD-E (Unidad mínima de Ejecución) = evento de ejecución
+------------------------------------------------------------
+En acondicionamiento físico, una UMD-E es el “átomo temporal” ejecutable que:
+  - Tiene proyección en el mundo tangible (ocurre en el tiempo y el cuerpo lo realiza).
+  - No se descompone en subeventos sin perder identidad en el dominio.
+
+Ejemplos:
+  - 1 repetición de sentadilla con técnica definida.
+  - 1 intervalo de carrera de 2 minutos a ritmo definido.
+  - 1 “hold” isométrico de 20 segundos (planchas).
+
+Núcleo / invariantes / variación (ejemplo rápido):
+  UMD-E: “repetición de sentadilla goblet”
+    - Núcleo: patrón de flexión-extensión de rodilla/cadera bajo carga frontal.
+    - Invariantes: profundidad mínima acordada + columna neutral + rodillas alineadas.
+    - Variación: peso, tempo, descanso, repeticiones por serie, rango exacto.
+
+================================================================================
+4) MODELO ONTOLÓGICO (ESTADO): PFAM + fNodes
+--------------------------------------------------------------------------------
+Para que la transformación tenga sentido, se define un modelo del dominio: un conjunto de familias
+(PFAM) que agrupan fNodes por rol operativo dominante. Esto NO es “brazos/piernas”, sino función.
+
+Familias base (mínimas):
+  PFAM-1  Producción de fuerza
+  PFAM-2  Potencia y velocidad de producción de fuerza
+  PFAM-3  Resistencia muscular local
+  PFAM-4  Capacidad cardiorrespiratoria y sistemas energéticos
+  PFAM-5  Movilidad y flexibilidad funcional
+  PFAM-6  Estabilidad, control postural y robustez articular
+  PFAM-7  Coordinación y control motor
+  PFAM-8  Estructura corporal y composición
+  PFAM-9  Recuperación y tolerancia sistémica (opcional, pero extremadamente útil)
+
+Nota sobre “más dimensiones = más eficiencia”:
+Agregar dimensiones ontológicas (cuando son medibles) refina la capacidad operativa del sistema,
+porque reduce ambigüedad: el sistema “sabe” qué está cambiando, en qué dirección y bajo qué límites.
+
+4.1) Ejemplo de catálogo inicial de fNodes (12 fNodes)
+------------------------------------------------------
+En vez de empezar con “muchas variables sueltas”, elige un set pequeño pero operable.
+
+(1) PFAM-1 — Fuerza
+  fNode-01: Fuerza de empuje horizontal (medición: push-ups con técnica / carga en press)
+  fNode-02: Fuerza de bisagra de cadera (medición: peso en RDL / técnica estable)
+  fNode-03: Fuerza de tracción vertical u horizontal (medición: dominadas asistidas / remos)
+
+(2) PFAM-3 — Resistencia local
+  fNode-04: Resistencia local de core anti-extensión (medición: plancha 60s estable)
+  fNode-05: Resistencia local de tren inferior (medición: split squat reps a RPE fijo)
+
+(3) PFAM-4 — Capacidad energética
+  fNode-06: Base aeróbica (medición: 12-min run o 2km tiempo)
+  fNode-07: Tolerancia a intervalos (medición: 6x1min rápido con recuperación)
+
+(4) PFAM-5 — Movilidad
+  fNode-08: Dorsiflexión tobillo (medición: rodilla a pared, cm)
+  fNode-09: Movilidad hombro en flexión (medición: overhead sin compensación)
+
+(5) PFAM-6 — Estabilidad/robustez
+  fNode-10: Estabilidad escapular en empuje (medición: calidad de push-up, sin “alas”)
+  fNode-11: Control de rodilla (valgo) en unilateral (medición: step-down sin colapso)
+
+(6) PFAM-8 — Composición/estructura
+  fNode-12: Circunferencia cintura (medición: cm)
+  (Opcional) peso corporal, %grasa estimado, perímetros.
+
+(7) PFAM-9 — Recuperación (opcional)
+  fNode-R: “Readiness semanal” (medición: sueño + DOMS + rendimiento estable)
+
+================================================================================
+5) MODELO DE CONTEXTO (CONDICIONES): “VECTOR DE CONTORNO”
+--------------------------------------------------------------------------------
+El contexto no es “decoración”; son dimensiones ontológicas del contorno de la transformación.
+
+Plantilla (Molde de contexto):
+  - Núcleo: describir bajo qué condiciones se ejecutará la transformación.
+  - Invariantes: las condiciones que no pueden ignorarse (lesiones, equipo fijo, tiempo real).
+  - Variación: lo que puede cambiar sin romper el contexto (horarios, días exactos, etc.).
+
+Ejemplo de contexto para el caso que construiremos:
+  - Tiempo disponible: 4 días/semana, 60 min por sesión.
+  - Lugar: casa + parque.
+  - Equipo: par de mancuernas ajustables + banda + banco.
+  - Limitación: molestia leve de rodilla (evitar impactos altos, cuidar profundidad al inicio).
+  - Experiencia: principiante-intermedio (ya entrenó antes, pero inconsistente).
+  - Plazo: 12 semanas.
+
+================================================================================
+6) EJE DE EJECUCIÓN: COMPOSICIÓN ASCENDENTE (REP → ...)
+--------------------------------------------------------------------------------
+En ejecución, la composición es temporal: una sucesión ordenada.
+
+Niveles sugeridos (mínimos para “ver” el sistema):
+
+Nivel 0: UMD-E
+  - Repetición / intervalo / hold
+
+Nivel 1: Módulo simple (Serie)
+  - Sucesión repetida de UMD-E del mismo patrón (p.ej. 10 reps)
+
+Nivel 2: Bloque (Módulo compuesto mínimo)
+  - Sucesión de módulos simples con intención local (p.ej. “fuerza base”)
+
+Nivel 3: Sesión (Módulo compuesto por bloques)
+  - Calentamiento → Bloques principales → Accesorios → Enfriamiento
+
+Nivel 4: Microciclo (Semana)
+  - Sucesión de sesiones con distribución (p.ej. 4 sesiones)
+
+Nivel 5: Mesociclo (4 semanas)
+  - 3 semanas de acumulación + 1 semana de descarga (deload)
+
+Nivel 6: Macrociclo (12 semanas)
+  - 3 mesociclos con objetivos intermedios + evaluación final
+
+================================================================================
+7) MECÁNICA DEL LAZO: SENSOR → EVALUADOR → ACTUADOR → MEMORIA
+--------------------------------------------------------------------------------
+Para que esto NO sea “lista de rutinas”, metemos el mecanismo de cierre.
+
+7.1 Sensor (qué medimos)
+------------------------
+Señales mínimas (semana a semana):
+  - Rendimiento (ej: reps, tiempo, carga)
+  - Técnica (calidad observada: pasa/falla)
+  - Fatiga (RPE, sueño, dolor)
+  - Composición (cintura/peso si aplica)
+
+7.2 Evaluador (cómo decidimos)
+------------------------------
+Regla: la evaluación decide si el sistema progresa, se mantiene o reduce.
+Ejemplo de políticas:
+  - Si rendimiento sube y fatiga está controlada → progresar.
+  - Si rendimiento baja y fatiga sube → descargar o ajustar.
+  - Si dolor articular supera umbral → modificar patrón (cambiar ejercicio, rango, volumen).
+
+7.3 Actuador (cómo actualizamos)
+--------------------------------
+Actuaciones típicas:
+  - Progresión de carga (más peso o más reps)
+  - Progresión de densidad (mismo trabajo, menos descanso)
+  - Progresión de complejidad (variación técnica más demandante)
+  - Descarga (reducir volumen/intensidad para sostener adaptación)
+  - Cambio de ejercicio (si invariantes de técnica no se cumplen)
+
+7.4 Memoria (qué conservamos)
+-----------------------------
+  - Registro de sesiones (log simple)
+  - Historial de métricas por fNode
+  - Reglas internas (política de progresión) como “hábito” del sistema
+
+7.5 Métrica de cierre y habilitación (“nivel”)
+----------------------------------------------
+Introducimos un agregado: Readiness / Nivel.
+Sirve como “compuerta”:
+  - Si readiness >= 7/10 → se habilita progresión
+  - Si readiness 4–6/10 → mantener
+  - Si readiness <= 3/10 → descargar / modificar
+
+================================================================================
+8) EJEMPLO COMPLETO: SUJETO ALFA (12 SEMANAS)
+--------------------------------------------------------------------------------
+8.1 Definición de la entidad (el “interior” del lazo)
+-----------------------------------------------------
+Entidad: Sujeto Alfa
+Frontera: su cuerpo + hábitos entrenables (no incluye “todo su mundo”)
+Campo (exterior relevante): tiempo, espacio, equipo, dieta general, sueño, estrés
+
+8.2 Estado inicial (vector de fNodes)
+-------------------------------------
+(Valores ficticios para ejemplificar; en uso real se miden)
+  fNode-01 Empuje: 12 push-ups con técnica
+  fNode-04 Core: plancha 35s con técnica
+  fNode-06 Aeróbico: 12 min trote = 1.6 km
+  fNode-08 Tobillo: 6 cm rodilla-a-pared
+  fNode-10 Escápula: “falla” (alas en push-up)
+  fNode-12 Cintura: 98 cm
+  Readiness (promedio): 5/10
+
+8.3 Objetivo (estado meta) = selección de dimensiones + valores objetivo
+------------------------------------------------------------------------
+Horizonte: 12 semanas
+Objetivo principal: recomposición ligera (cintura ↓, fuerza ↑)
+Objetivos por fNode:
+  fNode-01 Empuje: 25 push-ups con técnica
+  fNode-04 Core: plancha 75s
+  fNode-06 Aeróbico: 12 min = 2.0 km
+  fNode-08 Tobillo: 10 cm
+  fNode-10 Escápula: “pasa” (sin alas)
+  fNode-12 Cintura: 92 cm
+  Readiness: promedio 6–7/10 (sostenibilidad)
+
+8.4 Diseño de la transformación (acoplamiento Φ ↔ Ψ)
+----------------------------------------------------
+Traducción:
+  - El objetivo decide QUÉ fNodes son dominantes.
+  - El contexto decide QUÉ ejecución es viable.
+  - La ejecución se arma como trayectoria temporal (sesiones) que ataca esos fNodes.
+
+Por simplicidad, el plan tendrá 3 mesociclos (4 semanas cada uno):
+  Mesociclo 1 (sem 1–4): Base técnica + volumen moderado + base aeróbica
+  Mesociclo 2 (sem 5–8): Fuerza/hipertrofia progresiva + intervalos
+  Mesociclo 3 (sem 9–12): Intensificación + consolidación + evaluación final
+
+Cada mesociclo tiene:
+  - Semanas 1–3: acumulación (progresión)
+  - Semana 4: descarga (cierre + consolidación)
+
+================================================================================
+9) CATÁLOGO DE OPERACIONES DE EJECUCIÓN (EL “DOMINIO” COMO HERRAMIENTAS/OPERACIONES)
+--------------------------------------------------------------------------------
+Aquí sustituimos “herramientas” por “operaciones”: patrones que se instancian.
+
+Operaciones principales (candidatas):
+  - Empuje horizontal (push-up, press con mancuernas)
+  - Tracción horizontal (remo con mancuerna/banda)
+  - Bisagra de cadera (RDL, puente de glúteo)
+  - Unilateral pierna (split squat a rango controlado)
+  - Core anti-extensión (planchas, dead bug)
+  - Cardio continuo (zona 2)
+  - Intervalos (1 min rápido + 1 min suave)
+  - Movilidad tobillo/hombro (drills)
+  - Estabilidad escapular (scap push-ups, holds)
+
+Cada operación, como unidad, tiene:
+  - técnica (invariantes)
+  - parámetros (variación: carga, tempo, reps, descanso)
+
+================================================================================
+10) EJECUCIÓN: PLANTILLAS ANCESTRO/HEREDERO (SESIÓN)
+--------------------------------------------------------------------------------
+10.1 Ancestro: “Sesión de entrenamiento” (plantilla)
+----------------------------------------------------
+Núcleo:
+  - Módulo de ejecución cuyo fin es agrupar una sucesión de bloques para producir adaptación.
+
+Invariantes:
+  - Debe tener objetivo explícito (fNode(s) objetivo).
+  - Debe contener al menos 1 bloque principal.
+  - Debe contener calentamiento mínimo (seguridad) y cierre (enfriamiento breve).
+
+Variación:
+  - Número de bloques
+  - Contenido de bloques (qué operaciones)
+  - Parámetros (series/reps/descanso/carga)
+  - Duración (dentro del tiempo disponible)
+
+10.2 Heredero: “Sesión particular” (instanciación por objetivo + contexto)
+---------------------------------------------------------------------------
+Ejemplo: Sesión A (Empuje + Core + Movilidad)
+Objetivo (ontología activa):
+  - fNode-01 Empuje
+  - fNode-04 Core
+  - fNode-10 Escápula
+  - fNode-08 Tobillo (mini-dose)
+
+================================================================================
+11) MESOCICLO 1 (SEM 1–4): BASE + CONTROL MOTOR
+--------------------------------------------------------------------------------
+Distribución semanal (microciclo de 4 días):
+  Día 1: Sesión A — Empuje + Core + Movilidad
+  Día 2: Sesión B — Bisagra + Tracción + Rodilla (unilateral controlado)
+  Día 3: Cardio Z2 + Movilidad (30–40 min)
+  Día 4: Sesión C — Full body técnico + Intervalos suaves
+
+NOTA:
+Se alternan estímulos para sostener recuperación (PFAM-9) y evitar colisión con rodilla.
+
+-----------------------------------------
+11.1 Sesión A (detalle ejecutable)
+-----------------------------------------
+Calentamiento (10 min):
+  - 3 min caminata ligera
+  - movilidad hombro (círculos controlados)
+  - movilidad tobillo (rodilla-a-pared 2x6 reps por lado)
+  - activación escápula (scap push-ups 2x8)
+
+Bloque 1 — Fuerza base (20 min)  [PFAM-1]
+  - Push-up inclinado (manos en banco):
+      4 series x 8–12 reps, RPE 7, descanso 90s
+      Invariante: escápulas controladas (sin alas), tronco rígido
+      Variación: altura del banco + reps + tempo
+
+Bloque 2 — Tracción balance (15 min)  [PFAM-1 / PFAM-6]
+  - Remo mancuerna 1 brazo:
+      3 series x 10 reps por lado, descanso 75s
+      Invariante: hombro “empaquetado”, no encorvar
+      Variación: carga
+
+Bloque 3 — Core (10 min)  [PFAM-6 / PFAM-3]
+  - Dead bug:
+      3 series x 6 reps lentas por lado
+  - Plancha:
+      3 series x 20–30s
+      Invariante: no colapsar lumbar
+      Variación: tiempo
+
+Cierre (5 min):
+  - respiración + estiramiento suave de pectoral
+
+Progresión semanal (política del lazo):
+  - Si en la última serie de push-up haces 12 reps con buena técnica y RPE <= 7:
+      → aumentar dificultad (menos inclinación) o agregar 1–2 reps por serie.
+  - Si técnica falla (alas escápula) antes de 8 reps:
+      → bajar dificultad (más inclinación) y añadir 1 serie de scap push-ups.
+
+-----------------------------------------
+11.2 Sesión B (detalle ejecutable)
+-----------------------------------------
+Calentamiento (10 min):
+  - bisagra sin carga (2x8)
+  - puente de glúteo (2x10)
+  - movilidad tobillo (2x6)
+
+Bloque 1 — Bisagra (20 min) [PFAM-1]
+  - RDL con mancuernas:
+      4x8, RPE 7, descanso 120s
+      Invariante: columna neutral
+      Variación: carga, tempo
+
+Bloque 2 — Tracción (15 min) [PFAM-1]
+  - Remo con banda (o jalón):
+      3x12, descanso 60s
+
+Bloque 3 — Unilateral pierna (10–12 min) [PFAM-6]
+  - Split squat a rango parcial controlado:
+      3x8 por lado, RPE 6–7
+      Invariante: rodilla alineada (sin valgo), sin dolor agudo
+      Variación: rango, soporte, carga
+
+Cierre (5 min):
+  - movilidad cadera + respiración
+
+-----------------------------------------
+11.3 Día 3 (Cardio Z2 + Movilidad)
+-----------------------------------------
+Objetivo: PFAM-4 (base aeróbica) + PFAM-5 (movilidad)
+  - 30–40 min caminata rápida / trote suave (puedes hablar frases)
+  - movilidad tobillo/hombro 10 min
+
+-----------------------------------------
+11.4 Sesión C (Full-body técnico + intervalos suaves)
+-----------------------------------------
+Bloque técnico (25 min):
+  - Goblet squat a caja (sentarse y pararse):
+      3x10, RPE 6, técnica perfecta
+  - Press mancuerna en piso:
+      3x10
+  - Remo:
+      3x10
+
+Intervalos suaves (10–12 min):
+  - 6 rondas: 1 min rápido + 1 min lento (caminata)
+
+Cierre (5 min)
+
+-----------------------------------------
+11.5 Semana 4 (Descarga)
+-----------------------------------------
+Regla:
+  - Reducir volumen ~40% (menos series) manteniendo técnica.
+  - Mantener movilidad y caminatas.
+Objetivo del lazo:
+  - consolidar (memoria) + bajar fatiga (PFAM-9) para habilitar siguiente fase.
+
+================================================================================
+12) MESOCICLO 2 (SEM 5–8): PROGRESIÓN DE FUERZA + INTERVALOS
+--------------------------------------------------------------------------------
+Cambios en Φ (estado) esperados tras mesociclo 1:
+  - Mejor técnica, mejor tolerancia de volumen, más readiness.
+
+Cambios inducidos en Ψ:
+  - Menos inclinación en push-ups
+  - Más carga en RDL
+  - Intervalos más intensos (sin impacto excesivo)
+
+(Se mantiene estructura semanal, pero se sube intensidad selectiva)
+
+Ejemplo de progresión:
+  - Push-up: pasar a push-up en piso (o menor inclinación)
+  - RDL: subir carga 2–4% semanal si RPE permite
+  - Intervalos: 8 rondas 1:1 en semana 7 (si readiness ok)
+
+Semana 8 = descarga.
+
+================================================================================
+13) MESOCICLO 3 (SEM 9–12): INTENSIFICACIÓN + CONSOLIDACIÓN
+--------------------------------------------------------------------------------
+Objetivo:
+  - Convertir ganancias en desempeño observable (pruebas finales)
+  - Evitar colapso por fatiga (control PFAM-9)
+
+Estrategia:
+  - Menos volumen, más calidad
+  - Mantener cardio 2 días/semana pero ajustar intensidad según readiness
+
+Semana 12:
+  - Evaluación final (cierre de ciclo)
+  - Actualización de “estado final” y definición del siguiente objetivo
+
+================================================================================
+14) EL CICLO DE CIERRE (PROTOCOLO SEMANAL, SIMPLE Y EJECUTABLE)
+--------------------------------------------------------------------------------
+Cada semana, ejecutar:
+
+Paso S (Sensor):
+  - registrar: (1) reps/cargas clave, (2) técnica pasa/falla, (3) sueño 1–10, (4) dolor 0–10
+
+Paso E (Evaluador):
+  - calcular Readiness = promedio simple de:
+      sueño (1–10), energía (1–10), dolor invertido (10-dolor), motivación (1–10)
+    (no es “verdad”, es métrica de control)
+
+  - reglas:
+      if dolor >= 7: modo protección (modificar patrón)
+      else if readiness <= 3: descarga inmediata
+      else if readiness 4–6: mantener parámetros
+      else readiness >= 7: progresar (una variable a la vez)
+
+Paso A (Actuador):
+  - aplicar cambio mínimo:
+      +1–2 reps, o +1 serie, o +2–4% carga, o -10–15s descanso
+
+Paso M (Memoria):
+  - guardar resumen semanal:
+      “qué subió”, “qué bajó”, “qué se ajustó”, “por qué”
+
+Esto crea lazo cerrado: la ejecución deja huella en la ontología (estado) y altera ejecución futura.
+
+================================================================================
+15) DÓNDE SE VE LA TEORÍA “EN EL MUNDO” (LO QUE QUERÍAS VER CLARO)
+--------------------------------------------------------------------------------
+(1) El estado no es “sensación”: es vector de fNodes medibles (eje ontológico).
+(2) La ejecución no es “rutina suelta”: es trayectoria de módulos temporales (eje de ejecución).
+(3) El objetivo y el contexto NO son texto decorativo:
+      - son los “selectores” que instancian plantillas (ancestro → heredero).
+(4) La composición ascendente existe en ambos ejes:
+      - en estado: fNodes → perfiles → “capacidad global”
+      - en ejecución: rep → serie → bloque → sesión → semana → mesociclo
+(5) El cierre evita el “lazo abierto” (hacer por hacer):
+      - si no hay sensor/evaluación/actuación/memoria, no hay desarrollo, solo eventos.
+
+================================================================================
+16) MINI-GLOSARIO (POR SI QUIERES REUTILIZAR COMO ARTEFACTO)
+--------------------------------------------------------------------------------
+- fNode: unidad mínima de ESTADO (UMD-S). Dimensión entrenable, medible y con borde.
+- UMD-E: unidad mínima de EJECUCIÓN. Evento ejecutable con invariantes técnicos.
+- PFAM: familias físicas operativas para agrupar fNodes por rol dominante.
+- Módulo de ejecución: unidad temporal compuesta (serie, bloque, sesión, semana...).
+- Ontología (en este dominio): catálogo de dimensiones + valores (estado, contexto, objetivo).
+- Ejecución: secuencia real de eventos en el tiempo (sesiones).
+- Cierre: condición por la cual la actualización interna cambia futuras ejecuciones y/o el sensado.
+
+================================================================================
+17) NOTA DE SEGURIDAD (NO NEGOCIABLE)
+--------------------------------------------------------------------------------
+Este ejemplo es conceptual y educativo. En aplicación real:
+  - ajusta por lesiones reales,
+  - usa progresión conservadora,
+  - consulta profesional si hay dolor, patologías o dudas médicas.

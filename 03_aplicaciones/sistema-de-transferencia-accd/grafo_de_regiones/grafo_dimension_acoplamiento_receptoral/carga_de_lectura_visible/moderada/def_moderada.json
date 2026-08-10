@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+  "content": "**Definición.** Nivel en el que la pieza contiene una cantidad perceptible de texto, suficiente para guiar, explicar o etiquetar, pero sin convertirse en documento textual. Puede incluir título, subtítulo, algunas etiquetas, microbloques o anotaciones breves.\n\n**Diferenciación semántica.** Se diferencia de una carga mínima porque el texto no es sólo acento; cumple función de orientación. Se diferencia de una carga alta porque la imagen sigue siendo visualmente dominante o equilibrada, no una página de lectura extensa.\n\n**Interpretación mínima.** La IA debe entender que el receptor debe leer algo más que un titular, pero sin que la pieza dependa de párrafos largos.\n\n---"
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_consumen_infografias-personas_que_consumen_infografias",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_consumen_infografias-personas_que_consumen_infografias",
+    "label": "personas_que_consumen_infografias",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_consumen_infografias-personas_que_consumen_infografias",
+    "summary": "**Definición.** Receptor habituado a comprender información mediante combinaciones de texto, iconos, datos, diagramas, bloques y jerarquías visuales. Espera que la imagen organice contenido, no sólo que lo ilustre.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

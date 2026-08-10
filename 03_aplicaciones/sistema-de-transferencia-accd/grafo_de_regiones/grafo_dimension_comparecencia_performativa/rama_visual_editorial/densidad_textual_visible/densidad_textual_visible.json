@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible",
+    "label": "densidad_textual_visible",
+    "type": "subfield_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible",
+    "summary": "Subcampo que describe cuánta información textual aparece visualmente en la composición editorial.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "parent_field": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

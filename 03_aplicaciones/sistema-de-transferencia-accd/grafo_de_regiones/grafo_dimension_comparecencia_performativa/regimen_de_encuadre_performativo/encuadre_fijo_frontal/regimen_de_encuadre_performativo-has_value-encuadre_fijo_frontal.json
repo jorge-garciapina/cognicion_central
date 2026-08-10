@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal",
+    "type": "has_value",
+    "rationale": "encuadre_fijo_frontal es un valor declarado para el campo regimen_de_encuadre_performativo."
+  }
+}

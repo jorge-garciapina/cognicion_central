@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+    "label": "secuencia_laminar_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+    "summary": "Valor que fija la materialidad propia de `carousel/`: una salida compuesta por láminas visuales organizadas en secuencia.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

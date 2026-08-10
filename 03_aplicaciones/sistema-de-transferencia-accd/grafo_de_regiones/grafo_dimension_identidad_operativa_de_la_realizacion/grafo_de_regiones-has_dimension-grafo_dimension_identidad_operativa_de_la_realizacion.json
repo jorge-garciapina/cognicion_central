@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+  "content": {
+    "id": "grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+    "from": "grafo_de_regiones",
+    "to": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+    "type": "has_dimension",
+    "rationale": "grafo_dimension_identidad_operativa_de_la_realizacion es una dimensión disponible dentro de grafo_de_regiones."
+  }
+}

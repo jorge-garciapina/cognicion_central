@@ -1,0 +1,844 @@
+ARQUITECTURA COMERCIAL DE CREACIÓN DE CONTENIDO DIGITAL
+LECTURA DE REFINAMIENTO POR ESTRATOS
+Basada en LECTURA.md + teoria-de-maquinas-cognitivas.txt + lecturas relacionadas
+Versión de trabajo: 1.0
+
+==============================================================================
+0) PROPÓSITO DEL DOCUMENTO
+==============================================================================
+
+Este documento no intenta construir todavía la ontología fuerte final del paquete
+conceptual "Arquitectura Comercial de Creación de Contenido Digital".
+
+Su función es otra:
+
+1. tomar los estratos ya propuestos en LECTURA.md como caminos de refinamiento;
+2. releerlos a la luz de teoria-de-maquinas-cognitivas.txt y de las lecturas
+   relacionadas que en dicha teoría aparecen o que son referenciadas por el propio
+   archivo de comentarios;
+3. mostrar cómo cada estrato puede mejorar;
+4. proponer, para cada estrato, un conjunto revisado de componentes con mayor
+   capacidad descriptiva, mejor separación de niveles y mejor compatibilidad con
+   una futura ontología fuerte de grafo.
+
+Regla general de lectura:
+- La materia prima vive en la teoría.
+- Los estratos son caminos de refinamiento de esa materia prima.
+- Los componentes revisados no deben tratarse como definitivos; deben leerse como
+  mejores candidatos para la siguiente fase de desarrollo.
+
+==============================================================================  
+1) ACLARACIÓN PREVIA SOBRE EL OBJETO DEL PAQUETE
+==============================================================================
+
+Antes de entrar a los estratos conviene fijar una distinción que atraviesa casi
+todos los comentarios de LECTURA.md:
+
+hay dos niveles que no deben colapsarse.
+
+Nivel A:
+La Arquitectura Comercial de Creación de Contenido Digital como paquete conceptual,
+es decir, como arquitectura que permite construir, operar, leer y comercializar
+un sistema.
+
+Nivel B:
+La entidad construida con esa arquitectura, que en varios comentarios aparece como
+algo cercano a un perfil de influencer fijado a una estructura:
+- tema,
+- personalidad digital,
+- nicho,
+- forma relacional,
+- lógica de proyección,
+- etc.
+
+Esta distinción es crucial.
+
+Muchos componentes pueden pertenecer:
+- a la arquitectura misma,
+- a la entidad construida con esa arquitectura,
+- o a la relación entre ambas.
+
+Si esto no se aclara, el documento se vuelve ambiguo.
+
+Por tanto, en cada estrato conviene preguntar explícitamente:
+- ¿este componente pertenece al paquete arquitectónico?
+- ¿pertenece a la entidad proyectada/comercializada?
+- ¿o pertenece al mecanismo que las conecta?
+
+==============================================================================  
+2) REGLA METODOLÓGICA GENERAL PARA TODOS LOS ESTRATOS
+==============================================================================
+
+La teoría empuja a construir cualquier unidad conceptual relevante con:
+- identidad mínima,
+- función,
+- invariantes,
+- dominio de variación,
+- dependencias,
+- criterios de borde,
+- y validación.
+
+Además, la IEC/FCA obliga a separar:
+- estrato de dominio: qué piezas existen y cómo funcionan en el dominio;
+- estrato metodológico: cómo una intención se convierte en adaptación contextual
+  verificable sin perder identidad.
+
+Aplicado aquí:
+- algunos estratos describen el universo de piezas del dominio creación de
+  contenido/comercialización;
+- otros describen el mecanismo metodológico que selecciona, adapta, ensambla,
+  proyecta, valida y corrige esas piezas.
+
+Esto mejora todo el paquete porque evita mezclar:
+- qué existe,
+- con cómo se usa,
+- con cómo se valida.
+
+==============================================================================  
+3) ESTRATO 1 — IDENTIDAD ESTRUCTURAL DE LA ENTIDAD
+==============================================================================
+
+3.1 Qué mejora aporta la teoría
+Este estrato mejora enormemente si se conecta explícitamente con:
+- Arquitectura Cognitiva,
+- Campo Interpretativo,
+- IEC/FCA,
+- y el marco normativo general de construcción conceptual.
+
+La mejora principal es esta:
+
+la identidad estructural ya no debe describirse con fórmulas vacías como
+“este sería el núcleo ontológico mínimo”, sino como una entidad con:
+- interior,
+- frontera,
+- entrada,
+- salida,
+- envolvente,
+- vecindad relevante,
+- régimen interno,
+- criterio de evaluación,
+- y cierre de circuito.
+
+Además, el comentario de LECTURA.md tiene razón en algo decisivo:
+si este paquete sólo está modelando lo interior a la arquitectura comercial, la
+envolvente y la vecindad relevante no deben tratarse como simples listas sueltas,
+sino como nodos conectados a proyectos/paquetes externos o a una ontología más
+amplia de relaciones inter-paquete.
+
+3.2 Ideas cercanas en la teoría
+- Arquitectura Cognitiva: interior, frontera, entrada, salida, envolvente,
+  vecindad relevante, criterio, cierre.
+- Campo Interpretativo: entidad que recibe, pondera y responde.
+- IEC/FCA: necesidad de bordes explícitos, dependencias declaradas, validación y
+  ensamblajes verificables.
+- Separación entre dominio y metodología.
+
+3.3 Qué debe corregirse respecto del planteamiento previo
+- “Interior” no puede definirse como “lo que forma el interior”.
+- “Criterio” no puede quedar como palabra vacía; debe decir criterio de qué.
+- “Memoria editorial” necesita función explícita.
+- “Lógica comercial” necesita fuente, operación y borde.
+- “Reglas de preservación” deben declarar qué preservan.
+
+3.4 Componentes revisados del estrato
+1. ACCD-Interior-Estructural
+   Definición de la ontología interna del paquete: qué subgrafos pertenecen a la
+   arquitectura y qué relaciones internas sostienen su identidad.
+
+2. ACCD-Frontera-Operativa
+   Zona que regula qué entradas, actores, piezas, señales o cierres pueden tocar
+   el sistema y bajo qué condiciones.
+
+3. ACCD-Entrada-Arquitectonica
+   Qué cosas pueden entrar al sistema como material interpretable u operable:
+   núcleos, señales de audiencia, restricciones, oportunidades comerciales,
+   pedidos de campaña, etc.
+
+4. ACCD-Salida-Arquitectonica
+   Qué cosas pueden salir del sistema:
+   piezas, secuencias, campañas, leads, inventario, sponsorabilidad, aprendizaje,
+   reconfiguración de trayectoria.
+
+5. ACCD-Envolvente-Externa
+   Nodo puente hacia exterior relevante:
+   plataformas, mercado del dinero, instituciones, competencia, nichos, reglas
+   algorítmicas, clima interpretativo.
+
+6. ACCD-Vecindad-Relevante
+   Subrecorte de la envolvente que sí altera la operación concreta del sistema.
+
+7. ACCD-Regimen-Intensional
+   Pesos, umbrales, prioridades, moduladores y restricciones que organizan la
+   lectura del campo.
+
+8. ACCD-Criterio-de-Evaluacion
+   Qué cuenta como:
+   pertinencia,
+   legibilidad,
+   continuidad,
+   convertibilidad,
+   sponsorabilidad,
+   compatibilidad,
+   consistencia de identidad.
+
+9. ACCD-Cierre-de-Circuito-Arquitectonico
+   Mecanismo por el cual la evidencia reingresa al sistema y modifica proyecciones
+   futuras.
+
+Resultado del refinamiento:
+este estrato deja de ser una lista de palabras y pasa a ser el subgrafo que fija
+la forma básica de la entidad arquitectónica.
+
+==============================================================================  
+4) ESTRATO 2 — IDENTIDAD Y PRESERVACIÓN
+==============================================================================
+
+4.1 Qué mejora aporta la teoría
+Este estrato mejora si se lo lee desde:
+- Esencificación,
+- Perfil de Influencer,
+- Personalidad Digital Cognitiva,
+- Trayectoria de Proyección,
+- Fuente de Configuración de Recepción Atencional,
+- y la distinción entre arquitectura y entidad comercializada.
+
+La mejora decisiva es esta:
+
+el estrato no debe describir “qué hace que la arquitectura siga siendo la misma”,
+sino principalmente qué hace que la entidad construida con ella conserve identidad
+a través de piezas, plataformas, monetizaciones y contextos.
+
+Es decir:
+la arquitectura comercial comercializa/proyecta una entidad fijada a estructura.
+
+4.2 Ideas cercanas en la teoría
+- Esencificación: adaptación contextual con conservación estructural.
+- Contrato estructural portable.
+- Personalidad digital cognitiva como estabilización expresiva.
+- Trayectoria de proyección como lectura de una entidad en desarrollo y no como
+  colección indiferenciada de piezas.
+- Recepción atencional como restricción de inteligibilidad y continuidad.
+
+4.3 Qué debe corregirse respecto del planteamiento previo
+- Aclarar siempre si se habla de la arquitectura o del sistema/perfil proyectado.
+- “Núcleo” debe decir qué núcleo:
+  del perfil,
+  de la promesa,
+  del tema,
+  de la función,
+  de la posición comercial.
+- “Invariantes” deben separarse en identitarios, expresivos y comerciales.
+- “Dominio de variación” no debe mezclarse con cambio arbitrario.
+- “Contrato estructural” no es un adorno: fija qué debe preservarse.
+- “Esencificación” no es branding; es traducción preservadora.
+
+4.4 Componentes revisados del estrato
+1. ACCD-Entidad-Comercializada
+   La entidad concreta que la arquitectura busca proyectar y volver comercialmente
+   operable; por ejemplo, un perfil de influencer fijado a estructura.
+
+2. ACCD-Nucleo-Identitario
+   Centro estructural de la entidad comercializada:
+   qué promete,
+   qué tipo de valor porta,
+   qué no puede perder sin dejar de ser lo que es.
+
+3. ACCD-Invariantes-Identitarios
+   Rasgos no negociables:
+   estilo profundo de lectura,
+   promesa cognitiva,
+   borde editorial,
+   forma relacional,
+   posición simbólica.
+
+4. ACCD-Dominio-de-Variacion-Identitaria
+   Qué puede cambiar sin romper identidad:
+   plataforma,
+   longitud,
+   ritmo,
+   tecnicidad,
+   formato,
+   monetización activa,
+   granularidad.
+
+5. ACCD-Contrato-Estructural
+   Contenedor explícito de invariantes, reglas, límites, objetivos, lenguaje,
+   heurísticos, tono, reglas de distribución y do/don’t.
+
+6. ACCD-Personalidad-Digital-Cognitiva
+   Modo expresivo, inferencial y relacional por el cual la entidad se vuelve
+   reconocible en entornos digitales.
+
+7. ACCD-Trayectoria-de-Proyeccion
+   Nodo que permite leer la entidad como trayectoria de desarrollo:
+   inicio, densificación, estabilización, expansión, convertibilidad, etc.
+
+8. ACCD-Esencificacion
+   Proceso que realiza el núcleo en contextos múltiples sin pérdida de identidad.
+
+9. ACCD-Recepcion-Atencional-Configurable
+   Restricción identitaria que fija bajo qué forma la entidad puede ser recibida
+   atencionalmente sin perder inteligibilidad.
+
+Resultado del refinamiento:
+este estrato ya no es sólo “identidad”; se vuelve el subgrafo de preservación de
+la entidad comercializada.
+
+==============================================================================  
+5) ESTRATO 3 — INSTANCIACIÓN CONTEXTUAL
+==============================================================================
+
+5.1 Qué mejora aporta la teoría
+Este estrato mejora radicalmente al incorporar:
+- Fuente de Instanciación Contextual,
+- ejemplos guía,
+- programa de composición de proyección,
+- separación entre fuente, espacio intensional, vector, región, adaptador y
+  manifestación.
+
+La mejora central es esta:
+
+la arquitectura ya no “produce piezas” de forma directa.
+Produce casos de instanciación contextual traducibles a piezas concretas.
+
+5.2 Ideas cercanas en la teoría
+- Fuente estructural con identidad estable.
+- Espacio intensional explícito.
+- Vectores de instanciación.
+- Regiones de salida.
+- Mapa de respuesta con pesos, restricciones y umbrales.
+- Adaptadores como traductores contextuales.
+- Configuraciones válidas, ambiguas, inestables e inválidas.
+- Construcción inversa desde salida deseada.
+
+5.3 Qué debe corregirse respecto del planteamiento previo
+- “Fuente estructural” debe separarse de la entidad comercializada.
+- “Espacio intensional” debe describirse como espacio de variación de la fuente.
+- “Vector de instanciación” no es la pieza.
+- “Región de salida” no es todavía el formato final.
+- “Mapa de respuesta” necesita función explícita.
+- “Manifestación material” debe pensarse como terminal visible, no como origen.
+
+5.4 Componentes revisados del estrato
+1. ACCD-Fuente-de-Instanciacion
+   Entidad estructural que vuelve posibles múltiples piezas compatibles sin
+   agotarse en ninguna.
+
+2. ACCD-Espacio-Intensional
+   Espacio de dimensiones relevantes de variación de la fuente.
+
+3. ACCD-Dimension-Intensional-Base
+   Dimensiones compartidas comparables entre casos:
+   densidad,
+   explicitez,
+   complejidad,
+   repetitividad,
+   exigencia atencional,
+   velocidad de reenganche, etc.
+
+4. ACCD-Dimension-Intensional-Local
+   Dimensiones específicas de familia contextual:
+   presión algorítmica,
+   modularidad del clip,
+   vocabulario esperado,
+   tolerancia a inferencia, etc.
+
+5. ACCD-Vector-de-Instanciacion
+   Configuración concreta del caso sobre el espacio intensional.
+
+6. ACCD-Region-de-Salida
+   Zona del espacio donde dominan ciertos efectos:
+   captación inicial,
+   conversión relacional,
+   continuidad seriada,
+   monetización por curso,
+   etc.
+
+7. ACCD-Mapa-de-Respuesta
+   Mecanismo que traduce vectores a regiones y salidas usando pesos, restricciones,
+   umbrales, reglas de resolución y criterios de validez.
+
+8. ACCD-Adaptador
+   Traductor entre configuración estructural y artefacto realizable.
+
+9. ACCD-Manifestacion-Material
+   Reel, newsletter, landing, carrusel, secuencia, video largo, DM trigger, etc.
+
+10. ACCD-Estado-de-Configuracion
+    Con valores posibles:
+    válida,
+    ambigua,
+    inestable,
+    inválida.
+
+Resultado del refinamiento:
+este estrato responde de manera seria a la pregunta:
+¿cómo se construyen piezas concretas sin improvisación?
+
+==============================================================================  
+6) ESTRATO 4 — CONTEXTO
+==============================================================================
+
+6.1 Qué mejora aporta la teoría
+Este estrato mejora si se combina:
+- Campo Interpretativo,
+- descripción de estratos de fábrica de arquitecturas,
+- Teoría General de Modelado de Ideas,
+- proyección contextual,
+- y la intuición de que distintos contextos son configuraciones con identidad
+  local y no meros metadatos.
+
+La mejora decisiva es esta:
+
+los contextos no son “decoración” ni simple metadata.
+Son subestructuras con dimensiones propias y función causal en la proyección.
+
+6.2 Ideas cercanas en la teoría
+- Caso de proyección = núcleo + contexto de sujeto + contexto de distribución +
+  intención + restricciones + heurísticas.
+- Distinción entre contexto de recepción/sujeto y contexto de
+  distribución/plataforma.
+- Posibilidad de base dimensional compartida + dimensiones locales.
+- Campo interpretativo como estructura que procesa entradas y devuelve salidas.
+- Ontología contextual como dominio de condiciones bajo las cuales ocurre la
+  transformación.
+
+6.3 Qué debe corregirse respecto del planteamiento previo
+- No tratar todos los contextos como si compartieran exactamente las mismas
+  dimensiones.
+- No mezclar second viewing con TikTok: uno describe recepción, el otro
+  distribución.
+- “Contexto institucional” y “contexto comercial” necesitan borde propio.
+- “Restricciones” no son residuales: muchas veces son decisivas.
+
+6.4 Componentes revisados del estrato
+1. ACCD-Contexto-de-Sujeto
+   Describe el régimen de recepción esperado:
+   atención,
+   memoria,
+   complejidad tolerada,
+   vocabulario esperado,
+   familiaridad temática.
+
+2. ACCD-Contexto-de-Distribucion
+   Describe el entorno de circulación:
+   feed,
+   presión de retención,
+   formato dominante,
+   recirculación,
+   temporalidad,
+   peso del comentario,
+   superficie disponible.
+
+3. ACCD-Contexto-Institucional
+   Describe el campo de legitimidad, riesgo y autorización:
+   reputación,
+   compatibilidad con marcas,
+   alianzas,
+   bordes de aceptabilidad,
+   sensibilidad política o corporativa.
+
+4. ACCD-Contexto-Comercial
+   Describe la situación económica de cierre:
+   tipo de convertibilidad activa,
+   fricción transaccional,
+   calidad del tráfico,
+   sponsorabilidad,
+   fase de monetización.
+
+5. ACCD-Restriccion-Contextual
+   Límite concreto impuesto al caso:
+   tiempo,
+   presupuesto,
+   formato,
+   riesgo reputacional,
+   exigencia de claridad,
+   capacidad operativa del equipo.
+
+6. ACCD-Heuristica-de-Salida
+   Hook, mecanismo de reenganche, CTA, recapitulación, corte de anuncio,
+   simplificación narrativa, etc.
+
+Resultado del refinamiento:
+el contexto deja de ser “marco externo” y se vuelve subgrafo activo de
+proyección.
+
+==============================================================================  
+7) ESTRATO 5 — FUNCIONAL DE PIEZAS
+==============================================================================
+
+7.1 Qué mejora aporta la teoría
+Este estrato mejora si se lo conecta con:
+- familias cognitivas,
+- estado cognitivo,
+- modelado matemático de textos,
+- estrategias de contenido,
+- visión fractal de pesos.
+
+La mejora decisiva es esta:
+
+las piezas no deben clasificarse por tema, sino por rol operativo dominante,
+transformación dominante y función dentro de la secuencia de mediación.
+
+7.2 Ideas cercanas en la teoría
+- Familia cognitiva: no clasifica por tema sino por lo que la forma hace.
+- Rol operativo dominante.
+- Estado cognitivo como objetivo de transformación.
+- Posibilidad de scores, pesos y perfiles funcionales.
+- Estrategias de contenido como aplicaciones de funciones distintas.
+
+7.3 Qué debe corregirse respecto del planteamiento previo
+- La lista funcional debe ganar criterio de pertenencia.
+- No todas las categorías deben quedar al mismo nivel.
+- Conviene distinguir funciones de:
+  captación,
+  interpretación,
+  relación,
+  validación,
+  activación,
+  conversión,
+  memoria,
+  distribución.
+
+7.4 Componentes revisados del estrato
+1. ACCD-Funcion-de-Captacion
+2. ACCD-Funcion-de-Retencion
+3. ACCD-Funcion-de-Serializacion
+4. ACCD-Funcion-de-Clarificacion
+5. ACCD-Funcion-de-Reestructuracion-Interpretativa
+6. ACCD-Funcion-de-Densificacion
+7. ACCD-Funcion-de-Activacion-Emocional
+8. ACCD-Funcion-de-Identificacion
+9. ACCD-Funcion-de-Validacion-Experiencial
+10. ACCD-Funcion-de-Legitimacion-Epistemica
+11. ACCD-Funcion-de-Posicionamiento-Identitario
+12. ACCD-Funcion-de-Conversion-Relacional
+13. ACCD-Funcion-de-Calificacion-Relacional
+14. ACCD-Funcion-de-Cohesion-Comunitaria
+15. ACCD-Funcion-de-Activacion-Practica
+16. ACCD-Funcion-de-Conversion-Metodologica
+17. ACCD-Funcion-de-Conversion-Transaccional
+18. ACCD-Funcion-de-Memorabilidad-Simbolica
+19. ACCD-Funcion-de-Distribuibilidad
+20. ACCD-Funcion-de-Reactivacion-de-Archivo
+
+Resultado del refinamiento:
+este estrato se vuelve el clasificador funcional de las piezas y no un simple
+catálogo temático.
+
+==============================================================================  
+8) ESTRATO 6 — COMERCIAL Y DE CONVERTIBILIDAD
+==============================================================================
+
+8.1 Qué mejora aporta la teoría
+Este estrato mejora si se relee desde:
+- trayectoria de proyección,
+- arquitectura hub / ADR,
+- mediación económica contextual,
+- convertibilidad y dinero,
+- secuencia de mediación,
+- y la idea de que hay muchas vías de monetización.
+
+La mejora principal es esta:
+
+la convertibilidad no debe ocupar el nivel arquitectónico alto.
+Debe aparecer como subgrafo de cierres activables sobre una arquitectura mayor de
+mediación, densificación y atención organizada.
+
+8.2 Ideas cercanas en la teoría
+- Convertibilidad como tránsito de posición a elegibilidad económica.
+- Mediación económica contextual.
+- Arquitectura de mediación y densificación relacional.
+- Trayectoria de proyección con fases.
+- Múltiples vías de monetización.
+- Dinero como una salida posible del circuito, no como definición total del
+  sistema.
+
+8.3 Qué debe corregirse respecto del planteamiento previo
+- “Curso” no debe confundirse con identidad total del sistema.
+- “Inventario publicitario” y “sponsors” no son lo mismo.
+- “Capital institucional” no debe reducirse a dinero inmediato.
+- “Activo relacional” necesita ser tratado como acumulado reusable.
+
+8.4 Componentes revisados del estrato
+1. ACCD-Convertibilidad
+   Meta-nodo del estrato.
+
+2. ACCD-Inventario-Publicitario
+3. ACCD-Sponsorabilidad
+4. ACCD-Afiliacion
+5. ACCD-Lead-Generation
+6. ACCD-Comunidad-Paga
+7. ACCD-Curso
+8. ACCD-Producto-Propio
+9. ACCD-Consultoria-y-Servicio
+10. ACCD-Licenciamiento
+11. ACCD-Capital-Institucional
+12. ACCD-Activo-Relacional
+13. ACCD-Elegibilidad-Economica
+14. ACCD-Mercado-del-Dinero
+
+Resultado del refinamiento:
+el estrato comercial ya no enumera “formas de monetizar”; organiza rutas de
+convertibilidad con jerarquía ontológica.
+
+==============================================================================  
+9) ESTRATO 7 — ATENCIÓN ORGANIZADA
+==============================================================================
+
+9.1 Qué mejora aporta la teoría
+Este estrato mejora si se integra con:
+- creación de realidad,
+- estado cognitivo,
+- fuente de recepción atencional,
+- secuencia de mediación,
+- arquitectura comercial,
+- y la idea del campo interpretativo-comercial.
+
+La mejora principal es esta:
+
+la atención deja de entenderse como tráfico bruto y pasa a ser un estado
+estructurado del campo.
+
+9.2 Ideas cercanas en la teoría
+- Estado cognitivo y sus refinamientos.
+- Atención como algo configurable y modelable.
+- Recepción atencional del contenido.
+- Creación de realidad como capacidad de instalar estructuras operables.
+- Mediación: la atención como fase intermedia transformable.
+
+9.3 Qué debe corregirse respecto del planteamiento previo
+- “Atención captada” no basta.
+- “Zona de atención organizada” debe explicarse como estado en el que la atención
+  ya es legible, segmentable y operable.
+- Conviene distinguir entre atención momentánea, atención retenida, atención
+  acumulada y atención convertida.
+
+9.4 Componentes revisados del estrato
+1. ACCD-Atencion-Captada
+2. ACCD-Atencion-Retenida
+3. ACCD-Atencion-Segmentada
+4. ACCD-Atencion-Legible
+5. ACCD-Atencion-Acumulable
+6. ACCD-Atencion-Convertida-en-Activo
+7. ACCD-Zona-de-Atencion-Organizada
+8. ACCD-Regimen-de-Recepcion-Atencional
+9. ACCD-Reenganche
+10. ACCD-Continuidad-Atencional
+
+Resultado del refinamiento:
+la atención pasa a ser una ontología intermedia y no solo una métrica.
+
+==============================================================================  
+10) ESTRATO 8 — EVIDENCIA Y APRENDIZAJE
+==============================================================================
+
+10.1 Qué mejora aporta la teoría
+Este estrato mejora si se relee desde:
+- teoría de lazo,
+- lazo y cierre,
+- ejemplo de acondicionamiento mejorado,
+- fuente de instanciación,
+- campo interpretativo,
+- y el principio de que una pieza no cierra la operación: la evidencia sí.
+
+La mejora decisiva es esta:
+
+la evidencia no es dato residual; es la materia prima del cierre de circuito.
+
+10.2 Ideas cercanas en la teoría
+- Lazo y cierre.
+- Evidencia como huella observable de la operación.
+- Corrección, actualización y reescalamiento.
+- Validación de proyecciones.
+- Persistencia de lo decidido y de por qué se decidió.
+
+10.3 Qué debe corregirse respecto del planteamiento previo
+- Diferenciar evidencia de atención, relacional, comercial e institucional.
+- “Corrección”, “actualización” y “reescalamiento” necesitan función explícita.
+- Conviene conectar evidencia con mapas de respuesta y régimen intensional.
+
+10.4 Componentes revisados del estrato
+1. ACCD-Evidencia-de-Atencion
+2. ACCD-Evidencia-Relacional
+3. ACCD-Evidencia-Comercial
+4. ACCD-Evidencia-Institucional
+5. ACCD-Lectura-de-Evidencia
+6. ACCD-Correccion
+7. ACCD-Actualizacion
+8. ACCD-Reescalamiento
+9. ACCD-Cierre-de-Circuito-Aprendizaje
+10. ACCD-Persistencia-de-Evidencia
+
+Resultado del refinamiento:
+este estrato se vuelve el subgrafo de aprendizaje efectivo de la arquitectura.
+
+==============================================================================  
+11) ESTRATO 9 — UNIDADES MÍNIMAS Y COMPOSICIÓN ASCENDENTE
+==============================================================================
+
+11.1 Qué mejora aporta la teoría
+Este estrato mejora muchísimo si se integra con:
+- ejemplo de acondicionamiento físico,
+- fractalidad,
+- teoría de lazo,
+- planteamientos de mediación económica,
+- y el modelo del sistema versión 1.
+
+La mejora central es esta:
+
+el dominio creación de contenido digital necesita distinguir entre:
+- ontología del dominio,
+- eje de ejecución,
+- unidades mínimas,
+- módulos simples,
+- módulos compuestos,
+- trayectorias de composición.
+
+11.2 Ideas cercanas en la teoría
+- Unidades mínimas del dominio.
+- Unidades mínimas de escala.
+- Módulos simples y compuestos.
+- Composición ascendente.
+- Separación entre eje ontológico y eje de ejecución.
+- Fractalidad: un módulo compuesto puede operar como unidad para una escala mayor.
+
+11.3 Qué debe corregirse respecto del planteamiento previo
+- No confundir unidades mínimas del dominio con unidades mínimas de ejecución.
+- No tratar reel, carrusel y campaña como si estuvieran en la misma escala.
+- Conviene pensar cada escala con su propia unidad mínima y su propio borde.
+
+11.4 Componentes revisados del estrato
+A) Subestrato ontológico del dominio
+1. ACCD-Unidad-Minima-de-Dominio
+2. ACCD-Modulo-Simple-de-Dominio
+3. ACCD-Modulo-Compuesto-de-Dominio
+4. ACCD-Familia-Operativa-de-Dominio
+
+B) Subestrato de ejecución
+5. ACCD-Unidad-Minima-de-Ejecucion
+   Ejemplos candidatos:
+   hook,
+   giro,
+   prueba,
+   contraste,
+   promesa,
+   CTA,
+   cliffhanger,
+   ancla simbólica.
+
+6. ACCD-Modulo-Simple-de-Ejecucion
+   apertura de captación,
+   bloque de clarificación,
+   bloque de CTA,
+   cierre serial, etc.
+
+7. ACCD-Modulo-Compuesto-de-Ejecucion
+   reel,
+   carrusel,
+   newsletter,
+   landing,
+   secuencia,
+   mini-serie,
+   funnel relacional.
+
+8. ACCD-Composicion-Ascendente
+   pieza aislada,
+   serie,
+   campaña,
+   sistema de canal,
+   arquitectura comercial total.
+
+9. ACCD-Unidad-Minima-de-Escala
+   Meta-nodo que permite declarar que cada escala tiene mínimos propios.
+
+Resultado del refinamiento:
+este estrato permite modelar el ensamblaje real de piezas y no sólo la lógica
+abstracta del sistema.
+
+==============================================================================  
+12) ESTRATO 10 — META-COMPONENTES DEL GRAFO
+==============================================================================
+
+12.1 Qué mejora aporta la teoría
+Este estrato mejora si se conecta con:
+- marco normativo de construcción conceptual,
+- modelo de representación documental de grafos,
+- IEC/FCA,
+- y la necesidad de mantener el paquete interoperable con el grafo general.
+
+La mejora principal es esta:
+
+estos nodos no describen directamente la entidad comercializada ni una pieza del
+dominio; describen cómo leer, validar, conectar, bordear y documentar el propio
+subgrafo.
+
+12.2 Ideas cercanas en la teoría
+- toda unidad relevante debe tener función, identidad, dependencias, validación.
+- un grafo documentado necesita node/, edge/, def/, overview y convenciones.
+- la teoría exige independencia parcial + dependencia declarada.
+- el subgrafo debe ser transferible y expandible.
+
+12.3 Qué debe corregirse respecto del planteamiento previo
+- aclarar siempre si se habla de la arquitectura o de la entidad construida.
+- no tratar invariantes y dominio de variación como palabras transversales sin
+  decir a qué nodo pertenecen.
+- las relaciones con otros paquetes deben volverse explícitas mediante aristas,
+  no sólo listas de nombres.
+
+12.4 Componentes revisados del estrato
+1. ACCD-Discriminador
+2. ACCD-Prueba-de-Validez
+3. ACCD-Criterio-de-Borde
+4. ACCD-Condicion-de-Activacion
+5. ACCD-Dependencia-Declarada
+6. ACCD-Relacion-Interpaquete
+7. ACCD-Convencion-de-Nombre
+8. ACCD-Convencion-de-Representacion
+9. ACCD-Overview-del-Paquete
+10. ACCD-Mapa-de-Aristas-Canonicas
+
+Resultado del refinamiento:
+este estrato permite que el paquete deje de ser un texto de discusión y pueda
+migrar a grafo documentado y mantenible.
+
+==============================================================================  
+13) SÍNTESIS FINAL POR CAPAS
+==============================================================================
+
+Después de releer LECTURA.md a la luz de la teoría, el paquete no debería
+entenderse como una lista plana de “cosas que tiene una empresa de contenido”.
+
+Debe entenderse como una arquitectura estratificada donde:
+
+1. un estrato arquitectónico fija borde, interior y operación base;
+2. un estrato identitario preserva la entidad comercializada;
+3. un estrato de instanciación vuelve construibles los casos concretos;
+4. un estrato contextual aporta condiciones reales de proyección;
+5. un estrato funcional clasifica las piezas por rol operativo;
+6. un estrato comercial organiza rutas de convertibilidad;
+7. un estrato atencional convierte flujo en campo operable;
+8. un estrato de evidencia cierra el aprendizaje;
+9. un estrato de composición ascendente modela ensamblajes y escalas;
+10. un estrato meta asegura que todo esto pueda existir como paquete conceptual
+    interoperable dentro del grafo mayor.
+
+==============================================================================  
+14) FÓRMULA DE CIERRE
+==============================================================================
+
+La Arquitectura Comercial de Creación de Contenido Digital mejora cuando deja de
+describirse como una secuencia lineal de producción-distribución-monetización y
+comienza a leerse como un paquete conceptual estratificado capaz de:
+
+- fijar una entidad comercializable,
+- preservar su identidad,
+- proyectarla contextualmente,
+- traducirla a piezas,
+- organizar atención,
+- leer evidencia,
+- acumular posición,
+- y activar convertibilidades económicas sin colapsar la ontología del sistema
+  en ninguna pieza o monetización particular.
+
+Fin del documento.

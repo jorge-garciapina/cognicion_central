@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural",
+    "label": "imagen_estructural",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural",
+    "summary": "Valor imagen_estructural declarado para el campo uso_de_imagen_generada.",
+    "metadata": {
+      "value_of": "uso_de_imagen_generada",
+      "source_section": "12.2"
+    }
+  }
+}

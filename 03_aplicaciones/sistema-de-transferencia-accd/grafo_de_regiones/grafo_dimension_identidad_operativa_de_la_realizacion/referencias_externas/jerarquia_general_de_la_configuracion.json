@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion",
+    "label": "jerarquia_general_de_la_configuracion",
+    "type": "external_reference_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion",
+    "summary": "Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.",
+    "metadata": {
+      "defined_inside_this_dimension": false
+    }
+  }
+}

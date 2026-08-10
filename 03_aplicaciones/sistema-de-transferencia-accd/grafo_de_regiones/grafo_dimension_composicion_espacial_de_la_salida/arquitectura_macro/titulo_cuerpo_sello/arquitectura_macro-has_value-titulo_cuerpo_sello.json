@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+    "type": "has_value",
+    "rationale": "titulo_cuerpo_sello es un valor nuevo incorporado en arquitectura_macro para la realización imagen."
+  }
+}

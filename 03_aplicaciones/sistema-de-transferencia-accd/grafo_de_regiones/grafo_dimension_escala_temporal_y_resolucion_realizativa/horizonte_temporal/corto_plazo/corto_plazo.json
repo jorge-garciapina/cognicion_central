@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo",
+    "label": "corto_plazo",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo",
+    "summary": "Valor declarado para el campo horizonte_temporal: corto_plazo.",
+    "source_field": "horizonte_temporal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+    "label": "contraste_visual_fuerte",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-contraste_visual_fuerte-contraste_visual_fuerte",
+    "summary": "La lámina divide el espacio en oposición.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

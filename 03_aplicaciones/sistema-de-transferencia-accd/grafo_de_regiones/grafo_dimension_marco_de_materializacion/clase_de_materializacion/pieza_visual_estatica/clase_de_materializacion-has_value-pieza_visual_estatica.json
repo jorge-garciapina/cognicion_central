@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-pieza_visual_estatica-pieza_visual_estatica",
+    "type": "has_value",
+    "rationale": "pieza_visual_estatica es un valor nuevo incorporado en clase_de_materializacion para la realización imagen."
+  }
+}

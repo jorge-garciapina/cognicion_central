@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-has_subfield-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-has_subfield-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia",
+    "type": "has_subfield",
+    "rationale": "regimen_de_iconografia es un subcampo de rama_visual_editorial incorporado para la realización carousel."
+  }
+}

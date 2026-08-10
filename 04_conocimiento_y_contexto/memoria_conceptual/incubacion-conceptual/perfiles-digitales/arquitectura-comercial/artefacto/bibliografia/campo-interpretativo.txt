@@ -1,0 +1,482 @@
+================================================================================
+DEFINICIÓN — CAMPO INTERPRETATIVO
+Versión: v1.0 (autónoma + lista para integrar en grafo)
+Propósito dual:
+1) Ser legible como unidad conceptual autónoma, sin depender del contexto conversacional.
+2) Ser integrable al grafo teórico como ontología débil refinable, preparada para futura expansión.
+
+================================================================================
+
+0) Intención del concepto
+
+Campo Interpretativo se introduce para fijar, de manera explícita y portable, una entidad de nivel
+superior cuya función consiste en recibir entradas desde una envolvente, ponderarlas bajo un régimen
+interno de criterios, restricciones y prioridades, y producir una salida interpretativa que afecta
+la continuidad del sistema o la situación de los elementos que entran en él.
+
+Su función no es nombrar:
+- una intervención,
+- una realización contextual,
+- una pieza de contenido,
+- un sujeto,
+- ni una regla aislada.
+
+Su función es nombrar una estructura de evaluación y respuesta.
+
+Este nodo debe existir porque evita una confusión importante:
+si no se distingue el campo que interpreta de las entidades que ingresan a él, el modelo colapsa y
+mezcla en una sola unidad:
+- al sistema que pondera,
+- a los jugadores que intentan ingresar,
+- a las entradas que se procesan,
+- y a las salidas que el sistema devuelve.
+
+Campo Interpretativo debe existir como nodo propio porque permite modelar:
+- instancias que no “se realizan” en un sujeto,
+- sino que procesan entradas de sujetos,
+- y devuelven una salida dependiente de una lógica interna estable.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Campo Interpretativo = entidad estructural que recibe entradas codificadas desde una envolvente,
+las pondera según un régimen interno de interpretación, prioridad y restricción, y emite salidas
+clasificatorias, retributivas, selectivas o transformadoras que dependen de esa ponderación.
+
+Dicho de otro modo:
+
+Campo Interpretativo no es la entrada.
+Tampoco es la salida.
+Tampoco es el jugador.
+Tampoco es la intervención concreta.
+
+Es la entidad que:
+- recibe,
+- evalúa,
+- clasifica,
+- y responde.
+
+--------------------------------------------------------------------------------
+
+2) Fenómeno o función que delimita
+
+Este concepto delimita el fenómeno de mediación interpretativa entre:
+
+- entradas provenientes de agentes, eventos, señales o producciones,
+- un régimen interno de evaluación,
+- y una salida estabilizada por ese régimen.
+
+Recorta, por tanto, situaciones en las que no basta con decir:
+“algo ocurrió”.
+
+Lo que importa aquí es:
+- cómo ese algo entra al sistema,
+- bajo qué criterios es interpretado,
+- qué ponderaciones internas se activan,
+- y qué salida produce la estructura evaluadora.
+
+Campo Interpretativo no delimita:
+- cualquier entorno,
+- cualquier contexto,
+- cualquier conjunto de reglas,
+- ni cualquier secuencia causal.
+
+Delimita un caso más fuerte:
+una entidad que procesa entradas y las convierte en resultados interpretativamente regulados.
+
+--------------------------------------------------------------------------------
+
+3) Dependencias conceptuales
+
+Campo Interpretativo depende, como base mínima, de los siguientes conceptos:
+
+3.1) Entidad
+Depende de Entidad porque debe tratarse como una unidad con identidad propia y no como una relación
+difusa o un trasfondo narrativo.
+
+3.2) Entrada / ingreso
+Depende del concepto de entrada porque el campo sólo puede operar si algo ingresa a él:
+señales, acciones, producciones, solicitudes, performances, eventos o formulaciones.
+
+3.3) Criterio
+Depende de Criterio porque no interpreta de manera aleatoria.
+Debe existir algún principio de evaluación, prioridad, clasificación o legibilidad.
+
+3.4) Restricción
+Depende de Restricción porque todo campo interpretativo opera bajo límites, umbrales, filtros o
+condiciones de admisibilidad que modifican la lectura de las entradas.
+
+3.5) Salida
+Depende de Salida porque su operación no queda completa en la mera recepción o lectura.
+El campo debe producir una consecuencia, decisión, clasificación, asignación o respuesta.
+
+3.6) Frontera
+Depende de Frontera porque necesita una zona estructural mediante la cual pueda distinguir:
+- qué entra,
+- cómo entra,
+- qué queda fuera,
+- y bajo qué condiciones algo toca al sistema.
+
+3.7) Contexto
+Depende de Contexto porque la interpretación no ocurre en vacío.
+Las entradas son leídas dentro de un horizonte situacional, histórico, institucional o dinámico.
+
+3.8) Evidencia
+Depende de Evidencia porque la correcta aplicación del concepto exige poder observar alguna salida o
+efecto que muestre que la interpretación ocurrió y no fue mera posibilidad abstracta.
+
+3.9) Régimen intensional
+Depende de una lógica intensional porque, en muchos casos, la interpretación no se decide sólo por
+la topología visible de la situación, sino por pesos, prioridades, umbrales, restricciones o
+atribuciones internas.
+
+Estas dependencias no son decorativas.
+Funcionan como base ontológica mínima de la definición.
+
+--------------------------------------------------------------------------------
+
+4) Invariantes
+
+Campo Interpretativo preserva al menos los siguientes invariantes:
+
+4.1) Invariante de identidad evaluadora
+Debe existir una unidad distinguible que ejerza la función de interpretación.
+Si no puede distinguirse el sistema que interpreta de las entradas que recibe, la unidad colapsa.
+
+4.2) Invariante de frontera de entrada
+Debe existir una forma estructural por la cual algo pueda ingresar al campo como material
+interpretable.
+
+4.3) Invariante de régimen interno
+Debe existir un conjunto de criterios, prioridades, restricciones o umbrales que gobiernen la
+ponderación de lo que entra.
+
+4.4) Invariante de transformación interpretativa
+La entrada no puede salir idéntica en estatuto.
+Debe haber una transformación de estatus:
+clasificación, admisión, rechazo, sospecha, autorización, recompensa, castigo, validación, etc.
+
+4.5) Invariante de salida
+Debe producirse alguna salida identificable.
+Si el campo no produce ninguna consecuencia, entonces no está operando como campo interpretativo.
+
+4.6) Invariante de diferencia entre entrada y regla
+La entrada no puede confundirse con la lógica interna del campo.
+El campo interpreta las entradas; no es simplemente una de ellas.
+
+4.7) Invariante de criterio de pertenencia
+Debe poder distinguirse qué casos pertenecen al campo y cuáles no, según si realmente hay recepción,
+ponderación y salida.
+
+--------------------------------------------------------------------------------
+
+5) Dominio de variación
+
+Campo Interpretativo admite variación sin perder identidad en, al menos, las siguientes dimensiones:
+
+5.1) Variación de dominio
+Puede operar en:
+- poder,
+- educación,
+- medicina,
+- mercado,
+- instituciones,
+- creación de realidad,
+- sistemas jurídicos,
+- plataformas digitales,
+sin dejar de ser campo interpretativo.
+
+5.2) Variación del tipo de entrada
+Puede recibir:
+- actos,
+- señales,
+- producciones,
+- respuestas,
+- discursos,
+- datos,
+- síntomas,
+- perfiles,
+- eventos,
+siempre que sigan entrando como material a ponderar.
+
+5.3) Variación del tipo de salida
+Puede producir:
+- aceptación,
+- rechazo,
+- graduación,
+- castigo,
+- premio,
+- ajuste,
+- clasificación,
+- validación,
+- derivación,
+- sospecha,
+sin romper identidad.
+
+5.4) Variación de escala
+Puede ser:
+- microinteraccional,
+- institucional,
+- ritual,
+- algorítmico,
+- organizacional,
+- civilizatorio,
+- simbólico,
+siempre que conserve su estructura de recepción-ponderación-salida.
+
+5.5) Variación del grado de explicitud
+Sus reglas internas pueden estar:
+- formalizadas,
+- parcialmente explícitas,
+- o implícitas pero estructuralmente recuperables.
+
+Regla de borde:
+Puede cambiar sobre qué entradas opera y qué tipo de salida produce,
+pero no puede dejar de operar como entidad que recibe, pondera y responde.
+
+--------------------------------------------------------------------------------
+
+6) Discriminadores o pruebas de reconocimiento
+
+Campo Interpretativo se distingue de conceptos cercanos por las siguientes pruebas:
+
+6.1) Prueba contra “contexto”
+El contexto condiciona, pero no necesariamente interpreta.
+Un campo interpretativo debe además:
+- recibir,
+- ponderar,
+- y producir una salida.
+
+6.2) Prueba contra “protocolo realizable”
+Un protocolo realizable es una regla o núcleo que luego puede aplicarse o adaptarse a sujetos.
+El campo interpretativo, en cambio, no es lo que se aplica al sujeto:
+es lo que procesa lo que el sujeto introduce.
+
+6.3) Prueba contra “entorno”
+Un entorno puede rodear a una entidad sin evaluarla.
+El campo interpretativo exige función activa de clasificación o ponderación.
+
+6.4) Prueba contra “jugador”
+Un jugador introduce una entrada.
+El campo interpretativo la procesa.
+Si ambas funciones no se distinguen, el modelo colapsa.
+
+6.5) Prueba por salida diferencial
+Si dos entradas distintas reciben salidas distintas bajo una misma lógica interna de ponderación,
+entonces hay evidencia fuerte de campo interpretativo.
+
+6.6) Prueba por cambio de criterio
+Si al cambiar el criterio interno del campo cambian las salidas sin que cambien necesariamente las
+entradas, eso indica que la identidad del campo no se reduce a los casos particulares.
+
+--------------------------------------------------------------------------------
+
+7) Frontera conceptual
+
+Entran dentro de Campo Interpretativo:
+- sistemas que reciben entradas y devuelven salidas según una lógica interna,
+- campos que distinguen lo admisible de lo inadmisible,
+- instancias que ponderan valor, amenaza, pertinencia, legitimidad o relevancia,
+- y entidades que median entre lo que ingresa y lo que se estabiliza como respuesta.
+
+No entran dentro de Campo Interpretativo:
+- cualquier contexto pasivo,
+- cualquier regla aislada,
+- cualquier entorno sin capacidad de respuesta,
+- cualquier secuencia causal lineal sin evaluación,
+- ni cualquier actor individual que solo produce entradas.
+
+La frontera conceptual se rompe cuando el término se usa para nombrar:
+- un mero ambiente,
+- una lista de normas sin función procesadora,
+- un conjunto de personas sin lógica interna común,
+- o un sujeto particular confundido con el sistema que lo evalúa.
+
+--------------------------------------------------------------------------------
+
+8) Relaciones con otras unidades
+
+8.1) Relación con Entidad
+Campo Interpretativo is_a Entidad.
+Sentido:
+debe tratarse como unidad con identidad propia.
+
+8.2) Relación con Entrada
+Campo Interpretativo receives Entrada.
+Sentido:
+necesita material ingresado para operar.
+
+8.3) Relación con Criterio
+Campo Interpretativo uses Criterio.
+Sentido:
+la ponderación depende de reglas internas de lectura o evaluación.
+
+8.4) Relación con Restricción
+Campo Interpretativo is_limited_by Restricción.
+Sentido:
+no interpreta de manera ilimitada o indiferenciada; opera bajo filtros y umbrales.
+
+8.5) Relación con Evidencia
+Campo Interpretativo produces Evidencia.
+Sentido:
+su operación debe dejar huella observable en forma de salida o consecuencia.
+
+8.6) Relación con Campo Interpretativo de Poder
+Campo Interpretativo de Poder refines Campo Interpretativo.
+Sentido:
+el caso de poder es una especialización donde la variable crítica de ponderación es la centralidad.
+
+8.7) Relación con Realización Contextual
+Campo Interpretativo conditions o judges Realización Contextual.
+Sentido:
+la realización contextual puede ser una de las entradas procesadas por el campo.
+
+8.8) Relación con Frontera de Entrada y Frontera de Salida
+Campo Interpretativo uses Frontera de Entrada / Salida.
+Sentido:
+necesita especificar cómo recibe y cómo devuelve consecuencias.
+
+--------------------------------------------------------------------------------
+
+9) Superficie de integración
+
+La superficie de integración de esta definición es la siguiente:
+
+Campo Interpretativo se integra al resto del sistema como la unidad que permite separar tres cosas
+que, si no se distinguen, generan confusión de modelado:
+
+- quién o qué introduce una entrada,
+- qué entidad la pondera,
+- y qué salida produce esa ponderación.
+
+Por eso toca inmediatamente nodos como:
+- Entidad,
+- Entrada,
+- Restricción,
+- Criterio,
+- Evidencia,
+- Contexto,
+- Frontera,
+- Realización Contextual,
+- y los distintos refinamientos de campo según dominio.
+
+Funciona como compresión inicial de un subgrafo futuro porque puede expandirse en:
+- operador interno de ponderación,
+- tipos de entrada,
+- tipos de salida,
+- memoria del campo,
+- régimen intensional,
+- criterios de admisión,
+- y clases de respuesta.
+
+--------------------------------------------------------------------------------
+
+10) Validación
+
+La definición se considera correctamente aplicada cuando permite:
+
+10.1) Distinguir con claridad el campo de los jugadores o entradas que lo atraviesan.
+10.2) Mostrar cuál es la entrada procesada por el campo.
+10.3) Mostrar qué criterio o restricción interna participa en la ponderación.
+10.4) Identificar una salida producida por el sistema.
+10.5) Explicar por qué dos entradas distintas pueden recibir salidas distintas bajo el mismo campo.
+10.6) Mostrar que el concepto no fue usado como mero “contexto” o “entorno”.
+
+Una mala aplicación se detecta cuando:
+- se confunde el campo con un actor individual,
+- se confunde el campo con una intervención,
+- no existe salida identificable,
+- o no puede distinguirse ninguna lógica interna de ponderación.
+
+--------------------------------------------------------------------------------
+
+11) Ejemplos ancla
+
+Ejemplo 1:
+Un tribunal recibe pruebas, las pondera según criterios internos y produce una sentencia.
+Eso es un campo interpretativo.
+
+Ejemplo 2:
+Una estructura de poder recibe actos públicos de subordinados y responde con favor o castigo según
+cómo esos actos afecten la centralidad del centro.
+Eso es un campo interpretativo.
+En ese caso particular, el refinamiento sería “Campo Interpretativo de Poder”.
+
+Ejemplo 3:
+Un sistema educativo recibe el desempeño o estado de un estudiante y, bajo ciertos criterios de
+lectura, lo clasifica, lo aprueba, lo deriva o lo corrige.
+Eso también es un campo interpretativo.
+
+Estos ejemplos ayudan a reconocer el patrón, pero no fundan la definición.
+
+--------------------------------------------------------------------------------
+
+12) Posible refinamiento futuro
+
+Esta definición está escrita como ontología débil refinable.
+
+Puede expandirse, al menos, en las siguientes direcciones:
+
+12.1) Separación entre operador interno y frontera
+Distinguir con más precisión:
+- recepción,
+- ponderación,
+- clasificación,
+- y emisión de salida.
+
+12.2) Subgrafo de tipos de criterios
+Separar:
+- criterios normativos,
+- criterios intensionales,
+- criterios comparativos,
+- criterios institucionales,
+- criterios algorítmicos.
+
+12.3) Subgrafo de entradas
+Distinguir:
+- acción,
+- señal,
+- producción,
+- solicitud,
+- evento,
+- performance,
+- evidencia.
+
+12.4) Subgrafo de salidas
+Distinguir:
+- recompensa,
+- castigo,
+- clasificación,
+- ajuste,
+- validación,
+- rechazo,
+- derivación.
+
+12.5) Refinamientos por dominio
+Expandir:
+- Campo Interpretativo de Poder,
+- Campo Interpretativo Educativo,
+- Campo Interpretativo Clínico,
+- Campo Interpretativo Institucional,
+- Campo Interpretativo de Mercado.
+
+12.6) Relación con memoria
+Desarrollar si el campo interpreta entradas aisladas o trayectorias acumuladas.
+
+--------------------------------------------------------------------------------
+
+13) Fórmula de cierre
+
+Campo Interpretativo no nombra simplemente un contexto ni una regla general.
+Nombra una entidad estructural que recibe entradas, las pondera bajo un régimen interno y produce
+salidas interpretativamente reguladas.
+
+Por eso:
+
+Campo Interpretativo =
+entidad evaluadora
++ frontera de entrada
++ régimen interno de interpretación
++ transformación de estatus
++ salida estructurada.

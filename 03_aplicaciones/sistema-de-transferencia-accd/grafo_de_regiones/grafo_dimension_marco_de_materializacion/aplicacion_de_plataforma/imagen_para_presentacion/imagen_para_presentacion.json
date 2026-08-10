@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_presentacion-imagen_para_presentacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_presentacion-imagen_para_presentacion",
+    "label": "imagen_para_presentacion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-imagen_para_presentacion-imagen_para_presentacion",
+    "summary": "**Definición.** Aplicación en diapositiva o exposición. Debe funcionar a distancia, permitir lectura rápida y apoyar una idea sin exigir exploración minuciosa durante demasiado tiempo.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

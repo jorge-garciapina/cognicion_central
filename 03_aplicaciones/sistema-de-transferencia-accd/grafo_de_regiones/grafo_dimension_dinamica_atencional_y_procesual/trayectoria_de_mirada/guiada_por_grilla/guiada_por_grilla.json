@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_grilla-guiada_por_grilla",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_grilla-guiada_por_grilla",
+    "label": "guiada_por_grilla",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_grilla-guiada_por_grilla",
+    "summary": "**Definición.** Recorrido en el que la mirada se apoya en una retícula de módulos, filas, columnas o celdas. La grilla permite comparar, ordenar, escanear o distribuir información mediante posiciones repetibles y relaciones de alineación.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

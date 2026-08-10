@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa",
+    "label": "proposicion_operativa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa",
+    "summary": "Valor proposicion_operativa declarado para el campo formulacion_de_la_idea.",
+    "metadata": {
+      "value_of": "formulacion_de_la_idea"
+    }
+  }
+}

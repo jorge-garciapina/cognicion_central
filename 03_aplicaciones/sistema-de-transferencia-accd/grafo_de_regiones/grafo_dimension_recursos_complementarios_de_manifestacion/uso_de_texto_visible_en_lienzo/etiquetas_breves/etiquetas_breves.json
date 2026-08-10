@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+    "label": "etiquetas_breves",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo-etiquetas_breves-etiquetas_breves",
+    "summary": "**Definición.** Régimen basado en palabras o frases cortas vinculadas a partes de la imagen. Las etiquetas identifican componentes, categorías o funciones y facilitan lectura localizada.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_visible_en_lienzo"
+    }
+  }
+}

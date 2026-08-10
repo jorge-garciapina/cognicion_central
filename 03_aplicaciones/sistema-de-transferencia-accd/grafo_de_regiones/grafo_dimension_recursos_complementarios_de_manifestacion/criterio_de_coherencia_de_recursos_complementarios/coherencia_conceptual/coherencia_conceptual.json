@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual",
+    "label": "coherencia_conceptual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual",
+    "summary": "Valor coherencia_conceptual declarado para el campo criterio_de_coherencia_de_recursos_complementarios.",
+    "metadata": {
+      "value_of": "criterio_de_coherencia_de_recursos_complementarios",
+      "source_section": "12.8"
+    }
+  }
+}

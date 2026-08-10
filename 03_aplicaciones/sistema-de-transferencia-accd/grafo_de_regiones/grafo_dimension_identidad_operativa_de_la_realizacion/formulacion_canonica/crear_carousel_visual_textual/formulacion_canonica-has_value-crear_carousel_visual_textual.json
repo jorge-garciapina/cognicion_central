@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_carousel_visual_textual-crear_carousel_visual_textual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_carousel_visual_textual-crear_carousel_visual_textual",
+    "from": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "to": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_carousel_visual_textual-crear_carousel_visual_textual",
+    "type": "has_value",
+    "rationale": "crear_carousel_visual_textual es un valor de formulacion_canonica incorporado para la realización carousel."
+  }
+}

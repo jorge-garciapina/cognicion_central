@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio",
+    "label": "sostenimiento_desde_el_inicio",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio",
+    "summary": "Valor declarado para el campo regimen_de_activacion_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La atención debe ser captada y mantenida desde el primer tramo."
+  }
+}

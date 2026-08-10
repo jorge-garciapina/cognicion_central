@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-jerarquia-jerarquia",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-jerarquia-jerarquia",
+    "label": "jerarquia",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-jerarquia-jerarquia",
+    "summary": "**Definición.** Relación donde una idea domina, ordena o subordina a otra. Puede expresarse por tamaño, posición, peso visual, nivel, color o centralidad. No indica sólo importancia aislada, sino una estructura de superioridad, dependencia o prioridad entre elementos.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

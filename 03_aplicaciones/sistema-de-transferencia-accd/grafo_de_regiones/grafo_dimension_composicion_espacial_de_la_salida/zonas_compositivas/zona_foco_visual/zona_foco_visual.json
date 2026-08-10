@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_foco_visual-zona_foco_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_foco_visual-zona_foco_visual",
+    "label": "zona_foco_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_foco_visual-zona_foco_visual",
+    "summary": "**Definición.** Área donde se concentra el elemento visual más importante: figura, producto, símbolo, escena, dato o diagrama. Organiza el primer reconocimiento no necesariamente verbal.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas"
+    }
+  }
+}

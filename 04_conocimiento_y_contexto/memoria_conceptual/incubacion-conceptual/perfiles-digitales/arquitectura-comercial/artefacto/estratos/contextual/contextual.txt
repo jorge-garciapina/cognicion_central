@@ -1,0 +1,418 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d020b4-0ed8-83e8-b390-076055cc0eed
+================================================================================
+PLANTEAMIENTO REVISADO — ESTRATO CONTEXTUAL
+Arquitectura Comercial de Creación de Contenido Digital
+================================================================================
+
+0) Intención del estrato
+
+El estrato contextual se introduce para fijar, de manera explícita y operable,
+el subgrafo de condiciones bajo las cuales un núcleo estructural puede proyectarse
+sin perder inteligibilidad, compatibilidad, continuidad funcional ni posibilidad
+de convertibilidad.
+
+Su función no es nombrar un “marco externo” decorativo, ni una lista de
+circunstancias alrededor de una pieza.
+
+Su función es más fuerte:
+
+- describir el conjunto de configuraciones que condicionan la proyección;
+- distinguir familias contextuales con identidad local;
+- permitir componer esas familias en un caso de proyección;
+- traducir esa composición a exigencias de adaptación;
+- y aportar diagnósticos de validez, ambigüedad, inestabilidad o incompatibilidad.
+
+En este marco, el contexto no se trata como metadata.
+Se trata como parte activa del mecanismo de proyección.
+
+--------------------------------------------------------------------------------
+1) Definición central
+
+Estrato contextual =
+subgrafo de configuraciones de proyección que describe, condiciona y vuelve
+diagnosticable la relación entre:
+
+- núcleo,
+- sujeto o régimen de recepción,
+- entorno de distribución,
+- condiciones de ejecución,
+- entorno institucional,
+- condiciones comerciales,
+- restricciones,
+- y exigencias de adaptación.
+
+Dicho de otro modo:
+
+este estrato no modela la pieza,
+ni el núcleo aislado,
+ni la monetización por sí sola.
+
+Modela las condiciones bajo las cuales una proyección puede existir de manera
+estructuralmente válida.
+
+--------------------------------------------------------------------------------
+2) Tesis principal
+
+La unidad real de modelado no es la pieza aislada, sino el caso de proyección.
+
+Por tanto, el contexto no debe pensarse como algo que “se agrega después”.
+Debe pensarse como uno de los componentes constitutivos del caso.
+
+Fórmula base del caso:
+
+Caso de proyección =
+núcleo
++ contexto de sujeto
++ contexto de distribución
++ intención
++ restricciones
++ heurísticas de salida
++ contenido material estructurado
++ adaptador.
+
+El estrato contextual existe para fijar y organizar la porción contextual de esa
+composición.
+
+--------------------------------------------------------------------------------
+3) Qué no debe confundirse
+
+3.1) Contexto != pieza
+El contexto no es la salida material.
+
+3.2) Contexto != campo interpretativo
+El contexto describe condiciones de proyección.
+El campo interpretativo-comercial pondera entradas y decide salidas.
+
+3.3) Contexto != fuente autónoma, necesariamente
+No toda configuración contextual merece estatuto de fuente plena.
+Algunas deben tratarse solo como:
+- perfiles intensionales,
+- o casos tipificados.
+
+3.4) Contexto != plataforma
+La plataforma pertenece a una familia contextual.
+No agota el estrato.
+
+3.5) Contexto != tema
+El tema puede intervenir en la composición del caso, pero no define por sí mismo
+el contexto.
+
+--------------------------------------------------------------------------------
+4) Ontología mínima del estrato
+
+El estrato contextual debe poder describir, al menos:
+
+- familias de contexto;
+- dimensiones compartidas;
+- dimensiones locales;
+- moduladores contextuales;
+- restricciones contextuales;
+- exigencias de adaptación;
+- estados diagnósticos;
+- trazabilidad contextual.
+
+--------------------------------------------------------------------------------
+5) Familias principales de contexto
+
+5.1) ACCD-Contexto-de-Sujeto
+Describe el régimen de recepción esperado.
+
+No se limita a “quién recibe” en sentido sociológico.
+Describe cómo debe poder ser recibido el artefacto sin perder legibilidad.
+
+Componentes iniciales posibles:
+- atención esperada,
+- continuidad atencional requerida,
+- densidad inferencial tolerable,
+- explicitación requerida,
+- redundancia funcional requerida,
+- memoria de trabajo requerida,
+- facilidad de reenganche,
+- vocabulario esperado,
+- familiaridad temática,
+- sensibilidad al orden secuencial,
+- granularidad autosuficiente de segmentos,
+- tolerancia estructural a interrupciones.
+
+Nota:
+este nodo puede apoyarse en regiones de recepción atencional ya desarrolladas,
+pero no se reduce a ellas.
+
+5.2) ACCD-Contexto-de-Distribución
+Describe el entorno de circulación y sus affordances.
+
+No debe confundirse con el sujeto.
+Modela el medio como estructura con identidad propia.
+
+Componentes iniciales posibles:
+- ritmo de consumo,
+- longitud efectiva tolerada,
+- presión algorítmica de retención,
+- sensibilidad al primer segundo,
+- potencial de recirculación,
+- modularidad del clip,
+- peso del comentario,
+- predominio de imagen/voz/texto,
+- estructura temporal del feed,
+- restricciones de superficie,
+- tipo de recompensa algorítmica.
+
+5.3) ACCD-Contexto-de-Ejecución
+Describe las condiciones materiales y operativas de realización.
+
+Este nodo aparece como necesario al ampliar el subgrafo de contextos y evita
+confundir proyección con capacidad real de ejecución.
+
+Componentes iniciales posibles:
+- tiempo disponible de producción,
+- recursos técnicos,
+- equipo disponible,
+- presupuesto,
+- fricción operativa,
+- capacidad de iteración,
+- latencia de respuesta,
+- volumen realizable.
+
+5.4) ACCD-Contexto-Institucional
+Describe el campo de legitimidad, aceptación, riesgo y reconocimiento.
+
+No se reduce a reputación general.
+Modela la relación con centros, actores y bordes de aceptabilidad.
+
+Componentes iniciales posibles:
+- legitimidad contextual,
+- riesgo reputacional,
+- compatibilidad con actores,
+- sponsorabilidad,
+- capacidad de absorción favorable,
+- tolerancia institucional al brillo autónomo,
+- sensibilidad al eclipsamiento,
+- capacidad efectiva de sanción,
+- disposición a traducir valor en recompensa.
+
+5.5) ACCD-Contexto-Comercial
+Describe las condiciones de cierre, circulación de valor y convertibilidad.
+
+No equivale al estrato comercial completo.
+Nombra las condiciones locales bajo las cuales un caso puede cerrar o no.
+
+Componentes iniciales posibles:
+- tipo de cierre posible,
+- fricción transaccional,
+- madurez del vínculo,
+- calidad del tráfico,
+- convertibilidad activa,
+- elegibilidad económica,
+- fase de monetización,
+- compatibilidad con ruta de cierre,
+- invariantes locales del circuito de valor.
+
+5.6) ACCD-Contexto-Temporal-Ejecutivo
+Describe el régimen temporal bajo el cual una proyección puede operar.
+
+Su función es evitar que el contexto se piense como fotografía fija.
+
+Componentes iniciales posibles:
+- sincronía/asincronía,
+- persistencia de estado,
+- tolerancia a pausas,
+- ventana temporal de utilidad,
+- latencia entre pieza y respuesta,
+- ritmo de reiteración,
+- capacidad de arrastre secuencial.
+
+--------------------------------------------------------------------------------
+6) Regla de estructura dimensional
+
+No todos los contextos deben compartir exactamente las mismas dimensiones.
+
+La estructura correcta es de dos niveles:
+
+6.1) ACCD-Base-Dimensional-Compartida
+Conjunto mínimo de dimensiones comparables entre familias.
+
+Ejemplos candidatos:
+- densidad,
+- explicitez,
+- complejidad,
+- repetitividad,
+- exigencia atencional,
+- velocidad de reenganche.
+
+6.2) ACCD-Dimensiones-Locales
+Dimensiones propias de cada familia contextual.
+
+Ejemplo:
+la presión algorítmica pertenece a distribución;
+la memoria de trabajo requerida pertenece a sujeto;
+la capacidad de sanción pertenece a institucional;
+la fricción transaccional pertenece a comercial.
+
+Regla metodológica:
+la ontología debe preservar el tipo real de cada dimensión.
+No todo debe forzarse a una escala numérica desde el nivel base.
+Algunas dimensiones serán:
+- graduales,
+- ordinales,
+- categóricas,
+- booleanas,
+- o compuestas.
+
+La normalización numérica puede existir como capa de comparación o visualización,
+pero no debe sustituir la ontología.
+
+--------------------------------------------------------------------------------
+7) Moduladores contextuales
+
+El estrato debe incluir moduladores capaces de alterar el comportamiento de una
+misma configuración base.
+
+Nodo: ACCD-Modulador-Contextual
+
+Ejemplos:
+- edad o perfil cognitivo,
+- familiaridad previa con el tema,
+- tiempo disponible,
+- dispositivo de consumo,
+- objetivo institucional de la pieza,
+- fatiga de audiencia,
+- madurez de la relación,
+- situación de mercado.
+
+Función:
+explicar por qué una misma región contextual puede producir exigencias distintas
+sin dejar de pertenecer a la misma familia.
+
+--------------------------------------------------------------------------------
+8) Restricciones contextuales
+
+Nodo: ACCD-Restricción-Contextual
+
+Las restricciones no son residuales.
+Muchas veces son las condiciones decisivas del caso.
+
+Ejemplos:
+- tiempo máximo,
+- límite de duración,
+- riesgo reputacional,
+- obligación de explicitación,
+- recursos disponibles,
+- formato permitido,
+- nivel técnico tolerado,
+- obligación de CTA,
+- necesidad de modularidad.
+
+--------------------------------------------------------------------------------
+9) Traducción del contexto a exigencias de adaptación
+
+El estrato contextual no debe quedarse en descripción.
+
+Debe poder producir exigencias de adaptación sobre:
+- el adaptador,
+- el contenido material,
+- la heurística de salida,
+- y la manifestación final.
+
+Nodo: ACCD-Exigencia-de-Adaptación
+
+Ejemplos de salida:
+- aumentar recapitulación,
+- reducir elipsis,
+- elevar explicitación,
+- reforzar CTA,
+- independizar segmentos,
+- elevar continuidad narrativa,
+- bajar densidad,
+- aumentar reanclaje,
+- evitar cierta ruta de cierre,
+- descartar cierta plataforma.
+
+--------------------------------------------------------------------------------
+10) Estados diagnósticos del caso contextual
+
+Una composición contextual no debe considerarse válida por defecto.
+
+Nodo: ACCD-Estado-Diagnóstico-Contextual
+
+Estados mínimos:
+- válido,
+- ambiguo,
+- inestable,
+- inválido,
+- competitivo,
+- frágil.
+
+Función:
+permitir que el sistema no solo describa configuraciones, sino que también
+diagnostique imposibilidades estructurales o zonas de tensión.
+
+--------------------------------------------------------------------------------
+11) Trazabilidad y persistencia contextual
+
+El contexto no debe desaparecer después de producir la pieza.
+
+Nodo: ACCD-Trazabilidad-Contextual
+
+Debe poder registrar:
+- qué supuestos contextuales se usaron,
+- qué restricciones se declararon,
+- qué moduladores operaron,
+- qué adaptación se eligió,
+- y qué evidencia posterior corrigió esa lectura.
+
+Esto conecta el estrato contextual con el cierre de circuito sin colapsarlo con
+el estrato de evidencia.
+
+--------------------------------------------------------------------------------
+12) Relación con otros nodos del paquete
+
+12.1) ACCD-Contexto depends_on Núcleo
+Porque el contexto no opera en abstracto, sino sobre algo que se proyecta.
+
+12.2) ACCD-Contexto conditions Caso-de-Proyección
+Porque forma parte constitutiva de la unidad real de construcción.
+
+12.3) ACCD-Contexto feeds Adaptador
+Porque traduce condiciones a exigencias de realización.
+
+12.4) ACCD-Contexto constrains Heurística-de-Salida
+Porque no toda heurística es válida en cualquier configuración contextual.
+
+12.5) ACCD-Contexto interacts_with Perfil-de-Influencer
+Porque una interfaz pública estable puede mediar y modificar parte del contexto.
+
+12.6) ACCD-Contexto interacts_with Personalidad-Digital-Cognitiva
+Porque la encarnación expresiva estabilizada altera la forma efectiva de recepción.
+
+12.7) ACCD-Contexto is_read_by Campo-Interpretativo-Comercial
+Porque las condiciones contextuales son insumos para la ponderación,
+pero no equivalen a la ponderación misma.
+
+--------------------------------------------------------------------------------
+13) Fórmula de cierre
+
+El estrato contextual no nombra simplemente “el entorno” de una pieza.
+
+Nombra el subgrafo de condiciones estructuradas que vuelve posible, limita,
+modula, traduce y diagnostica la proyección de un núcleo en un caso operativo.
+
+Por eso:
+
+Estrato Contextual =
+familias contextuales
++ base dimensional compartida
++ dimensiones locales
++ moduladores
++ restricciones
++ exigencias de adaptación
++ estados diagnósticos
++ trazabilidad contextual.
+
+Forma condensada:
+
+el contexto no es el lugar donde cae la proyección;
+es una parte de la máquina que decide bajo qué condiciones la proyección puede
+existir, sostenerse, aprender y volverse operable.
+================================================================================
+FIN
+================================================================================

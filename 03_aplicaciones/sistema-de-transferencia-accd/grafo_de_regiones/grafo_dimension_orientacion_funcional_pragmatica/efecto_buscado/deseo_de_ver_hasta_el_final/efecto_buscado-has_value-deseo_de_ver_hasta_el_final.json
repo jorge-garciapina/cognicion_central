@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final",
+    "type": "has_value",
+    "rationale": "deseo_de_ver_hasta_el_final es un valor declarado para el campo efecto_buscado."
+  }
+}

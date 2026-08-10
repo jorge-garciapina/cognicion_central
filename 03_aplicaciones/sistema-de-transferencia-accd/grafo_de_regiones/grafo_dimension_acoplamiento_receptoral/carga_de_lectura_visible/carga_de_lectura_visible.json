@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+    "label": "carga_de_lectura_visible",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+    "summary": "**Definición del campo.** Campo que describe cuánto texto o información verbal visible debe procesar el receptor dentro de la pieza. No mide dificultad conceptual total, sino peso de lectura textual en la superficie visual.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

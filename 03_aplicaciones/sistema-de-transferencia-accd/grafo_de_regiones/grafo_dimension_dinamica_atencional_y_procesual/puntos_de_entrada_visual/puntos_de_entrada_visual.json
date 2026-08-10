@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+    "label": "puntos_de_entrada_visual",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+    "summary": "**Definición del campo.** Campo que identifica el elemento, zona o cualidad que inicia la lectura visual. No describe todo el recorrido, sino el primer anclaje probable de la atención: aquello que hace que el receptor comience a interpretar la pieza desde un punto particular.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

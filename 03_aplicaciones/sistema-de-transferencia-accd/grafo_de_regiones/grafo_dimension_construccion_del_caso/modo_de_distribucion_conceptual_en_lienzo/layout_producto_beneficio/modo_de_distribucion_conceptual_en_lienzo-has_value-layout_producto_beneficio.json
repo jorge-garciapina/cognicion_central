@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-layout_producto_beneficio-layout_producto_beneficio",
+    "type": "has_value",
+    "rationale": "layout_producto_beneficio es un valor nuevo incorporado en modo_de_distribucion_conceptual_en_lienzo para la realización imagen."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-atemporal-atemporal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-atemporal-atemporal",
+    "label": "atemporal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-atemporal-atemporal",
+    "summary": "**Definición.** Valor que indica que la pieza no depende de una fecha, evento, temporada, tendencia o coyuntura específica para conservar sentido. Su contenido y forma deben poder seguir siendo comprensibles fuera del momento inmediato de publicación.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

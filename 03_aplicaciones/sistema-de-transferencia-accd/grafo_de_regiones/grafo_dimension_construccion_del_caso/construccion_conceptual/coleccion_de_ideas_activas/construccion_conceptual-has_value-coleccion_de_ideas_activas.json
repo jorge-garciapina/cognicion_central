@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas",
+    "type": "has_value",
+    "rationale": "coleccion_de_ideas_activas es el valor estructural general declarado para construccion_conceptual."
+  }
+}

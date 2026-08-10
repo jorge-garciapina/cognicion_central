@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-mapa_conceptual_visual-mapa_conceptual_visual",
+  "content": "**Definición.** Valor que organiza conceptos como una red o sistema de relaciones visibles. Puede mostrar dependencias, asociaciones, ramificaciones, jerarquías, proximidades, conexiones causales o vínculos de sentido entre ideas.\n\n**Diferenciación semántica.** Se diferencia de `taxonomica_visual` porque no se limita a clasificar; permite múltiples relaciones entre nodos conceptuales. Se diferencia de `diagramatica` porque suele estar centrado en conceptos nombrados, no sólo en relaciones formales o procesos.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que los conceptos no deben aparecer como texto aislado, sino como elementos conectados dentro de un mapa semántico."
+}

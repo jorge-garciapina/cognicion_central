@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+    "label": "jerarquia_por_tamano",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-jerarquia_por_tamano-jerarquia_por_tamano",
+    "summary": "**Definición.** Modo de jerarquía donde la importancia relativa se comunica mediante escala. Los elementos grandes no son sólo visibles: se interpretan como más centrales, urgentes o dominantes que los elementos pequeños.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica"
+    }
+  }
+}

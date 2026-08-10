@@ -1,0 +1,233 @@
+En tu marco, una **familia** no es “de qué trata” un mNode, sino **qué hace como forma**: una categoría con identidad única que agrupa unidades por su **rol operativo dominante** y por **criterios explícitos de pertenencia**. Si se traslada esa misma lógica al dominio de **acondicionamiento físico**, el movimiento correcto es crear:
+
+1. Un equivalente funcional de mNode (una unidad mínima con identidad dentro del dominio físico).
+2. Un conjunto de **familias físicas** (categorías operativas) que agrupen esas unidades por rol dominante, con límites claros.
+
+A continuación propongo una solución completa, pensada para que funcione como subgrafo: estable, auditable y expandible.
+
+---
+
+## 1) Equivalente de mNode en “condición física”: la unidad mínima que vas a clasificar
+
+En el dominio cognitivo, un mNode es una forma mínima portadora de identidad que conserva estructura bajo variación. En condición física, el equivalente útil no es un “ejercicio”, sino un **atributo/capacidad** con identidad propia.
+
+**Propuesta de unidad mínima (equivalente a mNode): *fNode* (fitness node / nodo físico).**
+
+Un **fNode** es una unidad mínima identificable del dominio físico que cumple cuatro condiciones:
+
+1. **Tiene salida observable**: algo que puede manifestarse (rendimiento, rango, estabilidad, tolerancia).
+2. **Es evaluable**: existe al menos una métrica o prueba operativa para observarlo.
+3. **Es entrenable/modulable**: se puede influir con intervenciones (entrenamiento, descanso, nutrición, movilidad, etc.).
+4. **Tiene borde de pertenencia**: se puede distinguir de unidades vecinas (no se confunde con “todo a la vez”).
+
+Ejemplos de fNodes: “fuerza máxima de empuje”, “resistencia muscular local de tríceps”, “movilidad activa de tobillo”, “estabilidad lumbo-pélvica bajo carga”, “capacidad de recuperación entre sesiones”.
+
+Estos fNodes son lo que las familias van a agrupar.
+
+---
+
+## 2) Meta-categoría: “Familia Física” como capa de clasificación operativa
+
+Así como en tu grafo existe “Familia Cognitiva” como capa que permite clasificar mNodes por rol dominante, aquí conviene un nodo puente equivalente:
+
+**Familia Física (meta-nodo):**
+Categoría operativa para agrupar fNodes por **rol fisiológico-funcional dominante**, no por tema ni por deporte.
+
+El punto crucial: “piernas”, “brazos”, “pecho” son etiquetas anatómicas. Son útiles, pero no son familias operativas del tipo que estás construyendo. Una familia física, en tu estilo, se define por **función dominante**: producir tensión, sostener trabajo, controlar rango, recuperar, etc.
+
+---
+
+## 3) Familias físicas base (categorías con identidad única)
+
+Aquí va un conjunto de familias “base” que cubren la mayor parte del dominio sin solaparse de forma caótica. Cada familia incluye: rol operativo dominante, qué agrupa, qué no agrupa, y ejemplos.
+
+### PFAM-1: Producción de fuerza
+
+**Rol operativo dominante:** generar alta tensión para vencer resistencia.
+
+* **Agrupa fNodes como:** fuerza máxima (empuje, tracción, bisagra de cadera, sentadilla), fuerza relativa (respecto al peso corporal), fuerza isométrica, fuerza excéntrica (control al descender).
+* **No agrupa:** movilidad (rango), resistencia aeróbica (sostén prolongado), coordinación fina (aunque la fuerza la necesita).
+* **Pruebas típicas:** cargas altas para pocas repeticiones; repeticiones máximas con técnica estable.
+* **Intervenciones típicas:** cargas altas, baja repetición, descansos largos, progresión de carga.
+
+**Ejemplo de fNodes dentro:** “fuerza de empuje horizontal”, “fuerza de extensión de rodilla”, “fuerza de agarre”.
+
+---
+
+### PFAM-2: Potencia y velocidad de producción de fuerza
+
+**Rol operativo dominante:** producir fuerza rápidamente (capacidad explosiva).
+
+* **Agrupa:** potencia de salto, potencia de empuje, velocidad de salida, aceleración inicial, capacidad de aplicar fuerza en poco tiempo.
+* **No agrupa:** fuerza máxima por sí sola (es base, pero no equivalente), resistencia prolongada.
+* **Pruebas típicas:** saltos, lanzamientos, ejecución explosiva con carga moderada.
+* **Intervenciones:** movimientos explosivos, baja fatiga por serie, descansos amplios.
+
+**Ejemplo:** “potencia de extensión de cadera”, “capacidad de aceleración de tren inferior”.
+
+---
+
+### PFAM-3: Resistencia muscular local
+
+**Rol operativo dominante:** sostener contracciones repetidas de un grupo muscular sin caída rápida del rendimiento.
+
+* **Agrupa:** resistencia de bíceps en series largas, resistencia de core en tareas repetidas, tolerancia a volumen local.
+* **No agrupa:** resistencia cardiorrespiratoria general (es otra familia), fuerza máxima.
+* **Pruebas:** repeticiones altas con carga fija, trabajo acumulado.
+* **Intervenciones:** series más largas, descansos cortos/moderados, acumulación de volumen.
+
+**Ejemplo:** “resistencia local de tríceps en extensión”, “resistencia local de dorsal en tracción”.
+
+---
+
+### PFAM-4: Capacidad cardiorrespiratoria y sistemas energéticos
+
+**Rol operativo dominante:** sostener trabajo total del organismo mediante eficiencia de suministro y uso de energía.
+
+* **Agrupa:** capacidad aeróbica, capacidad anaeróbica (esfuerzo intenso corto), eficiencia de recuperación entre esfuerzos.
+* **No agrupa:** fuerza local o potencia (aunque influyen en rendimiento deportivo).
+* **Pruebas:** tolerancia a esfuerzos prolongados, recuperación de frecuencia cardiaca, desempeño en intervalos.
+* **Intervenciones:** cardio continuo, intervalos, trabajo mixto bien periodizado.
+
+**Ejemplo:** “capacidad de sostener intensidad moderada”, “tolerancia a intervalos intensos”.
+
+---
+
+### PFAM-5: Movilidad y flexibilidad funcional
+
+**Rol operativo dominante:** disponer de rango de movimiento usable (pasivo y activo) para ejecutar patrones sin compensación.
+
+* **Agrupa:** movilidad activa (controlada), flexibilidad pasiva, rango articular específico (tobillo, cadera, hombro), calidad del rango (sin dolor, sin colapso).
+* **No agrupa:** fuerza máxima, potencia, resistencia energética.
+* **Pruebas:** profundidad de sentadilla con control, elevación de brazos sin compensación, dorsiflexión de tobillo, etc.
+* **Intervenciones:** trabajo de rango completo bajo control, movilidad específica, fuerza en estiramiento (muy relevante), práctica técnica.
+
+**Ejemplo:** “movilidad de cadera en flexión”, “movilidad escapular”, “rango activo de tobillo”.
+
+---
+
+### PFAM-6: Estabilidad, control postural y robustez articular
+
+**Rol operativo dominante:** mantener integridad y alineación bajo carga y perturbación.
+
+* **Agrupa:** estabilidad del core (anti-rotación, anti-flexión), control lumbo-pélvico, estabilidad de rodilla, estabilidad escapular, control de valgo, rigidez funcional.
+* **No agrupa:** movilidad como fin (aunque movilidad y estabilidad se regulan mutuamente).
+* **Pruebas:** control técnico bajo carga, tolerancia a perturbaciones, mantenimiento de alineación.
+* **Intervenciones:** patrones compuestos bien ejecutados, trabajo unilateral, control excéntrico, isométricos estratégicos.
+
+**Ejemplo:** “estabilidad lumbopélvica en bisagra”, “estabilidad escapular en empuje”.
+
+---
+
+### PFAM-7: Coordinación y control motor
+
+**Rol operativo dominante:** organizar el movimiento (reclutamiento, sincronía, precisión) para ejecutar patrones con eficiencia.
+
+* **Agrupa:** coordinación intermuscular, propiocepción, equilibrio dinámico, precisión técnica, economía de movimiento.
+* **No agrupa:** fuerza o capacidad energética como atributo primario (aunque se expresan a través de esto).
+* **Pruebas:** calidad técnica, repetibilidad del patrón, control unilateral, equilibrio en tareas dinámicas.
+* **Intervenciones:** práctica técnica, progresiones, variaciones con control, tareas que exigen estabilidad y precisión.
+
+**Ejemplo:** “control técnico de sentadilla”, “coordinación de tracción escapular”.
+
+---
+
+### PFAM-8: Estructura corporal y composición
+
+**Rol operativo dominante:** describir el sustrato físico (no el rendimiento inmediato): masa muscular, tejido conectivo, densidad ósea, composición corporal.
+
+* **Agrupa:** masa muscular, porcentaje de masa grasa, densidad ósea, rigidez y tolerancia del tendón, integridad de tejidos.
+* **No agrupa:** habilidades de ejecución (eso es control motor) ni rendimiento puntual (eso pertenece a familias de capacidad).
+* **Pruebas:** perímetros, composición corporal, indicadores de tolerancia de tejido, estabilidad de cargas a lo largo del tiempo.
+* **Intervenciones:** entrenamiento de fuerza/hipertrofia, nutrición, sueño, progresión lenta para tendón y hueso.
+
+**Ejemplo:** “masa muscular de tren superior”, “tolerancia tendinosa a volumen”.
+
+---
+
+### PFAM-9: Recuperación y tolerancia sistémica al entrenamiento
+
+**Rol operativo dominante:** restaurar capacidad y sostener adaptación sin acumular deterioro.
+
+* **Agrupa:** capacidad de recuperación entre sesiones, tolerancia al volumen semanal, resiliencia al estrés de entrenamiento, marcadores de fatiga funcional.
+* **No agrupa:** fuerza o movilidad como capacidad primaria (son “lo que se recupera”, no “el sistema que recupera”).
+* **Pruebas:** estabilidad del rendimiento semana a semana, percepción de esfuerzo con cargas habituales, sueño, molestias persistentes, caída de desempeño.
+* **Intervenciones:** periodización, deload, nutrición, sueño, gestión de estrés, distribución de volumen.
+
+**Ejemplo:** “tolerancia a frecuencia 2× por semana”, “recuperación entre esfuerzos”.
+
+---
+
+## 4) Familias compuestas (opcionales, pero útiles): “habilidades emergentes”
+
+Hay cualidades que la gente suele nombrar (agilidad, velocidad, “atletismo”) que en realidad son **composiciones** de varias familias base.
+
+**PFAM-C: Habilidades compuestas**
+**Rol operativo dominante:** producir desempeño en tareas complejas integrando múltiples familias base.
+
+* **Agilidad:** depende de potencia + fuerza excéntrica (frenado) + estabilidad + control motor + movilidad suficiente.
+* **Velocidad:** depende de potencia + coordinación + capacidad energética según distancia.
+* **“Atletismo”:** etiqueta paraguas, normalmente mezcla potencia, fuerza relativa, coordinación y capacidad energética.
+
+Estas “familias compuestas” sirven como nodos de alto nivel para navegación, pero conviene que dependan explícitamente de familias base para no crear ambigüedad.
+
+---
+
+## 5) Criterios de pertenencia (para que las familias no se vuelvan etiquetas vagas)
+
+Si el objetivo es que esto sea consistente con tu teoría (auditable, transferible), cada familia debe tener criterios operativos. Un conjunto mínimo de criterios útiles para condición física:
+
+1. **Salida dominante:** ¿qué produce principalmente? (tensión, velocidad, rango, estabilidad, sostén, recuperación, estructura).
+2. **Superficie de medición:** ¿cómo se observa sin depender de intuición? (prueba, métrica, estándar técnico).
+3. **Palancas de intervención dominantes:** ¿qué tipo de entrenamiento la modifica de forma primaria?
+4. **Modo de falla típico:** ¿cómo falla cuando falta? (dolor, compensación, colapso técnico, fatiga, pérdida de rango).
+5. **Dependencias:** ¿qué familias la habilitan o limitan?
+
+Con estos cinco, cada fNode se puede ubicar sin discusión interminable.
+
+---
+
+## 6) Ejemplo de clasificación (para mostrar que el sistema funciona)
+
+Toma el atributo “sentadilla profunda con buena técnica”:
+
+* Si el interés es “subir carga”: cae en **Producción de fuerza**.
+* Si el interés es “subir rápido”: cae en **Potencia**.
+* Si el interés es “hacer muchas repeticiones”: cae en **Resistencia muscular local**.
+* Si el interés es “llegar profundo sin colapsar”: cae en **Movilidad** + **Estabilidad**.
+* Si el interés es “repetir técnica perfecta”: cae en **Control motor**.
+* Si el interés es “tener más masa en piernas”: cae en **Estructura corporal**.
+* Si el interés es “no morir por fatiga semanal”: cae en **Recuperación**.
+
+No es que el fenómeno “pertenezca a todo” al mismo tiempo. Es que se puede describir como distintos fNodes según el rol dominante que se esté modelando.
+
+---
+
+## 7) Cómo se conecta con tu proyecto (grafo y cApps)
+
+Estas familias físicas se comportan como tus familias cognitivas: permiten construir “aplicaciones cognitivas” orientadas al cuerpo. Por ejemplo, una cApp podría recibir intención: “quiero mejorar bíceps y tríceps” y traducirlo a una ruta en el subgrafo físico:
+
+* Estructura corporal (hipertrofia) → Producción de fuerza (base) → Resistencia muscular local (volumen) → Recuperación (sostenibilidad) → Movilidad/estabilidad (protección articular) → Control motor (técnica).
+
+En otras palabras: el subgrafo físico puede ser navegable, y no solo descriptivo.
+
+---
+
+## Resultado: lista compacta de familias físicas propuestas
+
+Si necesitas una lista “canónica” mínima, sin perder potencia:
+
+1. Producción de fuerza
+2. Potencia
+3. Resistencia muscular local
+4. Capacidad cardiorrespiratoria y energética
+5. Movilidad y flexibilidad funcional
+6. Estabilidad y robustez articular
+7. Coordinación y control motor
+8. Estructura corporal y composición
+9. Recuperación y tolerancia sistémica
+   (10) Habilidades compuestas (opcional)
+
+---
+
+Si quieres llevar esto al siguiente paso, se puede hacer una operación muy concreta: elegir 12 a 20 fNodes iniciales (por ejemplo, “fuerza de empuje”, “movilidad de tobillo”, “estabilidad escapular”, “recuperación semanal”) y asignarlos a estas familias usando los cinco criterios de pertenencia. Con eso ya tendrías un subgrafo físico que se puede usar de inmediato para diseñar rutinas, diagnosticar “qué falta” y justificar decisiones sin depender de intuiciones.

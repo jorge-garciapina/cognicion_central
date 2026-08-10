@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+    "label": "modo_de_comparecencia_verbal",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+    "summary": "Modo en que la pieza comparece verbalmente.",
+    "section": "9.3",
+    "value_type": "Categorial cerrado",
+    "cardinality": "Un valor obligatorio"
+  }
+}

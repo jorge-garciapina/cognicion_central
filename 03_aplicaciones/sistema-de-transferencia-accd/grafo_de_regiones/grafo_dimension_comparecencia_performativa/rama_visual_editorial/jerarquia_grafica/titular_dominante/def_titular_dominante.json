@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-jerarquia_grafica-titular_dominante-titular_dominante",
+  "content": "Valor en el que el titular ocupa la mayor jerarquía visual de la lámina.\n\nEl resto de elementos, si existen, funcionan como soporte.\n\nEjemplos:\n\n```txt\nTitular grande al centro.\nSubtítulo breve debajo.\nIcono o fondo simbólico secundario.\n```\n\nSirve para portadas, cierres, preguntas guía, contraste fuerte y láminas de alto impacto.\n\n---"
+}

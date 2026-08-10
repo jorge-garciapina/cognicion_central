@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-pastel-pastel",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-pastel-pastel",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-pastel-pastel",
+    "type": "has_value",
+    "rationale": "pastel es un valor nuevo incorporado en paleta_cromatica para la realización imagen."
+  }
+}

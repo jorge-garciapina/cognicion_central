@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+    "type": "has_value",
+    "rationale": "diagramatica es un valor nuevo de configuracion_discursiva incorporado para la realización imagen."
+  }
+}

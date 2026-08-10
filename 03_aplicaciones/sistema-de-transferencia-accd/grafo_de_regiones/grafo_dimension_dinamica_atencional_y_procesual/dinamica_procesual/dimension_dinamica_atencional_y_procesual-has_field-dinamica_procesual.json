@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "type": "has_field",
+    "rationale": "dinamica_procesual es un campo directo declarado dentro de dimension_dinamica_atencional_y_procesual."
+  }
+}

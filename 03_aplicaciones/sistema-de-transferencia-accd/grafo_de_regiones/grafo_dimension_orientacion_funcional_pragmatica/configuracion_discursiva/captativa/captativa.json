@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa",
+    "label": "captativa",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa",
+    "summary": "Valor captativa declarado para el campo configuracion_discursiva.",
+    "metadata": {
+      "value_of": "configuracion_discursiva",
+      "source_section": "4.4"
+    }
+  }
+}

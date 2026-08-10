@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-flecha_principal-flecha_principal",
+  "content": "**Definición.** Entrada basada en un indicador direccional dominante. La flecha no sólo conecta elementos; inicia la lectura señalando hacia dónde mirar o qué relación seguir.\n\n**Diferenciación semántica.** Se diferencia de `guiada_por_flechas` porque aquí una flecha específica funciona como punto de entrada inicial, no necesariamente como sistema completo de recorrido. Se diferencia de `icono_principal` porque su función primaria es direccional.\n\n**Interpretación mínima.** La IA debe entender que la flecha debe orientar la primera acción de la mirada."
+}

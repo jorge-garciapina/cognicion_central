@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+    "label": "hoja_documental",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-hoja_documental-hoja_documental",
+    "summary": "**Definición.** Formato cercano a una página de documento. Permite mayor densidad y estructura formal, con jerarquía, márgenes y posible lectura impresa o PDF.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo"
+    }
+  }
+}

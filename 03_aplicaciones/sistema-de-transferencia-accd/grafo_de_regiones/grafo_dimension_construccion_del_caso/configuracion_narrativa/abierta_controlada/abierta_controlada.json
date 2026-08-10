@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada",
+    "label": "abierta_controlada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada",
+    "summary": "Valor abierta_controlada declarado para configuracion_narrativa.",
+    "metadata": {
+      "value_of": "configuracion_narrativa"
+    }
+  }
+}

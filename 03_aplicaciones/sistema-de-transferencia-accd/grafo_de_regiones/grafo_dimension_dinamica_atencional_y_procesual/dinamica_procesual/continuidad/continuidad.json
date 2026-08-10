@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad",
+    "label": "continuidad",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad",
+    "summary": "Eje que indica la fluidez o discontinuidad del recorrido de la realización.",
+    "section": "7.3.2",
+    "value_type": "Categorial ordinal",
+    "cardinality": "Eje obligatorio de dinamica_procesual"
+  }
+}

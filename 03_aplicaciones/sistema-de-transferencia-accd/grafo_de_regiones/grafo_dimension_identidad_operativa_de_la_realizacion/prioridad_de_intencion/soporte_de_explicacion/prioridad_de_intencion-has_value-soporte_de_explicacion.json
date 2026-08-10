@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+    "from": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+    "to": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-soporte_de_explicacion-soporte_de_explicacion",
+    "type": "has_value",
+    "rationale": "soporte_de_explicacion es un valor nuevo de prioridad_de_intencion incorporado para la realización imagen."
+  }
+}

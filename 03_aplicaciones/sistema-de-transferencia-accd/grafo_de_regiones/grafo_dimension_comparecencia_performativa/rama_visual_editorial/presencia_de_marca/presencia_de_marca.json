@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca",
+    "label": "presencia_de_marca",
+    "type": "subfield_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca",
+    "summary": "Subcampo que describe el grado en que la marca aparece como componente visible de la composición.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "parent_field": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

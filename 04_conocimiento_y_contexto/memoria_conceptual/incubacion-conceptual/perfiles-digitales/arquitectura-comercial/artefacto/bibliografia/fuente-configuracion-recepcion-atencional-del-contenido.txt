@@ -1,0 +1,497 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69cdb7ee-eb20-83e8-a480-b61cea616879
+================================================================================
+PLANTEAMIENTO — FUENTE DE CONFIGURACIÓN DE RECEPCIÓN ATENCIONAL DEL CONTENIDO
+Versión: v1.0
+Estado: borrador fuerte
+Formato base: adaptado del paquete conceptual de Fuentes Identitarias
+================================================================================
+
+0) Intención
+
+Fijar una Fuente Identitaria capaz de modelar, no el tema del contenido ni su plataforma de
+circulación en sí mismas, sino la forma estructural en que un artefacto debe poder ser recibido
+atencionalmente para conservar inteligibilidad, continuidad funcional y posibilidad de reenganche.
+
+La intención de esta fuente no es nombrar un estilo narrativo particular, ni una técnica aislada,
+ni una plataforma específica.
+
+Su función es más profunda:
+nombrar la entidad-fuente que organiza las configuraciones posibles de recepción atencional del
+contenido y permite:
+
+- describir casos concretos como vectores intensionales,
+- reconocer regiones recurrentes del espacio atencional,
+- traducir esas configuraciones a exigencias estructurales de diseño,
+- y usar el modelo tanto para análisis como para construcción inversa.
+
+En este marco, expresiones como “second viewing” no nombran la fuente misma.
+Nombran, en el mejor de los casos, una región del espacio intensional de la fuente.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Fuente de Configuración de Recepción Atencional del Contenido = Fuente Identitaria cuya identidad
+extensional consiste en organizar las posibilidades estructurales de recepción de un artefacto de
+contenido según las condiciones atencionales bajo las cuales dicho artefacto puede conservar
+inteligibilidad, continuidad operativa, legibilidad funcional y capacidad de reentrada.
+
+Dicho de otro modo:
+
+esta fuente no modela primariamente:
+- qué dice el contenido,
+- cuál es su tema,
+- cuál es su monetización,
+- ni cuál es su soporte técnico.
+
+Modela:
+- cuánto foco sostenido exige,
+- cuánta inferencia puede pedir,
+- cuánto debe explicitar,
+- cuánto debe reanclar,
+- cuánto tolera interrupciones,
+- y qué tan fácilmente puede ser retomado sin colapsar.
+
+--------------------------------------------------------------------------------
+
+2) Qué delimita
+
+Esta fuente delimita el campo de configuraciones por las cuales un contenido puede ser recibido de
+modo funcional bajo distintos regímenes atencionales.
+
+Su recorte incluye:
+- la exigencia de continuidad del foco,
+- la carga inferencial tolerable,
+- la necesidad de explicitación,
+- la redundancia funcional requerida,
+- la tolerancia a interrupciones,
+- la facilidad de reenganche,
+- y, en general, toda dimensión que afecte directamente la legibilidad del artefacto bajo un
+  cierto régimen de atención.
+
+Esta fuente no delimita, en sentido fuerte:
+- el campo temático del contenido,
+- la plataforma de distribución como tal,
+- el objetivo comercial en sí mismo,
+- la estética superficial,
+- ni la estructura semántica total del relato.
+
+Es compatible con todos esos planos, pero no se reduce a ninguno.
+
+--------------------------------------------------------------------------------
+
+3) Dependencias conceptuales
+
+Esta fuente depende, como mínimo, de los siguientes bloques:
+
+3.1) Recorte y validez
+Porque necesita distinguir con precisión qué parte del fenómeno está modelando y qué queda fuera.
+
+3.2) Identidad extensional
+Porque no debe degradarse a colección de ejemplos ni a lista vaga de rasgos.
+
+3.3) Espacio de dimensiones intensionales
+Porque su operatividad depende de hacer explícitos los ejes internos sobre los cuales cambian los
+casos.
+
+3.4) Caso y vector de instanciación
+Porque las configuraciones concretas deben poder representarse de manera comparable.
+
+3.5) Región del espacio intensional
+Porque la fuente no solo clasifica casos aislados; también necesita reconocer familias de
+configuraciones estructuralmente próximas.
+
+3.6) Mapa de respuesta
+Porque no basta con tener dimensiones; hace falta una regla que traduzca configuraciones a
+salidas, diagnósticos o exigencias de adaptación.
+
+3.7) Construcción inversa
+Porque el modelo debe poder usarse generativamente: no solo leer casos dados, sino diseñar casos
+compatibles con una salida objetivo.
+
+3.8) Cierre de circuito
+Porque la respuesta del modelo debe poder contrastarse con evidencia y reingresar al sistema.
+
+--------------------------------------------------------------------------------
+
+4) Identidad extensional
+
+La identidad extensional de esta fuente queda fijada por la siguiente tesis:
+
+un contenido puede variar en tema, forma, plataforma, estilo, longitud, tono y superficie, y aun
+así pertenecer a la misma fuente mientras lo que se esté modelando sea la configuración de su
+recepción atencional.
+
+Lo que mantiene siendo la misma a la fuente no es el contenido material, sino el hecho de que el
+modelo siga respondiendo a la misma pregunta estructural:
+
+¿bajo qué condiciones atencionales puede este artefacto seguir siendo funcionalmente legible?
+
+La fuente conserva identidad mientras permanezca centrada en:
+- relación entre contenido y atención,
+- continuidad o discontinuidad del foco,
+- inteligibilidad bajo interrupción,
+- necesidad de explicitación,
+- tolerancia a carga inferencial,
+- y reentrada del sujeto tras pérdida parcial del hilo.
+
+--------------------------------------------------------------------------------
+
+5) Invariantes
+
+La fuente preserva, al menos, los siguientes invariantes:
+
+5.1) Invariante de recepción
+Debe tratarse de la forma de recepción del artefacto y no de su mera composición temática.
+
+5.2) Invariante de inteligibilidad
+Las dimensiones modeladas deben afectar de manera real la posibilidad de comprender o seguir el
+contenido.
+
+5.3) Invariante de variación interna
+La fuente debe admitir múltiples configuraciones sin perder identidad.
+
+5.4) Invariante de comparabilidad
+Los casos deben poder representarse dentro de una misma base dimensional.
+
+5.5) Invariante de traducción a respuesta
+La configuración intensional debe poder producir diagnósticos o exigencias estructurales.
+
+5.6) Invariante de no-colapso con otras fuentes
+La fuente no debe confundirse con plataforma, tema, monetización, nicho o formato, aunque luego
+pueda componerse con ellos.
+
+--------------------------------------------------------------------------------
+
+6) Espacio de dimensiones intensionales
+
+El espacio intensional de esta fuente queda compuesto, en una primera versión fuerte, por las
+siguientes dimensiones:
+
+6.1) Continuidad atencional requerida
+Grado en que el contenido exige foco sostenido para conservar inteligibilidad.
+
+Valor alto:
+una interrupción rompe con facilidad la comprensión.
+
+Valor bajo:
+el contenido puede seguirse con atención fragmentada.
+
+6.2) Densidad inferencial tolerable
+Cantidad de inferencia no explicitada que el contenido puede exigir sin perder legibilidad.
+
+Valor alto:
+puede dejar relaciones implícitas, silencios, elipsis o sutilezas.
+
+Valor bajo:
+requiere exponer o marcar con claridad las relaciones relevantes.
+
+6.3) Explicitación requerida
+Grado en que los elementos decisivos deben aparecer declarados, remarcados o reanclados.
+
+Valor alto:
+la comprensión funcional exige hacer visibles las conexiones importantes.
+
+Valor bajo:
+puede descansar en lectura fina, contexto o deducción del sujeto.
+
+6.4) Redundancia funcional requerida
+Cantidad de repetición estructural útil que el contenido necesita para sostener la recepción.
+
+No se trata de repetición vacía, sino de recapitulación, reubicación, reanclaje y refuerzo de lo
+relevante.
+
+6.5) Tolerancia estructural a interrupciones
+Capacidad del contenido para soportar pausas, pérdidas parciales de foco o consumo intermitente
+sin degradarse severamente.
+
+6.6) Facilidad de reenganche
+Grado en que el sujeto puede volver a entrar al contenido tras distraerse sin pagar un costo alto
+para recuperar el hilo.
+
+6.7) Granularidad autosuficiente de segmentos
+Grado en que las unidades parciales del contenido pueden conservar valor local aunque se las reciba
+por fragmentos.
+
+6.8) Sensibilidad al orden secuencial
+Grado en que alterar, omitir o perder fragmentos afecta la coherencia global del artefacto.
+
+Nota metodológica:
+No todas las dimensiones deben forzarse desde el inicio a escala numérica pura.
+Algunas podrán representarse de forma ordinal, categórica o híbrida.
+Sin embargo, para modelado comparativo y visualización, pueden proyectarse a una escala
+normalizada cuando convenga.
+
+--------------------------------------------------------------------------------
+
+7) Caso y vector de instanciación
+
+Un caso dentro de esta fuente no es simplemente:
+- una plataforma,
+- un género,
+- un usuario,
+- o una pieza aislada.
+
+Un caso es:
+una configuración concreta de recepción atencional de un artefacto.
+
+Su representación formal mínima es un vector de instanciación sobre la base dimensional definida por
+la fuente.
+
+Ejemplo abstracto de vector:
+
+Caso C = (
+  continuidad_atencional_requerida = 0.20,
+  densidad_inferencial_tolerable   = 0.25,
+  explicitacion_requerida          = 0.85,
+  redundancia_funcional_requerida  = 0.80,
+  tolerancia_a_interrupciones      = 0.90,
+  facilidad_de_reenganche          = 0.88,
+  granularidad_autosuficiente      = 0.77,
+  sensibilidad_al_orden            = 0.30
+)
+
+La narrativa del caso sigue siendo útil, pero el vector vuelve operable la comparación.
+
+--------------------------------------------------------------------------------
+
+8) Regiones del espacio intensional
+
+Las regiones son subzonas del espacio intensional donde múltiples configuraciones comparten
+propiedades de lectura, respuesta o diseño.
+
+Esta fuente no debe definirse por una sola región. Como mínimo, conviene distinguir las
+siguientes:
+
+8.1) Región de recepción inmersiva sostenida
+Configuraciones que exigen foco relativamente continuo, toleran inferencia alta y dependen más de
+la continuidad secuencial que del reanclaje constante.
+
+Perfil típico:
+- continuidad requerida: alta
+- densidad inferencial tolerable: alta
+- explicitación requerida: baja o media
+- redundancia funcional requerida: baja
+- tolerancia a interrupciones: baja
+- facilidad de reenganche: baja o media
+- granularidad autosuficiente: baja
+- sensibilidad al orden: alta
+
+8.2) Región de recepción intermitente asistida
+Configuraciones que toleran atención fragmentada y requieren mecanismos fuertes de reanclaje,
+claridad y reentrada.
+
+Aquí cae, como etiqueta externa aproximada, lo que en conversación pública podría llamarse
+“second viewing”.
+
+Perfil típico:
+- continuidad requerida: baja
+- densidad inferencial tolerable: baja
+- explicitación requerida: alta
+- redundancia funcional requerida: alta
+- tolerancia a interrupciones: alta
+- facilidad de reenganche: alta
+- granularidad autosuficiente: media o alta
+- sensibilidad al orden: baja o media
+
+8.3) Región de recepción oportunista de captura
+Configuraciones optimizadas para ingreso rápido, comprensión parcial suficiente y consumo por
+ventanas breves.
+
+Perfil típico:
+- continuidad requerida: muy baja
+- densidad inferencial tolerable: muy baja
+- explicitación requerida: alta
+- redundancia funcional requerida: media
+- tolerancia a interrupciones: muy alta
+- facilidad de reenganche: muy alta
+- granularidad autosuficiente: muy alta
+- sensibilidad al orden: baja
+
+8.4) Región de recepción seriada con memoria de arrastre
+Configuraciones donde el contenido puede tolerar cortes locales, pero presupone una memoria
+acumulativa de largo plazo entre episodios, entregas o fragmentos.
+
+Perfil típico:
+- continuidad requerida: media
+- densidad inferencial tolerable: media
+- explicitación requerida: media
+- redundancia funcional requerida: media
+- tolerancia a interrupciones: media
+- facilidad de reenganche: media
+- granularidad autosuficiente: media
+- sensibilidad al orden: media o alta
+
+--------------------------------------------------------------------------------
+
+9) Mapa de respuesta
+
+El mapa de respuesta de esta fuente no produce todavía la pieza material final.
+Produce, en un primer nivel, diagnósticos estructurales y exigencias de adaptación.
+
+Su definición general es la siguiente:
+
+Mapa de Respuesta = régimen que traduce vectores de instanciación en salidas diagnósticas u
+orientaciones de diseño mediante pesos, umbrales, restricciones, moduladores y reglas de resolución.
+
+Las salidas posibles del mapa incluyen, al menos:
+
+9.1) Diagnóstico regional
+Identificación de la región del espacio intensional a la que el caso pertenece con mayor fuerza.
+
+9.2) Diagnóstico de estabilidad
+Evaluación de si la configuración es robusta, frágil, ambigua o contradictoria.
+
+9.3) Exigencia de explicitación
+Indicación del nivel de marcación, recapitulación y reanclaje que el artefacto debe incorporar.
+
+9.4) Exigencia de segmentación
+Indicación de cuánto debe dividirse el contenido en unidades localmente legibles.
+
+9.5) Exigencia de reentrada
+Indicación del grado en que el artefacto debe permitir retomar el hilo tras interrupción.
+
+9.6) Riesgo de sobrecarga inferencial
+Diagnóstico de incompatibilidad entre la densidad inferencial propuesta y el régimen atencional del
+caso.
+
+9.7) Riesgo de subestimulación
+Diagnóstico de configuración demasiado explícita o redundante para una región que soporta mayor
+inmersión o sutileza.
+
+9.8) Invalidez estructural
+Veredicto emitido cuando la combinación de dimensiones vuelve incoherente la recepción buscada.
+
+Ejemplo:
+si un caso exige simultáneamente:
+- continuidad muy baja,
+- inferencia muy alta,
+- explicitación muy baja,
+- y facilidad de reenganche muy alta,
+el mapa puede diagnosticar una incoherencia estructural o una ambigüedad fuerte entre regiones.
+
+--------------------------------------------------------------------------------
+
+10) Construcción inversa
+
+Esta fuente debe poder usarse no solo para clasificar artefactos ya existentes, sino para diseñar
+configuraciones objetivo.
+
+Su formulación generativa queda así:
+
+Construcción Inversa = régimen que, dada una salida objetivo de recepción, busca regiones compatibles
+ del espacio intensional y a partir de ellas deriva condiciones de construcción para el artefacto.
+
+Ejemplos de salida objetivo:
+- contenido compatible con recepción intermitente asistida,
+- contenido de alta inmersión sostenida,
+- contenido de captura breve con legibilidad inmediata,
+- contenido seriado con memoria de arrastre.
+
+La construcción inversa permite pasar de:
+
+salida objetivo
+→ región compatible
+→ vector intensional plausible
+→ exigencias de diseño
+→ construcción del artefacto.
+
+En este punto, la fuente no sustituye al grafo de contenido ni a los adaptadores de plataforma.
+Más bien les entrega un bloque de condiciones atencionales con el cual deben componer.
+
+--------------------------------------------------------------------------------
+
+11) Relación con otras fuentes o bloques
+
+Esta fuente debe permanecer separada, aunque articulable, respecto de otros bloques:
+
+11.1) Plataforma o contexto de distribución
+No pertenece a esta fuente en sentido estricto.
+La plataforma es un entorno de proyección que puede modular la región conveniente, pero no debe
+confundirse con el régimen atencional mismo.
+
+11.2) Grafo de contenido
+Tampoco pertenece a esta fuente.
+El grafo de contenido fija materiales, personajes, conflictos, ideas o secuencias narrativas.
+La presente fuente fija cómo ese grafo debe poder ser recibido.
+
+11.3) Adaptadores
+Los adaptadores reciben, entre otras entradas, la configuración intensional de esta fuente y la
+traducen junto con otros bloques a una pieza concreta.
+
+11.4) Heurísticas de captura
+Pueden ser consecuencias o herramientas locales de respuesta, pero no equivalen a la fuente misma.
+
+--------------------------------------------------------------------------------
+
+12) Validación
+
+La fuente queda bien aplicada cuando permite:
+
+12.1) distinguir entre regiones atencionales sin reducirlas a meras etiquetas intuitivas;
+
+12.2) representar casos comparables mediante una base dimensional común;
+
+12.3) explicar por qué ciertos contenidos funcionan o fracasan bajo ciertos regímenes de atención;
+
+12.4) producir orientaciones estructurales de diseño y no solo clasificaciones narrativas;
+
+12.5) detectar configuraciones ambiguas, inestables o inválidas;
+
+12.6) componer sus salidas con otros bloques, como plataforma, nicho, adaptadores o grafo de
+contenido, sin colapsarse con ellos.
+
+--------------------------------------------------------------------------------
+
+13) Cierre de circuito
+
+La fuente no debe quedar como clasificador estático.
+Necesita un cierre de circuito que permita corregir el modelo con evidencia.
+
+Las evidencias relevantes para esta fuente incluyen, por ejemplo:
+- pérdida frecuente del hilo,
+- necesidad de retroceder o repetir,
+- abandono por sobrecarga,
+- comprensión funcional pese a interrupciones,
+- facilidad real de reenganche,
+- fatiga por exceso de explicitación,
+- o fracaso de inteligibilidad en el régimen previsto.
+
+Con esa evidencia, la fuente puede:
+- reajustar umbrales,
+- refinar regiones,
+- distinguir mejor entre configuraciones próximas,
+- o incluso corregir la pertinencia de alguna dimensión.
+
+Así, el modelo no solo clasifica.
+Aprende.
+
+--------------------------------------------------------------------------------
+
+14) Fórmula de cierre
+
+Fuente de Configuración de Recepción Atencional del Contenido =
+
+identidad estable del campo de recepción atencional
++
+espacio explícito de dimensiones intensionales
++
+casos representables como vectores
++
+regiones comparables del espacio
++
+mapa de respuesta que traduce configuración a exigencias estructurales
++
+uso generativo por construcción inversa
++
+cierre de circuito con evidencia.
+
+Forma condensada:
+
+No toda diferencia entre contenidos es temática o de plataforma.
+Parte decisiva de esa diferencia reside en cómo deben poder ser recibidos.
+Esta fuente nombra, formaliza y vuelve operable ese plano.
+
+================================================================================
+FIN DEL PLANTEAMIENTO
+================================================================================

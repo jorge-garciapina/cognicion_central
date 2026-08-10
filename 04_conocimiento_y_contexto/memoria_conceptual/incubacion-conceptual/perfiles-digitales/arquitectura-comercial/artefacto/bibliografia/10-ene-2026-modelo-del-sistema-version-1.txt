@@ -1,0 +1,817 @@
+[Transcripción del documento: "Modelo del sistema: versión 1"]
+[Nota: algunos pasajes, sobre todo en las páginas 4, 6 y algunos márgenes, son parcialmente difíciles de leer. Cuando no es posible asegurar una lectura exacta, se marca como [ilegible] o [aprox.].]
+
+[Página 1]
+
+Modelo del sistema: versión 1     sab-10-ene-2026
+
+1. Introducción
+
+Antes que nada debo resaltar el hecho de que esta no será la primera versión del diseño del sistema,
+es la tercera, la primera está en mie-31-dic-2025 página 15 y la segunda en mar-06-ene-2026 pág. 8.
+Sin embargo, uso el adjetivo versión1 debido a que este es el primer estudio que dedicaré al sistema.
+
+Mi objetivo a priori es usar todas las ideas aprendidas, no sólo en los estudios mencionados arriba
+sino en otros, para así dar con un diseño funcional que me permita comenzar a hacer videos.
+
+Trabajaré "en papel" al mismo tiempo que en "digital" ya que, como se vio en la discusión del mar-06-ene-2026, "el sistema", lo que llamo [cognición central] es un proyecto de chatGPT dedicado a una [aplicación cognitiva] en particular, por lo tanto, este estudio, en unión con el proyecto de chatGPT serán la primera [cApp] que diseñe.
+
+2. Principios del diseño
+
+Antes de entrar en el diseño haré una revisión de las discusiones que he tenido, esto, con la idea de imitar lo que hice cuando desarrollé primero los ejemplos lingüísticos (mie-31-dic-2025) ya que es muy útil y me hace entender las ideas antes de querer hacer algo con ellos.
+
+2.1 Definiciones básicas
+
+Estoy usando términos como [nodo cognitivo] y [artefacto] pero, a pesar de que yo los comprendo,
+el chatGPT no lo hará así que es bueno definirlos.
+
+2.1.1 Artefacto (esta descripción se basa en artefacto-v3.txt)
+
+An artifact is a cognitive photograph of a large logical architecture, represented as a set
+of addressable units (Address + Content) readable by AI, enabling AI to perceive the whole system,
+infer its rules and structure, and provide cognition both to humans and to the project's architecture
+itself through coherent understanding and evolution.
+
+En el documento: documentos-de-investigación/work-spaces/cognición-central/artefacto-v3.txt es posible
+hallar una versión extendida de la definición, uso y en general de la idea de un artefacto.
+
+
+[Página 2]
+
+2.1.2 Nodo cognitivo (cNode)
+
+Este concepto es más complejo que el artefacto, pero también es más potente. Cuando lo desarrollé no
+tenía nociones de todo lo que seguiría después, pero funcionó como la base del desarrollo.
+
+El desarrollo del cNode me llevó a la idea de los grafos y todo el trabajo del último mes, aunque me
+da la impresión que lo que denomino cNode es más que un sólo concepto, y sé que un estudio en profundidad
+del trabajo realizado en esa época tendrá un impacto muy positivo. En esta sección llevaré a cabo dicho estudio.
+
+Ideas previas.
+
+* Hace mucho pensaba en las metáforas como puentes entre mi pensamiento y la IA. El uso original que les di
+  fue para transferir estructura más que palabras. Ahora que lo analizo me doy cuenta que son la base para todo
+  lo que estoy trabajando en este momento.
+  ¿Por qué los recuerdo ahora?
+  Porque el cNode es en esencia una metáfora¹ en el cual busco plasmar una idea o un proceso cognitivo; antes resuma la utilidad del nodo cognitivo como:
+  "Un nodo cognitivo es la proyección en el sistema IA de algún proceso cognitivo"
+
+* Una de las ideas importantes es que en la creación de cNodes no hay un punto de partida que pueda ser
+  considerado correcto, cualquier punto es correcto para iniciar, lo que otorga un carácter fractal y expansivo
+  a la generación de modelos cognitivos. (cognition-module/principio-generador.pdf)
+
+* Debido a que los cNodes están pensados para modelar el pensamiento como un grafo cognitivo, es inevitable pensar que éstos son el puente entre las ideas "en bruto" y los grafos construidos en cytoscape.js
+
+[Página 3]
+
+* Si comparo los conceptos de artefacto (como se presenta en la sección 2.1.1) y cNode me encuentro
+  con un hecho curioso que vale la pena resaltar:
+    • El artefacto es un mecanismo utilizado para "simplificar" el análisis de la arquitectura global de un sistema (lógico) la cual se encuentra distribuida en un gran número de archivos.
+      - Es posible debido a que la IA permite analizar grandes cantidades de texto
+      - Funciona como una [fotografía cognitiva]
+    
+    • El [cNode] es el mecanismo utilizado para convertir una idea a un formato que cumpla dos condiciones:
+      1) La IA lo puede comprender (dicha condición es débil ya que la IA puede comprender código, texto, imágenes, etc)
+      2) Un grafo, o, más bien, una ontología (clases/tipos) que pueda ser utilizada como núcleo conceptual (ver mie-31-dic-2025 y mar-06-ene-2026)
+
+Al tomar estas ideas como punto de partida para comprender el concepto de [cNode] es posible ver que tienen implicaciones en el estudio previo, a continuación analizo algunas:
+   I1 → "Cada aplicación será distinta en cuanto a responsabilidades de [Interfaz humana] e [Interfaz de IA] se refiere, debido a esto, es mucho más importante entender las relaciones (aristas) y los componentes (nodos) en vez de tratar de forzar una arquitectura global"
+        Lo importante de este asunto es que el concepto de [cNode] permite modelar cualquier idea de forma operable. La intención y el núcleo requieren de la flexibilidad del [cNode].
+   I2 → Una vez que la idea ha sido plasmada en forma de [cNode] entonces la idea ya no sólo vive en la mente sino que se convierte en una estructura repetible, explicable, auditable y extensible a nuevos dominios (mie-31-dic-2025).
+
+[Página 4]
+
+   I3 → La definición de Núcleo (mie-31-dic-2025, pág. 1)
+        se le puede dar a un [cNode]:
+        "estructura conceptual que conserva identidad a través de adaptaciones. No es un texto ni una frase, es un conjunto de propiedades esenciales (invariantes) y un dominio de variación permitido"
+
+2.1.2.1 Primera revisión con chatGPT
+
+• "La metáfora no es el fin; la metáfora es el mecanismo de desambiguación cuando todavía no existe un formalismo compartido suficiente"
+  Esta idea implica algo que ya había pensado en el pasado pero que me gustaría retomar:
+  La metáfora, al ser el puente entre la IA y mi propia cognición, funciona como la primera vía de conexión: la chispa que enciende el fuego", el momento de la concepción (yo siendo la parte activa, creadora, la IA siendo la parte pasiva, receptora). Esto lo aclara un poco después:
+  "En el momento en que sí existe un formalismo compartido (por ejemplo, esquema de nodo, invariantes, tipos, prueba), la metáfora puede convertirse en generador de estructura, no solamente en guía"
+  Así, una vez que hay "formalismo compartido", dicho formalismo puede ser útil como punto de partida para expandir el tema.
+  En el documento cognition-module/desarrollo-meta-metafórico.pdf se dice:
+  - "Las metáforas no solo son comparaciones puntuales, sino procesos dinámicos de generación, expansión y reorganización"
+  Y, además de algunas metáforas sobre el desarrollo metafórico:
+    1→ "El desarrollo metafórico es como un río: cada metáfora es un afluente que se une al cauce, haciendo crecer el caudal de significado"
+    2→ "El desarrollo metafórico es como un tejido: cada metáfora es un hilo que, al entrelazarse con otros, forma una trama de sentido"
+    3→ "El desarrollo metafórico es como un fractal: cada metáfora es la semilla de nuevas repeticiones o variaciones"
+    4→ "El desarrollo metafórico es como una constelación: cada metáfora es una estrella que solo revela su forma al integrarse con las demás"
+    5→ "Cada metáfora es un laboratorio abierto: cada metáfora es un elemento al combinarse con otros, transmuta en un significado superior"
+
+[Página 5]
+
+• Casi paso por alto algo importante sobre el concepto de "meta-metáfora".
+  Estaba considerando que cNode y meta-metáfora son la misma cosa, pero la respuesta de chat muestra no solo que son cosas distintas, sino que la meta-metáfora es un concepto clave que será de vital importancia en muchas tareas como adaptar el núcleo a distintos contextos.
+   - "cNode es una "representación": contenedor canónico integrable en un grafo."
+   - meta-metáfora es un operador de transformación: procedimiento o mecanismo que construye mapeos, adaptadores y proyecciones entre dominios o entre representaciones"
+  Hay situaciones en las que la meta-metáfora puede aportar mucho:
+    * En la página 8 de mie-31-dic-2025, al final de la página se proponen dos formas de crear los [modelos que describen el contexto de un sujeto]:
+      1→ A partir de un modelo ya existente
+      2→ A partir de un modelo propio.
+      En ambos casos (principalmente en 1) se necesita un mecanismo que permita construir mapeos, adaptadores y proyecciones entre dominios o entre representaciones.
+    * Podrían servir como principio de funcionamiento de la librería de modelos de los que hablo en el primer punto de la página 9.
+      (librería de modelos estructurales)
+    * ¿Cuál es la relación que existe entre intención, contexto y meta-metáfora?
+    * Las "definiciones" de función de la pág. 12 (mie-31-dic-2025) recuerdan mucho a la idea central de meta-metáfora (M-M). En ese estudio las pensé (las definiciones) en términos de crear intervenciones pero la M-M es cercana a la función (y a lo que comprendo de homomorfismo).
+    Sean:
+      B → Dominio Base
+      O → dominio Objetivo
+    La M-M, es decir, el mapeo que lleva de B a O se define como:
+       o= MM(b)
+    donde o ∈ O y b ∈ B
+    ¿la M-M es el homomorfismo?
+    Esta definición es conceptual (no operativa) pero ayuda a ver con mayor detalle algo que parecía oculto.
+
+
+[Página 6]
+    * El protocolo también puede ser considerado como una M-M puesto que, en términos generales, no es más que un mapeo. (ver pag. 14, 31-dic-2025)
+    * El punto 9 (pag. 9 mar-06-ene-2026) puede (quizás: debe) ser realizado con una M-M: se busca extraer ontologías, es decir, realizar mapeos
+    * Pienso que en principio una [cApp] funciona gracias a mapeos, ya que cuando le pido al chat que ejecute tal función guardada en el prompt principal para tal problema, de cierta forma se está considerando que hay una función que funciona para un problema en específico, es decir, hay algo parecido a una función.
+      Siguiendo un patrón:
+        [cognición central] → Es un [promptArtifact]
+        Núcleo / Intención → cNodes
+        Mecanismo de ejecución → Meta-metáfora
+        [Respuestas recibidas a peticiones de creación](mar-06-ene-2026, pag. 15) → cNode (La razón es que serán conjunto de "realizaciones" -intervención en el ejemplo (mar-06-ene-2026, pag. 15)- con distintos parámetros de salida)
+    * La M-M como homomorfismo:
+      Existe una función de mapeo que toma el grafo abstracto y lo embebe en el grafo local preservando ciertas relaciones clave.
+      En lenguaje matemático:
+       - No es un isomorfismo completo (no todo es idéntico), es un homomorfismo con invariantes.
+      Eso es exactamente lo mismo que ocurre cuando:
+       - El tema A se encarna en un nicho.
+       - El concepto se encarna en una explicación.
+       - La estrategia se encarna en una intervención.
+
+[Página 7]
+
+• Hay una precisión que debe hacerse sobre la M-M y el cNode:
+  - Un M-Node puede existir y no encerrar una M-M.
+  - Una M-M puede intervenir sobre una estructura, versión, o quizás un mapeo (típicamente un adaptador), evaluando qué se preserva.
+  Punto clave: un cNode puede contener M-M como subnodos internos; por ejemplo: "mapeo A→B", "reglas de correspondencia", "mínimos para preservación". Y una M-M puede producir un cNode como proyección materializable. En ese nivel el mapeo necesita propósito, pero no identidad a nivel de grafo.
+    → Un cNode y una M-M son isomorfismos a nivel de propósito, pero no idénticos a nivel de operador (Isomorfismo: "misma forma funcional")
+
+• Siguiendo la discusión en la misma línea que IA (pág. 3) e I3 (pag. 4), es bueno considerar la siguiente formulación del cNode:
+  Un cNode es una proyección de un proceso cognitivo interno, pero es importante definir qué se proyecta y qué no:
+  * Se proyecta:
+    + Estructura relacional (componentes y aristas)
+    + Invariantes (lo que no debe romperse)
+    + Dominio de variación (lo que sí puede cambiar)
+    + Procedimientos (cómo se opera o cómo se deriva)
+    + Criterios de validación (qué cuenta como correcto o compatible)
+  * No se proyecta automáticamente (a menos que sea declarado):
+    + La totalidad de mis asociaciones subjetivas
+    + Intuiciones no formalizadas
+    + Contexto implícito que los humanos suelen "rellenar" sin notarlo.
+
+Estas condiciones tal y como son descritas son los requerimientos que se busca que un núcleo cumpla, lo cual reafirma mi creencia, la cual se ha convertido en convicción, de que el núcleo será modelado usando cNodes.
+
+
+[Página 8]
+
+• cNode como puente entre ideas en bruto y ontología.
+  Debido a que no quisiera caer en un sesgo, es importante aclarar algunas cosas (primeramente cNodes) y ontología.
+  * Una ontología es un compromiso fuerte: vocabulario controlado, categorías, relaciones, tipos y reglas.
+  * Una idea en bruto es un objeto pre-ontológico: tiene forma, pero todavía no tiene tipado ni límites claros.
+  Entonces, el cNode funciona como:
+    1→ captura pre-ontológica (estructural sin obligar a cerrar todo),
+    2→ contenedor de evolución (versionado, refinamientos),
+    3→ vehículo de tipificación gradual (introducir tipos y restricciones conforme haga falta),
+    4→ interfaz de integración (PRIMITIVES, REQUIRES, CONSTRAINTS, TYPES, ALIASES cuando haga falta)
+  El cNode es el "estado intermedio" donde el pensamiento se vuelve operable sin quedar encerrado en una ontología demasiado rígida.
+    cNode = puente entre "idea en bruto" y "ontología".
+  Con esta aclaración me es más sencillo ver que mis ideas previas, si bien no están del todo equivocadas, sí estaban tratando de exceder los límites de un cNode; sin embargo, también es verdad que no necesito definir una ontología para cada cosa.
+  Necesito definir la ontología y cuándo es suficiente un cNode:
+  * Ontología:
+    - Normalmente necesaria cuando planeo llevar a cabo la "ejecución" de una [idea], por ejemplo, para definir la intención o el núcleo de una cApp
+    - A pesar de relacionarse con el punto de arriba, también necesito definir una ontología para:
+      ▪ Modelos estructurales base (mie-31-dic-2025) los cuales describen el [contexto] del sujeto.
+        En este punto es especialmente importante puesto que, por ejemplo, en un contexto de distribución como Tiktok las condiciones deben ser distintas que para Instagram
+      ▪ A pesar de haber relegado un poco ese estudio, la ontología también será necesaria para llevar a cabo la manifestación de intervenciones concretas, como publicaciones, para definir la estructura, emociones y heurísticas
+
+
+[Página 9]
+
+  - Todo lo que se quiera representar usando cytoscape.js. En este caso la ontología es requisito.
+
+  * cNode:
+    + Son útiles cuando quiero plasmar un concepto, quizás como parte del estudio o como una forma de almacenar distintos puntos de vista sobre un tema, la condición que se busca es: transferir o proyectar algo de mi mente al sistema, sin que esto sea con la intención de ejecutar sino de almacenar.
+    + El cNode no es "arquitectura", sino un micro-modelo local con capacidad de integración. Funcionan bajo el principio always-integratable: cualquier nodo puede integrarse con cualquier otro si:
+      .) declara lo que provee y lo que requiere.
+      .) declara invariantes.
+      .) define adaptadores cuando cambie vocabulario.
+    Los cNodes permiten construir ecosistemas con partes integrables, aunque no tengan la formalidad de una ontología, son útiles para explorar, expandir, generar, conectar... conceptos
+
+• cNode como mecanismo para externalizar las ideas.
+  Cuando una idea se convierte en cNode, ocurre una externalización con propiedades nuevas:
+  - Repetibilidad: el mismo nodo puede ser reusado por humanos y por IA sin depender del estado mental original.
+  - Explicabilidad: se puede recorrer el grafo, inspeccionar subnodos y justificar aristas.
+  - Auditabilidad: se pueden registrar evidencias, decisiones y cambios entre versiones.
+  - Extensibilidad: el nodo puede conectarse a nuevos dominios mediante adaptadores o M-M.
+  Definición provisional de cNode:
+  "Un cNode es una proyección estructural deliberada de un proceso cognitivo internal materializada como un objeto integrable en un grafo, diseñada para traducir una intuición, modelo, argumento, decisión, invariantes y forma operativa a un formato reusable, compartible, explicable, auditable y extensible."
+
+[Página 10]
+
+2.1.2.2 Análisis de las ideas
+
+Debo decir dos cosas importantes:
+  1→ Los objetivos de esta sección (2.1.2 Nodo cognitivo) son comprender el concepto y llegar a una definición en forma de documento (en la computadora).
+  2→ En "2.1.2.1 Primera revisión con chatGPT" se recopilaron ideas interesantes que pueden servir como la base para cumplir con la definición que se menciona en el punto anterior.
+
+Para cumplir con el punto 1 usaré la misma estructura que se usó en la definición de artefacto, quiero comenzar analizándola, no sólo para definir el cNode, sino porque dicha estructura puede ser de utilidad en algún trabajo futuro.
+
+Diseño de definición.
+
+Palabras clave: arquitectura de información, metodología de síntesis, artefacto textual.
+
+Una definición requiere 3 capas mínimas:
+  1→ Capa ontológica (qué es)
+  2→ Capa teleológica (para qué existe y qué resuelve)
+  3→ Capa operativa (cómo se instancia y cómo se usa sin ambigüedad)
+
+Preguntas que debe responder:
+
+1) Definición base:
+  ¿Qué es, en una frase ampliada, sin contexto adicional?
+  Razón: Fija el identificador mental del concepto. Si esto falla, todo lo demás se interpreta mal.
+  Aquí se busca:
+  - Identidad ("X es...")
+  - Diferencia específica ("... que permite Y")
+  - Alcance ("para sistemas lógicos grandes...")
+  - Consecuencia central
+  Como extra, en la medida de lo posible sería bueno añadir un apartado "In short" que resuma el concepto en pocas palabras y si se puede (cuando aplique) comparaciones metafóricas.
+
+
+[Página 11]
+
+2) Razón de existencia
+  En el chat la respuesta limita esta sección a problema → solución, la pregunta que sugiere es "¿qué problema hace inevitable que este concepto exista?", sin embargo, limitar las razones de existencia de un concepto a un problema es quitar capacidades y flexibilidad a esta estructura.  Puedo pensar, por ejemplo, en el concepto de "herramienta"; no en una en particular sino en el concepto en general.
+  (Debo admitir que quizás me confundí, y realmente sí se requiere una estructura tipo problema → solución, ya que cada cosa que existe tiene una causa; "nada viene de la nada" dirían los romanos, dejo esta cuestión como un punto de discusión abierto)
+
+3) Definición de términos críticos
+  ¿Qué términos críticos son ambiguos y debo fijar?
+  Razón: cuando un documento es reutilizable entre proyectos, los términos "cargados" (por ejemplo, "cognición", "arquitectura", "sistema", "fotografía cognitiva") se vuelven puntos de ruptura semántica. Esta sección reduce el espacio de interpretaciones. 
+  Generalización:
+  En cualquier definición, se deben detectar palabras-pivote que, si el lector interpreta distinto, destruye el resto.
+
+4) Estructura mínima
+  ¿Cuáles son los componentes mínimos sin los cuales ya no es este concepto?
+  Razón: esto convierte una definición en un criterio de identidad verificable.
+  Generalización:
+  Toda entidad útil necesita un "mínimo estructural". Sin ello, no hay forma de auditar.
+
+Nota importante:
+Los puntos 3) y 4) de esta lista me hacen pensar en el concepto de "invariantes" tal y como se presenta en la página 7, mientras que el punto 1), definición base, me recuerda a un orquestador, el cual se apoya en 2), para crear una relación similar a la que proponen los cNodes. Al analizar esta lista es necesario hacerlo usando la discusión (el chat) sobre cNodes, tengo la impresión de que puedo crear un cNode dedicado a la creación de definiciones, arquitectura conceptual o como sea que se le denomine.
+
+[Página 12]
+
+5) "Dominio" del concepto
+  ¿Qué tipo de "materia prima" alimenta al concepto?
+  Razón: el documento no se queda en filosofía; especifica qué se necesita para que la idea funcione. Esta sección responde: "¿qué información debe estar presente para que la instancia sea útil?" 
+  Generalización:
+  En cualquier concepto operacional, siempre existe "materia prima":
+    * Para un "modelo": datos y supuestos.
+    * Para un "protocolo": mensajes, estados, transformaciones, salidas, invariantes.
+    * Para un "sistema": entradas, transformaciones, salidas.
+  Nota:
+  Esto recuerda a la parte de "procedimientos" en la página 7, ya que se busca ejemplificar qué hacer con el concepto de una forma operacional. También parece "variación" (Dominio de variación) pero no estoy segura ya que la variación se refiere a cosas de la definición que pueden cambiar.
+
+6) Representación (técnica) del concepto
+  ¿Cómo se visualiza esto de forma portable simple y auditable?
+  Razón:
+  El salto desde concepto a práctica exige una representación.
+  "Se elige un formato por propiedades: legibilidad, streaming diffs simples, líneas independientes, facilidad de validación".
+  Aquí el patrón es: propiedad requerida → decisión de representación.
+  Es importante no confundir la "forma de representación" (lo que se menciona arriba) con la forma que puedan tener los conceptos
+  que se quieren representar: el cNode tiene su forma particular,
+  el artefacto tiene su forma particular; ambos pueden ser descritos por la forma de arquitectura conceptual que se estudia.
+  Los ejemplos que pueden hacerse, por ejemplo de artefacto o cNode, son materializaciones de la "representación técnica del concepto"; cualquier concepto es susceptible (y de hecho, es un requisito) a ser representado de alguna forma.
+
+[Página 13]
+
+7) Procedimientos
+  Una vez que existe ¿qué puedo hacer ahora que antes no podía?
+  Razón: esto desplaza la definición desde "descripción" hacia "potencialidad", y esa potencialidad es el puente hacia el diseño de sistemas: abre un espacio de aplicaciones.
+  Este tipo de sección es importante cuando el concepto no es solo clasificatorio, sino instrumental (sirve para construir procesos).
+  (De nueva cuenta, esto se corresponde con los procedimientos que pueden definirse para un cNode.)
+
+8) De concepto a proceso
+  ¿Cuál es el ciclo mínimo repetible que convierte el concepto en un proceso?
+  Razón: Aquí aparece el concepto round-trip (ida y vuelta). El artefacto no es solo un archivo; es un componente de un ciclo: capturar → analizar → materializar → iterar.
+  Esta sección convierte la definición en un método operativo.
+  Al igual que el punto 7) Procedimientos, esta sección es similar a "procedimientos" de un cNode.
+
+9) Practical notes
+  ¿Qué errores comunes, límites y reglas prácticas debo anticipar?
+  Razón: una definición autosuficiente incluye advertencias típicas: truncados, exclusión de secretos, binarios, tamaño máximo, etc. Esto reduce fallos de implementación.
+
+10) One sentence definition.
+  ¿Cuál es el token mental portable del concepto?
+  Razón: para reuso entre proyectos. Es un resumen de identidad que se puede copiar como encabezado en otros lugares.
+
+Discusión sobre la lista:
+La lista anterior describe un patrón base que puede seguirse para crear definiciones operables, en caso de ser necesario, de conceptos; en cierto sentido, el hecho de contar con un patrón para modelar "algo" recuerda al concepto de [modelo estructural] definido en 31-dic-2025 pág. 8, es la misma idea: "tener una estructura base y construir sobre ésta". La ventaja de esta forma de trabajo es que se facilita el desarrollo. En la siguiente página escribo una nota al respecto.
+
+
+[Página 14]
+
+Nota sobre los [modelos estructurales]:
+
+En el pasado, cuando comencé a pensar en términos de estructura tenía un ejemplo al que recurría cada vez que necesitaba crear una metáfora sobre mi idea:
+
+Si el objetivo es elicitar información, la estructura de la conversaciónse debe plantear por adelantado. Una conversación en particular será una "manifestación" de dicha estructura. Conceptualmente puede representarse como
+
+GRAFOS = [
+  {
+    nombre: "elicitar_informacion",
+    entidades: [],
+    nodos: [
+      { identificador: "objetivo_elicitar_informacion", tipo: "Núcleo invariante que contiene requerimientos" entidades_contenedoras: [] },
+      { identificador: "requiere", entidades_contenedoras: [] },
+      { identificador: "tecnicas_de_elicitacion", entidades_contenedoras: [] },
+
+      { identificador: "telefono", tipo: "Contexto de distribución", entidades_contenedoras: [] },
+      { identificador: "personal", tipo: "Contexto de distribución", entidades_contenedoras: [] },
+
+      { identificador: "persona_1_telefono",tipo: "Contexto de ejecución", entidades_contenedoras: [] },
+      { identificador: "persona_2_telefono",tipo: "Contexto de ejecución", entidades_contenedoras: [] },
+
+      { identificador: "persona_1_personal",tipo: "Contexto de ejecución", entidades_contenedoras: [] },
+      { identificador: "persona_2_personal",tipo: "Contexto de ejecución", entidades_contenedoras: [] },
+      { identificador: "persona_3_personal",tipo: "Contexto de ejecución", entidades_contenedoras: [] },
+
+      { identificador: "contextos_de_distribucion", entidades_contenedoras: [] },
+      { identificador: "contextos_de_ejecucion", entidades_contenedoras: [] },
+
+      { identificador: "nucleo_invariante_que_contiene_requerimientos", entidades_contenedoras: [] }
+    ],
+    aristas: [
+      { origen: "objetivo_elicitar_informacion", destino: "requiere" },
+      { origen: "requiere", destino: "tecnicas_de_elicitacion" },
+
+      { origen: "objetivo_elicitar_informacion", destino: "telefono" },
+      { origen: "objetivo_elicitar_informacion", destino: "personal" },
+
+      { origen: "telefono", destino: "persona_1_telefono"" },
+      { origen: "telefono", destino: "persona_2_telefono"" },
+
+      { origen: "personal", destino: "persona_1_personal" },
+      { origen: "personal", destino: "persona_2_personal" },
+      { origen: "personal", destino: "persona_3_personal" },
+    ]
+  }
+]
+
+
+El diagrama muestra que los [contextos] (ambos) son una manifestación de la [estructura base] para elicitar información.
+
+La lista (págs. 10-13) trata de definir una estructura base o "arquitectura de definición conceptual", [estructura base de definición conceptual], o como sea que deba llamarse.
+
+Dicha [estructura base de definición conceptual] ([EBDC]) es similar estructuralmente al ejemplo de elicitación (arriba): se tendrá una misma estructura que será empleada en distintos sujetos, notar que sujeto aquí es el concepto:
+
+GRAFOS = [
+  {
+    nombre: "ebdc_y_sus_materializaciones",
+    entidades: [],
+    nodos: [
+      { identificador: "EBDC", entidades_contenedoras: [] },
+      { identificador: "cNode", entidades_contenedoras: [] },
+      { identificador: "Artefacto", entidades_contenedoras: [] }
+    ],
+    aristas: [
+      { origen: "EBDC", destino: "cNode" },
+      { origen: "EBDC", destino: "Artefacto" }
+    ]
+  }
+]
+
+
+[Página 15]
+
+Toda esta página es parte de la misma nota
+
+Cada definición dada usando la [estructura base de definición conceptual] es una manifestación de una idea "sobre" una estructura del sistema (aunque no tiene que ser necesariamente del sistema, puesto que es posible usar estructuras externas en caso de ser necesario).
+
+Es necesario notar que la discusión de 31-dic-2025 pág. 8-9 es básicamente lo mismo que se aclara en esta nota.
+
+Después de analizar la nota en la página anterior me doy cuenta de que crear una [Estructura Base de Definición Conceptual] es, no sólo de utilidad práctica, sino que ayuda a comprender cómo funciona el modelado de ideas. Siguiendo ese camino es posible ver cómo deben crearse, tanto los núcleos como las intervenciones, e incluso otras cosas no relacionadas con los estudios del último mes, por ejemplo:
+- En el pasado estudié la "estructura Aristotélica" como una forma de contar una historia. Dicha estructura es independiente de la información a presentar (de la historia a contar), ya que lo que busca es ofrecer un mecanismo para presentar dicha información. Esto es en esencia lo mismo que ofrece la [Estructura Base de Definición Conceptual]: ofrecer una "plataforma" para que una idea sea descriptiva y [operable].
+  Siguiendo con la idea de la [nota] en la página 7:
+  La [estructura Aristotélica] y la [EBDC] son Isomorfismos ya que ofrecen (¿o poseen?) la misma forma estructural, aunque no todo es idéntico.
+  En este contexto (y en general) ¿qué es isomorfismo y qué eshemomorfismo? (ver nota al final de pag. 6)
+  Intuición rápida (falta verificar): [la definición del concepto 1] y [la definición del concepto 2] (usando la [EBDC]) son isomorfismos uno de otro (misma forma, distinto contenido) mientras que ambas definiciones son un hemomorfismo de la [EBDC].
+
+Fin de la nota.
+
+
+[Página 16]
+(Recordar que esto aún pertenece a Diseño de definición iniciado en página 10)
+Las ideas que han surgido discutidas en esta sección me permiten llegar a algunas conclusiones las cuales quiero discutir:
+  C1: El concepto que usaré para solicitar los code snippet txt al chat es: "autocontenido, autodescriptivo" me hace pensar que ese es el requisito para entidades como el núcleo o la intención, aunque aún debo analizar con más calma unvistazo al primer diagrama de la página 14 muestra que pueden existir dependencias.
+  C2: Aún no analizo estas definiciones bajo la óptica del cNode, pero creo que al hacerlo tendré o seré capaz de crear una estructura "similar" (un isomorfismo) a la [EBDC] pero aplicada a la creación de núcleos.
+  C3: Hay una forma interesante para referirse a algunas entidades: [unidad de significado]
+       - [unidad de significado] → contrato que "comprime" la complejidad de un concepto
+
+15-ene-2026:
+Estoy Revisando el eb-definicion-contextual.txt y hay muchas ideas que no quiero pasar por alto:
+■ La [EBDC] se comporta como un mecanismo de "proyección controlada de contenido conceptual hacia una forma que mantiene coherencia bajo iteración."
+  Esto me hace pensar que la [EBDC], se parece más a una M-M, o, al menos, es posible comprender cómo construir una (la cual es un mapeo) a partir de éste. En la página 5 se aclara este punto: "la M-M es un operador de transformación: procedimiento o mecanismo que construye mapeos, adaptadores y proyecciones entre dominios o entre representaciones."
+  A pesar de esto, sigo sin estar segura si la [EBDC] es una M-M, sin embargo, es evidente que funciona como un adaptador que convierte un concepto (cNode, artefacto) en una idea operable  (básicamente un cNode). Quizás sea bueno pensar:
+    • [EBDC] = M-M → Ayuda a convertir la idea en un cNode
+    • Definición = cNode → Guarda la definición
+
+
+[Página 17]
+
+  La única diferencia sería:
+    • La M-M = cNode, pero contiene un proceso de transferencia
+  Quizás sea bueno eliminar el concepto de M-M, y en vez de eso, pensarlo como un cNode de ejecución, al hacerlo es posible pensar en otros tipos similares:
+    * cNode de almacenamiento (núcleo, intención, intervención, etc.)
+    * cNode de ejecución
+    * cNode de "estructura" (ver pág. 15)
+    * cNode de "trazabilidad" (por ejemplo, para capturar el proceso que
+      [de evolución] seguí para desarrollar una idea)
+
+■ Sobre la forma de construcción que ofrece la [EBDC] el chat dice algo interesante:
+  "Ya es un proto-orquestador: define un pipeline de construcción conceptual. No está expresado como grafo, pero su lógica es la misma que la de un orquestador de módulo cognitivo: secuencia misma para producir un artefacto estable"
+  Esto resuena fuertemente en lo que estudiaba hace algún tiempo (lo busqué en mis notas pero no lo encuentro) sobre la creación de la estructura para los videos (similar a pág. 15) con una estructura (pipeline) para maximizar la potencialidad de cada video.
+  En libreta floreada (Metajuego) hablo sobre el "Patrón Funcional de mensaje publicitario" (23/oct/2025), el cual defino como:
+    "Estructura operativa y reutilizable que define la arquitectura de un mensaje publicitario: conjunto de slots con función y restricciones, su orden y tiempos, y los gatillos heurísticos a activar para alcanzar un objetivo único de campaña; es independiente de las palabras exactas y se instancia en anuncios rellenando los slots según el medio"
+      Ejemplo:
+      Hook → [mensaje núcleo] → disparadores → CTA
+  Este "Patrón Funcional" cumple con la misma lógica que el [EBDC], pero en vez de crear una definición, busca generar un script para un video. Esto indica que se puede representar como un cNode, por lo tanto, se vuelve ejecutable para la creación de intervenciones.
+
+
+[Página 18]
+■ Un cNode es una entidad que "proyecta" estructura no sólo textual y que puede integrarse a un grafo.
+  Esto es exactamente lo que busqué desde un inicio: contar con una herramienta que conserve la estructura. Lo que me habkaba antes y llamaba "lenguaje de estructuras" es justo un cNode: me permite transferir ideas en un meta-lenguaje (una estructura).
+  El trabajo que realizo sobre comprender los cNodes, formalizar su definición y sus protocolos hará posible que todas las ideas que he tenido puedan llevarse a la práctica.
+
+■ La forma en la que un cNode está definido hace que piense en otras estructuras, por ejemplo el [núcleo]. Las partes que coloco en la siguiente lista permiten ver lo que decía en el punto anterior: al formalizar el concepto de cNode será posible llevar a cabo el resto de las ideas:
+  1) [Contexto/identidad]
+  Es la razón del cNode. Aquí es donde se define qué tipo de cNode es (ver página anterior), consiste en cosas como:
+    * Título
+    * Versión → útil para llevar registro de los cambios
+    * Status → "En desarrollo", "aún no probado", "fallido", "exitoso", etc
+    * Audiencia → otros IA, humanos
+    * Primary goal / propósito → "generar scripts para video", "crear variables", etc.
+    * Definición → descripción verbal accesible para humano e IA
+    * Why it exists → en qué problema se fundamenta / qué ofrece
+    * entradas y salidas → útil en una ontología más explícita
+    * tipo → útil en una ontología más explícita
+  Quizás sea necesario ampliar esta lista al considerar ontologías más complejas.
+  2) Invariantes
+    * Estructura mínima → "If you remove x, it is no longer this concept"
+    En la pág. 11 de mie-31-dic-2025 es posible hallar una definición interesante:
+      Núcleo:  "Estructura conceptual formada de invariantes. Su existencia es independiente de cualquier entidad externa, de la misma dorma que una palabra en el diccionario no depende de dónde será usada"
+
+
+[Página 19]
+
+Nota intermedia: Discusión sobre el núcleo
+
+A lo largo de este estudio he descubierto que muchos conceptos sobre los cNodes tienen una similitud 1:1 con las ideas que tengo acerca del núcleo. Al volver a leer las ideas que escribí en mie-31-dic-2025 pág. 16-17, me veo en la necesidad de escribir esta nota intermedia: el concepto de cNode fue descrito implícitamente al estudiar el núcleo. Las implicaciones de contar con una metodología para la construcción del núcleo son grandes:
+  • Será posible llevar a cabo la ejecución de puentes entre [el sistema] y el [mercado del dinero] (ver mar-09-dic-2025 pág. 4) puesto que la conversión de contrato o plan de negocio a una estructura operable podrá hacerse con algo tan simple como una plantilla
+  • Similarmente, los [perfiles de influencer] se podrían crear usando plantillas similares a la [Estructura Base de Definición Conceptual]. Para crear esa plantilla se necesitaría tener un entendimiento de conceptos como: nicho, comunidad, etc., pero una vez que se tenga el proceso sería replicable ad infinitum.
+  • En general, tener la capacidad de crear núcleos usando cNodes permite el desarrollo continuo de [aplicaciones cognitivas].
+  • Como argumento especial es importante notar que este estudio se llama "Modelo del sistema: versión1"; hasta este momento se ha cumplido con el objetivo principal, ya que el cNode es la pieza que hacía falta.
+
+Una vez que se ha comprendido la importancia de este trabajo es necesario relacionar algunas cosas sobre el núcleo estudas en mie-31-dic-2025:
+
+  * [La estructura base] del núcleo es absoluta, independiente de las condiciones externas, se mantiene invariante a cambios externos, autocontenida y se describe a sí misma.
+  * El [núcleo] es la [definición estructural] de un concepto.
+    La [definición estructural] no contiene significado sino una ontología que describe "la naturaleza particular" (estructural) de una entidad.
+  * El núcleo es resultado del proceso de modelado de una [idea], lo cual consiste en describir la [idea] con el mayor detalle posible y usar la IA para crear la ontología.
+  * Ya había vislumbrado algo parecido al núcleo en la página 3 de mar-09-dic-2025 mencioné: "La [idea] es una proyección en la que se almacena una [memoria cognitiva] del [modelo de negocio] o contrato que se tenga entre [el sistema] y la [entidad interesada en difundir una idea]". El [núcleo] es la [idea]: el puente entre la [cApp] y el mundo exterior.
+  * El puente entre los planes de negocio que realicé el mes pasado, en combinación con las nuevas definiciones y observaciones hacen que comprender al núcleo sea una tarea de mediación, ver, por ejemplo el estudio 7-dic-2025
+
+
+[Página 20]
+
+Ya no es necesario decir una vez más que el [cNode] es la estructura adecuada para llevar a cabo el modelado del [núcleo], y de hecho, no sólo de éste, sino de todas las demás [partes del modelo] (ver mar-06-ene-2026), lo importante aquí es que he creado un objetivo primario de este estudio en el que trato de crear una versión funcional del [Modelo del Sistema]: saber por dónde comenzar:
+El primer paso para crear una [aplicación cognitiva] es llevar a cabo el modelado de la idea, es decir:
+"Crear una proyección estructural deliberada de un proceso cognitivo interno (idea, concepto, diseño, plan), expresada como un objeto de grafo que captura identidad, variación permitida y relaciones, con el propósito de transferir forma operativa (no solo contenido) entre humanos y un sistema IA, reduciendo ambigüedad, habilitando integración con otros nodos, y permitiendo repetición, explicación, auditoría y extensión a nuevos dominios."
+El cómo llevar a cabo dicha proyección estructural es justo lo que me encuentro trabajando.
+
+[Página 21]
+
+(continuación de discusión en página 18)
+
+Todo lo que pueda ser modelado usando cNodes requiere de invariantes; lo pienso un poco, no es muy extraño que así sea. Cuando una idea llega a mi mente, ésta no proviene del vacío, sino que se sostiene de otras ideas. Las invariantes son las ideas secundarias que sostienen a la idea primaria.
+Hasta este momento, el cNode considera como invariantes ideas "simples" que se sostienen en el nivel lingüístico, es decir: que pueden ser descritas por palabras, por ejemplo, {path, content} en un artefacto. Al avanzar en el desarrollo del sistema, mi objetivo es crear conceptos que para sostenerse necesiten otros cNode, i.e.: que sus invariantes sean otros cNodes. Para llevar dicha idea a la práctica será necesario combinar los conceptos cNode y artefacto, pero dicha labor se deja pendiente.
+
+3. Componentes internos
+
+Esta parte va exactamente en la misma línea de  pensamiento que el comentario de arriba: los componentes son ideas secundarias que sostienen una idea primaria. La diferencia que hay con las invariantes es que en casi todos los casos hay componentes que pueden ser modificados e incluso eliminados sin que esto afecte la naturaleza "interna" de la idea. (A pesar del ejemplo que se propone, es necesario considerar cada medio de ejecución; teléfono y personal son núcleos en sí mismos, y aunque ambos se sostienen en el [objetivo: elicitar información], cada uno es diferente. (diagrama, pág. 14))
+En el modelo de la página 14 presento un ejemplo de cómo considero que funcionan las técnicas de elicitación. Se describe una situación simple, por ejemplo: una empresa quiere extraer información de otra y para eso elige dos medios de ejecución para llevar a cabo la elicitación:
+  • Teléfono → Por ejemplo, haciendo llamadas a personas de interés
+  • Personal → Contactando empleados cara a cara
+En ambos casos se tienen condiciones particulares, únicas a cada situación: no es lo mismo una "llamada" que una "plática" en persona.
+
+[Página 22]
+  A pesar de las diferencias, el objetivo primario no puede variar, así que sin importar el [contexto de ejecución], sin importar las diferencias entre un medio y otro, se busca extraer la misma información.
+  Es importante ubicar las partes que componen la situación.
+  Invariantes:
+    - Información buscada, por ejemplo: número de empleados y salario de cada uno.
+    - Técnica de elicitación: aunque el contexto cambie, las técnicas son las mismas (esto es un ejemplo de Dominio de variación).
+  Sobre este punto me imagino (realmente, desconozco cómo funciona la elicitación) que las conversaciones deben seguir algún tipo de pipeline, similar al "patrón funcional de mensaje publicitario" (pág. 17), es decir, una organización puede tener un pipeline definido; puede que cada pipeline tenga slots distintos, pero la naturaleza tipo pipeline persiste.
+  Componentes internos:
+  - Lenguaje: no sólo será distinto en cada contexto, sino que también cambia con cada sujeto (persona).
+  - Intervención: mencionado arriba.
+    Debido a que cada [contexto] requiere una forma de ejecución distinta, cada uno requiere una estructura de intervención diferente (ver lo que dice sobre pipeline y slots más arriba).
+    En el caso de estudio, tanto [teléfono] como [personal] son "variantes"(Se sigue el mismo patrón: las [técnicas de elicitación] se vuelven el núcleo mientras que [teléfono], [personal] son adaptaciones a [contextos] particulares) de las técnicas de elicitación, en las que se han identificado los principios característicos de cada uno: los [contextos] y las cuales responden a las preguntas: ¿Cuáles son los mejores mecanismos para elicitar información por teléfono? ¿cuáles lo son para pláticas en persona?
+  
+[Página 23]
+
+  No se me ocurren otros ejemplos, pero con esto se muestra la idea.
+  Una nota que da el chat:
+  Los componentes deben tener una forma canónica: id, rol, entrada y salida, a si mismo, se debe tener una forma de representar las interacciones entre componentes (aristas que conectan nodos).
+
+4. Procedimientos
+  * Workflow loop → How it is used iteratively... including update and repeat
+  * Orquestadores explícitos → - fases de un proceso, - tipos de interacción
+  Los pipeline mencionados en el punto anterior son un ejemplo de procedimiento de ejecución.
+  Otros procedimientos podrían ser de creación, por ejemplo, para proyectar la [idea] en un [cNode].
+  Hay otros:
+  - Desarrollo de idea: cuando lo que se busca es capturar el camino cognitivo seguido en una discusión.
+  - Transferencia estructural: (que quizás esto es una operación como el hemomorfismo) En casos, por ejemplo: creación de intervenciones
+  No puedo evitar pensar que esta parte se refiere exclusivamente a las operaciones de transferencia, lo cual se adapta a la definición de M-M o a la pág. 5.
+
+
+[Página 24]
+
+Nota intermedia (19-ene-2025)
+En esta nota desarrollaré el ejemplo de elicitación estudiado en la página 14 (y mencionado en pág. 21-22). La intención de crear este ejemplo es mejorar la definición del cNode, la cual tiene muchos "huecos" conceptuales que me gustaría "llenar" con ejemplos.
+La respuesta comienza dando algunas definiciones:
+• [Cognitive node]: entidad conceptual definida para proyectar estructura y puede integrarse a un grafo mediante relaciones explícitas (aristas), conservando identidad (contexto/identidad), invariantes (núcleo) y componentes internos (partes modificables).
+• [Ontología]: sistema de categorías y relaciones que define qué cosas existen en un dominio y cómo se conectan; en el diagrama de la página 14 aparece como la necesidad de conectar "técnicas" con "objetivo" mediante una estructura conceptual coherente.
+
+1. La estructura conceptual del ejemplo
+
+Se describe un patrón de separación entre identidad y variación.
+
+1.1. [Núcleo invariante] (lo que define la identidad de la operación)
+
+El núcleo no es "teléfono" ni "en persona". El núcleo es:
+  1. Objetivo: elicitar información (extraer información que no se tiene)
+  2. Requerimientos: condiciones que deben mantenerse para que el proceso siga siendo el mismo proceso
+  3. Técnicas de elicitación: procedimientos o métodos que permiten convertir el objetivo en una intervención concreta
+
+Si el objetivo es elicitar información, la estructura de la conversación debe planearse por adelantado; la conversación concreta es una "manifestación" de la estructura.
+
+1.2. Dominio de variación: "contextos"
+
+Con esto se distinguen dos clases de contexto para notar que cambiar el canal de distribución es distinto a que cambie el objetivo:
+
+- Contexto de distribución: el medio o canal por el cual se decide ejecutar el objetivo (teléfono, personal). Variantes del mismo patrón, no el patrón en sí.
+
+- Contextos de ejecución: cada encuentro real con cada persona. No sólo cambia el canal, también cambia el sujeto, disposición, el entorno, el lenguaje, la dinámica de poder, el grado de confianza,  el tiempo disponible  y la posibilidad de verificación.
+
+[Página 26]
+
+Se propone una jerarquía de variación:
+  - Variación a nivel macro (distribución): teléfono, presencial
+  - Variación a nivel micro (ejecución): sujetos + contexto de sujeto
+
+2. Elicitación como cNode
+
+2.1 Razones
+  • Tiene identidad clara: proceso de obtención de información inter-organizacional.
+  • Tiene invariantes: objetivo, información buscada, técnica.
+  • Tiene componentes internos: medios, intervención, lenguaje, pipeline, guiones.
+  • Produce artefactos: guiones, cuestionarios, formatos de registro, bitácoras de llamada, matrices de preguntas y respuestas.
+Y además se conecta con otros nodos: "teléfono" puede ser un nodo con invariantes propios; "entrevista presencial" otro; "técnicas" otro; "información buscada" otro.
+
+2.2 Invariantes como ideas secundarias que sostienen la idea primaria
+  - La idea primaria se sostiene en otras ideas, secundarias, que sostienen la idea primaria las cuales no pueden ser removidas sin destruir la identidad del concepto:
+    * Si se elimina el objetivo ("elicitar información"), ya no se está describiendo el mismo sistema.
+    * Si se elimina información buscada, queda "hablar con personas", no una elicitación.
+    * Si se elimina la técnica (método), queda intención sin mecanismo.
+
+2.3 Componentes internos como sostenes reemplazables
+Existen componentes internos que sostienen la operación pero son recombinables sin romper identidad:
+  - El medio (teléfono/presencial) puede cambiar sin destruir el objetivo.
+  - El lenguaje cambia por sujeto y contexto sin destruir el objetivo.
+  - La intervención (órden, guión, ritmo, turnos, silencios, confirmaciones) se adapta, el sistema sigue siendo el mismo tipo de sistema mientras se respeten invariantes.
+Esto es la separación "núcleo vs adaptadores" que permite que un cNode sea integrable: el nodo mantiene invariantes, los adaptadores absorben la variación del entorno.
+
+
+[Página 27]
+
+3. Mejoras conceptuales
+
+La mejora principal consiste en hacer explícitos ciertos nodos que se encuentran implícitos, porque eso estabiliza el modelo y lo vuelve reutilizable.
+
+3.1 Nodo explícito para "Información buscada"
+
+Por ejemplo: número de empleados y salario. Eso debe aparecer también en el diagrama, porque:
+  • Permite distinguir "técnica" de "contenido"
+  • Permite que un mismo sistema reutilice técnicas para distintas informaciones
+  • Permite que el objetivo "elicitar" se materialice en criterios de éxito (se obtuvo o no se obtuvo tal información)
+
+3.2 Separar "técnica" de "intervención"
+Técnica permanece, intervención se adapta.
+  • Técnica de elicitación: método abstracto (por ejemplo: preguntas abiertas, preguntas de verificación, triangulación, reconstrucción cronológica, contraste de consistencia)
+  • Intervención: instancia concreta adaptada al medio y sujeto (guión de llamada, estructura de entrevista presencial, secuencia de turnos)
+
+Si esta separación no se dibuja, aparece un riesgo: que el medio (teléfono, por ejemplo) termine absorbiendo la identidad, cuando en realidad es un componente modificable.
+
+3.3 "Restricciones del medio" como fuente formal de variación
+
+"Teléfono" y "presencial" no sólo son distintos: tienen restricciones estructurales distintas.
+  • Teléfono: ausencia de señales visuales, mayor ambigüedad, más interrupciones, necesidad de verificación verbal, fatiga auditiva.
+  • Presencial: señales no verbales, control del espacio, mayor costo por encuentro, posibilidad de material de apoyo, presión social diferente.
+
+3.4 Validación como puente entre objetivo y evidencia
+
+En una elicitación real, "obtener respuesta" no equivale a "obtener información correcta". Para que el ejemplo sea robusto, conviene incluir:
+
+• Verificación/corroboración (componente interno): re-preguntas, confirmaciones, consistencia interna, comparación con documentos o cualquier forma de contraste.
+
+
+[Página 28]
+
+[Diagrama mejorado]
+
+GRAFOS = [
+  {
+    nombre: "diagrama_mejorado_elicitacion",
+    entidades: [],
+    nodos: [
+      {
+        identificador: "nucleo_elicitacion",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "intervencion_plantilla",
+        descripcion: "[pipeline +  slots], estructura ejecutable "
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "contextos_de_distribucion_canal_medio_fuente_de_restricciones",
+        descripcion: "Canal/medio; fuente de restricciones",
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "telefono",
+        restricciones: <[restricciones]>,
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "presencial",
+        restricciones: <[restricciones]>,
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "guion_artefacto_llamada",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "guion_artefacto_entrevista",
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "contexto_de_ejecucion_telefono",
+        instancias: [sujeto, contexto de sujeto (entorno, lenguaje, dinámica)],
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "contexto_de_ejecucion_presencial",
+        instancias: [sujeto, contexto de sujeto (entorno, lenguaje, dinámica)],
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "sujeto_contexto_telefono_1",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "sujeto_contexto_telefono_2",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "sujeto_contexto_presencial_1",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "sujeto_contexto_presencial_2",
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "registro_de_evidencia_artefacto",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "verificacion_componente_interno",
+        entidades_contenedoras: []
+      },
+
+      {
+        identificador: "i1_objetivo_elicitar_informacion",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "i2_informacion_buscada",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "i3_tecnica_de_elicitacion_metodos",
+        entidades_contenedoras: []
+      },
+      {
+        identificador: "i4_requerimientos_condiciones_restricciones",
+        entidades_contenedoras: []
+      }
+    ],
+    aristas: [
+      { origen: "i1_objetivo_elicitar_informacion", destino: "nucleo_elicitacion" },
+      { origen: "i2_informacion_buscada", destino: "nucleo_elicitacion" },
+      { origen: "i3_tecnica_de_elicitacion", destino: "nucleo_elicitacion" },
+      { origen: "i4_requerimientos_condiciones_restricciones", destino: "nucleo_elicitacion" },
+
+      { origen: "nucleo_elicitacion", destino: "intervencion_plantilla", type: "Se implementa mediante" },
+      { origen: "intervencion_plantilla", destino: "contextos_de_distribucion_canal_medio_fuente_de_restricciones", type: "Se adapta según" },
+
+      { origen: "contextos_de_distribucion_canal_medio_fuente_de_restricciones", destino: "telefono", type: "Genera intervención específica" },
+      { origen: "contextos_de_distribucion_canal_medio_fuente_de_restricciones", destino: "presencial", type: "Genera intervención específica" },
+
+      { origen: "telefono", destino: "guion_artefacto_llamada" },
+      { origen: "presencial", destino: "guion_artefacto_entrevista" },
+
+      { origen: "guion_artefacto_llamada", destino: "contexto_de_ejecucion_telefono" },
+      { origen: "guion_artefacto_entrevista", destino: "contexto_de_ejecucion_presencial" },
+
+      { origen: "contexto_de_ejecucion_telefono", destino: "sujeto_contexto_telefono_1" },
+      { origen: "contexto_de_ejecucion_telefono", destino: "sujeto_contexto_telefono_2" },
+
+      { origen: "contexto_de_ejecucion_presencial", destino: "sujeto_contexto_presencial_1" },
+      { origen: "contexto_de_ejecucion_presencial", destino: "sujeto_contexto_presencial_2" },
+
+      { origen: "sujeto_contexto_telefono_1", destino: "registro_de_evidencia_artefacto", type: "produce evidencia" },
+      { origen: "sujeto_contexto_telefono_2", destino: "registro_de_evidencia_artefacto", type: "produce evidencia" },
+      { origen: "sujeto_contexto_presencial_1", destino: "registro_de_evidencia_artefacto", type: "produce evidencia" },
+      { origen: "sujeto_contexto_presencial_2", destino: "registro_de_evidencia_artefacto", type: "produce evidencia" },
+
+      { origen: "registro_de_evidencia_artefacto", destino: "verificacion_componente_interno", type: "permite" }
+    ]
+  }
+]
+
+
+[Página 29]
+Estructuralmente, este ejemplo es similar a otros (venta de seguros, esducación, nichos, etc.)
+con ayuda del chat he desarrollado los ejemplos
+
+[Página 30]
+3. Implementación
+La discusión de la sección "2. Principios del diseño" fue muy reveladora puesto que mostró que el concepto de cNode es mucho más profundo de lo que podría parecer a primera vista. Decidí concluir con esa sección puesto que, a pesar que no he llegado a una definición concluyente del cNode "en papel", en la computadora ya he creado una versión útil, aunque aún se encuentra en revisión.
+Necesito comenzar con esta sección debido a que estoy siendo rebasado por toda la información en que estoy teniendo como resultado de las discusiones con el chat, y preciso de un análisis que dé orden al caudal; esa es la tarea.
+¿Qué cambió con respecto a la idea original?
+Fue más de una cosa, así que responderé en forma de lista:
+1→ He ampliado el concepto referente a [lo que se proyecta en forma de cNode]. Veamos:
+   El origen del concepto del cNode es que éste es la proyección de algún [proceso mental] en forma de documento, el cual permite almacenarlo en forma de ontología [cNode].
+   Hasta antes de la discusión de la sección anterior no le había dado la importancia apropiada al concepto de [proceso mental], pero hoy sé que no sólo es importante, sino que es el pilar del trabajo. Tomo la siguiente definición del documento estructuras-cognitivas.txt:
+   "A [cognitive structure] (CS) is an internal, identity-carrying cognitive form that organizes information and/or action such that it can guide perception, reasoning, decision-making, learning, or execution. A CS is not defined by a particular example but by:(1) an explicit identity boundary (invariant + domain of variation), (2) an operational role (how it is used to produce outcomes), and (3) a projection-readiness property: it can be externalized as a portable ontology package (cNode) without requiring hidden personal context"
+   En otras palabras, las estructuras cognitivas es todo aquello que puede ser pensado. La idea detrás del cNode es transferir dichas [estructuras cognitivas] simplificadas con el nombre mNode a un cNode.
+
+
+[Página 31]
+
+2→ Algo que está íntimamente relacionado con lo anterior es que ahora poseo la idea que desembocará en un formalismo matemático.
+   Una función es una operación que lleva los elementos de un dominio a un punto en el codominio (esto necesita mayor formalismo), puede verse como:
+   T : V ↦ W,    (1)
+   donde cada elemento puede verse como:
+   t(v) = w      (2)
+   (Lo siguiente puede que no esté bien formulado, pero lo importante es el fondo, no la forma)
+   Si V y W son espacios lineales, entonces se sabe que sus elementos pueden ser representados como una combinación de los elementos de la base:
+   v = a1v1 + a2v2 + ... = Σ(ai·vi)
+   w = Σ(bi·wi)
+   Nota: esto ya se parece a la teoría de sistemas
+   Anteriormente (punto 1) mencioné que por definición, un cNode es la proyección de un mNode (nodo mental), es decir:
+   t(mNode) = cNode
+   T : [cognición] → [sistema IA]      (4)
+   La única pregunta que queda por responder es ¿cómo se representan los elementos de [cognición] y [sistema IA] en la forma dada por (3)? La respuesta proviene del estudio estructuras-cognitivas.txt: 
+   (cognitive node es a cNode lo que x es a mNode)
+   mNode = a1[Schema] + a2[Mental-model] + a3[heuristic] + a4[emotion] + ...
+   cNode = b1[cognitive-node1] + b2[cognitive-node2] + ...
+   Esto es exactamente lo mismo que veía con la teoría de sistemas.
+   La representación es más compleja, puesto que son grafos (¿o no?), pero este era el punto al que quería llegar.
+
+
+[Página 32]
+
+3→ Relacionando con el punto 2, si se aplica una visión estructural entonces no sólo es importante enfocar la atención en los mNode (dominio) cNode (codominio), sino también en las transformaciones "T" (vistas como manifestaciones del "acto de transformar")
+   Aquí se manifiesta algo interesante porque es en este punto donde se pueden incluir cosas como:
+   * Modelo de IA: no es lo mismo GPT-5 que GPT-3
+   * Metodología de proyección:
+     - cApps con la programación de "rutinas de cuestionarios"
+     - “manual” (es decir, partiendo de cero)
+   Al aprender sobre las transformaciones será más fácil proyectar estructura de una aplicación a otra
+Estos cambios no modifican la idea original, sino que la enriquecen o que permiten ampliar el modelo
+

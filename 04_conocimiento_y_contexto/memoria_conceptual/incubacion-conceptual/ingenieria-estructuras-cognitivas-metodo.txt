@@ -1,0 +1,410 @@
+INGENIERÍA DE ESTRUCTURAS COGNITIVAS (IEC)
+Método de trabajo para convertir intenciones en unidades estructurales transferibles, componerlas en grafos y producir adaptaciones contextuales
+Versión: 1.0 (texto autosuficiente)
+
+──────────────────────────────────────────────────────────────────────────────
+0) Propósito y alcance
+
+Este documento describe un método de trabajo denominado Ingeniería de Estructuras Cognitivas (IEC). El método está diseñado para:
+
+1) Convertir una intención (petición, objetivo, duda, requerimiento) en una unidad estructurada, verificable y transferible.
+2) Componer esas unidades en un sistema mayor (un grafo) que puede ser:
+   - Consultado por receptores diferentes (humanos y sistemas de inteligencia artificial).
+   - Proyectado hacia múltiples destinos (por ejemplo: visualizaciones, especificaciones, decisiones de diseño, planes).
+   - Usado como base para producir “parches” coherentes (cambios controlados) en grafos, especificaciones o repositorios de código.
+
+El método se describe como una práctica normativa: no es solamente una descripción; establece criterios mínimos que determinan cuándo una unidad
+conceptual está bien construida, cuándo un ensamblaje es válido, y cómo se evalúa la corrección de una proyección o de un parche.
+
+El documento también separa dos estratos complementarios que suelen confundirse:
+
+Estrato de dominio: principios de diseño y conocimiento propio del dominio objetivo (por ejemplo, arquitectura de software, diseño de un plan
+de entrenamiento físico, diseño curricular, etc.). Este estrato determina “qué tipos de piezas existen” en ese dominio y cuáles son sus
+restricciones internas.
+
+Estrato metodológico: principios y metodología de una Fábrica de Adaptaciones Contextuales para arquitecturas (Factory of Contextual
+Adaptations for Architectures, FCA). Este estrato determina “cómo se usa” un catálogo de piezas y cómo se transforma una intención en una
+solución contextual sin perder identidad.
+
+──────────────────────────────────────────────────────────────────────────────
+1) Marco normativo de construcción conceptual (regla general del método)
+
+La IEC exige que toda unidad conceptual relevante (y todo elemento que se incorpore al grafo como nodo) sea construida de manera explícita,
+conforme a un marco normativo mínimo. Ese marco establece que una unidad conceptual es correcta si responde, de forma verificable, a los
+siguientes componentes:
+
+1. Naturaleza del fenómeno o función
+   - Qué es lo que la unidad modela o delimita (fenómeno, operación o función).
+
+2. Función principal en el sistema teórico
+   - Para qué existe la unidad dentro del sistema: qué aporta y qué habilita.
+
+3. Unidad conceptual mínima e identidad
+   - Qué rasgos son indispensables para que la unidad sea “esa” unidad y no otra.
+   - Qué casos incluye y cuáles excluye.
+
+4. Independencia parcial y dependencia declarada
+   - Qué partes son autosuficientes.
+   - Qué dependencias existen y de qué unidades depende la interpretación correcta.
+
+5. Rol operacional o contribución al funcionamiento del conjunto
+   - Qué operación realiza (transformar, validar, seleccionar, proyectar, ensamblar, etc.).
+   - En qué condiciones ese operar se vuelve dominante.
+
+6. Relación con otras unidades y compatibilidad
+   - Con qué unidades se conecta y bajo qué reglas.
+   - Qué incompatibilidades o colisiones semánticas debe evitar.
+
+7. Carácter normativo y criterios de aplicación correcta
+   - Qué condiciones permiten afirmar que la unidad está bien aplicada.
+   - Qué pruebas (discriminantes) permiten detectar mal uso.
+
+En la IEC, estos componentes no son “secciones opcionales”; son los requisitos mínimos que convierten un concepto en una pieza operable dentro
+de un grafo consultable.
+
+──────────────────────────────────────────────────────────────────────────────
+2) Unidad principal: Ingeniería de Estructuras Cognitivas (IEC)
+
+2.1 Naturaleza del fenómeno o función
+La IEC modela un fenómeno operativo: el paso desde una intención expresada (generalmente ambigua, incompleta o dependiente de intuición) hacia
+una representación estructural explícita que puede ser comprendida, verificada y reutilizada.
+
+2.2 Función principal en el sistema
+La IEC existe para producir “estructura transferible”:
+- Transferible significa: puede ser interpretada por receptores distintos sin depender de contexto implícito.
+- Estructura significa: identidad + borde + relaciones + criterios de pertenencia y de validez.
+
+Esta estructura transferible es el insumo base para:
+- Composición: integrar unidades en un sistema (grafo) con coherencia.
+- Proyección: transformar el sistema para un destino particular (visualización, prompt, documento, implementación).
+- Decisión: seleccionar alternativas de diseño con criterios explícitos.
+- Parche: modificar un sistema existente sin romper sus invariantes.
+
+2.3 Identidad mínima (qué es IEC y qué no es)
+La IEC es:
+- Un método de compilación estructural: transforma entradas informales en unidades formales.
+- Un método de composición: integra unidades con reglas de borde.
+- Un método de validación: exige criterios para afirmar corrección.
+
+La IEC no es:
+- Un catálogo específico de patrones de un dominio.
+- Un conjunto de consejos informales de diseño.
+- Una sustitución automática del juicio; es un marco para hacerlo verificable.
+
+2.4 Independencia y dependencias declaradas
+La IEC puede aplicarse en dominios diferentes (software, entrenamiento físico, enseñanza, análisis estratégico), pero depende de:
+- Un catálogo de unidades del dominio (o la capacidad de construirlo).
+- Un conjunto de criterios de rol operativo y de pertenencia (familias).
+- Un sistema de persistencia de artefactos (fotografías cognitivas) que conserve lo decidido.
+
+2.5 Rol operacional dominante
+El rol dominante de la IEC es: convertir “peticiones” en “unidades con borde” y “ensamblajes verificables”. Para ello, opera mediante un ciclo
+de etapas (sección 4).
+
+2.6 Relaciones y compatibilidad
+La IEC se conecta con:
+- Unidades de catálogo (patrones, algoritmos, plantillas, componentes).
+- Unidades de contexto (destino de proyección, restricciones, lenguaje, entorno).
+- Unidades de validación (criterios, discriminantes, pruebas).
+
+Es incompatible con:
+- Conceptos sin identidad mínima (“cosas” no delimitadas).
+- Soluciones que dependen de intuiciones privadas sin explicitación.
+- Ensamblajes que crecen sin declarar invariantes o bordes.
+
+2.7 Carácter normativo (criterios de aplicación correcta)
+Una aplicación correcta de IEC produce:
+- Una unidad transferible que declara identidad, invariantes, dominio de variación, entradas, salidas, bordes y criterios de validación.
+- Un ensamblaje (grafo o subgrafo) donde las conexiones respetan las reglas declaradas.
+- Evidencia persistida (artefacto) de lo decidido y de por qué se decidió.
+
+──────────────────────────────────────────────────────────────────────────────
+3) Estratos: dominio y metodología (separación para evitar confusiones)
+
+3.1 Estrato de dominio (principios de diseño del dominio objetivo)
+Este estrato describe el “universo de piezas” de un dominio particular. En arquitectura de software, por ejemplo, incluye:
+- Patrones de diseño (design patterns): soluciones típicas a problemas recurrentes de diseño de software.
+- Patrones de arquitectura: formas recurrentes de organizar módulos y dependencias.
+- Patrones de organización de piezas: route, controller, service, repository, adapter, validator, pipeline stage, projection.
+- Algoritmos: secuencias de pasos con invariantes y dominio de variación.
+- Convenciones y restricciones del entorno (por ejemplo: dependencias permitidas, estilo de integración, límites operativos).
+
+La función del estrato de dominio es definir “qué piezas existen” y “qué significa usarlas bien” en ese dominio.
+
+3.2 Estrato metodológico (Fábrica de Adaptaciones Contextuales para arquitecturas, FCA)
+Este estrato describe cómo convertir una intención en una arquitectura contextual usando un catálogo de piezas del dominio, sin que la solución
+pierda identidad. Sus componentes clave son:
+
+- Núcleo: una formulación estable que no debe cambiar entre contextos (objetivo, invariantes, criterios).
+- Invariantes: condiciones necesarias para que la solución siga siendo “la misma solución” en esencia.
+- Dominio de variación: aspectos que pueden variar para adaptarse al contexto sin romper la identidad.
+- Contexto: condiciones externas (destino, restricciones, usuario o receptor, entorno de ejecución, lenguaje, etc.).
+- Proyección: transformación del modelo canónico a un destino concreto.
+- Ensamblaje: composición de subgrafos o piezas en una arquitectura total.
+- Validación: comprobación de que la adaptación sigue siendo miembro válido de la familia.
+
+La FCA es reutilizable entre dominios porque su rol no es “resolver software” o “resolver entrenamiento”, sino “convertir intenciones en
+adaptaciones contextuales verificables”.
+
+3.3 Regla de separación práctica
+Para evitar mezclar estratos:
+- Si una afirmación describe “qué blueprint técnico usar” (por ejemplo: Adapter, Repository, Strategy), pertenece al estrato de dominio.
+- Si una afirmación describe “cómo seleccionar, instanciar, ensamblar y validar un blueprint en un contexto”, pertenece al estrato metodológico.
+- Si una afirmación describe “cómo expresar la intención como unidad transferible”, pertenece al núcleo de la IEC (y es transversal).
+
+──────────────────────────────────────────────────────────────────────────────
+4) Ciclo de compilación estructural: de intención a unidad transferible (etapas)
+
+La IEC opera mediante un ciclo. Cada etapa tiene entrada, salida, invariantes y criterios de validez. La descripción es normativa: una etapa no
+se considera completada si no produce su salida mínima verificable.
+
+Etapa 1 — Ingesta y recorte del fenómeno
+Entrada:
+- Intención expresada (texto, conversación, requerimiento).
+Salida:
+- Recorte explícito: qué se busca y qué no se busca.
+Invariantes:
+- Debe existir una formulación de “fin” como transformación (no solamente como tema).
+Criterios:
+- Si el recorte todavía admite interpretaciones incompatibles, la etapa no está completa.
+
+Etapa 2 — Normalización estructural (identidad mínima de lo pedido)
+Entrada:
+- Recorte.
+Salida:
+- Identidad mínima: nombre operativo, casos incluidos/excluidos, alcance.
+Invariantes:
+- El resultado debe permitir distinguir el fenómeno de fenómenos cercanos.
+Criterios:
+- Deben existir al menos dos discriminantes (pruebas) que detecten pertenencia.
+
+Etapa 3 — Identificación del Rol Operativo dominante
+Entrada:
+- Identidad mínima.
+Salida:
+- Rol operativo: qué operación domina (por ejemplo: transformar formato, validar consistencia, seleccionar miembro de catálogo, ensamblar).
+Invariantes:
+- El rol no se define por tema, sino por función.
+Criterios:
+- El rol debe poder describirse como “cómo opera” algo sobre X, independientemente del dominio.
+
+Etapa 4 — Selección de familia y unidad del catálogo
+Entrada:
+- Rol operativo + contexto relevante.
+Salida:
+- Familia candidata (conjunto de unidades que comparten rol) y miembro de catálogo propuesto.
+Invariantes:
+- La selección debe justificarse por invariantes y dominio de variación de la unidad.
+Criterios:
+- Debe existir una explicación verificable de por qué el miembro propuesto pertenece a la familia adecuada.
+
+Etapa 5 — Ensamblaje (composición en sistema)
+Entrada:
+- Miembro de catálogo seleccionado + especificación de integración.
+Salida:
+- Subgrafo integrado: nodos internos, bordes, dependencias permitidas, contrato de entrada/salida.
+Invariantes:
+- El ensamblaje debe declarar fronteras (interfaces) y dependencias explícitas.
+Criterios:
+- Se pueden enumerar las aristas frontera y justificar cada una.
+
+Etapa 6 — Validación por convergencia
+Entrada:
+- Ensamblaje.
+Salida:
+- Evidencia de validez: pruebas, chequeos, consistencia con invariantes.
+Invariantes:
+- La validación debe comprobar identidad y borde, no solamente funcionamiento superficial.
+Criterios:
+- Si un receptor distinto no puede verificar la coherencia con la información declarada, la validación no es suficiente.
+
+Etapa 7 — Persistencia como artefacto (fotografía cognitiva)
+Entrada:
+- Unidad validada y ensamblaje.
+Salida:
+- Artefacto persistido: una representación autocontenida de la unidad, su contexto, su selección y su integración.
+Invariantes:
+- El artefacto debe ser consultable sin depender de conversaciones previas.
+Criterios:
+- El artefacto conserva trazabilidad: qué se decidió, con qué criterios, y qué se excluyó.
+
+Observación estructural: este ciclo es fractal. Puede aplicarse al diseño de un sistema completo, al diseño de un módulo, o al diseño del
+propio método (meta-diseño). La diferencia es el catálogo consultado y el nivel de escala, no la forma del ciclo.
+
+──────────────────────────────────────────────────────────────────────────────
+5) Fractalidad del método (aplicación por escala)
+
+La IEC asume que los mismos principios estructurales aparecen a múltiples escalas:
+
+Escala macro: diseño de un proyecto completo (por ejemplo, “proyectar un grafo a Cytoscape.js” como objetivo global).
+Escala meso: diseño de una parte interna (por ejemplo, “lectura y normalización de archivos” dentro de la arquitectura).
+Escala micro: diseño de una unidad específica (por ejemplo, “parser de un formato”, “validador de invariantes”, “proyección a un destino”).
+
+La fractalidad implica:
+- Los módulos son subgrafos.
+- Las piezas del catálogo pueden ser, a su vez, sistemas compuestos.
+- Una misma familia de rol operativo puede manifestarse en dominios distintos (software y entrenamiento físico) porque el “cómo opera” se conserva,
+  aunque cambie “sobre qué opera”.
+
+Ejemplo de fractalidad (dominio software):
+- Fin macro: proyectar un grafo a una visualización.
+- Subfin meso: convertir archivos crudos en un formato interno canónico.
+- Subfin micro: validar que cada nodo tiene identidad mínima y borde.
+
+Ejemplo de fractalidad (dominio entrenamiento físico):
+- Fin macro: mejorar movilidad.
+- Subfin meso: diseñar un ciclo semanal con progresión.
+- Subfin micro: seleccionar un ejercicio específico y su técnica segura.
+
+En ambos dominios, el ciclo de compilación estructural se mantiene; lo que cambia es el catálogo y los criterios del estrato de dominio.
+
+──────────────────────────────────────────────────────────────────────────────
+6) Catálogo, miembros, familias y taxonomías (nombres precisos)
+
+6.1 Catálogo (Catalog)
+Definición:
+Un catálogo es un conjunto organizado de unidades reutilizables que resuelven problemas recurrentes dentro de un dominio o dentro de la propia
+metodología. Su función es permitir selección basada en criterios explícitos, no en memoria informal.
+
+Identidad mínima del catálogo:
+- Contiene unidades con identidad mínima y con criterios normativos.
+- Está indexado por taxonomías (familias, roles, contextos, escalas).
+- Permite búsqueda y comparación.
+
+6.2 Miembro de catálogo (catalog member)
+Definición:
+Un miembro de catálogo es una unidad operable que puede ser instanciada e integrada en una arquitectura. Puede ser:
+- Un patrón de diseño.
+- Un patrón arquitectónico.
+- Una plantilla de módulo.
+- Un algoritmo formulado con invariantes y dominio de variación.
+- Una cApp (Cognitive Application) especializada para una función (por ejemplo, proyección de intención, búsqueda, validación).
+
+Identidad mínima de un miembro:
+- Invariantes (qué no puede cambiar).
+- Dominio de variación (qué puede cambiar).
+- Entrada y salida (contrato operativo).
+- Borde (dependencias permitidas y prohibidas).
+- Criterios de validación (discriminantes).
+
+6.3 Familia (family) en sentido operativo
+Definición:
+Una familia es un conjunto de unidades que comparten el mismo rol operativo dominante, aunque cambie el dominio temático. La familia clasifica por
+función, no por tema.
+
+Ejemplos de familias operativas:
+- Transformación de representación: cambiar formato sin cambiar significado.
+- Selección por criterios: elegir un miembro de catálogo bajo restricciones.
+- Ensamblaje modular: componer subgrafos con bordes explícitos.
+- Proyección a destino: traducir un modelo canónico a un formato consumible.
+- Validación de invariantes: comprobar pertenencia y coherencia estructural.
+
+6.4 Taxonomías del estrato de dominio (por ejemplo: “creational/structural/behavioral”)
+En diseño de software, existen taxonomías clásicas que agrupan patrones por el tipo de problema técnico que resuelven:
+- Creational patterns (patrones de creación): tratan la creación de objetos y la variación de mecanismos de instanciación.
+- Structural patterns (patrones estructurales): tratan la composición de clases u objetos para formar estructuras mayores.
+- Behavioral patterns (patrones de comportamiento): tratan la asignación de responsabilidades y algoritmos de interacción.
+
+Estas taxonomías pueden considerarse “familias” dentro del estrato de dominio, pero no deben confundirse con familias operativas de la IEC:
+- Las taxonomías de dominio clasifican por tipo de solución técnica dentro de software.
+- Las familias operativas clasifican por tipo de operación metodológica transversal (transformar, seleccionar, validar, proyectar).
+
+──────────────────────────────────────────────────────────────────────────────
+7) cApp y prompt-cApp como piezas del método (relación con el catálogo)
+
+7.1 Definición mínima
+cApp (Cognitive Application: aplicación cognitiva):
+Configuración seleccionada de unidades cognitivas mínimas y relaciones que, al operar como un sistema compuesto, produce un efecto cognitivo
+específico bajo condiciones externas.
+
+prompt-cApp:
+cApp proyectada como prompt, es decir, una cApp cuya interfaz con el agente está mediada por conversación y texto.
+
+7.2 Función en la IEC
+Dentro de la IEC, las cApps pueden ocupar dos papeles:
+
+- cApps de infraestructura metodológica (estrato metodológico):
+  Su función es operar el ciclo (proyección de intención, búsqueda, ensamblaje, validación, persistencia).
+
+- cApps de dominio (estrato de dominio):
+  Su función es aportar unidades específicas del dominio (por ejemplo, “cApp de diseño de lectura de archivos” en software, o “cApp de progresión
+  de carga” en entrenamiento).
+
+7.3 “Habilidad para interactuar con un agente” (interfaceable units)
+Una cApp es considerada operable por un agente cuando su definición incluye, como mínimo:
+1) Identidad.
+2) Rol operativo dominante.
+3) Condiciones externas de activación.
+4) Componentes internos (ensamblaje).
+5) Entrada y salida.
+6) Invariantes del sistema (a nivel cApp).
+7) Dominio de variación del sistema.
+8) Validación.
+
+Esta estructura equivale a declarar un contrato interactivo: qué información necesita la cApp, qué produce, cómo se verifica y bajo qué
+condiciones.
+
+──────────────────────────────────────────────────────────────────────────────
+8) Condiciones externas, dominio de variación y criterios de éxito (del método IEC)
+
+8.1 Condiciones externas (trigger conditions)
+La IEC se activa y se vuelve necesaria cuando:
+- La intención produce ambigüedad o desacuerdo entre receptores.
+- Se requiere transferir una solución a destinos distintos (por ejemplo, diseño y luego implementación).
+- Se necesita componer muchas piezas manteniendo coherencia y trazabilidad.
+- Se pretende hacer crecer un sistema sin romper su identidad.
+
+8.2 Dominio de variación (qué puede cambiar sin romper IEC)
+- Dominio temático: software, entrenamiento físico, enseñanza, etc.
+- Destino de proyección: visualización, documento, implementación, prompt.
+- Nivel de escala: micro, meso, macro.
+- Forma de persistencia: archivo de texto, repositorio, base de datos, grafo visual.
+- Lenguaje y herramientas: la metodología no depende de un lenguaje particular, pero exige declarar restricciones.
+
+8.3 Criterios de éxito (success criteria)
+La IEC se considera exitosa cuando:
+- El grafo resultante puede ser consultado por terceros sin contexto implícito.
+- Se pueden producir adaptaciones contextuales repetibles usando el catálogo.
+- Las modificaciones (parches) pueden justificarse por invariantes y bordes, y no solamente por preferencia.
+- Existe evidencia persistida de decisiones y de criterios.
+
+──────────────────────────────────────────────────────────────────────────────
+9) Ejemplos mínimos de uso (para separar estratos y mostrar reusabilidad)
+
+Ejemplo 1 — Dominio software: proyección de grafo y necesidad interna de lectura
+- Fin macro (dominio): proyectar un grafo a una visualización.
+- Necesidad meso (arquitectura interna): leer archivos y normalizarlos a un modelo canónico.
+Aplicación IEC:
+- La necesidad de lectura se trata como intención independiente (micro o meso), se clasifica por rol operativo
+  (transformación de representación + validación), se selecciona un miembro de catálogo (plantilla de ingestion/parsing/validation),
+  se ensambla como subgrafo y se valida.
+Separación de estratos:
+- El blueprint técnico de lectura pertenece al estrato de dominio software.
+- El proceso de convertir la intención “necesito lectura” en unidad transferible y ensamblarla pertenece al estrato metodológico (IEC/FCA).
+
+Ejemplo 2 — Dominio entrenamiento físico: diseño de programa orientado a fin
+- Fin macro (dominio): aumentar movilidad.
+- Piezas de dominio: ejercicios, progresiones, descansos, técnicas.
+Aplicación IEC:
+- La intención se normaliza, se determina rol operativo (selección + ensamblaje + validación de seguridad), se consulta catálogo de dominio
+  (plantillas de progresión), se ensambla un plan como grafo (subgrafos por semana o bloque), se valida por criterios de seguridad y de progreso,
+  se persiste el artefacto.
+Reutilización:
+- Las cApps metodológicas (proyección de intención, búsqueda, validación, persistencia) permanecen; cambia el catálogo de dominio.
+
+Ejemplo 3 — Meta-diseño: diseñar el proceso de diseño (diseñar la IEC)
+- Fin macro: construir un método.
+- Catálogo consultado: teoría base del sistema.
+Aplicación IEC:
+- El método se construye como unidad conceptual conforme al marco normativo, se declara cómo se conecta con las unidades raíz del grafo,
+  se valida por coherencia y capacidad de guiar aplicaciones futuras, y se persiste como artefacto.
+
+──────────────────────────────────────────────────────────────────────────────
+10) Conclusión operativa
+
+La IEC se puede resumir como un principio de ingeniería: la comprensión y el diseño no se tratan como actos implícitos, sino como estructuras
+expresas con identidad, borde, relaciones y criterios. Esa explicitación habilita reusabilidad, trazabilidad, composición y proyección. La
+separación por estratos evita mezclar el conocimiento propio de un dominio (qué piezas existen y cómo funcionan técnicamente) con el método
+transversal (cómo se transforma una intención en una adaptación contextual verificable).
+
+Fin del documento.

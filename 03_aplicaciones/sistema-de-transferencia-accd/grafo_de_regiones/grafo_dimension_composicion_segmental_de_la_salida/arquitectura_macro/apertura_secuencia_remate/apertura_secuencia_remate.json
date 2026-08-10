@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate",
+    "label": "apertura_secuencia_remate",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate",
+    "summary": "Valor apertura_secuencia_remate declarado para el campo arquitectura_macro.",
+    "metadata": {
+      "value_of": "arquitectura_macro",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual",
+    "label": "dimension_dinamica_atencional_y_procesual",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual",
+    "summary": "Dimensión que describe la relación atencional dominante del receptor y la forma procesual del recorrido.",
+    "section": "7",
+    "value_type": "Dimensión",
+    "cardinality": "Contenedor conceptual de campos"
+  }
+}

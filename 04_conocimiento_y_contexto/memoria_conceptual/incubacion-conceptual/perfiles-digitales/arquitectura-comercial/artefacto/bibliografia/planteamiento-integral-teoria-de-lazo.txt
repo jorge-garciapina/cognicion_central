@@ -1,0 +1,440 @@
+TEORÍA DE LAZO (Loop Theory) — Planteamiento integral y descripción operativa
+Documento destinado a consulta
+
+Versión: 1.0
+Idioma: Español (con definiciones auxiliares en inglés cuando aparecen siglas)
+Naturaleza: Documento conceptual normado y portable
+
+================================================================================
+0) Tipo de salida, propósito y criterio general de calidad
+--------------------------------------------------------------------------------
+Producto:
+  Documento conceptual de consulta.
+
+Propósito de uso:
+  Fijar la identidad conceptual de “Teoría de Lazo” como unidad transferible para analizar y diseñar
+  sistemas tangibles e intangibles, incluyendo sistemas conversacionales y estructuras de grafo.
+
+Criterio general de calidad:
+  - Autocontención: comprensible sin contexto externo.
+  - Autosuficiencia: utilizable como referencia autónoma con definiciones operativas, invariantes,
+    dominios de variación, relaciones y criterios de aplicación.
+  - Neutralidad temporal: sin deícticos ni dependencia del momento de escritura.
+  - Portabilidad: reubicable entre contextos sin pérdida de identidad conceptual.
+  - Normatividad: cada unidad conceptual debe preservar identidad mínima, coherencia interna,
+    transferibilidad e integrabilidad en estructuras mayores.
+
+================================================================================
+1) Definición central (núcleo)
+--------------------------------------------------------------------------------
+Definición operativa:
+  Teoría de Lazo (Loop Theory: a theory of closed-loop transformation) es un marco para describir y
+  diseñar sistemas cuya dinámica esencial se organiza como un acoplamiento recíproco entre:
+
+    (A) un eje ontológico (forma, estado o configuración del sistema), y
+    (B) un eje de ejecución (recorrido, operación o secuencia de transformaciones),
+
+  de tal modo que:
+    1) el estado condiciona qué operaciones son posibles, típicas o permitidas, y
+    2) las operaciones reconfiguran el estado,
+
+  bajo un criterio explícito de cierre: una regla por la cual el sistema retorna a un estado equivalente
+  (equivalencia definida) o produce una actualización durable que gobierna ejecuciones futuras.
+
+Delimitación:
+  “Lazo” no significa repetición superficial. “Lazo” significa co-determinación estado–operación y
+  existencia de un cierre decidible (o la capacidad de diagnosticar ausencia de cierre).
+
+================================================================================
+2) Alcance: a qué sistemas aplica
+--------------------------------------------------------------------------------
+La teoría aplica a cualquier entidad (tangible o intangible) que cumpla simultáneamente:
+
+  A1) Frontera dentro/fuera:
+      Existe una distinción operativa entre lo que pertenece al sistema y lo que pertenece al campo.
+
+  A2) Estado interno:
+      Existen variables internas que pueden cambiar de manera relativamente durable.
+
+  A3) Ejecución recurrente:
+      Existe una secuencia de interacciones u operaciones (no un evento aislado).
+
+  A4) Cierre:
+      Existe un mecanismo que convierte ejecución en actualización del estado y que condiciona ejecuciones futuras.
+
+La teoría no exige tiempo físico como parámetro. El eje de ejecución puede ser tiempo, turnos, pasos,
+eventos discretos, iteraciones, transacciones u otros ordenadores del cambio.
+
+================================================================================
+3) Primitivos (vocabulario operativo mínimo)
+--------------------------------------------------------------------------------
+La teoría se sostiene en primitivas explícitas. Estas primitivas no son metáforas; son funciones
+operativas que deben poder identificarse en cualquier dominio.
+
+3.1 Entidad o sistema (interior)
+  Unidad que conserva identidad operacional: sostiene un estado distinguible y una frontera.
+
+3.2 Campo de manifestación (exterior)
+  Conjunto de restricciones, oportunidades, recursos, amenazas, consecuencias y estructura causal
+  relevante con la que la entidad interactúa. No equivale a “todo el mundo”; equivale al exterior
+  que acopla con la frontera.
+
+3.3 Frontera (membrana)
+  Regla que separa interior y exterior, y define canales de entrada (señales) y salida (acciones).
+
+3.4 Ontología operativa (Operational Ontology: internal space of possibilities)
+  Catálogo de lo posible para la entidad, expresado como:
+    - Variables internas (estado).
+    - Operadores internos (transformaciones posibles).
+    - Restricciones internas (costos, límites, incompatibilidades).
+
+3.5 Ejecución (trayectoria)
+  Historia ordenada de interacciones y operaciones efectivamente realizadas.
+
+3.6 Señal
+  Porción del exterior que atraviesa la frontera como dato para el interior. La señal siempre es
+  una selección: la teoría exige identificar qué se sensa y qué queda ciego.
+
+3.7 Evaluación (criterio)
+  Regla que asigna valor, costo o pertinencia a señales y resultados. Toda evaluación introduce
+  dirección; sin dirección no existe criterio de actualización.
+
+3.8 Actuación o actualización
+  Acto de cambio interno relativamente durable: incrementos, reasignaciones, adquisición de recursos
+  internos, desbloqueo de operadores, o cambio de régimen.
+
+3.9 Memoria (Memory: persistence of state)
+  Mecanismo por el cual el sistema conserva estado:
+    - Memoria de corto plazo (estado actual).
+    - Memoria de largo plazo (configuración consolidada, hábitos, arquitectura).
+
+3.10 Cierre (Closure: loop completion criterion)
+  Condición por la cual la actualización interna modifica la futura ejecución y/o el futuro sensado,
+  cerrando el circuito.
+
+================================================================================
+4) Estructura mínima: molde 3 + 1 (interior/exterior + cierre)
+--------------------------------------------------------------------------------
+El molde 3 + 1 (Three plus One: internal triad plus external field) fija una organización robusta:
+
+(+1) Campo de manifestación:
+     Exterior con estructura propia (restricciones, oportunidades, consecuencias).
+
+(1) Ontología operativa:
+     Estado interno + catálogo de operadores + restricciones internas.
+
+(2) Ejecución:
+     Recorrido efectivo de eventos y operaciones.
+
+(3) Cierre:
+     Mecanismo por el cual ejecución actualiza ontología y ontología reconfigura ejecución.
+
+Ventaja normativa:
+  El molde obliga a separar contenido (qué ocurre) de estructura (cómo se articula), y evita
+  definiciones circulares del tipo “se desarrolla porque crece”.
+
+================================================================================
+5) Invariantes de la teoría (condiciones de identidad mínima)
+--------------------------------------------------------------------------------
+Estos invariantes determinan pertenencia a Teoría de Lazo. Si alguno falla, el análisis no es Teoría de Lazo.
+
+I1 — Dualidad explícita:
+  Debe existir separación clara entre eje ontológico (estado) y eje de ejecución (recorrido).
+  Un estado sin ejecución es estático; una ejecución sin estado es secuencia sin gobernanza.
+
+I2 — Co-determinación bidireccional:
+  Debe existir influencia en ambos sentidos:
+    - Estado → Operación (condicionamiento).
+    - Operación → Estado (actualización).
+
+I3 — Cierre decidible:
+  Debe existir un criterio explícito para declarar cierre o ausencia de cierre.
+
+I4 — Identidad por estructura, no por etiqueta:
+  La pertenencia se decide por componentes verificables (ejes, acoplamiento, cierre),
+  no por uso de palabras (“feedback”, “bucle”) sin estructura inspeccionable.
+
+I5 — Declaración del parámetro de ejecución:
+  El eje de ejecución puede ser análogo al tiempo, pero no se identifica necesariamente con tiempo físico.
+  El parámetro de ejecución usado en cada dominio debe declararse.
+
+================================================================================
+6) Dominio de variación (qué puede cambiar sin romper la teoría)
+--------------------------------------------------------------------------------
+V1 — Dominio de aplicación:
+  Biología, software, conversación, acondicionamiento físico, economía, diseño institucional, estrategia.
+
+V2 — Representación:
+  Texto, diagrama, especificación, grafo, o combinación, siempre que las piezas mínimas sean recuperables.
+
+V3 — Dimensionalidad ontológica:
+  El número de dimensiones de estado puede variar. La teoría exige declarar un conjunto mínimo suficiente
+  para el dominio, no un número fijo universal.
+
+V4 — Relación de equivalencia para cierre:
+  El criterio de equivalencia de estado puede variar, pero debe ser explícito, aplicable y auditable.
+
+================================================================================
+7) Mecánica funcional: sensor, evaluador, actuador y memoria
+--------------------------------------------------------------------------------
+El lazo se vuelve utilizable cuando se expresa como ciclo funcional mínimo.
+
+7.1 Sensor (Sensor: what counts as reality)
+  Función que selecciona señales del campo. Define:
+    - resolución (eventos discretos o medidas continuas),
+    - alcance (porción del campo visible),
+    - ruido (confiabilidad de señales).
+
+Invariante:
+  Ningún lazo opera sin sensor, aunque sea rudimentario.
+
+7.2 Evaluador (Evaluator: decision criterion)
+  Función que asigna valor o costo. Define:
+    - qué se optimiza,
+    - qué se penaliza,
+    - qué cuenta como éxito, falla o condición crítica.
+
+Riesgo estructural:
+  Confundir la métrica con el objetivo (métrica como fin).
+
+7.3 Actuador (Actuator: how the interior changes)
+  Función que actualiza el interior:
+    - cambios continuos (incrementos),
+    - cambios discretos (umbral),
+    - cambios estructurales (nuevos operadores o reconfiguración de subestructuras).
+
+Invariante:
+  Sin actuador no existe desarrollo; solo existe registro.
+
+7.4 Memoria
+  Conservación de estado que habilita acumulación y estabilidad.
+
+================================================================================
+8) Cierre: equivalencia de estado y criterios de término
+--------------------------------------------------------------------------------
+Un lazo requiere un criterio explícito de retorno o consolidación.
+
+8.1 Equivalencia de estado
+  No se exige retorno al mismo estado literal.
+  Se exige retorno a un estado equivalente bajo una relación de equivalencia declarada.
+
+Ejemplos abstractos de equivalencia:
+  - preservación de invariantes de identidad,
+  - recuperación de coherencia operativa,
+  - convergencia a una condición de término repetible.
+
+8.2 Cierre mínimo (tres formas)
+  Una ejecución puede considerarse cerrada si produce al menos uno:
+
+  C1) Actualiza restricciones o identidad (actualización del eje ontológico).
+  C2) Materializa una unidad integrable con borde, estructura interna e interfaz.
+  C3) Establece un procedimiento reproducible (ciclo local útil).
+
+Ausencia de cierre (lazo abierto):
+  Interacción sin actualización durable: eventos sin desarrollo.
+
+================================================================================
+9) Unidad mínima con identidad: molde Núcleo–Invariantes–Variación
+--------------------------------------------------------------------------------
+Una unidad conceptual o funcional mínima no se define por longitud textual. Se define por identidad
+estructural mínima.
+
+Molde de identidad mínima:
+  - Núcleo: función dominante (qué es en el dominio).
+  - Invariantes: qué no puede romperse sin perder identidad.
+  - Dominio de variación: qué puede cambiar sin perder identidad.
+
+Este molde es autosimilar: se aplica a unidades de estado y a unidades de ejecución, y se conserva
+bajo composición ascendente.
+
+================================================================================
+10) Dos tipos de “unidad mínima” por eje
+--------------------------------------------------------------------------------
+10.1 Unidad mínima de estado (UMD-S; Unit of Minimum Domain—State: minimal state unit)
+  Unidad mínima del eje ontológico: dimensión entrenable o modulable con borde y medición.
+
+En un dominio físico, un ejemplo de esta unidad se expresa como fNode (Fitness Node: measurable physical capability),
+pero la teoría general no depende del nombre.
+
+Criterios de pertenencia:
+  - salida observable,
+  - evaluable con prueba o métrica,
+  - entrenable o modulable,
+  - borde de pertenencia.
+
+10.2 Unidad mínima de ejecución (UMD-E; Unit of Minimum Domain—Execution: minimal executable unit)
+  Unidad mínima del eje de ejecución: evento u operación que no se descompone sin pérdida de identidad operativa.
+
+En un dominio físico puede ser una repetición o un intervalo; en un dominio conversacional puede ser un operador de petición
+(Request Operator: a discrete request that triggers transformation).
+
+Resultado normativo:
+  Una teoría de lazo madura distingue UMD-S y UMD-E y evita confundir dimensiones con eventos.
+
+================================================================================
+11) Composición ascendente: construcción por escala en ambos ejes
+--------------------------------------------------------------------------------
+La teoría exige reconocer que la complejidad emerge por composición.
+
+11.1 Composición ascendente en el eje de ejecución
+  Operador dominante: concatenación ordenada (sucesión).
+
+Ejemplo de escalas (genéricas):
+  UMD-E → módulo simple → módulo compuesto mínimo → módulo semanal → módulo mensual → horizonte de transformación.
+
+11.2 Composición ascendente en el eje ontológico
+  Operador dominante: agregación de dimensiones (producto de coordenadas).
+
+Ejemplo genérico:
+  dimensiones mínimas → perfil de estado → régimen → arquitectura interna.
+
+Conclusión:
+  La autosimilitud “tronco → ramas → vasos” se interpreta como repetición del molde de identidad mínima en escalas distintas,
+  con operadores de composición distintos según eje.
+
+================================================================================
+12) Protocolo universal de proyección a un dominio nuevo
+--------------------------------------------------------------------------------
+Esta sección define un procedimiento repeatable (Procedure: repeatable method) para aplicar Teoría de Lazo.
+
+Paso P0 — Delimitación de entidad y frontera
+  - Definir entidad, frontera y canales de entrada/salida.
+
+Paso P1 — Delimitación del campo de manifestación relevante
+  - Enumerar restricciones y oportunidades que acoplan con la frontera.
+
+Paso P2 — Construcción del eje ontológico mínimo
+  - Proponer dimensiones internas suficientes para describir “estado”.
+  - Declarar cómo se miden o se reconocen.
+
+Paso P3 — Construcción del eje de ejecución mínimo
+  - Declarar el parámetro de recorrido.
+  - Definir la unidad mínima de ejecución (UMD-E).
+
+Paso P4 — Regla de acoplamiento bidireccional
+  - Regla forward: Estado → Operación (habilita, inhibe, modula).
+  - Regla backward: Operación → Estado (actualiza dimensiones, cambia régimen, consolida memoria).
+
+Paso P5 — Sensor, evaluador, actuador y memoria
+  - Definir señales, criterio, actualización y persistencia.
+
+Paso P6 — Criterio de cierre por equivalencia
+  - Declarar qué cuenta como retorno equivalente o consolidación.
+
+Paso P7 — Diagnóstico de patologías y falsación
+  - Declarar qué observación mostraría lazo abierto, sensor ciego, métrica como objetivo, o colapso.
+
+Salida:
+  Un modelo portable que preserva invariantes y permite comparación estructural con otros dominios.
+
+================================================================================
+13) Patologías del lazo (fallas típicas)
+--------------------------------------------------------------------------------
+P1 — Lazo abierto:
+  Interacción sin actualización durable.
+
+P2 — Sensor ciego o sesgado:
+  Señales insuficientes o distorsionadas; decisiones coherentes con la señal e incoherentes con el campo.
+
+P3 — Métrica que se vuelve objetivo:
+  Optimización local que destruye viabilidad global.
+
+P4 — Retroalimentación positiva no gobernada:
+  Crecimiento acelerado sin frenos hasta saturación o ruptura.
+
+P5 — Actuadores sin criterio:
+  Cambios internos erráticos; pérdida de identidad o incapacidad de consolidar memoria.
+
+================================================================================
+14) Representación opcional: campos Φ y Ψ (capa descriptiva, no definición)
+--------------------------------------------------------------------------------
+Φ (Phi: ontological field of constraints) y Ψ (Psi: execution field of operations) son una representación útil
+cuando se desea describir coherencia estructural en grafos y conversaciones integrables.
+
+Interpretación compatible:
+  - Φ representa distribución de restricciones, identidad, condiciones e interfaces.
+  - Ψ representa distribución de operaciones, recorridos, transformaciones y procedimientos.
+
+Regla de uso:
+  Φ y Ψ no sustituyen la teoría; son una notación para expresar el acoplamiento y diagnosticar rupturas,
+  especialmente ejecuciones sin cierre.
+
+Advertencia normativa:
+  La ontología de interpretación de un sistema conversacional no debe reducirse mecánicamente a Φ.
+  La ontología de interpretación es un objeto explícito dentro del interior del sistema (parte de su ontología operativa),
+  mientras que Φ describe la distribución de restricciones activas que gobiernan coherencia.
+
+================================================================================
+15) Proyecciones ejemplares (anclas de reconocimiento; no son fundamento de identidad)
+--------------------------------------------------------------------------------
+Los ejemplos sirven como anclas. La identidad de la teoría está definida por invariantes, no por ejemplos.
+
+15.1 Proyección A: acondicionamiento físico (dominio físico)
+  Entidad:
+    Cuerpo humano como sistema con frontera (capacidad y limitaciones internas) en un campo (entorno, recursos, tiempo).
+
+  Eje ontológico:
+    Dimensiones físicas relevantes (por ejemplo, familias físicas PFAM; Physical Families: operational physical families)
+    y unidades de estado como fNodes (Fitness Nodes: measurable capabilities).
+
+  Eje de ejecución:
+    Unidades mínimas de ejecución (UMD-E) como repeticiones o intervalos; módulos en sucesión (series, sesiones, semanas).
+
+  Cierre:
+    Sensor (métricas), evaluador (criterio de progreso y seguridad), actuador (progresión o descarga),
+    memoria (registro y consolidación).
+
+15.2 Proyección B: máquina cognitiva conversacional (dominio simbólico-operacional)
+  Entidad:
+    Sistema conversacional definido por una frontera operacional (reglas, formatos, memoria autorizada).
+
+  Eje ontológico:
+    Ontología operativa del chat (dimensiones, restricciones, contratos de salida) y ontología de interpretación
+    como consola de parámetros.
+
+  Eje de ejecución:
+    Operadores de petición (Request Operators: discrete requests that trigger transformation) como unidades mínimas;
+    trayectorias por turnos, iteraciones, bifurcaciones y refinamientos.
+
+  Cierre:
+    Actualización de ontología operativa (nuevas reglas, pesos, artefactos integrables), materialización de unidades,
+    o establecimiento de procedimientos invocables.
+
+15.3 Proyección C: grafo de discusión (dominio de integración)
+  Entidad:
+    Grafo como estado estable con nodos y aristas; conversación como trayectoria que materializa unidades.
+
+  Cierre:
+    Una ejecución está cerrada si actualiza el grafo, produce nodo integrable o establece procedimiento.
+
+================================================================================
+16) Checklist normativo de aplicación (tests operativos)
+--------------------------------------------------------------------------------
+Un análisis usa Teoría de Lazo de forma válida si responde explícitamente:
+
+  T1) Unidad: ¿qué entidad se modela?
+  T2) Frontera: ¿qué separa interior y exterior?
+  T3) Campo: ¿qué restricciones y oportunidades relevantes existen?
+  T4) Eje ontológico: ¿qué variables internas describen el estado?
+  T5) Eje de ejecución: ¿qué parámetro ordena transformaciones?
+  T6) Regla forward: ¿cómo el estado condiciona operaciones?
+  T7) Regla backward: ¿cómo las operaciones actualizan el estado?
+  T8) Sensor: ¿qué señales se registran?
+  T9) Evaluación: ¿qué criterio decide valor o éxito?
+  T10) Actuación: ¿cómo cambia el interior (continuo, umbral, estructural)?
+  T11) Memoria: ¿qué se conserva y cómo?
+  T12) Cierre: ¿qué criterio decide retorno equivalente o consolidación?
+  T13) Invariantes: ¿qué debe preservarse para mantener identidad?
+  T14) Dominio de variación: ¿qué puede cambiar sin romper identidad?
+  T15) Falsación: ¿qué observaría para concluir lazo abierto o ruptura?
+
+================================================================================
+17) Resumen compacto (unidad reutilizable)
+--------------------------------------------------------------------------------
+Teoría de Lazo describe sistemas donde:
+  - existe un estado (eje ontológico) y un recorrido (eje de ejecución),
+  - el estado condiciona operaciones y las operaciones reconfiguran el estado,
+  - existe un criterio explícito de cierre (equivalencia o consolidación),
+  - y la dinámica se vuelve utilizable mediante sensor, evaluación, actuación y memoria.
+
+FIN DEL DOCUMENTO

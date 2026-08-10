@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-numero_o_dato-numero_o_dato",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-numero_o_dato-numero_o_dato",
+    "label": "numero_o_dato",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-numero_o_dato-numero_o_dato",
+    "summary": "**Definición.** Entrada basada en una cifra, métrica, porcentaje, cantidad, fecha, ranking o dato destacado. La atención se activa por especificidad informativa y promesa de evidencia.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

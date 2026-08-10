@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-timeline_o_secuencia_temporal-timeline_o_secuencia_temporal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-timeline_o_secuencia_temporal-timeline_o_secuencia_temporal",
+    "label": "timeline_o_secuencia_temporal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-timeline_o_secuencia_temporal-timeline_o_secuencia_temporal",
+    "summary": "La lámina muestra evolución, proceso o cambio a través del tiempo.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

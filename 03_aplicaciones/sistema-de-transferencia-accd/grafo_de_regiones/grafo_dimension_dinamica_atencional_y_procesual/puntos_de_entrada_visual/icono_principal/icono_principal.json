@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-icono_principal-icono_principal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-icono_principal-icono_principal",
+    "label": "icono_principal",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual-icono_principal-icono_principal",
+    "summary": "**Definición.** Entrada basada en un signo gráfico simplificado que representa una acción, categoría, objeto o idea reconocible. El ícono permite acceso rápido por convención visual.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-puntos_de_entrada_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

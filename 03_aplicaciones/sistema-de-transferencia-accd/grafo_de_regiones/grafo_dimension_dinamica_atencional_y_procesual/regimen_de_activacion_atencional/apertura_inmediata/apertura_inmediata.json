@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata",
+    "label": "apertura_inmediata",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata",
+    "summary": "Valor declarado para el campo regimen_de_activacion_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La realización debe abrir atención desde el inicio, sin preámbulos extensos."
+  }
+}

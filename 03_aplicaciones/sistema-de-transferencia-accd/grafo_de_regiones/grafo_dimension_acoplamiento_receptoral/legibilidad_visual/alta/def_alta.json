@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+  "content": "**Definición.** Nivel en el que los elementos principales y secundarios relevantes se distinguen con facilidad. La composición favorece reconocimiento rápido, separación clara, contraste suficiente, textos legibles y jerarquía visual evidente.\n\n**Diferenciación semántica.** Se diferencia de `media` porque reduce ambigüedad visual y esfuerzo de discriminación. No implica simplicidad absoluta; una pieza puede ser compleja y aun así tener alta legibilidad si está bien ordenada.\n\n**Interpretación mínima.** La IA debe entender que ningún elemento relevante debería perderse por tamaño insuficiente, bajo contraste, ruido o mala separación.\n\n---"
+}

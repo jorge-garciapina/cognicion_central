@@ -1,0 +1,23 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "label": "configuracion_narrativa",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "summary": "Campo que describe cómo se organiza el recorrido interno de la realización.",
+    "metadata": {
+      "section": "8.2",
+      "value_type": "Categorial controlado",
+      "cardinality": "Un valor obligatorio",
+      "restrictions": [
+        "Debe haber exactamente una configuración narrativa predominante.",
+        "Debe ser coherente con la arquitectura macro y la segmentación de la salida."
+      ],
+      "external_terms_kept_as_text_not_nodes": [
+        "arquitectura_macro",
+        "segmentacion_de_la_salida"
+      ]
+    }
+  }
+}

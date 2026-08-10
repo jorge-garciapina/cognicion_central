@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto",
+  "content": "**Definición.** Campo que define la proporción entre ancho y alto de la pieza visual. No es un detalle técnico secundario: condiciona jerarquía, recorrido de mirada, espacio disponible, tamaño relativo de texto, posibilidad de comparación y compatibilidad con plataformas."
+}

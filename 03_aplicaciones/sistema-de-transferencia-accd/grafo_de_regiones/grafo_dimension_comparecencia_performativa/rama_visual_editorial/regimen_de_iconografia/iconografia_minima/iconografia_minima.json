@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_minima-iconografia_minima",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_minima-iconografia_minima",
+    "label": "iconografia_minima",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_minima-iconografia_minima",
+    "summary": "Valor en el que se usan pocos iconos, de forma puntual.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

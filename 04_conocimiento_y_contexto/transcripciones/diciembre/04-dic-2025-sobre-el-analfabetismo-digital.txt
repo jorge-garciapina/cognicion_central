@@ -1,0 +1,81 @@
+[PÁGINA 1]
+
+Sobre el analfabetismo digital | 04/dic/2025 | 11:24
+
+Esta es una época llena de contradicciones (no creo que haya una época libre de contradicciones, pero esta es la época en la que yo vivo), todo depende de los computadores y al mismo tiempo, nadie los comprende. Con la inteligencia artificial la brecha se hará mayor, causando que las diferencias ya existentes se amplíen aún más.
+Lo anterior es el inicio (o el final) de lo que viene a continuación.
+Creo que la [tachado] idea que replico a continuación merece ser resaltada:
+"Cualquier idea puede ser comercializada, sólo se debe hallar el modelo de negocio adecuado."
+Basado en esa idea nos podemos hacer algunas preguntas:
+   ■ ¿Qué es un [modelo de negocios]?
+   ■ ¿Exactamente qué modela?
+Las preguntas son naturales de hacerse. Igual de importante es considerar algunas ideas que tengo a priori sobre los [modelos de negocio]:
+   ■ Describen una arquitectura operativa.
+     Ahí se encuentra la información necesaria para coordinar, ejecutar y comprender los distintos procesos de la empresa. A pesar que mi idea está sesgada por la creencia que un modelo de negocios se limita a la parte financiera, ahora que lo pienso, si aplico el principio de expandir no limitar, entonces mientras más detallado sea el modelo, más efectivo será.
+
+[PÁGINA 2]
+
+   ■ Describen los procesos económicos, financieros, legales y de índoles similares.
+     Cada una de las categorías mencionados pueden pertenecer al punto anterior, pero hago una distinción debido a que estas 3 categorías son las que menos domino.
+   ■ Son puentes entre [las ideas] y [la industria, las finanzas, o cualquier entorno en el que haya dinero de por medio]
+     Indican como materializar la idea en el mundo tangible, no todas las ideas, sino aquellas que sean compatibles (Sobre la compatibilidad: en los estudios de 02-dic-2025 y 03-dic-2025 hablé sobre el [procesamiento de ideas]. Para que una idea sea compatible con el [modelo de negocio] necesita algún tipo de procesamiento)
+Visto así (necesito investigar más al respecto), es posible tratar al [modelo de negocio] como un modelo más que trata de describir un [fenómeno del mundo].
+Es, lo que podría considerarse una teoría. Hace no mucho estudiaba justo algo parecido, cuando trataba de comprender como era posible la comunicación entre estructuras. Hay algunas cosas que quiero rescatar de esa discusión.
+   • Si aprendo carpintería, adquiero un modelo teórico práctico para trabajar con madera, si aprendo programación, adquiero un modelo teórico-práctico para trabajar con lógica. Cada nueva cosa que aprendo me permite entender una parte del mundo.
+   • Desde el punto de vista estructural, no hay diferencia alguna entre un poema y una teoría, ambas cosas son solo formas de describir al mundo (desde distintas conexiones)
+   • La [relación humana] descrita por un proceso de compra/venta es un ejemplo particular de la categoría [relaciones humanas].
+   • Los modelos son solo intentos de explicación, no son correctos o incorrectos, su efectividad depende de las suposiciones en los que se basa.
+   
+   [PÁGINA 3]
+   
+   • Todo el conocimiento que existe parte de suposiciones.
+   • Las suposiciones necesitan de invariantes.
+
+Aquí comienza una tarea:
+
+[Modelaje de ideas]: Hacia la comprensión de invariantes, entry-points y similares en el [mercado del dinero](Puede que sea buena esta categoría de [mercado de dinero], ya que le quita relevancia (para no caer en absurdos como “hago esto para conseguir dinero”), dicha categoría contiene: economía, monetización, inversiones, etc.)
+Parto de las categorías de invariantes propuestas por el chat el 29-nov-2025
+a) Invariantes físicos y materiales
+   Son las que dependen de la estructura del mundo físico:
+     • Día y noche, estaciones, geografía, límites del cuerpo, etc.
+     • En economía: el hecho de que los recursos sean limitados, que el tiempo no pueda ir hacia atrás, que la energía tenga coste, etc.
+b) Invariantes de reglas (sistemas cerrados)
+   En juegos formales (ajedrez, go, póker) las reglas del juego son invariantes:
+     • En ajedrez, cómo se mueve una pieza, lo que es jaque, jaque mate, etcétera.
+     • En póker, la jerarquía de manos, tamaño de ciegas, cartas, etc.
+   Aquí la “invariante” es la gramática del juego.
+   La estrategia cambia de juego a juego, pero dentro de cada uno es rígida. La estrategia se construye asumiendo que esa gramática no se rompe arbitrariamente.
+   En política hay algo parecido:
+     • Constituciones, marcos legales, regulaciones, estructuras institucionales.
+     • No son tan rígidas como las reglas del ajedrez, pero durante un periodo suelen ser suficientemente estables como para construir una estrategia sobre ellas.
+
+[PÁGINA 4]
+
+c) Invariantes humanas (cognitivas, psicológicas, sociales)
+   Son regularidades relativamente robustas en el comportamiento humano:
+     • Limitaciones de atención, memoria, procesamiento de información.
+     • Tendencias psicológicas (aversión a la pérdida, sesgos de percepción, necesidad de reconocimiento, miedo, etc.)
+     • Dinámicas sociales recurrentes (formación de coaliciones, reputación, confianza, contagio emocional)
+   Estas invariantes son fundamentales en:
+     • Estrategia política (manipulación de opinión, construcción de narrativas).
+     • Marketing y ventas (heurísticas del consumidor)
+     • Guerra psicológica.
+     • Propaganda
+     • Diplomacia.
+     • Negociación,
+   No son absolutas, pero son tan estables como para ser el núcleo de muchas teorías estratégicas.
+
+d) Invariantes estructurales del sistema (grafos/topología)
+   Aquí entramos en un lenguaje de grafos:
+     • En una red logística, ciertos nodos son cuellos de botella; mientras no se reconfigure la red, su centralidad es invariante.
+     • En un sistema financiero, ciertas instituciones son nodos sistémicos: su caída arrastra al resto.
+     • En relaciones internacionales, hay estructuras de dependencia energética, de seguridad o comerciales que cambian lento.
+   A esto se le puede llamar invariantes de topología del sistema: la forma general del grafo, sus nodos críticos, sus líneas de dependencia.
+   Una estrategia sofisticada no mira solo “variables sueltas”, sino estos patrones que se conservan a lo largo de muchos movimientos.
+
+[PÁGINA 5]
+
+Debido a que el [modelo de negocio] es una teoría lo cual precisa de invariantes, entonces es de vital importancia hallar dichas invariantes.
+¿Qué busco exactamente? Busco plasmar, de manera inequívoca, que cualquier modelo parte de invariantes. Esto implica que antes de diseñar un modelo, se debe partir de suposiciones. Si las suposiciones son correctas, entonces el modelo será exitoso, si son incorrectas, el modelo fracasará inevitablemente.
+Aquí hay un punto importante que no había considerado antes, y me obligo a pensar, por primera vez en las suposiciones que tengo acerca del mercado de dinero. Esto es muy bueno ya que ahora sí puedo enfocarme en crear puentes con el [mercado de dinero]. En la siguiente sesión abordaré esto.
+Tengo un ligero impulso a comenzar a escribir sobre la última respuesta que me dio el chat en la cual se habla de sistemas, quizás sea lo indicado, pero será mañana.

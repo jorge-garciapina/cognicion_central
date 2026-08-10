@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente",
+    "type": "has_internal_field",
+    "rationale": "sonido_ambiente es un campo interno declarado dentro de acompanamiento_auditivo."
+  }
+}

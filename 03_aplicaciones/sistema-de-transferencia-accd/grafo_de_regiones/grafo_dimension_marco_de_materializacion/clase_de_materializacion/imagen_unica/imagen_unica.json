@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_unica-imagen_unica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_unica-imagen_unica",
+    "label": "imagen_unica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_unica-imagen_unica",
+    "summary": "**Definición.** Clase material correspondiente a una pieza visual cerrada en un solo archivo o plano. No presupone secuencia, paginación, audio, animación ni navegación entre unidades. Su rasgo principal es la simultaneidad: todos los elementos relevantes conviven en un único campo visual.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion"
+    }
+  }
+}

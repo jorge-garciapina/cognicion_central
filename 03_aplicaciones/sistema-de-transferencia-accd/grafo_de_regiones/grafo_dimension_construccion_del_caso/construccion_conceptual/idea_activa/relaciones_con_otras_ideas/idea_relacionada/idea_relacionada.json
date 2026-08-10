@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada",
+    "label": "idea_relacionada",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada",
+    "summary": "Componente que identifica la otra idea con la que esta idea se articula.",
+    "metadata": {
+      "value_type": "Descriptivo controlado",
+      "declared_inside": "relaciones_con_otras_ideas"
+    }
+  }
+}

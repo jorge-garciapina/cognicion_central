@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+  "content": "Indicar la jerarquía relativa de esta realización dentro del sistema de configuración. Debe haber exactamente una prioridad declarada, y la prioridad debe ser coherente con la jerarquía general de la configuración."
+}

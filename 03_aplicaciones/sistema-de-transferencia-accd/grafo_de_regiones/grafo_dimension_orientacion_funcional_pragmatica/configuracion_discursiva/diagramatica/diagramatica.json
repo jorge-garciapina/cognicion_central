@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+    "label": "diagramatica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-diagramatica-diagramatica",
+    "summary": "**Definición.** Valor que indica una forma discursiva basada en relaciones visuales explícitas entre elementos. Lo diagramático privilegia conexiones, direcciones, jerarquías, agrupaciones, contenedores, flechas, ejes o nodos para que el sentido emerja de la estructura relacional.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

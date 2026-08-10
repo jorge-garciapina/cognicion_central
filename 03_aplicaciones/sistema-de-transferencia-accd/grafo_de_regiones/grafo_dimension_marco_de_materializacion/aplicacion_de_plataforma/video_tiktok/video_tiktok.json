@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok",
+    "label": "video_tiktok",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok",
+    "summary": "Valor declarado para el campo aplicacion_de_plataforma: video_tiktok.",
+    "metadata": {
+      "value_of": "aplicacion_de_plataforma",
+      "section": "10.3"
+    }
+  }
+}

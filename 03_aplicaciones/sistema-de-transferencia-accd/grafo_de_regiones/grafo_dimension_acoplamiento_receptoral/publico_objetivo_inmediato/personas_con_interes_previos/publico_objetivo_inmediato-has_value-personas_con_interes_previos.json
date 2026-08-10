@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos",
+    "type": "has_value",
+    "rationale": "personas_con_interes_previos es un valor sugerido declarado para el campo publico_objetivo_inmediato."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_en_esquina-marca_en_esquina",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_en_esquina-marca_en_esquina",
+    "label": "marca_en_esquina",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca-marca_en_esquina-marca_en_esquina",
+    "summary": "**Definición.** Presencia marcaria localizada en una esquina, generalmente para firma o reconocimiento sin interferir con el contenido principal. Su fuerza depende de constancia, contraste y ubicación segura.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-presencia_de_marca"
+    }
+  }
+}

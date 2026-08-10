@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-miniatura-miniatura",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-miniatura-miniatura",
+    "label": "miniatura",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo-miniatura-miniatura",
+    "summary": "**Definición.** Formato diseñado para ser leído en tamaño pequeño. Exige simplificación, contraste alto, pocos elementos y un punto focal reconocible de inmediato.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-formato_de_lienzo"
+    }
+  }
+}

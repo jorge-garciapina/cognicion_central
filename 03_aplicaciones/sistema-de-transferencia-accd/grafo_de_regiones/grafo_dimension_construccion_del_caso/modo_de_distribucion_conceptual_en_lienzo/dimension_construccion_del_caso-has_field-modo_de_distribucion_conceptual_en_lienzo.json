@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-dimension_construccion_del_caso",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo",
+    "type": "has_field",
+    "rationale": "modo_de_distribucion_conceptual_en_lienzo es un campo nuevo incorporado en dimension_construccion_del_caso para la realización imagen."
+  }
+}

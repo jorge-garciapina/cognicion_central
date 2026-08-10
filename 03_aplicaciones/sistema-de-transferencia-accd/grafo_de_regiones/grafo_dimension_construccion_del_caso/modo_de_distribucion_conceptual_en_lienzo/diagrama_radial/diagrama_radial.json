@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-diagrama_radial-diagrama_radial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-diagrama_radial-diagrama_radial",
+    "label": "diagrama_radial",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-diagrama_radial-diagrama_radial",
+    "summary": "**Definición.** Distribución en la que un centro semántico organiza ramas o componentes alrededor suyo. Se usa cuando varios elementos derivan de un núcleo común, no cuando forman una secuencia. Puede representar categorías, atributos, consecuencias, componentes o dimensiones de una idea central.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

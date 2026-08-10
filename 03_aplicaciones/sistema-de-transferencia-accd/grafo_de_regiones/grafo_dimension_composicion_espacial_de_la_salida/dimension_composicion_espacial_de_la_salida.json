@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+    "label": "dimension_composicion_espacial_de_la_salida",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-dimension_composicion_espacial_de_la_salida",
+    "summary": "**Definición.** Dimensión que regula la organización simultánea de elementos dentro de un único campo visual. Define cómo se distribuyen focos, zonas, masas, textos, imágenes, marca, espacios vacíos, recorridos de lectura y relaciones jerárquicas en un lienzo estático. Su diferencia frente a una dim",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

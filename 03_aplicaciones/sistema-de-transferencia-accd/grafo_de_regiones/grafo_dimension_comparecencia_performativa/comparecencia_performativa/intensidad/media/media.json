@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media",
+    "summary": "Valor media del campo intensidad.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad"
+  }
+}

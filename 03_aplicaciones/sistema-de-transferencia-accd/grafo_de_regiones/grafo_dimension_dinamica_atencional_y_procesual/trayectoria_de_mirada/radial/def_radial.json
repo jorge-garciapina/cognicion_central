@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-radial-radial",
+  "content": "**Definición.** Recorrido en el que varios elementos se organizan alrededor de un centro común, como extensiones, ramas, dimensiones o consecuencias de un núcleo. La mirada puede partir del centro o volver a él desde los elementos periféricos.\n\n**Diferenciación semántica.** Se diferencia de `centro_a_periferia` porque presupone una estructura más explícita de distribución alrededor del centro. Se diferencia de `circular` porque no prioriza el recorrido alrededor del perímetro, sino la relación centro-radios.\n\n**Interpretación mínima.** La IA debe entender que el centro debe funcionar como eje organizador y que los elementos periféricos deben leerse en relación con ese eje."
+}

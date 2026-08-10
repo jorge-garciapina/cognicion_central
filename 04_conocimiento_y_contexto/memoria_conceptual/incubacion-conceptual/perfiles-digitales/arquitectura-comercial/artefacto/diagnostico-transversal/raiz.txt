@@ -1,0 +1,513 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d442ac-b988-83e8-9caf-0cba85fab976
+
+================================================================================
+DEFINICIÓN — DIAGNÓSTICO TRANSVERSAL CANÓNICO
+Versión: v1.0 (autónoma + lista para integrar en grafo)
+Propósito dual:
+1) Ser legible como unidad conceptual autónoma, sin depender del contexto conversacional.
+2) Ser integrable al grafo teórico como ontología débil refinable, preparada para futura expansión.
+
+================================================================================
+
+0) Intención del concepto
+
+Diagnóstico Transversal Canónico se introduce para fijar, de manera explícita y portable,
+un lenguaje diagnóstico mínimo compartido entre estratos, secuencias, configuraciones,
+campos y otras unidades evaluables del paquete.
+
+Su función no es describir exhaustivamente cada estrato.
+Tampoco es sustituir diagnósticos locales más finos.
+Tampoco es nombrar regiones, funciones o salidas.
+
+Su función es otra:
+proveer una gramática común de estado diagnóstico para que distintas zonas del sistema
+puedan emitir juicios compatibles entre sí sin perder la posibilidad de refinamiento local.
+
+Este nodo debe existir porque evita una deriva importante:
+si cada estrato diagnostica con taxonomías propias no reconciliadas,
+el paquete puede ganar riqueza local pero perder comparabilidad,
+compatibilidad transversal,
+y posibilidad de integración formal.
+
+Por eso, el Diagnóstico Transversal Canónico no debe entenderse como una lista decorativa
+de etiquetas, sino como una infraestructura mínima de evaluación compartida.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Diagnóstico Transversal Canónico =
+sistema mínimo compartido de estados diagnósticos mediante el cual las distintas unidades
+evaluables de una arquitectura pueden reportar su condición estructural de forma comparable,
+integrable y compatible con refinamientos locales.
+
+Dicho de otro modo:
+
+No es el criterio local.
+No es la evidencia.
+No es la corrección.
+No es la región.
+No es la salida final.
+
+Es la capa común que permite decir,
+de manera portable y transversal,
+en qué estado diagnóstico se encuentra una unidad evaluada.
+
+--------------------------------------------------------------------------------
+
+2) Fenómeno o función que delimita
+
+Este concepto delimita el problema de la compatibilidad diagnóstica entre partes distintas
+de un mismo sistema.
+
+Recorta, por tanto, situaciones en las que:
+- varios estratos necesitan emitir juicios de estado,
+- existen diagnósticos locales más finos o especializados,
+- pero se requiere además una capa común que permita comparación,
+  traducción,
+  integración,
+  trazabilidad
+  y expansión posterior a grafo formal.
+
+Diagnóstico Transversal Canónico no delimita:
+- la teoría completa de la validez en cada dominio,
+- cualquier clasificación libre de estados,
+- una lista de métricas,
+- ni una taxonomía cerrada de todos los matices diagnósticos posibles.
+
+Delimita un caso más preciso:
+un núcleo común de estados que debe mantenerse transversalmente estable,
+aunque cada estrato añada especializaciones locales.
+
+--------------------------------------------------------------------------------
+
+3) Unidad diagnosticable
+
+La aplicación correcta de este concepto exige distinguir con claridad qué tipo de cosa
+puede recibir un diagnóstico transversal.
+
+Unidad diagnosticable =
+cualquier entidad, configuración, caso, secuencia, subestructura, estrato o realización
+que:
+- posea borde identificable,
+- pueda ser evaluada bajo algún criterio,
+- y permita emitir un juicio de estado no meramente ornamental.
+
+Ejemplos típicos de unidad diagnosticable:
+- una configuración intensional,
+- una secuencia formal,
+- una definición,
+- una relación estructural,
+- una realización contextual,
+- un estrato completo,
+- un caso particular dentro de una fuente,
+- o una conexión cuya validez dependa de criterios explícitos.
+
+Regla importante:
+No todo lo que existe en el sistema debe diagnosticarse siempre.
+Pero todo aquello que se diagnostique transversalmente debe poder identificarse como unidad.
+
+--------------------------------------------------------------------------------
+
+4) Estados canónicos obligatorios
+
+El núcleo canónico obligatorio queda fijado así:
+
+4.1) Válido
+Diagnóstico emitido cuando la unidad evaluada satisface de manera suficiente las condiciones
+mínimas relevantes del régimen que la evalúa,
+sin presentar conflicto estructural que rompa su pertenencia.
+
+Lectura mínima:
+- la unidad puede mantenerse operativa;
+- su forma es aceptable bajo el criterio aplicado;
+- y no requiere, para conservar pertenencia, una corrección que afecte su identidad básica.
+
+4.2) Ambiguo
+Diagnóstico emitido cuando la unidad evaluada no puede ser decidida limpiamente como válida o inválida,
+porque su condición permanece insuficientemente determinada,
+competida por lecturas rivales,
+o suspendida por falta de criterio suficiente,
+falta de evidencia,
+o indeterminación estructural.
+
+Lectura mínima:
+- la unidad todavía no colapsa;
+- pero tampoco puede afirmarse con firmeza;
+- su estatuto requiere discriminación adicional,
+  evidencia adicional,
+  o reglas de desempate.
+
+4.3) Inestable
+Diagnóstico emitido cuando la unidad evaluada conserva una forma reconocible,
+pero lo hace de manera frágil,
+volátil,
+o bajo tensiones que amenazan su continuidad,
+su consistencia
+  o su preservación de identidad.
+
+Lectura mínima:
+- la unidad no está necesariamente fuera del sistema;
+- pero su permanencia en el estado actual no es robusta;
+- pequeñas variaciones,
+  precisiones,
+  presiones contextuales
+  o cambios de fase
+  pueden alterar significativamente su condición.
+
+4.4) Inválido
+Diagnóstico emitido cuando la unidad evaluada falla respecto de condiciones mínimas necesarias,
+rompe invariantes decisivos,
+queda fuera del borde pertinente,
+o incurre en conflicto estructural no absorbible por el régimen que la evalúa.
+
+Lectura mínima:
+- la unidad no puede sostenerse como instancia aceptable de aquello que pretende ser;
+- su corrección exige más que simple ajuste superficial;
+- y su estatuto presente no debe tratarse como compatible con la pertenencia esperada.
+
+--------------------------------------------------------------------------------
+
+5) Extensiones locales permitidas
+
+El núcleo canónico no agota la necesidad diagnóstica del sistema.
+Por eso se permiten extensiones locales,
+siempre que se conecten explícitamente al diagnóstico transversal.
+
+Lista base de extensiones locales permitidas:
+- frágil
+- competitivo
+- insuficientemente determinado
+- saturado
+- no compatible con núcleo
+- contradicción de fase
+- sobrecargado
+- subestimulado
+
+Estas extensiones no sustituyen al diagnóstico base.
+Su función es modularlo,
+refinarlo
+  o volver visible un modo particular de falla,
+tensión
+  o indeterminación.
+
+Ejemplos correctos de uso:
+- válido + frágil
+- ambiguo + insuficientemente determinado
+- inestable + sobrecargado
+- inválido + no compatible con núcleo
+- ambiguo + contradicción de fase
+
+Ejemplos incorrectos de uso:
+- usar una extensión local como único diagnóstico,
+- reemplazar “inválido” por “saturado”,
+- reemplazar “ambiguo” por “competitivo”,
+- o tratar las extensiones como taxonomía independiente del núcleo canónico.
+
+--------------------------------------------------------------------------------
+
+6) Regla estructural de uso
+
+6.1) Regla de núcleo obligatorio
+Todo estrato o subgrafo que emita diagnósticos debe usar:
+- solo el núcleo canónico,
+  o
+- el núcleo canónico + extensiones locales declaradas.
+
+6.2) Regla de no sustitución
+No se permite reemplazar completamente el núcleo transversal por una taxonomía enteramente local.
+
+6.3) Regla de declaración
+Si un estrato añade una etiqueta diagnóstica nueva,
+debe declararla como extensión del diagnóstico transversal,
+indicando:
+- qué matiz introduce,
+- a qué estado canónico se acopla primariamente,
+- y qué criterio justifica su uso.
+
+6.4) Regla de trazabilidad
+Todo diagnóstico debe poder reconstruirse como:
+- unidad diagnosticada,
+- criterio o régimen local aplicado,
+- evidencia o razón relevante,
+- diagnóstico canónico emitido,
+- y, si aplica,
+  extensión local añadida.
+
+--------------------------------------------------------------------------------
+
+7) Dependencias conceptuales
+
+Esta definición depende, como base mínima, de los siguientes conceptos:
+
+7.1) Unidad evaluable
+Porque no puede diagnosticarse aquello cuya identidad no está delimitada.
+
+7.2) Criterio
+Porque ningún diagnóstico fuerte puede emitirse sin alguna regla,
+prueba,
+condición
+  o umbral de lectura.
+
+7.3) Evidencia
+Porque el diagnóstico no debe reducirse a intuición privada.
+Debe existir alguna base de observación,
+lectura,
+señal,
+resultado
+  o condición identificable.
+
+7.4) Estado
+Porque este concepto fija precisamente una capa de estados diagnósticos,
+no una lista de regiones ni de funciones.
+
+7.5) Invariante
+Porque la diferencia entre válido e inválido,
+y buena parte de la diferencia entre estable e inestable,
+solo puede comprenderse respecto de algo que debe preservarse.
+
+7.6) Frontera
+Porque una parte del diagnóstico consiste en decidir si una unidad permanece
+o no dentro del borde pertinente.
+
+7.7) Corrección
+Porque el diagnóstico no es fin en sí mismo:
+sirve como puente hacia intervención,
+revisión,
+confirmación,
+recalibración
+  o rechazo.
+
+--------------------------------------------------------------------------------
+
+8) Invariantes
+
+Diagnóstico Transversal Canónico preserva al menos los siguientes invariantes:
+
+8.1) Invariante de comparabilidad
+El mismo núcleo de estados debe poder reutilizarse entre estratos distintos.
+
+8.2) Invariante de no colapso local
+La riqueza diagnóstica local no puede destruir la capa transversal compartida.
+
+8.3) Invariante de legibilidad estructural
+Cada estado debe significar algo estructuralmente distinguible,
+no solo una impresión retórica.
+
+8.4) Invariante de separación entre núcleo y extensión
+El estado base y la modulación local no pueden confundirse.
+
+8.5) Invariante de trazabilidad
+Debe poder reconstruirse por qué una unidad fue leída como válida,
+ambigua,
+inestable
+  o inválida.
+
+8.6) Invariante de transferibilidad
+Dos receptores que compartan el mismo régimen de lectura deben poder reconocer,
+con convergencia razonable,
+el estatuto diagnóstico emitido.
+
+--------------------------------------------------------------------------------
+
+9) Qué no debe confundirse con este concepto
+
+Diagnóstico Transversal Canónico no debe confundirse con:
+
+9.1) Región
+Una región nombra una zona del espacio estructural o intensional.
+El diagnóstico nombra la condición evaluativa de una unidad.
+
+9.2) Función
+La función nombra qué transformación dominante produce algo.
+El diagnóstico nombra en qué estado estructural se encuentra.
+
+9.3) Salida
+La salida nombra lo que un proceso emite.
+El diagnóstico nombra cómo se evalúa una unidad,
+o cuál es su estatuto bajo un régimen de lectura.
+
+9.4) Evidencia
+La evidencia alimenta o justifica el diagnóstico,
+pero no es el diagnóstico mismo.
+
+9.5) Corrección
+La corrección responde al diagnóstico,
+pero no es idéntica a él.
+
+9.6) Métrica aislada
+Un número o score puede participar en el proceso,
+pero no reemplaza por sí solo la capa diagnóstica transversal.
+
+--------------------------------------------------------------------------------
+
+10) Relación con diagnósticos locales
+
+El diagnóstico transversal y el diagnóstico local no compiten.
+Cumplen funciones distintas y complementarias.
+
+Diagnóstico local:
+- aporta resolución fina,
+- usa criterios del dominio particular,
+- detecta modos específicos de tensión,
+- y puede activar reglas especializadas.
+
+Diagnóstico transversal:
+- traduce el resultado a una gramática común,
+- preserva compatibilidad entre estratos,
+- evita inconmensurabilidad diagnóstica,
+- y facilita integración con el paquete total.
+
+Fórmula operativa mínima:
+
+régimen local de lectura
+-> produce juicio local
+-> se traduce a estado canónico
+-> puede añadirse extensión local
+-> habilita comparación,
+   corrección,
+   y trazabilidad transversal.
+
+--------------------------------------------------------------------------------
+
+11) Discriminadores mínimos entre estados canónicos
+
+11.1) Prueba contra “válido”
+Si la unidad satisface condiciones relevantes sin conflicto estructural decisivo,
+no debe etiquetarse como ambigua,
+inestable
+  o inválida.
+
+11.2) Prueba contra “ambiguo”
+Si el problema principal es falta de decisión,
+lectura competida
+  o insuficiente determinación,
+el diagnóstico dominante es ambiguo,
+no inestable.
+
+11.3) Prueba contra “inestable”
+Si la unidad sí es reconocible y decidible,
+pero su continuidad es frágil,
+volátil
+  o tensional,
+el diagnóstico dominante es inestable,
+no ambiguo.
+
+11.4) Prueba contra “inválido”
+Si la unidad rompe condiciones mínimas,
+invariantes decisivos
+  o compatibilidad nuclear,
+el diagnóstico dominante es inválido,
+aunque además puedan describirse matices locales.
+
+11.5) Prueba por necesidad de corrección
+Si basta con precisión adicional,
+evidencia adicional
+  o desempate,
+lo ambiguo domina.
+Si basta con estabilización,
+reordenamiento
+  o alivio de tensión,
+lo inestable domina.
+Si la unidad requiere replanteamiento más profundo por quiebre estructural,
+lo inválido domina.
+
+--------------------------------------------------------------------------------
+
+12) Superficie de integración
+
+La superficie de integración de esta definición es la siguiente:
+
+Diagnóstico Transversal Canónico se integra al resto del sistema como la capa común que permite:
+- conectar diagnósticos locales entre sí,
+- evitar taxonomías incompatibles,
+- emitir estados comparables entre estratos,
+- sostener trazabilidad entre evidencia,
+  lectura,
+  diagnóstico,
+  corrección
+  y actualización,
+- y preparar migración posterior a grafo formal.
+
+Toca inmediatamente nodos como:
+- Evidencia,
+- Criterio,
+- Estado,
+- Corrección,
+- Invariante,
+- Frontera,
+- Campo Interpretativo,
+- y cualquier estrato que produzca lectura diagnóstica.
+
+También funciona como compresión inicial de un subgrafo futuro,
+porque puede expandirse en:
+- subtipos de validez,
+- reglas de ambigüedad,
+- criterios de inestabilidad,
+- familias de invalidez,
+- aristas entre diagnóstico y corrección,
+- y operadores de traducción entre diagnóstico local y canónico.
+
+--------------------------------------------------------------------------------
+
+13) Validación
+
+La definición se considera correctamente aplicada cuando permite:
+
+13.1) Identificar con claridad la unidad diagnosticada.
+13.2) Mostrar el criterio o régimen bajo el cual se emitió el juicio.
+13.3) Distinguir sin colapso entre válido,
+      ambiguo,
+      inestable
+      e inválido.
+13.4) Añadir extensiones locales sin sustituir el núcleo canónico.
+13.5) Traducir juicios locales a una gramática transversal comparable.
+13.6) Evitar confusión entre estado,
+      región,
+      función
+      y salida.
+13.7) Permitir que el diagnóstico alimente corrección,
+      recalibración
+      o rechazo con trazabilidad suficiente.
+
+Una mala aplicación se detecta cuando:
+- cada estrato usa una taxonomía incompatible sin reconciliación,
+- las extensiones locales reemplazan al núcleo,
+- no puede identificarse la unidad diagnosticada,
+- no puede distinguirse ambigüedad de inestabilidad,
+- o “diagnóstico” se usa como sinónimo de región,
+  función,
+  salida
+  o intuición informal.
+
+--------------------------------------------------------------------------------
+
+14) Fórmula de cierre
+
+Diagnóstico Transversal Canónico no nombra simplemente una lista de etiquetas evaluativas.
+Nombra la infraestructura mínima compartida mediante la cual distintas partes de una arquitectura
+pueden emitir juicios de estado compatibles,
+trazables
+  y refinables.
+
+Por eso:
+
+Diagnóstico Transversal Canónico =
+núcleo común de estados
++ comparabilidad transversal
++ traducción desde diagnósticos locales
++ extensiones controladas
++ trazabilidad evaluativa
++ compatibilidad con corrección e integración formal.
+
+Forma verbal condensada:
+
+Es la capa por la cual el sistema evita que cada estrato diagnostique en una lengua distinta,
+y gana una gramática mínima común para decidir,
+comparar,
+corregir
+  e integrar sus estados sin renunciar a la precisión local.
+
+================================================================================
+FIN
+================================================================================

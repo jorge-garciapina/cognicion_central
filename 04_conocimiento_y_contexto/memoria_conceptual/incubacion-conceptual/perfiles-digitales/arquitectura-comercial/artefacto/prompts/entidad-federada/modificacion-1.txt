@@ -1,0 +1,240 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69da8f32-ef5c-83e8-8cd5-00c2bba71141
+# Entidad federada de producción de contenido digital
+
+## Formato de trazabilidad de construcción con pesos normalizados
+
+### Texto consolidado de la definición
+
+La **entidad federada de producción de contenido digital** es una modalidad de
+realización de la Arquitectura Comercial de Creación de Contenido Digital
+(ACCD) en la que una misma unidad de producción no depende de una sola
+superficie pública, sino que se despliega como una **ecología coordinada de
+ramas diferenciadas** capaces de sostener funciones distintas dentro de un mismo
+sistema.
+
+Su unidad no se explica por uniformidad de formato, tono o interfaz, sino por
+la conservación de una misma forma arquitectónica a través de varias escalas y
+capas de comparecencia. Por eso, una entidad federada no es simplemente una
+pluralidad de cuentas o canales: es una **forma distribuida y estratificada**
+de una misma máquina de producción de contenido digital.
+
+Lo decisivo en esta forma no es solo que exista un centro coordinador, sino que
+la arquitectura sea capaz de **reaparecer en varias ramas sin dejar de ser la
+misma**. Cada rama puede comportarse como una microarquitectura con:
+- piezas propias,
+- una forma particular de captar o sostener atención,
+- mecanismos locales de relación,
+- e incluso un puerto de inserción específico,
+
+sin dejar por ello de pertenecer a una continuidad superior.
+
+La entidad federada se vuelve especialmente reconocible cuando el sistema
+distribuye la atención en varias capas: unas ramas abren entrada, otras
+densifican, otras estabilizan continuidad, otras convierten relación en
+acumulación y otras preparan o realizan captura. Así, la unidad ya no depende
+de que una sola superficie concentre toda la operación, sino de que varias
+ramas compartan una misma lógica de construcción del campo.
+
+En esta configuración, la atención no se organiza como reacción homogénea, sino
+como **campo estratificado**. Esto permite que el mismo núcleo se traduzca a
+formas distintas según:
+- umbral de entrada,
+- nivel de profundidad,
+- grado de relación,
+- necesidad de continuidad,
+- o proximidad a la convertibilidad.
+
+Por eso la federación no es solo distribución de presencia, sino distribución de
+funciones dentro de una misma ecología de mediación.
+
+La unidad de la federación sigue siendo arquitectónica: las ramas covarían,
+se corrigen, se refuerzan y se degradan de forma parcialmente compartida porque
+dependen de una capa superior común. Sin embargo, con esta redistribución de
+pesos, la definición deja menos énfasis en la idea de centro único y en el marco
+general de ACCD como explicación primaria, y pasa a poner más énfasis en dos
+cosas:
+
+1. que la misma forma puede reproducirse en varias escalas sin perder
+   continuidad;
+2. que la atención organizada por capas es una de las claves para entender por
+   qué la federación no es agregación, sino arquitectura.
+
+Así, la entidad federada debe entenderse como una **ACCD fractalizada**:
+una arquitectura que se despliega en ramas diferenciadas, pero estructuralmente
+correspondientes, capaces de sostener una misma trayectoria de valor y
+aprendizaje sin reducirse a una sola interfaz ni a una sola secuencia lineal de
+producción.
+
+En términos operativos, una entidad federada permite:
+- multiplicar superficies sin multiplicar arquitecturas;
+- distribuir funciones sin perder continuidad;
+- sostener campos atencionales más complejos que los de una entidad simple;
+- y organizar valor de manera no lineal, haciendo que distintas ramas aporten
+  de forma desigual pero coordinada a la validación, al activo relacional, a la
+  convertibilidad y a la captura.
+
+Por eso, una entidad federada no debe modelarse como “muchos canales”, sino como
+una **unidad de producción distribuida, fractal, atencionalmente estratificada y
+arquitectónicamente correlacionada**, capaz de sostener múltiples modos de
+comparecencia sin perder continuidad de núcleo, de valor ni de trayectoria.
+
+---
+
+### Estructura de trazabilidad de construcción
+
+**unidad_de_destino:**  
+`ACCD / entidad federada de producción de contenido digital / definición arquitectónica`
+
+**tipo_de_unidad:**  
+`definición arquitectónica derivada`
+
+**función_de_la_unidad:**  
+`describir una forma de entidad de producción de contenido digital en la que una misma ACCD se realiza a través de múltiples superficies coordinadas`
+
+**estado_de_construcción:**  
+`consolidada, abierta a refinamiento por estratos`
+
+---
+
+### Ideas fuente activas en esta definición
+
+#### Idea fuente 1
+
+- **id:** `IF-EF-001`
+- **origen_tipo:** `documento`
+- **origen:** `correlacion-intercapa.txt`
+- **idea_extraída:**  
+  “las covariaciones entre capas visibles pueden explicarse mejor por
+  dependencia respecto de una estructura superior compartida que por simple
+  relación local entre ellas”
+- **función_en_la_definición:**  
+  `criterio de unidad arquitectónica distribuida`
+- **peso:** `0.17`
+- **modo_de_uso:**  
+  `principio estructural fuerte`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 2
+
+- **id:** `IF-EF-002`
+- **origen_tipo:** `documento`
+- **origen:** `arquitectura-hub.txt`
+- **idea_extraída:**  
+  “una arquitectura puede organizar múltiples ramas alrededor de un centro de
+  coordinación, generando una posición total más fuerte que la suma de las
+  partes tomadas por separado”
+- **función_en_la_definición:**  
+  `modelo de centralidad distribuida`
+- **peso:** `0.14`
+- **modo_de_uso:**  
+  `estructura de organización`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 3
+
+- **id:** `IF-EF-003`
+- **origen_tipo:** `documento`
+- **origen:** `fabrica-de-adaptaciones-contextuales.txt`
+- **idea_extraída:**  
+  “un mismo núcleo puede realizarse bajo adaptaciones contextuales diferentes
+  sin romper continuidad, siempre que las variaciones se expliquen como
+  traducciones situadas de una misma estructura”
+- **función_en_la_definición:**  
+  `principio de diferenciación legítima entre ramas`
+- **peso:** `0.17`
+- **modo_de_uso:**  
+  `motor generativo`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 4
+
+- **id:** `IF-EF-004`
+- **origen_tipo:** `documento`
+- **origen:** `arquitectura-comercial.txt`
+- **idea_extraída:**  
+  “una entidad de producción de contenido digital debe poder leerse como máquina
+  de preservación, proyección, atención, acumulación, valor y retorno”
+- **función_en_la_definición:**  
+  `marco arquitectónico general`
+- **peso:** `0.06`
+- **modo_de_uso:**  
+  `anclaje a ACCD`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 5
+
+- **id:** `IF-EF-005`
+- **origen_tipo:** `documento`
+- **origen:** `subbranch-secuencia-mediacion.txt`
+- **idea_extraída:**  
+  “la mediación puede distribuirse en fases y no tiene por qué concentrarse en
+  una sola superficie de comparecencia”
+- **función_en_la_definición:**  
+  `justificación del reparto funcional entre ramas`
+- **peso:** `0.10`
+- **modo_de_uso:**  
+  `secuencia interna de valor`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 6
+
+- **id:** `IF-EF-006`
+- **origen_tipo:** `documento`
+- **origen:** `subbranch-activo-relacional.txt`
+- **idea_extraída:**  
+  “una arquitectura puede sedimentar valor a través de acumulados relacionales
+  distribuidos y no solo mediante cierres transaccionales inmediatos”
+- **función_en_la_definición:**  
+  `soporte para la capa relacional de la federación`
+- **peso:** `0.08`
+- **modo_de_uso:**  
+  `acumulado de valor`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 7
+
+- **id:** `IF-EF-007`
+- **origen_tipo:** `documento`
+- **origen:** `atencion_socialmente_organizada.md`
+- **idea_extraída:**  
+  “la atención puede organizarse como campo estratificado y no como reacción
+  homogénea”
+- **función_en_la_definición:**  
+  `base del reparto atencional entre ramas`
+- **peso:** `0.12`
+- **modo_de_uso:**  
+  `modelo de ecología atencional`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 8
+
+- **id:** `IF-EF-008`
+- **origen_tipo:** `documento`
+- **origen:** `vision-fractal-de-sistemas.txt`
+- **idea_extraída:**  
+  “una misma forma puede reaparecer en varias escalas sin dejar de pertenecer a
+  una misma arquitectura”
+- **función_en_la_definición:**  
+  `fundamento de federación fractal`
+- **peso:** `0.12`
+- **modo_de_uso:**  
+  `principio de escala`
+- **estado:** `estable por anclaje documental`
+
+#### Idea fuente 9
+
+- **id:** `IF-EF-009`
+- **origen_tipo:** `chat`
+- **origen:** `discusión sobre entidad federada como evolución de una entidad simple`
+- **idea_extraída:**  
+  “una arquitectura puede desplegarse en varias microentidades públicas que
+  distribuyen entre sí funciones de captación, densificación, validación,
+  relación y cierre sin perder unidad”
+- **función_en_la_definición:**  
+  `síntesis integradora`
+- **peso:** `0.04`
+- **modo_de_uso:**  
+  `integración conceptual`
+- **estado:** `estable en la conversación`
+
+**suma_total_de_pesos:** `1.00`

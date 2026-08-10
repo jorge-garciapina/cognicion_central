@@ -1,0 +1,305 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d4324b-9dc0-83e8-af11-ed056bb42413
+
+{"address":"graph/node/ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "label":"ACCD — Secuencia parcial de recepción, convertibilidad y retorno",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "summary":"Secuencia local comprimida que articula un tramo de recepción temprana, un tramo de acumulación convertible y un tramo de retorno correctivo, sin pretender agotar por sí sola las secuencias globales canónicas del paquete."
+}}
+
+{"address":"def/ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":"[
+================================================================================
+DEFINICIÓN — ACCD — SECUENCIA PARCIAL DE RECEPCIÓN, CONVERTIBILIDAD Y RETORNO
+================================================================================
+
+0) Intención
+
+Esta secuencia se introduce para fijar una trayectoria local en la que:
+- una salida ya comparecida entra en recepción estructurable,
+- esa recepción puede acumularse cualitativamente,
+- esa acumulación puede ganar espesor relacional y acoplamiento económico,
+- y el resultado de todo ello puede reingresar al sistema como lectura, diagnóstico,
+  corrección y modulación futura.
+
+Su función no es reemplazar las secuencias globales canónicas del paquete.
+Su función es recortar una trayectoria local útil para este caso particular.
+
+--------------------------------------------------------------------------------
+1) Definición central
+
+ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno =
+articulación local y comprimida que conecta:
+
+- stages de recepción temprana,
+- stages de validación y acumulación,
+- y stages de retorno correctivo,
+
+para describir cómo una presencia efectiva en el entorno puede:
+- ser leída,
+- ser validada,
+- sedimentarse,
+- acercarse al régimen de dinero,
+- dejar huellas legibles,
+- activar correcciones,
+- y modificar el estado de futuras entradas.
+
+--------------------------------------------------------------------------------
+2) Fórmula local de la secuencia
+
+ACCD-Comparecencia
+→ ACCD-Atencion-Organizada
+→ ACCD-Lectura-Inicial
+→ ACCD-Validacion-Inicial
+→ ACCD-Perfil-de-Respuesta
+→ ACCD-Validacion
+→ ACCD-Capital-Institucional
+→ ACCD-Activo-Relacional
+→ ACCD-Acoplamiento-al-Mercado-del-Dinero
+→ ACCD-Manifestacion-Material-o-Captura
+→ ACCD-Lectura-de-Evidencia
+→ ACCD-Diagnostico
+→ ACCD-Correccion-Local-o-del-Modelo
+→ ACCD-Actualizacion-de-Estado
+→ ACCD-Nueva-Entrada-Modulada
+
+--------------------------------------------------------------------------------
+3) Qué delimita
+
+Esta secuencia delimita un problema preciso:
+
+cómo una configuración que ya entró al entorno puede:
+- pasar de presencia efectiva a lectura inicial;
+- pasar de lectura inicial a validación;
+- pasar de validación a sedimentación institucional y potencia relacional;
+- aproximarse a un cierre económico;
+- y después reingresar al sistema como materia correctiva.
+
+No delimita:
+- toda la secuencia de proyección,
+- toda la secuencia de convertibilidad en su forma completa,
+- ni toda la secuencia de retorno en su forma expandida.
+
+Delimita solo un recorte local útil de esas trayectorias.
+
+--------------------------------------------------------------------------------
+4) Regla de lectura
+
+Esta secuencia debe leerse como secuencia parcial y no exhaustiva.
+
+No afirma que:
+- comparecencia sea el inicio absoluto de toda la arquitectura,
+- acoplamiento al mercado del dinero equivalga por sí solo a captura económica,
+- ni lectura de evidencia pueda existir sin evidencia implícita previa.
+
+Lo que hace es condensar, para este caso, una trayectoria donde ciertos stages
+se vuelven explícitos y otros quedan presupuestos.
+
+--------------------------------------------------------------------------------
+5) Stages implícitos no tematizados como nodos locales de esta secuencia
+
+Para mantener consistencia con la arquitectura global, esta secuencia presupone,
+aunque no tematiza aquí como stages explícitos, al menos los siguientes
+componentes canónicos:
+
+- ACCD-Manifestacion-Material
+  como antecedente fuerte de ACCD-Comparecencia.
+
+- ACCD-Convertibilidad
+  como bisagra conceptual entre ACCD-Activo-Relacional y
+  ACCD-Acoplamiento-al-Mercado-del-Dinero.
+
+- ACCD-Captura-Economica
+  como posible cierre efectivo posterior al acoplamiento.
+
+- ACCD-Evidencia
+  como huella observable presupuestada antes de ACCD-Lectura-de-Evidencia.
+
+- ACCD-Trayectoria
+  como sedimentación longitudinal presupuestada entre
+  ACCD-Actualizacion-de-Estado y ACCD-Nueva-Entrada-Modulada.
+
+Esta omisión no debe leerse como negación ontológica de esos nodos,
+sino como compresión local deliberada.
+
+--------------------------------------------------------------------------------
+6) Dependencias estructurales
+
+Esta secuencia depende de:
+- la distinción global entre secuencia de recepción,
+  secuencia de convertibilidad
+  y secuencia de retorno;
+- la política de no-colapso entre manifestación, evidencia,
+  convertibilidad y captura;
+- y la reutilización de componentes globales canónicos en lugar de redefinirlos
+  localmente.
+
+--------------------------------------------------------------------------------
+7) Lectura fuerte de la secuencia
+
+La lectura fuerte de esta secuencia no es:
+
+“la pieza salió, monetizó y luego vimos métricas”.
+
+La lectura fuerte es esta:
+
+- una salida ya comparecida entra a un entorno de recepción;
+- esa recepción se vuelve atención organizada;
+- la atención puede leerse, validarse y perfilarse;
+- la validación puede sedimentarse y ganar potencia relacional;
+- esa potencia puede acercarse al régimen transaccional;
+- la manifestación o el cierre dejan huellas;
+- esas huellas se leen;
+- la lectura activa diagnóstico;
+- el diagnóstico activa corrección;
+- la corrección actualiza estado;
+- y el sistema no recibe la siguiente entrada desde cero.
+
+--------------------------------------------------------------------------------
+8) Fórmula de cierre
+
+Esta secuencia no agota la arquitectura ACCD.
+La comprime localmente.
+
+Su valor está en fijar, en una sola trayectoria legible, que:
+- la recepción temprana,
+- la acumulación cualitativa,
+- y el retorno correctivo
+
+pueden tratarse como partes acopladas de un mismo circuito parcial.
+
+Por eso:
+
+ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno =
+recepción efectiva
++ lectura inicial
++ validación temprana
++ sedimentación
++ potencia relacional
++ aproximación transaccional
++ reingreso de huellas
++ diagnóstico
++ corrección
++ actualización
++ nueva entrada modulada.
+]"}
+
+{"address":"graph/edge/ACCD-Comparecencia-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Comparecencia-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Comparecencia",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La comparecencia abre el umbral mínimo de presencia efectiva a partir del cual esta secuencia local puede comenzar a operar."
+}}
+
+{"address":"graph/edge/ACCD-Atencion-Organizada-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Atencion-Organizada-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Atencion-Organizada",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La atención organizada convierte la respuesta dispersa del entorno en materia operable capaz de sostener lectura, validación y acumulación posterior."
+}}
+
+{"address":"graph/edge/ACCD-Lectura-Inicial-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Lectura-Inicial-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Lectura-Inicial",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La lectura inicial da inteligibilidad temprana a la recepción y permite que la secuencia no se reduzca a mera visibilidad sin procesamiento."
+}}
+
+{"address":"graph/edge/ACCD-Validacion-Inicial-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Validacion-Inicial-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Validacion-Inicial",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La validación inicial marca el primer umbral de confirmación de que la comparecencia produjo compatibilidad mínima y no solo ruido."
+}}
+
+{"address":"graph/edge/ACCD-Perfil-de-Respuesta-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Perfil-de-Respuesta-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Perfil-de-Respuesta",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"El perfil de respuesta tipifica la forma concreta en que el entorno respondió y vuelve esa respuesta usable para transiciones posteriores."
+}}
+
+{"address":"graph/edge/ACCD-Validacion-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Validacion-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Validacion",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La validación introduce el umbral donde la respuesta deja de ser solo recepción y empieza a adquirir reconocimiento con peso estructural."
+}}
+
+{"address":"graph/edge/ACCD-Capital-Institucional-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Capital-Institucional-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Capital-Institucional",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"El capital institucional sedimenta la validación acumulada y le da espesor suficientemente estable dentro de la trayectoria local."
+}}
+
+{"address":"graph/edge/ACCD-Activo-Relacional-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Activo-Relacional-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Activo-Relacional",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"El activo relacional convierte la sedimentación en potencia operable y acerca la secuencia a relaciones efectivas de valor y movilización."
+}}
+
+{"address":"graph/edge/ACCD-Acoplamiento-al-Mercado-del-Dinero-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Acoplamiento-al-Mercado-del-Dinero-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Acoplamiento-al-Mercado-del-Dinero",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"El acoplamiento al mercado del dinero introduce el borde transaccional donde la forma validada intenta entrar en régimen económico efectivo."
+}}
+
+{"address":"graph/edge/ACCD-Manifestacion-Material-o-Captura-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Manifestacion-Material-o-Captura-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Manifestacion-Material-o-Captura",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La manifestación material o captura marca el punto efectivo desde el cual una huella puede reingresar al sistema y abrir el tramo de retorno."
+}}
+
+{"address":"graph/edge/ACCD-Lectura-de-Evidencia-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Lectura-de-Evidencia-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Lectura-de-Evidencia",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La lectura de evidencia traduce huellas del entorno en señal interpretable y vuelve posible el diagnóstico estructural del caso."
+}}
+
+{"address":"graph/edge/ACCD-Diagnostico-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Diagnostico-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Diagnostico",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"El diagnóstico hace decidible qué ocurrió estructuralmente y evita que el retorno quede reducido a observación sin clasificación."
+}}
+
+{"address":"graph/edge/ACCD-Correccion-Local-o-del-Modelo-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Correccion-Local-o-del-Modelo-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Correccion-Local-o-del-Modelo",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La corrección introduce intervención efectiva sobre pieza, caso o formalismo, y convierte el retorno en aprendizaje operativo real."
+}}
+
+{"address":"graph/edge/ACCD-Actualizacion-de-Estado-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Actualizacion-de-Estado-feeds-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Actualizacion-de-Estado",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"feeds",
+  "rationale":"La actualización de estado registra el cambio efectivo producido por la corrección y evita que la secuencia quede en ajuste meramente intencional."
+}}
+
+{"address":"graph/edge/ACCD-Nueva-Entrada-Modulada-reenters-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno","content":{
+  "id":"ACCD-Nueva-Entrada-Modulada-reenters-ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "from":"ACCD-Nueva-Entrada-Modulada",
+  "to":"ACCD-Secuencia-Parcial-de-Recepcion-Convertibilidad-y-Retorno",
+  "type":"reenters",
+  "rationale":"La nueva entrada modulada reingresa al sistema ya afectada por historia, diagnóstico y actualización previos, cerrando el circuito local de la secuencia."
+}}

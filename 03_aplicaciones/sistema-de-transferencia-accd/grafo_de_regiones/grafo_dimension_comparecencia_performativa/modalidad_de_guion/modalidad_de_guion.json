@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion",
+    "label": "modalidad_de_guion",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion",
+    "summary": "Modalidad general bajo la cual el guion comparece como pieza realizable.",
+    "section": "9.2",
+    "value_type": "Categorial cerrado",
+    "cardinality": "Un valor obligatorio"
+  }
+}

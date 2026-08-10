@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida",
+    "label": "comprension_rapida",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida",
+    "summary": "Valor comprension_rapida declarado para el campo efecto_buscado.",
+    "metadata": {
+      "value_of": "efecto_buscado",
+      "source_section": "4.2",
+      "suggested_value": true
+    }
+  }
+}

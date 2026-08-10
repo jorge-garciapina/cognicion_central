@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-x_image_post-x_image_post",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-x_image_post-x_image_post",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-x_image_post-x_image_post",
+    "type": "has_value",
+    "rationale": "x_image_post es un valor nuevo incorporado en aplicacion_de_plataforma para la realización imagen."
+  }
+}

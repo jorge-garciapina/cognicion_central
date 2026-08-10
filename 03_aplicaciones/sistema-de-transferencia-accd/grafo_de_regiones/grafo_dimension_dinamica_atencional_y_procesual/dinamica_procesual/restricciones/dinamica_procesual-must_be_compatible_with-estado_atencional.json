@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_be_compatible_with-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_be_compatible_with-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+    "type": "must_be_compatible_with",
+    "rationale": "La dinámica procesual debe ser compatible con el estado atencional."
+  }
+}

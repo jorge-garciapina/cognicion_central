@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-ilustrar_idea-ilustrar_idea",
+  "content": "**Definición.** Valor que indica que una idea debe recibir una representación visual que la haga más accesible, evocadora o concreta. La ilustración no tiene que agotar el concepto; puede funcionar como ejemplo, escena, símbolo, imagen de apoyo, figura metafórica o materialización parcial.\n\n**Diferenciación semántica.** Se diferencia de `traducir_concepto_a_imagen` porque la ilustración puede acompañar una idea sin trasladar toda su estructura conceptual al campo visual. Se diferencia de una imagen puramente decorativa porque su presencia conserva una relación semántica con la idea que representa.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la imagen debe ayudar a reconocer, sentir o imaginar la idea, aunque no necesariamente explique todas sus relaciones internas.\n\n---"
+}

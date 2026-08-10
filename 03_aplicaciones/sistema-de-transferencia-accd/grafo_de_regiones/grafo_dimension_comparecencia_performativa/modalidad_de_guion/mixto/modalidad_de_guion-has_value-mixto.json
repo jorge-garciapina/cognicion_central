@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto",
+    "type": "has_value",
+    "rationale": "mixto es un valor declarado para el campo modalidad_de_guion."
+  }
+}

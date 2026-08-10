@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada",
+    "label": "formulacion_abierta_controlada",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada",
+    "summary": "Valor formulacion_abierta_controlada declarado para el campo formulacion_de_la_idea.",
+    "metadata": {
+      "value_of": "formulacion_de_la_idea"
+    }
+  }
+}

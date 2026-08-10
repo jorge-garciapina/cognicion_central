@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion",
+    "type": "has_internal_field",
+    "rationale": "recapitulacion es un eje interno obligatorio declarado dentro de dinamica_procesual."
+  }
+}

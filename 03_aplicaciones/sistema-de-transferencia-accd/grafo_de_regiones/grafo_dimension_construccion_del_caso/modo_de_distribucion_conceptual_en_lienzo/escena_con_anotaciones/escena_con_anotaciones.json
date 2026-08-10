@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-escena_con_anotaciones-escena_con_anotaciones",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-escena_con_anotaciones-escena_con_anotaciones",
+    "label": "escena_con_anotaciones",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-escena_con_anotaciones-escena_con_anotaciones",
+    "summary": "**Definición.** Distribución que parte de una imagen o escena principal y añade notas, etiquetas, líneas, llamadas o explicaciones localizadas. Es útil cuando una situación concreta contiene elementos que deben ser identificados o interpretados sin separar la escena de su explicación.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

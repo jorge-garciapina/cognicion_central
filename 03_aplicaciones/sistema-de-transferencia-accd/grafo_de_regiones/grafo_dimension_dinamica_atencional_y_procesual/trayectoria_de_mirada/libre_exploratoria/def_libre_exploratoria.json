@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-libre_exploratoria-libre_exploratoria",
+  "content": "**Definición.** Recorrido en el que la composición permite que la mirada explore sin una ruta única obligatoria. La lectura se apoya en focos múltiples, zonas autónomas o agrupaciones que pueden revisarse en distinto orden sin perder sentido global.\n\n**Diferenciación semántica.** Se diferencia de una composición desordenada porque la libertad sigue siendo controlada por jerarquía, agrupación o coherencia visual. Se diferencia de `guiada_por_grilla` porque no impone un patrón modular dominante.\n\n**Interpretación mínima.** La IA debe entender que puede haber múltiples puntos de lectura, pero todos deben pertenecer a una organización reconocible."
+}

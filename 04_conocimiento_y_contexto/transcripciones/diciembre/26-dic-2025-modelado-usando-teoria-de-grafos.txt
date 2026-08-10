@@ -1,0 +1,441 @@
+[TRANSCRIPCIÓN — MODELADO USANDO TEORÍA DE GRAFOS]
+[Nota general: respeté lo más posible la redacción original. En fragmentos menos claros marqué [dudoso] o [tachado].]
+
+[PÁGINA 1]
+
+[Modelado usando teoría de grafos]    [tachado]    vie-26-dic-2025
+
+Las operaciones que estudié ayer abarcan muchas de las ideas que había tenido acerca de lo que es posible usando mi sistema, eso me hace pensar que el modelado de ideas usando grafos es el punto de partida para la implementación de las ideas que he tenido.
+En este estudió definiré la forma de modelar las ideas. Es una tarea que requiere cambiar mi forma de pensar en las cosas, y en cómo entiendo todo.
+Ahora que estudio en detalle el modelado de ideas, un hecho se hace visible: lo complicado de modelar las ideas es que no hay un único modelo, sino que existe un modelo para cada contexto que se esté trabajando.
+Ejemplo 1: modelo relacional básico. (Interpretación lingüística)
+   • Nodo: manzana
+   • Nodo: fruta
+   • Arista: "es-un_tipo_de"
+
+Ejemplo 2: modelo por similitud (En este modelo se agrupa)
+   • Nodo: manzana
+   • Nodo: pera
+   • Nodo: plátano
+   • Aristas: "similar_a"
+
+Ejemplo 3: modelo contextual (Cercano a cómo funciona la IA)
+   • Nodo: manzana
+   • Nodo: comer
+   • Nodo: árbol
+   • Nodo: jugo
+   • Aristas: "aparece_con"
+
+[PÁGINA 2]
+
+En el pasado ya había pensado (indirectamente) en esto, cuando decía que el sistema podía se utilizado para cualquier cosa, era verdad, lo único que se requiere es comprender contexto y crear un modelo adecuado para dicho contexto.
+Esto me hace pensar en algunas cosas, principalmente relacionadas con la forma en la que se percibe la realidad, ya que cada concepto con el que se encuentre cualquier persona dependerá del contexto particular.
+La educación requerirá primero la capacidad de definir el contexto con el que se trabajará. Tanto [lo que se va a enseñar] como el [contexto base] de cada estudiante tienen que ser compatibles. Esto hace que broten algunas preguntas:
+  • ¿Cómo medir la compatibilidad?
+  • ¿Es necesario primero definir el contexto y después el [núcleo invariante] y [el modelo de grafo de persona]?
+  • ¿Primero definir el núcleo y después el contexto?
+Así, algo que podría decirse del modelado usando grafos es:
+1 -> Todos los modelos son distintos y todos son correctos para distintos fines
+2 -> • Un nodo no representa "la cosa en sí"; representa una distinción que se decide hacer.
+     • Una arista no representa "la verdad"; representa una relación que me interesa estudiar.
+Es muy complicado seguir sin un punto de referencia, en vez de eso, usaré el estudio realizado por personas que ha llegado antes que yo: es momento de pararme sobre hombros de gigantes.
+Preguntas previas:
+- ¿Son válidas las operaciones usando ontología?
+
+[PÁGINA 3]
+
+Lo que chatGPT comprende de mi proyecto
+   Tú estás preguntando cosas como:
+     • ¿Cómo se transforma X según el contexto?
+     • ¿Cómo se realiza una idea en múltiples formas?
+     • ¿Qué se preserva y qué cambia?
+     • ¿Qué caminos son válidos desde una intención a una intervención?
+   Eso es estructural y dinámico, no sólo ontológico
+   Se estudia el acto de convertir significado, ideas y contextos en estructura
+
+Sobre la ontología
+  Conjunto explícito de compromisos sobre qué tipos de cosas existen y cómo se distinguen entre sí.
+  Una ontología responde a la pregunta: ¿Qué tipos de cosas hay en este mundo que estoy describiendo?
+  No cómo funcionan, no cómo cambian, no cómo se transforman, sino qué son y qué clases de cosas admito como válidos,
+  En el contexto que me encuentro desarrollando, la ontología es una especificación explícita de los tipos de entidades, relaciones y propiedades que se permiten en un modelo, es decir:
+    - qué puede ser un nodo,
+    - qué puede ser una relación,
+    - qué tipos de relaciones existen,
+    - qué combinaciones son válidas.
+
+
+[PÁGINA 4]
+
+Ejemplo de la importancia de la ontología usando el concepto "manzana":
+SIN ONTOLOGÍA
+   Se tienen nodos y aristas sin reglas claras: (ver pag. 1)
+     • nodo: manzana
+     • nodo: rojo
+     • nodo: comer
+   Pero no está claro:
+     • si "rojo" es una cosa, una propiedad o una acción
+     • si "comer" es una entidad o un proceso,
+     • si "manzana" y "comer" están al mismo nivel.
+   El grafo existe, pero carece de estructura conceptual explícita.
+CON ONTOLOGÍA
+   Al introducir una ontología simple, por ejemplo:
+   + Tipos de identidad:
+     - Objeto
+     - Propiedad
+     - Acción
+   + Reglas:
+     - Un Objeto puede tener propiedades
+     - Un Objeto puede participar en Acciones
+     - Una propiedad no actúa por sí sola.
+   Entonces
+      • manzana -> Objeto
+      • rojo -> Propiedad
+      • comer -> Acción
+   Y las relaciones válidas quedan claras.
+   Eso es una ontología
+
+Qué hace exactamente una ontología
+1. Define categorías:
+   - Objeto, concepto, proceso, rol, evento etc.
+2. Define relaciones permitidas
+   - es-un-tipo-de
+   - tiene-propiedad
+   - participa_en
+
+
+[PÁGINA 5]
+
+3. Define restricciones
+   - qué puede relacionarse con qué
+   - qué no tiene sentido modelar
+4. Reduce ambigüedad
+   - no elimina toda ambigüedad semántica,
+   - pero evita errores estructurales
+
+Un grafo no es una ontología. Una ontología usa grafos como soporte.
+  • El grafo es la forma (nodos y aristas).
+  • La ontología es el acuerdo semántico sobre qué significan esos nodos y aristas.
+Sin ontología:
+  El grafo es libre, flexible, pero ambiguo
+Con ontología:
+  El grafo es más rígido, pero más interpretable y validable.
+
+27-dic-2025
+
+En la última pregunta que le hice el chat aclaró varios conceptos, quiero transcribir aquí algunas de esas aclaraciones para tenerlos como referencias futuros:
+1. Una [ontología] en el sentido técnico (modelado de conocimiento), no "define conceptos" como lo haría un diccionario o una teoría filosófica. Lo que hace es:
+     • tipificar (asignar tipos y categorías),
+     • restringir (declarar qué relaciones son válidas),
+     • formalizar (hacer explícitas relaciones como jerarquías, propiedades, dominio/rango)
+   En otras palabras: una ontología no "crea" el significado; fija un esquema formal para hablar sobre él.
+
+
+[PÁGINA 6]
+
+2. Una [ontología] puede representarse como un grafo (nodos y relaciones tipificados), pero su función principal es especificar tipos, relaciones permitidos y restricciones; no "definir el significado" en un sentido pleno, sino imponer un marco formal para representarlo.
+3. La [ontología] aporta un marco de tipos y restricciones (qué clases de nodos/relaciones existen y cuáles son válidos). El [enfoque de realización] aporta un marco de transformación (cómo se pasa de una representación abstracta a una intervención contextual), que puede operar con o sin una ontología rica, aunque se beneficia de una ontología mínima.
+4. Una [ontología] no es necesaria para crear un grafo, pero sí puede ser necesaria si se desea:
+     a) evitar ambigüedad sistémica,
+     b) validar automáticamente el modelo,
+     c) compartirlo con otros sistemas sin pérdida de significado.
+5. Puede ser útil una analogía: la [ontología] juega un papel similar al de "tipo/estructura_permitida" y el [enfoque de realización] juega un papel similar al de "operaciones de transformación"; sin embargo, no debe asumirse que dichas operaciones tengan propiedades algebraicas como linealidad.
+Hasta donde puedo ver, la [ontología] resuelve los problemas que tengo sobre cómo modelar las cosas. En las distintas aplicaciones que se me ocurren, lo más importante es definir las relaciones entre los distintos componentes que conforman el [todo] de cada aplicación: núcleo, contextos, etc. A partir de dichas representaciones es posible proponer transformaciones entre dominios.
+
+[PÁGINA 7]
+
+En pocas palabras, la [ontología] es necesaria (de hecho, es exactamente lo que me encontraba buscando) para la modelación. Los patrones de creación que he estado estudiando y desarrollando son posibles si existe un modelo de las ideas y conceptos.
+La forma en la que interactúan tanto la [ontología] como la [realización contextual] lo provee (al menos una idea-semilla) el chat:
+
+[INICIO RECUADRO]
+
+Capa 1: Capa de descripción (ontológica o tipada)
+   * Define qué tipos de cosas existen en el modelo;
+     • entidad      
+     • intención    
+     • restricción
+     • concepto     
+     • contexto     
+     • evidencia (observación o dato)
+     • proceso      
+     • intervención
+   * Define tipos de relaciones:
+     • es-un-tipo-de     
+     • habilita           
+     • adapta-a      
+     • transforma
+     • tiene-propiedad   
+     • se_transforma_en   
+     • preserva
+     • requiere          
+     • realiza            
+     • restringe     
+     • soporta
+   * Define restricciones mínimas:
+     • por ejemplo: una "Intervención" puede realizar una "Intención"; pero una "Propiedad" no puede "realizar" nada.
+   No se requiere una ontología grande; puede ser un vocabulario tipado mínimo.
+
+Capa 2: Capa dinámica (realización contextual).
+   * Define transformaciones
+     • cómo se pasa de núcleo -> intervención, dado un contexto
+   * Define familias de transformaciones;
+     • conjunto de rutas alternativas válidos.
+   * Define validaciones:
+     • qué invariantes deben preservarse.
+   Esto es "cómo", pero en el sentido de proceso y transformación, no en el sentido de "qué relaciones son legales".
+[FIN RECUADRO]
+
+
+[PÁGINA 8]
+
+Examen de control
+Modelado conceptual con grafos, ontología mínima y realización contextual.
+Parte I
+   1. Lenguaje y significado.
+     a) En el caso "manzana", "rojo" es una propiedad que se utiliza para describir una característica de la manzana.
+        Debido a que no sólo existen manzanas rojos, "rojo" pertenece a una categoría mayor (o "categorías mayores").
+        características:
+        - visuales:
+          + color:
+            * rojo
+            * verde
+            * amarillo
+          + forma
+          + etc.
+        - gustativas:
+          + dulce
+          + amarga
+     b) En "manzana", "fruta" es una categoría a la que "manzana" pertenece. No me queda claro por qué pertenecería a alguna de los categorías dados, diría que contexto es la más cercana, pero no sé por qué.
+     
+[PÁGINA 9]
+
+Parte II -> educación: enseñanza del concepto "vectores"
+   2. Identificación de elementos.
+     a) En el caso de enseñanza el término "vectores" es un concepto. No es intervención ya que ésta se entiende como una "adaptación" del núcleo a un contexto. No es contexto, en el caso de este problema cada estudiante es un contexto.
+     b) "Explicación con analogías visuales" es una intervención. La intención es que los estudiantes aprendan, y la evidencia podría ser un examen o una prueba en la que se evalúa que los estudiantes han aprendido
+     c) "Conocimientos previos del estudiante" es el contexto, el cuál es único para cada alumno. El alumno con formación matemática sólida tiene un contexto, el alumno con dificultades conceptuales tiene otro.
+   3. Núcleo e invariantes.
+     Deben permanecer invariantes:
+       - El formalismo matemático, ya que si éste cambia entonces no habría forma de saber qué es un vector,
+       - La definición estructural del vector: misma razón.
+
+Parte III -> Venta de seguros: una vendedora ofrece el mismo seguro de gastos médicos mayores a distintos clientes.
+   4. Clasificación ontológica
+      a) "seguro de gastos médicos mayores tipo A" es un concepto
+         Nota:
+         Aquí yo diría que es un "núcleo invariante", aunque comprendo que "concepto" es aceptable, pero al aceptarlo, entonces habría que aceptar que un "concepto" es un grafo (al menos, el grafo del contrato) ¿sucede lo mismo con todos los conceptos?
+      
+      [PÁGINA 10]
+      
+      b) "Miedo del cliente a endeudarse" es un contexto, ya que así como hay clientes con ese miedo, hay otros que buscan adquirir un seguro
+         Nota: Si mi respuesta es correcta ¿qué es una restricción en este contexto? Estaba pensando, por ejemplo en "cliente no tiene dinero, pero eso sigue siendo un contexto del cliente.
+      c) La objeción "nunca me enfermo", al igual que el caso anterior, es algo característico del cliente.
+      Nota global: Parece que los casos b) y c) hacen evidente que es muy importante diferenciar el proceso de [realización contextual] y el [proceso de ventas]. Para el proceso de [realización contextual], las respuestas b) y c) son correctos, para el [proceso de ventas] ambos tienen la apariencia de ser "algo más", aunque todavía no sé qué, ya que aún no llegamos a ese punto.
+                   Es importante ser estricto en este punto, ya que me parece importante, si mi visión es correcta, así como hay un [proceso de ventas] en esta aplicación, habrá el [proceso de enseñanza] en educación (una "clase", por ejemplo), [proceso de creación de script] para un nicho (al hacer un video).
+                   En el pasado manejaba esto como "fractalidad", y hoy lo veo como un subgrafo.
+   5. Realización contextual
+      Si el discurso cambia pero el producto no, entonces se está experimentando un cambio de intervención.
+
+[PÁGINA 11]
+
+Parte IV -> Fabricación: El mismo modelo de automóvil se fabrica en dos plantas con proveedores y logística distintos.
+   6. Identificación estructural.
+      a) El modelo de un automóvil es un concepto, tiene sus características e invariantes propios, cada planta debe apegarse a dicho diseño.
+      b) El proveedor local de piezas es un contexto: en cada planta son distintos (los proveedores), pero eso no debe afectar el producto final, el cual se adapta al diseño.
+      c) El proceso de ensamblaje específico de la planta es una restricción: sólo se permite un número limitado de modelos.
+   7. Si cambian las tolerancias y especificaciones del diseño, entonces se rompería la identidad del producto. El resto de los opciones cambian de fábrica a fábrica.
+
+Parte V -> Videos y nichos: Un creador adapta el mismo “Tema A” a videos para adolescentes y para profesionistas.
+8. Clasificación
+     a) “Tema A” es un concepto (aquí se hace patente, de nueva cuenta el problema resaltado en 4. clasificación ontológica, inciso a): ¿cuál es la diferencia entre “núcleo” y “concepto”?
+     b) “Formato corto con humor rápido” es una intervención. Se pueden hacer [tachado] videos con formato corto y humor rápido para distintos contextos.
+     c) Aquí sucede algo similar a lo que se menciona en la Nota global de la página 10: TikTok es un contexto “hermano” de otros [contextos de distribución] (YouTube, Instagram, Facebook, etc.); la [distribución] parece tener [similitud metafórica] con los [procesos] mencionados en la nota global.
+   
+[PÁGINA 12]
+   
+   Lo anterior pone en evidencia un hecho innegable:
+   Es necesario hacer una distinción entre:
+   • Ejecución:
+       - Conversación con un cliente potencial. (en línea, cara a cara)
+       - Clase en la que se busca enseñar (en línea, cara a cara)
+       - Subida de un video (TikTok, YouTube, Instagram, etc.)
+       En los 3 casos se pueden usar distintos medios de [ejecución], pero dichos medios, aunque son [contextos de ejecución] no deben confundirse con las [personas] (por ejemplo: adolescentes y profesionistas son dos [contextos] para el “Tema A”, pero no son contextos “hermanos” de los [contextos de ejecución])
+   • Sujeto:
+     En el inciso anterior lo denominé como [persona] pero ese término limita a humanos: la fábrica de automóviles no es una “persona” pero sí un sujeto (en la oración “la fábrica es grande” ¿quién es el sujeto?).
+     Para describir el [contexto de sujeto] en los términos de este estudio
+     - El [sujeto] es el destinatario de la [intención]
+     - Una [Intervención] es una acción concreta para traducir la estructura del núcleo al [sujeto]
+     - Una [Intención] es un efecto deseado en el [sujeto]
+
+
+[PÁGINA 13]
+
+   9. Familia de transformaciones.
+     El chat hace una pregunta que se responde con el título, así que mejor diré:
+     Una [familia de transformaciones] es el conjunto de puentes que llevan del núcleo a cada uno de los [contextos de sujeto].
+
+Parte VI -> Grafos y modelado
+10. Nodos y aristas.
+   En un grafo que modela: “Tema A -> video para adolescentes”:
+     a) El “tema A” es el núcleo (o [concepto]); ver notas de 8. clasificación inciso c y 4. clasificación ontológica inciso a).
+     b) La arista dirigida podría leerse como: “se_traduce_como” o “se_adapta_al_nicho_adolescentes”; es decir, representa una adaptación (¿cuál es el término correcto?) a un nicho particular (el “video para adolescentes” es una [intervención])
+     c) La flecha indica una operación que convierte el “tema A” en una [intervención] concreta (video para adolescentes), sin la flecha “tema A” y “video para adolescentes” serían tratados “al mismo nivel”, lo cual llevaría a confusiones,
+        Nota: Quiero que explores esto en mayor detalle, no estoy satisfecho con mi respuesta ni con el entendimiento que tengo sobre el significado de la flecha.
+
+
+[PÁGINA 14]
+
+Parte VII -> Ontología y Realización Contextual.
+   11. Preguntas conceptuales
+     Las siguientes son preguntas ontológicas:
+       • “¿Qué tipos de cosas existen en el modelo?”
+       • “¿Qué relaciones están permitidas?”
+     Las siguientes preguntas pertenecen al Enfoque de Realización Contextual:
+       • “¿Cómo se adapta esta idea a este contexto?”
+       • “¿Qué se preserva cuando adapto esto?”
+   12. Preguntas críticas.
+      • ¿Puede existir [Realización Contextual] sin [Ontología] explícita?
+        Antes, en una pregunta previa, el chat dijo: Puedes construir un grafo sin ontología (de hecho, la mayor parte de los grafos en el mundo real se construyen así al inicio). Lo que pierdes sin ontología es:
+          + Validación de tipos,
+          + consistencia,
+          + interoperabilidad,
+          + capacidad de inferencia formal.
+      Usando esa respuesta debo decir: si no hay capacidad de inferencia, entonces no es posible saber qué partes del núcleo deben conservarse ([invariantes]) en cada [Intervención]. Con esto basta para decir que no es posible la [Realización Contextual] sin una [Ontología]
+      • ¿Puede existir ontología sin Realización contextual?
+        Sí, no sólo “puede”, sino que ya existe, y de hecho primero es la ontología (modelado) y sólo después de definirla, la Realización contextual es posible.
+
+[PÁGINA 15]
+
+Parte VIII -> Transferencia: Un mismo protocolo médico se aplica a pacientes con edades y condiciones distintas.
+   Clasificar los siguientes conceptos;
+      a) “Protocolo médico”:
+         Es el núcleo invariante: el mismo aplicado a diversos pacientes.
+      b) “Edad del paciente”:
+         Es un ejemplo de [contexto de sujeto], tal y como fue definido en la página 12.
+      c) “Ajuste de dosis”:
+         Es una [Intervención], ya que se busca adaptar el protocolo a un [sujeto]
+
+- Fin de examen
+
+29-dic-2025
+Comentarios de las respuestas:
+
+1. Algo que debe notarse es que con el modelado que se está utilizando “el mismo nodo puede cambiar de rol” según el proceso que se esté modelando.
+2. Uno de los comentarios que hice (ver nota global pag.10) “existen dos categorías:
+     - Categoría ontológica: tipos y relaciones
+     - categoría de realización: ejecución de un proceso
+   Al usar éstas dos categorías entonces es posible pensar en las verdaderas aplicaciones para el sistema. También es posible pensarlos como:
+     - Núcleo conceptual
+     - Adaptación
+
+
+[PÁGINA 16]
+
+3. Hasta este momento sólo he pensado en [procesos de realización] ejecutados por humanos, por ejemplo:
+   - Un proceso de elicitación requiere una estructura ¿Qué información se busca obtener? ¿cuál será el camino elegido para la entrevista?
+   - En una clase (usando el sistema) todo lo que será dicho, los ejemplos elegidos, las comparaciones y en general, la estructura de la clase será creada por una categoría ontológica, mientras que la ejecución será realizada por los profesores,
+   - En las ventas, la entrevista con el cliente la lleva a cabo el vendedor, pero la adaptación contextual se realiza usando un modelado ontológico.
+
+4. El comentario anterior me hace pensar que estoy viendo la aplicación de los nichos de una forma equivocada.
+   Si la [ejecución] (o [proceso de realización]) es la parte que ejecuta la [interfaz humana], entonces “leer el script frente a una cámara” no es la ejecución (eso puede ser reemplazado fácilmente por la IA). La pregunta es ¿cuál es el [equivalente estructural] de una clase (educación) o una entrevista (elicitación, ventas) para la aplicación de nicho? Lo que debo ver aquí es que no hay una respuesta correcta, más bien, la respuesta depende de cómo se realice el modelado ontológico de la aplicación id est: cuáles sean las [invariantes] de cada aplicación, por ejemplo:
+   - Para un canal de divulgación sin otro fin que divulgar ideas, la [ejecución] se limita a subir y crear los videos.
+   - Para un canal con fines comerciales, la ejecución requiere también interactuar con la comunidad, buscar patrocinios, etc.
+
+
+[PÁGINA 17]
+
+   Lo anterior me hace pensar que si “elevo la conversación de nivel”, entonces cada aplicación que haga es sólo una adaptación contextual de un núcleo ¿qué es el núcleo? soy yo.
+
+5. “El proceso de creación se adapta al diseño”, si lo pienso desde un punto de vista personal, antes de crear aplicaciones primero debo detectar para qué las quiero. Cada [nodo de realidad] será un contexto en el que [ejecuto] cada aplicación propuesta,
+6. La noción de “similitud metafórica” apunta directamente al concepto de [homomorfismo estructural]. Esto de acuerdo con este comentario del chat, usar [homomorfismo estructural] permite concebir operaciones sobre las estructuras
+   • Sobre las aristas dirigidas:
+     Son funciones dirigidos que:
+     - preservan invariantes
+     - cambian forma
+     - tiene dominio y codominio
+     - No es reversible en general (explorar esto)
+     - Parece un homomorfismo dirigido entre estructuras (explorar)
+7. La [familia de transformaciones] es el conjunto de todos los [puentes] que conectan el núcleo con cada uno de los contextos.
+   GRAFOS = [
+     {
+       nombre: "Preferencias culinarias",
+       entidades: [],
+       nodos: [
+         { identificador: "núcleo", entidades_contenedoras: [] },
+         { identificador: "contexto 1", entidades_contenedoras: [] },
+         { identificador: "contexto 2", entidades_contenedoras: [] },
+         { identificador: "contexto 3", entidades_contenedoras: [] },
+         
+       ],
+       aristas: [
+         { origen: "núcleo", destino: "contexto 1", type: "puente"},
+         { origen: "núcleo", destino: "contexto 2", type: "puente"},
+         { origen: "núcleo", destino: "contexto 3", type: "puente"},
+       ]
+     }
+   ]
+
+   Visto así, tanto los [contextos] como los [puentes] son conjuntos con características propios. ¿Qué propiedades comparten los elementos de cada grupo? Esto ya está más cerca de un modelado formal.
+
+
+[PÁGINA 18]
+
+8. Para complementar el comentario 2 en la página 15:
+   Ejecución; acto concreto y situado en el tiempo.
+   En términos abstractos:
+     - Ejecución = instancia concreta de una intervención
+     - Ocurre:
+       * en un tiempo
+       * en un lugar
+       * mediante un medio -> [contexto de ejecución]
+   - Ejemplos:
+     * Una llamada telefónica específica
+     * Una clase mañana a las 10:00am
+     * Un video subido el martes a TikTok
+   - Mientras que los contextos persisten, las ejecuciones ocurren y desaparecen.
+   - Ejemplos de [contextos de ejecución]:
+     * TikTok
+     * YouTube
+     * clase presencial
+     * clase en línea,
+     Es el entorno estructural que condiciona cómo puede ejecutarse una intervención
+       * TikTok condiciona duración, ritmo, formato.
+       * Aula presencial condiciona interacción, feedback.
+       * Zoom condiciona turnos, latencia, visualidad.
+
+9. Sobre el [sujeto]:
+Un sujeto es: cualquier entidad capaz de ser destinataria de una intención.
+Algunos ejemplos de sujetos son:
+   * personas
+   * grupos
+   * organizaciones
+   * instituciones
+   * sistemas (en ciertos marcos)
+
+En este punto encuentro una similitud entre mis ideas y la lengua. En la oración:
+   "La fábrica es grande",
+el sujeto es [la fábrica] mientras que [es grande] es una descripción que se hace con la intención de describir el tamaño. El [efecto deseado] es describir [grande] es la manifestación del efecto.
+
+
+[PÁGINA 19]
+
+Sobre las responsabilidades,
+Es sumamente importante cómo van a ejecutarse las distintas tareas de una aplicación. Hasta este momento mi idea consta de dos partes: [interfaz humana], [interfaz IA].
+Las responsabilidades de cada una de las partes depende de la aplicación concreta, hay una casi-regla que define el camino del trabajo:
+   Automatizar con IA el mayor número de procesos
+En el estado actual de desarrollo el dominio que tengo de la IA es mínimo, así que los [tareas] que puedo automatizar están limitados a la [generación supervisado de contenido].
+Aún no domino la API, así que la única interfaz con la que cuento es la interfaz web. Una ventaja que posee ésta interfaz es la creación de proyectos y la posibilidad de añadir documentos a éstos proyectos.
+Gracias a los artefactos puedo desarrollar código y después usarlo como parte del proyecto, lo cuál es útil.
+Habiendo dicho lo anterior, ahora es posible definir lass responsabilidades con mayor precisión:
+Interfaz humana:
+   Es la encargada de definir el camino a seguir, el ritmo de generación, el modelado ontológico, la supervisión del contenido.
+   Si uso los términos que usaba antes, la parte humana es el yang, es decir: la parte activa.
+Interfaz IA:
+   La IA es sólo una herramienta, es un error tratar de verla de otra forma. Usando el mismo lenguaje: la IA es la parte pasiva, por sí misma es incapaz de hacer nada, se limita a “recibir y engendrar”.
+
+
+[PÁGINA 20]
+
+Es necesario tener presente la nota 5 de la página 17, ya que cada una de los aplicaciones será diseñada con un fin, cada una de éstas tendrá su propio contexto e invariantes, en algunas la IA tendrá más responsabilidades, en otras menos, en general, los invariantes, los contextos y las intervenciones variarán, pero eso está bien, ya que debido a que no hay reglas, entonces es posible aplicar en cualquier cosa.
+Tenía dudas sobre cómo proceder debido a que no había
+visto que cada aplicación es distinto y yo quería hacer todas iguales; lo que se mantiene igual no son las responsabilidades de la IA y la parte humana, sino la forma de modelar el sistema. Al definir una arquitectura adecuada entonces muchos de los problemas que tengo ahora desaparecerán ya que una arquitectura incluirá todos los tipos y las relaciones que existen entre ellos, incluyendo tanto la organización como la ejecución ([ontología] y [realización]).
+A pesar de que aún no tengo una forma de modelado, con lo aprendido en éste estudio soy capaz de comenzar un nuevo proyecto de chatGPT con las definiciones mínimas para conseguir un modelado funcional.

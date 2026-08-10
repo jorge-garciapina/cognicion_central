@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-antes_despues_visual-antes_despues_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-antes_despues_visual-antes_despues_visual",
+    "label": "antes_despues_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-antes_despues_visual-antes_despues_visual",
+    "summary": "**Definición.** Arquitectura que presenta dos estados de una misma situación para mostrar transformación. Su eficacia depende de que el receptor perciba continuidad entre los estados y diferencia clara entre condición inicial y resultado.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

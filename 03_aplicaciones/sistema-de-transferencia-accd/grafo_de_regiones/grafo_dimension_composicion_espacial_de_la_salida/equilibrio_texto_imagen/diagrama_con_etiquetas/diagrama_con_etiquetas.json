@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+    "label": "diagrama_con_etiquetas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+    "summary": "**Definición.** Relación donde el componente visual organiza la estructura y las etiquetas nombran partes, rutas o categorías. La palabra funciona como identificación local dentro del sistema gráfico.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-comparacion_lado_a_lado-comparacion_lado_a_lado",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-comparacion_lado_a_lado-comparacion_lado_a_lado",
+    "label": "comparacion_lado_a_lado",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-comparacion_lado_a_lado-comparacion_lado_a_lado",
+    "summary": "**Definición.** Distribución que coloca dos o más elementos en áreas paralelas del lienzo para que el receptor evalúe diferencias y similitudes sin cambiar de plano. Es especialmente útil cuando la oposición debe ser inmediata: antes/después, opción A/opción B, problema/solución, costo/beneficio o v",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

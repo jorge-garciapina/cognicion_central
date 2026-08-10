@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_sistematica-iconografia_sistematica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_sistematica-iconografia_sistematica",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-regimen_de_iconografia-iconografia_sistematica-iconografia_sistematica",
+    "type": "has_value",
+    "rationale": "iconografia_sistematica es un valor de regimen_de_iconografia incorporado para la realización carousel."
+  }
+}

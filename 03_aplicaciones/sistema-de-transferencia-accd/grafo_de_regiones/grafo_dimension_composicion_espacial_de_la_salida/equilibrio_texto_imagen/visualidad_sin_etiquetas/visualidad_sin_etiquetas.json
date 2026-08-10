@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-visualidad_sin_etiquetas-visualidad_sin_etiquetas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-visualidad_sin_etiquetas-visualidad_sin_etiquetas",
+    "label": "visualidad_sin_etiquetas",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-visualidad_sin_etiquetas-visualidad_sin_etiquetas",
+    "summary": "**Definición.** Relación donde no se identifican partes mediante rótulos. La comprensión depende de composición, reconocimiento visual o contexto, no de nombrar cada elemento.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen"
+    }
+  }
+}

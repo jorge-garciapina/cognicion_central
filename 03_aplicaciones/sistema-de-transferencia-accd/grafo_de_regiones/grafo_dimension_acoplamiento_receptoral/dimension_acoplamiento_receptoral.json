@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral",
+    "label": "dimension_acoplamiento_receptoral",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral",
+    "summary": "Dimensión que describe a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor.",
+    "metadata": {
+      "section": "6",
+      "function": "Describir a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida",
+    "label": "atencion_sostenida",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida",
+    "summary": "Valor declarado para el campo estado_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La atención ya tiene un grado fuerte de continuidad."
+  }
+}

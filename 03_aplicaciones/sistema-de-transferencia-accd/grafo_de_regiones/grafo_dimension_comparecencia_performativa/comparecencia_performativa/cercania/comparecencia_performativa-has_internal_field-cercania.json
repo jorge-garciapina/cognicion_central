@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania",
+    "type": "has_internal_field",
+    "rationale": "cercania es un campo interno declarado dentro de comparecencia_performativa."
+  }
+}

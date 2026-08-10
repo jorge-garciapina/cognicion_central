@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-timeline_estatico-timeline_estatico",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-timeline_estatico-timeline_estatico",
+    "label": "timeline_estatico",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo-timeline_estatico-timeline_estatico",
+    "summary": "**Definición.** Distribución que representa una secuencia temporal dentro de una imagen fija. No introduce movimiento real, sino orden cronológico o procesual condensado en el lienzo. Sirve para hitos, etapas, evolución, agenda, historia o fases.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-modo_de_distribucion_conceptual_en_lienzo"
+    }
+  }
+}

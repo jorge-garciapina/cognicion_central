@@ -1,0 +1,2730 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69f261b8-6078-83e8-9a6e-4ea25707ed02
+
+# Descripción de la carpeta `grafo_de_regiones/`
+
+## 0. Propósito del documento
+
+Este documento concentra en un solo archivo la estructura documental de `grafo_de_regiones/`. Su función es permitir que una IA o una persona pueda leer la organización general del grafo sin cargar todos los archivos individuales. La descripción se basa en rutas, nodos y aristas existentes; no copia el contenido completo de los JSON ni de las definiciones redundantes.
+
+## 1. Criterio de lectura
+
+- Se conserva la estructura por carpetas y archivos.
+- De cada archivo se muestra únicamente un `ID` y una descripción breve de su función dentro de la carpeta.
+- Se omiten los archivos JSON de definición `def_*.json`, porque su contenido repite la definición referenciada por los nodos.
+- Sí se incluyen archivos de nodo, archivos de arista, archivos raíz del grafo y archivos fuente `definicion.md` de cada dimensión.
+- La raíz `grafo_de_regiones/` se presenta como carpeta lógica; algunos paths del artefacto fuente aparecen relativos a esa raíz.
+
+## 2. Resumen cuantitativo
+
+- Archivos descritos: **771**.
+- Nodos descritos: **356**.
+- Aristas descritas: **405**.
+- Archivos fuente Markdown descritos: **10**.
+- Definiciones JSON omitidas: **356**.
+
+### 2.1. Distribución por dimensión o carpeta principal
+
+| Carpeta                                                      | Nodos | Aristas | Fuente Markdown | Otros | Total descrito |
+| ------------------------------------------------------------ | ----: | ------: | --------------: | ----: | -------------: |
+| `grafo_de_regiones.json`                                     |     1 |       0 |               0 |     0 |              1 |
+| `grafo_dimension_acoplamiento_receptoral/`                   |    36 |      43 |               1 |     0 |             80 |
+| `grafo_dimension_comparecencia_performativa/`                |    71 |      84 |               1 |     0 |            156 |
+| `grafo_dimension_composicion_segmental_de_la_salida/`        |    11 |      13 |               1 |     0 |             25 |
+| `grafo_dimension_construccion_del_caso/`                     |    43 |      43 |               1 |     0 |             87 |
+| `grafo_dimension_dinamica_atencional_y_procesual/`           |    40 |      47 |               1 |     0 |             88 |
+| `grafo_dimension_escala_temporal_y_resolucion_realizativa/`  |    25 |      34 |               1 |     0 |             60 |
+| `grafo_dimension_identidad_operativa_de_la_realizacion/`     |    17 |      18 |               1 |     0 |             36 |
+| `grafo_dimension_marco_de_materializacion/`                  |     8 |      11 |               1 |     0 |             20 |
+| `grafo_dimension_orientacion_funcional_pragmatica/`          |    50 |      52 |               1 |     0 |            103 |
+| `grafo_dimension_recursos_complementarios_de_manifestacion/` |    54 |      60 |               1 |     0 |            115 |
+
+## 3. Estructura descriptiva
+
+```txt
+grafo_de_regiones/
+```
+
+- `grafo_de_regiones.json`
+  - **ID:** `grafo_de_regiones`
+  - **Descripción:** Archivo de nodo `graph_root_node` para `grafo_de_regiones`. Nodo raíz del grafo de regiones; agrupa las dimensiones regionales disponibles para selección por instancias regionales. Función: Servir como contenedor raíz de las dimensiones regionales materializadas y como punto de entrada para navegación, indexación y selección regional. Metadatos principales: sección grafo_de_regiones.
+- `grafo_dimension_acoplamiento_receptoral/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_acoplamiento_receptoral/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_acoplamiento_receptoral`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor.
+  - `dimension_acoplamiento_receptoral.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_acoplamiento_receptoral`. Dimensión que describe a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor. Función: Describir a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor. Metadatos principales: sección 6.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_acoplamiento_receptoral.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral`. Relación declarada: grafo_dimension_acoplamiento_receptoral es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_acoplamiento_receptoral-references_existing_dimension_node-dimension_acoplamiento_receptoral.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral`. Relación declarada: grafo_de_regiones-grafo_dimension_acoplamiento_receptoral funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral.
+  - `grafo_dimension_acoplamiento_receptoral.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_acoplamiento_receptoral`. Dimensión que describe a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor. Función: Describir a qué receptor inmediato se orienta la realización y cómo debe ajustarse verbalmente a ese receptor. Metadatos principales: sección 6.
+  - `adecuacion_lexico_formulativa/`
+    - `adecuacion_lexico_formulativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa`
+      - **Descripción:** Archivo de nodo `compound_field_node` para `adecuacion_lexico_formulativa`. Campo que describe el ajuste verbal dominante de la realización en función del receptor. Metadatos principales: sección 6.2; tipo de valor: Compuesto; cardinalidad: Un valor obligatorio compuesto por cinco ejes.
+    - `dimension_acoplamiento_receptoral-has_field-adecuacion_lexico_formulativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral-has_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa`. Relación declarada: adecuacion_lexico_formulativa es un campo directo declarado dentro de dimension_acoplamiento_receptoral.
+    - `accesibilidad_lexica/`
+      - `accesibilidad_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `accesibilidad_lexica`. Eje interno que describe la accesibilidad léxica de la realización. Metadatos principales: sección 6.2.4; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio dentro de adecuacion_lexico_formulativa.
+      - `adecuacion_lexico_formulativa-has_internal_field-accesibilidad_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica`. Relación declarada: accesibilidad_lexica es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa.
+      - `alta/`
+        - `accesibilidad_lexica-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-alta-alta`. Relación declarada: alta es un valor declarado para el campo interno accesibilidad_lexica.
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta declarado para el campo interno accesibilidad_lexica.
+      - `baja/`
+        - `accesibilidad_lexica-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-baja-baja`. Relación declarada: baja es un valor declarado para el campo interno accesibilidad_lexica.
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja declarado para el campo interno accesibilidad_lexica.
+      - `media/`
+        - `accesibilidad_lexica-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-media-media`. Relación declarada: media es un valor declarado para el campo interno accesibilidad_lexica.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media declarado para el campo interno accesibilidad_lexica.
+    - `densidad_terminologica/`
+      - `adecuacion_lexico_formulativa-has_internal_field-densidad_terminologica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica`. Relación declarada: densidad_terminologica es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa.
+      - `densidad_terminologica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `densidad_terminologica`. Eje interno que describe la densidad terminológica de la realización. Metadatos principales: sección 6.2.2; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio dentro de adecuacion_lexico_formulativa.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta declarado para el campo interno densidad_terminologica.
+        - `densidad_terminologica-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-alta-alta`. Relación declarada: alta es un valor declarado para el campo interno densidad_terminologica.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja declarado para el campo interno densidad_terminologica.
+        - `densidad_terminologica-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-baja-baja`. Relación declarada: baja es un valor declarado para el campo interno densidad_terminologica.
+      - `media/`
+        - `densidad_terminologica-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media`. Relación declarada: media es un valor declarado para el campo interno densidad_terminologica.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media declarado para el campo interno densidad_terminologica.
+    - `grado_de_abstraccion/`
+      - `adecuacion_lexico_formulativa-has_internal_field-grado_de_abstraccion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion`. Relación declarada: grado_de_abstraccion es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa.
+      - `grado_de_abstraccion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `grado_de_abstraccion`. Eje interno que describe el grado de abstracción de la formulación. Metadatos principales: sección 6.2.3; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio dentro de adecuacion_lexico_formulativa.
+      - `abstracto/`
+        - `abstracto.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto`
+          - **Descripción:** Archivo de nodo `value_node` para `abstracto`. Valor abstracto declarado para el campo interno grado_de_abstraccion.
+        - `grado_de_abstraccion-has_value-abstracto.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-abstracto-abstracto`. Relación declarada: abstracto es un valor declarado para el campo interno grado_de_abstraccion.
+      - `concreto/`
+        - `concreto.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-concreto-concreto`
+          - **Descripción:** Archivo de nodo `value_node` para `concreto`. Valor concreto declarado para el campo interno grado_de_abstraccion.
+        - `grado_de_abstraccion-has_value-concreto.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-concreto-concreto`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-concreto-concreto`. Relación declarada: concreto es un valor declarado para el campo interno grado_de_abstraccion.
+      - `intermedio/`
+        - `grado_de_abstraccion-has_value-intermedio.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-intermedio-intermedio`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-intermedio-intermedio`. Relación declarada: intermedio es un valor declarado para el campo interno grado_de_abstraccion.
+        - `intermedio.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion-intermedio-intermedio`
+          - **Descripción:** Archivo de nodo `value_node` para `intermedio`. Valor intermedio declarado para el campo interno grado_de_abstraccion.
+    - `registro_predominante/`
+      - `adecuacion_lexico_formulativa-has_internal_field-registro_predominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante`. Relación declarada: registro_predominante es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa.
+      - `registro_predominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `registro_predominante`. Eje interno que describe el registro verbal predominante de la realización. Metadatos principales: sección 6.2.1; tipo de valor: Categorial cerrado; cardinalidad: Eje obligatorio dentro de adecuacion_lexico_formulativa.
+      - `analitico/`
+        - `analitico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-analitico-analitico`
+          - **Descripción:** Archivo de nodo `value_node` para `analitico`. Valor analitico declarado para el campo interno registro_predominante.
+        - `registro_predominante-has_value-analitico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-analitico-analitico`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-analitico-analitico`. Relación declarada: analitico es un valor declarado para el campo interno registro_predominante.
+      - `coloquial_controlado/`
+        - `coloquial_controlado.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-coloquial_controlado-coloquial_controlado`
+          - **Descripción:** Archivo de nodo `value_node` para `coloquial_controlado`. Valor coloquial_controlado declarado para el campo interno registro_predominante.
+        - `registro_predominante-has_value-coloquial_controlado.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-coloquial_controlado-coloquial_controlado`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-coloquial_controlado-coloquial_controlado`. Relación declarada: coloquial_controlado es un valor declarado para el campo interno registro_predominante.
+      - `hibrido/`
+        - `hibrido.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-hibrido-hibrido`
+          - **Descripción:** Archivo de nodo `value_node` para `hibrido`. Valor hibrido declarado para el campo interno registro_predominante.
+        - `registro_predominante-has_value-hibrido.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-hibrido-hibrido`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-hibrido-hibrido`. Relación declarada: hibrido es un valor declarado para el campo interno registro_predominante.
+      - `institucional/`
+        - `institucional.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-institucional-institucional`
+          - **Descripción:** Archivo de nodo `value_node` para `institucional`. Valor institucional declarado para el campo interno registro_predominante.
+        - `registro_predominante-has_value-institucional.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-institucional-institucional`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-institucional-institucional`. Relación declarada: institucional es un valor declarado para el campo interno registro_predominante.
+      - `pedagogico/`
+        - `pedagogico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-pedagogico-pedagogico`
+          - **Descripción:** Archivo de nodo `value_node` para `pedagogico`. Valor pedagogico declarado para el campo interno registro_predominante.
+        - `registro_predominante-has_value-pedagogico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-pedagogico-pedagogico`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-pedagogico-pedagogico`. Relación declarada: pedagogico es un valor declarado para el campo interno registro_predominante.
+      - `tecnico/`
+        - `registro_predominante-has_value-tecnico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico`. Relación declarada: tecnico es un valor declarado para el campo interno registro_predominante.
+        - `tecnico.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante-tecnico-tecnico`
+          - **Descripción:** Archivo de nodo `value_node` para `tecnico`. Valor tecnico declarado para el campo interno registro_predominante.
+    - `restricciones/`
+      - `adecuacion_lexico_formulativa-must_be_coherent_with-publico_objetivo_inmediato.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_be_coherent_with-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato`. Relación declarada: adecuacion_lexico_formulativa debe ser coherente con publico_objetivo_inmediato.
+      - `adecuacion_lexico_formulativa-must_declare-accesibilidad_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_declare-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-accesibilidad_lexica`. Relación declarada: adecuacion_lexico_formulativa debe declarar el eje accesibilidad_lexica.
+      - `adecuacion_lexico_formulativa-must_declare-densidad_terminologica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_declare-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-densidad_terminologica`. Relación declarada: adecuacion_lexico_formulativa debe declarar el eje densidad_terminologica.
+      - `adecuacion_lexico_formulativa-must_declare-grado_de_abstraccion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_declare-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion`. Relación declarada: adecuacion_lexico_formulativa debe declarar el eje grado_de_abstraccion.
+      - `adecuacion_lexico_formulativa-must_declare-registro_predominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_declare-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-registro_predominante`. Relación declarada: adecuacion_lexico_formulativa debe declarar el eje registro_predominante.
+      - `adecuacion_lexico_formulativa-must_declare-variacion_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-must_declare-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica`. Relación declarada: adecuacion_lexico_formulativa debe declarar el eje variacion_lexica.
+    - `variacion_lexica/`
+      - `adecuacion_lexico_formulativa-has_internal_field-variacion_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-has_internal_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica`. Relación declarada: variacion_lexica es un campo interno obligatorio declarado dentro de adecuacion_lexico_formulativa.
+      - `variacion_lexica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `variacion_lexica`. Eje interno que describe la variación léxica de la realización. Metadatos principales: sección 6.2.5; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio dentro de adecuacion_lexico_formulativa.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta declarado para el campo interno variacion_lexica.
+        - `variacion_lexica-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-alta-alta`. Relación declarada: alta es un valor declarado para el campo interno variacion_lexica.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja declarado para el campo interno variacion_lexica.
+        - `variacion_lexica-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-baja-baja`. Relación declarada: baja es un valor declarado para el campo interno variacion_lexica.
+      - `media/`
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media declarado para el campo interno variacion_lexica.
+        - `variacion_lexica-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-variacion_lexica-media-media`. Relación declarada: media es un valor declarado para el campo interno variacion_lexica.
+  - `publico_objetivo_inmediato/`
+    - `dimension_acoplamiento_receptoral-has_field-publico_objetivo_inmediato.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral-has_field-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-dimension_acoplamiento_receptoral` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato`. Relación declarada: publico_objetivo_inmediato es un campo directo declarado dentro de dimension_acoplamiento_receptoral.
+    - `publico_objetivo_inmediato.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato`
+      - **Descripción:** Archivo de nodo `field_node` para `publico_objetivo_inmediato`. Campo que delimita el público inmediato al que la realización orienta la salida. Metadatos principales: sección 6.1; tipo de valor: Categorial semiabierto; cardinalidad: Uno o más valores.
+    - `audiencia_caliente/`
+      - `audiencia_caliente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_caliente-audiencia_caliente`
+        - **Descripción:** Archivo de nodo `value_node` para `audiencia_caliente`. Valor audiencia_caliente declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-audiencia_caliente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_caliente-audiencia_caliente`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_caliente-audiencia_caliente`. Relación declarada: audiencia_caliente es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `audiencia_fria/`
+      - `audiencia_fria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_fria-audiencia_fria`
+        - **Descripción:** Archivo de nodo `value_node` para `audiencia_fria`. Valor audiencia_fria declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-audiencia_fria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_fria-audiencia_fria`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_fria-audiencia_fria`. Relación declarada: audiencia_fria es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `audiencia_tibia/`
+      - `audiencia_tibia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia`
+        - **Descripción:** Archivo de nodo `value_node` para `audiencia_tibia`. Valor audiencia_tibia declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-audiencia_tibia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-audiencia_tibia-audiencia_tibia`. Relación declarada: audiencia_tibia es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `personas_con_interes_previos/`
+      - `personas_con_interes_previos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos`
+        - **Descripción:** Archivo de nodo `value_node` para `personas_con_interes_previos`. Valor personas_con_interes_previos declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-personas_con_interes_previos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_con_interes_previos-personas_con_interes_previos`. Relación declarada: personas_con_interes_previos es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `personas_que_no_aplican/`
+      - `personas_que_no_aplican.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican`
+        - **Descripción:** Archivo de nodo `value_node` para `personas_que_no_aplican`. Valor personas_que_no_aplican declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-personas_que_no_aplican.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_aplican-personas_que_no_aplican`. Relación declarada: personas_que_no_aplican es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `personas_que_no_comprenden/`
+      - `personas_que_no_comprenden.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_comprenden-personas_que_no_comprenden`
+        - **Descripción:** Archivo de nodo `value_node` para `personas_que_no_comprenden`. Valor personas_que_no_comprenden declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-personas_que_no_comprenden.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_comprenden-personas_que_no_comprenden`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_no_comprenden-personas_que_no_comprenden`. Relación declarada: personas_que_no_comprenden es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `personas_que_ya_comprenden/`
+      - `personas_que_ya_comprenden.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_ya_comprenden-personas_que_ya_comprenden`
+        - **Descripción:** Archivo de nodo `value_node` para `personas_que_ya_comprenden`. Valor personas_que_ya_comprenden declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-personas_que_ya_comprenden.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_ya_comprenden-personas_que_ya_comprenden`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_que_ya_comprenden-personas_que_ya_comprenden`. Relación declarada: personas_que_ya_comprenden es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `personas_sin_conocimiento_previos/`
+      - `personas_sin_conocimiento_previos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos`
+        - **Descripción:** Archivo de nodo `value_node` para `personas_sin_conocimiento_previos`. Valor personas_sin_conocimiento_previos declarado para el campo publico_objetivo_inmediato.
+      - `publico_objetivo_inmediato-has_value-personas_sin_conocimiento_previos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_sin_conocimiento_previos-personas_sin_conocimiento_previos`. Relación declarada: personas_sin_conocimiento_previos es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+    - `restricciones/`
+      - `publico_objetivo_inmediato-must_be_compatible_with-adecuacion_lexico_formulativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-must_be_compatible_with-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa`. Relación declarada: publico_objetivo_inmediato debe ser compatible con adecuacion_lexico_formulativa.
+    - `seguidores_actuales/`
+      - `publico_objetivo_inmediato-has_value-seguidores_actuales.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-seguidores_actuales-seguidores_actuales`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato` con `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-seguidores_actuales-seguidores_actuales`. Relación declarada: seguidores_actuales es un valor sugerido declarado para el campo publico_objetivo_inmediato.
+      - `seguidores_actuales.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-seguidores_actuales-seguidores_actuales`
+        - **Descripción:** Archivo de nodo `value_node` para `seguidores_actuales`. Valor seguidores_actuales declarado para el campo publico_objetivo_inmediato.
+- `grafo_dimension_comparecencia_performativa/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_comparecencia_performativa/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_comparecencia_performativa`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir cómo comparece la pieza como presencia verbal, corporal y performativa, indicando: - cómo suena; - cómo se presenta; - cuánto depende de la ejecución visible; - y en qué grado necesita explicitación escénica. Esta dimensión no describe todavía los recursos complementarios externos (imágenes, videos o texto de apoyo generados), pero sí regula la forma en que la pieza debe ser realizada por un emisor visible o audible.
+  - `dimension_comparecencia_performativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_comparecencia_performativa`. Dimensión que describe cómo comparece la pieza como presencia verbal, corporal y performativa. Metadatos principales: sección 9; tipo de valor: dimension.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_comparecencia_performativa.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_comparecencia_performativa`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa`. Relación declarada: grafo_dimension_comparecencia_performativa es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_comparecencia_performativa-references_existing_dimension_node-dimension_comparecencia_performativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa`. Relación declarada: grafo_de_regiones-grafo_dimension_comparecencia_performativa funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa.
+  - `grafo_dimension_comparecencia_performativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_comparecencia_performativa`. Dimensión que describe cómo comparece la pieza como presencia verbal, corporal y performativa. Función: Describir cómo comparece la pieza como presencia verbal, corporal y performativa, indicando cómo suena, cómo se presenta, cuánto depende de la ejecución visible y en qué grado necesita explicitación escénica. Esta dimensión no describe todavía recursos complementarios externos como imágenes, videos o texto de apoyo generados, pero sí regula la forma en que la pieza debe ser realizada por un emisor visible o audible. Metadatos principales: sección sin_seccion_declarada_en_nodo_original.
+  - `acompanamiento_auditivo/`
+    - `acompanamiento_auditivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo`
+      - **Descripción:** Archivo de nodo `compound_field_node` para `acompanamiento_auditivo`. Tipos de acompañamiento auditivo que puede admitir la pieza. Metadatos principales: sección 9.5; tipo de valor: Estructura compuesta; cardinalidad: Una estructura opcionalmente activable.
+    - `dimension_comparecencia_performativa-has_field-acompanamiento_auditivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo`. Relación declarada: acompanamiento_auditivo es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `efecto_sonoro/`
+      - `acompanamiento_auditivo-has_internal_field-efecto_sonoro.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro`. Relación declarada: efecto_sonoro es un campo interno declarado dentro de acompanamiento_auditivo.
+      - `efecto_sonoro.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-efecto_sonoro`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `efecto_sonoro`. Efectos sonoros puntuales relevantes para la ejecución local. Metadatos principales: tipo de valor: Descriptivo controlado; cardinalidad: Cero o más por bloque.
+    - `musica/`
+      - `acompanamiento_auditivo-has_internal_field-musica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica`. Relación declarada: musica es un campo interno declarado dentro de acompanamiento_auditivo.
+      - `musica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-musica`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `musica`. Uso local o global de música cuando forme parte de la realización. Metadatos principales: tipo de valor: Descriptivo controlado; cardinalidad: Cero o una configuración por bloque o por pieza.
+    - `sonido_ambiente/`
+      - `acompanamiento_auditivo-has_internal_field-sonido_ambiente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente`. Relación declarada: sonido_ambiente es un campo interno declarado dentro de acompanamiento_auditivo.
+      - `sonido_ambiente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-acompanamiento_auditivo-sonido_ambiente`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `sonido_ambiente`. Uso de ambientación sonora cuando acompañe la pieza. Metadatos principales: tipo de valor: Descriptivo controlado; cardinalidad: Cero o una configuración por bloque o por pieza.
+  - `comparecencia_performativa/`
+    - `comparecencia_performativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa`
+      - **Descripción:** Archivo de nodo `compound_field_node` para `comparecencia_performativa`. Configuración general de presencia performativa del emisor. Metadatos principales: sección 9.1; tipo de valor: Estructura compuesta; cardinalidad: Una estructura obligatoria.
+    - `dimension_comparecencia_performativa-has_field-comparecencia_performativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa`. Relación declarada: comparecencia_performativa es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `autoridad/`
+      - `autoridad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `autoridad`. Grado de autoridad expresiva con que comparece la voz. Metadatos principales: tipo de valor: Categorial ordinal.
+      - `comparecencia_performativa-has_internal_field-autoridad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad`. Relación declarada: autoridad es un campo interno declarado dentro de comparecencia_performativa.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo autoridad.
+        - `autoridad-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-alta-alta`. Relación declarada: alta es un valor declarado para el campo autoridad.
+      - `baja/`
+        - `autoridad-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja`. Relación declarada: baja es un valor declarado para el campo autoridad.
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo autoridad.
+      - `media/`
+        - `autoridad-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-media-media`. Relación declarada: media es un valor declarado para el campo autoridad.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo autoridad.
+    - `calidez/`
+      - `calidez.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `calidez`. Grado de calidez afectiva o reserva emocional de la comparecencia. Metadatos principales: tipo de valor: Categorial ordinal.
+      - `comparecencia_performativa-has_internal_field-calidez.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez`. Relación declarada: calidez es un campo interno declarado dentro de comparecencia_performativa.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo calidez.
+        - `calidez-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta`. Relación declarada: alta es un valor declarado para el campo calidez.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo calidez.
+        - `calidez-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-baja-baja`. Relación declarada: baja es un valor declarado para el campo calidez.
+      - `media/`
+        - `calidez-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-media-media`. Relación declarada: media es un valor declarado para el campo calidez.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo calidez.
+    - `cercania/`
+      - `cercania.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `cercania`. Grado de proximidad o distancia expresiva de la comparecencia. Metadatos principales: tipo de valor: Categorial ordinal.
+      - `comparecencia_performativa-has_internal_field-cercania.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania`. Relación declarada: cercania es un campo interno declarado dentro de comparecencia_performativa.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo cercania.
+        - `cercania-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-alta-alta`. Relación declarada: alta es un valor declarado para el campo cercania.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo cercania.
+        - `cercania-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-baja-baja`. Relación declarada: baja es un valor declarado para el campo cercania.
+      - `media/`
+        - `cercania-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-media-media`. Relación declarada: media es un valor declarado para el campo cercania.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-cercania-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo cercania.
+    - `intensidad/`
+      - `comparecencia_performativa-has_internal_field-intensidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad`. Relación declarada: intensidad es un campo interno declarado dentro de comparecencia_performativa.
+      - `intensidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `intensidad`. Grado de energía expresiva y presencia ejecutiva de la realización. Metadatos principales: tipo de valor: Categorial ordinal.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo intensidad.
+        - `intensidad-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-alta-alta`. Relación declarada: alta es un valor declarado para el campo intensidad.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo intensidad.
+        - `intensidad-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-baja-baja`. Relación declarada: baja es un valor declarado para el campo intensidad.
+      - `media/`
+        - `intensidad-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media`. Relación declarada: media es un valor declarado para el campo intensidad.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-intensidad-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo intensidad.
+    - `sobriedad/`
+      - `comparecencia_performativa-has_internal_field-sobriedad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad`. Relación declarada: sobriedad es un campo interno declarado dentro de comparecencia_performativa.
+      - `sobriedad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `sobriedad`. Grado de contención formal o libertad expresiva admitida por la pieza. Metadatos principales: tipo de valor: Categorial ordinal.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo sobriedad.
+        - `sobriedad-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-alta-alta`. Relación declarada: alta es un valor declarado para el campo sobriedad.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo sobriedad.
+        - `sobriedad-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-baja-baja`. Relación declarada: baja es un valor declarado para el campo sobriedad.
+      - `media/`
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo sobriedad.
+        - `sobriedad-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-sobriedad-media-media`. Relación declarada: media es un valor declarado para el campo sobriedad.
+  - `densidad_de_accion_visible/`
+    - `densidad_de_accion_visible.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`
+      - **Descripción:** Archivo de nodo `field_node` para `densidad_de_accion_visible`. Cantidad de acción corporal o visible esperada en la pieza. Metadatos principales: sección 9.8; tipo de valor: Categorial ordinal; cardinalidad: Un valor obligatorio.
+    - `dimension_comparecencia_performativa-has_field-densidad_de_accion_visible.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`. Relación declarada: densidad_de_accion_visible es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `alta/`
+      - `alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-alta-alta`
+        - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo densidad_de_accion_visible.
+      - `densidad_de_accion_visible-has_value-alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-alta-alta`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-alta-alta`. Relación declarada: alta es un valor declarado para el campo densidad_de_accion_visible.
+    - `baja/`
+      - `baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-baja-baja`
+        - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo densidad_de_accion_visible.
+      - `densidad_de_accion_visible-has_value-baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-baja-baja`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-baja-baja`. Relación declarada: baja es un valor declarado para el campo densidad_de_accion_visible.
+    - `media/`
+      - `densidad_de_accion_visible-has_value-media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media`. Relación declarada: media es un valor declarado para el campo densidad_de_accion_visible.
+      - `media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media`
+        - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo densidad_de_accion_visible.
+    - `restricciones/`
+      - `densidad_de_accion_visible-must_be_coherent_with-tipo_de_escenificacion_admitida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`. Relación declarada: La densidad de acción visible debe ser coherente con el tipo de escenificación admitida.
+      - `densidad_de_accion_visible-must_be_compatible_with-modalidad_de_guion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`. Relación declarada: La densidad de acción visible debe ser compatible con la modalidad de guion.
+  - `grado_de_dependencia_de_la_performance_visible/`
+    - `dimension_comparecencia_performativa-has_field-grado_de_dependencia_de_la_performance_visible.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible`. Relación declarada: grado_de_dependencia_de_la_performance_visible es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `grado_de_dependencia_de_la_performance_visible.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible`
+      - **Descripción:** Archivo de nodo `field_node` para `grado_de_dependencia_de_la_performance_visible`. Medida en que la eficacia de la pieza depende de la ejecución corporal o visible del emisor. Metadatos principales: sección 9.10; tipo de valor: Categorial ordinal; cardinalidad: Un valor obligatorio.
+    - `alta/`
+      - `alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-alta-alta`
+        - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del campo grado_de_dependencia_de_la_performance_visible.
+      - `grado_de_dependencia_de_la_performance_visible-has_value-alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-alta-alta`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-alta-alta`. Relación declarada: alta es un valor declarado para el campo grado_de_dependencia_de_la_performance_visible.
+    - `baja/`
+      - `baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-baja-baja`
+        - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del campo grado_de_dependencia_de_la_performance_visible.
+      - `grado_de_dependencia_de_la_performance_visible-has_value-baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-baja-baja`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-baja-baja`. Relación declarada: baja es un valor declarado para el campo grado_de_dependencia_de_la_performance_visible.
+    - `dominante/`
+      - `dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante`
+        - **Descripción:** Archivo de nodo `value_node` para `dominante`. Valor dominante del campo grado_de_dependencia_de_la_performance_visible.
+      - `grado_de_dependencia_de_la_performance_visible-has_value-dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-dominante-dominante`. Relación declarada: dominante es un valor declarado para el campo grado_de_dependencia_de_la_performance_visible.
+    - `media/`
+      - `grado_de_dependencia_de_la_performance_visible-has_value-media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media`. Relación declarada: media es un valor declarado para el campo grado_de_dependencia_de_la_performance_visible.
+      - `media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-media-media`
+        - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del campo grado_de_dependencia_de_la_performance_visible.
+    - `restricciones/`
+      - `grado_de_dependencia_de_la_performance_visible-must_be_coherent_with-tipo_de_escenificacion_admitida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`. Relación declarada: El grado de dependencia de la performance visible debe ser coherente con el tipo de escenificación admitida.
+      - `grado_de_dependencia_de_la_performance_visible-must_be_compatible_with-modalidad_de_guion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`. Relación declarada: El grado de dependencia de la performance visible debe ser compatible con la modalidad de guion.
+      - `grado_de_dependencia_de_la_performance_visible-must_be_compatible_with-modo_de_comparecencia_verbal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-grado_de_dependencia_de_la_performance_visible` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`. Relación declarada: El grado de dependencia de la performance visible debe ser compatible con el modo de comparecencia verbal.
+  - `modalidad_de_guion/`
+    - `dimension_comparecencia_performativa-has_field-modalidad_de_guion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`. Relación declarada: modalidad_de_guion es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `modalidad_de_guion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+      - **Descripción:** Archivo de nodo `field_node` para `modalidad_de_guion`. Modalidad general bajo la cual el guion comparece como pieza realizable. Metadatos principales: sección 9.2; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `escenificado/`
+      - `escenificado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado`
+        - **Descripción:** Archivo de nodo `value_node` para `escenificado`. Valor escenificado del campo modalidad_de_guion.
+      - `modalidad_de_guion-has_value-escenificado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-escenificado-escenificado`. Relación declarada: escenificado es un valor declarado para el campo modalidad_de_guion.
+    - `mixto/`
+      - `mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto`
+        - **Descripción:** Archivo de nodo `value_node` para `mixto`. Valor mixto del campo modalidad_de_guion.
+      - `modalidad_de_guion-has_value-mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-mixto-mixto`. Relación declarada: mixto es un valor declarado para el campo modalidad_de_guion.
+    - `presentacion_a_camara/`
+      - `modalidad_de_guion-has_value-presentacion_a_camara.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara`. Relación declarada: presentacion_a_camara es un valor declarado para el campo modalidad_de_guion.
+      - `presentacion_a_camara.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-presentacion_a_camara-presentacion_a_camara`
+        - **Descripción:** Archivo de nodo `value_node` para `presentacion_a_camara`. Valor presentacion_a_camara del campo modalidad_de_guion.
+    - `restricciones/`
+      - `modalidad_de_guion-must_be_coherent_with-modo_de_comparecencia_verbal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`. Relación declarada: La modalidad de guion debe ser coherente con el modo de comparecencia verbal.
+      - `modalidad_de_guion-must_be_compatible_with-marco_de_materializacion_declarado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado`. Relación declarada: La modalidad de guion debe ser realizable dentro del marco de materialización declarado.
+    - `voz_en_off/`
+      - `modalidad_de_guion-has_value-voz_en_off.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-voz_en_off-voz_en_off`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-voz_en_off-voz_en_off`. Relación declarada: voz_en_off es un valor declarado para el campo modalidad_de_guion.
+      - `voz_en_off.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion-voz_en_off-voz_en_off`
+        - **Descripción:** Archivo de nodo `value_node` para `voz_en_off`. Valor voz_en_off del campo modalidad_de_guion.
+  - `modo_de_comparecencia_verbal/`
+    - `dimension_comparecencia_performativa-has_field-modo_de_comparecencia_verbal.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`. Relación declarada: modo_de_comparecencia_verbal es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `modo_de_comparecencia_verbal.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal`
+      - **Descripción:** Archivo de nodo `field_node` para `modo_de_comparecencia_verbal`. Modo en que la pieza comparece verbalmente. Metadatos principales: sección 9.3; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `oral_directo/`
+      - `modo_de_comparecencia_verbal-has_value-oral_directo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo`. Relación declarada: oral_directo es un valor declarado para el campo modo_de_comparecencia_verbal.
+      - `oral_directo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_directo-oral_directo`
+        - **Descripción:** Archivo de nodo `value_node` para `oral_directo`. Valor oral_directo del campo modo_de_comparecencia_verbal.
+    - `oral_escenico/`
+      - `modo_de_comparecencia_verbal-has_value-oral_escenico.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_escenico-oral_escenico`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_escenico-oral_escenico`. Relación declarada: oral_escenico es un valor declarado para el campo modo_de_comparecencia_verbal.
+      - `oral_escenico.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_escenico-oral_escenico`
+        - **Descripción:** Archivo de nodo `value_node` para `oral_escenico`. Valor oral_escenico del campo modo_de_comparecencia_verbal.
+    - `oral_guiado/`
+      - `modo_de_comparecencia_verbal-has_value-oral_guiado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_guiado-oral_guiado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_guiado-oral_guiado`. Relación declarada: oral_guiado es un valor declarado para el campo modo_de_comparecencia_verbal.
+      - `oral_guiado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_guiado-oral_guiado`
+        - **Descripción:** Archivo de nodo `value_node` para `oral_guiado`. Valor oral_guiado del campo modo_de_comparecencia_verbal.
+    - `oral_mixto/`
+      - `modo_de_comparecencia_verbal-has_value-oral_mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_mixto-oral_mixto`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_mixto-oral_mixto`. Relación declarada: oral_mixto es un valor declarado para el campo modo_de_comparecencia_verbal.
+      - `oral_mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-oral_mixto-oral_mixto`
+        - **Descripción:** Archivo de nodo `value_node` para `oral_mixto`. Valor oral_mixto del campo modo_de_comparecencia_verbal.
+    - `restricciones/`
+      - `modo_de_comparecencia_verbal-must_be_coherent_with-modalidad_de_guion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`. Relación declarada: El modo de comparecencia verbal debe ser coherente con la modalidad de guion.
+      - `modo_de_comparecencia_verbal-must_be_compatible_with-comparecencia_performativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa`. Relación declarada: El modo de comparecencia verbal debe ser compatible con la configuración performativa general.
+  - `realizacion_verbal_de_bloque/`
+    - `dimension_comparecencia_performativa-has_field-realizacion_verbal_de_bloque.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque`. Relación declarada: realizacion_verbal_de_bloque es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `realizacion_verbal_de_bloque.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque`
+      - **Descripción:** Archivo de nodo `compound_field_node` para `realizacion_verbal_de_bloque`. Componentes verbales locales que puede activar la pieza en sus bloques. Metadatos principales: sección 9.4; tipo de valor: Estructura compuesta; cardinalidad: Una estructura disponible para composición local.
+    - `dialogo/`
+      - `dialogo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `dialogo`. Contenido verbal local realizable cuando exista material dialogado o equivalente. Metadatos principales: tipo de valor: Descriptivo controlado; cardinalidad: Cero o más unidades por bloque.
+      - `realizacion_verbal_de_bloque-has_internal_field-dialogo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-dialogo`. Relación declarada: dialogo es un campo interno declarado dentro de realizacion_verbal_de_bloque.
+    - `emisor/`
+      - `emisor.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `emisor`. Tipo de emisor verbal que comparece localmente cuando un bloque lo requiere. Metadatos principales: tipo de valor: Descriptivo controlado; cardinalidad: Cero o uno por bloque.
+      - `realizacion_verbal_de_bloque-has_internal_field-emisor.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-has_internal_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor`. Relación declarada: emisor es un campo interno declarado dentro de realizacion_verbal_de_bloque.
+  - `referencias_externas/`
+    - `codominio_elegido.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-codominio_elegido`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `codominio_elegido`. Referencia externa mencionada por restricciones de este grafo.
+    - `indicaciones_escenicas_concretas_por_bloque.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `indicaciones_escenicas_concretas_por_bloque`. Referencia externa mencionada por restricciones de este grafo.
+    - `marco_de_materializacion_declarado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-marco_de_materializacion_declarado`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `marco_de_materializacion_declarado`. Referencia externa mencionada por restricciones de este grafo.
+  - `regimen_de_encuadre_performativo/`
+    - `dimension_comparecencia_performativa-has_field-regimen_de_encuadre_performativo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo`. Relación declarada: regimen_de_encuadre_performativo es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `regimen_de_encuadre_performativo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo`
+      - **Descripción:** Archivo de nodo `field_node` para `regimen_de_encuadre_performativo`. Tipo general de encuadre compatible con la comparecencia de la pieza. Metadatos principales: sección 9.9; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `encuadre_con_reencuadre_controlado/`
+      - `encuadre_con_reencuadre_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado`
+        - **Descripción:** Archivo de nodo `value_node` para `encuadre_con_reencuadre_controlado`. Valor encuadre_con_reencuadre_controlado del campo regimen_de_encuadre_performativo.
+      - `regimen_de_encuadre_performativo-has_value-encuadre_con_reencuadre_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_con_reencuadre_controlado-encuadre_con_reencuadre_controlado`. Relación declarada: encuadre_con_reencuadre_controlado es un valor declarado para el campo regimen_de_encuadre_performativo.
+    - `encuadre_dinamico_controlado/`
+      - `encuadre_dinamico_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_dinamico_controlado-encuadre_dinamico_controlado`
+        - **Descripción:** Archivo de nodo `value_node` para `encuadre_dinamico_controlado`. Valor encuadre_dinamico_controlado del campo regimen_de_encuadre_performativo.
+      - `regimen_de_encuadre_performativo-has_value-encuadre_dinamico_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_dinamico_controlado-encuadre_dinamico_controlado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_dinamico_controlado-encuadre_dinamico_controlado`. Relación declarada: encuadre_dinamico_controlado es un valor declarado para el campo regimen_de_encuadre_performativo.
+    - `encuadre_fijo_frontal/`
+      - `encuadre_fijo_frontal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal`
+        - **Descripción:** Archivo de nodo `value_node` para `encuadre_fijo_frontal`. Valor encuadre_fijo_frontal del campo regimen_de_encuadre_performativo.
+      - `regimen_de_encuadre_performativo-has_value-encuadre_fijo_frontal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_frontal-encuadre_fijo_frontal`. Relación declarada: encuadre_fijo_frontal es un valor declarado para el campo regimen_de_encuadre_performativo.
+    - `encuadre_fijo_variable/`
+      - `encuadre_fijo_variable.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_variable-encuadre_fijo_variable`
+        - **Descripción:** Archivo de nodo `value_node` para `encuadre_fijo_variable`. Valor encuadre_fijo_variable del campo regimen_de_encuadre_performativo.
+      - `regimen_de_encuadre_performativo-has_value-encuadre_fijo_variable.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_variable-encuadre_fijo_variable`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_fijo_variable-encuadre_fijo_variable`. Relación declarada: encuadre_fijo_variable es un valor declarado para el campo regimen_de_encuadre_performativo.
+    - `encuadre_mixto/`
+      - `encuadre_mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto`
+        - **Descripción:** Archivo de nodo `value_node` para `encuadre_mixto`. Valor encuadre_mixto del campo regimen_de_encuadre_performativo.
+      - `regimen_de_encuadre_performativo-has_value-encuadre_mixto.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-encuadre_mixto-encuadre_mixto`. Relación declarada: encuadre_mixto es un valor declarado para el campo regimen_de_encuadre_performativo.
+    - `restricciones/`
+      - `regimen_de_encuadre_performativo-must_be_coherent_with-tipo_de_escenificacion_admitida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`. Relación declarada: El régimen de encuadre performativo debe ser coherente con el tipo de escenificación admitida.
+      - `regimen_de_encuadre_performativo-must_be_compatible_with-densidad_de_accion_visible.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`. Relación declarada: El régimen de encuadre performativo debe ser compatible con la densidad de acción visible.
+  - `regimen_de_explicitacion_escenica/`
+    - `dimension_comparecencia_performativa-has_field-regimen_de_explicitacion_escenica.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica`. Relación declarada: regimen_de_explicitacion_escenica es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `regimen_de_explicitacion_escenica.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica`
+      - **Descripción:** Archivo de nodo `field_node` para `regimen_de_explicitacion_escenica`. Grado general en que la realización necesita explicitación escénica. Metadatos principales: sección 9.6; tipo de valor: Categorial ordinal; cardinalidad: Un valor obligatorio.
+    - `detallada/`
+      - `detallada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-detallada-detallada`
+        - **Descripción:** Archivo de nodo `value_node` para `detallada`. Valor detallada del campo regimen_de_explicitacion_escenica.
+      - `regimen_de_explicitacion_escenica-has_value-detallada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-detallada-detallada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-detallada-detallada`. Relación declarada: detallada es un valor declarado para el campo regimen_de_explicitacion_escenica.
+    - `minima/`
+      - `minima.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima`
+        - **Descripción:** Archivo de nodo `value_node` para `minima`. Valor minima del campo regimen_de_explicitacion_escenica.
+      - `regimen_de_explicitacion_escenica-has_value-minima.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-minima-minima`. Relación declarada: minima es un valor declarado para el campo regimen_de_explicitacion_escenica.
+    - `moderada/`
+      - `moderada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-moderada-moderada`
+        - **Descripción:** Archivo de nodo `value_node` para `moderada`. Valor moderada del campo regimen_de_explicitacion_escenica.
+      - `regimen_de_explicitacion_escenica-has_value-moderada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-moderada-moderada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-moderada-moderada`. Relación declarada: moderada es un valor declarado para el campo regimen_de_explicitacion_escenica.
+    - `ninguna/`
+      - `ninguna.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna`
+        - **Descripción:** Archivo de nodo `value_node` para `ninguna`. Valor ninguna del campo regimen_de_explicitacion_escenica.
+      - `regimen_de_explicitacion_escenica-has_value-ninguna.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-ninguna-ninguna`. Relación declarada: ninguna es un valor declarado para el campo regimen_de_explicitacion_escenica.
+    - `restricciones/`
+      - `regimen_de_explicitacion_escenica-must_be_coherent_with-modalidad_de_guion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-modalidad_de_guion`. Relación declarada: El régimen de explicitación escénica debe ser coherente con la modalidad de guion.
+      - `regimen_de_explicitacion_escenica-must_be_compatible_with-densidad_de_accion_visible.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible`. Relación declarada: El régimen de explicitación escénica debe ser compatible con la densidad de acción visible.
+      - `regimen_de_explicitacion_escenica-must_not_substitute-indicaciones_escenicas_concretas_por_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-must_not_substitute-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque`
+        - **Descripción:** Archivo de arista `must_not_substitute` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque`. Relación declarada: El régimen de explicitación escénica no sustituye las indicaciones escénicas concretas por bloque.
+  - `tipo_de_escenificacion_admitida/`
+    - `dimension_comparecencia_performativa-has_field-tipo_de_escenificacion_admitida.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`. Relación declarada: tipo_de_escenificacion_admitida es un campo directo declarado dentro de dimension_comparecencia_performativa.
+    - `tipo_de_escenificacion_admitida.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida`
+      - **Descripción:** Archivo de nodo `field_node` para `tipo_de_escenificacion_admitida`. Tipo general de escenificación compatible con la pieza. Metadatos principales: sección 9.7; tipo de valor: Categorial cerrado; cardinalidad: Uno o más valores compatibles.
+    - `con_desplazamiento_controlado/`
+      - `con_desplazamiento_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado`
+        - **Descripción:** Archivo de nodo `value_node` para `con_desplazamiento_controlado`. Valor con_desplazamiento_controlado del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-con_desplazamiento_controlado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_desplazamiento_controlado-con_desplazamiento_controlado`. Relación declarada: con_desplazamiento_controlado es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `con_objetos/`
+      - `con_objetos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_objetos-con_objetos`
+        - **Descripción:** Archivo de nodo `value_node` para `con_objetos`. Valor con_objetos del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-con_objetos.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_objetos-con_objetos`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-con_objetos-con_objetos`. Relación declarada: con_objetos es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `demostrativa/`
+      - `demostrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-demostrativa-demostrativa`
+        - **Descripción:** Archivo de nodo `value_node` para `demostrativa`. Valor demostrativa del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-demostrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-demostrativa-demostrativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-demostrativa-demostrativa`. Relación declarada: demostrativa es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `escenificada/`
+      - `escenificada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-escenificada-escenificada`
+        - **Descripción:** Archivo de nodo `value_node` para `escenificada`. Valor escenificada del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-escenificada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-escenificada-escenificada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-escenificada-escenificada`. Relación declarada: escenificada es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `estatica/`
+      - `estatica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica`
+        - **Descripción:** Archivo de nodo `value_node` para `estatica`. Valor estatica del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-estatica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-estatica-estatica`. Relación declarada: estatica es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `gestual/`
+      - `gestual.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual`
+        - **Descripción:** Archivo de nodo `value_node` para `gestual`. Valor gestual del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-gestual.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual`. Relación declarada: gestual es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `mixta_controlada/`
+      - `mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `mixta_controlada`. Valor mixta_controlada del campo tipo_de_escenificacion_admitida.
+      - `tipo_de_escenificacion_admitida-has_value-mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-mixta_controlada-mixta_controlada`. Relación declarada: mixta_controlada es un valor declarado para el campo tipo_de_escenificacion_admitida.
+    - `restricciones/`
+      - `tipo_de_escenificacion_admitida-must_be_coherent_with-regimen_de_encuadre_performativo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-must_be_coherent_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_encuadre_performativo`. Relación declarada: El tipo de escenificación admitida debe ser coherente con el régimen de encuadre performativo.
+      - `tipo_de_escenificacion_admitida-must_be_compatible_with-codominio_elegido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-must_be_compatible_with-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-codominio_elegido`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida` con `grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-codominio_elegido`. Relación declarada: El tipo de escenificación admitida debe ser realizable dentro del codominio elegido.
+- `grafo_dimension_composicion_segmental_de_la_salida/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_composicion_segmental_de_la_salida/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_composicion_segmental_de_la_salida`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir cómo se organiza la salida en el tiempo y en la distribución interna de bloques, tramos y unidades de construcción.
+  - `dimension_composicion_segmental_de_la_salida.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_composicion_segmental_de_la_salida`. Dimensión que describe cómo se organiza la salida en el tiempo y en la distribución interna de bloques, tramos y unidades de construcción. Metadatos principales: sección 11.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_composicion_segmental_de_la_salida.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida`. Relación declarada: grafo_dimension_composicion_segmental_de_la_salida es una dimensión disponible dentro de grafo_de_regiones.
+  - `arquitectura_macro/`
+    - `arquitectura_macro.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro`
+      - **Descripción:** Archivo de nodo `field_node` para `arquitectura_macro`. Campo que describe la organización estructural general del guión. Metadatos principales: sección 11.2; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `dimension_composicion_segmental_de_la_salida-has_field-arquitectura_macro.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro`. Relación declarada: arquitectura_macro es un campo directo declarado dentro de dimension_composicion_segmental_de_la_salida.
+    - `apertura_contraste_resolucion/`
+      - `apertura_contraste_resolucion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_contraste_resolucion`. Valor apertura_contraste_resolucion declarado para el campo arquitectura_macro.
+      - `arquitectura_macro-has_value-apertura_contraste_resolucion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_contraste_resolucion-apertura_contraste_resolucion`. Relación declarada: apertura_contraste_resolucion es un valor declarado para el campo arquitectura_macro.
+    - `apertura_desarrollo_cierre/`
+      - `apertura_desarrollo_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_cierre-apertura_desarrollo_cierre`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_desarrollo_cierre`. Valor apertura_desarrollo_cierre declarado para el campo arquitectura_macro.
+      - `arquitectura_macro-has_value-apertura_desarrollo_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_cierre-apertura_desarrollo_cierre`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_cierre-apertura_desarrollo_cierre`. Relación declarada: apertura_desarrollo_cierre es un valor declarado para el campo arquitectura_macro.
+    - `apertura_desarrollo_remate/`
+      - `apertura_desarrollo_remate.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_remate-apertura_desarrollo_remate`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_desarrollo_remate`. Valor apertura_desarrollo_remate declarado para el campo arquitectura_macro.
+      - `arquitectura_macro-has_value-apertura_desarrollo_remate.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_remate-apertura_desarrollo_remate`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_desarrollo_remate-apertura_desarrollo_remate`. Relación declarada: apertura_desarrollo_remate es un valor declarado para el campo arquitectura_macro.
+    - `apertura_lista_cierre/`
+      - `apertura_lista_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_lista_cierre-apertura_lista_cierre`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_lista_cierre`. Valor apertura_lista_cierre declarado para el campo arquitectura_macro.
+      - `arquitectura_macro-has_value-apertura_lista_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_lista_cierre-apertura_lista_cierre`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_lista_cierre-apertura_lista_cierre`. Relación declarada: apertura_lista_cierre es un valor declarado para el campo arquitectura_macro.
+    - `apertura_secuencia_remate/`
+      - `apertura_secuencia_remate.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_secuencia_remate`. Valor apertura_secuencia_remate declarado para el campo arquitectura_macro.
+      - `arquitectura_macro-has_value-apertura_secuencia_remate.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-apertura_secuencia_remate-apertura_secuencia_remate`. Relación declarada: apertura_secuencia_remate es un valor declarado para el campo arquitectura_macro.
+  - `duracion_objetivo/`
+    - `dimension_composicion_segmental_de_la_salida-has_field-duracion_objetivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-has_field-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo`. Relación declarada: duracion_objetivo es un campo directo declarado dentro de dimension_composicion_segmental_de_la_salida.
+    - `duracion_objetivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo`
+      - **Descripción:** Archivo de nodo `field_node` para `duracion_objetivo`. Campo que fija el rango temporal compatible de la salida. Metadatos principales: sección 11.1; tipo de valor: Rango categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `breve/`
+      - `breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve-breve`
+        - **Descripción:** Archivo de nodo `value_node` para `breve`. Valor breve declarado para el campo duracion_objetivo.
+      - `duracion_objetivo-has_value-breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve-breve`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve-breve`. Relación declarada: breve es un valor declarado para el campo duracion_objetivo.
+    - `breve_expandido/`
+      - `breve_expandido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido`
+        - **Descripción:** Archivo de nodo `value_node` para `breve_expandido`. Valor breve_expandido declarado para el campo duracion_objetivo.
+      - `duracion_objetivo-has_value-breve_expandido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-breve_expandido-breve_expandido`. Relación declarada: breve_expandido es un valor declarado para el campo duracion_objetivo.
+    - `muy_breve/`
+      - `duracion_objetivo-has_value-muy_breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-has_value-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-muy_breve-muy_breve`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-muy_breve-muy_breve`. Relación declarada: muy_breve es un valor declarado para el campo duracion_objetivo.
+      - `muy_breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-muy_breve-muy_breve`
+        - **Descripción:** Archivo de nodo `value_node` para `muy_breve`. Valor muy_breve declarado para el campo duracion_objetivo.
+  - `restricciones/`
+    - `arquitectura_macro-must_be_compatible_with-duracion_objetivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro-must_be_compatible_with-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo`
+      - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo`. Relación declarada: arquitectura_macro debe ser compatible con duracion_objetivo. La restricción también menciona segmentación y modalidad de guión, pero esos elementos no se materializan porque no están declarados como campos de esta definición.
+    - `duracion_objetivo-must_be_coherent_with-arquitectura_macro.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo-must_be_coherent_with-grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro`
+      - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-duracion_objetivo` con `grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-arquitectura_macro`. Relación declarada: duracion_objetivo debe ser coherente con arquitectura_macro. La restricción también menciona segmentación y modalidad de guión, pero esos elementos no se materializan porque no están declarados como campos de esta definición.
+- `grafo_dimension_construccion_del_caso/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_construccion_del_caso/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_construccion_del_caso`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir la composición conceptual del caso y la forma en que ese caso se organiza narrativamente dentro de la realización.
+  - `dimension_construccion_del_caso.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_construccion_del_caso`. Dimensión que describe la composición conceptual del caso y su organización narrativa dentro de la realización. Función: Describir la composición conceptual del caso y la forma en que ese caso se organiza narrativamente dentro de la realización. Metadatos principales: sección 8.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_construccion_del_caso.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_construccion_del_caso`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_construccion_del_caso`. Relación declarada: grafo_dimension_construccion_del_caso es una dimensión disponible dentro de grafo_de_regiones.
+  - `configuracion_narrativa/`
+    - `configuracion_narrativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa`
+      - **Descripción:** Archivo de nodo `field_node` para `configuracion_narrativa`. Campo que describe cómo se organiza el recorrido interno de la realización. Metadatos principales: sección 8.2; tipo de valor: Categorial controlado; cardinalidad: Un valor obligatorio.
+    - `dimension_construccion_del_caso-has_field-configuracion_narrativa.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa`. Relación declarada: configuracion_narrativa es un campo directo declarado dentro de dimension_construccion_del_caso.
+    - `abierta_controlada/`
+      - `abierta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `abierta_controlada`. Valor abierta_controlada declarado para configuracion_narrativa.
+      - `configuracion_narrativa-has_value-abierta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-abierta_controlada-abierta_controlada`. Relación declarada: abierta_controlada es un valor declarado para configuracion_narrativa.
+    - `acumulativa/`
+      - `acumulativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa`
+        - **Descripción:** Archivo de nodo `value_node` para `acumulativa`. Valor acumulativa declarado para configuracion_narrativa.
+      - `configuracion_narrativa-has_value-acumulativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-acumulativa-acumulativa`. Relación declarada: acumulativa es un valor declarado para configuracion_narrativa.
+    - `apertura_profundizacion_cierre/`
+      - `apertura_profundizacion_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_profundizacion_cierre`. Valor apertura_profundizacion_cierre declarado para configuracion_narrativa.
+      - `configuracion_narrativa-has_value-apertura_profundizacion_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre`. Relación declarada: apertura_profundizacion_cierre es un valor declarado para configuracion_narrativa.
+    - `contrastiva/`
+      - `configuracion_narrativa-has_value-contrastiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-contrastiva-contrastiva`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-contrastiva-contrastiva`. Relación declarada: contrastiva es un valor declarado para configuracion_narrativa.
+      - `contrastiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-contrastiva-contrastiva`
+        - **Descripción:** Archivo de nodo `value_node` para `contrastiva`. Valor contrastiva declarado para configuracion_narrativa.
+    - `lineal_progresiva/`
+      - `configuracion_narrativa-has_value-lineal_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-lineal_progresiva-lineal_progresiva`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-lineal_progresiva-lineal_progresiva`. Relación declarada: lineal_progresiva es un valor declarado para configuracion_narrativa.
+      - `lineal_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-lineal_progresiva-lineal_progresiva`
+        - **Descripción:** Archivo de nodo `value_node` para `lineal_progresiva`. Valor lineal_progresiva declarado para configuracion_narrativa.
+    - `modular/`
+      - `configuracion_narrativa-has_value-modular.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular`. Relación declarada: modular es un valor declarado para configuracion_narrativa.
+      - `modular.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-modular-modular`
+        - **Descripción:** Archivo de nodo `value_node` para `modular`. Valor modular declarado para configuracion_narrativa.
+    - `recapitulativa/`
+      - `configuracion_narrativa-has_value-recapitulativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa`. Relación declarada: recapitulativa es un valor declarado para configuracion_narrativa.
+      - `recapitulativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-recapitulativa-recapitulativa`
+        - **Descripción:** Archivo de nodo `value_node` para `recapitulativa`. Valor recapitulativa declarado para configuracion_narrativa.
+  - `construccion_conceptual/`
+    - `construccion_conceptual.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual`
+      - **Descripción:** Archivo de nodo `compound_structural_field_node` para `construccion_conceptual`. Campo que hace explícita la composición de ideas activas que sostienen la realización. Metadatos principales: sección 8.1; tipo de valor: Compuesto estructural; cardinalidad: Una colección de una o más idea_activa.
+    - `dimension_construccion_del_caso-has_field-construccion_conceptual.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-has_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual`. Relación declarada: construccion_conceptual es un campo directo declarado dentro de dimension_construccion_del_caso.
+    - `coleccion_de_ideas_activas/`
+      - `coleccion_de_ideas_activas-has_item_type-idea_activa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas-has_item_type-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa`
+        - **Descripción:** Archivo de arista `has_item_type` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa`. Relación declarada: La colección de ideas activas se compone de una o más unidades idea_activa.
+      - `coleccion_de_ideas_activas.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas`
+        - **Descripción:** Archivo de nodo `structural_value_node` para `coleccion_de_ideas_activas`. Valor estructural general declarado para construccion_conceptual.
+      - `construccion_conceptual-has_value-coleccion_de_ideas_activas.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas`. Relación declarada: coleccion_de_ideas_activas es el valor estructural general declarado para construccion_conceptual.
+    - `idea_activa/`
+      - `idea_activa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa`
+        - **Descripción:** Archivo de nodo `structural_item_node` para `idea_activa`. Unidad estructural obligatoria dentro de la colección de ideas activas.
+      - `formulacion_de_la_idea/`
+        - `formulacion_de_la_idea.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea`
+          - **Descripción:** Archivo de nodo `internal_field_node` para `formulacion_de_la_idea`. Campo interno que determina la forma de formulación conceptual de la idea activa. Metadatos principales: tipo de valor: Categorial controlado.
+        - `idea_activa-has_internal_field-formulacion_de_la_idea.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea`
+          - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea`. Relación declarada: formulacion_de_la_idea es un componente mínimo declarado dentro de idea_activa.
+        - `formulacion_abierta_controlada/`
+          - `formulacion_abierta_controlada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada`
+            - **Descripción:** Archivo de nodo `value_node` para `formulacion_abierta_controlada`. Valor formulacion_abierta_controlada declarado para el campo formulacion_de_la_idea.
+          - `formulacion_de_la_idea-has_value-formulacion_abierta_controlada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-formulacion_abierta_controlada-formulacion_abierta_controlada`. Relación declarada: formulacion_abierta_controlada es un valor declarado para el campo formulacion_de_la_idea.
+        - `proposicion_argumentativa/`
+          - `formulacion_de_la_idea-has_value-proposicion_argumentativa.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_argumentativa-proposicion_argumentativa`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_argumentativa-proposicion_argumentativa`. Relación declarada: proposicion_argumentativa es un valor declarado para el campo formulacion_de_la_idea.
+          - `proposicion_argumentativa.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_argumentativa-proposicion_argumentativa`
+            - **Descripción:** Archivo de nodo `value_node` para `proposicion_argumentativa`. Valor proposicion_argumentativa declarado para el campo formulacion_de_la_idea.
+        - `proposicion_definicional/`
+          - `formulacion_de_la_idea-has_value-proposicion_definicional.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional`. Relación declarada: proposicion_definicional es un valor declarado para el campo formulacion_de_la_idea.
+          - `proposicion_definicional.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_definicional-proposicion_definicional`
+            - **Descripción:** Archivo de nodo `value_node` para `proposicion_definicional`. Valor proposicion_definicional declarado para el campo formulacion_de_la_idea.
+        - `proposicion_operativa/`
+          - `formulacion_de_la_idea-has_value-proposicion_operativa.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa`. Relación declarada: proposicion_operativa es un valor declarado para el campo formulacion_de_la_idea.
+          - `proposicion_operativa.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_operativa-proposicion_operativa`
+            - **Descripción:** Archivo de nodo `value_node` para `proposicion_operativa`. Valor proposicion_operativa declarado para el campo formulacion_de_la_idea.
+        - `proposicion_relacional/`
+          - `formulacion_de_la_idea-has_value-proposicion_relacional.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_relacional-proposicion_relacional`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_relacional-proposicion_relacional`. Relación declarada: proposicion_relacional es un valor declarado para el campo formulacion_de_la_idea.
+          - `proposicion_relacional.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-formulacion_de_la_idea-proposicion_relacional-proposicion_relacional`
+            - **Descripción:** Archivo de nodo `value_node` para `proposicion_relacional`. Valor proposicion_relacional declarado para el campo formulacion_de_la_idea.
+      - `modo_de_presencia/`
+        - `idea_activa-has_internal_field-modo_de_presencia.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia`
+          - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia`. Relación declarada: modo_de_presencia es un componente mínimo declarado dentro de idea_activa.
+        - `modo_de_presencia.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia`
+          - **Descripción:** Archivo de nodo `internal_field_node` para `modo_de_presencia`. Campo interno que describe la manera en que la idea aparece o estructura la pieza. Metadatos principales: tipo de valor: Categorial cerrado.
+        - `explicita/`
+          - `explicita.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita-explicita`
+            - **Descripción:** Archivo de nodo `value_node` para `explicita`. Valor explicita declarado para el campo modo_de_presencia.
+          - `modo_de_presencia-has_value-explicita.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita-explicita`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita-explicita`. Relación declarada: explicita es un valor declarado para el campo modo_de_presencia.
+        - `explicita_reiterada/`
+          - `explicita_reiterada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada`
+            - **Descripción:** Archivo de nodo `value_node` para `explicita_reiterada`. Valor explicita_reiterada declarado para el campo modo_de_presencia.
+          - `modo_de_presencia-has_value-explicita_reiterada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-explicita_reiterada-explicita_reiterada`. Relación declarada: explicita_reiterada es un valor declarado para el campo modo_de_presencia.
+        - `implicita_estructurante/`
+          - `implicita_estructurante.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante`
+            - **Descripción:** Archivo de nodo `value_node` para `implicita_estructurante`. Valor implicita_estructurante declarado para el campo modo_de_presencia.
+          - `modo_de_presencia-has_value-implicita_estructurante.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-implicita_estructurante-implicita_estructurante`. Relación declarada: implicita_estructurante es un valor declarado para el campo modo_de_presencia.
+        - `localizada/`
+          - `localizada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-localizada-localizada`
+            - **Descripción:** Archivo de nodo `value_node` para `localizada`. Valor localizada declarado para el campo modo_de_presencia.
+          - `modo_de_presencia-has_value-localizada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-localizada-localizada`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-localizada-localizada`. Relación declarada: localizada es un valor declarado para el campo modo_de_presencia.
+        - `transversal/`
+          - `modo_de_presencia-has_value-transversal.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal`. Relación declarada: transversal es un valor declarado para el campo modo_de_presencia.
+          - `transversal.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-modo_de_presencia-transversal-transversal`
+            - **Descripción:** Archivo de nodo `value_node` para `transversal`. Valor transversal declarado para el campo modo_de_presencia.
+      - `peso_relativo/`
+        - `idea_activa-has_internal_field-peso_relativo.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-peso_relativo`
+          - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-peso_relativo`. Relación declarada: peso_relativo es un componente mínimo declarado dentro de idea_activa.
+        - `peso_relativo.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-peso_relativo`
+          - **Descripción:** Archivo de nodo `internal_field_node` para `peso_relativo`. Campo interno que expresa el peso estructural relativo de la idea dentro del conjunto. Metadatos principales: tipo de valor: Escalar normalizado.
+      - `relaciones_con_otras_ideas/`
+        - `idea_activa-has_internal_field-relaciones_con_otras_ideas.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas`
+          - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas`. Relación declarada: relaciones_con_otras_ideas es un componente mínimo declarado dentro de idea_activa.
+        - `relaciones_con_otras_ideas.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas`
+          - **Descripción:** Archivo de nodo `internal_collection_field_node` para `relaciones_con_otras_ideas`. Campo interno que describe las relaciones de una idea activa con otras ideas. Metadatos principales: tipo de valor: Colección estructurada de relaciones formuladas; cardinalidad: Cero o más relaciones por idea activa.
+        - `descripcion_de_la_relacion/`
+          - `descripcion_de_la_relacion.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion`
+            - **Descripción:** Archivo de nodo `internal_field_node` para `descripcion_de_la_relacion`. Componente que explicita la forma concreta en que se establece la relación. Metadatos principales: tipo de valor: Descriptivo controlado.
+          - `relaciones_con_otras_ideas-has_internal_field-descripcion_de_la_relacion.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion`
+            - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion`. Relación declarada: descripcion_de_la_relacion es un componente mínimo declarado dentro de relaciones_con_otras_ideas.
+        - `idea_relacionada/`
+          - `idea_relacionada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada`
+            - **Descripción:** Archivo de nodo `internal_field_node` para `idea_relacionada`. Componente que identifica la otra idea con la que esta idea se articula. Metadatos principales: tipo de valor: Descriptivo controlado.
+          - `relaciones_con_otras_ideas-has_internal_field-idea_relacionada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada`
+            - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-idea_relacionada`. Relación declarada: idea_relacionada es un componente mínimo declarado dentro de relaciones_con_otras_ideas.
+        - `tipo_de_relacion/`
+          - `relaciones_con_otras_ideas-has_internal_field-tipo_de_relacion.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion`
+            - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion`. Relación declarada: tipo_de_relacion es un componente mínimo declarado dentro de relaciones_con_otras_ideas.
+          - `tipo_de_relacion.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion`
+            - **Descripción:** Archivo de nodo `internal_field_node` para `tipo_de_relacion`. Componente que clasifica el tipo de relación entre ideas. Metadatos principales: tipo de valor: Categorial cerrado.
+          - `articulacion_libre_controlada/`
+            - `articulacion_libre_controlada.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-articulacion_libre_controlada-articulacion_libre_controlada`
+              - **Descripción:** Archivo de nodo `value_node` para `articulacion_libre_controlada`. Valor articulacion_libre_controlada declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-articulacion_libre_controlada.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-articulacion_libre_controlada-articulacion_libre_controlada`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-articulacion_libre_controlada-articulacion_libre_controlada`. Relación declarada: articulacion_libre_controlada es un valor declarado para tipo_de_relacion.
+          - `condicion/`
+            - `condicion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-condicion-condicion`
+              - **Descripción:** Archivo de nodo `value_node` para `condicion`. Valor condicion declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-condicion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-condicion-condicion`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-condicion-condicion`. Relación declarada: condicion es un valor declarado para tipo_de_relacion.
+          - `consecuencia/`
+            - `consecuencia.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia`
+              - **Descripción:** Archivo de nodo `value_node` para `consecuencia`. Valor consecuencia declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-consecuencia.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-consecuencia-consecuencia`. Relación declarada: consecuencia es un valor declarado para tipo_de_relacion.
+          - `contraste/`
+            - `contraste.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-contraste-contraste`
+              - **Descripción:** Archivo de nodo `value_node` para `contraste`. Valor contraste declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-contraste.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-contraste-contraste`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-contraste-contraste`. Relación declarada: contraste es un valor declarado para tipo_de_relacion.
+          - `equivalencia_parcial/`
+            - `equivalencia_parcial.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial`
+              - **Descripción:** Archivo de nodo `value_node` para `equivalencia_parcial`. Valor equivalencia_parcial declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-equivalencia_parcial.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-equivalencia_parcial-equivalencia_parcial`. Relación declarada: equivalencia_parcial es un valor declarado para tipo_de_relacion.
+          - `expansion/`
+            - `expansion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-expansion-expansion`
+              - **Descripción:** Archivo de nodo `value_node` para `expansion`. Valor expansion declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-expansion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-expansion-expansion`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-expansion-expansion`. Relación declarada: expansion es un valor declarado para tipo_de_relacion.
+          - `soporte/`
+            - `soporte.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-soporte-soporte`
+              - **Descripción:** Archivo de nodo `value_node` para `soporte`. Valor soporte declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-soporte.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-soporte-soporte`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-soporte-soporte`. Relación declarada: soporte es un valor declarado para tipo_de_relacion.
+          - `subordinacion/`
+            - `subordinacion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-subordinacion-subordinacion`
+              - **Descripción:** Archivo de nodo `value_node` para `subordinacion`. Valor subordinacion declarado para tipo_de_relacion.
+            - `tipo_de_relacion-has_value-subordinacion.json`
+              - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-subordinacion-subordinacion`
+              - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-tipo_de_relacion-subordinacion-subordinacion`. Relación declarada: subordinacion es un valor declarado para tipo_de_relacion.
+      - `rol_conceptual/`
+        - `idea_activa-has_internal_field-rol_conceptual.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-has_internal_field-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual`
+          - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual`. Relación declarada: rol_conceptual es un componente mínimo declarado dentro de idea_activa.
+        - `rol_conceptual.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual`
+          - **Descripción:** Archivo de nodo `internal_field_node` para `rol_conceptual`. Campo interno que determina el papel conceptual de la idea activa dentro del caso. Metadatos principales: tipo de valor: Categorial cerrado.
+        - `complementaria/`
+          - `complementaria.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria`
+            - **Descripción:** Archivo de nodo `value_node` para `complementaria`. Valor complementaria declarado para el campo rol_conceptual.
+          - `rol_conceptual-has_value-complementaria.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria`. Relación declarada: complementaria es un valor declarado para el campo rol_conceptual.
+        - `contrastiva/`
+          - `contrastiva.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva`
+            - **Descripción:** Archivo de nodo `value_node` para `contrastiva`. Valor contrastiva declarado para el campo rol_conceptual.
+          - `rol_conceptual-has_value-contrastiva.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-contrastiva-contrastiva`. Relación declarada: contrastiva es un valor declarado para el campo rol_conceptual.
+        - `derivada/`
+          - `derivada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-derivada-derivada`
+            - **Descripción:** Archivo de nodo `value_node` para `derivada`. Valor derivada declarado para el campo rol_conceptual.
+          - `rol_conceptual-has_value-derivada.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-derivada-derivada`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-derivada-derivada`. Relación declarada: derivada es un valor declarado para el campo rol_conceptual.
+        - `nuclear/`
+          - `nuclear.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear`
+            - **Descripción:** Archivo de nodo `value_node` para `nuclear`. Valor nuclear declarado para el campo rol_conceptual.
+          - `rol_conceptual-has_value-nuclear.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-nuclear-nuclear`. Relación declarada: nuclear es un valor declarado para el campo rol_conceptual.
+        - `puente/`
+          - `puente.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-puente-puente`
+            - **Descripción:** Archivo de nodo `value_node` para `puente`. Valor puente declarado para el campo rol_conceptual.
+          - `rol_conceptual-has_value-puente.json`
+            - **ID:** `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-puente-puente`
+            - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual` con `grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-puente-puente`. Relación declarada: puente es un valor declarado para el campo rol_conceptual.
+- `grafo_dimension_dinamica_atencional_y_procesual/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_dinamica_atencional_y_procesual/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_dinamica_atencional_y_procesual`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir la relación atencional dominante del receptor con la pieza y la forma procesual del recorrido que la realización deberá activar o sostener.
+  - `dimension_dinamica_atencional_y_procesual.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_dinamica_atencional_y_procesual`. Dimensión que describe la relación atencional dominante del receptor y la forma procesual del recorrido. Metadatos principales: sección 7; tipo de valor: Dimensión; cardinalidad: Contenedor conceptual de campos.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_dinamica_atencional_y_procesual.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual`. Relación declarada: grafo_dimension_dinamica_atencional_y_procesual es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_dinamica_atencional_y_procesual-references_existing_dimension_node-dimension_dinamica_atencional_y_procesual.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual`. Relación declarada: grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual.
+  - `grafo_dimension_dinamica_atencional_y_procesual.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_dinamica_atencional_y_procesual`. Dimensión que describe la relación atencional dominante del receptor y la forma procesual del recorrido. Función: Describir la relación atencional dominante del receptor con la pieza y la forma procesual del recorrido que la realización deberá activar o sostener. Metadatos principales: sección sin_seccion_declarada_en_nodo_original.
+  - `dinamica_procesual/`
+    - `dimension_dinamica_atencional_y_procesual-has_field-dinamica_procesual.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual`. Relación declarada: dinamica_procesual es un campo directo declarado dentro de dimension_dinamica_atencional_y_procesual.
+    - `dinamica_procesual.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual`
+      - **Descripción:** Archivo de nodo `compound_field_node` para `dinamica_procesual`. Experiencia de recorrido de la realización compuesta por cinco ejes obligatorios. Metadatos principales: sección 7.3; tipo de valor: Compuesto; cardinalidad: Un valor obligatorio compuesto por cinco ejes.
+    - `compresion/`
+      - `compresion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `compresion`. Eje que indica el grado de condensación del contenido en la realización. Metadatos principales: sección 7.3.4; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio de dinamica_procesual.
+      - `dinamica_procesual-has_internal_field-compresion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion`. Relación declarada: compresion es un eje interno obligatorio declarado dentro de dinamica_procesual.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del eje compresion. Metadatos principales: tipo de valor: Valor ordinal.
+        - `compresion-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-alta-alta`. Relación declarada: alta es un valor declarado para el eje compresion.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del eje compresion. Metadatos principales: tipo de valor: Valor ordinal.
+        - `compresion-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-baja-baja`. Relación declarada: baja es un valor declarado para el eje compresion.
+      - `media/`
+        - `compresion-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-media-media`. Relación declarada: media es un valor declarado para el eje compresion.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del eje compresion. Metadatos principales: tipo de valor: Valor ordinal.
+    - `continuidad/`
+      - `continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `continuidad`. Eje que indica la fluidez o discontinuidad del recorrido de la realización. Metadatos principales: sección 7.3.2; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio de dinamica_procesual.
+      - `dinamica_procesual-has_internal_field-continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad`. Relación declarada: continuidad es un eje interno obligatorio declarado dentro de dinamica_procesual.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del eje continuidad. Metadatos principales: tipo de valor: Valor ordinal.
+        - `continuidad-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-alta-alta`. Relación declarada: alta es un valor declarado para el eje continuidad.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del eje continuidad. Metadatos principales: tipo de valor: Valor ordinal.
+        - `continuidad-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-baja-baja`. Relación declarada: baja es un valor declarado para el eje continuidad.
+      - `media/`
+        - `continuidad-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-media-media`. Relación declarada: media es un valor declarado para el eje continuidad.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del eje continuidad. Metadatos principales: tipo de valor: Valor ordinal.
+    - `explicitud/`
+      - `dinamica_procesual-has_internal_field-explicitud.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud`. Relación declarada: explicitud es un eje interno obligatorio declarado dentro de dinamica_procesual.
+      - `explicitud.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `explicitud`. Eje que indica el grado en que la realización explicita sus relaciones principales. Metadatos principales: sección 7.3.1; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio de dinamica_procesual.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del eje explicitud. Metadatos principales: tipo de valor: Valor ordinal.
+        - `explicitud-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-alta-alta`. Relación declarada: alta es un valor declarado para el eje explicitud.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del eje explicitud. Metadatos principales: tipo de valor: Valor ordinal.
+        - `explicitud-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-baja-baja`. Relación declarada: baja es un valor declarado para el eje explicitud.
+      - `media/`
+        - `explicitud-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media`. Relación declarada: media es un valor declarado para el eje explicitud.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del eje explicitud. Metadatos principales: tipo de valor: Valor ordinal.
+    - `friccion_interpretativa/`
+      - `dinamica_procesual-has_internal_field-friccion_interpretativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa`. Relación declarada: friccion_interpretativa es un eje interno obligatorio declarado dentro de dinamica_procesual.
+      - `friccion_interpretativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `friccion_interpretativa`. Eje que indica el esfuerzo interpretativo adicional exigido por el recorrido. Metadatos principales: sección 7.3.3; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio de dinamica_procesual.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del eje friccion_interpretativa. Metadatos principales: tipo de valor: Valor ordinal.
+        - `friccion_interpretativa-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-alta-alta`. Relación declarada: alta es un valor declarado para el eje friccion_interpretativa.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del eje friccion_interpretativa. Metadatos principales: tipo de valor: Valor ordinal.
+        - `friccion_interpretativa-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-baja-baja`. Relación declarada: baja es un valor declarado para el eje friccion_interpretativa.
+      - `media/`
+        - `friccion_interpretativa-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media`. Relación declarada: media es un valor declarado para el eje friccion_interpretativa.
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del eje friccion_interpretativa. Metadatos principales: tipo de valor: Valor ordinal.
+    - `recapitulacion/`
+      - `dinamica_procesual-has_internal_field-recapitulacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-has_internal_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion`
+        - **Descripción:** Archivo de arista `has_internal_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion`. Relación declarada: recapitulacion es un eje interno obligatorio declarado dentro de dinamica_procesual.
+      - `recapitulacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion`
+        - **Descripción:** Archivo de nodo `internal_field_node` para `recapitulacion`. Eje que indica el grado de recuperación, síntesis o reexpresión del recorrido. Metadatos principales: sección 7.3.5; tipo de valor: Categorial ordinal; cardinalidad: Eje obligatorio de dinamica_procesual.
+      - `alta/`
+        - `alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-alta-alta`
+          - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta del eje recapitulacion. Metadatos principales: tipo de valor: Valor ordinal.
+        - `recapitulacion-has_value-alta.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-alta-alta`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-alta-alta`. Relación declarada: alta es un valor declarado para el eje recapitulacion.
+      - `baja/`
+        - `baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja`
+          - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja del eje recapitulacion. Metadatos principales: tipo de valor: Valor ordinal.
+        - `recapitulacion-has_value-baja.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-baja-baja`. Relación declarada: baja es un valor declarado para el eje recapitulacion.
+      - `media/`
+        - `media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-media-media`
+          - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media del eje recapitulacion. Metadatos principales: tipo de valor: Valor ordinal.
+        - `recapitulacion-has_value-media.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-media-media`
+          - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion-media-media`. Relación declarada: media es un valor declarado para el eje recapitulacion.
+    - `restricciones/`
+      - `dinamica_procesual-must_be_compatible_with-estado_atencional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_be_compatible_with-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional`. Relación declarada: La dinámica procesual debe ser compatible con el estado atencional.
+      - `dinamica_procesual-must_be_compatible_with-regimen_de_activacion_atencional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_be_compatible_with-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional`. Relación declarada: La dinámica procesual debe ser compatible con el régimen de activación atencional.
+      - `dinamica_procesual-must_declare-compresion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_declare-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-compresion`. Relación declarada: La dinámica procesual debe declarar el eje compresion.
+      - `dinamica_procesual-must_declare-continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_declare-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-continuidad`. Relación declarada: La dinámica procesual debe declarar el eje continuidad.
+      - `dinamica_procesual-must_declare-explicitud.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_declare-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-explicitud`. Relación declarada: La dinámica procesual debe declarar el eje explicitud.
+      - `dinamica_procesual-must_declare-friccion_interpretativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_declare-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-friccion_interpretativa`. Relación declarada: La dinámica procesual debe declarar el eje friccion_interpretativa.
+      - `dinamica_procesual-must_declare-recapitulacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-must_declare-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dinamica_procesual-recapitulacion`. Relación declarada: La dinámica procesual debe declarar el eje recapitulacion.
+  - `estado_atencional/`
+    - `dimension_dinamica_atencional_y_procesual-has_field-estado_atencional.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional`. Relación declarada: estado_atencional es un campo directo declarado dentro de dimension_dinamica_atencional_y_procesual.
+    - `estado_atencional.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional`
+      - **Descripción:** Archivo de nodo `field_node` para `estado_atencional`. Configuración dominante de la relación atencional del receptor con la pieza al momento de la realización. Metadatos principales: sección 7.1; tipo de valor: Categorial semiabierto; cardinalidad: Un valor obligatorio.
+    - `atencion_en_exploracion/`
+      - `atencion_en_exploracion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_en_exploracion`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_en_exploracion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_en_exploracion-atencion_en_exploracion`. Relación declarada: atencion_en_exploracion es un valor declarado para el campo estado_atencional.
+    - `atencion_fragmentada/`
+      - `atencion_fragmentada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_fragmentada-atencion_fragmentada`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_fragmentada`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_fragmentada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_fragmentada-atencion_fragmentada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_fragmentada-atencion_fragmentada`. Relación declarada: atencion_fragmentada es un valor declarado para el campo estado_atencional.
+    - `atencion_inestable/`
+      - `atencion_inestable.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_inestable-atencion_inestable`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_inestable`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_inestable.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_inestable-atencion_inestable`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_inestable-atencion_inestable`. Relación declarada: atencion_inestable es un valor declarado para el campo estado_atencional.
+    - `atencion_lista_para_activacion/`
+      - `atencion_lista_para_activacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_lista_para_activacion`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_lista_para_activacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_activacion-atencion_lista_para_activacion`. Relación declarada: atencion_lista_para_activacion es un valor declarado para el campo estado_atencional.
+    - `atencion_lista_para_continuidad/`
+      - `atencion_lista_para_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_continuidad-atencion_lista_para_continuidad`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_lista_para_continuidad`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_lista_para_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_continuidad-atencion_lista_para_continuidad`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_continuidad-atencion_lista_para_continuidad`. Relación declarada: atencion_lista_para_continuidad es un valor declarado para el campo estado_atencional.
+    - `atencion_lista_para_profundizacion/`
+      - `atencion_lista_para_profundizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_lista_para_profundizacion`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_lista_para_profundizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion`. Relación declarada: atencion_lista_para_profundizacion es un valor declarado para el campo estado_atencional.
+    - `atencion_no_abierta/`
+      - `atencion_no_abierta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_no_abierta`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_no_abierta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta`. Relación declarada: atencion_no_abierta es un valor declarado para el campo estado_atencional.
+    - `atencion_requiere_reenganche/`
+      - `atencion_requiere_reenganche.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_requiere_reenganche-atencion_requiere_reenganche`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_requiere_reenganche`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_requiere_reenganche.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_requiere_reenganche-atencion_requiere_reenganche`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_requiere_reenganche-atencion_requiere_reenganche`. Relación declarada: atencion_requiere_reenganche es un valor declarado para el campo estado_atencional.
+    - `atencion_sostenida/`
+      - `atencion_sostenida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_sostenida`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_sostenida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_sostenida-atencion_sostenida`. Relación declarada: atencion_sostenida es un valor declarado para el campo estado_atencional.
+    - `atencion_superficial/`
+      - `atencion_superficial.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_superficial-atencion_superficial`
+        - **Descripción:** Archivo de nodo `value_node` para `atencion_superficial`. Valor declarado para el campo estado_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `estado_atencional-has_value-atencion_superficial.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_superficial-atencion_superficial`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_superficial-atencion_superficial`. Relación declarada: atencion_superficial es un valor declarado para el campo estado_atencional.
+  - `regimen_de_activacion_atencional/`
+    - `dimension_dinamica_atencional_y_procesual-has_field-regimen_de_activacion_atencional.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual-has_field-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-dimension_dinamica_atencional_y_procesual` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional`. Relación declarada: regimen_de_activacion_atencional es un campo directo declarado dentro de dimension_dinamica_atencional_y_procesual.
+    - `regimen_de_activacion_atencional.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional`
+      - **Descripción:** Archivo de nodo `field_node` para `regimen_de_activacion_atencional`. Modo principal en que la realización debe activar, sostener o reabrir la atención. Metadatos principales: sección 7.2; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `activacion_por_continuidad/`
+      - `activacion_por_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad`
+        - **Descripción:** Archivo de nodo `value_node` para `activacion_por_continuidad`. Valor declarado para el campo regimen_de_activacion_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `regimen_de_activacion_atencional-has_value-activacion_por_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-activacion_por_continuidad-activacion_por_continuidad`. Relación declarada: activacion_por_continuidad es un valor declarado para el campo regimen_de_activacion_atencional.
+    - `apertura_inmediata/`
+      - `apertura_inmediata.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_inmediata`. Valor declarado para el campo regimen_de_activacion_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `regimen_de_activacion_atencional-has_value-apertura_inmediata.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_inmediata-apertura_inmediata`. Relación declarada: apertura_inmediata es un valor declarado para el campo regimen_de_activacion_atencional.
+    - `apertura_progresiva/`
+      - `apertura_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_progresiva-apertura_progresiva`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_progresiva`. Valor declarado para el campo regimen_de_activacion_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `regimen_de_activacion_atencional-has_value-apertura_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_progresiva-apertura_progresiva`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-apertura_progresiva-apertura_progresiva`. Relación declarada: apertura_progresiva es un valor declarado para el campo regimen_de_activacion_atencional.
+    - `reenganche/`
+      - `reenganche.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche`
+        - **Descripción:** Archivo de nodo `value_node` para `reenganche`. Valor declarado para el campo regimen_de_activacion_atencional. Metadatos principales: tipo de valor: Valor categorial.
+      - `regimen_de_activacion_atencional-has_value-reenganche.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche`. Relación declarada: reenganche es un valor declarado para el campo regimen_de_activacion_atencional.
+    - `sostenimiento_desde_el_inicio/`
+      - `regimen_de_activacion_atencional-has_value-sostenimiento_desde_el_inicio.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional` con `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio`. Relación declarada: sostenimiento_desde_el_inicio es un valor declarado para el campo regimen_de_activacion_atencional.
+      - `sostenimiento_desde_el_inicio.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-sostenimiento_desde_el_inicio-sostenimiento_desde_el_inicio`
+        - **Descripción:** Archivo de nodo `value_node` para `sostenimiento_desde_el_inicio`. Valor declarado para el campo regimen_de_activacion_atencional. Metadatos principales: tipo de valor: Valor categorial.
+- `grafo_dimension_escala_temporal_y_resolucion_realizativa/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_escala_temporal_y_resolucion_realizativa/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_escala_temporal_y_resolucion_realizativa`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir la escala temporal y el régimen de resolución de la realización, indicando si la pieza es autosuficiente, seriada, acumulativa o transicional, y cómo distribuye su resolución en el tiempo.
+  - `dimension_escala_temporal_y_resolucion_realizativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_escala_temporal_y_resolucion_realizativa`. Dimensión que describe la escala temporal y el régimen de resolución de la realización.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_escala_temporal_y_resolucion_realizativa.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa`. Relación declarada: grafo_dimension_escala_temporal_y_resolucion_realizativa es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_escala_temporal_y_resolucion_realizativa-references_existing_dimension_node-dimension_escala_temporal_y_resolucion_realizativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa`. Relación declarada: grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa.
+  - `grafo_dimension_escala_temporal_y_resolucion_realizativa.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_escala_temporal_y_resolucion_realizativa`. Dimensión que describe la escala temporal y el régimen de resolución de la realización. Función: Describir la escala temporal y el régimen de resolución de la realización, indicando si la pieza es autosuficiente, seriada, acumulativa o transicional, y cómo distribuye su resolución en el tiempo. Metadatos principales: sección sin_seccion_declarada_en_nodo_original.
+  - `alcance_de_realizacion/`
+    - `alcance_de_realizacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`
+      - **Descripción:** Archivo de nodo `field_node` para `alcance_de_realizacion`. Campo que indica si la realización busca una pieza aislada o una unidad dentro de una estructura mayor. Metadatos principales: tipo de valor: categorial_cerrado; cardinalidad: un_valor_obligatorio.
+    - `dimension_escala_temporal_y_resolucion_realizativa-has_field-alcance_de_realizacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa-has_field-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`. Relación declarada: alcance_de_realizacion es un campo directo declarado dentro de dimension_escala_temporal_y_resolucion_realizativa.
+    - `apertura_de_serie/`
+      - `alcance_de_realizacion-has_value-apertura_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-apertura_de_serie-apertura_de_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-apertura_de_serie-apertura_de_serie`. Relación declarada: apertura_de_serie es un valor declarado para el campo alcance_de_realizacion.
+      - `apertura_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-apertura_de_serie-apertura_de_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `apertura_de_serie`. Valor declarado para el campo alcance_de_realizacion: apertura_de_serie.
+    - `cierre_de_serie/`
+      - `alcance_de_realizacion-has_value-cierre_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-cierre_de_serie-cierre_de_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-cierre_de_serie-cierre_de_serie`. Relación declarada: cierre_de_serie es un valor declarado para el campo alcance_de_realizacion.
+      - `cierre_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-cierre_de_serie-cierre_de_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `cierre_de_serie`. Valor declarado para el campo alcance_de_realizacion: cierre_de_serie.
+    - `continuidad_de_serie/`
+      - `alcance_de_realizacion-has_value-continuidad_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-continuidad_de_serie-continuidad_de_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-continuidad_de_serie-continuidad_de_serie`. Relación declarada: continuidad_de_serie es un valor declarado para el campo alcance_de_realizacion.
+      - `continuidad_de_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-continuidad_de_serie-continuidad_de_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `continuidad_de_serie`. Valor declarado para el campo alcance_de_realizacion: continuidad_de_serie.
+    - `pieza_de_acceso/`
+      - `alcance_de_realizacion-has_value-pieza_de_acceso.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_acceso-pieza_de_acceso`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_acceso-pieza_de_acceso`. Relación declarada: pieza_de_acceso es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_de_acceso.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_acceso-pieza_de_acceso`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_de_acceso`. Valor declarado para el campo alcance_de_realizacion: pieza_de_acceso.
+    - `pieza_de_profundizacion/`
+      - `alcance_de_realizacion-has_value-pieza_de_profundizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion`. Relación declarada: pieza_de_profundizacion es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_de_profundizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_profundizacion-pieza_de_profundizacion`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_de_profundizacion`. Valor declarado para el campo alcance_de_realizacion: pieza_de_profundizacion.
+    - `pieza_de_prueba/`
+      - `alcance_de_realizacion-has_value-pieza_de_prueba.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba`. Relación declarada: pieza_de_prueba es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_de_prueba.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_prueba-pieza_de_prueba`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_de_prueba`. Valor declarado para el campo alcance_de_realizacion: pieza_de_prueba.
+    - `pieza_de_transicion/`
+      - `alcance_de_realizacion-has_value-pieza_de_transicion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion`. Relación declarada: pieza_de_transicion es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_de_transicion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_transicion-pieza_de_transicion`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_de_transicion`. Valor declarado para el campo alcance_de_realizacion: pieza_de_transicion.
+    - `pieza_de_validacion/`
+      - `alcance_de_realizacion-has_value-pieza_de_validacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_validacion-pieza_de_validacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_validacion-pieza_de_validacion`. Relación declarada: pieza_de_validacion es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_de_validacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_de_validacion-pieza_de_validacion`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_de_validacion`. Valor declarado para el campo alcance_de_realizacion: pieza_de_validacion.
+    - `pieza_unica/`
+      - `alcance_de_realizacion-has_value-pieza_unica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica`. Relación declarada: pieza_unica es un valor declarado para el campo alcance_de_realizacion.
+      - `pieza_unica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-pieza_unica-pieza_unica`
+        - **Descripción:** Archivo de nodo `value_node` para `pieza_unica`. Valor declarado para el campo alcance_de_realizacion: pieza_unica.
+    - `restricciones/`
+      - `alcance_de_realizacion-must_be_coherent_with-horizonte_temporal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-must_be_coherent_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`. Relación declarada: El alcance de realización debe ser coherente con el horizonte temporal.
+      - `alcance_de_realizacion-must_be_coherent_with-regimen_de_resolucion_buscada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-must_be_coherent_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada`. Relación declarada: El alcance de realización debe ser coherente con el régimen de resolución buscada.
+      - `alcance_de_realizacion-must_have_cardinality-alcance_de_realizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-must_have_cardinality-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`
+        - **Descripción:** Archivo de arista `must_have_cardinality` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`. Relación declarada: El campo alcance_de_realizacion debe declarar exactamente un alcance dominante.
+  - `horizonte_temporal/`
+    - `dimension_escala_temporal_y_resolucion_realizativa-has_field-horizonte_temporal.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa-has_field-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`. Relación declarada: horizonte_temporal es un campo directo declarado dentro de dimension_escala_temporal_y_resolucion_realizativa.
+    - `horizonte_temporal.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`
+      - **Descripción:** Archivo de nodo `field_node` para `horizonte_temporal`. Campo que indica en qué escala temporal busca operar la realización. Metadatos principales: tipo de valor: categorial_cerrado; cardinalidad: un_valor_obligatorio.
+    - `acumulativo/`
+      - `acumulativo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-acumulativo-acumulativo`
+        - **Descripción:** Archivo de nodo `value_node` para `acumulativo`. Valor declarado para el campo horizonte_temporal: acumulativo.
+      - `horizonte_temporal-has_value-acumulativo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-acumulativo-acumulativo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-acumulativo-acumulativo`. Relación declarada: acumulativo es un valor declarado para el campo horizonte_temporal.
+    - `corto_plazo/`
+      - `corto_plazo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo`
+        - **Descripción:** Archivo de nodo `value_node` para `corto_plazo`. Valor declarado para el campo horizonte_temporal: corto_plazo.
+      - `horizonte_temporal-has_value-corto_plazo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-corto_plazo-corto_plazo`. Relación declarada: corto_plazo es un valor declarado para el campo horizonte_temporal.
+    - `inmediato/`
+      - `horizonte_temporal-has_value-inmediato.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-inmediato-inmediato`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-inmediato-inmediato`. Relación declarada: inmediato es un valor declarado para el campo horizonte_temporal.
+      - `inmediato.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-inmediato-inmediato`
+        - **Descripción:** Archivo de nodo `value_node` para `inmediato`. Valor declarado para el campo horizonte_temporal: inmediato.
+    - `mediano_plazo/`
+      - `horizonte_temporal-has_value-mediano_plazo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo`. Relación declarada: mediano_plazo es un valor declarado para el campo horizonte_temporal.
+      - `mediano_plazo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-mediano_plazo-mediano_plazo`
+        - **Descripción:** Archivo de nodo `value_node` para `mediano_plazo`. Valor declarado para el campo horizonte_temporal: mediano_plazo.
+    - `restricciones/`
+      - `horizonte_temporal-must_be_coherent_with-alcance_de_realizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-must_be_coherent_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`. Relación declarada: El horizonte temporal debe ser coherente con el alcance de realización.
+    - `seriado/`
+      - `horizonte_temporal-has_value-seriado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado`. Relación declarada: seriado es un valor declarado para el campo horizonte_temporal.
+      - `seriado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado`
+        - **Descripción:** Archivo de nodo `value_node` para `seriado`. Valor declarado para el campo horizonte_temporal: seriado.
+      - `restricciones/`
+        - `seriado-must_be_compatible_with-apertura_de_serie.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado-must_be_compatible_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-apertura_de_serie-apertura_de_serie`
+          - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-apertura_de_serie-apertura_de_serie`. Relación declarada: El horizonte seriado exige compatibilidad con piezas de apertura de serie.
+        - `seriado-must_be_compatible_with-cierre_de_serie.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado-must_be_compatible_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-cierre_de_serie-cierre_de_serie`
+          - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-cierre_de_serie-cierre_de_serie`. Relación declarada: El horizonte seriado exige compatibilidad con piezas de cierre de serie.
+        - `seriado-must_be_compatible_with-continuidad_de_serie.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado-must_be_compatible_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-continuidad_de_serie-continuidad_de_serie`
+          - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal-seriado-seriado` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion-continuidad_de_serie-continuidad_de_serie`. Relación declarada: El horizonte seriado exige compatibilidad con piezas de continuidad de serie.
+  - `referencias_externas/`
+    - `justificacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `justificacion`. Referencia externa requerida cuando una pieza única usa resolución diferida.
+  - `regimen_de_resolucion_buscada/`
+    - `dimension_escala_temporal_y_resolucion_realizativa-has_field-regimen_de_resolucion_buscada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa-has_field-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-dimension_escala_temporal_y_resolucion_realizativa` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada`. Relación declarada: regimen_de_resolucion_buscada es un campo directo declarado dentro de dimension_escala_temporal_y_resolucion_realizativa.
+    - `regimen_de_resolucion_buscada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada`
+      - **Descripción:** Archivo de nodo `field_node` para `regimen_de_resolucion_buscada`. Campo que fija cómo se distribuye la resolución del contenido dentro de la realización. Metadatos principales: tipo de valor: categorial_cerrado; cardinalidad: un_valor_obligatorio.
+    - `resolucion_abierta_a_continuidad/`
+      - `regimen_de_resolucion_buscada-has_value-resolucion_abierta_a_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_abierta_a_continuidad-resolucion_abierta_a_continuidad`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_abierta_a_continuidad-resolucion_abierta_a_continuidad`. Relación declarada: resolucion_abierta_a_continuidad es un valor declarado para el campo regimen_de_resolucion_buscada.
+      - `resolucion_abierta_a_continuidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_abierta_a_continuidad-resolucion_abierta_a_continuidad`
+        - **Descripción:** Archivo de nodo `value_node` para `resolucion_abierta_a_continuidad`. Valor declarado para el campo regimen_de_resolucion_buscada: resolucion_abierta_a_continuidad.
+    - `resolucion_diferida/`
+      - `regimen_de_resolucion_buscada-has_value-resolucion_diferida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_diferida-resolucion_diferida`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_diferida-resolucion_diferida`. Relación declarada: resolucion_diferida es un valor declarado para el campo regimen_de_resolucion_buscada.
+      - `resolucion_diferida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_diferida-resolucion_diferida`
+        - **Descripción:** Archivo de nodo `value_node` para `resolucion_diferida`. Valor declarado para el campo regimen_de_resolucion_buscada: resolucion_diferida.
+      - `restricciones/`
+        - `resolucion_diferida-must_declare-justificacion.json`
+          - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_diferida-resolucion_diferida-must_declare-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion`
+          - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_diferida-resolucion_diferida` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion`. Relación declarada: Una pieza única con resolución diferida exige declarar una justificación.
+    - `resolucion_inmediata/`
+      - `regimen_de_resolucion_buscada-has_value-resolucion_inmediata.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_inmediata-resolucion_inmediata`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_inmediata-resolucion_inmediata`. Relación declarada: resolucion_inmediata es un valor declarado para el campo regimen_de_resolucion_buscada.
+      - `resolucion_inmediata.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_inmediata-resolucion_inmediata`
+        - **Descripción:** Archivo de nodo `value_node` para `resolucion_inmediata`. Valor declarado para el campo regimen_de_resolucion_buscada: resolucion_inmediata.
+    - `resolucion_parcial/`
+      - `regimen_de_resolucion_buscada-has_value-resolucion_parcial.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_parcial-resolucion_parcial`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_parcial-resolucion_parcial`. Relación declarada: resolucion_parcial es un valor declarado para el campo regimen_de_resolucion_buscada.
+      - `resolucion_parcial.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_parcial-resolucion_parcial`
+        - **Descripción:** Archivo de nodo `value_node` para `resolucion_parcial`. Valor declarado para el campo regimen_de_resolucion_buscada: resolucion_parcial.
+    - `resolucion_progresiva/`
+      - `regimen_de_resolucion_buscada-has_value-resolucion_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-has_value-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_progresiva-resolucion_progresiva`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_progresiva-resolucion_progresiva`. Relación declarada: resolucion_progresiva es un valor declarado para el campo regimen_de_resolucion_buscada.
+      - `resolucion_progresiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-resolucion_progresiva-resolucion_progresiva`
+        - **Descripción:** Archivo de nodo `value_node` para `resolucion_progresiva`. Valor declarado para el campo regimen_de_resolucion_buscada: resolucion_progresiva.
+    - `restricciones/`
+      - `regimen_de_resolucion_buscada-must_be_compatible_with-alcance_de_realizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-must_be_compatible_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-alcance_de_realizacion`. Relación declarada: El régimen de resolución buscada debe ser compatible con el alcance de realización.
+      - `regimen_de_resolucion_buscada-must_be_compatible_with-horizonte_temporal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-must_be_compatible_with-grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada` con `grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-horizonte_temporal`. Relación declarada: El régimen de resolución buscada debe ser compatible con el horizonte temporal.
+- `grafo_dimension_identidad_operativa_de_la_realizacion/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_identidad_operativa_de_la_realizacion/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_identidad_operativa_de_la_realizacion`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir la identidad declarativa de la realización que se busca construir, indicando: - cómo se formula; - con qué precisión se formula; - y con qué jerarquía opera dentro del sistema. Esta dimensión no describe todavía el contenido del caso, ni su composición segmental, ni su superficie audiovisual. Su función es fijar **qué realización se está declarando** y con qué grado de centralidad.
+  - `dimension_identidad_operativa_de_la_realizacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_identidad_operativa_de_la_realizacion`. Dimensión que describe la identidad declarativa de la realización que se busca construir. Función: Describir la identidad declarativa de la realización que se busca construir, indicando cómo se formula, con qué precisión se formula y con qué jerarquía opera dentro del sistema. Metadatos principales: sección 3.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_identidad_operativa_de_la_realizacion.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion`. Relación declarada: grafo_dimension_identidad_operativa_de_la_realizacion es una dimensión disponible dentro de grafo_de_regiones.
+  - `formulacion_canonica/`
+    - `dimension_identidad_operativa_de_la_realizacion-has_field-formulacion_canonica.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-has_field-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica`. Relación declarada: formulacion_canonica es un campo directo declarado dentro de dimension_identidad_operativa_de_la_realizacion.
+    - `formulacion_canonica.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica`
+      - **Descripción:** Archivo de nodo `field_node` para `formulacion_canonica`. Campo que nombra de manera explícita la realización que será instanciada. Metadatos principales: sección 3.1; tipo de valor: Descriptivo controlado; cardinalidad: Un valor obligatorio.
+    - `restricciones/`
+      - `formulacion_canonica-must_declare-intencion_de_realizacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_declare-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-intencion_de_realizacion`
+        - **Descripción:** Archivo de arista `must_declare` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-intencion_de_realizacion`. Relación declarada: formulacion_canonica debe formular una intención de realización, no solo una etiqueta temática.
+      - `formulacion_canonica-must_function_as-identidad_declarativa_de_la_pieza.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_function_as-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-identidad_declarativa_de_la_pieza`
+        - **Descripción:** Archivo de arista `must_function_as` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-identidad_declarativa_de_la_pieza`. Relación declarada: formulacion_canonica debe poder funcionar como identidad declarativa de la pieza.
+      - `formulacion_canonica-must_not_be_confused_with-nombre_de_archivo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_not_be_confused_with-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-nombre_de_archivo`
+        - **Descripción:** Archivo de arista `must_not_be_confused_with` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-nombre_de_archivo`. Relación declarada: formulacion_canonica no debe confundirse con el nombre de un archivo.
+      - `formulacion_canonica-must_not_be_confused_with-tema.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_not_be_confused_with-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema`
+        - **Descripción:** Archivo de arista `must_not_be_confused_with` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema`. Relación declarada: formulacion_canonica no debe confundirse con un tema.
+      - `formulacion_canonica-must_not_include-logica_de_composicion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_not_include-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion`
+        - **Descripción:** Archivo de arista `must_not_include` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion`. Relación declarada: formulacion_canonica no debe incluir todavía toda la lógica de composición.
+  - `nivel_de_especificidad/`
+    - `dimension_identidad_operativa_de_la_realizacion-has_field-nivel_de_especificidad.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-has_field-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad`. Relación declarada: nivel_de_especificidad es un campo directo declarado dentro de dimension_identidad_operativa_de_la_realizacion.
+    - `nivel_de_especificidad.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad`
+      - **Descripción:** Archivo de nodo `field_node` para `nivel_de_especificidad`. Campo que indica el grado de precisión con el que está formulada la realización. Metadatos principales: sección 3.2; tipo de valor: Categorial ordinal; cardinalidad: Un valor obligatorio.
+    - `especifica/`
+      - `especifica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica`
+        - **Descripción:** Archivo de nodo `value_node` para `especifica`. Valor especifica declarado para el campo nivel_de_especificidad.
+      - `nivel_de_especificidad-has_value-especifica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica`. Relación declarada: especifica es un valor declarado para el campo nivel_de_especificidad.
+    - `general/`
+      - `general.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-general-general`
+        - **Descripción:** Archivo de nodo `value_node` para `general`. Valor general declarado para el campo nivel_de_especificidad.
+      - `nivel_de_especificidad-has_value-general.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-general-general`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-general-general`. Relación declarada: general es un valor declarado para el campo nivel_de_especificidad.
+    - `intermedia/`
+      - `intermedia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-intermedia-intermedia`
+        - **Descripción:** Archivo de nodo `value_node` para `intermedia`. Valor intermedia declarado para el campo nivel_de_especificidad.
+      - `nivel_de_especificidad-has_value-intermedia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-intermedia-intermedia`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-intermedia-intermedia`. Relación declarada: intermedia es un valor declarado para el campo nivel_de_especificidad.
+    - `restricciones/`
+      - `nivel_de_especificidad-must_be_coherent_with-formulacion_canonica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-must_be_coherent_with-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica`. Relación declarada: nivel_de_especificidad debe ser coherente con la formulación canónica elegida.
+  - `prioridad_de_intencion/`
+    - `dimension_identidad_operativa_de_la_realizacion-has_field-prioridad_de_intencion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-has_field-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion`. Relación declarada: prioridad_de_intencion es un campo directo declarado dentro de dimension_identidad_operativa_de_la_realizacion.
+    - `prioridad_de_intencion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion`
+      - **Descripción:** Archivo de nodo `field_node` para `prioridad_de_intencion`. Campo que indica la jerarquía relativa de esta realización dentro del sistema de configuración. Metadatos principales: sección 3.3; tipo de valor: Ordinal; cardinalidad: Un valor obligatorio.
+    - `auxiliar/`
+      - `auxiliar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-auxiliar-auxiliar`
+        - **Descripción:** Archivo de nodo `value_node` para `auxiliar`. Valor auxiliar declarado para el campo prioridad_de_intencion.
+      - `prioridad_de_intencion-has_value-auxiliar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-auxiliar-auxiliar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-auxiliar-auxiliar`. Relación declarada: auxiliar es un valor declarado para el campo prioridad_de_intencion.
+    - `principal/`
+      - `principal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal`
+        - **Descripción:** Archivo de nodo `value_node` para `principal`. Valor principal declarado para el campo prioridad_de_intencion.
+      - `prioridad_de_intencion-has_value-principal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-principal-principal`. Relación declarada: principal es un valor declarado para el campo prioridad_de_intencion.
+    - `restricciones/`
+      - `prioridad_de_intencion-must_be_coherent_with-jerarquia_general_de_la_configuracion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-must_be_coherent_with-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion`. Relación declarada: prioridad_de_intencion debe ser coherente con la jerarquía general de la configuración.
+    - `secundaria/`
+      - `prioridad_de_intencion-has_value-secundaria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-secundaria-secundaria`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-secundaria-secundaria`. Relación declarada: secundaria es un valor declarado para el campo prioridad_de_intencion.
+      - `secundaria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-secundaria-secundaria`
+        - **Descripción:** Archivo de nodo `value_node` para `secundaria`. Valor secundaria declarado para el campo prioridad_de_intencion.
+    - `terciaria/`
+      - `prioridad_de_intencion-has_value-terciaria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-has_value-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion` con `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria`. Relación declarada: terciaria es un valor declarado para el campo prioridad_de_intencion.
+      - `terciaria.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion-terciaria-terciaria`
+        - **Descripción:** Archivo de nodo `value_node` para `terciaria`. Valor terciaria declarado para el campo prioridad_de_intencion.
+  - `referencias_externas/`
+    - `identidad_declarativa_de_la_pieza.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-identidad_declarativa_de_la_pieza`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `identidad_declarativa_de_la_pieza`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+    - `intencion_de_realizacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-intencion_de_realizacion`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `intencion_de_realizacion`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+    - `jerarquia_general_de_la_configuracion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-jerarquia_general_de_la_configuracion`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `jerarquia_general_de_la_configuracion`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+    - `logica_de_composicion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `logica_de_composicion`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+    - `nombre_de_archivo.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-nombre_de_archivo`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `nombre_de_archivo`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+    - `tema.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-tema`
+      - **Descripción:** Archivo de nodo `external_reference_node` para `tema`. Referencia externa mencionada por restricciones de dimension_identidad_operativa_de_la_realizacion.
+- `grafo_dimension_marco_de_materializacion/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_marco_de_materializacion/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_marco_de_materializacion`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir la clase general de salida y el marco material en el que esa salida pertenece al codominio.
+  - `dimension_marco_de_materializacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_marco_de_materializacion`. Describir la clase general de salida y el marco material en el que esa salida pertenece al codominio. Metadatos principales: sección 10.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_marco_de_materializacion.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_marco_de_materializacion`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion`. Relación declarada: grafo_dimension_marco_de_materializacion es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_marco_de_materializacion-references_existing_dimension_node-dimension_marco_de_materializacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion`. Relación declarada: grafo_de_regiones-grafo_dimension_marco_de_materializacion funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion.
+  - `grafo_dimension_marco_de_materializacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_marco_de_materializacion`. Describir la clase general de salida y el marco material en el que esa salida pertenece al codominio. Metadatos principales: sección 10.
+  - `aplicacion_de_plataforma/`
+    - `aplicacion_de_plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`
+      - **Descripción:** Archivo de nodo `field_node` para `aplicacion_de_plataforma`. Describir la aplicación específica del entorno de plataforma dentro de la cual la salida debe ser realizable. Metadatos principales: sección 10.3.
+    - `dimension_marco_de_materializacion-has_field-aplicacion_de_plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`. Relación declarada: aplicacion_de_plataforma es un campo directo declarado dentro de dimension_marco_de_materializacion.
+    - `video_tiktok/`
+      - `aplicacion_de_plataforma-has_value-video_tiktok.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok`. Relación declarada: video_tiktok es el valor declarado para el campo aplicacion_de_plataforma.
+      - `video_tiktok.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-video_tiktok-video_tiktok`
+        - **Descripción:** Archivo de nodo `value_node` para `video_tiktok`. Valor declarado para el campo aplicacion_de_plataforma: video_tiktok. Metadatos principales: sección 10.3.
+  - `clase_de_materializacion/`
+    - `clase_de_materializacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion`
+      - **Descripción:** Archivo de nodo `field_node` para `clase_de_materializacion`. Describir la clase de materialización textual válida para la realización. Metadatos principales: sección 10.1.
+    - `dimension_marco_de_materializacion-has_field-clase_de_materializacion.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion`. Relación declarada: clase_de_materializacion es un campo directo declarado dentro de dimension_marco_de_materializacion.
+    - `guion_audiovisual_breve/`
+      - `clase_de_materializacion-has_value-guion_audiovisual_breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve`. Relación declarada: guion_audiovisual_breve es el valor declarado para el campo clase_de_materializacion.
+      - `guion_audiovisual_breve.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-guion_audiovisual_breve-guion_audiovisual_breve`
+        - **Descripción:** Archivo de nodo `value_node` para `guion_audiovisual_breve`. Valor declarado para el campo clase_de_materializacion: guion_audiovisual_breve. Metadatos principales: sección 10.1.
+  - `plataforma/`
+    - `dimension_marco_de_materializacion-has_field-plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion-has_field-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-dimension_marco_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma`. Relación declarada: plataforma es un campo directo declarado dentro de dimension_marco_de_materializacion.
+    - `plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma`
+      - **Descripción:** Archivo de nodo `field_node` para `plataforma`. Describir el entorno de plataforma para el que se construye la salida. Metadatos principales: sección 10.2.
+    - `tiktok/`
+      - `plataforma-has_value-tiktok.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-tiktok-tiktok`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-tiktok-tiktok`. Relación declarada: tiktok es el valor declarado para el campo plataforma.
+      - `tiktok.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-tiktok-tiktok`
+        - **Descripción:** Archivo de nodo `value_node` para `tiktok`. Valor declarado para el campo plataforma: tiktok. Metadatos principales: sección 10.2.
+  - `restricciones/`
+    - `clase_de_materializacion-must_be_compatible_with-aplicacion_de_plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-must_be_compatible_with-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`
+      - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`. Relación declarada: `clase_de_materializacion`, `plataforma` y `aplicacion_de_plataforma` deben ser compatibles entre sí.
+    - `clase_de_materializacion-must_be_compatible_with-plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-must_be_compatible_with-grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma`
+      - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma`. Relación declarada: `clase_de_materializacion`, `plataforma` y `aplicacion_de_plataforma` deben ser compatibles entre sí.
+    - `plataforma-must_be_compatible_with-aplicacion_de_plataforma.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma-must_be_compatible_with-grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`
+      - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_marco_de_materializacion-plataforma` con `grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma`. Relación declarada: `clase_de_materializacion`, `plataforma` y `aplicacion_de_plataforma` deben ser compatibles entre sí.
+- `grafo_dimension_orientacion_funcional_pragmatica/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_orientacion_funcional_pragmatica/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_orientacion_funcional_pragmatica`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir qué quiere hacer la realización, qué efecto busca producir y qué clase principal de respuesta espera activar. Esta dimensión fija el vector pragmático de la pieza. No describe todavía su segmentación ni su comparecencia local, pero sí el tipo de operación dominante que la salida debe cumplir.
+  - `dimension_orientacion_funcional_pragmatica.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_orientacion_funcional_pragmatica`. Dimensión que describe qué quiere hacer la realización, qué efecto busca producir y qué respuesta espera activar. Función: Describir qué quiere hacer la realización, qué efecto busca producir y qué clase principal de respuesta espera activar. Metadatos principales: sección 4.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_orientacion_funcional_pragmatica.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica`. Relación declarada: grafo_dimension_orientacion_funcional_pragmatica es una dimensión disponible dentro de grafo_de_regiones.
+  - `accion_esperada/`
+    - `accion_esperada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada`
+      - **Descripción:** Archivo de nodo `field_node` para `accion_esperada`. Campo que fija la acción concreta que la realización espera activar en el receptor. Metadatos principales: sección 4.3; tipo de valor: Categorial cerrado; cardinalidad: Uno o más valores.
+    - `dimension_orientacion_funcional_pragmatica-has_field-accion_esperada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada`. Relación declarada: accion_esperada es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica.
+    - `aplicar_lo_mostrado/`
+      - `accion_esperada-has_value-aplicar_lo_mostrado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-aplicar_lo_mostrado-aplicar_lo_mostrado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-aplicar_lo_mostrado-aplicar_lo_mostrado`. Relación declarada: aplicar_lo_mostrado es un valor declarado para el campo accion_esperada.
+      - `aplicar_lo_mostrado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-aplicar_lo_mostrado-aplicar_lo_mostrado`
+        - **Descripción:** Archivo de nodo `value_node` para `aplicar_lo_mostrado`. Valor aplicar_lo_mostrado declarado para el campo accion_esperada.
+    - `comentar/`
+      - `accion_esperada-has_value-comentar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-comentar-comentar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-comentar-comentar`. Relación declarada: comentar es un valor declarado para el campo accion_esperada.
+      - `comentar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-comentar-comentar`
+        - **Descripción:** Archivo de nodo `value_node` para `comentar`. Valor comentar declarado para el campo accion_esperada.
+    - `compartir/`
+      - `accion_esperada-has_value-compartir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir`. Relación declarada: compartir es un valor declarado para el campo accion_esperada.
+      - `compartir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-compartir-compartir`
+        - **Descripción:** Archivo de nodo `value_node` para `compartir`. Valor compartir declarado para el campo accion_esperada.
+    - `consumir_parte_siguiente/`
+      - `accion_esperada-has_value-consumir_parte_siguiente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente`. Relación declarada: consumir_parte_siguiente es un valor declarado para el campo accion_esperada.
+      - `consumir_parte_siguiente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-consumir_parte_siguiente-consumir_parte_siguiente`
+        - **Descripción:** Archivo de nodo `value_node` para `consumir_parte_siguiente`. Valor consumir_parte_siguiente declarado para el campo accion_esperada.
+    - `guardar/`
+      - `accion_esperada-has_value-guardar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-guardar-guardar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-guardar-guardar`. Relación declarada: guardar es un valor declarado para el campo accion_esperada.
+      - `guardar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-guardar-guardar`
+        - **Descripción:** Archivo de nodo `value_node` para `guardar`. Valor guardar declarado para el campo accion_esperada.
+    - `hacer_click/`
+      - `accion_esperada-has_value-hacer_click.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-hacer_click-hacer_click`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-hacer_click-hacer_click`. Relación declarada: hacer_click es un valor declarado para el campo accion_esperada.
+      - `hacer_click.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-hacer_click-hacer_click`
+        - **Descripción:** Archivo de nodo `value_node` para `hacer_click`. Valor hacer_click declarado para el campo accion_esperada.
+    - `ir_al_perfil/`
+      - `accion_esperada-has_value-ir_al_perfil.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ir_al_perfil-ir_al_perfil`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ir_al_perfil-ir_al_perfil`. Relación declarada: ir_al_perfil es un valor declarado para el campo accion_esperada.
+      - `ir_al_perfil.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ir_al_perfil-ir_al_perfil`
+        - **Descripción:** Archivo de nodo `value_node` para `ir_al_perfil`. Valor ir_al_perfil declarado para el campo accion_esperada.
+    - `ninguna_explicita/`
+      - `accion_esperada-has_value-ninguna_explicita.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ninguna_explicita-ninguna_explicita`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ninguna_explicita-ninguna_explicita`. Relación declarada: ninguna_explicita es un valor declarado para el campo accion_esperada.
+      - `ninguna_explicita.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ninguna_explicita-ninguna_explicita`
+        - **Descripción:** Archivo de nodo `value_node` para `ninguna_explicita`. Valor ninguna_explicita declarado para el campo accion_esperada.
+    - `restricciones/`
+      - `accion_esperada-must_be_coherent_with-funcion_dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-must_be_coherent_with-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`. Relación declarada: La acción esperada debe ser coherente con la función dominante.
+    - `seguir_cuenta/`
+      - `accion_esperada-has_value-seguir_cuenta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-seguir_cuenta-seguir_cuenta`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-seguir_cuenta-seguir_cuenta`. Relación declarada: seguir_cuenta es un valor declarado para el campo accion_esperada.
+      - `seguir_cuenta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-seguir_cuenta-seguir_cuenta`
+        - **Descripción:** Archivo de nodo `value_node` para `seguir_cuenta`. Valor seguir_cuenta declarado para el campo accion_esperada.
+    - `solicitar_mas_informacion/`
+      - `accion_esperada-has_value-solicitar_mas_informacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-solicitar_mas_informacion-solicitar_mas_informacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-solicitar_mas_informacion-solicitar_mas_informacion`. Relación declarada: solicitar_mas_informacion es un valor declarado para el campo accion_esperada.
+      - `solicitar_mas_informacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-solicitar_mas_informacion-solicitar_mas_informacion`
+        - **Descripción:** Archivo de nodo `value_node` para `solicitar_mas_informacion`. Valor solicitar_mas_informacion declarado para el campo accion_esperada.
+    - `ver_hasta_el_final/`
+      - `accion_esperada-has_value-ver_hasta_el_final.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ver_hasta_el_final-ver_hasta_el_final`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ver_hasta_el_final-ver_hasta_el_final`. Relación declarada: ver_hasta_el_final es un valor declarado para el campo accion_esperada.
+      - `ver_hasta_el_final.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-accion_esperada-ver_hasta_el_final-ver_hasta_el_final`
+        - **Descripción:** Archivo de nodo `value_node` para `ver_hasta_el_final`. Valor ver_hasta_el_final declarado para el campo accion_esperada.
+  - `configuracion_discursiva/`
+    - `configuracion_discursiva.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva`
+      - **Descripción:** Archivo de nodo `field_node` para `configuracion_discursiva`. Campo que describe el modo de formulación predominante de la realización. Metadatos principales: sección 4.4; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `dimension_orientacion_funcional_pragmatica-has_field-configuracion_discursiva.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva`. Relación declarada: configuracion_discursiva es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica.
+    - `argumentativa/`
+      - `argumentativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa`
+        - **Descripción:** Archivo de nodo `value_node` para `argumentativa`. Valor argumentativa declarado para el campo configuracion_discursiva.
+      - `configuracion_discursiva-has_value-argumentativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-argumentativa-argumentativa`. Relación declarada: argumentativa es un valor declarado para el campo configuracion_discursiva.
+    - `captativa/`
+      - `captativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa`
+        - **Descripción:** Archivo de nodo `value_node` para `captativa`. Valor captativa declarado para el campo configuracion_discursiva.
+      - `configuracion_discursiva-has_value-captativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-captativa-captativa`. Relación declarada: captativa es un valor declarado para el campo configuracion_discursiva.
+    - `definicional/`
+      - `configuracion_discursiva-has_value-definicional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional`. Relación declarada: definicional es un valor declarado para el campo configuracion_discursiva.
+      - `definicional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-definicional-definicional`
+        - **Descripción:** Archivo de nodo `value_node` para `definicional`. Valor definicional declarado para el campo configuracion_discursiva.
+    - `explicativa/`
+      - `configuracion_discursiva-has_value-explicativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-explicativa-explicativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-explicativa-explicativa`. Relación declarada: explicativa es un valor declarado para el campo configuracion_discursiva.
+      - `explicativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-explicativa-explicativa`
+        - **Descripción:** Archivo de nodo `value_node` para `explicativa`. Valor explicativa declarado para el campo configuracion_discursiva.
+    - `hibrida_controlada/`
+      - `configuracion_discursiva-has_value-hibrida_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-hibrida_controlada-hibrida_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-hibrida_controlada-hibrida_controlada`. Relación declarada: hibrida_controlada es un valor declarado para el campo configuracion_discursiva.
+      - `hibrida_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-hibrida_controlada-hibrida_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `hibrida_controlada`. Valor hibrida_controlada declarado para el campo configuracion_discursiva.
+    - `operativa/`
+      - `configuracion_discursiva-has_value-operativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-operativa-operativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-operativa-operativa`. Relación declarada: operativa es un valor declarado para el campo configuracion_discursiva.
+      - `operativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-operativa-operativa`
+        - **Descripción:** Archivo de nodo `value_node` para `operativa`. Valor operativa declarado para el campo configuracion_discursiva.
+    - `sintetizadora/`
+      - `configuracion_discursiva-has_value-sintetizadora.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora`. Relación declarada: sintetizadora es un valor declarado para el campo configuracion_discursiva.
+      - `sintetizadora.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-sintetizadora-sintetizadora`
+        - **Descripción:** Archivo de nodo `value_node` para `sintetizadora`. Valor sintetizadora declarado para el campo configuracion_discursiva.
+  - `efecto_buscado/`
+    - `dimension_orientacion_funcional_pragmatica-has_field-efecto_buscado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado`. Relación declarada: efecto_buscado es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica.
+    - `efecto_buscado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado`
+      - **Descripción:** Archivo de nodo `field_node` para `efecto_buscado`. Campo que describe el efecto principal que la realización pretende provocar en el receptor. Metadatos principales: sección 4.2; tipo de valor: Categorial semiabierto; cardinalidad: Uno o más valores, con una dominancia explícita.
+    - `comprension_rapida/`
+      - `comprension_rapida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida`
+        - **Descripción:** Archivo de nodo `value_node` para `comprension_rapida`. Valor comprension_rapida declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-comprension_rapida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-comprension_rapida-comprension_rapida`. Relación declarada: comprension_rapida es un valor declarado para el campo efecto_buscado.
+    - `curiosidad/`
+      - `curiosidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-curiosidad-curiosidad`
+        - **Descripción:** Archivo de nodo `value_node` para `curiosidad`. Valor curiosidad declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-curiosidad.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-curiosidad-curiosidad`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-curiosidad-curiosidad`. Relación declarada: curiosidad es un valor declarado para el campo efecto_buscado.
+    - `deseo_de_comentar/`
+      - `deseo_de_comentar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar`
+        - **Descripción:** Archivo de nodo `value_node` para `deseo_de_comentar`. Valor deseo_de_comentar declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-deseo_de_comentar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_comentar-deseo_de_comentar`. Relación declarada: deseo_de_comentar es un valor declarado para el campo efecto_buscado.
+    - `deseo_de_compartir/`
+      - `deseo_de_compartir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir`
+        - **Descripción:** Archivo de nodo `value_node` para `deseo_de_compartir`. Valor deseo_de_compartir declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-deseo_de_compartir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_compartir-deseo_de_compartir`. Relación declarada: deseo_de_compartir es un valor declarado para el campo efecto_buscado.
+    - `deseo_de_guardar/`
+      - `deseo_de_guardar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_guardar-deseo_de_guardar`
+        - **Descripción:** Archivo de nodo `value_node` para `deseo_de_guardar`. Valor deseo_de_guardar declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-deseo_de_guardar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_guardar-deseo_de_guardar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_guardar-deseo_de_guardar`. Relación declarada: deseo_de_guardar es un valor declarado para el campo efecto_buscado.
+    - `deseo_de_ir_al_perfil/`
+      - `deseo_de_ir_al_perfil.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil`
+        - **Descripción:** Archivo de nodo `value_node` para `deseo_de_ir_al_perfil`. Valor deseo_de_ir_al_perfil declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-deseo_de_ir_al_perfil.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ir_al_perfil-deseo_de_ir_al_perfil`. Relación declarada: deseo_de_ir_al_perfil es un valor declarado para el campo efecto_buscado.
+    - `deseo_de_ver_hasta_el_final/`
+      - `deseo_de_ver_hasta_el_final.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final`
+        - **Descripción:** Archivo de nodo `value_node` para `deseo_de_ver_hasta_el_final`. Valor deseo_de_ver_hasta_el_final declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-deseo_de_ver_hasta_el_final.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-deseo_de_ver_hasta_el_final-deseo_de_ver_hasta_el_final`. Relación declarada: deseo_de_ver_hasta_el_final es un valor declarado para el campo efecto_buscado.
+    - `disposicion_a_accion/`
+      - `disposicion_a_accion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-disposicion_a_accion-disposicion_a_accion`
+        - **Descripción:** Archivo de nodo `value_node` para `disposicion_a_accion`. Valor disposicion_a_accion declarado para el campo efecto_buscado.
+      - `efecto_buscado-has_value-disposicion_a_accion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-disposicion_a_accion-disposicion_a_accion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-disposicion_a_accion-disposicion_a_accion`. Relación declarada: disposicion_a_accion es un valor declarado para el campo efecto_buscado.
+    - `expectativa_de_resolucion/`
+      - `efecto_buscado-has_value-expectativa_de_resolucion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion`. Relación declarada: expectativa_de_resolucion es un valor declarado para el campo efecto_buscado.
+      - `expectativa_de_resolucion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-expectativa_de_resolucion-expectativa_de_resolucion`
+        - **Descripción:** Archivo de nodo `value_node` para `expectativa_de_resolucion`. Valor expectativa_de_resolucion declarado para el campo efecto_buscado.
+    - `identificacion/`
+      - `efecto_buscado-has_value-identificacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion`. Relación declarada: identificacion es un valor declarado para el campo efecto_buscado.
+      - `identificacion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-identificacion-identificacion`
+        - **Descripción:** Archivo de nodo `value_node` para `identificacion`. Valor identificacion declarado para el campo efecto_buscado.
+    - `predisposicion_a_serie/`
+      - `efecto_buscado-has_value-predisposicion_a_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-predisposicion_a_serie-predisposicion_a_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-predisposicion_a_serie-predisposicion_a_serie`. Relación declarada: predisposicion_a_serie es un valor declarado para el campo efecto_buscado.
+      - `predisposicion_a_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-predisposicion_a_serie-predisposicion_a_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `predisposicion_a_serie`. Valor predisposicion_a_serie declarado para el campo efecto_buscado.
+    - `restricciones/`
+      - `efecto_buscado-must_be_compatible_with-funcion_dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-must_be_compatible_with-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`
+        - **Descripción:** Archivo de arista `must_be_compatible_with` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`. Relación declarada: Los efectos buscados deben ser compatibles con la función dominante.
+    - `retencion/`
+      - `efecto_buscado-has_value-retencion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-retencion-retencion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-retencion-retencion`. Relación declarada: retencion es un valor declarado para el campo efecto_buscado.
+      - `retencion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-retencion-retencion`
+        - **Descripción:** Archivo de nodo `value_node` para `retencion`. Valor retencion declarado para el campo efecto_buscado.
+    - `sorpresa/`
+      - `efecto_buscado-has_value-sorpresa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa`. Relación declarada: sorpresa es un valor declarado para el campo efecto_buscado.
+      - `sorpresa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-sorpresa-sorpresa`
+        - **Descripción:** Archivo de nodo `value_node` para `sorpresa`. Valor sorpresa declarado para el campo efecto_buscado.
+    - `urgencia/`
+      - `efecto_buscado-has_value-urgencia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-urgencia-urgencia`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-urgencia-urgencia`. Relación declarada: urgencia es un valor declarado para el campo efecto_buscado.
+      - `urgencia.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-efecto_buscado-urgencia-urgencia`
+        - **Descripción:** Archivo de nodo `value_node` para `urgencia`. Valor urgencia declarado para el campo efecto_buscado.
+  - `funcion_dominante/`
+    - `dimension_orientacion_funcional_pragmatica-has_field-funcion_dominante.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`. Relación declarada: funcion_dominante es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica.
+    - `funcion_dominante.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante`
+      - **Descripción:** Archivo de nodo `field_node` para `funcion_dominante`. Campo que fija qué operación principal busca cumplir la realización. Metadatos principales: sección 4.1; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `abrir_serie/`
+      - `abrir_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `abrir_serie`. Valor abrir_serie declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-abrir_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-abrir_serie-abrir_serie`. Relación declarada: abrir_serie es un valor declarado para el campo funcion_dominante.
+    - `activar_interaccion/`
+      - `activar_interaccion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-activar_interaccion-activar_interaccion`
+        - **Descripción:** Archivo de nodo `value_node` para `activar_interaccion`. Valor activar_interaccion declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-activar_interaccion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-activar_interaccion-activar_interaccion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-activar_interaccion-activar_interaccion`. Relación declarada: activar_interaccion es un valor declarado para el campo funcion_dominante.
+    - `captar_atencion/`
+      - `captar_atencion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion`
+        - **Descripción:** Archivo de nodo `value_node` para `captar_atencion`. Valor captar_atencion declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-captar_atencion.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-captar_atencion-captar_atencion`. Relación declarada: captar_atencion es un valor declarado para el campo funcion_dominante.
+    - `cerrar_serie/`
+      - `cerrar_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-cerrar_serie-cerrar_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `cerrar_serie`. Valor cerrar_serie declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-cerrar_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-cerrar_serie-cerrar_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-cerrar_serie-cerrar_serie`. Relación declarada: cerrar_serie es un valor declarado para el campo funcion_dominante.
+    - `continuar_serie/`
+      - `continuar_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-continuar_serie-continuar_serie`
+        - **Descripción:** Archivo de nodo `value_node` para `continuar_serie`. Valor continuar_serie declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-continuar_serie.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-continuar_serie-continuar_serie`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-continuar_serie-continuar_serie`. Relación declarada: continuar_serie es un valor declarado para el campo funcion_dominante.
+    - `convertir/`
+      - `convertir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-convertir-convertir`
+        - **Descripción:** Archivo de nodo `value_node` para `convertir`. Valor convertir declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-convertir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-convertir-convertir`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-convertir-convertir`. Relación declarada: convertir es un valor declarado para el campo funcion_dominante.
+    - `diagnosticar/`
+      - `diagnosticar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-diagnosticar-diagnosticar`
+        - **Descripción:** Archivo de nodo `value_node` para `diagnosticar`. Valor diagnosticar declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-diagnosticar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-diagnosticar-diagnosticar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-diagnosticar-diagnosticar`. Relación declarada: diagnosticar es un valor declarado para el campo funcion_dominante.
+    - `distribuir/`
+      - `distribuir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir`
+        - **Descripción:** Archivo de nodo `value_node` para `distribuir`. Valor distribuir declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-distribuir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir`. Relación declarada: distribuir es un valor declarado para el campo funcion_dominante.
+    - `enseñar/`
+      - `enseñar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-enseñar-enseñar`
+        - **Descripción:** Archivo de nodo `value_node` para `enseñar`. Valor enseñar declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-enseñar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-enseñar-enseñar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-enseñar-enseñar`. Relación declarada: enseñar es un valor declarado para el campo funcion_dominante.
+    - `evaluar/`
+      - `evaluar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-evaluar-evaluar`
+        - **Descripción:** Archivo de nodo `value_node` para `evaluar`. Valor evaluar declarado para el campo funcion_dominante.
+      - `funcion_dominante-has_value-evaluar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-evaluar-evaluar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-evaluar-evaluar`. Relación declarada: evaluar es un valor declarado para el campo funcion_dominante.
+    - `manifestar_comercialmente/`
+      - `funcion_dominante-has_value-manifestar_comercialmente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente`. Relación declarada: manifestar_comercialmente es un valor declarado para el campo funcion_dominante.
+      - `manifestar_comercialmente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-manifestar_comercialmente-manifestar_comercialmente`
+        - **Descripción:** Archivo de nodo `value_node` para `manifestar_comercialmente`. Valor manifestar_comercialmente declarado para el campo funcion_dominante.
+    - `persuadir/`
+      - `funcion_dominante-has_value-persuadir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir`. Relación declarada: persuadir es un valor declarado para el campo funcion_dominante.
+      - `persuadir.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-persuadir-persuadir`
+        - **Descripción:** Archivo de nodo `value_node` para `persuadir`. Valor persuadir declarado para el campo funcion_dominante.
+    - `sintetizar/`
+      - `funcion_dominante-has_value-sintetizar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-has_value-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante` con `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar`. Relación declarada: sintetizar es un valor declarado para el campo funcion_dominante.
+      - `sintetizar.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-sintetizar-sintetizar`
+        - **Descripción:** Archivo de nodo `value_node` para `sintetizar`. Valor sintetizar declarado para el campo funcion_dominante.
+- `grafo_dimension_recursos_complementarios_de_manifestacion/`
+  - `definicion.md`
+    - **ID:** `archivo:grafo_dimension_recursos_complementarios_de_manifestacion/definicion.md`
+    - **Descripción:** Documento fuente en Markdown para `dimension_recursos_complementarios_de_manifestacion`. Resume la definición humana original de la dimensión, incluyendo función general, campos, valores y restricciones antes de su descomposición en archivos JSON de nodos y aristas. Función general declarada: Describir el régimen general de uso de recursos complementarios que acompañan al guión sin fijar todavía su realización local por bloque. Su función es declarar, a nivel de entrada: - qué clases de recursos complementarios usa la pieza; - con qué peso los usa; - qué función general cumplen; - cómo se distribuyen; - y bajo qué criterio general deben mantenerse coherentes.
+  - `dimension_recursos_complementarios_de_manifestacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_recursos_complementarios_de_manifestacion`. Dimensión que describe el régimen general de uso de recursos complementarios que acompañan al guión. Metadatos principales: sección 12.
+  - `grafo_de_regiones-has_dimension-grafo_dimension_recursos_complementarios_de_manifestacion.json`
+    - **ID:** `grafo_de_regiones-has_dimension-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion`
+    - **Descripción:** Archivo de arista `has_dimension` que conecta `grafo_de_regiones` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion`. Relación declarada: grafo_dimension_recursos_complementarios_de_manifestacion es una dimensión disponible dentro de grafo_de_regiones.
+  - `grafo_dimension_recursos_complementarios_de_manifestacion-references_existing_dimension_node-dimension_recursos_complementarios_de_manifestacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-references_existing_dimension_node-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion`
+    - **Descripción:** Archivo de arista `references_existing_dimension_node` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion`. Relación declarada: grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion funciona como nodo canónico de entrada y referencia el nodo de dimensión ya existente grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion.
+  - `grafo_dimension_recursos_complementarios_de_manifestacion.json`
+    - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion`
+    - **Descripción:** Archivo de nodo `dimension_node` para `dimension_recursos_complementarios_de_manifestacion`. Dimensión que describe el régimen general de uso de recursos complementarios que acompañan al guión. Función: Describir el régimen general de uso de recursos complementarios que acompañan al guión sin fijar todavía su realización local por bloque. Su función es declarar, a nivel de entrada, qué clases de recursos complementarios usa la pieza, con qué peso los usa, qué función general cumplen, cómo se distribuyen y bajo qué criterio general deben mantenerse coherentes. Metadatos principales: sección 12.
+  - `criterio_de_coherencia_de_recursos_complementarios/`
+    - `criterio_de_coherencia_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios`
+      - **Descripción:** Archivo de nodo `field_node` para `criterio_de_coherencia_de_recursos_complementarios`. Indicar el principio general que debe guiar la coherencia entre los recursos complementarios y el contenido principal del guión. Metadatos principales: sección 12.8; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-criterio_de_coherencia_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios`. Relación declarada: criterio_de_coherencia_de_recursos_complementarios es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `coherencia_atmosferica/`
+      - `coherencia_atmosferica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_atmosferica-coherencia_atmosferica`
+        - **Descripción:** Archivo de nodo `value_node` para `coherencia_atmosferica`. Valor coherencia_atmosferica declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+      - `criterio_de_coherencia_de_recursos_complementarios-has_value-coherencia_atmosferica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_atmosferica-coherencia_atmosferica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_atmosferica-coherencia_atmosferica`. Relación declarada: coherencia_atmosferica es un valor declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+    - `coherencia_conceptual/`
+      - `coherencia_conceptual.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual`
+        - **Descripción:** Archivo de nodo `value_node` para `coherencia_conceptual`. Valor coherencia_conceptual declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+      - `criterio_de_coherencia_de_recursos_complementarios-has_value-coherencia_conceptual.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_conceptual-coherencia_conceptual`. Relación declarada: coherencia_conceptual es un valor declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+    - `coherencia_literal/`
+      - `coherencia_literal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_literal-coherencia_literal`
+        - **Descripción:** Archivo de nodo `value_node` para `coherencia_literal`. Valor coherencia_literal declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+      - `criterio_de_coherencia_de_recursos_complementarios-has_value-coherencia_literal.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_literal-coherencia_literal`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_literal-coherencia_literal`. Relación declarada: coherencia_literal es un valor declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+    - `coherencia_metaforica/`
+      - `coherencia_metaforica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_metaforica-coherencia_metaforica`
+        - **Descripción:** Archivo de nodo `value_node` para `coherencia_metaforica`. Valor coherencia_metaforica declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+      - `criterio_de_coherencia_de_recursos_complementarios-has_value-coherencia_metaforica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_metaforica-coherencia_metaforica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_metaforica-coherencia_metaforica`. Relación declarada: coherencia_metaforica es un valor declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+    - `coherencia_mixta_controlada/`
+      - `coherencia_mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_mixta_controlada-coherencia_mixta_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `coherencia_mixta_controlada`. Valor coherencia_mixta_controlada declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+      - `criterio_de_coherencia_de_recursos_complementarios-has_value-coherencia_mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_mixta_controlada-coherencia_mixta_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-coherencia_mixta_controlada-coherencia_mixta_controlada`. Relación declarada: coherencia_mixta_controlada es un valor declarado para el campo criterio_de_coherencia_de_recursos_complementarios.
+    - `restricciones/`
+      - `criterio_de_coherencia_de_recursos_complementarios-must_be_coherent_with-funcion_predominante_de_los_recursos_complementarios.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios`. Relación declarada: criterio_de_coherencia_de_recursos_complementarios debe ser coherente con la función predominante de los recursos complementarios.
+  - `funcion_predominante_de_los_recursos_complementarios/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-funcion_predominante_de_los_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios`. Relación declarada: funcion_predominante_de_los_recursos_complementarios es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `funcion_predominante_de_los_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios`
+      - **Descripción:** Archivo de nodo `field_node` para `funcion_predominante_de_los_recursos_complementarios`. Indicar qué función cumplen predominantemente los recursos complementarios dentro de la pieza. Metadatos principales: sección 12.5; tipo de valor: Categorial cerrado múltiple controlado; cardinalidad: Uno o más valores compatibles.
+    - `ambiental/`
+      - `ambiental.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ambiental-ambiental`
+        - **Descripción:** Archivo de nodo `value_node` para `ambiental`. Valor ambiental declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-ambiental.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ambiental-ambiental`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ambiental-ambiental`. Relación declarada: ambiental es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `atencional/`
+      - `atencional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-atencional-atencional`
+        - **Descripción:** Archivo de nodo `value_node` para `atencional`. Valor atencional declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-atencional.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-atencional-atencional`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-atencional-atencional`. Relación declarada: atencional es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `contrastiva/`
+      - `contrastiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-contrastiva-contrastiva`
+        - **Descripción:** Archivo de nodo `value_node` para `contrastiva`. Valor contrastiva declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-contrastiva.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-contrastiva-contrastiva`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-contrastiva-contrastiva`. Relación declarada: contrastiva es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `demostrativa/`
+      - `demostrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-demostrativa-demostrativa`
+        - **Descripción:** Archivo de nodo `value_node` para `demostrativa`. Valor demostrativa declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-demostrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-demostrativa-demostrativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-demostrativa-demostrativa`. Relación declarada: demostrativa es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `explicativa/`
+      - `explicativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-explicativa-explicativa`
+        - **Descripción:** Archivo de nodo `value_node` para `explicativa`. Valor explicativa declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-explicativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-explicativa-explicativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-explicativa-explicativa`. Relación declarada: explicativa es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `ilustrativa/`
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-ilustrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ilustrativa-ilustrativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ilustrativa-ilustrativa`. Relación declarada: ilustrativa es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `ilustrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-ilustrativa-ilustrativa`
+        - **Descripción:** Archivo de nodo `value_node` para `ilustrativa`. Valor ilustrativa declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `mixta_controlada/`
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-mixta_controlada-mixta_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-mixta_controlada-mixta_controlada`. Relación declarada: mixta_controlada es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `mixta_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-mixta_controlada-mixta_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `mixta_controlada`. Valor mixta_controlada declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `narrativa/`
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-narrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-narrativa-narrativa`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-narrativa-narrativa`. Relación declarada: narrativa es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `narrativa.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-narrativa-narrativa`
+        - **Descripción:** Archivo de nodo `value_node` para `narrativa`. Valor narrativa declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+    - `simbolica/`
+      - `funcion_predominante_de_los_recursos_complementarios-has_value-simbolica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica`. Relación declarada: simbolica es un valor declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+      - `simbolica.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-funcion_predominante_de_los_recursos_complementarios-simbolica-simbolica`
+        - **Descripción:** Archivo de nodo `value_node` para `simbolica`. Valor simbolica declarado para el campo funcion_predominante_de_los_recursos_complementarios.
+  - `grado_de_dependencia_de_recursos_complementarios/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-grado_de_dependencia_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios`. Relación declarada: grado_de_dependencia_de_recursos_complementarios es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `grado_de_dependencia_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios`
+      - **Descripción:** Archivo de nodo `field_node` para `grado_de_dependencia_de_recursos_complementarios`. Indicar en qué medida la pieza depende de los recursos complementarios para funcionar correctamente. Metadatos principales: sección 12.6; tipo de valor: Categorial ordinal; cardinalidad: Un valor obligatorio.
+    - `alta/`
+      - `alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-alta-alta`
+        - **Descripción:** Archivo de nodo `value_node` para `alta`. Valor alta declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+      - `grado_de_dependencia_de_recursos_complementarios-has_value-alta.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-alta-alta`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-alta-alta`. Relación declarada: alta es un valor declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+    - `baja/`
+      - `baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-baja-baja`
+        - **Descripción:** Archivo de nodo `value_node` para `baja`. Valor baja declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+      - `grado_de_dependencia_de_recursos_complementarios-has_value-baja.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-baja-baja`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-baja-baja`. Relación declarada: baja es un valor declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+    - `dominante/`
+      - `dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante`
+        - **Descripción:** Archivo de nodo `value_node` para `dominante`. Valor dominante declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+      - `grado_de_dependencia_de_recursos_complementarios-has_value-dominante.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-dominante-dominante`. Relación declarada: dominante es un valor declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+    - `media/`
+      - `grado_de_dependencia_de_recursos_complementarios-has_value-media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-media-media`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-media-media`. Relación declarada: media es un valor declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+      - `media.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-media-media`
+        - **Descripción:** Archivo de nodo `value_node` para `media`. Valor media declarado para el campo grado_de_dependencia_de_recursos_complementarios.
+    - `restricciones/`
+      - `grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-uso_de_audio_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado`. Relación declarada: grado_de_dependencia_de_recursos_complementarios debe ser coherente con el uso declarado de audio generado.
+      - `grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-uso_de_imagen_generada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada`. Relación declarada: grado_de_dependencia_de_recursos_complementarios debe ser coherente con el uso declarado de imagen generada.
+      - `grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-uso_de_texto_en_pantalla.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla`. Relación declarada: grado_de_dependencia_de_recursos_complementarios debe ser coherente con el uso declarado de texto en pantalla.
+      - `grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-uso_de_video_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-grado_de_dependencia_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado`. Relación declarada: grado_de_dependencia_de_recursos_complementarios debe ser coherente con el uso declarado de video generado.
+  - `regimen_de_distribucion_de_recursos_complementarios/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-regimen_de_distribucion_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios`. Relación declarada: regimen_de_distribucion_de_recursos_complementarios es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `regimen_de_distribucion_de_recursos_complementarios.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios`
+      - **Descripción:** Archivo de nodo `field_node` para `regimen_de_distribucion_de_recursos_complementarios`. Indicar cómo se distribuyen globalmente los recursos complementarios a lo largo de la pieza. Metadatos principales: sección 12.7; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `concentrado_en_apertura/`
+      - `concentrado_en_apertura.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_apertura-concentrado_en_apertura`
+        - **Descripción:** Archivo de nodo `value_node` para `concentrado_en_apertura`. Valor concentrado_en_apertura declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-concentrado_en_apertura.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_apertura-concentrado_en_apertura`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_apertura-concentrado_en_apertura`. Relación declarada: concentrado_en_apertura es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+    - `concentrado_en_cierre/`
+      - `concentrado_en_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_cierre-concentrado_en_cierre`
+        - **Descripción:** Archivo de nodo `value_node` para `concentrado_en_cierre`. Valor concentrado_en_cierre declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-concentrado_en_cierre.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_cierre-concentrado_en_cierre`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_cierre-concentrado_en_cierre`. Relación declarada: concentrado_en_cierre es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+    - `concentrado_en_desarrollo/`
+      - `concentrado_en_desarrollo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo`
+        - **Descripción:** Archivo de nodo `value_node` para `concentrado_en_desarrollo`. Valor concentrado_en_desarrollo declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-concentrado_en_desarrollo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-concentrado_en_desarrollo-concentrado_en_desarrollo`. Relación declarada: concentrado_en_desarrollo es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+    - `distribucion_variable_controlada/`
+      - `distribucion_variable_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribucion_variable_controlada-distribucion_variable_controlada`
+        - **Descripción:** Archivo de nodo `value_node` para `distribucion_variable_controlada`. Valor distribucion_variable_controlada declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-distribucion_variable_controlada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribucion_variable_controlada-distribucion_variable_controlada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribucion_variable_controlada-distribucion_variable_controlada`. Relación declarada: distribucion_variable_controlada es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+    - `distribuido_regularmente/`
+      - `distribuido_regularmente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_regularmente-distribuido_regularmente`
+        - **Descripción:** Archivo de nodo `value_node` para `distribuido_regularmente`. Valor distribuido_regularmente declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-distribuido_regularmente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_regularmente-distribuido_regularmente`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_regularmente-distribuido_regularmente`. Relación declarada: distribuido_regularmente es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+    - `distribuido_selectivamente/`
+      - `distribuido_selectivamente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente`
+        - **Descripción:** Archivo de nodo `value_node` para `distribuido_selectivamente`. Valor distribuido_selectivamente declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+      - `regimen_de_distribucion_de_recursos_complementarios-has_value-distribuido_selectivamente.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente`. Relación declarada: distribuido_selectivamente es un valor declarado para el campo regimen_de_distribucion_de_recursos_complementarios.
+  - `uso_de_audio_generado/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-uso_de_audio_generado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado`. Relación declarada: uso_de_audio_generado es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `uso_de_audio_generado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado`
+      - **Descripción:** Archivo de nodo `field_node` para `uso_de_audio_generado`. Indicar el régimen general de uso de recursos sonoros o auditivos generados que acompañan el guión. Metadatos principales: sección 12.4; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `audio_distribuido/`
+      - `audio_distribuido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido`
+        - **Descripción:** Archivo de nodo `value_node` para `audio_distribuido`. Valor audio_distribuido declarado para el campo uso_de_audio_generado.
+      - `uso_de_audio_generado-has_value-audio_distribuido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_distribuido-audio_distribuido`. Relación declarada: audio_distribuido es un valor declarado para el campo uso_de_audio_generado.
+    - `audio_estructural/`
+      - `audio_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_estructural-audio_estructural`
+        - **Descripción:** Archivo de nodo `value_node` para `audio_estructural`. Valor audio_estructural declarado para el campo uso_de_audio_generado.
+      - `uso_de_audio_generado-has_value-audio_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_estructural-audio_estructural`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_estructural-audio_estructural`. Relación declarada: audio_estructural es un valor declarado para el campo uso_de_audio_generado.
+    - `audio_puntual_de_refuerzo/`
+      - `audio_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_puntual_de_refuerzo-audio_puntual_de_refuerzo`
+        - **Descripción:** Archivo de nodo `value_node` para `audio_puntual_de_refuerzo`. Valor audio_puntual_de_refuerzo declarado para el campo uso_de_audio_generado.
+      - `uso_de_audio_generado-has_value-audio_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_puntual_de_refuerzo-audio_puntual_de_refuerzo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_puntual_de_refuerzo-audio_puntual_de_refuerzo`. Relación declarada: audio_puntual_de_refuerzo es un valor declarado para el campo uso_de_audio_generado.
+    - `audio_variable_segun_bloque/`
+      - `audio_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque`
+        - **Descripción:** Archivo de nodo `value_node` para `audio_variable_segun_bloque`. Valor audio_variable_segun_bloque declarado para el campo uso_de_audio_generado.
+      - `uso_de_audio_generado-has_value-audio_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-audio_variable_segun_bloque-audio_variable_segun_bloque`. Relación declarada: audio_variable_segun_bloque es un valor declarado para el campo uso_de_audio_generado.
+    - `sin_audio_generado/`
+      - `sin_audio_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-sin_audio_generado-sin_audio_generado`
+        - **Descripción:** Archivo de nodo `value_node` para `sin_audio_generado`. Valor sin_audio_generado declarado para el campo uso_de_audio_generado.
+      - `uso_de_audio_generado-has_value-sin_audio_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-sin_audio_generado-sin_audio_generado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_audio_generado-sin_audio_generado-sin_audio_generado`. Relación declarada: sin_audio_generado es un valor declarado para el campo uso_de_audio_generado.
+  - `uso_de_imagen_generada/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-uso_de_imagen_generada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada`. Relación declarada: uso_de_imagen_generada es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `uso_de_imagen_generada.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada`
+      - **Descripción:** Archivo de nodo `field_node` para `uso_de_imagen_generada`. Indicar el régimen general de uso de imágenes generadas o imágenes de apoyo dentro de la pieza. Metadatos principales: sección 12.2; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `imagen_distribuida/`
+      - `imagen_distribuida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_distribuida-imagen_distribuida`
+        - **Descripción:** Archivo de nodo `value_node` para `imagen_distribuida`. Valor imagen_distribuida declarado para el campo uso_de_imagen_generada.
+      - `uso_de_imagen_generada-has_value-imagen_distribuida.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_distribuida-imagen_distribuida`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_distribuida-imagen_distribuida`. Relación declarada: imagen_distribuida es un valor declarado para el campo uso_de_imagen_generada.
+    - `imagen_estructural/`
+      - `imagen_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural`
+        - **Descripción:** Archivo de nodo `value_node` para `imagen_estructural`. Valor imagen_estructural declarado para el campo uso_de_imagen_generada.
+      - `uso_de_imagen_generada-has_value-imagen_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_estructural-imagen_estructural`. Relación declarada: imagen_estructural es un valor declarado para el campo uso_de_imagen_generada.
+    - `imagen_puntual_de_refuerzo/`
+      - `imagen_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_puntual_de_refuerzo-imagen_puntual_de_refuerzo`
+        - **Descripción:** Archivo de nodo `value_node` para `imagen_puntual_de_refuerzo`. Valor imagen_puntual_de_refuerzo declarado para el campo uso_de_imagen_generada.
+      - `uso_de_imagen_generada-has_value-imagen_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_puntual_de_refuerzo-imagen_puntual_de_refuerzo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_puntual_de_refuerzo-imagen_puntual_de_refuerzo`. Relación declarada: imagen_puntual_de_refuerzo es un valor declarado para el campo uso_de_imagen_generada.
+    - `imagen_variable_segun_bloque/`
+      - `imagen_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_variable_segun_bloque-imagen_variable_segun_bloque`
+        - **Descripción:** Archivo de nodo `value_node` para `imagen_variable_segun_bloque`. Valor imagen_variable_segun_bloque declarado para el campo uso_de_imagen_generada.
+      - `uso_de_imagen_generada-has_value-imagen_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_variable_segun_bloque-imagen_variable_segun_bloque`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-imagen_variable_segun_bloque-imagen_variable_segun_bloque`. Relación declarada: imagen_variable_segun_bloque es un valor declarado para el campo uso_de_imagen_generada.
+    - `restricciones/`
+      - `uso_de_imagen_generada-must_be_coherent_with-criterio_de_coherencia_de_recursos_complementarios.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-must_be_coherent_with-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios`
+        - **Descripción:** Archivo de arista `must_be_coherent_with` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios`. Relación declarada: uso_de_imagen_generada debe ser coherente con el criterio general de coherencia de recursos.
+    - `sin_imagen_generada/`
+      - `sin_imagen_generada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada`
+        - **Descripción:** Archivo de nodo `value_node` para `sin_imagen_generada`. Valor sin_imagen_generada declarado para el campo uso_de_imagen_generada.
+      - `uso_de_imagen_generada-has_value-sin_imagen_generada.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-sin_imagen_generada-sin_imagen_generada`. Relación declarada: sin_imagen_generada es un valor declarado para el campo uso_de_imagen_generada.
+  - `uso_de_texto_en_pantalla/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-uso_de_texto_en_pantalla.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla`. Relación declarada: uso_de_texto_en_pantalla es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `uso_de_texto_en_pantalla.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla`
+      - **Descripción:** Archivo de nodo `field_node` para `uso_de_texto_en_pantalla`. Indicar el régimen general de uso de texto en pantalla como recurso complementario de la pieza. Metadatos principales: sección 12.1; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `sin_texto_en_pantalla/`
+      - `sin_texto_en_pantalla.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla`
+        - **Descripción:** Archivo de nodo `value_node` para `sin_texto_en_pantalla`. Valor sin_texto_en_pantalla declarado para el campo uso_de_texto_en_pantalla.
+      - `uso_de_texto_en_pantalla-has_value-sin_texto_en_pantalla.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-sin_texto_en_pantalla-sin_texto_en_pantalla`. Relación declarada: sin_texto_en_pantalla es un valor declarado para el campo uso_de_texto_en_pantalla.
+    - `texto_distribuido_de_refuerzo/`
+      - `texto_distribuido_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_distribuido_de_refuerzo-texto_distribuido_de_refuerzo`
+        - **Descripción:** Archivo de nodo `value_node` para `texto_distribuido_de_refuerzo`. Valor texto_distribuido_de_refuerzo declarado para el campo uso_de_texto_en_pantalla.
+      - `uso_de_texto_en_pantalla-has_value-texto_distribuido_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_distribuido_de_refuerzo-texto_distribuido_de_refuerzo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_distribuido_de_refuerzo-texto_distribuido_de_refuerzo`. Relación declarada: texto_distribuido_de_refuerzo es un valor declarado para el campo uso_de_texto_en_pantalla.
+    - `texto_estructural/`
+      - `texto_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_estructural-texto_estructural`
+        - **Descripción:** Archivo de nodo `value_node` para `texto_estructural`. Valor texto_estructural declarado para el campo uso_de_texto_en_pantalla.
+      - `uso_de_texto_en_pantalla-has_value-texto_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_estructural-texto_estructural`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_estructural-texto_estructural`. Relación declarada: texto_estructural es un valor declarado para el campo uso_de_texto_en_pantalla.
+    - `texto_minimo_de_refuerzo/`
+      - `texto_minimo_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo`
+        - **Descripción:** Archivo de nodo `value_node` para `texto_minimo_de_refuerzo`. Valor texto_minimo_de_refuerzo declarado para el campo uso_de_texto_en_pantalla.
+      - `uso_de_texto_en_pantalla-has_value-texto_minimo_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_minimo_de_refuerzo-texto_minimo_de_refuerzo`. Relación declarada: texto_minimo_de_refuerzo es un valor declarado para el campo uso_de_texto_en_pantalla.
+    - `texto_variable_segun_bloque/`
+      - `texto_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_variable_segun_bloque-texto_variable_segun_bloque`
+        - **Descripción:** Archivo de nodo `value_node` para `texto_variable_segun_bloque`. Valor texto_variable_segun_bloque declarado para el campo uso_de_texto_en_pantalla.
+      - `uso_de_texto_en_pantalla-has_value-texto_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_variable_segun_bloque-texto_variable_segun_bloque`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_texto_en_pantalla-texto_variable_segun_bloque-texto_variable_segun_bloque`. Relación declarada: texto_variable_segun_bloque es un valor declarado para el campo uso_de_texto_en_pantalla.
+  - `uso_de_video_generado/`
+    - `dimension_recursos_complementarios_de_manifestacion-has_field-uso_de_video_generado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion-has_field-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado`
+      - **Descripción:** Archivo de arista `has_field` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-dimension_recursos_complementarios_de_manifestacion` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado`. Relación declarada: uso_de_video_generado es un campo directo declarado dentro de dimension_recursos_complementarios_de_manifestacion.
+    - `uso_de_video_generado.json`
+      - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado`
+      - **Descripción:** Archivo de nodo `field_node` para `uso_de_video_generado`. Indicar el régimen general de uso de fragmentos visuales dinámicos o videos generados que acompañan la pieza. Metadatos principales: sección 12.3; tipo de valor: Categorial cerrado; cardinalidad: Un valor obligatorio.
+    - `sin_video_generado/`
+      - `sin_video_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-sin_video_generado-sin_video_generado`
+        - **Descripción:** Archivo de nodo `value_node` para `sin_video_generado`. Valor sin_video_generado declarado para el campo uso_de_video_generado.
+      - `uso_de_video_generado-has_value-sin_video_generado.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-sin_video_generado-sin_video_generado`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-sin_video_generado-sin_video_generado`. Relación declarada: sin_video_generado es un valor declarado para el campo uso_de_video_generado.
+    - `video_distribuido/`
+      - `uso_de_video_generado-has_value-video_distribuido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido`. Relación declarada: video_distribuido es un valor declarado para el campo uso_de_video_generado.
+      - `video_distribuido.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_distribuido-video_distribuido`
+        - **Descripción:** Archivo de nodo `value_node` para `video_distribuido`. Valor video_distribuido declarado para el campo uso_de_video_generado.
+    - `video_estructural/`
+      - `uso_de_video_generado-has_value-video_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_estructural-video_estructural`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_estructural-video_estructural`. Relación declarada: video_estructural es un valor declarado para el campo uso_de_video_generado.
+      - `video_estructural.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_estructural-video_estructural`
+        - **Descripción:** Archivo de nodo `value_node` para `video_estructural`. Valor video_estructural declarado para el campo uso_de_video_generado.
+    - `video_puntual_de_refuerzo/`
+      - `uso_de_video_generado-has_value-video_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo`. Relación declarada: video_puntual_de_refuerzo es un valor declarado para el campo uso_de_video_generado.
+      - `video_puntual_de_refuerzo.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_puntual_de_refuerzo-video_puntual_de_refuerzo`
+        - **Descripción:** Archivo de nodo `value_node` para `video_puntual_de_refuerzo`. Valor video_puntual_de_refuerzo declarado para el campo uso_de_video_generado.
+    - `video_variable_segun_bloque/`
+      - `uso_de_video_generado-has_value-video_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_variable_segun_bloque-video_variable_segun_bloque`
+        - **Descripción:** Archivo de arista `has_value` que conecta `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado` con `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_variable_segun_bloque-video_variable_segun_bloque`. Relación declarada: video_variable_segun_bloque es un valor declarado para el campo uso_de_video_generado.
+      - `video_variable_segun_bloque.json`
+        - **ID:** `grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_video_generado-video_variable_segun_bloque-video_variable_segun_bloque`
+        - **Descripción:** Archivo de nodo `value_node` para `video_variable_segun_bloque`. Valor video_variable_segun_bloque declarado para el campo uso_de_video_generado.
+
+## 4. Nota de uso para IA
+
+Para usar este documento como sustituto compacto de la carpeta completa, la IA debe leer cada ruta como una pista de ubicación estructural y cada `ID` como la referencia estable que debe citarse o reutilizarse cuando una instancia regional, una instancia contextual u otro documento necesite apuntar a elementos del `grafo_de_regiones/`. Las descripciones no sustituyen a los archivos completos cuando se requiera editar el grafo, pero sí son suficientes para localizar dimensiones, campos, valores y relaciones sin cargar todos los JSON individuales.

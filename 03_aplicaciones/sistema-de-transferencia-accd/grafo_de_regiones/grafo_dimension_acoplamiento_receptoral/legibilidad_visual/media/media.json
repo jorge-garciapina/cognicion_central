@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-media-media",
+    "label": "media",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-media-media",
+    "summary": "**Definición.** Nivel en el que los elementos principales son distinguibles con claridad razonable, aunque algunos detalles, relaciones secundarias o textos menores requieran atención adicional. Es un punto de equilibrio entre riqueza visual y acceso.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

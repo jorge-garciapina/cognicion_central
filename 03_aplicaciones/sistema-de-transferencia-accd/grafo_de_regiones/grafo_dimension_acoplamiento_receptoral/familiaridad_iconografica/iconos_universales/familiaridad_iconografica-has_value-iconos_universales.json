@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-familiaridad_iconografica-iconos_universales-iconos_universales",
+    "type": "has_value",
+    "rationale": "iconos_universales es un valor nuevo de familiaridad_iconografica incorporado para la realización imagen."
+  }
+}

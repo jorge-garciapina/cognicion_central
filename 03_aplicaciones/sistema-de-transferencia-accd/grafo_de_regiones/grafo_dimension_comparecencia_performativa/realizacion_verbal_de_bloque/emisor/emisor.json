@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor",
+    "label": "emisor",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-realizacion_verbal_de_bloque-emisor",
+    "summary": "Tipo de emisor verbal que comparece localmente cuando un bloque lo requiere.",
+    "value_type": "Descriptivo controlado",
+    "cardinality": "Cero o uno por bloque"
+  }
+}

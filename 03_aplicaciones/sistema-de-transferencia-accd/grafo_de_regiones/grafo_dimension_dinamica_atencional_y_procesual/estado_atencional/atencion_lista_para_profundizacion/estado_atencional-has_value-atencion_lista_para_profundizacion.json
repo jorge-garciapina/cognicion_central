@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-has_value-grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion",
+    "from": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional",
+    "to": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_lista_para_profundizacion-atencion_lista_para_profundizacion",
+    "type": "has_value",
+    "rationale": "atencion_lista_para_profundizacion es un valor declarado para el campo estado_atencional."
+  }
+}

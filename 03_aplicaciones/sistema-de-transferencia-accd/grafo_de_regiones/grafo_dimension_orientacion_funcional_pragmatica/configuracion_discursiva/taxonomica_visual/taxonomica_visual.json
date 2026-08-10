@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-taxonomica_visual-taxonomica_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-taxonomica_visual-taxonomica_visual",
+    "label": "taxonomica_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-taxonomica_visual-taxonomica_visual",
+    "summary": "**Definición.** Valor que organiza el contenido como clasificación visible. Su sentido principal es distinguir tipos, familias, niveles, categorías o grupos mediante separación, rotulación, jerarquía o disposición espacial.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

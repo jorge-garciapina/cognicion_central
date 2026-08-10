@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica",
+    "label": "regimen_de_explicitacion_escenica",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica",
+    "summary": "Grado general en que la realización necesita explicitación escénica.",
+    "section": "9.6",
+    "value_type": "Categorial ordinal",
+    "cardinality": "Un valor obligatorio"
+  }
+}

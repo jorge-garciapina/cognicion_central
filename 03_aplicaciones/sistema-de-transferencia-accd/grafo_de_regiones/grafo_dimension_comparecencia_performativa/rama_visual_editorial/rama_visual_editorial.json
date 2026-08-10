@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+    "label": "rama_visual_editorial",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+    "summary": "La `rama_visual_editorial` agrupa campos que describen cómo comparece visualmente un carousel: tono, titulares, densidad textual, jerarquía gráfica, presencia de marca, iconografía y estilo compositivo.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

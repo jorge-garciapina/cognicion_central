@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-guiada_por_grilla-guiada_por_grilla",
+  "content": "**Definición.** Recorrido en el que la mirada se apoya en una retícula de módulos, filas, columnas o celdas. La grilla permite comparar, ordenar, escanear o distribuir información mediante posiciones repetibles y relaciones de alineación.\n\n**Diferenciación semántica.** Se diferencia de `guiada_por_columnas` porque incorpora una estructura modular más completa. Se diferencia de `libre_exploratoria` porque limita la exploración mediante orden regular.\n\n**Interpretación mínima.** La IA debe entender que la ubicación de los elementos dentro de la retícula comunica orden, equivalencia, clasificación o comparación.\n\n---"
+}

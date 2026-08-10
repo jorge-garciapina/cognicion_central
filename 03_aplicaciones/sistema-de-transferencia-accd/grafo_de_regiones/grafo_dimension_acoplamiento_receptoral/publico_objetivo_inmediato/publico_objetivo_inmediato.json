@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "label": "publico_objetivo_inmediato",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato",
+    "summary": "Campo que delimita el público inmediato al que la realización orienta la salida.",
+    "metadata": {
+      "section": "6.1",
+      "value_type": "Categorial semiabierto",
+      "cardinality": "Uno o más valores",
+      "restrictions": [
+        "Debe ser compatible con la adecuación léxico-formulativa.",
+        "Pueden coexistir varios públicos, pero debe haber uno dominante."
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-fria-fria",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-fria-fria",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-paleta_cromatica-fria-fria",
+    "type": "has_value",
+    "rationale": "fria es un valor nuevo incorporado en paleta_cromatica para la realización imagen."
+  }
+}

@@ -1,0 +1,2 @@
+LINK BASE:
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6a10e7be-1db0-83e8-a4e4-def620cc3e01

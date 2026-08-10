@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta",
+    "label": "alta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez-alta-alta",
+    "summary": "Valor alta del campo calidez.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-has_value-grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-configuracion_narrativa-apertura_profundizacion_cierre-apertura_profundizacion_cierre",
+    "type": "has_value",
+    "rationale": "apertura_profundizacion_cierre es un valor declarado para configuracion_narrativa."
+  }
+}

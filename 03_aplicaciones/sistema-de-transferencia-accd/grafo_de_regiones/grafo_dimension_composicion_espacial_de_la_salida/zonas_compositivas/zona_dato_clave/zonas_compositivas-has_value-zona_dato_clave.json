@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_dato_clave-zona_dato_clave",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_dato_clave-zona_dato_clave",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-zonas_compositivas-zona_dato_clave-zona_dato_clave",
+    "type": "has_value",
+    "rationale": "zona_dato_clave es un valor nuevo incorporado en zonas_compositivas para la realización imagen."
+  }
+}

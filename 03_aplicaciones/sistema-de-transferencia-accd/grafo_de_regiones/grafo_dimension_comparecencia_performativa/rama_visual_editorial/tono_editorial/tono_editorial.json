@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+    "label": "tono_editorial",
+    "type": "subfield_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-tono_editorial",
+    "summary": "Subcampo que describe el tono general con el que la pieza comparece como objeto visual-editorial.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "parent_field": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial",
+      "status_after_materialization": "incorporado"
+    }
+  }
+}

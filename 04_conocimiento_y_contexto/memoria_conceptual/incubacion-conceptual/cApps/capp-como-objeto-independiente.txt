@@ -1,0 +1,269 @@
+TÍTULO
+cApps y prompt-cApps: definiciones operativas, estructura mínima, familias cognitivas y catálogo de invocación
+
+0) Propósito del documento
+Este documento define qué es una cApp (cognitive application) y qué es una prompt-cApp (cApp implementada principalmente como prompt), junto con:
+- Identidad mínima (qué la hace “la misma” bajo variación).
+- Componentes estructurales (qué partes debe contener para ser operable).
+- Criterios de clasificación por “familias cognitivas” (cómo decidir su naturaleza funcional).
+- Lógica de catálogo e invocación por comando (cómo permitir sugerencia y selección no improvisada).
+- Reglas normativas para construir estas unidades como nodos composables dentro de un grafo conceptual.
+
+El objetivo es obtener unidades invocables, auditables, transferibles y reutilizables; no piezas narrativas dependientes de un hilo conversacional.
+
+──────────────────────────────────────────────────────────────────────────────
+1) Definiciones base (términos mínimos)
+1.1 cApp (cognitive application)
+Una cApp es una unidad operativa diseñada para producir un efecto cognitivo o funcional específico (un fin) bajo un conjunto de condiciones
+externas (contexto). Se compone de:
+- Un contrato de invocación (cómo se llama y qué entrada requiere).
+- Un núcleo operativo (qué transformación realiza).
+- Un criterio de corrección/validación (cómo se decide si “funcionó”).
+- Un dominio de variación permitido (qué puede cambiar sin perder identidad).
+- Una forma de integración (cómo se conecta con otras unidades en un grafo).
+
+Nota: “cognitive application” se define como unidad operativa, no como “programa” en sentido técnico. Puede implementarse como texto, prompt, script, interfaz, flujo, módulo, o combinación.
+
+1.2 prompt-cApp
+Una prompt-cApp es una cApp cuya implementación principal es un prompt (instrucción formal de operación dirigida a un modelo generativo de lenguaje).
+- “Modelo generativo de lenguaje” se refiere a Large Language Model (LLM, a model trained to predict and generate text).
+- La prompt-cApp se comporta como un “procedimiento” invocable: entrada → operación → salida.
+
+1.3 Fin (objetivo funcional)
+El fin es la forma estructural del resultado buscado. No es solo “tema” ni “frase motivacional”, sino un tipo de transformación esperada, por ejemplo:
+- Estabilizar significado (definir).
+- Secuenciar acciones (planear).
+- Repetir con control de calidad (método).
+- Organizar partes bajo restricciones (diseño).
+- Derivar conclusiones justificadas (patrón de razonamiento).
+
+1.4 Familia cognitiva
+Una familia cognitiva es una categoría operativa de manifestación que agrupa estructuras (mNodes o unidades equivalentes) según la función dominante que
+realizan en una situación. La familia no se decide por “de qué habla” la unidad, sino por “qué hace” como forma.
+
+En esta teoría, se usan cinco familias cognitivas base:
+(1) Idea: estabiliza identidad/significado (“¿qué es esto?”).
+(2) Plan: ordena pasos hacia un objetivo (“¿qué pasos seguir?”).
+(3) Método: produce resultados fiables y repetibles con control de calidad (“¿cómo producir resultados de forma fiable?”).
+(4) Diseño: organiza partes bajo restricciones (“¿cómo se relacionan las partes bajo restricciones?”).
+(5) Patrón de razonamiento: deriva conclusiones justificadas (“¿cómo se derivan conclusiones con justificación?”).
+
+──────────────────────────────────────────────────────────────────────────────
+2) Principio estructural: identidad bajo variación (norma de construcción)
+Una cApp debe poder existir como unidad transferible. Para lograrlo, debe cumplir una regla central: identidad mínima bajo variación.
+
+2.1 Identidad mínima (núcleo)
+La identidad de una unidad conceptual se sostiene en tres componentes:
+A) Invariantes: lo que no puede cambiar sin dejar de ser esa unidad.
+B) Dominio de variación: lo que sí puede cambiar sin destruir la identidad.
+C) Criterio de validación por convergencia: la formulación es adecuada si diferentes receptores pueden identificar “la misma unidad” apoyándose en invariantes explícitos, sin depender de memorias privadas.
+
+2.2 Regla normativa (separación forma/tema)
+El tema puede variar sin cambiar la identidad, siempre que se preserven las invariantes.
+Esto implica que una cApp no se define por “el asunto del ejemplo” (por ejemplo, publicidad, medicina, software), sino por su estructura operativa.
+
+2.3 Variación legítima
+La variación en estilo, énfasis o nivel de detalle es válida si conserva las condiciones normativas.
+Esto permite recombinar las mismas unidades para fines distintos (explicación, análisis, implementación, divulgación) sin redefinir conceptos desde cero.
+
+──────────────────────────────────────────────────────────────────────────────
+3) cApps como nodos composables dentro de un grafo
+Una cApp, para integrarse en un sistema de diseño y recomendación, debe ser tratable como nodo dentro de un grafo conceptual.
+
+3.1 Qué habilita el marco normativo
+Al garantizar identidad mínima, invariantes y dominios de variación, una unidad conceptual puede:
+- Ser descompuesta en subunidades.
+- Ser reutilizada en distintos contextos.
+- Ser ponderada de forma distinta según el objetivo del grafo.
+- Ser conectada con otras unidades mediante relaciones explícitas.
+
+3.2 Implicación práctica
+El grafo no es una colección de textos, sino una estructura articulada:
+- Un nodo conserva identidad aun cuando cambia su función dentro del conjunto.
+- La recombinación no destruye la unidad si respeta invariantes.
+
+3.3 cApps como “subnodos” de una estructura mayor
+En una arquitectura por capas, una prompt-cApp puede ser un subnodo dentro de una cApp mayor, y esa cApp mayor puede ser un subnodo dentro de un sistema de aplicaciones cognitivas.
+La jerarquía no es decorativa: permite composición y ensamblaje por familias, fines y condiciones de contorno.
+
+──────────────────────────────────────────────────────────────────────────────
+4) Estructura mínima de una cApp (plantilla operativa)
+Una cApp, para ser invocable, sugerible y verificable, requiere una estructura mínima estable.
+
+4.1 Metadatos de identidad
+- id: identificador único.
+- nombre: etiqueta humana.
+- fin: descripción estructural del objetivo (no solo “tema”).
+- familia dominante: una de las cinco familias base o una combinación declarada.
+- condiciones de contorno típicas: rasgos del contexto que activan esta cApp.
+- entradas esperadas: tipo de entrada (texto libre, grafo, subgrafo, restricciones, etc.).
+- salidas esperadas: forma de salida (definición, plan, procedimiento, diseño, argumento, etc.).
+- dependencias permitidas: recursos requeridos (por ejemplo, grafo interno, glosario, plantillas).
+
+4.2 Núcleo operativo (lo que “hace”)
+- Operación principal: transformación definida (por ejemplo, “normalizar una definición”, “derivar discriminadores”, “proponer arquitectura”).
+- Procedimiento: pasos o reglas (si aplica).
+- Validación: pruebas o criterios para aceptar/rechazar el output.
+
+4.3 Invariantes de cApp (mínimos no negociables)
+Ejemplos de invariantes típicas:
+- Debe producir una salida cuya forma sea evaluable (no solo retórica).
+- Debe declarar frontera (qué incluye y qué excluye) cuando su familia dominante lo exige.
+- Debe evitar dependencia privada (no puede requerir “intuición autobiográfica” del autor para funcionar).
+- Debe mantener compatibilidad con el sistema de integración (por ejemplo, poder conectarse como nodo del grafo).
+
+4.4 Dominio de variación de cApp
+Ejemplos de variaciones permitidas sin romper identidad:
+- Cambiar ejemplos temáticos.
+- Cambiar estilo de redacción.
+- Ajustar granularidad (más breve vs más técnico) si no se rompen invariantes.
+- Sustituir pasos por equivalentes funcionales (cuando la cApp es un Plan o Método) preservando dependencias.
+
+4.5 Criterio de validación por convergencia
+Una cApp es transferible si dos receptores, con el mismo input, pueden:
+- Reconocer el tipo de salida (familia).
+- Verificar cumplimiento de invariantes.
+- Llegar a juicios similares sobre pertenencia/corrección, sin compartir biografía.
+
+──────────────────────────────────────────────────────────────────────────────
+5) Familias cognitivas como sistema de clasificación y sugerencia
+El catálogo de cApps requiere un paso previo: reconocer la “naturaleza del fin” como estructura, no como etiqueta. Esa naturaleza se formaliza mediante familias.
+
+5.1 Criterios de pertenencia (estructura formal)
+La pertenencia a una familia no se decide por intuición. Se decide con criterios compuestos por cinco componentes mínimos:
+
+(1) Invariantes de familia:
+Condiciones mínimas necesarias (no negociables) para que una estructura cuente como esa familia.
+
+(2) Discriminadores de familia:
+Preguntas o pruebas operativas para decidir pertenencia en casos dudosos; separan familias vecinas.
+
+(3) Dominio de variación de familia:
+Dimensiones en las que una estructura puede cambiar sin dejar de pertenecer a la familia.
+
+(4) Perfil de condiciones (condiciones de contorno típicas):
+Rasgos del contexto/tarea que activan o hacen dominante ese modo.
+
+(5) Procedimientos y validación asociados:
+Reglas de uso y criterios de corrección para construir y evaluar instancias de la familia de forma fiable.
+
+5.2 Lectura directa para cApps/prompts
+Una cApp, al ser una unidad operativa, puede clasificarse por la familia dominante de su output o de su operación:
+- Si su fin es fijar fronteras y estabilizar identidad: familia Idea.
+- Si su fin es enumerar pasos con dependencias hacia una meta: familia Plan.
+- Si su fin es reproducibilidad con control de calidad: familia Método.
+- Si su fin es organizar componentes bajo restricciones: familia Diseño.
+- Si su fin es inferencia con justificación: familia Patrón de razonamiento.
+
+5.3 Discriminación por “fin” (no por tema)
+Una misma temática puede contener distintas familias:
+- “Perro” como definición: Idea.
+- “Receta de cocina” como secuencia: Plan.
+- “Protocolo de laboratorio” como repetición validada: Método.
+- “Arquitectura de software” como partes y restricciones: Diseño.
+- “Argumento lógico” como inferencia justificable: Patrón de razonamiento.
+
+Esto permite sugerir una cApp adecuada incluso cuando el tema no corresponde a un dominio conocido.
+
+──────────────────────────────────────────────────────────────────────────────
+6) Catálogo e invocación: de la clasificación a la sugerencia automática
+6.1 Catálogo interno de cApps
+Un catálogo es un conjunto de cApps registradas con metadatos suficientes para:
+- Buscar por familia dominante.
+- Buscar por perfil de condiciones de contorno.
+- Buscar por tipo de entrada y tipo de salida.
+- Evaluar compatibilidad con restricciones (tiempo, riesgo de error, necesidad de auditoría, etc.).
+
+6.2 Lógica de sugerencia (esquema general)
+La sugerencia se compone de cuatro pasos:
+
+Paso A: Lectura del problema como fin estructural.
+Se identifica qué tipo de output se requiere: definición, plan, método, diseño, o razonamiento.
+
+Paso B: Clasificación por familia dominante.
+Se aplican discriminadores de familia para evitar confundir, por ejemplo, Plan con Método:
+- Plan: secuencia hacia objetivo.
+- Método: repetibilidad + control de calidad + validación.
+
+Paso C: Selección por condiciones de contorno.
+Se comparan condiciones del caso con perfiles típicos:
+- Ambigüedad terminológica y necesidad de interoperabilidad → Idea.
+- Ejecución por etapas y riesgo de omitir pasos → Plan.
+- Necesidad de fiabilidad, comparabilidad y auditoría del “cómo” → Método.
+- Restricciones múltiples y necesidad de organizar componentes → Diseño.
+- Necesidad de justificar inferencias y validez → Patrón de razonamiento.
+
+Paso D: Elección de estrategia: invocar o construir.
+- Si existe una cApp en catálogo con alta compatibilidad: invocación directa.
+- Si no existe, o la compatibilidad es baja: construcción de una cApp nueva (adaptación contextual), siguiendo la estructura mínima y declarando invariantes/variación/validación.
+
+6.3 Composición de cApps
+Los problemas reales suelen requerir combinación:
+- Idea → Plan → Método → Diseño → Razonamiento, en secuencias o bucles.
+Ejemplo estructural:
+- Primero se fija identidad (Idea),
+- luego se secuencian acciones (Plan),
+- luego se añade control de calidad (Método),
+- luego se organiza el sistema (Diseño),
+- luego se justifican decisiones (Patrón de razonamiento).
+
+La composición es un caso particular de “grafo de cApps” donde cada cApp es un nodo con entradas/salidas compatibles.
+
+──────────────────────────────────────────────────────────────────────────────
+7) Prompt-cApps como “procedimientos” con quality gates (ejemplo abstracto)
+Una prompt-cApp típica orientada a refinamiento conceptual se puede describir como:
+
+- Entrada: definición base D0 (posiblemente incompleta).
+- Restricciones: límites de formalización, compatibilidades requeridas, prohibiciones (por ejemplo, no colapsar niveles).
+- Quality gates: criterios de calidad explícitos (por ejemplo, “frontera clara”, “operabilidad”, “explicar dirección sin formalismo excesivo”).
+- Stages: etapas de normalización, integración, verificación.
+- Salida: definición D1 operable (con partes, frontera, invariantes, dominio de variación y validación).
+
+Este patrón es relevante porque muestra una prompt-cApp como método reproducible: no depende de inspiración libre, sino de gates y verificaciones.
+
+──────────────────────────────────────────────────────────────────────────────
+8) Conclusiones operativas: por qué “familias” potencia cApps/prompts
+8.1 Reduce improvisación
+La clasificación por familias convierte “clasificación por impresión” en “clasificación por reglas”.
+Esto transforma la selección de una cApp en un acto auditable.
+
+8.2 Hace posible un motor de recomendación
+Si las cApps están indexadas por familia, discriminadores y condiciones de contorno, se puede:
+- Sugerir cApps existentes.
+- Detectar que ninguna cApp cumple y entonces disparar construcción controlada.
+
+8.3 Estabiliza identidad del catálogo
+Sin criterios de pertenencia, el catálogo se degrada:
+- “Idea”, “Plan”, “Método”, “Diseño” y “Razonamiento” se vuelven etiquetas vagas.
+Con criterios, se convierten en modos con límites claros.
+
+8.4 Permite integración con grafos
+Al tratar cApps como nodos composables:
+- Se habilita recombinación (macro-cApps hechas de sub-cApps).
+- Se habilita ponderación (priorizar ciertas cApps según objetivo).
+- Se habilita conexión explícita (edges entre cApps por compatibilidad de entrada/salida).
+
+──────────────────────────────────────────────────────────────────────────────
+9) Checklist mínimo para construir o registrar una cApp (uso inmediato)
+Una unidad se registra como cApp si cumple, al menos, lo siguiente:
+
+(Identidad)
+[ ] Declara fin estructural (no solo tema).
+[ ] Declara invariantes (mínimos no negociables).
+[ ] Declara dominio de variación (qué puede cambiar).
+[ ] Declara validación (cómo se decide corrección o éxito).
+
+(Clasificación)
+[ ] Declara familia dominante (Idea/Plan/Método/Diseño/Patrón de razonamiento) o combinación.
+[ ] Incluye discriminadores de pertenencia (al menos preguntas decisivas).
+
+(Operabilidad)
+[ ] Especifica entradas y salidas en forma evaluable.
+[ ] Incluye procedimiento mínimo o reglas de ejecución (si aplica).
+[ ] Incluye condiciones de contorno típicas (cuándo se recomienda).
+
+(Integración)
+[ ] Tiene un identificador único.
+[ ] Es tratable como nodo de grafo (puede conectarse a otras unidades por relaciones explícitas).
+
+Fin del documento.

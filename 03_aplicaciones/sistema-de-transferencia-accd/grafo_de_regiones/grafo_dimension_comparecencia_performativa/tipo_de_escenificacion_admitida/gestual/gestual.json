@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual",
+    "label": "gestual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida-gestual-gestual",
+    "summary": "Valor gestual del campo tipo_de_escenificacion_admitida.",
+    "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida"
+  }
+}

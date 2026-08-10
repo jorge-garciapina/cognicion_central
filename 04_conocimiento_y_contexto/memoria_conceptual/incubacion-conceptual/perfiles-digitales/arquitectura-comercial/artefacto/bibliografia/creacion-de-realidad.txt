@@ -1,0 +1,736 @@
+================================================================================
+TRANSCRIPCIÓN CONCEPTUAL + PUNTO DE ENTRADA DE SUBGRAFO
+DOMINIO: CREACIÓN DE REALIDAD
+FORMATO: Ontología débil refinable / Semilla de subgrafo
+ESTADO: Borrador fuerte de entrada
+FUNCIÓN: Servir como punto de acceso conceptual al dominio "Creación de Realidad"
+         y como base para la futura creación de nodos internos especializados.
+
+================================================================================
+I. TRANSCRIPCIÓN CONCEPTUAL DE LAS IDEAS CONTENIDAS EN LAS IMÁGENES
+(NO LITERAL, SINO DE LAS IDEAS ESTRUCTURALES CONTENIDAS)
+================================================================================
+
+1) Estado del proyecto y problema inmediato
+
+El sistema en desarrollo ha alcanzado una señal de umbral: ya no se encuentra en pura
+potencialidad abstracta, pero todavía no posee una arquitectura suficientemente desplegada
+como para operar con estabilidad plena.
+
+El problema inmediato no es “seguir acumulando ideas” de forma indefinida, sino cerrar un
+circuito de desarrollo. La tesis de fondo es que una entidad no se desarrolla por mera
+exposición a señales, sino cuando logra un ciclo cerrado en el que:
+
+- el exterior produce señales legibles,
+- esas señales son evaluadas bajo un criterio,
+- el resultado de esa evaluación actualiza la estructura interna,
+- y esa actualización habilita nuevas interacciones con el exterior.
+
+Por lo tanto, el desarrollo real exige política de actualización, no solo recepción.
+
+--------------------------------------------------------------------------------
+
+2) Necesidad de distinguir dentro y fuera
+
+Antes de seguir, el sistema necesita fijar una distinción estructural entre:
+
+- qué cuenta como dentro,
+- qué cuenta como fuera,
+- y cuál es el campo de manifestación donde ese intercambio ocurre.
+
+Sin esa distinción no puede definirse con claridad qué sistema se está desarrollando.
+
+La formulación inicial pobre sería:
+“el sistema es un negocio para ganar dinero”.
+
+Pero esa formulación es insuficiente porque pertenece a un dominio más amplio y derivado
+(relación institucional / mercado de dinero / intercambio con estructuras externas).
+
+La hipótesis más fuerte es que el sistema que se está desarrollando no es simplemente un
+negocio, sino una organización de realidad propia, dentro de la cual dinero, libertad,
+confianza, interacción social y despliegue teórico aparecen como dimensiones o manifestaciones
+de una misma estructura más profunda.
+
+--------------------------------------------------------------------------------
+
+3) Distinción entre ejecución y ontología
+
+Se propone una distinción central:
+
+- Ejecución = percepción de la realidad.
+- Ontología = sistema de condiciones internas y externas que hacen posible, guían y limitan
+  esa percepción.
+
+Dicho de otra manera:
+la ejecución es el acto perceptivo en curso;
+la ontología es el molde o sistema generativo que determina qué puede aparecer como real,
+con qué forma, con qué saliencia, bajo qué interpretación y con qué coherencia.
+
+Por eso, el estado del sistema no es “solo mente” ni “solo mundo”, sino configuración conjunta
+de un sistema acoplado sujeto-mundo.
+
+Del lado del sujeto entran cosas como:
+- aparato sensorial,
+- memoria,
+- conceptos,
+- lenguaje,
+- objetivos,
+- afecto,
+- atención,
+- hábitos.
+
+Del lado del mundo entran cosas como:
+- estímulos disponibles,
+- invariantes del entorno,
+- resistencias,
+- oportunidades,
+- estructura social,
+- estructura institucional.
+
+--------------------------------------------------------------------------------
+
+4) Inducciones fundamentales
+
+Se enuncian dos inducciones centrales:
+
+A) Condiciones -> percepción
+El estado del sujeto y del entorno modula lo que puede percibirse.
+
+B) Percepción -> ontología
+La percepción actualiza el estado interno y, cuando se acompaña de acción o comunicación,
+también reconfigura el entorno social e incluso el entorno físico.
+
+Esto significa que la relación no es unilateral.
+La ontología condiciona la percepción, pero la percepción, cuando entra en circuito con acción,
+también modifica la ontología.
+
+--------------------------------------------------------------------------------
+
+5) Definición implícita de creación de realidad
+
+La creación de realidad se entiende como:
+
+actualización y estabilización de condiciones internas y externas que determinan qué puede ser
+percibido como real.
+
+No se trata solo de “imaginar” ni de “interpretar”.
+Se trata de modificar las condiciones de posibilidad de lo percibido.
+
+Se identifican al menos tres vías de creación:
+
+A) Creación interna o epistémica
+Se reconfigura el molde:
+- cambian categorías,
+- creencias,
+- pesos atencionales,
+- lenguaje disponible,
+- objetivos.
+
+Resultado:
+cambia “el mundo” para el sujeto, aunque el entorno físico no cambie.
+
+B) Creación enactiva o práctica
+El sujeto actúa e interviene el entorno.
+Resultado:
+se modifican condiciones materiales que afectarán futuras percepciones.
+
+C) Creación social o institucional
+Se consolidan acuerdos, marcos, símbolos, roles, reputaciones, contratos, prácticas.
+Resultado:
+cambia la realidad social relevante, que en dominios humanos es una parte decisiva de lo real.
+
+--------------------------------------------------------------------------------
+
+6) Variaciones ontológicas y manifestación fenomenológica
+
+Las variaciones ontológicas se manifiestan fenomenológicamente como cambios en lo percibido.
+
+Eso significa que un cambio en:
+
+- categorías,
+- atención,
+- objetivos,
+- lenguaje,
+- umbrales de detección,
+- distribución afectiva,
+- marco institucional,
+- herramientas,
+- reglas del entorno,
+
+produce cambios en la percepción de realidad.
+
+Por lo tanto, lo percibido no debe tratarse como dato puro.
+Debe tratarse como manifestación de una configuración ontológica.
+
+--------------------------------------------------------------------------------
+
+7) Fase actual del sistema
+
+El sistema se encuentra en una fase inicial de activación.
+
+No está completamente formado, pero ya dejó de ser pura teoría sin diferenciación.
+Empiezan a aparecer divisiones de responsabilidad y primeras estructuras organizativas,
+aunque el intercambio con el exterior todavía sea mínimo.
+
+La fase necesita desplegar al menos las siguientes subestructuras:
+
+- Motor de activación:
+  primera fuerza organizadora, impulso inicial o necesidad activa.
+
+- Interfaces primarias:
+  primeras vías de intercambio con el exterior.
+
+- Regulación mínima:
+  mecanismos simples para evitar colapso, dispersión o pérdida de coherencia.
+
+--------------------------------------------------------------------------------
+
+8) Intercambio con el exterior
+
+En este dominio, “intercambio con el exterior” no significa solamente contacto físico directo.
+
+En la forma más simple:
+un acto de atención ya es una forma de intercambio con el exterior.
+
+La modificación mínima del entorno también es intercambio.
+
+En este dominio:
+“exterior” es todo aquello que todavía no forma parte del campo efectivamente percibido o
+integrado por el sistema.
+
+Por eso, descubrir algo antes no percibido cuenta como ingreso desde el exterior.
+
+--------------------------------------------------------------------------------
+
+9) Percepción enfocada como interfaz primaria
+
+La percepción enfocada reorganiza el peso de las condiciones internas.
+No necesariamente cambia el mundo externo de inmediato, pero cambia el modo de acoplamiento con
+el mundo.
+
+Modifica, por ejemplo:
+
+- qué se detecta,
+- qué se ignora,
+- qué se vuelve relevante,
+- qué se interpreta como amenaza,
+- qué se interpreta como oportunidad.
+
+A nivel interno, puede cambiar:
+
+- distribución de atención,
+- objetivo operativo activo,
+- umbral de detección,
+- hipótesis dominante,
+- regulación emocional.
+
+Por lo tanto, la percepción enfocada funciona como interfaz primaria entre sistema y exterior.
+
+--------------------------------------------------------------------------------
+
+10) Puentes hacia la modificación externa
+
+Para que la percepción cambie efectivamente condiciones externas, hace falta un puente.
+
+Se reconocen al menos tres:
+
+- Acción
+- Comunicación
+- Decisión
+
+La secuencia sería:
+
+Enfoque -> nueva discriminación -> nueva decisión/acción -> cambio de entorno -> nuevas condiciones externas
+
+Esto implica que el foco perceptivo no es un elemento pasivo.
+Es el disparador de una cadena de transformación.
+
+--------------------------------------------------------------------------------
+
+11) Criterio de cierre y regulación mínima
+
+No basta con expansión perceptiva continua.
+Si solo hay recepción de señales sin criterio de cierre, se pierde coherencia.
+
+Por eso, la fase actual necesita regulación mínima:
+mecanismos que permitan no colapsar bajo expansión infinita.
+
+La idea final es clara:
+si solo se pregunta indefinidamente pero no se consolida una política de análisis,
+actualización y cierre, no emerge sistema, solo conversación infinita.
+
+================================================================================
+II. ENTIDAD DE ENTRADA DEL SUBGRAFO
+NOMBRE: CREACIÓN DE REALIDAD
+================================================================================
+
+0) Intención del concepto
+
+La entidad "Creación de Realidad" se introduce para funcionar como punto de entrada del subgrafo homónimo.
+
+Su función no es nombrar una metáfora vaga sobre “manifestar” o “imaginar el mundo”.
+Su función es fijar una unidad conceptual fuerte que permita modelar cómo un sistema acoplado
+actualiza y estabiliza las condiciones de posibilidad de lo real para sí, y cómo ese proceso se
+expresa en lo perceptivo, lo práctico y lo institucional.
+
+Este nodo debe existir porque evita varios errores:
+
+- reducir la realidad a percepción pasiva,
+- reducir la ontología a una lista abstracta de condiciones sin circuito operativo,
+- reducir el desarrollo del sistema a acumulación de ideas sin cierre,
+- y reducir la interacción con el exterior a contacto genérico no estructurado.
+
+Creación de Realidad debe funcionar como compresión inicial de un subgrafo futuro.
+
+--------------------------------------------------------------------------------
+
+1) Definición central
+
+Creación de Realidad = proceso estructurado mediante el cual un sistema acoplado sujeto-mundo
+actualiza y estabiliza condiciones internas y externas que determinan qué puede aparecer, ser
+reconocido, ser interpretado y ser sostenido como real, habilitando nuevas formas de percepción,
+acción, decisión, comunicación e institucionalización.
+
+Versión más compacta:
+
+Creación de Realidad = actualización estructural de las condiciones de posibilidad de lo real.
+
+--------------------------------------------------------------------------------
+
+2) Fenómeno o función que delimita
+
+Esta entidad delimita el fenómeno de transformación de realidad a nivel de condiciones de aparición,
+no solo a nivel de contenidos percibidos.
+
+Recorta específicamente:
+
+- el cambio de ontología que modifica percepción,
+- la actualización de estructura interna por señales del exterior,
+- la intervención práctica que modifica condiciones futuras,
+- la consolidación social/institucional de nuevas realidades,
+- y el cierre de circuito que convierte recepción en desarrollo.
+
+No delimita:
+
+- cualquier cambio emocional aislado,
+- cualquier interpretación subjetiva pasajera,
+- cualquier acto creativo sin efecto estructural,
+- ni cualquier modificación externa que no altere el campo de posibilidad del sistema.
+
+--------------------------------------------------------------------------------
+
+3) Dependencias conceptuales
+(dimensión ontológica mínima del concepto)
+
+3.1) Dependencia de Interior
+Creación de Realidad depende de una ontología interna capaz de ser actualizada.
+Sin interior no hay estructura que reorganizar.
+
+3.2) Dependencia de Frontera
+Depende de una zona estructural de acoplamiento entre interior y exterior.
+Sin frontera no hay intercambio estructurado ni preservación de identidad.
+
+3.3) Dependencia de Envolvente
+Depende de un exterior relevante que funcione como fuente de señales, resistencias,
+oportunidades y restricciones.
+
+3.4) Dependencia de Vecindad Relevante
+Depende del recorte local del exterior que efectivamente acopla con la frontera.
+No toda la envolvente importa a la vez.
+
+3.5) Dependencia de Superficie de Integración
+Depende de una interfaz portable que permita declarar cómo se conecta el sistema con el exterior.
+
+3.6) Dependencia de Frontera de Entrada
+Depende de una interfaz de recepción que explique:
+- qué entra,
+- bajo qué criterio entra,
+- y cómo ese ingreso se integra sin romper identidad.
+
+3.7) Dependencia de Frontera de Salida
+Depende de una interfaz de proyección que explique:
+- cómo una actualización interna se expresa hacia el exterior,
+- y cómo esa expresión modifica entorno, práctica o institución.
+
+3.8) Dependencia de Operatividad Intensional
+Depende de un régimen donde atención, objetivos, pesos, umbrales, hipótesis y regulación afectiva
+afectan realmente la forma de aparición de lo real.
+
+3.9) Dependencia de Criterio de Evaluación
+No basta con que entren señales; debe existir un criterio que permita evaluarlas y decidir
+actualización, descarte o estabilización.
+
+3.10) Dependencia de Cierre de Circuito
+No basta con intercambio; debe existir cierre suficiente para evitar expansión infinita sin sistema.
+
+3.11) Dependencia de Correlación Intercapa
+Depende también de una lógica donde variaciones ontológicas se manifiestan como cambios en
+ejecución perceptiva.
+Esto permite conectar el dominio con el nodo "Correlación Intercapa".
+
+--------------------------------------------------------------------------------
+
+4) Dimensiones ontológicas de la entidad
+
+4.1) Dimensión perceptiva
+Qué puede aparecer como percibido.
+
+4.2) Dimensión ontológica o generativa
+Qué condiciones internas y externas hacen posible esa percepción.
+
+4.3) Dimensión intensional
+Qué pesos, objetivos, umbrales, inferencias y distribuciones de atención organizan el campo.
+
+4.4) Dimensión enactiva o práctica
+Cómo la acción transforma el entorno y reconfigura futuras percepciones.
+
+4.5) Dimensión comunicativa
+Cómo la interacción simbólica o lingüística reorganiza entorno social y coordinación.
+
+4.6) Dimensión decisional
+Cómo la elección reconfigura el campo de posibilidades futuras.
+
+4.7) Dimensión institucional
+Cómo acuerdos, normas, contratos, reputación y símbolos estabilizan nuevas realidades.
+
+4.8) Dimensión regulatoria
+Cómo el sistema evita colapsar por ruido, dispersión o apertura infinita.
+
+4.9) Dimensión temporal
+Cómo una actualización puntual deviene proceso, hábito, fase o trayectoria.
+
+4.10) Dimensión de desarrollo
+Cómo la entidad pasa de potencialidad a activación, diferenciación y mayor complejidad.
+
+--------------------------------------------------------------------------------
+
+5) Invariantes
+
+La entidad conserva identidad solo si preserva al menos los siguientes invariantes:
+
+5.1) Distinción entre condiciones y manifestaciones
+Debe existir diferencia entre:
+- lo que aparece,
+- y lo que hace posible esa aparición.
+
+5.2) Distinción entre interior y exterior
+Debe existir algún borde operativo entre sistema y campo de manifestación.
+
+5.3) Presencia de acoplamiento
+Interior y exterior no pueden quedar aislados.
+
+5.4) Existencia de señales legibles
+Debe haber algo del exterior que pueda ser admitido como relevante.
+
+5.5) Existencia de criterio
+Las señales deben poder ser evaluadas, no solo recibidas.
+
+5.6) Posibilidad de actualización
+La estructura interna o externa debe poder cambiar.
+
+5.7) Posibilidad de estabilización
+El cambio no puede reducirse a fluctuación instantánea sin fijación.
+
+5.8) Preservación mínima de identidad
+La entidad debe seguir siendo reconocible tras la actualización.
+
+5.9) Circuito cerrado
+Debe existir, al menos potencialmente:
+señal -> evaluación -> actualización -> nueva interacción.
+
+--------------------------------------------------------------------------------
+
+6) Dominio de variación
+
+Puede variar sin romper identidad en:
+
+- dominio de aplicación (personal, cognitivo, práctico, social, institucional),
+- escala temporal,
+- tipo de señales,
+- nivel de complejidad,
+- tipo de criterio,
+- tipo de intervención,
+- tipo de entorno,
+- formato de manifestación,
+- grado de explicitud teórica.
+
+Regla de borde:
+puede cambiar el contenido de lo real transformado,
+pero no puede desaparecer la estructura:
+condiciones -> percepción/interpretación -> evaluación -> actualización -> nueva realidad operativa.
+
+--------------------------------------------------------------------------------
+
+7) Discriminadores o pruebas de reconocimiento
+
+Un caso pertenece a "Creación de Realidad" si cumple algo como lo siguiente:
+
+7.1) Prueba de cambio de condiciones
+No solo cambia una experiencia puntual; cambian las condiciones bajo las cuales algo puede
+aparecer como real.
+
+7.2) Prueba de circuito
+Existe o se puede reconstruir un ciclo entre ingreso, evaluación, actualización y nueva salida.
+
+7.3) Prueba de efecto estructural
+El cambio afecta:
+- categorías,
+- atención,
+- umbrales,
+- decisiones,
+- entorno,
+- o institucionalización.
+
+7.4) Prueba de no-reducción a imaginación
+Si todo ocurre solo como fantasía sin incidencia estructural, no es creación de realidad en
+sentido fuerte.
+
+7.5) Prueba de estabilización
+La nueva configuración deja huella, hábito, criterio, práctica, entorno o marco.
+
+--------------------------------------------------------------------------------
+
+8) Frontera conceptual
+
+Entran dentro de Creación de Realidad:
+
+- reconfiguración de condiciones de posibilidad,
+- actualización del molde perceptivo,
+- intervención práctica con huella externa,
+- consolidación institucional de lo real,
+- cierre de circuito entre recepción y nueva interacción.
+
+No entran dentro de Creación de Realidad:
+
+- percepción pasiva sin actualización,
+- reacción momentánea sin modificación de estructura,
+- creatividad expresiva sin incidencia en condiciones de posibilidad,
+- cualquier cambio externo que no reconfigure realidad para el sistema,
+- ni cualquier emoción aislada sin rol estructural.
+
+La frontera conceptual se rompe cuando “creación de realidad” se usa para:
+- cualquier forma de pensamiento positivo,
+- cualquier acto de imaginación,
+- cualquier cambio trivial de estado,
+- o cualquier intervención externa sin vínculo con condiciones de aparición.
+
+--------------------------------------------------------------------------------
+
+9) Relaciones con otras unidades del grafo
+
+9.1) Relación con Arq-Cog-Interior
+Creación de Realidad depends_on Interior.
+Razón:
+necesita una estructura interna que pueda reorganizarse.
+
+9.2) Relación con Arq-Cog-Frontera
+Creación de Realidad depends_on Frontera.
+Razón:
+el intercambio con el exterior exige una zona de acoplamiento preservadora de identidad.
+
+9.3) Relación con Arq-Cog-Envolvente
+Creación de Realidad depends_on Envolvente.
+Razón:
+sin exterior relevante no hay fuente de señales, resistencias ni oportunidades.
+
+9.4) Relación con Arq-Cog-Vecindad-Relevante
+Creación de Realidad uses Vecindad Relevante.
+Razón:
+el sistema no transforma “todo el exterior”, sino la región del exterior que efectivamente
+acopla con él.
+
+9.5) Relación con Arq-Cog-Superficie-de-Integración
+Creación de Realidad depends_on Superficie de Integración.
+Razón:
+requiere interfaz portable para conectar interior y exterior.
+
+9.6) Relación con Arq-Cog-Frontera-de-Entrada
+Creación de Realidad realizes Frontera de Entrada.
+Razón:
+la percepción enfocada y la recepción de señales legibles funcionan como ingreso estructurado.
+
+9.7) Relación con Arq-Cog-Frontera-de-Salida
+Creación de Realidad realizes Frontera de Salida.
+Razón:
+acción, comunicación y decisión proyectan efectos hacia la envolvente.
+
+9.8) Relación con Arq-Cog-Operatividad-Intensional
+Creación de Realidad depends_on Operatividad Intensional.
+Razón:
+lo real cambia porque cambian pesos, objetivos, umbrales, atención, inferencias y regulación.
+
+9.9) Relación con Arq-Cog-Correlación-Intercapa
+Creación de Realidad uses Correlación Intercapa.
+Razón:
+las variaciones ontológicas se manifiestan fenomenológicamente como cambios en lo percibido.
+
+--------------------------------------------------------------------------------
+
+10) Superficie de integración
+
+La superficie de integración de esta entidad es la siguiente:
+
+Creación de Realidad se integra al resto del grafo como nodo de entrada de un dominio que
+traduce el problema general de interior/exterior/acoplamiento hacia un régimen específico de:
+
+- percepción,
+- ontología,
+- actualización,
+- práctica,
+- institucionalización,
+- y cierre de circuito.
+
+Toca inmediatamente los siguientes nodos del grafo mayor:
+
+- Interior
+- Frontera
+- Envolvente
+- Vecindad Relevante
+- Superficie de Integración
+- Frontera de Entrada
+- Frontera de Salida
+- Operatividad Intensional
+- Correlación Intercapa
+
+Y funciona, además, como compresión inicial de un subgrafo futuro propio.
+
+--------------------------------------------------------------------------------
+
+11) Validación
+
+La entidad se considera bien aplicada cuando permite:
+
+11.1) Distinguir entre cambio de percepción y cambio de condiciones de posibilidad.
+
+11.2) Reconstruir un circuito:
+señal -> criterio -> actualización -> nueva interacción.
+
+11.3) Identificar:
+- condiciones internas,
+- condiciones externas,
+- interfaz de recepción,
+- interfaz de salida,
+- y mecanismo de cierre.
+
+11.4) Mostrar cómo una modificación en atención, categorías, acción, comunicación o institución
+reconfigura efectivamente el campo de realidad del sistema.
+
+11.5) Explicar por qué el caso analizado pertenece al dominio de creación de realidad y no solo a:
+- interpretación subjetiva,
+- reacción emocional,
+- conducta aislada,
+- o imaginación sin huella.
+
+Mal uso típico:
+usar “creación de realidad” como etiqueta totalizante sin declarar condiciones, circuito, criterio
+ni borde conceptual.
+
+--------------------------------------------------------------------------------
+
+12) Ejemplos ancla
+
+12.1) Ejemplo ancla epistémico
+Aprender un concepto nuevo hace visible un patrón que antes no existía para el sujeto.
+No cambió el mundo físico, pero sí cambió el molde y, con ello, la realidad operativa.
+
+12.2) Ejemplo ancla práctico
+Cambiar de herramienta en una actividad cotidiana altera la experiencia misma de esa actividad,
+porque cambia la ontología práctica del sistema.
+
+12.3) Ejemplo ancla institucional
+Un acuerdo, norma, contrato o símbolo compartido reorganiza el entorno social y crea una nueva
+realidad relevante para la acción colectiva.
+
+12.4) Ejemplo ancla regulatorio
+Si un sistema solo recibe señales sin criterio de cierre, no emerge una realidad estabilizada
+propia, sino dispersión o conversación infinita.
+
+--------------------------------------------------------------------------------
+
+13) Posible refinamiento futuro
+(nodos candidatos del subgrafo)
+
+A partir de esta entrada, el subgrafo "Creación de Realidad" podría expandirse, al menos, en los
+siguientes nodos:
+
+13.1) Ejecución Perceptiva
+13.2) Ontología de Condiciones
+13.3) Campo de Manifestación
+13.4) Señal Legible
+13.5) Criterio de Evaluación
+13.6) Cierre de Circuito
+13.7) Política de Actualización
+13.8) Motor de Activación
+13.9) Interfaz Primaria
+13.10) Percepción Enfocada
+13.11) Regulación Mínima
+13.12) Creación Epistémica
+13.13) Creación Enactiva
+13.14) Creación Social-Institucional
+13.15) Puente Acción-Comunicación-Decisión
+13.16) Condiciones Internas
+13.17) Condiciones Externas
+13.18) Ontología Operativa
+13.19) Estabilización de Realidad
+13.20) Correlación Intercapa
+13.21) Trayectoria de Desarrollo del Sistema
+
+--------------------------------------------------------------------------------
+
+14) Posibles aristas futuras del subgrafo
+
+- Creación de Realidad depends_on Ontología de Condiciones
+- Creación de Realidad realizes Percepción Enfocada
+- Creación de Realidad uses Criterio de Evaluación
+- Creación de Realidad requires Cierre de Circuito
+- Creación de Realidad refines Interfaz Primaria
+- Creación de Realidad organizes Creación Epistémica
+- Creación de Realidad organizes Creación Enactiva
+- Creación de Realidad organizes Creación Social-Institucional
+- Percepción Enfocada realizes Frontera de Entrada
+- Puente Acción-Comunicación-Decisión realizes Frontera de Salida
+- Ontología de Condiciones explains Ejecución Perceptiva
+- Correlación Intercapa explains manifestación de variaciones ontológicas
+- Regulación Mínima stabilizes Política de Actualización
+- Motor de Activación initiates Trayectoria de Desarrollo del Sistema
+
+--------------------------------------------------------------------------------
+
+15) Fórmula de cierre
+
+Creación de Realidad no nombra simplemente “cómo alguien ve el mundo”.
+Nombra un proceso estructurado en el que un sistema acoplado:
+
+- recibe señales,
+- las evalúa,
+- actualiza su estructura,
+- modifica su relación con el exterior,
+- y estabiliza nuevas condiciones de posibilidad de lo real.
+
+Por eso:
+
+Creación de Realidad
+=
+condiciones internas y externas
++
+percepción/ejecución
++
+criterio de evaluación
++
+actualización estructural
++
+acción/comunicación/decisión
++
+estabilización
++
+cierre de circuito
+
+Si falta alguna de estas piezas, la entidad se debilita y colapsa hacia:
+- percepción pasiva,
+- cambio subjetivo trivial,
+- acción aislada,
+- o expansión indefinida sin sistema.
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

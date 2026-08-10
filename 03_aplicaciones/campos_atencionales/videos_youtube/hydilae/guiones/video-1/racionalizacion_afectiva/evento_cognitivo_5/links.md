@@ -1,0 +1,2 @@
+ENTENDIMIENTO DEL JUEGO DEL EC5 DE VIDEO DE RACIONALIZACION AFECTIVA:
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/6a18d149-2968-83e8-a8b5-d591e0fa0fb4

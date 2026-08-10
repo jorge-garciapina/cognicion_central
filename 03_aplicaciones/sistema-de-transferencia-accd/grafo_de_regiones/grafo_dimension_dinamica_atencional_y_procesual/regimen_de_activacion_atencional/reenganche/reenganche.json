@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche",
+    "label": "reenganche",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_activacion_atencional-reenganche-reenganche",
+    "summary": "Valor declarado para el campo regimen_de_activacion_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La realización debe recuperar una atención que ya estuvo abierta pero se aflojó."
+  }
+}

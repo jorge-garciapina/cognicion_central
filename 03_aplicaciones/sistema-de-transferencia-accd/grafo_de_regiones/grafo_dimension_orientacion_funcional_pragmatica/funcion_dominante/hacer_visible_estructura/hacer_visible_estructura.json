@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-hacer_visible_estructura-hacer_visible_estructura",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-hacer_visible_estructura-hacer_visible_estructura",
+    "label": "hacer_visible_estructura",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-hacer_visible_estructura-hacer_visible_estructura",
+    "summary": "**Definición.** Valor que indica que la realización debe revelar una organización interna que podría pasar desapercibida si se expresara sólo de manera verbal o lineal. La estructura puede ser una relación entre partes, una jerarquía, una secuencia, una dependencia, una oposición, una arquitectura conceptual, un mapa de categorías o un sistema de c",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

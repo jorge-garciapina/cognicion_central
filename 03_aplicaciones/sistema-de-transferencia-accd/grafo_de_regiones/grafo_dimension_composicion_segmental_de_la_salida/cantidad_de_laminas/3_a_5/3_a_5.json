@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+    "label": "3_a_5",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+    "summary": "Valor que indica una secuencia breve y manejable de tres a cinco láminas.",
+    "metadata": {
+      "source_document": "valores-pendientes-carousel.md",
+      "integration_context": "realizacion/carousel",
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-has_field-grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "from": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica",
+    "to": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva",
+    "type": "has_field",
+    "rationale": "configuracion_discursiva es un campo directo declarado dentro de dimension_orientacion_funcional_pragmatica."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta",
+    "label": "atencion_no_abierta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-estado_atencional-atencion_no_abierta-atencion_no_abierta",
+    "summary": "Valor declarado para el campo estado_atencional.",
+    "value_type": "Valor categorial",
+    "value_description": "La atención aún no ha sido captada de forma efectiva."
+  }
+}

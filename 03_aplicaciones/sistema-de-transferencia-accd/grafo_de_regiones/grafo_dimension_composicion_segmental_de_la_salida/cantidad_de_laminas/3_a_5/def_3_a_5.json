@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_composicion_segmental_de_la_salida-cantidad_de_laminas-3_a_5-3_a_5",
+  "content": "Valor que indica una secuencia breve y manejable de tres a cinco láminas.\n\nPermite construir una progresión mínima: apertura, desarrollo y cierre.\n\nEjemplos:\n\n```txt\nLámina 1: apertura.\nLámina 2: explicación.\nLámina 3: ejemplo.\nLámina 4: síntesis.\nLámina 5: CTA.\n```\n\nSirve para carousels de comprensión rápida, listas cortas, contrastes, mini-frameworks y piezas guardables.\n\n---"
+}

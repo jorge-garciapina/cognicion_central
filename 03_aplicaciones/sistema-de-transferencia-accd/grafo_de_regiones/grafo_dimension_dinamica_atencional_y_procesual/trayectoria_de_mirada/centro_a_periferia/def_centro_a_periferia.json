@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-centro_a_periferia-centro_a_periferia",
+  "content": "**Definición.** Recorrido en el que la atención nace en un núcleo central dominante y luego se expande hacia elementos secundarios situados alrededor. El centro funciona como fuente de sentido, y la periferia como soporte, contexto, detalle o consecuencia.\n\n**Diferenciación semántica.** Se diferencia de `radial` porque no exige una estructura de rayos o conexiones explícitas; basta con que el foco central organice la exploración posterior. Se diferencia de `periferia_a_centro` porque el sentido inicial está en el núcleo, no en señales externas que conducen hacia él.\n\n**Interpretación mínima.** La IA debe entender que el elemento central debe ser perceptivamente dominante y que los elementos periféricos se leen como extensiones o apoyos del núcleo."
+}

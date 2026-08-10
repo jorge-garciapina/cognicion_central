@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+    "label": "alta",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+    "summary": "**Definición.** Nivel en el que los elementos principales y secundarios relevantes se distinguen con facilidad. La composición favorece reconocimiento rápido, separación clara, contraste suficiente, textos legibles y jerarquía visual evidente.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

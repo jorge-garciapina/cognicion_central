@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_not_include-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-must_not_include-grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion",
+    "from": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "to": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-referencias_externas-logica_de_composicion",
+    "type": "must_not_include",
+    "rationale": "formulacion_canonica no debe incluir todavía toda la lógica de composición."
+  }
+}

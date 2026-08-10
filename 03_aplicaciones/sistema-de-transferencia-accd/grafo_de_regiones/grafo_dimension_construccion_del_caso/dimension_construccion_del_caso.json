@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso",
+    "label": "dimension_construccion_del_caso",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso",
+    "summary": "Dimensión que describe la composición conceptual del caso y su organización narrativa dentro de la realización.",
+    "metadata": {
+      "section": "8",
+      "function": "Describir la composición conceptual del caso y la forma en que ese caso se organiza narrativamente dentro de la realización."
+    }
+  }
+}

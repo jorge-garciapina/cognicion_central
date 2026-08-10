@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida",
+    "label": "tipo_de_escenificacion_admitida",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-tipo_de_escenificacion_admitida",
+    "summary": "Tipo general de escenificación compatible con la pieza.",
+    "section": "9.7",
+    "value_type": "Categorial cerrado",
+    "cardinality": "Uno o más valores compatibles"
+  }
+}

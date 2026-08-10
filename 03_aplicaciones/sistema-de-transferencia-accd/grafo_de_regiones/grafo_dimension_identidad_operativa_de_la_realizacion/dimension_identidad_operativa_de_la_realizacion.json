@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+    "label": "dimension_identidad_operativa_de_la_realizacion",
+    "type": "dimension_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion",
+    "summary": "Dimensión que describe la identidad declarativa de la realización que se busca construir.",
+    "metadata": {
+      "section": "3",
+      "function": "Describir la identidad declarativa de la realización que se busca construir, indicando cómo se formula, con qué precisión se formula y con qué jerarquía opera dentro del sistema."
+    }
+  }
+}

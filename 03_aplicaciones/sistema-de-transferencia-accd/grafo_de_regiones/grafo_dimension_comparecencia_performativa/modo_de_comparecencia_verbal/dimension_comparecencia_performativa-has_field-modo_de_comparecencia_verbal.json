@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa-has_field-grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-dimension_comparecencia_performativa",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-modo_de_comparecencia_verbal",
+    "type": "has_field",
+    "rationale": "modo_de_comparecencia_verbal es un campo directo declarado dentro de dimension_comparecencia_performativa."
+  }
+}

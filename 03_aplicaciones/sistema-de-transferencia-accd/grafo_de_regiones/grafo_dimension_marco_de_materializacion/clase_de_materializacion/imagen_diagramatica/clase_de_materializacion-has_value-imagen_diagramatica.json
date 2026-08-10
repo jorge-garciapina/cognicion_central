@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-imagen_diagramatica-imagen_diagramatica",
+    "type": "has_value",
+    "rationale": "imagen_diagramatica es un valor nuevo incorporado en clase_de_materializacion para la realización imagen."
+  }
+}

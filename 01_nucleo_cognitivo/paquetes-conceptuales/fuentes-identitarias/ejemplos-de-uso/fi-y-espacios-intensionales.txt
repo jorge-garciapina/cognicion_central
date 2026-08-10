@@ -1,0 +1,760 @@
+TIPO DE SALIDA
+Documento de consulta autónoma.
+Propósito de uso: servir como planteamiento general para construir, analizar, instanciar y utilizar entidades-fuente mediante espacios de estados intensionales.
+Criterio general de calidad: que funcione por sí mismo como referencia estable, portable y reutilizable.
+
+TÍTULO
+MODELO DE FUENTES IDENTITARIAS Y ESPACIOS DE ESTADOS INTENSIONALES
+
+SUBTÍTULO
+Planteamiento general para modelar entidades-fuente, sus dimensiones intensionales, sus vectores de instanciación,
+sus mapas de respuesta y sus ciclos de actualización.
+
+NOMBRE PROPUESTO PARA LAS ENTIDADES CON IDENTIDAD PROPIA
+Fuentes Identitarias.
+
+Definición operativa mínima:
+Una Fuente Identitaria es una entidad con identidad estable que no se agota en ninguno de sus casos particulares,
+sino que funciona como fuente estructural de un espacio de estados propio. Sus manifestaciones concretas pueden
+representarse como configuraciones o vectores dentro de ese espacio.
+
+============================================================
+I. PROPÓSITO DEL PLANTEAMIENTO
+============================================================
+
+Este planteamiento expone un modelo general para tratar entidades con identidad estable como fuentes estructurales capaces de:
+
+1. delimitar un dominio propio de posibilidad;
+2. definir un conjunto explícito de dimensiones intensionales;
+3. representar casos concretos como vectores sobre esas dimensiones;
+4. traducir dichos vectores a salidas mediante un mapa de respuesta;
+5. detectar configuraciones incoherentes o inestables;
+6. y permitir tanto análisis como construcción de casos.
+
+La intención del modelo no es describir un dominio particular, sino proporcionar una arquitectura reusable que pueda aplicarse
+a dominios distintos siempre que exista:
+
+- una entidad con identidad,
+- un espacio interno de variación relevante,
+- una forma de representar estados concretos,
+- y un criterio de respuesta o evaluación.
+
+El planteamiento se orienta a dominios donde la estructura importa más que el material particular del caso. Por eso puede ser
+reutilizado en fenómenos sociales, institucionales, cognitivos, estratégicos, simbólicos, perceptivos, digitales o físicos,
+siempre que el recorte preserve estructura relevante.
+
+============================================================
+II. TESIS CENTRAL
+============================================================
+
+La tesis central del modelo es la siguiente:
+
+Una Fuente Identitaria puede modelarse correctamente si se distinguen, al menos, seis planos:
+
+1. recorte y condiciones de validez;
+2. identidad extensional de la entidad;
+3. espacio de dimensiones intensionales;
+4. vectores de instanciación de casos concretos;
+5. mapa de respuesta bajo restricciones;
+6. cierre de circuito, evidencia y actualización.
+
+Bajo este planteamiento, un caso concreto no se trata como una entidad nueva, sino como una configuración particular del
+espacio intensional de la Fuente Identitaria.
+
+Dicho de manera compacta:
+
+Fuente Identitaria -> espacio intensional -> vector de instanciación -> mapa de respuesta -> salida -> actualización.
+
+============================================================
+III. GLOSARIO OPERATIVO MÍNIMO
+============================================================
+
+Fuente Identitaria:
+Entidad con identidad estable que funciona como fuente estructural de un espacio de estados propio.
+
+Identidad extensional:
+Plano en el que se fija qué es la entidad y qué la mantiene siendo la misma. Incluye interior, frontera, envolvente, 
+vecindad relevante, lógica de lectura y salidas posibles.
+
+Dimensión intensional:
+Eje de variación interno del espacio de estados de una Fuente Identitaria. No es todavía un caso concreto, sino una
+coordenada posible del sistema.
+
+Espacio de estados intensionales:
+Estructura formada por el conjunto de dimensiones intensionales de una Fuente Identitaria. Puede tratarse como un
+espacio de coordenadas parametrizado por dimensiones.
+
+Vector de instanciación:
+Configuración concreta de una Fuente Identitaria expresada como valores sobre sus dimensiones intensionales.
+
+Mapa de respuesta:
+Mecanismo que traduce vectores de instanciación a salidas posibles, bajo restricciones, pesos de contribución, umbrales
+y criterios de coherencia.
+
+Restricción:
+Condición que excluye configuraciones inválidas o imposibles.
+
+Invariante:
+Rasgo que debe preservarse para que la entidad siga siendo la misma.
+
+Cierre de circuito:
+Proceso por el cual la salida del sistema produce evidencia, modifica estado, corrige el modelo o actualiza la trayectoria
+futura de la entidad.
+
+Construcción inversa:
+Uso del modelo en sentido generativo: dada una salida deseada, se busca una región del espacio intensional compatible
+con esa salida y luego se construyen manifestaciones concretas que satisfagan esa configuración.
+
+============================================================
+IV. CAPAS DEL MODELO
+============================================================
+
+La arquitectura del modelo debe entenderse como una secuencia de niveles
+acoplados. Cada capa responde una pregunta distinta y ninguna puede sustituir
+por sí sola a las demás.
+
+La lógica general es esta:
+
+- una Fuente Identitaria se recorta y valida;
+- se fija su identidad extensional;
+- se declara su espacio intensional;
+- los casos concretos se expresan como vectores en ese espacio;
+- un mapa de respuesta traduce esos vectores a salidas;
+- y la salida se contrasta con evidencia para actualizar el sistema.
+
+Las capas no son pasos cronológicos rígidos, sino planos funcionales del modelo.
+
+------------------------------------------------------------
+CAPA 0. RECORTE Y CONDICIONES DE VALIDEZ
+------------------------------------------------------------
+
+Esta capa fija el marco de inteligibilidad del modelo.
+
+Antes de decir qué entidad se modela, hay que declarar:
+
+- qué fenómeno se está recortando;
+- con qué finalidad se construye el modelo;
+- qué variables quedan dentro;
+- qué variables quedan fuera;
+- qué simplificaciones se aceptan;
+- y qué contará como evidencia de corrección o error.
+
+Sin esta capa ocurre uno de dos errores:
+1. el modelo se usa como si fuera universal aunque solo cubra un recorte estrecho;
+2. se le exige responder preguntas para las que no fue diseñado.
+
+Función de la capa:
+delimitar el dominio de aplicación legítimo del modelo.
+
+Pregunta principal:
+¿qué fenómeno queda verdaderamente modelado aquí y bajo qué condiciones puede
+considerarse válida la modelización?
+
+Resultado esperado de la capa:
+- un fenómeno recortado,
+- un propósito declarado,
+- un rango de uso explícito,
+- y una regla de validación mínima.
+
+------------------------------------------------------------
+CAPA 1. IDENTIDAD EXTENSIONAL DE LA FUENTE IDENTITARIA
+------------------------------------------------------------
+
+Esta capa fija qué entidad es la Fuente Identitaria y qué la mantiene siendo la
+misma aunque cambien sus manifestaciones concretas.
+
+Aquí se declara su estructura extensional mínima:
+
+1. Interior
+   Conjunto de componentes internos que sostienen la identidad de la fuente.
+
+2. Frontera
+   Zona de contacto que permite acoplamiento con el exterior sin colapso de
+   identidad.
+
+3. Envolvente
+   Exterior relevante que condiciona a la entidad sin pertenecer a su interior.
+
+4. Vecindad Relevante
+   Porción de la envolvente que realmente acopla con la fuente en una situación
+   dada.
+
+5. Lógica de lectura
+   Modo en que la fuente procesa lo que ingresa en ella.
+
+6. Salidas posibles
+   Conjunto de estados, respuestas o consecuencias que la fuente puede producir.
+
+Esta capa no describe todavía casos concretos.
+Tampoco define valores numéricos.
+
+Su función es ontológica:
+hacer explícito qué entidad existe en el modelo y cuáles son sus componentes
+estructurales mínimos.
+
+Pregunta principal:
+¿qué entidad es esta y qué debe preservarse para que siga siendo la misma fuente?
+
+Resultado esperado de la capa:
+una identidad extensional suficientemente clara como para distinguir:
+- la fuente,
+- sus entradas,
+- sus salidas,
+- y su exterior relevante.
+
+------------------------------------------------------------
+CAPA 2. ESPACIO DE DIMENSIONES INTENSIONALES
+------------------------------------------------------------
+
+Una vez fijada la identidad extensional de la fuente, debe declararse su espacio
+interno de variación relevante.
+
+Sea una Fuente Identitaria F.
+Se define su espacio intensional mínimo como un conjunto de dimensiones:
+
+D = {d1, d2, d3, ..., dn}
+
+Cada dimensión di representa un eje de variación interno del sistema.
+
+Estas dimensiones no son todavía casos concretos.
+No son ejemplos narrativos.
+No son salidas.
+No son juicios.
+
+Son las coordenadas internas sobre las cuales la fuente puede configurarse.
+
+La función de esta capa es transformar a la entidad en un espacio de estados
+parametrizado por dimensiones.
+
+Para que una dimensión sea legítima dentro del modelo debe cumplir, al menos,
+estas condiciones:
+
+1. Debe ser explícita.
+2. Debe ser distinguible de las demás.
+3. Debe influir de manera real en la lectura o salida del sistema.
+4. Debe admitir asignación de valor o estado.
+5. Debe poder variar sin destruir automáticamente la identidad de la fuente.
+
+Las dimensiones pueden expresarse:
+- categóricamente,
+- ordinalmente,
+- en escalas numéricas,
+- por intervalos,
+- o en formatos probabilísticos,
+
+siempre que el criterio de asignación sea claro y estable.
+
+Pregunta principal:
+¿en qué ejes internos puede variar esta fuente sin dejar de ser la misma?
+
+Resultado esperado de la capa:
+un espacio intensional explícito y utilizable.
+
+------------------------------------------------------------
+CAPA 3. VECTOR DE INSTANCIACIÓN
+------------------------------------------------------------
+
+Aquí se representa cada caso concreto como una configuración particular del
+espacio intensional de la fuente.
+
+Si D = {d1, d2, ..., dn}, entonces un caso C se representa como:
+
+V(C) = (v1, v2, ..., vn)
+
+donde:
+- v1 es el valor de d1 en el caso C,
+- v2 es el valor de d2 en el caso C,
+- ...
+- vn es el valor de dn en el caso C.
+
+Esto significa:
+
+el caso concreto ya no se trata como una entidad nueva, sino como una
+instanciación de la fuente dentro de su espacio intensional.
+
+Esta capa cumple varias funciones:
+
+1. Permite representar casos heterogéneos con una estructura común.
+2. Permite comparar casos distintos sin reducirlos a anécdotas narrativas.
+3. Permite medir cercanía, distancia o similitud entre configuraciones.
+4. Permite usar visualización geométrica:
+   - radar charts,
+   - mapas de regiones,
+   - clustering,
+   - perfiles comparativos.
+5. Prepara el paso hacia el mapa de respuesta.
+
+Importante:
+en esta capa todavía no hay salida del sistema.
+Aquí solo se fija la configuración del caso.
+
+Pregunta principal:
+¿cómo se representa un caso concreto dentro del espacio intensional de la fuente?
+
+Resultado esperado de la capa:
+un vector de instanciación bien formado, comparable con otros vectores y listo
+para ser procesado por el mapa de respuesta.
+
+------------------------------------------------------------
+CAPA 4. MAPA DE RESPUESTA
+------------------------------------------------------------
+
+Esta es la capa más delicada del modelo.
+
+No basta con que la fuente tenga dimensiones intensionales.
+No basta con representar un caso como vector.
+Hace falta una capa que traduzca la configuración del vector a una salida del
+sistema.
+
+Sea S el conjunto de salidas posibles de la fuente.
+Entonces el modelo necesita un operador, función o régimen de decisión del tipo:
+
+R(V) = s
+
+donde:
+- V es el vector de instanciación del caso;
+- s pertenece al conjunto S de salidas posibles.
+
+Pero esta capa no debe entenderse como una simple clasificación.
+Su trabajo es más complejo.
+
+La Capa 4 cumple tres funciones simultáneas:
+
+1. Traducción
+   Convierte una configuración intensional en una salida del sistema.
+
+2. Delimitación
+   Distingue qué configuraciones pertenecen a regiones distintas del espacio:
+   por ejemplo, regiones asociadas a recompensa, castigo, sospecha, absorción,
+   integración, rechazo, etc.
+
+3. Control de coherencia
+   Detecta configuraciones imposibles, incoherentes, ambiguas o insuficientemente
+   determinadas.
+
+En términos operativos, esta capa responde a la pregunta:
+
+¿Cómo traduce la fuente una configuración interna en una consecuencia?
+
+### 4.1 Componentes internos mínimos del mapa de respuesta
+
+Para que esta capa funcione realmente, necesita al menos estos elementos:
+
+a) Pesos de contribución
+   Indican cuánto contribuye cada dimensión a empujar una salida específica.
+
+b) Signos de contribución
+   Indican si la dimensión favorece o desfavorece esa salida.
+
+c) Umbrales
+   Determinan cuándo la contribución acumulada basta para activar una salida.
+
+d) Moduladores
+   Alteran el efecto de las dimensiones o de los pesos según el estado general
+   del sistema.
+
+e) Restricciones
+   Excluyen combinaciones inválidas o incompatibles con la identidad de la fuente.
+
+f) Reglas de desempate
+   Resuelven casos donde varias salidas compiten con fuerza similar.
+
+### 4.2 Distinción decisiva: valor vs peso
+
+Esta distinción no debe perderse nunca:
+
+- el valor de una dimensión pertenece al caso concreto;
+- el peso de contribución pertenece al modelo de la fuente.
+
+Ejemplo conceptual:
+un caso puede tener un valor alto en cierta dimensión,
+pero el modelo decide cuánto empuja ese valor hacia:
+- una salida positiva,
+- una salida negativa,
+- o una región ambigua.
+
+Eso significa que el vector no contiene por sí mismo la respuesta.
+La respuesta aparece solo cuando el vector es procesado por el mapa de respuesta.
+
+### 4.3 Cálculo de contribución
+
+Una forma general de expresar esto es:
+
+score(s) = suma de [ valor(di en V) × peso(di -> s) ]
+
+Esto significa:
+
+para cada salida posible s, el sistema calcula un puntaje a partir de:
+- los valores concretos del caso,
+- multiplicados por la contribución estructural de cada dimensión a esa salida.
+
+El peso no es una importancia abstracta.
+Es una medida de cuánto empuja esa dimensión hacia esa salida.
+
+Esto es importante:
+una dimensión puede contribuir positivamente a una salida
+y negativamente a otra.
+
+Por eso los pesos no son “globales”.
+Son pesos relativos a una salida específica.
+
+### 4.4 Regiones de salida
+
+El mapa de respuesta no solo calcula puntuaciones.
+También divide el espacio intensional en regiones interpretables.
+
+Una región de salida es una zona del espacio en la que ciertas configuraciones
+tienden a producir una misma respuesta.
+
+Eso significa que dos casos distintos pueden caer en la misma región aunque sus
+materiales narrativos sean diferentes.
+
+Las regiones permiten:
+- agrupar casos,
+- detectar familias de configuraciones,
+- y construir isomorfismos operativos.
+
+### 4.5 Restricciones e invariantes
+
+El mapa de respuesta no debe aceptar cualquier vector como válido.
+
+Debe poder distinguir entre:
+
+- configuraciones legítimas,
+- configuraciones imposibles,
+- configuraciones inestables,
+- y configuraciones que rompen la identidad de la fuente.
+
+Por eso la Capa 4 necesita incorporar restricciones del tipo:
+
+- combinaciones prohibidas,
+- incompatibilidades internas,
+- relaciones de exclusión,
+- rangos válidos,
+- y condiciones mínimas para que una salida pueda activarse.
+
+Esto evita dos errores:
+1. que el sistema responda a casos mal formados como si fueran normales;
+2. que cualquier combinación arbitraria parezca significativa.
+
+### 4.6 Detección de incoherencias
+
+No todo error es una contradicción dura.
+Hay vectores que no son imposibles, pero sí:
+- ambiguos,
+- inestables,
+- insuficientemente determinados,
+- o demasiado cercanos a varias salidas a la vez.
+
+La Capa 4 debe poder detectar estas zonas.
+
+Esto es importante porque un modelo serio no solo produce respuestas.
+También debe saber cuándo:
+- la información es insuficiente,
+- el caso cae en una frontera entre regiones,
+- el sistema necesita más dimensiones,
+- o el mapa debe corregirse.
+
+### 4.7 Respuesta final
+
+La salida final no tiene que definirse siempre del mismo modo.
+Puede establecerse por:
+
+- máxima puntuación,
+- umbral superado,
+- región dominante,
+- regla jerárquica de prioridad,
+- o combinación de varios criterios.
+
+Por eso conviene pensar la Capa 4 no como una sola fórmula fija, sino como un
+régimen de traducción entre:
+- estados del espacio intensional,
+- y consecuencias del sistema.
+
+Pregunta principal:
+¿Cómo convierte la fuente un vector de estado en una salida, respetando sus
+restricciones, umbrales e invariantes?
+
+Resultado esperado de la capa:
+un mecanismo explícito y operable de decisión.
+
+------------------------------------------------------------
+CAPA 5. CONSTRUCCIÓN INVERSA
+------------------------------------------------------------
+
+El modelo no debe servir solo para evaluar casos ya dados.
+También debe poder operar en sentido inverso.
+
+Esto significa:
+
+dada una salida deseada s,
+se busca una región del espacio intensional que tienda a producir s,
+y luego se diseñan casos o manifestaciones concretas compatibles con esa región.
+
+Forma general:
+
+salida objetivo -> región intensional compatible -> construcción de caso
+
+Esta capa hace posible:
+- diseño estratégico,
+- composición de situaciones,
+- construcción de isomorfismos,
+- optimización orientada a fines,
+- y producción controlada de manifestaciones.
+
+Aquí aparece una distinción útil:
+
+- análisis directo:
+  caso -> vector -> salida
+
+- construcción inversa:
+  salida -> región -> caso
+
+La Capa 5 es la que transforma el modelo de una herramienta puramente analítica
+en una herramienta generativa.
+
+Pregunta principal:
+¿Cómo se usa el espacio intensional de la fuente para construir casos orientados
+a una salida específica?
+
+Resultado esperado de la capa:
+un mecanismo de diseño o búsqueda inversa sobre el espacio de estados.
+
+------------------------------------------------------------
+CAPA 6. CIERRE, EVIDENCIA Y ACTUALIZACIÓN
+------------------------------------------------------------
+
+El modelo no termina cuando emite una salida.
+Debe poder cerrar el circuito entre:
+- salida,
+- evidencia,
+- actualización de estado,
+- y corrección del modelo.
+
+Esto exige un sistema de retroalimentación.
+
+Componentes mínimos:
+
+1. Evidencia
+   Qué huella empírica, práctica, institucional, fenomenológica o material
+   confirma que la salida efectivamente ocurrió.
+
+2. Actualización del estado
+   Cómo cambia la fuente, el entorno o ambos después de la salida.
+
+3. Corrección del modelo
+   Cómo se ajustan:
+   - pesos,
+   - umbrales,
+   - dimensiones,
+   - restricciones,
+   - o incluso el recorte inicial,
+   si la evidencia contradice la predicción.
+
+4. Trayectoria
+   Cómo la salida actual modifica las condiciones de futuras entradas.
+
+Forma general:
+
+entrada -> vector -> respuesta -> evidencia -> actualización -> nueva entrada
+
+Sin esta capa, el modelo clasifica, pero no aprende.
+Con esta capa, el modelo puede:
+- corregirse,
+- refinarse,
+- y mantenerse vivo.
+
+Pregunta principal:
+¿Cómo se contrasta la respuesta con evidencia y cómo se modifica el sistema a
+partir de ese contraste?
+
+Resultado esperado de la capa:
+un circuito completo de validación y actualización.
+
+============================================================
+SÍNTESIS DE LAS CAPAS
+============================================================
+
+CAPA 0
+Delimita el fenómeno y las condiciones de validez.
+
+CAPA 1
+Fija la identidad extensional de la Fuente Identitaria.
+
+CAPA 2
+Declara su espacio de dimensiones intensionales.
+
+CAPA 3
+Representa cada caso como vector de instanciación.
+
+CAPA 4
+Traduce vectores a salidas bajo pesos, umbrales, restricciones y coherencia.
+
+CAPA 5
+Permite construir casos orientados a salidas deseadas.
+
+CAPA 6
+Cierra el circuito mediante evidencia, actualización y corrección.
+
+Forma comprimida:
+
+Recorte -> Fuente -> D -> V -> R(V) -> Evidencia -> Actualización
+============================================================
+V. ESTRUCTURA GENERAL DEL MODELO
+============================================================
+
+El modelo completo puede resumirse así:
+
+1. Se recorta un fenómeno y se declara un propósito.
+2. Se fija una Fuente Identitaria.
+3. Se define su identidad extensional.
+4. Se declara su conjunto de dimensiones intensionales D.
+5. Se representa cada caso como un vector V sobre D.
+6. Se traduce V a una salida por medio de un mapa R.
+7. Se contrasta la salida con evidencia.
+8. Se actualiza la entidad o el modelo según el resultado.
+
+Forma comprimida:
+
+Recorte -> Fuente Identitaria -> D -> V -> R(V) -> Evidencia -> Actualización
+
+============================================================
+VI. PRINCIPIOS NORMATIVOS DEL MODELO
+============================================================
+
+Toda aplicación correcta de este planteamiento debe respetar al menos los siguientes principios:
+
+1. Principio de autocontención
+   Toda entidad y toda dimensión relevante debe quedar definida dentro del propio modelo.
+
+2. Principio de autosuficiencia
+   El modelo debe poder usarse como referencia autónoma.
+
+3. Principio de neutralidad temporal
+   La formulación no debe depender de un hilo conversacional ni de un “momento narrativo”.
+
+4. Principio de identidad mínima
+   La Fuente Identitaria debe poder distinguirse de sus casos y de sus salidas.
+
+5. Principio de separación de capas
+   No debe confundirse:
+   - entidad con caso,
+   - dimensión con valor,
+   - peso con variable,
+   - salida con evidencia,
+   - ni análisis con creación.
+
+6. Principio de explicitud estructural
+   Deben quedar explícitos:
+   - variables o dimensiones,
+   - operadores,
+   - restricciones,
+   - condiciones de validez,
+   - y criterios de actualización.
+
+7. Principio de portabilidad
+   El modelo debe poder moverse de contexto sin romper su identidad conceptual.
+
+============================================================
+VII. CRITERIOS DE CORRECCIÓN Y ERROR
+============================================================
+
+Una aplicación correcta del modelo debe permitir responder explícitamente:
+
+- cuál es la Fuente Identitaria;
+- cuáles son sus dimensiones intensionales;
+- cómo se representan sus casos;
+- qué salidas admite;
+- qué restricciones e invariantes existen;
+- cómo se valida la salida;
+- y cómo se corrige el sistema si la evidencia falla.
+
+Errores típicos del modelo:
+
+1. Confundir la Fuente Identitaria con uno de sus casos.
+2. Confundir una dimensión con una historia o ejemplo particular.
+3. Tratar pesos como adornos y no como contribuciones reales a la respuesta.
+4. No declarar condiciones de validez.
+5. No definir cierre ni actualización.
+6. Tratar cualquier variación como si preservara identidad.
+7. Construir espacios intensionales sin discriminadores ni restricciones.
+
+============================================================
+VIII. USOS DEL MODELO
+============================================================
+
+El modelo puede utilizarse para:
+
+1. Análisis de casos
+   Convertir casos concretos en vectores y evaluar sus salidas.
+
+2. Comparación entre casos
+   Medir cercanía, distancia o similitud estructural entre configuraciones.
+
+3. Visualización
+   Usar gráficos radiales, mapas geométricos, clustering o regiones de estados.
+
+4. Detección de incoherencias
+   Identificar configuraciones imposibles, ambiguas o inestables.
+
+5. Diseño y construcción
+   Partir de una salida deseada y construir configuraciones compatibles.
+
+6. Optimización bajo restricciones
+   Buscar vectores o regiones que maximicen cierta salida sin violar invariantes.
+
+7. Transferencia entre dominios
+   Reutilizar la arquitectura en distintos materiales siempre que se preserve la estructura relevante.
+
+============================================================
+IX. RELACIÓN CON EL MODELADO MATEMÁTICO
+============================================================
+
+Este planteamiento no afirma que toda Fuente Identitaria ya sea, de inmediato, un objeto matemático acabado.
+
+Lo que afirma es algo más preciso:
+
+Si una entidad puede describirse mediante:
+- identidad estructural,
+- dimensiones explícitas,
+- vectores de estado,
+- restricciones,
+- operadores de respuesta,
+- y criterios de validación,
+
+entonces puede comenzar a tratarse formalmente como un espacio de estados parametrizado por dimensiones.
+
+Eso habilita, sin forzar aún una formalización completa:
+
+- visualización geométrica,
+- análisis de regiones,
+- comparación de distancias,
+- clustering,
+- umbrales,
+- interpolaciones,
+- optimización bajo restricciones,
+- y otras herramientas compatibles con estructuras de coordenadas.
+
+Esta prudencia es importante.
+
+No toda Fuente Identitaria necesita modelarse como un espacio vectorial en sentido matemático estricto.
+Pero sí puede tratarse, al menos, como un espacio de coordenadas intensionales con estructura suficiente para
+análisis y construcción.
+
+============================================================
+X. FORMULACIÓN SINTÉTICA FINAL
+============================================================
+
+Modelo de Fuentes Identitarias y Espacios de Estados Intensionales:
+
+Una Fuente Identitaria es una entidad con identidad estable que funciona como fuente estructural de un espacio intensional propio. Sus casos concretos se representan como vectores de instanciación sobre ese espacio. Un mapa de respuesta traduce esos vectores a salidas bajo restricciones, pesos, umbrales e invariantes. El modelo puede utilizarse tanto para analizar configuraciones existentes como para construir configuraciones nuevas orientadas a salidas específicas. Su validez depende de un recorte explícito, de criterios de aplicación claros y de un cierre de circuito que permita evidencia, corrección y actualización.
+
+============================================================
+XI. FÓRMULA RESUMIDA
+============================================================
+
+Fuente Identitaria = identidad extensional + espacio intensional + vectores de instanciación + mapa de respuesta + cierre de actualización.
+
+============================================================
+FIN DEL DOCUMENTO
+============================================================

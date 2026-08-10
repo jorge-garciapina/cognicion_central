@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-sin_texto_visible-sin_texto_visible",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-sin_texto_visible-sin_texto_visible",
+    "label": "sin_texto_visible",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible-sin_texto_visible-sin_texto_visible",
+    "summary": "**Definición.** Régimen en el que la pieza evita texto legible como componente informativo. La comunicación descansa en forma, imagen, iconografía, composición, marca o símbolo. No significa ausencia de significado, sino ausencia de lectura verbal explícita.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-rama_visual_editorial-densidad_textual_visible"
+    }
+  }
+}

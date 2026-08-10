@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-must_not_substitute-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica-must_not_substitute-grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-regimen_de_explicitacion_escenica",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-referencias_externas-indicaciones_escenicas_concretas_por_bloque",
+    "type": "must_not_substitute",
+    "rationale": "El régimen de explicitación escénica no sustituye las indicaciones escénicas concretas por bloque."
+  }
+}

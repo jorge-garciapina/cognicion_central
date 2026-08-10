@@ -1,0 +1,223 @@
+================================================================================
+DEFINICIÓN OPERATIVA: ESTADO COGNITIVO (S)
+VERSIÓN: 1.0.0 (Borrador operativo; objetivo: ambigüedad mínima)
+CONTEXTO: Teoría de Máquinas Cognitivas (mNodes → proyección → cNodes)
+================================================================================
+
+0) IDEA CENTRAL
+Un Estado Cognitivo (S) es la configuración interna, en un instante o intervalo,
+de un sistema cognitivo: qué estructuras internas están activas, con qué fuerza,
+cómo se conectan entre sí, y hacia qué “dirección” está orientada la dinámica
+del sistema (qué resultados tiende a producir si no se interviene).
+
+Este marco asume que la cognición se manifiesta mediante Estructuras Cognitivas
+(mNodes) con identidad (invariantes + dominio de variación) y rol operativo,
+listas para ser proyectadas (más adelante) en cNodes portables. :contentReference[oaicite:0]{index=0}
+
+--------------------------------------------------------------------------------
+1) DEFINICIÓN FORMAL (EN SENTIDO OPERATIVO)
+1.1 Definición
+Un Estado Cognitivo S es un objeto compuesto por:
+
+S = ⟨ M, G, W, A, F, Ctx, Hist ⟩
+
+donde:
+- M  = conjunto de mNodes actualmente relevantes (presentes/latentes/activos).
+- G  = grafo interno (relaciones entre mNodes; dependencias, activaciones,
+       inhibiciones, soporte, contradicción, analogía, etc.).
+- W  = ponderaciones (pesos) asociadas a nodos y/o aristas del grafo:
+       intensidad, prioridad, saliencia, urgencia, confianza, aversión al riesgo,
+       u otras magnitudes necesarias para describir orientación.
+- A  = estado de activación por mNode (activación, atención asignada,
+       accesibilidad, “temperatura” de uso).
+- F  = modo dominante (familia funcional activada: Idea, Plan, Método, Diseño,
+       Patrón de razonamiento; y extensiones si existen).
+- Ctx = condiciones de contorno / perfil de condiciones del contexto-tarea:
+        rasgos que favorecen que cierto modo sea dominante (presión de ejecución,
+        necesidad de significado, necesidad de fiabilidad, restricción de tiempo,
+        etc.).
+- Hist = trazas mínimas (memoria de progreso, acumuladores, compromisos previos,
+         costos hundidos, promesas, decisiones parciales), necesarias para que el
+         estado sea causalmente explicable y proyectable.
+
+1.2 Lectura conceptual
+- “Estado” NO es solo “contenido mental”; es forma + estructura + orientación.
+- “Estado” NO es solo “emoción”; emoción puede ser un componente (W, A) que
+  reorienta el grafo.
+- “Estado” NO equivale a “mNode”; el estado contiene mNodes, pero también su
+  configuración y pesos.
+
+--------------------------------------------------------------------------------
+2) PARTES DEL ESTADO (DESGLOSE OPERATIVO)
+2.1 Núcleo estructural: conjunto de mNodes (M)
+El estado siempre incluye un conjunto de unidades internas (mNodes). Un mNode
+cuenta como estructura cognitiva cuando tiene:
+- invariantes (qué lo hace ser lo que es),
+- dominio de variación (cómo puede cambiar sin dejar de serlo),
+- rol operativo (para qué sirve),
+- y posibilidad de proyección sin depender de contexto oculto. :contentReference[oaicite:1]{index=1}
+
+2.2 Chasis relacional: grafo interno (G)
+El grafo G representa relaciones explícitas (aunque sean reconstruibles):
+- soporte: “este mNode respalda a aquel”
+- dependencia: “este no opera sin aquel”
+- inhibición/competencia: “estos dos no pueden dominar a la vez”
+- analogía: “este patrón se aplica aquí”
+- contradicción: “estos dos mNodes chocan”
+- composición: “este mNode contiene submNodes”
+
+2.3 Orientación: pesos (W) y activaciones (A)
+La “dirección” u orientación de la cognición se modela como distribución de
+pesos sobre nodos/aristas y como niveles de activación.
+
+Ejemplos típicos de variables que se reflejan en W/A (no como “stages”, sino
+como componentes del estado):
+- nivel de atención (foco), carga cognitiva, fatiga
+- relevancia percibida (“esto es para mí”)
+- comprensión (qué se ofrece y por qué importa)
+- confianza (credibilidad del emisor, seguridad del producto)
+- emoción dominante (curiosidad, esperanza, miedo, aspiración)
+- intención (predisposición a ejecutar una acción)
+- objeciones activas (precio, riesgo, duda, alternativa)
+
+Estas variables NO “aparecen de la nada”: son propiedades emergentes del estado
+al pasar por transformaciones (stages) y por las conexiones internas disparadas
+por el contenido y la forma de la intervención.
+
+2.4 Modo dominante: familia funcional (F)
+El estado no solo contiene “qué” se piensa; contiene “cómo” opera lo pensado.
+El modo dominante F indica cuál familia funcional gobierna la dinámica:
+- Idea: fijar significado y frontera conceptual
+- Plan: secuenciar acciones hacia un objetivo
+- Método: asegurar fiabilidad y repetición controlada
+- Diseño: organizar partes bajo restricciones
+- Patrón de razonamiento: derivar conclusiones con validez
+
+2.5 Condiciones de contorno: perfil de condiciones (Ctx)
+Ctx no decide “qué es” el estado, pero sí qué modo se vuelve dominante.
+Ctx describe la presión de la tarea (tiempo, riesgo, necesidad de certeza,
+necesidad de ejecución, necesidad de interoperabilidad, etc.).
+
+2.6 Historia mínima: trazas (Hist)
+Hist registra persistencias necesarias:
+- progreso, compromisos, decisiones parciales
+- acumuladores (evidencia, intentos, fallos)
+- costos/beneficios ya incurridos
+- contexto ya “pagado” (lo ya aprendido en el episodio)
+
+Sin Hist, el estado se vuelve una fotografía sin causalidad; no se puede auditar
+cómo llegó a ser lo que es.
+
+--------------------------------------------------------------------------------
+3) CÓMO SE CREA / ACTUALIZA UN ESTADO (DINÁMICA DE TRANSFORMACIÓN)
+3.1 Operador de transición (visión tipo pipeline)
+Un pipeline cognitivo puede modelarse como una sucesión de transformaciones:
+
+S₀ --(T₁)--> S₁ --(T₂)--> S₂ --(T₃)--> ... --(Tn)--> Sn
+
+Cada transformación Ti:
+- consume el estado anterior (Si-1),
+- aplica una intervención (entrada + método local),
+- modifica mNodes (crea, activa, inhibe, compone),
+- actualiza pesos y relaciones (W, G, A),
+- puede cambiar el modo dominante F,
+- produce un nuevo estado Si.
+
+3.2 Qué significa “el contenido del stage transmutó el estado”
+La forma de redactar un estímulo o intervención determina qué rutas del grafo se
+activan. Dos entradas pueden cumplir el mismo “stage” (por ejemplo, Atención),
+pero disparar subgrafos distintos y, por tanto, producir estados distintos.
+
+Ejemplo abstracto (misma función aparente, diferente activación):
+- Entrada A: “Nadie le creía, hasta que todos vieron el resultado…”
+  Puede activar: validación social, contraste, prueba, justicia, vindicación.
+- Entrada B: “Cuando un sueño se hace realidad, el soñador despierta…”
+  Puede activar: identidad, aspiración, metáfora, introspección, destino.
+
+Ambas pueden captar atención, pero reorganizan el estado de manera diferente
+(pesos, conexiones, objeciones, intención).
+
+3.3 Qué describe “Conexiones (edges / flujo)” en un pipeline
+El flujo entre stages describe el orden macro de transformaciones.
+Pero el “cómo” se pasa de uno a otro (y por qué la transición funciona) se
+explica por:
+- el grafo interno G (qué rutas existen),
+- el estado actual (qué está pesado/activo),
+- y el método local del stage (qué operación aplica sobre el grafo).
+
+En otras palabras:
+- El pipeline macro es el guion de transformaciones.
+- El grafo ponderado es la mecánica interna que hace que el guion sea eficaz.
+
+--------------------------------------------------------------------------------
+4) RELACIÓN CON AIDA (ACLARACIÓN DE CONFUSIÓN)
+AIDA (Atención, Interés, Deseo, Acción) se interpreta aquí como:
+- un esquema de stages (transformaciones Ti),
+- cuyo efecto es producir una trayectoria de estados:
+
+S_indiferencia → S_foco → S_involucramiento → S_preferencia → S_ejecución
+
+La lista de “atención, relevancia, comprensión, confianza, emoción, intención,
+objeciones…” NO es una lista adicional de stages. Es:
+- una propuesta de variables internas (componentes del estado) que cambian a lo
+  largo de los stages.
+
+Por tanto:
+- En cada stage, algunas variables tienden a incrementarse o reconfigurarse.
+- Las variables se acumulan y se reequilibran, no necesariamente “nacen” en un
+  único stage.
+
+Ejemplo de mapeo razonable (no único):
+- Atención:
+  aumenta A(atención), sube W(saliencia); puede activar curiosidad.
+- Interés:
+  aumenta relevancia percibida + comprensión inicial; reduce ambigüedad.
+- Deseo:
+  reconfigura emoción dominante + intención; compara alternativas; puede
+  disminuir objeciones si hay evidencia.
+- Acción:
+  maximiza intención y reduce fricción; consolida decisión; ejecuta conducta.
+
+La clave es que AIDA describe transformaciones; “atención/confianza/objeciones…”
+describe coordenadas del estado que se mueven bajo esas transformaciones.
+
+--------------------------------------------------------------------------------
+5) ANALOGÍA RECOMENDADA PARA “STAGES + DETALLES INTERNOS”
+Una analogía útil (sin identidad 1 a 1) es:
+
+- El pipeline (AIDA) es la ruta general de navegación (macro-instrucciones).
+- El grafo ponderado es la ciudad real: calles, puentes, atajos, zonas bloqueadas,
+  tráfico, semáforos y prioridades.
+- El “contenido” de cada stage es el conjunto de señales que encienden o apagan
+  rutas (cambian pesos), abren carriles (habilitan aristas) o generan desvíos
+  (activan subgrafos).
+- El estado es la fotografía dinámica de “dónde se está” y “qué rutas son más
+  probables” en ese momento.
+
+Con esa analogía:
+- Dos rutas macro idénticas pueden producir trayectorias internas distintas,
+  porque la ciudad (grafo) y el tráfico (pesos) no son iguales.
+
+--------------------------------------------------------------------------------
+6) CRITERIOS DE CORRECCIÓN (CUÁNDO UNA DESCRIPCIÓN DE ESTADO ES “BUENA”)
+Una descripción de estado es adecuada si:
+1) Identifica mNodes relevantes (no todo, sino lo que gobierna la dinámica).
+2) Explicita relaciones (G) suficientes para explicar transiciones.
+3) Incluye pesos/activaciones (W/A) que justifiquen “dirección”.
+4) Declara el modo dominante (F) y por qué domina bajo Ctx.
+5) Incluye trazas mínimas (Hist) que permitan auditar el proceso.
+6) Puede proyectarse sin contexto oculto (propiedad de portabilidad). :contentReference[oaicite:2]{index=2}
+
+--------------------------------------------------------------------------------
+7) NOTA DE INTEGRACIÓN CON LA TEORÍA (POSICIÓN DENTRO DE LA MÁQUINA)
+- El Estado Cognitivo (S) es el “material de trabajo” dinámico del sistema.
+- Los mNodes son las unidades estructurales dentro del estado.
+- Las familias (F) tipan qué modo gobierna el procesamiento en el estado.
+- Los criterios de pertenencia permiten validar tipos de mNodes (type-checker).
+- El pipeline es una secuencia de transformaciones T sobre estados.
+- La proyección traduce estructuras internas (mNodes y su configuración) a un
+  artefacto integrable (cNode), preservando invariantes y variación permitida. :contentReference[oaicite:3]{index=3}
+
+================================================================================
+FIN
+================================================================================

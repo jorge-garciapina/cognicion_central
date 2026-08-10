@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-configuracion_discursiva-taxonomica_visual-taxonomica_visual",
+  "content": "**Definición.** Valor que organiza el contenido como clasificación visible. Su sentido principal es distinguir tipos, familias, niveles, categorías o grupos mediante separación, rotulación, jerarquía o disposición espacial.\n\n**Diferenciación semántica.** Se diferencia de `lista` porque una taxonomía no sólo enumera; agrupa según criterios de pertenencia. Se diferencia de `mapa_conceptual_visual` porque no necesariamente muestra relaciones múltiples entre conceptos, sino un sistema de clasificación.\n\n**Interpretación mínima.** Cuando una IA encuentra este valor debe entender que la pieza debe ayudar a saber qué pertenece a qué categoría y qué criterio separa una clase de otra."
+}

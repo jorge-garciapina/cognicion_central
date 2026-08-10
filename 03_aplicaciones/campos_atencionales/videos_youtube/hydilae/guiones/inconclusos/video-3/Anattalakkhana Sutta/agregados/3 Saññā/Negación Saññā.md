@@ -1,0 +1,1 @@
+Muchas veces el sentido del yo se apoya en la continuidad perceptiva: “yo soy quien interpreta el mundo”. Pero el sutta empuja todavía más: incluso esa facultad de reconocer y etiquetar es variable, condicionada, cambiante. A veces percibimos bien; a veces mal; a veces confundimos; a veces olvidamos. Por tanto, tampoco ahí hay una esencia estable.

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-pinterest_pin-pinterest_pin",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-pinterest_pin-pinterest_pin",
+    "label": "pinterest_pin",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-pinterest_pin-pinterest_pin",
+    "summary": "**Definición.** Aplicación para pin en Pinterest. Prioriza guardabilidad, verticalidad, claridad estética, utilidad futura y reconocimiento del tema sin depender de una explicación larga externa.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

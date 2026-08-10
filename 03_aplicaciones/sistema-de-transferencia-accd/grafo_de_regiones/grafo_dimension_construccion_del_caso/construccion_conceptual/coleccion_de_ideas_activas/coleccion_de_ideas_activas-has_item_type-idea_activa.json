@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas-has_item_type-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas-has_item_type-grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+    "from": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-coleccion_de_ideas_activas-coleccion_de_ideas_activas",
+    "to": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa",
+    "type": "has_item_type",
+    "rationale": "La colección de ideas activas se compone de una o más unidades idea_activa."
+  }
+}

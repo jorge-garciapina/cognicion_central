@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez",
+    "label": "calidez",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-calidez",
+    "summary": "Grado de calidez afectiva o reserva emocional de la comparecencia.",
+    "value_type": "Categorial ordinal",
+    "cardinality": null
+  }
+}

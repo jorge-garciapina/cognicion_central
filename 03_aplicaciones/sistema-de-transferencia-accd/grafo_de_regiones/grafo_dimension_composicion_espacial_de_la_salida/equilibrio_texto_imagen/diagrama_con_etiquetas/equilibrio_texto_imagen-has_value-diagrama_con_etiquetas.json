@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-has_value-grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+    "from": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen",
+    "to": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-equilibrio_texto_imagen-diagrama_con_etiquetas-diagrama_con_etiquetas",
+    "type": "has_value",
+    "rationale": "diagrama_con_etiquetas es un valor nuevo incorporado en equilibrio_texto_imagen para la realización imagen."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-flowchart_o_diagrama_de_decision-flowchart_o_diagrama_de_decision",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-has_value-grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-flowchart_o_diagrama_de_decision-flowchart_o_diagrama_de_decision",
+    "from": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada",
+    "to": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-uso_de_imagen_generada-flowchart_o_diagrama_de_decision-flowchart_o_diagrama_de_decision",
+    "type": "has_value",
+    "rationale": "flowchart_o_diagrama_de_decision es un valor de uso_de_imagen_generada incorporado para la realización carousel."
+  }
+}

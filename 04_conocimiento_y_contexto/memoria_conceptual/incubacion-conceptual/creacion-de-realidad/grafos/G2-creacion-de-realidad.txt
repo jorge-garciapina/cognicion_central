@@ -1,0 +1,585 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69b33530-66cc-8326-af08-4e78959e7cd2
+
+ESTA ES UNA VERSIÓN MODIFICADA DE "G1". EN LA VERSIÓN ANTERIOR NO DABA EDGES, LO ÚNICO QUE HICE FUE PEDIRLE QUE 
+LOS GENERARA. AÚN NO REVISO EL ARCHIVO. 12/03/2026 07:27
+
+
+{"address":"graph/node/CR-Creacion-de-Realidad","content":{
+  "id":"CR-Creacion-de-Realidad",
+  "label":"Creación de Realidad",
+  "type":"root_bridge",
+  "definition_ref":"def/CR-Creacion-de-Realidad",
+  "summary":"Este nodo introduce el dominio Creación de Realidad como un subgrafo especializado que modela cómo un sistema acoplado sujeto-mundo actualiza y estabiliza las condiciones de posibilidad de lo real para sí. Su función es servir como punto de entrada del dominio y como compresión inicial de procesos en los que percepción, ontología, evaluación, actualización, acción, decisión, comunicación e institucionalización quedan articuladas dentro de un mismo circuito."
+}}
+
+{"address":"graph/node/CR-Ejecucion-Perceptiva","content":{
+  "id":"CR-Ejecucion-Perceptiva",
+  "label":"Creación de Realidad — Ejecución Perceptiva",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Ejecucion-Perceptiva",
+  "summary":"Este nodo fija la ejecución perceptiva como el plano en el que la realidad aparece efectivamente para el sistema. No se introduce como recepción pasiva de datos, sino como acto perceptivo en curso, organizado por atención, objetivos, umbrales, hipótesis y condiciones de entorno."
+}}
+
+{"address":"graph/node/CR-Ontologia-de-Condiciones","content":{
+  "id":"CR-Ontologia-de-Condiciones",
+  "label":"Creación de Realidad — Ontología de Condiciones",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Ontologia-de-Condiciones",
+  "summary":"Este nodo fija la ontología de condiciones como el sistema de condiciones internas y externas que hacen posible, guían, seleccionan y limitan lo que puede aparecer como real. Su función es impedir que la realidad se trate como dato bruto y mostrar que toda percepción depende de un molde generativo."
+}}
+
+{"address":"graph/node/CR-Percepcion-Enfocada","content":{
+  "id":"CR-Percepcion-Enfocada",
+  "label":"Creación de Realidad — Percepción Enfocada",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Percepcion-Enfocada",
+  "summary":"Este nodo introduce la percepción enfocada como interfaz primaria del sistema con el exterior. Su función es mostrar que enfocar no es solo mirar mejor, sino reorganizar el acoplamiento con el mundo: redistribuye atención, activa objetivos, modifica umbrales y vuelve legible una región específica del exterior."
+}}
+
+{"address":"graph/node/CR-Criterio-de-Evaluacion","content":{
+  "id":"CR-Criterio-de-Evaluacion",
+  "label":"Creación de Realidad — Criterio de Evaluación",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Criterio-de-Evaluacion",
+  "summary":"Este nodo fija el criterio de evaluación como la instancia que decide qué señales cuentan, qué se descarta y qué exige actualización. Su función es impedir que el sistema quede reducido a recepción infinita de señales y convertir el flujo externo en material seleccionable para reorganización estructural."
+}}
+
+{"address":"graph/node/CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Politica-de-Actualizacion",
+  "label":"Creación de Realidad — Política de Actualización",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Politica-de-Actualizacion",
+  "summary":"Este nodo introduce la política de actualización como la regla o conjunto de reglas mediante las cuales el sistema transforma resultados evaluados en reorganización efectiva de sus condiciones internas, externas o de acoplamiento."
+}}
+
+{"address":"graph/node/CR-Cierre-de-Circuito","content":{
+  "id":"CR-Cierre-de-Circuito",
+  "label":"Creación de Realidad — Cierre de Circuito",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Cierre-de-Circuito",
+  "summary":"Este nodo fija el cierre de circuito como la estructura mínima que conecta señal, evaluación, actualización y nueva interacción con el exterior. Su función es expresar la condición de desarrollo del sistema: una entidad se desarrolla cuando su intercambio con el exterior retorna sobre su propia estructura y la reorganiza."
+}}
+
+{"address":"graph/node/CR-Regulacion-Minima","content":{
+  "id":"CR-Regulacion-Minima",
+  "label":"Creación de Realidad — Regulación Mínima",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Regulacion-Minima",
+  "summary":"Este nodo introduce la regulación mínima como el conjunto más simple de mecanismos necesarios para que el sistema no colapse bajo expansión perceptiva, ruido o dispersión durante fases tempranas de desarrollo."
+}}
+
+{"address":"graph/node/CR-Interfaz-Primaria","content":{
+  "id":"CR-Interfaz-Primaria",
+  "label":"Creación de Realidad — Interfaz Primaria",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Interfaz-Primaria",
+  "summary":"Este nodo introduce la interfaz primaria como la primera vía de intercambio estructurado con el exterior. Su función es fijar cómo un dominio todavía en activación logra recibir señales, discriminar relevancia y comenzar a proyectar efectos, aun antes de poseer una arquitectura madura de integración."
+}}
+
+{"address":"graph/node/CR-Creacion-Epistemica","content":{
+  "id":"CR-Creacion-Epistemica",
+  "label":"Creación de Realidad — Creación Epistémica",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Creacion-Epistemica",
+  "summary":"Este nodo fija la creación epistémica como la vía por la cual cambia la realidad operativa del sistema al reconfigurarse el molde interno: categorías, creencias, lenguaje, objetivos y pesos atencionales."
+}}
+
+{"address":"graph/node/CR-Creacion-Enactiva","content":{
+  "id":"CR-Creacion-Enactiva",
+  "label":"Creación de Realidad — Creación Enactiva",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Creacion-Enactiva",
+  "summary":"Este nodo introduce la creación enactiva como la vía práctica por la cual la acción modifica el entorno y, al hacerlo, reconfigura futuras condiciones de percepción, decisión y operación."
+}}
+
+{"address":"graph/node/CR-Creacion-Social-Institucional","content":{
+  "id":"CR-Creacion-Social-Institucional",
+  "label":"Creación de Realidad — Creación Social-Institucional",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Creacion-Social-Institucional",
+  "summary":"Este nodo fija la creación social-institucional como la vía en la que normas, acuerdos, contratos, roles, reputaciones y símbolos estabilizan nuevas realidades colectivas."
+}}
+
+{"address":"graph/node/CR-Correlacion-Intercapa","content":{
+  "id":"CR-Correlacion-Intercapa",
+  "label":"Creación de Realidad — Correlación Intercapa",
+  "type":"bridge_node",
+  "definition_ref":"def/CR-Correlacion-Intercapa",
+  "summary":"Este nodo introduce la correlación intercapa como herramienta diagnóstica para casos en los que una covariación observable en el plano de ejecución no encuentra su explicación suficiente en ese mismo plano, sino en una capa ontológica distinta que la organiza o la hace posible."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Interior","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Interior",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Interior",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad no puede definirse con identidad estable sin Arq-Cog-Interior, porque el dominio necesita una estructura interna susceptible de reorganización. Sin interior no hay sistema que actualice sus condiciones de posibilidad."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Frontera","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Frontera",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Frontera",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad no puede definirse plenamente sin Arq-Cog-Frontera, porque el dominio exige una zona de separación-contacto donde interior y exterior intercambien señales sin pérdida inmediata de identidad."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Envolvente","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Envolvente",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Envolvente",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad requiere Arq-Cog-Envolvente, porque la realidad operativa del sistema no se transforma en vacío: necesita un exterior relevante que produzca señales, resistencias, oportunidades y restricciones."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Vecindad-Relevante","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Vecindad-Relevante",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Vecindad-Relevante",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad no transforma todo el exterior a la vez, sino la región del exterior que acopla efectivamente con el sistema. Vecindad Relevante provee el recorte local del exterior sobre el que el dominio puede operar."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Superficie-de-Integracion","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Superficie-de-Integracion",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Superficie-de-Integración",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad requiere una interfaz portable entre interior y exterior. Sin Superficie de Integración no puede declararse de manera explícita y transferable cómo el sistema recibe, organiza y proyecta transformaciones."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-depends_on-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"CR-Creacion-de-Realidad-depends_on-Arq-Cog-Operatividad-Intensional",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación de Realidad depende de Operatividad Intensional, porque el dominio no se explica solo por nodos y aristas visibles: atención, objetivos, umbrales, prioridades y restricciones cambian efectivamente lo que puede aparecer como real."
+}}
+
+{"address":"graph/edge/CR-Ejecucion-Perceptiva-depends_on-CR-Ontologia-de-Condiciones","content":{
+  "id":"CR-Ejecucion-Perceptiva-depends_on-CR-Ontologia-de-Condiciones",
+  "from":"CR-Ejecucion-Perceptiva",
+  "to":"CR-Ontologia-de-Condiciones",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que la Ejecución Perceptiva no puede definirse sin la Ontología de Condiciones, porque lo percibido no aparece como dato puro sino como manifestación de un molde generativo compuesto por condiciones internas y externas."
+}}
+
+{"address":"graph/edge/CR-Ontologia-de-Condiciones-refines-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"CR-Ontologia-de-Condiciones-refines-Arq-Cog-Operatividad-Intensional",
+  "from":"CR-Ontologia-de-Condiciones",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"refines",
+  "rationale":"La arista refines establece que Ontología de Condiciones hace más preciso, dentro del dominio Creación de Realidad, el papel de la operatividad intensional. Mientras Operatividad Intensional nombra el régimen de pesos, prioridades y restricciones, Ontología de Condiciones lo reubica como sistema generativo de lo que puede aparecer como real."
+}}
+
+{"address":"graph/edge/CR-Percepcion-Enfocada-realizes-Arq-Cog-Frontera-de-Entrada","content":{
+  "id":"CR-Percepcion-Enfocada-realizes-Arq-Cog-Frontera-de-Entrada",
+  "from":"CR-Percepcion-Enfocada",
+  "to":"Arq-Cog-Frontera-de-Entrada",
+  "type":"realizes",
+  "rationale":"La arista realizes establece que Percepción Enfocada realiza, dentro de este dominio, la función de Frontera de Entrada: vuelve legible una región del exterior, redistribuye atención y permite que ciertas señales ingresen con relevancia estructural."
+}}
+
+{"address":"graph/edge/CR-Interfaz-Primaria-refines-Arq-Cog-Superficie-de-Integracion","content":{
+  "id":"CR-Interfaz-Primaria-refines-Arq-Cog-Superficie-de-Integracion",
+  "from":"CR-Interfaz-Primaria",
+  "to":"Arq-Cog-Superficie-de-Integración",
+  "type":"refines",
+  "rationale":"La arista refines establece que Interfaz Primaria hace más preciso el papel de la Superficie de Integración en etapas tempranas del sistema. No nombra toda la arquitectura madura de integración, sino la primera vía estructurada de contacto operativo con el exterior."
+}}
+
+{"address":"graph/edge/CR-Interfaz-Primaria-depends_on-CR-Percepcion-Enfocada","content":{
+  "id":"CR-Interfaz-Primaria-depends_on-CR-Percepcion-Enfocada",
+  "from":"CR-Interfaz-Primaria",
+  "to":"CR-Percepcion-Enfocada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Interfaz Primaria depende de Percepción Enfocada porque, en la fase actual del dominio, el primer contacto estructurado con el exterior ocurre principalmente por reorganización focal del ingreso perceptivo."
+}}
+
+{"address":"graph/edge/CR-Criterio-de-Evaluacion-provides_criteria_for-CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Criterio-de-Evaluacion-provides_criteria_for-CR-Politica-de-Actualizacion",
+  "from":"CR-Criterio-de-Evaluacion",
+  "to":"CR-Politica-de-Actualizacion",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que Criterio de Evaluación provee el marco selectivo necesario para la Política de Actualización. Sin criterio, la actualización no sabría qué señales traducir a cambio real y cuáles descartar."
+}}
+
+{"address":"graph/edge/CR-Criterio-de-Evaluacion-depends_on-CR-Percepcion-Enfocada","content":{
+  "id":"CR-Criterio-de-Evaluacion-depends_on-CR-Percepcion-Enfocada",
+  "from":"CR-Criterio-de-Evaluacion",
+  "to":"CR-Percepcion-Enfocada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Criterio de Evaluación depende de Percepción Enfocada porque solo puede evaluar aquello que ya ha sido admitido de forma selectiva y vuelto legible para el sistema."
+}}
+
+{"address":"graph/edge/CR-Politica-de-Actualizacion-depends_on-CR-Criterio-de-Evaluacion","content":{
+  "id":"CR-Politica-de-Actualizacion-depends_on-CR-Criterio-de-Evaluacion",
+  "from":"CR-Politica-de-Actualizacion",
+  "to":"CR-Criterio-de-Evaluacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Política de Actualización no puede definirse con estabilidad sin Criterio de Evaluación, porque necesita una instancia previa que determine qué exige reorganización y con qué prioridad."
+}}
+
+{"address":"graph/edge/CR-Politica-de-Actualizacion-refines-CR-Ontologia-de-Condiciones","content":{
+  "id":"CR-Politica-de-Actualizacion-refines-CR-Ontologia-de-Condiciones",
+  "from":"CR-Politica-de-Actualizacion",
+  "to":"CR-Ontologia-de-Condiciones",
+  "type":"refines",
+  "rationale":"La arista refines establece que Política de Actualización hace más preciso, en sentido operativo, el hecho de que la ontología del sistema puede cambiar. Mientras Ontología de Condiciones nombra el molde generativo, Política de Actualización nombra la regla que permite reconfigurarlo."
+}}
+
+{"address":"graph/edge/CR-Cierre-de-Circuito-depends_on-CR-Percepcion-Enfocada","content":{
+  "id":"CR-Cierre-de-Circuito-depends_on-CR-Percepcion-Enfocada",
+  "from":"CR-Cierre-de-Circuito",
+  "to":"CR-Percepcion-Enfocada",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Cierre de Circuito depende de Percepción Enfocada porque el ciclo no puede comenzar sin ingreso selectivo de señales relevantes desde el exterior."
+}}
+
+{"address":"graph/edge/CR-Cierre-de-Circuito-depends_on-CR-Criterio-de-Evaluacion","content":{
+  "id":"CR-Cierre-de-Circuito-depends_on-CR-Criterio-de-Evaluacion",
+  "from":"CR-Cierre-de-Circuito",
+  "to":"CR-Criterio-de-Evaluacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Cierre de Circuito depende de Criterio de Evaluación porque sin selección valorativa no hay retorno organizador, solo flujo de señales sin transformación estructural."
+}}
+
+{"address":"graph/edge/CR-Cierre-de-Circuito-depends_on-CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Cierre-de-Circuito-depends_on-CR-Politica-de-Actualizacion",
+  "from":"CR-Cierre-de-Circuito",
+  "to":"CR-Politica-de-Actualizacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Cierre de Circuito depende de Política de Actualización porque el ciclo solo se cierra cuando la evaluación se convierte en reorganización efectiva de la estructura o de la relación con el entorno."
+}}
+
+{"address":"graph/edge/CR-Regulacion-Minima-provides_criteria_for-CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Regulacion-Minima-provides_criteria_for-CR-Politica-de-Actualizacion",
+  "from":"CR-Regulacion-Minima",
+  "to":"CR-Politica-de-Actualizacion",
+  "type":"provides_criteria_for",
+  "rationale":"La arista provides_criteria_for establece que Regulación Mínima aporta límites y ritmos básicos a la Política de Actualización, evitando que el sistema se desorganice por exceso de apertura, ruido o variabilidad sin contención."
+}}
+
+{"address":"graph/edge/CR-Regulacion-Minima-uses-CR-Criterio-de-Evaluacion","content":{
+  "id":"CR-Regulacion-Minima-uses-CR-Criterio-de-Evaluacion",
+  "from":"CR-Regulacion-Minima",
+  "to":"CR-Criterio-de-Evaluacion",
+  "type":"uses",
+  "rationale":"La arista uses establece que Regulación Mínima utiliza Criterio de Evaluación para decidir qué señales deben ser admitidas, postergadas, amortiguadas o descartadas a fin de preservar coherencia suficiente."
+}}
+
+{"address":"graph/edge/CR-Creacion-Epistemica-refines-CR-Creacion-de-Realidad","content":{
+  "id":"CR-Creacion-Epistemica-refines-CR-Creacion-de-Realidad",
+  "from":"CR-Creacion-Epistemica",
+  "to":"CR-Creacion-de-Realidad",
+  "type":"refines",
+  "rationale":"La arista refines establece que Creación Epistémica hace más preciso un modo interno de Creación de Realidad: aquel en que cambia el mundo operativo del sistema mediante reconfiguración del molde, sin requerir modificación material inmediata del entorno."
+}}
+
+{"address":"graph/edge/CR-Creacion-Epistemica-depends_on-CR-Politica-de-Actualizacion","content":{
+  "id":"CR-Creacion-Epistemica-depends_on-CR-Politica-de-Actualizacion",
+  "from":"CR-Creacion-Epistemica",
+  "to":"CR-Politica-de-Actualizacion",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Creación Epistémica depende de Política de Actualización porque el cambio del molde interno no ocurre por mera exposición a señales, sino por traducción organizada de evaluación a reconfiguración."
+}}
+
+{"address":"graph/edge/CR-Creacion-Enactiva-refines-CR-Creacion-de-Realidad","content":{
+  "id":"CR-Creacion-Enactiva-refines-CR-Creacion-de-Realidad",
+  "from":"CR-Creacion-Enactiva",
+  "to":"CR-Creacion-de-Realidad",
+  "type":"refines",
+  "rationale":"La arista refines establece que Creación Enactiva hace más preciso un modo práctico de Creación de Realidad: aquel en que el sistema altera el entorno y, por ello, cambia futuras condiciones de percepción y operación."
+}}
+
+{"address":"graph/edge/CR-Creacion-Enactiva-realizes-Arq-Cog-Frontera-de-Salida","content":{
+  "id":"CR-Creacion-Enactiva-realizes-Arq-Cog-Frontera-de-Salida",
+  "from":"CR-Creacion-Enactiva",
+  "to":"Arq-Cog-Frontera-de-Salida",
+  "type":"realizes",
+  "rationale":"La arista realizes establece que Creación Enactiva realiza, dentro de este dominio, la función de Frontera de Salida: proyecta reorganización interna hacia la envolvente por medio de acción efectiva y modificación externa."
+}}
+
+{"address":"graph/edge/CR-Creacion-Social-Institucional-refines-CR-Creacion-de-Realidad","content":{
+  "id":"CR-Creacion-Social-Institucional-refines-CR-Creacion-de-Realidad",
+  "from":"CR-Creacion-Social-Institucional",
+  "to":"CR-Creacion-de-Realidad",
+  "type":"refines",
+  "rationale":"La arista refines establece que Creación Social-Institucional hace más preciso el modo colectivo de Creación de Realidad: aquel en que normas, acuerdos, contratos, reputaciones y símbolos estabilizan realidades sociales durables."
+}}
+
+{"address":"graph/edge/CR-Creacion-Social-Institucional-uses-Arq-Cog-Envolvente","content":{
+  "id":"CR-Creacion-Social-Institucional-uses-Arq-Cog-Envolvente",
+  "from":"CR-Creacion-Social-Institucional",
+  "to":"Arq-Cog-Envolvente",
+  "type":"uses",
+  "rationale":"La arista uses establece que Creación Social-Institucional utiliza la Envolvente como campo de estabilización colectiva: la realidad social e institucional emerge y se mantiene en un exterior relevante compuesto por marcos, reglas y actores compartidos."
+}}
+
+{"address":"graph/edge/CR-Correlacion-Intercapa-refines-Arq-Cog-Operatividad-Intensional","content":{
+  "id":"CR-Correlacion-Intercapa-refines-Arq-Cog-Operatividad-Intensional",
+  "from":"CR-Correlacion-Intercapa",
+  "to":"Arq-Cog-Operatividad-Intensional",
+  "type":"refines",
+  "rationale":"La arista refines establece que Correlación Intercapa hace más preciso, dentro del dominio Creación de Realidad, el hecho de que una covariación visible puede depender de pesos, umbrales, prioridades o restricciones compartidas que no se agotan en la topología local del plano de ejecución."
+}}
+
+{"address":"graph/edge/CR-Correlacion-Intercapa-depends_on-CR-Ejecucion-Perceptiva","content":{
+  "id":"CR-Correlacion-Intercapa-depends_on-CR-Ejecucion-Perceptiva",
+  "from":"CR-Correlacion-Intercapa",
+  "to":"CR-Ejecucion-Perceptiva",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Correlación Intercapa necesita un plano de manifestación donde algo covaríe visiblemente. Sin Ejecución Perceptiva no hay fenómeno aparente que diagnosticar."
+}}
+
+{"address":"graph/edge/CR-Correlacion-Intercapa-depends_on-CR-Ontologia-de-Condiciones","content":{
+  "id":"CR-Correlacion-Intercapa-depends_on-CR-Ontologia-de-Condiciones",
+  "from":"CR-Correlacion-Intercapa",
+  "to":"CR-Ontologia-de-Condiciones",
+  "type":"depends_on",
+  "rationale":"La arista depends_on establece que Correlación Intercapa requiere una capa generativa superior desde la cual la covariación visible reciba explicación principal. Ontología de Condiciones provee ese plano de dependencia compartida."
+}}
+
+{"address":"graph/edge/CR-Creacion-de-Realidad-uses-CR-Correlacion-Intercapa","content":{
+  "id":"CR-Creacion-de-Realidad-uses-CR-Correlacion-Intercapa",
+  "from":"CR-Creacion-de-Realidad",
+  "to":"CR-Correlacion-Intercapa",
+  "type":"uses",
+  "rationale":"La arista uses establece que Creación de Realidad utiliza Correlación Intercapa como herramienta diagnóstica para explicar por qué variaciones ontológicas se manifiestan fenomenológicamente como cambios en lo percibido, actuado o institucionalizado."
+}}
+
+{"address":"def/CR-Creacion-de-Realidad","content":"[
+0) Intención del concepto
+CR-Creacion-de-Realidad se introduce para funcionar como punto de entrada del subgrafo Creación de Realidad.
+
+1) Definición central
+Creación de Realidad = proceso estructurado mediante el cual un sistema acoplado sujeto-mundo actualiza y estabiliza condiciones internas y externas que determinan qué puede aparecer, ser reconocido, ser interpretado y ser sostenido como real.
+
+2) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Interior
+- Arq-Cog-Frontera
+- Arq-Cog-Envolvente
+- Arq-Cog-Vecindad-Relevante
+- Arq-Cog-Superficie-de-Integración
+- Arq-Cog-Operatividad-Intensional
+- CR-Ontologia-de-Condiciones
+- CR-Ejecucion-Perceptiva
+- CR-Criterio-de-Evaluacion
+- CR-Politica-de-Actualizacion
+- CR-Cierre-de-Circuito
+
+3) Invariantes
+- Distinción entre condiciones y manifestaciones
+- Distinción operativa entre interior y exterior
+- Señales legibles
+- Criterio de evaluación
+- Posibilidad de actualización
+- Posibilidad de estabilización
+- Cierre de circuito
+
+4) Fórmula de cierre
+Creación de Realidad
+=
+condiciones
++
+percepción
++
+criterio
++
+actualización
++
+nueva interacción
++
+estabilización.
+]"}}
+
+{"address":"def/CR-Ejecucion-Perceptiva","content":"[
+1) Definición central
+Ejecución Perceptiva = acto perceptivo en curso mediante el cual una configuración de condiciones internas y externas se manifiesta como experiencia, discriminación, reconocimiento o saliencia operativa para el sistema.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Ontologia-de-Condiciones
+- CR-Percepcion-Enfocada
+
+3) Invariantes
+- Debe existir manifestación efectiva
+- Debe existir modulación por condiciones
+- Debe distinguirse lo percibido del molde que lo hace posible
+]"}}
+
+{"address":"def/CR-Ontologia-de-Condiciones","content":"[
+1) Definición central
+Ontología de Condiciones = sistema de condiciones internas y externas que hacen posible, guían, limitan y seleccionan lo que puede aparecer como real para un sistema.
+
+2) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Interior
+- Arq-Cog-Envolvente
+- Arq-Cog-Vecindad-Relevante
+- Arq-Cog-Operatividad-Intensional
+
+3) Invariantes
+- Configuración interna
+- Exterior relevante
+- Acoplamiento sujeto-mundo
+- Función generativa sobre lo real
+]"}}
+
+{"address":"def/CR-Percepcion-Enfocada","content":"[
+1) Definición central
+Percepción Enfocada = reconfiguración selectiva del ingreso perceptivo mediante la cual el sistema redistribuye atención, activa objetivos, modifica umbrales y vuelve legible una región específica del exterior.
+
+2) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Frontera-de-Entrada
+- CR-Interfaz-Primaria
+- CR-Ontologia-de-Condiciones
+
+3) Invariantes
+- Selección
+- Redistribución de atención
+- Modificación de relevancia
+]"}}
+
+{"address":"def/CR-Criterio-de-Evaluacion","content":"[
+1) Definición central
+Criterio de Evaluación = instancia selectiva mediante la cual una señal, percepción o variación se compara con prioridades, umbrales, objetivos o reglas, y se decide si debe traducirse en actualización.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada
+- CR-Ontologia-de-Condiciones
+
+3) Invariantes
+- Algo evaluable
+- Regla u objetivo
+- Decisión de relevancia estructural
+]"}}
+
+{"address":"def/CR-Politica-de-Actualizacion","content":"[
+1) Definición central
+Política de Actualización = conjunto de reglas mediante las cuales el sistema traduce resultados de evaluación en cambio real de sus condiciones internas, externas o de acoplamiento.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Criterio-de-Evaluacion
+- CR-Regulacion-Minima
+
+3) Invariantes
+- Posibilidad de cambio
+- Regla de traducción
+- Huella estructural de la actualización
+]"}}
+
+{"address":"def/CR-Cierre-de-Circuito","content":"[
+1) Definición central
+Cierre de Circuito = estructura mínima en la que una señal del exterior es admitida, evaluada, traducida en actualización y devuelta al campo de interacción en forma de nueva operación posible.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada
+- CR-Criterio-de-Evaluacion
+- CR-Politica-de-Actualizacion
+- CR-Regulacion-Minima
+
+3) Invariantes
+- Ingreso
+- Evaluación
+- Actualización
+- Retorno organizador
+]"}}
+
+{"address":"def/CR-Regulacion-Minima","content":"[
+1) Definición central
+Regulación Mínima = conjunto básico de restricciones, ritmos o reglas que preservan coherencia suficiente cuando el sistema aumenta su apertura al exterior, pero todavía no dispone de una arquitectura madura.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Criterio-de-Evaluacion
+- CR-Politica-de-Actualizacion
+
+3) Invariantes
+- Apertura al exterior
+- Riesgo de colapso o dispersión
+- Mecanismo elemental de estabilización
+]"}}
+
+{"address":"def/CR-Interfaz-Primaria","content":"[
+1) Definición central
+Interfaz Primaria = mecanismo inicial de contacto con el exterior mediante el cual el sistema logra recibir señales, discriminar relevancia básica y comenzar a proyectar respuestas, aun sin arquitectura madura.
+
+2) Dependencias conceptuales
+Depende de:
+- Arq-Cog-Superficie-de-Integración
+- CR-Percepcion-Enfocada
+
+3) Invariantes
+- Contacto inicial estructurado
+- Recepción mínima
+- Proyección mínima
+]"}}
+
+{"address":"def/CR-Creacion-Epistemica","content":"[
+1) Definición central
+Creación Epistémica = reconfiguración del molde interno del sistema mediante cambio de categorías, creencias, lenguaje, objetivos y pesos atencionales, de modo que cambia lo que puede aparecer como real.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Ontologia-de-Condiciones
+- CR-Politica-de-Actualizacion
+
+3) Invariantes
+- Cambio del molde interno
+- Cambio en el régimen de aparición de lo real
+]"}}
+
+{"address":"def/CR-Creacion-Enactiva","content":"[
+1) Definición central
+Creación Enactiva = modificación del entorno material o situacional por medio de la acción, de forma tal que cambian futuras condiciones de percepción, decisión y operación.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Percepcion-Enfocada
+- CR-Politica-de-Actualizacion
+- Arq-Cog-Frontera-de-Salida
+
+3) Invariantes
+- Acción efectiva
+- Modificación del entorno
+- Reconfiguración de condiciones futuras
+]"}}
+
+{"address":"def/CR-Creacion-Social-Institucional","content":"[
+1) Definición central
+Creación Social-Institucional = producción y estabilización de realidad colectiva mediante marcos normativos, simbólicos y organizativos que estructuran posibilidades, obligaciones, valor e identidad social.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Creacion-de-Realidad
+- CR-Politica-de-Actualizacion
+- Arq-Cog-Envolvente
+
+3) Invariantes
+- Dimensión colectiva
+- Estabilización por marcos compartidos
+- Reorganización de posibilidades sociales
+]"}}
+
+{"address":"def/CR-Correlacion-Intercapa","content":"[
+1) Definición central
+Correlación Intercapa = relación de covariación entre manifestaciones observables cuya explicación principal depende de una base generativa, criterio, invariante o régimen intensional compartido situado en otra capa del sistema.
+
+2) Dependencias conceptuales
+Depende de:
+- CR-Ejecucion-Perceptiva
+- CR-Ontologia-de-Condiciones
+- Arq-Cog-Operatividad-Intensional
+
+3) Invariantes
+- Doble plano
+- Covariación visible
+- Insuficiencia explicativa local
+- Dependencia compartida respecto de otra capa
+]"}}

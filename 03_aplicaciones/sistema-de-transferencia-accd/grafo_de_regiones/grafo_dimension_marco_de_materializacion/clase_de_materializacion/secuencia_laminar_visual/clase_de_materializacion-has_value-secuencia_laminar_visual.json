@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-has_value-grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+    "from": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion",
+    "to": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-clase_de_materializacion-secuencia_laminar_visual-secuencia_laminar_visual",
+    "type": "has_value",
+    "rationale": "secuencia_laminar_visual es un valor de clase_de_materializacion incorporado para la realización carousel."
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-trayectoria_de_mirada-arriba_abajo-arriba_abajo",
+  "content": "**Definición.** Recorrido vertical descendente en el que la lectura avanza desde una zona superior hacia zonas inferiores. Suele asociarse con jerarquía informativa, encabezado-cuerpo-cierre, premisa-desarrollo-conclusión o título-explicación-acción.\n\n**Diferenciación semántica.** Se diferencia de `diagonal_descendente` porque mantiene un eje vertical más estable y menos dinámico. Se diferencia de `izquierda_derecha` porque organiza profundidad informativa por niveles, no por avance lateral.\n\n**Interpretación mínima.** La IA debe entender que lo superior posee prioridad de entrada y que los elementos inferiores deben funcionar como desarrollo, apoyo, detalle o cierre."
+}

@@ -1,0 +1,629 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d020d6-3554-83e8-a6a2-70af4d1dc691
+================================================================================
+PLANTEAMIENTO REVISADO — ESTRATO FUNCIONAL DE PIEZAS
+ARQUITECTURA COMERCIAL DE CREACIÓN DE CONTENIDO DIGITAL
+================================================================================
+
+0) Nombre de trabajo
+- Estrato funcional de piezas
+- Nombre alternativo más preciso:
+  Estrato funcional de manifestaciones materiales
+
+--------------------------------------------------------------------------------
+1) Intención del estrato
+
+Este estrato se introduce para fijar, dentro de la Arquitectura Comercial de
+Creación de Contenido Digital, el plano donde las salidas materiales del sistema
+pueden clasificarse no por:
+
+- tema,
+- formato,
+- plataforma,
+- longitud,
+- ni nicho,
+
+sino por la transformación dominante que buscan realizar dentro de una
+arquitectura mayor de mediación.
+
+Su función no es nombrar “tipos de contenido” en sentido superficial.
+Su función es volver explícita la relación entre:
+
+- el caso de proyección contextual,
+- su intención funcional dominante,
+- la pieza material que lo realiza,
+- la evidencia que deja,
+- y la trayectoria posterior que habilita dentro del sistema.
+
+--------------------------------------------------------------------------------
+2) Definición central
+
+Estrato funcional de piezas
+=
+subgrafo que clasifica las manifestaciones materiales de la arquitectura según la
+intención funcional dominante del caso de proyección contextual que las produjo,
+distinguiendo:
+
+- qué transformación principal busca la proyección,
+- qué evidencias deberían aparecer si dicha transformación ocurre,
+- qué funciones secundarias pueden coexistir,
+- y cómo se relaciona esa pieza con trayectorias posteriores de mediación,
+  atención, relación, validación o convertibilidad.
+
+Dicho de otro modo:
+
+la pieza no pertenece a una familia funcional por tema,
+ni por formato,
+ni por plataforma en abstracto,
+sino por el efecto estructural dominante que busca producir dentro del sistema.
+
+--------------------------------------------------------------------------------
+3) Qué delimita
+
+Este estrato delimita el problema de:
+
+- cómo clasificar piezas por su función dominante,
+- cómo distinguir funciones vecinas que suelen confundirse,
+- cómo relacionar funciones con casos contextuales,
+- cómo separar función de heurística,
+- cómo separar función de monetización,
+- y cómo leer una pieza como parte de una secuencia mayor de mediación.
+
+No delimita:
+
+- la identidad profunda del núcleo,
+- la ontología total del contexto,
+- la mecánica completa del adaptador,
+- ni la convertibilidad económica como tal.
+
+Delimita un caso más específico:
+
+la lectura funcional de la salida material dentro de una proyección contextual.
+
+--------------------------------------------------------------------------------
+4) Dependencias conceptuales
+
+Este estrato depende, como base mínima, de:
+
+4.1) Caso de Proyección Contextual Publisher
+Porque la función dominante no pertenece a la pieza aislada, sino al caso
+estructural que la produjo.
+
+4.2) Núcleo
+Porque una misma familia funcional puede realizar núcleos distintos, pero no se
+entiende sin aquello que está siendo proyectado.
+
+4.3) Contexto de sujeto
+Porque una misma pieza puede cumplir funciones diferentes según el régimen de
+recepción esperado.
+
+4.4) Contexto de distribución
+Porque plataforma y entorno de circulación modulan qué función puede dominar de
+forma operable.
+
+4.5) Heurísticas de salida
+Porque la función no se realiza en abstracto; se implementa mediante mecanismos
+concretos como hook, corte, recapitulación, CTA, contraste, densificación, etc.
+
+4.6) Evidencia
+Porque una función no debe clasificarse solo por intención declarada, sino también
+por la evidencia que deja en el sistema.
+
+4.7) Estrato de atención organizada
+Porque muchas funciones operan directamente sobre transiciones del régimen
+atencional.
+
+4.8) Esencificación
+Porque la función de una pieza no debe confundirse con la esencia o identidad de
+la entidad proyectada.
+
+--------------------------------------------------------------------------------
+5) Tesis fuerte del estrato
+
+La pieza visible no es una unidad autónoma que “tiene” una función por sí misma.
+Es la manifestación terminal de un caso de proyección.
+
+Por eso, el estrato funcional debe leerse como el plano donde el caso se vuelve
+reconocible por el tipo de transformación dominante que intenta producir en el
+sistema.
+
+--------------------------------------------------------------------------------
+6) Unidad mínima del estrato
+
+La unidad mínima no debe ser “video”, “reel” o “post”.
+
+Debe ser:
+
+Manifestación material clasificada por intención funcional dominante.
+
+Fórmula mínima:
+
+Pieza funcional
+=
+caso de proyección
++ intención dominante
++ heurísticas compatibles
++ manifestación material
++ evidencia esperada
+
+--------------------------------------------------------------------------------
+7) Invariantes del estrato
+
+Este estrato preserva, al menos, los siguientes invariantes:
+
+7.1) Invariante de no-clasificación temática
+Las funciones no se definen por de qué habla la pieza.
+
+7.2) Invariante de dominancia
+Una pieza puede activar varias funciones, pero debe poder identificarse una
+función dominante.
+
+7.3) Invariante de dependencia contextual
+La misma función no opera igual en todos los contextos.
+
+7.4) Invariante de distinción entre función y heurística
+La función no es el recurso concreto de ejecución.
+
+7.5) Invariante de evidencia
+La función debe poder vincularse con huellas observables.
+
+7.6) Invariante de no-colapso con identidad
+La función no agota la esencia de la entidad proyectada.
+
+7.7) Invariante de secuencia
+La función debe poder leerse también por su lugar dentro de una secuencia mayor
+de mediación.
+
+--------------------------------------------------------------------------------
+8) Regla metodológica principal
+
+La pregunta rectora del estrato ya no debería formularse solo como:
+
+“¿qué transforma principalmente esta pieza dentro del sistema?”
+
+Debería refinarse así:
+
+“¿qué transformación dominante busca realizar este caso de proyección contextual
+al materializarse en esta pieza, bajo este régimen de sujeto, distribución,
+restricción y heurística?”
+
+--------------------------------------------------------------------------------
+9) Familias funcionales principales
+
+9.1) ACCD-Funcion-de-Captacion-Inicial
+Función dominante de piezas cuya finalidad principal es abrir el primer umbral de
+atención y evitar la salida inmediata del sujeto.
+
+No busca todavía:
+- profundizar,
+- convertir,
+- ni agotar valor.
+
+Opera sobre:
+- ingreso al campo,
+- detención del desplazamiento,
+- disponibilidad mínima de atención.
+
+Heurísticas frecuentes:
+- contradicción inicial,
+- promesa específica,
+- rareza,
+- choque,
+- pregunta fuerte.
+
+Evidencia típica:
+- detención inicial,
+- apertura del consumo,
+- entrada efectiva al artefacto.
+
+--------------------------------------------------------------------------------
+9.2) ACCD-Funcion-de-Retencion-Temporal
+Función dominante de piezas cuya tarea principal es sostener la permanencia
+intra-pieza.
+
+Opera sobre:
+- continuidad local,
+- deuda de resolución,
+- permanencia hasta bloques posteriores.
+
+Heurísticas frecuentes:
+- mini-cliffhanger,
+- corte estratégico,
+- re-promesa,
+- suspensión,
+- entrega diferida.
+
+Evidencia típica:
+- continuidad de consumo,
+- sostenimiento del hilo,
+- menor abandono intrapieza.
+
+--------------------------------------------------------------------------------
+9.3) ACCD-Funcion-de-Serializacion-Temporal
+Función dominante de piezas que no solo sostienen atención interna, sino que
+empujan al siguiente artefacto o episodio.
+
+Opera sobre:
+- memoria de arrastre,
+- continuidad entre piezas,
+- cadena de mediación.
+
+Heurísticas frecuentes:
+- cierre abierto,
+- promesa de continuación,
+- puente explícito al siguiente caso,
+- capítulo.
+
+Evidencia típica:
+- tránsito de una pieza a otra,
+- retorno a serie,
+- continuidad episódica.
+
+--------------------------------------------------------------------------------
+9.4) ACCD-Funcion-de-Clarificacion-Cognitiva
+Función dominante de piezas cuyo objetivo es volver nítida una estructura
+conceptual.
+
+Opera sobre:
+- reducción de confusión,
+- diferenciación de categorías,
+- ordenamiento de una idea.
+
+Heurísticas frecuentes:
+- definición contrastiva,
+- ejemplo ancla,
+- separación conceptual,
+- reformulación directa.
+
+Evidencia típica:
+- comprensión explícita,
+- disminución de ambigüedad,
+- recuperación correcta del marco.
+
+--------------------------------------------------------------------------------
+9.5) ACCD-Funcion-de-Reestructuracion-Interpretativa
+Función dominante de piezas que cambian el marco desde el cual se estaba leyendo
+un fenómeno.
+
+Opera sobre:
+- reencuadre,
+- cambio de estatus interpretativo,
+- desplazamiento de lectura.
+
+Heurísticas frecuentes:
+- inversión de marco,
+- contraste entre lectura previa y lectura propuesta,
+- nombramiento reordenador.
+
+Evidencia típica:
+- adopción de un nuevo marco,
+- relectura del caso,
+- sensación de descubrimiento estructural.
+
+--------------------------------------------------------------------------------
+9.6) ACCD-Funcion-de-Densificacion-Conceptual
+Función dominante de piezas que expanden una idea mostrando capas, dimensiones o
+relaciones internas.
+
+Opera sobre:
+- espesor,
+- profundidad,
+- multicapas de sentido.
+
+Heurísticas frecuentes:
+- expansión por dimensiones,
+- lectura por capas,
+- despliegue de implicaciones.
+
+Evidencia típica:
+- percepción de mayor profundidad,
+- continuidad de exploración,
+- valor cognitivo acumulativo.
+
+--------------------------------------------------------------------------------
+9.7) ACCD-Funcion-de-Activacion-Emocional
+Función dominante de piezas que elevan intensidad afectiva para impulsar atención,
+memoria o disposición.
+
+Opera sobre:
+- sorpresa,
+- tensión,
+- indignación,
+- admiración,
+- curiosidad.
+
+Heurísticas frecuentes:
+- contraste fuerte,
+- revelación,
+- amenaza,
+- anomalía,
+- dramatización local.
+
+Evidencia típica:
+- reacción afectiva,
+- intensidad de respuesta,
+- aumento de involucramiento.
+
+--------------------------------------------------------------------------------
+9.8) ACCD-Funcion-de-Identificacion-Subjetiva
+Función dominante de piezas que permiten al sujeto verse reflejado en el caso.
+
+Opera sobre:
+- auto-reconocimiento,
+- proximidad subjetiva,
+- reducción de exterioridad.
+
+Heurísticas frecuentes:
+- formulación experiencial,
+- patrón cotidiano reconocible,
+- enunciado de malestar o confusión común.
+
+Evidencia típica:
+- autoatribución,
+- reconocimiento de sí mismo o de alguien cercano,
+- implicación personal.
+
+--------------------------------------------------------------------------------
+9.9) ACCD-Funcion-de-Validacion-Experiencial
+Función dominante de piezas que nombran y estructuran una experiencia previamente
+vivida pero no formalizada.
+
+Opera sobre:
+- validación,
+- reconocimiento estructural de la experiencia,
+- alivio cognitivo por nombramiento.
+
+Evidencia típica:
+- sensación de “eso me pasaba”,
+- legitimación de experiencia previa,
+- vínculo fuerte por lectura precisa.
+
+--------------------------------------------------------------------------------
+9.10) ACCD-Funcion-de-Legitimacion-Epistemica
+Función dominante de piezas que construyen percepción de autoridad cognitiva.
+
+Opera sobre:
+- credibilidad,
+- capacidad de distinción,
+- confianza en la lectura.
+
+Heurísticas frecuentes:
+- clasificación fina,
+- precisión conceptual,
+- estructura de niveles,
+- distinciones útiles.
+
+Evidencia típica:
+- aumento de autoridad atribuida,
+- transferencia de confianza,
+- disposición a seguir leyendo o profundizar.
+
+--------------------------------------------------------------------------------
+9.11) ACCD-Funcion-de-Posicionamiento-Identitario
+Función dominante de piezas que fijan públicamente qué tipo de entidad es la que
+habla.
+
+Opera sobre:
+- identidad pública,
+- forma reconocible de lectura,
+- posición simbólica.
+
+Evidencia típica:
+- reconocimiento estable de estilo profundo,
+- atribución consistente de tipo de mente o lectura,
+- asociación de la entidad con cierta clase de problema.
+
+--------------------------------------------------------------------------------
+9.12) ACCD-Funcion-de-Conversion-Relacional
+Función dominante de piezas cuyo objetivo no es agotar valor en lo público, sino
+habilitar un paso hacia una capa posterior de mediación.
+
+Opera sobre:
+- paso de audiencia pasiva a vínculo activo,
+- apertura de DM,
+- solicitud,
+- conversación,
+- entrada a capa privada o semiprivada.
+
+Heurísticas frecuentes:
+- oferta de profundización,
+- CTA de entrada,
+- promesa de recurso,
+- umbral de interacción.
+
+Evidencia típica:
+- DM,
+- palabra clave,
+- comentario calificado,
+- solicitud de continuidad.
+
+--------------------------------------------------------------------------------
+9.13) ACCD-Funcion-de-Calificacion-Relacional
+Función dominante de piezas que no solo atraen respuesta, sino que filtran
+compatibilidad del sujeto con el sistema.
+
+Opera sobre:
+- selección,
+- filtrado,
+- identificación de interesados reales.
+
+Evidencia típica:
+- respuestas de alta intención,
+- autoselección,
+- señal de compatibilidad.
+
+--------------------------------------------------------------------------------
+9.14) ACCD-Funcion-de-Cohesion-Comunitaria
+Función dominante de piezas que consolidan un “nosotros” reconocible.
+
+Opera sobre:
+- comunidad,
+- lenguaje compartido,
+- referencias internas,
+- pertenencia.
+
+Evidencia típica:
+- uso compartido de códigos,
+- referencias cruzadas,
+- comportamiento de comunidad y no solo de audiencia.
+
+--------------------------------------------------------------------------------
+9.15) ACCD-Funcion-de-Activacion-Practica
+Función dominante de piezas que desplazan al sujeto desde la comprensión hacia la
+ejecución.
+
+Opera sobre:
+- acción,
+- prueba,
+- implementación,
+- ensayo.
+
+Evidencia típica:
+- aplicación,
+- ejecución declarada,
+- transición a práctica.
+
+--------------------------------------------------------------------------------
+9.16) ACCD-Funcion-de-Conversion-Metodologica
+Función dominante de piezas que despiertan deseo por el procedimiento, no solo por
+la idea.
+
+Opera sobre:
+- interés por framework,
+- prompt,
+- plantilla,
+- mapa,
+- pasos replicables.
+
+Evidencia típica:
+- solicitud de método,
+- búsqueda de procedimiento,
+- paso hacia recursos estructurados.
+
+--------------------------------------------------------------------------------
+9.17) ACCD-Funcion-de-Conversion-Transaccional
+Función dominante de piezas que apuntan al cierre material o económico.
+
+Opera sobre:
+- compra,
+- pago,
+- contratación,
+- suscripción,
+- agenda.
+
+Evidencia típica:
+- cierre,
+- pre-cierre,
+- acción económica concreta.
+
+--------------------------------------------------------------------------------
+9.18) ACCD-Funcion-de-Memorabilidad-Simbolica
+Función dominante de piezas que fijan una imagen, fórmula o condensación con alto
+poder de retorno.
+
+Opera sobre:
+- fijación mental,
+- retorno futuro,
+- disponibilidad simbólica.
+
+Heurísticas frecuentes:
+- metáfora,
+- imagen fuerte,
+- nombre bueno,
+- contraste simple.
+
+Evidencia típica:
+- recordación,
+- citabilidad,
+- reutilización mental.
+
+--------------------------------------------------------------------------------
+9.19) ACCD-Funcion-de-Distribuibilidad-Social
+Función dominante de piezas optimizadas para ser reenviadas, citadas o
+compartidas.
+
+Opera sobre:
+- circulación social,
+- replicabilidad de referencia,
+- expansión lateral.
+
+Evidencia típica:
+- compartidos,
+- citas,
+- reenvíos,
+- circulación fuera del contexto original.
+
+--------------------------------------------------------------------------------
+9.20) ACCD-Funcion-de-Reactivacion-de-Archivo
+Función dominante de piezas que reinyectan valor a piezas previas del sistema.
+
+Opera sobre:
+- relectura de archivo,
+- reconexión interna,
+- densificación del ecosistema previo.
+
+Evidencia típica:
+- retorno a materiales anteriores,
+- referencias cruzadas activas,
+- reuso de archivo.
+
+--------------------------------------------------------------------------------
+10) Distinciones críticas del estrato
+
+10.1) Función ≠ heurística
+- Retención temporal = función
+- Mini-cliffhanger = heurística
+
+10.2) Función ≠ formato
+- Conversión relacional puede realizarse en reel, carrusel, hilo o video largo.
+
+10.3) Función ≠ tema
+- Estrategia política y negocios pueden compartir la misma función dominante.
+
+10.4) Función ≠ monetización
+- Conversión metodológica y conversión transaccional no agotan la identidad total
+  del sistema.
+
+10.5) Función pretendida ≠ función efectiva
+Una pieza puede pretender clarificar y en efecto solo captar;
+o pretender legitimar y en efecto eclipsar el centro o confundir.
+
+Esto sugiere que el estrato puede ganar mucho si en el futuro añade:
+- función pretendida,
+- función dominante observada,
+- y evidencia de desajuste.
+
+--------------------------------------------------------------------------------
+11) Relación con otros estratos
+
+Este estrato se integra así:
+
+- depends_on Caso de Proyección Contextual Publisher
+- depends_on Estrato Contextual
+- depends_on Estrato Identitario
+- uses Heurísticas de salida
+- produces Manifestación material
+- conditions Estrato de Atención Organizada
+- feeds Estrato de Evidencia y Aprendizaje
+- may_activate rutas del Estrato Comercial y de Convertibilidad
+
+--------------------------------------------------------------------------------
+12) Fórmula de cierre
+
+El estrato funcional de piezas no clasifica simplemente “tipos de contenido”.
+
+Clasifica las manifestaciones materiales según la transformación dominante que
+realiza el caso de proyección contextual al materializarse dentro de la
+arquitectura.
+
+Por eso:
+
+Estrato funcional de piezas
+=
+clasificación funcional de manifestaciones materiales
+por intención dominante de proyección
++ evidencia esperada
++ relación con trayectorias posteriores del sistema.
+
+================================================================================
+FIN DEL PLANTEAMIENTO
+================================================================================

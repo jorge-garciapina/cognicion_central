@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica",
+    "label": "especifica",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-nivel_de_especificidad-especifica-especifica",
+    "summary": "Valor especifica declarado para el campo nivel_de_especificidad.",
+    "metadata": {
+      "value_of": "nivel_de_especificidad",
+      "declared_as": "espacio_de_valores"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual-infografico_denso-infografico_denso",
+  "content": "**Definición.** Régimen de alta densidad informativa organizada mediante recursos infográficos: datos, etiquetas, diagramas, iconos, secciones, flechas, tablas, leyendas o estructuras de comparación. La carga es alta, pero su función es explicar o condensar información.\n\n**Diferenciación semántica.** Se diferencia de `denso` porque la densidad tiene orientación informativa explícita. Se diferencia de `saturado_intencional` porque no busca exceso expresivo, sino concentración de contenido legible.\n\n**Interpretación mínima.** La IA debe entender que la pieza puede contener mucha información, pero debe estar organizada para consulta o aprendizaje."
+}

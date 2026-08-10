@@ -1,0 +1,12 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad",
+    "label": "autoridad",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_comparecencia_performativa-comparecencia_performativa-autoridad",
+    "summary": "Grado de autoridad expresiva con que comparece la voz.",
+    "value_type": "Categorial ordinal",
+    "cardinality": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+    "label": "comprension_por_recorrido_visual",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada-comprension_por_recorrido_visual-comprension_por_recorrido_visual",
+    "summary": "**Definición.** Valor que indica que el sentido de la pieza se completa siguiendo una ruta interna de lectura visual. La comprensión no ocurre en un solo golpe perceptivo, sino al recorrer zonas, relaciones, flechas, niveles, columnas, pasos, contrastes o grupos de información.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "value_of": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-regimen_de_resolucion_buscada",
+      "definition_source": "verbatim_section_body"
+    }
+  }
+}

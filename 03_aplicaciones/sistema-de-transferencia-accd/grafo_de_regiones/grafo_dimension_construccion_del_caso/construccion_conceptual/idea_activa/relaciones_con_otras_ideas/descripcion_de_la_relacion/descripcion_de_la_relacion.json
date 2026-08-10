@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion",
+    "label": "descripcion_de_la_relacion",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-relaciones_con_otras_ideas-descripcion_de_la_relacion",
+    "summary": "Componente que explicita la forma concreta en que se establece la relación.",
+    "metadata": {
+      "value_type": "Descriptivo controlado",
+      "declared_inside": "relaciones_con_otras_ideas"
+    }
+  }
+}

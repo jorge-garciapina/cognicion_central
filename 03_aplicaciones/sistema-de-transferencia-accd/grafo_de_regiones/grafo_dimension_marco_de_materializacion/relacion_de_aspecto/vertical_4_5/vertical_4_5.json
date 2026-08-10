@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-vertical_4_5-vertical_4_5",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-vertical_4_5-vertical_4_5",
+    "label": "vertical_4_5",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto-vertical_4_5-vertical_4_5",
+    "summary": "**Definición.** Proporción vertical moderada, frecuente en feed móvil. Ofrece más altura que el cuadrado sin llegar a formato historia, permitiendo título, foco y soporte en una misma pieza.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-relacion_de_aspecto"
+    }
+  }
+}

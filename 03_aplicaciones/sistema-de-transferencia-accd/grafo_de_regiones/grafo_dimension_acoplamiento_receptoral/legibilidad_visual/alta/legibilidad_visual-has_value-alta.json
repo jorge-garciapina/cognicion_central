@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-legibilidad_visual-alta-alta",
+    "type": "has_value",
+    "rationale": "alta es un valor nuevo de legibilidad_visual incorporado para la realización imagen."
+  }
+}

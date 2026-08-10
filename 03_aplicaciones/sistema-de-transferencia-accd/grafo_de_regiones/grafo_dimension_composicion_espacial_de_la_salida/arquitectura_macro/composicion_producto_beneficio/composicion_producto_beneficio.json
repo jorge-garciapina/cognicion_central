@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_producto_beneficio-composicion_producto_beneficio",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_producto_beneficio-composicion_producto_beneficio",
+    "label": "composicion_producto_beneficio",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-composicion_producto_beneficio-composicion_producto_beneficio",
+    "summary": "**Definición.** Arquitectura que relaciona un producto, servicio u objeto con el valor que promete. Debe hacer visible la conexión entre lo mostrado y el beneficio, evitando que producto y promesa parezcan elementos desconectados.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

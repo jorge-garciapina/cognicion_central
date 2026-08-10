@@ -1,0 +1,288 @@
+PROCESO NORMATIVO DE CONSTRUCCIÓN CONCEPTUAL
+(Trayectoria de Existencia: potencialidad → existencia operativa → transformación)
+
+Este texto describe, de forma autónoma, el proceso conceptual en el que se está trabajando: construir un concepto operativo llamado “Trayectoria de Existencia” (nombre de trabajo), entendido como un modelo estructural que describe cómo una potencialidad se convierte en una existencia operativa y recorre fases hasta su transformación o término.
+
+El diseño de este proceso se apoya en el “Marco Normativo de Construcción Conceptual (Metadefinición)”, que fija condiciones de validez, coherencia y transferibilidad para que una definición pueda operar como nodo en un grafo conceptual. El marco es normativo y no descriptivo: no impone ontologías de dominio; impone requisitos de construcción y evaluación.
+
+───────────────────────────────────────────────────────────────────────────────
+1. Propósito del proceso
+───────────────────────────────────────────────────────────────────────────────
+
+1.1. Objetivo
+Construir una unidad conceptual (nodo) que permita describir, comparar y analizar trayectorias de existencia (plantas, animales, insectos, humanos, estrellas, proyectos, organizaciones) sin depender de ejemplos aislados ni de intuiciones tácitas.
+
+1.2. Resultado esperado
+Un concepto con identidad mínima y estructura explícita, capaz de:
+- Delimitar qué fenómeno aborda.
+- Declarar invariantes (lo que debe conservarse para seguir siendo el mismo concepto).
+- Declarar dominio de variación (lo que puede cambiar sin destruir identidad).
+- Declarar relaciones con otros conceptos (por ejemplo: contorno, forma, estructura, firma; similitud estructural; transferencia estructural).
+- Definir criterios de aplicación correcta y criterios de falsación (cuándo no aplica o cuándo falla).
+
+1.3. Restricción normativa
+Este proceso no “explica la realidad” por sí mismo. Establece un modo legítimo de construir la explicación, de modo que sea inspeccionable, reutilizable y componible en un grafo.
+
+───────────────────────────────────────────────────────────────────────────────
+2. Principio estructural central
+───────────────────────────────────────────────────────────────────────────────
+
+La Trayectoria de Existencia se formula como una secuencia de cambios de régimen.
+Cada fase no se define por “tiempo” (días, años), sino por:
+- El estado interno de la entidad (qué subestructuras dominan y cómo se integran).
+- La relación con el exterior (lo que queda fuera del contorno y cómo se intercambia).
+- El umbral (condición necesaria para transitar a la fase siguiente).
+
+La entidad se entiende como una existencia operativa: un sistema con contorno funcional, forma interna, estructura de coordinación y una firma observable.
+
+───────────────────────────────────────────────────────────────────────────────
+3. Vocabulario mínimo de construcción (núcleo de análisis)
+───────────────────────────────────────────────────────────────────────────────
+
+3.1. Contorno
+El recorte que establece interior y exterior: qué pertenece a la entidad y qué no.
+
+3.2. Forma
+Inventario organizado de subestructuras (partes, módulos, niveles internos).
+
+3.3. Estructura
+Relaciones y restricciones entre subestructuras que hacen que la entidad opere como un todo.
+
+3.4. Firma
+Patrón observable que deja la operación de la entidad: cómo se reconoce su fase y su estabilidad.
+
+3.5. Subestructura
+Conjunto relativamente estable de partes y relaciones que cumple un rol interno específico.
+Ejemplos por dominio:
+- Organismos: órganos y sistemas.
+- Organizaciones: departamentos y procesos institucionalizados.
+- Sistemas técnicos: módulos y subsistemas.
+- Estrellas: regiones y capas funcionales.
+
+───────────────────────────────────────────────────────────────────────────────
+4. Familias funcionales de subestructuras (criterio transversal)
+───────────────────────────────────────────────────────────────────────────────
+
+Para clasificar subestructuras sin depender del dominio, se usa la función sistémica dominante:
+
+A) Contención y frontera: proteger, delimitar.
+B) Interfaz e intercambio: captar recursos, expulsar residuos, comunicar.
+C) Conversión: transformar insumos en energía, estructura o valor.
+D) Distribución y transporte: mover recursos internamente.
+E) Almacenamiento y reservas: amortiguar variación externa.
+F) Control y coordinación: regular, priorizar, decidir, sincronizar.
+G) Reparación y mantenimiento: sostener integridad, compensar desgaste.
+H) Generatividad: producir nuevas unidades o expandirse (reproducción, replicación, producción).
+I) Transferencia y legado: dejar remanentes, huellas o productos duraderos para el sistema mayor.
+
+Estas familias permiten describir una planta, una empresa o una estrella usando la misma gramática funcional.
+
+───────────────────────────────────────────────────────────────────────────────
+5. Las siete fases de la Trayectoria de Existencia
+───────────────────────────────────────────────────────────────────────────────
+
+Las fases se nombran para representar el tránsito potencialidad → existencia operativa:
+
+1) Potencial Configurado
+2) Activación Inicial
+3) Construcción de Soporte
+4) Integración Funcional
+5) Plenitud Operativa
+6) Límite Interno
+7) Transformación y Legado
+
+En cada fase se describen tres aspectos obligatorios:
+- Estado de la entidad.
+- Relación con el exterior (lo que está fuera del contorno).
+- Umbral hacia la siguiente fase.
+
+Y dos aspectos recomendados (para inspección y verificación):
+- Riesgo dominante.
+- Firma observable.
+
+───────────────────────────────────────────────────────────────────────────────
+5.1. Fase 1: Potencial Configurado
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Existe como potencialidad organizada: hay configuración interna y dirección de despliegue, pero no hay régimen operativo sostenido.
+- Subestructuras dominantes: contención y frontera (mínima), programa o plantilla, reservas.
+
+Relación con el exterior:
+- Dependencia extrema: el exterior determina la supervivencia del potencial.
+- La entidad no selecciona activamente; solo conserva o pierde.
+
+Umbral hacia la fase 2:
+- Activación: inicio de un proceso interno sostenido (metabólico, organizativo o físico) que consume recursos y produce organización.
+
+Riesgo dominante:
+- Pérdida del potencial antes de activarse.
+
+Firma observable:
+- Estabilidad aparente con fragilidad alta.
+
+───────────────────────────────────────────────────────────────────────────────
+5.2. Fase 2: Activación Inicial
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Se enciende un régimen interno. Surge un contorno operativo mínimo.
+- Subestructuras dominantes: motor de activación, interfaces primarias, regulación mínima.
+
+Relación con el exterior:
+- Intercambio desigual pero ya selectivo: capta, rechaza y responde de forma incipiente.
+
+Umbral hacia la fase 3:
+- Autosostenimiento mínimo: capacidad de sostener la operación sin colapsar ante variación moderada del exterior.
+
+Riesgo dominante:
+- Colapso temprano por insuficiencia de soporte.
+
+Firma observable:
+- Alta sensibilidad; fallos tempranos frecuentes.
+
+───────────────────────────────────────────────────────────────────────────────
+5.3. Fase 3: Construcción de Soporte
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Prioriza construir infraestructura: crece forma interna y capacidades.
+- Subestructuras dominantes: interfaz e intercambio, conversión, transporte, reservas.
+
+Relación con el exterior:
+- Captación intensiva y competencia por recursos.
+- El exterior es fuente y amenaza a la vez.
+
+Umbral hacia la fase 4:
+- Diferenciación integrada: especialización de roles y coordinación estable entre subestructuras.
+
+Riesgo dominante:
+- Forma sin estructura: expansión sin integración.
+
+Firma observable:
+- Crecimiento visible con ineficiencias y descoordinación.
+
+───────────────────────────────────────────────────────────────────────────────
+5.4. Fase 4: Integración Funcional
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Se estabiliza la estructura interna: roles claros, dependencias, restricciones y coordinación robusta.
+- Subestructuras dominantes: diferenciación especializada, control y coordinación, reglas internas.
+
+Relación con el exterior:
+- El exterior opera como campo de prueba: perturbaciones, competencia, estrés, variación.
+- La entidad debe conservar identidad bajo presión.
+
+Umbral hacia la fase 5:
+- Competencia plena del tipo: capacidad completa y eficiente según su naturaleza (función adulta, operación madura).
+
+Riesgo dominante:
+- Diferenciación no integrada: especialización que fragmenta.
+
+Firma observable:
+- Disminución de caos; patrón estable de operación.
+
+───────────────────────────────────────────────────────────────────────────────
+5.5. Fase 5: Plenitud Operativa
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Opera en régimen pleno: estabilidad, eficiencia, rendimiento sostenido.
+- Subestructuras dominantes: control maduro, optimización de intercambio, generatividad (según dominio).
+
+Relación con el exterior:
+- Interacción estratégica: selección, administración de riesgos, desempeño robusto.
+- El exterior es escenario de operación, no solo amenaza.
+
+Umbral hacia la fase 6:
+- Aparición dominante de límites internos: el costo de mantenimiento comienza a superar el beneficio marginal de expansión o rendimiento.
+
+Riesgo dominante:
+- Confundir estabilidad con ausencia de finitud.
+
+Firma observable:
+- Resultados consistentes; resiliencia alta.
+
+───────────────────────────────────────────────────────────────────────────────
+5.6. Fase 6: Límite Interno
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Aumenta el costo de sostener estructura y forma; disminuye resiliencia.
+- Subestructuras dominantes: reparación y mantenimiento, control defensivo, compensación.
+
+Relación con el exterior:
+- Dependencia creciente de condiciones favorables.
+- Perturbaciones pequeñas generan impactos mayores.
+
+Umbral hacia la fase 7:
+- Pérdida irreversible del régimen: colapso, disolución o transición a otro tipo de existencia o remanente.
+
+Riesgo dominante:
+- Fragilidad por acumulación de irreversibilidades.
+
+Firma observable:
+- Recuperación lenta; fallas más frecuentes; rigidez adaptativa.
+
+───────────────────────────────────────────────────────────────────────────────
+5.7. Fase 7: Transformación y Legado
+───────────────────────────────────────────────────────────────────────────────
+Estado de la entidad:
+- Se rompe el contorno operativo previo: deja de existir como el mismo tipo de entidad.
+- Subestructuras dominantes: canales de transferencia, remanentes, huellas duraderas.
+
+Relación con el exterior:
+- El exterior reabsorbe o hereda: la entidad pasa a ser componente del sistema mayor.
+- La entidad ya no regula; es integrada y transformada.
+
+Umbral posterior (mirada del sistema mayor):
+- El legado se vuelve condición inicial para nuevas existencias: semillas, aprendizaje, materia, protocolos, cultura, elementos.
+
+Riesgo dominante:
+- No aplica a la unidad ya terminada; aplica al sistema mayor (legado desordenado o tóxico).
+
+Firma observable:
+- Desaparición de la firma funcional anterior; persistencia de efectos transferidos.
+
+───────────────────────────────────────────────────────────────────────────────
+6. Relación con otras estructuras (similitud y transferencia)
+───────────────────────────────────────────────────────────────────────────────
+
+Este proceso puede conectarse con otras plantillas (por ejemplo, monomito o procesos de transformación) mediante:
+
+6.1. Similitud estructural
+Dos marcos comparten organización si preservan relaciones y roles entre fases, aunque difieran en contenido.
+
+6.2. Transferencia estructural
+Se usa un marco para diagnosticar o construir otro: se transporta el esqueleto relacional, no las historias.
+
+Criterio de validez:
+La transferencia es válida si aumenta capacidad operativa (diagnóstico, predicción, generación) sin introducir elementos inexistentes en el dominio destino.
+
+───────────────────────────────────────────────────────────────────────────────
+7. Criterios normativos de validez (aplicación del marco normativo)
+───────────────────────────────────────────────────────────────────────────────
+
+Para que la Trayectoria de Existencia sea un nodo válido en un grafo conceptual, debe cumplir:
+
+A) Identidad mínima: delimitar fenómeno y alcance.
+B) Coherencia interna: no contradicción entre fases, umbrales y firmas.
+C) Invariantes explícitas: qué debe conservarse para que siga siendo el mismo concepto.
+D) Dominio de variación: qué puede cambiar sin destruir identidad.
+E) Relaciones explícitas: cómo se conecta con contorno, forma, estructura, firma, y con otras unidades conceptuales.
+F) Criterios de aplicación correcta: cómo decidir si un caso está en una fase.
+G) Transferibilidad: que agentes humanos o artificiales puedan reconstruir el mismo concepto sin depender del contexto local del autor.
+H) Composabilidad: que pueda integrarse en grafos mayores sin perder significado.
+
+───────────────────────────────────────────────────────────────────────────────
+8. Plantilla mínima de nodo (para materializar en grafo)
+───────────────────────────────────────────────────────────────────────────────
+
+Nombre:
+Definición operativa:
+Contorno (qué incluye / qué excluye):
+Invariantes:
+Dominio de variación:
+Fases (con estado, exterior, umbral, firma):
+Familias de subestructuras dominantes por fase:
+Relaciones con otros nodos:
+Criterios de aplicación correcta:
+Criterios de falsación o no aplicabilidad:
+Notas de transferencia estructural (si aplica):
+
+Fin del documento.

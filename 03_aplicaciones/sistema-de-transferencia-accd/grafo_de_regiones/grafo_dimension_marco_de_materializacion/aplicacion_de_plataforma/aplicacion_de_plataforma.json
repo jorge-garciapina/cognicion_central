@@ -1,0 +1,18 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+    "label": "aplicacion_de_plataforma",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma",
+    "summary": "Describir la aplicación específica del entorno de plataforma dentro de la cual la salida debe ser realizable.",
+    "metadata": {
+      "section": "10.3",
+      "tipo_de_valor": "Categorial cerrado.",
+      "cardinalidad": "Un valor obligatorio.",
+      "espacio_de_valores": [
+        "video_tiktok"
+      ]
+    }
+  }
+}

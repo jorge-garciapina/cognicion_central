@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+    "label": "prioridad_de_intencion",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-prioridad_de_intencion",
+    "summary": "Campo que indica la jerarquía relativa de esta realización dentro del sistema de configuración.",
+    "metadata": {
+      "section": "3.3",
+      "value_type": "Ordinal",
+      "cardinality": "Un valor obligatorio"
+    }
+  }
+}

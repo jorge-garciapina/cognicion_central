@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-jerarquia_visual_global",
+  "content": "**Definición.** Campo que define cómo se ordena la importancia relativa de los elementos en el lienzo completo. A diferencia de una jerarquía local, establece qué debe verse primero, qué sostiene, qué complementa y qué cierra la lectura visual."
+}

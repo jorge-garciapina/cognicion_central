@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir",
+    "label": "distribuir",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_orientacion_funcional_pragmatica-funcion_dominante-distribuir-distribuir",
+    "summary": "Valor distribuir declarado para el campo funcion_dominante.",
+    "metadata": {
+      "value_of": "funcion_dominante",
+      "source_section": "4.1"
+    }
+  }
+}

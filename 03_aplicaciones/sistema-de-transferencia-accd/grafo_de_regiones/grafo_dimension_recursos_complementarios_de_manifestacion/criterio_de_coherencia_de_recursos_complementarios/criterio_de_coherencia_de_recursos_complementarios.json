@@ -1,0 +1,19 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+    "label": "criterio_de_coherencia_de_recursos_complementarios",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-criterio_de_coherencia_de_recursos_complementarios",
+    "summary": "Indicar el principio general que debe guiar la coherencia entre los recursos complementarios y el contenido principal del guión.",
+    "metadata": {
+      "section": "12.8",
+      "value_type": "Categorial cerrado",
+      "cardinality": "Un valor obligatorio",
+      "raw_restrictions": [
+        "Debe ser coherente con la función predominante de los recursos complementarios.",
+        "Debe poder sostenerse de manera consistente a lo largo de la pieza."
+      ]
+    }
+  }
+}

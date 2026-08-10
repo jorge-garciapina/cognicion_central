@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-publico_objetivo_inmediato-personas_en_scroll_rapido-personas_en_scroll_rapido",
+  "content": "**Definición.** Receptor situado en una dinámica de navegación veloz, con baja disposición inicial para detenerse y alta exposición a estímulos competidores. No describe edad, profesión o interés, sino una condición de recepción fragmentada y acelerada.\n\n**Diferenciación semántica.** Se diferencia de `atencion_no_abierta` porque especifica el contexto conductual del receptor: desplazamiento continuo en interfaces de contenido. Se diferencia de `personas_sin_conocimiento_previo` porque el problema no es falta de conocimiento, sino velocidad y baja pausa.\n\n**Interpretación mínima.** La IA debe entender que este receptor necesita señales rápidas, jerarquía evidente y un punto de entrada fuerte."
+}

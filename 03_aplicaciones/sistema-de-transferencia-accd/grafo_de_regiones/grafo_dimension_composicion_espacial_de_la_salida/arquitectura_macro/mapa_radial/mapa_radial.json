@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-mapa_radial-mapa_radial",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-mapa_radial-mapa_radial",
+    "label": "mapa_radial",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-mapa_radial-mapa_radial",
+    "summary": "**Definición.** Arquitectura con un centro y elementos distribuidos alrededor. Es adecuada para mostrar atributos, consecuencias, categorías o extensiones de una idea central. Se diferencia de foco central con soportes porque enfatiza distribución circular o radial de relaciones.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

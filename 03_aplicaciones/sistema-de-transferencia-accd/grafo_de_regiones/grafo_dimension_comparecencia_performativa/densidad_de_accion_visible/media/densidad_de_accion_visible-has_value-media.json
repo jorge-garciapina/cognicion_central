@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-has_value-grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media",
+    "from": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible",
+    "to": "grafo_de_regiones-grafo_dimension_comparecencia_performativa-densidad_de_accion_visible-media-media",
+    "type": "has_value",
+    "rationale": "media es un valor declarado para el campo densidad_de_accion_visible."
+  }
+}

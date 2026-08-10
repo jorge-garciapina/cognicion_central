@@ -1,0 +1,13 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria",
+    "label": "complementaria",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-construccion_conceptual-idea_activa-rol_conceptual-complementaria-complementaria",
+    "summary": "Valor complementaria declarado para el campo rol_conceptual.",
+    "metadata": {
+      "value_of": "rol_conceptual"
+    }
+  }
+}

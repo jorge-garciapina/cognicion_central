@@ -1,0 +1,14 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente",
+    "label": "distribuido_selectivamente",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-regimen_de_distribucion_de_recursos_complementarios-distribuido_selectivamente-distribuido_selectivamente",
+    "summary": "Valor distribuido_selectivamente declarado para el campo regimen_de_distribucion_de_recursos_complementarios.",
+    "metadata": {
+      "value_of": "regimen_de_distribucion_de_recursos_complementarios",
+      "source_section": "12.7"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_document_cover-linkedin_document_cover",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_document_cover-linkedin_document_cover",
+    "label": "linkedin_document_cover",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma-linkedin_document_cover-linkedin_document_cover",
+    "summary": "**Definición.** Aplicación como portada de documento en LinkedIn. Su función es abrir lectura o descarga, por lo que debe comunicar tema, valor y credibilidad antes de que el usuario avance.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_marco_de_materializacion-aplicacion_de_plataforma"
+    }
+  }
+}

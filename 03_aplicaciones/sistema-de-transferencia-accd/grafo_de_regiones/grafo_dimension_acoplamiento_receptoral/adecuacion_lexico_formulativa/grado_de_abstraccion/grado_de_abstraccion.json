@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion",
+    "label": "grado_de_abstraccion",
+    "type": "internal_field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-adecuacion_lexico_formulativa-grado_de_abstraccion",
+    "summary": "Eje interno que describe el grado de abstracción de la formulación.",
+    "metadata": {
+      "section": "6.2.3",
+      "value_type": "Categorial ordinal",
+      "cardinality": "Eje obligatorio dentro de adecuacion_lexico_formulativa"
+    }
+  }
+}

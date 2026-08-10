@@ -1,0 +1,11 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion",
+    "label": "justificacion",
+    "type": "external_reference_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_escala_temporal_y_resolucion_realizativa-referencias_externas-justificacion",
+    "summary": "Referencia externa requerida cuando una pieza única usa resolución diferida.",
+    "definition_ref_status": "referencia_mencionada_no_definida_como_campo"
+  }
+}

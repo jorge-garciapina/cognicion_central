@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios",
+    "label": "elementos_visuales_obligatorios",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_recursos_complementarios_de_manifestacion-elementos_visuales_obligatorios",
+    "summary": "**Definición.** Campo que enumera elementos que deben aparecer para que la pieza conserve su identidad mínima. No define composición por sí mismo; fija requisitos de presencia material o semántica.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true
+    }
+  }
+}

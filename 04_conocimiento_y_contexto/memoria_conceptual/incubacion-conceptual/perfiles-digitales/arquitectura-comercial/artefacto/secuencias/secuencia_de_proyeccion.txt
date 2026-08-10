@@ -1,0 +1,214 @@
+https://chatgpt.com/g/g-p-6982824b09dc8191931cbd751ea6bba8-teoria-de-maquinas-cognitivas/c/69d4339d-eef0-83e8-bfce-0a13e8a85780
+
+{"address":"graph/node/ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Secuencia-de-Proyeccion",
+  "label":"ACCD — Secuencia de proyección",
+  "type":"bridge_node",
+  "definition_ref":"def/ACCD-Secuencia-de-Proyeccion",
+  "summary":"Secuencia global canónica que modela el paso desde un origen estructural preservable hasta una manifestación material concreta, impidiendo el salto directo del núcleo a la pieza visible."
+}}
+
+{"address":"def/ACCD-Secuencia-de-Proyeccion","content":"[
+================================================================================
+DEFINICIÓN — ACCD — SECUENCIA DE PROYECCIÓN
+================================================================================
+
+0) Intención de la unidad
+
+ACCD-Secuencia-de-Proyeccion se introduce para fijar, como unidad de grafo
+autónoma, la trayectoria mínima por la cual una estructura preservable del
+sistema llega a manifestarse como salida material concreta.
+
+Su función no es redefinir cada componente ya existente del paquete, sino
+organizar su acoplamiento secuencial dentro de una lectura fuerte de proyección.
+
+Esta unidad debe existir porque evita un error recurrente:
+creer que la pieza visible nace directamente del núcleo o de la intención, sin
+caso compuesto ni traducción adaptativa.
+
+--------------------------------------------------------------------------------
+
+1) Fórmula canónica
+
+La secuencia de proyección se lee, en su forma mínima operable, así:
+
+ACCD-Entidad-Comercializada / ACCD-Nucleo-Identitario
+→ ACCD-Caso-de-Proyeccion-Contextual
+→ ACCD-Adaptador
+→ ACCD-Manifestacion-Material
+
+Nota de modelado:
+el documento de secuencia admite que el primer lugar estructural también pueda
+ser enfatizado como fuente. En el presente subgrafo se usan como anclajes
+explícitos los nodos actualmente fijados en 0-componentes:
+- ACCD-Entidad-Comercializada
+- ACCD-Nucleo-Identitario
+
+--------------------------------------------------------------------------------
+
+2) Definición central
+
+Secuencia de proyección =
+trayectoria estructural por la cual una entidad preservable y su centro
+identitario no bajan directamente a una pieza, sino que primero:
+- se articulan como caso contextual,
+- se vuelven traducibles mediante un adaptador,
+- y solo entonces comparecen como manifestación material.
+
+Dicho de otro modo:
+
+la secuencia no nombra una cronología superficial de producción,
+sino una regla arquitectónica de no-colapso entre:
+- identidad,
+- composición,
+- traducción,
+- y salida material.
+
+--------------------------------------------------------------------------------
+
+3) Qué fenómeno o función delimita
+
+Esta secuencia delimita el problema de:
+
+- cómo una entidad sigue siendo reconocible al proyectarse;
+- cómo el núcleo no colapsa en improvisación;
+- cómo la salida visible depende de una composición previa;
+- y cómo el adaptador funciona como mediación real entre estructura y pieza.
+
+No delimita:
+
+- la recepción de la pieza,
+- la validación posterior,
+- la convertibilidad económica,
+- ni el retorno de evidencia.
+
+Delimita un tramo anterior:
+el pasaje desde origen estructural a manifestación material.
+
+--------------------------------------------------------------------------------
+
+4) Lectura fuerte de la secuencia
+
+La secuencia de proyección no dice simplemente:
+“hay una idea y luego sale una pieza”.
+
+Dice algo más fuerte:
+
+- existe una entidad estructural que debe preservarse;
+- esa entidad porta un núcleo identitario que no puede diluirse;
+- ese origen debe entrar a una composición contextual explícita;
+- dicha composición requiere traducción adaptativa;
+- y solo después puede emitirse una manifestación material.
+
+Por eso, esta secuencia funciona como regla contra la improvisación directa.
+
+Si una propuesta salta desde:
+“núcleo”
+a
+“reel”
+sin declarar caso, restricciones, heurísticas y traducción,
+entonces está suprimiendo el mecanismo real de proyección.
+
+--------------------------------------------------------------------------------
+
+5) Regla de no-colapso
+
+Dentro de esta secuencia no deben confundirse:
+
+- entidad con núcleo;
+- núcleo con caso;
+- caso con pieza;
+- adaptador con manifestación;
+- manifestación material con arquitectura total.
+
+La secuencia existe justamente para volver visibles esas diferencias.
+
+--------------------------------------------------------------------------------
+
+6) Superficie de integración
+
+Esta unidad se integra al paquete ACCD como una de las secuencias globales
+canónicas y toca de forma inmediata los siguientes componentes:
+
+- ACCD-Entidad-Comercializada
+- ACCD-Nucleo-Identitario
+- ACCD-Caso-de-Proyeccion-Contextual
+- ACCD-Adaptador
+- ACCD-Manifestacion-Material
+
+Además, prepara el punto de acoplamiento con otras secuencias:
+- recepción, porque la manifestación material puede empezar a comparecer;
+- retorno, porque la manifestación material también puede dejar huella.
+
+--------------------------------------------------------------------------------
+
+7) Validación mínima
+
+La secuencia se considera correctamente aplicada cuando permite mostrar que:
+
+1. existe algo estructuralmente preservable antes de la pieza;
+2. ese algo no baja directo a formato;
+3. hay un caso de proyección contextual explícito;
+4. hay mediación adaptativa real;
+5. la salida material aparece como terminal del tramo de proyección,
+   no como origen autosuficiente.
+
+Una mala aplicación se detecta cuando:
+- la pieza sustituye al caso;
+- el adaptador desaparece;
+- el núcleo queda tratado como tema superficial;
+- o la manifestación material se presenta como si agotara la arquitectura.
+
+--------------------------------------------------------------------------------
+
+8) Fórmula de cierre
+
+ACCD-Secuencia-de-Proyeccion =
+origen estructural preservable
++
+composición contextual
++
+traducción adaptativa
++
+manifestación material concreta
+]"} 
+
+{"address":"graph/edge/ACCD-Entidad-Comercializada-refines-ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Entidad-Comercializada-refines-ACCD-Secuencia-de-Proyeccion",
+  "from":"ACCD-Entidad-Comercializada",
+  "to":"ACCD-Secuencia-de-Proyeccion",
+  "type":"refines",
+  "rationale":"La entidad comercializada refina la secuencia al hacer explícito uno de los soportes estructurales que ocupan el lugar inicial de la proyección: aquello que debe seguir siendo reconocible a través de la salida."
+}}
+
+{"address":"graph/edge/ACCD-Nucleo-Identitario-refines-ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Nucleo-Identitario-refines-ACCD-Secuencia-de-Proyeccion",
+  "from":"ACCD-Nucleo-Identitario",
+  "to":"ACCD-Secuencia-de-Proyeccion",
+  "type":"refines",
+  "rationale":"El núcleo identitario refina la secuencia al precisar el centro estructural profundo que entra al tramo de proyección como patrón de preservación y coherencia."
+}}
+
+{"address":"graph/edge/ACCD-Caso-de-Proyeccion-Contextual-refines-ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Caso-de-Proyeccion-Contextual-refines-ACCD-Secuencia-de-Proyeccion",
+  "from":"ACCD-Caso-de-Proyeccion-Contextual",
+  "to":"ACCD-Secuencia-de-Proyeccion",
+  "type":"refines",
+  "rationale":"El caso de proyección contextual refina la secuencia al fijar la unidad compuesta por la cual el origen estructural se vuelve proyectable, diagnosticable y traducible."
+}}
+
+{"address":"graph/edge/ACCD-Adaptador-refines-ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Adaptador-refines-ACCD-Secuencia-de-Proyeccion",
+  "from":"ACCD-Adaptador",
+  "to":"ACCD-Secuencia-de-Proyeccion",
+  "type":"refines",
+  "rationale":"El adaptador refina la secuencia al explicitar la mediación que convierte una composición estructural en una salida realizable sin colapsar la arquitectura en formato superficial."
+}}
+
+{"address":"graph/edge/ACCD-Manifestacion-Material-refines-ACCD-Secuencia-de-Proyeccion","content":{
+  "id":"ACCD-Manifestacion-Material-refines-ACCD-Secuencia-de-Proyeccion",
+  "from":"ACCD-Manifestacion-Material",
+  "to":"ACCD-Secuencia-de-Proyeccion",
+  "type":"refines",
+  "rationale":"La manifestación material refina la secuencia al fijar su terminal visible: la salida concreta emitida después de la composición contextual y de la traducción adaptativa."
+}}

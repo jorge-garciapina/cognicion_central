@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+    "label": "titulo_cuerpo_sello",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-titulo_cuerpo_sello-titulo_cuerpo_sello",
+    "summary": "**Definición.** Arquitectura que organiza la imagen en tres niveles: entrada verbal principal, desarrollo o cuerpo informativo y cierre identitario o conclusivo. Es útil cuando la pieza debe leerse como mensaje completo con firma, marca, conclusión o validación final.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

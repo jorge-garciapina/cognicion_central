@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-diagrama_conclusion-diagrama_conclusion",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-diagrama_conclusion-diagrama_conclusion",
+    "label": "diagrama_conclusion",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro-diagrama_conclusion-diagrama_conclusion",
+    "summary": "**Definición.** Arquitectura donde un esquema, mapa o diagrama conduce a una conclusión explícita. A diferencia de un diagrama abierto, aquí la composición debe orientar hacia una lectura final o aprendizaje principal.",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_composicion_espacial_de_la_salida-arquitectura_macro"
+    }
+  }
+}

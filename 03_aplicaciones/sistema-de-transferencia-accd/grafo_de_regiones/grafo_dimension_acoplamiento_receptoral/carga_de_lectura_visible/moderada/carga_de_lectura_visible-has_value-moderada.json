@@ -1,0 +1,10 @@
+{
+  "address": "graph/edge/grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-has_value-grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+    "from": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible",
+    "to": "grafo_de_regiones-grafo_dimension_acoplamiento_receptoral-carga_de_lectura_visible-moderada-moderada",
+    "type": "has_value",
+    "rationale": "moderada es un valor nuevo de carga_de_lectura_visible incorporado para la realización imagen."
+  }
+}

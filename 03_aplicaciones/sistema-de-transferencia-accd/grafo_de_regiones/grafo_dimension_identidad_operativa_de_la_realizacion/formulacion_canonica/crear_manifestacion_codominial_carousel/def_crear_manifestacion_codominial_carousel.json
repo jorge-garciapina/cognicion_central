@@ -1,0 +1,4 @@
+{
+  "address": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica-crear_manifestacion_codominial_carousel-crear_manifestacion_codominial_carousel",
+  "content": "Valor que define la intención operativa de producir una salida final perteneciente al codominio `carousel`.\n\nNo describe todavía la plataforma, la cantidad de láminas ni el contenido concreto. Su función es fijar que la realización esperada debe terminar en una **manifestación codominial carousel**, es decir, en una pieza ya construida según el protocolo correspondiente.\n\nEjemplo de uso:\n\n```txt\nformulacion_canonica: crear_manifestacion_codominial_carousel\n```\n\nSirve cuando se quiere enfatizar que el resultado no es una descripción del carousel, sino la salida final construida.\n\n---"
+}

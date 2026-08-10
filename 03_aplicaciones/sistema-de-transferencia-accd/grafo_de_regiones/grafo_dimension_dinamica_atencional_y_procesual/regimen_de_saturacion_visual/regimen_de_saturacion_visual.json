@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+    "label": "regimen_de_saturacion_visual",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_dinamica_atencional_y_procesual-regimen_de_saturacion_visual",
+    "summary": "**Definición del campo.** Campo que regula la cantidad y concentración de estímulos visuales dentro de una composición. No mide simplemente “mucho” o “poco”; distingue modos de carga perceptiva, densidad informativa, presencia de vacío, acumulación visual y control del ruido compositivo.",
+    "metadata": {
+      "realization": "imagen",
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-1.md",
+      "source_marker": "#nuevo",
+      "integration_mode": "new_field"
+    }
+  }
+}

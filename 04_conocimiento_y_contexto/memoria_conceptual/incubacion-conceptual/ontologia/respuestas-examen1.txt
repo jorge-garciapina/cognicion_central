@@ -1,0 +1,407 @@
+EXAMEN DE CONTROL  
+Modelado conceptual con grafos, ontología mínima y realización contextual
+
+--------------------------------------------------
+PARTE I — Nivel atómico (conceptos simples)
+--------------------------------------------------
+
+1. Lenguaje y significado
+
+a) En el caso “manzana”, el término “rojo” es:
+- Concepto
+- Propiedad
+- Contexto
+- Evidencia
+
+RESPUESTA DEL ALUMNO:
+“Rojo” es una PROPIEDAD, ya que se utiliza para describir una característica de la manzana.
+Debido a que no sólo existen manzanas rojas, “rojo” pertenece a una categoría mayor:
+características:
+- visuales: color (rojo, verde, amarillo), forma
+- gustativas: dulce, amarga
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcta la clasificación como PROPIEDAD.
+✔ Correcto identificar que “rojo” no es exclusivo de la manzana.
+✔ Muy bien introducir una jerarquía implícita de propiedades (visuales, gustativas).
+⚠ Atención: estás ampliando la ontología más allá de lo solicitado. No es incorrecto,
+pero debes distinguir claramente entre:
+   - la respuesta mínima requerida
+   - y una expansión ontológica opcional.
+⚠ “características” no estaba definida como tipo. Anota esto como posible tipo futuro,
+pero no lo des por sentado.
+
+--------------------------------------------------
+
+b) En el caso “manzana”, el término “fruta” es:
+- Concepto
+- Contexto
+- Propiedad
+- Intervención
+
+RESPUESTA DEL ALUMNO:
+“Fruta” es una categoría a la que la manzana pertenece.
+No me queda claro por qué pertenecería a alguna de las categorías dadas.
+Diría que contexto es la más cercana, pero no sé por qué.
+Falta aclarar.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcto afirmar que “fruta” es una categoría.
+✘ Incorrecto sugerir CONTEXTO.
+✘ Error de nivel: “fruta” no depende del entorno ni de condiciones externas.
+✔ La respuesta correcta es CONCEPTO.
+⚠ Muy buen gesto epistemológico: detectas que el marco no te permitió decidir con claridad.
+Esto señala una ambigüedad real del modelo, no un fallo tuyo.
+✔ Esta pregunta cumple su función: mostrar que “categoría” ≠ “contexto”.
+
+--------------------------------------------------
+--------------------------------------------------
+PARTE II — Educación (docencia)
+--------------------------------------------------
+
+2. Identificación de elementos
+
+a) “Vectores” es:
+- Concepto
+- Intervención
+- Contexto
+
+RESPUESTA DEL ALUMNO:
+“Vectores” es un CONCEPTO.
+No es intervención porque esta es una adaptación del núcleo a un contexto.
+No es contexto porque cada estudiante es un contexto distinto.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Respuesta correcta.
+✔ Excelente justificación.
+✔ Muy bien distinguir núcleo conceptual vs adaptación.
+✔ Uso correcto de “contexto” como condiciones del alumno, no como contenido.
+
+--------------------------------------------------
+
+b) “Explicación con analogías visuales” es:
+- Intención
+- Intervención
+- Evidencia
+
+RESPUESTA DEL ALUMNO:
+Es una INTERVENCIÓN.
+La intención es que los estudiantes aprendan.
+La evidencia puede ser un examen o prueba.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcta la clasificación.
+✔ Correcta la separación intención / intervención / evidencia.
+✔ Modelo limpio y consistente.
+
+--------------------------------------------------
+
+c) “Conocimientos previos del estudiante” es:
+- Contexto
+- Restricción
+- Evidencia
+
+RESPUESTA DEL ALUMNO:
+Es CONTEXTO, único para cada alumno.
+El alumno con formación sólida tiene un contexto, el que tiene dificultades tiene otro.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcto.
+✔ Muy bien entender contexto como “estado inicial del sistema”.
+⚠ Nota: en otros problemas, conocimientos previos podrían actuar como restricción,
+pero aquí tu elección es coherente.
+
+--------------------------------------------------
+
+3. Núcleo e invariantes
+
+RESPUESTA DEL ALUMNO:
+Deben permanecer invariantes:
+- El formalismo matemático.
+- La definición estructural del vector.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcto dentro de un marco académico formal.
+⚠ Observación importante: en niveles preuniversitarios, el formalismo puede relajarse
+sin romper identidad conceptual. Esto no invalida tu respuesta, pero muestra
+dependencia del dominio.
+
+--------------------------------------------------
+--------------------------------------------------
+PARTE III — Venta de seguros
+--------------------------------------------------
+
+4. Clasificación ontológica
+
+a) “Seguro de gastos médicos mayores tipo A” es:
+- Concepto
+- Contexto
+- Intervención
+
+RESPUESTA DEL ALUMNO:
+Es un CONCEPTO.
+Nota: podría verse como “núcleo invariante”.
+
+COMENTARIO DEL INSTRUCTOR:
+✔ Correcto.
+✔ Muy buena intuición: “núcleo invariante” y “concepto” se solapan aquí.
+⚠ Cuidado: no todos los conceptos son núcleos invariantes.
+✔ Pregunta muy bien planteada para discusión posterior.
+
+--------------------------------------------------
+
+b) “Miedo del cliente a endeudarse” es:
+- Contexto
+- Restricción
+- Evidencia
+
+RESPUESTA DEL ALUMNO:
+Es CONTEXTO.
+Nota: ¿qué es una restricción en este contexto?
+Ejemplo: “cliente no tiene dinero”.
+
+COMENTARIO DEL INSTRUCTOR:
+⚠ Aquí hay ambigüedad real (bien detectada).
+✔ En el marco de realización contextual: CONTEXTO es aceptable.
+✔ En el marco operativo de ventas: funciona como RESTRICCIÓN.
+✔ Tu duda es legítima: la clasificación depende del proceso que estés modelando.
+✔ Excelente observación metamodelo.
+
+--------------------------------------------------
+
+c) “Objeción: ‘nunca me enfermo’” es:
+- Contexto
+- Restricción
+- Intervención
+
+RESPUESTA DEL ALUMNO:
+Es algo característico del cliente, como el caso anterior.
+
+COMENTARIO DEL INSTRUCTOR:
+⚠ Respuesta incompleta.
+✔ Puede ser CONTEXTO (estado mental del cliente).
+✔ Pero funcionalmente actúa como RESTRICCIÓN al proceso de venta.
+✘ No es intervención.
+⚠ Aquí se ve claramente la diferencia entre “atributo del cliente” y “rol funcional
+en el proceso”.
+
+--------------------------------------------------
+PARTE IV — Fabricación (industria)
+
+Escenario:
+El mismo modelo de automóvil se fabrica en dos plantas con proveedores y logística distintos.
+
+6. Identificación estructural
+
+a) “El modelo de un automóvil” es un Concepto, tiene sus características e invariantes propios, cada planta debe apegarse a
+dicho diseño.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto en lo esencial.
+// Identificas correctamente que el “modelo del automóvil” funciona como CONCEPTO.
+// Bien detectado el papel de invariantes.
+// Falta aún distinguir explícitamente entre “concepto” y “núcleo invariante” (lo intuyes, pero los usas casi como sinónimos).
+
+b) El proveedor local de piezas es un contexto: en cada planta son distintos (los proveedores), pero eso no debe afectar el 
+producto final el cual se adapta al diseño.
+
+// COMENTARIO DEL EVALUADOR:
+// En general correcto.
+// “Proveedor local” funciona como CONTEXTO de realización.
+// Bien visto que no debe afectar la identidad del producto.
+// Ojo: el producto no “se adapta al diseño”; el proceso se adapta al diseño. Aquí hay una leve imprecisión conceptual.
+
+c) El proceso de ensamblaje específico de la planta es una restricción: sólo se permite un número limitado de modelos.
+
+// COMENTARIO DEL EVALUADOR:
+// Parcialmente correcto.
+// El proceso de ensamblaje específico puede ser CONTEXTO o INTERVENCIÓN.
+// La restricción que mencionas (número limitado de modelos) es válida, pero no agota el concepto de restricción.
+// Hay mezcla de niveles: proceso ≠ restricción en todos los casos.
+
+
+7. Invariantes
+
+Si cambian las tolerancias y especificaciones del diseño entonces se rompería la identidad del producto. El resto de las opciones 
+cambian de fábrica a fábrica.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto.
+// Identificas correctamente el núcleo identitario.
+// Buena distinción entre lo estructural y lo contingente.
+// Este es uno de los puntos más sólidos del examen.
+
+
+PARTE V — Videos y nichos (contenido digital)
+
+Escenario:
+Un creador adapta el mismo “Tema A” a videos para adolescentes y para profesionistas.
+
+
+8. Clasificación
+
+a) “Tema A” es un concepto. Aquí se hace patente, de nueva cuenta, el problema resaltado en 4. clasificación ontológica, 
+inciso a): ¿cuál es la diferencia entre “núcleo” y “concepto”?
+
+// COMENTARIO DEL EVALUADOR:
+// Muy buen punto.
+// La clasificación como CONCEPTO es aceptable.
+// La duda que planteas es legítima y profunda: aquí detectas un problema real del marco.
+// Esta pregunta no es un error, es una señal de avance conceptual.
+
+b) “Formato corto con humor rápido” es una intervención: se pueden hacer videos con formato corto y humor rápido para distintos 
+contextos.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto.
+// Identificas bien la INTERVENCIÓN como forma concreta de realización.
+// Bien visto que la intervención es reutilizable entre contextos distintos.
+
+c) Aquí sucede algo similar a lo que se menciona en la nota global de la página 10: TikTok es un contexto “hermano” de otros 
+contextos de distribución (YouTube, Instagram, Facebook, etc.); la distribución parece tener similitud metafórica con los procesos 
+mencionados en la nota global.
+
+// COMENTARIO DEL EVALUADOR:
+// Muy buen insight.
+// Correcta clasificación de TikTok como CONTEXTO.
+// Excelente intuición al identificar “contextos hermanos”.
+// La noción de “similitud metafórica” aquí apunta directamente a homomorfismo estructural, aunque aún no lo nombras formalmente.
+
+
+(Nota intermedia)
+
+Lo anterior pone en evidencia un hecho innegable:
+Es necesario hacer una distinción entre:
+
+
+Ejecución:
+- Conversación con un cliente potencial (en línea, cara a cara)
+- Clase en la que se busca enseñar (en línea, cara a cara)
+- Subida de un video (TikTok, YouTube, Instagram, etc.)
+
+En los 3 casos se pueden usar distintos medios de ejecución, pero dichos medios, aunque son ejecución, no deben confundirse con 
+los contextos de ejecución.
+
+// COMENTARIO DEL EVALUADOR:
+// Distinción muy bien planteada.
+// Aquí introduces correctamente un nuevo eje conceptual: EJECUCIÓN vs CONTEXTO.
+// Esta separación es clave y está bien argumentada.
+
+Las personas (por ejemplo: adolescentes y profesionistas) son dos contextos para el “Tema A”, pero no son contextos “hermanos” 
+de los contextos de ejecución.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto.
+// Bien diferenciados tipos de contexto: contexto de sujeto vs contexto de ejecución.
+// Esto muestra refinamiento ontológico.
+
+
+Sujeto:
+En el inciso anterior lo denominé como “persona” pero ese término limita a humanos: la fábrica de automóviles no es una “persona” 
+pero sí un sujeto (en la oración “la fábrica es grande” ¿quién es el sujeto?).
+
+// COMENTARIO DEL EVALUADOR:
+// Excelente observación lingüística y ontológica.
+// Correcta ampliación del concepto de SUJETO.
+// Este es un avance conceptual importante.
+
+Para describir el contexto de sujeto en los términos:
+- El sujeto es el destinatario de la intención
+- Una intervención es una acción concreta para traducir la estructura del núcleo al sujeto
+- Una intención es un efecto deseado en el sujeto
+
+// COMENTARIO DEL EVALUADOR:
+// Muy bien formulado.
+// Definiciones coherentes entre sí.
+// Aquí ya estás operando con un sistema conceptual propio consistente.
+
+
+9. Familia de transformaciones
+
+Una familia de transformaciones es el conjunto de puentes que llevan del núcleo a cada uno de los contextos de sujeto.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto en esencia.
+// Buen uso de “puentes” como metáfora estructural.
+// Falta aún explicitar qué se preserva exactamente (invariantes), pero la base es sólida.
+
+
+PARTE VI — Grafos y modelado
+
+10. Nodos y aristas
+
+a) El “Tema A” es el núcleo o concepto.
+
+// COMENTARIO DEL EVALUADOR:
+// Aceptable, pero ambigua.
+// Aquí reaparece la confusión núcleo ≈ concepto.
+// No es incorrecto, pero todavía no es preciso.
+
+b) La arista dirigida podría leerse como: “se traduce como” o “se adapta al nicho adolescente”; es decir, representa una 
+adaptación a un nicho particular. El “video para adolescentes” es una intervención.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto.
+// Bien identificada la arista como operación de adaptación.
+// Correcta clasificación del nodo destino como INTERVENCIÓN.
+
+c) La flecha indica una operación que convierte el “Tema A” en una intervención concreta (video para adolescentes); sin la 
+flecha “Tema A” y “video para adolescentes” serían tratados “al mismo nivel”, lo cual llevaría a confusiones.
+
+// COMENTARIO DEL EVALUADOR:
+// Correcto.
+// Muy buena intuición sobre el papel semántico de la direccionalidad.
+// Detectas correctamente que la flecha introduce asimetría y operación.
+
+// Nota para chat:
+// Quiero que explores esto en mayor detalle, no estoy satisfecho con mi respuesta ni con el entendimiento que tengo sobre 
+el significado de la flecha.
+
+PARTE VII — Ontología y Realización Contextual
+
+12. Pregunta crítica
+
+→ Respuesta del alumno:
+“Si no hay capacidad de inferencia, entonces no es posible saber qué partes del núcleo deben conservarse (invariantes) en cada intervención. Con esto basta para decir que no es posible la realización contextual sin una ontología.”
+
+[COMENTARIO]
+✔ Correcto.
+✔ Muy buena conexión entre inferencia e invariantes.
+✔ Respuesta conceptualmente sólida.
+
+→ Respuesta del alumno:
+“Sí puede existir ontología sin realización contextual. De hecho, primero es la ontología (modelado) y solo después la realización contextual es posible.”
+
+[COMENTARIO]
+✔ Correcto.
+✔ Bien jerarquizado el orden lógico.
+✔ Aquí tu modelo es consistente y claro.
+
+
+PARTE VIII — Transferencia (medicina)
+
+Clasificar:
+
+a) “Protocolo médico”
+→ Respuesta del alumno:
+“Es el núcleo invariante: el mismo aplicado a diversos pacientes.”
+
+[COMENTARIO]
+✔ Correcto.
+✔ Excelente ejemplo de núcleo conceptual.
+
+b) “Edad del paciente”
+→ Respuesta del alumno:
+“Es un contexto de sujeto.”
+
+[COMENTARIO]
+✔ Correcto.
+✔ Uso adecuado del término “sujeto”.
+
+c) “Ajuste de dosis”
+→ Respuesta del alumno:
+“Es una intervención, ya que se busca adaptar el protocolo a un sujeto.”
+
+[COMENTARIO]
+✔ Correcto.
+✔ Muy buena coherencia con definiciones previas.

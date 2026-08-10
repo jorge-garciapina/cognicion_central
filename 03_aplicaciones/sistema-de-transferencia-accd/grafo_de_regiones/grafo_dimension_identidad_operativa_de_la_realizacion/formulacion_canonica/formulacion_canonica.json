@@ -1,0 +1,15 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "label": "formulacion_canonica",
+    "type": "field_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_identidad_operativa_de_la_realizacion-formulacion_canonica",
+    "summary": "Campo que nombra de manera explícita la realización que será instanciada.",
+    "metadata": {
+      "section": "3.1",
+      "value_type": "Descriptivo controlado",
+      "cardinality": "Un valor obligatorio"
+    }
+  }
+}

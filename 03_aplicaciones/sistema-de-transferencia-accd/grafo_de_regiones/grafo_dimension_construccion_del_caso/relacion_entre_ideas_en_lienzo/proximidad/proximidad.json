@@ -1,0 +1,16 @@
+{
+  "address": "graph/node/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-proximidad-proximidad",
+  "content": {
+    "id": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-proximidad-proximidad",
+    "label": "proximidad",
+    "type": "value_node",
+    "definition_ref": "def/grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo-proximidad-proximidad",
+    "summary": "**Definición.** Relación en la que dos o más ideas se entienden como conectadas porque aparecen cerca entre sí. La cercanía sugiere pertenencia, asociación, continuidad o lectura conjunta. Es distinta de la agrupación porque puede bastar con la distancia reducida, sin necesidad de un contenedor expl",
+    "metadata": {
+      "source_document": "definiciones-solo-elementos-nuevos-imagen-parte-2.md",
+      "realization": "imagen",
+      "new_element": true,
+      "value_of": "grafo_de_regiones-grafo_dimension_construccion_del_caso-relacion_entre_ideas_en_lienzo"
+    }
+  }
+}

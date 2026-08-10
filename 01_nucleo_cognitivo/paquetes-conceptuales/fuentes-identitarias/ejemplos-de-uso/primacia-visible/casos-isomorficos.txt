@@ -1,0 +1,384 @@
+https://chatgpt.com/c/69b86ae9-d1f0-8329-9ec1-bcc49a1d9021
+
+Descripción breve
+Los casos isomórficos reunidos en este documento representan traducciones estructurales de los ejemplos originales 
+del libro hacia otros entornos, como la oficina y la política moderna. Su propósito es mostrar que la forma relacional 
+descrita por la fuente identitaria de primacía visible puede mantenerse aun cuando cambien los actores, el contexto y 
+la escena visible. En cada caso se conserva la misma lógica ontológica de fondo: la relación entre un centro que debe 
+preservar su primacía simbólica y un jugador cuya visibilidad puede reforzar esa centralidad o, por el contrario, 
+amenazarla mediante eclipsamiento relativo y autonomía simbólica excesiva.
+
+FUENTE DE PRIMACÍA VISIBLE: PATRONAZGO
+MODELADO NUMÉRICO DE CASOS ISOMÓRFICOS PARA GRÁFICA RADAR
+ESCALA NORMALIZADA: [0,1]
+
+ORDEN FIJO DE LOS EJES PARA LOS CUATRO CASOS:
+1. Retorno de gloria al centro
+2. Subordinación visible
+3. Eclipsamiento relativo
+4. Autonomía simbólica del jugador
+
+
+====================================================================
+CASO 1 — OFICINA / HOMENAJE FALLIDO AL DIRECTOR GENERAL (ISOMORFO A FOUQUET)
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+Director general de la empresa.
+
+Jugador:
+Gerente de alto rango o director de área.
+
+Escena visible principal:
+Evento corporativo, reunión estratégica o presentación de alto perfil organizada por el jugador en honor de la visión y 
+liderazgo del director general.
+
+Resultado visible del caso:
+Pérdida de confianza, marginación interna, desplazamiento de proyectos visibles o salida de la organización.
+
+Lectura mínima del tipo de caso:
+El jugador intenta reforzar su posición por medio de un homenaje visible al centro patronal, pero la escena termina siendo leída como exhibición de eficacia propia, centralidad propia y capacidad propia de atracción. El resultado final no es absorción favorable, sino sanción organizacional.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- El jugador ocupa una posición alta dentro de la empresa, pero percibe inestabilidad en su relación con el director general.
+- El jugador organiza una escena corporativa de gran visibilidad para reforzar su vínculo con el centro.
+- El dispositivo visible se presenta formalmente como alineación con la visión del director general.
+- La escena incluye elementos que hacen visible la capacidad organizativa, relacional y estratégica del jugador.
+- La audiencia interna empieza a comentar más la capacidad del jugador que la autoridad del director general.
+- La admiración visible de los asistentes se concentra en el jugador.
+- El jugador deja de aparecer sólo como subordinado y pasa a verse como polo de poder propio.
+- El centro patronal relee la escena como amenaza a su primacía visible.
+- Después de la escena, el jugador pierde protección política dentro de la organización.
+- El caso concluye con neutralización organizacional del jugador.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.20
+
+Justificación mínima:
+La escena se presenta como homenaje al director general, pero su efecto visible efectivo no devuelve la gloria al centro. La atención se desplaza hacia la figura del jugador. Se conserva un valor bajo y no nulo porque sí existe intención protocolaria de homenaje.
+
+3.2. Subordinación visible = 0.55
+
+Justificación mínima:
+La subordinación sigue presente en la superficie formal del acto: el jugador declara alineación con el director general y organiza el evento en su honor. Sin embargo, esa subordinación queda parcialmente erosionada por la forma visible del montaje, que proyecta demasiado al jugador.
+
+3.3. Eclipsamiento relativo = 0.90
+
+Justificación mínima:
+La escena produce comparación adversa para el centro. El entorno percibe al jugador como la figura más eficaz, brillante o admirable del dispositivo visible. Esa transferencia de fascinación vuelve dominante la dimensión de eclipsamiento.
+
+3.4. Autonomía simbólica del jugador = 0.85
+
+Justificación mínima:
+El jugador aparece como foco autónomo de coordinación, influencia y capacidad. Deja de ser leído como mero ejecutor y pasa a ser visto como figura con gravitación propia dentro de la organización.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.20, 0.55, 0.90, 0.85]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy bajo
+- Subordinación visible: media
+- Eclipsamiento relativo: muy alto
+- Autonomía simbólica del jugador: alta
+
+Lectura visual mínima:
+El polígono del caso debe abrirse con fuerza hacia eclipsamiento y autonomía, mantenerse intermedio en subordinación y quedar retraído en retorno de gloria al centro.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Oficina / Homenaje fallido al director general
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.20, 0.55, 0.90, 0.85]
+
+
+====================================================================
+CASO 2 — OFICINA / INNOVACIÓN REINTEGRADA AL CENTRO (ISOMORFO A GALILEO)
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+Director general, fundador o vicepresidencia principal.
+
+Jugador:
+Analista, estratega, jefe de proyecto o director técnico.
+
+Escena visible principal:
+Presentación de una innovación, mejora o hallazgo organizacional que el jugador podría capitalizar como mérito propio, pero que decide reinyectar en la grandeza visible del centro.
+
+Resultado visible del caso:
+Promoción, patrocinio, incorporación al círculo de confianza o aumento de influencia formal.
+
+Lectura mínima del tipo de caso:
+El jugador posee valor real propio, pero en vez de dejarlo actuar como brillo autónomo rival, lo presenta como confirmación de la visión del centro patronal. El caso no produce sombra, sino afirmación del centro y recompensa.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- El jugador produce una mejora, innovación o hallazgo valioso para la empresa.
+- Ese hallazgo podría haberse presentado como mérito personal del jugador.
+- El jugador decide formular públicamente el logro como realización de la visión del director general.
+- La narrativa visible del caso sitúa el mérito dentro del liderazgo del centro patronal.
+- La audiencia percibe que el director general queda confirmado como figura visionaria.
+- El jugador no aparece como rival visible del centro.
+- El mérito del jugador conserva existencia real, pero queda públicamente absorbido por la narrativa del centro.
+- El centro patronal no se siente disminuido ni comparado, sino reforzado.
+- Después de la escena, el jugador recibe protección, confianza o ascenso.
+- El caso concluye con recompensa organizacional.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.90
+
+Justificación mínima:
+El valor producido por el jugador regresa claramente al centro en forma de legitimación del liderazgo y de la visión estratégica del director general. El logro no queda disperso ni retenido en el jugador.
+
+3.2. Subordinación visible = 0.85
+
+Justificación mínima:
+El jugador se muestra como operador inteligente y valioso, pero no como foco rival. La escena sostiene una subordinación visible alta, porque el mérito se hace aparecer como servicio eficaz a la grandeza del centro.
+
+3.3. Eclipsamiento relativo = 0.15
+
+Justificación mínima:
+No se genera una comparación amenazante para el centro. Aunque el jugador conserva presencia visible, la escena no lo convierte en polo fascinante por encima del director general.
+
+3.4. Autonomía simbólica del jugador = 0.20
+
+Justificación mínima:
+La autonomía del jugador no desaparece del todo, porque el mérito es real y reconocible. Sin embargo, esa autonomía queda fuertemente contenida y absorbida por la presentación pública del caso.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.90, 0.85, 0.15, 0.20]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy alto
+- Subordinación visible: alto
+- Eclipsamiento relativo: muy bajo
+- Autonomía simbólica del jugador: bajo
+
+Lectura visual mínima:
+El polígono del caso debe expandirse hacia retorno y subordinación, y retraerse con claridad en eclipsamiento y autonomía.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Oficina / Innovación reintegrada al centro
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.90, 0.85, 0.15, 0.20]
+
+
+====================================================================
+CASO 3 — POLÍTICA MODERNA / ACTO QUE HACE SOMBRA AL LÍDER (ISOMORFO A FOUQUET)
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+Presidente, primer ministro, líder partidario o figura central del movimiento.
+
+Jugador:
+Ministro, gobernador, jefe de gabinete, alcalde visible o cuadro ascendente del partido.
+
+Escena visible principal:
+Acto masivo, lanzamiento político, convención partidaria o ceremonia pública organizada en apoyo al líder, pero cuya visibilidad termina reorientándose hacia el jugador.
+
+Resultado visible del caso:
+Remoción, marginación política, desgaste inducido o exclusión del círculo decisional.
+
+Lectura mínima del tipo de caso:
+El jugador intenta producir una escena de apoyo visible al centro patronal, pero el acto termina siendo leído como demostración de carisma propio, capacidad propia de movilización y centralidad propia. El resultado final no es absorción favorable, sino neutralización política.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- El jugador ocupa una posición importante dentro del régimen o del partido.
+- El jugador organiza o protagoniza una escena pública destinada formalmente a respaldar al líder.
+- La escena presenta gran eficacia estética, narrativa y movilizadora.
+- El entorno mediático y político comienza a comentar más la fuerza del jugador que la centralidad del líder.
+- El dispositivo visible produce comparación entre el jugador y el centro patronal.
+- La admiración pública se concentra en la figura del jugador.
+- El jugador deja de aparecer sólo como subordinado y empieza a verse como polo de legitimidad propia.
+- El centro patronal relee esta visibilidad como amenaza a su primacía.
+- Después del acto, el jugador pierde protección política.
+- El caso concluye con sanción, remoción o neutralización.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.20
+
+Justificación mínima:
+Aunque el acto está formulado como respaldo al líder, la gloria visible no regresa eficazmente al centro. La escena termina fortaleciendo comparativamente al jugador. Se conserva un valor bajo y no nulo por la existencia de un marco formal de lealtad.
+
+3.2. Subordinación visible = 0.55
+
+Justificación mínima:
+La subordinación existe en el protocolo, en el discurso y en la escenificación oficial del evento. Sin embargo, se ve debilitada por la fuerza con la que el jugador aparece como figura política propia dentro del acto.
+
+3.3. Eclipsamiento relativo = 0.90
+
+Justificación mínima:
+La escena instala al jugador como punto principal de fascinación pública o mediática. El líder queda expuesto a comparación adversa. Esa es la dimensión dominante del caso.
+
+3.4. Autonomía simbólica del jugador = 0.85
+
+Justificación mínima:
+El jugador aparece con densidad política propia: convocatoria, energía, legitimidad y proyección. Ya no se lo lee sólo como derivado del centro, sino como figura con posible gravitación independiente.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.20, 0.55, 0.90, 0.85]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy bajo
+- Subordinación visible: media
+- Eclipsamiento relativo: muy alto
+- Autonomía simbólica del jugador: alta
+
+Lectura visual mínima:
+El polígono del caso debe abrirse con fuerza hacia eclipsamiento y autonomía, mantenerse intermedio en subordinación y quedar retraído en retorno de gloria al centro.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Política moderna / Acto que hace sombra al líder
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.20, 0.55, 0.90, 0.85]
+
+
+====================================================================
+CASO 4 — POLÍTICA MODERNA / VICTORIA REINTEGRADA AL LÍDER (ISOMORFO A GALILEO)
+====================================================================
+
+1. Identificación ontológica mínima del caso
+
+Centro patronal visible:
+Líder nacional, presidente, presidenta o jefe principal del partido.
+
+Jugador:
+Asesor, ministro, legislador emergente, vocero o tecnócrata con mérito propio.
+
+Escena visible principal:
+Éxito técnico, reforma, negociación o victoria táctica que el jugador podría capitalizar personalmente, pero que decide presentar como confirmación de la conducción del líder.
+
+Resultado visible del caso:
+Ascenso, premio político, blindaje interno o mayor cercanía al centro patronal.
+
+Lectura mínima del tipo de caso:
+El jugador posee valor real propio, pero en vez de usarlo para independizarse simbólicamente, lo devuelve al centro patronal como prueba de su grandeza, lucidez o conducción. El caso no produce sombra, sino afirmación del centro y recompensa.
+
+
+2. Extracción mínima de hechos explícitos del caso
+
+- El jugador obtiene un éxito político, técnico o estratégico relevante.
+- Ese éxito podría haberse presentado como capital personal del jugador.
+- El jugador decide integrarlo discursivamente al liderazgo del centro patronal.
+- La narrativa visible del caso presenta el logro como confirmación de la visión o conducción del líder.
+- El mérito del jugador no desaparece, pero queda públicamente subordinado.
+- La audiencia política entiende que el centro sale fortalecido.
+- El jugador no aparece como competidor visible del líder.
+- El dispositivo visible evita comparación adversa para el centro.
+- Después de la escena, el jugador recibe confianza, promoción o protección.
+- El caso concluye con recompensa política.
+
+
+3. Asignación numérica de dimensiones intensionales nucleares
+
+3.1. Retorno de gloria al centro = 0.90
+
+Justificación mínima:
+El éxito del jugador se transforma en legitimación visible del líder. El valor no se conserva como brillo aislado del jugador, sino que vuelve con fuerza al centro patronal.
+
+3.2. Subordinación visible = 0.85
+
+Justificación mínima:
+La escena mantiene una subordinación visible alta. El jugador se muestra como operador valioso del proyecto central, no como foco alternativo de primacía.
+
+3.3. Eclipsamiento relativo = 0.15
+
+Justificación mínima:
+El caso evita producir sombra sobre el líder. El jugador conserva presencia reconocible, pero la escena no genera comparación amenazante ni fascinación desplazante respecto del centro.
+
+3.4. Autonomía simbólica del jugador = 0.20
+
+Justificación mínima:
+El jugador sí posee mérito propio, pero decide no convertirlo en capital visible autónomo. La autonomía simbólica existe de forma residual, pero queda contenida por la estructura pública del caso.
+
+
+4. Vector nuclear del caso
+
+Vector nuclear:
+[0.90, 0.85, 0.15, 0.20]
+
+Forma esperable de la gráfica radar:
+- Retorno de gloria al centro: muy alto
+- Subordinación visible: alto
+- Eclipsamiento relativo: muy bajo
+- Autonomía simbólica del jugador: bajo
+
+Lectura visual mínima:
+El polígono del caso debe expandirse hacia retorno y subordinación, y retraerse con claridad en eclipsamiento y autonomía.
+
+
+5. Datos listos para gráfica radar
+
+Caso:
+Política moderna / Victoria reintegrada al líder
+
+Etiquetas de ejes:
+[
+  "Retorno de gloria al centro",
+  "Subordinación visible",
+  "Eclipsamiento relativo",
+  "Autonomía simbólica del jugador"
+]
+
+Valores:
+[0.90, 0.85, 0.15, 0.20]
