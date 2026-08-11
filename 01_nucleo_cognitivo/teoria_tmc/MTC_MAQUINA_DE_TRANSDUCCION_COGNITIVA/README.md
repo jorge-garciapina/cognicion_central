@@ -1,108 +1,203 @@
 https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a7a5ee4-fc58-83e8-9337-80584fa4c8a5
 
-# ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL
+# MÁQUINA_DE_TRANSDUCCIÓN_COGNITIVA — paquete cognitivo integrado
 
-**ID:** `ADP-MTC-CC-001`  
-**Versión:** `0.1.0`  
-**Fecha:** `2026-08-10`  
-**Estado:** `MÓDULO COGNITIVO INTEGRADO / PROPUESTA NO CANÓNICA`  
-**Autoridad soberana:** `HUMANO`  
-**Espacio lógico:** `MTC-ADAPTER://`  
-**Registrado por:** `cognicion_central_mtc.md@0.2.0` y `como_leer_el_artefacto_adjunto.md@0.2.0`
+> **Proyecto:** COGNICIÓN_CENTRAL  
+> **Entidad:** `MÁQUINA_DE_TRANSDUCCIÓN_COGNITIVA` (`MTC`)  
+> **Versión de formalización:** `0.1.0`  
+> **Perfil cognitivo integrado:** `0.2.0`  
+> **Adaptador integral:** `ADP-MTC-CC-001@0.1.0`  
+> **Fecha:** `2026-08-10`  
+> **Estado:** `FORMALIZACIÓN PROPUESTA / NO CANÓNICA`  
+> **Autoridad:** la incorporación al canon requiere decisión humana explícita.
 
-## 1. Definición
+## 0. Propósito del paquete
 
-`ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL` es la pieza cognitiva mínima que convierte una reconstrucción MTC validada y trazable en la materia conceptual estructurada que ACCD consume como `construccion_conceptual`.
+Este paquete formaliza la **Máquina de Transducción Cognitiva (MTC)** como arquitectura transversal para describir sistemas donde una intervención informativa, simbólica, perceptiva o social altera la configuración cognitiva de uno o más agentes; esa configuración orienta acciones; las acciones movilizan capacidades; las capacidades operan dentro de un contexto; y el resultado se manifiesta externamente.
 
-No traduce campos uno a uno. Selecciona qué mecanismos, relaciones, distinciones e invariantes de una realización MTC deben convertirse en ideas activas; formula esas ideas; construye su jerarquía y sus relaciones; valida que el mecanismo relevante siga siendo reconstruible; y serializa el resultado conforme al contrato vigente de ACCD.
+La tesis mínima es:
 
 ```text
-REALIZACIÓN
-  ↓
-MTC + COGNICIÓN_CENTRAL_MTC
-  ↓ reconstrucción, pertenencia, epistemología y traza
-MTC_OUTPUT_PARA_ADAPTADOR
-  ↓
-ADAPTADOR
-  ├─ selección conceptual
-  ├─ descomposición proposicional
-  ├─ jerarquización
-  ├─ ponderación
-  ├─ relaciones
-  ├─ preservación
-  └─ validación reconstructiva
-  ↓
-CONSTRUCCION_CONCEPTUAL
-  ↓
-ACCD + ENSAMBLAJE + PROTOCOLO
-  ↓
-MANIFESTACIÓN CODOMINIAL
+INTERVENCIÓN
+    ↓
+TRANSFORMACIÓN COGNITIVA
+    ↓
+ACCIÓN
+    ↓
+CAPACIDAD MOVILIZADA
+    ↓
+CONTEXTO
+    ↓
+MANIFESTACIÓN
+    ↓
+RESULTADO / EVALUACIÓN
 ```
 
-## 2. Resultado material
+La MTC **no es una teoría de fraude**. El fraude es una especialización. Publicidad, educación y sistemas institucionales se incluyen como otras especializaciones de prueba.
 
-El adaptador entrega dos salidas coordinadas:
+## 1. Distinción central
 
-1. `construccion_conceptual`: puerto consumible por ACCD, sin campos epistemológicos inventados.
-2. `trazabilidad_del_adaptador`: sidecar que conserva procedencia MTC, estatus epistemológico, decisiones de compresión y validación.
-
-Sólo la primera se entrega al puerto temático de ACCD. El sidecar acompaña la auditoría y permite reconstrucción, pero no cambia el esquema formal de `construccion_conceptual`.
-
-## 3. Arquitectura del paquete
+Este paquete separa rigurosamente dos operaciones:
 
 ```text
-00_gobierno/
-  manifiesto, fuentes, autoridad y estado
+TRANSFORMACIÓN
+D → D
+cambia la configuración dentro de un mismo dominio
 
-01_arquitectura/
-  definición, fronteras, grafo y responsabilidades
+TRANSDUCCIÓN
+Dᵢ → Dⱼ     con Dᵢ ≠ Dⱼ
+cruza entre dominios funcionalmente distintos
+```
 
-02_contratos/
-  MTC→adaptador, adaptador→ACCD y sidecar de trazabilidad
+Ejemplo:
 
-03_operacion/
-  funciones cognitivas, reglas de decisión, validadores y fallas
+```text
+EC₀ → EC₁ → EC₂ → EC*       = transformación cognitiva
+EC* → ACCIÓN                  = transducción cognición→conducta
+ACCIÓN + V + K → M            = transducción conducta/capacidad→mundo
+```
 
-04_plantillas/
-  solicitud a MTC, salida, validación y prompt de runtime
+## 2. Grafo nuclear
 
-05_fixture/
-  fraude del collar como prueba de arquitectura
+```text
+                         O · OPERADOR
+                              │
+                         diseña I
+                              ▼
+                       I · INTERVENCIÓN
+                              │
+                              ▼
+                     R · RECEPTOR/AGENTE
+                              │
+                             EC₀
+                              │
+                         τ₁…τₙ
+                              ▼
+                             EC*
+                              │
+                              ▼
+                         A · ACCIÓN
+                              │
+                         moviliza V*
+                              ▼
+                       V · CAPACIDAD
+                              │
+                         opera en K
+                              ▼
+                       K · CONTEXTO
+                              │
+                              ▼
+                    M · MANIFESTACIÓN
+                              │
+                    evaluación/captura
+                              ▼
+                        G · RESULTADO
+                              │
+                              ▼
+                        F · FEEDBACK
+                              │
+                              └──────→ ajuste de I / τ / K
+```
+
+## 3. Forma formal compacta
+
+La máquina se representa provisionalmente como:
+
+```text
+MTC = ⟨O, R, I, Q, EC, Τ, Θ, A, V, K, M, G, F, C⟩
+```
+
+Donde:
+
+- `O`: operador o diseñador de la intervención;
+- `R`: receptor o conjunto de agentes receptores;
+- `I`: intervención;
+- `Q`: estructura motivacional/normativa del receptor;
+- `EC`: espacio de estados cognitivos;
+- `Τ`: transformaciones internas `τ` dentro del dominio cognitivo;
+- `Θ`: transducciones entre dominios;
+- `A`: acciones posibles;
+- `V`: capacidades movilizables;
+- `K`: contexto donde las capacidades pueden operar;
+- `M`: manifestaciones externas;
+- `G`: función de objetivo, resultado o valor de evaluación;
+- `F`: evidencia/feedback;
+- `C`: contratos epistemológicos, éticos, operativos y de trazabilidad.
+
+## 4. Dos versiones de la máquina
+
+### MTC mínima, abierta
+
+```text
+MTC_min = ⟨I, R, EC, Τ, Θ, A, V, K, M⟩
+```
+
+Es suficiente para describir una cadena de conversión sin adaptación posterior.
+
+### MTC adaptativa, cerrada
+
+```text
+MTC_closed = MTC_min + O + G + F + C
+```
+
+Incluye objetivo, observabilidad, evaluación, retroalimentación y reglas de ajuste.
+
+## 5. Estructura del paquete
+
+```text
+00_core/
+  definición, ontología, invariantes
+
+10_mecanismo/
+  transformación, transducción, estados,
+  pipeline, capacidad, manifestación, feedback, escalas
+
+20_metodo/
+  contratos, método de instanciación, plantilla y pruebas
+
+30_especializaciones/
+  fraude del collar, publicidad, educación,
+  institución y comparación
+
+40_integraciones/
+  Teoría de Máquinas Cognitivas, COGNICIÓN_CENTRAL,
+  Transformador Cognitivo, ACSI y ACCD
 
 90_meta/
-  ambigüedades reales, trazabilidad de fuentes y changelog
+  trazabilidad, glosario y changelog
+
+adaptadores/
+  ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/
+  contratos, funciones F00..F15, validadores, plantillas y fixture
+
+cognicion_central_mtc.md
+  grafo cognitivo, ruteo, operadores y vecindario del adaptador
+
+como_leer_el_artefacto_adjunto.md
+  bootstrap portable del paquete integrado
 ```
 
-## 4. Orden de lectura
-
-1. `00_gobierno/00_manifiesto.md`
-2. `01_arquitectura/01_definicion_y_fronteras.md`
-3. `02_contratos/01_contrato_mtc_a_adaptador.md`
-4. `02_contratos/02_contrato_adaptador_a_accd.md`
-5. `03_operacion/01_funciones_cognitivas.md`
-6. `03_operacion/02_reglas_de_decision.md`
-7. `03_operacion/03_validadores_y_fallas.md`
-8. `04_plantillas/04_prompt_de_ejecucion_runtime.md`
-
-Los archivos de `05_fixture/` no definen el adaptador. Sólo prueban que sus contratos y validadores pueden operar sobre una realización conocida.
-
-## 5. Invariantes
+El adaptador forma parte integral del paquete cognitivo MTC. Su incorporación no colapsa fronteras:
 
 ```text
-ADP-INV-01  MTC comprende y valida la realización; el adaptador no reconstruye MTC.
-ADP-INV-02  ACCD realiza el contenido; el adaptador no genera guion ni manifestación.
-ADP-INV-03  resumen ≠ construcción conceptual.
-ADP-INV-04  componente MTC ≠ idea activa por correspondencia automática.
-ADP-INV-05  V ≠ M y EC ≠ A deben sobrevivir cuando sean relevantes.
-ADP-INV-06  toda idea debe tener función conceptual y trazabilidad.
-ADP-INV-07  toda relación debe usar una categoría vigente de ACCD.
-ADP-INV-08  importancia estructural ≠ certeza epistemológica.
-ADP-INV-09  la salida ACCD no recibe campos nuevos de trazabilidad.
-ADP-INV-10  ninguna compresión puede volver irrecuperable el mecanismo nuclear.
-ADP-INV-11  insuficiencia de entrada se reporta; no se completa silenciosamente.
-ADP-INV-12  toda persistencia o promoción canónica requiere decisión humana.
+MTC comprende y valida
+→ ADAPTADOR produce construccion_conceptual
+→ ACCD realiza posteriormente el contenido
 ```
 
-## 6. Estado de uso
+## 6. Regla de autoridad
 
-El paquete es ejecutable como especificación cognitiva en un runtime que haya instalado MTC mediante `cognicion_central_mtc.md`. Forma parte integral del paquete cognitivo MTC: el módulo central registra sus fuentes, nodos, aristas, vecindario, operadores, ruta y pruebas; el bootstrap comprueba su disponibilidad al arrancar. Esta integración no modifica el paquete ACCD ni convierte el adaptador en canon. La promoción a cApp o implementación de software queda pendiente de decisión humana y pruebas adicionales.
+Este ZIP constituye un **artefacto de formalización local**. No modifica por sí mismo el canon de COGNICIÓN_CENTRAL, ACCD, ACSI ni la Teoría de Máquinas Cognitivas.
+
+## 7. Orden recomendado de lectura
+
+1. `como_leer_el_artefacto_adjunto.md`
+2. `cognicion_central_mtc.md`
+3. `00_core/00_especificacion_nuclear.md`
+4. `10_mecanismo/10_transformacion_cognitiva.md`
+5. `10_mecanismo/11_transduccion_cognitiva.md`
+6. `10_mecanismo/12_estado_cognitivo_grafo_ponderado.md`
+7. `10_mecanismo/14_capacidad_contexto_manifestacion.md`
+8. `20_metodo/21_instanciacion_y_validacion.md`
+9. `adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/README.md` cuando el destino sea `construccion_conceptual`.
+10. especialización, fixture o integración necesaria para la tarea.
