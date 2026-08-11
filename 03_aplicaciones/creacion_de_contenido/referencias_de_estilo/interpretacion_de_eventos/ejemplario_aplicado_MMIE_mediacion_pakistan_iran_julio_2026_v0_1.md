@@ -1,3 +1,5 @@
+https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a6a3abb-cda8-83e8-a8ad-63386307d3cb
+
 # EJEMPLARIO APLICADO DE LA MÁQUINA MULTIDIMENSIONAL DE INTERPRETACIÓN DE EVENTOS
 
 ## Mediación de Pakistán, MOU de Islamabad, Hormuz y construcción mediática del acontecimiento
@@ -57,7 +59,7 @@ Por eso, en varios apartados no encontraremos una oposición binaria, sino una *
 
 ## FUENTE A — Reuters, 24 de julio
 
-**Título:** *Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say.*
+**Título:** _Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say._
 
 Operaciones dominantes observables:
 
@@ -92,7 +94,7 @@ Operaciones dominantes observables:
 
 ## FUENTE D — TASS, 27 de julio
 
-**Título:** *No talks underway with US, message exchange possible via mediators — Iranian MFA.*
+**Título:** _No talks underway with US, message exchange possible via mediators — Iranian MFA._
 
 Operaciones dominantes observables:
 
@@ -104,7 +106,7 @@ Operaciones dominantes observables:
 
 ## FUENTE E — Pepe Escobar, 22 de julio
 
-**Título:** *Exclusive: Iran–Pakistan, what is really happening in the diplomatic front.*
+**Título:** _Exclusive: Iran–Pakistan, what is really happening in the diplomatic front._
 
 Operaciones dominantes observables:
 
@@ -118,7 +120,7 @@ Operaciones dominantes observables:
 
 ## FUENTE F — Larry C. Johnson, 28 de julio
 
-**Título:** *Is the Department of War Covering Up the True Extent of US Casualties?*
+**Título:** _Is the Department of War Covering Up the True Extent of US Casualties?_
 
 Operaciones dominantes observables:
 
@@ -130,7 +132,7 @@ Operaciones dominantes observables:
 
 ## FUENTE G — Alastair Crooke, 28 de julio
 
-**Título:** *The War’s Back is Broken.*
+**Título:** _The War’s Back is Broken._
 
 Operaciones dominantes observables:
 
@@ -161,16 +163,16 @@ Función en el corpus:
 
 # 2. Leyenda epistémica utilizada
 
-| Marca | Significado operativo |
-|---|---|
-| `CONFIRMADO` | Existe evidencia documental o coincidencia suficiente entre fuentes independientes. |
-| `DECLARACIÓN` | Está confirmado que un actor dijo algo, pero no necesariamente que lo afirmado ocurrió. |
-| `PARCIALMENTE CORROBORADO` | Parte de la afirmación está documentada, pero faltan elementos importantes. |
-| `DISPUTADO` | Existen versiones incompatibles o negaciones explícitas. |
-| `INFERENCIA` | Conclusión razonada a partir de datos, no observación directa. |
-| `HIPÓTESIS` | Explicación posible que necesita evidencia adicional. |
-| `NO VERIFICABLE` | La información depende de fuentes anónimas o material inaccesible. |
-| `REFUTADO O MAL FORMULADO` | La formulación excede lo demostrado por las fuentes disponibles. |
+| Marca                      | Significado operativo                                                                   |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| `CONFIRMADO`               | Existe evidencia documental o coincidencia suficiente entre fuentes independientes.     |
+| `DECLARACIÓN`              | Está confirmado que un actor dijo algo, pero no necesariamente que lo afirmado ocurrió. |
+| `PARCIALMENTE CORROBORADO` | Parte de la afirmación está documentada, pero faltan elementos importantes.             |
+| `DISPUTADO`                | Existen versiones incompatibles o negaciones explícitas.                                |
+| `INFERENCIA`               | Conclusión razonada a partir de datos, no observación directa.                          |
+| `HIPÓTESIS`                | Explicación posible que necesita evidencia adicional.                                   |
+| `NO VERIFICABLE`           | La información depende de fuentes anónimas o material inaccesible.                      |
+| `REFUTADO O MAL FORMULADO` | La formulación excede lo demostrado por las fuentes disponibles.                        |
 
 ---
 
@@ -180,7 +182,6 @@ La utilidad de esta capa aparece cuando colocamos en un mismo espacio elementos 
 
 ```yaml
 campo_de_acontecimientos_aplicado:
-
   hechos_observables:
     - Eskandar Momeni visitó Islamabad y se reunió con autoridades políticas y militares.
     - Pakistán realizó actividad diplomática con Irán, China, Kuwait, Egipto y Omán.
@@ -246,19 +247,19 @@ L0 permite observar que las tres versiones toman piezas diferentes de un campo m
 
 ## 4.1. Clasificación de afirmaciones centrales
 
-| Afirmación | Estado | Razón |
-|---|---|---|
-| Momeni visitó Pakistán y sostuvo reuniones de alto nivel. | `CONFIRMADO` | Gobierno pakistaní y múltiples medios lo documentan. |
-| China impulsó un nuevo esfuerzo diplomático. | `PARCIALMENTE CORROBORADO` | Reuters lo atribuye a fuentes; China confirma actividad y apoyo, aunque formula su posición de otra manera. |
-| Existen negociaciones directas entre EE. UU. e Irán. | `DISPUTADO / NO CONFIRMADO` | Washington habla de conversaciones; Irán niega negociaciones directas y acepta sólo intercambio mediante mediadores. |
-| Pakistán considera el MOU el mejor marco disponible. | `CONFIRMADO` | Declaración pública de su Ministerio de Exteriores. |
-| Irán atacó directamente Arabia Saudita durante esta secuencia. | `MAL FORMULADO` | Las fuentes públicas distinguen acciones de grupos yemeníes, atribuciones a grupos aliados y ataques iraníes contra instalaciones estadounidenses en otros países. |
-| Ansarallah actuó por orden operacional directa de Irán. | `NO VERIFICABLE` | Existe alineamiento y apoyo, pero no se presenta prueba pública de una orden concreta. |
-| Irán ofreció una pausa de diez días a cambio de implementación inmediata. | `DISPUTADO` | Escobar lo afirma, pero también reproduce fuentes iraníes que lo niegan; Pakistán no confirma ni niega. |
-| EE. UU. suspendió ataques exclusivamente para favorecer la diplomacia. | `INFERENCIA OFICIAL O MEDIÁTICA` | Puede ser parte de la motivación, pero no excluye factores operacionales y políticos. |
-| EE. UU. suspendió ataques exclusivamente porque perdió capacidad militar. | `HIPÓTESIS` | Johnson y Crooke ofrecen indicios, pero no existe prueba pública suficiente para convertirlo en causa única. |
-| El MOU exige una nueva negociación antes de cualquier cumplimiento. | `REFUTADO POR EL TEXTO` | El documento establece obligaciones de implementación y después negociación sobre asuntos restantes. |
-| El MOU resolvió todos los detalles futuros de Hormuz. | `REFUTADO O EXCESIVO` | El propio acuerdo contempla diálogo técnico posterior. |
+| Afirmación                                                                | Estado                           | Razón                                                                                                                                                              |
+| ------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Momeni visitó Pakistán y sostuvo reuniones de alto nivel.                 | `CONFIRMADO`                     | Gobierno pakistaní y múltiples medios lo documentan.                                                                                                               |
+| China impulsó un nuevo esfuerzo diplomático.                              | `PARCIALMENTE CORROBORADO`       | Reuters lo atribuye a fuentes; China confirma actividad y apoyo, aunque formula su posición de otra manera.                                                        |
+| Existen negociaciones directas entre EE. UU. e Irán.                      | `DISPUTADO / NO CONFIRMADO`      | Washington habla de conversaciones; Irán niega negociaciones directas y acepta sólo intercambio mediante mediadores.                                               |
+| Pakistán considera el MOU el mejor marco disponible.                      | `CONFIRMADO`                     | Declaración pública de su Ministerio de Exteriores.                                                                                                                |
+| Irán atacó directamente Arabia Saudita durante esta secuencia.            | `MAL FORMULADO`                  | Las fuentes públicas distinguen acciones de grupos yemeníes, atribuciones a grupos aliados y ataques iraníes contra instalaciones estadounidenses en otros países. |
+| Ansarallah actuó por orden operacional directa de Irán.                   | `NO VERIFICABLE`                 | Existe alineamiento y apoyo, pero no se presenta prueba pública de una orden concreta.                                                                             |
+| Irán ofreció una pausa de diez días a cambio de implementación inmediata. | `DISPUTADO`                      | Escobar lo afirma, pero también reproduce fuentes iraníes que lo niegan; Pakistán no confirma ni niega.                                                            |
+| EE. UU. suspendió ataques exclusivamente para favorecer la diplomacia.    | `INFERENCIA OFICIAL O MEDIÁTICA` | Puede ser parte de la motivación, pero no excluye factores operacionales y políticos.                                                                              |
+| EE. UU. suspendió ataques exclusivamente porque perdió capacidad militar. | `HIPÓTESIS`                      | Johnson y Crooke ofrecen indicios, pero no existe prueba pública suficiente para convertirlo en causa única.                                                       |
+| El MOU exige una nueva negociación antes de cualquier cumplimiento.       | `REFUTADO POR EL TEXTO`          | El documento establece obligaciones de implementación y después negociación sobre asuntos restantes.                                                               |
+| El MOU resolvió todos los detalles futuros de Hormuz.                     | `REFUTADO O EXCESIVO`            | El propio acuerdo contempla diálogo técnico posterior.                                                                                                             |
 
 ## 4.2. Declaración frente a acontecimiento
 
@@ -454,15 +455,15 @@ riesgo:
 
 ## 6.1. Titular y apertura
 
-| Fuente | Elemento promovido | Elemento relegado |
-|---|---|---|
-| Reuters | Camino hacia nuevas conversaciones; iniciativa china. | Negación iraní de haber solicitado negociar; secuencia detallada de obligaciones del MOU. |
-| Pakistán | Amenaza hutí, seguridad saudí, moderación y MOU. | Autoría o control iraní directo; contenido confidencial de los mensajes. |
-| China | Valor del MOU, soberanía iraní y estabilidad. | Costos coercitivos de las acciones iraníes sobre terceros. |
-| TASS | No existen conversaciones directas. | La lectura de Washington sobre “buenas conversaciones”. |
-| Escobar | Condición iraní, energía, palanca y secreto diplomático. | Riesgos comerciales y civiles de la coerción marítima. |
-| Johnson | Bajas, vuelos médicos y debilidad material. | Posibilidad de que la pausa tenga una motivación diplomática genuina además de presión operacional. |
-| Crooke | Guerra quebrada y capitulación futura estadounidense. | Capacidad de adaptación militar y financiera de Washington. |
+| Fuente   | Elemento promovido                                       | Elemento relegado                                                                                   |
+| -------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Reuters  | Camino hacia nuevas conversaciones; iniciativa china.    | Negación iraní de haber solicitado negociar; secuencia detallada de obligaciones del MOU.           |
+| Pakistán | Amenaza hutí, seguridad saudí, moderación y MOU.         | Autoría o control iraní directo; contenido confidencial de los mensajes.                            |
+| China    | Valor del MOU, soberanía iraní y estabilidad.            | Costos coercitivos de las acciones iraníes sobre terceros.                                          |
+| TASS     | No existen conversaciones directas.                      | La lectura de Washington sobre “buenas conversaciones”.                                             |
+| Escobar  | Condición iraní, energía, palanca y secreto diplomático. | Riesgos comerciales y civiles de la coerción marítima.                                              |
+| Johnson  | Bajas, vuelos médicos y debilidad material.              | Posibilidad de que la pausa tenga una motivación diplomática genuina además de presión operacional. |
+| Crooke   | Guerra quebrada y capitulación futura estadounidense.    | Capacidad de adaptación militar y financiera de Washington.                                         |
 
 ## 6.2. Promoción de una fuente anónima
 
@@ -577,20 +578,19 @@ Resultado:
 
 ## 7.2. Efecto de cada frontera temporal
 
-| Punto de inicio | Agresor probable | Respuesta probable | Solución intuitiva |
-|---|---|---|---|
-| Amenaza hutí | Ansarallah / Irán por asociación | Defensa saudí y contención | Seguridad naval y presión sobre Teherán |
-| Ataque estadounidense | Estados Unidos | Represalia iraní | Cese de ataques y cumplimiento |
-| Firma del MOU | Parte incumplidora | Exigencia de implementación | Auditoría cláusula por cláusula |
-| Guerra de Yemen | Arabia Saudita / estructura de bloqueo | Acción hutí | Arreglo yemení-saudi |
-| Crisis de Hormuz | Irán como controlador | Protección marítima externa | Apertura del estrecho |
-| Presencia militar regional | Estados Unidos como potencia extrarregional | Coerción iraní de expulsión | Nueva arquitectura regional |
+| Punto de inicio            | Agresor probable                            | Respuesta probable          | Solución intuitiva                      |
+| -------------------------- | ------------------------------------------- | --------------------------- | --------------------------------------- |
+| Amenaza hutí               | Ansarallah / Irán por asociación            | Defensa saudí y contención  | Seguridad naval y presión sobre Teherán |
+| Ataque estadounidense      | Estados Unidos                              | Represalia iraní            | Cese de ataques y cumplimiento          |
+| Firma del MOU              | Parte incumplidora                          | Exigencia de implementación | Auditoría cláusula por cláusula         |
+| Guerra de Yemen            | Arabia Saudita / estructura de bloqueo      | Acción hutí                 | Arreglo yemení-saudi                    |
+| Crisis de Hormuz           | Irán como controlador                       | Protección marítima externa | Apertura del estrecho                   |
+| Presencia militar regional | Estados Unidos como potencia extrarregional | Coerción iraní de expulsión | Nueva arquitectura regional             |
 
 ## 7.3. Delimitación recomendada para un análisis dialéctico
 
 ```yaml
-punto_de_inicio_principal:
-  firma_del_MOU
+punto_de_inicio_principal: firma_del_MOU
 
 retrospecciones_necesarias:
   - guerra y bloqueo en Yemen
@@ -719,15 +719,15 @@ El espacio deja de estar organizado desde Washington y se regionaliza.
 
 # 8.3. Actores narrativos
 
-| Fuente | Protagonista | Antagonista | Víctima | Mediador | Actor invisibilizado |
-|---|---|---|---|---|---|
-| Reuters | Pakistán / China como impulsores | obstáculos y escalada | comercio y Estados del Golfo | Pakistán | obligaciones específicas de Washington |
-| Pakistán | Estado pakistaní responsable | amenazas hutíes y escalada | Arabia Saudita, comercio, buques pakistaníes | Pakistán | historia saudí-yemení |
-| China | diálogo y consenso | abandono del acuerdo / hegemonía implícita | estabilidad regional | China y Pakistán | coerción iraní sobre terceros |
-| TASS | Irán como actor autónomo | narrativa occidental de que busca negociar | soberanía iraní | mediadores | intereses económicos rusos |
-| Escobar | Irán como estratega | “imperio” estadounidense | orden regional no occidental | Pakistán | vulnerabilidad civil y comercial |
-| Johnson | fuerzas estadounidenses sometidas a desgaste | conducción política de la guerra | soldados estadounidenses | Pakistán y Qatar | costos iraníes internos |
-| Crooke | Irán ascendente | proyecto militar estadounidense | región sometida al antiguo orden | mediadores regionales | capacidad de recuperación occidental |
+| Fuente   | Protagonista                                 | Antagonista                                | Víctima                                      | Mediador              | Actor invisibilizado                   |
+| -------- | -------------------------------------------- | ------------------------------------------ | -------------------------------------------- | --------------------- | -------------------------------------- |
+| Reuters  | Pakistán / China como impulsores             | obstáculos y escalada                      | comercio y Estados del Golfo                 | Pakistán              | obligaciones específicas de Washington |
+| Pakistán | Estado pakistaní responsable                 | amenazas hutíes y escalada                 | Arabia Saudita, comercio, buques pakistaníes | Pakistán              | historia saudí-yemení                  |
+| China    | diálogo y consenso                           | abandono del acuerdo / hegemonía implícita | estabilidad regional                         | China y Pakistán      | coerción iraní sobre terceros          |
+| TASS     | Irán como actor autónomo                     | narrativa occidental de que busca negociar | soberanía iraní                              | mediadores            | intereses económicos rusos             |
+| Escobar  | Irán como estratega                          | “imperio” estadounidense                   | orden regional no occidental                 | Pakistán              | vulnerabilidad civil y comercial       |
+| Johnson  | fuerzas estadounidenses sometidas a desgaste | conducción política de la guerra           | soldados estadounidenses                     | Pakistán y Qatar      | costos iraníes internos                |
+| Crooke   | Irán ascendente                              | proyecto militar estadounidense            | región sometida al antiguo orden             | mediadores regionales | capacidad de recuperación occidental   |
 
 ## Observación sobre Pakistán
 
@@ -819,15 +819,15 @@ La cadena puede captar una tendencia, pero presenta el desenlace como más deter
 
 ## Ejemplo de atribuciones con diferente respaldo
 
-| Atribución | Fuente | Estado |
-|---|---|---|
-| China busca estabilizar rutas energéticas. | Reuters y contexto económico. | `ALTAMENTE PROBABLE`, pero no agota la motivación. |
-| Pakistán quiere evitar elegir entre Arabia Saudita e Irán. | Análisis estructural. | `INFERENCIA FUERTE`. |
-| Irán quiere usar Hormuz para obligar a EE. UU. a cumplir. | Escobar y comportamiento observable. | `INFERENCIA PLAUSIBLE`. |
-| Trump pausó ataques para salvar su presidencia. | Crooke. | `HIPÓTESIS SOBRE MOTIVACIÓN`. |
-| Washington usa conversaciones para bajar el petróleo y rearmarse. | Lectura contrahégemonica. | `HIPÓTESIS`, requiere evidencia adicional. |
-| Reuters intenta conscientemente favorecer a Washington. | No demostrado. | `NO DEBE AFIRMARSE`. |
-| El encuadre de Reuters favorece ciertas premisas occidentales. | Análisis textual. | `DEMOSTRABLE EN LA PIEZA`. |
+| Atribución                                                        | Fuente                               | Estado                                             |
+| ----------------------------------------------------------------- | ------------------------------------ | -------------------------------------------------- |
+| China busca estabilizar rutas energéticas.                        | Reuters y contexto económico.        | `ALTAMENTE PROBABLE`, pero no agota la motivación. |
+| Pakistán quiere evitar elegir entre Arabia Saudita e Irán.        | Análisis estructural.                | `INFERENCIA FUERTE`.                               |
+| Irán quiere usar Hormuz para obligar a EE. UU. a cumplir.         | Escobar y comportamiento observable. | `INFERENCIA PLAUSIBLE`.                            |
+| Trump pausó ataques para salvar su presidencia.                   | Crooke.                              | `HIPÓTESIS SOBRE MOTIVACIÓN`.                      |
+| Washington usa conversaciones para bajar el petróleo y rearmarse. | Lectura contrahégemonica.            | `HIPÓTESIS`, requiere evidencia adicional.         |
+| Reuters intenta conscientemente favorecer a Washington.           | No demostrado.                       | `NO DEBE AFIRMARSE`.                               |
+| El encuadre de Reuters favorece ciertas premisas occidentales.    | Análisis textual.                    | `DEMOSTRABLE EN LA PIEZA`.                         |
 
 La última distinción es esencial:
 
@@ -889,122 +889,85 @@ hegemonía estadounidense
 ## 9.1. Encuadre de libertad de navegación
 
 ```yaml
-problema:
-  coerción sobre rutas internacionales
-responsable:
-  Irán y actores alineados
-victima:
-  comercio global y Estados del Golfo
-principio:
-  libertad de navegación
-tratamiento:
-  garantías militares, apertura de rutas y contención
-interes_material_asociado:
-  acceso energético y movilidad naval occidental
+problema: coerción sobre rutas internacionales
+responsable: Irán y actores alineados
+victima: comercio global y Estados del Golfo
+principio: libertad de navegación
+tratamiento: garantías militares, apertura de rutas y contención
+interes_material_asociado: acceso energético y movilidad naval occidental
 ```
 
 ## 9.2. Encuadre de soberanía regional
 
 ```yaml
-problema:
-  una potencia extrarregional define unilateralmente la seguridad del Golfo
-responsable:
-  arquitectura militar estadounidense
-victima:
-  soberanía de Estados ribereños
-principio:
-  soberanía y dignidad nacional
-tratamiento:
-  administración regional y cumplimiento del MOU
-interes_material_asociado:
-  mayor capacidad de Irán y China dentro del orden regional
+problema: una potencia extrarregional define unilateralmente la seguridad del Golfo
+responsable: arquitectura militar estadounidense
+victima: soberanía de Estados ribereños
+principio: soberanía y dignidad nacional
+tratamiento: administración regional y cumplimiento del MOU
+interes_material_asociado: mayor capacidad de Irán y China dentro del orden regional
 ```
 
 ## 9.3. Encuadre contractual
 
 ```yaml
-problema:
-  obligaciones firmadas no implementadas
-responsable:
-  parte que incumplió
-victima:
-  credibilidad del acuerdo
-principio:
-  legalidad y buena fe
-tratamiento:
-  implementación verificable antes de nuevas conversaciones
+problema: obligaciones firmadas no implementadas
+responsable: parte que incumplió
+victima: credibilidad del acuerdo
+principio: legalidad y buena fe
+tratamiento: implementación verificable antes de nuevas conversaciones
 ```
 
 ## 9.4. Encuadre de seguridad saudí
 
 ```yaml
-problema:
-  amenazas hutíes contra navegación e infraestructura saudí
-responsable:
-  Ansarallah
-victima:
-  Arabia Saudita y comercio
-principio:
-  integridad territorial y defensa colectiva
-tratamiento:
-  disuasión, protección marítima y presión diplomática
+problema: amenazas hutíes contra navegación e infraestructura saudí
+responsable: Ansarallah
+victima: Arabia Saudita y comercio
+principio: integridad territorial y defensa colectiva
+tratamiento: disuasión, protección marítima y presión diplomática
 ```
 
 ## 9.5. Encuadre de resistencia yemení
 
 ```yaml
-problema:
-  guerra y bloqueo prolongado sobre Yemen
-responsable:
-  coalición saudí y estructura regional de poder
-victima:
-  Yemen
-principio:
-  resistencia y reciprocidad
-tratamiento:
-  presión marítima selectiva contra Arabia Saudita
+problema: guerra y bloqueo prolongado sobre Yemen
+responsable: coalición saudí y estructura regional de poder
+victima: Yemen
+principio: resistencia y reciprocidad
+tratamiento: presión marítima selectiva contra Arabia Saudita
 ```
 
 ## 9.6. Encuadre militar-logístico
 
 ```yaml
-problema:
-  guerra que consume personal, municiones y capacidad
-responsable:
-  liderazgo estadounidense
-victima:
-  soldados y sostenibilidad militar
-principio:
-  prudencia estratégica
-tratamiento:
-  detener operaciones y recuperar el MOU
+problema: guerra que consume personal, municiones y capacidad
+responsable: liderazgo estadounidense
+victima: soldados y sostenibilidad militar
+principio: prudencia estratégica
+tratamiento: detener operaciones y recuperar el MOU
 ```
 
 ## 9.7. Encuadre multipolar
 
 ```yaml
-problema:
-  persistencia de un orden regional basado en hegemonía estadounidense
-responsable:
-  Washington
-victima:
-  autonomía regional
-principio:
-  equilibrio multipolar
-tratamiento:
-  aceptar a Irán como potencia regional
+problema: persistencia de un orden regional basado en hegemonía estadounidense
+responsable: Washington
+victima: autonomía regional
+principio: equilibrio multipolar
+tratamiento: aceptar a Irán como potencia regional
 ```
 
 ## 9.8. Universalización de intereses
 
-| Interés particular | Formulación universal |
-|---|---|
-| Protección de tráfico y capacidad naval estadounidense. | Libertad de navegación. |
-| Control iraní de rutas próximas a su costa. | Soberanía de Estados ribereños. |
-| Necesidad china de recibir energía. | Paz y estabilidad regional. |
-| Necesidad pakistaní de no romper con Riad. | Integridad territorial saudí. |
-| Necesidad iraní de obtener alivio económico. | Cumplimiento del acuerdo y dignidad nacional. |
-| Necesidad rusa de limitar poder estadounidense. | Orden multipolar y autonomía regional. |
+| Interés particular                                      | Formulación universal                         |
+| ------------------------------------------------------- | --------------------------------------------- |
+| Protección de tráfico y capacidad naval estadounidense. | Libertad de navegación.                       |
+| Control iraní de rutas próximas a su costa.             | Soberanía de Estados ribereños.               |
+| Necesidad china de recibir energía.                     | Paz y estabilidad regional.                   |
+| Necesidad pakistaní de no romper con Riad.              | Integridad territorial saudí.                 |
+| Necesidad iraní de obtener alivio económico.            | Cumplimiento del acuerdo y dignidad nacional. |
+| Necesidad rusa de limitar poder estadounidense.         | Orden multipolar y autonomía regional.        |
 
 El ejercicio no demuestra que los principios sean falsos.
 
@@ -1047,17 +1010,17 @@ Sujeto activo:
 
 # 10.2. Verbo principal
 
-| Verbo | Mundo que construye |
-|---|---|
-| `reanudar` | Existía un proceso detenido que debe continuar. |
-| `implementar` | Existe una obligación ya acordada. |
-| `resucitar` | El acuerdo fue dejado morir y necesita volver a la vida. |
-| `capitular` | Una parte perdió la capacidad de imponer condiciones. |
-| `explorar` | Todavía no existe una negociación consolidada. |
-| `exigir` | El actor posee condiciones firmes y posible rigidez. |
-| `honrar` | El compromiso tiene dimensión moral, no sólo técnica. |
-| `presionar` | La acción diplomática se interpreta como coerción. |
-| `mediar` | El actor se presenta como puente y no como parte. |
+| Verbo         | Mundo que construye                                      |
+| ------------- | -------------------------------------------------------- |
+| `reanudar`    | Existía un proceso detenido que debe continuar.          |
+| `implementar` | Existe una obligación ya acordada.                       |
+| `resucitar`   | El acuerdo fue dejado morir y necesita volver a la vida. |
+| `capitular`   | Una parte perdió la capacidad de imponer condiciones.    |
+| `explorar`    | Todavía no existe una negociación consolidada.           |
+| `exigir`      | El actor posee condiciones firmes y posible rigidez.     |
+| `honrar`      | El compromiso tiene dimensión moral, no sólo técnica.    |
+| `presionar`   | La acción diplomática se interpreta como coerción.       |
+| `mediar`      | El actor se presenta como puente y no como parte.        |
 
 ---
 
@@ -1224,13 +1187,13 @@ Presupone:
 
 # 10.7. Modalidad y grado de certeza
 
-| Formulación | Certeza producida |
-|---|---|
-| Irán ordenó el ataque. | Aserción fuerte. |
+| Formulación                                                  | Certeza producida      |
+| ------------------------------------------------------------ | ---------------------- |
+| Irán ordenó el ataque.                                       | Aserción fuerte.       |
 | Arabia Saudita afirma que grupos apoyados por Irán atacaron. | Declaración atribuida. |
-| Los ataques habrían sido coordinados con Irán. | Hipótesis modalizada. |
-| Es probable que Irán conociera la operación. | Inferencia explícita. |
-| No existe evidencia pública de una orden iraní. | Límite epistémico. |
+| Los ataques habrían sido coordinados con Irán.               | Hipótesis modalizada.  |
+| Es probable que Irán conociera la operación.                 | Inferencia explícita.  |
+| No existe evidencia pública de una orden iraní.              | Límite epistémico.     |
 
 ## Aplicación a Johnson
 
@@ -1726,44 +1689,30 @@ Las fuentes principales son textuales. Por eso los siguientes son ejemplos gener
 ## 14.1. Tratamiento sonoro occidental de crisis
 
 ```yaml
-musica:
-  pulsos graves y urgentes
-efectos:
-  radar, sirenas, motor de buque
-voz:
-  firme, rápida
-frase_visualizada:
-  amenazas contra la navegación
-salida_afectiva:
-  temor y urgencia
+musica: pulsos graves y urgentes
+efectos: radar, sirenas, motor de buque
+voz: firme, rápida
+frase_visualizada: amenazas contra la navegación
+salida_afectiva: temor y urgencia
 ```
 
 ## 14.2. Tratamiento contractual
 
 ```yaml
-musica:
-  mínima, contenida
-efectos:
-  paso de páginas, sello, reloj
-voz:
-  analítica
-frase_visualizada:
-  qué debía implementarse y cuándo
-salida_afectiva:
-  atención a responsabilidad y secuencia
+musica: mínima, contenida
+efectos: paso de páginas, sello, reloj
+voz: analítica
+frase_visualizada: qué debía implementarse y cuándo
+salida_afectiva: atención a responsabilidad y secuencia
 ```
 
 ## 14.3. Tratamiento contrahégemonico
 
 ```yaml
-musica:
-  percusión lenta, tensión creciente
-efectos:
-  latido, metal naval, silencio antes de “Hormuz”
-voz:
-  grave, desafiante
-salida_afectiva:
-  sensación de cambio histórico y resistencia
+musica: percusión lenta, tensión creciente
+efectos: latido, metal naval, silencio antes de “Hormuz”
+voz: grave, desafiante
+salida_afectiva: sensación de cambio histórico y resistencia
 ```
 
 ## 14.4. Riesgo de la música
@@ -1889,81 +1838,55 @@ El rostro no cambió. El montaje cambió la intención atribuida.
 ## 16.1. Receptor: inversor occidental
 
 ```yaml
-conocimiento_previo:
-  petróleo, riesgo y rutas
-confianza:
-  Reuters alta
-asociaciones:
-  negociación = menor prima de guerra
-modelo_situacional:
-  China y Pakistán pueden reducir duración del conflicto
-emocion:
-  alivio prudente
-solucion:
-  vender posiciones de riesgo o esperar apertura
-hecho_recordable:
-  iniciativa china
-hecho_olvidable:
-  obligaciones detalladas del MOU
+conocimiento_previo: petróleo, riesgo y rutas
+confianza: Reuters alta
+asociaciones: negociación = menor prima de guerra
+modelo_situacional: China y Pakistán pueden reducir duración del conflicto
+emocion: alivio prudente
+solucion: vender posiciones de riesgo o esperar apertura
+hecho_recordable: iniciativa china
+hecho_olvidable: obligaciones detalladas del MOU
 ```
 
 ## 16.2. Receptor: ciudadano pakistaní prosaudí
 
 ```yaml
-asociaciones:
-  hutíes = amenaza a aliado
+asociaciones: hutíes = amenaza a aliado
   buques pakistaníes = línea roja
-modelo:
-  Pakistán debe mediar sin abandonar a Arabia Saudita
-emocion:
-  deber defensivo
-solucion:
-  proteger navegación y mantener diálogo
+modelo: Pakistán debe mediar sin abandonar a Arabia Saudita
+emocion: deber defensivo
+solucion: proteger navegación y mantener diálogo
 ```
 
 ## 16.3. Receptor: iraní favorable al MOU
 
 ```yaml
-asociaciones:
-  nuevas conversaciones = intento de renegociación
+asociaciones: nuevas conversaciones = intento de renegociación
   implementación = respeto
-modelo:
-  Washington quiere evitar obligaciones ya aceptadas
-emocion:
-  agravio y desconfianza
-solucion:
-  no negociar antes de cumplimiento verificable
+modelo: Washington quiere evitar obligaciones ya aceptadas
+emocion: agravio y desconfianza
+solucion: no negociar antes de cumplimiento verificable
 ```
 
 ## 16.4. Receptor: lector chino
 
 ```yaml
-asociaciones:
-  estabilidad = energía y comercio
+asociaciones: estabilidad = energía y comercio
   seguridad colectiva = menor hegemonía externa
-modelo:
-  China puede facilitar un orden regional menos estadounidense
-emocion:
-  confianza estratégica
-solucion:
-  preservar MOU y mediación pakistaní
+modelo: China puede facilitar un orden regional menos estadounidense
+emocion: confianza estratégica
+solucion: preservar MOU y mediación pakistaní
 ```
 
 ## 16.5. Receptor: lector antiintervencionista estadounidense
 
 ```yaml
-fuentes:
-  Johnson y Crooke
-asociaciones:
-  guerra = bajas ocultas y agotamiento
-modelo:
-  Washington busca pausa por debilidad
-emocion:
-  indignación y sospecha
-solucion:
-  retirar fuerzas y cumplir
-riesgo:
-  aceptar cifras no corroboradas porque encajan con identidad previa
+fuentes: Johnson y Crooke
+asociaciones: guerra = bajas ocultas y agotamiento
+modelo: Washington busca pausa por debilidad
+emocion: indignación y sospecha
+solucion: retirar fuerzas y cumplir
+riesgo: aceptar cifras no corroboradas porque encajan con identidad previa
 ```
 
 ## 16.6. Receptor sin conocimiento previo
@@ -1997,84 +1920,60 @@ Estados Unidos rompió un acuerdo.
 ## Salida A — Reuters simplificada
 
 ```yaml
-que_ocurrio:
-  China impulsó a Pakistán a explorar nuevas conversaciones
-responsable_del_bloqueo:
-  Irán y aliados regionales
-mediador:
-  Pakistán
-emocion:
-  esperanza cautelosa
-solucion:
-  detener ataques y regresar a la mesa
+que_ocurrio: China impulsó a Pakistán a explorar nuevas conversaciones
+responsable_del_bloqueo: Irán y aliados regionales
+mediador: Pakistán
+emocion: esperanza cautelosa
+solucion: detener ataques y regresar a la mesa
 ```
 
 ## Salida B — Pakistán oficial
 
 ```yaml
-que_ocurrio:
-  la escalada amenaza navegación, aliados y estabilidad
-responsable_inmediato:
-  hutíes por amenazas contra Arabia Saudita
-responsabilidad_general:
-  todas las partes deben moderarse
-solucion:
-  defensa de intereses propios + implementación del MOU
+que_ocurrio: la escalada amenaza navegación, aliados y estabilidad
+responsable_inmediato: hutíes por amenazas contra Arabia Saudita
+responsabilidad_general: todas las partes deben moderarse
+solucion: defensa de intereses propios + implementación del MOU
 ```
 
 ## Salida C — China
 
 ```yaml
-que_ocurrio:
-  se está perdiendo un resultado diplomático valioso
-responsable:
-  abandono de la implementación y nueva escalada
-solucion:
-  volver al consenso y construir seguridad regional
+que_ocurrio: se está perdiendo un resultado diplomático valioso
+responsable: abandono de la implementación y nueva escalada
+solucion: volver al consenso y construir seguridad regional
 ```
 
 ## Salida D — TASS / posición iraní
 
 ```yaml
-que_ocurrio:
-  no existen conversaciones directas; sólo mensajes
-responsable_de_la_narrativa_errónea:
-  opositores que afirman que Irán busca negociar
-solucion:
-  no confundir mediación con negociación
+que_ocurrio: no existen conversaciones directas; sólo mensajes
+responsable_de_la_narrativa_errónea: opositores que afirman que Irán busca negociar
+solucion: no confundir mediación con negociación
 ```
 
 ## Salida E — Escobar
 
 ```yaml
-que_ocurrio:
-  Irán transmitió condiciones desde una posición de ventaja
-responsable:
-  Washington por no cumplir
-solucion:
-  implementación total o prolongación de la presión
+que_ocurrio: Irán transmitió condiciones desde una posición de ventaja
+responsable: Washington por no cumplir
+solucion: implementación total o prolongación de la presión
 ```
 
 ## Salida F — Johnson
 
 ```yaml
-que_ocurrio:
-  la guerra ha causado costos estadounidenses ocultos
-responsable:
-  liderazgo político y militar
-solucion:
-  resucitar el MOU y cumplir demandas iraníes
+que_ocurrio: la guerra ha causado costos estadounidenses ocultos
+responsable: liderazgo político y militar
+solucion: resucitar el MOU y cumplir demandas iraníes
 ```
 
 ## Salida G — Crooke
 
 ```yaml
-que_ocurrio:
-  Estados Unidos perdió la iniciativa estructural
-responsable:
-  estrategia hegemónica inviable
-solucion:
-  aceptar el nuevo equilibrio regional
+que_ocurrio: Estados Unidos perdió la iniciativa estructural
+responsable: estrategia hegemónica inviable
+solucion: aceptar el nuevo equilibrio regional
 ```
 
 ---
@@ -2227,14 +2126,14 @@ La MMIE impide reducir automáticamente una correlación a causa única.
 
 ## 19.5. Dimensión afectiva
 
-| Formulación | Emoción dominante |
-|---|---|
-| Amenaza a la libertad de navegación. | Temor y urgencia. |
-| Incumplimiento de un acuerdo. | Agravio. |
-| Dignidad nacional. | Orgullo y resistencia. |
-| Bajas ocultas. | Indignación y sospecha. |
-| Guerra quebrada. | Esperanza para opositores; alarma para partidarios. |
-| Todas las partes deben moderarse. | Contención y ambivalencia. |
+| Formulación                          | Emoción dominante                                   |
+| ------------------------------------ | --------------------------------------------------- |
+| Amenaza a la libertad de navegación. | Temor y urgencia.                                   |
+| Incumplimiento de un acuerdo.        | Agravio.                                            |
+| Dignidad nacional.                   | Orgullo y resistencia.                              |
+| Bajas ocultas.                       | Indignación y sospecha.                             |
+| Guerra quebrada.                     | Esperanza para opositores; alarma para partidarios. |
+| Todas las partes deben moderarse.    | Contención y ambivalencia.                          |
 
 ## 19.6. Dimensión moral
 
@@ -2305,51 +2204,51 @@ Las frases condensadas sobreviven mejor que las cláusulas del acuerdo.
 
 ## 19.10. Dimensión de tratamiento
 
-| Diagnóstico aceptado | Tratamiento naturalizado |
-|---|---|
-| Irán amenaza comercio global. | Contención y protección naval. |
-| EE. UU. incumplió el MOU. | Implementación antes de negociar. |
-| Ansarallah responde a un bloqueo. | Resolver conflicto saudí-yemení. |
-| Washington está agotado. | Retirada y acuerdo. |
-| El orden regional cambió. | Seguridad colectiva no estadounidense. |
-| Pakistán está atrapado entre aliados. | Ambigüedad estratégica y mediación. |
+| Diagnóstico aceptado                  | Tratamiento naturalizado               |
+| ------------------------------------- | -------------------------------------- |
+| Irán amenaza comercio global.         | Contención y protección naval.         |
+| EE. UU. incumplió el MOU.             | Implementación antes de negociar.      |
+| Ansarallah responde a un bloqueo.     | Resolver conflicto saudí-yemení.       |
+| Washington está agotado.              | Retirada y acuerdo.                    |
+| El orden regional cambió.             | Seguridad colectiva no estadounidense. |
+| Pakistán está atrapado entre aliados. | Ambigüedad estratégica y mediación.    |
 
 ---
 
 # 20. Ejemplos de los 30 operadores de la MMIE
 
-| ID | Operador | Ejemplo aplicado | Efecto |
-|---|---|---|---|
-| OP-01 | seleccionar | Elegir la visita de Momeni como centro. | Irán parece iniciar movimiento diplomático. |
-| OP-02 | excluir | Omitir obligaciones estadounidenses del MOU. | El problema parece ser la falta de flexibilidad iraní. |
-| OP-03 | jerarquizar | Colocar el prerrequisito saudí en el resumen. | Una fuente anónima adquiere peso estructural. |
-| OP-04 | repetir | Repetir “Iran-backed”. | Se estabiliza asociación entre actores y mando iraní. |
-| OP-05 | delimitar | Comenzar el 8 de julio o con la amenaza hutí. | Cambia quién aparece como agresor. |
-| OP-06 | temporalizar | Llevar la historia a once años de guerra en Yemen. | La acción hutí se interpreta como respuesta histórica. |
-| OP-07 | espacializar | Centrar bases y hospitales en vez de salas diplomáticas. | La guerra se vuelve problema logístico. |
-| OP-08 | protagonizar | Presentar a China como impulsora. | Pekín aparece como actor de paz. |
-| OP-09 | antagonizar | Presentar a Irán como amenaza a rutas. | Contención se vuelve razonable. |
-| OP-10 | victimizar | Mostrar Arabia Saudita como arrastrada al conflicto. | Se reduce su agencia histórica. |
-| OP-11 | atribuir_agencia | “EE. UU. reanudó ataques”. | Responsabilidad visible. |
-| OP-12 | borrar_agencia | “La escalada se reanudó”. | El conflicto parece autoactivarse. |
-| OP-13 | causalizar | Relacionar bajas con pausa. | La pausa se interpreta como necesidad. |
-| OP-14 | atribuir_intencion | Afirmar que Trump busca rearmarse. | La tregua se vuelve maniobra. |
-| OP-15 | encuadrar | Definir el problema como libertad de navegación. | Se prioriza seguridad marítima. |
-| OP-16 | moralizar | Usar “honrar compromisos”. | Incumplimiento se vuelve falta moral. |
-| OP-17 | presuponer | “Regresar a la mesa”. | Se presupone que alguien abandonó diplomacia. |
-| OP-18 | modalizar | “Podría haber más de cien bajas”. | Se conserva incertidumbre. |
-| OP-19 | etiquetar | “Milicia hutí”. | Disminuye legitimidad política. |
-| OP-20 | asociar_semanticamente | Irán + proxies + amenazas. | Se activa red de expansión regional. |
-| OP-21 | metaforizar | “MOU muerto” o “guerra quebrada”. | La situación adquiere forma corporal. |
-| OP-22 | intensificar | “Total leverage”. | La ventaja iraní parece absoluta. |
-| OP-23 | atenuar | “Se reportaron incidentes”. | Se reduce fuerza de una acusación. |
-| OP-24 | visualizar | Abrir con hospital militar. | Costos humanos dominan la interpretación. |
-| OP-25 | sonorizar | Usar sirenas bajo mapa de Hormuz. | Se produce urgencia antes del argumento. |
-| OP-26 | montar | Hospital → pausa → mediadores. | Se infiere causalidad material. |
-| OP-27 | proyectar_futuro | “EE. UU. terminará capitulando”. | Un escenario se vuelve desenlace esperado. |
-| OP-28 | recomendar_tratamiento | “Volver al MOU”. | Se naturaliza una secuencia política. |
-| OP-29 | estabilizar_por_repeticion | Repetir “nuevas conversaciones” en titulares. | Se borra diferencia entre negociar e implementar. |
-| OP-30 | contra_encuadrar | Sustituir “proxy iraní” por “actor yemení alineado”. | Se recupera autonomía sin negar vínculos. |
+| ID    | Operador                   | Ejemplo aplicado                                         | Efecto                                                 |
+| ----- | -------------------------- | -------------------------------------------------------- | ------------------------------------------------------ |
+| OP-01 | seleccionar                | Elegir la visita de Momeni como centro.                  | Irán parece iniciar movimiento diplomático.            |
+| OP-02 | excluir                    | Omitir obligaciones estadounidenses del MOU.             | El problema parece ser la falta de flexibilidad iraní. |
+| OP-03 | jerarquizar                | Colocar el prerrequisito saudí en el resumen.            | Una fuente anónima adquiere peso estructural.          |
+| OP-04 | repetir                    | Repetir “Iran-backed”.                                   | Se estabiliza asociación entre actores y mando iraní.  |
+| OP-05 | delimitar                  | Comenzar el 8 de julio o con la amenaza hutí.            | Cambia quién aparece como agresor.                     |
+| OP-06 | temporalizar               | Llevar la historia a once años de guerra en Yemen.       | La acción hutí se interpreta como respuesta histórica. |
+| OP-07 | espacializar               | Centrar bases y hospitales en vez de salas diplomáticas. | La guerra se vuelve problema logístico.                |
+| OP-08 | protagonizar               | Presentar a China como impulsora.                        | Pekín aparece como actor de paz.                       |
+| OP-09 | antagonizar                | Presentar a Irán como amenaza a rutas.                   | Contención se vuelve razonable.                        |
+| OP-10 | victimizar                 | Mostrar Arabia Saudita como arrastrada al conflicto.     | Se reduce su agencia histórica.                        |
+| OP-11 | atribuir_agencia           | “EE. UU. reanudó ataques”.                               | Responsabilidad visible.                               |
+| OP-12 | borrar_agencia             | “La escalada se reanudó”.                                | El conflicto parece autoactivarse.                     |
+| OP-13 | causalizar                 | Relacionar bajas con pausa.                              | La pausa se interpreta como necesidad.                 |
+| OP-14 | atribuir_intencion         | Afirmar que Trump busca rearmarse.                       | La tregua se vuelve maniobra.                          |
+| OP-15 | encuadrar                  | Definir el problema como libertad de navegación.         | Se prioriza seguridad marítima.                        |
+| OP-16 | moralizar                  | Usar “honrar compromisos”.                               | Incumplimiento se vuelve falta moral.                  |
+| OP-17 | presuponer                 | “Regresar a la mesa”.                                    | Se presupone que alguien abandonó diplomacia.          |
+| OP-18 | modalizar                  | “Podría haber más de cien bajas”.                        | Se conserva incertidumbre.                             |
+| OP-19 | etiquetar                  | “Milicia hutí”.                                          | Disminuye legitimidad política.                        |
+| OP-20 | asociar_semanticamente     | Irán + proxies + amenazas.                               | Se activa red de expansión regional.                   |
+| OP-21 | metaforizar                | “MOU muerto” o “guerra quebrada”.                        | La situación adquiere forma corporal.                  |
+| OP-22 | intensificar               | “Total leverage”.                                        | La ventaja iraní parece absoluta.                      |
+| OP-23 | atenuar                    | “Se reportaron incidentes”.                              | Se reduce fuerza de una acusación.                     |
+| OP-24 | visualizar                 | Abrir con hospital militar.                              | Costos humanos dominan la interpretación.              |
+| OP-25 | sonorizar                  | Usar sirenas bajo mapa de Hormuz.                        | Se produce urgencia antes del argumento.               |
+| OP-26 | montar                     | Hospital → pausa → mediadores.                           | Se infiere causalidad material.                        |
+| OP-27 | proyectar_futuro           | “EE. UU. terminará capitulando”.                         | Un escenario se vuelve desenlace esperado.             |
+| OP-28 | recomendar_tratamiento     | “Volver al MOU”.                                         | Se naturaliza una secuencia política.                  |
+| OP-29 | estabilizar_por_repeticion | Repetir “nuevas conversaciones” en titulares.            | Se borra diferencia entre negociar e implementar.      |
+| OP-30 | contra_encuadrar           | Sustituir “proxy iraní” por “actor yemení alineado”.     | Se recupera autonomía sin negar vínculos.              |
 
 ---
 
@@ -2361,7 +2260,6 @@ Reuters, 24 de julio.
 
 ```yaml
 analisis_resultante:
-
   sustrato:
     - visita de Momeni confirmada
     - iniciativa china atribuida a fuentes
@@ -2378,33 +2276,22 @@ analisis_resultante:
       - texto completo del MOU
 
   delimitacion:
-    inicio:
-      nuevo impulso diplomático
-    antecedente:
-      conversaciones estancadas
-    efecto:
-      el problema se define como falta de diálogo
+    inicio: nuevo impulso diplomático
+    antecedente: conversaciones estancadas
+    efecto: el problema se define como falta de diálogo
 
   narrativa:
-    protagonista:
-      Pakistán con impulso chino
-    obstaculo:
-      escalada regional
-    actor_problematico:
-      Irán por asociación con grupos
-    desenlace:
-      nuevas conversaciones
+    protagonista: Pakistán con impulso chino
+    obstaculo: escalada regional
+    actor_problematico: Irán por asociación con grupos
+    desenlace: nuevas conversaciones
 
   lenguaje:
-    verbos:
-      explorar, reanudar
-    etiquetas:
-      Iran-backed
-    presuposicion:
-      las conversaciones son la acción pendiente
+    verbos: explorar, reanudar
+    etiquetas: Iran-backed
+    presuposicion: las conversaciones son la acción pendiente
 
-  salida_esperada:
-    China y Pakistán intentan devolver a Irán a una solución negociada.
+  salida_esperada: China y Pakistán intentan devolver a Irán a una solución negociada.
 
   omisiones_decisivas:
     - secuencia exacta de implementación del MOU
@@ -2428,12 +2315,12 @@ analisis_resultante:
 
 ## Divergencias
 
-| Pregunta | Reuters | Pakistán | China | TASS/Irán | Escobar | Johnson | Crooke |
-|---|---|---|---|---|---|---|---|
-| ¿Qué ocurre? | Se exploran nuevas conversaciones. | Se intenta preservar paz, defensa y MOU. | Debe retomarse el consenso. | No hay conversaciones directas. | Irán transmite condiciones. | Se intenta resucitar el MOU. | EE. UU. busca salida de una guerra quebrada. |
-| ¿Quién necesita movimiento? | Irán y EE. UU.; énfasis en obstáculos iraníes. | Todas las partes. | Partes que abandonaron implementación. | Washington exagera; Irán no pidió negociar. | Washington. | Washington. | Washington. |
-| ¿Qué es Hormuz? | Chokepoint que debe normalizarse. | Riesgo regional y marítimo. | Asunto regional que debe gestionarse. | Instrumento soberano iraní. | Palanca decisiva. | Elemento contractual y estratégico. | Prueba de cambio de poder. |
-| ¿Qué hace Pakistán? | Explora y transmite condiciones. | Equilibra defensa y mediación. | Vehículo de estabilización. | Canal indirecto. | Entrega mensaje iraní. | Intermediario de recuperación. | Parte de una salida solicitada por EE. UU. |
+| Pregunta                    | Reuters                                        | Pakistán                                 | China                                  | TASS/Irán                                   | Escobar                     | Johnson                             | Crooke                                       |
+| --------------------------- | ---------------------------------------------- | ---------------------------------------- | -------------------------------------- | ------------------------------------------- | --------------------------- | ----------------------------------- | -------------------------------------------- |
+| ¿Qué ocurre?                | Se exploran nuevas conversaciones.             | Se intenta preservar paz, defensa y MOU. | Debe retomarse el consenso.            | No hay conversaciones directas.             | Irán transmite condiciones. | Se intenta resucitar el MOU.        | EE. UU. busca salida de una guerra quebrada. |
+| ¿Quién necesita movimiento? | Irán y EE. UU.; énfasis en obstáculos iraníes. | Todas las partes.                        | Partes que abandonaron implementación. | Washington exagera; Irán no pidió negociar. | Washington.                 | Washington.                         | Washington.                                  |
+| ¿Qué es Hormuz?             | Chokepoint que debe normalizarse.              | Riesgo regional y marítimo.              | Asunto regional que debe gestionarse.  | Instrumento soberano iraní.                 | Palanca decisiva.           | Elemento contractual y estratégico. | Prueba de cambio de poder.                   |
+| ¿Qué hace Pakistán?         | Explora y transmite condiciones.               | Equilibra defensa y mediación.           | Vehículo de estabilización.            | Canal indirecto.                            | Entrega mensaje iraní.      | Intermediario de recuperación.      | Parte de una salida solicitada por EE. UU.   |
 
 ## Síntesis fundamentada
 
@@ -2545,18 +2432,18 @@ Preguntas:
 
 # 25. Aplicación de restricciones epistemológicas
 
-| Restricción | Aplicación al caso |
-|---|---|
-| Preservación factual | Mantener separadas visita, mensajes, ataques y reacción de mercado. |
-| Estado epistémico visible | Marcar propuesta de diez días como disputada. |
-| Declaración frente a hecho | “Crooke afirma que EE. UU. solicitó una pausa” no equivale a confirmación independiente. |
-| Trazabilidad causal | La caída del petróleo siguió a la noticia; la magnitud causal exacta debe evaluarse junto con otros factores. |
-| Alternativas plausibles | La pausa puede responder a diplomacia, costos militares, presión aliada o combinación. |
-| No equivalencia automática | Una declaración oficial y una hipótesis basada en vuelos no tienen el mismo nivel. |
-| No neutralidad falsa | Puede concluirse que “ataque iraní a Arabia Saudita” está mal formulado sin fingir equilibrio. |
-| No manipulación encubierta | Un guion debe declarar desde qué inicio construye su interpretación. |
-| Auditoría de omisiones | Una pieza sobre libertad de navegación debe considerar bloqueo, soberanía y servicios marítimos. |
-| Refutabilidad | La tesis sobre presión militar debe poder cambiar ante datos oficiales de municiones o bajas. |
+| Restricción                | Aplicación al caso                                                                                            |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Preservación factual       | Mantener separadas visita, mensajes, ataques y reacción de mercado.                                           |
+| Estado epistémico visible  | Marcar propuesta de diez días como disputada.                                                                 |
+| Declaración frente a hecho | “Crooke afirma que EE. UU. solicitó una pausa” no equivale a confirmación independiente.                      |
+| Trazabilidad causal        | La caída del petróleo siguió a la noticia; la magnitud causal exacta debe evaluarse junto con otros factores. |
+| Alternativas plausibles    | La pausa puede responder a diplomacia, costos militares, presión aliada o combinación.                        |
+| No equivalencia automática | Una declaración oficial y una hipótesis basada en vuelos no tienen el mismo nivel.                            |
+| No neutralidad falsa       | Puede concluirse que “ataque iraní a Arabia Saudita” está mal formulado sin fingir equilibrio.                |
+| No manipulación encubierta | Un guion debe declarar desde qué inicio construye su interpretación.                                          |
+| Auditoría de omisiones     | Una pieza sobre libertad de navegación debe considerar bloqueo, soberanía y servicios marítimos.              |
+| Refutabilidad              | La tesis sobre presión militar debe poder cambiar ante datos oficiales de municiones o bajas.                 |
 
 ---
 
@@ -2636,26 +2523,19 @@ riesgos:
 ## 26.5. Validador dialéctico
 
 ```yaml
-mejor_argumento_reuters:
-  existe actividad diplomática real e interés chino verificable
+mejor_argumento_reuters: existe actividad diplomática real e interés chino verificable
 
-mejor_argumento_pakistan:
-  el país debe proteger a Arabia Saudita y conservar el MOU simultáneamente
+mejor_argumento_pakistan: el país debe proteger a Arabia Saudita y conservar el MOU simultáneamente
 
-mejor_argumento_chino:
-  el proceso no parte de cero; existe un consenso anterior
+mejor_argumento_chino: el proceso no parte de cero; existe un consenso anterior
 
-mejor_argumento_iran_tass:
-  mensajes indirectos no equivalen a conversaciones directas
+mejor_argumento_iran_tass: mensajes indirectos no equivalen a conversaciones directas
 
-mejor_argumento_escobar:
-  energía y chokepoints forman parte material de la mediación
+mejor_argumento_escobar: energía y chokepoints forman parte material de la mediación
 
-mejor_argumento_johnson:
-  la capacidad militar y las bajas pueden condicionar diplomacia
+mejor_argumento_johnson: la capacidad militar y las bajas pueden condicionar diplomacia
 
-mejor_argumento_crooke:
-  la negociación está ligada al equilibrio regional, no sólo a un expediente bilateral
+mejor_argumento_crooke: la negociación está ligada al equilibrio regional, no sólo a un expediente bilateral
 
 asimetrías:
   - texto público del MOU tiene más peso que hipótesis sobre mensajes secretos
@@ -2733,7 +2613,7 @@ iniciativa diplomática
 ## Video interpretativo
 
 **Título:**  
-*Pakistán no está llevando a Irán a negociar: está intentando sostener cuatro alianzas incompatibles*
+_Pakistán no está llevando a Irán a negociar: está intentando sostener cuatro alianzas incompatibles_
 
 Núcleo:
 
@@ -2744,7 +2624,7 @@ Núcleo:
 ## Video explicativo
 
 **Título:**  
-*Cómo una sola palabra decide quién incumplió un acuerdo*
+_Cómo una sola palabra decide quién incumplió un acuerdo_
 
 Núcleo:
 
@@ -2756,7 +2636,7 @@ Núcleo:
 ## Video sobre semántica
 
 **Título:**  
-*Cómo “respaldado por Irán” convierte a tres actores en uno solo*
+_Cómo “respaldado por Irán” convierte a tres actores en uno solo_
 
 Núcleo:
 
@@ -2768,7 +2648,7 @@ Núcleo:
 ## Video sobre narración
 
 **Título:**  
-*El agresor depende del minuto donde comienza la historia*
+_El agresor depende del minuto donde comienza la historia_
 
 Núcleo:
 
@@ -2780,7 +2660,7 @@ Núcleo:
 ## Video sobre mercado
 
 **Título:**  
-*Una noticia puede bajar el petróleo antes de abrir Hormuz*
+_Una noticia puede bajar el petróleo antes de abrir Hormuz_
 
 Núcleo:
 
@@ -2792,7 +2672,7 @@ Núcleo:
 ## Video sobre propaganda
 
 **Título:**  
-*Occidente y Eurasia no cuentan la misma guerra, pero ninguno cuenta todo*
+_Occidente y Eurasia no cuentan la misma guerra, pero ninguno cuenta todo_
 
 Núcleo:
 
@@ -2862,38 +2742,38 @@ La síntesis mejor respaldada al corte del 29 de julio es:
 
 # 30. Referencias del corpus
 
-1. Reuters. (24 de julio de 2026). *Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say.*  
+1. Reuters. (24 de julio de 2026). _Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say._  
    https://www.reuters.com/world/china/pakistan-iran-explore-path-towards-new-talks-with-us-china-initiated-push-2026-07-24/
 
-2. Ministry of Foreign Affairs, Government of Pakistan. (23 de julio de 2026). *Transcript of the Press Briefing by the Spokesperson on Thursday 23rd July 2026.*  
+2. Ministry of Foreign Affairs, Government of Pakistan. (23 de julio de 2026). _Transcript of the Press Briefing by the Spokesperson on Thursday 23rd July 2026._  
    https://mofa.gov.pk/press-releases/transcript-of-the-press-briefing-by-the-spokesperson-on-thursday-23rd-july-2026
 
-3. Global Times. (24–25 de julio de 2026). *Chinese Foreign Minister urges early resumption of talks on Gulf tensions; Iran thanks China for peace efforts.*  
+3. Global Times. (24–25 de julio de 2026). _Chinese Foreign Minister urges early resumption of talks on Gulf tensions; Iran thanks China for peace efforts._  
    https://www.globaltimes.cn/page/202607/1366754.shtml
 
-4. China Daily. (25 de julio de 2026). *Iran-US deal should not be left to die: Wang Yi.*  
+4. China Daily. (25 de julio de 2026). _Iran-US deal should not be left to die: Wang Yi._  
    https://global.chinadaily.com.cn/a/202607/25/WS6a641dd9a310986e2b467417.html
 
-5. TASS. (27 de julio de 2026). *No talks underway with US, message exchange possible via mediators — Iranian MFA.*  
+5. TASS. (27 de julio de 2026). _No talks underway with US, message exchange possible via mediators — Iranian MFA._  
    https://tass.com/world/2165827
 
-6. Escobar, P. (22 de julio de 2026). *Exclusive: Iran–Pakistan, what is really happening in the diplomatic front.* Strategic Culture Foundation.  
+6. Escobar, P. (22 de julio de 2026). _Exclusive: Iran–Pakistan, what is really happening in the diplomatic front._ Strategic Culture Foundation.  
    https://strategic-culture.su/news/2026/07/22/exclusive-iran-pakistan-what-really-happening-in-diplomatic-front/
 
-7. Johnson, L. C. (28 de julio de 2026). *Is the Department of War Covering Up the True Extent of US Casualties?* Ron Paul Institute.  
+7. Johnson, L. C. (28 de julio de 2026). _Is the Department of War Covering Up the True Extent of US Casualties?_ Ron Paul Institute.  
    https://ronpaulinstitute.org/is-the-department-of-war-covering-up-the-true-extent-of-us-casualties/
 
-8. Crooke, A. (28 de julio de 2026). *The War’s Back is Broken.* Ron Paul Institute / Strategic Culture Foundation.  
+8. Crooke, A. (28 de julio de 2026). _The War’s Back is Broken._ Ron Paul Institute / Strategic Culture Foundation.  
    https://ronpaulinstitute.org/the-wars-back-is-broken/  
    https://strategic-culture.su/news/2026/07/28/the-wars-back-is-broken/
 
-9. Reuters. (17 de junio de 2026). *The 14-point US-Iran pact White House sent to Congress.*  
+9. Reuters. (17 de junio de 2026). _The 14-point US-Iran pact White House sent to Congress._  
    https://www.reuters.com/world/middle-east/14-point-draft-us-iran-deal-2026-06-17/
 
-10. Reuters. (24 de julio de 2026). *Oil falls on report China pushing for end US-Iran war.*  
+10. Reuters. (24 de julio de 2026). _Oil falls on report China pushing for end US-Iran war._  
     https://www.reuters.com/business/energy/oil-set-weekly-rise-amid-red-sea-shipping-attacks-kazakhstan-output-cuts-2026-07-24/
 
-11. Collins, A. M., & Loftus, E. F. (1975). A spreading-activation theory of semantic processing. *Psychological Review, 82*(6), 407–428.  
+11. Collins, A. M., & Loftus, E. F. (1975). A spreading-activation theory of semantic processing. _Psychological Review, 82_(6), 407–428.  
     Artículo completo disponible en la Biblioteca de archivos del proyecto.
 
 ---

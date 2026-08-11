@@ -1,3 +1,5 @@
+https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a6a3abb-cda8-83e8-a8ad-63386307d3cb
+
 # MÁQUINA MULTIDIMENSIONAL DE INTERPRETACIÓN DE EVENTOS
 
 **Acrónimo provisional:** MMIE  
@@ -1611,7 +1613,6 @@ validador_dialectico:
 
 ```yaml
 MMIE_instancia:
-
   identidad:
     id:
     nombre:
@@ -1760,15 +1761,15 @@ que Washington no ha cumplido plenamente.
 
 ## Comparación mediante la máquina
 
-| Campo | Versión A | Versión B |
-|---|---|---|
-| Punto de inicio | acciones regionales | incumplimiento del MOU |
-| Actor problemático | Irán | Estados Unidos |
-| Función de Pakistán | presionar a Irán | transmitir condiciones y restaurar cumplimiento |
-| Estado anterior supuesto | Irán abandonó la negociación | Washington interrumpió la implementación |
-| Red semántica | amenaza, proxies, contención | acuerdo, obligación, incumplimiento |
-| Emoción dominante | temor | agravio |
-| Solución | contener y negociar | cumplir antes de renegociar |
+| Campo                    | Versión A                    | Versión B                                       |
+| ------------------------ | ---------------------------- | ----------------------------------------------- |
+| Punto de inicio          | acciones regionales          | incumplimiento del MOU                          |
+| Actor problemático       | Irán                         | Estados Unidos                                  |
+| Función de Pakistán      | presionar a Irán             | transmitir condiciones y restaurar cumplimiento |
+| Estado anterior supuesto | Irán abandonó la negociación | Washington interrumpió la implementación        |
+| Red semántica            | amenaza, proxies, contención | acuerdo, obligación, incumplimiento             |
+| Emoción dominante        | temor                        | agravio                                         |
+| Solución                 | contener y negociar          | cumplir antes de renegociar                     |
 
 ## Resultado
 
@@ -1867,37 +1868,37 @@ serie_documental
 
 # 29. Referencias iniciales
 
-Bennett, W. L. (1990). Toward a theory of press-state relations in the United States. *Journal of Communication, 40*(2), 103–127. https://doi.org/10.1111/j.1460-2466.1990.tb02265.x
+Bennett, W. L. (1990). Toward a theory of press-state relations in the United States. _Journal of Communication, 40_(2), 103–127. https://doi.org/10.1111/j.1460-2466.1990.tb02265.x
 
-Bruner, J. (1991). The narrative construction of reality. *Critical Inquiry, 18*(1), 1–21. https://doi.org/10.1086/448619
+Bruner, J. (1991). The narrative construction of reality. _Critical Inquiry, 18_(1), 1–21. https://doi.org/10.1086/448619
 
-Collins, A. M., & Loftus, E. F. (1975). A spreading-activation theory of semantic processing. *Psychological Review, 82*(6), 407–428. https://doi.org/10.1037/0033-295X.82.6.407
+Collins, A. M., & Loftus, E. F. (1975). A spreading-activation theory of semantic processing. _Psychological Review, 82_(6), 407–428. https://doi.org/10.1037/0033-295X.82.6.407
 
-Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication, 43*(4), 51–58. https://doi.org/10.1111/j.1460-2466.1993.tb01304.x
+Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. _Journal of Communication, 43_(4), 51–58. https://doi.org/10.1111/j.1460-2466.1993.tb01304.x
 
-Fausey, C. M., & Boroditsky, L. (2010). Subtle linguistic cues influence perceived blame and financial liability. *Psychonomic Bulletin & Review, 17*, 644–650. https://doi.org/10.3758/PBR.17.5.644
+Fausey, C. M., & Boroditsky, L. (2010). Subtle linguistic cues influence perceived blame and financial liability. _Psychonomic Bulletin & Review, 17_, 644–650. https://doi.org/10.3758/PBR.17.5.644
 
-Fausey, C. M., Long, B. L., Inamori, A., & Boroditsky, L. (2010). Constructing agency: The role of language. *Frontiers in Psychology, 1*, 162. https://doi.org/10.3389/fpsyg.2010.00162
+Fausey, C. M., Long, B. L., Inamori, A., & Boroditsky, L. (2010). Constructing agency: The role of language. _Frontiers in Psychology, 1_, 162. https://doi.org/10.3389/fpsyg.2010.00162
 
-Gamson, W. A., Croteau, D., Hoynes, W., & Sasson, T. (1992). Media images and the social construction of reality. *Annual Review of Sociology, 18*, 373–393. https://doi.org/10.1146/annurev.so.18.080192.002105
+Gamson, W. A., Croteau, D., Hoynes, W., & Sasson, T. (1992). Media images and the social construction of reality. _Annual Review of Sociology, 18_, 373–393. https://doi.org/10.1146/annurev.so.18.080192.002105
 
-Herman, E. S., & Chomsky, N. (1988). *Manufacturing consent: The political economy of the mass media*. Pantheon Books.
+Herman, E. S., & Chomsky, N. (1988). _Manufacturing consent: The political economy of the mass media_. Pantheon Books.
 
-McCombs, M. E., & Shaw, D. L. (1972). The agenda-setting function of mass media. *Public Opinion Quarterly, 36*(2), 176–187. https://doi.org/10.1086/267990
+McCombs, M. E., & Shaw, D. L. (1972). The agenda-setting function of mass media. _Public Opinion Quarterly, 36_(2), 176–187. https://doi.org/10.1086/267990
 
-Rodriguez, L., & Dimitrova, D. V. (2011). The levels of visual framing. *Journal of Visual Literacy, 30*(1), 48–65. https://doi.org/10.1080/23796529.2011.11674684
+Rodriguez, L., & Dimitrova, D. V. (2011). The levels of visual framing. _Journal of Visual Literacy, 30_(1), 48–65. https://doi.org/10.1080/23796529.2011.11674684
 
-Stalnaker, R. C. (1974). Pragmatic presuppositions. In M. K. Munitz & P. K. Unger (Eds.), *Semantics and philosophy* (pp. 197–214). New York University Press.
+Stalnaker, R. C. (1974). Pragmatic presuppositions. In M. K. Munitz & P. K. Unger (Eds.), _Semantics and philosophy_ (pp. 197–214). New York University Press.
 
-Thibodeau, P. H., & Boroditsky, L. (2011). Metaphors we think with: The role of metaphor in reasoning. *PLoS ONE, 6*(2), e16782. https://doi.org/10.1371/journal.pone.0016782
+Thibodeau, P. H., & Boroditsky, L. (2011). Metaphors we think with: The role of metaphor in reasoning. _PLoS ONE, 6_(2), e16782. https://doi.org/10.1371/journal.pone.0016782
 
-van Dijk, T. A. (1993). Principles of critical discourse analysis. *Discourse & Society, 4*(2), 249–283. https://doi.org/10.1177/0957926593004002006
+van Dijk, T. A. (1993). Principles of critical discourse analysis. _Discourse & Society, 4_(2), 249–283. https://doi.org/10.1177/0957926593004002006
 
-Van Gorp, B. (2007). The constructionist approach to framing: Bringing culture back in. *Journal of Communication, 57*(1), 60–78. https://doi.org/10.1111/j.0021-9916.2007.00329.x
+Van Gorp, B. (2007). The constructionist approach to framing: Bringing culture back in. _Journal of Communication, 57_(1), 60–78. https://doi.org/10.1111/j.0021-9916.2007.00329.x
 
-White, P. R. R. (2003). Beyond modality and hedging: A dialogic view of the language of intersubjective stance. *Text, 23*(2), 259–284. https://doi.org/10.1515/text.2003.011
+White, P. R. R. (2003). Beyond modality and hedging: A dialogic view of the language of intersubjective stance. _Text, 23_(2), 259–284. https://doi.org/10.1515/text.2003.011
 
-Zwaan, R. A., Langston, M. C., & Graesser, A. C. (1995). The construction of situation models in narrative comprehension: An event-indexing model. *Psychological Science, 6*(5), 292–297. https://doi.org/10.1111/j.1467-9280.1995.tb00513.x
+Zwaan, R. A., Langston, M. C., & Graesser, A. C. (1995). The construction of situation models in narrative comprehension: An event-indexing model. _Psychological Science, 6_(5), 292–297. https://doi.org/10.1111/j.1467-9280.1995.tb00513.x
 
 ---
 

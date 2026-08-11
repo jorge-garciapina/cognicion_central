@@ -40,6 +40,9 @@ const DEFAULT_IGNORES = new Set([
   ".pdf",
 ]);
 
+// Extensiones de archivos que nunca deben incluirse en el artefacto.
+const DEFAULT_IGNORED_EXTENSIONS = new Set([".pdf"]);
+
 const TEXT_LIKE_EXT = new Set([
   // Código y config
   ".ts",
@@ -317,23 +320,59 @@ async function walk(dir, acc, gitignorePatterns) {
 
 function shouldIgnore(relPath, dirent, gitignorePatterns) {
   const base = path.basename(relPath);
+
+  // Omite carpetas y archivos excluidos por su nombre exacto.
   if (DEFAULT_IGNORES.has(base)) return true;
-  // Patrones simples del .gitignore (solo '*' y sufijos), sin librería externa.
+
+  // Omite archivos según su extensión.
+  // La extensión se normaliza a minúsculas, por lo que también excluye
+  // variantes como .PDF, .Pdf y .pDf.
+  if (dirent.isFile()) {
+    const extension = path.extname(base).toLowerCase();
+
+    if (DEFAULT_IGNORED_EXTENSIONS.has(extension)) {
+      return true;
+    }
+  }
+
+  // Patrones simples del .gitignore: admite '*' y sufijos.
   for (const p of gitignorePatterns) {
     if (p.endsWith("/")) {
-      // entrada de directorio
+      // Entrada correspondiente a un directorio.
       if (relPath.startsWith(p.slice(0, -1))) return true;
     } else if (p.includes("*")) {
       const re = new RegExp(
         "^" + p.split("*").map(escapeRegExp).join(".*") + "$",
       );
+
       if (re.test(toPosix(relPath))) return true;
     } else if (toPosix(relPath).startsWith(p)) {
       return true;
     }
   }
+
   return false;
 }
+
+// function shouldIgnore(relPath, dirent, gitignorePatterns) {
+//   const base = path.basename(relPath);
+//   if (DEFAULT_IGNORES.has(base)) return true;
+//   // Patrones simples del .gitignore (solo '*' y sufijos), sin librería externa.
+//   for (const p of gitignorePatterns) {
+//     if (p.endsWith("/")) {
+//       // entrada de directorio
+//       if (relPath.startsWith(p.slice(0, -1))) return true;
+//     } else if (p.includes("*")) {
+//       const re = new RegExp(
+//         "^" + p.split("*").map(escapeRegExp).join(".*") + "$",
+//       );
+//       if (re.test(toPosix(relPath))) return true;
+//     } else if (toPosix(relPath).startsWith(p)) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
 
 async function loadGitignore(root) {
   const p = path.join(root, ".gitignore");
