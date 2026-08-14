@@ -1,0 +1,298 @@
+{
+  "package_id": "PC-MCCR",
+  "version": "0.1.0",
+  "generated_at": "2026-08-14",
+  "canonical_status": "NON_CANONICAL",
+  "files": [
+    {
+      "path": "00_gobierno/01_ficha_del_paquete.md",
+      "bytes": 5129,
+      "sha256": "68bed8f8c86cbb1e33ebe400521fe58c24f4b0a53520c49f38576d039c1d0e62"
+    },
+    {
+      "path": "00_gobierno/02_autoridad_estado_y_versionado.md",
+      "bytes": 4820,
+      "sha256": "d316c1fbcf8a98638bbcc85dc3caa34209539dd127efc1ac2be8803bee323c5a"
+    },
+    {
+      "path": "00_gobierno/03_manifiesto_del_paquete.md",
+      "bytes": 10524,
+      "sha256": "85659ec3a93ad364bad639ebb07a3755b36bc6c16b6b60d1ced20e435d0cdd75"
+    },
+    {
+      "path": "00_gobierno/04_ubicacion_transversal_e_invocacion.md",
+      "bytes": 4689,
+      "sha256": "896a745d3f4f642e31cccda17f67356f899df73fcd558be759045c5fb36f92f7"
+    },
+    {
+      "path": "00_gobierno/05_invariantes_limites_y_no_equivalencias.md",
+      "bytes": 4701,
+      "sha256": "19d744172d04f385d144c5b8b49a0ce97b2131e0e72f0a3d16dedaa2e35de845"
+    },
+    {
+      "path": "01_nucleo/01_definicion_naturaleza_y_problema.md",
+      "bytes": 4910,
+      "sha256": "f76a121f31a5136f1777c9a1102600748c6de64c8943fe5b926c29e991c48b56"
+    },
+    {
+      "path": "01_nucleo/02_topologia_componentes_y_responsabilidades.md",
+      "bytes": 4881,
+      "sha256": "cbf09ed1b6e25fe258d753618dea6489e2d7316b4b936e082d67e3057b6f30dd"
+    },
+    {
+      "path": "01_nucleo/03_modelo_de_configuracion_operacional.md",
+      "bytes": 4828,
+      "sha256": "42805890328868e357c6a64e646154aec94c0d95dbef542a8b75748911a1d8da"
+    },
+    {
+      "path": "01_nucleo/04_modelo_de_solicitud_estructurada.md",
+      "bytes": 4519,
+      "sha256": "4984347ae711bc1e7919a1c5cf17191198909e356fc7883dd1ed495833b6a9c2"
+    },
+    {
+      "path": "01_nucleo/05_execution_plan_definicion_y_contrato.md",
+      "bytes": 4899,
+      "sha256": "f0544ff58d1cace89e2723b632480250c3b24603dd67f2f05f97a047d3e4d7a1"
+    },
+    {
+      "path": "01_nucleo/06_grafos_possible_available_active.md",
+      "bytes": 4716,
+      "sha256": "9c7175d74347632e6e040b1e2581c78ec942846d0ae771f7f6e0fa16fde5dd5c"
+    },
+    {
+      "path": "01_nucleo/07_subgrafo_chain_plan_y_composicion.md",
+      "bytes": 4848,
+      "sha256": "5d0f9683f831e41f974e5874aa45a7db216b5dd0be7f6285a502d4d6fd5f270c"
+    },
+    {
+      "path": "01_nucleo/08_glosario_notacion_y_bibliografia_de_procedencia.md",
+      "bytes": 4848,
+      "sha256": "ae2b40820754025a99609e70b050444f321470517fa0118c9d8b1d9324be072d"
+    },
+    {
+      "path": "02_modelo_operativo/01_ciclo_extremo_a_extremo.md",
+      "bytes": 4847,
+      "sha256": "5eaebfc0d03b51dedd08fd744270e4c1e9748566b8c03be6ed9e57f6e89b89c4"
+    },
+    {
+      "path": "02_modelo_operativo/02_pipeline_c0_c12.md",
+      "bytes": 5220,
+      "sha256": "37a793e56870a8c741d8a443a33888fc313366e01059003c91bea5e2e1693848"
+    },
+    {
+      "path": "02_modelo_operativo/03_c0_c3_ingreso_resolucion_capacidades_y_region_candidata.md",
+      "bytes": 5008,
+      "sha256": "243433fa06d176807f663297552055d33be977c82a97cc19b85b7edc496b10fa"
+    },
+    {
+      "path": "02_modelo_operativo/04_c4_formalizacion_de_restricciones.md",
+      "bytes": 4605,
+      "sha256": "0b4230abbbd50afc5f3d8d15f96f3c44ffe1fc178ebe91cf521f79b50f1467e0"
+    },
+    {
+      "path": "02_modelo_operativo/05_c5_poda_y_feasible_search_space.md",
+      "bytes": 4447,
+      "sha256": "c10319c89c170767d7e388029d4f38f6028e60f91e6d409546310e7a3079b8c0"
+    },
+    {
+      "path": "02_modelo_operativo/06_c6_c9_generacion_validacion_evaluacion_y_seleccion.md",
+      "bytes": 4374,
+      "sha256": "b1e4f37dec471f28566782adf6310366db9b00eda13bc58d296418e0ad2e16f4"
+    },
+    {
+      "path": "02_modelo_operativo/07_c10_c12_materializacion_prevalidacion_y_handoff.md",
+      "bytes": 4368,
+      "sha256": "519fd6a270c7c4af24139c3ef7521bb484060bdedd59788b4520485e50eb4734"
+    },
+    {
+      "path": "02_modelo_operativo/08_ciclo_execution_monitoring_event_state_update_replan_result.md",
+      "bytes": 4845,
+      "sha256": "a51be458c1e5c4af7bf69123d484ec857fdf77651772211ec36969cd9893c694"
+    },
+    {
+      "path": "02_modelo_operativo/09_replanificacion_estabilidad_y_costo_de_cambio.md",
+      "bytes": 4448,
+      "sha256": "c06ac807e6b7be0607677c116c278feabdaaa1b4ef186b5e35d4152642562629"
+    },
+    {
+      "path": "02_modelo_operativo/10_estados_y_maquina_de_estados_del_plan.md",
+      "bytes": 4409,
+      "sha256": "ee05943d38bcf7c94c4b53298c6c3beae3691fb10861c37ae85567ab0f0a52a1"
+    },
+    {
+      "path": "02_modelo_operativo/11_grados_de_formalizacion_y_guia_de_decision.md",
+      "bytes": 4325,
+      "sha256": "e5f226c3b22fb67b0f50c067726cc23cb4a9fa1bd3f1718b9872016aa4f429a4"
+    },
+    {
+      "path": "03_contratos/01_hard_constraints_y_reglas_no_negociables.md",
+      "bytes": 3982,
+      "sha256": "d41f5cbf9de0d2a7da980e019b7fd9c5145fa950f570a2744fcd50d011d78f55"
+    },
+    {
+      "path": "03_contratos/02_soft_objectives_preferencias_y_tradeoffs.md",
+      "bytes": 3865,
+      "sha256": "fbf3de4add82800a1d03b70672cc314332830f1d25b44659b7b1a006235c2331"
+    },
+    {
+      "path": "03_contratos/03_solver_router_y_seleccion_de_mecanismos.md",
+      "bytes": 4146,
+      "sha256": "591a94bb013a21cf02b752ad2a5f918ea24b5a5bd4deb73bbd5c6c35e054869f"
+    },
+    {
+      "path": "03_contratos/04_colaboracion_llm_grafos_reglas_y_validadores.md",
+      "bytes": 4726,
+      "sha256": "8241dd32c0ac341e75a942111c1a3bcee0b1206381f7bc5496b5bac875a9bb4e"
+    },
+    {
+      "path": "03_contratos/05_no_feasible_plan_fallos_y_degradacion.md",
+      "bytes": 4557,
+      "sha256": "1682c95273673939fb816bb242316fd830267e542984102ec1469cc38398a537"
+    },
+    {
+      "path": "03_contratos/06_trazabilidad_observabilidad_y_run_log.md",
+      "bytes": 4517,
+      "sha256": "9980b0475077492c73260ce8483942f5ca89b9e307fb05fadbc51ba47d4bc407"
+    },
+    {
+      "path": "03_contratos/07_autoridad_permisos_validadores_y_gates.md",
+      "bytes": 4471,
+      "sha256": "03241a5dd88c3969771bb7d5a2939b68798fb5fb7165e0cdd13cfc3c7f8aab19"
+    },
+    {
+      "path": "04_integraciones/01_registro_y_orquestador.md",
+      "bytes": 4601,
+      "sha256": "4650ebb57e4a4c1a12842b449a5f05b6f8e8bf583151214063b133a5d373b0eb"
+    },
+    {
+      "path": "04_integraciones/02_ac_hia_frontend_normalizacion_y_backend.md",
+      "bytes": 4872,
+      "sha256": "5c31fcec7ee3be7a946d02c60c6face12f84ef714140d5c98642f5b92818c85b"
+    },
+    {
+      "path": "04_integraciones/03_mtc.md",
+      "bytes": 4171,
+      "sha256": "f2e80bf8768defe6a1281a73a49d8dc8e54cc7cbc92bf6cc12142acbc5468a80"
+    },
+    {
+      "path": "04_integraciones/04_accd.md",
+      "bytes": 4673,
+      "sha256": "4d5900fc44ce930c3bc6070ee96c9bd28a8da9f0ca4fdad55fb3c16e19dfb688"
+    },
+    {
+      "path": "04_integraciones/05_capps_y_composicion.md",
+      "bytes": 4301,
+      "sha256": "fb9215f8ce5f2ef24892e32d80838aff779362096f245df6f3c367fc39f8ba34"
+    },
+    {
+      "path": "04_integraciones/06_validadores_y_runtime.md",
+      "bytes": 4409,
+      "sha256": "1ff251ead6db8cd115d51e78b1ce575e02cf9b5bc17426fe521d32e48416f76f"
+    },
+    {
+      "path": "04_integraciones/07_busqueda_cognitiva_y_recuperacion.md",
+      "bytes": 4352,
+      "sha256": "9a595969df811976f3d051742659158eaaebfdaa85c44d64953d77e1ec0e7d42"
+    },
+    {
+      "path": "05_ejemplos/00_metodologia_de_ejemplos_y_fixtures.md",
+      "bytes": 2952,
+      "sha256": "bf493169861601074803472cd0bc96468a4eae031e800b60b664078d7bb7009d"
+    },
+    {
+      "path": "05_ejemplos/01_fixture_accd_manifestacion_linguistica.md",
+      "bytes": 3415,
+      "sha256": "4f272aff20f44cc924c234aa08a56a4288bd01d438271038cd54b141c231e193"
+    },
+    {
+      "path": "05_ejemplos/02_fixture_accd_video_corto.md",
+      "bytes": 3547,
+      "sha256": "696bcea93da341730971c7479195e6abb6328e4144ed38317fe2d01b8c4d8630"
+    },
+    {
+      "path": "05_ejemplos/03_fixture_mtc_a_accd.md",
+      "bytes": 2979,
+      "sha256": "ab9729d2ec591f456e3f2df2c0379462fbcae56d31c045132d9262292018a6d5"
+    },
+    {
+      "path": "05_ejemplos/04_fixture_ac_hia_a_mccr.md",
+      "bytes": 2887,
+      "sha256": "50e9af84fd82b13175c760b29f0ee4bdcd61a0895d209011e45a185b693ba534"
+    },
+    {
+      "path": "05_ejemplos/05_fixture_capp_multichain.md",
+      "bytes": 3022,
+      "sha256": "e643067f2377eac88cef3413f9d10d76cf6802548749ec6db3c8f5086e1032a8"
+    },
+    {
+      "path": "05_ejemplos/06_fixture_no_feasible_plan.md",
+      "bytes": 2791,
+      "sha256": "f474fa259194cb2190b3beecbebc6751bc7db0a539ab1495ee3d667c782cc2c6"
+    },
+    {
+      "path": "05_ejemplos/07_fixture_replanificacion_por_evento.md",
+      "bytes": 2670,
+      "sha256": "5e880cce246634cc9a149891a167c9830e55188e794656a3f4bbfdbf5a25304b"
+    },
+    {
+      "path": "05_ejemplos/08_fixture_comparacion_de_planes_validos.md",
+      "bytes": 2396,
+      "sha256": "b4bd1f56dea8903b8f6b66514f6aeccb00beb27f06b4d566f968baf4260c7bd9"
+    },
+    {
+      "path": "05_ejemplos/09_superficie_de_descubrimiento_kill_web.md",
+      "bytes": 3023,
+      "sha256": "706b3c3183bbe1c5d31a69ee5a8b3ecba8d0b0c220b755ee7349569d9614f96e"
+    },
+    {
+      "path": "06_referencias/01_mapa_de_fuentes_internas.md",
+      "bytes": 5731,
+      "sha256": "b3903abdfa007667b33dfb0902df225b444b0a17f82d8e839598412993922301"
+    },
+    {
+      "path": "06_referencias/02_referencias_externas_y_antecedentes.md",
+      "bytes": 4384,
+      "sha256": "f8857e78536b8d8e54572c8875523d4fe9d326e65051cf7146e3129355f596a3"
+    },
+    {
+      "path": "06_referencias/03_mapa_de_correspondencias_con_cognicion_central.md",
+      "bytes": 5276,
+      "sha256": "588de0197b3d172edca97948ad0ffd60dbb0592761dfcdbcbd567fb076654488"
+    },
+    {
+      "path": "07_integracion_repositorio/01_ubicacion_final_y_rutas.md",
+      "bytes": 3903,
+      "sha256": "96ce637ed071319adbf09cb0bb7456d85769b22b25a80f4c564305fcc3821f5b"
+    },
+    {
+      "path": "07_integracion_repositorio/02_manifiesto_de_integracion.md",
+      "bytes": 4105,
+      "sha256": "00ebbac835ee1e7482054db2d70289061caf1d4800ddf450bc455cc1ca097513"
+    },
+    {
+      "path": "07_integracion_repositorio/03_patch_prompt_central_y_registro_de_capacidad.md",
+      "bytes": 4311,
+      "sha256": "c540d0167caa48bd36bc82649f3467593acc33f4595ce2fefdb3fc712e3b4372"
+    },
+    {
+      "path": "07_integracion_repositorio/04_instalacion_lectura_y_operacion_contextual.md",
+      "bytes": 4131,
+      "sha256": "dae159aaab465fa76bf2ea734e931c39cdbbf57a9fa08a71698d0c4b5fe49b6e"
+    },
+    {
+      "path": "07_integracion_repositorio/05_pruebas_y_criterios_de_aceptacion_v1.md",
+      "bytes": 4412,
+      "sha256": "59bcb90fc15584d38ad154efad7813e0883ce9fbe601eba76e93228f2d996c36"
+    },
+    {
+      "path": "07_integracion_repositorio/06_extensiones_opcionales_y_roadmap.md",
+      "bytes": 3879,
+      "sha256": "53de0f039624a825118a87b220474d5b1d496c87717698cfbddcf9cf991590b1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12171,
+      "sha256": "af90dcd89831fa0304caeaf4cf36a52bfdf5461ae5433f20fe5d9e5359429d70"
+    }
+  ]
+}
