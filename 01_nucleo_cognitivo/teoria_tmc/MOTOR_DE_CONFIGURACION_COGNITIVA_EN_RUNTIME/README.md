@@ -1,3 +1,6 @@
+CONVERSACIÓN ORIGEN:
+https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a7f4eb4-92f4-83e8-bc27-fe9081ef8d0a
+
 # Motor de Configuración Cognitiva en Runtime (MCCR)
 
 **Paquete:** `PC-MCCR`  
@@ -42,21 +45,21 @@ Humano: “Crea un borrador de guion ACCD de video corto y no lo persistas”. A
 
 ## Navegación rápida
 
-| Necesidad | Abrir |
-|---|---|
-| identidad/estado | `00_gobierno/01_ficha_del_paquete.md` |
-| invariantes y fronteras | `00_gobierno/05_invariantes_limites_y_no_equivalencias.md` |
-| definición nuclear | `01_nucleo/01_definicion_naturaleza_y_problema.md` |
-| solicitud de entrada | `01_nucleo/04_modelo_de_solicitud_estructurada.md` |
-| contrato del plan | `01_nucleo/05_execution_plan_definicion_y_contrato.md` |
-| proceso completo | `02_modelo_operativo/02_pipeline_c0_c12.md` |
-| hard constraints | `03_contratos/01_hard_constraints_y_reglas_no_negociables.md` |
-| no factibilidad | `03_contratos/05_no_feasible_plan_fallos_y_degradacion.md` |
-| integración AC-HIA | `04_integraciones/02_ac_hia_frontend_normalizacion_y_backend.md` |
-| ejemplos ejecutables | `05_ejemplos/00_metodologia_de_ejemplos_y_fixtures.md` |
-| fuentes y estados | `SOURCE_AUDIT.md` y `06_referencias/01_mapa_de_fuentes_internas.md` |
-| instalación contextual | `07_integracion_repositorio/04_instalacion_lectura_y_operacion_contextual.md` |
-| aceptación | `CROSS_VALIDATION_REPORT.md` |
+| Necesidad               | Abrir                                                                         |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| identidad/estado        | `00_gobierno/01_ficha_del_paquete.md`                                         |
+| invariantes y fronteras | `00_gobierno/05_invariantes_limites_y_no_equivalencias.md`                    |
+| definición nuclear      | `01_nucleo/01_definicion_naturaleza_y_problema.md`                            |
+| solicitud de entrada    | `01_nucleo/04_modelo_de_solicitud_estructurada.md`                            |
+| contrato del plan       | `01_nucleo/05_execution_plan_definicion_y_contrato.md`                        |
+| proceso completo        | `02_modelo_operativo/02_pipeline_c0_c12.md`                                   |
+| hard constraints        | `03_contratos/01_hard_constraints_y_reglas_no_negociables.md`                 |
+| no factibilidad         | `03_contratos/05_no_feasible_plan_fallos_y_degradacion.md`                    |
+| integración AC-HIA      | `04_integraciones/02_ac_hia_frontend_normalizacion_y_backend.md`              |
+| ejemplos ejecutables    | `05_ejemplos/00_metodologia_de_ejemplos_y_fixtures.md`                        |
+| fuentes y estados       | `SOURCE_AUDIT.md` y `06_referencias/01_mapa_de_fuentes_internas.md`           |
+| instalación contextual  | `07_integracion_repositorio/04_instalacion_lectura_y_operacion_contextual.md` |
+| aceptación              | `CROSS_VALIDATION_REPORT.md`                                                  |
 
 ## Regla de recuperación para IA
 

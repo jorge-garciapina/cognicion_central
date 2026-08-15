@@ -613,17 +613,6 @@ El humano conserva la autoridad de aceptación e integración.
 
 # 11. Scaffolding unificado
 
-Aunque un proceso experimental puede producir por separado:
-
-```text
-ZIP_A = árbol del paquete + guías
-ZIP_B = contexto + decisiones + protocolo
-```
-
-la forma recomendada de esta funcionalidad es un **SCAFFOLDING UNIFICADO**.
-
-Es decir:
-
 ```text
 UN SOLO ARTEFACTO
 =
@@ -633,15 +622,6 @@ CONTEXTO NECESARIO PARA CONSTRUIRLO
 +
 PROTOCOLO DE MATERIALIZACIÓN
 ```
-
-Esto disminuye el riesgo de:
-
-- entregar un ZIP y olvidar el otro;
-- usar versiones incompatibles;
-- separar las guías de las decisiones que las explican;
-- transferir la estructura a un agente sin su historia de diseño.
-
-Cuando por razones técnicas se generen varios archivos físicos, deben estar unidos por un manifiesto explícito y compartir un mismo identificador de construcción.
 
 ---
 
