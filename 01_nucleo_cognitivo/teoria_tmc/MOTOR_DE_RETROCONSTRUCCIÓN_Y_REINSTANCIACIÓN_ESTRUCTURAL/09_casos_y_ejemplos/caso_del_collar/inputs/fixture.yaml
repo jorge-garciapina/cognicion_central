@@ -1,0 +1,11 @@
+schema_version: "0.1.0"
+fixture_id: FX-COLLAR-01
+input_mode: source_references
+source_paths:
+  - ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/30_especializaciones/30_fraude_collar.md
+  - ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/05_fixture/01_fraude_collar_mtc_output.md
+  - ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/05_fixture/02_fraude_collar_construccion_conceptual.md
+  - ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/05_fixture/03_fraude_collar_trazabilidad.md
+  - ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/05_fixture/04_fraude_collar_validacion.md
+authorized_scope: [navigate, retroconstruct, compare, reinstate, validate]
+restrictions: [preserve_source_identity, no_psychological_state_as_fact, no_historical_vocabulary_binding]

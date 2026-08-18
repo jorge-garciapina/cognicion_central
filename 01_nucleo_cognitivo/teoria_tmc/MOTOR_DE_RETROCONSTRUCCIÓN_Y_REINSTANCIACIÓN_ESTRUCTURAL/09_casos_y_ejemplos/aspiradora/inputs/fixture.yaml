@@ -1,0 +1,10 @@
+schema_version: "0.1.0"
+fixture_id: FX-VACUUM-01
+synthetic: true
+manifestations:
+  - id: vacuum_explanation
+    text: "El motor hace girar un ventilador. El movimiento del ventilador contribuye a una diferencia de presión que produce flujo de aire. Ese flujo transporta partículas hacia el filtro y el depósito. Llamar succión a todo el proceso puede ocultar esas relaciones."
+authorized_scope: [navigate, retroconstruct, compare, validate]
+target_resolution: [document, sentence, clause, word]
+focus_word: succión
+

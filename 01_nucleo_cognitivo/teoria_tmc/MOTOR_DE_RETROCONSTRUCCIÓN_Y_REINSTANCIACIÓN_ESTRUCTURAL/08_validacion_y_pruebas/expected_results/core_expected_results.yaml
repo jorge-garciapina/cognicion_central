@@ -1,0 +1,13 @@
+schema_version: "0.1.0"
+expected_results:
+  - id: ER-RETROCONSTRUCTION-CORE
+    required: [case_spec, carrier_preserved, multiscale_units, subgraph_relations, tested_chain_set, candidate_architecture, material_alternative_or_justification, structural_skeleton, bidirectional_trace]
+    forbidden: [author_intent_as_fact, projected_equals_activated, untraced_causality]
+    maximum_certainty: design_hypothesis
+    tolerated_failures: [optional_observer_unavailable]
+    thresholds: {trace_forward: 1.0, trace_backward: 1.0, forbidden_inventions: 0}
+  - id: ER-REINSTANTIATION-CORE
+    required: [case_spec, separate_retrieval_equivalence_binding, explicit_gaps, structure_preservation_diff_by_role_edge_chain_invariant, reentry_recovers_target_skeleton]
+    forbidden: [lexical_binding_only, silent_slot_invention, critical_invariant_loss]
+    alternatives_allowed: true
+    thresholds: {critical_invariants_preserved: 1.0, forbidden_inventions: 0}

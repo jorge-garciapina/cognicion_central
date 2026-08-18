@@ -1,0 +1,85 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:cognicion-central:mrre:structural-skeleton:0.1.0"
+title: MRRE Structural Skeleton
+type: object
+additionalProperties: true
+required: [schema_version, skeleton_id, source_architecture_refs, roles, relations, invariants, variation_domain, sufficiency_conditions, provenance]
+properties:
+  schema_version: {const: "0.1.0"}
+  skeleton_id: {type: string}
+  status: {type: string, enum: [candidate, reviewed, validated_in_domain, superseded]}
+  family_candidates:
+    type: array
+    items: {type: string}
+  allows_new_family: {type: boolean, const: true}
+  source_architecture_refs:
+    type: array
+    minItems: 1
+    items: {type: string}
+  roles:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      additionalProperties: true
+      required: [role_id, function, cardinality, required_relations]
+      properties:
+        role_id: {type: string}
+        function: {type: string}
+        cardinality: {type: string}
+        required_relations: {type: array, items: {type: string}}
+        admissibility_constraints: {type: array, items: {type: string}}
+  relations:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [relation_id, source_role_ref, target_role_ref, relation_type, necessity]
+      properties:
+        relation_id: {type: string}
+        source_role_ref: {type: string}
+        target_role_ref: {type: string}
+        relation_type: {type: string}
+        necessity: {type: string, enum: [invariant, required, optional, contextual, hypothetical]}
+        order_or_guard: {type: [object, "null"], additionalProperties: true}
+  topology:
+    type: object
+    additionalProperties: true
+    properties:
+      routes: {type: array, items: {type: object, additionalProperties: true}}
+      cut_sets: {type: array, items: {type: object, additionalProperties: true}}
+      connectedness_requirement: {type: [string, "null"]}
+  invariants:
+    type: array
+    minItems: 1
+    items: {type: object, required: [invariant_id, statement, validator_ref, criticality], additionalProperties: true}
+  variation_domain:
+    type: array
+    items: {type: object, required: [variable, allowed_changes, forbidden_changes], additionalProperties: true}
+  valid_contexts:
+    type: array
+    items: {type: object, additionalProperties: true}
+  sufficiency_conditions:
+    type: array
+    minItems: 1
+    items: {type: object, required: [condition_id, rule], additionalProperties: true}
+  gaps:
+    type: array
+    items: {type: object, required: [gap_id, impact], additionalProperties: true}
+  alternatives:
+    type: array
+    items: {type: object, required: [alternative_id, difference], additionalProperties: true}
+  confidence:
+    type: object
+    required: [value, method, scope]
+    properties:
+      value: {type: number, minimum: 0, maximum: 1}
+      method: {type: string}
+      scope: {type: string}
+  provenance:
+    type: object
+    required: [trace_refs, abstraction_operations]
+    properties:
+      trace_refs: {type: array, minItems: 1, items: {type: string}}
+      abstraction_operations: {type: array, items: {type: string}}
+

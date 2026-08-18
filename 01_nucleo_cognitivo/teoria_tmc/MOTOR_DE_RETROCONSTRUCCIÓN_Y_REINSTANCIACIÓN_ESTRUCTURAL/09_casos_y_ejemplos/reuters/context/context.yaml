@@ -1,0 +1,8 @@
+case_id: CASE-REUTERS-CUTS
+domain: event_field
+purpose: compare_oriented_cuts
+identity_policy: evidence_required
+source_status: synthetic_structural_fixture
+expected_shared_entities: [P, C]
+context_non_interchangeability: true
+

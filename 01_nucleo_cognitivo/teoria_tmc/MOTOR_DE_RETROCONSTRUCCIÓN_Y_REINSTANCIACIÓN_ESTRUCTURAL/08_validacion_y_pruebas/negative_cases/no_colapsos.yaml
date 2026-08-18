@@ -1,0 +1,33 @@
+schema_version: "0.1.0"
+catalog_test_ranges:
+  CAT_CS_01: [1, 10]
+  CAT_MRRE_02: [11, 27]
+  CAT_MRRE_03: [28, 37]
+  CAT_ASIOO_04: [38, 46]
+cases:
+  - {id: NEG-01, violation: source_material_mediation_reception_collapsed, expected: reject_and_relayer}
+  - {id: NEG-02, violation: source_graph_cognitive_graph_bindings_collapsed, expected: reject_and_separate_graph_kinds}
+  - {id: NEG-03, violation: field_cut_contextual_instance_collapsed, expected: reject_and_restore_field}
+  - {id: NEG-04, violation: manifestation_equals_total_architecture, expected: degrade_to_candidate_with_missing_regions}
+  - {id: NEG-05, violation: sentence_equals_effect_subgraph, expected: expand_resolution}
+  - {id: NEG-06, violation: node_has_intrinsic_function_without_context, expected: recompute_situated_role}
+  - {id: NEG-07, violation: projected_realized_activated_collapsed, expected: separate_and_lower_epistemic_status}
+  - {id: NEG-08, violation: inference_serialized_as_observation, expected: ledger_block}
+  - {id: NEG-09, violation: retrieval_auto_authorizes_binding, expected: reopen_equivalence_and_gate}
+  - {id: NEG-10, violation: unbound_gap_filled_without_evidence, expected: forbidden_invention}
+  - {id: NEG-11, violation: feedback_equals_truth, expected: candidate_evidence_only}
+  - {id: NEG-12, violation: capability_claims_authority, expected: waiting_human_decision}
+  - {id: NEG-13, violation: configuration_executes_semantic_inference, expected: return_to_mrre_contract}
+  - {id: NEG-14, violation: single_example_defines_kernel, expected: multicorpus_required}
+  - {id: NEG-15, violation: output_auto_promoted_to_canon, expected: promotion_blocked}
+  - {id: NEG-16, violation: editorial_template_forced_as_skeleton, expected: new_type_candidate}
+  - {id: NEG-17, violation: verification_equals_validation, expected: require_purpose_evidence}
+  - {id: NEG-18, violation: lexical_similarity_equals_transfer, expected: contractual_rupture_test}
+  - {id: NEG-19, violation: action_treated_as_cognitive_state, expected: mtc_type_correction}
+  - {id: NEG-20, violation: processing_complexity_equals_governance, expected: separate_locus_and_authority}
+  - {id: NEG-21, violation: integration_without_scope_time_mission_authority, expected: fail_PAT_COG_117}
+  - {id: NEG-22, violation: possible_capacity_used_as_available, expected: fail_PAT_COG_118}
+  - {id: NEG-23, violation: representation_hides_losses, expected: fail_PAT_COG_120}
+  - {id: NEG-24, violation: link_transports_without_coordination_contract, expected: fail_PAT_COG_122}
+  - {id: NEG-25, violation: route_failure_declared_total_failure_despite_alternative, expected: replan_via_PAT_COG_129}
+

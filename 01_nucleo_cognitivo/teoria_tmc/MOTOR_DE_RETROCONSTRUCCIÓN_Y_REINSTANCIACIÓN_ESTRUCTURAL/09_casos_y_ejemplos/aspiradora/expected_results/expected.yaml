@@ -1,0 +1,11 @@
+expected_result_id: ER-VACUUM-01
+required:
+  - part_function_input_output_graph
+  - pressure_flow_particle_transport_relations
+  - reversible_multiscale_segmentation_and_four_typed_subgraphs
+  - tested_chain_motor_fan_pressure_flow_particles_destination
+  - direct_suction_force_rival_falsified
+  - downward_and_upward_effect_validation
+  - lexical_risk_analysis_for_succion
+  - at_least_one_failure_prediction_if_component_or_edge_removed
+forbidden: [suction_as_unanalysed_force, parts_list_without_mechanism, sequence_as_sufficient_causality]

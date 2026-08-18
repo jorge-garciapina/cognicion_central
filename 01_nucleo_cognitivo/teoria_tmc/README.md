@@ -20,3 +20,7 @@ El material preliminar sustituido o usado como guía de escritura se conserva en
 - **Salidas:** primitivas teóricas para cNodes, arquitecturas, métodos de transferencia y aplicaciones.
 - **Consumidores:** todo el núcleo, Ingeniería de Estructuras Cognitivas, BÚSQUEDA_COGNITIVA y diseños de cApps.
 - **Límite:** la teoría en desarrollo no prueba por sí misma una implementación ni concede vigencia a las copias contenidas en artefactos históricos.
+
+## Paquetes cognitivos materializados en este dominio
+
+- [`MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL`](MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/README.md): paquete `PC-MRRE@0.2.0` para retroconstrucción, detección/prueba de chains, comparación, triangulación y reinstanciación. Está materializado como especificación operable candidata de `COGNICIÓN_CENTRAL`, con [perfil de recuperación](MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/cognicion_central_mrre.md), [manifiesto agentivo](MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/MRRE_MANIFEST.yaml), manual P0–P13, schemas, dossiers reproducibles y validación documental; la promoción canónica permanece bajo autoridad humana.

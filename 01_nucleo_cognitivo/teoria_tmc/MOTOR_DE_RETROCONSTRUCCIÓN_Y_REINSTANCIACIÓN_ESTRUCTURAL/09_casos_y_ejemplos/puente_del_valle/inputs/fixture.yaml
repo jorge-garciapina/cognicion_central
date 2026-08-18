@@ -1,0 +1,10 @@
+schema_version: "0.1.0"
+fixture_id: FX-BRIDGE-01
+status: BLOCKED_SOURCE_PATH_PENDING
+required_source:
+  label: analisis-de-estructuras.pdf
+  path: null
+  authority: ATTACHED_SOURCE
+fallback_allowed: false
+authorized_behavior: [report_missing_source, preserve_question, do_not_invent]
+

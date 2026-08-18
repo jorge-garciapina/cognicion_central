@@ -1,0 +1,136 @@
+schema_version: "1.0"
+package:
+  id: PC-MRRE
+  name: MOTOR_DE_RETROCONSTRUCCION_Y_REINSTANCIACION_ESTRUCTURAL
+  display_name: Motor de Retroconstrucción y Reinstanciación Estructural
+  version: 0.2.0
+  status: MATERIALIZED_CANDIDATE_OPERABLE_SPEC
+  canonical: false
+  host: COGNICION_CENTRAL
+  authority: HUMAN
+  automatic_promotion: false
+
+entry_points:
+  bootstrap: como_leer_el_artefacto_adjunto.md
+  human: README.md
+  cognition_profile: cognicion_central_mrre.md
+  governance: 00_gobierno/01_ficha_del_paquete.md
+  protocol: 01_kernel_estable/07_protocolo_general_mrre.md
+  runtime_graph: 04_runtime/01_grafo_de_ejecucion.md
+  component_registry: 04_runtime/03_registro_de_componentes.yaml
+  pattern_index: 05_acervo_estructural/01_indice_federado_de_patrones_mrre.md
+  validation: 08_validacion_y_pruebas/01_plan_de_verificacion_y_validacion.md
+  agent_manual: 01_kernel_estable/09_manual_de_operacion_para_agentes.md
+  workbook: 03_protocolos_operacionales/07_libro_de_trabajo_y_algoritmos.md
+  citation_norm: 00_gobierno/06_norma_de_referencias_y_citacion.md
+  bibliography: 00_gobierno/07_bibliografia_cognicion_central.md
+  case_index: 09_casos_y_ejemplos/README.md
+
+operations:
+  - id: MRRE-OP-RETROCONSTRUCT
+    name: RETROCONSTRUIR
+    protocol: 03_protocolos_operacionales/02_retroconstruccion.md
+    required_capabilities: [FIELD_BUILD, CUT_BUILD, MULTISCALE_SEGMENT, SUBGRAPH_RECONSTRUCT, CHAIN_DETECT, SKELETON_INFER, TRACE, EPISTEMIC_LEDGER, VALIDATE]
+  - id: MRRE-OP-REINSTANTIATE
+    name: REINSTANCIAR
+    protocol: 03_protocolos_operacionales/04_reinstanciacion.md
+    required_capabilities: [FIELD_BUILD, CUT_BUILD, STRUCTURE_SELECT, REINSTANTIATE, TRACE, EPISTEMIC_LEDGER, VALIDATE]
+  - id: MRRE-OP-COMPARE
+    name: COMPARAR
+    protocol: 03_protocolos_operacionales/05_comparacion_y_transferencia.md
+    required_capabilities: [STRUCTURE_SELECT, TRACE, VALIDATE]
+  - id: MRRE-OP-TRIANGULATE
+    name: TRIANGULAR
+    protocol: 03_protocolos_operacionales/03_triangulacion_multimanifestacion.md
+    required_capabilities: [FIELD_BUILD, MULTISCALE_SEGMENT, SUBGRAPH_RECONSTRUCT, CHAIN_DETECT, TRACE, VALIDATE]
+  - id: MRRE-OP-VALIDATE
+    name: VALIDAR
+    protocol: 08_validacion_y_pruebas/01_plan_de_verificacion_y_validacion.md
+    required_capabilities: [VALIDATE, TRACE, EPISTEMIC_LEDGER]
+
+schemas:
+  - {id: MRRE-SCHEMA-MANIFESTATION, version: "0.1.0", file: 02_contratos_y_schemas/manifestation_input.schema.yaml}
+  - {id: MRRE-SCHEMA-FIELD-CUT, version: "0.1.0", file: 02_contratos_y_schemas/structural_field_and_cut.schema.yaml}
+  - {id: MRRE-SCHEMA-SUBGRAPH, version: "0.1.0", file: 02_contratos_y_schemas/reconstructed_subgraph.schema.yaml}
+  - {id: MRRE-SCHEMA-SKELETON, version: "0.1.0", file: 02_contratos_y_schemas/structural_skeleton.schema.yaml}
+  - {id: MRRE-SCHEMA-BINDING, version: "0.1.0", file: 02_contratos_y_schemas/reinstantiation_binding.schema.yaml}
+  - {id: MRRE-SCHEMA-TRACE, version: "0.1.0", file: 02_contratos_y_schemas/epistemic_trace.schema.yaml}
+  - {id: MRRE-SCHEMA-RESULT, version: "0.1.0", file: 02_contratos_y_schemas/mrre_result.schema.yaml}
+  - {id: MRRE-SCHEMA-CASE-SPEC, version: "0.2.0", file: 02_contratos_y_schemas/mrre_case_spec.schema.yaml}
+  - {id: MRRE-SCHEMA-SEGMENTATION, version: "0.2.0", file: 02_contratos_y_schemas/segmentation_graph.schema.yaml}
+  - {id: MRRE-SCHEMA-CHAIN-ARCHITECTURE, version: "0.2.0", file: 02_contratos_y_schemas/chain_and_candidate_architecture.schema.yaml}
+
+components:
+  registry: 04_runtime/03_registro_de_componentes.yaml
+  files:
+    - 04_runtime/componentes/01_field_builder.md
+    - 04_runtime/componentes/02_cut_engine.md
+    - 04_runtime/componentes/03_multiscale_segmenter.md
+    - 04_runtime/componentes/04_subgraph_reconstructor.md
+    - 04_runtime/componentes/05_skeleton_inferer.md
+    - 04_runtime/componentes/06_structure_selector.md
+    - 04_runtime/componentes/07_reinstantiation_engine.md
+    - 04_runtime/componentes/08_trace_graph.md
+    - 04_runtime/componentes/09_epistemic_ledger.md
+    - 04_runtime/componentes/10_validation_orchestrator.md
+    - 04_runtime/componentes/11_chain_architecture_assembler.md
+
+specializations:
+  - {id: SP-TEXT-RETROCONSTRUCTION, status: MATERIALIZED_SPEC, file: 06_especializaciones/01_retroconstruccion_textual.md, modalities: [text]}
+  - {id: SP-EVENT-FIELD, status: MATERIALIZED_SPEC, file: 06_especializaciones/02_campo_de_acontecimientos.md, modalities: [text, structured_data]}
+  - {id: SP-MECHANISM-EXPLANATION, status: MATERIALIZED_SPEC, file: 06_especializaciones/03_explicacion_de_mecanismos.md, modalities: [text, diagram]}
+  - {id: SP-ARGUMENT-MAP, status: MATERIALIZED_SPEC, file: 06_especializaciones/04_mapa_argumentativo.md, modalities: [text]}
+  - {id: SP-NARRATIVE-EXPOSITORY-PATH, status: MATERIALIZED_SPEC, file: 06_especializaciones/05_trayectoria_narrativa_expositiva.md, modalities: [text, sequence]}
+  - {id: SP-INSTRUCTIONAL-PROJECTION, status: MATERIALIZED_SPEC, file: 06_especializaciones/06_proyeccion_instruccional.md, modalities: [text, multimodal]}
+  - {id: SP-MULTIMODAL, status: MATERIALIZED_SPEC, file: 06_especializaciones/07_manifestaciones_multimodales.md, modalities: [image, sequence, audio, video, spa, composite]}
+
+examples:
+  - {id: CASE-MRRE-REUTERS, state: COMPLETED_REFERENCE_RUN, dossier: 09_casos_y_ejemplos/reuters/DOSSIER_OPERATIVO.md, run: 09_casos_y_ejemplos/reuters/runs/run_v0_2_0.yaml}
+  - {id: CASE-MRRE-COLLAR, state: COMPLETED_REFERENCE_RUN_MODEL_SCOPE, dossier: 09_casos_y_ejemplos/caso_del_collar/DOSSIER_OPERATIVO.md, run: 09_casos_y_ejemplos/caso_del_collar/runs/run_v0_2_0.yaml}
+  - {id: CASE-MRRE-VACUUM, state: COMPLETED_REFERENCE_RUN_SYNTHETIC, dossier: 09_casos_y_ejemplos/aspiradora/DOSSIER_OPERATIVO.md, run: 09_casos_y_ejemplos/aspiradora/runs/run_v0_2_0.yaml}
+  - {id: CASE-MRRE-MULTIMODAL, state: ALTERNATIVES_PENDING_REFERENCE_RUN, dossier: 09_casos_y_ejemplos/triangulacion_multimodal/DOSSIER_OPERATIVO.md, run: 09_casos_y_ejemplos/triangulacion_multimodal/runs/run_v0_2_0.yaml}
+  - {id: CASE-MRRE-BRIDGE, state: WAITING_SOURCE_REFERENCE_RUN, dossier: 09_casos_y_ejemplos/puente_del_valle/DOSSIER_OPERATIVO.md, run: 09_casos_y_ejemplos/puente_del_valle/runs/run_v0_2_0.yaml}
+
+integrations:
+  required:
+    - {id: AC-HIA, file: 07_integraciones/01_AC_HIA_MRRE.md}
+    - {id: MCCR, file: 07_integraciones/02_MCCR_MRRE.md}
+  optional:
+    - {id: MTC, file: 07_integraciones/03_MTC_MRRE.md}
+    - {id: ASIOO, file: 07_integraciones/04_ASIOO_MRRE.md}
+    - {id: CONSCIENCIA_Y_SOBERANIA, file: 07_integraciones/05_CONSCIENCIA_Y_SOBERANIA_MRRE.md}
+    - {id: ACCD, file: 07_integraciones/06_ACCD_MRRE.md}
+    - {id: APRENDIZAJE_ESTRUCTURAL, file: 07_integraciones/07_APRENDIZAJE_ESTRUCTURAL_MRRE.md}
+
+dependencies:
+  required:
+    - {id: COGNICION_CENTRAL_GOVERNANCE, kind: governance, adapter: direct_reference}
+    - {id: AC-HIA, kind: interaction_contract, adapter: 07_integraciones/01_AC_HIA_MRRE.md}
+    - {id: MCCR, kind: runtime_configuration, adapter: 07_integraciones/02_MCCR_MRRE.md}
+  optional:
+    - {id: MTC, kind: ontology_consumer, adapter: 07_integraciones/03_MTC_MRRE.md}
+    - {id: ACCD, kind: realization_consumer, adapter: 07_integraciones/06_ACCD_MRRE.md}
+    - {id: PIEA, kind: receiver_state_model, adapter: 07_integraciones/07_APRENDIZAJE_ESTRUCTURAL_MRRE.md}
+
+validation:
+  plan: 08_validacion_y_pruebas/01_plan_de_verificacion_y_validacion.md
+  metrics: 08_validacion_y_pruebas/02_metricas_y_umbrales.md
+  coverage: 08_validacion_y_pruebas/03_matriz_de_cobertura.md
+  materialization_report: 08_validacion_y_pruebas/VALIDACION_MATERIALIZACION_v0_1_0.md
+  documentation_operability: 08_validacion_y_pruebas/04_validacion_de_referencias_y_operabilidad.md
+  documentation_validator: 08_validacion_y_pruebas/scripts/validate_documentation.mjs
+  operability_report: 08_validacion_y_pruebas/VALIDACION_REVISION_OPERATIVA_v0_2_0.md
+  fixtures: 08_validacion_y_pruebas/fixtures
+  negative_cases: 08_validacion_y_pruebas/negative_cases
+  regression: 08_validacion_y_pruebas/regression
+
+artifacts:
+  root: 10_artefactos_generados
+  classes: [analisis, arquitecturas_retroconstruidas, reinstanciaciones, comparaciones, trazas]
+  persistence_implies_promotion: false
+
+compatibility:
+  mrre_scaffolding: "0.2.0"
+  mrre_operability_revision: "0.2.0"
+  pattern_catalogs: ["0.1.0", "0.2.0", "0.3.0", "0.4.0"]
+  breaking_change_requires_revalidation: true

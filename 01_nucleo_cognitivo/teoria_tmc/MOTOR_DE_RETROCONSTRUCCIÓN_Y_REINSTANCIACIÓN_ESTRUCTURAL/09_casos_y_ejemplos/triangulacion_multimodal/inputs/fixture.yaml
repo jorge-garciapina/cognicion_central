@@ -1,0 +1,17 @@
+schema_version: "0.1.0"
+fixture_id: FX-MULTIMODAL-01
+synthetic: true
+manifestations:
+  - {id: text_1, modality: text, content: "La configuración permanece estable durante el intervalo."}
+  - id: visual_sequence_metadata
+    modality: sequence
+    frames:
+      - {frame: 1, shape: circle, color: blue, position: left}
+      - {frame: 2, shape: circle, color: blue, position: center}
+      - {frame: 3, shape: circle, color: blue, position: right}
+pending_attached_sources: [theme_visual_video_4.pdf, secuencia_de_imagenes.pdf, EC06, EC07, EC10, EC12]
+candidate_local_sources_not_identity_confirmed:
+  - ../../../../../../03_aplicaciones/campos_atencionales/videos_youtube/hydilae/guiones/video-4/imagenes/prompts_de_generacion/EC06_PROMPTS_IMAGENES.md
+  - ../../../../../../03_aplicaciones/campos_atencionales/videos_youtube/hydilae/guiones/video-4/imagenes/prompts_de_generacion/EC07_PROMPTS_RECURSOS_VISUALES.md
+  - ../../../../../../03_aplicaciones/campos_atencionales/videos_youtube/hydilae/guiones/video-4/imagenes/prompts_de_generacion/EC10_PROMPTS.md
+restrictions: [no_visual_to_text_auto_translation, preserve_modality_provenance]

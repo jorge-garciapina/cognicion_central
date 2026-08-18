@@ -1,0 +1,174 @@
+schema_version: "0.1.0"
+registry_id: MRRE-COMPONENT-REGISTRY
+package_version: 0.2.0
+selection_model: "G_possible -> G_available(t) -> G_active(Q_t) -> execution_plan"
+default_status: available_if_dependencies_pass
+components:
+  - id: MRRE-FIELD-BUILDER
+    version: 0.1.0
+    file: componentes/01_field_builder.md
+    capability: FIELD_BUILD
+    operations: [RETROCONSTRUIR, REINSTANCIAR, TRIANGULAR]
+    inputs: [manifestation_input]
+    outputs: [structural_field_and_cut]
+    dependencies: [MRRE-TRACE-GRAPH, MRRE-EPISTEMIC-LEDGER]
+    modalities: [text, image, sequence, audio, video, spa, behavior_record, structured_data, composite]
+    cost_class: medium
+    risk_class: epistemic_high
+    gates: [HG_SOURCE, HG_SCOPE]
+    failure_modes: [SOURCE_ABSENT, CONTEXT_CONFLICT, INCOMPLETE_NAVIGATION]
+    validators: [V_FIELD_IDENTITY, V_SOURCE_BINDING, V_CONTEXT_SEPARATION]
+  - id: MRRE-CUT-ENGINE
+    version: 0.1.0
+    file: componentes/02_cut_engine.md
+    capability: CUT_BUILD
+    operations: [RETROCONSTRUIR, REINSTANCIAR]
+    inputs: [structural_field_and_cut, expected_result]
+    outputs: [structural_field_and_cut]
+    dependencies: [MRRE-FIELD-BUILDER, MRRE-TRACE-GRAPH]
+    modalities: [any]
+    cost_class: low
+    risk_class: semantic_medium
+    gates: [HG_SCOPE]
+    failure_modes: [INVALID_EXPECTED_RESULT, IRREVERSIBLE_CUT]
+    validators: [V_CUT_REVERSIBILITY, V_OMISSION_JUSTIFICATION]
+  - id: MRRE-MULTISCALE-SEGMENTER
+    version: 0.1.0
+    file: componentes/03_multiscale_segmenter.md
+    capability: MULTISCALE_SEGMENT
+    operations: [RETROCONSTRUIR, TRIANGULAR]
+    inputs: [manifestation_input]
+    outputs: [segmentation_graph]
+    dependencies: [MRRE-TRACE-GRAPH]
+    modalities: [text, image, sequence, audio, video, spa, composite]
+    cost_class: medium
+    risk_class: structural_medium
+    gates: []
+    failure_modes: [UNSUPPORTED_MODALITY, UNSTABLE_BOUNDARY]
+    validators: [V_SPAN_REVERSIBILITY, V_HIERARCHY]
+  - id: MRRE-SUBGRAPH-RECONSTRUCTOR
+    version: 0.1.0
+    file: componentes/04_subgraph_reconstructor.md
+    capability: SUBGRAPH_RECONSTRUCT
+    operations: [RETROCONSTRUIR, TRIANGULAR]
+    inputs: [segmentation_graph, structural_field_and_cut]
+    outputs: [reconstructed_subgraph]
+    dependencies: [MRRE-MULTISCALE-SEGMENTER, MRRE-TRACE-GRAPH, MRRE-EPISTEMIC-LEDGER]
+    modalities: [any_supported_by_segmenter]
+    cost_class: high
+    risk_class: abductive_high
+    gates: [HG_INFERENCE]
+    failure_modes: [INSUFFICIENT_RELATIONAL_EVIDENCE, UNSUPPORTED_CAUSALITY]
+    validators: [V_SUBGRAPH_RELATIONALITY, V_ALTERNATIVES, V_CAUSAL_BOUNDARY]
+  - id: MRRE-SKELETON-INFERER
+    version: 0.1.0
+    file: componentes/05_skeleton_inferer.md
+    capability: SKELETON_INFER
+    operations: [RETROCONSTRUIR, COMPARAR]
+    inputs: [chain_and_candidate_architecture]
+    outputs: [structural_skeleton]
+    dependencies: [MRRE-CHAIN-ARCHITECTURE-ASSEMBLER, MRRE-TRACE-GRAPH, MRRE-EPISTEMIC-LEDGER]
+    modalities: [any]
+    cost_class: high
+    risk_class: abstraction_high
+    gates: []
+    failure_modes: [OVERFIT_SKELETON, PREMATURE_TYPOLOGY]
+    validators: [V_ABSTRACTION_TRACE, V_VARIATION_DOMAIN, V_NEW_TYPE_ALLOWED]
+  - id: MRRE-CHAIN-ARCHITECTURE-ASSEMBLER
+    version: 0.2.0
+    file: componentes/11_chain_architecture_assembler.md
+    capability: CHAIN_DETECT
+    operations: [RETROCONSTRUIR, TRIANGULAR, COMPARAR]
+    inputs: [reconstructed_subgraph, structural_field_and_cut]
+    outputs: [chain_and_candidate_architecture]
+    dependencies: [MRRE-SUBGRAPH-RECONSTRUCTOR, MRRE-TRACE-GRAPH, MRRE-EPISTEMIC-LEDGER]
+    modalities: [any]
+    cost_class: high
+    risk_class: causal_and_topological_high
+    gates: [HG_INFERENCE]
+    failure_modes: [NO_PATH_WITH_EVIDENCE, UNSUPPORTED_CHAIN_TYPE, SPURIOUS_SEQUENCE, CRITICAL_EDGE_FALSIFIED]
+    validators: [V_CHAIN_EDGE_EVIDENCE, V_CHAIN_REMOVAL, V_TOPOLOGY_PRESERVATION, V_MATERIAL_ALTERNATIVE]
+  - id: MRRE-STRUCTURE-SELECTOR
+    version: 0.1.0
+    file: componentes/06_structure_selector.md
+    capability: STRUCTURE_SELECT
+    operations: [REINSTANCIAR, COMPARAR]
+    inputs: [structural_skeleton, structural_field_and_cut, federated_pattern_index]
+    outputs: [reinstantiation_binding]
+    dependencies: [MRRE-FIELD-BUILDER, MRRE-TRACE-GRAPH]
+    modalities: [any]
+    cost_class: medium
+    risk_class: binding_high
+    gates: [HG_BINDING]
+    failure_modes: [NO_VALID_BINDING, LEXICAL_MATCH_ONLY]
+    validators: [V_RETRIEVAL_EQUIVALENCE_BINDING_SEPARATION, V_CONTRACTUAL_EQUIVALENCE]
+  - id: MRRE-REINSTANTIATION-ENGINE
+    version: 0.1.0
+    file: componentes/07_reinstantiation_engine.md
+    capability: REINSTANTIATE
+    operations: [REINSTANCIAR]
+    inputs: [structural_skeleton, reinstantiation_binding]
+    outputs: [reinstantiation, structure_preservation_diff]
+    dependencies: [MRRE-STRUCTURE-SELECTOR, MRRE-VALIDATION-ORCHESTRATOR, MRRE-TRACE-GRAPH]
+    modalities: [any]
+    cost_class: high
+    risk_class: generation_high
+    gates: [HG_BINDING, HG_CONSUMER]
+    failure_modes: [FORBIDDEN_INVENTION, INVARIANT_LOSS]
+    validators: [V_STRUCTURE_PRESERVATION, V_REENTRY]
+  - id: MRRE-TRACE-GRAPH
+    version: 0.1.0
+    file: componentes/08_trace_graph.md
+    capability: TRACE
+    operations: [ALL]
+    inputs: [any_artifact_or_event]
+    outputs: [epistemic_trace]
+    dependencies: []
+    modalities: [any]
+    cost_class: low
+    risk_class: critical
+    gates: []
+    failure_modes: [BROKEN_TRACE]
+    validators: [V_FORWARD_TRACE, V_BACKWARD_TRACE]
+  - id: MRRE-EPISTEMIC-LEDGER
+    version: 0.1.0
+    file: componentes/09_epistemic_ledger.md
+    capability: EPISTEMIC_LEDGER
+    operations: [ALL]
+    inputs: [claim_or_decision]
+    outputs: [epistemic_status_record]
+    dependencies: [MRRE-TRACE-GRAPH]
+    modalities: [any]
+    cost_class: low
+    risk_class: critical
+    gates: [HG_PROMOTE]
+    failure_modes: [EPISTEMIC_CLASS_COLLAPSE, UNAUTHORIZED_PROMOTION]
+    validators: [V_EPISTEMIC_CLASS, V_PROMOTION_AUTHORITY]
+  - id: MRRE-VALIDATION-ORCHESTRATOR
+    version: 0.1.0
+    file: componentes/10_validation_orchestrator.md
+    capability: VALIDATE
+    operations: [ALL]
+    inputs: [any_mrre_artifact, acceptance_criteria]
+    outputs: [validation_result]
+    dependencies: [MRRE-TRACE-GRAPH, MRRE-EPISTEMIC-LEDGER]
+    modalities: [any]
+    cost_class: medium
+    risk_class: critical
+    gates: [HG_PROMOTE]
+    failure_modes: [VALIDATOR_FAILED, INSUFFICIENT_EVIDENCE]
+    validators: [V_VALIDATOR_DEPENDENCIES, V_EVIDENCE_SUFFICIENCY, V_AUTHORIZATION_SEPARATION]
+observability:
+  required_events: [COMPONENT_SELECTED, COMPONENT_STARTED, COMPONENT_OUTPUT, COMPONENT_FAILED, VALIDATOR_RESULT, HUMAN_GATE]
+  run_log_adapter: ../07_integraciones/02_MCCR_MRRE.md
+compatibility:
+  manifestation_input: 0.1.0
+  structural_field_and_cut: 0.1.0
+  reconstructed_subgraph: 0.1.0
+  mrre_case_spec: 0.2.0
+  segmentation_graph: 0.2.0
+  chain_and_candidate_architecture: 0.2.0
+  structural_skeleton: 0.1.0
+  reinstantiation_binding: 0.1.0
+  epistemic_trace: 0.1.0
+  mrre_result: 0.1.0

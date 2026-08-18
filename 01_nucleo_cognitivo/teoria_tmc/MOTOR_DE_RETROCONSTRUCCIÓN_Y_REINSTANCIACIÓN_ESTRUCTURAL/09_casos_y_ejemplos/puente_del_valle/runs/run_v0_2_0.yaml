@@ -1,0 +1,25 @@
+schema_version: "0.1.0"
+run_id: RUN-MRRE-BRIDGE-0.2.0
+case_ref: ../DOSSIER_OPERATIVO.md
+operation: RETROCONSTRUIR
+state: WAITING_SOURCE
+source:
+  label: analisis-de-estructuras.pdf
+  relative_path: null
+  integrity_status: MISSING
+failure:
+  id: FAIL-MRRE-SOURCE-ABSENT-01
+  type: SOURCE_ABSENT
+  severity: blocking
+  recoverable: true
+artifacts:
+  case_spec: PRESENT
+  manifestation_record: MISSING_CARRIER_RECORDED
+  field: NOT_CREATED
+  segmentation: NOT_CREATED
+  subgraphs: NOT_CREATED
+  chains: NOT_CREATED
+  architecture: NOT_CREATED
+  skeleton: NOT_CREATED
+resume_when: [relative_path_confirmed, file_readable, hash_recorded, scope_authorized]
+promotion_status: NOT_REQUESTED

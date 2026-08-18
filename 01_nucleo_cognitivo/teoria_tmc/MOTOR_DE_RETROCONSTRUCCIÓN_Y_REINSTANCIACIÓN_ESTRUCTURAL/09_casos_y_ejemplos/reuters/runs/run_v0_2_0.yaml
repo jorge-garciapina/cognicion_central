@@ -1,0 +1,30 @@
+schema_version: "0.1.0"
+run_id: RUN-MRRE-REUTERS-0.2.0
+case_ref: ../DOSSIER_OPERATIVO.md
+operations: [RETROCONSTRUIR, COMPARAR, REINSTANCIAR, VALIDAR]
+state: COMPLETED
+epistemic_ceiling: STRUCTURAL_INFERENCE
+source_bindings:
+  - id: CASE-SRC-REUTERS-V1
+    path: ../../../../../../03_aplicaciones/creacion_de_contenido/referencias_de_estilo/interpretacion_de_eventos/ejemplos_de_noticias/noticia-cambios_en_mandos_militares/unidad_de_analisis_1/noticiero-reuters-v1.md
+  - id: CASE-SRC-REUTERS-V2
+    path: ../../../../../../03_aplicaciones/creacion_de_contenido/referencias_de_estilo/interpretacion_de_eventos/ejemplos_de_noticias/noticia-cambios_en_mandos_militares/unidad_de_analisis_1/noticiero-reuters-v2.md
+artifacts:
+  field: FIELD-REUTERS-APPOINTMENT-01
+  cuts: [CUT-V1-PROFILE, CUT-V2-INSTITUTIONAL-CHANGE]
+  segmentation: ART-SEG-REUTERS-01
+  subgraphs: [SG-RTR-01, SG-RTR-02, SG-RTR-03, SG-RTR-04, SG-RTR-05, SG-RTR-06]
+  chains: [CH-V1-PROFILE-APPOINTMENT, CH-V2-INSTITUTIONAL-CHANGE]
+  architectures: [CA-RTR-01, CA-RTR-02]
+  skeleton: SK-RTR-CHANGE-WITH-VARIABLE-IDENTITY-01
+  binding: BND-RTR-INSTITUTO-DELTA-01
+  diff: DIFF-RTR-INSTITUTO-DELTA-01
+validation:
+  source_resolution: PASS
+  locator_reversibility: PASS
+  common_field: SUPPORTED_LOCAL
+  cut_differentiation: PASS
+  chain_removal_tests: PASS
+  reinstantiation_reentry: PASS_LOCAL
+  external_fact_validation: NOT_RUN
+promotion_status: NOT_REQUESTED

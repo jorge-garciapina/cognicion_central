@@ -1,0 +1,25 @@
+schema_version: "0.1.0"
+run_id: RUN-MRRE-COLLAR-0.2.0
+case_ref: ../DOSSIER_OPERATIVO.md
+operations: [RETROCONSTRUIR, COMPARAR, REINSTANCIAR, VALIDAR]
+state: COMPLETED
+epistemic_ceiling: MODEL_DERIVED
+source_bindings:
+  - {id: SRC-MTC-COLLAR, path: ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/30_especializaciones/30_fraude_collar.md}
+  - {id: CASE-SRC-COLLAR-MTC-OUTPUT, path: ../../../../MTC_MAQUINA_DE_TRANSDUCCION_COGNITIVA/adaptadores/ADAPTADOR_MTC_A_CONSTRUCCION_CONCEPTUAL_v0_1_0/05_fixture/01_fraude_collar_mtc_output.md}
+artifacts:
+  field: FIELD-COLLAR-MTC-01
+  subgraphs: [SG-COL-I-EC, SG-COL-EC-A, SG-COL-A-V, SG-COL-V-K, SG-COL-K-M, SG-COL-VERIFY]
+  chains: [CH-COL-TRANSDUCTION-01]
+  architectures: [CA-COL-01, CA-COL-RIVAL-01, CA-COL-RIVAL-02]
+  skeleton: SK-COL-MEDIATED-CAPABILITY-01
+  binding: BND-COL-PRIVILEGE-TEST-01
+  diff: DIFF-COL-PRIVILEGE-TEST-01
+validation:
+  traceability: PASS
+  non_collapse_state_action: PASS
+  non_collapse_capability_manifestation: PASS
+  context_required: PASS
+  removal_tests: PASS
+  historical_truth: NOT_RUN
+promotion_status: NOT_REQUESTED

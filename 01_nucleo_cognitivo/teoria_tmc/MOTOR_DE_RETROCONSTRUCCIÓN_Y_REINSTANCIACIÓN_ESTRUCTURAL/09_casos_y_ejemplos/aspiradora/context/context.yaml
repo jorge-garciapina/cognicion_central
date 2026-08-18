@@ -1,0 +1,6 @@
+case_id: CASE-VACUUM
+domain: mechanism_explanation
+purpose: test_multiscale_effect_and_causal_boundaries
+source_status: synthetic_mechanism_fixture
+causal_claims_require: [mechanism, conditions, alternatives]
+

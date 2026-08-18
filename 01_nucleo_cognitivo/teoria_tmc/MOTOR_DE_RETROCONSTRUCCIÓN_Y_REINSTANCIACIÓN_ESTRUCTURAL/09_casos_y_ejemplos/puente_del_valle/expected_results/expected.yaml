@@ -1,0 +1,5 @@
+expected_result_id: ER-BRIDGE-01
+current_expected_state: WAITING_SOURCE
+required_now: [typed_missing_source_failure, no_invented_physical_claims, preserved_future_test_contract]
+required_after_source: [loads_relations_constraints_failures_observability, reversible_segmentation, typed_subgraphs, tested_load_and_failure_chains, candidate_material_architectures, functional_skeleton, functional_mapping, metaphor_breaks, structure_preservation_diff]
+forbidden: [invented_pdf_path, literal_transfer_of_physical_terms_without_contract]

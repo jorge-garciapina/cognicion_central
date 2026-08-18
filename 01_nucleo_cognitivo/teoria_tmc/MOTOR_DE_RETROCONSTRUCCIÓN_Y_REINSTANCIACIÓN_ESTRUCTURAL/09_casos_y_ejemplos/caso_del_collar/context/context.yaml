@@ -1,0 +1,10 @@
+case_id: CASE-COLLAR
+domain: fraud_transduction
+purpose: reconstruct_and_test_transfer
+ontologies: [MRRE, MTC]
+authority: HUMAN
+consumer: human_review
+notes:
+  - prestige and collar must remain distinct roles
+  - MTC mappings must declare consumption_adaptation_or_analogy
+

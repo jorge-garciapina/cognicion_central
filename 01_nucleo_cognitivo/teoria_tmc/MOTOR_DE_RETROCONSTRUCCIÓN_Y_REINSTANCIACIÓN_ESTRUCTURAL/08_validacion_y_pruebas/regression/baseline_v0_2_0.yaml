@@ -1,0 +1,30 @@
+schema_version: "0.2.0"
+baseline_id: MRRE-BASELINE-OPERABILITY-0.2.0
+date: "2026-08-18"
+package_version: 0.2.0
+expected:
+  total_files: 150
+  markdown_files: 111
+  yaml_files: 38
+  validator_scripts: 1
+  documentation_validator: PASS
+  active_markdown_with_scientific_citation: 95
+  broken_relative_links: 0
+  external_cognition_central_link_occurrences: 170
+  unique_external_cognition_central_targets: 51
+  schemas_compiled: 10
+  manifest_missing_refs: 0
+  runtime_components: 11
+  runtime_capabilities: 11
+  case_dossiers: 5
+  case_runs: 5
+  federated_patterns: 130
+  historical_blobs_identical: 8
+  empty_files: 0
+  empty_directories: 0
+limits:
+  software_runtime_execution: NOT_RUN
+  bridge_source: PATH_PENDING_CONFIRMATION
+  attached_multimodal_sources: PARTIAL_PENDING
+  mermaid_semantic_render: NOT_RUN
+promotion_status: NOT_REQUESTED

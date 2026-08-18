@@ -1,0 +1,12 @@
+expected_result_id: ER-COLLAR-01
+required:
+  - typed_actor_belief_trust_resource_verification_temporal_manifestation_subgraphs
+  - principal_chain_I_EC_A_V_K_M_with_edge_evidence_and_removal_tests
+  - direct_causation_and_capability_manifestation_rivals_falsified
+  - MTC_MRRE_mapping_types
+  - at_least_one_alternative
+  - skeleton_with_transferable_roles
+  - structure_preservation_diff_for_new_object_candidate
+  - reentry_recovers_mediated_chain_and_non_collapses
+forbidden: [collar_equals_value, prestige_equals_material, inferred_mental_state_as_observation, lexical_copy_as_reinstantiation]
+max_certainty: structural_inference

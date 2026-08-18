@@ -1,0 +1,6 @@
+case_id: CASE-MULTIMODAL
+domain: cross_modal_triangulation
+purpose: distinguish_invariant_shape_color_from_transforming_position
+time_alignment: frame_order
+source_policy: synthetic_fixture_plus_pending_attached_sources
+

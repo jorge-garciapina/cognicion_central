@@ -1,0 +1,9 @@
+schema_version: "0.1.0"
+baseline_id: MRRE-BASELINE-0.1.0
+status: MATERIALIZATION_BASELINE_PENDING_EXECUTION
+package_version: 0.1.0
+required_suites: [schemas, components, runtime, epistemic, negative_cases, collar, reuters, aspiradora, source_pending_behavior]
+hard_invariants: [INV-MRRE-01, INV-MRRE-02, INV-MRRE-03, INV-MRRE-04, INV-MRRE-05, INV-MRRE-06, INV-MRRE-07, INV-MRRE-08, INV-MRRE-09, INV-MRRE-10, INV-MRRE-11, INV-MRRE-12, INV-MRRE-13, INV-MRRE-14, INV-MRRE-15, INV-MRRE-16]
+change_record_required: [version, cause, impacted_files, dependents, observed_diff, tolerances, test_results, human_decision]
+promotion_authority: HUMAN
+

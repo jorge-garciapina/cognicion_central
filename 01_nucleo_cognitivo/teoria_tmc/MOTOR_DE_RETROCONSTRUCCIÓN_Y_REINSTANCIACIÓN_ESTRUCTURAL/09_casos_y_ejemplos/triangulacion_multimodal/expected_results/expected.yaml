@@ -1,0 +1,12 @@
+expected_result_id: ER-MULTIMODAL-01
+required:
+  - separate_subgraph_per_modality
+  - position_invariance_and_claim_evaluation_chains_with_removal_tests
+  - at_least_three_identity_scope_architecture_alternatives
+  - invariant_candidates_shape_and_color
+  - transformation_candidate_position
+  - contradiction_between_textual_stability_and_visual_change_scoped_by_feature
+  - claim_support_loss_when_sequence_removed
+  - pending_sources_report
+  - candidate_local_sources_kept_separate_until_identity_confirmed
+forbidden: [all_visual_features_as_propositions, modality_evidence_fused_without_binding, pending_source_content_invented]

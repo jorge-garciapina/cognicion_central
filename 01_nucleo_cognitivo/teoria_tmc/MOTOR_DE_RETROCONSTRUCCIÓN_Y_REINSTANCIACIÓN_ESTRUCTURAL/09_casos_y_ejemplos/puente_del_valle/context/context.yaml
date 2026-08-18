@@ -1,0 +1,7 @@
+case_id: CASE-BRIDGE
+domain: engineering_to_cognitive_architecture_transfer
+purpose: distinguish_functional_mapping_from_metaphor
+available_source:
+  - ../../../../../../04_conocimiento_y_contexto/memoria_conceptual/incubacion-conceptual/ingenieria/kernel-de-ingenieria-1-1.txt
+blocked_by: analisis-de-estructuras.pdf_path_confirmation
+

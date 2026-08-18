@@ -1,0 +1,13 @@
+schema_version: "0.1.0"
+fixture_id: FX-REUTERS-01
+synthetic: true
+manifestations:
+  - id: reuters_v1_structural
+    text: "La persona P fue nombrada para el cargo C. Antes ocupó funciones A y B y participó en el acontecimiento H."
+    intended_test_cut: actor_profile
+  - id: reuters_v2_structural
+    text: "El consejo K nombró a la persona P para el cargo C, que estaba vacante desde la salida de Q."
+    intended_test_cut: institutional_change
+authorized_scope: [navigate, retroconstruct, compare, triangulate, validate]
+restrictions: [do_not_treat_as_news_evidence, preserve_common_field_hypothesis_as_refutable]
+

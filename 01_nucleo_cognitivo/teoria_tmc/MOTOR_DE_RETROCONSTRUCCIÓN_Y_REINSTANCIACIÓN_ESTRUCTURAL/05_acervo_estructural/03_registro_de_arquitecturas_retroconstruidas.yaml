@@ -1,0 +1,52 @@
+schema_version: "0.1.0"
+registry_id: MRRE-RETROCONSTRUCTED-ARCHITECTURES
+status: MATERIALIZED_EMPTY_REGISTRY
+promotion_authority: HUMAN
+stores_full_graphs: false
+artifact_root: ../10_artefactos_generados/arquitecturas_retroconstruidas
+rules:
+  - case_identity_is_not_architecture_identity
+  - architecture_identity_is_not_skeleton_identity
+  - shared_structure_does_not_merge_source_identities
+  - fixture_success_does_not_promote_pattern
+  - every_entry_requires_trace_and_version
+entry_schema:
+  required:
+    - architecture_id
+    - object_scope
+    - manifestation_refs
+    - source_refs
+    - version
+    - architecture_artifact_ref
+    - skeleton_refs
+    - modalities
+    - contexts
+    - confidence
+    - alternatives
+    - tests
+    - trace_refs
+    - status
+    - promotion
+  statuses:
+    - CANDIDATE
+    - REVIEWED
+    - VALIDATED_IN_DOMAIN
+    - FALSIFIED_LOCAL
+    - SUPERSEDED
+  promotion_states:
+    - NOT_REQUESTED
+    - WAITING_HUMAN_REVIEW
+    - REJECTED
+    - PROMOTED_TO_ACERVO
+entries: []
+seed_candidates:
+  - architecture_id: ARC-COLLAR-PENDING-RUN
+    case_ref: ../09_casos_y_ejemplos/caso_del_collar
+    status: NOT_EXECUTED
+  - architecture_id: ARC-REUTERS-PENDING-RUN
+    case_ref: ../09_casos_y_ejemplos/reuters
+    status: NOT_EXECUTED
+  - architecture_id: ARC-VACUUM-PENDING-RUN
+    case_ref: ../09_casos_y_ejemplos/aspiradora
+    status: NOT_EXECUTED
+

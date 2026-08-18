@@ -1,0 +1,20 @@
+schema_version: "0.1.0"
+run_id: RUN-MRRE-MULTIMODAL-0.2.0
+case_ref: ../DOSSIER_OPERATIVO.md
+operations: [TRIANGULAR, COMPARAR, VALIDAR]
+state: ALTERNATIVES_PENDING
+source_binding: ../inputs/fixture.yaml
+artifacts:
+  local_fields: [FIELD-TEXT-STABILITY-01, FIELD-SEQUENCE-MOTION-01]
+  federated_field: FIELD-MM-FEDERATED-01
+  subgraphs: [SG-MM-TEXT-01, SG-MM-SEQUENCE-01]
+  chains: [CH-MM-POSITION-01, CH-MM-INVARIANCE-01, CH-MM-CLAIM-EVALUATION-01]
+  architectures: [CA-MM-01, CA-MM-02, CA-MM-03]
+  skeleton: SK-MM-SCOPED-TRIANGULATION-01
+validation:
+  per_modality_provenance: PASS
+  identity_bridge: HYPOTHESIS
+  contradiction_scope: AMBIGUOUS
+  removal_tests: PASS
+  pending_source_content: NOT_USED
+promotion_status: NOT_REQUESTED

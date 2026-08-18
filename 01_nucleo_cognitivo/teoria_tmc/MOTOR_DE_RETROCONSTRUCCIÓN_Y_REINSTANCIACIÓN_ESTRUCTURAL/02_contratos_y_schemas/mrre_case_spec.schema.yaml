@@ -1,0 +1,52 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:cognicion-central:mrre:case-spec:0.2.0"
+title: MRRE Case Specification
+type: object
+additionalProperties: true
+required: [schema_version, case_id, request_id, run_id, operations, purpose, expected_result, authority, source_policy, epistemic_ceiling, termination]
+properties:
+  schema_version: {const: "0.2.0"}
+  case_id: {type: string, minLength: 1}
+  request_id: {type: string, minLength: 1}
+  run_id: {type: string, minLength: 1}
+  operations:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items: {type: string, enum: [RETROCONSTRUIR, REINSTANCIAR, COMPARAR, TRIANGULAR, VALIDAR]}
+  purpose: {type: string, minLength: 1}
+  expected_result:
+    type: object
+    required: [statement, acceptance_criteria, forbidden_shortcuts]
+    properties:
+      statement: {type: string, minLength: 1}
+      acceptance_criteria: {type: array, items: {type: string}}
+      forbidden_shortcuts: {type: array, items: {type: string}}
+  authority:
+    type: object
+    required: [source_scope, allowed_transformations, persistence_allowed, promotion_allowed]
+    properties:
+      source_scope: {type: array, items: {type: string}}
+      allowed_transformations: {type: array, items: {type: string}}
+      binding_authority: {type: string, enum: [HUMAN, PLAN, NONE]}
+      persistence_allowed: {type: boolean}
+      promotion_allowed: {type: boolean, const: false}
+  source_policy:
+    type: object
+    required: [required, optional, forbidden, missing_behavior]
+    properties:
+      required: {type: array, items: {type: string}}
+      optional: {type: array, items: {type: string}}
+      forbidden: {type: array, items: {type: string}}
+      missing_behavior: {type: string, enum: [WAITING_SOURCE, FAIL_TERMINAL, PARTIAL_WITHOUT_SOURCE]}
+  epistemic_ceiling:
+    type: string
+    enum: [OBSERVATION, SOURCE_ASSERTION, RECONSTRUCTION_CLOSE, STRUCTURAL_INFERENCE, DESIGN_HYPOTHESIS, RECEIVER_EVIDENCE]
+  target_resolutions: {type: array, items: {type: string}}
+  termination:
+    type: object
+    required: [complete_if, partial_if, fail_if]
+    properties:
+      complete_if: {type: array, items: {type: string}}
+      partial_if: {type: array, items: {type: string}}
+      fail_if: {type: array, items: {type: string}}

@@ -1,0 +1,11 @@
+schema_version: "0.1.0"
+fixtures:
+  - {id: FX-COLLAR-01, case: ../../09_casos_y_ejemplos/caso_del_collar, dossier: ../../09_casos_y_ejemplos/caso_del_collar/DOSSIER_OPERATIVO.md, run: ../../09_casos_y_ejemplos/caso_del_collar/runs/run_v0_2_0.yaml, status: REFERENCE_RUN_COMPLETE_MODEL_SCOPE, modalities: [text, structured_data]}
+  - {id: FX-REUTERS-01, case: ../../09_casos_y_ejemplos/reuters, dossier: ../../09_casos_y_ejemplos/reuters/DOSSIER_OPERATIVO.md, run: ../../09_casos_y_ejemplos/reuters/runs/run_v0_2_0.yaml, status: REFERENCE_RUN_COMPLETE_SOURCE_LINKED, modalities: [text]}
+  - {id: FX-VACUUM-01, case: ../../09_casos_y_ejemplos/aspiradora, dossier: ../../09_casos_y_ejemplos/aspiradora/DOSSIER_OPERATIVO.md, run: ../../09_casos_y_ejemplos/aspiradora/runs/run_v0_2_0.yaml, status: REFERENCE_RUN_COMPLETE_SYNTHETIC, modalities: [text, diagram]}
+  - {id: FX-BRIDGE-01, case: ../../09_casos_y_ejemplos/puente_del_valle, dossier: ../../09_casos_y_ejemplos/puente_del_valle/DOSSIER_OPERATIVO.md, run: ../../09_casos_y_ejemplos/puente_del_valle/runs/run_v0_2_0.yaml, status: REFERENCE_RUN_WAITING_SOURCE, modalities: [text, diagram]}
+  - {id: FX-MULTIMODAL-01, case: ../../09_casos_y_ejemplos/triangulacion_multimodal, dossier: ../../09_casos_y_ejemplos/triangulacion_multimodal/DOSSIER_OPERATIVO.md, run: ../../09_casos_y_ejemplos/triangulacion_multimodal/runs/run_v0_2_0.yaml, status: REFERENCE_RUN_ALTERNATIVES_PENDING, modalities: [text, image, sequence]}
+rules:
+  literal_unique_output_required: false
+  chat_context_required: false
+  examples_define_kernel: false

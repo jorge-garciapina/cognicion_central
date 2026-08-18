@@ -1,0 +1,21 @@
+schema_version: "0.1.0"
+run_id: RUN-MRRE-VACUUM-0.2.0
+case_ref: ../DOSSIER_OPERATIVO.md
+operations: [RETROCONSTRUIR, VALIDAR]
+state: COMPLETED
+source_binding: ../inputs/fixture.yaml
+artifacts:
+  field: FIELD-VACUUM-01
+  cuts: [CUT-VACUUM-MECHANISM, CUT-VACUUM-LEXICAL-RISK]
+  segmentation_units: 12
+  subgraphs: [SG-VAC-DRIVE, SG-VAC-PRESSURE-FLOW, SG-VAC-TRANSPORT-CAPTURE, SG-VAC-LEXICAL-COMPRESSION]
+  chains: [CH-VAC-MECHANISM-01]
+  architectures: [CA-VAC-01, CA-VAC-RIVAL-01]
+  skeleton: SK-VAC-MEDIATED-TRANSPORT-01
+validation:
+  source_recoverable: PASS
+  span_reversibility: PASS
+  causal_strength_preserved: PASS
+  chain_removal_tests: PASS
+  exhaustive_physical_model: NOT_CLAIMED
+promotion_status: NOT_REQUESTED

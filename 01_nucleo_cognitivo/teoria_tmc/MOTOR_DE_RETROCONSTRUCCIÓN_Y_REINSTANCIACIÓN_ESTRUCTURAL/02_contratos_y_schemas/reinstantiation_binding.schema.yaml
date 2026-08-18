@@ -1,0 +1,64 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:cognicion-central:mrre:reinstantiation-binding:0.1.0"
+title: MRRE Reinstantiation Binding Set
+type: object
+additionalProperties: true
+required: [schema_version, binding_set_id, skeleton_ref, new_field_ref, retrieval_events, equivalence_assessments, bindings, gaps, authority]
+properties:
+  schema_version: {const: "0.1.0"}
+  binding_set_id: {type: string}
+  skeleton_ref: {type: string}
+  new_field_ref: {type: string}
+  retrieval_events:
+    type: array
+    items:
+      type: object
+      required: [event_id, search_signature, candidate_refs, ranking_method]
+      properties:
+        event_id: {type: string}
+        search_signature: {type: object, additionalProperties: true}
+        candidate_refs: {type: array, items: {type: string}}
+        ranking_method: {type: string}
+        ranking_is_binding: {type: boolean, const: false}
+  equivalence_assessments:
+    type: array
+    items:
+      type: object
+      required: [assessment_id, candidate_ref, role_ref, equivalence_type, contract_tests, status]
+      properties:
+        assessment_id: {type: string}
+        candidate_ref: {type: string}
+        role_ref: {type: string}
+        equivalence_type: {type: string, enum: [functional, relational, topological, contextual, partial, incompatible]}
+        contract_tests: {type: array, minItems: 1, items: {type: object, additionalProperties: true}}
+        incompatibilities: {type: array, items: {type: string}}
+        status: {type: string, enum: [passes, fails, inconclusive]}
+  bindings:
+    type: array
+    items:
+      type: object
+      required: [binding_id, role_ref, material_ref, evidence_refs, decision_status, trace_refs]
+      properties:
+        binding_id: {type: string}
+        role_ref: {type: string}
+        material_ref: {type: string}
+        equivalence_assessment_ref: {type: string}
+        evidence_refs: {type: array, minItems: 1, items: {type: string}}
+        constraints: {type: array, items: {type: string}}
+        alternatives: {type: array, items: {type: string}}
+        decision_status: {type: string, enum: [proposed, approved, rejected, blocked, revoked]}
+        authority_ref: {type: [string, "null"]}
+        trace_refs: {type: array, minItems: 1, items: {type: string}}
+  gaps:
+    type: array
+    items: {type: object, required: [gap_id, role_ref, status, invention_forbidden], additionalProperties: true}
+  predicted_diff:
+    type: array
+    items: {type: object, required: [element_ref, expected_classification], additionalProperties: true}
+  authority:
+    type: object
+    required: [owner, critical_binding_gate]
+    properties:
+      owner: {type: string}
+      critical_binding_gate: {type: string, enum: [not_required, pending, approved, rejected]}
+

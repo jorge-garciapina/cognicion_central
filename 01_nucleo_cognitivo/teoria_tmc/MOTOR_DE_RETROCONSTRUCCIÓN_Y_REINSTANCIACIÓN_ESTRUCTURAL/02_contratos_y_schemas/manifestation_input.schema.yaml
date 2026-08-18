@@ -1,0 +1,91 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "urn:cognicion-central:mrre:manifestation-input:0.1.0"
+title: MRRE Manifestation Input
+description: Registra el portador observable sin sustituirlo por interpretación.
+type: object
+additionalProperties: true
+required: [schema_version, manifestation_id, modality, carrier, provenance, authorized_scope, observable_units]
+properties:
+  schema_version: {const: "0.1.0"}
+  manifestation_id: {type: string, minLength: 1}
+  modality:
+    type: string
+    enum: [text, image, sequence, audio, video, spa, behavior_record, structured_data, composite]
+  carrier:
+    type: object
+    additionalProperties: false
+    required: [representation, value]
+    properties:
+      representation: {type: string, enum: [inline, path, uri, blob_ref, content_address]}
+      value: {type: string, minLength: 1}
+      byte_length: {type: integer, minimum: 0}
+      media_type: {type: string}
+      hash:
+        type: object
+        required: [algorithm, value]
+        properties:
+          algorithm: {type: string, enum: [sha256, sha512, blake3, external]}
+          value: {type: string}
+  version: {type: string}
+  language: {type: [string, "null"]}
+  production_time: {type: [string, "null"], format: date-time}
+  reception_context:
+    type: object
+    additionalProperties: true
+  provenance:
+    type: object
+    required: [source_id, source_kind]
+    properties:
+      source_id: {type: string}
+      source_kind: {type: string, enum: [primary, secondary, derived, mixed, unknown]}
+      author_or_actor: {type: [string, "null"]}
+      retrieval_time: {type: [string, "null"], format: date-time}
+      license_or_restriction: {type: [string, "null"]}
+  authorized_scope:
+    type: object
+    required: [operations]
+    properties:
+      operations:
+        type: array
+        minItems: 1
+        items: {type: string, enum: [navigate, segment, retroconstruct, compare, triangulate, reinstate, validate]}
+      excluded_regions:
+        type: array
+        items: {type: string}
+      authority_ref: {type: string}
+  prior_transformations:
+    type: array
+    items:
+      type: object
+      required: [operation, output_ref]
+      properties:
+        operation: {type: string}
+        input_ref: {type: [string, "null"]}
+        output_ref: {type: string}
+        reversible: {type: boolean}
+  observable_units:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [unit_id, unit_kind, order, locator]
+      properties:
+        unit_id: {type: string}
+        unit_kind: {type: string}
+        order: {type: integer, minimum: 0}
+        locator: {type: object, additionalProperties: true}
+        parent_unit_ref: {type: [string, "null"]}
+        overlap_refs: {type: array, items: {type: string}}
+  constraints:
+    type: array
+    items: {type: object, additionalProperties: true}
+  metadata: {type: object, additionalProperties: true}
+examples:
+  - schema_version: "0.1.0"
+    manifestation_id: "M-TEXT-001"
+    modality: text
+    carrier: {representation: inline, value: "Texto observable"}
+    provenance: {source_id: "SRC-001", source_kind: primary}
+    authorized_scope: {operations: [segment, retroconstruct]}
+    observable_units: [{unit_id: "U0", unit_kind: document, order: 0, locator: {start: 0, end: 17}}]
+
