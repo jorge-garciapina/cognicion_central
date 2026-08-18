@@ -1,3 +1,5 @@
+https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0/c/6a7ce27c-e3a0-83e8-a4c6-ea876a04fce1
+
 # CATÁLOGO DE PATRONES DE DISEÑO COGNITIVO REUTILIZABLES — EXTENSIÓN
 
 **ID:** `INT-EXTENSION-CATALOGO-PATRONES-COGNITIVOS-TRANSFERIBLES-003`  
@@ -50,31 +52,31 @@ Una aplicación, una especialización o una arquitectura compuesta no recibe un 
 
 ## 0.1. Resultado de la depuración
 
-| Clase | Tratamiento en este documento |
-|---|---|
-| Patrón no cubierto por `PAT-COG-001…115` | Se formaliza como `PAT-COG-116…125`. |
-| Extensión que añade una responsabilidad nueva | Se formaliza y se explica su diferencia respecto del patrón vecino. |
-| Combinación de patrones existentes | Se registra como arquitectura compuesta, no como patrón nuevo. |
-| Aplicación a AISOO, MRRE, cognición humana, empresa, combate o comunicación | Se registra como especialización. |
-| Estructura ya presente en los documentos base | Sólo se referencia en el ledger de deduplicación. |
-| Hipótesis todavía insuficientemente definida | Se conserva como pregunta abierta, no como patrón. |
+| Clase                                                                       | Tratamiento en este documento                                       |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Patrón no cubierto por `PAT-COG-001…115`                                    | Se formaliza como `PAT-COG-116…125`.                                |
+| Extensión que añade una responsabilidad nueva                               | Se formaliza y se explica su diferencia respecto del patrón vecino. |
+| Combinación de patrones existentes                                          | Se registra como arquitectura compuesta, no como patrón nuevo.      |
+| Aplicación a AISOO, MRRE, cognición humana, empresa, combate o comunicación | Se registra como especialización.                                   |
+| Estructura ya presente en los documentos base                               | Sólo se referencia en el ledger de deduplicación.                   |
+| Hipótesis todavía insuficientemente definida                                | Se conserva como pregunta abierta, no como patrón.                  |
 
 ---
 
 # 1. ÍNDICE DE PATRONES NUEVOS
 
-| ID | Nombre | Responsabilidad diferencial |
-|---|---|---|
-| `PAT-COG-116` | Alineación función–información–coordinación | Exige tres grafos co-requeridos para producir capacidad. |
-| `PAT-COG-117` | Gradiente situado de integración | Sustituye la integración binaria por un perfil multidimensional, local y temporal. |
-| `PAT-COG-118` | Reducción progresiva del espacio de capacidades | Distingue posibilidad estructural, disponibilidad temporal y activación situada. |
-| `PAT-COG-119` | Estado compartido con vistas situadas | Coordina múltiples actores mediante un núcleo común sin imponer una vista idéntica. |
-| `PAT-COG-120` | Representación operable como compresión trazable | Declara qué se conserva, pierde, agrega e infiere al representar el mundo. |
-| `PAT-COG-121` | Capas funcionales con capacidades transversales | Modela dos ejes ortogonales: flujo por capas y soporte transversal. |
-| `PAT-COG-122` | Tejido de coordinación | Convierte conectividad, sincronización y handoff en capacidad arquitectónica. |
-| `PAT-COG-123` | Transformación semántica topológicamente distribuida | Permite que el significado se construya en fuente, mediación o receptor. |
-| `PAT-COG-124` | Intensidad de gobierno independiente del procesamiento | Separa complejidad de procesamiento y grado de gobierno reflexivo. |
-| `PAT-COG-125` | Plano de gobierno funcionalmente descompuesto | Distribuye responsabilidades de gobierno sin hacerlas desaparecer ni confundirlas con ejecución. |
+| ID            | Nombre                                                 | Responsabilidad diferencial                                                                      |
+| ------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `PAT-COG-116` | Alineación función–información–coordinación            | Exige tres grafos co-requeridos para producir capacidad.                                         |
+| `PAT-COG-117` | Gradiente situado de integración                       | Sustituye la integración binaria por un perfil multidimensional, local y temporal.               |
+| `PAT-COG-118` | Reducción progresiva del espacio de capacidades        | Distingue posibilidad estructural, disponibilidad temporal y activación situada.                 |
+| `PAT-COG-119` | Estado compartido con vistas situadas                  | Coordina múltiples actores mediante un núcleo común sin imponer una vista idéntica.              |
+| `PAT-COG-120` | Representación operable como compresión trazable       | Declara qué se conserva, pierde, agrega e infiere al representar el mundo.                       |
+| `PAT-COG-121` | Capas funcionales con capacidades transversales        | Modela dos ejes ortogonales: flujo por capas y soporte transversal.                              |
+| `PAT-COG-122` | Tejido de coordinación                                 | Convierte conectividad, sincronización y handoff en capacidad arquitectónica.                    |
+| `PAT-COG-123` | Transformación semántica topológicamente distribuida   | Permite que el significado se construya en fuente, mediación o receptor.                         |
+| `PAT-COG-124` | Intensidad de gobierno independiente del procesamiento | Separa complejidad de procesamiento y grado de gobierno reflexivo.                               |
+| `PAT-COG-125` | Plano de gobierno funcionalmente descompuesto          | Distribuye responsabilidades de gobierno sin hacerlas desaparecer ni confundirlas con ejecución. |
 
 ---
 
@@ -120,12 +122,12 @@ flowchart TB
 
 ## Contratos mínimos
 
-| Proyección | Pregunta que debe responder | Contenido mínimo |
-|---|---|---|
-| Grafo funcional | ¿Qué debe transformarse y en qué orden lógico? | funciones, dependencias, entradas, salidas y criterios de terminación |
-| Grafo de información | ¿Qué debe saber cada función para operar? | estados, señales, evidencia, procedencia, resolución y latencia |
-| Grafo de coordinación | ¿Cómo se relacionan los responsables? | autoridad, handoffs, sincronización, prioridad, veto y escalamiento |
-| Binding | ¿Qué nodo realiza qué función usando qué información y bajo qué relación? | asignación trazable y validable |
+| Proyección            | Pregunta que debe responder                                               | Contenido mínimo                                                      |
+| --------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Grafo funcional       | ¿Qué debe transformarse y en qué orden lógico?                            | funciones, dependencias, entradas, salidas y criterios de terminación |
+| Grafo de información  | ¿Qué debe saber cada función para operar?                                 | estados, señales, evidencia, procedencia, resolución y latencia       |
+| Grafo de coordinación | ¿Cómo se relacionan los responsables?                                     | autoridad, handoffs, sincronización, prioridad, veto y escalamiento   |
+| Binding               | ¿Qué nodo realiza qué función usando qué información y bajo qué relación? | asignación trazable y validable                                       |
 
 ## Invariantes
 
@@ -218,15 +220,15 @@ integration_profile:
 
 Los estados no forman necesariamente una secuencia rígida:
 
-| Estado | Significado operativo |
-|---|---|
-| `VISIBLE` | El componente puede ser localizado, pero todavía no existe compatibilidad probada. |
-| `INTEROPERABLE` | Puede intercambiar objetos o estados bajo un contrato. |
-| `AVAILABLE` | Está utilizable en el momento y contexto evaluados. |
-| `COORDINATED` | Tiene relaciones, autoridad y sincronización suficientes. |
-| `ACTIVE` | Participa en una chain o subgrafo concreto. |
-| `DEGRADED` | Conserva una parte explícita de su contribución bajo pérdida o restricción. |
-| `EXCLUDED` | No debe participar y existe una razón registrada. |
+| Estado          | Significado operativo                                                              |
+| --------------- | ---------------------------------------------------------------------------------- |
+| `VISIBLE`       | El componente puede ser localizado, pero todavía no existe compatibilidad probada. |
+| `INTEROPERABLE` | Puede intercambiar objetos o estados bajo un contrato.                             |
+| `AVAILABLE`     | Está utilizable en el momento y contexto evaluados.                                |
+| `COORDINATED`   | Tiene relaciones, autoridad y sincronización suficientes.                          |
+| `ACTIVE`        | Participa en una chain o subgrafo concreto.                                        |
+| `DEGRADED`      | Conserva una parte explícita de su contribución bajo pérdida o restricción.        |
+| `EXCLUDED`      | No debe participar y existe una razón registrada.                                  |
 
 ## Invariantes
 
@@ -442,17 +444,17 @@ flowchart TB
 
 ## Contrato de representación
 
-| Campo | Pregunta |
-|---|---|
-| `preserved` | ¿Qué propiedades o relaciones se conservan? |
-| `omitted` | ¿Qué se excluyó deliberadamente? |
-| `aggregated` | ¿Qué unidades se fusionaron o resumieron? |
-| `inferred` | ¿Qué no fue observado directamente? |
-| `uncertainty` | ¿Qué confianza, rango o alternativas permanecen? |
-| `provenance` | ¿De qué fuentes y transformaciones procede cada elemento? |
-| `temporal_validity` | ¿Durante cuánto tiempo puede tratarse como vigente? |
-| `decision_scope` | ¿Para qué decisiones es suficiente y para cuáles no? |
-| `known_unknowns` | ¿Qué ausencias relevantes están explícitamente registradas? |
+| Campo               | Pregunta                                                    |
+| ------------------- | ----------------------------------------------------------- |
+| `preserved`         | ¿Qué propiedades o relaciones se conservan?                 |
+| `omitted`           | ¿Qué se excluyó deliberadamente?                            |
+| `aggregated`        | ¿Qué unidades se fusionaron o resumieron?                   |
+| `inferred`          | ¿Qué no fue observado directamente?                         |
+| `uncertainty`       | ¿Qué confianza, rango o alternativas permanecen?            |
+| `provenance`        | ¿De qué fuentes y transformaciones procede cada elemento?   |
+| `temporal_validity` | ¿Durante cuánto tiempo puede tratarse como vigente?         |
+| `decision_scope`    | ¿Para qué decisiones es suficiente y para cuáles no?        |
+| `known_unknowns`    | ¿Qué ausencias relevantes están explícitamente registradas? |
 
 ## Invariantes
 
@@ -489,14 +491,14 @@ SISTEMA
 
 ## Matriz abstracta
 
-| Capa funcional | Responsabilidad principal | Capacidades transversales que pueden atravesarla |
-|---|---|---|
-| Orientación | doctrina, política, objetivos, entrenamiento | identidad, seguridad, auditoría |
-| Percepción | captar señales y estados | comunicaciones, tiempo, procedencia, resiliencia |
-| Información | normalizar, fusionar, clasificar | interoperabilidad, validación, observabilidad |
-| Gobierno / coordinación | priorizar, autorizar, configurar | autoridad, trazabilidad, escalamiento |
-| Ejecución | producir una acción o cambio | sincronización, seguridad, recursos, recuperación |
-| Evaluación | observar efecto y producir evidencia | métricas, memoria, aprendizaje, versionado |
+| Capa funcional          | Responsabilidad principal                    | Capacidades transversales que pueden atravesarla  |
+| ----------------------- | -------------------------------------------- | ------------------------------------------------- |
+| Orientación             | doctrina, política, objetivos, entrenamiento | identidad, seguridad, auditoría                   |
+| Percepción              | captar señales y estados                     | comunicaciones, tiempo, procedencia, resiliencia  |
+| Información             | normalizar, fusionar, clasificar             | interoperabilidad, validación, observabilidad     |
+| Gobierno / coordinación | priorizar, autorizar, configurar             | autoridad, trazabilidad, escalamiento             |
+| Ejecución               | producir una acción o cambio                 | sincronización, seguridad, recursos, recuperación |
+| Evaluación              | observar efecto y producir evidencia         | métricas, memoria, aprendizaje, versionado        |
 
 ## Invariantes
 
@@ -672,15 +674,15 @@ flowchart TB
 
 ## Dimensiones del perfil de gobierno
 
-| Dimensión | Baja gobernanza explícita | Gobernanza alta o explícita |
-|---|---|---|
-| Fuentes | ingreso por defecto | selección, procedencia y contraste |
-| Marcos | adopción implícita | identificación y comparación |
-| Criterios | no declarados | explícitos y revisables |
-| Validación | aceptación por fluidez o autoridad externa | evidencia y pruebas pertinentes |
-| Veto | ausente o inaccesible | mecanismo de inhibición operativo |
-| Actualización | inducida por exposición o hábito | política de cambio regulada |
-| Trazabilidad | difícil de reconstruir | decisiones y transformaciones registradas |
+| Dimensión     | Baja gobernanza explícita                  | Gobernanza alta o explícita               |
+| ------------- | ------------------------------------------ | ----------------------------------------- |
+| Fuentes       | ingreso por defecto                        | selección, procedencia y contraste        |
+| Marcos        | adopción implícita                         | identificación y comparación              |
+| Criterios     | no declarados                              | explícitos y revisables                   |
+| Validación    | aceptación por fluidez o autoridad externa | evidencia y pruebas pertinentes           |
+| Veto          | ausente o inaccesible                      | mecanismo de inhibición operativo         |
+| Actualización | inducida por exposición o hábito           | política de cambio regulada               |
+| Trazabilidad  | difícil de reconstruir                     | decisiones y transformaciones registradas |
 
 ## Invariantes
 
@@ -889,44 +891,44 @@ La arquitectura permite analizar cómo un colectivo obtiene explicaciones, marco
 
 ## 3.1. Especializaciones reconocidas en sistemas integrados
 
-| Estructura observada | Tratamiento correcto | Referencia |
-|---|---|---|
-| `CHAIN_DE_REALIDAD` transforma percepción, material y estado interno en conclusión, hábito, decisión o acción | Especialización de chain y trayectoria de estado | `PAT-COG-013`, `PAT-COG-049`, `PAT-COG-050` |
-| Consciencia reflexiva hace visibles, selecciona, inhibe, revisa y reconfigura chains | Especialización funcional de gobierno; no equivalencia neurocientífica | `PAT-COG-030`, `PAT-COG-032`, `PAT-COG-036`, `PAT-COG-124`, `PAT-COG-125` |
-| Administrador o comandante gobierna sin ejecutar cada microproceso | Aplicación de gobierno macro y ejecución distribuida | `PAT-COG-031`, `PAT-COG-062`, `PAT-COG-125` |
-| Integración graduada por misión y tiempo | Patrón nuevo | `PAT-COG-117` |
-| `G_possible → G_available(t) → G_active(Q_t) → Π_t` | Patrón nuevo, conectado con configuración runtime | `PAT-COG-118`, `PAT-COG-087` |
-| Datalink, bus o infraestructura de intercambio como mecanismo de coordinación | Patrón nuevo | `PAT-COG-122` |
-| Capas funcionales más comunicaciones, resiliencia, seguridad u observabilidad transversales | Patrón nuevo | `PAT-COG-121` |
-| Cuadro operacional común con vistas por función | Patrón nuevo | `PAT-COG-119`, `PAT-COG-120` |
-| Capacidad situada en un subgrafo y no en un nodo aislado | Aplicación ya cubierta | `PAT-COG-012` |
-| Chain como camino concreto dentro de una red mayor | Aplicación ya cubierta | `PAT-COG-013` |
-| cApp como capacidad reutilizable distinta de la chain activa | Aplicación ya cubierta | `PAT-COG-014`, `PAT-COG-013` |
-| Pérdida de nodos y reconstrucción de rutas | Aplicación de recomposición | `PAT-COG-046`, `PAT-COG-117`, `PAT-COG-118` |
+| Estructura observada                                                                                          | Tratamiento correcto                                                   | Referencia                                                                |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `CHAIN_DE_REALIDAD` transforma percepción, material y estado interno en conclusión, hábito, decisión o acción | Especialización de chain y trayectoria de estado                       | `PAT-COG-013`, `PAT-COG-049`, `PAT-COG-050`                               |
+| Consciencia reflexiva hace visibles, selecciona, inhibe, revisa y reconfigura chains                          | Especialización funcional de gobierno; no equivalencia neurocientífica | `PAT-COG-030`, `PAT-COG-032`, `PAT-COG-036`, `PAT-COG-124`, `PAT-COG-125` |
+| Administrador o comandante gobierna sin ejecutar cada microproceso                                            | Aplicación de gobierno macro y ejecución distribuida                   | `PAT-COG-031`, `PAT-COG-062`, `PAT-COG-125`                               |
+| Integración graduada por misión y tiempo                                                                      | Patrón nuevo                                                           | `PAT-COG-117`                                                             |
+| `G_possible → G_available(t) → G_active(Q_t) → Π_t`                                                           | Patrón nuevo, conectado con configuración runtime                      | `PAT-COG-118`, `PAT-COG-087`                                              |
+| Datalink, bus o infraestructura de intercambio como mecanismo de coordinación                                 | Patrón nuevo                                                           | `PAT-COG-122`                                                             |
+| Capas funcionales más comunicaciones, resiliencia, seguridad u observabilidad transversales                   | Patrón nuevo                                                           | `PAT-COG-121`                                                             |
+| Cuadro operacional común con vistas por función                                                               | Patrón nuevo                                                           | `PAT-COG-119`, `PAT-COG-120`                                              |
+| Capacidad situada en un subgrafo y no en un nodo aislado                                                      | Aplicación ya cubierta                                                 | `PAT-COG-012`                                                             |
+| Chain como camino concreto dentro de una red mayor                                                            | Aplicación ya cubierta                                                 | `PAT-COG-013`                                                             |
+| cApp como capacidad reutilizable distinta de la chain activa                                                  | Aplicación ya cubierta                                                 | `PAT-COG-014`, `PAT-COG-013`                                              |
+| Pérdida de nodos y reconstrucción de rutas                                                                    | Aplicación de recomposición                                            | `PAT-COG-046`, `PAT-COG-117`, `PAT-COG-118`                               |
 
 ## 3.2. Aplicaciones relacionadas con el scaffolding del MRRE
 
 El documento adjunto `CATALOGO_COMPLEMENTARIO_DE_PATRONES_DE_DISENO_COGNITIVO_REUTILIZABLES_v0_2_0(1).md` ya formaliza las estructuras provenientes del `SCAFFOLDING_MOTOR_DE_RETROCONSTRUCCION_Y_REINSTANCIACION_ESTRUCTURAL`. Por ello, aquí sólo se conservan correspondencias:
 
-| Estructura resaltada | Referencia, sin repetición |
-|---|---|
-| Aparato estable que produce estructuras particulares variables | `PAT-COG-064` |
-| Manifestación → arquitectura conceptual → esqueleto | `PAT-COG-065` |
-| Inducir antes de generar | `PAT-COG-066` |
-| Modelo base extraído de ejemplares | `PAT-COG-067`, `PAT-COG-100` |
-| Partes de una proyección con reglas propias | `PAT-COG-069`, `PAT-COG-070`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085` |
-| Contextos de fuente, corte, proyección, realización y recepción | `PAT-COG-092` |
-| Navegar el campo antes de declarar matching | `PAT-COG-076` |
-| Recuperación, equivalencia y binding como objetos distintos | `PAT-COG-077`, `PAT-COG-078` |
-| Hueco estructural explícito y alternativas sobrevivientes | `PAT-COG-079`, `PAT-COG-080`, `PAT-COG-103` |
-| Diff de preservación y reingreso de validación | `PAT-COG-081`, `PAT-COG-082` |
-| `identity_selection` como vista situada | `PAT-COG-083` |
-| Alineación del efecto desde unidad hasta totalidad | `PAT-COG-084` |
-| Estructuras cognitivas como operadores que relacionan nodos | `PAT-COG-085` |
-| Contratos entre análisis, proyección, realización y consumidores | `PAT-COG-086`, `PAT-COG-089`, `PAT-COG-090` |
-| Configurador transversal distinto del ejecutor semántico | `PAT-COG-087`, `PAT-COG-088` |
-| Red asociativa navegable hasta parte, span o palabra | `PAT-COG-072`, `PAT-COG-095` |
-| Scaffolding estructural y contextual transferible | `PAT-COG-109…115` |
+| Estructura resaltada                                             | Referencia, sin repetición                                                |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Aparato estable que produce estructuras particulares variables   | `PAT-COG-064`                                                             |
+| Manifestación → arquitectura conceptual → esqueleto              | `PAT-COG-065`                                                             |
+| Inducir antes de generar                                         | `PAT-COG-066`                                                             |
+| Modelo base extraído de ejemplares                               | `PAT-COG-067`, `PAT-COG-100`                                              |
+| Partes de una proyección con reglas propias                      | `PAT-COG-069`, `PAT-COG-070`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085` |
+| Contextos de fuente, corte, proyección, realización y recepción  | `PAT-COG-092`                                                             |
+| Navegar el campo antes de declarar matching                      | `PAT-COG-076`                                                             |
+| Recuperación, equivalencia y binding como objetos distintos      | `PAT-COG-077`, `PAT-COG-078`                                              |
+| Hueco estructural explícito y alternativas sobrevivientes        | `PAT-COG-079`, `PAT-COG-080`, `PAT-COG-103`                               |
+| Diff de preservación y reingreso de validación                   | `PAT-COG-081`, `PAT-COG-082`                                              |
+| `identity_selection` como vista situada                          | `PAT-COG-083`                                                             |
+| Alineación del efecto desde unidad hasta totalidad               | `PAT-COG-084`                                                             |
+| Estructuras cognitivas como operadores que relacionan nodos      | `PAT-COG-085`                                                             |
+| Contratos entre análisis, proyección, realización y consumidores | `PAT-COG-086`, `PAT-COG-089`, `PAT-COG-090`                               |
+| Configurador transversal distinto del ejecutor semántico         | `PAT-COG-087`, `PAT-COG-088`                                              |
+| Red asociativa navegable hasta parte, span o palabra             | `PAT-COG-072`, `PAT-COG-095`                                              |
+| Scaffolding estructural y contextual transferible                | `PAT-COG-109…115`                                                         |
 
 ---
 
@@ -934,126 +936,126 @@ El documento adjunto `CATALOGO_COMPLEMENTARIO_DE_PATRONES_DE_DISENO_COGNITIVO_RE
 
 Esta sección demuestra cobertura sin reproducir definiciones ya existentes.
 
-| Estructura resaltada o manifestada | Disposición | Referencia |
-|---|---|---|
-| `MENSAJE → MEMORIA`, `MENSAJE → EMOCIÓN`, `EVENTO → IDENTIDAD` convergen en interpretación y decisión | Ya catalogada | `PAT-COG-010` |
-| Fuentes múltiples → inspección de evidencia/marco/interés → criterio humano → interpretación revisable → acción → evidencia | Arquitectura compuesta ya catalogada | `PAT-COG-002`, `PAT-COG-038`, `PAT-COG-054` |
-| Fuente ≠ material ≠ canal ≠ mediación ≠ representación integrada | Ya catalogada | `PAT-COG-001` |
-| Material de Orden 1 ≠ material de Orden 2 | Ya catalogada | `PAT-COG-003` |
-| Una fuente puede suministrar hecho y marco en un paquete mixto | Ya catalogada | `PAT-COG-004`, `PAT-COG-009` |
-| Orden 2 puede construirse en fuente, mediación o receptor | Patrón nuevo | `PAT-COG-123` |
-| Canal transporta; mediador puede transformar | Precisión de una separación existente | `PAT-COG-001`, `PAT-COG-123` |
-| Receptor generalizado a individuo, organización, IA, equipo o módulo | Vocabulario y patrón ya existentes | `SISTEMA_RECEPTOR`, `PAT-COG-053` |
-| Integración pasiva ≠ ausencia de procesamiento | Patrón nuevo | `PAT-COG-124` |
-| Gobierno reflexivo mediante inspección, comparación, validación, veto y actualización | Ya catalogada; perfil ampliado | `PAT-COG-036`, `PAT-COG-054`, `PAT-COG-124` |
-| Locus de gobierno como entidad, conjunto o capacidad funcional | Ya catalogada | `PAT-COG-030` |
-| Responsabilidad de gobierno ≠ ejecución microscópica | Ya catalogada | `PAT-COG-031` |
-| Gobierno efectivo ≠ introspección total | Ya catalogada | `PAT-COG-032` |
-| Soberanía ≠ micromanagement | Ya catalogada | `PAT-COG-033` |
-| Capacidad ≠ autoridad | Ya catalogada | `PAT-COG-034` |
-| Opacidad microgenerativa ≠ opacidad de gobierno | Ya catalogada | `PAT-COG-035` |
-| Gobierno como haz de responsabilidades asignables | Patrón nuevo | `PAT-COG-125` |
-| Autoridad local bajo límites, gates y escalamiento | Composición existente | `PAT-COG-036`, `PAT-COG-062`, `PAT-COG-087` |
-| Cambio local / cambio de configuración / cambio de invariante requieren niveles distintos de autoridad | Composición existente | `PAT-COG-045`, `PAT-COG-087`, `PAT-COG-115` |
-| Protección del fin frente a optimización local | Ya catalogada | `PAT-COG-037` |
-| Consciencia como gobierno de chains de realidad | Especialización | `PAT-COG-013`, `PAT-COG-030`, `PAT-COG-124`, `PAT-COG-125` |
-| Heurística con generación interna parcialmente opaca | Ya catalogada | `PAT-COG-047`, `PAT-COG-035` |
-| Permeabilidad epistémica | Ya catalogada | `PAT-COG-040` |
-| Evento sólo se vuelve experiencia si cambia conducta o configuración futura | Ya catalogada | `PAT-COG-041` |
-| Feedback ≠ verdad | Ya catalogada | `PAT-COG-042` |
-| Premisa revisable vs bucle autocerrado | Ya catalogada | `PAT-COG-043` |
-| Adaptación dentro del dominio de variación sin pérdida de identidad | Ya catalogada | `PAT-COG-044`, `PAT-COG-045` |
-| Necesidad de sentido como demanda del receptor | Ya catalogada | `PAT-COG-058` |
-| Fuente de realidad | Ya catalogada | `PAT-COG-009` |
-| Orquestador de material cognitivo | Ya catalogada | `PAT-COG-055` |
-| Aprovisionamiento cognitivo colectivo | Arquitectura compuesta | `PAT-COG-053`, `PAT-COG-054`, sección 2.5 |
-| Soberanía humana de creación de realidad | Arquitectura compuesta | sección 2.3 |
-| Humano/administrador conserva fines; red distribuida ejecuta | Ya catalogada | `PAT-COG-062` |
-| IA como nodo interno ≠ IA como autoridad soberana | Aplicación de separación capacidad/autoridad | `PAT-COG-034`, `PAT-COG-062` |
-| Función–información–colaboración/coordinación | Patrón nuevo | `PAT-COG-116` |
-| Percepción distribuida → efecto coordinado/concentrado | Arquitectura compuesta | sección 2.1 |
-| Integración no binaria, localizada, temporal y dependiente de objetivo | Patrón nuevo | `PAT-COG-117` |
-| Posible → disponible → activo → plan | Patrón nuevo | `PAT-COG-118` |
-| Estado común más vistas por función | Patrón nuevo | `PAT-COG-119` |
-| Representación operable conserva y pierde partes del mundo | Patrón nuevo | `PAT-COG-120` |
-| Representación incompleta + confianza + riesgo + tiempo + objetivo | Extensión del contrato de representación y heurística | `PAT-COG-047`, `PAT-COG-073`, `PAT-COG-120` |
-| Capas funcionales con comunicaciones, resiliencia y otras capacidades transversales | Patrón nuevo | `PAT-COG-121` |
-| Datalink, bus o protocolo como mecanismo de coordinación | Patrón nuevo | `PAT-COG-122` |
-| Información correcta → nodo correcto → momento y resolución correctos | Ya catalogada | `PAT-COG-007` |
-| Validación antes de integración | Ya catalogada | `PAT-COG-006` |
-| Observación, inferencia, hipótesis, recomendación, decisión, orden y resultado como estados distintos | Ya catalogada | `PAT-COG-097`, `PAT-COG-108` |
-| Chain como camino funcional concreto | Ya catalogada | `PAT-COG-013` |
-| Capacidad emergente reside en un subgrafo | Ya catalogada | `PAT-COG-012` |
-| cApp ≠ chain | Distinción cubierta | `PAT-COG-014`, `PAT-COG-013` |
-| Chain específica ⊂ red o arquitectura de capacidades | Ya catalogada | `PAT-COG-013`, `PAT-COG-014` |
-| Reconfigurar una chain cuando falla un nodo | Ya catalogada | `PAT-COG-046` |
-| Capacidad del sistema mayor que una chain concreta | Arquitectura compuesta | sección 2.2 |
-| Misma forma en diferentes escalas | Ya catalogada | `PAT-COG-022`, `PAT-COG-023` |
-| Manifestación como corte parcial de una arquitectura mayor | Ya catalogada | `PAT-COG-015`, `PAT-COG-024` |
-| No atacar sólo la manifestación; reconstruir la arquitectura funcional | Arquitectura compuesta | sección 2.4 |
-| Operación como reconfiguración de grafo | Ya catalogada | `PAT-COG-020`, `PAT-COG-059` |
-| Cambio de fuente dominante en identidad o interpretación | Ya catalogada | `PAT-COG-021` |
-| Chain of action como trayectoria derivada de red | Ya catalogada | `PAT-COG-013` |
-| P0 y satélites como subgrafo retroconstruible de efecto | Ya catalogada | `PAT-COG-011`, `PAT-COG-012` |
-| Proposiciones satélite como nodos con función relativa | Ya catalogada y precisada | `PAT-COG-011`, `PAT-COG-070` |
-| Red proyectada → red realizada → red activada | Ya catalogada | `PAT-COG-016`, `PAT-COG-093` |
-| Red asociativa para cada parte e incluso cada palabra | Ya catalogada | `PAT-COG-072`, `PAT-COG-084`, `PAT-COG-095` |
-| Expected result selecciona corte o subgrafo | Ya catalogada | `PAT-COG-025` |
-| Dos realizaciones son cortes del mismo núcleo, no entidades con núcleo compartido | Ya catalogada | `PAT-COG-015`, `PAT-COG-025` |
-| Nodo puede cambiar de foco, satélite, puente o exclusión según el corte | Ya catalogada | `PAT-COG-070`, `PAT-COG-083` |
-| Proyección dividida en partes con reglas de selección, orden y efecto | Ya catalogada en la extensión MRRE | `PAT-COG-069`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085` |
-| Efecto local alineado ascendente y descendentemente con efecto global | Ya catalogada | `PAT-COG-084` |
-| Estructuras cognitivas relacionan nodos antes de la realización lingüística | Ya catalogada | `PAT-COG-085` |
-| Modelo base y aplicaciones hermanas producen configuraciones particulares | Ya catalogada | `PAT-COG-064`, `PAT-COG-089`, `PAT-COG-091` |
-| Campo de acontecimientos como especialización de un generador más general | Ya catalogada como especialización | `PAT-COG-064`, `PAT-COG-091` |
-| Scaffolding estructural + contextual y materialización diferida | Ya catalogada | `PAT-COG-109…115` |
+| Estructura resaltada o manifestada                                                                                          | Disposición                                           | Referencia                                                 |
+| --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| `MENSAJE → MEMORIA`, `MENSAJE → EMOCIÓN`, `EVENTO → IDENTIDAD` convergen en interpretación y decisión                       | Ya catalogada                                         | `PAT-COG-010`                                              |
+| Fuentes múltiples → inspección de evidencia/marco/interés → criterio humano → interpretación revisable → acción → evidencia | Arquitectura compuesta ya catalogada                  | `PAT-COG-002`, `PAT-COG-038`, `PAT-COG-054`                |
+| Fuente ≠ material ≠ canal ≠ mediación ≠ representación integrada                                                            | Ya catalogada                                         | `PAT-COG-001`                                              |
+| Material de Orden 1 ≠ material de Orden 2                                                                                   | Ya catalogada                                         | `PAT-COG-003`                                              |
+| Una fuente puede suministrar hecho y marco en un paquete mixto                                                              | Ya catalogada                                         | `PAT-COG-004`, `PAT-COG-009`                               |
+| Orden 2 puede construirse en fuente, mediación o receptor                                                                   | Patrón nuevo                                          | `PAT-COG-123`                                              |
+| Canal transporta; mediador puede transformar                                                                                | Precisión de una separación existente                 | `PAT-COG-001`, `PAT-COG-123`                               |
+| Receptor generalizado a individuo, organización, IA, equipo o módulo                                                        | Vocabulario y patrón ya existentes                    | `SISTEMA_RECEPTOR`, `PAT-COG-053`                          |
+| Integración pasiva ≠ ausencia de procesamiento                                                                              | Patrón nuevo                                          | `PAT-COG-124`                                              |
+| Gobierno reflexivo mediante inspección, comparación, validación, veto y actualización                                       | Ya catalogada; perfil ampliado                        | `PAT-COG-036`, `PAT-COG-054`, `PAT-COG-124`                |
+| Locus de gobierno como entidad, conjunto o capacidad funcional                                                              | Ya catalogada                                         | `PAT-COG-030`                                              |
+| Responsabilidad de gobierno ≠ ejecución microscópica                                                                        | Ya catalogada                                         | `PAT-COG-031`                                              |
+| Gobierno efectivo ≠ introspección total                                                                                     | Ya catalogada                                         | `PAT-COG-032`                                              |
+| Soberanía ≠ micromanagement                                                                                                 | Ya catalogada                                         | `PAT-COG-033`                                              |
+| Capacidad ≠ autoridad                                                                                                       | Ya catalogada                                         | `PAT-COG-034`                                              |
+| Opacidad microgenerativa ≠ opacidad de gobierno                                                                             | Ya catalogada                                         | `PAT-COG-035`                                              |
+| Gobierno como haz de responsabilidades asignables                                                                           | Patrón nuevo                                          | `PAT-COG-125`                                              |
+| Autoridad local bajo límites, gates y escalamiento                                                                          | Composición existente                                 | `PAT-COG-036`, `PAT-COG-062`, `PAT-COG-087`                |
+| Cambio local / cambio de configuración / cambio de invariante requieren niveles distintos de autoridad                      | Composición existente                                 | `PAT-COG-045`, `PAT-COG-087`, `PAT-COG-115`                |
+| Protección del fin frente a optimización local                                                                              | Ya catalogada                                         | `PAT-COG-037`                                              |
+| Consciencia como gobierno de chains de realidad                                                                             | Especialización                                       | `PAT-COG-013`, `PAT-COG-030`, `PAT-COG-124`, `PAT-COG-125` |
+| Heurística con generación interna parcialmente opaca                                                                        | Ya catalogada                                         | `PAT-COG-047`, `PAT-COG-035`                               |
+| Permeabilidad epistémica                                                                                                    | Ya catalogada                                         | `PAT-COG-040`                                              |
+| Evento sólo se vuelve experiencia si cambia conducta o configuración futura                                                 | Ya catalogada                                         | `PAT-COG-041`                                              |
+| Feedback ≠ verdad                                                                                                           | Ya catalogada                                         | `PAT-COG-042`                                              |
+| Premisa revisable vs bucle autocerrado                                                                                      | Ya catalogada                                         | `PAT-COG-043`                                              |
+| Adaptación dentro del dominio de variación sin pérdida de identidad                                                         | Ya catalogada                                         | `PAT-COG-044`, `PAT-COG-045`                               |
+| Necesidad de sentido como demanda del receptor                                                                              | Ya catalogada                                         | `PAT-COG-058`                                              |
+| Fuente de realidad                                                                                                          | Ya catalogada                                         | `PAT-COG-009`                                              |
+| Orquestador de material cognitivo                                                                                           | Ya catalogada                                         | `PAT-COG-055`                                              |
+| Aprovisionamiento cognitivo colectivo                                                                                       | Arquitectura compuesta                                | `PAT-COG-053`, `PAT-COG-054`, sección 2.5                  |
+| Soberanía humana de creación de realidad                                                                                    | Arquitectura compuesta                                | sección 2.3                                                |
+| Humano/administrador conserva fines; red distribuida ejecuta                                                                | Ya catalogada                                         | `PAT-COG-062`                                              |
+| IA como nodo interno ≠ IA como autoridad soberana                                                                           | Aplicación de separación capacidad/autoridad          | `PAT-COG-034`, `PAT-COG-062`                               |
+| Función–información–colaboración/coordinación                                                                               | Patrón nuevo                                          | `PAT-COG-116`                                              |
+| Percepción distribuida → efecto coordinado/concentrado                                                                      | Arquitectura compuesta                                | sección 2.1                                                |
+| Integración no binaria, localizada, temporal y dependiente de objetivo                                                      | Patrón nuevo                                          | `PAT-COG-117`                                              |
+| Posible → disponible → activo → plan                                                                                        | Patrón nuevo                                          | `PAT-COG-118`                                              |
+| Estado común más vistas por función                                                                                         | Patrón nuevo                                          | `PAT-COG-119`                                              |
+| Representación operable conserva y pierde partes del mundo                                                                  | Patrón nuevo                                          | `PAT-COG-120`                                              |
+| Representación incompleta + confianza + riesgo + tiempo + objetivo                                                          | Extensión del contrato de representación y heurística | `PAT-COG-047`, `PAT-COG-073`, `PAT-COG-120`                |
+| Capas funcionales con comunicaciones, resiliencia y otras capacidades transversales                                         | Patrón nuevo                                          | `PAT-COG-121`                                              |
+| Datalink, bus o protocolo como mecanismo de coordinación                                                                    | Patrón nuevo                                          | `PAT-COG-122`                                              |
+| Información correcta → nodo correcto → momento y resolución correctos                                                       | Ya catalogada                                         | `PAT-COG-007`                                              |
+| Validación antes de integración                                                                                             | Ya catalogada                                         | `PAT-COG-006`                                              |
+| Observación, inferencia, hipótesis, recomendación, decisión, orden y resultado como estados distintos                       | Ya catalogada                                         | `PAT-COG-097`, `PAT-COG-108`                               |
+| Chain como camino funcional concreto                                                                                        | Ya catalogada                                         | `PAT-COG-013`                                              |
+| Capacidad emergente reside en un subgrafo                                                                                   | Ya catalogada                                         | `PAT-COG-012`                                              |
+| cApp ≠ chain                                                                                                                | Distinción cubierta                                   | `PAT-COG-014`, `PAT-COG-013`                               |
+| Chain específica ⊂ red o arquitectura de capacidades                                                                        | Ya catalogada                                         | `PAT-COG-013`, `PAT-COG-014`                               |
+| Reconfigurar una chain cuando falla un nodo                                                                                 | Ya catalogada                                         | `PAT-COG-046`                                              |
+| Capacidad del sistema mayor que una chain concreta                                                                          | Arquitectura compuesta                                | sección 2.2                                                |
+| Misma forma en diferentes escalas                                                                                           | Ya catalogada                                         | `PAT-COG-022`, `PAT-COG-023`                               |
+| Manifestación como corte parcial de una arquitectura mayor                                                                  | Ya catalogada                                         | `PAT-COG-015`, `PAT-COG-024`                               |
+| No atacar sólo la manifestación; reconstruir la arquitectura funcional                                                      | Arquitectura compuesta                                | sección 2.4                                                |
+| Operación como reconfiguración de grafo                                                                                     | Ya catalogada                                         | `PAT-COG-020`, `PAT-COG-059`                               |
+| Cambio de fuente dominante en identidad o interpretación                                                                    | Ya catalogada                                         | `PAT-COG-021`                                              |
+| Chain of action como trayectoria derivada de red                                                                            | Ya catalogada                                         | `PAT-COG-013`                                              |
+| P0 y satélites como subgrafo retroconstruible de efecto                                                                     | Ya catalogada                                         | `PAT-COG-011`, `PAT-COG-012`                               |
+| Proposiciones satélite como nodos con función relativa                                                                      | Ya catalogada y precisada                             | `PAT-COG-011`, `PAT-COG-070`                               |
+| Red proyectada → red realizada → red activada                                                                               | Ya catalogada                                         | `PAT-COG-016`, `PAT-COG-093`                               |
+| Red asociativa para cada parte e incluso cada palabra                                                                       | Ya catalogada                                         | `PAT-COG-072`, `PAT-COG-084`, `PAT-COG-095`                |
+| Expected result selecciona corte o subgrafo                                                                                 | Ya catalogada                                         | `PAT-COG-025`                                              |
+| Dos realizaciones son cortes del mismo núcleo, no entidades con núcleo compartido                                           | Ya catalogada                                         | `PAT-COG-015`, `PAT-COG-025`                               |
+| Nodo puede cambiar de foco, satélite, puente o exclusión según el corte                                                     | Ya catalogada                                         | `PAT-COG-070`, `PAT-COG-083`                               |
+| Proyección dividida en partes con reglas de selección, orden y efecto                                                       | Ya catalogada en la extensión MRRE                    | `PAT-COG-069`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085` |
+| Efecto local alineado ascendente y descendentemente con efecto global                                                       | Ya catalogada                                         | `PAT-COG-084`                                              |
+| Estructuras cognitivas relacionan nodos antes de la realización lingüística                                                 | Ya catalogada                                         | `PAT-COG-085`                                              |
+| Modelo base y aplicaciones hermanas producen configuraciones particulares                                                   | Ya catalogada                                         | `PAT-COG-064`, `PAT-COG-089`, `PAT-COG-091`                |
+| Campo de acontecimientos como especialización de un generador más general                                                   | Ya catalogada como especialización                    | `PAT-COG-064`, `PAT-COG-091`                               |
+| Scaffolding estructural + contextual y materialización diferida                                                             | Ya catalogada                                         | `PAT-COG-109…115`                                          |
 
 ## 4.1. Índice de comandos e intuiciones con correspondencia estructural
 
 El índice conserva procedencia sin volver a desplegar los patrones de los catálogos base. Cuando un identificador se relaciona con varios patrones, la combinación expresa su arquitectura; no significa que los patrones sean equivalentes entre sí.
 
-| ID de procedencia | Disposición estructural |
-|---|---|
-| `INT-EXPECTED-RESULT-SELECCION-001` | `PAT-COG-025`, `PAT-COG-083` |
-| `INT-MTC-EXPECTED-RESULT-ACCD-001` | `PAT-COG-024`, `PAT-COG-025`, `PAT-COG-048` |
-| `INT-IDENTITY-SELECTION-001` | `PAT-COG-083` |
-| `INT-PROYECCION-SEGMENTAL-MODELO-BASE-001` | `PAT-COG-064`, `PAT-COG-069`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085` |
-| `INT-PAQUETE-GENERADOR-ESTRUCTURAS-SITUACIONALES-001` | `PAT-COG-064`, `PAT-COG-089`, `PAT-COG-091` |
-| `INT-CORTES-DE-NUCLEO-REUTERS-001` | `PAT-COG-015`, `PAT-COG-025`, `PAT-COG-083` |
-| `INT-ALINEACION-FRACTAL-DEL-EFECTO-001` | `PAT-COG-022`, `PAT-COG-051`, `PAT-COG-084` |
-| `COR-ESTRUCTURAS-COGNITIVAS-REALIZACION-LINGUISTICA-001` | `PAT-COG-071`, `PAT-COG-085`, `PAT-COG-086` |
-| `INT-RED-ASOCIATIVA-MULTIESCALA-001` | `PAT-COG-072`, `PAT-COG-084`, `PAT-COG-095` |
-| `INT-TRIPLE-RED-PROYECTADA-REALIZADA-ACTIVADA-001` | `PAT-COG-016`, `PAT-COG-093` |
-| `INT-PROPOSICIONES-SATELITE-COMO-NODOS-001` | `PAT-COG-011`, `PAT-COG-070` |
-| `INT-MRRE-MATERIAL-ORDEN-1-Y-ORDEN-2-COMO-CAPAS-DE-DISPONIBILIDAD-Y-COMUNICACION-001` | `PAT-COG-003`, `PAT-COG-123` |
-| `INT-AISOO-FUENTE-ENTRADA-RECEPCION-COMO-PATRON-ARQUITECTONICO-COMUN-001` | `PAT-COG-001`, `PAT-COG-053` |
-| `INT-AISOO-ESPECIALIZACION-DE-FUENTE-Y-MEZCLA-DE-MATERIAL-ORDEN-1-2-001` | `PAT-COG-003`, `PAT-COG-004`, `PAT-COG-123` |
-| `INT-AISOO-ALCANCE-DEL-PATRON-FUENTE-MATERIAL-RECEPCION-001` | `PAT-COG-001`, `PAT-COG-022`, `PAT-COG-063` |
-| `INT-CONSCIENCIA-COMO-GOBIERNO-DE-CHAINS-DE-REALIDAD-001` | `PAT-COG-013`, `PAT-COG-030`, `PAT-COG-124`, `PAT-COG-125` |
-| `INT-CONSCIENCIA-COMO-INSTANCIA-ESTRUCTURAL-DE-AISOO-EN-COGNICION-HUMANA-001` | Especialización regida por `PAT-COG-060`; no equivalencia neurocientífica |
-| `INT-CONSCIENCIA-COMO-HOMOLOGO-FUNCIONAL-DEL-ADMINISTRADOR-EN-AISOO-001` | `PAT-COG-030`, `PAT-COG-031`, `PAT-COG-125` |
-| `INT-ISOMORFISMO-HEURISTICO-Y-GENERACION-OPACA-DE-SOLUCIONES-001` | `PAT-COG-035`, `PAT-COG-047` |
-| `INT-PATRON-FUENTES-INSPECCION-CRITERIO-ACCION-COMUN-A-AISOO-Y-MRRE-001` | `PAT-COG-002`, `PAT-COG-038`, `PAT-COG-054`, `PAT-COG-063` |
-| `INT-AISOO-PERMEABILIDAD-EPISTEMICA-COMO-EXPERIENCIA-Y-ADAPTACION-001` | `PAT-COG-040`, `PAT-COG-041`, `PAT-COG-042`, `PAT-COG-045` |
-| `INT-ARQUITECTURA-DE-APROVISIONAMIENTO-COMO-REFINADOR-DE-MRRE-Y-AISOO-001` | `PAT-COG-053`, `PAT-COG-054`, `PAT-COG-063`, `PAT-COG-123`, `PAT-COG-124` |
-| `INT-GOBIERNO-Y-ORQUESTACION-DE-SISTEMAS-INTEGRADOS-COMO-ARQUITECTURA-ABSTRACTA-001` | `PAT-COG-030`, `PAT-COG-062`, `PAT-COG-063`, `PAT-COG-116`, `PAT-COG-125` |
-| `INT-AISOO-ESPECIALIZACION-DE-PROVISION-DE-SENTIDO-001` | Arquitectura compuesta de la sección 2.5 y especialización según `PAT-COG-091` |
-| `INT-GOBIERNO-REFLEXIVO-Y-NODOS-DE-SOBERANIA-COMO-PATRON-COMUN-MMR-AISOO-001` | `PAT-COG-036`, `PAT-COG-038`, `PAT-COG-054`, `PAT-COG-124` |
-| `INT-APROVISIONAMIENTO-COMO-PATRON-TRANSVERSAL-DE-ARQUITECTURAS-COGNITIVAS-001` | `PAT-COG-053`, `PAT-COG-054`, `PAT-COG-063`, `PAT-COG-123`, `PAT-COG-124`, `PAT-COG-125` |
-| `INT-SOBERANIA-HUMANA-DE-CREACION-DE-REALIDAD-001` | Arquitectura compuesta de la sección 2.3 |
-| `INT-RED-DE-EFECTOS-COGNITIVOS-COMO-ARQUITECTURA-INTEGRADORA-001` | `PAT-COG-017`, `PAT-COG-018`, `PAT-COG-057` |
-| `INT-MANIFESTACION-COMO-MATERIALIZACION-PARCIAL-DE-ARQUITECTURA-001` | `PAT-COG-015`, `PAT-COG-029` |
-| `INT-UNIDAD-DE-ATAQUE-COMO-UNIDAD-DE-MANIFESTACION-001` | `PAT-COG-012`, `PAT-COG-057`, `PAT-COG-059` |
-| `INT-PORTABILIDAD-COGNITIVA-REQUIERE-MISMOS-PRINCIPIOS-DE-DISENO-001` | `PAT-COG-060`, `PAT-COG-091` |
-| `INT-CONTENIDO-COMO-INTERVENCION-DE-TRANSFORMACION-DE-ESTADO-001` | `PAT-COG-049`, `PAT-COG-050`, `PAT-COG-059` |
-| `INT-OPERACION-SISTEMICA-COMO-RECONFIGURACION-DE-GRAFO-001` | `PAT-COG-020`, `PAT-COG-059` |
-| `INT-CAMBIO-TOPOLOGICO-DE-FUENTES-DE-IDENTIDAD-E-INTERPRETACION-001` | `PAT-COG-020`, `PAT-COG-021` |
-| `INT-CHAIN-OF-ACTION-COMO-TRAYECTORIA-DERIVADA-DE-RED-001` | `PAT-COG-013`, `PAT-COG-050` |
-| `INT-MRRE-CONTEXTO-COGNITIVO-DE-INFERENCIA-RED-ASOCIATIVA-001` | `PAT-COG-016`, `PAT-COG-093`, `PAT-COG-095` |
-| `INT-MRRE-UNIDAD-RETROCONSTRUIBLE-COMO-SUBGRAFO-DE-EFECTO-001` | `PAT-COG-011`, `PAT-COG-012`, `PAT-COG-026` |
-| `INT-CAPP-COMO-FUNCIONALIDAD-DERIVADA-DE-SUBGRAFO-001` | `PAT-COG-012`, `PAT-COG-014` |
-| `INT-CORTE-CONTEXTUAL-COMO-PROYECCION-DE-GRAFO-MAYOR-001` | `PAT-COG-015`, `PAT-COG-024` |
-| `INT-FRACTALIDAD-FUENTES-COGNITIVAS-Y-LIDERAZGO-001` | `PAT-COG-022`, `PAT-COG-055`, `PAT-COG-056` |
+| ID de procedencia                                                                     | Disposición estructural                                                                  |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `INT-EXPECTED-RESULT-SELECCION-001`                                                   | `PAT-COG-025`, `PAT-COG-083`                                                             |
+| `INT-MTC-EXPECTED-RESULT-ACCD-001`                                                    | `PAT-COG-024`, `PAT-COG-025`, `PAT-COG-048`                                              |
+| `INT-IDENTITY-SELECTION-001`                                                          | `PAT-COG-083`                                                                            |
+| `INT-PROYECCION-SEGMENTAL-MODELO-BASE-001`                                            | `PAT-COG-064`, `PAT-COG-069`, `PAT-COG-071`, `PAT-COG-084`, `PAT-COG-085`                |
+| `INT-PAQUETE-GENERADOR-ESTRUCTURAS-SITUACIONALES-001`                                 | `PAT-COG-064`, `PAT-COG-089`, `PAT-COG-091`                                              |
+| `INT-CORTES-DE-NUCLEO-REUTERS-001`                                                    | `PAT-COG-015`, `PAT-COG-025`, `PAT-COG-083`                                              |
+| `INT-ALINEACION-FRACTAL-DEL-EFECTO-001`                                               | `PAT-COG-022`, `PAT-COG-051`, `PAT-COG-084`                                              |
+| `COR-ESTRUCTURAS-COGNITIVAS-REALIZACION-LINGUISTICA-001`                              | `PAT-COG-071`, `PAT-COG-085`, `PAT-COG-086`                                              |
+| `INT-RED-ASOCIATIVA-MULTIESCALA-001`                                                  | `PAT-COG-072`, `PAT-COG-084`, `PAT-COG-095`                                              |
+| `INT-TRIPLE-RED-PROYECTADA-REALIZADA-ACTIVADA-001`                                    | `PAT-COG-016`, `PAT-COG-093`                                                             |
+| `INT-PROPOSICIONES-SATELITE-COMO-NODOS-001`                                           | `PAT-COG-011`, `PAT-COG-070`                                                             |
+| `INT-MRRE-MATERIAL-ORDEN-1-Y-ORDEN-2-COMO-CAPAS-DE-DISPONIBILIDAD-Y-COMUNICACION-001` | `PAT-COG-003`, `PAT-COG-123`                                                             |
+| `INT-AISOO-FUENTE-ENTRADA-RECEPCION-COMO-PATRON-ARQUITECTONICO-COMUN-001`             | `PAT-COG-001`, `PAT-COG-053`                                                             |
+| `INT-AISOO-ESPECIALIZACION-DE-FUENTE-Y-MEZCLA-DE-MATERIAL-ORDEN-1-2-001`              | `PAT-COG-003`, `PAT-COG-004`, `PAT-COG-123`                                              |
+| `INT-AISOO-ALCANCE-DEL-PATRON-FUENTE-MATERIAL-RECEPCION-001`                          | `PAT-COG-001`, `PAT-COG-022`, `PAT-COG-063`                                              |
+| `INT-CONSCIENCIA-COMO-GOBIERNO-DE-CHAINS-DE-REALIDAD-001`                             | `PAT-COG-013`, `PAT-COG-030`, `PAT-COG-124`, `PAT-COG-125`                               |
+| `INT-CONSCIENCIA-COMO-INSTANCIA-ESTRUCTURAL-DE-AISOO-EN-COGNICION-HUMANA-001`         | Especialización regida por `PAT-COG-060`; no equivalencia neurocientífica                |
+| `INT-CONSCIENCIA-COMO-HOMOLOGO-FUNCIONAL-DEL-ADMINISTRADOR-EN-AISOO-001`              | `PAT-COG-030`, `PAT-COG-031`, `PAT-COG-125`                                              |
+| `INT-ISOMORFISMO-HEURISTICO-Y-GENERACION-OPACA-DE-SOLUCIONES-001`                     | `PAT-COG-035`, `PAT-COG-047`                                                             |
+| `INT-PATRON-FUENTES-INSPECCION-CRITERIO-ACCION-COMUN-A-AISOO-Y-MRRE-001`              | `PAT-COG-002`, `PAT-COG-038`, `PAT-COG-054`, `PAT-COG-063`                               |
+| `INT-AISOO-PERMEABILIDAD-EPISTEMICA-COMO-EXPERIENCIA-Y-ADAPTACION-001`                | `PAT-COG-040`, `PAT-COG-041`, `PAT-COG-042`, `PAT-COG-045`                               |
+| `INT-ARQUITECTURA-DE-APROVISIONAMIENTO-COMO-REFINADOR-DE-MRRE-Y-AISOO-001`            | `PAT-COG-053`, `PAT-COG-054`, `PAT-COG-063`, `PAT-COG-123`, `PAT-COG-124`                |
+| `INT-GOBIERNO-Y-ORQUESTACION-DE-SISTEMAS-INTEGRADOS-COMO-ARQUITECTURA-ABSTRACTA-001`  | `PAT-COG-030`, `PAT-COG-062`, `PAT-COG-063`, `PAT-COG-116`, `PAT-COG-125`                |
+| `INT-AISOO-ESPECIALIZACION-DE-PROVISION-DE-SENTIDO-001`                               | Arquitectura compuesta de la sección 2.5 y especialización según `PAT-COG-091`           |
+| `INT-GOBIERNO-REFLEXIVO-Y-NODOS-DE-SOBERANIA-COMO-PATRON-COMUN-MMR-AISOO-001`         | `PAT-COG-036`, `PAT-COG-038`, `PAT-COG-054`, `PAT-COG-124`                               |
+| `INT-APROVISIONAMIENTO-COMO-PATRON-TRANSVERSAL-DE-ARQUITECTURAS-COGNITIVAS-001`       | `PAT-COG-053`, `PAT-COG-054`, `PAT-COG-063`, `PAT-COG-123`, `PAT-COG-124`, `PAT-COG-125` |
+| `INT-SOBERANIA-HUMANA-DE-CREACION-DE-REALIDAD-001`                                    | Arquitectura compuesta de la sección 2.3                                                 |
+| `INT-RED-DE-EFECTOS-COGNITIVOS-COMO-ARQUITECTURA-INTEGRADORA-001`                     | `PAT-COG-017`, `PAT-COG-018`, `PAT-COG-057`                                              |
+| `INT-MANIFESTACION-COMO-MATERIALIZACION-PARCIAL-DE-ARQUITECTURA-001`                  | `PAT-COG-015`, `PAT-COG-029`                                                             |
+| `INT-UNIDAD-DE-ATAQUE-COMO-UNIDAD-DE-MANIFESTACION-001`                               | `PAT-COG-012`, `PAT-COG-057`, `PAT-COG-059`                                              |
+| `INT-PORTABILIDAD-COGNITIVA-REQUIERE-MISMOS-PRINCIPIOS-DE-DISENO-001`                 | `PAT-COG-060`, `PAT-COG-091`                                                             |
+| `INT-CONTENIDO-COMO-INTERVENCION-DE-TRANSFORMACION-DE-ESTADO-001`                     | `PAT-COG-049`, `PAT-COG-050`, `PAT-COG-059`                                              |
+| `INT-OPERACION-SISTEMICA-COMO-RECONFIGURACION-DE-GRAFO-001`                           | `PAT-COG-020`, `PAT-COG-059`                                                             |
+| `INT-CAMBIO-TOPOLOGICO-DE-FUENTES-DE-IDENTIDAD-E-INTERPRETACION-001`                  | `PAT-COG-020`, `PAT-COG-021`                                                             |
+| `INT-CHAIN-OF-ACTION-COMO-TRAYECTORIA-DERIVADA-DE-RED-001`                            | `PAT-COG-013`, `PAT-COG-050`                                                             |
+| `INT-MRRE-CONTEXTO-COGNITIVO-DE-INFERENCIA-RED-ASOCIATIVA-001`                        | `PAT-COG-016`, `PAT-COG-093`, `PAT-COG-095`                                              |
+| `INT-MRRE-UNIDAD-RETROCONSTRUIBLE-COMO-SUBGRAFO-DE-EFECTO-001`                        | `PAT-COG-011`, `PAT-COG-012`, `PAT-COG-026`                                              |
+| `INT-CAPP-COMO-FUNCIONALIDAD-DERIVADA-DE-SUBGRAFO-001`                                | `PAT-COG-012`, `PAT-COG-014`                                                             |
+| `INT-CORTE-CONTEXTUAL-COMO-PROYECCION-DE-GRAFO-MAYOR-001`                             | `PAT-COG-015`, `PAT-COG-024`                                                             |
+| `INT-FRACTALIDAD-FUENTES-COGNITIVAS-Y-LIDERAZGO-001`                                  | `PAT-COG-022`, `PAT-COG-055`, `PAT-COG-056`                                              |
 
 ---
 
@@ -1195,18 +1197,18 @@ La procedencia explica dónde se reconoció una forma; no restringe su uso a eso
 
 ## Mapa de procedencia de los patrones nuevos
 
-| Patrón | Fuente estructural preservada | Nota epistemológica |
-|---|---|---|
-| `PAT-COG-116` | `FUNCIÓN–INFORMACIÓN–COLABORACIÓN/COORDINACIÓN` | No se recuperó un ID `INT` específico; no se inventa uno retrospectivamente. |
-| `PAT-COG-117` | Integración graduada, localizada y dependiente de misión y tiempo | Formulación humana preservada; patrón candidato. |
-| `PAT-COG-118` | `G_possible → G_available(t) → G_active(Q_t) → Π_t` | Relacionado con `MCCR-CORE-GRAPHS-001`, estado candidato/no canónico. |
-| `PAT-COG-119` | Representación compartida / cuadro operacional con consumidores diferentes | Extensión diferencial respecto de `PAT-COG-061`, `007` y `095`. |
-| `PAT-COG-120` | Profundización requerida de `CUADRO_OPERACIONAL / REPRESENTACIÓN_OPERABLE` | Conserva explícitamente pérdida, incertidumbre y suficiencia. |
-| `PAT-COG-121` | Arquitectura validada de capas funcionales más capacidades transversales | Abstraída sin conservar el dominio de descubrimiento como invariante. |
-| `PAT-COG-122` | Datalink o enlace como mecanismo de coordinación entre componentes | Generalización de enlace técnico a tejido coordinativo. |
-| `PAT-COG-123` | `INT-APROVISIONAMIENTO-COMO-PATRON-TRANSVERSAL-DE-ARQUITECTURAS-COGNITIVAS-001` | Añade movilidad topológica de Orden 2. |
-| `PAT-COG-124` | Mismo registro anterior; contraste `INTEGRACIÓN_PASIVA ≠ AUSENCIA_DE_PROCESAMIENTO` | Añade un perfil de gobierno independiente de complejidad. |
-| `PAT-COG-125` | `INT-GOBIERNO-Y-ORQUESTACION-DE-SISTEMAS-INTEGRADOS-COMO-ARQUITECTURA-ABSTRACTA-001` | Formaliza responsabilidades del plano de gobierno. |
+| Patrón        | Fuente estructural preservada                                                        | Nota epistemológica                                                          |
+| ------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| `PAT-COG-116` | `FUNCIÓN–INFORMACIÓN–COLABORACIÓN/COORDINACIÓN`                                      | No se recuperó un ID `INT` específico; no se inventa uno retrospectivamente. |
+| `PAT-COG-117` | Integración graduada, localizada y dependiente de misión y tiempo                    | Formulación humana preservada; patrón candidato.                             |
+| `PAT-COG-118` | `G_possible → G_available(t) → G_active(Q_t) → Π_t`                                  | Relacionado con `MCCR-CORE-GRAPHS-001`, estado candidato/no canónico.        |
+| `PAT-COG-119` | Representación compartida / cuadro operacional con consumidores diferentes           | Extensión diferencial respecto de `PAT-COG-061`, `007` y `095`.              |
+| `PAT-COG-120` | Profundización requerida de `CUADRO_OPERACIONAL / REPRESENTACIÓN_OPERABLE`           | Conserva explícitamente pérdida, incertidumbre y suficiencia.                |
+| `PAT-COG-121` | Arquitectura validada de capas funcionales más capacidades transversales             | Abstraída sin conservar el dominio de descubrimiento como invariante.        |
+| `PAT-COG-122` | Datalink o enlace como mecanismo de coordinación entre componentes                   | Generalización de enlace técnico a tejido coordinativo.                      |
+| `PAT-COG-123` | `INT-APROVISIONAMIENTO-COMO-PATRON-TRANSVERSAL-DE-ARQUITECTURAS-COGNITIVAS-001`      | Añade movilidad topológica de Orden 2.                                       |
+| `PAT-COG-124` | Mismo registro anterior; contraste `INTEGRACIÓN_PASIVA ≠ AUSENCIA_DE_PROCESAMIENTO`  | Añade un perfil de gobierno independiente de complejidad.                    |
+| `PAT-COG-125` | `INT-GOBIERNO-Y-ORQUESTACION-DE-SISTEMAS-INTEGRADOS-COMO-ARQUITECTURA-ABSTRACTA-001` | Formaliza responsabilidades del plano de gobierno.                           |
 
 ## Restricción epistemológica
 
