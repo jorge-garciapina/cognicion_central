@@ -1,3 +1,5 @@
+https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a8386b8-f1a0-83e8-b2c7-0d5c4f61e8c1
+
 # BARZAKH EN IBN ʿARABĪ COMO EJEMPLAR DE INTERMEDIACIÓN QUE SEPARA Y CONECTA
 
 **ID provisional:** `INT-BARZAKH-COMO-PATRON-ESTRUCTURAL-001`  
@@ -174,9 +176,9 @@ Esto corresponde a la lógica de `PAT-COG-067 — ESQUEMA INDUCIDO POR EJEMPLAR`
 
 # 3. BARZAKH DESDE LA FUENTE PRIMARIA
 
-## 3.1. Capítulo 63 de *al-Futūḥāt al-Makkiyya*
+## 3.1. Capítulo 63 de _al-Futūḥāt al-Makkiyya_
 
-La fuente primaria principal es el capítulo 63 de *al-Futūḥāt al-Makkiyya*, en la traducción académica de James W. Morris. Véase `[WEB-PRI-01]`.
+La fuente primaria principal es el capítulo 63 de _al-Futūḥāt al-Makkiyya_, en la traducción académica de James W. Morris. Véase `[WEB-PRI-01]`.
 
 En la región principal de definición, Ibn ʿArabī presenta `barzakh` como aquello que se encuentra entre dos cosas y las separa **sin convertirse en ninguna de ellas**.
 
@@ -388,7 +390,7 @@ La literatura persa prioritaria converge en varios puntos.
 
 ### Saneʿpour & Beheshti — `[WEB-PERS-01]`
 
-Su artículo en *Kheradname-ye Sadra* presenta a `khayāl` como una facultad cognitiva diferente de la razón y utiliza explícitamente la idea de:
+Su artículo en _Kheradname-ye Sadra_ presenta a `khayāl` como una facultad cognitiva diferente de la razón y utiliza explícitamente la idea de:
 
 ```text
 جمع میان اضداد
@@ -516,7 +518,7 @@ FORMA
 
 mediante una región intermedia.
 
-El estudio persa sobre el `Faṣṣ Yūsufī` del *Fuṣūṣ al-Ḥikam* se conserva como fuente contextual específica para esta región. `[WEB-PERS-06]`
+El estudio persa sobre el `Faṣṣ Yūsufī` del _Fuṣūṣ al-Ḥikam_ se conserva como fuente contextual específica para esta región. `[WEB-PERS-06]`
 
 ---
 
@@ -1439,18 +1441,18 @@ ESTE DOCUMENTO
 
 # 28. MATRIZ DE PROCEDENCIA DE LAS SECCIONES
 
-| Región | Fuentes | Estructura extraída | Operación local | Estado |
-|---|---|---|---|---|
-| Definición de barzakh | `WEB-PRI-01` | separa dos sin convertirse en ninguno; límite; relación con ambos | reconstruir | `SOURCE_DIRECT → RECONSTRUCTION` |
-| Separa + conecta | `WEB-PRI-01`, `WEB-ACA-01`, `WEB-ACA-02` | división y reunión sin colapso | sintetizar | `SCHOLARLY_SYNTHESIS` |
-| Barzakh + khayāl | `WEB-PRI-01`, `WEB-PERS-01..05` | imaginación como ámbito cognitivo/intermedio | integrar | `SOURCE_SYNTHESIS` |
-| Imagen / doble relación | `WEB-PRI-01`, `WEB-ACA-01` | imagen afirmada bajo unas relaciones y negada bajo otras | tipar relaciones | `RECONSTRUCTION` |
-| Escala imaginal | `WEB-PERS-05`, `WEB-PERS-07` | mundo intermediario; imaginación conectada/separada | organizar | `SCHOLARLY_SYNTHESIS` |
-| Retroconstrucción | `CC-MRRE-03`, `CC-MRRE-01` | dos transformaciones + ejemplar→esquema | ejecutar método | `CC_METHOD_APPLICATION` |
-| Función situada | `CC-MRRE-02` | función depende de posición/vecindario | formalizar | `DESIGN_INFERENCE` |
-| Relación MTC | `CC-MTC-01`, `CC-MTC-02` | transducción cruza dominios | comparar | `DESIGN_HYPOTHESIS` |
-| Representación operable | `CC-PAT-BASE-03` | mundo ≠ representación | especializar | `HYPOTHESIS` |
-| Patrón candidato | conjunto anterior | separar + conectar + no colapsar | abstraer | `MODEL_INFERENCE` |
+| Región                  | Fuentes                                  | Estructura extraída                                               | Operación local  | Estado                           |
+| ----------------------- | ---------------------------------------- | ----------------------------------------------------------------- | ---------------- | -------------------------------- |
+| Definición de barzakh   | `WEB-PRI-01`                             | separa dos sin convertirse en ninguno; límite; relación con ambos | reconstruir      | `SOURCE_DIRECT → RECONSTRUCTION` |
+| Separa + conecta        | `WEB-PRI-01`, `WEB-ACA-01`, `WEB-ACA-02` | división y reunión sin colapso                                    | sintetizar       | `SCHOLARLY_SYNTHESIS`            |
+| Barzakh + khayāl        | `WEB-PRI-01`, `WEB-PERS-01..05`          | imaginación como ámbito cognitivo/intermedio                      | integrar         | `SOURCE_SYNTHESIS`               |
+| Imagen / doble relación | `WEB-PRI-01`, `WEB-ACA-01`               | imagen afirmada bajo unas relaciones y negada bajo otras          | tipar relaciones | `RECONSTRUCTION`                 |
+| Escala imaginal         | `WEB-PERS-05`, `WEB-PERS-07`             | mundo intermediario; imaginación conectada/separada               | organizar        | `SCHOLARLY_SYNTHESIS`            |
+| Retroconstrucción       | `CC-MRRE-03`, `CC-MRRE-01`               | dos transformaciones + ejemplar→esquema                           | ejecutar método  | `CC_METHOD_APPLICATION`          |
+| Función situada         | `CC-MRRE-02`                             | función depende de posición/vecindario                            | formalizar       | `DESIGN_INFERENCE`               |
+| Relación MTC            | `CC-MTC-01`, `CC-MTC-02`                 | transducción cruza dominios                                       | comparar         | `DESIGN_HYPOTHESIS`              |
+| Representación operable | `CC-PAT-BASE-03`                         | mundo ≠ representación                                            | especializar     | `HYPOTHESIS`                     |
+| Patrón candidato        | conjunto anterior                        | separar + conectar + no colapsar                                  | abstraer         | `MODEL_INFERENCE`                |
 
 ---
 
