@@ -1,4 +1,5 @@
----
+## https://chatgpt.com/g/g-p-6a777363d7108191b2cafddb3fd424f0-cognicion-central/c/6a84d9d4-a1ac-83e8-9f98-a21c1d2c8f57
+
 id: MRRE-OPERATIONAL-BOOTSTRAP-001
 title: BOOTSTRAP OPERATIVO DE MRRE PARA PROYECTOS RECEPTORES
 version: 0.1.0
@@ -9,14 +10,16 @@ package_version_reference: 0.2.0
 type: OPERATIONAL_ACTIVATION_PROFILE
 authority: HUMAN
 status:
-  - MATERIALIZED_CANDIDATE
-  - OPERABLE_SPEC
-  - NON_CANONICAL
-  - HUMAN_REVIEW_REQUIRED
-software_runtime_implemented: false
-automatic_persistence: false
-automatic_promotion: false
-recommended_path: 01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md
+
+- MATERIALIZED_CANDIDATE
+- OPERABLE_SPEC
+- NON_CANONICAL
+- HUMAN_REVIEW_REQUIRED
+  software_runtime_implemented: false
+  automatic_persistence: false
+  automatic_promotion: false
+  recommended_path: 01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md
+
 ---
 
 # BOOTSTRAP OPERATIVO DE MRRE PARA PROYECTOS RECEPTORES
@@ -28,77 +31,6 @@ recommended_path: 01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_R
 **Paquete objetivo:** `MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL` (`MRRE`)  
 **Paquete MRRE de referencia:** `PC-MRRE 0.2.0`  
 **Estado:** `MATERIALIZED_CANDIDATE / OPERABLE_SPEC / NON_CANONICAL / HUMAN_REVIEW_REQUIRED`
-
----
-
-# 0. UBICACIÓN RECOMENDADA
-
-Este archivo debe colocarse en la **raíz del paquete MRRE**, junto a sus puntos de entrada principales:
-
-```text
-01_nucleo_cognitivo/
-└── teoria_tmc/
-    └── MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/
-        ├── README.md
-        ├── MRRE_MANIFEST.yaml
-        ├── cognicion_central_mrre.md
-        ├── como_leer_el_artefacto_adjunto.md
-        ├── BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md   ← ESTE ARCHIVO
-        ├── 00_gobierno/
-        ├── 01_kernel_estable/
-        ├── 02_contratos_y_schemas/
-        ├── 03_protocolos_operacionales/
-        ├── 04_runtime/
-        ├── 05_acervo_estructural/
-        ├── 06_especializaciones/
-        ├── 07_integraciones/
-        ├── 08_validacion_y_pruebas/
-        ├── 09_casos_y_ejemplos/
-        ├── 10_artefactos_generados/
-        └── 90_historial/
-```
-
-## 0.1. Razón de la ubicación
-
-La raíz del paquete es la ubicación correcta porque este documento no describe una operación interna aislada. Define **cómo debe activarse MRRE como capacidad dentro de un proyecto receptor** y, por tanto, debe ser descubrible antes de entrar en `00_gobierno/`, `01_kernel_estable/` o cualquier protocolo especializado.
-
-Este archivo complementa, pero **no sustituye**, a:
-
-```text
-README.md
-→ puerta de entrada humana e índice operativo profundo
-
-cognicion_central_mrre.md
-→ cognición local + router operativo
-
-como_leer_el_artefacto_adjunto.md
-→ bootloader portable de reconocimiento, instalación y disponibilidad
-
-BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md
-→ perfil ampliado de activación interproyecto:
-   MRRE + AC-HIA + MCCR + interacción estructural + command IDs + RPCE
-```
-
-## 0.2. Integraciones documentales recomendadas después de revisión humana
-
-Una vez colocado, conviene enlazarlo desde:
-
-```text
-README.md
-MRRE_MANIFEST.yaml
-como_leer_el_artefacto_adjunto.md
-cognicion_central_mrre.md
-```
-
-y registrar el archivo mediante el mecanismo vigente de:
-
-```text
-00_gobierno/registros/REGISTRO_DE_ARCHIVOS.md
-```
-
-No se asigna aquí un `FILE-CC-*` real porque esa operación pertenece al registro vivo y requiere validación humana.
-
----
 
 # 1. PROPÓSITO
 
@@ -1396,7 +1328,6 @@ MRRE-OPERATIONAL-BOOTSTRAP-001.
 
 ```yaml
 MRRE_OPERATIONAL_BOOTSTRAP:
-
   id: MRRE-OPERATIONAL-BOOTSTRAP-001
   version: 0.1.0
   authority: HUMAN
@@ -1615,22 +1546,22 @@ E INDICAR SU UBICACIÓN.
 
 # 17. MATRIZ DE REFERENCIACIÓN Y PROCEDENCIA
 
-| ID | Origen / path | Estructura extraída | Función dentro de este bootstrap | Tratamiento |
-|---|---|---|---|---|
-| `BOOT-SRC-001` | `00_gobierno/protocolos/PROMPT_CENTRAL_INSTALACION_COGNICION_CENTRAL_EN_CHATGPT_v0_1_0.txt` | artefacto como repositorio serializado; espacios lógicos; autoridad; no persistencia silenciosa | capa previa de instalación | PRESERVAR |
-| `BOOT-SRC-002` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/README.md` | identidad `PC-MRRE`, entry points, naturaleza MRRE | entrada humana profunda | PRESERVAR |
-| `BOOT-SRC-003` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/cognicion_central_mrre.md` | cognición local + router + contrato mínimo | router MRRE | PRESERVAR |
-| `BOOT-SRC-004` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/como_leer_el_artefacto_adjunto.md` | bootloader portable, disponibilidad, lectura del paquete | bootstrap documental base | PRESERVAR |
-| `BOOT-SRC-005` | `01_nucleo_cognitivo/teoria_tmc/ARQUITECTURA_DE_COMUNICACION_HUMANO_IA/02_modelo_operativo/06_normalizacion_de_comandos.md` | comando normalizado y resolución estructural | interfaz primaria | INTEGRAR |
-| `BOOT-SRC-006` | `01_nucleo_cognitivo/teoria_tmc/ARQUITECTURA_DE_COMUNICACION_HUMANO_IA/02_modelo_operativo/04_backend_cognitivo.md` | backend, componentes, planificación | handoff y composición | INTEGRAR |
-| `BOOT-SRC-007` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_CONFIGURACION_COGNITIVA_EN_RUNTIME/01_nucleo/03_modelo_de_configuracion_operacional.md` | configuración situacional, capacidades y gates | soporte MCCR | INTEGRAR |
-| `BOOT-SRC-008` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_CONFIGURACION_COGNITIVA_EN_RUNTIME/01_nucleo/05_execution_plan_definicion_y_contrato.md` | `EXECUTION_PLAN` | ejecución configurada | INTEGRAR |
-| `BOOT-SRC-009` | `02_metodos_y_herramientas/trazabilidad/METODO_DE_REFERENCIACION_Y_PROCEDENCIA_COGNITIVA_ESTRUCTURAL_v0_1_0.md` | `PATH + ESTRUCTURA + FUNCIÓN`, source bindings, estado epistémico, revalidación | disciplina de procedencia | INTEGRAR |
-| `BOOT-DEC-001` | decisión humana del hilo | AC-HIA primaria + MCCR soporte | topología de activación | PRESERVAR |
-| `BOOT-DEC-002` | `INT-AC-HIA-ID-UNICO-POR-COMANDO-001` | ID único por comando | gobernanza de eventos | PRESERVAR |
-| `BOOT-DEC-003` | `INT-MRRE-ACTIVACION-BASE-INTERPROYECTO-001` | perfil reutilizable | alcance interproyecto | PRESERVAR |
-| `BOOT-DEC-004` | `INT-MRRE-BOOTSTRAP-RPCE-001` | RPCE obligatorio para el perfil | trazabilidad fuerte | PRESERVAR |
-| `BOOT-DEC-005` | `INT-MRRE-BOOTSTRAP-DOCUMENTO-001` | materialización del bootstrap | este archivo | PRESERVAR |
+| ID             | Origen / path                                                                                                                     | Estructura extraída                                                                             | Función dentro de este bootstrap | Tratamiento |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------- | ----------- |
+| `BOOT-SRC-001` | `00_gobierno/protocolos/PROMPT_CENTRAL_INSTALACION_COGNICION_CENTRAL_EN_CHATGPT_v0_1_0.txt`                                       | artefacto como repositorio serializado; espacios lógicos; autoridad; no persistencia silenciosa | capa previa de instalación       | PRESERVAR   |
+| `BOOT-SRC-002` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/README.md`                               | identidad `PC-MRRE`, entry points, naturaleza MRRE                                              | entrada humana profunda          | PRESERVAR   |
+| `BOOT-SRC-003` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/cognicion_central_mrre.md`               | cognición local + router + contrato mínimo                                                      | router MRRE                      | PRESERVAR   |
+| `BOOT-SRC-004` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/como_leer_el_artefacto_adjunto.md`       | bootloader portable, disponibilidad, lectura del paquete                                        | bootstrap documental base        | PRESERVAR   |
+| `BOOT-SRC-005` | `01_nucleo_cognitivo/teoria_tmc/ARQUITECTURA_DE_COMUNICACION_HUMANO_IA/02_modelo_operativo/06_normalizacion_de_comandos.md`       | comando normalizado y resolución estructural                                                    | interfaz primaria                | INTEGRAR    |
+| `BOOT-SRC-006` | `01_nucleo_cognitivo/teoria_tmc/ARQUITECTURA_DE_COMUNICACION_HUMANO_IA/02_modelo_operativo/04_backend_cognitivo.md`               | backend, componentes, planificación                                                             | handoff y composición            | INTEGRAR    |
+| `BOOT-SRC-007` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_CONFIGURACION_COGNITIVA_EN_RUNTIME/01_nucleo/03_modelo_de_configuracion_operacional.md`  | configuración situacional, capacidades y gates                                                  | soporte MCCR                     | INTEGRAR    |
+| `BOOT-SRC-008` | `01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_CONFIGURACION_COGNITIVA_EN_RUNTIME/01_nucleo/05_execution_plan_definicion_y_contrato.md` | `EXECUTION_PLAN`                                                                                | ejecución configurada            | INTEGRAR    |
+| `BOOT-SRC-009` | `02_metodos_y_herramientas/trazabilidad/METODO_DE_REFERENCIACION_Y_PROCEDENCIA_COGNITIVA_ESTRUCTURAL_v0_1_0.md`                   | `PATH + ESTRUCTURA + FUNCIÓN`, source bindings, estado epistémico, revalidación                 | disciplina de procedencia        | INTEGRAR    |
+| `BOOT-DEC-001` | decisión humana del hilo                                                                                                          | AC-HIA primaria + MCCR soporte                                                                  | topología de activación          | PRESERVAR   |
+| `BOOT-DEC-002` | `INT-AC-HIA-ID-UNICO-POR-COMANDO-001`                                                                                             | ID único por comando                                                                            | gobernanza de eventos            | PRESERVAR   |
+| `BOOT-DEC-003` | `INT-MRRE-ACTIVACION-BASE-INTERPROYECTO-001`                                                                                      | perfil reutilizable                                                                             | alcance interproyecto            | PRESERVAR   |
+| `BOOT-DEC-004` | `INT-MRRE-BOOTSTRAP-RPCE-001`                                                                                                     | RPCE obligatorio para el perfil                                                                 | trazabilidad fuerte              | PRESERVAR   |
+| `BOOT-DEC-005` | `INT-MRRE-BOOTSTRAP-DOCUMENTO-001`                                                                                                | materialización del bootstrap                                                                   | este archivo                     | PRESERVAR   |
 
 ---
 
@@ -1744,11 +1675,9 @@ document:
   id: MRRE-OPERATIONAL-BOOTSTRAP-001
   version: 0.1.0
 
-  recommended_path:
-    01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md
+  recommended_path: 01_nucleo_cognitivo/teoria_tmc/MOTOR_DE_RETROCONSTRUCCIÓN_Y_REINSTANCIACIÓN_ESTRUCTURAL/BOOTSTRAP_OPERATIVO_MRRE_v0_1_0.md
 
-  role:
-    reusable_activation_profile_for_projects_using_mrre
+  role: reusable_activation_profile_for_projects_using_mrre
 
   complements:
     - README.md
@@ -1764,11 +1693,9 @@ document:
     - STRUCTURAL_STATEFUL_INTERACTION
     - UNIQUE_COMMAND_IDS
 
-  authority:
-    HUMAN
+  authority: HUMAN
 
-  canonical:
-    false
+  canonical: false
 
   human_gate_required_for:
     - repository_integration
